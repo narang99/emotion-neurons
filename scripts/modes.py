@@ -32,7 +32,7 @@ from emotion_neurons.selection import rank_neurons
 
 def snippet(tokens, starts, win_of, t, tok):
     w = win_of[t]
-    lo, hi = max(starts[w], t - 60), min(starts[w + 1], t + 9)
+    lo, hi = max(starts[w], t - 30), min(starts[w + 1], t + 9)  # short: Haiku reads these
     return tok.decode(tokens[lo:t].tolist()), tok.decode([int(tokens[t])]), tok.decode(tokens[t + 1 : hi].tolist())
 
 

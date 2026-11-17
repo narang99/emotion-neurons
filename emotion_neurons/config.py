@@ -126,7 +126,7 @@ class ModesConfig(Section):
     assign_quantile: float = Field(0.1, description="a noise hit joins a cluster above this quantile of member cosines")
     exemplars: int = 5
     noise_exemplars: int = 3
-    neurons_per_batch: int = 30
+    neurons_per_batch: int = 10
 
 
 class RunConfig(BaseSettings):
