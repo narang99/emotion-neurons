@@ -81,6 +81,12 @@ class ReportConfig(Section):
     story_vector: str = "mean/denoised"
 
 
+class NeuronSetConfig(Section):
+    vectors_run: str = Field("stage2_l25", description="results/<vectors_run>/vectors.safetensors holds the write and dA")
+    dim_share: float = Field(0.9, gt=0, le=1, description="share of delta's positive (and negative) mass the kept dims cover")
+    neuron_share: float = Field(0.9, gt=0, le=1, description="share of a dim's positive (and negative) terms the kept neurons cover")
+
+
 class RunConfig(BaseSettings):
     model_config = SettingsConfigDict(extra="forbid", cli_kebab_case=True)
 
@@ -96,6 +102,7 @@ class RunConfig(BaseSettings):
     vectors: VectorsConfig = VectorsConfig()
     project: ProjectConfig = ProjectConfig()
     report: ReportConfig = ReportConfig()
+    neuron_set: NeuronSetConfig = NeuronSetConfig()
 
     @classmethod
     def settings_customise_sources(

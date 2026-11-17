@@ -1,0 +1,9 @@
+# Stage 3-4: the layer-25 MLP neurons behind the MLP's emotion write, and their high activations.
+#   python scripts/neuron_set.py --config configs/stage3_l25.yaml   # CPU; needs results/stage2_l25/vectors.safetensors
+run_id: stage3_l25
+model: Qwen/Qwen3-8B
+layer: 25
+neuron_set:
+  vectors_run: stage2_l25
+  dim_share: 0.9
+  neuron_share: 0.9

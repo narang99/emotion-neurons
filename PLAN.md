@@ -65,21 +65,42 @@ Sources:
   - Logit lens on the `resid_post` vectors: top tokens per emotion.
 - **Story check:** the nearest-vector test runs on every story (leave-one-out over the train set as well). One Haiku agent reads only the flagged stories and says whether each is mislabelled or a near-neighbour confusion (e.g. nervous vs afraid).
 
-## Stage 3: from direction to neurons (`scripts/attribute.py`, later, CPU only)
+## Stage 3: the neurons behind the MLP's write (`scripts/neuron_set.py`, CPU only)
 
-- **Write direction:** `δ_e = v_post − v_mid`, which because pooling is linear equals `W_down · Δā_e` (`Δā_e` = mean `mlp_act` for e minus the mean over emotions).
-- **Writers:** `c_n = Δā_{e,n} · (W_down[:,n] · δ̂_e)`; their sum is `‖δ_e‖`. Rank by `c_n`; report how many neurons make up 50% and 80%.
-- **Readers:** fold RMSNorm into the read vectors (Goodfire), `v_gate,n = w_gate,n ⊙ γ / rms̄`; score `v_gate,n · v_mid_e` and `v_up,n · v_mid_e`.
-- **Sets per emotion:** top-k writers (k=32), top-k readers, overlap within and across emotions.
-- **Controls:** random unit directions with matched norm; a random-neuron set carried into stage 4.
+Everything stays inside layer 25's MLP. Only the neuron `a_n = silu(gate_n) · up_n` (Goodfire) is treated as a
+privileged basis; the residual dimensions are not, which is why a large share of them is kept.
 
-## Stage 4: high activations for the chosen neurons (`scripts/harvest.py`, later)
+- **The write:** `δ_e = mean(resid_post − resid_mid)` for emotion e minus the mean over emotions (= `mlp_out/mean/raw` from Stage 2).
+  Exactly, `δ_e[d] = Σ_n W_down[d, n] · Δā_{e,n}`, where `Δā_e` = mean `mlp_act` for e minus the mean over emotions.
+- **Dimensions:** the dimensions of `δ_e` covering 90% of its positive mass, and separately 90% of its negative mass.
+- **Neurons per dimension:** for each kept d, the terms `W_down[d, n] · Δā_{e,n}`; keep the neurons covering 90% of the
+  positive terms and, separately, 90% of the negative terms. Both poles are kept, so the modes of neurons that pushed
+  the dimension up can be compared with those that pushed it down.
+- **The set:** the union over dimensions, per emotion and pole, then over emotions. Each neuron is tagged with
+  (emotion, dimension, pole, share).
+- **Saved:** the full per-dimension contribution scores, so other thresholds (on dimensions or neurons) can be rebuilt without the model.
+- **Printed before anything else runs:** the set size per emotion and pole, and in total.
+- `W_down` of layer 25 comes from the model's safetensors shard (no GPU).
 
-- Neurons: the union of the stage-3 sets (≤ about 600) plus 50 random control neurons.
+## Stage 4: high activations for the chosen neurons (`scripts/harvest.py`, GPU)
+
+- Neurons: the Stage 3 set plus 50 random control neurons.
 - Corpus: about 2M tokens of FineWeb-edu, TinyStories and UltraChat, in fixed-length windows tagged by document id.
-- Run the model only up to layer 25. Write `a_n` and the gate/up sign bits (computed here, for the Q1–Q4 tags) to a memmap: 2M × 650 × fp16 ≈ 2.6 GB.
-- Percentiles per neuron: p3, p1, p0.1, p0.01 and p97, p99, p99.9, p99.99. Up to 50 examples per band per pole, 60 tokens before and 8 after.
-- Output: per-neuron JSON plus a static HTML report.
+- Run the model only up to layer 25. Write `a_n` for the chosen neurons to a memmap (2M × n_neurons × fp16).
+- Per neuron: p97, p99, p99.9, p99.99 of `a_n`; up to 50 examples per band, 60 tokens before the firing token and 8 after.
+- Output: per-neuron JSON plus a static HTML report; copied to S3.
+
+## Stage 4b: modes (HDBSCAN first, Haiku names them)
+
+- **Cluster before reading.** Per neuron, the p97+ hits are clustered with HDBSCAN on the neuron's input at the hit
+  token (the normalised `resid_mid`, cosine via L2-normalise + euclidean); sklearn's HDBSCAN is enough for ≤ 1k hits.
+  - Many hits will be noise; that's fine, the clusters still show the modes.
+  - Hits outside a cluster (noise, or hits beyond the clustered sample) are assigned to the nearest cluster centroid
+    by cosine, above a cutoff; below it they stay "other".
+- **Haiku reads only exemplars:** about 5 snippets per cluster plus a few noise hits, and names each mode.
+  This replaces reading 50 snippets per neuron. The set size and token estimate are printed first.
+- Default cap if the set is large: top 10 neurons per emotion per pole + 20 random controls, ≤ ~1.5M Haiku tokens.
+- Compare the modes of neurons that pushed a dimension up with those that pushed it down, per emotion.
 
 ## Stage 5: analysis (decided after looking)
 

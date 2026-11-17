@@ -1,0 +1,75 @@
+{
+ "emotions": [
+  "happy",
+  "inspired",
+  "loving",
+  "proud",
+  "calm",
+  "desperate",
+  "angry",
+  "guilty",
+  "sad",
+  "afraid",
+  "nervous",
+  "surprised"
+ ],
+ "sites": [
+  "resid_mid",
+  "resid_post",
+  "mlp_act",
+  "mlp_out"
+ ],
+ "keys": "<site>/<mean|neutral>/<raw|denoised> [12, dim]; <site>/neutral_pcs; <site>/grand_mean; <site>/neutral_mean",
+ "average": "mean over tokens 50+ per story, then over stories",
+ "denoise": {
+  "resid_mid": {
+   "k": 11,
+   "variance_explained": 0.5125715254974256
+  },
+  "resid_post": {
+   "k": 11,
+   "variance_explained": 0.5151277188420601
+  },
+  "mlp_act": {
+   "k": 16,
+   "variance_explained": 0.5112932418254919
+  },
+  "mlp_out": {
+   "k": 14,
+   "variance_explained": 0.5023033543622857
+  }
+ },
+ "n_train": {
+  "happy": 100,
+  "inspired": 100,
+  "loving": 100,
+  "proud": 100,
+  "calm": 100,
+  "desperate": 100,
+  "angry": 100,
+  "guilty": 100,
+  "sad": 100,
+  "afraid": 100,
+  "nervous": 100,
+  "surprised": 100,
+  "neutral": 200
+ },
+ "n_heldout": {
+  "happy": 20,
+  "inspired": 20,
+  "loving": 20,
+  "proud": 20,
+  "calm": 20,
+  "desperate": 20,
+  "angry": 20,
+  "guilty": 20,
+  "sad": 20,
+  "afraid": 20,
+  "nervous": 20,
+  "surprised": 20,
+  "neutral": 40
+ },
+ "model": "Qwen/Qwen3-8B",
+ "layer": 25,
+ "extract_git_commit": "242794ad17eff3347b600f0c047b3818623f37f8"
+}
