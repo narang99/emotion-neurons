@@ -43,27 +43,27 @@ Rule: a GPU pass is costly, so **store everything it produced and derive later**
 Nothing is thrown away after it is reduced.
 
 - **Single pass:** feed the plain story text (no chat template), batched with right padding.
-  - Hooks at **every layer (0–35)**: `resid_mid` (before the MLP), `resid_post` (after the MLP),
-    `attn_out` and `mlp_out`.
+  - Hooks at **every layer (0–35)**: `resid_mid` (before the MLP) and `resid_post` (after the MLP).
+    - `mlp_out = resid_post − resid_mid` and `attn_out = resid_mid − resid_post[L−1]` follow exactly, because pooling is linear.
   - Hook at layer 25 only: `mlp_act` (12288), plus `gate_pre` and `up_pre`.
 - **Pooled sums per story, two token ranges:** the sum over tokens 0–49 and the sum over tokens 50 to the end, plus the token counts.
   - Any of these means can be rebuilt later without the model: from token 50 (paper), all tokens, or the first 50.
-  - fp32, so the sums don't lose precision.
+  - fp32, so the sums don't lose precision: 1680 × 72 × 4096 × 2 ranges × 4 B ≈ 4 GB on Drive. Plus `mlp_act`, `gate_pre` and `up_pre` sums at layer 25.
 - **Per-token at layer 25:** per-token `resid_mid`, `resid_post` and `mlp_act` for every story, in fp16.
-  - About 1680 × 250 × 20k × 2 B ≈ 17 GB, stored as sharded safetensors on Drive.
-  - These are needed for:
-    - per-token projections on the stories themselves;
-    - which neurons fire on which story tokens;
-    - re-pooling any other way.
+  - About 1680 × 260 × 20k × 2 B ≈ 18 GB. That is too big for Drive, so these sit on the Colab VM disk as sharded safetensors.
+  - They can be rebuilt exactly: the extraction pass is about 10 minutes and deterministic from the committed stories.
+  - Copied to Drive: everything pooled, the vectors, and the per-token **projections** of every story onto every vector (small).
 - **Vectors derived (`scripts/build_vectors.py`, CPU, from the stored sums):**
   - Every site × every layer × every emotion.
   - Both baselines: minus the mean over emotions, and minus neutral.
   - Raw and denoised (neutral PCs at 50% variance, fitted per site and layer); the PCs are saved too.
   - The direction the MLP wrote, `v_post − v_mid`, is one entry among these, not the only one kept.
 - **Outputs:**
-  - Pooled sums and per-token shards go to Drive.
+  - Pooled sums and projections go to Drive.
   - `vectors.safetensors` (all sites, layers, variants: about 12 × 36 × 4 × 4096 × 4 variants × 2 B ≈ 56 MB) plus `vectors_meta.json` are committed to git.
 - **Checks before going further:**
+  - Story-label check: classify each story by its nearest emotion average at layer 25, leaving that story out of the average, and read every story that comes out wrong.
+    The story agents shared a scratch folder and briefly overwrote each other's files, so this is the content check.
   - Split-half cosine per emotion: is the vector stable with 120 stories?
   - Emotion × emotion cosine heatmap: does it show valence structure?
   - Logit lens on `resid_post` vectors: top tokens per emotion.
