@@ -49,9 +49,10 @@ def cos(a, b):
     return a @ b.T
 
 
-def nearest_vector(X, labels, train, emo):
-    """12-way label for each emotional story: the emotion whose vector (mean baseline, raw) is closest
-    in cosine to the story's mean minus the grand mean. A train story is left out of its own emotion's mean."""
+def nearest_vector(X, labels, train, emo, pcs=None):
+    """12-way label for each emotional story: the emotion whose vector (mean baseline) is closest
+    in cosine to the story's mean minus the grand mean. A train story is left out of its own emotion's mean.
+    With `pcs`, both sides have the neutral PCs removed first (the denoised vectors)."""
     mu = emotion_means(X, labels, train)
     n = torch.stack([(train & (labels == e)).sum() for e in range(len(EMOTIONS))]).double()
     scores = torch.zeros(len(X), len(EMOTIONS), dtype=torch.float64)
@@ -61,7 +62,10 @@ def nearest_vector(X, labels, train, emo):
             e = labels[i]
             m[e] = (mu[e] * n[e] - X[i]) / (n[e] - 1)
         g = m.mean(0)
-        scores[i] = cos((X[i] - g)[None], m - g)[0]
+        x, V = (X[i] - g)[None], m - g
+        if pcs is not None:
+            x, V = remove(x, pcs), remove(V, pcs)
+        scores[i] = cos(x, V)[0]
     return scores
 
 
@@ -97,8 +101,9 @@ def main():
         vectors[f"{site}/grand_mean"] = grand
         vectors[f"{site}/neutral_mean"] = mu_neu
 
-        # Nearest-vector label for every emotional story.
-        scores = nearest_vector(X, labels, train, emo)
+        # Nearest-vector label for every emotional story (denoised vectors; raw accuracy kept for comparison).
+        raw = nearest_vector(X, labels, train, emo).argmax(1) == labels
+        scores = nearest_vector(X, labels, train, emo, pcs)
         top2 = scores.topk(2, dim=1)
         pred = top2.indices[:, 0]
         correct = pred == labels
@@ -117,6 +122,8 @@ def main():
         checks["sites"][site] = {
             "acc_train_loo": correct[emo & train].double().mean().item(),
             "acc_heldout": correct[emo & heldout].double().mean().item(),
+            "acc_train_loo_raw": raw[emo & train].double().mean().item(),
+            "acc_heldout_raw": raw[emo & heldout].double().mean().item(),
             "confusion_all": conf.tolist(),
             "split_half_cos": dict(zip(EMOTIONS, split_half)),
             "cos_mean_raw": cos(base["mean"], base["mean"]).tolist(),
@@ -128,19 +135,23 @@ def main():
             },
         }  # fmt: skip
         c = checks["sites"][site]
-        print(f"[{site}] PCs {pcs.shape[0]} ({explained:.2f} var) | acc train-LOO {c['acc_train_loo']:.3f} "
-              f"heldout {c['acc_heldout']:.3f} | split-half cos min {min(split_half):.3f} median {sorted(split_half)[6]:.3f}")  # fmt: skip
+        print(f"[{site}] PCs {pcs.shape[0]} ({explained:.2f} var) | denoised acc train-LOO {c['acc_train_loo']:.3f} "
+              f"heldout {c['acc_heldout']:.3f} (raw {c['acc_train_loo_raw']:.3f} / {c['acc_heldout_raw']:.3f}) | split-half cos min {min(split_half):.3f} median {sorted(split_half)[6]:.3f}")  # fmt: skip
 
-    # Flag a story if it is mislabelled at 2 or more of the 4 sites.
+    # Flag a story if it is mislabelled at all 4 sites (they are strongly correlated, so fewer would add
+    # little). Sorted by the mean margin: how much closer the predicted vector is than the story's own.
     flagged = []
     for i in torch.nonzero(emo).flatten().tolist():
         sid = stories[i]["id"]
         wrong = {s: checks["sites"][s]["pred"][sid][0] for s in SITES if checks["sites"][s]["pred"][sid][0] != stories[i]["emotion"]}
-        if len(wrong) >= 2:
-            flagged.append({"id": sid, "label": stories[i]["emotion"], "heldout": stories[i]["heldout"], "pred_by_site": wrong})
+        if len(wrong) == len(SITES):
+            margin = sum(checks["sites"][s]["pred"][sid][2] for s in SITES) / len(SITES)
+            flagged.append({"id": sid, "label": stories[i]["emotion"], "heldout": stories[i]["heldout"],
+                            "margin": round(margin, 4), "pred_by_site": wrong})
+    flagged.sort(key=lambda f: -f["margin"])
     checks["flagged"] = flagged
     checks["emotions"] = list(EMOTIONS)
-    print(f"[flagged] {len(flagged)} stories mislabelled at >=2 sites")
+    print(f"[flagged] {len(flagged)} stories mislabelled at all {len(SITES)} sites (denoised vectors)")
 
     cfg.result_dir.mkdir(parents=True, exist_ok=True)
     save_file({k: v.float().contiguous() for k, v in vectors.items()}, str(cfg.result_dir / "vectors.safetensors"))
