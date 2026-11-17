@@ -1,7 +1,34 @@
 [project]
 name = "emotion-neurons"
 version = "0.1.0"
-description = "Add your description here"
+description = "Emotion vectors and the MLP neurons that read or write them, in Qwen3-8B"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "accelerate>=1.0",
+    "circuitsvis>=1.43",
+    "numpy>=2.0",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.7",
+    "pyyaml>=6",
+    "safetensors>=0.4",
+    "torch>=2.4",
+    "tqdm>=4.66",
+    "transformers>=4.51",
+]
+
+# Floors are deliberately low (the in-tfm rule).
+# - Colab preinstalls torch, numpy, transformers and accelerate, built against its own CUDA and ABI.
+# - Any floor above those forces uv to reinstall them; for torch that swaps the +cu build for a generic wheel.
+# - Raise a floor only for an API this code actually needs.
+#   - transformers >=4.51: first release with Qwen3.
+#   - circuitsvis >=1.43: no numpy pin on python 3.13.
+# - Colab 2026-11-18: python 3.13, torch 2.14.1+cu130, numpy 2.4.6, transformers 5.22.1.
+#   Only pydantic-settings and circuitsvis are missing there.
+
+[build-system]
+requires = ["uv_build>=0.8.13,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""

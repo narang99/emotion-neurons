@@ -11,5 +11,5 @@
 
 ## Pushing
 
-- This machine has no git credential helper for HTTPS.
-- Push with: `git -c credential.helper= -c "credential.helper=!gh auth git-credential" push`
+- `origin` uses SSH (`git@github.com:narang99/emotion-neurons.git`); a plain `git push` works.
+- If a clone has an HTTPS remote, switch it: `git remote set-url origin git@github.com:narang99/emotion-neurons.git`.

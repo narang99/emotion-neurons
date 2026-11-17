@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Large run outputs (pooled sums); results/ is committed
+runs/
