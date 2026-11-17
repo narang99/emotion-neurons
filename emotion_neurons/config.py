@@ -87,6 +87,48 @@ class NeuronSetConfig(Section):
     neuron_share: float = Field(0.9, gt=0, le=1, description="share of a dim's positive (and negative) terms the kept neurons cover")
 
 
+class CorpusConfig(Section):
+    name: str
+    path: str
+    config: str | None = None
+    split: str = "train"
+    field: str = Field("text", description="a list field is read as chat messages {role, content}")
+    tokens: int
+
+
+class HarvestConfig(Section):
+    corpora: list[CorpusConfig] = [
+        CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=700_000),
+        CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=650_000),
+        CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=650_000),
+    ]
+    window: int = 256
+    min_window: int = 32
+    skip_first: int = Field(4, description="the first tokens of each window are left out of percentiles and hits")
+    batch_size: int = 32
+    n_controls: int = 50
+    max_neurons: int = Field(1000, description="harvest the whole Stage 3 set up to this size, else the ranked top")
+    per_group: int = Field(25, description="when ranking: neurons per (emotion, pole), see emotion_neurons.selection")
+    seed: int = 0
+    percentiles: list[float] = [0.97, 0.99, 0.999, 0.9999]
+    percentile_chunk: int = 64
+    examples_per_band: int = 20
+    top_k: int = 50
+    hits_per_neuron: int = Field(512, description="p97+ hits sampled per neuron for mode clustering (plus the top_k)")
+
+
+class ModesConfig(Section):
+    per_group: int = Field(10, description="neurons per (emotion, neuron pole), by summed term over the kept dims")
+    n_controls: int = 20
+    pca_dims: int = 50
+    min_cluster_size: int = 10
+    min_samples: int | None = 5
+    assign_quantile: float = Field(0.1, description="a noise hit joins a cluster above this quantile of member cosines")
+    exemplars: int = 5
+    noise_exemplars: int = 3
+    neurons_per_batch: int = 30
+
+
 class RunConfig(BaseSettings):
     model_config = SettingsConfigDict(extra="forbid", cli_kebab_case=True)
 
@@ -103,6 +145,8 @@ class RunConfig(BaseSettings):
     project: ProjectConfig = ProjectConfig()
     report: ReportConfig = ReportConfig()
     neuron_set: NeuronSetConfig = NeuronSetConfig()
+    harvest: HarvestConfig = HarvestConfig()
+    modes: ModesConfig = ModesConfig()
 
     @classmethod
     def settings_customise_sources(
