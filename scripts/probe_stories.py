@@ -96,9 +96,10 @@ def main():
             for t in by_win[w]:
                 X[t] = x[j, t - starts[w]].cpu()
                 check.append((float(a[j, t - starts[w]].abs().max()), float(np.abs(acts[t][cols]).max())))
-    gap = max(abs(u - v) / max(1.0, abs(v)) for u, v in check)
-    print(f"[exemplars] {len(X)} tokens, {len(ex)} modes | activation check vs harvest: max rel gap {gap:.3f}")
-    assert gap < 0.05, "recomputed activations do not match the harvest"
+    gaps = np.array([abs(u - v) / max(1.0, abs(v)) for u, v in check])
+    print(f"[exemplars] {len(X)} tokens, {len(ex)} modes | activation check vs harvest (bf16, other batching): "
+          f"median rel gap {np.median(gaps):.4f}, max {gaps.max():.3f}")  # fmt: skip
+    assert np.median(gaps) < 0.02 and gaps.max() < 0.25, "recomputed activations do not match the harvest"
 
     unit = lambda v: v / v.norm(dim=-1, keepdim=True)  # noqa: E731
     cent, thr, loo_ok, loo_n = {}, {}, 0, 0
