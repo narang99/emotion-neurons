@@ -142,6 +142,16 @@ class SparseLayersConfig(Section):
     seed: int = 0
 
 
+class CircuitsConfig(Section):
+    vectors_file: Path = Field(Path("results/layers_all/layer_vectors.safetensors"), description="from layer_vectors.py")
+    sparse_layers_file: Path = Field(Path("results/sparse_layers/sparse_layers.json"), description="emotion sets per layer")
+    target_layer: int = Field(25, description="the emotion score is read from this layer's resid_post")
+    stories_per_emotion: int = Field(5, description="held-out stories per emotion")
+    sizes: list[int] = Field([100, 300, 1000, 3000, 10000], description="circuit sizes checked by mean ablation")
+    report_size: int = Field(1000, description="circuit size whose nodes are split by emotion-set membership")
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -172,6 +182,7 @@ class RunConfig(BaseSettings):
     min_set: MinSetConfig = MinSetConfig()
     sparse_set: SparseSetConfig = SparseSetConfig()
     sparse_layers: SparseLayersConfig = SparseLayersConfig()
+    circuits: CircuitsConfig = CircuitsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
