@@ -14,3 +14,4 @@
 | `exp/sparse_l25` (round 1 of crossfit) | failed | crossfit with a cross-half Gram | indefinite Gram, transfer ~0; fixed by the halves' own norms | `top64_l25.md` |
 | `exp/probe_kv_l25` | kept | top 64 on 60 adult texts; values through the unembedding | 3068 pride, 2862 laughter, 11109 racing heart read and write their concept; next-token agreement at chance | `probe_kv_l25.md` |
 | `exp/probe_kv_l25` (mode assignment) | failed | assigning new hits to modes from 5 exemplars | too strict, 2% pass; needs saved full cluster centres | `probe_kv_l25.md` |
+| `refactor/src-layout` | kept | refactor into a src/ library with thin scripts (`6c3f430`) | CPU and L4 regression identical: stage2 sums 1.6e-8, all 1440 labels, projections, harvest (bit-identical acts), modes, probe | commit message |
