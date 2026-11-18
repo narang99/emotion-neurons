@@ -16,3 +16,4 @@
 | `exp/probe_kv_l25` (mode assignment) | failed | assigning new hits to modes from 5 exemplars | too strict, 2% pass; needs saved full cluster centres | `probe_kv_l25.md` |
 | `refactor/src-layout` | kept | refactor into a src/ library with thin scripts (`6c3f430`) | CPU and L4 regression identical: stage2 sums 1.6e-8, all 1440 labels, projections, harvest (bit-identical acts), modes, probe | commit message |
 | `exp/journey_all` | kept | emotion vectors across all 36 layers: attention vs MLP shares, direction, decodability | held-out accuracy peaks at 0.87 (layer 22); layer-25 vector 66% attention / 34% MLP; last layer 40% / 60%; middle MLPs barely write along it | `journey_all.md` |
+| `exp/sparse_layers` | kept | sparse sets of every layer's MLP emotion write (greedy, held-out stop) | cos 0.9 needs ~1200 neurons in layers 10-20, ~570 in 28-34, 38 at layer 35; k_match defined to +/-4% | `sparse_layers.md` |
