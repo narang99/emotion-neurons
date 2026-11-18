@@ -1,0 +1,65 @@
+{"neuron": 7913, "cluster": 0, "mode": "Speaker subject right before a speech tag: 'her mother said', 'His mommy said', 'Timmy', 'Their mom said'", "emotion": "none"}
+{"neuron": 7913, "cluster": 1, "mode": "'asked' as a speech tag right after a character's question: 'he asked', 'Sarah asked', 'Mia asked', 'mom asked'", "emotion": "none"}
+{"neuron": 7913, "cluster": 2, "mode": "Sentence-final period or quote before a new scene, e.g. 'very dull.', 'never been to the kitchen before.'", "emotion": "none"}
+{"neuron": 7913, "cluster": 3, "mode": "Scattered words: 'he' after 'said', 'identity', 'already', 'newfound', 'may' in narrative and advice text", "emotion": "none"}
+{"neuron": 7913, "cluster": 4, "mode": "'was' after a character's name, right before a feeling word: 'Lily was [excited]', 'Lucy was [disappointed]', 'Jane was [surprised]'", "emotion": "emotion-general"}
+{"neuron": 7913, "cluster": 5, "mode": "Character name or pronoun starting a sentence after a line of dialogue: 'Lily', 'Jane', 'Benny', 'Lucy'", "emotion": "none"}
+{"neuron": 7913, "cluster": 6, "mode": "'looked' after 'He/She/Jack' hears a sound: 'He heard a loud snap! He [looked] down'", "emotion": "none"}
+{"neuron": 7913, "cluster": "other", "mode": "Mixed function words and names in children's stories: 'Tim', 'Their', 'As he', 'a razor', 'was' in 'thought this was'", "emotion": "none"}
+{"neuron": 7913, "summary": "Fires on narrative-structure tokens in children's stories (speech tags, character subjects, 'asked', 'looked'), with one mode on 'was' right before feeling words like excited or sad; mostly not emotion-specific."}
+{"neuron": 7954, "cluster": 0, "mode": "Proper nouns and dates in news/academic text: 'February', 'University', 'Professor', '1' in 'April 11-14'", "emotion": "none"}
+{"neuron": 7954, "cluster": 1, "mode": "Imperative or list-item verbs in how-to tips: 'Try switching', 'Doing the same workout', 'use your core', 'taking lessons'", "emotion": "none"}
+{"neuron": 7954, "cluster": 2, "mode": "Word-piece inside medical terms: 'plate|let', 'block|age', 'void|ing', 'double', 'ot|itis'", "emotion": "none"}
+{"neuron": 7954, "cluster": 3, "mode": "Verbs and adjectives in task instructions: 'offer solutions', 'get by', 'easy to incorporate', 'could be improved'", "emotion": "none"}
+{"neuron": 7954, "cluster": 4, "mode": "Motion verbs after a scary or exciting moment: 'he [ran] away to hide', 'smiled and [ran]', 'she [went] running'", "emotion": "none"}
+{"neuron": 7954, "cluster": "other", "mode": "Weak, scattered tokens: 'Travel' in list, 'are' before 'most active', comma in 'Hi! However,'", "emotion": "none"}
+{"neuron": 7954, "summary": "Weak (about 0.5-0.8) and diffuse neuron with no single mode, covering names in academic text, how-to verbs, and medical word-pieces; not emotion-related."}
+{"neuron": 8177, "cluster": 0, "mode": "'can' in 'How can I' user questions asking how to deal with a problem: overwhelm, procrastination, achieving a dream", "emotion": "none"}
+{"neuron": 8177, "cluster": 1, "mode": "'I' starting a reply after a comforting line: 'Don't worry, [I]'ll help you', '[I] can help you', '[I]'m sorry'", "emotion": "none"}
+{"neuron": 8177, "cluster": 2, "mode": "'As' or 'But as' opening a clause after a setting sentence: 'But [as] she started walking', '[As] she fluttered'", "emotion": "none"}
+{"neuron": 8177, "cluster": 3, "mode": "Sentence-opening transition 'Suddenly' or 'sudden' or 'then' after a calm scene: 'All of a [sudden]', '[Suddenly] he had an idea'", "emotion": "none"}
+{"neuron": 8177, "cluster": 4, "mode": "Period ending a sentence about wonder or a new discovery: 'had never seen a pond before[.]', 'Mia felt sad[.]'", "emotion": "none"}
+{"neuron": 8177, "cluster": 5, "mode": "Period ending a scene-setting or alarming sentence before a new paragraph: 'the moon was amazed by[.]', 'a big bad wolf in the garden[.]'", "emotion": "none"}
+{"neuron": 8177, "cluster": 6, "mode": "'but' after a wish or hesitation clause: 'he wanted to know more, [but]', 'she wanted to join them, [but] she was shy'", "emotion": "none"}
+{"neuron": 8177, "cluster": 7, "mode": "'knew' after a character's choice or success: 'She [knew] she had made the right choice', 'he [knew] he had to be honest'", "emotion": "none"}
+{"neuron": 8177, "cluster": 8, "mode": "Opening quote mark starting a character's line after a reaction or description: 'she said, [\"]Why would he do that?'", "emotion": "none"}
+{"neuron": 8177, "cluster": "other", "mode": "Pronoun or comma in dialogue and narration: 'give [me] a number', 'If I can make it', 'time he felt tired or scared[,]'", "emotion": "none"}
+{"neuron": 8177, "summary": "Fires on discourse-connective tokens in children's stories and user questions ('How can I', 'As', 'Suddenly', 'but', 'knew', opening quotes) rather than on feeling words; not emotion-related."}
+{"neuron": 8249, "cluster": 0, "mode": "Comma after the story opener 'One day' before a new event: 'One day[,] Rose noticed', 'One day[,] Momo saw'", "emotion": "none"}
+{"neuron": 8249, "cluster": 1, "mode": "Period ending a sentence where something is lost or a character gets tired: 'nowhere to be found[.]', 'started to feel tired[.]'", "emotion": "none"}
+{"neuron": 8249, "cluster": 2, "mode": "'known' in 'known as' or 'known' after a named item or concept: 'a condition [known] as autism', 'the canyon system [known] as'", "emotion": "none"}
+{"neuron": 8249, "cluster": 3, "mode": "'the' after a location preposition: 'played outside in [the] sunshine', 'lived in [the] U.S.', 'bath in [the] corner'", "emotion": "none"}
+{"neuron": 8249, "cluster": 4, "mode": "Adverb or adjective after a motion or growth verb: 'went [closer]', 'grew [stronger]', 'the micropipette [close] to', 'Ducky'", "emotion": "none"}
+{"neuron": 8249, "cluster": "other", "mode": "Mixed tokens: 'called' in 'workshop series [called]', 'to' in 'came [to] be called', 'Identified' in DKIM text", "emotion": "none"}
+{"neuron": 8249, "summary": "Weak grab-bag neuron firing on story-opening 'One day,', 'known as', 'in the', and motion-adverbs; no clear coherent mode and not emotion-related."}
+{"neuron": 8302, "cluster": 0, "mode": "Indefinite article 'a' after 'saw' or 'came across' introducing a newly found object: 'she saw [a] beautiful purple flower'", "emotion": "none"}
+{"neuron": 8302, "cluster": 1, "mode": "'very' after 'was/is' before a descriptive adjective of an object or character: 'was [very] special', 'is [very] cute'", "emotion": "none"}
+{"neuron": 8302, "cluster": 2, "mode": "Dialogue punctuation after an exclamation or greeting: 'beautiful cricket[!]', 'Hi Mr. Crab[,]', 'said [\"]Hello, Timmy'", "emotion": "none"}
+{"neuron": 8302, "cluster": 3, "mode": "Numbers and nouns in instruction or report text: 'the other is [1] and a half', 'Look for [shoes]', 'Bordering lands [should]'", "emotion": "none"}
+{"neuron": 8302, "cluster": 4, "mode": "Copula 'was/is' or pronoun after a noun describing a dream object: 'The bow [was] bigger', 'It [is] their dad's car', 'The lip [was] really big'", "emotion": "none"}
+{"neuron": 8302, "cluster": 5, "mode": "Period ending a sentence where the character notices a hazard or odd object: 'saw a plane nearby[.]', 'saw a worm struggling[.]'", "emotion": "none"}
+{"neuron": 8302, "cluster": 6, "mode": "Head noun for a newly spotted object after an adjective: 'a big metal [thing]', 'a big [vehicle]', 'a weird [creature]', 'a [symbol]'", "emotion": "none"}
+{"neuron": 8302, "cluster": 7, "mode": "'It' or 'He' starting the sentence that describes a just-found creature or object: 'saw something shiny... [It] was so cute'", "emotion": "none"}
+{"neuron": 8302, "cluster": "other", "mode": "'careful' after 'but be' in a warning, 'has' in 'it [has] two digits', 'a' in 'had [a] lot of animals'", "emotion": "none"}
+{"neuron": 8302, "summary": "Discovery-and-description neuron that fires on the words that follow 'saw' or 'found' a new object (article, 'very', head noun, pronoun, period); not emotion-related."}
+{"neuron": 8415, "cluster": 0, "mode": "Final noun or word closing a descriptive phrase: 'the best sausages in the [area]', 'Palm Springs [area]', 'a humor [site]'", "emotion": "none"}
+{"neuron": 8415, "cluster": 1, "mode": "'thee' in 'I love thee' and 'Love is not love [Which]' in love-sonnet lines (Browning, Shakespeare 116)", "emotion": "loving"}
+{"neuron": 8415, "cluster": "other", "mode": "Stray tokens: 'user' label, 'the' in 'Tropical Storm Isaac', '1' in a numbered list", "emotion": "none"}
+{"neuron": 8415, "summary": "Mostly weak and unfocused, but one mode fires on the object of 'I love thee' or 'Love is not love' in love poetry, so it is loving-related in part."}
+{"neuron": 8502, "cluster": 0, "mode": "'At' opening a sentence as a time phrase: 'At [first]' or 'At [last]', 'challenging at [first]', 'at [once]'", "emotion": "none"}
+{"neuron": 8502, "cluster": 1, "mode": "Subject or conjunction in a character's reply: 'Tim[my] was so excited', 'The little [girl] replied', 'He [was]', 'grinned [and] replied'", "emotion": "none"}
+{"neuron": 8502, "cluster": 2, "mode": "Period or exclamation after a sentence about surprise or excitement: 'couldn't believe it[.]', 'so surprised ... shoulder[!]'", "emotion": "none"}
+{"neuron": 8502, "cluster": 3, "mode": "Mid-word or mid-number tokens in academic and news text: 'Earth [sh]attering', '5[1]6-652', 'Center [for]', 'the conceived in [‘]racial'", "emotion": "none"}
+{"neuron": 8502, "cluster": 4, "mode": "Repeated comparative or adverb in 'and [higher]', 'and [closer]', 'and [louder]', 'crawling and [crawling]'", "emotion": "none"}
+{"neuron": 8502, "cluster": 5, "mode": "'be' or 'will' after 'you'll' in advice about being judged: 'you'll [be] pushed', 'people [will] tell you to calm down'", "emotion": "none"}
+{"neuron": 8502, "cluster": 6, "mode": "'happy' or 'excited' after 'was very' or 'was so': 'George was very [happy]', 'Tim was very [happy]', 'was so [excited]'", "emotion": "happy"}
+{"neuron": 8502, "cluster": "other", "mode": "Stray tokens: 'he' in 'lift anything [he]', 'Lily' with 'So[,]' before a jump, '-' in 'self-sustaining[-]'", "emotion": "none"}
+{"neuron": 8502, "summary": "Mixed neuron with several function-word and transition modes; only the cluster on 'happy' or 'excited' after 'was very/so' is emotion-related."}
+{"neuron": 8776, "cluster": 0, "mode": "Step number or period in numbered recipe instructions: '7[.] Let the brownies cool', '25-30 [minutes]', '(74°C[)]'", "emotion": "none"}
+{"neuron": 8776, "cluster": 1, "mode": "'looked' after 'Lily/She' when a pet or toy goes missing: 'Lily [looked] for him everywhere', 'She [looked] all around'", "emotion": "none"}
+{"neuron": 8776, "cluster": 2, "mode": "'was', 'so', or 'very' right before a feeling word (sad, happy) after losing or finding something: 'Lily was [so] sad'", "emotion": "emotion-general"}
+{"neuron": 8776, "cluster": 3, "mode": "Period ending a sentence after a failed search or confusion: 'couldn't see it anywhere[.]', 'couldn't find it[.]', 'couldn't figure out what it was[.]'", "emotion": "none"}
+{"neuron": 8776, "cluster": 4, "mode": "Subject pronoun starting the sentence after a failed search: 'Tom searched... [He] felt sad', 'Lily could not find Fluffy. [She] looked'", "emotion": "none"}
+{"neuron": 8776, "cluster": 5, "mode": "Comma after a failed search phrase: 'looked all around the park[,] but', 'looked and looked[,] but Fluffy was gone'", "emotion": "none"}
+{"neuron": 8776, "cluster": "other", "mode": "Stray tokens: 'the' in 'Where is [the] treasure?', 'must' in NFPA safety text, '.' after 'grabbed his hand'", "emotion": "none"}
+{"neuron": 8776, "summary": "Fires on the search-for-something-lost sequence in children's stories (looked, couldn't find, subject pronoun, comma) and, once, on 'so sad' or 'so happy' after the loss; mainly a lost-and-found narrative neuron."}

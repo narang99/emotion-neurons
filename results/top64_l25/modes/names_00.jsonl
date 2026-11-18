@@ -1,0 +1,45 @@
+{"neuron": 48, "cluster": 0, "mode": "'and' after a child's feeling word: 'felt bad and', 'ashamed and', 'scared and'", "emotion": "emotion-general"}
+{"neuron": 48, "cluster": 1, "mode": "DUPLICATE: 'looks' after a character's name in a tense scene (Jonathan looks at him)", "emotion": "none"}
+{"neuron": 48, "cluster": "other", "mode": "misc.: 'Climate' in 'Exxon's Climate Footprint'; 'at' after 'looked'; commas in German name lists", "emotion": "none"}
+{"neuron": 48, "summary": "Fires on the word right after a child's feeling adjective ('felt bad and') and on gaze verbs in tense scenes; emotion-related mainly through the 'and' cluster."}
+{"neuron": 128, "cluster": 0, "mode": "sentence-final period closing a story sentence, e.g. 'never looked back.' or 'alive and free.'", "emotion": "none"}
+{"neuron": 128, "cluster": 1, "mode": "'the' after prepositions or verbs: 'into the bottom', 'to the blender', 'of the griddle'", "emotion": "none"}
+{"neuron": 128, "cluster": 2, "mode": "'so' after 'was' before a feeling adjective: 'was so proud', 'so upset', 'so excited'", "emotion": "emotion-general"}
+{"neuron": 128, "cluster": 3, "mode": "a digit inside citation numbers or years: 'Printed in 20[0]8', 'PMC272[9]227'", "emotion": "none"}
+{"neuron": 128, "cluster": "other", "mode": "mid-sentence 'and', 'the', and list commas in general prose with no feeling words", "emotion": "none"}
+{"neuron": 128, "summary": "Low-activation function-token neuron (periods, 'the', digits in citations); only the 'so' before feeling adjectives cluster is emotion-related."}
+{"neuron": 155, "cluster": 0, "mode": "possessive 'his'/'their' after a verb or preposition: 'with his twinkly eyes', 'used his toy'", "emotion": "none"}
+{"neuron": 155, "cluster": 1, "mode": "benefit verb in health advice: 'help', 'can', 'support', 'exercise' ('can help reduce inflammation')", "emotion": "none"}
+{"neuron": 155, "cluster": 2, "mode": "comma closing a clause or quote before a follow-up: 'too loud[,] so that', 'honey[,] Bob'", "emotion": "none"}
+{"neuron": 155, "cluster": 3, "mode": "first word of a recipe item name: 'Sweet Potato [Black] Bean', 'sweetened [with] maple syrup'", "emotion": "none"}
+{"neuron": 155, "cluster": "other", "mode": "misc. function words: 'the colour', 'adult horse', 'data [in] a database'", "emotion": "none"}
+{"neuron": 155, "summary": "Low-activation token neuron on possessives, benefit verbs in health advice, commas and recipe words; not emotion-related."}
+{"neuron": 659, "cluster": 0, "mode": "'and' or 'were' right after a character's feeling or state word: 'so excited and', 'felt tired and'", "emotion": "emotion-general"}
+{"neuron": 659, "cluster": 1, "mode": "punctuation closing a dialogue line: 'my new toy!\"', 'Look!\"', 'Sam,\"', 'Who is there?\"'", "emotion": "none"}
+{"neuron": 659, "cluster": "other", "mode": "misc. digits and symbols: '7; e10[0]348', '30.90[%]', '[curl]_errno'", "emotion": "none"}
+{"neuron": 659, "summary": "Weak token neuron: fires on 'and'/'were' after feeling words in one cluster (emotion-related) and on closing quote punctuation in another."}
+{"neuron": 881, "cluster": 0, "mode": "'a' after 'Suddenly,' or 'saw' opening a story event: 'Suddenly, [a] storm', 'saw [a] funny stone'", "emotion": "none"}
+{"neuron": 881, "cluster": 1, "mode": "'and', ',' or '.' right after a character's emotional gesture: 'smiled [and]', 'in shame[,]', 'got bored[,]'", "emotion": "emotion-general"}
+{"neuron": 881, "cluster": 2, "mode": "'of' right after sentence-initial 'One': 'One [of] the ongoing challenges', 'One [of] these days'", "emotion": "none"}
+{"neuron": 881, "cluster": "other", "mode": "misc.: period after 'intersections', 'Her' after a date, spaces in PHP code", "emotion": "none"}
+{"neuron": 881, "summary": "Mostly a token neuron on 'a' in story openers and 'of' after 'One'; its cluster after characters' emotional gestures is emotion-related."}
+{"neuron": 892, "cluster": 0, "mode": "verb or preposition in food-tip lists: 'before cooking [to] get', 'help to [create]', 'serve [with] a side'", "emotion": "none"}
+{"neuron": 892, "cluster": 1, "mode": "'the' after an action verb of holding or taking: 'grabbed the', 'held the', 'hugged the'", "emotion": "none"}
+{"neuron": 892, "cluster": 2, "mode": "'felt' after a touched object or creature: 'the mushroom [felt] all squishy', 'it [felt] cool'", "emotion": "none"}
+{"neuron": 892, "cluster": 3, "mode": "texture or temperature noun ending a touch phrase: 'warm [rock]', 'cold damp [stone]', 'soft grainy [texture]'", "emotion": "none"}
+{"neuron": 892, "cluster": 4, "mode": "period ending a short narrative sentence: 'still worked[.]', 'started to purr[.]'", "emotion": "none"}
+{"neuron": 892, "cluster": 5, "mode": "word right after 'felt' or 'feeling' in a happy scene: 'felt [happy]', 'feeling [happy]', 'felt [better]'", "emotion": "happy"}
+{"neuron": 892, "cluster": 6, "mode": "'and' after a character's excited or smiling state: 'so excited [and]', 'Jake smiled too [and]'", "emotion": "happy"}
+{"neuron": 892, "cluster": "other", "mode": "misc. mid-word or quote tokens: 'not to [slip]', opening quote before 'Look, Lily', 'said [Mag]u'", "emotion": "none"}
+{"neuron": 892, "summary": "Broad token neuron (verbs before objects, 'felt' in touch scenes, texture nouns, periods); emotion-related only in the 'felt happy' and excited-'and' clusters."}
+{"neuron": 972, "cluster": 0, "mode": "word continuing a character's state or impact description: 'Suzanne's [addiction] causes', 'grew [stronger]'", "emotion": "none"}
+{"neuron": 972, "cluster": 1, "mode": "a digit inside phone or fax numbers: '[5]41-737', '355-[4]523', '20[2] Natural Resources'", "emotion": "none"}
+{"neuron": 972, "cluster": 2, "mode": "dash or digit inside Bible chapter-verse ranges: 'xxi. 22-[2]3', 'Num. xxvii. 15[-]23'", "emotion": "none"}
+{"neuron": 972, "cluster": "other", "mode": "misc.: 'imperceptibly [new] tasks', 'Ulix[ert]inib', '[user]:' tag", "emotion": "none"}
+{"neuron": 972, "summary": "Token neuron on digits and punctuation in phone numbers and verse references, with a weak abstract-state cluster; not emotion-related."}
+{"neuron": 1545, "cluster": 0, "mode": "'loved' right after a character pronoun: 'He [loved] music', 'She [loved] blue roses'", "emotion": "loving"}
+{"neuron": 1545, "cluster": 1, "mode": "noun or pronoun in a heartfelt letter about a loved one: 'in my [life]', 'Our [bond]', 'spent with [you]'", "emotion": "loving"}
+{"neuron": 1545, "cluster": 2, "mode": "adjective or verb after 'so' or in a character trait: 'never felt so [happy]', 'you'll do [great]'", "emotion": "none"}
+{"neuron": 1545, "cluster": 3, "mode": "digit or word fragment inside a number or word: '9[8] feet', '19[3]8', 'numbers [dw]indle'", "emotion": "none"}
+{"neuron": 1545, "cluster": "other", "mode": "misc.: 'there' after 'as', 'the' in 'All of [the] ridges', opening quote before 'I'", "emotion": "none"}
+{"neuron": 1545, "summary": "Fires on 'loved' describing a character's attachment and on nouns in heartfelt letters about a loved one (loving); digits and word fragments in captions and citations are not emotional."}

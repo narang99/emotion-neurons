@@ -2,8 +2,8 @@
 
     python scripts/summarize_modes.py --config configs/stage3_l25.yaml
 
-Writes results/<run_id>/modes_summary.md: per emotion, the neurons pushing along the write (pos) and against it
-(neg), each with its modes (cluster size share, mean activation, name, related emotion), and how often a mode is
+Writes results/<run_id>/modes_summary.md: per group (emotion/pole, or emotion for a min_set selection), the neurons,
+each with Haiku's one-line summary (if written) and its modes (cluster size share, mean activation, name, related emotion), and how often a mode is
 named as related to the neuron's own emotion, against the random controls.
 """
 
@@ -18,12 +18,15 @@ def main():
     cfg = load_run_config(sys.argv[1:])
     rd = cfg.result_dir
     modes = json.loads((rd / "modes.json").read_text())
-    names = {}
+    names, summaries = {}, {}
     for p in sorted((rd / "modes").glob("names_*.jsonl")):
         for line in p.read_text().splitlines():
             if line.strip():
                 r = json.loads(line)
-                names[(int(r["neuron"]), str(r["cluster"]))] = r
+                if "summary" in r:
+                    summaries[int(r["neuron"])] = r["summary"]
+                else:
+                    names[(int(r["neuron"]), str(r["cluster"]))] = r
     groups = modes["groups"]
     lines = ["# Modes of the layer-25 neurons behind the MLP's emotion write", "",
              "Per (emotion, pole): pos = pushes the kept dims along the write, neg = against it. Each mode is an HDBSCAN",
@@ -43,12 +46,14 @@ def main():
                     continue
                 share = c["with_assigned"] / r["n_hits"]
                 parts.append(f"{nm['mode']} ({share:.0%}, {nm.get('emotion', 'none')})")
-                kind = "control" if g == "control" else g.split("/")[1]
+                kind = "control" if g == "control" else (g.split("/")[1] if "/" in g else "selected")
                 if c["id"] != "other":
                     target = emo if g != "control" else None
                     stats[kind][1] += 1
                     stats[kind][0] += nm.get("emotion") == target if target else nm.get("emotion", "none") != "none"
-            lines.append(f"- **{n}**: " + "; ".join(parts) if parts else f"- **{n}**: (no named modes)")
+            head = f"- **{n}**" + (f" — {summaries[n]}" if n in summaries else "")
+            lines.append(head)
+            lines.extend(f"  - {p}" for p in parts) if parts else lines.append("  - (no named modes)")
         lines.append("")
     lines.insert(5, "Share of clustered modes named as the neuron's own emotion (controls: as any emotion): "
                  + ", ".join(f"{k} {a}/{b}" for k, (a, b) in stats.items()) + "\n")  # fmt: skip

@@ -135,6 +135,17 @@ class MinSetConfig(Section):
     select: int = Field(64, description="neurons for the mode analysis, round-robin down the greedy orders")
 
 
+class SparseSetConfig(Section):
+    taus: list[float] = Field([0.8, 0.9, 0.95], description="target cosines for the smallest-set search")
+    sizes: list[int] = Field([16, 64, 128, 256, 512, 1024, 2048], description="set sizes reported")
+    greedy_steps: int = 2500
+    max_swaps: int = Field(2000, description="1-swaps per polish")
+    emotions: list[str] = Field([], description="restrict to these emotions (empty: all 12)")
+    target: Literal["raw", "denoised"] = Field("raw", description="denoised: neutral PCs of the write removed")
+    seed: int = Field(0, description="split of the train stories into halves for cross-fit greedy")
+    shrink_kappas: list[float] = Field([1.0, 4.0, 9.0], description="shrunk-target greedy: r = max(0, 1 - kappa/t^2)")
+
+
 class RunConfig(BaseSettings):
     model_config = SettingsConfigDict(extra="forbid", cli_kebab_case=True)
 
@@ -154,6 +165,7 @@ class RunConfig(BaseSettings):
     harvest: HarvestConfig = HarvestConfig()
     modes: ModesConfig = ModesConfig()
     min_set: MinSetConfig = MinSetConfig()
+    sparse_set: SparseSetConfig = SparseSetConfig()
 
     @classmethod
     def settings_customise_sources(

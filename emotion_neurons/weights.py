@@ -1,7 +1,9 @@
 """One weight matrix from the Hub without downloading the whole shard: a ranged read of its bytes."""
 
 import json
+import os
 import struct
+from pathlib import Path
 
 import torch
 from huggingface_hub import HfFileSystem, hf_hub_download
@@ -26,5 +28,12 @@ def load_tensor(model: str, name: str) -> torch.Tensor:
 
 
 def load_w_down(model: str, layer: int) -> torch.Tensor:
-    """[d_model, d_mlp], float32."""
-    return load_tensor(model, f"model.layers.{layer}.mlp.down_proj.weight")
+    """[d_model, d_mlp], float32. Cached under $HF_HOME (or ~/.cache/huggingface)/emotion-neurons."""
+    cache = Path(os.environ.get("HF_HOME", Path.home() / ".cache/huggingface")) / "emotion-neurons"
+    path = cache / f"{model.replace('/', '--')}.l{layer}.down_proj.pt"
+    if path.exists():
+        return torch.load(path)
+    W = load_tensor(model, f"model.layers.{layer}.mlp.down_proj.weight")
+    cache.mkdir(parents=True, exist_ok=True)
+    torch.save(W, path)
+    return W
