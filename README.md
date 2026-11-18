@@ -23,6 +23,21 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
 
 ## Checklist
 
+- [ ] **Attention into an emotion neuron, by head** (GPU, L4, short pass; start with 3068, layers 23-25).
+  - For one reader neuron, a head pushes it along one direction only: `r_h = W_O^h^T read`. Thus the minimal set of
+    attention directions is at most one direction for each head. This does not depend on a basis.
+  - Rank the heads by their push on the reader's gate and up input at its hit tokens. Find the minimal set of heads.
+  - Check: set the write of the top heads to zero at the hits. Compare with random heads.
+  - Read each top head's write, projected onto `r_h`, through the unembedding (Geva on the part the neuron uses).
+  - Do the same heads appear for all neurons of one emotion set at one layer? Show the distribution of head scores.
+  - Do not give meaning to single `o_proj` input dimensions. Inside a head they can be rotated without changing
+    the model. If a per-dimension claim is necessary, first compare the minimal set in the standard basis with
+    random rotations and with the SVD basis of `W_O^h W_V^h`.
+- [ ] **Geva on what an MLP neuron reads** (CPU): read each neuron's gate and up rows through the unembedding.
+  - The input-side read of Dar, Geva et al. (2023). It is clearer in late layers than in early layers.
+  - Compare with its modes and with its value read.
+- [ ] **Trace a neuron back to the input** (GPU, L4, about 15-20 min): recursive writers of 2862 (happy #1),
+  3 writers for each step, down to layer 0. Then split attention by head and source token, so the trace reaches tokens.
 - [x] **Non-children texts probe** (done, `experiments/probe_kv_l25.md`) (GPU, L4): do the top-64 neurons hit p97, and which modes, on 60 new emotional
   texts? Ready: `scripts/probe_stories.py`, `configs/adult_probe_l25.yaml`, `data/adult_stories/`.
 - [x] **Key-value read** (per neuron done; whole-write read partly) (CPU, Geva et al. 2021): what each neuron's value promotes through the unembedding, and
