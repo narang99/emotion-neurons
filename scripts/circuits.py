@@ -74,7 +74,7 @@ def story_circuit(cfg: RunConfig, model, tokenizer, story: Story, units, means, 
     layer, e = c.target_layer, EMOTIONS.index(story.emotion)
     ids = tokenizer(story.text, return_tensors="pt")["input_ids"].to(cfg.device)
     unit = units[layer, e]
-    attribution = attribute(model, ids, layer, unit)
+    attribution = attribute(model, ids, layer, unit, means)
     tokens = torch.arange(ids.shape[1]) >= cfg.data.split_token
     rebuild = float((direct_sum(attribution) - attribution.score).abs().max() / attribution.score.abs().max())
     scores = node_scores(attribution, tokens)

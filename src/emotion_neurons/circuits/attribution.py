@@ -33,6 +33,9 @@ class Attribution(BaseModel):
     score: Float[Tensor, " token"]
     activation: PerLayer
     total: PerLayer
+    """`a * ds/da`: the effect against a zero activation."""
+    total_from_mean: PerLayer
+    """`(a - mean) * ds/da`: the effect against the neuron's 12-emotion mean, the value mean ablation sets it to."""
     direct: PerLayer
     attention_direct: Float[Tensor, "layer token"]
     embed_direct: Float[Tensor, " token"]
@@ -82,7 +85,11 @@ def keep_activation(store: list) -> Callable:
 
 
 def attribute(
-    model: PreTrainedModel, input_ids: Int[Tensor, "1 token"], layer: int, unit: Float[Tensor, " d_model"]
+    model: PreTrainedModel,
+    input_ids: Int[Tensor, "1 token"],
+    layer: int,
+    unit: Float[Tensor, " d_model"],
+    means: Float[Tensor, "layer d_mlp"],
 ) -> Attribution:
     """Effects on the emotion score at every token of one sequence (batch of one, no padding)."""
     layers = decoder_layers(model)[: layer + 1]
@@ -111,23 +118,26 @@ def attribute(
         u = unit.to(out["resid_post"].device, torch.float32)
         score = out["resid_post"][0].float() @ u
         score.sum().backward()
-    return collect(layers, acts, attention, inverse_rms, mlp_input, embed, u, score)
+    return collect(layers, acts, attention, inverse_rms, mlp_input, embed, u, score, means)
 
 
-def collect(layers, acts, attention, inverse_rms, mlp_input, embed, u, score) -> Attribution:
+def collect(layers, acts, attention, inverse_rms, mlp_input, embed, u, score, means) -> Attribution:
     def along_unit(x: Tensor) -> Tensor:
         return (x[0].float() @ u).detach().cpu()
 
-    activation, total, direct = {}, {}, {}
+    activation, total, total_from_mean, direct = {}, {}, {}, {}
     for i, (block, a) in enumerate(zip(layers, acts)):
         value = (block.mlp.down_proj.weight.float().T @ u).detach()
+        grad = a.grad[0].float().cpu()
         activation[i] = a[0].detach().float().cpu()
-        total[i] = (a[0] * a.grad[0]).detach().float().cpu()
+        total[i] = activation[i] * grad
+        total_from_mean[i] = (activation[i] - means[i].float()[None, :]) * grad
         direct[i] = (a[0].detach().float() * value).cpu()
     return Attribution(
         score=score.detach().cpu(),
         activation=activation,
         total=total,
+        total_from_mean=total_from_mean,
         direct=direct,
         attention_direct=torch.stack([along_unit(x) for x in attention]),
         embed_direct=along_unit(embed),

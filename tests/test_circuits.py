@@ -6,6 +6,7 @@ from emotion_neurons.circuits import attribute, direct_sum, input_edges, keep_ma
 from emotion_neurons.circuits.graph import ablated_score
 
 LAYER = 2
+MEANS = torch.full((LAYER + 1, 48), 0.05)
 
 
 @pytest.fixture(scope="module")
@@ -23,19 +24,19 @@ def tiny():
 
 def test_direct_shares_sum_to_the_score(tiny):
     model, ids, unit = tiny
-    attribution = attribute(model, ids, LAYER, unit)
+    attribution = attribute(model, ids, LAYER, unit, MEANS)
     torch.testing.assert_close(direct_sum(attribution), attribution.score, atol=1e-4, rtol=1e-4)
 
 
 def test_total_effect_equals_direct_effect_at_the_target_layer(tiny):
     model, ids, unit = tiny
-    attribution = attribute(model, ids, LAYER, unit)
+    attribution = attribute(model, ids, LAYER, unit, MEANS)
     torch.testing.assert_close(attribution.total[LAYER], attribution.direct[LAYER], atol=1e-5, rtol=1e-4)
 
 
 def test_edges_sum_to_the_mlp_part_of_the_reader_input(tiny):
     model, ids, unit = tiny
-    attribution = attribute(model, ids, LAYER, unit)
+    attribution = attribute(model, ids, LAYER, unit, MEANS)
     tokens = torch.ones(ids.shape[1], dtype=torch.bool)
     edges = input_edges(model, attribution, LAYER, 5, tokens)
     mlp_writes = sum(attribution.activation[k] @ model.model.layers[k].mlp.down_proj.weight.T for k in range(LAYER))
@@ -54,3 +55,11 @@ def test_keeping_every_neuron_leaves_the_score_unchanged(tiny):
     full = ablated_score(model, ids, LAYER, unit, means, None, tokens)
     assert ablated_score(model, ids, LAYER, unit, means, everything, tokens) == pytest.approx(full, rel=1e-5)
     assert ablated_score(model, ids, LAYER, unit, means, keep_mask([], LAYER + 1, 48), tokens) != pytest.approx(full)
+
+
+def test_effect_from_mean_at_the_target_layer_is_the_shift_times_the_direct_coefficient(tiny):
+    model, ids, unit = tiny
+    attribution = attribute(model, ids, LAYER, unit, MEANS)
+    coefficient = model.model.layers[LAYER].mlp.down_proj.weight.float().T @ unit
+    expected = (attribution.activation[LAYER] - MEANS[LAYER]) * coefficient.detach()
+    torch.testing.assert_close(attribution.total_from_mean[LAYER], expected, atol=1e-5, rtol=1e-4)
