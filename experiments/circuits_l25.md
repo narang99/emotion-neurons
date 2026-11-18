@@ -31,6 +31,12 @@ python scripts/circuits.py      --config configs/circuits_l25.yaml  # L4, 3 min 
     - The summed neuron effect (median 8882) is 6x the gap that ablation can open, `s(all) - s(none)` (1539).
     - Mean ablation leaves those neurons almost where they were, so keeping them buys nothing.
   - The membership split of these circuits (18% own emotion set, 36% other sets, 46% none) is not meaningful yet.
-- **Round 2 (pending, needs an L4): effect against the mean**, `(a - mean) * ds/da`.
-  - This is the first-order prediction of exactly what the check does, so ranking and check agree.
-  - Code and a test are in; the run is not done.
+- **Round 2 (`exp/circuits_l25-round2`, failed): effect against the mean**, `(a - mean) * ds/da`.
+  - Faithfulness: -0.04 at 100, -0.12 at 300, -0.21 at 1000, -0.13 at 3000, 0.17 at 10000, 0.75 at 30000.
+  - Layer 0 still holds 33% of the top-1000 |effect|.
+  - A first attempt silently re-ran round 1's code: `git checkout` failed on untracked result files, and the
+    `&&` chain hid the error from `set -e`. The run script now checks the branch and the code before running.
+- **Why both rounds fail:** the check holds every other neuron of 26 layers at its mean at once.
+  - That moves the stream far from anything the model sees, through attention and norms the attribution froze.
+  - A first-order, same-token ranking cannot predict it. Whole-network dense circuits need a different test.
+- **Next:** local circuits around one neuron (`neuron_circuit.py`), built from exact input splits, with local checks.
