@@ -56,12 +56,21 @@ def frozen_rms_norm(scales: list, outputs: list) -> Callable:
     return hook
 
 
-def detach_attention(store: list) -> Callable:
-    def hook(_module: nn.Module, _args: tuple, out: tuple) -> tuple:
-        store.append(out[0].detach())
+def attention_without_grad(store: list) -> tuple[Callable, Callable]:
+    """Attention runs with autograd off, and its output is a constant to the backward pass.
+
+    - Its output is detached anyway, so recording its graph would only cost memory.
+    """
+
+    def before(_module: nn.Module, _args: tuple) -> None:
+        torch.set_grad_enabled(False)
+
+    def after(_module: nn.Module, _args: tuple, out: tuple) -> tuple:
+        torch.set_grad_enabled(True)
+        store.append(out[0])
         return (out[0].detach(), *out[1:])
 
-    return hook
+    return before, after
 
 
 def keep_activation(store: list) -> Callable:
@@ -80,9 +89,12 @@ def attribute(
     acts, attention, inverse_rms, mlp_input = [], [], [], []
     out: dict[str, Tensor] = {}
     handles = []
+    model.requires_grad_(False)  # effects need gradients of activations only, never of weights
     for block in layers:
+        before, after = attention_without_grad(attention)
         handles += [
-            block.self_attn.register_forward_hook(detach_attention(attention)),
+            block.self_attn.register_forward_pre_hook(before),
+            block.self_attn.register_forward_hook(after),
             block.post_attention_layernorm.register_forward_hook(frozen_rms_norm(inverse_rms, mlp_input)),
             block.mlp.down_proj.register_forward_pre_hook(keep_activation(acts)),
         ]
