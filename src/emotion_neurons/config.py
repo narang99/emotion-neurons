@@ -134,6 +134,14 @@ class SparseSetConfig(Section):
     shrink_kappas: list[float] = Field([1.0, 4.0, 9.0], description="shrunk-target greedy: r = max(0, 1 - kappa/t^2)")
 
 
+class SparseLayersConfig(Section):
+    source_run: str = Field("layers_all", description="all-layer pooled sums from extract_layers.py")
+    layers: list[int] = Field([], description="layers to run (empty: all)")
+    greedy_steps: int = 2500
+    target_cos: float = Field(0.9, description="also report the smallest greedy prefix reaching this train cosine")
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -163,6 +171,7 @@ class RunConfig(BaseSettings):
     modes: ModesConfig = ModesConfig()
     min_set: MinSetConfig = MinSetConfig()
     sparse_set: SparseSetConfig = SparseSetConfig()
+    sparse_layers: SparseLayersConfig = SparseLayersConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

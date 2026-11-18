@@ -52,9 +52,7 @@ def random_halves(split: StorySplit, seed: int) -> Bool[Tensor, " story"]:
     return second
 
 
-def activation_shifts(run_dir: Path, seed: int) -> ActivationShifts:
-    split = StorySplit.of(load_story_records(run_dir))
-    x = late_means(run_dir)["mlp_act"].float()
+def shifts_from_means(x: Float[Tensor, "story d_mlp"], split: StorySplit, seed: int) -> ActivationShifts:
     second = random_halves(split, seed)
     train = split.train
 
@@ -69,6 +67,12 @@ def activation_shifts(run_dir: Path, seed: int) -> ActivationShifts:
         heldout=shift_on(x, split, split.heldout),
         std_error=torch.stack([std_error(e) for e in range(len(EMOTIONS))]),
     )
+
+
+def activation_shifts(run_dir: Path, seed: int) -> ActivationShifts:
+    """From a single-layer run's pooled sums."""
+    split = StorySplit.of(load_story_records(run_dir))
+    return shifts_from_means(late_means(run_dir)["mlp_act"].float(), split, seed)
 
 
 def neuron_terms(W_down: Float[Tensor, "d_model d_mlp"], shift: Float[Tensor, " d_mlp"]) -> Float[Tensor, "d_model d_mlp"]:
