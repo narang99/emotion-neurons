@@ -21,8 +21,22 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
   emotion modes vs 16%), but mostly emotion-general (fire around any feeling word). One clean single-emotion neuron:
   3068 ("proud").
 
-Open ideas, untested: cross-validated held-out (5 folds instead of one 20-story split); modes for the sparse "match"
-sets; tuning the shrinkage kappa by cross-validation; other layers (rerun the pipeline with a new config).
+## Checklist
+
+- [ ] **Non-children texts probe** (GPU, L4): do the top-64 neurons hit p97, and which modes, on 60 new emotional
+  texts? Ready: `scripts/probe_stories.py`, `configs/adult_probe_l25.yaml`, `data/adult_stories/`.
+- [ ] **Key-value read** (CPU, Geva et al. 2021): what each neuron's value promotes through the unembedding, and
+  whether it predicts the next token at its key's hits. `scripts/kv_values.py`, `configs/kv_values_l25.yaml`.
+  Add the same read for each emotion's whole write and its sparse set's write: per-neuron values that read as
+  noise but a clear combined write would favour a distributed code (Hazy Research, "Stuffing MLPs Full of Facts").
+- [ ] **Swap happy and sad values** (GPU, causal): at layer 25, swap the `W_down` columns of happy's sparse set with
+  sad's (pair by greedy rank; the sets overlap, so leave shared neurons alone), or inject sad's activation shift
+  into happy's set on happy stories. Read out: projections on the emotion vectors at later layers, and the
+  continuation the model writes. A flip towards sad means the set's values carry the emotion.
+- [ ] **Tail check**: per-token activations of each sparse set on the stories, to see whether an emotion's shift
+  comes from tokens above p97 / below p3 or from a small move on every token.
+- [ ] Cross-validated held-out (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
+- [ ] Other layers (rerun the pipeline with a new config).
 
 ## Layout
 
