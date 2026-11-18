@@ -25,7 +25,12 @@ Keep = dict[int, Bool[Tensor, " d_mlp"]]
 
 
 def node_scores(attribution: Attribution, tokens: Bool[Tensor, " token"]) -> Float[Tensor, "layer d_mlp"]:
-    return torch.stack([attribution.total[layer][tokens].sum(0) for layer in sorted(attribution.total)])
+    """Effect against the mean activation, so a node's score predicts what mean-ablating it costs.
+
+    - The effect against zero ranked neurons with large but constant activations first (29% of the top-1000 mass
+      in layer 0), and mean-ablating those changes little: circuits of 100-1000 neurons had faithfulness -0.1.
+    """
+    return torch.stack([attribution.total_from_mean[layer][tokens].sum(0) for layer in sorted(attribution.total_from_mean)])
 
 
 def top_nodes(scores: Float[Tensor, "layer d_mlp"], k: int) -> list[Node]:
