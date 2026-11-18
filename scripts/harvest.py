@@ -51,11 +51,16 @@ def windows_for(corpus, tok, window, min_len, seed):
 
 
 def choose_neurons(cfg, model):
-    """The whole Stage 3 set if it is small enough, else the top `per_group` per (emotion, pole); plus controls."""
-    ns = json.loads((cfg.result_dir / "neuron_set.json").read_text())
+    """The neurons of `harvest.neurons_file` (min_set.py) if given; else the whole Stage 3 set if it is small
+    enough, else the top `per_group` per (emotion, pole). Plus random controls."""
     W = model.model.layers[cfg.layer].mlp.down_proj.weight.float().cpu()
-    union = sorted({n for ids in ns["members"].values() for n in ids})
-    if len(union) <= cfg.harvest.max_neurons:
+    ns = {} if cfg.harvest.neurons_file else json.loads((cfg.result_dir / "neuron_set.json").read_text())
+    union = sorted({n for ids in ns.get("members", {}).values() for n in ids})
+    if cfg.harvest.neurons_file:
+        sel = json.loads(cfg.harvest.neurons_file.read_text())
+        groups, chosen = sel["groups"], sorted(sel["neurons"])
+        print(f"[neurons] {len(chosen)} from {cfg.harvest.neurons_file}")
+    elif len(union) <= cfg.harvest.max_neurons:
         groups, chosen = {"set": union}, union
     else:
         vec = load_file(str(cfg.results_dir / cfg.neuron_set.vectors_run / "vectors.safetensors"))

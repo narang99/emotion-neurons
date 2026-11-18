@@ -115,6 +115,7 @@ class HarvestConfig(Section):
     examples_per_band: int = 20
     top_k: int = 50
     hits_per_neuron: int = Field(512, description="p97+ hits sampled per neuron for mode clustering (plus the top_k)")
+    neurons_file: Path | None = Field(None, description="selection.json from min_set.py; overrides the Stage 3 ranking")
 
 
 class ModesConfig(Section):
@@ -127,6 +128,11 @@ class ModesConfig(Section):
     exemplars: int = 5
     noise_exemplars: int = 3
     neurons_per_batch: int = 10
+
+
+class MinSetConfig(Section):
+    greedy_steps: int = Field(2000, description="greedy forward-selection steps per emotion (stops at cos 0.99)")
+    select: int = Field(64, description="neurons for the mode analysis, round-robin down the greedy orders")
 
 
 class RunConfig(BaseSettings):
@@ -147,6 +153,7 @@ class RunConfig(BaseSettings):
     neuron_set: NeuronSetConfig = NeuronSetConfig()
     harvest: HarvestConfig = HarvestConfig()
     modes: ModesConfig = ModesConfig()
+    min_set: MinSetConfig = MinSetConfig()
 
     @classmethod
     def settings_customise_sources(

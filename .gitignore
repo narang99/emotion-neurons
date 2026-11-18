@@ -11,3 +11,4 @@ wheels/
 
 # Large run outputs (pooled sums); results/ is committed
 runs/
+.cache/

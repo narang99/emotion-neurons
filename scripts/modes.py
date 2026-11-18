@@ -2,8 +2,8 @@
 
     python scripts/modes.py --config configs/stage3_l25.yaml
 
-1. Neurons: the top `per_group` per (emotion, neuron pole) by their summed term over the kept dims of the write,
-   plus the harvest's random controls.
+1. Neurons: those of `harvest.neurons_file` if given, else the top `per_group` per (emotion, neuron pole) by their
+   summed term over the kept dims of the write; plus the harvest's random controls.
 2. For each neuron's sampled p97+ hits (harvest hits.safetensors), the MLP input at the hit token
    (post_attention_layernorm output), re-run from the stored windows.
 3. Per neuron: L2-normalise, PCA, HDBSCAN. Noise hits join the nearest cluster centroid by cosine when above that
@@ -43,8 +43,6 @@ def main():
     rd, out_dir = cfg.run_dir, cfg.result_dir
     harvest = json.loads((out_dir / "harvest.json").read_text())
     hits = {int(k): v.numpy() for k, v in load_file(str(out_dir / "hits.safetensors")).items()}
-    ns = json.loads((out_dir / "neuron_set.json").read_text())
-    vec = load_file(str(cfg.results_dir / cfg.neuron_set.vectors_run / "vectors.safetensors"))
     tokens, pos, win_of = np.load(rd / "tokens.npy"), np.load(rd / "pos.npy"), np.load(rd / "window.npy")
     starts = np.zeros(win_of.max() + 2, dtype=np.int64)
     starts[1:] = np.cumsum(np.bincount(win_of, minlength=win_of.max() + 1))
@@ -54,7 +52,12 @@ def main():
     model, tok = load_model(cfg.model, cfg.device)
     mlp = model.model.layers[cfg.layer].mlp
     W = mlp.down_proj.weight.float().cpu()
-    groups = rank_neurons(ns, W, vec, cfg.modes.per_group)
+    if cfg.harvest.neurons_file:
+        groups = json.loads(cfg.harvest.neurons_file.read_text())["groups"]
+    else:
+        ns = json.loads((out_dir / "neuron_set.json").read_text())
+        vec = load_file(str(cfg.results_dir / cfg.neuron_set.vectors_run / "vectors.safetensors"))
+        groups = rank_neurons(ns, W, vec, cfg.modes.per_group)
     groups["control"] = harvest["controls"][: m.n_controls]
     groups = {k: [n for n in v if n in col] for k, v in groups.items()}  # only harvested neurons
     chosen = sorted({n for g in groups.values() for n in g})

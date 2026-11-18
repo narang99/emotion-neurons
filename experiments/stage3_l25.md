@@ -48,6 +48,6 @@ python scripts/summarize_modes.py --config configs/stage3_l25.yaml
 
 - **The top writers do not split by valence.** Pos-pos overlap between two emotions is 0.20 for the same valence and 0.19 for opposite valence; a pos neuron of a positive emotion is almost never a neg neuron of a negative one (0.01).
   - Several top writers fire after *any* feeling word (48, 2066, 3582). They are "a feeling was just named" neurons; the emotion-specific part of the write likely comes from the many small terms, not the top 10.
-  - Not tested yet: ranking by the emotion-specific part (e.g. `δ_e` minus the mean write over emotions) instead of the raw write.
+  - `δ_e` and `Δā` are already centred on the mean over the 12 emotions (the `mean` baseline), so the ranking already uses the emotion-specific part. Generic neurons can still rank high: centring only requires that their *average* activation differs between emotions' stories.
 - **Duplicated corpus text.** 3–7% of modes are near-identical copies of one passage (mostly UltraChat). Kept; flagged "DUPLICATE:" in `names_XX.jsonl`.
 - **The keyword measure is ours, not Haiku's.** The emotion-keyword shares come from a regex over Haiku's mode names; only the counts above were tested.

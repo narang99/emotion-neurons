@@ -19,23 +19,10 @@ import json
 import sys
 
 import torch
-from huggingface_hub import hf_hub_download
-from huggingface_hub.errors import EntryNotFoundError
-from safetensors import safe_open
 from safetensors.torch import load_file
 
 from emotion_neurons.config import EMOTIONS, load_run_config
-
-
-def load_w_down(model: str, layer: int) -> torch.Tensor:
-    name = f"model.layers.{layer}.mlp.down_proj.weight"
-    try:
-        index = json.loads(open(hf_hub_download(model, "model.safetensors.index.json")).read())
-        shard = index["weight_map"][name]
-    except EntryNotFoundError:  # a single-file model has no index
-        shard = "model.safetensors"
-    with safe_open(hf_hub_download(model, shard), "pt") as f:
-        return f.get_tensor(name).float()  # [d_model, d_mlp]
+from emotion_neurons.weights import load_w_down
 
 
 def cover_count(sorted_vals: torch.Tensor, share: float) -> torch.Tensor:
