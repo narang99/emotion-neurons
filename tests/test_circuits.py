@@ -63,3 +63,25 @@ def test_effect_from_mean_at_the_target_layer_is_the_shift_times_the_direct_coef
     coefficient = model.model.layers[LAYER].mlp.down_proj.weight.float().T @ unit
     expected = (attribution.activation[LAYER] - MEANS[LAYER]) * coefficient.detach()
     torch.testing.assert_close(attribution.total_from_mean[LAYER], expected, atol=1e-5, rtol=1e-4)
+
+
+def test_a_neurons_input_splits_exactly_over_the_stream(tiny):
+    from emotion_neurons.circuits.neuron import read_stream, split_input
+
+    model, ids, _ = tiny
+    stream = read_stream(model, ids, LAYER)
+    tokens = torch.ones(ids.shape[1], dtype=torch.bool)
+    for lane in ("gate", "up"):
+        split = split_input(model, stream, LAYER, 7, lane, tokens)
+        assert split.rebuilt() == pytest.approx(split.actual, rel=1e-4, abs=1e-5)
+
+
+def test_reader_shares_match_the_split_of_the_reader(tiny):
+    from emotion_neurons.circuits.neuron import read_stream, reader_shares, split_input
+
+    model, ids, _ = tiny
+    stream = read_stream(model, ids, LAYER)
+    tokens = torch.ones(ids.shape[1], dtype=torch.bool)
+    shares = reader_shares(model, stream, 0, 11, LAYER, tokens)
+    split = split_input(model, stream, LAYER, 3, "gate", tokens)
+    assert float(shares["gate"][3]) == pytest.approx(float(split.neurons[0][11]), rel=1e-4, abs=1e-6)

@@ -152,6 +152,17 @@ class CircuitsConfig(Section):
     seed: int = 0
 
 
+class NeuronCircuitConfig(Section):
+    layer: int = 25
+    neuron: int = 3068
+    texts_dir: Path = Field(Path("data/adult_stories"), description="scanned with the held-out training stories")
+    harvest_run: str = Field("top64_l25", description="its harvest.json gives the neuron's p97")
+    top_writers: int = 30
+    top_readers: int = 15
+    check_sizes: list[int] = [5, 20, 100]
+    top_tokens: int = 12
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -183,6 +194,7 @@ class RunConfig(BaseSettings):
     sparse_set: SparseSetConfig = SparseSetConfig()
     sparse_layers: SparseLayersConfig = SparseLayersConfig()
     circuits: CircuitsConfig = CircuitsConfig()
+    neuron_circuit: NeuronCircuitConfig = NeuronCircuitConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
