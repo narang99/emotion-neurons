@@ -24,6 +24,6 @@ for r in "${runs[@]}"; do
   for f in $(files "$r"); do
     if [ -s "runs/$r/$f" ]; then echo "have runs/$r/$f"; continue; fi
     echo "get  runs/$r/$f"
-    curl -fL --retry 3 -o "runs/$r/$f.part" "$BASE/$r/$f" && mv "runs/$r/$f.part" "runs/$r/$f"
+    curl -fsSL --retry 3 -o "runs/$r/$f.part" "$BASE/$r/$f" && mv "runs/$r/$f.part" "runs/$r/$f"
   done
 done
