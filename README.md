@@ -23,9 +23,9 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
 
 ## Checklist
 
-- [ ] **Non-children texts probe** (GPU, L4): do the top-64 neurons hit p97, and which modes, on 60 new emotional
+- [x] **Non-children texts probe** (done, `experiments/probe_kv_l25.md`) (GPU, L4): do the top-64 neurons hit p97, and which modes, on 60 new emotional
   texts? Ready: `scripts/probe_stories.py`, `configs/adult_probe_l25.yaml`, `data/adult_stories/`.
-- [ ] **Key-value read** (CPU, Geva et al. 2021): what each neuron's value promotes through the unembedding, and
+- [x] **Key-value read** (per neuron done; whole-write read partly) (CPU, Geva et al. 2021): what each neuron's value promotes through the unembedding, and
   whether it predicts the next token at its key's hits. `scripts/kv_values.py`, `configs/kv_values_l25.yaml`.
   Add the same read for each emotion's whole write and its sparse set's write: per-neuron values that read as
   noise but a clear combined write would favour a distributed code (Hazy Research, "Stuffing MLPs Full of Facts").
