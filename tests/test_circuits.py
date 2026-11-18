@@ -85,3 +85,31 @@ def test_reader_shares_match_the_split_of_the_reader(tiny):
     shares = reader_shares(model, stream, 0, 11, LAYER, tokens)
     split = split_input(model, stream, LAYER, 3, "gate", tokens)
     assert float(shares["gate"][3]) == pytest.approx(float(split.neurons[0][11]), rel=1e-4, abs=1e-6)
+
+
+def test_head_pushes_add_up_to_the_attention_part_of_each_layer(tiny):
+    from emotion_neurons.circuits.heads import head_pushes, lane_read, read_heads
+    from emotion_neurons.circuits.neuron import read_stream, split_input
+
+    model, ids, _ = tiny
+    tokens = torch.ones(ids.shape[1], dtype=torch.bool)
+    reading = read_heads(model, ids, LAYER, [7])
+    z, scale = reading.z, reading.inverse_rms
+    split = split_input(model, read_stream(model, ids, LAYER), LAYER, 7, "gate", tokens)
+    read = lane_read(model, LAYER, 7, "gate")
+    for k in range(LAYER + 1):
+        assert float(head_pushes(model, z[k], scale, k, read).sum()) == pytest.approx(split.attention[k], rel=1e-4, abs=1e-5)
+
+
+def test_the_used_part_of_a_head_gives_its_whole_push(tiny):
+    from emotion_neurons.circuits.heads import head_count, head_reads, lane_read, read_heads, used_directions
+
+    model, ids, _ = tiny
+    z = read_heads(model, ids, LAYER, [7]).z
+    read = lane_read(model, LAYER, 7, "up")
+    n_heads, head_dim = head_count(model)
+    r = head_reads(model, 1, read)
+    u = used_directions(model, 1, r)
+    zh = z[1].view(-1, n_heads, head_dim)
+    along = torch.einsum("thk,hk->th", zh, r / r.norm(dim=1, keepdim=True))
+    torch.testing.assert_close(along * (u @ read)[None, :], torch.einsum("thk,hk->th", zh, r), atol=1e-5, rtol=1e-4)

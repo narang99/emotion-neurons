@@ -164,6 +164,20 @@ class NeuronCircuitConfig(Section):
     top_tokens: int = 12
 
 
+class HeadReadsConfig(Section):
+    neurons: list[list[int]] = Field(
+        [[25, 3068], [25, 11109], [25, 2862], [26, 6691], [27, 6612]], description="[layer, neuron] pairs"
+    )
+    random_layer: int = 25
+    random_count: int = 4
+    texts_dir: Path = Path("data/adult_stories")
+    top_tokens: int = Field(100, description="the neuron's top activations over all texts")
+    top_heads: int = 8
+    check_sizes: list[int] = [3, 10]
+    vocab_top: int = 10
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -196,6 +210,7 @@ class RunConfig(BaseSettings):
     sparse_layers: SparseLayersConfig = SparseLayersConfig()
     circuits: CircuitsConfig = CircuitsConfig()
     neuron_circuit: NeuronCircuitConfig = NeuronCircuitConfig()
+    head_reads: HeadReadsConfig = HeadReadsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

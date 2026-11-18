@@ -1,0 +1,12 @@
+# Attention heads into MLP neurons, and a logit-lens read of the part each head's write the neuron uses (GPU, L4).
+#   python scripts/head_reads.py --config configs/head_reads.yaml
+run_id: head_reads
+model: Qwen/Qwen3-8B
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
+head_reads:
+  neurons: [[25, 3068], [25, 11109], [25, 2862], [26, 6691], [27, 6612]]
+  random_layer: 25
+  random_count: 4
