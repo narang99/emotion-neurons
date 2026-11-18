@@ -35,20 +35,56 @@ sets; tuning the shrinkage kappa by cross-validation; other layers (rerun the pi
 | `results/<run>/` | small outputs, committed |
 | `runs/<run>/` | large outputs, gitignored (see below) |
 
-## Running
+## Picking up
 
 ```
+git clone git@github.com:narang99/emotion-neurons.git && cd emotion-neurons && git checkout stage2
 uv sync
+bash scripts/fetch_runs.sh               # gitignored run data, ~610 MB, public, no AWS account needed
 uv run python scripts/sparse_set.py --config configs/sparse_l25.yaml --sparse-set.target raw --run-id sparse_l25_raw
 uv run --with matplotlib python scripts/plot_sparse.py --config configs/sparse_l25.yaml --run-id sparse_l25_raw
 ```
 
+- Every small output is committed under `results/`. The large ones are in a public bucket, at the same paths under
+  `https://narang-public-s3.s3.amazonaws.com/narang99-pages/emotion-neurons/runs/<run>/<file>`; `scripts/fetch_runs.sh`
+  downloads them (the bucket can't be listed, so the script names each file).
+
+  | run data | size | what | needed by |
+  |---|---|---|---|
+  | `runs/stage2_l25/{sums.safetensors,stories.json}` | 263 MB | per-story pooled sums of the 4 layer-25 sites, story metadata (train / held-out split) | `build_vectors`, `sparse_set` |
+  | `runs/top64_l25/{acts,pos,tokens,window}.npy, windows.json` | 340 MB | 2M-token harvest of the top 64 neurons (activation memmap, token ids, positions, corpus windows) | `modes`, `report_neurons` |
+  | `runs/stage3_l25/` (same files) | 1.7 GB | harvest of Stage 3's 419 ranked neurons + 50 controls; `bash scripts/fetch_runs.sh stage3_l25` | `modes` for stage3 |
+
 - CPU scripts (`neuron_set`, `min_set`, `sparse_set`, `plot_sparse`, `report*`, `summarize_modes`) run locally. They
-  fetch only layer 25's `down_proj` from the Hugging Face shard (~100 MB download, cached as float32 under `$HF_HOME/emotion-neurons`).
-- GPU scripts (`extract`, `project`, `harvest`, `modes`) ran on a Colab L4 (bf16, no quantization).
-- Large inputs are not in git:
-  - `runs/stage2_l25/{sums.safetensors,stories.json}` (264 MB): pooled per-story activations; needed by `neuron_set`,
-    `min_set`, `sparse_set`. Regenerate with `scripts/extract.py --config configs/stage2_l25.yaml` on an L4.
-  - `runs/top64_l25/{window.npy,windows.json}`: harvest windows; needed by `report_neurons`. Regenerate with
-    `scripts/harvest.py --config configs/top64_l25.yaml`.
+  fetch only layer 25's `down_proj` from the Hugging Face shard (~100 MB download, cached as float32 under
+  `$HF_HOME/emotion-neurons`).
+- GPU scripts (`extract`, `project`, `harvest`, `modes`) ran on a Colab L4 (bf16, no quantization); each docstring has
+  its command. A new layer or story set is a new config and a rerun of `extract` onward.
 - Bulk subagent work (stories, mode naming) uses Haiku; see `CLAUDE.md`.
+
+## Using the findings
+
+```python
+import json
+from safetensors.torch import load_file
+
+# Emotion vectors: per site, mean over an emotion's 100 train stories minus the mean over the 12 emotions.
+# Keys <site>/<mean|neutral>/<raw|denoised> [12, dim], sites resid_mid, resid_post, mlp_act, mlp_out;
+# order = vectors_meta.json["emotions"]. "denoised" = neutral-story PCs projected out.
+V = load_file("results/stage2_l25/vectors.safetensors")
+delta = V["mlp_out/mean/raw"]        # [12, 4096]: the MLP's emotion write
+dA = V["mlp_act/mean/raw"]           # [12, 12288]: per-neuron activation shift; delta_e = W_down @ dA_e
+
+# Sparse neuron set per emotion (indices into the 12288 neurons, in greedy order)
+sets = json.load(open("results/sparse_l25_raw/sets.json"))
+sets["happy"]["match"]       # {k, neurons, cos, transfer}: smallest set that generalises as well as the full MLP
+sets["happy"]["tau0.9"]      # {k, neurons, cos, transfer, ...}: smallest set found with train cos >= 0.9
+
+from emotion_neurons.weights import load_w_down
+W = load_w_down("Qwen/Qwen3-8B", 25)  # [4096, 12288] float32
+```
+
+- Full greedy orders and the cos / transfer curves for every k and method: `results/sparse_l25_{raw,denoised}/sparse_set.json`.
+- What each of the top 64 neurons fires on (Haiku-named modes, share of p97+ hits, corpus):
+  `results/top64_l25/neurons_report.md`; the raw mode clusters are in `results/top64_l25/modes.json`, names in
+  `modes/names_*.jsonl`. Same for Stage 3's ranked neurons under `results/stage3_l25/`.
