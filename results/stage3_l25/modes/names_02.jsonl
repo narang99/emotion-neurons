@@ -1,0 +1,198 @@
+{"neuron": 4311, "cluster": 0, "mode": "'looked' after a character subject, before a gaze target", "emotion": "none"}
+{"neuron": 4311, "cluster": 1, "mode": "sentence-final period or '!' ending a short character reaction line", "emotion": "none"}
+{"neuron": 4311, "cluster": 2, "mode": "'and' or name before 'smiled/said' in dialogue reaction lines", "emotion": "none"}
+{"neuron": 4311, "cluster": 3, "mode": "'up' right after 'looked' in gaze-up descriptions", "emotion": "none"}
+{"neuron": 4311, "cluster": "other", "mode": "mixed punctuation and 'a', 'day' in narrative and citations", "emotion": "none"}
+{"neuron": 4352, "cluster": 0, "mode": "'heard' after he/they, introducing a sudden sound or voice", "emotion": "none"}
+{"neuron": 4352, "cluster": 1, "mode": "'Suddenly', 'But then', or comma opening a sudden event", "emotion": "none"}
+{"neuron": 4352, "cluster": 2, "mode": "subject pronoun or name opening a sentence after a feeling", "emotion": "none"}
+{"neuron": 4352, "cluster": 3, "mode": "colon, comma or 'D' after 'said'/'smiled' in dialogue tags", "emotion": "none"}
+{"neuron": 4352, "cluster": 4, "mode": "period followed by double space at paragraph ends", "emotion": "none"}
+{"neuron": 4352, "cluster": 5, "mode": "period closing a sentence about an object or sound made", "emotion": "none"}
+{"neuron": 4352, "cluster": "other", "mode": "mixed 'a', ':' and period tokens in dialogue and narrative", "emotion": "none"}
+{"neuron": 4372, "cluster": 0, "mode": "'mom' or 'She' as subject of a reassuring reply", "emotion": "none"}
+{"neuron": 4372, "cluster": 1, "mode": "DUPLICATE: 'was' in stock opener 'there was'", "emotion": "none"}
+{"neuron": 4382, "cluster": 0, "mode": "'As' starting a clause after a scene-setting sentence", "emotion": "none"}
+{"neuron": 4382, "cluster": 1, "mode": "comma, 'more', 'her', 'animals' ending clauses in short story sentences", "emotion": "none"}
+{"neuron": 4382, "cluster": 2, "mode": "'in' or 'and' between two years or numbers in statistics", "emotion": "none"}
+{"neuron": 4382, "cluster": "other", "mode": "'as', '%', 'it' tokens in recipes, statistics and Wikipedia text", "emotion": "none"}
+{"neuron": 4408, "cluster": 0, "mode": "'even' in 'make it/the story even more engaging' user requests", "emotion": "none"}
+{"neuron": 4408, "cluster": 1, "mode": "'until', 'becomes', 'still', 'not' in recipe cooking instructions", "emotion": "none"}
+{"neuron": 4408, "cluster": 2, "mode": "'and' after 'so proud/glad/happy' or 'felt sad' in emotional lines", "emotion": "none"}
+{"neuron": 4408, "cluster": 3, "mode": "'smile' noun after 'big' or 'mighty' in cheerful story endings", "emotion": "happy"}
+{"neuron": 4408, "cluster": 4, "mode": "'very' after 'felt' or 'was' before an emotion adjective", "emotion": "none"}
+{"neuron": 4408, "cluster": 5, "mode": "'was'/'is' after 'it' or 'they' describing a found object", "emotion": "none"}
+{"neuron": 4408, "cluster": 6, "mode": "'so' after 'was' before a happy or excited feeling word", "emotion": "none"}
+{"neuron": 4408, "cluster": "other", "mode": "mixed 'you', 'it', 'more', 'was' in unrelated prompts and code", "emotion": "none"}
+{"neuron": 4748, "cluster": 0, "mode": "comma ending a factual clause about places, animals or dates", "emotion": "none"}
+{"neuron": 4748, "cluster": 1, "mode": "character name or 'He' opening a dialogue or action sentence", "emotion": "none"}
+{"neuron": 4748, "cluster": 2, "mode": "'was' after 'He/She/Lily' before 'so happy' or 'excited'", "emotion": "none"}
+{"neuron": 4748, "cluster": 3, "mode": "character or place noun in farm and fox animal stories", "emotion": "none"}
+{"neuron": 4748, "cluster": 4, "mode": "noun ending a marketing or health-advice phrase (pages, ads, inserts)", "emotion": "none"}
+{"neuron": 4748, "cluster": 5, "mode": "'the' before an object noun after carried, took, reach, share", "emotion": "none"}
+{"neuron": 4748, "cluster": "other", "mode": "'was', 'new', 'the' in mixed narrative and marketing sentences", "emotion": "none"}
+{"neuron": 4765, "cluster": 0, "mode": "plural noun ending a topical sentence (relationships, lives, stories, channels)", "emotion": "none"}
+{"neuron": 4765, "cluster": 1, "mode": "'It' starting a sentence after an event or place description", "emotion": "none"}
+{"neuron": 4765, "cluster": 2, "mode": "'and' or 'was' after a happy-outcome clause (hugged, glad, proud)", "emotion": "none"}
+{"neuron": 4765, "cluster": 3, "mode": "period ending a short happy-story closing sentence", "emotion": "none"}
+{"neuron": 4765, "cluster": "other", "mode": "'good', 'it', 'was' in mixed short story sentences", "emotion": "none"}
+{"neuron": 4793, "cluster": 0, "mode": "'the', 'as', '$' tokens before program names and money figures", "emotion": "none"}
+{"neuron": 4793, "cluster": 1, "mode": "DUPLICATE: comma, 'and', 'avoid' inside one sleep-advice paragraph", "emotion": "none"}
+{"neuron": 4793, "cluster": 2, "mode": "food nouns (cookies, eat, tea, snack, taste) in kids' stories", "emotion": "none"}
+{"neuron": 4793, "cluster": 3, "mode": "'he' after a bedtime or waking-up clause in kids' stories", "emotion": "none"}
+{"neuron": 4793, "cluster": "other", "mode": "'temperature', 'this', 'Tom' in mixed science and story text", "emotion": "none"}
+{"neuron": 4844, "cluster": 0, "mode": "opening quote right after 'said,' introducing speech", "emotion": "none"}
+{"neuron": 4844, "cluster": 1, "mode": "digits and spaces inside reference and citation strings", "emotion": "none"}
+{"neuron": 4844, "cluster": 2, "mode": "'laughed' or 'smiled' verb right after a speech or reaction", "emotion": "happy"}
+{"neuron": 4844, "cluster": 3, "mode": "'recognize', 'managed', 'mindset' verbs in mixed narrative and text", "emotion": "none"}
+{"neuron": 4844, "cluster": 4, "mode": "'set' in 'set off' after a character's journey begins", "emotion": "none"}
+{"neuron": 4844, "cluster": "other", "mode": "'Lo', 'contact', 'Seth' name or contact tokens in mixed prose", "emotion": "none"}
+{"neuron": 4848, "cluster": 0, "mode": "'day' in 'One day' opening a story's first event", "emotion": "none"}
+{"neuron": 4848, "cluster": 1, "mode": "'excited', 'smiled', 'proud of' in happy story lines", "emotion": "none"}
+{"neuron": 4848, "cluster": 2, "mode": "period or space ending a Wikipedia-style sentence", "emotion": "none"}
+{"neuron": 4848, "cluster": "other", "mode": "brace, name fragment and blank token in code and transcripts", "emotion": "none"}
+{"neuron": 4944, "cluster": 0, "mode": "DUPLICATE: 'is about', 'it', 'are' in one asteroid article", "emotion": "none"}
+{"neuron": 4944, "cluster": 1, "mode": "'be', 'will', 'it' word pieces in trap and bird text", "emotion": "none"}
+{"neuron": 4944, "cluster": 2, "mode": "'other', 'again', 'family', 'see' ending warm friendship sentences", "emotion": "none"}
+{"neuron": 4944, "cluster": "other", "mode": "'painted', 'the', 'make' in mixed how-to and story text", "emotion": "none"}
+{"neuron": 4980, "cluster": 0, "mode": "'adventure', 'imagination', comma ending story phrases about feeling safe", "emotion": "none"}
+{"neuron": 4980, "cluster": 1, "mode": "DUPLICATE: 'there' in stock opener 'Once upon a time there'", "emotion": "none"}
+{"neuron": 4980, "cluster": 2, "mode": "DUPLICATE: 'was' in stock opener 'there was'", "emotion": "none"}
+{"neuron": 4986, "cluster": 0, "mode": "'are' or 'some' after 'here' in assistant tip replies", "emotion": "none"}
+{"neuron": 4986, "cluster": 1, "mode": "digit '0' inside DOI and citation strings (doi:10.1090)", "emotion": "none"}
+{"neuron": 4986, "cluster": 2, "mode": "period or 'kind' ending a short moral story sentence", "emotion": "none"}
+{"neuron": 4986, "cluster": 3, "mode": "'!' after 'Certainly' or 'Sure' opening an assistant reply", "emotion": "none"}
+{"neuron": 4986, "cluster": "other", "mode": "digits and periods inside citations and Spanish reference text", "emotion": "none"}
+{"neuron": 5012, "cluster": 0, "mode": "'The' starting a sentence introducing a new object or character", "emotion": "none"}
+{"neuron": 5012, "cluster": 1, "mode": "'said' right after a speaker's name in dialogue tags", "emotion": "none"}
+{"neuron": 5012, "cluster": 2, "mode": "'Respond', 'pharmac', 'Rating', 'by' in study-method text", "emotion": "none"}
+{"neuron": 5012, "cluster": 3, "mode": "period ending a finished-action sentence in kids' stories", "emotion": "none"}
+{"neuron": 5012, "cluster": 4, "mode": "'if', 'you', 'is', 'even' in hedged or negated drinking claims", "emotion": "none"}
+{"neuron": 5012, "cluster": 5, "mode": "'smiled' or 'smiles' verb after a character's delight or taste", "emotion": "happy"}
+{"neuron": 5012, "cluster": "other", "mode": "'public', 'and', 'irritated' in mixed news and manual text", "emotion": "none"}
+{"neuron": 5058, "cluster": 0, "mode": "'the', 'don', comma in child dialogue about climbing mishaps", "emotion": "none"}
+{"neuron": 5058, "cluster": 1, "mode": "'was' after a child's name in 'One day, X was'", "emotion": "none"}
+{"neuron": 5058, "cluster": 2, "mode": "'drawing', 'wire', 'time', 'let' in how-to and medical text", "emotion": "none"}
+{"neuron": 5058, "cluster": 3, "mode": "comma after 'One day' or 'But then' in story events", "emotion": "none"}
+{"neuron": 5058, "cluster": 4, "mode": "period ending a sentence about a fun or happy day", "emotion": "none"}
+{"neuron": 5058, "cluster": 5, "mode": "name or 'he' after 'One day,' starting a story event", "emotion": "none"}
+{"neuron": 5058, "cluster": 6, "mode": "'be' or 'to' after 'have to' or 'learned' in morals", "emotion": "none"}
+{"neuron": 5058, "cluster": 7, "mode": "quote mark or period after a 'Be careful' warning", "emotion": "none"}
+{"neuron": 5058, "cluster": "other", "mode": "'all' and 'a' in plane and yellow-ball story sentences", "emotion": "none"}
+{"neuron": 5133, "cluster": 0, "mode": "'explore', 'and', 'but' after excited or fearful character clauses", "emotion": "none"}
+{"neuron": 5133, "cluster": 1, "mode": "'day' in 'One day' opening a story event", "emotion": "none"}
+{"neuron": 5133, "cluster": "other", "mode": "digit '9' in a citation year; colon in chat reply", "emotion": "none"}
+{"neuron": 5202, "cluster": 0, "mode": "DUPLICATE: period after stock opener 'Once upon a time there'", "emotion": "none"}
+{"neuron": 5202, "cluster": 1, "mode": "'help', 'me', 'helping', 'interesting', 'in' in assistant prose", "emotion": "none"}
+{"neuron": 5202, "cluster": 2, "mode": "period ending an assistant paragraph before a 'user:' turn", "emotion": "none"}
+{"neuron": 5202, "cluster": "other", "mode": "'ability', 'assistant', '2' in mixed text and a citation", "emotion": "none"}
+{"neuron": 5205, "cluster": 0, "mode": "'to', 'restaurant', 'shows' in mixed descriptive lists", "emotion": "none"}
+{"neuron": 5205, "cluster": 1, "mode": "DUPLICATE: 'own'/'his'/'their' after 'launch' in one celebrity-business listicle", "emotion": "none"}
+{"neuron": 5205, "cluster": "other", "mode": "digit '0' in numbered list items and possessive 's'", "emotion": "none"}
+{"neuron": 5250, "cluster": 0, "mode": "'day' in 'One day' after a story's opening sentence", "emotion": "none"}
+{"neuron": 5250, "cluster": 1, "mode": "'play', 'tried', 'try', 'can' after 'to' or 'and'", "emotion": "none"}
+{"neuron": 5250, "cluster": 2, "mode": "'Guidance', 'band', 'original', 'Counseling' in lesson-plan and music text", "emotion": "none"}
+{"neuron": 5250, "cluster": "other", "mode": "'and', 'eased', 'Our' in mixed marketing, price and fitness text", "emotion": "none"}
+{"neuron": 5290, "cluster": 0, "mode": "'have', 'be', 'is', 'will', 'it' after 'and' or a subject", "emotion": "none"}
+{"neuron": 5290, "cluster": 1, "mode": "'s' in 'That's mine/my' possession claim after a found object", "emotion": "none"}
+{"neuron": 5290, "cluster": "other", "mode": "'that', 'a', 'my' in dialogue and tech or legal text", "emotion": "none"}
+{"neuron": 5350, "cluster": 0, "mode": "'little', 'each', 'have', '€™' in kids' dialogue and reply lines", "emotion": "none"}
+{"neuron": 5350, "cluster": 1, "mode": "'island', 'others', 'it', 'is' in mixed story and literary sentences", "emotion": "none"}
+{"neuron": 5350, "cluster": 2, "mode": "word-piece fragments (min, tail, melod, rab) in opinion prose", "emotion": "none"}
+{"neuron": 5350, "cluster": 3, "mode": "digits or period inside numbers and place names", "emotion": "none"}
+{"neuron": 5350, "cluster": "other", "mode": "'of', 'peoples', 'From', 'was' in mixed history and story text", "emotion": "none"}
+{"neuron": 5363, "cluster": 0, "mode": "'were', 'explore', 'invested', 'being', 'do' as verbs in scene descriptions", "emotion": "none"}
+{"neuron": 5363, "cluster": 1, "mode": "'share' after 'liked/learned/remembered to' in kindness stories", "emotion": "none"}
+{"neuron": 5363, "cluster": "other", "mode": "'of', 'with', 'peoples' in history and kids' play sentences", "emotion": "none"}
+{"neuron": 5380, "cluster": 0, "mode": "'and' or 'She' after a feeling or reading-description clause", "emotion": "none"}
+{"neuron": 5380, "cluster": 1, "mode": "DUPLICATE: comma in stock opener 'Once upon a time, there'", "emotion": "none"}
+{"neuron": 5391, "cluster": 0, "mode": "'and' or 'She' after 'smiled' or a comforting hug", "emotion": "none"}
+{"neuron": 5391, "cluster": 1, "mode": "'said' after 'smiled and' or a speaker name in tags", "emotion": "none"}
+{"neuron": 5391, "cluster": "other", "mode": "':' in list headings; 'By' inside a Poe poem", "emotion": "none"}
+{"neuron": 5410, "cluster": 0, "mode": "'then', 'it', comma after 'But' or 'until' in suspense scenes", "emotion": "none"}
+{"neuron": 5410, "cluster": 1, "mode": "DUPLICATE: 'virtual', 'the', 'to' in one Windows virtual-memory settings page", "emotion": "none"}
+{"neuron": 5410, "cluster": "other", "mode": "'is', 'the', empty token in building codes and citations", "emotion": "none"}
+{"neuron": 5465, "cluster": 0, "mode": "'told' after a parent's praise or pride about the child", "emotion": "none"}
+{"neuron": 5465, "cluster": 1, "mode": "'His' or 'her' as possessive subject of 'mom' in replies", "emotion": "none"}
+{"neuron": 5465, "cluster": 2, "mode": "period after a child's playful action or game", "emotion": "none"}
+{"neuron": 5465, "cluster": 3, "mode": "'The' starting a sentence after a discovery or moral line", "emotion": "none"}
+{"neuron": 5465, "cluster": "other", "mode": "'called', 'going', 'need' in mixed help, spider and VPN text", "emotion": "none"}
+{"neuron": 5511, "cluster": 0, "mode": "DUPLICATE: digits and dash inside one repeated survey table (25-64)", "emotion": "none"}
+{"neuron": 5511, "cluster": 1, "mode": "'in', 'among', 'between', 'to' after 'lower' in income-group findings", "emotion": "none"}
+{"neuron": 5511, "cluster": 2, "mode": "'bone', 'toy', 'play', 'park' nouns in kids' play stories", "emotion": "none"}
+{"neuron": 5511, "cluster": 3, "mode": "'in', 'also', 'that', 'and' linking words in health text", "emotion": "none"}
+{"neuron": 5511, "cluster": "other", "mode": "'is', 'the', 'a' in mixed regulation and smart-grid text", "emotion": "none"}
+{"neuron": 5663, "cluster": 0, "mode": "'and' or 'She' after hugging or smiling in comfort scenes", "emotion": "none"}
+{"neuron": 5663, "cluster": 1, "mode": "DUPLICATE: comma and 'a' in one repeated poem line", "emotion": "none"}
+{"neuron": 5663, "cluster": "other", "mode": "'In', 'his' in code explanation prose and a poem line", "emotion": "none"}
+{"neuron": 5763, "cluster": 0, "mode": "abstract nouns (hardship, woman, moderation, things, confused) in advice prose", "emotion": "none"}
+{"neuron": 5763, "cluster": 1, "mode": "DUPLICATE: 'ett' in 'St-ettin' Pomerania place names", "emotion": "none"}
+{"neuron": 5763, "cluster": "other", "mode": "'lay', 'ay' word pieces in author-initial citation fragments", "emotion": "none"}
+{"neuron": 5792, "cluster": 0, "mode": "'excitement' after 'generate', 'create' or 'charged with' in marketing text", "emotion": "none"}
+{"neuron": 5792, "cluster": 1, "mode": "'dream' in the phrase 'the dream team' in skit dialogue", "emotion": "none"}
+{"neuron": 5792, "cluster": "other", "mode": "'iting', 'love', Chinese sign-off word in mixed quote text", "emotion": "none"}
+{"neuron": 5827, "cluster": 0, "mode": "'a', 'and', 'They' in kids' sentences about fun together", "emotion": "none"}
+{"neuron": 5827, "cluster": 1, "mode": "'loved' after a character name introducing a favorite activity", "emotion": "none"}
+{"neuron": 5827, "cluster": "other", "mode": "'went', 'loved', 'with' in mixed walk, poem and moving-house text", "emotion": "none"}
+{"neuron": 5865, "cluster": 0, "mode": "'went', 'going', 'go' after 'she' or 'one day' for trips", "emotion": "none"}
+{"neuron": 5865, "cluster": 1, "mode": "'big' as an adjective before a noun in scene descriptions", "emotion": "none"}
+{"neuron": 5865, "cluster": 2, "mode": "'a' after 'saw' or 'heard' introducing a new object", "emotion": "none"}
+{"neuron": 5865, "cluster": 3, "mode": "'play' after 'liked/loved/wanted to' in kids' hobby sentences", "emotion": "none"}
+{"neuron": 5865, "cluster": 4, "mode": "name fragment, 'each', 'didn' in kids' stories (Mittens, Lola)", "emotion": "none"}
+{"neuron": 5865, "cluster": 5, "mode": "'under' or 'the' after 'hid' or 'hiding' in bed-hiding scenes", "emotion": "none"}
+{"neuron": 5865, "cluster": 6, "mode": "'to' after 'decided' introducing a character's intention", "emotion": "none"}
+{"neuron": 5865, "cluster": 7, "mode": "'They' or 'she' subject after 'One day' or 'But'", "emotion": "none"}
+{"neuron": 5865, "cluster": 8, "mode": "'the' after 'explore' or 'walking down' before a place noun", "emotion": "none"}
+{"neuron": 5865, "cluster": "other", "mode": "'go', 'bridge', 'than' in moral lesson and tool-use sentences", "emotion": "none"}
+{"neuron": 5869, "cluster": 0, "mode": "'and' after 'happy' or 'laughed' in mixed upbeat clauses", "emotion": "none"}
+{"neuron": 5869, "cluster": 1, "mode": "'assistant' turn-start token right after a user request", "emotion": "none"}
+{"neuron": 5888, "cluster": 0, "mode": "'assistant' turn-start token before a reply to a user prompt", "emotion": "none"}
+{"neuron": 5888, "cluster": 1, "mode": "'together', 'otter', 'and', 'everyone' ending kids' play and friend sentences", "emotion": "none"}
+{"neuron": 5888, "cluster": 2, "mode": "DUPLICATE: 'of' in closing line 'were the best of friends'", "emotion": "none"}
+{"neuron": 5888, "cluster": 3, "mode": "'of' in 'best of' or 'worst of' phrases in essays", "emotion": "none"}
+{"neuron": 5888, "cluster": "other", "mode": "digit '2' in a biblical citation and 'best' in endings", "emotion": "none"}
+{"neuron": 6016, "cluster": 0, "mode": "period ending a sentence about a finished fun action", "emotion": "none"}
+{"neuron": 6016, "cluster": 1, "mode": "'upset', 'frustrated', 'happy', 'angry' after 'was so' or 'felt'", "emotion": "none"}
+{"neuron": 6016, "cluster": 2, "mode": "'said' after a character's reaction in dialogue tags", "emotion": "none"}
+{"neuron": 6016, "cluster": 3, "mode": "'was' after a character name before 'so happy/sad'", "emotion": "none"}
+{"neuron": 6016, "cluster": 4, "mode": "'Lily', 'She', 'He' subject starting a sentence after a discovery", "emotion": "none"}
+{"neuron": 6016, "cluster": 5, "mode": "name in dialogue tag after a shout or cry", "emotion": "none"}
+{"neuron": 6016, "cluster": 6, "mode": "opening quote after 'said,' or 'shouted and said' before speech", "emotion": "none"}
+{"neuron": 6016, "cluster": 7, "mode": "'screamed', 'out', 'bark', 'noise' after a scary dog or fright", "emotion": "none"}
+{"neuron": 6016, "cluster": 8, "mode": "'heard' after 'then' or 'suddenly' introducing a sound from above", "emotion": "none"}
+{"neuron": 6016, "cluster": "other", "mode": "'gave', 'and', 'or' in mixed sentence-level story and tech text", "emotion": "none"}
+{"neuron": 6045, "cluster": 0, "mode": "'with' or comma in yoga pose and stretch instructions", "emotion": "none"}
+{"neuron": 6045, "cluster": 1, "mode": "digits or 'Pentium' tokens in Intel processor and Windows history", "emotion": "none"}
+{"neuron": 6045, "cluster": 2, "mode": "'Add', 'some', 'then', period in recipe and how-to list steps", "emotion": "none"}
+{"neuron": 6045, "cluster": 3, "mode": "'feel', 'water', 'pony', 'kitten' in sensory and story descriptions", "emotion": "none"}
+{"neuron": 6045, "cluster": "other", "mode": "'Wii', 'with', space token in school incentive and diet text", "emotion": "none"}
+{"neuron": 6213, "cluster": 0, "mode": "'said' or 'smiled' right after a parent's or child's reply", "emotion": "none"}
+{"neuron": 6213, "cluster": 1, "mode": "':' right after 'assistant' starting a reply", "emotion": "none"}
+{"neuron": 6213, "cluster": "other", "mode": "'user' turn-start token right after an assistant reply", "emotion": "none"}
+{"neuron": 6220, "cluster": 0, "mode": "'of', 'by', 'and' in historical Slavic and Pomeranian text", "emotion": "none"}
+{"neuron": 6220, "cluster": 1, "mode": "'and' after 'delighted', 'played tag', 'touched them' in happy stories", "emotion": "none"}
+{"neuron": 6220, "cluster": 2, "mode": "word-piece fragments (reve, plag, distur, bubb) inside mixed prose", "emotion": "none"}
+{"neuron": 6220, "cluster": 3, "mode": "character name or 'AR' / 'B' starting a speaker tag", "emotion": "none"}
+{"neuron": 6220, "cluster": 4, "mode": "'once', 'out', 'together', 'it', 'him' ending phrases in kids' stories", "emotion": "none"}
+{"neuron": 6220, "cluster": "other", "mode": "'with', 'and', 'men' in mixed music, medicine and lore text", "emotion": "none"}
+{"neuron": 6345, "cluster": 0, "mode": "period ending a technical or research sentence", "emotion": "none"}
+{"neuron": 6345, "cluster": 1, "mode": "digits inside citation volume and page numbers", "emotion": "none"}
+{"neuron": 6345, "cluster": 2, "mode": "period after an author initial in a bibliographic citation", "emotion": "none"}
+{"neuron": 6345, "cluster": 3, "mode": "'and', 'They', 'Jimmy', 'She' as subjects in kids' story sentences", "emotion": "none"}
+{"neuron": 6345, "cluster": 4, "mode": "'?' or period ending a quoted child question or reply", "emotion": "none"}
+{"neuron": 6345, "cluster": 5, "mode": "'le', 'it', 'uniforms', 'snow' in kids' play lines and essays", "emotion": "none"}
+{"neuron": 6345, "cluster": 6, "mode": "name fragment or 'Religion' in Spartan and Caribbean history text", "emotion": "none"}
+{"neuron": 6345, "cluster": 7, "mode": "';' inside code comments and variable-declaration lines", "emotion": "none"}
+{"neuron": 6345, "cluster": "other", "mode": "'instructions', digit '9', 'of' in mixed legal and software text", "emotion": "none"}
+{"neuron": 6438, "cluster": 0, "mode": "'in' after 'play' or 'played together' before a place", "emotion": "none"}
+{"neuron": 6438, "cluster": 1, "mode": "'Her', 'her', 'Lily's', 'his' possessive subject about mom or friends", "emotion": "none"}
+{"neuron": 6438, "cluster": 2, "mode": "'the' before a place noun (park, garden, woods) in explorations", "emotion": "none"}
+{"neuron": 6438, "cluster": 3, "mode": "'play' after 'loved', 'liked', or 'run fast and'", "emotion": "none"}
+{"neuron": 6438, "cluster": 4, "mode": "contraction stems 'couldn', 'wasn', 'hadn', 'didn' in kids' story text", "emotion": "none"}
+{"neuron": 6438, "cluster": 5, "mode": "period ending a closing sentence about friendship or fun together", "emotion": "none"}
+{"neuron": 6438, "cluster": 6, "mode": "trailing spaces after a period at paragraph ends", "emotion": "none"}
+{"neuron": 6438, "cluster": 7, "mode": "'Har'/'lan' in book titles; 'of' in a TV title", "emotion": "none"}
+{"neuron": 6438, "cluster": 8, "mode": "'toy' in noun phrases (toy box, toy robot, toy animals)", "emotion": "none"}
+{"neuron": 6438, "cluster": 9, "mode": "'park' or 'garden' as a place noun after 'in the'", "emotion": "none"}
+{"neuron": 6438, "cluster": 10, "mode": "'mom' or 'Mom' as possessive or subject in kids' stories", "emotion": "none"}
+{"neuron": 6438, "cluster": "other", "mode": "'of', 'the', 'a' in mixed reminiscence and war-story text", "emotion": "none"}

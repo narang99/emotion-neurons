@@ -1,0 +1,8 @@
+# Key-value read of the top-64 neurons (Geva et al. 2021): what each value promotes, and agreement with the next
+# token at its key's hits. CPU; needs runs/top64_l25 (bash scripts/fetch_runs.sh top64_l25).
+#   python scripts/kv_values.py --config configs/kv_values_l25.yaml
+run_id: kv_values_l25
+model: Qwen/Qwen3-8B
+layer: 25
+probe:
+  source_run: top64_l25

@@ -1,0 +1,47 @@
+{"neuron": 6561, "cluster": 0, "mode": "'you' right after 'Could' or 'Can' opening a user's request to the assistant", "emotion": "none"}
+{"neuron": 6561, "cluster": 1, "mode": "'and' or 'She' after a character smiles or nods in a children's story", "emotion": "none"}
+{"neuron": 6561, "cluster": 2, "mode": "colon after 'assistant' starting a reply, mostly 'Sure' after a user request", "emotion": "none"}
+{"neuron": 6561, "cluster": "other", "mode": "colon after 'user' or 'assistant' role label in chat transcripts; also a citation digit", "emotion": "none"}
+{"neuron": 6561, "summary": "Fires on chat-transcript structure ('you' after Could/Can, colons after role labels) and story narration; not emotion-related."}
+{"neuron": 6679, "cluster": 0, "mode": "'a', 'her', 'his' after 'had', 'with', 'asked' in a child's story about possessions", "emotion": "none"}
+{"neuron": 6679, "cluster": 1, "mode": "period ending a child's sentence about an outing or plan (park, lake, candy store)", "emotion": "none"}
+{"neuron": 6679, "cluster": 2, "mode": "'and' right after 'smiled' or 'laughed' in children's stories", "emotion": "none"}
+{"neuron": 6679, "cluster": 3, "mode": "character name or pronoun opening a sentence after another character's problem (Billy, Max, He)", "emotion": "none"}
+{"neuron": 6679, "cluster": "other", "mode": "function words in simple stories: 'with' before 'their hands', 'I' in 'Can I push'", "emotion": "none"}
+{"neuron": 6679, "summary": "Fires on function words and subject references in simple children's stories, predicting the next action; not emotion-related."}
+{"neuron": 6766, "cluster": 0, "mode": "clause-final word in children's stories: 'water', 'fast', 'quiet', 'feeling', 'and'", "emotion": "none"}
+{"neuron": 6766, "cluster": 1, "mode": "period or 'position' ending an exercise instruction step (plank, child's pose, shrug)", "emotion": "none"}
+{"neuron": 6766, "cluster": "other", "mode": "'background' before '-color' in CSS hover and nth-child rules", "emotion": "none"}
+{"neuron": 6766, "summary": "Fires on clause-final words in children's stories, exercise instructions and CSS 'background-color'; not emotion-related."}
+{"neuron": 6882, "cluster": 0, "mode": "'next' in 'next week' or 'next time' after a future event (presentation, big test)", "emotion": "none"}
+{"neuron": 6882, "cluster": 1, "mode": "'over' in 'over the last year' or 'over the past 30 years' in news and reports", "emotion": "none"}
+{"neuron": 6882, "cluster": 2, "mode": "'time' in 'had such a great time', 'facing', 'well', 'there' closing a clause", "emotion": "none"}
+{"neuron": 6882, "cluster": 3, "mode": "'years' in time spans: 'two years ago', 'a year ago', '15 to 20 years from now'", "emotion": "none"}
+{"neuron": 6882, "cluster": "other", "mode": "'unable' in assistant refusals, 'the' before 'article', 'consistent' in a science paper", "emotion": "none"}
+{"neuron": 6882, "summary": "Fires on time-span and clause-ending words in news, stories and chat; mainly temporal phrasing, not emotion-related."}
+{"neuron": 7504, "cluster": 0, "mode": "verb or complement after 'happy that she', 'brave enough to', 'had found' in children's stories", "emotion": "none"}
+{"neuron": 7504, "cluster": 1, "mode": "'Thank' opening 'Thank you' gratitude in children's dialogue", "emotion": "none"}
+{"neuron": 7504, "cluster": "other", "mode": "'than' in 'more toys than you', 'To' in 'What To Do', 'a' in 'There are a variety'", "emotion": "none"}
+{"neuron": 7504, "summary": "Fires on verbs and 'Thank' openers in children's stories and a few comparison or recipe phrases; not emotion-related."}
+{"neuron": 7527, "cluster": 0, "mode": "'so' or 'very' right before a feeling or pretty adjective: 'was so proud', 'were so happy', 'was very sad'", "emotion": "emotion-general"}
+{"neuron": 7527, "cluster": 1, "mode": "'t' or 'not' in 'didn't know' or 'did not want' while a character is scared or tense", "emotion": "afraid"}
+{"neuron": 7527, "cluster": 2, "mode": "'wanted' after a character's fear or frustration: 'Jane wanted to escape', 'wanted to cry'", "emotion": "none"}
+{"neuron": 7527, "cluster": 3, "mode": "'She' or 'He' starting a sentence right after an excited, amazed or proud sentence", "emotion": "emotion-general"}
+{"neuron": 7527, "cluster": 4, "mode": "'to' after 'started' before cry, frown, walk or feel tired", "emotion": "emotion-general"}
+{"neuron": 7527, "cluster": 5, "mode": "'scared' (also 'sad') right after 'was', describing a character's feeling", "emotion": "afraid"}
+{"neuron": 7527, "cluster": 6, "mode": "opening quote mark starting dialogue after narration, e.g. 'Hi Timmy!' or 'Oh Sweetie'", "emotion": "none"}
+{"neuron": 7527, "cluster": 7, "mode": "period right after feeling words: 'feeling guilty and sad.', 'feeling very scared.', 'felt happy.'", "emotion": "emotion-general"}
+{"neuron": 7527, "cluster": 8, "mode": "digits, periods or 'Jul' inside bibliography and citation text", "emotion": "none"}
+{"neuron": 7527, "cluster": "other", "mode": "'.' after 'said Sarah excitedly', 'It' after a soft noise, 'were' in 'They were playing jazz'", "emotion": "none"}
+{"neuron": 7527, "summary": "Fires on intensifiers, negations and story tokens; several modes sit on fear, sadness or pride words, but it also covers citations, so it is only partly emotion-related."}
+{"neuron": 7555, "cluster": 0, "mode": "'he', 'were', 'atmosphere', 'opinion', 'And' in essays on people's temperament and opinions", "emotion": "none"}
+{"neuron": 7555, "cluster": 1, "mode": "period ending a sentence in essays or news about parties, climate, or markets", "emotion": "none"}
+{"neuron": 7555, "cluster": "other", "mode": "mixed: ')' in a title citation, 'and' in a building description, 'the' before 'main gateway'", "emotion": "none"}
+{"neuron": 7555, "summary": "Fires on sentence boundaries and function words in history, news and essay text; no feeling link."}
+{"neuron": 7717, "cluster": 0, "mode": "'a', 'some', 'for' before a flavour adjective in baked potato recipe toppings", "emotion": "none"}
+{"neuron": 7717, "cluster": 1, "mode": "'exposure', 'reach', 'faced', 'social' in child-education and programme text", "emotion": "none"}
+{"neuron": 7717, "cluster": 2, "mode": "'knew' or 'told' right after a character's kind or happy action: 'Max knew', 'Lily knew'", "emotion": "none"}
+{"neuron": 7717, "cluster": 3, "mode": "'proud' right after 'felt', 'was so', 'were very' describing a character", "emotion": "proud"}
+{"neuron": 7717, "cluster": 4, "mode": "adjective after 'a' or 'was' describing an object: thick, heavy, small, silver, soft", "emotion": "none"}
+{"neuron": 7717, "cluster": "other", "mode": "'still' after 'you can', 'secured' in news, 'keep' in 'to keep the story engaging'", "emotion": "none"}
+{"neuron": 7717, "summary": "Fires on modifier and verb tokens across lists, news and stories; only the 'proud' mode is clearly emotion-related."}

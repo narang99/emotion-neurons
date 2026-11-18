@@ -1,0 +1,11 @@
+# Do the top-64 neurons hit their p97 band, and which modes, on 60 new non-children emotional texts?
+#   bash scripts/fetch_runs.sh top64_l25
+#   python scripts/probe_stories.py --config configs/adult_probe_l25.yaml   # GPU (L4), a few minutes
+# Texts: data/adult_stories/ (Haiku; 12 emotions x 5: fiction, forum post, letter, journal, fiction;
+# idx 0-2 name the emotion, 3-4 never do).
+run_id: adult_probe_l25
+model: Qwen/Qwen3-8B
+layer: 25
+probe:
+  stories_dir: data/adult_stories
+  source_run: top64_l25

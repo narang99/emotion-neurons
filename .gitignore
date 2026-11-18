@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Large run outputs (pooled sums); results/ is committed
+runs/
+.cache/
+results/adult_probe_l25/hits.json

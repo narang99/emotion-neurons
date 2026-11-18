@@ -1,0 +1,22 @@
+# Stage 3-4: the layer-25 MLP neurons behind the MLP's emotion write, and their high activations.
+#   python scripts/neuron_set.py --config configs/stage3_l25.yaml   # CPU; needs results/stage2_l25/vectors.safetensors
+run_id: stage3_l25
+model: Qwen/Qwen3-8B
+layer: 25
+neuron_set:
+  vectors_run: stage2_l25
+  dim_share: 0.9
+  neuron_share: 0.9
+#   python scripts/harvest.py --config configs/stage3_l25.yaml  # GPU, ~2M tokens to layer 25
+#   python scripts/modes.py   --config configs/stage3_l25.yaml  # GPU (inputs at hits) + CPU HDBSCAN
+# At 0.9/0.9 the set is all 12288 neurons (the write is dense), so harvest and modes rank within it.
+harvest:
+  max_neurons: 1000
+  per_group: 25   # top 25 per (emotion, pole) -> ~600 neurons, + 50 random controls
+  n_controls: 50
+  window: 256
+  batch_size: 32
+modes:
+  per_group: 10   # top 10 per (emotion, pole) -> ~240 neurons, + 20 controls, named by Haiku
+  n_controls: 20
+  min_cluster_size: 10

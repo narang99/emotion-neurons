@@ -1,0 +1,108 @@
+{"neuron": 239, "cluster": 0, "mode": "'day' in 'From that day on' ending a story about a friendship or lesson", "emotion": "none"}
+{"neuron": 239, "cluster": 1, "mode": "'day' in the story opener 'One day,' starting a new event", "emotion": "none"}
+{"neuron": 239, "cluster": 2, "mode": "'now', 'anymore', 'this day' in 'to this day' and 'as much now' comparisons", "emotion": "none"}
+{"neuron": 239, "cluster": 3, "mode": "'this' in 'this time' after a repeated attempt or action", "emotion": "none"}
+{"neuron": 239, "cluster": "other", "mode": "'new' in 'the new journal'; 'this' in season and addressing-mode sentences", "emotion": "none"}
+{"neuron": 239, "summary": "Fires on time words ('day', 'now', 'this time', 'anymore') that mark a turn, repetition or present state; not emotion-related."}
+{"neuron": 684, "cluster": 0, "mode": "'the' before organization or agency names: 'the District', 'the NFL', 'the CDC'", "emotion": "none"}
+{"neuron": 684, "cluster": 1, "mode": "'day' in the story opener 'One day,' introducing a new character action", "emotion": "none"}
+{"neuron": 684, "cluster": 2, "mode": "final nouns of story clauses: 'adventure', 'seen', 'person', 'plane', 'outside'", "emotion": "none"}
+{"neuron": 684, "cluster": 3, "mode": "'with', 'in', 'into' after advice nouns: 'resonates with their audience', 'into your website'", "emotion": "none"}
+{"neuron": 684, "cluster": "other", "mode": "'your', 'on', 'throughout' in generic advice and news sentences", "emotion": "none"}
+{"neuron": 684, "summary": "Fires on function words and nouns that continue generic news, advice and children's-story sentences; not emotion-related."}
+{"neuron": 1052, "cluster": 0, "mode": "'your' in posture instructions: 'Sit with your spine straight', 'keep your arms'", "emotion": "none"}
+{"neuron": 1052, "cluster": 1, "mode": "'can', 'of', 'on', 'provides' in car-sharing and money-saving transport advice", "emotion": "none"}
+{"neuron": 1052, "cluster": 2, "mode": "punctuation and stray spaces inside recipe steps: 'occasionally[,]', 'broth [while]'", "emotion": "none"}
+{"neuron": 1052, "cluster": 3, "mode": "name fragments mid-word: 'Will[amette]', '[K]KK', 'John [Pro]ctor', 'Paul' Krugman", "emotion": "none"}
+{"neuron": 1052, "cluster": 4, "mode": "mid-sentence words in history and news: 'art[-making]', 'as [bad] as', 'anything [distinctive]'", "emotion": "none"}
+{"neuron": 1052, "cluster": 5, "mode": "punctuation after names and short dialogue lines: 'You know[,]', 'Lily[.]' in scripts", "emotion": "none"}
+{"neuron": 1052, "cluster": "other", "mode": "stray tokens: a phone-number digit, 'communic' fragment, 'reader' in a book review", "emotion": "none"}
+{"neuron": 1052, "summary": "Fires on punctuation, function words and word fragments across advice, recipes, history and dialogue; not emotion-related."}
+{"neuron": 1245, "cluster": 0, "mode": "punctuation ending technical sentences: 'Increased scalability[:]', 'Certainly[!]', 'conclusion[.]'", "emotion": "none"}
+{"neuron": 1245, "cluster": 1, "mode": "'show', 'songs', 'it', 'This' right after a description of a place, band or crime", "emotion": "none"}
+{"neuron": 1245, "cluster": 2, "mode": "'The' starting a sentence about the main animal or object in short children's stories", "emotion": "none"}
+{"neuron": 1245, "cluster": "other", "mode": "'$' in a Tcl label line; '!' after 'Definitely'; 'B' starting 'Bubba'", "emotion": "none"}
+{"neuron": 1245, "summary": "Fires on sentence-initial or subject-introducing tokens ('The', 'This', 'show') and punctuation in essays and simple stories; not emotion-related."}
+{"neuron": 1576, "cluster": 0, "mode": "verbs and punctuation in historical and ethnic narrative: 'finally, [considers]', 'conflicts[,]'", "emotion": "none"}
+{"neuron": 1576, "cluster": 1, "mode": "object nouns in stories: 'like that [bird]', 'the way [it] glowed', 'Islamic [jewelry]'", "emotion": "none"}
+{"neuron": 1576, "cluster": 2, "mode": "DUPLICATE: closing parens and whitespace in PHP and C++ code: 'if ($result === false[)]'", "emotion": "none"}
+{"neuron": 1576, "cluster": "other", "mode": "'into' in 'turn the sky into a rainbow'; 'physics' in arXiv list; 'greatly' in a request", "emotion": "none"}
+{"neuron": 1576, "summary": "Fires on mid-sentence words and punctuation in prose, stories and code; not emotion-related."}
+{"neuron": 1601, "cluster": 0, "mode": "'customers', 'day', 'audience', 'and' in marketing, wellness and story sentences", "emotion": "none"}
+{"neuron": 1601, "cluster": 1, "mode": "DUPLICATE: closing ')' and 'The' after population figures in census text", "emotion": "none"}
+{"neuron": 1601, "cluster": "other", "mode": "'has' and 'a' in 'The child has a hundred languages' poem; '270[,]125 hectares'", "emotion": "none"}
+{"neuron": 1601, "summary": "Fires on generic prose positions in marketing, story, poem and census text; not emotion-related."}
+{"neuron": 1667, "cluster": 0, "mode": "'from', 'retain', 'to', 'with', 'about' after audience or engagement nouns in marketing tips", "emotion": "none"}
+{"neuron": 1667, "cluster": 1, "mode": "food and drink words: 'Smoothie', 'hot' chocolate, 'overnight' oats, 'vegan' alternative", "emotion": "none"}
+{"neuron": 1667, "cluster": 2, "mode": "'so' or 'content' right before a happy or excited feeling: 'was [so] happy', 'was [so] excited'", "emotion": "emotion-general"}
+{"neuron": 1667, "cluster": 3, "mode": "DUPLICATE: '->' in PHP code parsing XML: '$xml channel[->]item'", "emotion": "none"}
+{"neuron": 1667, "cluster": "other", "mode": "'tests' in NASA instrument sentence; '8' in a participant count; 'Post' in comments text", "emotion": "none"}
+{"neuron": 1667, "summary": "Mostly non-emotional, firing on marketing, food and PHP-code tokens; partly on 'so' before happy or excited words in children's stories."}
+{"neuron": 1699, "cluster": 0, "mode": "dashes separating ingredients in recipe lists: 'tomatoes [-] 1 medium onion'", "emotion": "none"}
+{"neuron": 1699, "cluster": 1, "mode": "'was', 'felt', 'scoop' in story endings where a character is very happy or glad", "emotion": "happy"}
+{"neuron": 1699, "cluster": 2, "mode": "word fragments in science text: 'bios[phere]', 'chromat[ography]', 'micro[be]', 'chem[ists]'", "emotion": "none"}
+{"neuron": 1699, "cluster": "other", "mode": "'maps' in lab instructions; 'Sunday' in an obituary; colon in a book citation", "emotion": "none"}
+{"neuron": 1699, "summary": "Fires on recipe dashes, mid-word fragments in science text, and on 'was' or nouns in happy story endings; emotion is only partial."}
+{"neuron": 2357, "cluster": 0, "mode": "colons after dish or item names in recipe and idea lists: 'Quinoa salad[:]'", "emotion": "none"}
+{"neuron": 2357, "cluster": 1, "mode": "'this' in 'during the period covered by this report' in government human-rights reports", "emotion": "none"}
+{"neuron": 2357, "cluster": "other", "mode": "'th' in grade-level ranges; '(' after a place name in a news byline", "emotion": "none"}
+{"neuron": 2357, "summary": "Fires on list colons in recipes and on 'this' in government human-rights report boilerplate; not emotion-related."}
+{"neuron": 2365, "cluster": 0, "mode": "commas and periods after clauses in tourism, social-science and tech prose", "emotion": "none"}
+{"neuron": 2365, "cluster": 1, "mode": "DUPLICATE: '.;' between author names in a citation list: 'Jellouli, F[.;] Le Clesian'", "emotion": "none"}
+{"neuron": 2365, "cluster": "other", "mode": "'published' in 'will be published on January 13'; space and '.' in citation and lab text", "emotion": "none"}
+{"neuron": 2365, "summary": "Fires on punctuation after clauses in prose and between author names in reference lists; not emotion-related."}
+{"neuron": 2484, "cluster": 0, "mode": "'are', 'leaders', 'fighting', 'disagreement' in scenes of siblings or groups in conflict", "emotion": "none"}
+{"neuron": 2484, "cluster": 1, "mode": "'there' in the fairy-tale opener 'Once upon a time, there was'", "emotion": "none"}
+{"neuron": 2484, "cluster": "other", "mode": "'4' in a list of design ideas; '=' in a Julia matrix-input function", "emotion": "none"}
+{"neuron": 2484, "summary": "Fires on 'there' in fairy-tale openers and on conflict words in quarrel scenes; the conflict is not one clear feeling, so not emotion-labelled."}
+{"neuron": 3457, "cluster": 0, "mode": "colons and periods after list headings or sentences in advice: 'Reading[:]', 'work[.]'", "emotion": "none"}
+{"neuron": 3457, "cluster": 1, "mode": "subject name, 'She' or 'and' right after a happy, proud or delighted outcome in stories", "emotion": "emotion-general"}
+{"neuron": 3457, "cluster": 2, "mode": "DUPLICATE: numeric reference tokens in bracket lists: '(7) [2]9-31', 'two categories [5,19,21,2[4]'", "emotion": "none"}
+{"neuron": 3457, "cluster": "other", "mode": "'1' in a 1100 date; '[' in a Python vowel set", "emotion": "none"}
+{"neuron": 3457, "summary": "Fires on list colons, numeric references and subject words after a happy or proud outcome; partly emotion-related."}
+{"neuron": 3692, "cluster": 0, "mode": "biology and health nouns after a cause: 'melatonin [production]', 'brain [receptors]', 'neuromuscular [connection]'", "emotion": "none"}
+{"neuron": 3692, "cluster": 1, "mode": "'with', 'that', 'tracking', 'retain' after audience or customers in social-media marketing", "emotion": "none"}
+{"neuron": 3692, "cluster": "other", "mode": "'to', 'representing' in company and infographic text; 'â' in a story", "emotion": "none"}
+{"neuron": 3692, "summary": "Fires on biology and marketing function words and nouns; not emotion-related."}
+{"neuron": 4239, "cluster": 0, "mode": "verbs and adjectives ending clauses: 'would never [forget]', 'shut [down]', 'after they finished [playing]'", "emotion": "none"}
+{"neuron": 4239, "cluster": 1, "mode": "'the' after motion verbs in short stories: 'jumped into [the] seat', 'loaded her into [the] car'", "emotion": "none"}
+{"neuron": 4239, "cluster": 2, "mode": "DUPLICATE: '&' in publisher citations: 'Ticknor [&] Fields', 'Moore[house] & Taylor'", "emotion": "none"}
+{"neuron": 4239, "cluster": 3, "mode": "SEO, marketing and farming words: 'SEO' efforts, 'locally [produced]', 'customized' solutions", "emotion": "none"}
+{"neuron": 4239, "cluster": 4, "mode": "name and number fragments in lists: 'Naram[-S]in', 'Mephib[osh]eth', 'Jerzy [G]rotowski'", "emotion": "none"}
+{"neuron": 4239, "cluster": "other", "mode": "'the' in a comet story; 'tested' in a medical-donor rule; 'You' starting a hummus tip", "emotion": "none"}
+{"neuron": 4239, "summary": "Fires on mid-phrase tokens in varied text, with no clear emotion link; not emotion-related."}
+{"neuron": 4382, "cluster": 0, "mode": "'As' starting a clause after an event in adventure stories: 'As soon as he arrived'", "emotion": "none"}
+{"neuron": 4382, "cluster": 1, "mode": "comma after 'feeling scared' and nearby tokens ('protect her', 'the animals') in stories about fear", "emotion": "afraid"}
+{"neuron": 4382, "cluster": 2, "mode": "'in' and 'and' between years and numbers in statistics: '2.5 million [in] 2013'", "emotion": "none"}
+{"neuron": 4382, "cluster": "other", "mode": "'it' in a stub notice; '%' after a CAGR figure; '[as]' in a pickling recipe", "emotion": "none"}
+{"neuron": 4382, "summary": "Mostly not emotion-related; fires on 'As' in adventure sentences and year-range words, and partly on fear words in scared-character stories."}
+{"neuron": 4408, "cluster": 0, "mode": "'even' in requests to make a story, infographic or talk 'even more engaging'", "emotion": "none"}
+{"neuron": 4408, "cluster": 1, "mode": "'until', 'becomes', 'still', 'not' in cooking steps: 'cook [until]', 'still runny'", "emotion": "none"}
+{"neuron": 4408, "cluster": 2, "mode": "'and' right after a feeling word: 'so proud [and]', 'so happy [and]', 'sad [and]', 'glad [and]'", "emotion": "emotion-general"}
+{"neuron": 4408, "cluster": 3, "mode": "'smile' and 'smiles' ending happy story scenes; 'friendship' and 'structures' elsewhere", "emotion": "happy"}
+{"neuron": 4408, "cluster": 4, "mode": "'very' right before a feeling word: 'felt [very] happy', 'felt [very] cheerful', 'were [very] sad'", "emotion": "emotion-general"}
+{"neuron": 4408, "cluster": 5, "mode": "'was' or 'is' after 'It' describing an object in a story: 'It [was] yelling', 'think it [is] funny'", "emotion": "none"}
+{"neuron": 4408, "cluster": 6, "mode": "'so' right before happy or excited: 'was [so] happy', 'was [so] excited' in short stories", "emotion": "emotion-general"}
+{"neuron": 4408, "cluster": "other", "mode": "'you', 'it', 'more' in story and request sentences: 'make [you] one of the richest'", "emotion": "none"}
+{"neuron": 4408, "summary": "Feeling-intensifier neuron: fires on the word just before a feeling word ('so', 'very', 'and') in happy or sad stories, and on 'even' and 'until' in requests and recipes; emotion-related."}
+{"neuron": 4765, "cluster": 0, "mode": "nouns closing lists or clauses: 'relationships', 'lives', 'stories', 'channels' in advice and reviews", "emotion": "none"}
+{"neuron": 4765, "cluster": 1, "mode": "'It' starting a sentence about a scene in a story: 'The lion... [It] was so beautiful'", "emotion": "none"}
+{"neuron": 4765, "cluster": 2, "mode": "'and', 'was', 'He' right after a glad or proud outcome: 'happy to have found her toy again [and]'", "emotion": "emotion-general"}
+{"neuron": 4765, "cluster": 3, "mode": "full stop after a happy ending: 'big smile on his face[.]', 'had a lot of fun[.]'", "emotion": "happy"}
+{"neuron": 4765, "cluster": "other", "mode": "'good' in 'a good name'; 'it' in 'I love [it] when the sun glows'; 'was' in a rain story", "emotion": "none"}
+{"neuron": 4765, "summary": "Fires on sentence subjects and sentence ends in children's stories, and on 'and' and 'was' after glad or proud outcomes; partly emotion-related."}
+{"neuron": 5133, "cluster": 0, "mode": "clause-joining words in kids' stories: 'excited to [explore]', 'fearful of the truck [and]', 'didn't know what it was for, [but]'", "emotion": "none"}
+{"neuron": 5133, "cluster": 1, "mode": "'day' in the story opener 'One day,' starting a new adventure", "emotion": "none"}
+{"neuron": 5133, "cluster": "other", "mode": "'1' in 'Pomeranians' history; '9' in a 1999 citation year; ':' after 'assistant'", "emotion": "none"}
+{"neuron": 5133, "summary": "Fires on 'One day' openers and clause-joining words in children's stories; not emotion-related."}
+{"neuron": 5250, "cluster": 0, "mode": "'day' in 'One day,' or 'One sunny day,' starting a story event", "emotion": "none"}
+{"neuron": 5250, "cluster": 1, "mode": "'play', 'tried', 'try', 'can' after a character's wish or excitement to do something", "emotion": "none"}
+{"neuron": 5250, "cluster": 2, "mode": "'band', 'Guidance', 'original' in band-history text and 'ALEX Lesson Plans' headers", "emotion": "none"}
+{"neuron": 5250, "cluster": "other", "mode": "'and', 'eased', 'Our' in fitness and consumer price report sentences", "emotion": "none"}
+{"neuron": 5250, "summary": "Fires on 'day' openers, verbs of trying and playing, and lesson-plan headers; not emotion-related."}
+{"neuron": 5350, "cluster": 0, "mode": "'each', 'little', 'have' in short children's dialogue after a group action", "emotion": "none"}
+{"neuron": 5350, "cluster": 1, "mode": "'island', 'others', 'it', 'and', 'is' in narrative and discussion sentences", "emotion": "none"}
+{"neuron": 5350, "cluster": 2, "mode": "word fragments in opinion text: 'mini[mu]scule', 'tail[oring]', 'rab[id]', 'melod[ramatic]'", "emotion": "none"}
+{"neuron": 5350, "cluster": 3, "mode": "digits and decimals in numbers: '$145[.]0 million', '3[274] inhabitants', 'August [1]0'", "emotion": "none"}
+{"neuron": 5350, "cluster": "other", "mode": "'From' starting a sentence after 'then on'; 'was' in a soil-biomass study", "emotion": "none"}
+{"neuron": 5350, "summary": "Fires on mid-word fragments, digits and function words in stories and news; not emotion-related."}
