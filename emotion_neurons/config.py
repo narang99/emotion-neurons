@@ -146,6 +146,15 @@ class SparseSetConfig(Section):
     shrink_kappas: list[float] = Field([1.0, 4.0, 9.0], description="shrunk-target greedy: r = max(0, 1 - kappa/t^2)")
 
 
+class ProbeConfig(Section):
+    stories_dir: Path = Path("data/adult_stories")
+    source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
+    skip_first: int = 4
+    context_before: int = 20
+    context_after: int = 4
+    examples_per_neuron: int = 8
+
+
 class RunConfig(BaseSettings):
     model_config = SettingsConfigDict(extra="forbid", cli_kebab_case=True)
 
@@ -166,6 +175,7 @@ class RunConfig(BaseSettings):
     modes: ModesConfig = ModesConfig()
     min_set: MinSetConfig = MinSetConfig()
     sparse_set: SparseSetConfig = SparseSetConfig()
+    probe: ProbeConfig = ProbeConfig()
 
     @classmethod
     def settings_customise_sources(
