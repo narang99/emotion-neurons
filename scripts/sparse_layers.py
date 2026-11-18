@@ -62,6 +62,10 @@ def layer_sets(cfg: RunConfig, means: LayerMeans, split: StorySplit, layer: int)
     return {"rebuild_rel_err": rebuild, "emotions": sets}
 
 
+def mean_of(values: list[float]) -> str:
+    return f"{sum(values) / len(values):.2f}" if values else "-"
+
+
 def summary_rows(results: dict[int, dict]) -> list[str]:
     rows = [
         "| layer | k_match (median, min-max) | cos at match | k for cos target | ceiling | best transfer |",
@@ -74,7 +78,7 @@ def summary_rows(results: dict[int, dict]) -> list[str]:
         median = ks[len(ks) // 2] if ks else None
         rows.append(
             f"| {layer} | {median} ({ks[0] if ks else '-'}-{ks[-1] if ks else '-'}; {len(ks)}/12 matched) | "
-            f"{sum(s['cos_at_match'] or 0 for s in sets) / 12:.2f} | {targets[len(targets) // 2] if targets else '-'} | "
+            f"{mean_of([s['cos_at_match'] for s in sets if s['k_match']])} | {targets[len(targets) // 2] if targets else '-'} | "
             f"{sum(s['ceiling'] for s in sets) / 12:.2f} | {sum(s['best_transfer'] for s in sets) / 12:.2f} |"
         )
     return rows
