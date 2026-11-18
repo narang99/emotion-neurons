@@ -156,7 +156,8 @@ class NeuronCircuitConfig(Section):
     layer: int = 25
     neuron: int = 3068
     texts_dir: Path = Field(Path("data/adult_stories"), description="scanned with the held-out training stories")
-    harvest_run: str = Field("top64_l25", description="its harvest.json gives the neuron's p97")
+    harvest_run: str = Field("top64_l25", description="its harvest.json gives the neuron's percentile thresholds")
+    band: int = Field(0, description="hit threshold: index into the harvest percentiles (0: p97, 1: p99, 2: p99.9, 3: p99.99)")
     top_writers: int = 30
     top_readers: int = 15
     check_sizes: list[int] = [5, 20, 100]

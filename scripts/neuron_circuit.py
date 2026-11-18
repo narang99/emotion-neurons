@@ -2,7 +2,7 @@
 
     python scripts/neuron_circuit.py --config configs/neuron_circuit_3068.yaml
 
-- Hit tokens: every token past the first 4 where the neuron is at or above its harvest p97, over the adult texts and
+- Hit tokens: every token past the first 4 where the neuron is at or above a harvest percentile (`band`), over the adult texts and
   the held-out stories.
 - Writers (`emotion_neurons.circuits.neuron.split_input`): its gate and up inputs split exactly into the embeddings,
   each layer's attention, and each earlier neuron.
@@ -121,7 +121,7 @@ def main():
     nc = cfg.neuron_circuit
     t0 = time.time()
     model, tokenizer = load_model(cfg.model, cfg.device)
-    threshold = json.loads((cfg.results_dir / nc.harvest_run / "harvest.json").read_text())["thresholds"][str(nc.neuron)][0]
+    threshold = json.loads((cfg.results_dir / nc.harvest_run / "harvest.json").read_text())["thresholds"][str(nc.neuron)][nc.band]
     means = load_file(str(cfg.circuits.vectors_file))["mlp_act_mean"]
     L, n = nc.layer, nc.neuron
     last = len(decoder_layers(model)) - 1
@@ -206,7 +206,7 @@ def main():
 
     # Causal readout: next-token log-probabilities and reader activations, clean vs the neuron held at its mean.
     reader_layers = sorted({k for k, _ in readers})
-    shift = torch.zeros(len(tokenizer))
+    shift = torch.zeros(model.lm_head.weight.shape[0])  # padded beyond the tokenizer's vocabulary
     reader_actual = torch.zeros(len(readers))
     for _, ids, tokens in sequences:
         clean_logp, clean_acts = run_with(model, ids, reader_layers, None)
