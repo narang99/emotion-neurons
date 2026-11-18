@@ -10,7 +10,9 @@
   - Check: hold the top writers at their mean at the hit tokens and compare the activation change with the
     first-order prediction, against random writers of the same number.
 - Readers: every neuron of the later layers, ranked by the first-order change of its activation caused by this
-  neuron's write; then each reader's value is read through the unembedding.
+  neuron's write (against its mean); then each reader's value is read through the unembedding.
+  - `predicted_change_per_hit` is for the neuron firing; `change_when_held_per_hit` for holding it at its mean,
+    so the two have opposite signs when the prediction is right.
   - Check: hold this neuron at its mean and compare the top readers' activation change with the prediction.
 - Causal readout: with the neuron held at its mean at the hit tokens, the change in next-token log-probabilities.
 - Writes results/<run_id>/neuron_circuit.json.
@@ -198,7 +200,7 @@ def main():
         {
             "layer": k,
             "neuron": j,
-            "change_per_hit": float(totals["readers"][k - L - 1, j]),
+            "predicted_change_per_hit": float(totals["readers"][k - L - 1, j]) / len(hits),
             "value": value_tokens(model, tokenizer, k, j),
         }
         for k, j in readers
@@ -216,7 +218,7 @@ def main():
         for i, (k, j) in enumerate(readers):
             reader_actual[i] += float((held_acts[k][rows, j] - clean_acts[k][rows, j]).sum())
     for i, row in enumerate(reader_rows):
-        row["actual_change_when_held_per_hit"] = float(reader_actual[i]) / len(hits)
+        row["change_when_held_per_hit"] = float(reader_actual[i]) / len(hits)
     down = shift.topk(nc.top_tokens, largest=False)
     up = shift.topk(nc.top_tokens)
     readout = {"most_lowered": [[tokenizer.decode([i]), float(v) / len(hits)] for v, i in zip(down.values.tolist(), down.indices.tolist())],
