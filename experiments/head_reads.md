@@ -1,6 +1,6 @@
 # Attention heads into MLP neurons, and a vocabulary read of the part each neuron uses
 
-Date: 2026-11-19. Branch: `stack/04-read-rows` (PR #5). Tag: `exp/head_reads`. Status: kept.
+Date: 2026-11-19. Branch: `stack/04-read-rows` (PR #6). Tag: `exp/head_reads`. Status: kept.
 
 Config: `configs/head_reads.yaml`. Results: `results/head_reads/head_reads.json`.
 
