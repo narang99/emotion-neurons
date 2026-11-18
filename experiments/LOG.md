@@ -1,22 +1,94 @@
 # Experiment log
 
-- One line per experiment, in order, failures included.
-- Each has a tag at the commit that produced its results, and a detailed log in `experiments/`.
-- Status: **kept** (in `main`, feeds the result), **failed** (branch and tag kept, not merged), **superseded**.
+This file is the index of all experiments, in order. It also records how the work went: the method, the mistakes, what worked and what did not.
+
+## How to read this file
+
+- Each experiment has one row in the table.
+- Each experiment has a tag at the commit that made its results.
+- Each experiment has a detailed log in `experiments/`.
+- Status:
+  - **kept**: the result is in `main` (or in a PR for `main`) and is part of the final result;
+  - **failed**: the method did not work. The branch and the tag stay. The log tells why;
+  - **superseded**: a later experiment replaced it.
+
+## Index
 
 | tag | status | what | result | log |
 |---|---|---|---|---|
-| `exp/stories` | kept | 1680 Claude-written stories (12 emotions x 20 topics x 6, 240 neutral) | validator + audit pass | `PLAN.md` |
-| `exp/stage2_l25` | kept | emotion vectors at layer 25 (mean minus the 12-emotion mean, neutral PCs removed) | held-out 12-way accuracy 0.81-0.84 | `stage2_l25.md` |
-| `exp/stage3_l25` | kept | neurons behind each MLP write; 2M-token harvest; HDBSCAN modes named by Haiku | 0.9/0.9 dims-then-neurons keeps all 12288; pos-pole neurons 0.30 feeling-word modes vs controls 0.15 | `stage3_l25.md` |
-| `exp/min_set_l25` | superseded | greedy minimum set per emotion write | cos 0.9 with 700-1050 neurons; replaced by sparse sets with a held-out stop | `top64_l25.md` |
-| `exp/sparse_l25` | kept | sparse sets with held-out transfer; swaps, crossfit, shrunk targets; top-64 modes | 298-1233 neurons match the full MLP; no knee; hill-climbing gains <= 6.5% | `top64_l25.md` |
-| `exp/sparse_l25` (round 1 of crossfit) | failed | crossfit with a cross-half Gram | indefinite Gram, transfer ~0; fixed by the halves' own norms | `top64_l25.md` |
-| `exp/probe_kv_l25` | kept | top 64 on 60 adult texts; values through the unembedding | 3068 pride, 2862 laughter, 11109 racing heart read and write their concept; next-token agreement at chance | `probe_kv_l25.md` |
-| `exp/probe_kv_l25` (mode assignment) | failed | assigning new hits to modes from 5 exemplars | too strict, 2% pass; needs saved full cluster centres | `probe_kv_l25.md` |
-| `refactor/src-layout` | kept | refactor into a src/ library with thin scripts (`6c3f430`) | CPU and L4 regression identical: stage2 sums 1.6e-8, all 1440 labels, projections, harvest (bit-identical acts), modes, probe | commit message |
-| `exp/journey_all` | kept | emotion vectors across all 36 layers: attention vs MLP shares, direction, decodability | held-out accuracy peaks at 0.87 (layer 22); layer-25 vector 66% attention / 34% MLP; last layer 40% / 60%; middle MLPs barely write along it | `journey_all.md` |
-| `exp/sparse_layers` | kept | sparse sets of every layer's MLP emotion write (greedy, held-out stop) | cos 0.9 needs ~1200 neurons in layers 10-20, ~570 in 28-34, 38 at layer 35; k_match defined to +/-4% | `sparse_layers.md` |
-| `exp/circuits_l25-round1` | failed | dense circuits for the layer-25 score, ranked by effect against zero | faithfulness -0.1 at 100-1000 neurons, 0.53 at 30000: ranked constant activations; fix: effect against the mean (round 2, pending) | `circuits_l25.md` |
-| `exp/circuits_l25-round2` | failed | the same, ranked by effect against the mean | faithfulness -0.04 to -0.21 at 100-3000 neurons, 0.75 at 30000; joint mean ablation of 26 layers is beyond a first-order ranking | `circuits_l25.md` |
-| `exp/neuron_circuits` | kept | local circuits of 3068 (pride) and 11109 (racing heart): exact input splits, readers, checks | shame / embarrassment / pride writers -> 3068 -> pride and posture readers; holding 3068 lowers " pride" 0.85 nats; 11109 -> pulse / unease readers, lowers " adrenal", " cortisol" | `neuron_circuits.md` |
+| `exp/stories` | kept | 1680 stories by Claude: 12 emotions x 20 topics x 6, and 240 neutral | the validator and the audit pass | `PLAN.md` |
+| `exp/stage2_l25` | kept | emotion vectors at layer 25: emotion mean minus the 12-emotion mean, neutral directions removed | held-out 12-way accuracy 0.81-0.84 | `stage2_l25.md` |
+| `exp/stage3_l25` | kept | the neurons behind each MLP write; a 2M-token harvest; modes named by Haiku | the 0.9 / 0.9 rule keeps all 12288 neurons; 0.30 of the hits of the pos-pole neurons are in feeling-word modes (controls 0.15) | `stage3_l25.md` |
+| `exp/min_set_l25` | superseded | greedy minimum set for each emotion write | cosine 0.9 with 700-1050 neurons; replaced by sparse sets with a held-out stop | `top64_l25.md` |
+| `exp/sparse_l25` | kept | sparse sets with held-out transfer; swaps, cross-fit, shrunk targets; modes of the top 64 | 298-1233 neurons match the full MLP; no knee; hill-climbing gains are 6.5% or less | `top64_l25.md` |
+| `exp/sparse_l25` (cross-fit, round 1) | failed | cross-fit with a cross-half Gram matrix | the Gram matrix was indefinite and the transfer was about 0; fixed with the halves' own norms | `top64_l25.md` |
+| `exp/probe_kv_l25` | kept | the top 64 on 60 adult texts; values through the unembedding | 3068 (pride), 2862 (laughter) and 11109 (racing heart) read and write their concept; next-token agreement is at chance | `probe_kv_l25.md` |
+| `exp/probe_kv_l25` (mode assignment) | failed | put new hits into modes from 5 exemplars | too strict: 2% pass; needs the full cluster centres | `probe_kv_l25.md` |
+| `refactor/src-layout` | kept | the code becomes a `src/` library with thin scripts | CPU and L4 results are identical to the old code | "Refactor" below |
+| `exp/journey_all` | kept | emotion vectors at all 36 layers: attention and MLP parts, direction, accuracy | accuracy is highest at layer 22 (0.87); the layer-25 vector is 66% attention and 34% MLP; the last-layer vector is 40% and 60% | `journey_all.md` |
+| `exp/sparse_layers` | kept | sparse sets of the MLP emotion write at every layer | cosine 0.9 needs about 1200 neurons at layers 10-20, 570 at layers 28-34, 38 at layer 35 | `sparse_layers.md` |
+| `exp/circuits_l25-round1` | failed | whole-network circuits for the layer-25 score, ranked by effect against zero | faithfulness -0.1 at 100-1000 neurons; it ranked constant activations | `circuits_l25.md` |
+| `exp/circuits_l25-round2` | failed | the same, ranked by effect against the mean | faithfulness -0.04 to -0.21 at 100-3000 neurons; the check is too far from normal model states | `circuits_l25.md` |
+| `exp/neuron_circuits` | kept | local circuits of 3068 (pride) and 11109 (racing heart) | shame and pride writers drive 3068; 3068 drives pride and posture readers; holding 3068 lowers " pride" by 0.85 nats | `neuron_circuits.md` |
+
+## Record of the session of 2026-11-18 and 2026-11-19
+
+### Questions from the review, and what we found
+
+- An external reviewer said that the MLP write is "mostly not the emotion vector". We tested this.
+  - The MLP write has cosine 0.32-0.41 with the layer-25 emotion vector.
+  - But the part of the write at right angles to all 12 vectors still gives 0.73 held-out accuracy (chance: 0.08).
+  - The part along the vectors gives 0.69. Thus most of the write is emotion information, but not along the vector.
+  - Topic cannot cause it: each emotion uses the same 20 topics, 6 stories each.
+- **Mistake:** before this test, I agreed with the reviewer and said that most neurons "serve directions with no relation to the emotion". The test showed that this was wrong. I corrected it.
+- With neutral directions removed or not, the cosine changes only a little (0.41 raw, 0.37 denoised).
+- Conclusion: by the paper's recipe, the MLP write is exactly the MLP's part of the emotion vector. No extra projection is necessary.
+
+### Refactor
+
+- **What we did:**
+  - We moved the code into a `src/emotion_neurons/` library: models, texts, capture, vectors, decomposition, harvest, modes, values, circuits.
+  - The vector recipe is isolated behind `EmotionVectors`.
+  - The scripts became thin: they read the config, call the library, and save.
+  - We added `jaxtyping`, `einops`, ruff and a pre-commit hook (from in-tfm).
+  - We added tests for exact identities.
+- **How we checked it:**
+  - First, we copied all old results to a baseline folder.
+  - On CPU, we ran each refactored script and compared each output with `scripts/compare_results.py`.
+  - On the L4, we ran extraction, vectors, projection, report, harvest, modes and the adult-text probe again.
+  - All results are identical, or differ only by float rounding (1e-16) or by the order of two equal values.
+- **Mistakes and problems during the refactor:**
+  - The write tool did not replace an existing file that I had not read. The first comparison thus used the old file and said "identical". I saw that the script had failed, replaced the file, and compared again.
+  - A zsh loop did not split `$c` into words. Thus two scripts did not run, and the comparison used old files. I ran each script on its own line.
+  - The new package needed `einops` and `jaxtyping` on its branch. The first run failed until I added them.
+  - The committed `modes_summary.md` of Stage 3 was old. The old script on `main` also makes the new version. Thus the refactor did not cause the difference.
+  - `neuron_set.json` changed the order of two dimensions with exactly equal values (an unstable sort). The sets are the same.
+
+### Work method
+
+- I ran GPU work on a Colab L4 as a background process, with a log file and an exit line.
+- I synced each result to S3 and then downloaded it.
+- I compared each new result with an earlier result where one existed (layer 25 in each new experiment).
+- I wrote each experiment as a branch in a stack of PRs (`gh stack`): #2, #3, #4.
+- I kept failed experiments with a tag and a log.
+
+### What worked
+
+- Exact splits: the stream is a sum, so each part is exact. Tests show this for each split.
+- Regression checks against earlier results. They found no error in the refactor.
+- Local circuits with local checks. The top writers move a neuron 300-1000 times more than random writers.
+
+### What did not work
+
+- Whole-network circuits with a first-order ranking (two rounds). The mean-ablation check is too far from normal model states.
+- Mode assignment of new tokens from 5 exemplars. It is too strict.
+- `k_match` in layers 12-19. Many emotions never reach the ceiling there.
+
+### Process mistakes, and what I changed
+
+- **Colab connection:** the browser connection stopped once. I could not release the VM. The user released it.
+- **Silent stale code:** a failed `git checkout` did not stop the run script, and old code ran. Now each git step is on its own line, and the script checks the branch and the code.
+- **Out of memory:** the backward pass made gradients for all weights. Now weights have no gradients.
+- **Force-push:** the tool did not let me force-push the rebased stack. I pushed the stack under new names (`stack/0N-...`). The old `exp/0N-...` branches on GitHub are stale. Later log changes go up the stack by merge, not by rebase.
+- **`gh pr edit`:** it fails with a GitHub "Projects (classic)" error. I used `gh api -X PATCH .../pulls/N`.
+- **Too early claims:** two times I gave a result before I checked it (the reviewer point, and round 2 of the circuits). Each time, I found the error and corrected it. I now check the run log and the numbers before I report.
