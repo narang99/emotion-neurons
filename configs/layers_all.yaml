@@ -1,0 +1,11 @@
+# Pooled sums of all 36 layers over the stories, for following each emotion vector across depth.
+#   python scripts/extract_layers.py --config configs/layers_all.yaml   # GPU, ~15 min on an L4; ~5 GB
+# Same stories, split and split_token as stage2_l25, so layer 25 must reproduce its sums.
+run_id: layers_all
+model: Qwen/Qwen3-8B
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
+extract:
+  batch_size: 16
