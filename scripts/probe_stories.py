@@ -65,7 +65,8 @@ def main():
     neurons = [n for n in harvest["neurons"] if str(n) in modes]  # harvest controls have no modes
     col = {n: i for i, n in enumerate(harvest["neurons"])}
     p97 = torch.tensor([harvest["thresholds"][str(n)][0] for n in neurons])
-    idx = torch.tensor([col[n] for n in neurons])
+    idx = torch.tensor(neurons)  # model neuron ids (for the forward pass)
+    cols = np.array([col[n] for n in neurons])  # their columns in the harvest's acts.npy
     model, tok = load_model(cfg.model, cfg.device)
     dev = cfg.device
     print(f"[load] {len(neurons)} neurons with modes from {p.source_run}, {time.time() - t0:.0f}s")
@@ -94,7 +95,7 @@ def main():
         for j, w in enumerate(b):
             for t in by_win[w]:
                 X[t] = x[j, t - starts[w]].cpu()
-                check.append((float(a[j, t - starts[w]].abs().max()), float(np.abs(acts[t][idx.numpy()]).max())))
+                check.append((float(a[j, t - starts[w]].abs().max()), float(np.abs(acts[t][cols]).max())))
     gap = max(abs(u - v) / max(1.0, abs(v)) for u, v in check)
     print(f"[exemplars] {len(X)} tokens, {len(ex)} modes | activation check vs harvest: max rel gap {gap:.3f}")
     assert gap < 0.05, "recomputed activations do not match the harvest"
