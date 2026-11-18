@@ -43,7 +43,9 @@ def first_order_change(gate, up, d_gate, d_up):
 
 
 def vocabulary(model, tokenizer, direction, k: int) -> list[str]:
-    logits = model.lm_head.weight.float() @ (model.model.norm.weight.float() * direction)
+    """Logit lens in the model's own precision: an fp32 copy of the unembedding needs 2.5 GB of GPU memory."""
+    scaled = (model.model.norm.weight.float() * direction).to(model.lm_head.weight.dtype)
+    logits = (model.lm_head.weight @ scaled).float()
     return [tokenizer.decode([i]) for i in logits.topk(k).indices.tolist()]
 
 
@@ -76,7 +78,6 @@ def neuron_heads(model, tokenizer, sequences, layer: int, neuron: int, cfg) -> d
     effect = torch.zeros(layer + 1, n_heads)
     write_sum = torch.zeros(layer + 1, n_heads, model.config.hidden_size)
     activation, count = 0.0, 0
-    W_O = [decoder_layers(model)[k].self_attn.o_proj.weight.float() for k in range(layer + 1)]
     for i, tokens in masks.items():
         reading = read_heads(model, sequences[i], layer, [neuron])
         hits = tokens.to(reading.inverse_rms.device)
@@ -91,7 +92,8 @@ def neuron_heads(model, tokenizer, sequences, layer: int, neuron: int, cfg) -> d
                 first_order_change(lane_input["gate"][:, None], lane_input["up"][:, None], p["gate"], p["up"]).sum(0).cpu()
             )
             z = reading.z[k][hits].view(-1, n_heads, model.config.head_dim)
-            write_sum[k] += torch.einsum("dhk,thk->hd", W_O[k].view(-1, n_heads, model.config.head_dim), z).cpu()
+            W_O = decoder_layers(model)[k].self_attn.o_proj.weight.float().view(-1, n_heads, model.config.head_dim)
+            write_sum[k] += torch.einsum("dhk,thk->hd", W_O, z).cpu()
     order = effect.abs().flatten().argsort(descending=True)
     top = [(int(i) // n_heads, int(i) % n_heads) for i in order[: hr.top_heads]]
     heads = []
