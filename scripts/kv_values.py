@@ -15,10 +15,8 @@ results/<run_id>/: values.json (per neuron: top/bottom tokens, agreement), value
 """
 
 import json
-import os
 import sys
 import time
-from pathlib import Path
 
 import numpy as np
 import torch
@@ -26,18 +24,8 @@ from huggingface_hub import hf_hub_download
 from tokenizers import Tokenizer
 
 from emotion_neurons.config import load_run_config
-from emotion_neurons.weights import load_tensor, load_w_down
-
-
-def cached(model, name):
-    cache = Path(os.environ.get("HF_HOME", Path.home() / ".cache/huggingface")) / "emotion-neurons"
-    path = cache / f"{model.replace('/', '--')}.{name}.pt"
-    if path.exists():
-        return torch.load(path).float()
-    t = load_tensor(model, name).bfloat16()
-    cache.mkdir(parents=True, exist_ok=True)
-    torch.save(t, path)
-    return t.float()
+from emotion_neurons.models import load_w_down
+from emotion_neurons.values import unembedding, value_logits, vocab_ranks
 
 
 def main():
@@ -49,15 +37,12 @@ def main():
     p97 = np.array([harvest["thresholds"][str(n)][0] for n in neurons], dtype=np.float32)
 
     W = load_w_down(cfg.model, cfg.layer)[:, neurons]
-    g = cached(cfg.model, "model.norm.weight")
-    U = cached(cfg.model, "lm_head.weight")
+    gain, U = unembedding(cfg.model)
     tok = Tokenizer.from_file(hf_hub_download(cfg.model, "tokenizer.json"))
-    logits = U @ (g[:, None] * W)  # [vocab, N]
+    logits = value_logits(W, gain, U)
     V = logits.shape[0]
-    rank = torch.empty_like(logits, dtype=torch.int32)
-    for j in range(len(neurons)):
-        rank[logits[:, j].argsort(descending=True), j] = torch.arange(V, dtype=torch.int32)
-    pct = rank.float() / V  # [vocab, N], 0 = the value's top token
+    rank = vocab_ranks(logits)
+    pct = rank.float() / V  # 0 = the value's top token
     print(f"[load] {len(neurons)} neurons ({len(controls)} random controls), vocab {V}, {time.time() - t0:.0f}s")
 
     acts = np.load(src_run / "acts.npy", mmap_mode="r")

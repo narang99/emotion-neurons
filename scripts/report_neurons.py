@@ -14,7 +14,8 @@ from collections import Counter
 import numpy as np
 from safetensors.torch import load_file
 
-from emotion_neurons.config import EMOTIONS, load_run_config
+from emotion_neurons.config import load_run_config
+from emotion_neurons.emotions import EMOTIONS
 
 
 def main():

@@ -7,7 +7,7 @@ Checks:
 - per-file stats: n, words min/median/max, first-person fraction,
   and how many stories mention any of the 12 emotions' words (cross-emotion leakage)
 """
-import collections
+
 import json
 import re
 import statistics
@@ -39,7 +39,7 @@ def main():
             problems.append(f"leftover part file {f.name}")
             continue
         expect = "neutral" if f.stem.startswith("neutral") else f.stem
-        recs = [json.loads(l) for l in f.read_text().splitlines() if l.strip()]
+        recs = [json.loads(line) for line in f.read_text().splitlines() if line.strip()]
         own = ALL_WORDS if expect == "neutral" else EMOTIONS[expect]
         stems = sorted({stem(w.lower()) for w in own if " " not in w} - {None})
         words, first, xemo = [], 0, 0
@@ -64,8 +64,10 @@ def main():
                     problems.append(f"{r['id']}: stem '{s}' -> {sorted(set(hits))}")
             if any(re.search(rf"\b{re.escape(w)}\b", t, re.I) for w in ALL_WORDS):
                 xemo += 1
-        print(f"{f.stem:<16}{len(recs):>5}{min(words):>6}{int(statistics.median(words)):>6}"
-              f"{max(words):>6}{100*first//len(recs):>5}%{xemo:>6}")
+        print(
+            f"{f.stem:<16}{len(recs):>5}{min(words):>6}{int(statistics.median(words)):>6}"
+            f"{max(words):>6}{100 * first // len(recs):>5}%{xemo:>6}"
+        )
     print(f"\ntotal stories: {len(seen_ids)}")
     print(f"{len(problems)} problem(s)")
     for p in problems:

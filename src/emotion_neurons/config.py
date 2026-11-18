@@ -1,4 +1,4 @@
-"""Everything a Stage 2 run can be told, as one typed config.
+"""Everything a run can be told, as one typed config.
 
 Values come from two places, and the command line wins:
 
@@ -18,21 +18,6 @@ import yaml
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic_settings import BaseSettings, PydanticBaseSettingsSource, SettingsConfigDict
 
-EMOTIONS = (
-    "happy", "inspired", "loving", "proud", "calm", "desperate",
-    "angry", "guilty", "sad", "afraid", "nervous", "surprised",
-)  # fmt: skip
-
-HOOKED_SITES = ("resid_mid", "resid_post", "mlp_act")
-"""Recorded with hooks. resid_mid: input to post_attention_layernorm. resid_post: the layer's output.
-mlp_act: input to down_proj, silu(gate) * up."""
-
-SITES = (*HOOKED_SITES, "mlp_out")
-"""mlp_out = resid_post - resid_mid, derived. Exact for pooled sums too, since pooling is linear."""
-
-RANGES = ("early", "late")
-"""early: tokens [0, split_token). late: tokens [split_token, end)."""
-
 Baseline = Literal["mean", "neutral"]
 Variant = Literal["raw", "denoised"]
 
@@ -48,9 +33,7 @@ class DataConfig(Section):
     heldout_story_idx: list[int] = Field(
         [5], description="emotional stories with this story_idx (0-5) are held out of the vectors"
     )
-    heldout_neutral_idx: list[int] = Field(
-        [10, 11], description="neutral stories with this story_idx (0-11) are held out"
-    )
+    heldout_neutral_idx: list[int] = Field([10, 11], description="neutral stories with this story_idx (0-11) are held out")
     split_token: int = Field(50, description="vectors average from this token on (the paper's 50)")
 
 
@@ -60,6 +43,9 @@ class ExtractConfig(Section):
 
 
 class VectorsConfig(Section):
+    recipe: Literal["mean_contrast"] = Field(
+        "mean_contrast", description="how the vectors are built, see emotion_neurons.vectors.RECIPES"
+    )
     denoise_variance: float = Field(
         0.5, gt=0, lt=1, description="project out the top neutral PCs that explain this share of variance"
     )
@@ -84,7 +70,9 @@ class ReportConfig(Section):
 class NeuronSetConfig(Section):
     vectors_run: str = Field("stage2_l25", description="results/<vectors_run>/vectors.safetensors holds the write and dA")
     dim_share: float = Field(0.9, gt=0, le=1, description="share of delta's positive (and negative) mass the kept dims cover")
-    neuron_share: float = Field(0.9, gt=0, le=1, description="share of a dim's positive (and negative) terms the kept neurons cover")
+    neuron_share: float = Field(
+        0.9, gt=0, le=1, description="share of a dim's positive (and negative) terms the kept neurons cover"
+    )
 
 
 class CorpusConfig(Section):

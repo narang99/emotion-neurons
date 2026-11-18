@@ -2,97 +2,76 @@
 
     python scripts/neuron_set.py --config configs/stage3_l25.yaml
 
-The write: delta_e = mlp_out/mean/raw (Stage 2) = W_down @ dA_e, with dA_e = mlp_act/mean/raw.
-1. Dimensions of delta_e covering `dim_share` of its positive mass, and separately of its negative mass.
-2. For each kept dimension d, the terms W_down[d, n] * dA_e[n]: the neurons covering `neuron_share` of the
-   positive terms and, separately, of the negative terms.
-3. The set is the union.
-
-Any other threshold can be rebuilt exactly from W_down and dA (both reproducible), so only the per-dimension
-cut-off counts are stored, not every (dim, neuron) row.
-
-Writes results/<run_id>/neuron_set.json: summary, members per (emotion, dim pole, neuron pole), and per kept
-dimension how many neurons each pole needed; plus a sweep of set sizes over shares.
+- Method in `emotion_neurons.decomposition.dims_then_neurons`.
+- Only per-dimension cut-off counts are stored, since any other threshold rebuilds exactly from W_down and dA.
+- Writes results/<run_id>/neuron_set.json:
+  - summary per emotion, members per (emotion, dim pole, neuron pole), per kept dimension how many neurons each
+    pole needed, and a sweep of set sizes over shares.
 """
 
 import json
 import sys
 
 import torch
-from safetensors.torch import load_file
+from jaxtyping import Float
+from torch import Tensor
 
-from emotion_neurons.config import EMOTIONS, load_run_config
-from emotion_neurons.weights import load_w_down
+from emotion_neurons.config import load_run_config
+from emotion_neurons.decomposition import neuron_terms
+from emotion_neurons.decomposition.dims_then_neurons import dims_kept, neurons_for
+from emotion_neurons.emotions import EMOTIONS
+from emotion_neurons.models import load_w_down
+from emotion_neurons.vectors import EmotionVectors
 
-
-def cover_count(sorted_vals: torch.Tensor, share: float) -> torch.Tensor:
-    """Rows sorted descending, all >= 0: how many leading entries first reach `share` of the row total."""
-    csum = sorted_vals.cumsum(-1)
-    return ((csum < share * csum[..., -1:]).sum(-1) + 1).clamp(max=sorted_vals.shape[-1])
-
-
-def dims_kept(delta: torch.Tensor, sign: int, share: float) -> torch.Tensor:
-    v = (sign * delta).clamp(min=0)
-    if v.sum() == 0:
-        return torch.tensor([], dtype=torch.long)
-    vals, order = v.sort(descending=True)
-    return order[: int(cover_count(vals, share))]
+POLES = (("pos", 1), ("neg", -1))
 
 
-def neurons_for(T_rows: torch.Tensor, sign: int, share: float):
-    """T_rows [n_dims, d_mlp]: per row, the neurons covering `share` of the `sign` terms. Returns (set, counts)."""
-    P = (sign * T_rows).clamp(min=0)
-    vals, order = P.sort(dim=1, descending=True)
-    k = cover_count(vals, share)
-    k = torch.where(P.sum(1) > 0, k, torch.zeros_like(k))
-    keep = torch.arange(P.shape[1])[None, :] < k[:, None]
-    return torch.unique(order[keep]), k
+def set_size(delta: Tensor, terms: Float[Tensor, "d_model d_mlp"], dim_share: float, neuron_share: float) -> int:
+    members = set()
+    for _, dim_sign in POLES:
+        dims = dims_kept(delta, dim_sign, dim_share)
+        if len(dims):
+            for _, neuron_sign in POLES:
+                members |= set(neurons_for(terms[dims], neuron_sign, neuron_share)[0].tolist())
+    return len(members)
 
 
 def main():
     cfg = load_run_config(sys.argv[1:])
-    vec = load_file(str(cfg.results_dir / cfg.neuron_set.vectors_run / "vectors.safetensors"))
+    vectors = EmotionVectors.load(cfg.results_dir / cfg.neuron_set.vectors_run / "vectors.safetensors")
     W = load_w_down(cfg.model, cfg.layer)
     ds, ns = cfg.neuron_set.dim_share, cfg.neuron_set.neuron_share
     print(f"[load] W_down {tuple(W.shape)}; dim_share {ds}, neuron_share {ns}")
 
     summary, members, counts, sweep = {}, {}, {}, {}
     union = set()
-    for e, emo in enumerate(EMOTIONS):
-        delta, dA = vec["mlp_out/mean/raw"][e], vec["mlp_act/mean/raw"][e]
+    write, shift = vectors.get("mlp_out"), vectors.get("mlp_act")
+    for e, emotion in enumerate(EMOTIONS):
+        delta, dA = write[e], shift[e]
         rel = ((W @ dA - delta).norm() / delta.norm()).item()
-        assert rel < 0.05, f"{emo}: W_down @ dA differs from delta by {rel:.3f}"
-        T = W * dA[None, :]  # [d_model, d_mlp]: neuron n's term in dimension d
+        assert rel < 0.05, f"{emotion}: W_down @ dA differs from delta by {rel:.3f}"
+        terms = neuron_terms(W, dA)
         s = {"rebuild_rel_err": round(rel, 5)}
-        emo_union = set()
-        for dpole, dsign in (("pos", 1), ("neg", -1)):
-            dims = dims_kept(delta, dsign, ds)
-            s[f"dims_{dpole}"] = len(dims)
-            for npole, nsign in (("pos", 1), ("neg", -1)):
-                ids, k = neurons_for(T[dims], nsign, ns) if len(dims) else (torch.tensor([], dtype=torch.long), torch.tensor([]))
-                key = f"{emo}/{dpole}dim/{npole}"
+        emotion_union = set()
+        for dim_pole, dim_sign in POLES:
+            dims = dims_kept(delta, dim_sign, ds)
+            s[f"dims_{dim_pole}"] = len(dims)
+            for neuron_pole, neuron_sign in POLES:
+                empty = (torch.tensor([], dtype=torch.long), torch.tensor([]))
+                ids, k = neurons_for(terms[dims], neuron_sign, ns) if len(dims) else empty
+                key = f"{emotion}/{dim_pole}dim/{neuron_pole}"
                 members[key] = ids.tolist()
                 counts[key] = {"dims": dims.tolist(), "k": k.tolist()}
-                s[f"neurons_{dpole}dim_{npole}"] = len(ids)
-                s[f"median_k_{dpole}dim_{npole}"] = float(k.float().median()) if len(k) else 0.0
-                emo_union |= set(ids.tolist())
-        s["neurons_any"] = len(emo_union)
-        union |= emo_union
-        summary[emo] = s
-        # How the set size moves with the two shares (both poles, union over dims).
-        sweep[emo] = {}
-        for share_d in (0.5, 0.7, 0.9):
-            for share_n in (0.1, 0.3, 0.5, 0.9):
-                tot = set()
-                for dsign in (1, -1):
-                    dd = dims_kept(delta, dsign, share_d)
-                    if len(dd):
-                        for nsign in (1, -1):
-                            tot |= set(neurons_for(T[dd], nsign, share_n)[0].tolist())
-                sweep[emo][f"{share_d}/{share_n}"] = len(tot)
-        print(f"[{emo}] err {rel:.4f} | dims +{s['dims_pos']} -{s['dims_neg']} | neurons per dim (median, +dim) "
+                s[f"neurons_{dim_pole}dim_{neuron_pole}"] = len(ids)
+                s[f"median_k_{dim_pole}dim_{neuron_pole}"] = float(k.float().median()) if len(k) else 0.0
+                emotion_union |= set(ids.tolist())
+        s["neurons_any"] = len(emotion_union)
+        union |= emotion_union
+        summary[emotion] = s
+        sweep[emotion] = {f"{d}/{n}": set_size(delta, terms, d, n) for d in (0.5, 0.7, 0.9) for n in (0.1, 0.3, 0.5, 0.9)}
+        print(f"[{emotion}] err {rel:.4f} | dims +{s['dims_pos']} -{s['dims_neg']} | neurons per dim (median, +dim) "
               f"+{s['median_k_posdim_pos']:.0f} -{s['median_k_posdim_neg']:.0f} | union {s['neurons_any']} | "
-              f"sweep {sweep[emo]}")  # fmt: skip
+              f"sweep {sweep[emotion]}")  # fmt: skip
 
     print(f"[set] {len(union)} of {W.shape[1]} neurons in the union over emotions and poles")
     out = {"dim_share": ds, "neuron_share": ns, "d_mlp": W.shape[1], "summary": summary, "union_size": len(union),

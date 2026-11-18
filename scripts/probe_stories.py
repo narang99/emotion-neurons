@@ -19,33 +19,14 @@ import json
 import sys
 import time
 from collections import Counter, defaultdict
-from pathlib import Path
 
 import numpy as np
 import torch
 from tqdm import tqdm
 
 from emotion_neurons.config import load_run_config
-from emotion_neurons.model import StopForward, load_model
-
-
-def mlp_inputs_and_acts(model, layer, ids, mask, idx):
-    """MLP input [B, L, d] and the chosen neurons' activations [B, L, N] of one batch, stopping after `layer`."""
-    blk = model.model.layers[layer]
-    got = {}
-    hs = [blk.mlp.register_forward_pre_hook(lambda _m, a: got.__setitem__("x", a[0].detach())),
-          blk.mlp.down_proj.register_forward_pre_hook(lambda _m, a: got.__setitem__("a", a[0].detach())),
-          blk.register_forward_hook(lambda *_: (_ for _ in ()).throw(StopForward()))]  # fmt: skip
-    try:
-        with torch.no_grad():
-            try:
-                model.model(input_ids=ids, attention_mask=mask, use_cache=False)
-            except StopForward:
-                pass
-    finally:
-        for h in hs:
-            h.remove()
-    return got["x"].float(), got["a"][:, :, idx].float()
+from emotion_neurons.models import load_model, read_mlp
+from emotion_neurons.texts import load_labelled_texts
 
 
 def main():
@@ -91,7 +72,7 @@ def main():
             seq = tokens[starts[w] : starts[w + 1]]
             ids[j, : len(seq)] = torch.from_numpy(seq.astype(np.int64))
             mask[j, : len(seq)] = 1
-        x, a = mlp_inputs_and_acts(model, cfg.layer, ids.to(dev), mask.to(dev), idx.to(dev))
+        x, a = read_mlp(model, cfg.layer, ids.to(dev), mask.to(dev), idx.to(dev))
         for j, w in enumerate(b):
             for t in by_win[w]:
                 X[t] = x[j, t - starts[w]].cpu()
@@ -120,10 +101,7 @@ def main():
     print(f"[modes] leave-one-out: exemplars assigned to their own mode {loo_ok}/{loo_n} ({loo_ok / max(1, loo_n):.0%})")
 
     # 2. Stories.
-    stories = []
-    for f in sorted(Path(p.stories_dir).glob("*.jsonl")):
-        stories += [json.loads(line) for line in f.read_text().splitlines() if line.strip()]
-    stories.sort(key=lambda s: s["id"])
+    stories = [t.model_dump() for t in load_labelled_texts(p.stories_dir)]
     enc = [tok(s["text"])["input_ids"] for s in stories]
     print(f"[stories] {len(stories)} from {p.stories_dir}, {sum(map(len, enc))} tokens")
     keys_of = {n: [k for k in cent if k[0] == n] for n in neurons}
@@ -136,7 +114,7 @@ def main():
         for j, i in enumerate(b):
             ids[j, : len(enc[i])] = torch.tensor(enc[i])
             mask[j, : len(enc[i])] = 1
-        x, a = mlp_inputs_and_acts(model, cfg.layer, ids.to(dev), mask.to(dev), idx.to(dev))
+        x, a = read_mlp(model, cfg.layer, ids.to(dev), mask.to(dev), idx.to(dev))
         x, a = unit(x).cpu(), a.cpu()
         for j, i in enumerate(b):
             T = len(enc[i])

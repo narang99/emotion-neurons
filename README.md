@@ -44,15 +44,28 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
 |---|---|
 | `data/stories/` | 1440 emotional + 240 neutral stories (Stage 1), committed |
 | `configs/*.yaml` | one per run; everything that distinguishes runs lives here |
-| `emotion_neurons/` | config models (`config.py`), ranged safetensors read of `W_down` (`weights.py`) |
-| `scripts/` | one script per step; each docstring has its command |
+| `src/emotion_neurons/` | the library (below) |
+| `scripts/` | one thin script per step; each docstring has its command |
+| `tests/` | exact identities: neuron terms sum to the write, greedy and swaps pick the best move |
 | `results/<run>/` | small outputs, committed |
 | `runs/<run>/` | large outputs, gitignored (see below) |
+
+Library (`src/emotion_neurons/`):
+
+| module | what |
+|---|---|
+| `config.py`, `emotions.py` | the typed run config; the 12 emotions and site names |
+| `models/` | Qwen3 loading and hooks (`qwen3.py`); single tensors from the Hub by ranged read (`weights.py`) |
+| `texts/` | story sets and the held-out split; harvest corpora |
+| `capture/` | pooled per-story sums and means, single layer or all layers |
+| `vectors/` | how emotion vectors are built (`recipes.py`, isolated behind `EmotionVectors`); denoising; checks |
+| `decomposition/` | activation shifts and neuron terms; sparse sets (greedy, swaps, shrink); older set methods |
+| `harvest.py`, `modes.py`, `values.py` | corpus activations and percentile bands; mode clustering; logit-lens reads of values |
 
 ## Picking up
 
 ```
-git clone git@github.com:narang99/emotion-neurons.git && cd emotion-neurons && git checkout stage2
+git clone git@github.com:narang99/emotion-neurons.git && cd emotion-neurons
 uv sync
 bash scripts/fetch_runs.sh               # gitignored run data, ~610 MB, public, no AWS account needed
 uv run python scripts/sparse_set.py --config configs/sparse_l25.yaml --sparse-set.target raw --run-id sparse_l25_raw
@@ -94,7 +107,7 @@ sets = json.load(open("results/sparse_l25_raw/sets.json"))
 sets["happy"]["match"]       # {k, neurons, cos, transfer}: smallest set that generalises as well as the full MLP
 sets["happy"]["tau0.9"]      # {k, neurons, cos, transfer, ...}: smallest set found with train cos >= 0.9
 
-from emotion_neurons.weights import load_w_down
+from emotion_neurons.models import load_w_down
 W = load_w_down("Qwen/Qwen3-8B", 25)  # [4096, 12288] float32
 ```
 

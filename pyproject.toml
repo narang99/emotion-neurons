@@ -8,6 +8,8 @@ dependencies = [
     "accelerate>=1.0",
     "circuitsvis>=1.43",
     "datasets>=2.14",
+    "einops>=0.7",
+    "jaxtyping>=0.2.25",
     "numpy>=2.0",
     "pydantic>=2.7",
     "pydantic-settings>=2.7",
@@ -33,4 +35,15 @@ requires = ["uv_build>=0.8.13,<0.20.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-module-root = ""
+module-root = "src"
+
+[tool.ruff]
+line-length = 130
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+# F722 / F821 read jaxtyping shape strings such as "batch seq" as syntax errors or undefined names.
+ignore = ["E501", "F722", "F821"]
+
+[dependency-groups]
+dev = ["pytest>=8"]

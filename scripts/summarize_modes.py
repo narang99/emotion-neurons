@@ -11,7 +11,7 @@ import json
 import sys
 from collections import defaultdict
 
-from emotion_neurons.config import EMOTIONS, load_run_config
+from emotion_neurons.config import load_run_config
 
 
 def main():

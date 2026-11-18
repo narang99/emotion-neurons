@@ -17,8 +17,8 @@ import sys
 import torch
 from safetensors.torch import load_file
 
-from emotion_neurons.config import EMOTIONS, SITES, load_run_config
-from emotion_neurons.stories import LABELS
+from emotion_neurons.config import load_run_config
+from emotion_neurons.emotions import EMOTIONS, LABELS, SITES
 
 CV = "https://unpkg.com/circuitsvis@1.43.3/dist/cdn/esm.js"
 
@@ -60,7 +60,9 @@ def table(M, rows, cols, fmt="{:.2f}", vmax=None, bold_diag=False):
     for i, (name, r) in enumerate(zip(rows, M)):
         cells = []
         for j, x in enumerate(r):
-            style = f"background:{color(float(x), vmax)}" + (";font-weight:bold;outline:2px solid #333" if bold_diag and i == j else "")
+            style = f"background:{color(float(x), vmax)}" + (
+                ";font-weight:bold;outline:2px solid #333" if bold_diag and i == j else ""
+            )
             cells.append(f"<td style='{style}'>{fmt.format(float(x))}</td>")
         out.append(f"<tr><th>{name}</th>{''.join(cells)}</tr>")
     return "\n".join(out + ["</table>"])
@@ -111,20 +113,24 @@ def main():
                  "Cell: mean centred projection over the row's stories. The vectors work if each row peaks on its own column (outlined). "
                  "Accuracy: share of held-out emotional stories whose highest column is their own emotion.</p><div class=grid>")  # fmt: skip
     zs = {}
-    emo_idx = [i for i, l in enumerate(labels) if l != "neutral"]
+    emo_idx = [i for i, label in enumerate(labels) if label != "neutral"]
     for k in pmeta["keys"]:
         p = proj[k].float()
         z, _, _ = centre(p, vectors, k, stories, split)
         zs[k] = z
         S = story_scores(z, stories, split)
-        M = [S[[i for i, l in enumerate(labels) if l == lab]].mean(0).tolist() for lab in LABELS]
+        M = [S[[i for i, label in enumerate(labels) if label == lab]].mean(0).tolist() for lab in LABELS]
         acc = sum(EMOTIONS[int(S[i].argmax())] == labels[i] for i in emo_idx) / len(emo_idx)
         Sn = story_scores(p - neutral_tokens(p, stories, split).mean(0), stories, split)
         acc_n = sum(EMOTIONS[int(Sn[i].argmax())] == labels[i] for i in emo_idx) / len(emo_idx)
         diag = sum(M[e][e] for e in range(len(EMOTIONS))) / len(EMOTIONS)
         off = (sum(sum(r) for r in M[: len(EMOTIONS)]) - diag * len(EMOTIONS)) / (len(EMOTIONS) * (len(EMOTIONS) - 1))
         summary.append((k, acc, acc_n, diag, off))
-        parts.append(f"<div><b>{k}</b> &nbsp; acc {acc:.2f}, diagonal {diag:.2f}, off-diagonal {off:.2f}" + table(M, LABELS, EMOTIONS, bold_diag=True) + "</div>")
+        parts.append(
+            f"<div><b>{k}</b> &nbsp; acc {acc:.2f}, diagonal {diag:.2f}, off-diagonal {off:.2f}"
+            + table(M, LABELS, EMOTIONS, bold_diag=True)
+            + "</div>"
+        )
     parts.append("</div>")
     parts.insert(3, "<h2>Summary (held-out)</h2><p class=note>acc: 12-way, story mean (tokens 50+) centred on the train emotional "
                  "grand mean. acc neutral-centred: the same, centred on the held-out neutral mean instead. "
@@ -137,20 +143,31 @@ def main():
                  "left out of their own emotion's mean. Confusion over all 1440 stories; rows are labels, columns predictions.</p>")  # fmt: skip
     for site in SITES:
         c = checks["sites"][site]
-        parts.append(f"<h3>{site}: train-LOO {c['acc_train_loo']:.3f}, held-out {c['acc_heldout']:.3f} "
-                     f"(raw vectors: {c['acc_train_loo_raw']:.3f}, {c['acc_heldout_raw']:.3f})</h3>")
+        parts.append(
+            f"<h3>{site}: train-LOO {c['acc_train_loo']:.3f}, held-out {c['acc_heldout']:.3f} "
+            f"(raw vectors: {c['acc_train_loo_raw']:.3f}, {c['acc_heldout_raw']:.3f})</h3>"
+        )
         parts.append(table(c["confusion_all"], EMOTIONS, EMOTIONS, fmt="{:.0f}", vmax=120, bold_diag=True))
     fl = checks["flagged"]
-    parts.append(f"<h3>Stories mislabelled at all 4 sites: {len(fl)}</h3><table class=m><tr><th>id</th><th>label</th><th>held out</th><th>margin</th><th>predicted by site</th></tr>")
-    parts += [f"<tr><td>{f['id']}</td><td>{f['label']}</td><td>{f['heldout']}</td><td>{f['margin']:.3f}</td><td>{html.escape(json.dumps(f['pred_by_site']))}</td></tr>" for f in fl]
+    parts.append(
+        f"<h3>Stories mislabelled at all 4 sites: {len(fl)}</h3><table class=m><tr><th>id</th><th>label</th><th>held out</th><th>margin</th><th>predicted by site</th></tr>"
+    )
+    parts += [
+        f"<tr><td>{f['id']}</td><td>{f['label']}</td><td>{f['heldout']}</td><td>{f['margin']:.3f}</td><td>{html.escape(json.dumps(f['pred_by_site']))}</td></tr>"
+        for f in fl
+    ]
     parts.append("</table>")
 
     # 3. Stability and structure.
-    parts.append("<h2>3. Split-half cosine</h2><p class=note>Vectors from topics 0-9 vs topics 10-19 (train stories), mean baseline, raw.</p>")
+    parts.append(
+        "<h2>3. Split-half cosine</h2><p class=note>Vectors from topics 0-9 vs topics 10-19 (train stories), mean baseline, raw.</p>"
+    )
     parts.append(table([[checks["sites"][s]["split_half_cos"][e] for e in EMOTIONS] for s in SITES], SITES, EMOTIONS, vmax=1))
     parts.append("<h2>4. Emotion x emotion cosine (mean baseline, denoised)</h2><div class=grid>")
     for site in SITES:
-        parts.append(f"<div><b>{site}</b>" + table(checks["sites"][site]["cos_mean_denoised"], EMOTIONS, EMOTIONS, vmax=1) + "</div>")
+        parts.append(
+            f"<div><b>{site}</b>" + table(checks["sites"][site]["cos_mean_denoised"], EMOTIONS, EMOTIONS, vmax=1) + "</div>"
+        )
     parts.append("</div>")
 
     # 4. Logit lens.
@@ -163,7 +180,9 @@ def main():
 
     # 5. Token pages.
     k = f"{cfg.report.story_site}/{cfg.report.story_vector}"
-    parts.append(f"<h2>6. Token pages ({k})</h2><p>" + " · ".join(f"<a href='stories_{lab}.html'>{lab}</a>" for lab in LABELS) + "</p>")
+    parts.append(
+        f"<h2>6. Token pages ({k})</h2><p>" + " · ".join(f"<a href='stories_{lab}.html'>{lab}</a>" for lab in LABELS) + "</p>"
+    )
     parts.append(f"<h2>Denoising</h2><pre>{html.escape(json.dumps(vmeta['denoise'], indent=1))}</pre>")
     (out_dir / "index.html").write_text("\n".join(parts))
 
