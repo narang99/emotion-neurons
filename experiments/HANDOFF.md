@@ -4,7 +4,7 @@
 
 - Done, with results and logs: causal sets, value swap, word tests, tail check, early-layer harvest, chain (3068),
   chain scans (2862, 11109, 3068 context hits), input rows (both signs). See `LOG.md`.
-- Running on Colab when this was written. Each job syncs its own results to S3, `s3://narang99-private/emotion-neurons/<run>/results`:
+- **Not run yet.** These 3 jobs were started, but the VM was released on request before any of them finished. S3 has no results for them. Run all 3:
 
   | run | command | what |
   |---|---|---|
@@ -13,8 +13,8 @@
   | `crossval` | `python scripts/crossval.py --config configs/crossval.yaml --device cpu` | 6-fold accuracy and kappa (CPU, needs `bash scripts/fetch_runs.sh stage2_l25`) |
 
 - To restart:
-  1. Check S3 for each run's results (`aws s3 ls s3://narang99-private/emotion-neurons/<run>/results/`).
-  2. Rerun only the missing ones on an L4.
+  1. Connect Colab on an L4, and run the setup cell (secrets, clone, editable install).
+  2. Run the 3 jobs. `direction_reports` and `tail_causal` share the GPU, so run them one after the other. `crossval` (CPU) can run beside them.
      - Run one git step per line, and never launch two jobs at the same moment: they race on the git lock.
   3. Download the results, write the logs (`experiments/<run>.md`, STE), add LOG rows and tags, and tick the README checklist.
 - Known fixes in this round:
