@@ -230,6 +230,11 @@ class HarvestLayersConfig(Section):
     top_tokens: int = 100
 
 
+class TailCheckConfig(Section):
+    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set")
+    vectors_file: Path = Field(Path("results/stage2_l25/vectors.safetensors"), description="Stage 2's dA_e, for the check")
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -267,6 +272,7 @@ class RunConfig(BaseSettings):
     word_tests: WordTestsConfig = WordTestsConfig()
     chain: ChainConfig = ChainConfig()
     harvest_layers: HarvestLayersConfig = HarvestLayersConfig()
+    tail_check: TailCheckConfig = TailCheckConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
