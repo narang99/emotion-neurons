@@ -46,3 +46,18 @@ def test_holding_neurons_at_their_own_values_changes_nothing(tiny):
     reference = run_with_edits(model, ids[:, :1], [], [2], (0, 1))
     torch.testing.assert_close(edited.last_logits, reference.last_logits)
     assert clean.last_logits.shape == (64,)
+
+
+def test_clip_keeps_activations_inside_the_bounds(tiny):
+    model, ids = tiny
+    neurons = torch.arange(48)
+    lo, hi = torch.full((48,), -0.01), torch.full((48,), 0.01)
+    store = {}
+    edit = NeuronEdit(layer=LAYER, neurons=neurons, values=lo, kind="clip", upper=hi)
+    handle = model.model.layers[LAYER].mlp.down_proj.register_forward_pre_hook(edit.hook())
+    seen = model.model.layers[LAYER].mlp.down_proj.register_forward_pre_hook(lambda _m, a: store.__setitem__("a", a[0]))
+    with torch.no_grad():
+        model(input_ids=ids)
+    handle.remove()
+    seen.remove()
+    assert store["a"].abs().max() <= 0.01 + 1e-6

@@ -41,7 +41,8 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
 - [x] **More chains** (done for 11109 and 2862, `experiments/chain.md`).
 - [x] A chain for non-lexical hits (n3068 at context hits, `experiments/chain.md`) and an input read of negative firing (`experiments/input_rows.md`).
 - [ ] Cross-validated held-out (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
-- [ ] Other layers (rerun the pipeline with a new config).
+- [x] Other layers (done: vectors at all 36 layers, `experiments/journey_all.md`; sparse sets at all layers,
+  `experiments/sparse_layers.md`; harvests at layers 0, 2, 8, 12, `experiments/harvest_layers.md`).
 
 ## Layout
 

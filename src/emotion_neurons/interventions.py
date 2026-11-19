@@ -2,7 +2,8 @@
 
 - An edit acts on the input to `down_proj` (the activation `silu(gate) * up`) of one layer, at every token.
   - `add`: `a[..., n] += shift[n]`, e.g. remove an emotion's mean shift, or swap it for another emotion's.
-  - `hold`: `a[..., n] = value[n]`, e.g. mean ablation.
+  - `hold`: `a[..., n] = value[n]`, e.g. mean ablation;
+  - `clip`: `a[..., n] = clamp(a, value[n], upper[n])`, e.g. remove only the tail firings (outside [p3, p97]).
 - The readout of one pass:
   - the mean `resid_post` over a token range at chosen layers, for emotion scores;
   - the logits at the last token, for the model's own answer.
@@ -19,7 +20,7 @@ from transformers import PreTrainedModel
 
 from .models.qwen3 import decoder_layers, hooks
 
-EditKind = Literal["add", "hold"]
+EditKind = Literal["add", "hold", "clip"]
 
 
 class NeuronEdit(BaseModel):
@@ -31,13 +32,20 @@ class NeuronEdit(BaseModel):
     neurons: Int[Tensor, " neuron"]
     values: Float[Tensor, " neuron"]
     kind: EditKind
+    upper: Float[Tensor, " neuron"] | None = None
+    """Only for `clip`: the upper bound (`values` is the lower one)."""
 
     def hook(self) -> Callable:
         def edit(_module, args):
             a = args[0].clone()
             idx = self.neurons.to(a.device)
             v = self.values.to(a.device, a.dtype)
-            a[..., idx] = a[..., idx] + v if self.kind == "add" else v.expand_as(a[..., idx])
+            if self.kind == "add":
+                a[..., idx] = a[..., idx] + v
+            elif self.kind == "hold":
+                a[..., idx] = v.expand_as(a[..., idx])
+            else:
+                a[..., idx] = torch.clamp(a[..., idx], min=v, max=self.upper.to(a.device, a.dtype))
             return (a,)
 
         return edit
