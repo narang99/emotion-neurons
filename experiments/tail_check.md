@@ -79,6 +79,7 @@ Tag: `exp/tail_causal`.
 
 - Clamping the set's tails gives about half the effect of removing its whole shift (3.5% vs 7.2% at layer 25). It is 12 times the effect of random sets.
 - The decomposition gave the tails 75% of the set's write. Causally they give about 50%.
-  - One reason: clamping also removes tail firings that are not about the emotion.
-  - Another reason: later layers partly make up for the change.
+  - The two measures differ. The decomposition counts all of a tail token's activation. Clamping removes only the part beyond p97 (or below p3).
+  - Clamping also removes tail firings that are not about this emotion.
+  - At layer 25 no later layer can make up for the change, so the gap is not a repair effect.
 - No accuracy or answer changes beyond 0.02. All effects are small, as in `causal_sets`.
