@@ -1,5 +1,27 @@
 # Handoff: next run (2026-11-19)
 
+## Current state (latest)
+
+- Done, with results and logs: causal sets, value swap, word tests, tail check, early-layer harvest, chain (3068),
+  chain scans (2862, 11109, 3068 context hits), input rows (both signs). See `LOG.md`.
+- Running on Colab when this was written. Each job syncs its own results to S3, `s3://narang99-private/emotion-neurons/<run>/results`:
+
+  | run | command | what |
+  |---|---|---|
+  | `tail_causal` | `python scripts/tail_causal.py --config configs/tail_causal.yaml` | clamp set neurons into [p3, p97] vs random sets (GPU, ~12 min) |
+  | `direction_reports` | `python scripts/direction_reports.py --config configs/direction_reports.yaml` | main / modes / remaining directions: lens, top tokens, example sentences (GPU, ~10 min) |
+  | `crossval` | `python scripts/crossval.py --config configs/crossval.yaml --device cpu` | 6-fold accuracy and kappa (CPU, needs `bash scripts/fetch_runs.sh stage2_l25`) |
+
+- To restart:
+  1. Check S3 for each run's results (`aws s3 ls s3://narang99-private/emotion-neurons/<run>/results/`).
+  2. Rerun only the missing ones on an L4.
+     - Run one git step per line, and never launch two jobs at the same moment: they race on the git lock.
+  3. Download the results, write the logs (`experiments/<run>.md`, STE), add LOG rows and tags, and tick the README checklist.
+- Known fixes in this round:
+  - `crossval.py` must run with `--device cpu`. The greedy `SetState` makes its tensors on the CPU.
+
+## Earlier state (kept for the record)
+
 **Update, end of 2026-11-19: steps 0-5 are done.** See `LOG.md` rows `causal_sets` to `chain`. The open items are in the
 README checklist. The text below is the state before the runs, kept for the record.
 
