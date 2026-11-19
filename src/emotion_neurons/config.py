@@ -239,6 +239,13 @@ class TailCheckConfig(Section):
     vectors_file: Path = Field(Path("results/stage2_l25/vectors.safetensors"), description="Stage 2's dA_e, for the check")
 
 
+class InputRowsConfig(Section):
+    harvest_dir: Path = Field(Path("results/harvest_layers"), description="L<k>.json files: neurons with known top tokens")
+    named: list[list[int]] = [[2, 8663], [8, 4826], [8, 7265], [22, 3221], [24, 2010], [25, 3068], [25, 11109], [25, 2862]]
+    top_k: int = Field(200, description="lens top tokens compared with the harvest's top tokens")
+    show: int = 30
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -277,6 +284,7 @@ class RunConfig(BaseSettings):
     chain: ChainConfig = ChainConfig()
     harvest_layers: HarvestLayersConfig = HarvestLayersConfig()
     tail_check: TailCheckConfig = TailCheckConfig()
+    input_rows: InputRowsConfig = InputRowsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

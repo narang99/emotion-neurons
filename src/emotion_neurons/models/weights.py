@@ -50,6 +50,14 @@ def load_cached_tensor(model: str, name: str) -> Float[Tensor, "..."]:
     return torch.load(path).float()
 
 
+def load_cached_bf16(model: str, name: str) -> Float[Tensor, "..."]:
+    """bf16 in memory too: two vocabulary matrices in fp32 need 5 GB."""
+    path = cache_dir() / f"{model.replace('/', '--')}.{name}.pt"
+    if not path.exists():
+        load_cached_tensor(model, name)
+    return torch.load(path)
+
+
 def load_w_down(model: str, layer: int) -> Float[Tensor, "d_model d_mlp"]:
     """Kept as its own fp32 cache file, which earlier runs already wrote."""
     path = cache_dir() / f"{model.replace('/', '--')}.l{layer}.down_proj.pt"
