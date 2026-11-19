@@ -29,7 +29,7 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
   whether it predicts the next token at its key's hits. `scripts/kv_values.py`, `configs/kv_values_l25.yaml`.
   Add the same read for each emotion's whole write and its sparse set's write: per-neuron values that read as
   noise but a clear combined write would favour a distributed code (Hazy Research, "Stuffing MLPs Full of Facts").
-- [x] **Swap happy and sad values** (done as an activation-shift swap, `experiments/causal_sets.md`; the `W_down` column swap is still open) (GPU, causal): at layer 25, swap the `W_down` columns of happy's sparse set with
+- [x] **Swap happy and sad values** (done, `experiments/causal_sets.md`: the activation-shift swap and the `W_down` column swap) (GPU, causal): at layer 25, swap the `W_down` columns of happy's sparse set with
   sad's (pair by greedy rank; the sets overlap, so leave shared neurons alone), or inject sad's activation shift
   into happy's set on happy stories. Read out: projections on the emotion vectors at later layers, and the
   continuation the model writes. A flip towards sad means the set's values carry the emotion.
@@ -37,8 +37,9 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
   comes from tokens above p97 / below p3 or from a small move on every token.
 - [x] **Trace to the input** (done for n3068, `experiments/chain.md`): token -> MLP 0 -> L2 n8663 -> n3068 -> " pride", by an exact
   source split (`circuits/sources.py`) and a patching scan (`scripts/chain_scan.py`).
-- [ ] **Geva on MLP input rows** (CPU): read `W_gate[n] * g` and `W_up[n] * g` through `W_U` and `W_E`, for traced and random neurons.
-- [ ] **More chains**: run `chain_scan.py` on 11109 (racing heart) and 2862 (laughter); a chain for a non-lexical hit (n3068 on "puffing up his chest").
+- [x] **Geva on MLP input rows** (done, `experiments/input_rows.md`) (CPU): read `W_gate[n] * g` and `W_up[n] * g` through `W_U` and `W_E`, for traced and random neurons.
+- [x] **More chains** (done for 11109 and 2862, `experiments/chain.md`).
+- [ ] A chain for a non-lexical hit (n3068 on "puffing up his chest"); an input lens that ranks negative firing (L2 n8663).
 - [ ] Cross-validated held-out (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
 - [ ] Other layers (rerun the pipeline with a new config).
 

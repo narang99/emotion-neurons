@@ -64,3 +64,28 @@ python scripts/causal_sets.py --config configs/causal_sets.yaml   # L4, 9 minute
 ## Mistakes
 
 - The first run stopped at 80 of 240 stories because the VM was released. The second run completed.
+
+## Second test: swap the value vectors (`W_down` columns)
+
+Script: `scripts/swap_values.py` (same config, `--run-id swap_values`). Results: `results/swap_values/swap_values.json`. Tag: `exp/swap_values`.
+
+- Method:
+  - Pair the neurons of S_e and S_f by greedy rank, with shared neurons left out (212 to 366 pairs).
+  - Swap their `W_down` columns at layer 25. Activations are not changed.
+  - Baseline: 3 sets of random pairs of the same number.
+- Results: score gap change (f minus e) at layer 35, on e's held-out stories.
+
+  | swap | set | random pairs | clean gap |
+  |---|---|---|---|
+  | happy -> sad | +0.8 | +0.6 | 66.8 |
+  | sad -> happy | +2.0 | 0.0 | 54.5 |
+  | calm -> afraid | +3.7 | +0.2 | 62.6 |
+  | afraid -> calm | -1.7 | -0.3 | 71.2 |
+  | proud -> guilty | +3.4 | +0.1 | 65.5 |
+  | guilty -> proud | +1.1 | +0.3 | 57.5 |
+
+  - No label and no answer flips. The answer gap moves by -0.5 to +0.9 nats.
+- **This effect is much smaller than the activation-shift swap** (+4 to +6 at the same scale).
+  - A neuron's activation on a story is mostly its normal level. The emotion is only a small shift on top of it.
+  - Swapping the values thus mostly swaps the writes of the normal level, which are not about emotion.
+  - The emotion is in the shift `dA_e`, not in the value vectors alone.

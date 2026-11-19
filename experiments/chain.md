@@ -99,3 +99,23 @@ log p(" pride")   -1.01 nats when n3068 is held at its mean
   - The scan gives n8663 a mean recovery of 0.15 over 40 hits. The chain gives 64% at its 9 active hits.
   - These agree: 0.64 x 9/40 = 0.14.
 - **The log-prob readout under a token swap is not useful.** Replacing the word changes the next-token distribution itself. Only the hold test reads the last link.
+
+## Two more targets: 2862 (laughter) and 11109 (racing heart)
+
+Configs: `configs/chain_scan_2862.yaml`, `configs/chain_scan_11109.yaml`. Results: `results/chain_scan_{2862,11109}/chain_scan.json`.
+Tag: `exp/chain_scans`.
+
+- **2862 (laughter): the same shape as 3068.**
+  - Hit words: " laughing" (13), " laughed" (9).
+  - Layer recovery: MLP 0 0.91, attention 0 0.74, MLP 2 0.38, MLP 22 0.12.
+  - Best single neuron: **L2 n2285**, recovery 0.22 over all 40 hits. It is a candidate at 23 hits. Random L2 neurons: 0.00.
+    - n2285 is also in happy's sparse set at layer 2.
+  - The best 10 neurons together: patched back, they recover 0.53. Held at their mean, they lower 2862 by 1.85 of 23.5 (a random set: +0.06).
+- **11109 (racing heart): spread out.**
+  - Its hits are context tokens: " my", " body", " shoulders", " had".
+  - Layer recovery: MLP 0 0.94, attention 0 0.48, then MLP 23 0.24 and MLP 22 0.18.
+  - No single neuron recovers more than 0.04 (L23 n6155). The anxiety neuron L23 n3524 recovers 0.014.
+  - The best 10 neurons together recover 0.17. Held at their mean, they lower 11109 by 1.9 of 15.6 (a random set: -0.03).
+- **Pattern:**
+  - When a target neuron fires on an emotion word, a short lexical path carries it: the token, MLP 0, then one layer-2 word neuron.
+  - When it fires on context, many neurons carry it, mostly in layers 22-23.
