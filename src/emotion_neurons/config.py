@@ -255,6 +255,18 @@ class CrossvalConfig(Section):
     seed: int = 0
 
 
+class DirectionReportsConfig(Section):
+    vectors_file: Path = Path("results/stage2_l25/vectors.safetensors")
+    sets_file: Path = Path("results/sparse_l25_denoised/sets.json")
+    texts_dir: Path = Field(Path("data/adult_stories"), description="scanned with the held-out stories")
+    emotions: list[str] = ["happy", "sad", "afraid", "proud"]
+    lens_top: int = 15
+    top_examples: int = 15
+    examples: int = 3
+    example_tokens: int = 140
+    mark_quantile: float = Field(0.95, description="tokens above this quantile of a direction's values are marked")
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -295,6 +307,7 @@ class RunConfig(BaseSettings):
     tail_check: TailCheckConfig = TailCheckConfig()
     input_rows: InputRowsConfig = InputRowsConfig()
     crossval: CrossvalConfig = CrossvalConfig()
+    direction_reports: DirectionReportsConfig = DirectionReportsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
