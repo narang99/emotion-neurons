@@ -217,6 +217,10 @@ class ChainConfig(Section):
     max_hits: int = 40
     random_middles: int = 10
     random_tokens: int = 3
+    scan_top_layers: int = Field(3, description="chain_scan: MLP layers whose neurons are scanned")
+    candidates: int = Field(10, description="chain_scan: neurons per layer and hit, by largest change under the swap")
+    report_neurons: int = Field(10, description="chain_scan: best neurons kept, tested as a set")
+    min_drop: float = Field(1.0, description="chain_scan: skip hits where the swap lowers the target by less")
     layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
     seed: int = 0
 
