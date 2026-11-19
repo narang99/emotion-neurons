@@ -10,7 +10,7 @@ data:
   split_token: 50
 chain:
   target: [25, 3068]
-  middles: [[2, 8663], [22, 5884], [22, 3221]]
+  middles: [[2, 8663], [22, 3221]]
 harvest_layers:
   layers: [2]
   per_emotion: 0

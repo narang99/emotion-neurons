@@ -113,12 +113,14 @@ def top_heads(split: SourceSplit, k: int) -> list[tuple[int, int, float]]:
 
 
 def top_source(split, t: int) -> tuple[int, dict]:
+    """The token whose input moves the middle neuron most, by magnitude (a neuron can fire negatively)."""
     by_source = split.by_source()
     own = float(by_source[t]) + split.embed + float(split.mlp.sum())
-    others = by_source.clone()
-    others[t] = -float("inf")
-    s = int(others.argmax()) if float(others.max()) > own else t
-    return s, {"own_token": own, "best_other": float(others.max()), "best_other_at": int(others.argmax()) - t}
+    others = by_source.abs()
+    others[t] = -1.0
+    j = int(others.argmax())
+    s = j if float(others[j]) > abs(own) else t
+    return s, {"own_token": own, "best_other": float(by_source[j]), "best_other_at": j - t}
 
 
 def main():
@@ -160,7 +162,7 @@ def main():
             row = {"text": i, "t": t, "token": tokenizer.decode(ids[0, t : t + 1]), "middle": mid, "target": tgt, "logp": lp,
                    "context": tokenizer.decode(ids[0, max(0, t - 10) : t + 1]).replace("\n", " "),
                    "source": s - t, "source_token": tokenizer.decode(ids[0, s : s + 1]), "source_info": source_info,
-                   "split": {"embed": split.embed, "mlp": float(split.mlp.sum()), "attention": float(split.head_source.sum()),
+                   "split": {"embed": split.embed, "mlp": float(split.mlp.sum()), "mlp_by_layer": split.mlp.tolist(), "attention": float(split.head_source.sum()),
                              "attention_from_own_token": float(split.head_source[..., t].sum()),
                              "top_heads": top_heads(split, 3)}}  # fmt: skip
             # Link middle -> target, and its random baseline.
