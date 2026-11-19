@@ -17,6 +17,7 @@
 
 import json
 import random
+import re
 import sys
 import time
 from collections.abc import Callable
@@ -101,7 +102,15 @@ def main():
     threshold = json.loads((cfg.results_dir / ch.harvest_run / "harvest.json").read_text())["thresholds"][str(target.neuron)][
         ch.band
     ]
-    hits = hits_of(model, sequences, target, threshold, ch.max_hits)
+    hits = hits_of(model, sequences, target, threshold, 10_000)
+    if ch.exclude_pattern:
+        # Keep only hits whose own token does not match, e.g. context hits of a word neuron.
+        hits = [
+            h
+            for h in hits
+            if not re.match(ch.exclude_pattern, tokenizer.decode(sequences[h[0]][0, h[1] : h[1] + 1]).strip().lower())
+        ]
+    hits = hits[: ch.max_hits]
     L = target.layer
     rng = random.Random(ch.seed)
     print(f"[hits] {len(hits)}, {time.time() - t0:.0f}s", flush=True)
