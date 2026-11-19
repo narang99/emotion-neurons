@@ -44,6 +44,7 @@ This file is the index of all experiments, in order. It also records how the wor
 | `exp/input_rows-negative` | kept | the input-row read, also by most negative activation | L2 n8663 reads " Pride, pride, 傲, 骄傲" through the input embedding | `input_rows.md` |
 | `exp/tail_causal` | kept | clamp set neurons into [p3, p97] at layer 25 | true score -3.5% (set) vs -7.2% for the whole shift and -0.3% for random sets: tails are about half of the causal effect | `tail_check.md` |
 | `exp/crossval` | kept | 6-fold accuracy and shrinkage kappa at layer 25 | accuracy 0.772 +- 0.048 (Stage 2's split 0.829 is the best fold); kappa 1 beats plain by 0.004 at 256 neurons, within noise | `crossval.md` |
+| `exp/direction_reports` | kept | split each emotion's MLP-25 write into modes (set tail firings) and remaining; lens, top tokens, examples | modes and remaining have equal norms, cosine 0.25-0.39; modes reads clearly (hug, heartbeat, pride), remaining does not, but peaks on other cues of the same scenes | `direction_reports.md` |
 
 ## Record of the session of 2026-11-18 and 2026-11-19
 

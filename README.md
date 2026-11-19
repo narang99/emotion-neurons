@@ -40,7 +40,7 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
 - [x] **Geva on MLP input rows** (done, `experiments/input_rows.md`) (CPU): read `W_gate[n] * g` and `W_up[n] * g` through `W_U` and `W_E`, for traced and random neurons.
 - [x] **More chains** (done for 11109 and 2862, `experiments/chain.md`).
 - [x] A chain for non-lexical hits (n3068 at context hits, `experiments/chain.md`) and an input read of negative firing (`experiments/input_rows.md`).
-- [ ] **Directions of the write** (`scripts/direction_reports.py`): split each emotion's MLP-25 write into `modes` (the set's
+- [x] **Directions of the write** (done, `experiments/direction_reports.md`) (`scripts/direction_reports.py`): split each emotion's MLP-25 write into `modes` (the set's
   tail firings) and `remaining`; logit lens, top tokens and example sentences for main / modes / remaining.
 - [x] **Causal tail test** (done, `experiments/tail_check.md`): clamp set neurons into [p3, p97] against random sets.
 - [x] Cross-validated held-out (done, `experiments/crossval.md`) (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
