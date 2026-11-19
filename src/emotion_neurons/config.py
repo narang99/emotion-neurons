@@ -221,6 +221,15 @@ class ChainConfig(Section):
     seed: int = 0
 
 
+class HarvestLayersConfig(Section):
+    layers: list[int] = [0, 2, 8, 12]
+    sparse_layers_file: Path = Path("results/sparse_layers/sparse_layers.json")
+    per_emotion: int = Field(8, description="first neurons of each emotion's sparse set at the layer")
+    named: list[list[int]] = Field([[8, 4826], [8, 7265]], description="[layer, neuron] pairs always included")
+    controls: int = 40
+    top_tokens: int = 100
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -257,6 +266,7 @@ class RunConfig(BaseSettings):
     causal_sets: CausalSetsConfig = CausalSetsConfig()
     word_tests: WordTestsConfig = WordTestsConfig()
     chain: ChainConfig = ChainConfig()
+    harvest_layers: HarvestLayersConfig = HarvestLayersConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

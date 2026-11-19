@@ -75,6 +75,51 @@ def layer_means(model, input_ids, start: int, stop: int) -> tuple[torch.Tensor, 
     return torch.stack([means[k] for k in range(len(blocks))]).cpu(), logits
 
 
+@torch.no_grad()
+def token_streams(model, input_ids) -> torch.Tensor:
+    """resid_post at every layer and token: [layer, token, d_model]."""
+    out: dict[int, torch.Tensor] = {}
+    blocks = decoder_layers(model)
+    keep = [
+        b.register_forward_hook(lambda _m, _a, o, k=k: out.__setitem__(k, (o[0] if isinstance(o, tuple) else o)[0].float().cpu()))
+        for k, b in enumerate(blocks)
+    ]
+    with hooks(keep):
+        model.model(input_ids=input_ids, use_cache=False)
+    return torch.stack([out[k] for k in range(len(blocks))])
+
+
+def distractor_tokens(model, tokenizer, texts: list[TestText], units: torch.Tensor) -> dict:
+    """At each token of the distractor word (e.g. " afraid" in "was not afraid"): which emotion each layer reads there.
+
+    - Centred on the mean over all tokens 4+ of these texts, per layer.
+    - Lexical reading: the label is the distractor. Contextual reading: it moves to the target, or away from the word.
+    """
+    streams, positions = [], []
+    for t in texts:
+        enc = tokenizer(t.text, return_offsets_mapping=True, return_tensors="pt")
+        spans = [m.span() for m in re.finditer(rf"\b{t.distractor}\b", t.text, flags=re.IGNORECASE)]
+        pos = [i for i, (a, b) in enumerate(enc["offset_mapping"][0].tolist()) if any(a < e and b > s0 for s0, e in spans)]
+        streams.append(token_streams(model, enc["input_ids"].to(model.device)))
+        positions.append(pos)
+    centre = torch.cat([s[:, 4:] for s in streams], 1).mean(1)  # [layer, d_model]
+    rows = []
+    for t, s, pos in zip(texts, streams, positions):
+        for p in pos:
+            scores = torch.einsum("ld,led->le", s[:, p] - centre, units)
+            rows.append((EMOTIONS.index(t.distractor), EMOTIONS.index(t.emotion), scores))
+    d = torch.tensor([r[0] for r in rows])
+    y = torch.tensor([r[1] for r in rows])
+    sc = torch.stack([r[2] for r in rows])  # [token, layer, emotion]
+    idx = torch.arange(len(rows))
+    return {
+        "n_tokens": len(rows),
+        "labelled_distractor": (sc.argmax(-1) == d[:, None]).float().mean(0).tolist(),
+        "labelled_target": (sc.argmax(-1) == y[:, None]).float().mean(0).tolist(),
+        "distractor_rank": (sc > sc[idx, :, d][..., None]).sum(-1).float().mean(0).tolist(),
+    }
+
+
 def summarise(texts: list[TestText], means: torch.Tensor, answers: torch.Tensor, units: torch.Tensor) -> dict:
     labels = torch.tensor([EMOTIONS.index(t.emotion) for t in texts])
     scores = torch.einsum("tld,led->tle", means - means.mean(0), units)  # [text, layer, emotion]
@@ -120,6 +165,11 @@ def main():
             f"[{name}] n {len(texts)} acc every 5th layer {[round(x, 2) for x in acc[::5]]} answer {out[name]['answer_accuracy']:.2f}{extra}, {time.time() - t0:.0f}s",
             flush=True,
         )
+    mislead = text_sets(cfg)["mislead"]
+    out["distractor_tokens"] = distractor_tokens(model, tokenizer, mislead, units)
+    dt = out["distractor_tokens"]
+    print(f"[distractor tokens] n {dt['n_tokens']} labelled distractor every 5th layer {[round(x, 2) for x in dt['labelled_distractor'][::5]]} "
+          f"target {[round(x, 2) for x in dt['labelled_target'][::5]]}", flush=True)  # fmt: skip
     cfg.result_dir.mkdir(parents=True, exist_ok=True)
     Path(cfg.result_dir / "word_tests.json").write_text(json.dumps(out, indent=1))
     print(f"[saved] {cfg.result_dir}/word_tests.json")

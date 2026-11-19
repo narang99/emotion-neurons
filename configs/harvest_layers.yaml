@@ -1,0 +1,10 @@
+# Early-layer neurons: thresholds, top examples, top tokens, emotion-word share (GPU, L4). Layers already in
+# results/harvest_layers/ are skipped.
+#   python scripts/harvest_layers.py --config configs/harvest_layers.yaml
+run_id: harvest_layers
+model: Qwen/Qwen3-8B
+harvest_layers:
+  layers: [0, 2, 8, 12]
+  per_emotion: 8
+  named: [[8, 4826], [8, 7265]]
+  controls: 40
