@@ -247,6 +247,14 @@ class InputRowsConfig(Section):
     show: int = 30
 
 
+class CrossvalConfig(Section):
+    vectors_run: str = Field("stage2_l25", description="runs/<vectors_run> holds the pooled sums and stories.json")
+    kappas: list[float] = Field([0.0, 1.0, 4.0, 9.0, 16.0], description="0: the plain target; else the shrunk target")
+    sizes: list[int] = [64, 128, 256, 512]
+    choose_at: int = Field(256, description="kappa is chosen by the mean held-out transfer at this set size")
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -286,6 +294,7 @@ class RunConfig(BaseSettings):
     harvest_layers: HarvestLayersConfig = HarvestLayersConfig()
     tail_check: TailCheckConfig = TailCheckConfig()
     input_rows: InputRowsConfig = InputRowsConfig()
+    crossval: CrossvalConfig = CrossvalConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
