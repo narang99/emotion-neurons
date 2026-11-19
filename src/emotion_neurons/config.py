@@ -206,6 +206,21 @@ class WordTestsConfig(Section):
     layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
 
 
+class ChainConfig(Section):
+    target: list[int] = Field([25, 3068], description="[layer, neuron] whose hits define the tokens")
+    middles: list[list[int]] = Field([[8, 4826], [8, 7265]], description="middle neurons, each tested as a link")
+    logit_token: str = " pride"
+    replacement: str = Field(" thing", description="the token put in place of a source token")
+    texts_dir: Path = Path("data/adult_stories")
+    harvest_run: str = Field("top64_l25", description="its harvest.json gives the target's threshold")
+    band: int = Field(2, description="index into the harvest percentiles (2: p99.9)")
+    max_hits: int = 40
+    random_middles: int = 10
+    random_tokens: int = 3
+    layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -241,6 +256,7 @@ class RunConfig(BaseSettings):
     head_reads: HeadReadsConfig = HeadReadsConfig()
     causal_sets: CausalSetsConfig = CausalSetsConfig()
     word_tests: WordTestsConfig = WordTestsConfig()
+    chain: ChainConfig = ChainConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

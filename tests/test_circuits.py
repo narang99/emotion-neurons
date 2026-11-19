@@ -113,3 +113,20 @@ def test_the_used_part_of_a_head_gives_its_whole_push(tiny):
     zh = z[1].view(-1, n_heads, head_dim)
     along = torch.einsum("thk,hk->th", zh, r / r.norm(dim=1, keepdim=True))
     torch.testing.assert_close(along * (u @ read)[None, :], torch.einsum("thk,hk->th", zh, r), atol=1e-5, rtol=1e-4)
+
+
+def test_source_split_rebuilds_the_lane_input():
+    from emotion_neurons.circuits.sources import split_by_source
+
+    torch.manual_seed(1)
+    config = Qwen3Config(
+        vocab_size=64, hidden_size=32, intermediate_size=48, num_hidden_layers=3,
+        num_attention_heads=4, num_key_value_heads=2, head_dim=8,
+    )  # fmt: skip
+    model = Qwen3ForCausalLM(config).eval()
+    model.set_attn_implementation("eager")
+    ids = torch.randint(0, 64, (1, 9))
+    for lane in ("gate", "up"):
+        split = split_by_source(model, ids, 2, 5, lane, 7)
+        assert abs(split.rebuilt() - split.lane_input) < 1e-4 * max(1.0, abs(split.lane_input))
+        assert split.head_source.shape == (3, 4, 8)
