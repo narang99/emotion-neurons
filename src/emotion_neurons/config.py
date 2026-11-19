@@ -200,6 +200,12 @@ class CausalSetsConfig(Section):
     seed: int = 0
 
 
+class WordTestsConfig(Section):
+    adult_dir: Path = Field(Path("data/adult_stories"), description="split into explicit and implied by their flag")
+    mislead_file: Path = Path("data/word_tests/mislead.jsonl")
+    layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -234,6 +240,7 @@ class RunConfig(BaseSettings):
     neuron_circuit: NeuronCircuitConfig = NeuronCircuitConfig()
     head_reads: HeadReadsConfig = HeadReadsConfig()
     causal_sets: CausalSetsConfig = CausalSetsConfig()
+    word_tests: WordTestsConfig = WordTestsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

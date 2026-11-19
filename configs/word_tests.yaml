@@ -1,0 +1,8 @@
+# Does each layer's emotion vector follow emotion words or the situation? (GPU, L4, about 5 minutes)
+#   python scripts/word_tests.py --config configs/word_tests.yaml
+run_id: word_tests
+model: Qwen/Qwen3-8B
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
