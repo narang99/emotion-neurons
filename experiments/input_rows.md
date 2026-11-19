@@ -53,7 +53,11 @@ python scripts/input_rows.py --config configs/input_rows.yaml   # Colab CPU (no 
   - the output unembedding from about layer 8, and clearly at layers 24-25.
 - At layer 25 the read agrees with the neuron's concept and with its value read. 3068, 11109 and 2862 read and write the same concept.
 
+- **Negative firing (round 2, tag `exp/input_rows-negative`).** The script now also lists the tokens with the most negative `a`.
+  - L2 n8663, input lens: " Pride", " pride", 傲 (proud), 骄傲 (pride). This is what it fires on (-7 to -12 on " proud" / " pride").
+  - L22 n3221, output lens: 奇迹 (miracle), " magical", " miracle", " legendary", " mystical".
+
 ## Limits
 
-- The lens ranks tokens by positive activation. A neuron that fires negatively, such as L2 n8663 on " proud", cannot be read this way. The next step is to rank by |a|, or by `a` of the right sign.
+- Round 1 ranked tokens by positive activation only, so it missed L2 n8663. Round 2 reads both signs.
 - The lens ignores attention and the earlier layers. At layer 2, neither lens matches the harvest.

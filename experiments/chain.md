@@ -119,3 +119,17 @@ Tag: `exp/chain_scans`.
 - **Pattern:**
   - When a target neuron fires on an emotion word, a short lexical path carries it: the token, MLP 0, then one layer-2 word neuron.
   - When it fires on context, many neurons carry it, mostly in layers 22-23.
+
+## n3068 at context hits (no pride word)
+
+Config: `configs/chain_scan_3068_context.yaml` (`exclude_pattern` drops hits on pride words; threshold p97). Results:
+`results/chain_scan_3068_context/chain_scan.json`. Tag: `exp/chain_context`.
+
+- Hit tokens: "," (6), " with" (3), " red", " face", " said" (2 each), " chest", " shoulders", " pleased", " up".
+  - Example: "puff[[ing]] up his chest".
+- Swapping the hit token still lowers n3068 from 8.05 to 0.94. The hit token sets what the position reads through attention.
+- Layer recovery: MLP 0 0.84, attention 0 0.56, MLP 22 0.22, MLP 24 0.18, MLP 5 0.12.
+- No compact path:
+  - The best single neuron (L24 n8868) recovers 0.036. Random neurons: 0.0005.
+  - The best 10 together recover 0.10. Held at their mean, they lower n3068 by only 0.08 of 8.05.
+- Thus "pride" from context, as for 11109, is spread over many neurons in layers 22-24. Only "pride" from the word has a short path.

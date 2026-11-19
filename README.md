@@ -39,7 +39,7 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
   source split (`circuits/sources.py`) and a patching scan (`scripts/chain_scan.py`).
 - [x] **Geva on MLP input rows** (done, `experiments/input_rows.md`) (CPU): read `W_gate[n] * g` and `W_up[n] * g` through `W_U` and `W_E`, for traced and random neurons.
 - [x] **More chains** (done for 11109 and 2862, `experiments/chain.md`).
-- [ ] A chain for a non-lexical hit (n3068 on "puffing up his chest"); an input lens that ranks negative firing (L2 n8663).
+- [x] A chain for non-lexical hits (n3068 at context hits, `experiments/chain.md`) and an input read of negative firing (`experiments/input_rows.md`).
 - [ ] Cross-validated held-out (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
 - [ ] Other layers (rerun the pipeline with a new config).
 

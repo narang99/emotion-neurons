@@ -40,6 +40,8 @@ This file is the index of all experiments, in order. It also records how the wor
 | `exp/swap_values` | kept | swap the `W_down` columns of two emotions' sets at layer 25 | gap change -1.7 to +3.7 of 55-71 (random pairs -0.3 to +0.6); much smaller than the shift swap: the emotion is in the shift, not in the values | `causal_sets.md` |
 | `exp/chain_scans` | kept | patching scans for 2862 (laughter) and 11109 (racing heart) | 2862: token -> MLP 0 -> L2 n2285 (0.22, random 0.00), like 3068; 11109 (context hits): spread, no neuron above 0.04 | `chain.md` |
 | `exp/input_rows` | kept | Geva's lens on gate/up rows through `W_E` and `W_U`, checked against harvest top tokens | input lens: layer 0 overlap 0.45 (shuffled 0.008), fails from layer 2; output lens works from layer 8 (0.075 vs 0.007); layer 25 reads clearly ("pride", "adrenaline", "laughter") | `input_rows.md` |
+| `exp/chain_context` | kept | patching scan for n3068 at hits that are not a pride word | spread: best neuron 0.036, best 10 together 0.10; "pride" from context has no short path | `chain.md` |
+| `exp/input_rows-negative` | kept | the input-row read, also by most negative activation | L2 n8663 reads " Pride, pride, 傲, 骄傲" through the input embedding | `input_rows.md` |
 
 ## Record of the session of 2026-11-18 and 2026-11-19
 
