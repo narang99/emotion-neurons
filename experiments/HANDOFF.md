@@ -1,5 +1,8 @@
 # Handoff: next run (2026-11-19)
 
+**Update, end of 2026-11-19: steps 0-5 are done.** See `LOG.md` rows `causal_sets` to `chain`. The open items are in the
+README checklist. The text below is the state before the runs, kept for the record.
+
 Branch: `stack/05-causal-sets` (on top of PR #6). Goal: results with a random baseline, and the full chain
 token -> early neuron -> L25 n3068 -> " pride" logit.
 

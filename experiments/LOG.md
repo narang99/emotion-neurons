@@ -30,6 +30,13 @@ This file is the index of all experiments, in order. It also records how the wor
 | `exp/circuits_l25-round1` | failed | whole-network circuits for the layer-25 score, ranked by effect against zero | faithfulness -0.1 at 100-1000 neurons; it ranked constant activations | `circuits_l25.md` |
 | `exp/circuits_l25-round2` | failed | the same, ranked by effect against the mean | faithfulness -0.04 to -0.21 at 100-3000 neurons; the check is too far from normal model states | `circuits_l25.md` |
 | `exp/neuron_circuits` | kept | local circuits of 3068 (pride) and 11109 (racing heart) | shame and pride writers drive 3068; 3068 drives pride and posture readers; holding 3068 lowers " pride" by 0.85 nats | `neuron_circuits.md` |
+| `exp/head_reads` | kept | attention heads into 9 MLP neurons (5 known, 4 random); logit lens of the part of each head the neuron uses | the used part is often clear and differs from the whole write (L22h5: whole write "celebration", 3068 uses "pride"); one head (L23h0) serves many neurons with different directions; 14 of 18 checks agree with the prediction | `head_reads.md` |
+| `exp/causal_sets` | kept | remove or swap each emotion's shift at layer 25 on its sparse set, random sets, all neurons | the set (5.9% of neurons) gives about 70% of all neurons' effect, random sets 5-20% of it; but MLP-25 moves later emotion scores by only about 10% at natural size, and no answer flips | `causal_sets.md` |
+| `exp/word_tests` | kept | per-layer emotion read on implied texts, and at negated distractor words | at "was not afraid" the vector reads "afraid" at all layers (about 0.5 in the middle layers), the true emotion 0.04-0.09 | `word_tests.md` |
+| `exp/tail_check` | kept | split each emotion's shift into tokens above p97, below p3, middle | sparse-set neurons: 10% of tokens in a tail carry 75% of the set's write; all neurons: the middle carries one third | `tail_check.md` |
+| `exp/harvest_layers` | kept | top tokens of early sparse-set neurons, layers 0, 2, 8, 12 | emotion-word share of top tokens 0.006-0.045 (controls 0.000-0.006): pronouns, body, posture words, not emotion words | `harvest_layers.md` |
+| `exp/chain-round1` | failed | chain token -> L8 n4826 / n7265 -> n3068 | holding the L8 neurons moves n3068 like random neurons (0.04 / 0.09 vs 0.10); guessed middles | `chain.md` |
+| `exp/chain` | kept | scan by patching, then the chain " proud" -> MLP0 -> L2 n8663 -> n3068 -> " pride", with L22 n3221 and L24 n2010 | n8663 patched back restores 64% (random 0.1%); n3221 and n2010 are necessary (-1.06, -0.96; 26-31x random); n3068 held: " pride" -1.01 nats | `chain.md` |
 
 ## Record of the session of 2026-11-18 and 2026-11-19
 
@@ -92,4 +99,3 @@ This file is the index of all experiments, in order. It also records how the wor
 - **Force-push:** the tool did not let me force-push the rebased stack. I pushed the stack under new names (`stack/0N-...`). The old `exp/0N-...` branches on GitHub are stale. Later log changes go up the stack by merge, not by rebase.
 - **`gh pr edit`:** it fails with a GitHub "Projects (classic)" error. I used `gh api -X PATCH .../pulls/N`.
 - **Too early claims:** two times I gave a result before I checked it (the reviewer point, and round 2 of the circuits). Each time, I found the error and corrected it. I now check the run log and the numbers before I report.
-| `exp/head_reads` | kept | attention heads into 9 MLP neurons (5 known, 4 random); logit lens of the part of each head the neuron uses | the used part is often clear and differs from the whole write (L22h5: whole write "celebration", 3068 uses "pride"); one head (L23h0) serves many neurons with different directions; 14 of 18 checks agree with the prediction | `head_reads.md` |
