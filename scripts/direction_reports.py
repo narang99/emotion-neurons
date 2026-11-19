@@ -89,7 +89,7 @@ def main():
     per_text = {}
     for tid, text in texts:
         ids = tokenizer(text, return_tensors="pt")["input_ids"].to(cfg.device)
-        out = mlp_outputs(model, ids, cfg.layer)[0]
+        out = mlp_outputs(model, ids, cfg.layer)
         toks = [tokenizer.decode([i]) for i in ids[0].tolist()]
         for e in dr.emotions:
             proj = (out @ units[e].T).cpu()  # [token, kind]
@@ -118,7 +118,7 @@ def main():
             "lens": {k: lens(model, tokenizer, d[k], dr.lens_top) for k in KINDS},
             "top_tokens": {},
         }
-        lines += [f"## {e}", "", f"- norms: " + ", ".join(f"{k} {v:.2f}" for k, v in row["norm"].items()),
+        lines += [f"## {e}", "", "- norms: " + ", ".join(f"{k} {v:.2f}" for k, v in row["norm"].items()),
                   "- cosines: " + ", ".join(f"{k} {v:.2f}" for k, v in cos.items()), "", "| direction | logit lens |", "|---|---|"]  # fmt: skip
         lines += [f"| {k} | {', '.join(repr(x) for x in row['lens'][k][:12])} |" for k in KINDS]
         for k in KINDS:
