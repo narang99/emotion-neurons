@@ -42,6 +42,8 @@ This file is the index of all experiments, in order. It also records how the wor
 | `exp/input_rows` | kept | Geva's lens on gate/up rows through `W_E` and `W_U`, checked against harvest top tokens | input lens: layer 0 overlap 0.45 (shuffled 0.008), fails from layer 2; output lens works from layer 8 (0.075 vs 0.007); layer 25 reads clearly ("pride", "adrenaline", "laughter") | `input_rows.md` |
 | `exp/chain_context` | kept | patching scan for n3068 at hits that are not a pride word | spread: best neuron 0.036, best 10 together 0.10; "pride" from context has no short path | `chain.md` |
 | `exp/input_rows-negative` | kept | the input-row read, also by most negative activation | L2 n8663 reads " Pride, pride, 傲, 骄傲" through the input embedding | `input_rows.md` |
+| `exp/tail_causal` | kept | clamp set neurons into [p3, p97] at layer 25 | true score -3.5% (set) vs -7.2% for the whole shift and -0.3% for random sets: tails are about half of the causal effect | `tail_check.md` |
+| `exp/crossval` | kept | 6-fold accuracy and shrinkage kappa at layer 25 | accuracy 0.772 +- 0.048 (Stage 2's split 0.829 is the best fold); kappa 1 beats plain by 0.004 at 256 neurons, within noise | `crossval.md` |
 
 ## Record of the session of 2026-11-18 and 2026-11-19
 

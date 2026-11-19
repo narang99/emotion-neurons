@@ -57,3 +57,28 @@ Means over the 12 emotions:
 
 - The thresholds come from 207k tokens of general text, not from the 2M-token harvest.
 - The low tail of a SiLU neuron is a small negative value. "Below p3" thus means "pushed below its usual floor", not "strong firing".
+
+## Causal test: clamp the tails
+
+Script: `scripts/tail_causal.py`, config `configs/tail_causal.yaml`. Results: `results/tail_causal/tail_causal.json`.
+Tag: `exp/tail_causal`.
+
+- Method: on the 240 held-out stories, at every token of layer 25, clamp neurons into [p3, p97] of general text.
+  - Only the tail firings change. Middle values stay.
+  - S is the emotion's sparse set, 3 random sets of the same size, or all neurons.
+  - For comparison: remove the set's mean shift `dA_e[S]` (as in `causal_sets`).
+- Results: the true emotion's score, as a share of clean.
+
+  | edit | L25 | L28 | L31 | L35 | accuracy L25 |
+  |---|---|---|---|---|---|
+  | clean | 1 | 1 | 1 | 1 | 0.82 |
+  | clamp set tails | 0.965 | 0.976 | 0.982 | 0.986 | 0.83 |
+  | clamp all neurons' tails | 0.950 | 0.968 | 0.975 | 0.982 | 0.84 |
+  | remove the set's mean shift | 0.928 | 0.945 | 0.956 | 0.961 | 0.80 |
+  | clamp random sets' tails | 0.997 | 0.998 | 0.998 | 0.998 | 0.82 |
+
+- Clamping the set's tails gives about half the effect of removing its whole shift (3.5% vs 7.2% at layer 25). It is 12 times the effect of random sets.
+- The decomposition gave the tails 75% of the set's write. Causally they give about 50%.
+  - One reason: clamping also removes tail firings that are not about the emotion.
+  - Another reason: later layers partly make up for the change.
+- No accuracy or answer changes beyond 0.02. All effects are small, as in `causal_sets`.
