@@ -178,6 +178,28 @@ class HeadReadsConfig(Section):
     seed: int = 0
 
 
+class CausalSetsConfig(Section):
+    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set")
+    vectors_file: Path = Field(Path("results/stage2_l25/vectors.safetensors"), description="dA_e and the 12-emotion mean")
+    layer_vectors_file: Path = Field(Path("results/layers_all/layer_vectors.safetensors"), description="unit vectors per layer")
+    read_layers: list[int] = [25, 28, 31, 35]
+    random_sets: int = Field(3, description="random sets of the same size, per emotion and per swap pair")
+    swaps: list[list[str]] = [
+        ["happy", "sad"],
+        ["sad", "happy"],
+        ["calm", "afraid"],
+        ["afraid", "calm"],
+        ["proud", "guilty"],
+        ["guilty", "proud"],
+    ]
+    swap_scales: list[float] = [1.0, 4.0]
+    question: str = "\n\nQuestion: In one word, how does the main character feel?\nAnswer: The main character feels"
+    continuation: str = "\n\nThat evening,"
+    generate_per_pair: int = 3
+    new_tokens: int = 40
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -211,6 +233,7 @@ class RunConfig(BaseSettings):
     circuits: CircuitsConfig = CircuitsConfig()
     neuron_circuit: NeuronCircuitConfig = NeuronCircuitConfig()
     head_reads: HeadReadsConfig = HeadReadsConfig()
+    causal_sets: CausalSetsConfig = CausalSetsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
