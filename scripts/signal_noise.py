@@ -83,6 +83,7 @@ def analyse(k, class_means, pole_share, masks, sn) -> tuple[dict, object]:
         m = getattr(g, name)
         row["counts"][name] = {"n": int(m.sum()), "positive": int((m & (g.mean > 0)).sum())}
         row["share_of_mean_push"][name] = float(g.mean[m].sum()) / total
+        row.setdefault("share_of_contrast", {})[name] = float(contrast[m].sum() / contrast.sum())
         row["heldout_share"][name] = float(P[own_held][:, m].sum(1).mean() / held_total.mean())
         row["d_prime"][name] = d_prime(P[own_held][:, m].sum(1), P[other_held][:, m].sum(1))
         mc = {c: class_push[c][own_train][:, m].mean(0).sum() for c in CLASSES}
@@ -96,6 +97,7 @@ def analyse(k, class_means, pole_share, masks, sn) -> tuple[dict, object]:
     row["neurons_for_mass"] = {
         "signal_of_push": neurons_for_mass(g.mean, g.signal, sn.mass),
         "specific_of_contrast": neurons_for_mass(contrast, g.specific, sn.mass),
+        "specific_of_own_contrast": neurons_for_mass(torch.where(g.specific, contrast, 0.0), g.specific, sn.mass),
     }
     return row, g
 
@@ -206,7 +208,9 @@ def main():
               + " | d': " + ", ".join(f"{k} {v:+.2f}" for k, v in row["d_prime"].items())
               + f" | noise mean {row['noise']['mean_train']:+.3f} sd {row['noise']['sd_train']:.3f} (indep {row['noise']['sd_if_independent']:.3f})"
               + f" | specific poles of contrast: high {row['contrast_pole_split']['specific']['high']:+.2f} low {row['contrast_pole_split']['specific']['low']:+.2f}"
-              + f" | k90 specific {row['neurons_for_mass']['specific_of_contrast']}", flush=True)  # fmt: skip
+              + " | share of contrast: " + ", ".join(f"{k} {v:+.2f}" for k, v in row["share_of_contrast"].items())
+              + f" | k90 of specific's contrast {row['neurons_for_mass']['specific_of_own_contrast']}"
+              + f" | random dir d' all {row_random['d_prime']['all']:+.2f}", flush=True)  # fmt: skip
 
     neurons = sorted({i["neuron"] for r in out["emotions"].values() for kind in r["mode_neurons"].values() for i in kind})
     modes = corpus_modes(model, tokenizer, cfg, neurons, lo, hi)

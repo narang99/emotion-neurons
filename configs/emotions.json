@@ -1,14 +1,108 @@
 {
-  "happy":     ["happy", "happiness", "happily", "joy", "joyful", "glad", "cheerful", "delighted", "elated"],
-  "inspired":  ["inspired", "inspiring", "inspiration", "motivated", "uplifted", "energized"],
-  "loving":    ["loving", "love", "loved", "affection", "affectionate", "adore", "adoring", "fond", "tender"],
-  "proud":     ["proud", "pride", "proudly", "accomplished", "triumphant"],
-  "calm":      ["calm", "calmly", "calmness", "peaceful", "serene", "tranquil", "relaxed", "at ease"],
-  "desperate": ["desperate", "desperation", "desperately", "hopeless", "frantic", "despair"],
-  "angry":     ["angry", "anger", "angrily", "furious", "mad", "rage", "enraged", "irate", "livid"],
-  "guilty":    ["guilty", "guilt", "remorse", "remorseful", "ashamed", "shame", "regret"],
-  "sad":       ["sad", "sadness", "sadly", "unhappy", "sorrow", "sorrowful", "melancholy", "depressed"],
-  "afraid":    ["afraid", "fear", "fearful", "scared", "frightened", "terrified", "terror"],
-  "nervous":   ["nervous", "nervously", "nerves", "anxious", "anxiety", "jittery", "uneasy"],
-  "surprised": ["surprised", "surprise", "surprising", "astonished", "amazed", "shocked", "stunned"]
+  "happy": [
+    "happy",
+    "happiness",
+    "happily",
+    "joy",
+    "joyful",
+    "glad",
+    "cheerful",
+    "delighted",
+    "elated"
+  ],
+  "inspired": [
+    "inspired",
+    "inspiring",
+    "inspiration",
+    "motivated",
+    "uplifted",
+    "energized"
+  ],
+  "loving": [
+    "loving",
+    "love",
+    "loved",
+    "affection",
+    "affectionate",
+    "adore",
+    "adoring",
+    "fond",
+    "tender"
+  ],
+  "proud": ["proud", "pride", "proudly", "accomplished", "triumphant"],
+  "calm": [
+    "calm",
+    "calmly",
+    "calmness",
+    "peaceful",
+    "serene",
+    "tranquil",
+    "relaxed",
+    "at ease"
+  ],
+  "desperate": [
+    "desperate",
+    "desperation",
+    "desperately",
+    "hopeless",
+    "frantic",
+    "despair"
+  ],
+  "angry": [
+    "angry",
+    "anger",
+    "angrily",
+    "furious",
+    "mad",
+    "rage",
+    "enraged",
+    "irate",
+    "livid"
+  ],
+  "guilty": [
+    "guilty",
+    "guilt",
+    "remorse",
+    "remorseful",
+    "ashamed",
+    "shame",
+    "regret"
+  ],
+  "sad": [
+    "sad",
+    "sadness",
+    "sadly",
+    "unhappy",
+    "sorrow",
+    "sorrowful",
+    "melancholy",
+    "depressed"
+  ],
+  "afraid": [
+    "afraid",
+    "fear",
+    "fearful",
+    "scared",
+    "frightened",
+    "terrified",
+    "terror"
+  ],
+  "nervous": [
+    "nervous",
+    "nervously",
+    "nerves",
+    "anxious",
+    "anxiety",
+    "jittery",
+    "uneasy"
+  ],
+  "surprised": [
+    "surprised",
+    "surprise",
+    "surprising",
+    "astonished",
+    "amazed",
+    "shocked",
+    "stunned"
+  ]
 }
