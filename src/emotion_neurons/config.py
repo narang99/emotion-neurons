@@ -294,6 +294,14 @@ class SignalNoiseConfig(Section):
     seed: int = 0
 
 
+class ResidualSetsConfig(Section):
+    levels: list[float] = Field([0.2, 0.1, 0.05], description="leftover |d - s| / |d| at which the set is read")
+    steps: int = Field(6000, description="greedy steps at most")
+    sizes: list[int] = Field([100, 300, 1000, 3000], description="leftover reported at these set sizes")
+    random_sets: int = 3
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -337,6 +345,7 @@ class RunConfig(BaseSettings):
     direction_reports: DirectionReportsConfig = DirectionReportsConfig()
     raw_sets: RawSetsConfig = RawSetsConfig()
     signal_noise: SignalNoiseConfig = SignalNoiseConfig()
+    residual_sets: ResidualSetsConfig = ResidualSetsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

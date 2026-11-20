@@ -1,0 +1,813 @@
+{
+ "levels": [
+  0.2,
+  0.1,
+  0.05
+ ],
+ "emotions": {
+  "happy": {
+   "min_leftover": 0.12372247874736786,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.691929042339325,
+    "300": 0.5763443112373352,
+    "1000": 0.39511698484420776,
+    "3000": 0.18834447860717773
+   },
+   "levels": {
+    "0.2": {
+     "size": 2784,
+     "heldout": {
+      "leftover": 0.5196394147922876,
+      "cos": 0.8553463816642761,
+      "leftover_over_noise_floor": 1.2496006971976377,
+      "noise_floor_share": 0.41584437009168945
+     },
+     "random_leftover": 0.8778659900029501,
+     "random_heldout_leftover": 0.8736212409847386,
+     "poles": {
+      "high": 0.35802292823791504,
+      "low": 0.36689090728759766,
+      "middle": 0.27508607506752014,
+      "pole_tokens": 0.08049644529819489
+     },
+     "in_match_set": 0.12787356972694397
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 1499,
+     "heldout": {
+      "leftover": 0.5833783891260136,
+      "cos": 0.8142408728599548,
+      "leftover_over_noise_floor": 1.3044547151724133,
+      "noise_floor_share": 0.44722011606888695
+     },
+     "random_leftover": 0.9247863491376241,
+     "random_heldout_leftover": 0.9273087843015468,
+     "poles": {
+      "high": 0.3772846460342407,
+      "low": 0.38079923391342163,
+      "middle": 0.24191613495349884,
+      "pole_tokens": 0.08889464288949966
+     },
+     "in_match_set": 0.23082055151462555
+    }
+   },
+   "match_set": {
+    "size": 380,
+    "leftover": 0.5881866216659546,
+    "heldout": {
+     "leftover": 0.7522181614358268,
+     "cos": 0.6612272262573242,
+     "leftover_over_noise_floor": 1.5270687961909586,
+     "noise_floor_share": 0.49258956984264285
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5406643805558028
+   },
+   "train_gap_noise": 0.3155325179663229
+  },
+  "inspired": {
+   "min_leftover": 0.14411661028862,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.785068929195404,
+    "300": 0.6573218107223511,
+    "1000": 0.45089054107666016,
+    "3000": 0.22022786736488342
+   },
+   "levels": {
+    "0.2": {
+     "size": 3389,
+     "heldout": {
+      "leftover": 0.42761462014114676,
+      "cos": 0.905602216720581,
+      "leftover_over_noise_floor": 1.00529533318361,
+      "noise_floor_share": 0.42536218564445083
+     },
+     "random_leftover": 0.8363066911697388,
+     "random_heldout_leftover": 0.8382496289655429,
+     "poles": {
+      "high": 0.3135373294353485,
+      "low": 0.3246084451675415,
+      "middle": 0.3618541955947876,
+      "pole_tokens": 0.07386583089828491
+     },
+     "in_match_set": 0.32251402735710144
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 2204,
+     "heldout": {
+      "leftover": 0.48303511147248945,
+      "cos": 0.8789393901824951,
+      "leftover_over_noise_floor": 1.0633286337901275,
+      "noise_floor_share": 0.45426700280867977
+     },
+     "random_leftover": 0.8848396142323812,
+     "random_heldout_leftover": 0.8908276807906753,
+     "poles": {
+      "high": 0.3226168155670166,
+      "low": 0.33044111728668213,
+      "middle": 0.34694212675094604,
+      "pole_tokens": 0.07774928957223892
+     },
+     "in_match_set": 0.4260435700416565
+    }
+   },
+   "match_set": {
+    "size": 1401,
+    "leftover": 0.5106784105300903,
+    "heldout": {
+     "leftover": 0.6110389537574534,
+     "cos": 0.814547061920166,
+     "leftover_over_noise_floor": 1.2638532268801896,
+     "noise_floor_share": 0.48347303370486905
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5682129970469265
+   },
+   "train_gap_noise": 0.2824093909289506
+  },
+  "loving": {
+   "min_leftover": 0.11908406764268875,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.6921350955963135,
+    "300": 0.5678161382675171,
+    "1000": 0.3849054276943207,
+    "3000": 0.18275907635688782
+   },
+   "levels": {
+    "0.2": {
+     "size": 2688,
+     "heldout": {
+      "leftover": 0.4359062214742252,
+      "cos": 0.9009259343147278,
+      "leftover_over_noise_floor": 1.1186503963047034,
+      "noise_floor_share": 0.38967153894923484
+     },
+     "random_leftover": 0.8297242720921835,
+     "random_heldout_leftover": 0.8501481213089404,
+     "poles": {
+      "high": 0.3629611134529114,
+      "low": 0.33688098192214966,
+      "middle": 0.30015796422958374,
+      "pole_tokens": 0.08557295054197311
+     },
+     "in_match_set": 0.2161458283662796
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 2164,
+     "heldout": {
+      "leftover": 0.46307887722258545,
+      "cos": 0.8877854943275452,
+      "leftover_over_noise_floor": 1.144299722653087,
+      "noise_floor_share": 0.4046832032336123
+     },
+     "random_leftover": 0.8975196679433187,
+     "random_heldout_leftover": 0.903744220210643,
+     "poles": {
+      "high": 0.3669019341468811,
+      "low": 0.3409964442253113,
+      "middle": 0.29210156202316284,
+      "pole_tokens": 0.08859201520681381
+     },
+     "in_match_set": 0.2643253207206726
+    }
+   },
+   "match_set": {
+    "size": 627,
+    "leftover": 0.5143687725067139,
+    "heldout": {
+     "leftover": 0.6515794582039144,
+     "cos": 0.7638296484947205,
+     "leftover_over_noise_floor": 1.4347132765305548,
+     "noise_floor_share": 0.4541530833112339
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5217056439390592
+   },
+   "train_gap_noise": 0.2389031932980669
+  },
+  "proud": {
+   "min_leftover": 0.14106833934783936,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.8128379583358765,
+    "300": 0.6837872266769409,
+    "1000": 0.46566590666770935,
+    "3000": 0.222823366522789
+   },
+   "levels": {
+    "0.2": {
+     "size": 3404,
+     "heldout": {
+      "leftover": 0.5978774874062501,
+      "cos": 0.8019660115242004,
+      "leftover_over_noise_floor": 1.2889333108834204,
+      "noise_floor_share": 0.4638544774643706
+     },
+     "random_leftover": 0.8395562767982483,
+     "random_heldout_leftover": 0.8378819355547649,
+     "poles": {
+      "high": 0.35123056173324585,
+      "low": 0.29174816608428955,
+      "middle": 0.3570213317871094,
+      "pole_tokens": 0.07649506628513336
+     },
+     "in_match_set": 0.07256168872117996
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 1501,
+     "heldout": {
+      "leftover": 0.6919213186180344,
+      "cos": 0.7232648134231567,
+      "leftover_over_noise_floor": 1.32856236979155,
+      "noise_floor_share": 0.5208045435808905
+     },
+     "random_leftover": 0.9227200547854105,
+     "random_heldout_leftover": 0.9298237403888275,
+     "poles": {
+      "high": 0.37740838527679443,
+      "low": 0.3090725541114807,
+      "middle": 0.31351909041404724,
+      "pole_tokens": 0.0876825675368309
+     },
+     "in_match_set": 0.15856096148490906
+    }
+   },
+   "match_set": {
+    "size": 268,
+    "leftover": 0.757141649723053,
+    "heldout": {
+     "leftover": 0.8671420711705645,
+     "cos": 0.502900242805481,
+     "leftover_over_noise_floor": 1.4729998707957952,
+     "noise_floor_share": 0.5886912065389978
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.6253579324189052
+   },
+   "train_gap_noise": 0.3726774309728812
+  },
+  "calm": {
+   "min_leftover": 0.14552900195121765,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.817465603351593,
+    "300": 0.6852491497993469,
+    "1000": 0.46758148074150085,
+    "3000": 0.2273617386817932
+   },
+   "levels": {
+    "0.2": {
+     "size": 3525,
+     "heldout": {
+      "leftover": 0.6014780337093212,
+      "cos": 0.799872636795044,
+      "leftover_over_noise_floor": 1.3647255157595843,
+      "noise_floor_share": 0.44073187374572403
+     },
+     "random_leftover": 0.8370281855265299,
+     "random_heldout_leftover": 0.8272335173502282,
+     "poles": {
+      "high": 0.33006009459495544,
+      "low": 0.3123864233493805,
+      "middle": 0.3575534224510193,
+      "pole_tokens": 0.07607333362102509
+     },
+     "in_match_set": 0.12425532191991806
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 1716,
+     "heldout": {
+      "leftover": 0.678542995516208,
+      "cos": 0.7377651929855347,
+      "leftover_over_noise_floor": 1.4057740299864465,
+      "noise_floor_share": 0.4826828359624413
+     },
+     "random_leftover": 0.9276960492134094,
+     "random_heldout_leftover": 0.9204800347478236,
+     "poles": {
+      "high": 0.35483676195144653,
+      "low": 0.32401856780052185,
+      "middle": 0.321144700050354,
+      "pole_tokens": 0.08751320093870163
+     },
+     "in_match_set": 0.24009324610233307
+    }
+   },
+   "match_set": {
+    "size": 483,
+    "leftover": 0.6936187744140625,
+    "heldout": {
+     "leftover": 0.8461908324016305,
+     "cos": 0.5394589304924011,
+     "leftover_over_noise_floor": 1.5565376688952361,
+     "noise_floor_share": 0.5436365912058013
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.59404056442522
+   },
+   "train_gap_noise": 0.3487531712171257
+  },
+  "desperate": {
+   "min_leftover": 0.13703672587871552,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.7908505201339722,
+    "300": 0.660006582736969,
+    "1000": 0.4467369019985199,
+    "3000": 0.21299055218696594
+   },
+   "levels": {
+    "0.2": {
+     "size": 3232,
+     "heldout": {
+      "leftover": 0.46047328506290214,
+      "cos": 0.8890194892883301,
+      "leftover_over_noise_floor": 1.0586879107929252,
+      "noise_floor_share": 0.4349471457721866
+     },
+     "random_leftover": 0.8545907934506735,
+     "random_heldout_leftover": 0.8540344298451094,
+     "poles": {
+      "high": 0.36745208501815796,
+      "low": 0.28901851177215576,
+      "middle": 0.34352943301200867,
+      "pole_tokens": 0.08065074682235718
+     },
+     "in_match_set": 0.2447400987148285
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 1916,
+     "heldout": {
+      "leftover": 0.5262890665122837,
+      "cos": 0.852862536907196,
+      "leftover_over_noise_floor": 1.1162393712326264,
+      "noise_floor_share": 0.47148405626574524
+     },
+     "random_leftover": 0.9172604084014893,
+     "random_heldout_leftover": 0.9139259775395561,
+     "poles": {
+      "high": 0.383076548576355,
+      "low": 0.29543131589889526,
+      "middle": 0.32149213552474976,
+      "pole_tokens": 0.08906334638595581
+     },
+     "in_match_set": 0.38883090019226074
+    }
+   },
+   "match_set": {
+    "size": 877,
+    "leftover": 0.5489831566810608,
+    "heldout": {
+     "leftover": 0.6602310206050365,
+     "cos": 0.7662652134895325,
+     "leftover_over_noise_floor": 1.2774531299754448,
+     "noise_floor_share": 0.5168338509748123
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5856026091916086
+   },
+   "train_gap_noise": 0.3054137028990353
+  },
+  "angry": {
+   "min_leftover": 0.13782842457294464,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.7555752396583557,
+    "300": 0.6347832083702087,
+    "1000": 0.4358595311641693,
+    "3000": 0.21156445145606995
+   },
+   "levels": {
+    "0.2": {
+     "size": 3219,
+     "heldout": {
+      "leftover": 0.3892213596461189,
+      "cos": 0.9227148294448853,
+      "leftover_over_noise_floor": 1.008175374448605,
+      "noise_floor_share": 0.3860651326253563
+     },
+     "random_leftover": 0.8442275126775106,
+     "random_heldout_leftover": 0.8406435608746782,
+     "poles": {
+      "high": 0.3675670921802521,
+      "low": 0.3279411494731903,
+      "middle": 0.30449169874191284,
+      "pole_tokens": 0.08353673666715622
+     },
+     "in_match_set": 0.2926374673843384
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 2192,
+     "heldout": {
+      "leftover": 0.4405012777913083,
+      "cos": 0.9002995491027832,
+      "leftover_over_noise_floor": 1.0808476508916263,
+      "noise_floor_share": 0.40755168170826345
+     },
+     "random_leftover": 0.9064146081606547,
+     "random_heldout_leftover": 0.9123615239802265,
+     "poles": {
+      "high": 0.38051196932792664,
+      "low": 0.3341005742549896,
+      "middle": 0.28538739681243896,
+      "pole_tokens": 0.08962749689817429
+     },
+     "in_match_set": 0.39963504672050476
+    }
+   },
+   "match_set": {
+    "size": 1135,
+    "leftover": 0.50187748670578,
+    "heldout": {
+     "leftover": 0.5833527333616093,
+     "cos": 0.8275187015533447,
+     "leftover_over_noise_floor": 1.2824921728612066,
+     "noise_floor_share": 0.45485870846304227
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5220945404655434
+   },
+   "train_gap_noise": 0.26981797290379056
+  },
+  "guilty": {
+   "min_leftover": 0.1356864720582962,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.7644580602645874,
+    "300": 0.6414095759391785,
+    "1000": 0.4373810589313507,
+    "3000": 0.21194441616535187
+   },
+   "levels": {
+    "0.2": {
+     "size": 3224,
+     "heldout": {
+      "leftover": 0.5072387355098529,
+      "cos": 0.8625169992446899,
+      "leftover_over_noise_floor": 1.2037947514660006,
+      "noise_floor_share": 0.4213664620917556
+     },
+     "random_leftover": 0.848833441734314,
+     "random_heldout_leftover": 0.8538459723578847,
+     "poles": {
+      "high": 0.3475465178489685,
+      "low": 0.29625439643859863,
+      "middle": 0.35619914531707764,
+      "pole_tokens": 0.0808381736278534
+     },
+     "in_match_set": 0.12717121839523315
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 1891,
+     "heldout": {
+      "leftover": 0.565436803161354,
+      "cos": 0.8265564441680908,
+      "leftover_over_noise_floor": 1.2432560063199705,
+      "noise_floor_share": 0.4548031944241663
+     },
+     "random_leftover": 0.908884584903717,
+     "random_heldout_leftover": 0.906344571405938,
+     "poles": {
+      "high": 0.3630942106246948,
+      "low": 0.30308008193969727,
+      "middle": 0.33382561802864075,
+      "pole_tokens": 0.0893179252743721
+     },
+     "in_match_set": 0.20941300690174103
+    }
+   },
+   "match_set": {
+    "size": 459,
+    "leftover": 0.6501447558403015,
+    "heldout": {
+     "leftover": 0.7543252630779704,
+     "cos": 0.6648267507553101,
+     "leftover_over_noise_floor": 1.4716638577211498,
+     "noise_floor_share": 0.5125662760013908
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5726486560282805
+   },
+   "train_gap_noise": 0.30231051256477615
+  },
+  "sad": {
+   "min_leftover": 0.130179300904274,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.7745280265808105,
+    "300": 0.645775318145752,
+    "1000": 0.43683063983917236,
+    "3000": 0.20903094112873077
+   },
+   "levels": {
+    "0.2": {
+     "size": 3152,
+     "heldout": {
+      "leftover": 0.5126855610606601,
+      "cos": 0.8600003123283386,
+      "leftover_over_noise_floor": 1.0240147132870259,
+      "noise_floor_share": 0.500662299484907
+     },
+     "random_leftover": 0.8574073115984598,
+     "random_heldout_leftover": 0.8545575585118348,
+     "poles": {
+      "high": 0.317495197057724,
+      "low": 0.3085134029388428,
+      "middle": 0.3739914000034332,
+      "pole_tokens": 0.08290880173444748
+     },
+     "in_match_set": 0.17734771966934204
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 1560,
+     "heldout": {
+      "leftover": 0.5989212581078454,
+      "cos": 0.805164635181427,
+      "leftover_over_noise_floor": 1.088628920235376,
+      "noise_floor_share": 0.5501610759875373
+     },
+     "random_leftover": 0.9277910590171814,
+     "random_heldout_leftover": 0.9297880526467683,
+     "poles": {
+      "high": 0.33154296875,
+      "low": 0.32105425000190735,
+      "middle": 0.34740278124809265,
+      "pole_tokens": 0.09577620774507523
+     },
+     "in_match_set": 0.3192307651042938
+    }
+   },
+   "match_set": {
+    "size": 641,
+    "leftover": 0.6301940083503723,
+    "heldout": {
+     "leftover": 0.7603245574905476,
+     "cos": 0.6655396819114685,
+     "leftover_over_noise_floor": 1.2385005214873162,
+     "noise_floor_share": 0.6139073373804261
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.6840389955552029
+   },
+   "train_gap_noise": 0.34217291000613204
+  },
+  "afraid": {
+   "min_leftover": 0.13246427476406097,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.7530680894851685,
+    "300": 0.6278730630874634,
+    "1000": 0.42679503560066223,
+    "3000": 0.2029992938041687
+   },
+   "levels": {
+    "0.2": {
+     "size": 3054,
+     "heldout": {
+      "leftover": 0.4090521098492903,
+      "cos": 0.9134387969970703,
+      "leftover_over_noise_floor": 1.160612256005386,
+      "noise_floor_share": 0.3524451062210669
+     },
+     "random_leftover": 0.8526454567909241,
+     "random_heldout_leftover": 0.8513202778683778,
+     "poles": {
+      "high": 0.39653459191322327,
+      "low": 0.2883007824420929,
+      "middle": 0.31516456604003906,
+      "pole_tokens": 0.08064155280590057
+     },
+     "in_match_set": 0.2622789740562439
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 2232,
+     "heldout": {
+      "leftover": 0.4465005414756352,
+      "cos": 0.8966322541236877,
+      "leftover_over_noise_floor": 1.2132546317320456,
+      "noise_floor_share": 0.36801882292277743
+     },
+     "random_leftover": 0.891223669052124,
+     "random_heldout_leftover": 0.8907685042106317,
+     "poles": {
+      "high": 0.4056871831417084,
+      "low": 0.2935130298137665,
+      "middle": 0.30079975724220276,
+      "pole_tokens": 0.08533184230327606
+     },
+     "in_match_set": 0.3382616341114044
+    }
+   },
+   "match_set": {
+    "size": 924,
+    "leftover": 0.5419918298721313,
+    "heldout": {
+     "leftover": 0.6594089463373585,
+     "cos": 0.7666895389556885,
+     "leftover_over_noise_floor": 1.5453334610518321,
+     "noise_floor_share": 0.4267098092139488
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.483327033870719
+   },
+   "train_gap_noise": 0.2593919194382828
+  },
+  "nervous": {
+   "min_leftover": 0.13181047141551971,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.7444315552711487,
+    "300": 0.6253299713134766,
+    "1000": 0.4270089864730835,
+    "3000": 0.20456257462501526
+   },
+   "levels": {
+    "0.2": {
+     "size": 3078,
+     "heldout": {
+      "leftover": 0.42959311784257026,
+      "cos": 0.9037117958068848,
+      "leftover_over_noise_floor": 1.078513638658315,
+      "noise_floor_share": 0.3983195969380505
+     },
+     "random_leftover": 0.8646665612856547,
+     "random_heldout_leftover": 0.8633992056197504,
+     "poles": {
+      "high": 0.4298580288887024,
+      "low": 0.2601107060909271,
+      "middle": 0.3100312650203705,
+      "pole_tokens": 0.08151917159557343
+     },
+     "in_match_set": 0.24236516654491425
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 2209,
+     "heldout": {
+      "leftover": 0.47014589316189387,
+      "cos": 0.8839929699897766,
+      "leftover_over_noise_floor": 1.125654288856008,
+      "noise_floor_share": 0.41766455102276456
+     },
+     "random_leftover": 0.9005526105562845,
+     "random_heldout_leftover": 0.899226673082308,
+     "poles": {
+      "high": 0.44677138328552246,
+      "low": 0.2617136240005493,
+      "middle": 0.291515052318573,
+      "pole_tokens": 0.087486632168293
+     },
+     "in_match_set": 0.32412856817245483
+    }
+   },
+   "match_set": {
+    "size": 839,
+    "leftover": 0.5385890007019043,
+    "heldout": {
+     "leftover": 0.6590928778185148,
+     "cos": 0.7602168321609497,
+     "leftover_over_noise_floor": 1.4336064797584758,
+     "noise_floor_share": 0.4597446280582899
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5244098457112637
+   },
+   "train_gap_noise": 0.2617806417528224
+  },
+  "surprised": {
+   "min_leftover": 0.14090055227279663,
+   "steps_run": 6000,
+   "at_size": {
+    "100": 0.7528106570243835,
+    "300": 0.6244588494300842,
+    "1000": 0.4271669387817383,
+    "3000": 0.21086077392101288
+   },
+   "levels": {
+    "0.2": {
+     "size": 3208,
+     "heldout": {
+      "leftover": 0.43504121395555795,
+      "cos": 0.903056263923645,
+      "leftover_over_noise_floor": 1.1114120864519803,
+      "noise_floor_share": 0.39143106257226606
+     },
+     "random_leftover": 0.8290790518124899,
+     "random_heldout_leftover": 0.8169916851344723,
+     "poles": {
+      "high": 0.37266674637794495,
+      "low": 0.32338300347328186,
+      "middle": 0.3039502501487732,
+      "pole_tokens": 0.08302274346351624
+     },
+     "in_match_set": 0.1957605928182602
+    },
+    "0.1": null,
+    "0.05": null,
+    "noise": {
+     "size": 2112,
+     "heldout": {
+      "leftover": 0.49205804123419805,
+      "cos": 0.8760967254638672,
+      "leftover_over_noise_floor": 1.1793545612602663,
+      "noise_floor_share": 0.417226555437562
+     },
+     "random_leftover": 0.8908489346504211,
+     "random_heldout_leftover": 0.8964917626296325,
+     "poles": {
+      "high": 0.3835619390010834,
+      "low": 0.3306680917739868,
+      "middle": 0.2857700288295746,
+      "pole_tokens": 0.08903185278177261
+     },
+     "in_match_set": 0.28929924964904785
+    }
+   },
+   "match_set": {
+    "size": 702,
+    "leftover": 0.5650413632392883,
+    "heldout": {
+     "leftover": 0.6853853933007639,
+     "cos": 0.7433494329452515,
+     "leftover_over_noise_floor": 1.4890248603373746,
+     "noise_floor_share": 0.46029143740788403
+    }
+   },
+   "all_neurons_heldout": {
+    "leftover": 0.0,
+    "cos": 1.0,
+    "leftover_over_noise_floor": null,
+    "noise_floor_share": 0.5278193770540552
+   },
+   "train_gap_noise": 0.2758231027544937
+  }
+ }
+}
