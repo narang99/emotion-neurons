@@ -67,6 +67,14 @@ python scripts/direction_reports.py --config configs/direction_reports.yaml   # 
   - It still peaks in emotional contexts, often on other cues of the same scene (speech, whole-body states).
 - Thus the feature-like part and the diffuse part of the write carry different information. Neither one alone is "the" emotion write.
 
+## TODO
+
+- Find the modes of the neurons behind `remaining`, to see what is happening in it.
+  - Today `remaining` is read only as a vector (logit lens, top-projecting tokens). No neuron-level read exists.
+  - Pick the neurons that contribute most to `remaining` per emotion (outside the sparse set, plus the set's middle tokens).
+  - Harvest their p97+ hits, cluster into modes and name them, as in Stage 4 / 4b.
+  - Compare with the `modes` neurons: does `remaining` hold a few clear neurons, or many weak ones?
+
 ## Limits
 
 - 4 emotions. The logit lens at layer 25 is only a rough read.

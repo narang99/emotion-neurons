@@ -46,6 +46,7 @@ This file is the index of all experiments, in order. It also records how the wor
 | `exp/crossval` | kept | 6-fold accuracy and shrinkage kappa at layer 25 | accuracy 0.772 +- 0.048 (Stage 2's split 0.829 is the best fold); kappa 1 beats plain by 0.004 at 256 neurons, within noise | `crossval.md` |
 | `exp/direction_reports` | kept | split each emotion's MLP-25 write into modes (set tail firings) and remaining; lens, top tokens, examples | modes and remaining have equal norms, cosine 0.25-0.39; modes reads clearly (hug, heartbeat, pride), remaining does not, but peaks on other cues of the same scenes | `direction_reports.md` |
 | `exp/raw_sets` | kept | per token, greedy on raw `a_n(t) w_n` (no mean removed) toward the L25 emotion vector, at high-score tokens; where members sit in their range | sets at cos 0.5: 10% of members at a pole (all neurons 7%, random-direction sets 0.2%), carrying 23% of the projection; a random direction is fit with about the same k (285 vs 277), so per-token sets are not unique; emotion sets differ from random ones by moderate displacement (p75-p97 0.32 vs 0.14) | `raw_sets.md` |
+| `exp/raw_pools` | kept | the same per-token greedy, candidates restricted to pole neurons (<= p3, >= p97), middle neurons, or a same-size middle subset | poles alone reach cos 0.32 with the emotion vector (all neurons 0.69); same-size middle 0.25; poles toward a random direction 0.27; the direction is not buildable from pole neurons | `raw_sets.md` |
 
 ## Record of the session of 2026-11-18 and 2026-11-19
 

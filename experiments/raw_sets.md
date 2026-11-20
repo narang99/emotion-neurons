@@ -74,3 +74,28 @@ python scripts/raw_sets.py --config configs/raw_sets.yaml   # L4, 2.5 minutes
 - Cosine lets small terms cancel the off-target parts of large terms. This favours middle activations as fine adjustments.
 - One layer (25), one target (the layer-25 unit vector), 200 tokens per emotion.
 - Open (README): what to do with neurons near p75; whether "a feeling was just named" neurons carry the emotion-specific part.
+
+## Pole-only candidates
+
+Script: `scripts/raw_pools.py`, config `configs/raw_pools.yaml`. Results: `results/raw_pools/raw_pools.json`. Tag: `exp/raw_pools`.
+
+- Question: if greedy may use only the neurons at a pole at that token, how close does it get to the emotion vector?
+  - This checks whether the search method caused the result above.
+- Pools per token: `all`; `poles` (<= p3 or >= p97, about 860 neurons); `middle`; `middle_sized` (a random middle subset with as many neurons as `poles`).
+- Same 200 tokens per emotion. Targets: the emotion vector, and a random direction.
+- Results, means over the 12 emotions (happy in brackets):
+
+  | pool | neurons | cos of the whole pool's sum | best greedy cos | k at best | best cos, random direction |
+  |---|---|---|---|---|---|
+  | all | 12288 | 0.08 (0.08) | 0.69 (0.66) | 1500 (step cap) | 0.68 |
+  | poles | 855 (855) | 0.07 (0.09) | **0.32 (0.33)** | 259 (248) | 0.27 |
+  | middle | 11400 | 0.03 (0.02) | 0.69 (0.68) | 1500 (step cap) | 0.68 |
+  | middle_sized | 855 | 0.01 (0.01) | 0.25 (0.23) | 282 (270) | 0.24 |
+
+- **The pole neurons cannot build the emotion vector.** The best set from them reaches cos 0.32. All neurons reach 0.69.
+- **The poles lean toward the emotion a little more than chance.**
+  - Best cos: 0.32 toward the emotion, 0.27 toward a random direction. The same-size middle pool: 0.25 and 0.24.
+  - Sum of the whole pool: 0.07 for poles, 0.01 for the same-size middle pool.
+- In every one of the 12 emotions, poles beat the same-size middle pool and beat their own random-direction control.
+- So the result above does not come from the search method. With only pole neurons, the emotion direction is out of reach.
+- Limit: `all` and `middle` hit the 1500-step cap, so their best cosines are lower bounds.
