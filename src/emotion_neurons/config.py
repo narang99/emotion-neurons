@@ -283,6 +283,17 @@ class RawSetsConfig(Section):
     seed: int = 0
 
 
+class SignalNoiseConfig(Section):
+    layer_vectors_file: Path = Field(
+        Path("results/layers_all/layer_vectors.safetensors"), description="`unit` [layer, emotion, d_model]"
+    )
+    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set, for overlap")
+    thresholds_file: Path = Field(Path("runs/raw_pools/cache.safetensors"), description="p3 / p97 per neuron, if cached")
+    t_cut: float = Field(4.6, description="|t| above this is not zero: about Bonferroni p < 0.01 over 12288 neurons")
+    mass: float = Field(0.9, description="share of the mean push used to count how many neurons carry it")
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -325,6 +336,7 @@ class RunConfig(BaseSettings):
     crossval: CrossvalConfig = CrossvalConfig()
     direction_reports: DirectionReportsConfig = DirectionReportsConfig()
     raw_sets: RawSetsConfig = RawSetsConfig()
+    signal_noise: SignalNoiseConfig = SignalNoiseConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
