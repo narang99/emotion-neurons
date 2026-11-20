@@ -3,7 +3,7 @@
     python scripts/offset_modes.py --config configs/signal_noise.yaml
 
 - Inputs: runs/signal_noise/story_classes.safetensors (per story: mean of a * 1[class] for high / low / middle, and
-  the share of pole tokens), the p3 / p97 cache of raw_pools, layer 25's W_down and the unit vectors.
+  the share of pole tokens), the p3 / p97 cache (`signal_noise.thresholds_file`), layer 25's W_down and the unit vectors.
 - Groups as in `signal_noise.py`. Per group, on the emotion's train stories:
   - `pole_tokens`: share of tokens at a pole;
   - `push_from_poles`: share of the group's push (signed per neuron, so each neuron counts toward its own net push)

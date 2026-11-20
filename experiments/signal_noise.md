@@ -57,7 +57,7 @@ Means over the 12 emotions:
   - n3853: ".", " all", " they"; n1439: ":", "assistant", digits; n7555: ",", " is", " was"; n1590: " or", " if";
     n10794: ".", ",", " the"; n10947: " time", ",".
   - One exception, n10073: " smiled", " waved", " hands", " heart". It pushes the same on every story, so it is not happy-specific.
-- n10947 and n10794 were the most repeated members of the per-token raw sets (`raw_sets.md`: 78% and 68% of tokens).
+- n10947 and n10794 were the most repeated members of the per-token raw sets (`raw_sets.md` at tag `exp/raw_sets`: 78% and 68% of tokens).
   - So the per-token raw sets partly picked offset neurons.
 
 ## Conclusion
