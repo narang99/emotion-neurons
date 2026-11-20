@@ -9,7 +9,7 @@
 """
 
 import torch
-from jaxtyping import Float, Int
+from jaxtyping import Bool, Float, Int
 from pydantic import BaseModel, ConfigDict
 from torch import Tensor
 
@@ -35,8 +35,13 @@ def raw_greedy(
     a: Acts,
     d: Float[Tensor, "token d_model"],
     steps: int,
+    allowed: Bool[Tensor, "token neuron"] | None = None,
 ) -> RawGreedy:
-    """`d` is each token's target direction (rows need not be unit)."""
+    """`d` is each token's target direction (rows need not be unit).
+
+    - `allowed`: the candidates per token (default: all). Once a token has none left, its later steps add nothing
+      (order -1, cosine unchanged).
+    """
     d_hat = d / d.norm(dim=1, keepdim=True)
     c = a * (d_hat @ W)  # u_n . d_hat
     diag = a**2 * (W * W).sum(0)  # |u_n|^2
@@ -47,19 +52,20 @@ def raw_greedy(
     alpha = torch.zeros(a.shape[0], device=a.device)  # s . d_hat
     beta = torch.zeros_like(alpha)  # |s|^2
     t = torch.zeros_like(a)  # U^T s
-    chosen = torch.zeros_like(a, dtype=torch.bool)
+    chosen = torch.zeros_like(a, dtype=torch.bool) if allowed is None else ~allowed
     order, cos = [], []
     for _ in range(steps):
         norm2 = beta[:, None] + 2 * t + diag
         score = (alpha[:, None] + c) / norm2.clamp_min(1e-30).sqrt()
         score = score.masked_fill(chosen | (norm2 <= 0), -2.0)
-        j = score.argmax(1)
-        aj = a[rows, j]
-        beta = beta + 2 * t[rows, j] + diag[rows, j]
-        alpha = alpha + c[rows, j]
+        best, j = score.max(1)
+        live = (best > -2.0).to(a.dtype)
+        aj = a[rows, j] * live
+        beta = beta + (2 * t[rows, j] + diag[rows, j]) * live
+        alpha = alpha + c[rows, j] * live
         t = t + a * WtW[j] * aj[:, None]
         chosen[rows, j] = True
-        order.append(j)
+        order.append(torch.where(live.bool(), j, -1))
         cos.append(alpha / beta.clamp_min(1e-30).sqrt())
     return RawGreedy(order=torch.stack(order, 1), cos=torch.stack(cos, 1), full_cos=full_cos)
 
