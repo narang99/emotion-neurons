@@ -267,6 +267,22 @@ class DirectionReportsConfig(Section):
     mark_quantile: float = Field(0.95, description="tokens above this quantile of a direction's values are marked")
 
 
+class RawSetsConfig(Section):
+    layer_vectors_file: Path = Field(
+        Path("results/layers_all/layer_vectors.safetensors"), description="`unit` [layer, emotion, d_model]"
+    )
+    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set, for overlap")
+    tokens_per_emotion: int = Field(200, description="the held-out tokens of the emotion's stories with the highest score")
+    per_story: int = Field(20, description="at most this many tokens from one story")
+    steps: int = Field(1500, description="greedy steps per token")
+    thresholds: list[float] = Field([0.5, 0.7, 0.9], description="cosines at which the set size and its neurons are read")
+    quantiles: list[float] = Field(
+        [0.01, 0.03, 0.10, 0.25, 0.50, 0.75, 0.90, 0.97, 0.99], description="general-corpus quantiles that bin each activation"
+    )
+    top_neurons: int = Field(30, description="most frequent set members reported per emotion")
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -308,6 +324,7 @@ class RunConfig(BaseSettings):
     input_rows: InputRowsConfig = InputRowsConfig()
     crossval: CrossvalConfig = CrossvalConfig()
     direction_reports: DirectionReportsConfig = DirectionReportsConfig()
+    raw_sets: RawSetsConfig = RawSetsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod

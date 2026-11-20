@@ -46,6 +46,12 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
 - [x] Cross-validated held-out (done, `experiments/crossval.md`) (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
 - [x] Other layers (done: vectors at all 36 layers, `experiments/journey_all.md`; sparse sets at all layers,
   `experiments/sparse_layers.md`; harvests at layers 0, 2, 8, 12, `experiments/harvest_layers.md`).
+- [ ] **Raw per-token sets** (`scripts/raw_sets.py`, running): at high-score tokens, greedy on raw `a_n(t) w_n` toward the
+  emotion vector, with no mean removed. Are the chosen neurons at their poles (<= p3, >= p97)?
+- [ ] **Parked: neurons at about p75.** Neurons that help the direction but sit near p75, not at a pole. What do we do
+  with them: count them as part of the feature, or as a separate kind of contribution?
+- [ ] **Parked: "a feeling was just named" neurons.** Several top writers (48, 2066, 3582) fire after any feeling word
+  (`experiments/stage3_l25.md`). Is the emotion-specific part of the write in the many small terms instead of the top 10?
 
 ## Layout
 

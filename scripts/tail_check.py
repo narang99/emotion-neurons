@@ -32,7 +32,16 @@ CLASSES = ("high", "low", "middle")
 
 
 def corpus_thresholds(model, tokenizer, cfg) -> tuple[torch.Tensor, torch.Tensor, int]:
-    """p3 and p97 per neuron over the corpus sample, on the GPU in chunks of neurons."""
+    """p3 and p97 per neuron over the corpus sample."""
+    q, n = corpus_quantiles(model, tokenizer, cfg, [0.03, 0.97])
+    return q[0], q[1], n
+
+
+def corpus_quantiles(model, tokenizer, cfg, quantiles: list[float]) -> tuple[torch.Tensor, int]:
+    """Per neuron, the quantiles over the corpus sample [quantile, neuron], on the GPU in chunks of neurons.
+
+    - Quantile q is the k-th smallest value with k = int(q * n_tokens), as `kthvalue` in the first version.
+    """
     h = cfg.harvest
     windows = collect_windows(h, tokenizer)
     all_neurons = torch.arange(model.config.intermediate_size, device=model.device)
@@ -44,13 +53,12 @@ def corpus_thresholds(model, tokenizer, cfg) -> tuple[torch.Tensor, torch.Tensor
         keep[:, : h.skip_first] = False
         rows.append(a[keep].half().cpu())
     acts = torch.cat(rows)  # [token, neuron]
-    lo, hi = torch.empty(acts.shape[1]), torch.empty(acts.shape[1])
-    k_lo, k_hi = max(1, int(0.03 * len(acts))), max(1, int(0.97 * len(acts)))
+    ranks = torch.tensor([max(1, int(q * len(acts))) - 1 for q in quantiles], device=model.device)
+    out = torch.empty(len(quantiles), acts.shape[1])
     for c in range(0, acts.shape[1], 512):
         chunk = acts[:, c : c + 512].to(model.device).float()
-        lo[c : c + 512] = chunk.kthvalue(k_lo, 0).values.cpu()
-        hi[c : c + 512] = chunk.kthvalue(k_hi, 0).values.cpu()
-    return lo, hi, len(acts)
+        out[:, c : c + 512] = chunk.sort(0).values[ranks].cpu()
+    return out, len(acts)
 
 
 def story_class_means(model, tokenizer, stories, layer: int, lo, hi, split_token: int) -> tuple[dict, torch.Tensor]:

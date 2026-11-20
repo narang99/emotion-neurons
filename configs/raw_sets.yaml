@@ -1,0 +1,15 @@
+# Per-token sparse sets on raw activations (no mean removed) toward the layer-25 emotion vector, at each emotion's
+# highest-scoring held-out tokens; where the chosen neurons sit in their general-corpus range (GPU, L4).
+#   python scripts/raw_sets.py --config configs/raw_sets.yaml
+run_id: raw_sets
+model: Qwen/Qwen3-8B
+layer: 25
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
+harvest:
+  corpora:
+    - {name: fineweb-edu, path: HuggingFaceFW/fineweb-edu, config: sample-10BT, tokens: 70000}
+    - {name: tinystories, path: roneneldan/TinyStories, tokens: 70000}
+    - {name: ultrachat, path: HuggingFaceH4/ultrachat_200k, split: train_sft, field: messages, tokens: 70000}
