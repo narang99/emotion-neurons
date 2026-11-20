@@ -1,0 +1,484 @@
+{
+ "mean": {
+  "specific": {
+   "pole_tokens": 0.07587883993983269,
+   "push_from_poles": 0.38547273476918537,
+   "push_from_high": 0.21722906331221262,
+   "push_from_low": 0.16824366773168245,
+   "middle_position_median": 0.49982457359631854
+  },
+  "constant": {
+   "pole_tokens": 0.0694394875317812,
+   "push_from_poles": 0.23361681898434958,
+   "push_from_high": 0.12943599621454874,
+   "push_from_low": 0.10418082152803738,
+   "middle_position_median": 0.5002400974432627
+  },
+  "noise": {
+   "pole_tokens": 0.07101316812137763,
+   "push_from_poles": 0.44184260815382004,
+   "push_from_high": 0.258609090000391,
+   "push_from_low": 0.183233509461085,
+   "middle_position_median": 0.49883058418830234
+  },
+  "noise_contrast_from_moderate_t": 0.8931268006563187
+ },
+ "emotions": {
+  "happy": {
+   "specific": {
+    "pole_tokens": 0.07349511981010437,
+    "push_from_poles": 0.45269468426704407,
+    "push_from_high": 0.23442889750003815,
+    "push_from_low": 0.2182658165693283,
+    "middle_position_median": 0.495223730802536,
+    "middle_position_q25_q75": [
+     0.4512413740158081,
+     0.5498246550559998
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.0700053870677948,
+    "push_from_poles": 0.2403576672077179,
+    "push_from_high": 0.12911871075630188,
+    "push_from_low": 0.11123895645141602,
+    "middle_position_median": 0.5007066130638123,
+    "middle_position_q25_q75": [
+     0.4556201696395874,
+     0.5455541610717773
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07170848548412323,
+    "push_from_poles": 0.44240278005599976,
+    "push_from_high": 0.19443033635616302,
+    "push_from_low": 0.24797241389751434,
+    "middle_position_median": 0.4995369017124176,
+    "middle_position_q25_q75": [
+     0.46365660429000854,
+     0.5332769155502319
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.891835629940033,
+   "noise_moderate_count": 1736,
+   "noise_silent_on_own": 0.6826087832450867
+  },
+  "inspired": {
+   "specific": {
+    "pole_tokens": 0.0675322413444519,
+    "push_from_poles": 0.27479225397109985,
+    "push_from_high": 0.16270028054714203,
+    "push_from_low": 0.11209197342395782,
+    "middle_position_median": 0.5013290643692017,
+    "middle_position_q25_q75": [
+     0.45339933037757874,
+     0.550061821937561
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.06695316731929779,
+    "push_from_poles": 0.20789344608783722,
+    "push_from_high": 0.11605974286794662,
+    "push_from_low": 0.09183371067047119,
+    "middle_position_median": 0.49962118268013,
+    "middle_position_q25_q75": [
+     0.4564444422721863,
+     0.5432645678520203
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.06835117936134338,
+    "push_from_poles": 0.40337300300598145,
+    "push_from_high": 0.25914308428764343,
+    "push_from_low": 0.14422990381717682,
+    "middle_position_median": 0.49849003553390503,
+    "middle_position_q25_q75": [
+     0.46367523074150085,
+     0.5333750247955322
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.9174479842185974,
+   "noise_moderate_count": 2146,
+   "noise_silent_on_own": 0.7532520294189453
+  },
+  "loving": {
+   "specific": {
+    "pole_tokens": 0.07729016244411469,
+    "push_from_poles": 0.39772066473960876,
+    "push_from_high": 0.24588507413864136,
+    "push_from_low": 0.15183556079864502,
+    "middle_position_median": 0.49661487340927124,
+    "middle_position_q25_q75": [
+     0.4436895251274109,
+     0.5515344142913818
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.07201932370662689,
+    "push_from_poles": 0.23745308816432953,
+    "push_from_high": 0.14058956503868103,
+    "push_from_low": 0.0968635156750679,
+    "middle_position_median": 0.5014997720718384,
+    "middle_position_q25_q75": [
+     0.457020103931427,
+     0.5473166108131409
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07388089597225189,
+    "push_from_poles": 0.48985952138900757,
+    "push_from_high": 0.18399961292743683,
+    "push_from_low": 0.30585992336273193,
+    "middle_position_median": 0.4980928897857666,
+    "middle_position_q25_q75": [
+     0.4619409143924713,
+     0.5329290628433228
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.8821093440055847,
+   "noise_moderate_count": 1934,
+   "noise_silent_on_own": 0.7104946970939636
+  },
+  "proud": {
+   "specific": {
+    "pole_tokens": 0.0728139728307724,
+    "push_from_poles": 0.36341583728790283,
+    "push_from_high": 0.17361211776733398,
+    "push_from_low": 0.18980371952056885,
+    "middle_position_median": 0.49656838178634644,
+    "middle_position_q25_q75": [
+     0.4438258707523346,
+     0.5549958348274231
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.06919033080339432,
+    "push_from_poles": 0.2426629662513733,
+    "push_from_high": 0.14331142604351044,
+    "push_from_low": 0.09935154765844345,
+    "middle_position_median": 0.5008379220962524,
+    "middle_position_q25_q75": [
+     0.45485222339630127,
+     0.5467356443405151
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.06988177448511124,
+    "push_from_poles": 0.44900545477867126,
+    "push_from_high": 0.1485246866941452,
+    "push_from_low": 0.30048075318336487,
+    "middle_position_median": 0.499447226524353,
+    "middle_position_q25_q75": [
+     0.46308502554893494,
+     0.5330000519752502
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.8456538915634155,
+   "noise_moderate_count": 1564,
+   "noise_silent_on_own": 0.754873514175415
+  },
+  "calm": {
+   "specific": {
+    "pole_tokens": 0.072568878531456,
+    "push_from_poles": 0.3436579406261444,
+    "push_from_high": 0.18386773765087128,
+    "push_from_low": 0.15979015827178955,
+    "middle_position_median": 0.5035725831985474,
+    "middle_position_q25_q75": [
+     0.4420849084854126,
+     0.5587203502655029
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.06635423749685287,
+    "push_from_poles": 0.21953085064888,
+    "push_from_high": 0.12462522089481354,
+    "push_from_low": 0.09490563720464706,
+    "middle_position_median": 0.5003491044044495,
+    "middle_position_q25_q75": [
+     0.4543948471546173,
+     0.546169102191925
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.06796206533908844,
+    "push_from_poles": 0.4395860433578491,
+    "push_from_high": 0.22404572367668152,
+    "push_from_low": 0.21554028987884521,
+    "middle_position_median": 0.4982565641403198,
+    "middle_position_q25_q75": [
+     0.46281710267066956,
+     0.53401780128479
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.9402716159820557,
+   "noise_moderate_count": 1664,
+   "noise_silent_on_own": 0.681633472442627
+  },
+  "desperate": {
+   "specific": {
+    "pole_tokens": 0.07637209445238113,
+    "push_from_poles": 0.3794867694377899,
+    "push_from_high": 0.23063138127326965,
+    "push_from_low": 0.14885535836219788,
+    "middle_position_median": 0.5011094212532043,
+    "middle_position_q25_q75": [
+     0.4373090863227844,
+     0.5597088932991028
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.06836453080177307,
+    "push_from_poles": 0.23158200085163116,
+    "push_from_high": 0.12082795053720474,
+    "push_from_low": 0.11075405031442642,
+    "middle_position_median": 0.500063419342041,
+    "middle_position_q25_q75": [
+     0.45381391048431396,
+     0.5470975637435913
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07138216495513916,
+    "push_from_poles": 0.49318814277648926,
+    "push_from_high": 0.43230143189430237,
+    "push_from_low": 0.06088671833276749,
+    "middle_position_median": 0.5000860095024109,
+    "middle_position_q25_q75": [
+     0.46462878584861755,
+     0.5355889797210693
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.8565539717674255,
+   "noise_moderate_count": 1787,
+   "noise_silent_on_own": 0.7095130085945129
+  },
+  "angry": {
+   "specific": {
+    "pole_tokens": 0.08091090619564056,
+    "push_from_poles": 0.4492695927619934,
+    "push_from_high": 0.22247453033924103,
+    "push_from_low": 0.22679503262043,
+    "middle_position_median": 0.5012438297271729,
+    "middle_position_q25_q75": [
+     0.441541463136673,
+     0.5629332065582275
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.07088886946439743,
+    "push_from_poles": 0.22990337014198303,
+    "push_from_high": 0.11597774922847748,
+    "push_from_low": 0.11392562091350555,
+    "middle_position_median": 0.5006313323974609,
+    "middle_position_q25_q75": [
+     0.4550747275352478,
+     0.544585108757019
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07224091142416,
+    "push_from_poles": 0.4149087071418762,
+    "push_from_high": 0.22956478595733643,
+    "push_from_low": 0.1853439062833786,
+    "middle_position_median": 0.49805939197540283,
+    "middle_position_q25_q75": [
+     0.4631066918373108,
+     0.5346211791038513
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.8749871850013733,
+   "noise_moderate_count": 1908,
+   "noise_silent_on_own": 0.6903373599052429
+  },
+  "guilty": {
+   "specific": {
+    "pole_tokens": 0.07735379040241241,
+    "push_from_poles": 0.35305896401405334,
+    "push_from_high": 0.21283955872058868,
+    "push_from_low": 0.14021942019462585,
+    "middle_position_median": 0.4953577220439911,
+    "middle_position_q25_q75": [
+     0.44283226132392883,
+     0.5581982135772705
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.0692584216594696,
+    "push_from_poles": 0.25084754824638367,
+    "push_from_high": 0.1273801475763321,
+    "push_from_low": 0.12346738576889038,
+    "middle_position_median": 0.49980080127716064,
+    "middle_position_q25_q75": [
+     0.45559781789779663,
+     0.5455515384674072
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07202687859535217,
+    "push_from_poles": 0.4996951222419739,
+    "push_from_high": 0.3067536950111389,
+    "push_from_low": 0.19294141232967377,
+    "middle_position_median": 0.49918031692504883,
+    "middle_position_q25_q75": [
+     0.46467816829681396,
+     0.5330055952072144
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.9409811496734619,
+   "noise_moderate_count": 1670,
+   "noise_silent_on_own": 0.7229326367378235
+  },
+  "sad": {
+   "specific": {
+    "pole_tokens": 0.07895787805318832,
+    "push_from_poles": 0.3757844567298889,
+    "push_from_high": 0.21898014843463898,
+    "push_from_low": 0.15680432319641113,
+    "middle_position_median": 0.5087788701057434,
+    "middle_position_q25_q75": [
+     0.4331149756908417,
+     0.5660675764083862
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.07058093696832657,
+    "push_from_poles": 0.24170927703380585,
+    "push_from_high": 0.13554610311985016,
+    "push_from_low": 0.1061631515622139,
+    "middle_position_median": 0.49888986349105835,
+    "middle_position_q25_q75": [
+     0.4548778235912323,
+     0.5454193353652954
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07194173336029053,
+    "push_from_poles": 0.5088171362876892,
+    "push_from_high": 0.2544431686401367,
+    "push_from_low": 0.2543739974498749,
+    "middle_position_median": 0.4980027973651886,
+    "middle_position_q25_q75": [
+     0.4636717736721039,
+     0.5346038341522217
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.8652427792549133,
+   "noise_moderate_count": 1404,
+   "noise_silent_on_own": 0.6676002740859985
+  },
+  "afraid": {
+   "specific": {
+    "pole_tokens": 0.07643809914588928,
+    "push_from_poles": 0.45220741629600525,
+    "push_from_high": 0.2520352005958557,
+    "push_from_low": 0.20017226040363312,
+    "middle_position_median": 0.5005987286567688,
+    "middle_position_q25_q75": [
+     0.4421154260635376,
+     0.5594706535339355
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.06821972876787186,
+    "push_from_poles": 0.2332909107208252,
+    "push_from_high": 0.13839861750602722,
+    "push_from_low": 0.09489230066537857,
+    "middle_position_median": 0.4999535381793976,
+    "middle_position_q25_q75": [
+     0.45396384596824646,
+     0.5459849238395691
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.06968478113412857,
+    "push_from_poles": 0.3931492269039154,
+    "push_from_high": 0.28105035424232483,
+    "push_from_low": 0.11209886521100998,
+    "middle_position_median": 0.4993959367275238,
+    "middle_position_q25_q75": [
+     0.4622305929660797,
+     0.5353884696960449
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.8798683285713196,
+   "noise_moderate_count": 1882,
+   "noise_silent_on_own": 0.7519076466560364
+  },
+  "nervous": {
+   "specific": {
+    "pole_tokens": 0.07748135179281235,
+    "push_from_poles": 0.45074597001075745,
+    "push_from_high": 0.29205840826034546,
+    "push_from_low": 0.1586875319480896,
+    "middle_position_median": 0.4975879490375519,
+    "middle_position_q25_q75": [
+     0.43759584426879883,
+     0.564521074295044
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.06847644597291946,
+    "push_from_poles": 0.23107345402240753,
+    "push_from_high": 0.12732774019241333,
+    "push_from_low": 0.1037457063794136,
+    "middle_position_median": 0.5003526210784912,
+    "middle_position_q25_q75": [
+     0.4550224542617798,
+     0.5463423728942871
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07010359317064285,
+    "push_from_poles": 0.3939734995365143,
+    "push_from_high": 0.3220338821411133,
+    "push_from_low": 0.071939617395401,
+    "middle_position_median": 0.49866074323654175,
+    "middle_position_q25_q75": [
+     0.46189624071121216,
+     0.5346804261207581
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.8948400616645813,
+   "noise_moderate_count": 1791,
+   "noise_silent_on_own": 0.7756703495979309
+  },
+  "surprised": {
+   "specific": {
+    "pole_tokens": 0.07933158427476883,
+    "push_from_poles": 0.3328382670879364,
+    "push_from_high": 0.1772354245185852,
+    "push_from_low": 0.1556028574705124,
+    "middle_position_median": 0.49990972876548767,
+    "middle_position_q25_q75": [
+     0.4498862028121948,
+     0.5511432886123657
+    ]
+   },
+   "constant": {
+    "pole_tokens": 0.07296247035264969,
+    "push_from_poles": 0.23709724843502045,
+    "push_from_high": 0.13406898081302643,
+    "push_from_low": 0.10302827507257462,
+    "middle_position_median": 0.5001749992370605,
+    "middle_position_q25_q75": [
+     0.4556240439414978,
+     0.545913577079773
+    ]
+   },
+   "noise": {
+    "pole_tokens": 0.07299355417490005,
+    "push_from_poles": 0.37415266036987305,
+    "push_from_high": 0.26701831817626953,
+    "push_from_low": 0.10713431239128113,
+    "middle_position_median": 0.4987581968307495,
+    "middle_position_q25_q75": [
+     0.46413102746009827,
+     0.5324385762214661
+    ]
+   },
+   "noise_contrast_from_moderate_t": 0.9277296662330627,
+   "noise_moderate_count": 1980,
+   "noise_silent_on_own": 0.813891589641571
+  }
+ }
+}

@@ -70,3 +70,23 @@ Means over the 12 emotions:
 
 - Pushes are along the layer-25 unit vector, not the MLP's own write.
 - The t-test treats stories as independent; stories on the same topic share words.
+
+## Are the offset neurons at their poles? (`scripts/offset_modes.py`, CPU)
+
+Results: `results/signal_noise/offset_modes.json`. Means over the 12 emotions, on each emotion's train stories:
+
+| group | tokens at a pole | push from pole tokens | push from middle tokens | typical middle value on [p3, p97] |
+|---|---|---|---|---|
+| specific | 7.6% | 0.39 | 0.61 | 0.50 |
+| constant (offset) | 6.9% | 0.23 | 0.77 | 0.50 |
+| noise | 7.1% | 0.44 | 0.56 | 0.50 |
+
+- Push shares are signed per neuron: each neuron counts toward its own net push.
+- **The offset neurons are mostly in between.** 77% of their push comes from middle tokens.
+  - They are at a pole on 6.9% of tokens, the general-text base rate (6%) plus a little.
+  - Their middle values sit near the centre of their range. The push is a small, steady lean over most tokens.
+- For comparison, the specific neurons' raw push is 39% from poles, but their emotion contrast is 73% from poles (above).
+  - Their middle lean is shared by all stories; the emotion-dependent part is the pole firings.
+- **The noise group's contrast (0.24) comes from weak but real differences.**
+  - 89% of it comes from noise neurons with 2 < |t| < 4.6 for own vs other stories (1400 to 2150 neurons per emotion).
+  - These fail the strict cut one by one, but add up.
