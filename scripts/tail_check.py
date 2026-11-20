@@ -55,9 +55,9 @@ def corpus_quantiles(model, tokenizer, cfg, quantiles: list[float]) -> tuple[tor
     acts = torch.cat(rows)  # [token, neuron]
     ranks = torch.tensor([max(1, int(q * len(acts))) - 1 for q in quantiles], device=model.device)
     out = torch.empty(len(quantiles), acts.shape[1])
-    for c in range(0, acts.shape[1], 512):
-        chunk = acts[:, c : c + 512].to(model.device).float()
-        out[:, c : c + 512] = chunk.sort(0).values[ranks].cpu()
+    for c in range(0, acts.shape[1], 256):
+        chunk = acts[:, c : c + 256].to(model.device).float()
+        out[:, c : c + 256] = chunk.sort(0).values[ranks].cpu()
     return out, len(acts)
 
 

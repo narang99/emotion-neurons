@@ -127,7 +127,7 @@ def size_stats(k: torch.Tensor) -> dict:
     reached = k[k > 0].float()
     if len(reached) == 0:
         return {"reached": 0.0}
-    q = torch.quantile(reached, torch.tensor([0.25, 0.5, 0.75]))
+    q = torch.quantile(reached, torch.tensor([0.25, 0.5, 0.75], device=reached.device))
     return {"reached": float((k > 0).float().mean()), "k_q25": float(q[0]), "k_median": float(q[1]), "k_q75": float(q[2])}
 
 
