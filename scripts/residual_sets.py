@@ -12,6 +12,9 @@
   - the leftover against the noise floor: what the held-out leftover would be if the rest summed to exactly zero
     (from the spread of the rest's per-story sums: `tr cov / n` for own and other stories).
 - Controls: random sets of the same size; the match sets, scored by leftover.
+- 6 folds (every story held out once): per fold, the signal set at the train noise level, and the rest's held-out
+  push along the train write's direction: its share of the total push, and its z against story noise
+  (combined over folds: sum z / sqrt 6). z near 0: the rest cancels.
 - Poles: the share of S's write (along itself) from tokens >= p97, <= p3 and middle; S's share of pole tokens.
 - Inputs: the signal_noise cache (`runs/signal_noise/story_classes.safetensors`) and layer 25's W_down.
 - Writes results/<run_id>/residual_sets.json.
@@ -74,6 +77,48 @@ def pole_split(W, cm, own, other, members, pole_share) -> dict:
     return out
 
 
+def fold_heldout(stories, k: int) -> torch.Tensor:
+    """Fold k holds out story_idx k of each emotion and neutral stories 2k and 2k+1 (as `crossval.py`)."""
+    return torch.tensor([s.story_idx in ((2 * k, 2 * k + 1) if s.emotion == "neutral" else (k,)) for s in stories])
+
+
+def rest_along(W, A, own_h, other_h, rest, d_hat) -> dict:
+    """The rest's held-out push along the train write's direction, its share of the total, and its z against noise."""
+    k_rest = W[:, rest].T @ d_hat
+    k_all = W.T @ d_hat
+    x_own, x_other = A[own_h][:, rest] @ k_rest, A[other_h][:, rest] @ k_rest
+    along = float(x_own.mean() - x_other.mean())
+    total = float((A[own_h] @ k_all).mean() - (A[other_h] @ k_all).mean())
+    sd = float((x_own.var() / len(x_own) + x_other.var() / len(x_other)).sqrt())
+    return {"share": along / total, "z": along / sd}
+
+
+def crossfold(W, WtW, A, stories, name: str, steps: int) -> dict:
+    """Per fold: the signal set at the train noise level, and whether the rest still pushes on the held-out stories."""
+    is_own = torch.tensor([s.emotion == name for s in stories])
+    folds = []
+    for k in range(6):
+        held = fold_heldout(stories, k)
+        own, other, own_h, other_h = is_own & ~held, ~is_own & ~held, is_own & held, ~is_own & held
+        gap = A[own].mean(0) - A[other].mean(0)
+        d = W @ gap
+        noise = noise_floor(W, A[own], A[other], torch.ones(W.shape[1], dtype=torch.bool)) / float(d.norm())
+        run = residual_greedy(W, WtW, gap, steps)
+        size = first_below(run.leftover, noise) or len(run.order)
+        rest = torch.ones(W.shape[1], dtype=torch.bool)
+        rest[run.order[:size]] = False
+        folds.append({"size": size, "rest": rest_along(W, A, own_h, other_h, rest, d / d.norm()),
+                      "heldout": heldout_checks(W, A, own_h, other_h, run.order[:size])})  # fmt: skip
+    z = [f["rest"]["z"] for f in folds]
+    return {
+        "folds": folds,
+        "size_mean": statistics.mean(f["size"] for f in folds),
+        "rest_share_mean": statistics.mean(f["rest"]["share"] for f in folds),
+        "rest_z_combined": sum(z) / len(z) ** 0.5,
+        "leftover_over_noise_mean": statistics.mean(f["heldout"]["leftover_over_noise_floor"] for f in folds),
+    }
+
+
 def main():
     cfg = load_run_config(sys.argv[1:])
     rs = cfg.residual_sets
@@ -119,7 +164,13 @@ def main():
                 "poles": pole_split(W, cm, own, other, S, pole_share),
                 "in_match_set": float(torch.isin(S, M).float().mean()),
             }  # fmt: skip
+        row["crossfold"] = cf = crossfold(W, WtW, A, stories, name, rs.steps)
         out["emotions"][name] = row
+        print(
+            f"[{name} 6 folds] signal set {cf['size_mean']:.0f} | rest's share of the held-out push {cf['rest_share_mean']:+.3f}, "
+            f"z {cf['rest_z_combined']:+.2f} | leftover {cf['leftover_over_noise_mean']:.2f} x noise floor",
+            flush=True,
+        )
         line = f"[{name}] min leftover {row['min_leftover']:.3f} after {row['steps_run']} | match set {len(M)}: leftover {row['match_set']['leftover']:.2f}"
         for level, v in row["levels"].items():
             if v:
