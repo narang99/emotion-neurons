@@ -11,26 +11,49 @@
   - runs/<run_id>/hits.safetensors: `<neuron>/high`, `<neuron>/low` token indices, for the mode clustering.
 """
 
+import gc
 import json
 import sys
 import time
 
 import torch
 from safetensors.torch import save_file
+from transformers import AutoConfig, AutoTokenizer
 
 from emotion_neurons.config import load_run_config
 from emotion_neurons.harvest import (
+    CorpusActs,
     band_edges,
     band_names,
     control_neurons,
+    load_corpus,
     neuron_examples,
     neurons_until,
     pole_hits,
     read_corpus,
+    save_corpus,
 )
 from emotion_neurons.models import load_model
 
 torch.set_grad_enabled(False)
+
+
+def corpus_for(cfg, neurons: list[int]) -> CorpusActs:
+    """The saved corpus if an earlier run got that far, else one pass to layer L, saved at once.
+
+    The model is freed before returning: sorting activations for the band edges needs the GPU memory.
+    """
+    path = cfg.run_dir / "corpus.safetensors"
+    if path.exists():
+        print(f"[corpus] loading the saved pass from {path}", flush=True)
+        return load_corpus(cfg.run_dir)
+    model, tokenizer = load_model(cfg.model, cfg.device)
+    corpus = read_corpus(model, tokenizer, cfg.harvest, cfg.layer, neurons)
+    save_corpus(corpus, cfg.run_dir)
+    del model
+    gc.collect()
+    torch.cuda.empty_cache()
+    return corpus
 
 
 def main():
@@ -38,14 +61,17 @@ def main():
     h = cfg.harvest
     t0 = time.time()
     chosen = neurons_until(h.neurons_csv, h.rebuilt_pct)
-    model, tokenizer = load_model(cfg.model, cfg.device)
-    controls = control_neurons(chosen, model.config.intermediate_size, h.n_controls, h.seed)
+    n_neurons = AutoConfig.from_pretrained(cfg.model).intermediate_size
+    controls = control_neurons(chosen, n_neurons, h.n_controls, h.seed)
     neurons = chosen + controls
     print(f"[neurons] {len(chosen)} from {h.neurons_csv} (to {h.rebuilt_pct}%) + {len(controls)} controls", flush=True)
 
-    corpus = read_corpus(model, tokenizer, h, cfg.layer, neurons)
+    corpus = corpus_for(cfg, neurons)
+    assert corpus.acts.shape[1] == len(neurons), f"saved corpus has {corpus.acts.shape[1]} neurons, expected {len(neurons)}"
     print(f"[corpus] {len(corpus.tokens)} tokens, {int(corpus.valid.sum())} valid, {time.time() - t0:.0f}s", flush=True)
-    edges = band_edges(corpus, h, model.device)
+    tokenizer = AutoTokenizer.from_pretrained(cfg.model)
+    edges = band_edges(corpus, h, torch.device(cfg.device))
+    print(f"[edges] both poles, {time.time() - t0:.0f}s", flush=True)
     bounds = corpus.window_bounds()
     generator = torch.Generator().manual_seed(h.seed)
     examples, hits = {}, {}
@@ -55,12 +81,6 @@ def main():
             hits[f"{n}/{pole}"] = idx.contiguous()
     print(f"[examples] {len(neurons)} neurons, {time.time() - t0:.0f}s", flush=True)
 
-    cfg.run_dir.mkdir(parents=True, exist_ok=True)
-    save_file(
-        {"acts": corpus.acts.contiguous(), "tokens": corpus.tokens, "window": corpus.window, "position": corpus.position},
-        str(cfg.run_dir / "corpus.safetensors"),
-    )
-    (cfg.run_dir / "sources.json").write_text(json.dumps(corpus.sources))
     save_file(hits, str(cfg.run_dir / "hits.safetensors"))
 
     cfg.result_dir.mkdir(parents=True, exist_ok=True)

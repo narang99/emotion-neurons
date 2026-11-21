@@ -10,11 +10,13 @@
 """
 
 import csv
+import json
 from pathlib import Path
 
 import torch
 from jaxtyping import Bool, Float, Int
 from pydantic import BaseModel, ConfigDict
+from safetensors.torch import load_file, save_file
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
@@ -44,6 +46,19 @@ class CorpusActs(BaseModel):
         counts = torch.bincount(self.window, minlength=len(self.sources))
         ends = counts.cumsum(0)
         return torch.stack([ends - counts, ends], 1)
+
+
+def save_corpus(corpus: CorpusActs, run_dir: Path) -> None:
+    run_dir.mkdir(parents=True, exist_ok=True)
+    tensors = {"acts": corpus.acts.contiguous(), "tokens": corpus.tokens, "window": corpus.window, "position": corpus.position}
+    save_file(tensors, str(run_dir / "corpus.safetensors"))
+    (run_dir / "sources.json").write_text(json.dumps(corpus.sources))
+
+
+def load_corpus(run_dir: Path) -> CorpusActs:
+    t = load_file(str(run_dir / "corpus.safetensors"))
+    sources = [tuple(s) for s in json.loads((run_dir / "sources.json").read_text())]
+    return CorpusActs(acts=t["acts"], tokens=t["tokens"], window=t["window"], position=t["position"], sources=sources)
 
 
 def neurons_until(csv_path: Path, rebuilt_pct: float) -> list[int]:

@@ -18,18 +18,12 @@ import torch
 from safetensors.torch import load_file
 
 from emotion_neurons.config import load_run_config
-from emotion_neurons.harvest import CorpusActs
+from emotion_neurons.harvest import load_corpus
 from emotion_neurons.models import load_model
 from emotion_neurons.modes import inputs_at, pole_modes, recomputed_activation
 
 torch.set_grad_enabled(False)
 POLES = ("high", "low")
-
-
-def load_corpus(run_dir) -> CorpusActs:
-    t = load_file(str(run_dir / "corpus.safetensors"))
-    sources = [tuple(s) for s in json.loads((run_dir / "sources.json").read_text())]
-    return CorpusActs(acts=t["acts"], tokens=t["tokens"], window=t["window"], position=t["position"], sources=sources)
 
 
 def check_inputs(model, layer, corpus, X, hits, column, count, seed) -> float:
