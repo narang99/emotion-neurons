@@ -20,3 +20,7 @@ direction:
   baseline: rest
 selection:
   refusal_tokens: ["I", "As"]
+neurons:
+  concept: refusal
+  layer_offset: -1
+  rebuilt: 0.9

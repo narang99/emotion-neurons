@@ -94,7 +94,7 @@ def discover(lines: list[ClusterLine], cfg: ModesRunConfig, key: str, path: Path
     if path.exists():
         return [Theme(**t) for t in json.loads(path.read_text())]
     t = cfg.themes
-    prompt = DISCOVER.format(emotion=cfg.emotion, n_min=t.n_min, n_max=t.n_max)
+    prompt = DISCOVER.format(emotion=cfg.concept, n_min=t.n_min, n_max=t.n_max)
     reply = ask(t.model, prompt, "\n".join(line.text for line in lines), key, t.max_tokens)
     themes = [Theme(**x) for x in json_array(reply)]
     path.write_text(json.dumps([x.model_dump() for x in themes], indent=1))
@@ -178,7 +178,7 @@ def run_themes(cfg: ModesRunConfig) -> list[dict]:
     folder.mkdir(parents=True, exist_ok=True)
     lines = cluster_lines(json.loads((cfg.result_dir / "cards.json").read_text()))
     key = read_key(cfg.judge.key_file)
-    print(f"[themes] {len(lines)} clusters on the {cfg.emotion} side of the set's neurons; model {cfg.themes.model}", flush=True)
+    print(f"[themes] {len(lines)} clusters on the {cfg.concept} side of the set's neurons; model {cfg.themes.model}", flush=True)
     themes = discover(lines, cfg, key, folder / "themes.json")
     print(f"[themes] {len(themes)} themes: {', '.join(x.theme for x in themes)}", flush=True)
     assigned = assign(lines, themes, cfg, key, folder)

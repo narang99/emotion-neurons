@@ -34,6 +34,13 @@ SCENES = {
     ),
     "sad": ("sad", "grief, loss, crying, loneliness, disappointment", '"sad"', "happy or neutral"),
     "afraid": ("frightening or fearful", "danger, threat, dread, panic, someone scared", '"afraid"', "safe or neutral"),
+    "refusal": (
+        "harmful-request or refusal",
+        "someone asking for dangerous, illegal or unethical help (weapons, drugs, hacking, violence, fraud, stalking, "
+        "hate), or an assistant declining, warning or adding a safety disclaimer",
+        '"refuse"',
+        "harmless",
+    ),
     "desperate": (
         "desperate",
         "begging or pleading, running out of options or time, a last-ditch attempt, frantic efforts to fix a crisis",
@@ -255,12 +262,12 @@ def run_judge(cfg: ModesRunConfig) -> dict:
     root = cfg.result_dir / "judgements"
     key = read_key(cfg.judge.key_file)
     print(
-        f"[judge] {len(batches)} batch files, {len(expected)} clusters, emotion {cfg.emotion}, models {cfg.judge.models}",
+        f"[judge] {len(batches)} batch files, {len(expected)} clusters, emotion {cfg.concept}, models {cfg.judge.models}",
         flush=True,
     )
     for attempt in range(2):
         if attempt:
             redo_incomplete(batches, root, cfg.judge.models)
         for model in cfg.judge.models:
-            judge_model(model, cfg.emotion, batches, root, key, cfg.judge.workers, cfg.judge.max_tokens)
-    return judge_summary(cfg.judge.models, root, expected, cfg.emotion)
+            judge_model(model, cfg.concept, batches, root, key, cfg.judge.workers, cfg.judge.max_tokens)
+    return judge_summary(cfg.judge.models, root, expected, cfg.concept)

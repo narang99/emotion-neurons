@@ -16,6 +16,7 @@
   attention and MLP output, so it never re-enters. Addition adds the raw difference of means at one layer's input.
 """
 
+import csv
 import json
 import math
 import time
@@ -24,13 +25,15 @@ from contextlib import contextmanager
 
 import torch
 from jaxtyping import Float
-from safetensors.torch import save_file
+from safetensors.torch import load_file, save_file
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from .config import DirectionRunConfig
 from .datasets import Example, InstructionSet
-from .models import ModelAdapter, adapter_for, decoder_layers, load_model
+from .models import ModelAdapter, adapter_for, decoder_layers, load_model, load_w_down, read_mlp
+from .sparse import first_reaching, greedy_set
+from .vectors.diff_means import diff_of_means
 
 Hooks = list[torch.utils.hooks.RemovableHandle]
 
@@ -190,11 +193,12 @@ def refusal_rate(replies: list[str], phrases: list[str]) -> float:
 def generation_check(model, tokenizer, cfg: DirectionRunConfig, val: dict, vector: Tensor, layer: int) -> dict:
     target, other = cfg.direction.target, next(c for c in cfg.instructions.categories if c != cfg.direction.target)
     unit = vector / vector.norm()
-    runs = {f"{target}/plain": (val[target], []), f"{target}/ablated": (val[target], ablation_hooks(model, unit)),
-            f"{other}/plain": (val[other], []), f"{other}/added": (val[other], addition_hooks(model, layer, vector))}  # fmt: skip
+    # Hooks are made only when their condition runs: built up front, every hook would be active from the first run on.
+    runs = {f"{target}/plain": (val[target], lambda: []), f"{target}/ablated": (val[target], lambda: ablation_hooks(model, unit)),
+            f"{other}/plain": (val[other], lambda: []), f"{other}/added": (val[other], lambda: addition_hooks(model, layer, vector))}  # fmt: skip
     result = {}
-    for name, (prompts, handles) in runs.items():
-        with hooked(handles):
+    for name, (prompts, make_hooks) in runs.items():
+        with hooked(make_hooks()):
             replies = generate(model, tokenizer, prompts, cfg)
         result[name] = {"refusal_rate": refusal_rate(replies, cfg.generation.refusal_phrases), "replies": replies}
         print(f"[generate] {name}: refusal rate {result[name]['refusal_rate']:.2f}", flush=True)
@@ -209,22 +213,29 @@ def run_direction(cfg: DirectionRunConfig) -> dict:
     instructions = InstructionSet(cfg.instructions)
     examples = instructions.examples()
     model, tokenizer = load_model(cfg.model, cfg.device)
-    train = [e for e in examples if e.split == "train"]
-    sums = category_sums(model, tokenizer, adapter, train, instructions, cfg.selection.batch_size)
     categories = list(cfg.instructions.categories)
-    means = torch.stack([sums[c][0] / sums[c][1] for c in categories])  # [category, position, layer, d]
-    diffs = diff_from_means(means, categories, cfg)
-    print(
-        f"[means] {len(train)} train prompts, {diffs.shape[0]} positions x {diffs.shape[1]} layers | {time.time() - t0:.0f}s",
-        flush=True,
-    )
-
     val = {
         c: [instructions.render(e, tokenizer, adapter).input_ids for e in examples if e.split == "val" and e.category == c]
         for c in categories
     }
-    refusal_ids = refusal_token_ids(tokenizer, cfg.selection.refusal_tokens)
-    selection = select_direction(model, cfg, diffs, val, refusal_ids, tokenizer.pad_token_id)
+    saved = cfg.result_dir / "direction.json"
+    if cfg.selection.reuse_saved and saved.exists():  # rerun the generation check only
+        previous = json.loads(saved.read_text())
+        tensors = load_file(str(cfg.result_dir / "direction.safetensors"))
+        diffs, means = tensors["diffs"].double(), tensors["means"].double()
+        selection = {k: previous[k] for k in ("grid", "choice", "filtered_out_all")}
+        print(f"[select] reusing the saved choice {selection['choice']}", flush=True)
+    else:
+        train = [e for e in examples if e.split == "train"]
+        sums = category_sums(model, tokenizer, adapter, train, instructions, cfg.selection.batch_size)
+        means = torch.stack([sums[c][0] / sums[c][1] for c in categories])  # [category, position, layer, d]
+        diffs = diff_from_means(means, categories, cfg)
+        print(
+            f"[means] {len(train)} train prompts, {diffs.shape[0]} positions x {diffs.shape[1]} layers | {time.time() - t0:.0f}s",
+            flush=True,
+        )
+        refusal_ids = refusal_token_ids(tokenizer, cfg.selection.refusal_tokens)
+        selection = select_direction(model, cfg, diffs, val, refusal_ids, tokenizer.pad_token_id)
     choice = selection["choice"]
     vector = diffs[choice["position"], choice["layer"]].to(model.device, model.dtype)
     print(
@@ -255,3 +266,86 @@ def diff_from_means(means: Float[Tensor, "category ..."], categories: list[str],
     rest = [i for i in range(len(categories)) if i != t]
     base = means.mean(0) if d.baseline == "all" else means[rest].mean(0)
     return means[t] - base
+
+
+@torch.no_grad()
+def mlp_acts_at(
+    model, tokenizer, adapter, examples: list[Example], instructions: InstructionSet, layer: int, position: int, batch_size: int
+) -> Tensor:
+    """[example, d_mlp]: the MLP activations of one layer at one post-instruction position (negative offset)."""
+    all_neurons = torch.arange(model.config.intermediate_size, device=model.device)
+    rendered = [instructions.render(e, tokenizer, adapter) for e in examples]
+    rows = []
+    for start in range(0, len(rendered), batch_size):
+        chunk = rendered[start : start + batch_size]
+        ids, mask, _ = next(batches([r.input_ids for r in chunk], tokenizer.pad_token_id, len(chunk)))
+        _, acts = read_mlp(model, layer, ids.to(model.device), mask.to(model.device), all_neurons)
+        rows += [acts[j, r.positions[position]].float().cpu() for j, r in enumerate(chunk)]
+    return torch.stack(rows)
+
+
+def neuron_rows(W: Tensor, shift: Tensor, abar_target: Tensor, abar_all: Tensor, run, size: int) -> list[dict]:
+    d = W @ shift
+    share = 100 * shift * (W.T @ d) / (d @ d)
+    return [
+        {"rank": i + 1, "neuron": n, "write_share_pct": round(float(share[n]), 4), "rebuilt_after_pct": round(100 * float(run.rebuilt[i]), 2),
+         "shift": float(shift[n]), "abar_emotion": float(abar_target[n]), "abar_all": float(abar_all[n])}
+        for i, n in enumerate(run.order[:size].tolist())
+    ]  # fmt: skip
+
+
+def run_direction_neurons(cfg: DirectionRunConfig) -> dict:
+    """GPU: the neuron set behind the selected direction, in the greedy-set format (`sparse`, scripts/greedy_sets.py).
+
+    - Layer: the chosen layer plus `neurons.layer_offset` (-1: the last MLP writing into the chosen residual stream).
+    - Shift: target mean minus the baseline (`direction.baseline`) of that MLP's activations at the chosen position,
+      train prompts only. Write d = W_down @ shift; greedy set to `neurons.rebuilt` of it.
+    - Writes results/<run_id>/: neurons/<concept>.csv, tensors.safetensors (write, shift), concepts.json,
+      neuron_acts.safetensors (activations per prompt), neurons.json (summary).
+    """
+    n = cfg.neurons
+    assert n is not None, "the config has no `neurons` section"
+    torch.set_grad_enabled(False)
+    t0 = time.time()
+    choice = json.loads((cfg.result_dir / "direction.json").read_text())["choice"]
+    layer = choice["layer"] + n.layer_offset
+    assert layer >= 0, f"no MLP at layer {layer}"
+    adapter = adapter_for(cfg.model)
+    instructions = InstructionSet(cfg.instructions)
+    examples = instructions.examples()
+    model, tokenizer = load_model(cfg.model, cfg.device)
+    acts = mlp_acts_at(model, tokenizer, adapter, examples, instructions, layer, choice["position"], n.batch_size)
+    labels, train = [e.category for e in examples], torch.tensor([e.split == "train" for e in examples])
+    categories = list(cfg.instructions.categories)
+    shift = diff_of_means(acts.double(), labels, categories, cfg.direction.target, cfg.direction.baseline, keep=train)
+    W = load_w_down(cfg.model, layer).double()
+    run = greedy_set(W, W.T @ W, shift, steps=W.shape[1])
+    size = first_reaching(run.rebuilt, n.rebuilt)
+    assert size is not None, f"greedy stopped at {float(run.rebuilt[-1]):.3f} before {n.rebuilt}"
+    target = torch.tensor([label == cfg.direction.target for label in labels])
+    abar_target, abar_all = acts[target & train].double().mean(0), acts[train].double().mean(0)
+    rows = neuron_rows(W, shift, abar_target, abar_all, run, size)
+    d = W @ shift
+    r = load_file(str(cfg.result_dir / "direction.safetensors"))["direction"].double()
+    out = cfg.result_dir / "neurons"
+    out.mkdir(parents=True, exist_ok=True)
+    with (out / f"{n.concept}.csv").open("w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows(rows)
+    save_file(
+        {"write": d[None].float().contiguous(), "shift": shift[None].float().contiguous()},
+        str(cfg.result_dir / "tensors.safetensors"),
+    )
+    (cfg.result_dir / "concepts.json").write_text(json.dumps([n.concept]))
+    save_file({"acts": acts.half().contiguous()}, str(cfg.result_dir / "neuron_acts.safetensors"))
+    summary = {
+        "concept": n.concept, "layer": layer, "position": choice["position"], "set_size": size, "d_mlp": W.shape[1],
+        "rebuilt_pct": round(100 * float(run.rebuilt[size - 1]), 2),
+        "size_at_pct": {str(p): first_reaching(run.rebuilt, p / 100) for p in (50, 75, 90, 95)},
+        "cos_mlp_write_with_direction": float(torch.cosine_similarity(d, r, 0)), "seconds": round(time.time() - t0),
+    }  # fmt: skip
+    (cfg.result_dir / "neurons.json").write_text(json.dumps(summary, indent=1))
+    print(f"[neurons] layer {layer} MLP: {size} of {W.shape[1]} neurons rebuild {summary['rebuilt_pct']}% of its write; "
+          f"cos(write, direction) {summary['cos_mlp_write_with_direction']:.3f} | {time.time() - t0:.0f}s", flush=True)  # fmt: skip
+    return summary

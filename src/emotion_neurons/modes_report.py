@@ -95,6 +95,12 @@ def neuron_card(n: int, info: dict, modes: dict, texts: dict, judgements: dict, 
     }  # fmt: skip
 
 
+def vector_row(greedy_dir: Path, concept: str) -> int:
+    """Row of the concept in the greedy set's tensors: concepts.json lists the rows; without it, the EMOTIONS order."""
+    listing = greedy_dir / "concepts.json"
+    return (json.loads(listing.read_text()) if listing.exists() else list(EMOTIONS)).index(concept)
+
+
 def set_rows(csv_path: Path) -> dict[int, dict]:
     return {int(r["neuron"]): r for r in csv.DictReader(csv_path.open())}
 
@@ -140,22 +146,22 @@ def run_report(cfg: ModesRunConfig) -> dict:
     print(f"[input] {len(neurons)} neurons + {len(controls)} controls, judges {list(judgements)}", flush=True)
 
     T = load_file(str(cfg.harvest.neurons_csv.parents[1] / "tensors.safetensors"))
-    row = EMOTIONS.index(cfg.emotion)  # rows of the greedy-set tensors follow EMOTIONS
+    row = vector_row(cfg.harvest.neurons_csv.parents[1], cfg.concept)
     d, shift = T["write"][row].double(), T["shift"][row].double()
     W = load_w_down(cfg.model, cfg.layer).double()
     info = neuron_info(neurons, controls, set_rows(cfg.harvest.neurons_csv), W, shift, d)
     per_neuron_lens, write_lens = lenses(cfg.model, W.float(), d.float(), neurons + controls)
 
     cards = [neuron_card(n, info[n], modes[n], texts, judgements, per_neuron_lens[n]) for n in neurons + controls]
-    payload = {"emotion": cfg.emotion, "neurons": cards, "write_lens": write_lens, "judges": list(judgements)}
+    payload = {"emotion": cfg.concept, "neurons": cards, "write_lens": write_lens, "judges": list(judgements)}
     # ASCII escapes: partial byte-level tokens decode to U+FFFD, which must not appear raw in the page
     page = TEMPLATE.read_text().replace("__DATA__", json.dumps(payload, ensure_ascii=True).replace("</", "<\\/"))
-    page = page.replace("__TITLE__", f"{cfg.emotion.capitalize()} Neuron Modes").replace("__EMOTION__", cfg.emotion)
+    page = page.replace("__TITLE__", f"{cfg.concept.capitalize()} Neuron Modes").replace("__EMOTION__", cfg.concept)
     page = page.replace("__PCT__", f"{harvest['config']['rebuilt_pct']:g}")
     (out / "report.html").write_text(page)
     (out / "cards.json").write_text(json.dumps(payload))  # the same data, for scripts (e.g. emotion_neurons.themes)
     write_neuron_csv(out / "neurons.csv", cards)
     counts = {c: sum(card["class"] == c and not card["is_control"] for card in cards) for c in ("match", "split", "no match")}
-    print(f"[classes] {cfg.emotion}-set neurons by the clusters on their side: {counts}")
+    print(f"[classes] {cfg.concept}-set neurons by the clusters on their side: {counts}")
     print(f"[saved] {out}/report.html ({len(page) / 1e6:.1f} MB) and neurons.csv", flush=True)
     return counts

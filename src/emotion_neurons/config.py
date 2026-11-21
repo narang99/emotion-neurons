@@ -19,10 +19,8 @@ from pathlib import Path
 from typing import Literal, TypeVar
 
 import yaml
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator
 from pydantic_settings import BaseSettings, PydanticBaseSettingsSource, SettingsConfigDict
-
-from .emotions import EMOTIONS
 
 Baseline = Literal["mean", "neutral"]
 Variant = Literal["raw", "denoised"]
@@ -212,7 +210,10 @@ class GreedySetsRunConfig(RunConfig):
 
 
 class ModesRunConfig(RunConfig):
-    emotion: str = Field("happy", description="the emotion the run is about (one of EMOTIONS)")
+    concept: str = Field(
+        "happy", validation_alias=AliasChoices("concept", "emotion"),
+        description="what the neuron set builds: an emotion, or another direction such as refusal (YAML key `emotion` also works)",
+    )  # fmt: skip
     harvest: HarvestConfig = HarvestConfig()
     modes: ModesConfig = ModesConfig()
     judge: JudgeConfig = JudgeConfig()
@@ -220,11 +221,10 @@ class ModesRunConfig(RunConfig):
     pipeline: PipelineConfig = PipelineConfig()
 
     @model_validator(mode="after")
-    def emotion_matches_its_neurons(self) -> "ModesRunConfig":
-        """A config that names one emotion but harvests another emotion's set is a copy-paste slip; fail on it."""
-        assert self.emotion in EMOTIONS, f"emotion {self.emotion!r} is not one of {EMOTIONS}"
-        csv_emotion = self.harvest.neurons_csv.stem
-        assert csv_emotion == self.emotion, f"emotion is {self.emotion!r} but harvest.neurons_csv is {csv_emotion}'s set"
+    def concept_matches_its_neurons(self) -> "ModesRunConfig":
+        """A config that names one concept but harvests another's neuron set is a copy-paste slip; fail on it."""
+        csv_concept = self.harvest.neurons_csv.stem
+        assert csv_concept == self.concept, f"concept is {self.concept!r} but harvest.neurons_csv is {csv_concept}'s set"
         return self
 
 
@@ -296,6 +296,9 @@ class DirectionSelectionConfig(Section):
     max_layer_fraction: float = Field(0.8, description="skip candidates in the last 20% of layers")
     max_kl: float = Field(0.1, description="ablating the direction may change harmless next-token predictions this much")
     batch_size: int = 32
+    reuse_saved: bool = Field(
+        False, description="reuse a saved direction.json/direction.safetensors (rerun the generation check only)"
+    )
 
 
 class GenerationCheckConfig(Section):
@@ -307,6 +310,15 @@ class GenerationCheckConfig(Section):
     ]  # fmt: skip
 
 
+class DirectionNeuronsConfig(Section):
+    """The neuron set behind a selected direction (`directions.run_direction_neurons`)."""
+
+    concept: str = Field(description="names the neuron set (its CSV is neurons/<concept>.csv)")
+    layer_offset: int = Field(-1, description="the MLP of the chosen layer plus this: -1 is the last MLP writing into it")
+    rebuilt: float = Field(0.9, description="greedy set stops when it rebuilds this share of the MLP's write")
+    batch_size: int = 32
+
+
 class DirectionRunConfig(RunConfig):
     """A difference-of-means direction on instruction data, selected and checked as in the refusal paper."""
 
@@ -314,6 +326,7 @@ class DirectionRunConfig(RunConfig):
     direction: DiffMeansConfig
     selection: DirectionSelectionConfig = DirectionSelectionConfig()
     generation: GenerationCheckConfig = GenerationCheckConfig()
+    neurons: DirectionNeuronsConfig | None = None
 
 
 Config = TypeVar("Config", bound=RunConfig)
