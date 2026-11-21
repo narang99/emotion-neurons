@@ -20,7 +20,7 @@ from safetensors.torch import save_file
 from tqdm import tqdm
 
 from emotion_neurons.capture import pooled_sums
-from emotion_neurons.config import load_run_config
+from emotion_neurons.config import VectorsRunConfig, load_run_config
 from emotion_neurons.models import load_model, read_layer
 from emotion_neurons.texts import load_stories
 
@@ -97,7 +97,7 @@ def save_run(cfg, stories, lengths, sums, counts, n_layers: int) -> None:
 
 
 def main():
-    cfg = load_run_config(sys.argv[1:])
+    cfg = load_run_config(VectorsRunConfig, sys.argv[1:])
     t0 = time.time()
     stories = load_stories(cfg.data)
     model, tokenizer = load_model(cfg.model, cfg.device)

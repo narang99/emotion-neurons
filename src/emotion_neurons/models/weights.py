@@ -12,6 +12,7 @@ from pathlib import Path
 
 import torch
 from huggingface_hub import HfFileSystem, hf_hub_download
+from huggingface_hub.errors import EntryNotFoundError
 from jaxtyping import Float
 from torch import Tensor
 
@@ -23,7 +24,10 @@ def cache_dir() -> Path:
 
 
 def shard_of(model: str, name: str) -> str:
-    index = json.loads(Path(hf_hub_download(model, "model.safetensors.index.json")).read_text())
+    try:
+        index = json.loads(Path(hf_hub_download(model, "model.safetensors.index.json")).read_text())
+    except EntryNotFoundError:  # a single-file model has no index
+        return "model.safetensors"
     return index["weight_map"][name]
 
 

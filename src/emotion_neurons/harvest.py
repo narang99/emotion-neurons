@@ -10,7 +10,9 @@
 """
 
 import csv
+import gc
 import json
+import time
 from pathlib import Path
 
 import torch
@@ -18,10 +20,10 @@ from jaxtyping import Bool, Float, Int
 from pydantic import BaseModel, ConfigDict
 from safetensors.torch import load_file, save_file
 from torch import Tensor
-from transformers import PreTrainedModel, PreTrainedTokenizerBase
+from transformers import AutoConfig, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import HarvestConfig
-from .models import read_mlp
+from .config import HarvestConfig, ModesRunConfig
+from .models import load_model, read_mlp
 from .poles import padded_batch, quantiles_per_neuron
 from .texts import corpus_windows
 
@@ -188,3 +190,57 @@ def pole_hits(corpus: CorpusActs, j: int, edges: dict, count: int, generator) ->
         "high": sample(corpus.valid & (a >= edges["high"][0, j]), count, generator),
         "low": sample(corpus.valid & (a <= edges["low"][0, j]), count, generator),
     }
+
+
+def corpus_for(cfg: ModesRunConfig, neurons: list[int]) -> CorpusActs:
+    """The saved corpus pass if an earlier run got that far, else one pass to layer L, saved at once.
+
+    The model is freed before returning: sorting activations for the band edges needs the GPU memory.
+    """
+    if (cfg.run_dir / "corpus.safetensors").exists():
+        print(f"[corpus] loading the saved pass from {cfg.run_dir}", flush=True)
+        return load_corpus(cfg.run_dir)
+    model, tokenizer = load_model(cfg.model, cfg.device)
+    corpus = read_corpus(model, tokenizer, cfg.harvest, cfg.layer, neurons)
+    save_corpus(corpus, cfg.run_dir)
+    del model
+    gc.collect()
+    torch.cuda.empty_cache()
+    return corpus
+
+
+def run_harvest(cfg: ModesRunConfig) -> None:
+    """The harvest stage: writes results/<run_id>/harvest.json and runs/<run_id>/{corpus,hits}.safetensors, sources.json."""
+    h = cfg.harvest
+    t0 = time.time()
+    chosen = neurons_until(h.neurons_csv, h.rebuilt_pct)
+    controls = control_neurons(chosen, AutoConfig.from_pretrained(cfg.model).intermediate_size, h.n_controls, h.seed)
+    neurons = chosen + controls
+    print(f"[neurons] {len(chosen)} from {h.neurons_csv} (to {h.rebuilt_pct}%) + {len(controls)} controls", flush=True)
+
+    corpus = corpus_for(cfg, neurons)
+    assert corpus.acts.shape[1] == len(neurons), f"saved corpus has {corpus.acts.shape[1]} neurons, expected {len(neurons)}"
+    print(f"[corpus] {len(corpus.tokens)} tokens, {int(corpus.valid.sum())} valid, {time.time() - t0:.0f}s", flush=True)
+    tokenizer = AutoTokenizer.from_pretrained(cfg.model)
+    edges = band_edges(corpus, h, torch.device(cfg.device))
+    print(f"[edges] both poles, {time.time() - t0:.0f}s", flush=True)
+    bounds = corpus.window_bounds()
+    generator = torch.Generator().manual_seed(h.seed)
+    examples, hits = {}, {}
+    for j, n in enumerate(neurons):
+        examples[n] = neuron_examples(corpus, bounds, tokenizer, h, j, edges, generator)
+        for pole, idx in pole_hits(corpus, j, edges, h.hits_per_pole, generator).items():
+            hits[f"{n}/{pole}"] = idx.contiguous()
+    print(f"[examples] {len(neurons)} neurons, {time.time() - t0:.0f}s", flush=True)
+    save_file(hits, str(cfg.run_dir / "hits.safetensors"))
+
+    cfg.result_dir.mkdir(parents=True, exist_ok=True)
+    harvest = {
+        "model": cfg.model, "layer": cfg.layer, "neurons": chosen, "controls": controls,
+        "tokens": len(corpus.tokens), "valid_tokens": int(corpus.valid.sum()), "config": h.model_dump(mode="json"),
+        "bands": {"high": band_names(h.high_quantiles), "low": band_names(h.low_quantiles)},
+        "edges": {str(n): {pole: e[:, j].tolist() for pole, e in edges.items()} for j, n in enumerate(neurons)},
+        "examples": {str(n): v for n, v in examples.items()},
+    }  # fmt: skip
+    (cfg.result_dir / "harvest.json").write_text(json.dumps(harvest, ensure_ascii=False))
+    print(f"[saved] {cfg.result_dir}/harvest.json and {cfg.run_dir}/ | {time.time() - t0:.0f}s", flush=True)

@@ -25,7 +25,7 @@ import torch
 from safetensors.torch import save_file
 
 from emotion_neurons.capture import late_means
-from emotion_neurons.config import load_run_config
+from emotion_neurons.config import GreedySetsRunConfig, load_run_config
 from emotion_neurons.emotions import EMOTIONS
 from emotion_neurons.models import load_w_down
 from emotion_neurons.sparse import GreedyRun, emotion_shift, first_reaching, greedy_set
@@ -65,7 +65,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 
 def main():
-    cfg = load_run_config(sys.argv[1:])
+    cfg = load_run_config(GreedySetsRunConfig, sys.argv[1:])
     gc = cfg.greedy_sets
     t0 = time.time()
     run_dir = cfg.runs_dir / gc.sums_run

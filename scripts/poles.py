@@ -13,7 +13,7 @@ import time
 import torch
 from safetensors.torch import save_file
 
-from emotion_neurons.config import load_run_config
+from emotion_neurons.config import PolesRunConfig, load_run_config
 from emotion_neurons.models import load_model
 from emotion_neurons.poles import corpus_activations, quantiles_per_neuron
 
@@ -25,7 +25,7 @@ def quantile_name(q: float) -> str:
 
 
 def main():
-    cfg = load_run_config(sys.argv[1:])
+    cfg = load_run_config(PolesRunConfig, sys.argv[1:])
     t0 = time.time()
     model, tokenizer = load_model(cfg.model, cfg.device)
     acts = corpus_activations(model, tokenizer, cfg.poles, cfg.layer)

@@ -1,18 +1,20 @@
-"""Everything a run can be told, as one typed config.
+"""Typed run configs: a small shared base, and one config class per kind of experiment.
 
-Values come from two places, and the command line wins:
-
-- a YAML file given with `--config`, for the settings that distinguish one experiment from
-  another, so they live in git
-- flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`
-
-Every script of a run reads the same file, so one commit reproduces the whole run.
+- `RunConfig` holds what every run has: run id, model, layer, device, folders.
+- Each experiment's class adds only its own sections:
+  - `VectorsRunConfig`: activations and emotion vectors (extract.py, build_vectors.py);
+  - `PolesRunConfig`: neuron poles (poles.py);
+  - `GreedySetsRunConfig`: greedy sets (greedy_sets.py);
+  - `ModesRunConfig`: harvest, modes, judge, report and the end-to-end pipeline.
+- Values come from two places, and the command line wins:
+  - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
+  - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
 """
 
 import argparse
 from collections.abc import Sequence
 from pathlib import Path
-from typing import Literal
+from typing import Literal, TypeVar
 
 import yaml
 from pydantic import BaseModel, ConfigDict, Field, model_validator
@@ -113,7 +115,8 @@ class ModesConfig(Section):
     assign_quantile: float = Field(0.1, description="a noise hit joins a cluster above this quantile of member cosines")
     exemplars: int = 5
     other_exemplars: int = 3
-    neurons_per_batch: int = Field(8, description="neurons per text file for Haiku")
+    neurons_per_batch: int = Field(8, description="at most this many neurons per text file for the judges")
+    clusters_per_batch: int = Field(80, description="and at most this many clusters, so a judge's reply is not cut off")
     snippet_before: int = 30
     snippet_after: int = 8
     batch_size: int = 32
@@ -136,25 +139,27 @@ class GreedySetsConfig(Section):
     rebuilt: float = Field(0.9, description="stop when the set rebuilds this share of the write")
 
 
+class PipelineConfig(Section):
+    """Checkpoints of the end-to-end run (`emotion_neurons.pipeline`)."""
+
+    s3_prefix: str | None = Field(
+        None, description="if set, each stage's outputs are pushed to <s3_prefix>/<run_id>/ and pulled back on a restart"
+    )
+    until: Literal["harvest", "modes", "judge", "report"] | None = Field(None, description="stop after this stage")
+
+
 class RunConfig(BaseSettings):
+    """What every run has. Experiments subclass it with their own sections."""
+
     model_config = SettingsConfigDict(extra="forbid", cli_kebab_case=True)
 
     config: Path | None = Field(None, description="YAML file with defaults for any of the settings below")
     run_id: str = Field("dev", description="names runs/<run_id> (large, ignored) and results/<run_id> (committed)")
     model: str = "Qwen/Qwen3-8B"
     layer: int = 25
-    emotion: str = Field("happy", description="the emotion a harvest, judge or report run is about (one of EMOTIONS)")
     device: str = "cuda"
     runs_dir: Path = Path("runs")
     results_dir: Path = Path("results")
-    data: DataConfig = DataConfig()
-    extract: ExtractConfig = ExtractConfig()
-    vectors: VectorsConfig = VectorsConfig()
-    poles: PolesConfig = PolesConfig()
-    greedy_sets: GreedySetsConfig = GreedySetsConfig()
-    harvest: HarvestConfig = HarvestConfig()
-    modes: ModesConfig = ModesConfig()
-    judge: JudgeConfig = JudgeConfig()
 
     @classmethod
     def settings_customise_sources(
@@ -168,14 +173,6 @@ class RunConfig(BaseSettings):
         """An environment variable named `MODEL` or `DEVICE` must not silently override a field."""
         return (init_settings,)
 
-    @model_validator(mode="after")
-    def emotion_matches_its_neurons(self) -> "RunConfig":
-        """A config that names one emotion but harvests another emotion's set is a copy-paste slip; fail on it."""
-        assert self.emotion in EMOTIONS, f"emotion {self.emotion!r} is not one of {EMOTIONS}"
-        csv_emotion = self.harvest.neurons_csv.stem
-        assert csv_emotion == self.emotion, f"emotion is {self.emotion!r} but harvest.neurons_csv is {csv_emotion}'s set"
-        return self
-
     @property
     def run_dir(self) -> Path:
         return self.runs_dir / self.run_id
@@ -185,10 +182,43 @@ class RunConfig(BaseSettings):
         return self.results_dir / self.run_id
 
 
-def load_run_config(argv: Sequence[str]) -> RunConfig:
+class VectorsRunConfig(RunConfig):
+    data: DataConfig = DataConfig()
+    extract: ExtractConfig = ExtractConfig()
+    vectors: VectorsConfig = VectorsConfig()
+
+
+class PolesRunConfig(RunConfig):
+    poles: PolesConfig = PolesConfig()
+
+
+class GreedySetsRunConfig(RunConfig):
+    greedy_sets: GreedySetsConfig = GreedySetsConfig()
+
+
+class ModesRunConfig(RunConfig):
+    emotion: str = Field("happy", description="the emotion the run is about (one of EMOTIONS)")
+    harvest: HarvestConfig = HarvestConfig()
+    modes: ModesConfig = ModesConfig()
+    judge: JudgeConfig = JudgeConfig()
+    pipeline: PipelineConfig = PipelineConfig()
+
+    @model_validator(mode="after")
+    def emotion_matches_its_neurons(self) -> "ModesRunConfig":
+        """A config that names one emotion but harvests another emotion's set is a copy-paste slip; fail on it."""
+        assert self.emotion in EMOTIONS, f"emotion {self.emotion!r} is not one of {EMOTIONS}"
+        csv_emotion = self.harvest.neurons_csv.stem
+        assert csv_emotion == self.emotion, f"emotion is {self.emotion!r} but harvest.neurons_csv is {csv_emotion}'s set"
+        return self
+
+
+Config = TypeVar("Config", bound=RunConfig)
+
+
+def load_run_config(config_class: type[Config], argv: Sequence[str]) -> Config:
     """The file is read first and handed over as init values, with the flags layered on top."""
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("--config", type=Path)
     known, _ = parser.parse_known_args(argv)
     values = yaml.safe_load(known.config.read_text()) if known.config else {}
-    return RunConfig(_cli_parse_args=list(argv), **(values or {}))
+    return config_class(_cli_parse_args=list(argv), **(values or {}))

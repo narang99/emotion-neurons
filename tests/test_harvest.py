@@ -36,3 +36,14 @@ def test_window_text_stays_inside_its_window():
     bounds = corpus.window_bounds()
     assert bounds.tolist() == [[0, 3], [3, 6]]
     assert window_text(Tok(), corpus, bounds, 4, before=5, after=5) == "d[[e]]f"
+
+
+def test_batch_groups_respect_neuron_and_cluster_budgets():
+    from emotion_neurons.config import ModesConfig
+    from emotion_neurons.modes import batch_groups
+
+    sizes = {1: 30, 2: 30, 3: 30, 4: 200, 5: 5, 6: 5}
+    result = {n: {"high": {"clusters": [0] * (s // 2)}, "low": {"clusters": [0] * (s - s // 2)}} for n, s in sizes.items()}
+    groups = batch_groups(result, list(sizes), ModesConfig(neurons_per_batch=8, clusters_per_batch=80))
+    assert groups == [[1, 2], [3], [4], [5, 6]]
+    assert batch_groups(result, [5, 6], ModesConfig(neurons_per_batch=1)) == [[5], [6]]

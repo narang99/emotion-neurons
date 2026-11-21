@@ -8,20 +8,25 @@
 3. Per cluster: the exemplars closest to its centre, for Haiku to name.
 """
 
+import json
+import time
 from collections import defaultdict
 
 import numpy as np
 import torch
 from jaxtyping import Float, Int
+from safetensors.torch import load_file
 from sklearn.cluster import HDBSCAN
 from sklearn.decomposition import PCA
 from torch import Tensor
-from transformers import PreTrainedModel
+from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import ModesConfig
-from .harvest import CorpusActs
-from .models import read_mlp
+from .config import ModesConfig, ModesRunConfig
+from .harvest import CorpusActs, load_corpus
+from .models import load_model, read_mlp
 from .poles import padded_batch
+
+POLES = ("high", "low")
 
 
 def inputs_at(
@@ -100,3 +105,107 @@ def pole_modes(hits: Int[Tensor, " hit"], X: dict[int, Tensor], a: Float[Tensor,
         "other": int(len(noise)),
         "other_exemplars": [int(hits[i]) for i in other],
     }
+
+
+def check_inputs(model, layer: int, corpus: CorpusActs, X: dict, hits: dict, column: dict, count: int, seed: int) -> float:
+    """Largest relative gap between recomputed and harvested activations over `count` random hits."""
+    rng = np.random.default_rng(seed)
+    keys = list(hits)
+    worst = 0.0
+    for k in rng.choice(len(keys), min(count, len(keys)), replace=False):
+        neuron = int(keys[k].split("/")[0])
+        t = int(hits[keys[k]][0])
+        harvested = float(corpus.acts[t, column[neuron]])
+        recomputed = recomputed_activation(model, layer, neuron, X[t])
+        worst = max(worst, abs(recomputed - harvested) / max(1.0, abs(harvested)))
+    return worst
+
+
+def snippet(tokenizer: PreTrainedTokenizerBase, corpus: CorpusActs, bounds, t: int, before: int, after: int) -> str:
+    start, end = bounds[corpus.window[t]].tolist()
+    ids = corpus.tokens
+    lo, hi = max(start, t - before), min(end, t + after + 1)
+    text = tokenizer.decode(ids[lo:t]) + "[[" + tokenizer.decode(ids[t : t + 1]) + "]]" + tokenizer.decode(ids[t + 1 : hi])
+    return text.replace("\n", " ")
+
+
+def batch_groups(result: dict, neurons: list[int], m: ModesConfig) -> list[list[int]]:
+    """Neurons per batch file: at most `neurons_per_batch`, and at most `clusters_per_batch` clusters.
+
+    - A judge answers one line per cluster, so the cluster count bounds the reply; past ~150 lines it gets cut off.
+    - A neuron with more clusters than the budget gets a file of its own.
+    """
+    groups, current, clusters = [], [], 0
+    for n in neurons:
+        size = sum(len(result[n][p]["clusters"]) for p in POLES)
+        if current and (len(current) == m.neurons_per_batch or clusters + size > m.clusters_per_batch):
+            groups.append(current)
+            current, clusters = [], 0
+        current.append(n)
+        clusters += size
+    return groups + ([current] if current else [])
+
+
+def batch_files(result: dict, neurons: list[int], corpus: CorpusActs, column: dict, tokenizer, m: ModesConfig) -> list[str]:
+    """Text for the judges: per neuron and pole, each cluster's exemplars with their activation."""
+    bounds = corpus.window_bounds()
+    files = []
+    for group in batch_groups(result, neurons, m):
+        lines = []
+        for n in group:
+            lines.append(f"##### neuron {n}")
+            for pole in POLES:
+                r = result[n][pole]
+                lines.append(f"=== {pole} pole ({'p97 and above' if pole == 'high' else 'p3 and below'})")
+                groups = [(f"cluster {c['id']}", c["exemplars"]) for c in r["clusters"]]
+                groups.append(("unclustered (sample)", r["other_exemplars"]))
+                for name, exemplars in groups:
+                    if not exemplars:
+                        continue
+                    lines.append(f"--- {name}")
+                    for t in exemplars:
+                        a = float(corpus.acts[t, column[n]])
+                        lines.append(f"  [{a:.2f}] {snippet(tokenizer, corpus, bounds, t, m.snippet_before, m.snippet_after)}")
+        files.append("\n".join(lines) + "\n")
+    return files
+
+
+def run_modes(cfg: ModesRunConfig) -> None:
+    """The modes stage: writes results/<run_id>/modes.json and results/<run_id>/modes/batch_XX.txt."""
+    m = cfg.modes
+    t0 = time.time()
+    harvest = json.loads((cfg.result_dir / "harvest.json").read_text())
+    neurons = harvest["neurons"] + harvest["controls"]
+    column = {n: j for j, n in enumerate(neurons)}
+    corpus = load_corpus(cfg.run_dir)
+    hits = {k: v[: m.hits_used] for k, v in load_file(str(cfg.run_dir / "hits.safetensors")).items()}
+    needed = torch.unique(torch.cat(list(hits.values())))
+    print(f"[hits] {len(neurons)} neurons x 2 poles, {len(needed)} distinct hit tokens, {time.time() - t0:.0f}s", flush=True)
+
+    model, tokenizer = load_model(cfg.model, cfg.device)
+    X = inputs_at(model, corpus, cfg.layer, needed, m.batch_size)
+    worst = check_inputs(model, cfg.layer, corpus, X, hits, column, m.checks, seed=0)
+    print(f"[check] recomputed vs harvested activation: largest relative gap {worst:.3f} over {m.checks} hits", flush=True)
+    assert worst < 0.05, "recomputed activations do not match the harvest"
+
+    result = {}
+    for i, n in enumerate(neurons, 1):
+        result[n] = {}
+        for pole in POLES:
+            idx = hits[f"{n}/{pole}"]
+            result[n][pole] = pole_modes(idx, X, corpus.acts[idx, column[n]].float().numpy(), m, seed=n)
+        if i % 50 == 0 or i == len(neurons):
+            print(f"[cluster] {i}/{len(neurons)} neurons, {time.time() - t0:.0f}s", flush=True)
+    sizes = [len(result[n][p]["clusters"]) for n in neurons for p in POLES]
+    print(f"[clusters] median {np.median(sizes):.0f} per neuron and pole, {sum(s == 0 for s in sizes)} with none", flush=True)
+
+    (cfg.result_dir / "modes.json").write_text(json.dumps({str(n): v for n, v in result.items()}))
+    out = cfg.result_dir / "modes"
+    out.mkdir(parents=True, exist_ok=True)
+    files = batch_files(result, neurons, corpus, column, tokenizer, m)
+    for b, text in enumerate(files):
+        (out / f"batch_{b:02d}.txt").write_text(text)
+    print(
+        f"[saved] modes.json and {len(files)} batch files, ~{sum(len(f) for f in files) // 4} tokens | {time.time() - t0:.0f}s",
+        flush=True,
+    )

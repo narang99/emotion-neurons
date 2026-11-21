@@ -9,13 +9,17 @@
 """
 
 import json
+import os
 import re
 import time
 import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from pydantic import AliasChoices, BaseModel, Field
+
+from .config import ModesRunConfig
 
 API = "https://openrouter.ai/api/v1/chat/completions"
 
@@ -126,6 +130,98 @@ def judge_batch(
 
 
 def read_key(path: Path) -> str:
-    key = path.expanduser().read_text().strip()
-    assert key.startswith("sk-or-"), f"{path} does not hold an OpenRouter key"
+    """OPENROUTER_API_KEY if set (e.g. from a Colab secret), else the key file. Never printed."""
+    key = os.environ.get("OPENROUTER_API_KEY") or path.expanduser().read_text().strip()
+    assert key.startswith("sk-or-"), f"neither OPENROUTER_API_KEY nor {path} holds an OpenRouter key"
     return key
+
+
+SCENE_AT = 3
+"""A cluster is a scene of the emotion for a judge when 3+ of its 5 windows are."""
+
+
+def model_dir(root: Path, model: str) -> Path:
+    return root / model.replace("/", "--")
+
+
+def judge_file(model: str, emotion: str, batch: Path, out: Path, key: str, max_tokens: int) -> tuple[str, int, int]:
+    verdicts, missing = judge_batch(model, emotion, batch.read_text(), key, max_tokens)
+    out.write_text("".join(v.model_dump_json() + "\n" for v in verdicts))
+    return batch.name, len(verdicts), len(missing)
+
+
+def judge_model(model: str, emotion: str, batches: list[Path], root: Path, key: str, workers: int, max_tokens: int) -> None:
+    """Every batch file without an output yet; finished files are skipped, so a stopped run resumes."""
+    folder = model_dir(root, model)
+    folder.mkdir(parents=True, exist_ok=True)
+    todo = [b for b in batches if not (folder / b.with_suffix(".jsonl").name).exists()]
+    print(f"[{model}] {len(batches) - len(todo)} batch files done before, {len(todo)} to go", flush=True)
+    t0 = time.time()
+    with ThreadPoolExecutor(workers) as pool:
+        futures = [
+            pool.submit(judge_file, model, emotion, b, folder / b.with_suffix(".jsonl").name, key, max_tokens) for b in todo
+        ]
+        for done, future in enumerate(as_completed(futures), 1):
+            name, judged, missing = future.result()
+            note = f", {missing} missing" if missing else ""
+            print(f"[{model}] {done}/{len(todo)} {name}: {judged} clusters{note}, {time.time() - t0:.0f}s", flush=True)
+
+
+def load_verdicts(folder: Path) -> dict[tuple, Verdict]:
+    verdicts = {}
+    for path in sorted(folder.glob("batch_*.jsonl")):
+        for line in path.read_text().splitlines():
+            v = Verdict.model_validate_json(line)
+            verdicts[(v.neuron, v.pole, v.cluster)] = v
+    return verdicts
+
+
+def judge_summary(models: list[str], root: Path, expected: set[tuple], emotion: str) -> dict:
+    """Per model: clusters judged and missing, share judged an emotion scene; with two models, their agreement."""
+    summary, in_scene = {}, {}
+    for model in models:
+        v = load_verdicts(model_dir(root, model))
+        in_scene[model] = {k: x.scene_windows >= SCENE_AT for k, x in v.items()}
+        share = sum(in_scene[model].values()) / max(1, len(v))
+        summary[model] = {"judged": len(v), "missing": len(expected - v.keys()), "scene_share": share}
+        print(f"[{model}] {len(v)} of {len(expected)} clusters judged, {len(expected - v.keys())} missing; "
+              f"{100 * share:.0f}% judged {emotion} scenes", flush=True)  # fmt: skip
+    if len(models) == 2:
+        a, b = (in_scene[m] for m in models)
+        both = a.keys() & b.keys()
+        summary["agreement"] = sum(a[k] == b[k] for k in both) / max(1, len(both))
+        print(
+            f"[agreement] the two models agree on {emotion} vs not for {100 * summary['agreement']:.0f}% of {len(both)} clusters"
+        )
+    return summary
+
+
+def redo_incomplete(batches: list[Path], root: Path, models: list[str]) -> None:
+    """Delete outputs with fewer verdicts than clusters, so the next pass asks for those files again."""
+    for model in models:
+        for batch in batches:
+            out = model_dir(root, model) / batch.with_suffix(".jsonl").name
+            if out.exists() and len(out.read_text().splitlines()) < len(cluster_keys(batch.read_text())):
+                out.unlink()
+
+
+def run_judge(cfg: ModesRunConfig) -> dict:
+    """The judge stage: results/<run_id>/judgements/<model>/batch_XX.jsonl for every model in `judge.models`.
+
+    Two passes: files with missing clusters are asked again once more. A judge that skips the same clusters
+    every time leaves them missing; the report then counts only the judges that answered.
+    """
+    batches = sorted((cfg.result_dir / "modes").glob("batch_*.txt"))
+    expected = {k for b in batches for k in cluster_keys(b.read_text())}
+    root = cfg.result_dir / "judgements"
+    key = read_key(cfg.judge.key_file)
+    print(
+        f"[judge] {len(batches)} batch files, {len(expected)} clusters, emotion {cfg.emotion}, models {cfg.judge.models}",
+        flush=True,
+    )
+    for attempt in range(2):
+        if attempt:
+            redo_incomplete(batches, root, cfg.judge.models)
+        for model in cfg.judge.models:
+            judge_model(model, cfg.emotion, batches, root, key, cfg.judge.workers, cfg.judge.max_tokens)
+    return judge_summary(cfg.judge.models, root, expected, cfg.emotion)
