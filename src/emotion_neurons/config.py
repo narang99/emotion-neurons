@@ -6,7 +6,8 @@
   - `PolesRunConfig`: neuron poles (poles.py);
   - `GreedySetsRunConfig`: greedy sets (greedy_sets.py);
   - `ModesRunConfig`: harvest, modes, judge, report and the end-to-end pipeline;
-  - `ThemeRemovalRunConfig`: remove a theme's neurons from an emotion vector, held-out scores, token cosines.
+  - `ThemeRemovalRunConfig`: remove a theme's neurons from an emotion vector, held-out scores, token cosines;
+  - `DirectionRunConfig`: a difference-of-means direction on instruction data (e.g. refusal), selected by its effect.
 - Values come from two places, and the command line wins:
   - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
   - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
@@ -248,6 +249,71 @@ class ThemeRemovalRunConfig(RunConfig):
     data: DataConfig = DataConfig()
     removal: RemovalConfig
     tokens: TokensConfig = TokensConfig()
+
+
+class InstructionSource(Section):
+    """A JSON list at `url`, or a Hub dataset (`path`, `config`, `split`); instructions are read from `field`."""
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    url: str | None = None
+    path: str | None = None
+    config: str | None = None
+    split: str = "train"
+    field: str = "instruction"
+    require_empty: str | None = Field(None, description="keep only rows whose field of this name is empty (e.g. Alpaca 'input')")
+
+
+class InstructionSplits(Section):
+    train: list[InstructionSource]
+    val: list[InstructionSource]
+
+
+class InstructionSetConfig(Section):
+    """Instructions per category, sampled with a fixed seed (`datasets.instructions`)."""
+
+    categories: dict[str, InstructionSplits]
+    n_train: int = 128
+    n_val: int = 32
+    seed: int = 42
+
+
+class DiffMeansConfig(Section):
+    """A difference-of-means direction for one target category (`vectors.diff_means`)."""
+
+    target: str
+    baseline: Literal["all", "rest"] = Field(
+        "rest", description="subtract the mean of all category means, or of the other categories' means"
+    )
+    pca_reference: str | None = Field(None, description="remove the top PCs of this category's examples (None: no PCA)")
+    pca_variance: float = Field(0.5, gt=0, lt=1)
+
+
+class DirectionSelectionConfig(Section):
+    """The refusal paper's selection of a layer and post-instruction position (`refusal.select`)."""
+
+    refusal_tokens: list[str] = Field(["I", "As"], description="first tokens of a refusal (the paper's for Qwen)")
+    max_layer_fraction: float = Field(0.8, description="skip candidates in the last 20% of layers")
+    max_kl: float = Field(0.1, description="ablating the direction may change harmless next-token predictions this much")
+    batch_size: int = 32
+
+
+class GenerationCheckConfig(Section):
+    max_new_tokens: int = 64
+    batch_size: int = 16
+    refusal_phrases: list[str] = [
+        "I'm sorry", "I am sorry", "I apologize", "As an AI", "As a language model", "As an assistant", "I cannot",
+        "I can't", "I am unable to", "I'm unable to", "I am not able to", "I'm not able to",
+    ]  # fmt: skip
+
+
+class DirectionRunConfig(RunConfig):
+    """A difference-of-means direction on instruction data, selected and checked as in the refusal paper."""
+
+    instructions: InstructionSetConfig
+    direction: DiffMeansConfig
+    selection: DirectionSelectionConfig = DirectionSelectionConfig()
+    generation: GenerationCheckConfig = GenerationCheckConfig()
 
 
 Config = TypeVar("Config", bound=RunConfig)
