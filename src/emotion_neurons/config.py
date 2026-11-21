@@ -118,6 +118,15 @@ class ModesConfig(Section):
     checks: int = Field(200, description="hits whose recomputed activation is checked against the harvest")
 
 
+class JudgeConfig(Section):
+    """Blind judgements of mode clusters by cheap models on OpenRouter (`emotion_neurons.judge`)."""
+
+    models: list[str] = ["anthropic/claude-haiku-5.5", "google/gemini-2.5-flash-lite"]
+    key_file: Path = Field(Path("~/.config/openrouter/key"), description="read at run time, never printed or committed")
+    workers: int = Field(8, description="requests in flight at once, per model")
+    max_tokens: int = 8000
+
+
 class GreedySetsConfig(Section):
     """Greedy sets of one layer's neurons for each emotion's MLP write (`emotion_neurons.sparse`)."""
 
@@ -142,6 +151,7 @@ class RunConfig(BaseSettings):
     greedy_sets: GreedySetsConfig = GreedySetsConfig()
     harvest: HarvestConfig = HarvestConfig()
     modes: ModesConfig = ModesConfig()
+    judge: JudgeConfig = JudgeConfig()
 
     @classmethod
     def settings_customise_sources(
