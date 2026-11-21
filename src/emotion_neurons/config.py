@@ -5,7 +5,8 @@
   - `VectorsRunConfig`: activations and emotion vectors (extract.py, build_vectors.py);
   - `PolesRunConfig`: neuron poles (poles.py);
   - `GreedySetsRunConfig`: greedy sets (greedy_sets.py);
-  - `ModesRunConfig`: harvest, modes, judge, report and the end-to-end pipeline.
+  - `ModesRunConfig`: harvest, modes, judge, report and the end-to-end pipeline;
+  - `ThemeRemovalRunConfig`: remove a theme's neurons from an emotion vector, held-out scores, token cosines.
 - Values come from two places, and the command line wins:
   - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
   - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
@@ -139,6 +140,16 @@ class GreedySetsConfig(Section):
     rebuilt: float = Field(0.9, description="stop when the set rebuilds this share of the write")
 
 
+class ThemesConfig(Section):
+    """Themes of meaning across a run's cluster labels, by a strong model on OpenRouter (`emotion_neurons.themes`)."""
+
+    model: str = "anthropic/claude-sonnet-5.5"
+    n_min: int = 15
+    n_max: int = 25
+    batch_size: int = Field(300, description="clusters per assignment request")
+    max_tokens: int = 16000
+
+
 class PipelineConfig(Section):
     """Checkpoints of the end-to-end run (`emotion_neurons.pipeline`)."""
 
@@ -204,6 +215,7 @@ class ModesRunConfig(RunConfig):
     harvest: HarvestConfig = HarvestConfig()
     modes: ModesConfig = ModesConfig()
     judge: JudgeConfig = JudgeConfig()
+    themes: ThemesConfig = ThemesConfig()
     pipeline: PipelineConfig = PipelineConfig()
 
     @model_validator(mode="after")
@@ -213,6 +225,28 @@ class ModesRunConfig(RunConfig):
         csv_emotion = self.harvest.neurons_csv.stem
         assert csv_emotion == self.emotion, f"emotion is {self.emotion!r} but harvest.neurons_csv is {csv_emotion}'s set"
         return self
+
+
+class RemovalConfig(Section):
+    """Which neurons to remove: those whose only emotion theme (on the emotion's side) is `theme`."""
+
+    modes_run: str = Field(description="results/<modes_run> holds cluster_themes.csv and neurons.csv")
+    theme: str
+    not_emotion_themes: list[str] = Field(description="themes that do not count as the emotion (style, syntax, off-topic)")
+
+
+class TokensConfig(Section):
+    batch_size: int = 16
+
+
+class ThemeRemovalRunConfig(RunConfig):
+    """Remove a theme's neurons from an emotion's write; held-out scores and per-token cosines (`theme_removal`)."""
+
+    emotion: str
+    sums_run: str = Field("stage2_l25", description="runs/<sums_run> holds the pooled sums and stories.json")
+    data: DataConfig = DataConfig()
+    removal: RemovalConfig
+    tokens: TokensConfig = TokensConfig()
 
 
 Config = TypeVar("Config", bound=RunConfig)

@@ -154,6 +154,7 @@ def run_report(cfg: ModesRunConfig) -> dict:
     page = page.replace("__TITLE__", f"{cfg.emotion.capitalize()} Neuron Modes").replace("__EMOTION__", cfg.emotion)
     page = page.replace("__PCT__", f"{harvest['config']['rebuilt_pct']:g}")
     (out / "report.html").write_text(page)
+    (out / "cards.json").write_text(json.dumps(payload))  # the same data, for scripts (e.g. emotion_neurons.themes)
     write_neuron_csv(out / "neurons.csv", cards)
     counts = {c: sum(card["class"] == c and not card["is_control"] for card in cards) for c in ("match", "split", "no match")}
     print(f"[classes] {cfg.emotion}-set neurons by the clusters on their side: {counts}")

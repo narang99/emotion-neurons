@@ -1,0 +1,2567 @@
+cluster_id,neuron,pole,cluster,weight_pct,theme
+n8776-high2,8776,high,2,2.2932,Failed attempts and struggle
+n8776-high0,8776,high,0,1.2006,Searching and failing to find
+n3282-high1,3282,high,1,1.1364,Subject pronoun after a bad event
+n10272-high0,10272,high,0,1.0406,Heated confrontation dialogue
+n9873-high2,9873,high,2,0.7289,"Confessions, guilt and regret"
+n1967-low0,1967,low,0,0.7275,Fear and anxiety states
+n11976-high0,11976,high,0,0.6956,Tense first-person dread
+n6882-high1,6882,high,1,0.6823,Family conflict and grief
+n5869-high0,5869,high,0,0.6657,"Pain, injury and bodily distress"
+n11631-low0,11631,low,0,0.6608,"Pain, injury and bodily distress"
+n8776-high1,8776,high,1,0.607,Sad or scared child stories
+n8776-high3,8776,high,3,0.4182,Survival under dwindling resources
+n8485-high0,8485,high,0,0.414,other
+n6877-high4,6877,high,4,0.3988,"Confessions, guilt and regret"
+n9443-low0,9443,low,0,0.3433,Tense first-person dread
+n3497-high0,3497,high,0,0.3075,other
+n6553-high1,6553,high,1,0.3041,Once-upon-a-time children's stories
+n10216-low0,10216,low,0,0.2987,Tense first-person dread
+n10047-high0,10047,high,0,0.2956,other
+n6028-low5,6028,low,5,0.2899,Fear and anxiety states
+n1125-high0,1125,high,0,0.2897,other
+n2117-high4,2117,high,4,0.2786,Tense first-person dread
+n10474-high2,10474,high,2,0.2602,"Confessions, guilt and regret"
+n3361-high0,3361,high,0,0.2503,"Pain, injury and bodily distress"
+n2383-low4,2383,low,4,0.2431,Subject pronoun after a bad event
+n6137-high4,6137,high,4,0.2431,Fleeing and running away
+n9527-high0,9527,high,0,0.2386,Once-upon-a-time children's stories
+n4382-low0,4382,low,0,0.2384,other
+n8038-low0,8038,low,0,0.2381,Heated confrontation dialogue
+n12216-high1,12216,high,1,0.2361,Despair and suicidal hopelessness
+n8177-high0,8177,high,0,0.2323,Despair and suicidal hopelessness
+n8415-low4,8415,low,4,0.2304,Paragraph breaks and quote marks
+n7437-high0,7437,high,0,0.2253,Subject pronoun after a bad event
+n7689-high0,7689,high,0,0.2242,Fear and anxiety states
+n5192-high3,5192,high,3,0.2136,Survival under dwindling resources
+n5486-high0,5486,high,0,0.2074,Pleading and begging dialogue
+n9551-low0,9551,low,0,0.204,Family conflict and grief
+n2796-low0,2796,low,0,0.2009,"Violence, gore and horror"
+n5410-low2,5410,low,2,0.1999,Lonely or lost characters
+n11109-low0,11109,low,0,0.1975,Despair and suicidal hopelessness
+n5989-low3,5989,low,3,0.1931,Despair and suicidal hopelessness
+n9397-low0,9397,low,0,0.1923,Subject pronoun after a bad event
+n10577-low4,10577,low,4,0.1848,Subject pronoun after a bad event
+n5480-high0,5480,high,0,0.1835,other
+n2066-low6,2066,low,6,0.1792,Pleading and begging dialogue
+n3582-high1,3582,high,1,0.1771,"Violence, gore and horror"
+n9549-low0,9549,low,0,0.1744,Once-upon-a-time children's stories
+n6019-low0,6019,low,0,0.1715,other
+n2001-low2,2001,low,2,0.1695,Eerie suspense and dark settings
+n5012-low1,5012,low,1,0.1684,Paragraph breaks and quote marks
+n4175-high3,4175,high,3,0.1669,Once-upon-a-time children's stories
+n9584-high0,9584,high,0,0.1663,Once-upon-a-time children's stories
+n2312-high0,2312,high,0,0.1658,"Pain, injury and bodily distress"
+n10729-low1,10729,low,1,0.1649,Once-upon-a-time children's stories
+n10973-low0,10973,low,0,0.1644,Family conflict and grief
+n5989-low2,5989,low,2,0.1622,"Confessions, guilt and regret"
+n6492-high0,6492,high,0,0.1608,Eerie suspense and dark settings
+n9764-low0,9764,low,0,0.1576,other
+n4311-low2,4311,low,2,0.1572,other
+n3761-low0,3761,low,0,0.157,Once-upon-a-time children's stories
+n6220-low0,6220,low,0,0.1569,Once-upon-a-time children's stories
+n6352-low0,6352,low,0,0.1563,Once-upon-a-time children's stories
+n9389-low3,9389,low,3,0.1548,Tense first-person dread
+n11713-high0,11713,high,0,0.1548,Searching and failing to find
+n11648-low0,11648,low,0,0.1548,"Violence, gore and horror"
+n5582-low6,5582,low,6,0.1541,Once-upon-a-time children's stories
+n10958-high2,10958,high,2,0.1539,Heated confrontation dialogue
+n9053-high0,9053,high,0,0.1539,other
+n10674-low0,10674,low,0,0.1523,Last-chance resolve and urgency
+n2933-high0,2933,high,0,0.151,other
+n1322-high0,1322,high,0,0.1505,Fleeing and running away
+n11767-high1,11767,high,1,0.1485,Heated confrontation dialogue
+n2296-low2,2296,low,2,0.1474,Subject pronoun after a bad event
+n1545-high0,1545,high,0,0.147,Pleading and begging dialogue
+n3862-high5,3862,high,5,0.1453,Fear and anxiety states
+n6765-high1,6765,high,1,0.1449,"Violence, gore and horror"
+n1968-low1,1968,low,1,0.1443,other
+n4352-high6,4352,high,6,0.1436,Tense first-person dread
+n8302-low0,8302,low,0,0.1436,Tense first-person dread
+n7110-high0,7110,high,0,0.1433,Despair and suicidal hopelessness
+n11712-high1,11712,high,1,0.1426,Eerie suspense and dark settings
+n7426-low0,7426,low,0,0.1377,Fear and anxiety states
+n9577-high0,9577,high,0,0.1371,other
+n5624-low0,5624,low,0,0.135,Once-upon-a-time children's stories
+n9052-low0,9052,low,0,0.135,other
+n8415-low2,8415,low,2,0.1331,Family conflict and grief
+n11939-low2,11939,low,2,0.131,Sad or scared child stories
+n2792-low3,2792,low,3,0.1309,Once-upon-a-time children's stories
+n376-high2,376,high,2,0.1258,Subject pronoun after a bad event
+n10632-low1,10632,low,1,0.1248,Pleading and begging dialogue
+n1208-low1,1208,low,1,0.1242,Heated confrontation dialogue
+n7717-high2,7717,high,2,0.1223,"Recipes, advice lists and chat"
+n8338-high0,8338,high,0,0.1215,Fleeing and running away
+n6951-low0,6951,low,0,0.1208,Heated confrontation dialogue
+n2598-low2,2598,low,2,0.12,Once-upon-a-time children's stories
+n4375-high0,4375,high,0,0.1197,Fleeing and running away
+n11143-low0,11143,low,0,0.1175,Eerie suspense and dark settings
+n8415-low5,8415,low,5,0.1161,Failed attempts and struggle
+n2972-high0,2972,high,0,0.1146,"Confessions, guilt and regret"
+n5242-low2,5242,low,2,0.1141,Medical and scientific text
+n10096-low0,10096,low,0,0.1126,Once-upon-a-time children's stories
+n2792-low2,2792,low,2,0.1126,Once-upon-a-time children's stories
+n1206-high1,1206,high,1,0.1114,Survival under dwindling resources
+n3497-high1,3497,high,1,0.1105,Pleading and begging dialogue
+n4808-high0,4808,high,0,0.1096,Once-upon-a-time children's stories
+n2862-low0,2862,low,0,0.1077,Fear and anxiety states
+n9594-high5,9594,high,5,0.1073,other
+n10422-high3,10422,high,3,0.1069,"Recipes, advice lists and chat"
+n8579-low3,8579,low,3,0.1063,Eerie suspense and dark settings
+n7717-high1,7717,high,1,0.1033,Once-upon-a-time children's stories
+n11323-low0,11323,low,0,0.1009,other
+n1080-high1,1080,high,1,0.1007,Paragraph breaks and quote marks
+n2208-high1,2208,high,1,0.1003,other
+n9164-low4,9164,low,4,0.099,Paragraph breaks and quote marks
+n4311-low3,4311,low,3,0.0976,Once-upon-a-time children's stories
+n10833-low0,10833,low,0,0.096,other
+n11939-low3,11939,low,3,0.0959,Paragraph breaks and quote marks
+n8249-high0,8249,high,0,0.0957,Eerie suspense and dark settings
+n1470-low2,1470,low,2,0.0957,Once-upon-a-time children's stories
+n11034-high0,11034,high,0,0.0954,"Violence, gore and horror"
+n3282-high0,3282,high,0,0.0949,Searching and failing to find
+n6098-low0,6098,low,0,0.0942,other
+n3634-high2,3634,high,2,0.0938,Sad or scared child stories
+n2281-high0,2281,high,0,0.0934,Pleading and begging dialogue
+n8465-high0,8465,high,0,0.0926,Pleading and begging dialogue
+n6728-low0,6728,low,0,0.0925,Fear and anxiety states
+n1443-high0,1443,high,0,0.0913,Once-upon-a-time children's stories
+n1439-low0,1439,low,0,0.0906,other
+n5249-high0,5249,high,0,0.089,Once-upon-a-time children's stories
+n11485-high3,11485,high,3,0.0882,Once-upon-a-time children's stories
+n6816-high0,6816,high,0,0.088,other
+n5750-high0,5750,high,0,0.088,Paragraph breaks and quote marks
+n1847-high0,1847,high,0,0.0875,"Violence, gore and horror"
+n5558-low0,5558,low,0,0.0871,Eerie suspense and dark settings
+n8946-low0,8946,low,0,0.0866,Failed attempts and struggle
+n3888-high1,3888,high,1,0.0863,other
+n2498-high0,2498,high,0,0.0857,"Pain, injury and bodily distress"
+n6152-high3,6152,high,3,0.0852,Medical and scientific text
+n4369-low0,4369,low,0,0.0848,Despair and suicidal hopelessness
+n11313-low3,11313,low,3,0.0848,Last-chance resolve and urgency
+n4318-high0,4318,high,0,0.0845,other
+n5249-high1,5249,high,1,0.0845,Eerie suspense and dark settings
+n5020-low1,5020,low,1,0.0844,other
+n6967-high1,6967,high,1,0.0839,other
+n4980-low0,4980,low,0,0.0837,Once-upon-a-time children's stories
+n4311-low1,4311,low,1,0.0833,Once-upon-a-time children's stories
+n5964-low1,5964,low,1,0.0832,Once-upon-a-time children's stories
+n9209-high0,9209,high,0,0.0828,Lonely or lost characters
+n2061-high1,2061,high,1,0.0813,Pleading and begging dialogue
+n143-low1,143,low,1,0.0805,Once-upon-a-time children's stories
+n2776-low1,2776,low,1,0.0802,other
+n2181-high0,2181,high,0,0.08,Fear and anxiety states
+n2721-high0,2721,high,0,0.0793,Pleading and begging dialogue
+n9594-high7,9594,high,7,0.0787,other
+n9533-high1,9533,high,1,0.0787,Heated confrontation dialogue
+n3006-high0,3006,high,0,0.0786,Last-chance resolve and urgency
+n7869-low1,7869,low,1,0.0783,other
+n11185-low0,11185,low,0,0.0782,Once-upon-a-time children's stories
+n903-low0,903,low,0,0.078,Once-upon-a-time children's stories
+n4969-high0,4969,high,0,0.0779,Sad or scared child stories
+n11232-high1,11232,high,1,0.0778,Paragraph breaks and quote marks
+n11925-high0,11925,high,0,0.0774,Eerie suspense and dark settings
+n4413-low0,4413,low,0,0.0773,Tense first-person dread
+n890-high3,890,high,3,0.0772,Medical and scientific text
+n2760-low0,2760,low,0,0.0769,Fear and anxiety states
+n8982-high0,8982,high,0,0.0765,"Violence, gore and horror"
+n7527-high4,7527,high,4,0.0765,"Pain, injury and bodily distress"
+n6-high0,6,high,0,0.0763,Eerie suspense and dark settings
+n2792-low4,2792,low,4,0.0759,other
+n10022-low1,10022,low,1,0.0757,other
+n3224-high0,3224,high,0,0.0751,"Violence, gore and horror"
+n3354-high0,3354,high,0,0.075,Survival under dwindling resources
+n2253-low0,2253,low,0,0.0746,Survival under dwindling resources
+n9058-high3,9058,high,3,0.0746,Sad or scared child stories
+n2383-low2,2383,low,2,0.0742,Once-upon-a-time children's stories
+n10422-high1,10422,high,1,0.0739,Tense first-person dread
+n1321-low4,1321,low,4,0.0737,Tense first-person dread
+n11159-low0,11159,low,0,0.0736,other
+n936-low1,936,low,1,0.0735,Failed attempts and struggle
+n2792-low1,2792,low,1,0.0733,Sad or scared child stories
+n250-low0,250,low,0,0.073,other
+n186-high1,186,high,1,0.0728,other
+n1024-high1,1024,high,1,0.0723,Eerie suspense and dark settings
+n8059-low1,8059,low,1,0.072,"Confessions, guilt and regret"
+n6939-high2,6939,high,2,0.0718,Heated confrontation dialogue
+n4507-high2,4507,high,2,0.0715,Eerie suspense and dark settings
+n3563-low0,3563,low,0,0.0714,Once-upon-a-time children's stories
+n9058-high1,9058,high,1,0.0713,Once-upon-a-time children's stories
+n7702-low0,7702,low,0,0.0705,Sad or scared child stories
+n3880-low1,3880,low,1,0.0704,Eerie suspense and dark settings
+n1542-low1,1542,low,1,0.0704,Subject pronoun after a bad event
+n306-low1,306,low,1,0.0703,Despair and suicidal hopelessness
+n1222-low0,1222,low,0,0.0703,Eerie suspense and dark settings
+n7153-high0,7153,high,0,0.0701,"Confessions, guilt and regret"
+n1713-high2,1713,high,2,0.0687,Lonely or lost characters
+n4868-low0,4868,low,0,0.0687,other
+n10988-low2,10988,low,2,0.0686,Tense first-person dread
+n9428-high0,9428,high,0,0.0686,"Violence, gore and horror"
+n4541-high4,4541,high,4,0.0685,"Violence, gore and horror"
+n7164-high1,7164,high,1,0.0683,Tense first-person dread
+n11599-high5,11599,high,5,0.0681,Heated confrontation dialogue
+n9574-low3,9574,low,3,0.0678,Fleeing and running away
+n3968-low4,3968,low,4,0.0678,Subject pronoun after a bad event
+n4082-high0,4082,high,0,0.0676,Eerie suspense and dark settings
+n11753-low1,11753,low,1,0.0676,Lonely or lost characters
+n3307-low0,3307,low,0,0.0673,Fear and anxiety states
+n12087-low1,12087,low,1,0.0673,other
+n3523-low2,3523,low,2,0.0673,other
+n3536-high0,3536,high,0,0.0663,Failed attempts and struggle
+n8643-high0,8643,high,0,0.0662,Last-chance resolve and urgency
+n6654-low1,6654,low,1,0.0658,Once-upon-a-time children's stories
+n6402-low5,6402,low,5,0.0656,Once-upon-a-time children's stories
+n11364-low1,11364,low,1,0.0655,other
+n709-low0,709,low,0,0.0655,"Confessions, guilt and regret"
+n12006-high0,12006,high,0,0.0653,Survival under dwindling resources
+n506-low0,506,low,0,0.0652,Paragraph breaks and quote marks
+n7555-high1,7555,high,1,0.065,other
+n4541-high3,4541,high,3,0.0649,Once-upon-a-time children's stories
+n3361-high1,3361,high,1,0.0647,"Confessions, guilt and regret"
+n8498-low0,8498,low,0,0.0642,other
+n1580-low1,1580,low,1,0.064,Sad or scared child stories
+n12-high2,12,high,2,0.0639,Despair and suicidal hopelessness
+n1754-low0,1754,low,0,0.0634,Fear and anxiety states
+n2963-low0,2963,low,0,0.0634,Once-upon-a-time children's stories
+n7152-high1,7152,high,1,0.0627,other
+n2383-low3,2383,low,3,0.0626,"Recipes, advice lists and chat"
+n9083-low0,9083,low,0,0.0623,other
+n8686-low6,8686,low,6,0.0621,Once-upon-a-time children's stories
+n3374-high0,3374,high,0,0.0621,"Recipes, advice lists and chat"
+n6137-high2,6137,high,2,0.062,Once-upon-a-time children's stories
+n1788-high0,1788,high,0,0.062,other
+n10150-low2,10150,low,2,0.0615,Fear and anxiety states
+n7833-high0,7833,high,0,0.0612,Sad or scared child stories
+n3634-high1,3634,high,1,0.0606,Sad or scared child stories
+n3438-low2,3438,low,2,0.0606,Heated confrontation dialogue
+n12112-high0,12112,high,0,0.0604,Tense first-person dread
+n1974-high1,1974,high,1,0.0602,Family conflict and grief
+n11698-high4,11698,high,4,0.06,"Violence, gore and horror"
+n10405-high1,10405,high,1,0.0598,Subject pronoun after a bad event
+n10903-low0,10903,low,0,0.0598,Eerie suspense and dark settings
+n1982-high0,1982,high,0,0.0596,other
+n6014-low2,6014,low,2,0.0596,Pleading and begging dialogue
+n10729-low0,10729,low,0,0.0595,Medical and scientific text
+n3558-low0,3558,low,0,0.0594,Heated confrontation dialogue
+n6852-low2,6852,low,2,0.0592,"Violence, gore and horror"
+n5703-high0,5703,high,0,0.0589,Once-upon-a-time children's stories
+n5647-high1,5647,high,1,0.0587,Once-upon-a-time children's stories
+n890-high1,890,high,1,0.0582,Sad or scared child stories
+n11427-low0,11427,low,0,0.0581,Survival under dwindling resources
+n376-high1,376,high,1,0.0579,Pleading and begging dialogue
+n11819-high0,11819,high,0,0.0579,Medical and scientific text
+n6882-high0,6882,high,0,0.0578,Despair and suicidal hopelessness
+n6882-high2,6882,high,2,0.0578,Tense first-person dread
+n7791-low0,7791,low,0,0.0577,Once-upon-a-time children's stories
+n11103-high1,11103,high,1,0.0577,Fleeing and running away
+n7126-high0,7126,high,0,0.0576,"Violence, gore and horror"
+n537-high0,537,high,0,0.0576,"Pain, injury and bodily distress"
+n820-high1,820,high,1,0.0576,Paragraph breaks and quote marks
+n6410-low0,6410,low,0,0.057,other
+n10781-low2,10781,low,2,0.0569,Subject pronoun after a bad event
+n8305-high1,8305,high,1,0.0567,Once-upon-a-time children's stories
+n10452-low2,10452,low,2,0.0565,"Violence, gore and horror"
+n7705-high0,7705,high,0,0.0564,Family conflict and grief
+n9440-high1,9440,high,1,0.0563,"Confessions, guilt and regret"
+n10772-high2,10772,high,2,0.0563,Despair and suicidal hopelessness
+n11637-low5,11637,low,5,0.056,other
+n5006-high0,5006,high,0,0.0558,"Violence, gore and horror"
+n6831-low0,6831,low,0,0.0556,Last-chance resolve and urgency
+n3513-low0,3513,low,0,0.0555,Family conflict and grief
+n2411-high0,2411,high,0,0.0554,"Confessions, guilt and regret"
+n3405-low0,3405,low,0,0.0554,Despair and suicidal hopelessness
+n10574-high0,10574,high,0,0.0553,Last-chance resolve and urgency
+n865-low1,865,low,1,0.0551,Subject pronoun after a bad event
+n3615-high1,3615,high,1,0.055,Family conflict and grief
+n5192-high1,5192,high,1,0.055,"Citations, code and reference lists"
+n2831-high0,2831,high,0,0.055,other
+n4352-high3,4352,high,3,0.0546,Fear and anxiety states
+n4764-low0,4764,low,0,0.0546,Pleading and begging dialogue
+n8919-high0,8919,high,0,0.0543,Sad or scared child stories
+n10565-high0,10565,high,0,0.0542,Tense first-person dread
+n3582-high2,3582,high,2,0.0541,Despair and suicidal hopelessness
+n11539-high4,11539,high,4,0.0539,Pleading and begging dialogue
+n11217-high1,11217,high,1,0.0539,Survival under dwindling resources
+n2823-high1,2823,high,1,0.0538,Heated confrontation dialogue
+n7355-high0,7355,high,0,0.0535,Once-upon-a-time children's stories
+n12-high3,12,high,3,0.0531,Heated confrontation dialogue
+n10246-low1,10246,low,1,0.0529,Once-upon-a-time children's stories
+n2254-low0,2254,low,0,0.0527,other
+n8713-low0,8713,low,0,0.0526,other
+n7743-high0,7743,high,0,0.0524,other
+n11442-low2,11442,low,2,0.0523,"Confessions, guilt and regret"
+n9-low0,9,low,0,0.0522,Once-upon-a-time children's stories
+n6223-low1,6223,low,1,0.052,Despair and suicidal hopelessness
+n10258-high1,10258,high,1,0.052,Paragraph breaks and quote marks
+n5936-high0,5936,high,0,0.0519,Despair and suicidal hopelessness
+n1398-high1,1398,high,1,0.0516,Despair and suicidal hopelessness
+n4879-high1,4879,high,1,0.0513,Once-upon-a-time children's stories
+n550-high0,550,high,0,0.0512,other
+n4971-low0,4971,low,0,0.0511,other
+n7527-high6,7527,high,6,0.051,Fear and anxiety states
+n8420-low5,8420,low,5,0.0509,"Confessions, guilt and regret"
+n7643-low3,7643,low,3,0.0508,Sad or scared child stories
+n6402-low6,6402,low,6,0.0508,"Confessions, guilt and regret"
+n5599-low0,5599,low,0,0.0507,"Pain, injury and bodily distress"
+n1322-high1,1322,high,1,0.0505,Paragraph breaks and quote marks
+n5327-high1,5327,high,1,0.0505,Fleeing and running away
+n5012-low2,5012,low,2,0.0504,Once-upon-a-time children's stories
+n5205-high1,5205,high,1,0.0502,"Confessions, guilt and regret"
+n9553-low3,9553,low,3,0.0502,"Violence, gore and horror"
+n4425-low0,4425,low,0,0.05,Despair and suicidal hopelessness
+n2024-high0,2024,high,0,0.05,Tense first-person dread
+n6350-low5,6350,low,5,0.0499,other
+n10098-low0,10098,low,0,0.0497,Eerie suspense and dark settings
+n890-high4,890,high,4,0.0497,Once-upon-a-time children's stories
+n8800-low3,8800,low,3,0.0495,Once-upon-a-time children's stories
+n1151-low3,1151,low,3,0.0494,Once-upon-a-time children's stories
+n7077-high0,7077,high,0,0.049,Family conflict and grief
+n12004-low3,12004,low,3,0.049,"Violence, gore and horror"
+n10137-high0,10137,high,0,0.0489,"Confessions, guilt and regret"
+n1222-low2,1222,low,2,0.0489,Despair and suicidal hopelessness
+n6994-high1,6994,high,1,0.0489,Lonely or lost characters
+n4144-high1,4144,high,1,0.0487,Fleeing and running away
+n890-high2,890,high,2,0.0487,Once-upon-a-time children's stories
+n2843-low0,2843,low,0,0.0486,Despair and suicidal hopelessness
+n3563-low1,3563,low,1,0.0486,Subject pronoun after a bad event
+n1967-low1,1967,low,1,0.0485,"Recipes, advice lists and chat"
+n1407-high3,1407,high,3,0.0484,Once-upon-a-time children's stories
+n11961-high1,11961,high,1,0.0483,"Recipes, advice lists and chat"
+n2877-high1,2877,high,1,0.0483,Family conflict and grief
+n9594-high4,9594,high,4,0.0483,Once-upon-a-time children's stories
+n12-high1,12,high,1,0.0482,Heated confrontation dialogue
+n1321-low3,1321,low,3,0.0481,Once-upon-a-time children's stories
+n8415-low0,8415,low,0,0.0478,Paragraph breaks and quote marks
+n12055-low0,12055,low,0,0.0477,Once-upon-a-time children's stories
+n2598-low1,2598,low,1,0.0476,Once-upon-a-time children's stories
+n4352-high2,4352,high,2,0.0475,Once-upon-a-time children's stories
+n6529-low0,6529,low,0,0.0473,Family conflict and grief
+n9839-low4,9839,low,4,0.0472,Survival under dwindling resources
+n2245-high0,2245,high,0,0.0472,Eerie suspense and dark settings
+n7219-high0,7219,high,0,0.0469,"Violence, gore and horror"
+n10017-high0,10017,high,0,0.0467,"Confessions, guilt and regret"
+n1820-low0,1820,low,0,0.0465,Subject pronoun after a bad event
+n5711-high0,5711,high,0,0.0465,Subject pronoun after a bad event
+n12284-low3,12284,low,3,0.0464,"Pain, injury and bodily distress"
+n11976-high1,11976,high,1,0.0464,Sad or scared child stories
+n4175-high2,4175,high,2,0.0464,Eerie suspense and dark settings
+n4175-high4,4175,high,4,0.0464,Tense first-person dread
+n7780-low0,7780,low,0,0.0463,Sad or scared child stories
+n11746-high0,11746,high,0,0.0462,other
+n7911-low0,7911,low,0,0.0459,"Recipes, advice lists and chat"
+n4628-low0,4628,low,0,0.0458,other
+n12279-high0,12279,high,0,0.0458,"Violence, gore and horror"
+n3356-low0,3356,low,0,0.0458,Family conflict and grief
+n9184-high1,9184,high,1,0.0457,Failed attempts and struggle
+n7149-high1,7149,high,1,0.0456,Tense first-person dread
+n11485-high1,11485,high,1,0.0455,Once-upon-a-time children's stories
+n6152-high2,6152,high,2,0.0453,Once-upon-a-time children's stories
+n881-low4,881,low,4,0.0452,Eerie suspense and dark settings
+n220-low2,220,low,2,0.0452,Pleading and begging dialogue
+n5281-high0,5281,high,0,0.045,Survival under dwindling resources
+n6285-low0,6285,low,0,0.045,Once-upon-a-time children's stories
+n11674-low0,11674,low,0,0.045,other
+n1373-low2,1373,low,2,0.0449,"Pain, injury and bodily distress"
+n5855-high0,5855,high,0,0.0448,Survival under dwindling resources
+n2792-low5,2792,low,5,0.0445,Once-upon-a-time children's stories
+n9355-low3,9355,low,3,0.0443,Heated confrontation dialogue
+n573-low1,573,low,1,0.0442,Fear and anxiety states
+n9164-low3,9164,low,3,0.0442,Once-upon-a-time children's stories
+n1896-low0,1896,low,0,0.0441,other
+n2452-high1,2452,high,1,0.0434,Subject pronoun after a bad event
+n7068-low1,7068,low,1,0.0434,Family conflict and grief
+n1321-low5,1321,low,5,0.0433,"Recipes, advice lists and chat"
+n4364-low1,4364,low,1,0.0432,Medical and scientific text
+n6868-low2,6868,low,2,0.0432,Paragraph breaks and quote marks
+n7164-high2,7164,high,2,0.0431,Family conflict and grief
+n962-high0,962,high,0,0.043,other
+n11819-high1,11819,high,1,0.043,Fleeing and running away
+n10553-high0,10553,high,0,0.0429,Once-upon-a-time children's stories
+n5828-high0,5828,high,0,0.0429,Eerie suspense and dark settings
+n10988-low4,10988,low,4,0.0428,Once-upon-a-time children's stories
+n539-low5,539,low,5,0.0427,Tense first-person dread
+n2452-high0,2452,high,0,0.0426,Tense first-person dread
+n8131-high3,8131,high,3,0.0425,Failed attempts and struggle
+n10172-low2,10172,low,2,0.0425,"Confessions, guilt and regret"
+n9332-low0,9332,low,0,0.0424,Once-upon-a-time children's stories
+n4862-low0,4862,low,0,0.0424,Lonely or lost characters
+n4969-high1,4969,high,1,0.0424,Tense first-person dread
+n8190-low3,8190,low,3,0.0423,Family conflict and grief
+n2129-low0,2129,low,0,0.0423,Subject pronoun after a bad event
+n10465-high0,10465,high,0,0.0419,Family conflict and grief
+n2655-low1,2655,low,1,0.0419,Pleading and begging dialogue
+n11429-low0,11429,low,0,0.0418,Lonely or lost characters
+n2925-high0,2925,high,0,0.0417,Eerie suspense and dark settings
+n9835-low0,9835,low,0,0.0417,Eerie suspense and dark settings
+n8830-high3,8830,high,3,0.0417,Subject pronoun after a bad event
+n11313-low0,11313,low,0,0.0415,"Citations, code and reference lists"
+n5989-low1,5989,low,1,0.0412,Paragraph breaks and quote marks
+n1475-low0,1475,low,0,0.0411,"Confessions, guilt and regret"
+n7527-high5,7527,high,5,0.041,Subject pronoun after a bad event
+n9422-low1,9422,low,1,0.041,Despair and suicidal hopelessness
+n5565-low0,5565,low,0,0.0409,"Violence, gore and horror"
+n5964-low2,5964,low,2,0.0409,Once-upon-a-time children's stories
+n4715-low0,4715,low,0,0.0408,Fear and anxiety states
+n5647-high0,5647,high,0,0.0408,Paragraph breaks and quote marks
+n2173-low1,2173,low,1,0.0408,Heated confrontation dialogue
+n4825-high0,4825,high,0,0.0407,Once-upon-a-time children's stories
+n2066-low4,2066,low,4,0.0405,Sad or scared child stories
+n11644-low0,11644,low,0,0.0404,Subject pronoun after a bad event
+n4472-low2,4472,low,2,0.0402,Sad or scared child stories
+n11712-high2,11712,high,2,0.0402,Once-upon-a-time children's stories
+n9973-high0,9973,high,0,0.0402,other
+n1321-low2,1321,low,2,0.0401,Heated confrontation dialogue
+n11041-high0,11041,high,0,0.04,Family conflict and grief
+n3439-high0,3439,high,0,0.0399,Tense first-person dread
+n12060-high0,12060,high,0,0.0398,Fear and anxiety states
+n11644-low1,11644,low,1,0.0398,Once-upon-a-time children's stories
+n2541-low1,2541,low,1,0.0397,Once-upon-a-time children's stories
+n6402-low4,6402,low,4,0.0396,other
+n10422-high2,10422,high,2,0.0396,Failed attempts and struggle
+n3680-low1,3680,low,1,0.0395,Family conflict and grief
+n5125-high1,5125,high,1,0.0395,"Confessions, guilt and regret"
+n8931-high0,8931,high,0,0.0394,Eerie suspense and dark settings
+n7340-low2,7340,low,2,0.0392,other
+n4352-high5,4352,high,5,0.0392,Lonely or lost characters
+n11103-high2,11103,high,2,0.0391,other
+n4597-high0,4597,high,0,0.039,Pleading and begging dialogue
+n10687-low4,10687,low,4,0.039,Once-upon-a-time children's stories
+n9525-high0,9525,high,0,0.039,"Pain, injury and bodily distress"
+n8579-low1,8579,low,1,0.039,Medical and scientific text
+n624-low0,624,low,0,0.039,Sad or scared child stories
+n4175-high5,4175,high,5,0.0389,Paragraph breaks and quote marks
+n2832-low0,2832,low,0,0.0389,"Violence, gore and horror"
+n672-high1,672,high,1,0.0388,Paragraph breaks and quote marks
+n2461-high0,2461,high,0,0.0386,Fleeing and running away
+n6137-high1,6137,high,1,0.0386,Once-upon-a-time children's stories
+n4209-high0,4209,high,0,0.0385,Tense first-person dread
+n4191-low0,4191,low,0,0.0385,"Violence, gore and horror"
+n5700-high0,5700,high,0,0.0381,other
+n8999-high1,8999,high,1,0.0381,Family conflict and grief
+n8921-high0,8921,high,0,0.0379,Eerie suspense and dark settings
+n3598-high2,3598,high,2,0.0378,Eerie suspense and dark settings
+n12216-high0,12216,high,0,0.0376,Medical and scientific text
+n2903-low1,2903,low,1,0.0376,Despair and suicidal hopelessness
+n9594-high6,9594,high,6,0.0376,other
+n9745-low0,9745,low,0,0.0375,Tense first-person dread
+n9389-low4,9389,low,4,0.0374,Paragraph breaks and quote marks
+n2483-low2,2483,low,2,0.0373,other
+n6028-low2,6028,low,2,0.0373,Paragraph breaks and quote marks
+n9793-low0,9793,low,0,0.0373,"Violence, gore and horror"
+n10515-low1,10515,low,1,0.0372,other
+n11819-high2,11819,high,2,0.0372,"Pain, injury and bodily distress"
+n1407-high2,1407,high,2,0.037,Tense first-person dread
+n3485-high0,3485,high,0,0.0367,"Pain, injury and bodily distress"
+n11689-low1,11689,low,1,0.0366,other
+n7188-high0,7188,high,0,0.0366,Lonely or lost characters
+n9389-low2,9389,low,2,0.0364,"Citations, code and reference lists"
+n4764-low3,4764,low,3,0.0364,other
+n1832-high0,1832,high,0,0.0364,Subject pronoun after a bad event
+n10639-high0,10639,high,0,0.0362,Subject pronoun after a bad event
+n3097-high1,3097,high,1,0.0362,Once-upon-a-time children's stories
+n7219-high1,7219,high,1,0.0361,other
+n6305-high0,6305,high,0,0.036,Once-upon-a-time children's stories
+n10588-high0,10588,high,0,0.036,Once-upon-a-time children's stories
+n848-high0,848,high,0,0.0358,Searching and failing to find
+n8078-low0,8078,low,0,0.0357,"Confessions, guilt and regret"
+n6628-high0,6628,high,0,0.0356,Once-upon-a-time children's stories
+n7315-high1,7315,high,1,0.0355,"Pain, injury and bodily distress"
+n3092-high0,3092,high,0,0.0354,Once-upon-a-time children's stories
+n11876-high0,11876,high,0,0.0352,other
+n2845-low1,2845,low,1,0.0351,Sad or scared child stories
+n1373-low1,1373,low,1,0.0349,Medical and scientific text
+n10409-low0,10409,low,0,0.0349,Heated confrontation dialogue
+n680-high1,680,high,1,0.0347,Survival under dwindling resources
+n10466-low0,10466,low,0,0.0346,Family conflict and grief
+n1615-low0,1615,low,0,0.0346,Once-upon-a-time children's stories
+n2678-low1,2678,low,1,0.0344,"Violence, gore and horror"
+n2432-low0,2432,low,0,0.0342,Once-upon-a-time children's stories
+n5533-low0,5533,low,0,0.0341,Last-chance resolve and urgency
+n11698-high2,11698,high,2,0.0341,Subject pronoun after a bad event
+n6028-low4,6028,low,4,0.034,"Pain, injury and bodily distress"
+n10859-low0,10859,low,0,0.034,Eerie suspense and dark settings
+n9795-low0,9795,low,0,0.034,Once-upon-a-time children's stories
+n2598-low0,2598,low,0,0.0339,Pleading and begging dialogue
+n10264-high0,10264,high,0,0.0338,Subject pronoun after a bad event
+n8968-high1,8968,high,1,0.0338,Once-upon-a-time children's stories
+n5989-low0,5989,low,0,0.0335,Last-chance resolve and urgency
+n4289-low1,4289,low,1,0.0335,Fleeing and running away
+n6402-low0,6402,low,0,0.0334,Once-upon-a-time children's stories
+n3550-low2,3550,low,2,0.0334,Sad or scared child stories
+n8750-low3,8750,low,3,0.0334,Fear and anxiety states
+n1459-high0,1459,high,0,0.0333,Eerie suspense and dark settings
+n5658-low0,5658,low,0,0.0332,Subject pronoun after a bad event
+n8991-high0,8991,high,0,0.0332,Once-upon-a-time children's stories
+n6164-low1,6164,low,1,0.0331,Fleeing and running away
+n4528-low1,4528,low,1,0.0331,"Violence, gore and horror"
+n10577-low1,10577,low,1,0.033,"Recipes, advice lists and chat"
+n8427-high0,8427,high,0,0.0328,Family conflict and grief
+n634-high2,634,high,2,0.0327,Once-upon-a-time children's stories
+n6053-low0,6053,low,0,0.0327,Family conflict and grief
+n3282-high2,3282,high,2,0.0326,Searching and failing to find
+n1488-low0,1488,low,0,0.0326,other
+n472-high1,472,high,1,0.0326,other
+n4759-high0,4759,high,0,0.0324,Pleading and begging dialogue
+n6350-low1,6350,low,1,0.0324,Once-upon-a-time children's stories
+n5682-high0,5682,high,0,0.0324,Once-upon-a-time children's stories
+n5177-low1,5177,low,1,0.0324,Eerie suspense and dark settings
+n6785-high0,6785,high,0,0.0323,other
+n4227-low0,4227,low,0,0.0323,Once-upon-a-time children's stories
+n5924-high1,5924,high,1,0.0321,other
+n9164-low0,9164,low,0,0.0319,Lonely or lost characters
+n2496-low1,2496,low,1,0.0319,"Violence, gore and horror"
+n6137-high0,6137,high,0,0.0319,Once-upon-a-time children's stories
+n5345-low1,5345,low,1,0.0317,"Recipes, advice lists and chat"
+n7377-low0,7377,low,0,0.0316,Heated confrontation dialogue
+n12186-low0,12186,low,0,0.0316,other
+n6547-low0,6547,low,0,0.0316,Heated confrontation dialogue
+n1009-low1,1009,low,1,0.0315,Tense first-person dread
+n930-low0,930,low,0,0.0315,other
+n9835-low1,9835,low,1,0.0313,Heated confrontation dialogue
+n10180-low2,10180,low,2,0.0312,other
+n9986-low0,9986,low,0,0.0311,Once-upon-a-time children's stories
+n7933-low0,7933,low,0,0.031,other
+n1828-high4,1828,high,4,0.0309,Family conflict and grief
+n5902-high0,5902,high,0,0.0309,other
+n1156-high6,1156,high,6,0.0309,Lonely or lost characters
+n11593-low0,11593,low,0,0.0308,Eerie suspense and dark settings
+n8579-low4,8579,low,4,0.0307,"Confessions, guilt and regret"
+n3374-high1,3374,high,1,0.0304,Heated confrontation dialogue
+n1433-high2,1433,high,2,0.0304,Despair and suicidal hopelessness
+n9950-high2,9950,high,2,0.0303,other
+n8827-high1,8827,high,1,0.0302,Family conflict and grief
+n10356-low0,10356,low,0,0.0302,Eerie suspense and dark settings
+n10230-high0,10230,high,0,0.0302,other
+n9559-high0,9559,high,0,0.0301,Family conflict and grief
+n9925-high2,9925,high,2,0.0301,other
+n6402-low1,6402,low,1,0.0297,Once-upon-a-time children's stories
+n2061-high2,2061,high,2,0.0296,"Violence, gore and horror"
+n10227-low0,10227,low,0,0.0295,Fear and anxiety states
+n6135-high2,6135,high,2,0.0295,Once-upon-a-time children's stories
+n10272-high1,10272,high,1,0.0294,"Pain, injury and bodily distress"
+n7222-high0,7222,high,0,0.0294,Despair and suicidal hopelessness
+n10284-high0,10284,high,0,0.0294,Once-upon-a-time children's stories
+n6281-low0,6281,low,0,0.0293,Once-upon-a-time children's stories
+n5162-low0,5162,low,0,0.0293,Once-upon-a-time children's stories
+n11997-low0,11997,low,0,0.0293,Tense first-person dread
+n9553-low2,9553,low,2,0.0293,Family conflict and grief
+n3747-low0,3747,low,0,0.0293,Fear and anxiety states
+n3932-high2,3932,high,2,0.0292,Fleeing and running away
+n8999-high0,8999,high,0,0.0291,Medical and scientific text
+n7864-high3,7864,high,3,0.029,Heated confrontation dialogue
+n9506-high2,9506,high,2,0.0289,Eerie suspense and dark settings
+n4092-low1,4092,low,1,0.0289,Once-upon-a-time children's stories
+n1155-low1,1155,low,1,0.0289,Last-chance resolve and urgency
+n1321-low1,1321,low,1,0.0288,"Citations, code and reference lists"
+n2792-low0,2792,low,0,0.0288,Once-upon-a-time children's stories
+n9594-high1,9594,high,1,0.0286,Once-upon-a-time children's stories
+n2001-low3,2001,low,3,0.0285,Once-upon-a-time children's stories
+n7717-high3,7717,high,3,0.0285,Once-upon-a-time children's stories
+n7278-high2,7278,high,2,0.0285,other
+n9873-high0,9873,high,0,0.0284,Paragraph breaks and quote marks
+n2422-low0,2422,low,0,0.0284,Eerie suspense and dark settings
+n11626-low0,11626,low,0,0.0284,Subject pronoun after a bad event
+n2678-low2,2678,low,2,0.0284,Heated confrontation dialogue
+n8814-high0,8814,high,0,0.0284,"Pain, injury and bodily distress"
+n8579-low2,8579,low,2,0.0283,Despair and suicidal hopelessness
+n12200-low0,12200,low,0,0.0282,Lonely or lost characters
+n6561-low6,6561,low,6,0.0281,Subject pronoun after a bad event
+n4764-low2,4764,low,2,0.0281,Paragraph breaks and quote marks
+n7760-low1,7760,low,1,0.0281,other
+n10592-low1,10592,low,1,0.0279,Once-upon-a-time children's stories
+n11202-low1,11202,low,1,0.0277,Family conflict and grief
+n2383-low0,2383,low,0,0.0277,Once-upon-a-time children's stories
+n8362-high0,8362,high,0,0.0276,"Confessions, guilt and regret"
+n11722-high1,11722,high,1,0.0276,"Violence, gore and horror"
+n1052-low0,1052,low,0,0.0275,"Recipes, advice lists and chat"
+n8099-low0,8099,low,0,0.0274,Eerie suspense and dark settings
+n5668-low2,5668,low,2,0.0273,other
+n6385-high2,6385,high,2,0.0273,Heated confrontation dialogue
+n11333-high0,11333,high,0,0.0273,Heated confrontation dialogue
+n11712-high0,11712,high,0,0.0272,"Violence, gore and horror"
+n10772-high0,10772,high,0,0.0272,"Confessions, guilt and regret"
+n4753-low0,4753,low,0,0.0271,Heated confrontation dialogue
+n103-low3,103,low,3,0.0271,Despair and suicidal hopelessness
+n8339-low2,8339,low,2,0.0271,"Confessions, guilt and regret"
+n10632-low0,10632,low,0,0.027,Tense first-person dread
+n751-high0,751,high,0,0.027,"Violence, gore and horror"
+n10518-low0,10518,low,0,0.0269,Tense first-person dread
+n4946-low0,4946,low,0,0.0269,Once-upon-a-time children's stories
+n415-high3,415,high,3,0.0267,Despair and suicidal hopelessness
+n5137-low0,5137,low,0,0.0266,"Citations, code and reference lists"
+n3374-high2,3374,high,2,0.0265,Once-upon-a-time children's stories
+n11599-high0,11599,high,0,0.0265,Medical and scientific text
+n1407-high0,1407,high,0,0.0264,"Citations, code and reference lists"
+n929-high1,929,high,1,0.0264,Heated confrontation dialogue
+n2298-low0,2298,low,0,0.0263,Eerie suspense and dark settings
+n3023-low1,3023,low,1,0.0263,Tense first-person dread
+n9526-low0,9526,low,0,0.0262,Once-upon-a-time children's stories
+n9986-low1,9986,low,1,0.0262,Heated confrontation dialogue
+n3614-high1,3614,high,1,0.0261,Last-chance resolve and urgency
+n469-low0,469,low,0,0.0261,"Violence, gore and horror"
+n6028-low3,6028,low,3,0.0259,Failed attempts and struggle
+n8307-high2,8307,high,2,0.0256,"Citations, code and reference lists"
+n8273-low1,8273,low,1,0.0256,Eerie suspense and dark settings
+n5647-high2,5647,high,2,0.0255,"Violence, gore and horror"
+n12089-high0,12089,high,0,0.0255,Pleading and begging dialogue
+n11449-low0,11449,low,0,0.0255,Family conflict and grief
+n5410-low1,5410,low,1,0.0255,Sad or scared child stories
+n10737-high0,10737,high,0,0.0254,Once-upon-a-time children's stories
+n5263-low0,5263,low,0,0.0254,Once-upon-a-time children's stories
+n5769-high0,5769,high,0,0.0254,"Confessions, guilt and regret"
+n11735-low3,11735,low,3,0.0253,Tense first-person dread
+n8227-low0,8227,low,0,0.0253,Eerie suspense and dark settings
+n1389-high1,1389,high,1,0.0252,other
+n5457-high0,5457,high,0,0.0252,Subject pronoun after a bad event
+n5242-low5,5242,low,5,0.0251,other
+n2881-low1,2881,low,1,0.0251,Family conflict and grief
+n11226-low0,11226,low,0,0.0251,"Confessions, guilt and regret"
+n1777-low1,1777,low,1,0.0251,Sad or scared child stories
+n5106-low2,5106,low,2,0.025,Paragraph breaks and quote marks
+n9594-high3,9594,high,3,0.025,Paragraph breaks and quote marks
+n11813-low1,11813,low,1,0.025,Tense first-person dread
+n12235-high2,12235,high,2,0.025,Despair and suicidal hopelessness
+n7717-high0,7717,high,0,0.0249,Once-upon-a-time children's stories
+n7896-high1,7896,high,1,0.0249,Searching and failing to find
+n6402-low2,6402,low,2,0.0248,Paragraph breaks and quote marks
+n11613-high4,11613,high,4,0.0246,Once-upon-a-time children's stories
+n2170-high4,2170,high,4,0.0246,Eerie suspense and dark settings
+n11939-low5,11939,low,5,0.0245,"Recipes, advice lists and chat"
+n11109-low1,11109,low,1,0.0245,Medical and scientific text
+n4618-low3,4618,low,3,0.0244,Once-upon-a-time children's stories
+n9395-high0,9395,high,0,0.0244,Once-upon-a-time children's stories
+n9873-high1,9873,high,1,0.0244,Heated confrontation dialogue
+n9873-high3,9873,high,3,0.0244,Survival under dwindling resources
+n1357-low0,1357,low,0,0.0244,Sad or scared child stories
+n1495-high1,1495,high,1,0.0243,Eerie suspense and dark settings
+n7289-high0,7289,high,0,0.0242,other
+n11631-low1,11631,low,1,0.0242,Eerie suspense and dark settings
+n12012-low1,12012,low,1,0.0241,Tense first-person dread
+n1321-low0,1321,low,0,0.024,other
+n11688-high5,11688,high,5,0.024,"Violence, gore and horror"
+n8729-high0,8729,high,0,0.024,other
+n3880-low2,3880,low,2,0.024,Eerie suspense and dark settings
+n11599-high4,11599,high,4,0.024,Subject pronoun after a bad event
+n3254-low2,3254,low,2,0.024,Heated confrontation dialogue
+n8342-low1,8342,low,1,0.0239,other
+n1687-low1,1687,low,1,0.0239,Heated confrontation dialogue
+n672-high2,672,high,2,0.0238,Tense first-person dread
+n3572-low2,3572,low,2,0.0237,other
+n10854-high0,10854,high,0,0.0237,"Confessions, guilt and regret"
+n1636-high1,1636,high,1,0.0237,"Pain, injury and bodily distress"
+n9983-low3,9983,low,3,0.0236,Tense first-person dread
+n5192-high4,5192,high,4,0.0236,Once-upon-a-time children's stories
+n4346-high4,4346,high,4,0.0235,Fleeing and running away
+n8537-high1,8537,high,1,0.0235,"Citations, code and reference lists"
+n5213-low0,5213,low,0,0.0235,Once-upon-a-time children's stories
+n3968-low0,3968,low,0,0.0234,Sad or scared child stories
+n9482-high0,9482,high,0,0.0234,Fear and anxiety states
+n5137-low1,5137,low,1,0.0234,Once-upon-a-time children's stories
+n4424-low0,4424,low,0,0.0234,Tense first-person dread
+n5713-low1,5713,low,1,0.0234,"Confessions, guilt and regret"
+n3862-high2,3862,high,2,0.0233,Medical and scientific text
+n10772-high4,10772,high,4,0.0233,Paragraph breaks and quote marks
+n890-high0,890,high,0,0.0233,other
+n11208-low0,11208,low,0,0.0232,Subject pronoun after a bad event
+n11049-high1,11049,high,1,0.0232,Eerie suspense and dark settings
+n8099-low5,8099,low,5,0.0231,Heated confrontation dialogue
+n2179-low0,2179,low,0,0.0231,other
+n11364-low2,11364,low,2,0.0231,Subject pronoun after a bad event
+n3144-high0,3144,high,0,0.0231,Despair and suicidal hopelessness
+n7449-low0,7449,low,0,0.023,other
+n5205-high0,5205,high,0,0.023,other
+n10144-low0,10144,low,0,0.0229,Sad or scared child stories
+n4070-high0,4070,high,0,0.0229,Heated confrontation dialogue
+n7047-low3,7047,low,3,0.0227,Heated confrontation dialogue
+n6028-low1,6028,low,1,0.0227,Heated confrontation dialogue
+n376-high0,376,high,0,0.0226,Once-upon-a-time children's stories
+n7164-high0,7164,high,0,0.0226,Eerie suspense and dark settings
+n4352-high1,4352,high,1,0.0226,Eerie suspense and dark settings
+n3862-high3,3862,high,3,0.0225,Paragraph breaks and quote marks
+n7957-low1,7957,low,1,0.0225,Once-upon-a-time children's stories
+n2995-high0,2995,high,0,0.0225,other
+n2001-low0,2001,low,0,0.0225,Subject pronoun after a bad event
+n4917-high1,4917,high,1,0.0224,"Confessions, guilt and regret"
+n5869-high1,5869,high,1,0.0223,Lonely or lost characters
+n10772-high3,10772,high,3,0.0223,Once-upon-a-time children's stories
+n4175-high0,4175,high,0,0.0222,Pleading and begging dialogue
+n4175-high1,4175,high,1,0.0222,Once-upon-a-time children's stories
+n4459-high0,4459,high,0,0.0222,Sad or scared child stories
+n9628-high0,9628,high,0,0.0222,other
+n11370-high5,11370,high,5,0.0222,Fleeing and running away
+n10123-low3,10123,low,3,0.0222,Once-upon-a-time children's stories
+n7561-low2,7561,low,2,0.0222,other
+n3320-high0,3320,high,0,0.0222,Subject pronoun after a bad event
+n3929-high0,3929,high,0,0.0222,Once-upon-a-time children's stories
+n11217-high0,11217,high,0,0.0221,Failed attempts and struggle
+n9553-low4,9553,low,4,0.0221,Pleading and begging dialogue
+n176-high0,176,high,0,0.022,Fleeing and running away
+n11698-high7,11698,high,7,0.0219,Fear and anxiety states
+n3438-low1,3438,low,1,0.0218,Heated confrontation dialogue
+n3862-high6,3862,high,6,0.0218,Subject pronoun after a bad event
+n9301-high5,9301,high,5,0.0217,other
+n3291-high2,3291,high,2,0.0217,"Confessions, guilt and regret"
+n12259-high0,12259,high,0,0.0216,Last-chance resolve and urgency
+n4764-low1,4764,low,1,0.0215,Paragraph breaks and quote marks
+n1704-high2,1704,high,2,0.0215,other
+n6290-high0,6290,high,0,0.0215,Family conflict and grief
+n2305-high0,2305,high,0,0.0215,Family conflict and grief
+n3918-high0,3918,high,0,0.0214,Sad or scared child stories
+n8750-low1,8750,low,1,0.0214,Once-upon-a-time children's stories
+n11764-high1,11764,high,1,0.0214,Pleading and begging dialogue
+n4352-high4,4352,high,4,0.0214,Eerie suspense and dark settings
+n4883-low4,4883,low,4,0.0213,Tense first-person dread
+n9389-low1,9389,low,1,0.0212,"Recipes, advice lists and chat"
+n9870-high3,9870,high,3,0.0212,"Confessions, guilt and regret"
+n1689-low0,1689,low,0,0.0211,Despair and suicidal hopelessness
+n2117-high0,2117,high,0,0.0211,"Recipes, advice lists and chat"
+n8355-high4,8355,high,4,0.0211,Heated confrontation dialogue
+n1573-high6,1573,high,6,0.021,Fleeing and running away
+n11539-high3,11539,high,3,0.021,Heated confrontation dialogue
+n6315-low2,6315,low,2,0.021,Paragraph breaks and quote marks
+n3138-high2,3138,high,2,0.0209,"Confessions, guilt and regret"
+n10416-low1,10416,low,1,0.0208,Once-upon-a-time children's stories
+n1528-low1,1528,low,1,0.0208,Eerie suspense and dark settings
+n10988-low0,10988,low,0,0.0208,Once-upon-a-time children's stories
+n220-low3,220,low,3,0.0207,Once-upon-a-time children's stories
+n3536-high1,3536,high,1,0.0207,"Citations, code and reference lists"
+n6877-high5,6877,high,5,0.0206,Tense first-person dread
+n2911-low1,2911,low,1,0.0206,other
+n5012-low0,5012,low,0,0.0206,Paragraph breaks and quote marks
+n9298-high1,9298,high,1,0.0205,other
+n1905-high0,1905,high,0,0.0205,Once-upon-a-time children's stories
+n7310-low0,7310,low,0,0.0205,Searching and failing to find
+n8415-low1,8415,low,1,0.0205,Paragraph breaks and quote marks
+n8740-low2,8740,low,2,0.0204,"Violence, gore and horror"
+n2383-low1,2383,low,1,0.0204,Sad or scared child stories
+n5410-low3,5410,low,3,0.0204,Sad or scared child stories
+n8215-high2,8215,high,2,0.0203,Family conflict and grief
+n5634-low0,5634,low,0,0.0203,Family conflict and grief
+n9380-high4,9380,high,4,0.0203,Once-upon-a-time children's stories
+n2616-low3,2616,low,3,0.0203,other
+n11698-high5,11698,high,5,0.0203,Once-upon-a-time children's stories
+n6811-high2,6811,high,2,0.0202,"Pain, injury and bodily distress"
+n11939-low4,11939,low,4,0.0202,"Pain, injury and bodily distress"
+n2312-high1,2312,high,1,0.0202,"Recipes, advice lists and chat"
+n4669-low4,4669,low,4,0.0202,Family conflict and grief
+n10323-low1,10323,low,1,0.0202,Family conflict and grief
+n10509-high5,10509,high,5,0.0201,Once-upon-a-time children's stories
+n10577-low5,10577,low,5,0.0199,Heated confrontation dialogue
+n5616-low3,5616,low,3,0.0199,Once-upon-a-time children's stories
+n8034-high1,8034,high,1,0.0199,Tense first-person dread
+n4764-low5,4764,low,5,0.0199,Paragraph breaks and quote marks
+n2066-low0,2066,low,0,0.0198,Heated confrontation dialogue
+n10422-high0,10422,high,0,0.0198,Once-upon-a-time children's stories
+n4074-high6,4074,high,6,0.0198,Heated confrontation dialogue
+n2117-high1,2117,high,1,0.0197,Medical and scientific text
+n9594-high2,9594,high,2,0.0197,other
+n9164-low1,9164,low,1,0.0196,"Recipes, advice lists and chat"
+n11878-low0,11878,low,0,0.0196,Heated confrontation dialogue
+n2436-high1,2436,high,1,0.0196,Family conflict and grief
+n11698-high0,11698,high,0,0.0195,Eerie suspense and dark settings
+n8429-low0,8429,low,0,0.0195,other
+n8338-high1,8338,high,1,0.0195,"Recipes, advice lists and chat"
+n7068-low0,7068,low,0,0.0194,"Citations, code and reference lists"
+n11868-high0,11868,high,0,0.0194,Once-upon-a-time children's stories
+n11903-low0,11903,low,0,0.0194,Failed attempts and struggle
+n10145-low4,10145,low,4,0.0194,other
+n10772-high1,10772,high,1,0.0194,Heated confrontation dialogue
+n9925-high3,9925,high,3,0.0194,"Pain, injury and bodily distress"
+n9831-high0,9831,high,0,0.0193,other
+n3835-low0,3835,low,0,0.0192,other
+n2598-low3,2598,low,3,0.0192,Once-upon-a-time children's stories
+n2598-low4,2598,low,4,0.0192,Heated confrontation dialogue
+n6951-low1,6951,low,1,0.0192,Once-upon-a-time children's stories
+n3572-low1,3572,low,1,0.0192,Sad or scared child stories
+n6561-low9,6561,low,9,0.0192,Eerie suspense and dark settings
+n5801-high1,5801,high,1,0.0189,Once-upon-a-time children's stories
+n4127-low0,4127,low,0,0.0189,"Confessions, guilt and regret"
+n9913-low1,9913,low,1,0.0189,"Violence, gore and horror"
+n2737-low1,2737,low,1,0.0189,Once-upon-a-time children's stories
+n7189-low5,7189,low,5,0.0189,other
+n4561-high2,4561,high,2,0.0188,Once-upon-a-time children's stories
+n3148-low2,3148,low,2,0.0188,"Confessions, guilt and regret"
+n2296-low3,2296,low,3,0.0188,"Violence, gore and horror"
+n2483-low0,2483,low,0,0.0187,Medical and scientific text
+n11382-low0,11382,low,0,0.0186,Lonely or lost characters
+n4507-high1,4507,high,1,0.0186,other
+n2228-high0,2228,high,0,0.0186,Fleeing and running away
+n2281-high1,2281,high,1,0.0186,"Violence, gore and horror"
+n10577-low3,10577,low,3,0.0185,Once-upon-a-time children's stories
+n1704-high3,1704,high,3,0.0185,Tense first-person dread
+n11405-high0,11405,high,0,0.0185,"Confessions, guilt and regret"
+n4447-high2,4447,high,2,0.0185,Fear and anxiety states
+n6137-high3,6137,high,3,0.0184,"Confessions, guilt and regret"
+n3968-low3,3968,low,3,0.0184,Once-upon-a-time children's stories
+n10772-high5,10772,high,5,0.0184,Once-upon-a-time children's stories
+n9106-low3,9106,low,3,0.0184,Pleading and begging dialogue
+n6766-high4,6766,high,4,0.0184,Fleeing and running away
+n2117-high3,2117,high,3,0.0183,other
+n6240-high2,6240,high,2,0.0182,Tense first-person dread
+n1086-high0,1086,high,0,0.0181,"Citations, code and reference lists"
+n8033-high5,8033,high,5,0.0181,"Violence, gore and horror"
+n11711-low2,11711,low,2,0.0181,other
+n5663-low0,5663,low,0,0.0181,"Citations, code and reference lists"
+n5663-low1,5663,low,1,0.0181,Paragraph breaks and quote marks
+n11480-low0,11480,low,0,0.0181,Lonely or lost characters
+n3105-high0,3105,high,0,0.018,Survival under dwindling resources
+n6877-high3,6877,high,3,0.018,Pleading and begging dialogue
+n4589-low0,4589,low,0,0.0179,Subject pronoun after a bad event
+n9577-high1,9577,high,1,0.0179,"Citations, code and reference lists"
+n9594-high0,9594,high,0,0.0179,Family conflict and grief
+n4311-low0,4311,low,0,0.0179,"Violence, gore and horror"
+n8830-high4,8830,high,4,0.0178,Tense first-person dread
+n4969-high2,4969,high,2,0.0178,Pleading and begging dialogue
+n8099-low2,8099,low,2,0.0177,Medical and scientific text
+n8579-low0,8579,low,0,0.0177,Searching and failing to find
+n351-low0,351,low,0,0.0176,"Violence, gore and horror"
+n8342-low3,8342,low,3,0.0176,Eerie suspense and dark settings
+n7888-low3,7888,low,3,0.0175,Despair and suicidal hopelessness
+n9574-low2,9574,low,2,0.0175,"Citations, code and reference lists"
+n6866-high2,6866,high,2,0.0175,Fear and anxiety states
+n6019-low1,6019,low,1,0.0175,other
+n10452-low1,10452,low,1,0.0175,"Citations, code and reference lists"
+n11613-high1,11613,high,1,0.0172,Once-upon-a-time children's stories
+n5327-high0,5327,high,0,0.0172,Medical and scientific text
+n5763-high3,5763,high,3,0.0172,Eerie suspense and dark settings
+n10246-low2,10246,low,2,0.0172,Family conflict and grief
+n6241-low0,6241,low,0,0.0172,Medical and scientific text
+n8415-low3,8415,low,3,0.0171,Paragraph breaks and quote marks
+n5192-high0,5192,high,0,0.017,Paragraph breaks and quote marks
+n9165-high1,9165,high,1,0.0169,Once-upon-a-time children's stories
+n8556-low4,8556,low,4,0.0169,"Pain, injury and bodily distress"
+n2117-high5,2117,high,5,0.0169,Once-upon-a-time children's stories
+n7797-low1,7797,low,1,0.0169,Heated confrontation dialogue
+n1838-low2,1838,low,2,0.0168,Fear and anxiety states
+n2214-low4,2214,low,4,0.0168,Sad or scared child stories
+n7437-high1,7437,high,1,0.0167,other
+n7336-low2,7336,low,2,0.0166,Survival under dwindling resources
+n7527-high3,7527,high,3,0.0166,Paragraph breaks and quote marks
+n8131-high5,8131,high,5,0.0166,Subject pronoun after a bad event
+n3634-high0,3634,high,0,0.0166,Despair and suicidal hopelessness
+n7825-low4,7825,low,4,0.0166,other
+n3880-low0,3880,low,0,0.0166,Eerie suspense and dark settings
+n7168-high1,7168,high,1,0.0166,Family conflict and grief
+n4764-low4,4764,low,4,0.0165,Heated confrontation dialogue
+n2066-low5,2066,low,5,0.0165,Once-upon-a-time children's stories
+n8647-high4,8647,high,4,0.0165,Pleading and begging dialogue
+n7543-high0,7543,high,0,0.0162,other
+n539-low1,539,low,1,0.0162,other
+n5924-high2,5924,high,2,0.0162,Once-upon-a-time children's stories
+n6028-low0,6028,low,0,0.0162,"Recipes, advice lists and chat"
+n5242-low3,5242,low,3,0.0162,other
+n10080-high3,10080,high,3,0.0162,Eerie suspense and dark settings
+n7189-low3,7189,low,3,0.0161,Once-upon-a-time children's stories
+n7189-low6,7189,low,6,0.0161,Once-upon-a-time children's stories
+n7184-low4,7184,low,4,0.0161,Fear and anxiety states
+n10781-low3,10781,low,3,0.0161,"Citations, code and reference lists"
+n8260-high5,8260,high,5,0.0161,other
+n6402-low3,6402,low,3,0.0161,Once-upon-a-time children's stories
+n258-high1,258,high,1,0.016,Fleeing and running away
+n3968-low6,3968,low,6,0.0159,Pleading and begging dialogue
+n7626-low1,7626,low,1,0.0159,"Violence, gore and horror"
+n11232-high0,11232,high,0,0.0159,Once-upon-a-time children's stories
+n12156-low0,12156,low,0,0.0159,other
+n9091-low3,9091,low,3,0.0159,Sad or scared child stories
+n9737-low1,9737,low,1,0.0158,Despair and suicidal hopelessness
+n10422-high4,10422,high,4,0.0158,Pleading and begging dialogue
+n6268-low5,6268,low,5,0.0157,other
+n1086-high2,1086,high,2,0.0157,Heated confrontation dialogue
+n5192-high2,5192,high,2,0.0157,other
+n11688-high1,11688,high,1,0.0157,other
+n4629-high0,4629,high,0,0.0157,Once-upon-a-time children's stories
+n3211-low0,3211,low,0,0.0156,Lonely or lost characters
+n1398-high0,1398,high,0,0.0156,"Citations, code and reference lists"
+n9839-low3,9839,low,3,0.0156,"Confessions, guilt and regret"
+n1468-low1,1468,low,1,0.0155,other
+n9986-low2,9986,low,2,0.0155,Last-chance resolve and urgency
+n7527-high1,7527,high,1,0.0155,Subject pronoun after a bad event
+n10772-high6,10772,high,6,0.0155,Heated confrontation dialogue
+n8189-low2,8189,low,2,0.0155,Medical and scientific text
+n3295-high4,3295,high,4,0.0155,Subject pronoun after a bad event
+n198-high0,198,high,0,0.0155,Sad or scared child stories
+n2117-high2,2117,high,2,0.0155,"Recipes, advice lists and chat"
+n10945-high6,10945,high,6,0.0155,Once-upon-a-time children's stories
+n11880-low3,11880,low,3,0.0154,Despair and suicidal hopelessness
+n6053-low1,6053,low,1,0.0153,Medical and scientific text
+n7561-low3,7561,low,3,0.0153,Once-upon-a-time children's stories
+n8342-low5,8342,low,5,0.0153,Subject pronoun after a bad event
+n2541-low2,2541,low,2,0.0153,"Citations, code and reference lists"
+n6746-high6,6746,high,6,0.0153,"Recipes, advice lists and chat"
+n2296-low0,2296,low,0,0.0152,Paragraph breaks and quote marks
+n10945-high5,10945,high,5,0.0151,Family conflict and grief
+n10796-high2,10796,high,2,0.0151,other
+n7632-high0,7632,high,0,0.015,"Recipes, advice lists and chat"
+n1156-high4,1156,high,4,0.015,other
+n9553-low5,9553,low,5,0.0149,Subject pronoun after a bad event
+n5616-low4,5616,low,4,0.0149,Heated confrontation dialogue
+n2221-low5,2221,low,5,0.0149,Eerie suspense and dark settings
+n3977-high1,3977,high,1,0.0148,"Citations, code and reference lists"
+n5398-high1,5398,high,1,0.0147,Family conflict and grief
+n4796-high0,4796,high,0,0.0147,Family conflict and grief
+n8131-high6,8131,high,6,0.0147,Tense first-person dread
+n1218-high3,1218,high,3,0.0146,"Violence, gore and horror"
+n10022-low2,10022,low,2,0.0146,"Citations, code and reference lists"
+n1166-high0,1166,high,0,0.0145,Heated confrontation dialogue
+n2436-high0,2436,high,0,0.0144,Family conflict and grief
+n3246-high4,3246,high,4,0.0144,Once-upon-a-time children's stories
+n4541-high0,4541,high,0,0.0144,Sad or scared child stories
+n4541-high5,4541,high,5,0.0144,Tense first-person dread
+n1042-high3,1042,high,3,0.0143,"Confessions, guilt and regret"
+n5599-low1,5599,low,1,0.0143,Medical and scientific text
+n8537-high3,8537,high,3,0.0143,Paragraph breaks and quote marks
+n4352-high0,4352,high,0,0.0142,"Recipes, advice lists and chat"
+n8051-low8,8051,low,8,0.0142,Once-upon-a-time children's stories
+n4669-low3,4669,low,3,0.0142,Once-upon-a-time children's stories
+n2655-low0,2655,low,0,0.0141,other
+n6513-high10,6513,high,10,0.0141,Once-upon-a-time children's stories
+n10123-low0,10123,low,0,0.0141,Paragraph breaks and quote marks
+n680-high0,680,high,0,0.014,"Recipes, advice lists and chat"
+n1545-high1,1545,high,1,0.014,Fleeing and running away
+n11613-high0,11613,high,0,0.014,Medical and scientific text
+n3968-low1,3968,low,1,0.014,Sad or scared child stories
+n11250-low2,11250,low,2,0.0139,Family conflict and grief
+n8546-high1,8546,high,1,0.0139,Heated confrontation dialogue
+n6868-low1,6868,low,1,0.0138,"Citations, code and reference lists"
+n3977-high2,3977,high,2,0.0138,other
+n7286-low5,7286,low,5,0.0137,Once-upon-a-time children's stories
+n7395-high1,7395,high,1,0.0137,Once-upon-a-time children's stories
+n2871-high0,2871,high,0,0.0137,"Confessions, guilt and regret"
+n6026-high0,6026,high,0,0.0137,Once-upon-a-time children's stories
+n2891-high0,2891,high,0,0.0136,Medical and scientific text
+n746-high2,746,high,2,0.0136,Fleeing and running away
+n4149-low3,4149,low,3,0.0136,other
+n12186-low2,12186,low,2,0.0136,Tense first-person dread
+n10772-high7,10772,high,7,0.0136,Eerie suspense and dark settings
+n376-high3,376,high,3,0.0136,Once-upon-a-time children's stories
+n1155-low0,1155,low,0,0.0136,Medical and scientific text
+n11250-low4,11250,low,4,0.0136,Eerie suspense and dark settings
+n11313-low2,11313,low,2,0.0135,Paragraph breaks and quote marks
+n9870-high2,9870,high,2,0.0135,Once-upon-a-time children's stories
+n8043-high2,8043,high,2,0.0135,Failed attempts and struggle
+n5242-low1,5242,low,1,0.0135,Once-upon-a-time children's stories
+n5242-low4,5242,low,4,0.0135,Once-upon-a-time children's stories
+n9839-low0,9839,low,0,0.0134,Eerie suspense and dark settings
+n8342-low2,8342,low,2,0.0134,Once-upon-a-time children's stories
+n6268-low4,6268,low,4,0.0133,Eerie suspense and dark settings
+n11599-high6,11599,high,6,0.0132,Once-upon-a-time children's stories
+n11927-high2,11927,high,2,0.0132,Once-upon-a-time children's stories
+n1710-low1,1710,low,1,0.0131,"Pain, injury and bodily distress"
+n2796-low1,2796,low,1,0.0131,Once-upon-a-time children's stories
+n9058-high2,9058,high,2,0.0131,Heated confrontation dialogue
+n8485-high1,8485,high,1,0.013,Once-upon-a-time children's stories
+n10625-high3,10625,high,3,0.013,Pleading and begging dialogue
+n4346-high3,4346,high,3,0.013,Once-upon-a-time children's stories
+n6877-high0,6877,high,0,0.0129,Last-chance resolve and urgency
+n6877-high1,6877,high,1,0.0129,Pleading and begging dialogue
+n6877-high2,6877,high,2,0.0129,Pleading and begging dialogue
+n8355-high2,8355,high,2,0.0129,"Citations, code and reference lists"
+n7189-low0,7189,low,0,0.0128,Once-upon-a-time children's stories
+n5582-low0,5582,low,0,0.0128,Once-upon-a-time children's stories
+n8827-high0,8827,high,0,0.0128,"Citations, code and reference lists"
+n10509-high6,10509,high,6,0.0127,"Pain, injury and bodily distress"
+n9443-low1,9443,low,1,0.0127,other
+n11625-high0,11625,high,0,0.0127,"Recipes, advice lists and chat"
+n10729-low2,10729,low,2,0.0127,Once-upon-a-time children's stories
+n5012-low3,5012,low,3,0.0126,Sad or scared child stories
+n10595-high6,10595,high,6,0.0126,"Violence, gore and horror"
+n2271-low3,2271,low,3,0.0126,Tense first-person dread
+n9401-low2,9401,low,2,0.0125,Heated confrontation dialogue
+n10611-high0,10611,high,0,0.0125,other
+n1905-high1,1905,high,1,0.0125,"Citations, code and reference lists"
+n3968-low5,3968,low,5,0.0125,Tense first-person dread
+n2112-low2,2112,low,2,0.0124,Despair and suicidal hopelessness
+n3862-high1,3862,high,1,0.0124,Once-upon-a-time children's stories
+n11364-low0,11364,low,0,0.0124,"Citations, code and reference lists"
+n10123-low1,10123,low,1,0.0124,Paragraph breaks and quote marks
+n4868-low1,4868,low,1,0.0123,"Recipes, advice lists and chat"
+n2891-high2,2891,high,2,0.0123,"Pain, injury and bodily distress"
+n11613-high2,11613,high,2,0.0123,other
+n5327-high2,5327,high,2,0.0123,Failed attempts and struggle
+n11927-high0,11927,high,0,0.0123,Once-upon-a-time children's stories
+n11584-high1,11584,high,1,0.0123,Last-chance resolve and urgency
+n2616-low0,2616,low,0,0.0122,"Citations, code and reference lists"
+n2616-low4,2616,low,4,0.0122,Once-upon-a-time children's stories
+n7527-high2,7527,high,2,0.0122,Pleading and begging dialogue
+n237-high4,237,high,4,0.0122,"Violence, gore and horror"
+n220-low0,220,low,0,0.0121,Medical and scientific text
+n9842-low4,9842,low,4,0.0121,Once-upon-a-time children's stories
+n10988-low3,10988,low,3,0.0119,Once-upon-a-time children's stories
+n9-low3,9,low,3,0.0119,Once-upon-a-time children's stories
+n6561-low5,6561,low,5,0.0119,"Pain, injury and bodily distress"
+n2925-high2,2925,high,2,0.0119,Medical and scientific text
+n3582-high0,3582,high,0,0.0119,Paragraph breaks and quote marks
+n9184-high0,9184,high,0,0.0119,Once-upon-a-time children's stories
+n3888-high2,3888,high,2,0.0118,"Confessions, guilt and regret"
+n11049-high0,11049,high,0,0.0118,other
+n10909-low5,10909,low,5,0.0118,Sad or scared child stories
+n6513-high6,6513,high,6,0.0118,Heated confrontation dialogue
+n11685-high0,11685,high,0,0.0118,"Violence, gore and horror"
+n4074-high5,4074,high,5,0.0118,"Citations, code and reference lists"
+n3787-high0,3787,high,0,0.0118,"Violence, gore and horror"
+n11939-low1,11939,low,1,0.0117,Once-upon-a-time children's stories
+n5242-low0,5242,low,0,0.0117,Once-upon-a-time children's stories
+n10973-low1,10973,low,1,0.0116,"Recipes, advice lists and chat"
+n2296-low1,2296,low,1,0.0116,Fear and anxiety states
+n4382-low1,4382,low,1,0.0116,Medical and scientific text
+n2066-low2,2066,low,2,0.0116,Once-upon-a-time children's stories
+n6790-low1,6790,low,1,0.0115,"Confessions, guilt and regret"
+n1042-high2,1042,high,2,0.0115,"Violence, gore and horror"
+n4960-low1,4960,low,1,0.0114,"Confessions, guilt and regret"
+n144-low3,144,low,3,0.0114,Family conflict and grief
+n2828-low0,2828,low,0,0.0114,"Citations, code and reference lists"
+n10047-high1,10047,high,1,0.0114,Once-upon-a-time children's stories
+n11698-high1,11698,high,1,0.0114,Paragraph breaks and quote marks
+n11698-high6,11698,high,6,0.0114,"Confessions, guilt and regret"
+n7694-high4,7694,high,4,0.0113,Paragraph breaks and quote marks
+n10474-high0,10474,high,0,0.0113,Heated confrontation dialogue
+n9839-low2,9839,low,2,0.0113,other
+n7184-low0,7184,low,0,0.0113,"Recipes, advice lists and chat"
+n11903-low2,11903,low,2,0.0112,"Citations, code and reference lists"
+n7395-high2,7395,high,2,0.0112,"Recipes, advice lists and chat"
+n7567-high3,7567,high,3,0.0112,Tense first-person dread
+n3129-high4,3129,high,4,0.0112,Medical and scientific text
+n6559-high5,6559,high,5,0.0111,Fleeing and running away
+n6899-high1,6899,high,1,0.0111,"Violence, gore and horror"
+n7527-high0,7527,high,0,0.0111,other
+n8546-high0,8546,high,0,0.011,"Citations, code and reference lists"
+n10452-low3,10452,low,3,0.011,Subject pronoun after a bad event
+n6241-low3,6241,low,3,0.011,Once-upon-a-time children's stories
+n1151-low2,1151,low,2,0.011,Medical and scientific text
+n7626-low0,7626,low,0,0.011,Once-upon-a-time children's stories
+n4375-high1,4375,high,1,0.011,"Citations, code and reference lists"
+n6561-low0,6561,low,0,0.0109,Paragraph breaks and quote marks
+n3862-high0,3862,high,0,0.0109,Sad or scared child stories
+n10323-low2,10323,low,2,0.0109,"Citations, code and reference lists"
+n3513-low1,3513,low,1,0.0109,Once-upon-a-time children's stories
+n2208-high0,2208,high,0,0.0108,Eerie suspense and dark settings
+n4541-high2,4541,high,2,0.0108,Tense first-person dread
+n12-high0,12,high,0,0.0108,Fear and anxiety states
+n1009-low3,1009,low,3,0.0108,"Citations, code and reference lists"
+n11599-high1,11599,high,1,0.0107,Once-upon-a-time children's stories
+n9355-low4,9355,low,4,0.0107,Searching and failing to find
+n6008-high5,6008,high,5,0.0107,Once-upon-a-time children's stories
+n11370-high1,11370,high,1,0.0107,"Recipes, advice lists and chat"
+n10988-low5,10988,low,5,0.0107,Once-upon-a-time children's stories
+n5582-low3,5582,low,3,0.0107,Once-upon-a-time children's stories
+n11939-low0,11939,low,0,0.0107,Once-upon-a-time children's stories
+n7643-low2,7643,low,2,0.0106,Paragraph breaks and quote marks
+n8820-low1,8820,low,1,0.0106,Once-upon-a-time children's stories
+n1407-high1,1407,high,1,0.0106,other
+n1407-high4,1407,high,4,0.0106,Once-upon-a-time children's stories
+n7189-low7,7189,low,7,0.0106,Tense first-person dread
+n11698-high3,11698,high,3,0.0105,"Citations, code and reference lists"
+n6553-high2,6553,high,2,0.0105,Once-upon-a-time children's stories
+n6208-high0,6208,high,0,0.0105,Once-upon-a-time children's stories
+n3513-low5,3513,low,5,0.0104,Once-upon-a-time children's stories
+n9440-high0,9440,high,0,0.0104,"Recipes, advice lists and chat"
+n8362-high1,8362,high,1,0.0104,"Citations, code and reference lists"
+n7184-low2,7184,low,2,0.0104,Tense first-person dread
+n6164-low2,6164,low,2,0.0104,other
+n3006-high1,3006,high,1,0.0104,Despair and suicidal hopelessness
+n693-low1,693,low,1,0.0104,Eerie suspense and dark settings
+n9527-high1,9527,high,1,0.0104,"Citations, code and reference lists"
+n3598-high1,3598,high,1,0.0103,"Recipes, advice lists and chat"
+n10958-high1,10958,high,1,0.0103,Sad or scared child stories
+n12163-low1,12163,low,1,0.0103,"Violence, gore and horror"
+n5668-low0,5668,low,0,0.0103,"Citations, code and reference lists"
+n3148-low1,3148,low,1,0.0103,"Citations, code and reference lists"
+n8355-high5,8355,high,5,0.0103,Family conflict and grief
+n9986-low3,9986,low,3,0.0102,Once-upon-a-time children's stories
+n7694-high5,7694,high,5,0.0102,Subject pronoun after a bad event
+n8099-low3,8099,low,3,0.0102,Fear and anxiety states
+n9-low1,9,low,1,0.0102,other
+n1222-low1,1222,low,1,0.0102,Pleading and begging dialogue
+n8476-low1,8476,low,1,0.0101,Tense first-person dread
+n9389-low0,9389,low,0,0.0101,Medical and scientific text
+n8365-high0,8365,high,0,0.0101,Once-upon-a-time children's stories
+n6714-low1,6714,low,1,0.0101,Eerie suspense and dark settings
+n11370-high4,11370,high,4,0.0101,other
+n6667-low1,6667,low,1,0.0101,Survival under dwindling resources
+n5663-low8,5663,low,8,0.01,Heated confrontation dialogue
+n3513-low2,3513,low,2,0.01,Tense first-person dread
+n2828-low2,2828,low,2,0.01,Fear and anxiety states
+n3615-high0,3615,high,0,0.01,Family conflict and grief
+n11688-high6,11688,high,6,0.0099,Eerie suspense and dark settings
+n2066-low1,2066,low,1,0.0099,Paragraph breaks and quote marks
+n2520-high3,2520,high,3,0.0099,Last-chance resolve and urgency
+n539-low4,539,low,4,0.0099,Once-upon-a-time children's stories
+n4629-high3,4629,high,3,0.0099,Tense first-person dread
+n4721-high2,4721,high,2,0.0099,Sad or scared child stories
+n11613-high3,11613,high,3,0.0099,Once-upon-a-time children's stories
+n10687-low1,10687,low,1,0.0098,Once-upon-a-time children's stories
+n10687-low6,10687,low,6,0.0098,Subject pronoun after a bad event
+n4654-low2,4654,low,2,0.0098,Once-upon-a-time children's stories
+n1398-high2,1398,high,2,0.0098,Paragraph breaks and quote marks
+n5616-low1,5616,low,1,0.0098,Once-upon-a-time children's stories
+n10488-high0,10488,high,0,0.0098,Once-upon-a-time children's stories
+n2291-high0,2291,high,0,0.0098,Once-upon-a-time children's stories
+n5177-low3,5177,low,3,0.0097,Paragraph breaks and quote marks
+n1704-high4,1704,high,4,0.0097,Failed attempts and struggle
+n820-high0,820,high,0,0.0097,Heated confrontation dialogue
+n1156-high2,1156,high,2,0.0097,Medical and scientific text
+n9024-low1,9024,low,1,0.0097,"Violence, gore and horror"
+n7797-low0,7797,low,0,0.0096,other
+n9301-high6,9301,high,6,0.0096,Fear and anxiety states
+n9737-low3,9737,low,3,0.0096,Eerie suspense and dark settings
+n6559-high4,6559,high,4,0.0096,Sad or scared child stories
+n6576-high2,6576,high,2,0.0096,other
+n7404-low2,7404,low,2,0.0096,Subject pronoun after a bad event
+n7743-high1,7743,high,1,0.0096,Paragraph breaks and quote marks
+n8205-low0,8205,low,0,0.0096,Family conflict and grief
+n12235-high3,12235,high,3,0.0096,"Citations, code and reference lists"
+n7694-high6,7694,high,6,0.0096,Once-upon-a-time children's stories
+n9553-low0,9553,low,0,0.0096,"Citations, code and reference lists"
+n9745-low1,9745,low,1,0.0095,"Citations, code and reference lists"
+n2001-low1,2001,low,1,0.0095,Lonely or lost characters
+n103-low4,103,low,4,0.0095,Paragraph breaks and quote marks
+n11599-high3,11599,high,3,0.0095,Once-upon-a-time children's stories
+n7193-high0,7193,high,0,0.0095,Pleading and begging dialogue
+n7336-low1,7336,low,1,0.0095,Fear and anxiety states
+n7189-low4,7189,low,4,0.0095,"Confessions, guilt and regret"
+n9763-high3,9763,high,3,0.0094,Last-chance resolve and urgency
+n9298-high2,9298,high,2,0.0094,other
+n1439-low1,1439,low,1,0.0094,Once-upon-a-time children's stories
+n4780-high1,4780,high,1,0.0093,Lonely or lost characters
+n4104-low1,4104,low,1,0.0093,Failed attempts and struggle
+n2923-low4,2923,low,4,0.0093,Failed attempts and struggle
+n2498-high1,2498,high,1,0.0093,"Citations, code and reference lists"
+n1713-high0,1713,high,0,0.0093,Once-upon-a-time children's stories
+n11232-high2,11232,high,2,0.0093,Once-upon-a-time children's stories
+n8420-low4,8420,low,4,0.0093,Eerie suspense and dark settings
+n8820-low5,8820,low,5,0.0093,"Confessions, guilt and regret"
+n1125-high1,1125,high,1,0.0093,"Citations, code and reference lists"
+n5106-low1,5106,low,1,0.0092,"Recipes, advice lists and chat"
+n3513-low3,3513,low,3,0.0092,Once-upon-a-time children's stories
+n9401-low3,9401,low,3,0.0092,Heated confrontation dialogue
+n9842-low2,9842,low,2,0.0092,Pleading and begging dialogue
+n4715-low1,4715,low,1,0.0092,Medical and scientific text
+n8099-low4,8099,low,4,0.0091,Eerie suspense and dark settings
+n2923-low5,2923,low,5,0.0091,Paragraph breaks and quote marks
+n2776-low0,2776,low,0,0.0091,"Citations, code and reference lists"
+n10474-high3,10474,high,3,0.009,Despair and suicidal hopelessness
+n5177-low2,5177,low,2,0.009,Eerie suspense and dark settings
+n4425-low1,4425,low,1,0.009,"Citations, code and reference lists"
+n6350-low3,6350,low,3,0.009,Once-upon-a-time children's stories
+n12012-low0,12012,low,0,0.0089,"Citations, code and reference lists"
+n865-low0,865,low,0,0.0089,other
+n10942-low1,10942,low,1,0.0089,"Violence, gore and horror"
+n9842-low3,9842,low,3,0.0088,Sad or scared child stories
+n7094-low0,7094,low,0,0.0088,Eerie suspense and dark settings
+n2208-high2,2208,high,2,0.0088,Medical and scientific text
+n10246-low3,10246,low,3,0.0088,Sad or scared child stories
+n10246-low5,10246,low,5,0.0088,"Citations, code and reference lists"
+n6340-low3,6340,low,3,0.0088,Once-upon-a-time children's stories
+n10796-high0,10796,high,0,0.0088,"Citations, code and reference lists"
+n5769-high2,5769,high,2,0.0087,Once-upon-a-time children's stories
+n4413-low1,4413,low,1,0.0087,"Citations, code and reference lists"
+n1156-high5,1156,high,5,0.0087,Paragraph breaks and quote marks
+n6675-low2,6675,low,2,0.0087,other
+n10948-low5,10948,low,5,0.0087,Failed attempts and struggle
+n9506-high4,9506,high,4,0.0087,Lonely or lost characters
+n794-low2,794,low,2,0.0087,Family conflict and grief
+n6240-high3,6240,high,3,0.0087,"Pain, injury and bodily distress"
+n6152-high1,6152,high,1,0.0086,Once-upon-a-time children's stories
+n5713-low0,5713,low,0,0.0086,"Violence, gore and horror"
+n2170-high3,2170,high,3,0.0086,"Citations, code and reference lists"
+n6241-low2,6241,low,2,0.0086,Fear and anxiety states
+n7222-high1,7222,high,1,0.0086,"Citations, code and reference lists"
+n11313-low1,11313,low,1,0.0086,Once-upon-a-time children's stories
+n4618-low2,4618,low,2,0.0085,Once-upon-a-time children's stories
+n8328-low0,8328,low,0,0.0085,Lonely or lost characters
+n4346-high1,4346,high,1,0.0085,Once-upon-a-time children's stories
+n9255-low1,9255,low,1,0.0085,Searching and failing to find
+n7896-high0,7896,high,0,0.0085,other
+n794-low3,794,low,3,0.0084,Once-upon-a-time children's stories
+n6559-high1,6559,high,1,0.0084,"Citations, code and reference lists"
+n2911-low0,2911,low,0,0.0084,other
+n1704-high6,1704,high,6,0.0084,Once-upon-a-time children's stories
+n2519-low2,2519,low,2,0.0084,Once-upon-a-time children's stories
+n6553-high0,6553,high,0,0.0084,Once-upon-a-time children's stories
+n537-high1,537,high,1,0.0084,Once-upon-a-time children's stories
+n9298-high4,9298,high,4,0.0084,Despair and suicidal hopelessness
+n10216-low1,10216,low,1,0.0083,Once-upon-a-time children's stories
+n6241-low1,6241,low,1,0.0083,"Violence, gore and horror"
+n539-low2,539,low,2,0.0083,Heated confrontation dialogue
+n5410-low0,5410,low,0,0.0083,Sad or scared child stories
+n2066-low3,2066,low,3,0.0083,"Citations, code and reference lists"
+n2066-low7,2066,low,7,0.0083,Heated confrontation dialogue
+n10577-low2,10577,low,2,0.0082,Once-upon-a-time children's stories
+n7643-low4,7643,low,4,0.0082,Once-upon-a-time children's stories
+n10488-high1,10488,high,1,0.0082,Despair and suicidal hopelessness
+n12216-high2,12216,high,2,0.0082,Once-upon-a-time children's stories
+n6766-high5,6766,high,5,0.0082,other
+n9164-low2,9164,low,2,0.0082,Once-upon-a-time children's stories
+n7561-low1,7561,low,1,0.0082,"Recipes, advice lists and chat"
+n7047-low1,7047,low,1,0.0082,"Pain, injury and bodily distress"
+n3523-low1,3523,low,1,0.0082,"Citations, code and reference lists"
+n9983-low2,9983,low,2,0.0081,other
+n6350-low0,6350,low,0,0.0081,Once-upon-a-time children's stories
+n8339-low1,8339,low,1,0.0081,"Recipes, advice lists and chat"
+n9401-low4,9401,low,4,0.0081,Once-upon-a-time children's stories
+n10150-low0,10150,low,0,0.008,Medical and scientific text
+n1394-high3,1394,high,3,0.008,Tense first-person dread
+n4541-high1,4541,high,1,0.0079,Tense first-person dread
+n10729-low3,10729,low,3,0.0079,Failed attempts and struggle
+n11961-high0,11961,high,0,0.0079,"Recipes, advice lists and chat"
+n103-low2,103,low,2,0.0079,"Citations, code and reference lists"
+n7643-low1,7643,low,1,0.0079,Once-upon-a-time children's stories
+n10687-low7,10687,low,7,0.0079,Once-upon-a-time children's stories
+n9842-low0,9842,low,0,0.0079,Sad or scared child stories
+n6559-high7,6559,high,7,0.0078,Once-upon-a-time children's stories
+n2112-low0,2112,low,0,0.0078,Medical and scientific text
+n2828-low3,2828,low,3,0.0078,Subject pronoun after a bad event
+n7189-low1,7189,low,1,0.0078,Once-upon-a-time children's stories
+n3862-high4,3862,high,4,0.0078,"Citations, code and reference lists"
+n6513-high8,6513,high,8,0.0077,Once-upon-a-time children's stories
+n8131-high1,8131,high,1,0.0077,"Citations, code and reference lists"
+n746-high0,746,high,0,0.0077,"Citations, code and reference lists"
+n608-low3,608,low,3,0.0077,Eerie suspense and dark settings
+n11813-low3,11813,low,3,0.0077,Medical and scientific text
+n8355-high0,8355,high,0,0.0077,"Recipes, advice lists and chat"
+n8355-high6,8355,high,6,0.0077,Paragraph breaks and quote marks
+n2083-low2,2083,low,2,0.0077,Tense first-person dread
+n8830-high0,8830,high,0,0.0077,Once-upon-a-time children's stories
+n6213-low2,6213,low,2,0.0077,Paragraph breaks and quote marks
+n9506-high1,9506,high,1,0.0077,Paragraph breaks and quote marks
+n11313-low4,11313,low,4,0.0077,Eerie suspense and dark settings
+n4507-high3,4507,high,3,0.0077,Despair and suicidal hopelessness
+n12284-low1,12284,low,1,0.0076,Tense first-person dread
+n1206-high0,1206,high,0,0.0076,"Recipes, advice lists and chat"
+n1208-low2,1208,low,2,0.0076,Paragraph breaks and quote marks
+n3438-low0,3438,low,0,0.0076,Medical and scientific text
+n10577-low0,10577,low,0,0.0076,Once-upon-a-time children's stories
+n10182-high4,10182,high,4,0.0075,Tense first-person dread
+n2823-high0,2823,high,0,0.0075,Survival under dwindling resources
+n10474-high1,10474,high,1,0.0075,Heated confrontation dialogue
+n9839-low1,9839,low,1,0.0075,Survival under dwindling resources
+n10246-low0,10246,low,0,0.0075,Once-upon-a-time children's stories
+n634-high4,634,high,4,0.0075,Once-upon-a-time children's stories
+n8215-high3,8215,high,3,0.0075,Medical and scientific text
+n1488-low1,1488,low,1,0.0074,Paragraph breaks and quote marks
+n9763-high4,9763,high,4,0.0074,Fleeing and running away
+n794-low0,794,low,0,0.0074,"Confessions, guilt and regret"
+n2170-high6,2170,high,6,0.0074,Despair and suicidal hopelessness
+n7216-high5,7216,high,5,0.0074,Once-upon-a-time children's stories
+n6528-high0,6528,high,0,0.0073,Last-chance resolve and urgency
+n7873-high3,7873,high,3,0.0073,Last-chance resolve and urgency
+n2776-low3,2776,low,3,0.0072,"Recipes, advice lists and chat"
+n9301-high7,9301,high,7,0.0072,Paragraph breaks and quote marks
+n5663-low3,5663,low,3,0.0072,Heated confrontation dialogue
+n1208-low0,1208,low,0,0.0072,Searching and failing to find
+n10632-low2,10632,low,2,0.0072,Once-upon-a-time children's stories
+n8355-high1,8355,high,1,0.0072,Once-upon-a-time children's stories
+n6454-low0,6454,low,0,0.0072,Sad or scared child stories
+n6340-low2,6340,low,2,0.0071,"Confessions, guilt and regret"
+n4447-high1,4447,high,1,0.0071,"Recipes, advice lists and chat"
+n9053-high1,9053,high,1,0.0071,Once-upon-a-time children's stories
+n5582-low1,5582,low,1,0.0071,Once-upon-a-time children's stories
+n5582-low2,5582,low,2,0.0071,Tense first-person dread
+n5582-low4,5582,low,4,0.0071,Once-upon-a-time children's stories
+n5582-low5,5582,low,5,0.0071,"Violence, gore and horror"
+n6513-high2,6513,high,2,0.0071,Paragraph breaks and quote marks
+n6513-high4,6513,high,4,0.0071,Heated confrontation dialogue
+n11485-high0,11485,high,0,0.0071,Paragraph breaks and quote marks
+n11688-high0,11688,high,0,0.007,Pleading and begging dialogue
+n8342-low0,8342,low,0,0.007,Once-upon-a-time children's stories
+n2519-low1,2519,low,1,0.007,"Recipes, advice lists and chat"
+n7933-low1,7933,low,1,0.007,"Citations, code and reference lists"
+n3773-low0,3773,low,0,0.007,Medical and scientific text
+n8260-high2,8260,high,2,0.007,Once-upon-a-time children's stories
+n6798-low7,6798,low,7,0.007,Paragraph breaks and quote marks
+n8740-low1,8740,low,1,0.007,other
+n8131-high2,8131,high,2,0.007,Once-upon-a-time children's stories
+n9551-low1,9551,low,1,0.007,Once-upon-a-time children's stories
+n11599-high2,11599,high,2,0.0069,Once-upon-a-time children's stories
+n5558-low1,5558,low,1,0.0069,other
+n6559-high6,6559,high,6,0.0069,Last-chance resolve and urgency
+n8038-low1,8038,low,1,0.0069,Pleading and begging dialogue
+n4883-low2,4883,low,2,0.0069,Subject pronoun after a bad event
+n4883-low3,4883,low,3,0.0069,other
+n3888-high0,3888,high,0,0.0069,Sad or scared child stories
+n9842-low6,9842,low,6,0.0069,Heated confrontation dialogue
+n881-low3,881,low,3,0.0069,other
+n1433-high1,1433,high,1,0.0069,"Citations, code and reference lists"
+n6029-high4,6029,high,4,0.0068,Despair and suicidal hopelessness
+n6746-high2,6746,high,2,0.0068,Once-upon-a-time children's stories
+n7797-low4,7797,low,4,0.0068,Heated confrontation dialogue
+n7289-high5,7289,high,5,0.0068,Last-chance resolve and urgency
+n5663-low10,5663,low,10,0.0068,Heated confrontation dialogue
+n6350-low2,6350,low,2,0.0068,Fleeing and running away
+n1974-high0,1974,high,0,0.0068,"Confessions, guilt and regret"
+n7864-high0,7864,high,0,0.0068,"Citations, code and reference lists"
+n11880-low5,11880,low,5,0.0068,Eerie suspense and dark settings
+n7336-low0,7336,low,0,0.0068,"Citations, code and reference lists"
+n820-high2,820,high,2,0.0068,other
+n11637-low4,11637,low,4,0.0068,Once-upon-a-time children's stories
+n5668-low3,5668,low,3,0.0068,Fleeing and running away
+n2214-low6,2214,low,6,0.0067,Once-upon-a-time children's stories
+n11644-low2,11644,low,2,0.0067,"Citations, code and reference lists"
+n11688-high2,11688,high,2,0.0067,Heated confrontation dialogue
+n11688-high3,11688,high,3,0.0067,Once-upon-a-time children's stories
+n2891-high1,2891,high,1,0.0067,Paragraph breaks and quote marks
+n2173-low2,2173,low,2,0.0067,"Recipes, advice lists and chat"
+n1828-high5,1828,high,5,0.0067,Medical and scientific text
+n2170-high7,2170,high,7,0.0066,Paragraph breaks and quote marks
+n6418-low0,6418,low,0,0.0066,Eerie suspense and dark settings
+n9925-high4,9925,high,4,0.0066,Paragraph breaks and quote marks
+n9925-high6,9925,high,6,0.0066,Once-upon-a-time children's stories
+n11925-high1,11925,high,1,0.0066,"Recipes, advice lists and chat"
+n9763-high1,9763,high,1,0.0065,Medical and scientific text
+n3295-high0,3295,high,0,0.0065,"Recipes, advice lists and chat"
+n9737-low0,9737,low,0,0.0065,"Citations, code and reference lists"
+n9737-low4,9737,low,4,0.0065,Pleading and begging dialogue
+n103-low0,103,low,0,0.0065,"Recipes, advice lists and chat"
+n4346-high2,4346,high,2,0.0065,other
+n3977-high3,3977,high,3,0.0065,"Violence, gore and horror"
+n6852-low3,6852,low,3,0.0065,"Citations, code and reference lists"
+n4318-high1,4318,high,1,0.0065,Paragraph breaks and quote marks
+n3773-low2,3773,low,2,0.0064,other
+n5663-low2,5663,low,2,0.0064,Pleading and begging dialogue
+n5663-low5,5663,low,5,0.0064,Once-upon-a-time children's stories
+n8307-high1,8307,high,1,0.0064,Heated confrontation dialogue
+n8307-high3,8307,high,3,0.0064,Once-upon-a-time children's stories
+n10123-low2,10123,low,2,0.0064,Once-upon-a-time children's stories
+n6513-high9,6513,high,9,0.0064,"Pain, injury and bodily distress"
+n8946-low1,8946,low,1,0.0064,"Recipes, advice lists and chat"
+n8537-high4,8537,high,4,0.0064,Paragraph breaks and quote marks
+n5964-low0,5964,low,0,0.0064,Once-upon-a-time children's stories
+n5763-high1,5763,high,1,0.0064,"Citations, code and reference lists"
+n237-high2,237,high,2,0.0064,"Citations, code and reference lists"
+n6766-high3,6766,high,3,0.0063,Paragraph breaks and quote marks
+n1704-high1,1704,high,1,0.0063,"Recipes, advice lists and chat"
+n8420-low3,8420,low,3,0.0063,other
+n10405-high2,10405,high,2,0.0063,Medical and scientific text
+n10988-low1,10988,low,1,0.0063,"Recipes, advice lists and chat"
+n4144-high2,4144,high,2,0.0063,Medical and scientific text
+n4669-low1,4669,low,1,0.0062,other
+n1710-low0,1710,low,0,0.0062,Tense first-person dread
+n9292-low7,9292,low,7,0.0062,Fear and anxiety states
+n10144-low1,10144,low,1,0.0062,"Citations, code and reference lists"
+n4507-high0,4507,high,0,0.0062,"Recipes, advice lists and chat"
+n9925-high5,9925,high,5,0.0062,Despair and suicidal hopelessness
+n6766-high1,6766,high,1,0.0062,"Recipes, advice lists and chat"
+n8355-high3,8355,high,3,0.0062,"Citations, code and reference lists"
+n7289-high4,7289,high,4,0.0062,Once-upon-a-time children's stories
+n10945-high3,10945,high,3,0.0062,Once-upon-a-time children's stories
+n11097-high1,11097,high,1,0.0061,"Violence, gore and horror"
+n9106-low2,9106,low,2,0.0061,"Citations, code and reference lists"
+n4070-high1,4070,high,1,0.0061,Medical and scientific text
+n7189-low2,7189,low,2,0.0061,Sad or scared child stories
+n7189-low8,7189,low,8,0.0061,Sad or scared child stories
+n2061-high0,2061,high,0,0.0061,Paragraph breaks and quote marks
+n573-low0,573,low,0,0.0061,"Confessions, guilt and regret"
+n9058-high0,9058,high,0,0.0061,Once-upon-a-time children's stories
+n4780-high2,4780,high,2,0.0061,Once-upon-a-time children's stories
+n10958-high3,10958,high,3,0.006,"Recipes, advice lists and chat"
+n7797-low3,7797,low,3,0.006,other
+n5663-low6,5663,low,6,0.006,Heated confrontation dialogue
+n5663-low9,5663,low,9,0.006,"Pain, injury and bodily distress"
+n9574-low0,9574,low,0,0.006,Once-upon-a-time children's stories
+n5627-high0,5627,high,0,0.006,Once-upon-a-time children's stories
+n11813-low2,11813,low,2,0.006,other
+n3339-low3,3339,low,3,0.006,other
+n3968-low2,3968,low,2,0.006,other
+n9553-low1,9553,low,1,0.006,Once-upon-a-time children's stories
+n103-low1,103,low,1,0.0059,Paragraph breaks and quote marks
+n4917-high4,4917,high,4,0.0059,Paragraph breaks and quote marks
+n10781-low0,10781,low,0,0.0059,Once-upon-a-time children's stories
+n11689-low2,11689,low,2,0.0059,"Recipes, advice lists and chat"
+n1704-high0,1704,high,0,0.0059,Sad or scared child stories
+n541-low0,541,low,0,0.0059,Subject pronoun after a bad event
+n3224-high1,3224,high,1,0.0059,"Violence, gore and horror"
+n5205-high2,5205,high,2,0.0059,"Confessions, guilt and regret"
+n11468-low0,11468,low,0,0.0059,Family conflict and grief
+n6098-low1,6098,low,1,0.0058,"Citations, code and reference lists"
+n972-high0,972,high,0,0.0058,Family conflict and grief
+n7689-high1,7689,high,1,0.0058,Once-upon-a-time children's stories
+n10565-high1,10565,high,1,0.0058,"Confessions, guilt and regret"
+n8131-high4,8131,high,4,0.0058,Failed attempts and struggle
+n8131-high7,8131,high,7,0.0058,Paragraph breaks and quote marks
+n2245-high1,2245,high,1,0.0058,Paragraph breaks and quote marks
+n9925-high0,9925,high,0,0.0058,Once-upon-a-time children's stories
+n4364-low0,4364,low,0,0.0058,Once-upon-a-time children's stories
+n8342-low4,8342,low,4,0.0057,Once-upon-a-time children's stories
+n9-low2,9,low,2,0.0057,Tense first-person dread
+n2520-high2,2520,high,2,0.0057,other
+n3747-low1,3747,low,1,0.0057,"Recipes, advice lists and chat"
+n9301-high0,9301,high,0,0.0057,Paragraph breaks and quote marks
+n8177-high1,8177,high,1,0.0057,Paragraph breaks and quote marks
+n6014-low1,6014,low,1,0.0057,Family conflict and grief
+n87-low1,87,low,1,0.0057,other
+n1155-low2,1155,low,2,0.0057,Searching and failing to find
+n7555-high2,7555,high,2,0.0057,Despair and suicidal hopelessness
+n5801-high2,5801,high,2,0.0057,"Citations, code and reference lists"
+n9584-high1,9584,high,1,0.0057,Once-upon-a-time children's stories
+n1222-low3,1222,low,3,0.0056,Sad or scared child stories
+n6561-low4,6561,low,4,0.0056,Paragraph breaks and quote marks
+n7797-low2,7797,low,2,0.0056,Eerie suspense and dark settings
+n8307-high0,8307,high,0,0.0056,"Recipes, advice lists and chat"
+n12284-low0,12284,low,0,0.0056,other
+n5486-high1,5486,high,1,0.0056,Once-upon-a-time children's stories
+n11539-high2,11539,high,2,0.0056,Heated confrontation dialogue
+n7340-low0,7340,low,0,0.0056,other
+n7216-high0,7216,high,0,0.0055,"Citations, code and reference lists"
+n6350-low6,6350,low,6,0.0055,Paragraph breaks and quote marks
+n8033-high3,8033,high,3,0.0055,Once-upon-a-time children's stories
+n11764-high0,11764,high,0,0.0055,"Citations, code and reference lists"
+n6675-low3,6675,low,3,0.0055,"Recipes, advice lists and chat"
+n7825-low1,7825,low,1,0.0055,"Recipes, advice lists and chat"
+n4346-high0,4346,high,0,0.0055,other
+n9574-low1,9574,low,1,0.0055,Once-upon-a-time children's stories
+n7278-high0,7278,high,0,0.0055,other
+n9184-high2,9184,high,2,0.0055,Once-upon-a-time children's stories
+n1433-high3,1433,high,3,0.0054,"Recipes, advice lists and chat"
+n10595-high0,10595,high,0,0.0054,"Recipes, advice lists and chat"
+n2972-high1,2972,high,1,0.0054,Last-chance resolve and urgency
+n7351-low3,7351,low,3,0.0054,"Violence, gore and horror"
+n6513-high3,6513,high,3,0.0054,Once-upon-a-time children's stories
+n8099-low1,8099,low,1,0.0054,Once-upon-a-time children's stories
+n6939-high3,6939,high,3,0.0054,Fleeing and running away
+n9925-high1,9925,high,1,0.0054,Fleeing and running away
+n10466-low1,10466,low,1,0.0054,Once-upon-a-time children's stories
+n12284-low2,12284,low,2,0.0054,other
+n6223-low0,6223,low,0,0.0053,Medical and scientific text
+n4375-high2,4375,high,2,0.0053,"Recipes, advice lists and chat"
+n9298-high5,9298,high,5,0.0053,Once-upon-a-time children's stories
+n4980-low1,4980,low,1,0.0053,Once-upon-a-time children's stories
+n1156-high1,1156,high,1,0.0053,"Recipes, advice lists and chat"
+n1156-high3,1156,high,3,0.0053,other
+n6561-low1,6561,low,1,0.0053,Heated confrontation dialogue
+n6561-low10,6561,low,10,0.0053,Sad or scared child stories
+n6728-low3,6728,low,3,0.0053,Paragraph breaks and quote marks
+n11539-high5,11539,high,5,0.0053,Tense first-person dread
+n11648-low1,11648,low,1,0.0052,"Recipes, advice lists and chat"
+n6492-high1,6492,high,1,0.0052,Paragraph breaks and quote marks
+n1218-high1,1218,high,1,0.0052,Once-upon-a-time children's stories
+n11858-high5,11858,high,5,0.0052,"Recipes, advice lists and chat"
+n2678-low0,2678,low,0,0.0052,other
+n1373-low0,1373,low,0,0.0052,"Recipes, advice lists and chat"
+n4561-high0,4561,high,0,0.0052,Medical and scientific text
+n7377-low1,7377,low,1,0.0052,Pleading and begging dialogue
+n746-high3,746,high,3,0.0051,Paragraph breaks and quote marks
+n539-low0,539,low,0,0.0051,"Violence, gore and horror"
+n5616-low2,5616,low,2,0.0051,Once-upon-a-time children's stories
+n9301-high1,9301,high,1,0.0051,Medical and scientific text
+n9301-high4,9301,high,4,0.0051,Tense first-person dread
+n9301-high8,9301,high,8,0.0051,Once-upon-a-time children's stories
+n7286-low4,7286,low,4,0.0051,Family conflict and grief
+n4629-high2,4629,high,2,0.0051,other
+n6268-low1,6268,low,1,0.0051,"Recipes, advice lists and chat"
+n11097-high3,11097,high,3,0.0051,"Pain, injury and bodily distress"
+n9913-low0,9913,low,0,0.0051,other
+n6513-high7,6513,high,7,0.005,Paragraph breaks and quote marks
+n4669-low0,4669,low,0,0.005,Once-upon-a-time children's stories
+n6286-high2,6286,high,2,0.005,"Pain, injury and bodily distress"
+n2541-low0,2541,low,0,0.005,"Recipes, advice lists and chat"
+n1573-high4,1573,high,4,0.005,Once-upon-a-time children's stories
+n8686-low0,8686,low,0,0.005,Once-upon-a-time children's stories
+n3977-high4,3977,high,4,0.005,Fear and anxiety states
+n3513-low4,3513,low,4,0.005,Once-upon-a-time children's stories
+n4144-high0,4144,high,0,0.005,"Citations, code and reference lists"
+n10452-low0,10452,low,0,0.005,other
+n7694-high1,7694,high,1,0.005,other
+n2831-high1,2831,high,1,0.005,"Recipes, advice lists and chat"
+n9983-low1,9983,low,1,0.005,other
+n1968-low0,1968,low,0,0.005,Once-upon-a-time children's stories
+n1788-high1,1788,high,1,0.005,Once-upon-a-time children's stories
+n7873-high4,7873,high,4,0.005,Subject pronoun after a bad event
+n2933-high1,2933,high,1,0.005,"Recipes, advice lists and chat"
+n8556-low5,8556,low,5,0.005,"Recipes, advice lists and chat"
+n306-low0,306,low,0,0.005,"Recipes, advice lists and chat"
+n8750-low0,8750,low,0,0.0049,other
+n9292-low6,9292,low,6,0.0049,Subject pronoun after a bad event
+n6152-high0,6152,high,0,0.0049,Once-upon-a-time children's stories
+n12004-low2,12004,low,2,0.0049,Medical and scientific text
+n9842-low1,9842,low,1,0.0049,Once-upon-a-time children's stories
+n3339-low2,3339,low,2,0.0049,"Recipes, advice lists and chat"
+n8051-low7,8051,low,7,0.0049,Once-upon-a-time children's stories
+n7216-high3,7216,high,3,0.0049,Last-chance resolve and urgency
+n9506-high3,9506,high,3,0.0049,"Violence, gore and horror"
+n10246-low4,10246,low,4,0.0048,other
+n6268-low0,6268,low,0,0.0048,"Recipes, advice lists and chat"
+n6268-low2,6268,low,2,0.0048,Paragraph breaks and quote marks
+n9745-low3,9745,low,3,0.0048,"Recipes, advice lists and chat"
+n9301-high2,9301,high,2,0.0048,Tense first-person dread
+n1155-low3,1155,low,3,0.0048,Once-upon-a-time children's stories
+n10150-low1,10150,low,1,0.0048,"Citations, code and reference lists"
+n1470-low1,1470,low,1,0.0048,"Recipes, advice lists and chat"
+n1713-high1,1713,high,1,0.0048,Once-upon-a-time children's stories
+n10080-high0,10080,high,0,0.0048,other
+n9628-high1,9628,high,1,0.0048,Medical and scientific text
+n539-low3,539,low,3,0.0047,Once-upon-a-time children's stories
+n10958-high0,10958,high,0,0.0047,Once-upon-a-time children's stories
+n4472-low1,4472,low,1,0.0047,"Citations, code and reference lists"
+n573-low2,573,low,2,0.0047,other
+n9397-low1,9397,low,1,0.0047,Paragraph breaks and quote marks
+n10625-high0,10625,high,0,0.0047,Once-upon-a-time children's stories
+n6352-low1,6352,low,1,0.0047,Once-upon-a-time children's stories
+n6675-low1,6675,low,1,0.0047,Once-upon-a-time children's stories
+n1024-high0,1024,high,0,0.0047,"Recipes, advice lists and chat"
+n9355-low2,9355,low,2,0.0047,"Recipes, advice lists and chat"
+n8059-low2,8059,low,2,0.0046,Once-upon-a-time children's stories
+n1704-high5,1704,high,5,0.0046,Fear and anxiety states
+n2483-low1,2483,low,1,0.0046,Paragraph breaks and quote marks
+n3523-low0,3523,low,0,0.0046,"Recipes, advice lists and chat"
+n4759-high1,4759,high,1,0.0046,Paragraph breaks and quote marks
+n10945-high4,10945,high,4,0.0046,Once-upon-a-time children's stories
+n8365-high2,8365,high,2,0.0046,Eerie suspense and dark settings
+n2173-low0,2173,low,0,0.0046,Paragraph breaks and quote marks
+n9298-high0,9298,high,0,0.0046,Once-upon-a-time children's stories
+n11468-low5,11468,low,5,0.0046,Fleeing and running away
+n7705-high1,7705,high,1,0.0046,Eerie suspense and dark settings
+n1828-high1,1828,high,1,0.0046,Tense first-person dread
+n5964-low3,5964,low,3,0.0045,Once-upon-a-time children's stories
+n3366-low1,3366,low,1,0.0045,"Violence, gore and horror"
+n9301-high3,9301,high,3,0.0045,Pleading and begging dialogue
+n5682-high1,5682,high,1,0.0045,Sad or scared child stories
+n5249-high2,5249,high,2,0.0045,Paragraph breaks and quote marks
+n10687-low5,10687,low,5,0.0045,Failed attempts and struggle
+n8686-low3,8686,low,3,0.0045,Once-upon-a-time children's stories
+n5480-high1,5480,high,1,0.0045,Once-upon-a-time children's stories
+n10227-low1,10227,low,1,0.0045,"Confessions, guilt and regret"
+n5769-high3,5769,high,3,0.0044,Once-upon-a-time children's stories
+n6866-high0,6866,high,0,0.0044,"Citations, code and reference lists"
+n7760-low4,7760,low,4,0.0044,Once-upon-a-time children's stories
+n4917-high3,4917,high,3,0.0044,Lonely or lost characters
+n11442-low3,11442,low,3,0.0044,Medical and scientific text
+n1573-high1,1573,high,1,0.0044,Paragraph breaks and quote marks
+n672-high0,672,high,0,0.0044,"Recipes, advice lists and chat"
+n5663-low4,5663,low,4,0.0044,Once-upon-a-time children's stories
+n5663-low7,5663,low,7,0.0044,Subject pronoun after a bad event
+n10948-low6,10948,low,6,0.0044,"Citations, code and reference lists"
+n6454-low3,6454,low,3,0.0044,"Recipes, advice lists and chat"
+n6939-high0,6939,high,0,0.0044,Sad or scared child stories
+n6939-high1,6939,high,1,0.0044,"Violence, gore and horror"
+n12087-low2,12087,low,2,0.0044,Failed attempts and struggle
+n6286-high3,6286,high,3,0.0044,other
+n143-low2,143,low,2,0.0044,"Recipes, advice lists and chat"
+n7126-high1,7126,high,1,0.0044,Once-upon-a-time children's stories
+n2891-high3,2891,high,3,0.0044,Once-upon-a-time children's stories
+n1982-high1,1982,high,1,0.0044,"Citations, code and reference lists"
+n7351-low5,7351,low,5,0.0044,Paragraph breaks and quote marks
+n11858-high2,11858,high,2,0.0044,Once-upon-a-time children's stories
+n6576-high1,6576,high,1,0.0043,Subject pronoun after a bad event
+n7561-low0,7561,low,0,0.0043,"Recipes, advice lists and chat"
+n5977-low0,5977,low,0,0.0043,"Recipes, advice lists and chat"
+n10509-high7,10509,high,7,0.0043,Paragraph breaks and quote marks
+n5177-low0,5177,low,0,0.0043,Eerie suspense and dark settings
+n10948-low2,10948,low,2,0.0043,Once-upon-a-time children's stories
+n7426-low1,7426,low,1,0.0043,"Recipes, advice lists and chat"
+n9106-low4,9106,low,4,0.0043,Once-upon-a-time children's stories
+n680-high2,680,high,2,0.0043,Paragraph breaks and quote marks
+n514-high1,514,high,1,0.0043,"Recipes, advice lists and chat"
+n6350-low4,6350,low,4,0.0043,Once-upon-a-time children's stories
+n4629-high4,4629,high,4,0.0043,Once-upon-a-time children's stories
+n7864-high2,7864,high,2,0.0043,Eerie suspense and dark settings
+n9842-low5,9842,low,5,0.0043,Paragraph breaks and quote marks
+n11713-high1,11713,high,1,0.0042,Fleeing and running away
+n6765-high0,6765,high,0,0.0042,Sad or scared child stories
+n5977-low1,5977,low,1,0.0042,other
+n6559-high3,6559,high,3,0.0042,Once-upon-a-time children's stories
+n6559-high8,6559,high,8,0.0042,Once-upon-a-time children's stories
+n5346-high0,5346,high,0,0.0042,unassigned
+n936-low0,936,low,0,0.0042,other
+n8215-high1,8215,high,1,0.0042,Family conflict and grief
+n11103-high0,11103,high,0,0.0042,Once-upon-a-time children's stories
+n8686-low5,8686,low,5,0.0042,Once-upon-a-time children's stories
+n3977-high5,3977,high,5,0.0042,Once-upon-a-time children's stories
+n6385-high3,6385,high,3,0.0042,"Citations, code and reference lists"
+n8365-high1,8365,high,1,0.0042,Once-upon-a-time children's stories
+n2298-low1,2298,low,1,0.0041,"Citations, code and reference lists"
+n8647-high7,8647,high,7,0.0041,Once-upon-a-time children's stories
+n7336-low3,7336,low,3,0.0041,other
+n1052-low3,1052,low,3,0.0041,"Pain, injury and bodily distress"
+n5902-high1,5902,high,1,0.0041,"Citations, code and reference lists"
+n6220-low1,6220,low,1,0.0041,other
+n9380-high3,9380,high,3,0.0041,"Recipes, advice lists and chat"
+n8556-low2,8556,low,2,0.0041,Subject pronoun after a bad event
+n2760-low1,2760,low,1,0.0041,Paragraph breaks and quote marks
+n6866-high4,6866,high,4,0.0041,other
+n7825-low5,7825,low,5,0.0041,Failed attempts and struggle
+n3366-low0,3366,low,0,0.004,other
+n3761-low1,3761,low,1,0.004,Once-upon-a-time children's stories
+n6667-low0,6667,low,0,0.004,Once-upon-a-time children's stories
+n10781-low1,10781,low,1,0.004,"Recipes, advice lists and chat"
+n1470-low3,1470,low,3,0.004,Once-upon-a-time children's stories
+n9292-low3,9292,low,3,0.004,"Violence, gore and horror"
+n10674-low1,10674,low,1,0.004,Once-upon-a-time children's stories
+n1151-low0,1151,low,0,0.004,"Citations, code and reference lists"
+n11584-high2,11584,high,2,0.004,Medical and scientific text
+n5020-low0,5020,low,0,0.004,Heated confrontation dialogue
+n5624-low1,5624,low,1,0.004,Once-upon-a-time children's stories
+n6576-high0,6576,high,0,0.004,Paragraph breaks and quote marks
+n11468-low2,11468,low,2,0.004,Subject pronoun after a bad event
+n10595-high3,10595,high,3,0.004,Paragraph breaks and quote marks
+n7864-high1,7864,high,1,0.004,"Violence, gore and horror"
+n10182-high3,10182,high,3,0.004,Once-upon-a-time children's stories
+n4597-high1,4597,high,1,0.004,"Violence, gore and horror"
+n693-low2,693,low,2,0.004,other
+n3572-low3,3572,low,3,0.004,Once-upon-a-time children's stories
+n6213-low0,6213,low,0,0.004,other
+n608-low4,608,low,4,0.0039,"Violence, gore and horror"
+n11539-high1,11539,high,1,0.0039,Heated confrontation dialogue
+n2923-low3,2923,low,3,0.0039,Once-upon-a-time children's stories
+n10687-low2,10687,low,2,0.0039,Last-chance resolve and urgency
+n7694-high0,7694,high,0,0.0039,Paragraph breaks and quote marks
+n9401-low0,9401,low,0,0.0039,other
+n4104-low0,4104,low,0,0.0039,"Citations, code and reference lists"
+n11485-high2,11485,high,2,0.0039,Once-upon-a-time children's stories
+n11485-high5,11485,high,5,0.0039,Once-upon-a-time children's stories
+n6765-high2,6765,high,2,0.0039,Once-upon-a-time children's stories
+n514-high4,514,high,4,0.0039,Subject pronoun after a bad event
+n8131-high0,8131,high,0,0.0039,other
+n1580-low2,1580,low,2,0.0039,"Citations, code and reference lists"
+n1086-high1,1086,high,1,0.0039,Paragraph breaks and quote marks
+n4618-low0,4618,low,0,0.0038,Paragraph breaks and quote marks
+n11688-high4,11688,high,4,0.0038,Paragraph breaks and quote marks
+n9292-low0,9292,low,0,0.0038,Once-upon-a-time children's stories
+n8999-high2,8999,high,2,0.0038,"Recipes, advice lists and chat"
+n9298-high3,9298,high,3,0.0038,"Citations, code and reference lists"
+n6868-low3,6868,low,3,0.0038,Once-upon-a-time children's stories
+n3246-high5,3246,high,5,0.0038,Fleeing and running away
+n7888-low1,7888,low,1,0.0038,Medical and scientific text
+n8033-high1,8033,high,1,0.0038,Medical and scientific text
+n608-low2,608,low,2,0.0038,Once-upon-a-time children's stories
+n11767-high0,11767,high,0,0.0037,other
+n11767-high2,11767,high,2,0.0037,Failed attempts and struggle
+n1968-low2,1968,low,2,0.0037,Once-upon-a-time children's stories
+n1042-high4,1042,high,4,0.0037,Once-upon-a-time children's stories
+n7110-high1,7110,high,1,0.0037,Paragraph breaks and quote marks
+n306-low2,306,low,2,0.0037,Heated confrontation dialogue
+n6513-high0,6513,high,0,0.0037,Sad or scared child stories
+n12004-low0,12004,low,0,0.0037,other
+n10145-low5,10145,low,5,0.0037,Paragraph breaks and quote marks
+n6528-high1,6528,high,1,0.0037,other
+n3291-high1,3291,high,1,0.0037,Once-upon-a-time children's stories
+n10674-low2,10674,low,2,0.0037,"Recipes, advice lists and chat"
+n6866-high1,6866,high,1,0.0037,Paragraph breaks and quote marks
+n1573-high7,1573,high,7,0.0037,Once-upon-a-time children's stories
+n9292-low2,9292,low,2,0.0037,"Violence, gore and horror"
+n9292-low4,9292,low,4,0.0037,Medical and scientific text
+n8919-high1,8919,high,1,0.0037,Searching and failing to find
+n10687-low3,10687,low,3,0.0037,Once-upon-a-time children's stories
+n2721-high1,2721,high,1,0.0037,Once-upon-a-time children's stories
+n12112-high1,12112,high,1,0.0036,Once-upon-a-time children's stories
+n6561-low2,6561,low,2,0.0036,other
+n6561-low3,6561,low,3,0.0036,Pleading and begging dialogue
+n6561-low7,6561,low,7,0.0036,Pleading and begging dialogue
+n6561-low8,6561,low,8,0.0036,Paragraph breaks and quote marks
+n8740-low0,8740,low,0,0.0036,"Violence, gore and horror"
+n8686-low1,8686,low,1,0.0036,Failed attempts and struggle
+n7289-high3,7289,high,3,0.0036,Once-upon-a-time children's stories
+n9380-high2,9380,high,2,0.0036,Once-upon-a-time children's stories
+n5177-low4,5177,low,4,0.0036,Pleading and begging dialogue
+n7896-high2,7896,high,2,0.0036,Once-upon-a-time children's stories
+n1009-low0,1009,low,0,0.0036,Medical and scientific text
+n1151-low1,1151,low,1,0.0036,"Recipes, advice lists and chat"
+n5020-low2,5020,low,2,0.0036,Paragraph breaks and quote marks
+n2271-low1,2271,low,1,0.0036,other
+n11370-high3,11370,high,3,0.0036,Heated confrontation dialogue
+n9549-low1,9549,low,1,0.0036,Once-upon-a-time children's stories
+n8429-low1,8429,low,1,0.0035,"Recipes, advice lists and chat"
+n11485-high4,11485,high,4,0.0035,Once-upon-a-time children's stories
+n7713-high0,7713,high,0,0.0035,Medical and scientific text
+n8033-high2,8033,high,2,0.0035,Tense first-person dread
+n4074-high4,4074,high,4,0.0035,Paragraph breaks and quote marks
+n709-low1,709,low,1,0.0035,other
+n634-high7,634,high,7,0.0035,Once-upon-a-time children's stories
+n2520-high4,2520,high,4,0.0035,Medical and scientific text
+n2776-low2,2776,low,2,0.0035,"Citations, code and reference lists"
+n8556-low1,8556,low,1,0.0035,Paragraph breaks and quote marks
+n9292-low1,9292,low,1,0.0035,Pleading and begging dialogue
+n2214-low3,2214,low,3,0.0035,Medical and scientific text
+n2214-low5,2214,low,5,0.0035,"Citations, code and reference lists"
+n7351-low2,7351,low,2,0.0035,"Citations, code and reference lists"
+n1847-high1,1847,high,1,0.0035,Once-upon-a-time children's stories
+n10909-low4,10909,low,4,0.0035,Heated confrontation dialogue
+n8051-low1,8051,low,1,0.0035,Once-upon-a-time children's stories
+n3129-high2,3129,high,2,0.0035,Once-upon-a-time children's stories
+n8302-low1,8302,low,1,0.0034,Once-upon-a-time children's stories
+n2483-low3,2483,low,3,0.0034,"Recipes, advice lists and chat"
+n9737-low2,9737,low,2,0.0034,other
+n8465-high1,8465,high,1,0.0034,"Recipes, advice lists and chat"
+n8647-high8,8647,high,8,0.0034,Paragraph breaks and quote marks
+n7643-low0,7643,low,0,0.0034,other
+n6014-low0,6014,low,0,0.0034,Pleading and begging dialogue
+n6746-high5,6746,high,5,0.0034,Eerie suspense and dark settings
+n9763-high2,9763,high,2,0.0034,Medical and scientific text
+n6547-low1,6547,low,1,0.0034,"Citations, code and reference lists"
+n4808-high1,4808,high,1,0.0034,Once-upon-a-time children's stories
+n12004-low1,12004,low,1,0.0034,Searching and failing to find
+n10096-low1,10096,low,1,0.0034,"Recipes, advice lists and chat"
+n8190-low4,8190,low,4,0.0034,Paragraph breaks and quote marks
+n1838-low3,1838,low,3,0.0034,"Citations, code and reference lists"
+n6454-low4,6454,low,4,0.0034,"Citations, code and reference lists"
+n2253-low1,2253,low,1,0.0034,"Recipes, advice lists and chat"
+n10687-low0,10687,low,0,0.0034,Once-upon-a-time children's stories
+n9764-low1,9764,low,1,0.0034,Searching and failing to find
+n6513-high1,6513,high,1,0.0034,"Pain, injury and bodily distress"
+n6513-high5,6513,high,5,0.0034,"Citations, code and reference lists"
+n7286-low6,7286,low,6,0.0034,Once-upon-a-time children's stories
+n6728-low1,6728,low,1,0.0034,Paragraph breaks and quote marks
+n1080-high0,1080,high,0,0.0033,other
+n10595-high4,10595,high,4,0.0033,Heated confrontation dialogue
+n9401-low1,9401,low,1,0.0033,Once-upon-a-time children's stories
+n11961-high4,11961,high,4,0.0033,"Citations, code and reference lists"
+n4883-low0,4883,low,0,0.0033,Once-upon-a-time children's stories
+n4883-low5,4883,low,5,0.0033,Tense first-person dread
+n7555-high0,7555,high,0,0.0033,other
+n6559-high0,6559,high,0,0.0033,Once-upon-a-time children's stories
+n6559-high2,6559,high,2,0.0033,Tense first-person dread
+n8750-low2,8750,low,2,0.0033,"Citations, code and reference lists"
+n11539-high0,11539,high,0,0.0033,Heated confrontation dialogue
+n10145-low2,10145,low,2,0.0033,Once-upon-a-time children's stories
+n2616-low2,2616,low,2,0.0033,Fleeing and running away
+n11468-low3,11468,low,3,0.0033,"Citations, code and reference lists"
+n8033-high4,8033,high,4,0.0033,Heated confrontation dialogue
+n11753-low2,11753,low,2,0.0033,Once-upon-a-time children's stories
+n1086-high3,1086,high,3,0.0033,Despair and suicidal hopelessness
+n7957-low0,7957,low,0,0.0032,"Recipes, advice lists and chat"
+n10264-high1,10264,high,1,0.0032,"Citations, code and reference lists"
+n7068-low2,7068,low,2,0.0032,Medical and scientific text
+n1713-high3,1713,high,3,0.0032,"Recipes, advice lists and chat"
+n7760-low2,7760,low,2,0.0032,Paragraph breaks and quote marks
+n4721-high3,4721,high,3,0.0032,Once-upon-a-time children's stories
+n7152-high2,7152,high,2,0.0032,"Recipes, advice lists and chat"
+n9209-high1,9209,high,1,0.0032,Once-upon-a-time children's stories
+n10903-low1,10903,low,1,0.0032,"Citations, code and reference lists"
+n1218-high2,1218,high,2,0.0032,"Citations, code and reference lists"
+n6268-low3,6268,low,3,0.0031,Once-upon-a-time children's stories
+n12235-high0,12235,high,0,0.0031,"Recipes, advice lists and chat"
+n9574-low4,9574,low,4,0.0031,other
+n8328-low1,8328,low,1,0.0031,"Citations, code and reference lists"
+n1580-low0,1580,low,0,0.0031,"Recipes, advice lists and chat"
+n7825-low0,7825,low,0,0.0031,"Citations, code and reference lists"
+n7825-low3,7825,low,3,0.0031,"Citations, code and reference lists"
+n9763-high0,9763,high,0,0.0031,Medical and scientific text
+n9763-high5,9763,high,5,0.0031,Pleading and begging dialogue
+n1156-high0,1156,high,0,0.0031,Failed attempts and struggle
+n7047-low4,7047,low,4,0.0031,"Citations, code and reference lists"
+n5682-high2,5682,high,2,0.0031,"Recipes, advice lists and chat"
+n3572-low0,3572,low,0,0.0031,Once-upon-a-time children's stories
+n7626-low2,7626,low,2,0.0031,Once-upon-a-time children's stories
+n8260-high3,8260,high,3,0.0031,Once-upon-a-time children's stories
+n4721-high1,4721,high,1,0.0031,other
+n11764-high2,11764,high,2,0.0031,Medical and scientific text
+n9106-low0,9106,low,0,0.0031,other
+n4629-high1,4629,high,1,0.0031,Paragraph breaks and quote marks
+n8537-high2,8537,high,2,0.0031,other
+n1573-high3,1573,high,3,0.003,Tense first-person dread
+n6576-high3,6576,high,3,0.003,Once-upon-a-time children's stories
+n237-high3,237,high,3,0.003,other
+n3680-low2,3680,low,2,0.003,"Citations, code and reference lists"
+n10948-low1,10948,low,1,0.003,Medical and scientific text
+n9052-low1,9052,low,1,0.003,"Recipes, advice lists and chat"
+n220-low1,220,low,1,0.003,other
+n7168-high0,7168,high,0,0.003,Fear and anxiety states
+n7971-high2,7971,high,2,0.003,other
+n1042-high1,1042,high,1,0.003,Paragraph breaks and quote marks
+n250-low1,250,low,1,0.003,Once-upon-a-time children's stories
+n2616-low1,2616,low,1,0.003,"Citations, code and reference lists"
+n5125-high2,5125,high,2,0.003,Once-upon-a-time children's stories
+n8476-low0,8476,low,0,0.003,other
+n7315-high2,7315,high,2,0.003,"Citations, code and reference lists"
+n3291-high3,3291,high,3,0.003,Once-upon-a-time children's stories
+n881-low5,881,low,5,0.003,Once-upon-a-time children's stories
+n9533-high0,9533,high,0,0.003,unassigned
+n6241-low4,6241,low,4,0.0029,Once-upon-a-time children's stories
+n4862-low2,4862,low,2,0.0029,"Citations, code and reference lists"
+n8307-high4,8307,high,4,0.0029,Once-upon-a-time children's stories
+n10180-low3,10180,low,3,0.0029,Medical and scientific text
+n8830-high1,8830,high,1,0.0029,"Pain, injury and bodily distress"
+n8830-high2,8830,high,2,0.0029,other
+n11961-high3,11961,high,3,0.0029,Medical and scientific text
+n3932-high3,3932,high,3,0.0029,"Citations, code and reference lists"
+n6029-high2,6029,high,2,0.0029,Fear and anxiety states
+n8189-low3,8189,low,3,0.0029,Paragraph breaks and quote marks
+n9559-high1,9559,high,1,0.0029,"Citations, code and reference lists"
+n4971-low1,4971,low,1,0.0029,"Recipes, advice lists and chat"
+n6728-low2,6728,low,2,0.0029,Paragraph breaks and quote marks
+n9870-high1,9870,high,1,0.0029,Paragraph breaks and quote marks
+n634-high6,634,high,6,0.0029,Once-upon-a-time children's stories
+n10909-low1,10909,low,1,0.0028,other
+n10664-high3,10664,high,3,0.0028,other
+n7694-high3,7694,high,3,0.0028,other
+n9506-high0,9506,high,0,0.0028,Family conflict and grief
+n6590-high3,6590,high,3,0.0028,Once-upon-a-time children's stories
+n11858-high1,11858,high,1,0.0028,Once-upon-a-time children's stories
+n11468-low1,11468,low,1,0.0028,"Recipes, advice lists and chat"
+n8537-high0,8537,high,0,0.0028,"Recipes, advice lists and chat"
+n881-low2,881,low,2,0.0028,Heated confrontation dialogue
+n10595-high7,10595,high,7,0.0028,Once-upon-a-time children's stories
+n6852-low0,6852,low,0,0.0028,"Citations, code and reference lists"
+n4917-high0,4917,high,0,0.0028,Once-upon-a-time children's stories
+n9355-low0,9355,low,0,0.0028,Fleeing and running away
+n5346-high1,5346,high,1,0.0028,Medical and scientific text
+n8273-low2,8273,low,2,0.0028,Paragraph breaks and quote marks
+n8051-low0,8051,low,0,0.0028,Once-upon-a-time children's stories
+n8686-low2,8686,low,2,0.0028,Once-upon-a-time children's stories
+n8686-low4,8686,low,4,0.0028,Sad or scared child stories
+n10942-low2,10942,low,2,0.0028,other
+n1838-low1,1838,low,1,0.0028,Sad or scared child stories
+n8033-high0,8033,high,0,0.0028,Once-upon-a-time children's stories
+n10022-low0,10022,low,0,0.0028,"Citations, code and reference lists"
+n8420-low0,8420,low,0,0.0028,"Recipes, advice lists and chat"
+n8420-low1,8420,low,1,0.0028,Pleading and begging dialogue
+n8420-low2,8420,low,2,0.0028,Once-upon-a-time children's stories
+n3598-high3,3598,high,3,0.0027,"Citations, code and reference lists"
+n10796-high1,10796,high,1,0.0027,"Recipes, advice lists and chat"
+n11370-high0,11370,high,0,0.0027,other
+n11370-high2,11370,high,2,0.0027,"Citations, code and reference lists"
+n1443-high1,1443,high,1,0.0027,Pleading and begging dialogue
+n5616-low5,5616,low,5,0.0027,Once-upon-a-time children's stories
+n2129-low1,2129,low,1,0.0027,"Citations, code and reference lists"
+n3977-high0,3977,high,0,0.0027,"Recipes, advice lists and chat"
+n4528-low2,4528,low,2,0.0027,Once-upon-a-time children's stories
+n8190-low0,8190,low,0,0.0027,"Recipes, advice lists and chat"
+n2170-high0,2170,high,0,0.0027,"Recipes, advice lists and chat"
+n2170-high1,2170,high,1,0.0027,Once-upon-a-time children's stories
+n2170-high2,2170,high,2,0.0027,Once-upon-a-time children's stories
+n2170-high5,2170,high,5,0.0027,other
+n6240-high0,6240,high,0,0.0027,Heated confrontation dialogue
+n8339-low0,8339,low,0,0.0027,Once-upon-a-time children's stories
+n9831-high1,9831,high,1,0.0027,"Recipes, advice lists and chat"
+n3366-low3,3366,low,3,0.0027,Once-upon-a-time children's stories
+n2221-low0,2221,low,0,0.0027,Once-upon-a-time children's stories
+n10150-low3,10150,low,3,0.0027,other
+n3307-low1,3307,low,1,0.0027,Searching and failing to find
+n3291-high0,3291,high,0,0.0027,Paragraph breaks and quote marks
+n5924-high0,5924,high,0,0.0027,"Citations, code and reference lists"
+n2214-low0,2214,low,0,0.0027,other
+n2214-low2,2214,low,2,0.0027,Sad or scared child stories
+n9380-high5,9380,high,5,0.0026,Once-upon-a-time children's stories
+n10509-high2,10509,high,2,0.0026,Tense first-person dread
+n1357-low1,1357,low,1,0.0026,Once-upon-a-time children's stories
+n634-high5,634,high,5,0.0026,Once-upon-a-time children's stories
+n1832-high1,1832,high,1,0.0026,Heated confrontation dialogue
+n8273-low0,8273,low,0,0.0026,other
+n4879-high2,4879,high,2,0.0026,"Recipes, advice lists and chat"
+n7278-high1,7278,high,1,0.0026,Once-upon-a-time children's stories
+n11034-high1,11034,high,1,0.0026,"Recipes, advice lists and chat"
+n1052-low5,1052,low,5,0.0026,Once-upon-a-time children's stories
+n9332-low1,9332,low,1,0.0026,"Citations, code and reference lists"
+n3558-low1,3558,low,1,0.0026,other
+n6852-low1,6852,low,1,0.0026,"Recipes, advice lists and chat"
+n7825-low2,7825,low,2,0.0026,other
+n1754-low1,1754,low,1,0.0026,Once-upon-a-time children's stories
+n8305-high0,8305,high,0,0.0026,Once-upon-a-time children's stories
+n11402-low3,11402,low,3,0.0026,other
+n9355-low1,9355,low,1,0.0026,Medical and scientific text
+n7315-high0,7315,high,0,0.0026,other
+n7286-low2,7286,low,2,0.0026,Paragraph breaks and quote marks
+n2298-low2,2298,low,2,0.0025,"Citations, code and reference lists"
+n11143-low1,11143,low,1,0.0025,Once-upon-a-time children's stories
+n6315-low1,6315,low,1,0.0025,Once-upon-a-time children's stories
+n10945-high0,10945,high,0,0.0025,Once-upon-a-time children's stories
+n5769-high4,5769,high,4,0.0025,Paragraph breaks and quote marks
+n1470-low0,1470,low,0,0.0025,Once-upon-a-time children's stories
+n7702-low1,7702,low,1,0.0025,Fleeing and running away
+n2923-low2,2923,low,2,0.0025,other
+n3129-high3,3129,high,3,0.0025,Paragraph breaks and quote marks
+n11961-high2,11961,high,2,0.0025,"Citations, code and reference lists"
+n794-low1,794,low,1,0.0025,"Citations, code and reference lists"
+n2519-low0,2519,low,0,0.0025,Once-upon-a-time children's stories
+n4092-low0,4092,low,0,0.0025,Once-upon-a-time children's stories
+n4092-low3,4092,low,3,0.0025,"Citations, code and reference lists"
+n2221-low4,2221,low,4,0.0025,Once-upon-a-time children's stories
+n3339-low0,3339,low,0,0.0025,Once-upon-a-time children's stories
+n7149-high0,7149,high,0,0.0025,"Recipes, advice lists and chat"
+n8982-high1,8982,high,1,0.0025,"Violence, gore and horror"
+n4917-high2,4917,high,2,0.0025,Once-upon-a-time children's stories
+n1542-low2,1542,low,2,0.0025,Once-upon-a-time children's stories
+n11405-high1,11405,high,1,0.0025,Medical and scientific text
+n144-low2,144,low,2,0.0025,"Citations, code and reference lists"
+n7216-high2,7216,high,2,0.0025,other
+n7869-low2,7869,low,2,0.0024,"Recipes, advice lists and chat"
+n2823-high2,2823,high,2,0.0024,Heated confrontation dialogue
+n9255-low2,9255,low,2,0.0024,Once-upon-a-time children's stories
+n1573-high0,1573,high,0,0.0024,Paragraph breaks and quote marks
+n6157-low3,6157,low,3,0.0024,other
+n7278-high3,7278,high,3,0.0024,Once-upon-a-time children's stories
+n1828-high0,1828,high,0,0.0024,Once-upon-a-time children's stories
+n1828-high2,1828,high,2,0.0024,"Pain, injury and bodily distress"
+n634-high3,634,high,3,0.0024,Once-upon-a-time children's stories
+n6240-high1,6240,high,1,0.0024,Paragraph breaks and quote marks
+n11753-low3,11753,low,3,0.0024,Once-upon-a-time children's stories
+n8059-low0,8059,low,0,0.0024,other
+n4669-low2,4669,low,2,0.0024,Once-upon-a-time children's stories
+n7286-low1,7286,low,1,0.0024,Medical and scientific text
+n11880-low0,11880,low,0,0.0024,Once-upon-a-time children's stories
+n11880-low1,11880,low,1,0.0024,Once-upon-a-time children's stories
+n11880-low2,11880,low,2,0.0024,Eerie suspense and dark settings
+n11880-low4,11880,low,4,0.0024,Once-upon-a-time children's stories
+n2461-high1,2461,high,1,0.0024,other
+n2925-high1,2925,high,1,0.0024,other
+n7047-low0,7047,low,0,0.0024,Medical and scientific text
+n1615-low1,1615,low,1,0.0024,"Recipes, advice lists and chat"
+n3129-high0,3129,high,0,0.0024,Paragraph breaks and quote marks
+n9533-high2,9533,high,2,0.0024,"Recipes, advice lists and chat"
+n8328-low2,8328,low,2,0.0024,Medical and scientific text
+n4082-high1,4082,high,1,0.0024,"Recipes, advice lists and chat"
+n10942-low0,10942,low,0,0.0024,"Recipes, advice lists and chat"
+n7184-low1,7184,low,1,0.0024,other
+n10625-high4,10625,high,4,0.0024,Paragraph breaks and quote marks
+n11159-low1,11159,low,1,0.0024,Once-upon-a-time children's stories
+n8078-low1,8078,low,1,0.0023,"Recipes, advice lists and chat"
+n3246-high3,3246,high,3,0.0023,Once-upon-a-time children's stories
+n6286-high0,6286,high,0,0.0023,other
+n881-low1,881,low,1,0.0023,Once-upon-a-time children's stories
+n514-high3,514,high,3,0.0023,other
+n1433-high0,1433,high,0,0.0023,Once-upon-a-time children's stories
+n2923-low0,2923,low,0,0.0023,Paragraph breaks and quote marks
+n3254-low1,3254,low,1,0.0023,Fleeing and running away
+n3485-high1,3485,high,1,0.0023,Once-upon-a-time children's stories
+n10180-low0,10180,low,0,0.0023,"Citations, code and reference lists"
+n8820-low0,8820,low,0,0.0023,Once-upon-a-time children's stories
+n9440-high2,9440,high,2,0.0023,other
+n11813-low0,11813,low,0,0.0023,Heated confrontation dialogue
+n6590-high4,6590,high,4,0.0023,other
+n12087-low0,12087,low,0,0.0023,Once-upon-a-time children's stories
+n2083-low0,2083,low,0,0.0023,"Citations, code and reference lists"
+n6014-low3,6014,low,3,0.0023,"Citations, code and reference lists"
+n2862-low1,2862,low,1,0.0023,Tense first-person dread
+n1052-low2,1052,low,2,0.0023,other
+n936-low2,936,low,2,0.0023,Once-upon-a-time children's stories
+n8249-high1,8249,high,1,0.0023,Once-upon-a-time children's stories
+n2823-high3,2823,high,3,0.0023,Paragraph breaks and quote marks
+n4561-high1,4561,high,1,0.0023,Once-upon-a-time children's stories
+n2214-low1,2214,low,1,0.0022,Once-upon-a-time children's stories
+n7869-low0,7869,low,0,0.0022,Paragraph breaks and quote marks
+n3356-low1,3356,low,1,0.0022,other
+n10909-low3,10909,low,3,0.0022,Once-upon-a-time children's stories
+n5801-high0,5801,high,0,0.0022,other
+n4528-low0,4528,low,0,0.0022,other
+n9983-low0,9983,low,0,0.0022,other
+n10172-low1,10172,low,1,0.0022,"Citations, code and reference lists"
+n7760-low0,7760,low,0,0.0022,other
+n4883-low1,4883,low,1,0.0022,Eerie suspense and dark settings
+n6029-high0,6029,high,0,0.0022,Failed attempts and struggle
+n7377-low2,7377,low,2,0.0022,"Confessions, guilt and regret"
+n11880-low6,11880,low,6,0.0022,"Citations, code and reference lists"
+n6868-low0,6868,low,0,0.0022,Medical and scientific text
+n4618-low1,4618,low,1,0.0022,Once-upon-a-time children's stories
+n634-high0,634,high,0,0.0022,Once-upon-a-time children's stories
+n634-high1,634,high,1,0.0022,"Recipes, advice lists and chat"
+n9292-low5,9292,low,5,0.0022,Medical and scientific text
+n8427-high1,8427,high,1,0.0022,"Recipes, advice lists and chat"
+n3932-high1,3932,high,1,0.0022,"Recipes, advice lists and chat"
+n4369-low1,4369,low,1,0.0022,Once-upon-a-time children's stories
+n7694-high2,7694,high,2,0.0022,Heated confrontation dialogue
+n8420-low6,8420,low,6,0.0022,Once-upon-a-time children's stories
+n186-high0,186,high,0,0.0022,Paragraph breaks and quote marks
+n6746-high0,6746,high,0,0.0022,Once-upon-a-time children's stories
+n9380-high1,9380,high,1,0.0022,"Recipes, advice lists and chat"
+n6967-high2,6967,high,2,0.0022,Failed attempts and struggle
+n8339-low3,8339,low,3,0.0022,Once-upon-a-time children's stories
+n8260-high1,8260,high,1,0.0021,Once-upon-a-time children's stories
+n7289-high1,7289,high,1,0.0021,Once-upon-a-time children's stories
+n2496-low0,2496,low,0,0.0021,"Citations, code and reference lists"
+n6994-high0,6994,high,0,0.0021,"Recipes, advice lists and chat"
+n1542-low0,1542,low,0,0.0021,Once-upon-a-time children's stories
+n11442-low0,11442,low,0,0.0021,"Violence, gore and horror"
+n11442-low1,11442,low,1,0.0021,Once-upon-a-time children's stories
+n6811-high3,6811,high,3,0.0021,Medical and scientific text
+n12156-low1,12156,low,1,0.0021,"Citations, code and reference lists"
+n1009-low2,1009,low,2,0.0021,"Citations, code and reference lists"
+n6029-high5,6029,high,5,0.0021,Once-upon-a-time children's stories
+n5703-high1,5703,high,1,0.0021,Once-upon-a-time children's stories
+n8820-low6,8820,low,6,0.0021,"Recipes, advice lists and chat"
+n8043-high1,8043,high,1,0.0021,other
+n7152-high0,7152,high,0,0.0021,"Recipes, advice lists and chat"
+n3598-high0,3598,high,0,0.0021,other
+n3550-low1,3550,low,1,0.0021,Medical and scientific text
+n11250-low3,11250,low,3,0.0021,"Citations, code and reference lists"
+n1636-high0,1636,high,0,0.0021,Medical and scientific text
+n143-low0,143,low,0,0.0021,Once-upon-a-time children's stories
+n5565-low1,5565,low,1,0.0021,"Citations, code and reference lists"
+n10518-low1,10518,low,1,0.0021,other
+n7760-low3,7760,low,3,0.0021,Heated confrontation dialogue
+n11323-low1,11323,low,1,0.0021,Once-upon-a-time children's stories
+n8921-high1,8921,high,1,0.0021,"Recipes, advice lists and chat"
+n4879-high0,4879,high,0,0.0021,Heated confrontation dialogue
+n10145-low0,10145,low,0,0.0021,Paragraph breaks and quote marks
+n10145-low1,10145,low,1,0.0021,"Recipes, advice lists and chat"
+n9106-low1,9106,low,1,0.002,"Recipes, advice lists and chat"
+n1495-high2,1495,high,2,0.002,Paragraph breaks and quote marks
+n11637-low1,11637,low,1,0.002,Once-upon-a-time children's stories
+n11637-low2,11637,low,2,0.002,Failed attempts and struggle
+n6340-low1,6340,low,1,0.002,other
+n3614-high2,3614,high,2,0.002,Sad or scared child stories
+n1788-high2,1788,high,2,0.002,other
+n2519-low3,2519,low,3,0.002,other
+n2519-low4,2519,low,4,0.002,Once-upon-a-time children's stories
+n4472-low0,4472,low,0,0.002,other
+n6029-high3,6029,high,3,0.002,Once-upon-a-time children's stories
+n3354-high1,3354,high,1,0.002,"Citations, code and reference lists"
+n8215-high0,8215,high,0,0.002,Once-upon-a-time children's stories
+n7289-high2,7289,high,2,0.002,Once-upon-a-time children's stories
+n1042-high5,1042,high,5,0.002,Once-upon-a-time children's stories
+n962-high1,962,high,1,0.002,other
+n6811-high4,6811,high,4,0.002,"Citations, code and reference lists"
+n11041-high1,11041,high,1,0.002,"Recipes, advice lists and chat"
+n6410-low1,6410,low,1,0.002,Medical and scientific text
+n10323-low0,10323,low,0,0.002,"Recipes, advice lists and chat"
+n7077-high1,7077,high,1,0.002,Once-upon-a-time children's stories
+n6798-low1,6798,low,1,0.002,"Citations, code and reference lists"
+n903-low1,903,low,1,0.002,Once-upon-a-time children's stories
+n10588-high1,10588,high,1,0.002,Once-upon-a-time children's stories
+n3724-low4,3724,low,4,0.002,Heated confrontation dialogue
+n5627-high1,5627,high,1,0.002,"Citations, code and reference lists"
+n2181-high1,2181,high,1,0.002,other
+n5750-high1,5750,high,1,0.002,Once-upon-a-time children's stories
+n6967-high0,6967,high,0,0.002,Once-upon-a-time children's stories
+n1468-low2,1468,low,2,0.002,Once-upon-a-time children's stories
+n11250-low1,11250,low,1,0.002,other
+n2877-high2,2877,high,2,0.002,Pleading and begging dialogue
+n1828-high3,1828,high,3,0.002,Once-upon-a-time children's stories
+n6816-high1,6816,high,1,0.002,Once-upon-a-time children's stories
+n10833-low1,10833,low,1,0.002,Once-upon-a-time children's stories
+n11735-low2,11735,low,2,0.002,Once-upon-a-time children's stories
+n10416-low2,10416,low,2,0.002,"Citations, code and reference lists"
+n11097-high2,11097,high,2,0.0019,Once-upon-a-time children's stories
+n7216-high4,7216,high,4,0.0019,Eerie suspense and dark settings
+n11202-low2,11202,low,2,0.0019,other
+n7153-high1,7153,high,1,0.0019,Once-upon-a-time children's stories
+n5769-high1,5769,high,1,0.0019,other
+n11711-low3,11711,low,3,0.0019,other
+n7286-low0,7286,low,0,0.0019,Paragraph breaks and quote marks
+n7286-low3,7286,low,3,0.0019,Paragraph breaks and quote marks
+n10182-high0,10182,high,0,0.0019,other
+n10182-high1,10182,high,1,0.0019,Once-upon-a-time children's stories
+n7149-high2,7149,high,2,0.0019,Family conflict and grief
+n3023-low2,3023,low,2,0.0019,"Citations, code and reference lists"
+n11427-low1,11427,low,1,0.0019,"Recipes, advice lists and chat"
+n2845-low0,2845,low,0,0.0019,other
+n8476-low2,8476,low,2,0.0019,"Pain, injury and bodily distress"
+n6590-high2,6590,high,2,0.0019,Once-upon-a-time children's stories
+n8556-low3,8556,low,3,0.0019,Once-upon-a-time children's stories
+n11097-high4,11097,high,4,0.0019,Fleeing and running away
+n8260-high0,8260,high,0,0.0019,Once-upon-a-time children's stories
+n11858-high4,11858,high,4,0.0019,Tense first-person dread
+n8800-low0,8800,low,0,0.0019,Once-upon-a-time children's stories
+n881-low0,881,low,0,0.0019,Once-upon-a-time children's stories
+n8190-low1,8190,low,1,0.0019,Once-upon-a-time children's stories
+n10405-high0,10405,high,0,0.0019,Eerie suspense and dark settings
+n7184-low3,7184,low,3,0.0018,Once-upon-a-time children's stories
+n608-low1,608,low,1,0.0018,Once-upon-a-time children's stories
+n5801-high3,5801,high,3,0.0018,"Citations, code and reference lists"
+n8643-high1,8643,high,1,0.0018,Once-upon-a-time children's stories
+n6198-high1,6198,high,1,0.0018,Fear and anxiety states
+n5457-high1,5457,high,1,0.0018,"Recipes, advice lists and chat"
+n1573-high5,1573,high,5,0.0018,"Recipes, advice lists and chat"
+n3295-high2,3295,high,2,0.0018,other
+n3295-high5,3295,high,5,0.0018,Paragraph breaks and quote marks
+n1052-low4,1052,low,4,0.0018,other
+n4289-low2,4289,low,2,0.0018,other
+n4447-high3,4447,high,3,0.0018,Paragraph breaks and quote marks
+n10595-high2,10595,high,2,0.0018,Paragraph breaks and quote marks
+n7216-high1,7216,high,1,0.0018,Paragraph breaks and quote marks
+n2903-low2,2903,low,2,0.0018,other
+n2828-low1,2828,low,1,0.0018,"Citations, code and reference lists"
+n10509-high3,10509,high,3,0.0018,"Confessions, guilt and regret"
+n12186-low1,12186,low,1,0.0018,Searching and failing to find
+n506-low1,506,low,1,0.0018,Once-upon-a-time children's stories
+n237-high0,237,high,0,0.0018,Medical and scientific text
+n550-high1,550,high,1,0.0018,Once-upon-a-time children's stories
+n2923-low1,2923,low,1,0.0018,"Citations, code and reference lists"
+n7833-high1,7833,high,1,0.0018,"Citations, code and reference lists"
+n10172-low3,10172,low,3,0.0018,"Citations, code and reference lists"
+n11185-low1,11185,low,1,0.0018,Once-upon-a-time children's stories
+n8305-high2,8305,high,2,0.0018,Once-upon-a-time children's stories
+n3835-low1,3835,low,1,0.0018,other
+n8498-low1,8498,low,1,0.0018,other
+n11746-high1,11746,high,1,0.0018,other
+n3023-low0,3023,low,0,0.0018,other
+n9793-low1,9793,low,1,0.0017,Once-upon-a-time children's stories
+n2877-high0,2877,high,0,0.0017,Once-upon-a-time children's stories
+n10515-low2,10515,low,2,0.0017,Once-upon-a-time children's stories
+n6029-high1,6029,high,1,0.0017,Sad or scared child stories
+n3366-low2,3366,low,2,0.0017,Once-upon-a-time children's stories
+n11997-low1,11997,low,1,0.0017,Medical and scientific text
+n4561-high3,4561,high,3,0.0017,"Citations, code and reference lists"
+n11753-low0,11753,low,0,0.0017,Once-upon-a-time children's stories
+n5106-low0,5106,low,0,0.0017,Once-upon-a-time children's stories
+n9083-low1,9083,low,1,0.0017,Once-upon-a-time children's stories
+n3254-low0,3254,low,0,0.0017,Medical and scientific text
+n4289-low0,4289,low,0,0.0017,"Citations, code and reference lists"
+n11735-low0,11735,low,0,0.0017,Once-upon-a-time children's stories
+n11735-low4,11735,low,4,0.0017,Once-upon-a-time children's stories
+n11250-low0,11250,low,0,0.0017,"Recipes, advice lists and chat"
+n11250-low5,11250,low,5,0.0017,Paragraph breaks and quote marks
+n144-low4,144,low,4,0.0017,other
+n3932-high0,3932,high,0,0.0017,"Recipes, advice lists and chat"
+n6-high1,6,high,1,0.0017,"Recipes, advice lists and chat"
+n8190-low2,8190,low,2,0.0017,Paragraph breaks and quote marks
+n8556-low0,8556,low,0,0.0017,Once-upon-a-time children's stories
+n9024-low2,9024,low,2,0.0017,"Recipes, advice lists and chat"
+n12006-high1,12006,high,1,0.0017,Failed attempts and struggle
+n6654-low2,6654,low,2,0.0017,Once-upon-a-time children's stories
+n6529-low1,6529,low,1,0.0017,Medical and scientific text
+n7971-high0,7971,high,0,0.0017,other
+n1052-low1,1052,low,1,0.0017,"Recipes, advice lists and chat"
+n10574-high1,10574,high,1,0.0017,Once-upon-a-time children's stories
+n7780-low1,7780,low,1,0.0017,"Recipes, advice lists and chat"
+n4862-low1,4862,low,1,0.0017,"Citations, code and reference lists"
+n3148-low3,3148,low,3,0.0017,other
+n237-high1,237,high,1,0.0017,Medical and scientific text
+n6223-low2,6223,low,2,0.0016,"Citations, code and reference lists"
+n3092-high1,3092,high,1,0.0016,Paragraph breaks and quote marks
+n7047-low2,7047,low,2,0.0016,Once-upon-a-time children's stories
+n3405-low1,3405,low,1,0.0016,"Recipes, advice lists and chat"
+n2963-low1,2963,low,1,0.0016,Paragraph breaks and quote marks
+n9745-low4,9745,low,4,0.0016,other
+n4780-high0,4780,high,0,0.0016,other
+n5668-low1,5668,low,1,0.0016,Paragraph breaks and quote marks
+n2903-low0,2903,low,0,0.0016,Once-upon-a-time children's stories
+n5616-low0,5616,low,0,0.0016,Once-upon-a-time children's stories
+n6746-high4,6746,high,4,0.0016,Once-upon-a-time children's stories
+n11735-low1,11735,low,1,0.0016,"Citations, code and reference lists"
+n4447-high0,4447,high,0,0.0016,"Citations, code and reference lists"
+n10945-high1,10945,high,1,0.0016,Once-upon-a-time children's stories
+n10945-high2,10945,high,2,0.0016,Once-upon-a-time children's stories
+n11637-low0,11637,low,0,0.0016,Once-upon-a-time children's stories
+n11637-low3,11637,low,3,0.0016,"Citations, code and reference lists"
+n10258-high0,10258,high,0,0.0016,Once-upon-a-time children's stories
+n2411-high1,2411,high,1,0.0016,Once-upon-a-time children's stories
+n10509-high0,10509,high,0,0.0016,Once-upon-a-time children's stories
+n10509-high1,10509,high,1,0.0016,Once-upon-a-time children's stories
+n8051-low2,8051,low,2,0.0016,Once-upon-a-time children's stories
+n8051-low3,8051,low,3,0.0016,Once-upon-a-time children's stories
+n3129-high1,3129,high,1,0.0016,Once-upon-a-time children's stories
+n5125-high0,5125,high,0,0.0016,other
+n3339-low4,3339,low,4,0.0015,"Citations, code and reference lists"
+n8647-high2,8647,high,2,0.0015,Once-upon-a-time children's stories
+n6654-low0,6654,low,0,0.0015,Once-upon-a-time children's stories
+n11858-high0,11858,high,0,0.0015,"Violence, gore and horror"
+n10180-low1,10180,low,1,0.0015,"Citations, code and reference lists"
+n11449-low1,11449,low,1,0.0015,"Citations, code and reference lists"
+n3246-high1,3246,high,1,0.0015,Once-upon-a-time children's stories
+n2221-low2,2221,low,2,0.0015,Once-upon-a-time children's stories
+n6164-low0,6164,low,0,0.0015,other
+n746-high1,746,high,1,0.0015,Once-upon-a-time children's stories
+n6385-high1,6385,high,1,0.0015,Subject pronoun after a bad event
+n10909-low6,10909,low,6,0.0015,other
+n1573-high2,1573,high,2,0.0015,Heated confrontation dialogue
+n11468-low4,11468,low,4,0.0015,Paragraph breaks and quote marks
+n11927-high1,11927,high,1,0.0015,Tense first-person dread
+n7355-high1,7355,high,1,0.0015,other
+n8931-high2,8931,high,2,0.0015,Once-upon-a-time children's stories
+n12089-high1,12089,high,1,0.0015,"Citations, code and reference lists"
+n10145-low3,10145,low,3,0.0015,"Citations, code and reference lists"
+n8820-low3,8820,low,3,0.0015,Once-upon-a-time children's stories
+n5711-high1,5711,high,1,0.0015,Medical and scientific text
+n10172-low0,10172,low,0,0.0015,Medical and scientific text
+n6746-high3,6746,high,3,0.0015,Once-upon-a-time children's stories
+n8260-high6,8260,high,6,0.0015,"Recipes, advice lists and chat"
+n7351-low4,7351,low,4,0.0015,Once-upon-a-time children's stories
+n4191-low1,4191,low,1,0.0015,other
+n9745-low2,9745,low,2,0.0015,"Citations, code and reference lists"
+n4209-high1,4209,high,1,0.0015,Medical and scientific text
+n1820-low1,1820,low,1,0.0015,Once-upon-a-time children's stories
+n6798-low6,6798,low,6,0.0015,Sad or scared child stories
+n3680-low0,3680,low,0,0.0015,Once-upon-a-time children's stories
+n5345-low0,5345,low,0,0.0015,other
+n12200-low1,12200,low,1,0.0015,Sad or scared child stories
+n10258-high2,10258,high,2,0.0015,Pleading and begging dialogue
+n11689-low0,11689,low,0,0.0014,Once-upon-a-time children's stories
+n9428-high1,9428,high,1,0.0014,Once-upon-a-time children's stories
+n1389-high2,1389,high,2,0.0014,Once-upon-a-time children's stories
+n3246-high0,3246,high,0,0.0014,Once-upon-a-time children's stories
+n3246-high2,3246,high,2,0.0014,Once-upon-a-time children's stories
+n6766-high0,6766,high,0,0.0014,Once-upon-a-time children's stories
+n6766-high2,6766,high,2,0.0014,"Citations, code and reference lists"
+n1042-high0,1042,high,0,0.0014,"Citations, code and reference lists"
+n8713-low1,8713,low,1,0.0014,other
+n11722-high0,11722,high,0,0.0014,Sad or scared child stories
+n9870-high0,9870,high,0,0.0014,"Citations, code and reference lists"
+n10796-high3,10796,high,3,0.0014,Once-upon-a-time children's stories
+n7168-high2,7168,high,2,0.0014,other
+n6628-high1,6628,high,1,0.0014,Once-upon-a-time children's stories
+n7404-low0,7404,low,0,0.0014,"Recipes, advice lists and chat"
+n608-low5,608,low,5,0.0014,Heated confrontation dialogue
+n2843-low1,2843,low,1,0.0014,Once-upon-a-time children's stories
+n514-high2,514,high,2,0.0014,Medical and scientific text
+n6213-low1,6213,low,1,0.0014,Paragraph breaks and quote marks
+n6785-high1,6785,high,1,0.0014,Once-upon-a-time children's stories
+n6811-high0,6811,high,0,0.0014,Medical and scientific text
+n6831-low1,6831,low,1,0.0014,Once-upon-a-time children's stories
+n1389-high0,1389,high,0,0.0014,"Recipes, advice lists and chat"
+n7188-high1,7188,high,1,0.0014,Once-upon-a-time children's stories
+n12200-low2,12200,low,2,0.0014,Once-upon-a-time children's stories
+n10664-high0,10664,high,0,0.0013,"Recipes, advice lists and chat"
+n3295-high3,3295,high,3,0.0013,other
+n11735-low5,11735,low,5,0.0013,"Confessions, guilt and regret"
+n11735-low6,11735,low,6,0.0013,Pleading and begging dialogue
+n8260-high4,8260,high,4,0.0013,Once-upon-a-time children's stories
+n11202-low0,11202,low,0,0.0013,Family conflict and grief
+n8051-low6,8051,low,6,0.0013,"Pain, injury and bodily distress"
+n11903-low1,11903,low,1,0.0013,Medical and scientific text
+n4074-high1,4074,high,1,0.0013,other
+n12235-high1,12235,high,1,0.0013,"Recipes, advice lists and chat"
+n10592-low2,10592,low,2,0.0013,"Recipes, advice lists and chat"
+n10509-high4,10509,high,4,0.0013,Heated confrontation dialogue
+n4825-high1,4825,high,1,0.0013,Once-upon-a-time children's stories
+n12055-low1,12055,low,1,0.0013,Last-chance resolve and urgency
+n608-low0,608,low,0,0.0013,"Citations, code and reference lists"
+n5801-high4,5801,high,4,0.0013,"Citations, code and reference lists"
+n10854-high1,10854,high,1,0.0013,"Recipes, advice lists and chat"
+n2271-low2,2271,low,2,0.0013,Paragraph breaks and quote marks
+n2271-low4,2271,low,4,0.0013,Paragraph breaks and quote marks
+n6866-high3,6866,high,3,0.0013,Last-chance resolve and urgency
+n7791-low1,7791,low,1,0.0013,other
+n2881-low2,2881,low,2,0.0013,"Recipes, advice lists and chat"
+n2254-low1,2254,low,1,0.0013,"Recipes, advice lists and chat"
+n6785-high2,6785,high,2,0.0013,Paragraph breaks and quote marks
+n8647-high5,8647,high,5,0.0013,Once-upon-a-time children's stories
+n8800-low1,8800,low,1,0.0013,Once-upon-a-time children's stories
+n10948-low3,10948,low,3,0.0013,"Recipes, advice lists and chat"
+n3724-low2,3724,low,2,0.0013,Paragraph breaks and quote marks
+n7957-low2,7957,low,2,0.0013,"Recipes, advice lists and chat"
+n10416-low0,10416,low,0,0.0013,"Citations, code and reference lists"
+n930-low1,930,low,1,0.0013,"Citations, code and reference lists"
+n930-low2,930,low,2,0.0013,"Citations, code and reference lists"
+n7873-high1,7873,high,1,0.0013,Lonely or lost characters
+n10098-low1,10098,low,1,0.0013,Once-upon-a-time children's stories
+n6746-high1,6746,high,1,0.0013,"Citations, code and reference lists"
+n1636-high2,1636,high,2,0.0013,"Recipes, advice lists and chat"
+n10017-high1,10017,high,1,0.0013,Once-upon-a-time children's stories
+n5763-high0,5763,high,0,0.0013,"Recipes, advice lists and chat"
+n6811-high1,6811,high,1,0.0013,Medical and scientific text
+n3148-low0,3148,low,0,0.0012,"Citations, code and reference lists"
+n4654-low3,4654,low,3,0.0012,"Citations, code and reference lists"
+n3550-low0,3550,low,0,0.0012,"Citations, code and reference lists"
+n3550-low3,3550,low,3,0.0012,"Citations, code and reference lists"
+n6286-high1,6286,high,1,0.0012,"Citations, code and reference lists"
+n2271-low0,2271,low,0,0.0012,Once-upon-a-time children's stories
+n1687-low0,1687,low,0,0.0012,"Recipes, advice lists and chat"
+n7340-low1,7340,low,1,0.0012,Once-upon-a-time children's stories
+n1528-low0,1528,low,0,0.0012,Paragraph breaks and quote marks
+n8820-low2,8820,low,2,0.0012,Once-upon-a-time children's stories
+n5006-high1,5006,high,1,0.0012,Once-upon-a-time children's stories
+n1777-low2,1777,low,2,0.0012,Once-upon-a-time children's stories
+n12279-high1,12279,high,1,0.0012,Once-upon-a-time children's stories
+n7567-high1,7567,high,1,0.0012,Once-upon-a-time children's stories
+n4074-high0,4074,high,0,0.0012,Paragraph breaks and quote marks
+n4074-high2,4074,high,2,0.0012,Paragraph breaks and quote marks
+n4074-high3,4074,high,3,0.0012,Paragraph breaks and quote marks
+n8968-high0,8968,high,0,0.0012,Once-upon-a-time children's stories
+n11858-high3,11858,high,3,0.0012,Medical and scientific text
+n4628-low1,4628,low,1,0.0012,"Recipes, advice lists and chat"
+n8647-high1,8647,high,1,0.0012,Once-upon-a-time children's stories
+n9380-high0,9380,high,0,0.0012,Searching and failing to find
+n5855-high1,5855,high,1,0.0012,Once-upon-a-time children's stories
+n415-high1,415,high,1,0.0012,"Citations, code and reference lists"
+n415-high2,415,high,2,0.0012,Paragraph breaks and quote marks
+n11429-low1,11429,low,1,0.0012,"Recipes, advice lists and chat"
+n10948-low0,10948,low,0,0.0012,"Recipes, advice lists and chat"
+n8800-low2,8800,low,2,0.0012,Once-upon-a-time children's stories
+n8800-low4,8800,low,4,0.0012,Once-upon-a-time children's stories
+n848-high1,848,high,1,0.0012,other
+n972-high1,972,high,1,0.0012,"Citations, code and reference lists"
+n8365-high3,8365,high,3,0.0012,Sad or scared child stories
+n11593-low1,11593,low,1,0.0012,Once-upon-a-time children's stories
+n6029-high6,6029,high,6,0.0012,Failed attempts and struggle
+n12060-high1,12060,high,1,0.0012,Medical and scientific text
+n5763-high2,5763,high,2,0.0011,"Recipes, advice lists and chat"
+n5936-high1,5936,high,1,0.0011,Once-upon-a-time children's stories
+n10080-high1,10080,high,1,0.0011,Medical and scientific text
+n514-high0,514,high,0,0.0011,Heated confrontation dialogue
+n3439-high1,3439,high,1,0.0011,Paragraph breaks and quote marks
+n7911-low1,7911,low,1,0.0011,"Citations, code and reference lists"
+n6008-high3,6008,high,3,0.0011,Sad or scared child stories
+n7404-low3,7404,low,3,0.0011,Despair and suicidal hopelessness
+n10909-low2,10909,low,2,0.0011,Paragraph breaks and quote marks
+n8647-high3,8647,high,3,0.0011,Once-upon-a-time children's stories
+n8051-low4,8051,low,4,0.0011,Failed attempts and struggle
+n8051-low5,8051,low,5,0.0011,Failed attempts and struggle
+n4946-low1,4946,low,1,0.0011,"Recipes, advice lists and chat"
+n10465-high1,10465,high,1,0.0011,"Citations, code and reference lists"
+n541-low1,541,low,1,0.0011,"Citations, code and reference lists"
+n6454-low2,6454,low,2,0.0011,Once-upon-a-time children's stories
+n5828-high1,5828,high,1,0.0011,Eerie suspense and dark settings
+n10515-low0,10515,low,0,0.0011,Once-upon-a-time children's stories
+n4589-low1,4589,low,1,0.0011,"Recipes, advice lists and chat"
+n6157-low0,6157,low,0,0.0011,"Citations, code and reference lists"
+n8931-high1,8931,high,1,0.0011,Once-upon-a-time children's stories
+n6590-high0,6590,high,0,0.0011,Paragraph breaks and quote marks
+n2520-high1,2520,high,1,0.0011,Paragraph breaks and quote marks
+n10595-high1,10595,high,1,0.0011,Once-upon-a-time children's stories
+n4092-low2,4092,low,2,0.0011,"Citations, code and reference lists"
+n10948-low4,10948,low,4,0.0011,Once-upon-a-time children's stories
+n1838-low0,1838,low,0,0.0011,Failed attempts and struggle
+n3339-low1,3339,low,1,0.0011,Paragraph breaks and quote marks
+n8546-high2,8546,high,2,0.0011,other
+n10409-low1,10409,low,1,0.0011,"Citations, code and reference lists"
+n4654-low0,4654,low,0,0.0011,Medical and scientific text
+n10080-high4,10080,high,4,0.0011,Once-upon-a-time children's stories
+n2832-low1,2832,low,1,0.0011,Once-upon-a-time children's stories
+n6675-low0,6675,low,0,0.0011,Medical and scientific text
+n9255-low0,9255,low,0,0.0011,other
+n4149-low2,4149,low,2,0.0011,Once-upon-a-time children's stories
+n10553-high1,10553,high,1,0.0011,Once-upon-a-time children's stories
+n6798-low0,6798,low,0,0.0011,Once-upon-a-time children's stories
+n6798-low3,6798,low,3,0.0011,Eerie suspense and dark settings
+n4127-low1,4127,low,1,0.0011,"Recipes, advice lists and chat"
+n10137-high1,10137,high,1,0.0011,Paragraph breaks and quote marks
+n9795-low1,9795,low,1,0.001,"Recipes, advice lists and chat"
+n7888-low4,7888,low,4,0.001,Fear and anxiety states
+n7395-high0,7395,high,0,0.001,Once-upon-a-time children's stories
+n5763-high4,5763,high,4,0.001,"Recipes, advice lists and chat"
+n9091-low0,9091,low,0,0.001,Once-upon-a-time children's stories
+n9091-low1,9091,low,1,0.001,other
+n9091-low2,9091,low,2,0.001,Medical and scientific text
+n11711-low0,11711,low,0,0.001,"Recipes, advice lists and chat"
+n624-low1,624,low,1,0.001,other
+n6340-low0,6340,low,0,0.001,Once-upon-a-time children's stories
+n6340-low4,6340,low,4,0.001,Once-upon-a-time children's stories
+n2024-high1,2024,high,1,0.001,Once-upon-a-time children's stories
+n6385-high0,6385,high,0,0.001,Once-upon-a-time children's stories
+n10909-low0,10909,low,0,0.001,Once-upon-a-time children's stories
+n11674-low1,11674,low,1,0.001,Once-upon-a-time children's stories
+n10859-low1,10859,low,1,0.001,Family conflict and grief
+n751-high1,751,high,1,0.001,Once-upon-a-time children's stories
+n10625-high1,10625,high,1,0.001,Last-chance resolve and urgency
+n1218-high0,1218,high,0,0.001,other
+n1218-high4,1218,high,4,0.001,Once-upon-a-time children's stories
+n6798-low4,6798,low,4,0.001,Once-upon-a-time children's stories
+n7632-high1,7632,high,1,0.001,"Recipes, advice lists and chat"
+n6285-low1,6285,low,1,0.001,Once-upon-a-time children's stories
+n10595-high5,10595,high,5,0.001,Heated confrontation dialogue
+n8729-high1,8729,high,1,0.001,"Recipes, advice lists and chat"
+n6305-high1,6305,high,1,0.001,Once-upon-a-time children's stories
+n9422-low0,9422,low,0,0.001,"Recipes, advice lists and chat"
+n8820-low4,8820,low,4,0.001,"Citations, code and reference lists"
+n6213-low3,6213,low,3,0.001,other
+n9950-high1,9950,high,1,0.001,Survival under dwindling resources
+n9525-high1,9525,high,1,0.001,Once-upon-a-time children's stories
+n5281-high1,5281,high,1,0.001,"Citations, code and reference lists"
+n7449-low1,7449,low,1,0.001,"Recipes, advice lists and chat"
+n3295-high1,3295,high,1,0.001,"Recipes, advice lists and chat"
+n176-high1,176,high,1,0.001,Once-upon-a-time children's stories
+n11711-low1,11711,low,1,0.001,"Citations, code and reference lists"
+n3105-high1,3105,high,1,0.001,Once-upon-a-time children's stories
+n3129-high5,3129,high,5,0.0009,Once-upon-a-time children's stories
+n8647-high0,8647,high,0,0.0009,"Recipes, advice lists and chat"
+n6454-low1,6454,low,1,0.0009,"Recipes, advice lists and chat"
+n3439-high2,3439,high,2,0.0009,Once-upon-a-time children's stories
+n11097-high0,11097,high,0,0.0009,Eerie suspense and dark settings
+n1475-low1,1475,low,1,0.0009,Once-upon-a-time children's stories
+n6790-low0,6790,low,0,0.0009,"Recipes, advice lists and chat"
+n1896-low1,1896,low,1,0.0009,Failed attempts and struggle
+n10625-high2,10625,high,2,0.0009,Medical and scientific text
+n11480-low1,11480,low,1,0.0009,"Citations, code and reference lists"
+n8189-low0,8189,low,0,0.0009,"Recipes, advice lists and chat"
+n6667-low2,6667,low,2,0.0009,Once-upon-a-time children's stories
+n3144-high1,3144,high,1,0.0009,"Recipes, advice lists and chat"
+n6714-low0,6714,low,0,0.0009,Medical and scientific text
+n11226-low1,11226,low,1,0.0009,Once-upon-a-time children's stories
+n1689-low1,1689,low,1,0.0009,Once-upon-a-time children's stories
+n2221-low3,2221,low,3,0.0009,Once-upon-a-time children's stories
+n4654-low1,4654,low,1,0.0009,Last-chance resolve and urgency
+n9950-high0,9950,high,0,0.0009,other
+n2179-low1,2179,low,1,0.0009,Paragraph breaks and quote marks
+n469-low1,469,low,1,0.0009,other
+n4721-high0,4721,high,0,0.0009,other
+n415-high0,415,high,0,0.0009,Once-upon-a-time children's stories
+n4753-low1,4753,low,1,0.0009,"Recipes, advice lists and chat"
+n10144-low2,10144,low,2,0.0009,"Citations, code and reference lists"
+n1687-low2,1687,low,2,0.0009,"Violence, gore and horror"
+n5700-high1,5700,high,1,0.0009,Once-upon-a-time children's stories
+n8647-high6,8647,high,6,0.0009,Once-upon-a-time children's stories
+n10080-high2,10080,high,2,0.0009,other
+n5533-low1,5533,low,1,0.0009,Pleading and begging dialogue
+n7888-low2,7888,low,2,0.0008,Once-upon-a-time children's stories
+n6315-low0,6315,low,0,0.0008,"Recipes, advice lists and chat"
+n929-high2,929,high,2,0.0008,other
+n7404-low1,7404,low,1,0.0008,Once-upon-a-time children's stories
+n3929-high1,3929,high,1,0.0008,Once-upon-a-time children's stories
+n3320-high1,3320,high,1,0.0008,Medical and scientific text
+n10230-high1,10230,high,1,0.0008,"Recipes, advice lists and chat"
+n6135-high0,6135,high,0,0.0008,Once-upon-a-time children's stories
+n9973-high1,9973,high,1,0.0008,"Recipes, advice lists and chat"
+n3614-high0,3614,high,0,0.0008,Once-upon-a-time children's stories
+n8991-high1,8991,high,1,0.0008,Once-upon-a-time children's stories
+n6798-low5,6798,low,5,0.0008,"Pain, injury and bodily distress"
+n3097-high0,3097,high,0,0.0008,Once-upon-a-time children's stories
+n5345-low2,5345,low,2,0.0008,"Recipes, advice lists and chat"
+n2432-low1,2432,low,1,0.0008,Once-upon-a-time children's stories
+n9950-high3,9950,high,3,0.0008,Once-upon-a-time children's stories
+n144-low1,144,low,1,0.0008,Searching and failing to find
+n4104-low2,4104,low,2,0.0008,Last-chance resolve and urgency
+n1468-low3,1468,low,3,0.0008,Once-upon-a-time children's stories
+n11876-high1,11876,high,1,0.0008,"Violence, gore and horror"
+n5398-high0,5398,high,0,0.0008,Once-upon-a-time children's stories
+n5398-high3,5398,high,3,0.0008,Paragraph breaks and quote marks
+n5658-low1,5658,low,1,0.0008,Once-upon-a-time children's stories
+n7888-low0,7888,low,0,0.0008,Paragraph breaks and quote marks
+n7873-high2,7873,high,2,0.0008,other
+n6008-high0,6008,high,0,0.0008,"Recipes, advice lists and chat"
+n11208-low1,11208,low,1,0.0008,"Recipes, advice lists and chat"
+n6157-low4,6157,low,4,0.0008,Tense first-person dread
+n10639-high1,10639,high,1,0.0008,Eerie suspense and dark settings
+n1394-high0,1394,high,0,0.0008,Tense first-person dread
+n4459-high1,4459,high,1,0.0008,Sad or scared child stories
+n929-high0,929,high,0,0.0008,"Citations, code and reference lists"
+n2221-low1,2221,low,1,0.0008,Heated confrontation dialogue
+n2221-low6,2221,low,6,0.0008,Pleading and begging dialogue
+n2520-high0,2520,high,0,0.0008,Once-upon-a-time children's stories
+n9526-low1,9526,low,1,0.0008,"Recipes, advice lists and chat"
+n7543-high1,7543,high,1,0.0008,Once-upon-a-time children's stories
+n10356-low1,10356,low,1,0.0008,Failed attempts and struggle
+n2112-low1,2112,low,1,0.0007,Once-upon-a-time children's stories
+n10592-low0,10592,low,0,0.0007,Once-upon-a-time children's stories
+n4227-low1,4227,low,1,0.0007,"Citations, code and reference lists"
+n5398-high2,5398,high,2,0.0007,"Recipes, advice lists and chat"
+n7873-high0,7873,high,0,0.0007,Medical and scientific text
+n11333-high1,11333,high,1,0.0007,"Citations, code and reference lists"
+n1777-low0,1777,low,0,0.0007,Fleeing and running away
+n7351-low0,7351,low,0,0.0007,Once-upon-a-time children's stories
+n472-high0,472,high,0,0.0007,"Recipes, advice lists and chat"
+n472-high2,472,high,2,0.0007,"Recipes, advice lists and chat"
+n7567-high4,7567,high,4,0.0007,Once-upon-a-time children's stories
+n11584-high0,11584,high,0,0.0007,Medical and scientific text
+n6135-high1,6135,high,1,0.0007,Once-upon-a-time children's stories
+n1459-high1,1459,high,1,0.0007,Paragraph breaks and quote marks
+n8227-low1,8227,low,1,0.0007,Failed attempts and struggle
+n5634-low1,5634,low,1,0.0007,other
+n693-low0,693,low,0,0.0007,Subject pronoun after a bad event
+n8034-high0,8034,high,0,0.0007,Once-upon-a-time children's stories
+n1468-low0,1468,low,0,0.0007,"Recipes, advice lists and chat"
+n8189-low1,8189,low,1,0.0007,"Confessions, guilt and regret"
+n7713-high2,7713,high,2,0.0007,Paragraph breaks and quote marks
+n10182-high2,10182,high,2,0.0007,Medical and scientific text
+n6281-low1,6281,low,1,0.0007,Once-upon-a-time children's stories
+n5162-low1,5162,low,1,0.0007,"Recipes, advice lists and chat"
+n1394-high1,1394,high,1,0.0007,"Citations, code and reference lists"
+n1710-low2,1710,low,2,0.0007,Paragraph breaks and quote marks
+n6315-low3,6315,low,3,0.0006,"Recipes, advice lists and chat"
+n8814-high1,8814,high,1,0.0006,"Recipes, advice lists and chat"
+n9024-low0,9024,low,0,0.0006,"Citations, code and reference lists"
+n6798-low2,6798,low,2,0.0006,Medical and scientific text
+n1495-high0,1495,high,0,0.0006,"Citations, code and reference lists"
+n2422-low1,2422,low,1,0.0006,Paragraph breaks and quote marks
+n11626-low1,11626,low,1,0.0006,Once-upon-a-time children's stories
+n9165-high0,9165,high,0,0.0006,Medical and scientific text
+n4424-low1,4424,low,1,0.0006,Tense first-person dread
+n10284-high1,10284,high,1,0.0006,Failed attempts and struggle
+n1394-high2,1394,high,2,0.0006,Fleeing and running away
+n144-low0,144,low,0,0.0006,Once-upon-a-time children's stories
+n258-high0,258,high,0,0.0006,Once-upon-a-time children's stories
+n3773-low1,3773,low,1,0.0006,Failed attempts and struggle
+n2737-low0,2737,low,0,0.0006,Medical and scientific text
+n2881-low0,2881,low,0,0.0006,Sad or scared child stories
+n7351-low1,7351,low,1,0.0006,"Violence, gore and horror"
+n6790-low2,6790,low,2,0.0006,Family conflict and grief
+n3918-high1,3918,high,1,0.0006,"Citations, code and reference lists"
+n9482-high1,9482,high,1,0.0006,Once-upon-a-time children's stories
+n5263-low1,5263,low,1,0.0006,"Recipes, advice lists and chat"
+n9395-high1,9395,high,1,0.0006,Once-upon-a-time children's stories
+n11868-high1,11868,high,1,0.0006,Once-upon-a-time children's stories
+n3138-high0,3138,high,0,0.0006,"Confessions, guilt and regret"
+n10737-high1,10737,high,1,0.0006,Paragraph breaks and quote marks
+n2083-low1,2083,low,1,0.0005,other
+n2305-high1,2305,high,1,0.0005,Medical and scientific text
+n5213-low1,5213,low,1,0.0005,Once-upon-a-time children's stories
+n7193-high1,7193,high,1,0.0005,Heated confrontation dialogue
+n10664-high2,10664,high,2,0.0005,"Citations, code and reference lists"
+n6290-high1,6290,high,1,0.0005,"Recipes, advice lists and chat"
+n198-high1,198,high,1,0.0005,Heated confrontation dialogue
+n3138-high1,3138,high,1,0.0005,"Recipes, advice lists and chat"
+n6008-high4,6008,high,4,0.0005,"Citations, code and reference lists"
+n1166-high1,1166,high,1,0.0005,Once-upon-a-time children's stories
+n2737-low2,2737,low,2,0.0005,"Recipes, advice lists and chat"
+n6208-high1,6208,high,1,0.0005,Once-upon-a-time children's stories
+n2995-high1,2995,high,1,0.0005,Pleading and begging dialogue
+n6590-high1,6590,high,1,0.0005,"Recipes, advice lists and chat"
+n10611-high1,10611,high,1,0.0005,Sad or scared child stories
+n6899-high2,6899,high,2,0.0005,Sad or scared child stories
+n7310-low1,7310,low,1,0.0005,Once-upon-a-time children's stories
+n4149-low0,4149,low,0,0.0005,Once-upon-a-time children's stories
+n7567-high0,7567,high,0,0.0005,Once-upon-a-time children's stories
+n2083-low3,2083,low,3,0.0005,Once-upon-a-time children's stories
+n6008-high2,6008,high,2,0.0005,Once-upon-a-time children's stories
+n9165-high2,9165,high,2,0.0005,"Citations, code and reference lists"
+n8034-high2,8034,high,2,0.0005,Once-upon-a-time children's stories
+n11402-low2,11402,low,2,0.0005,Tense first-person dread
+n5977-low2,5977,low,2,0.0005,Once-upon-a-time children's stories
+n12259-high1,12259,high,1,0.0004,Once-upon-a-time children's stories
+n4149-low1,4149,low,1,0.0004,Once-upon-a-time children's stories
+n4149-low4,4149,low,4,0.0004,Once-upon-a-time children's stories
+n258-high2,258,high,2,0.0004,other
+n11878-low1,11878,low,1,0.0004,Paragraph breaks and quote marks
+n7567-high2,7567,high,2,0.0004,Once-upon-a-time children's stories
+n6008-high1,6008,high,1,0.0004,other
+n6590-high5,6590,high,5,0.0004,"Recipes, advice lists and chat"
+n351-low1,351,low,1,0.0004,"Recipes, advice lists and chat"
+n8205-low1,8205,low,1,0.0004,"Citations, code and reference lists"
+n6899-high0,6899,high,0,0.0004,Once-upon-a-time children's stories
+n8043-high0,8043,high,0,0.0004,"Recipes, advice lists and chat"
+n2228-high1,2228,high,1,0.0004,Last-chance resolve and urgency
+n3211-low1,3211,low,1,0.0004,other
+n11382-low1,11382,low,1,0.0004,Once-upon-a-time children's stories
+n6157-low2,6157,low,2,0.0004,Medical and scientific text
+n6418-low1,6418,low,1,0.0004,"Citations, code and reference lists"
+n12163-low0,12163,low,0,0.0003,Sad or scared child stories
+n6157-low1,6157,low,1,0.0003,"Recipes, advice lists and chat"
+n12163-low2,12163,low,2,0.0003,"Recipes, advice lists and chat"
+n7713-high4,7713,high,4,0.0003,Once-upon-a-time children's stories
+n7971-high1,7971,high,1,0.0003,other
+n6026-high1,6026,high,1,0.0003,Once-upon-a-time children's stories
+n4796-high1,4796,high,1,0.0003,Once-upon-a-time children's stories
+n11402-low4,11402,low,4,0.0003,Once-upon-a-time children's stories
+n11625-high1,11625,high,1,0.0003,Once-upon-a-time children's stories
+n2871-high1,2871,high,1,0.0003,Last-chance resolve and urgency
+n4960-low0,4960,low,0,0.0003,Once-upon-a-time children's stories
+n4960-low2,4960,low,2,0.0003,"Recipes, advice lists and chat"
+n10664-high1,10664,high,1,0.0003,"Recipes, advice lists and chat"
+n11402-low5,11402,low,5,0.0003,Once-upon-a-time children's stories
+n3724-low3,3724,low,3,0.0003,Tense first-person dread
+n3787-high1,3787,high,1,0.0002,Once-upon-a-time children's stories
+n7713-high1,7713,high,1,0.0002,Once-upon-a-time children's stories
+n7713-high3,7713,high,3,0.0002,"Violence, gore and horror"
+n2291-high1,2291,high,1,0.0002,"Recipes, advice lists and chat"
+n11685-high1,11685,high,1,0.0002,Once-upon-a-time children's stories
+n11402-low0,11402,low,0,0.0002,"Recipes, advice lists and chat"
+n3724-low5,3724,low,5,0.0002,other
+n11402-low1,11402,low,1,0.0002,Once-upon-a-time children's stories
+n7094-low1,7094,low,1,0.0002,"Recipes, advice lists and chat"
+n87-low2,87,low,2,0.0002,Once-upon-a-time children's stories
+n3724-low0,3724,low,0,0.0002,"Recipes, advice lists and chat"
+n87-low0,87,low,0,0.0001,Once-upon-a-time children's stories
+n3724-low1,3724,low,1,0.0001,Heated confrontation dialogue
+n6198-high0,6198,high,0,0.0001,other
+n6198-high2,6198,high,2,0.0001,"Recipes, advice lists and chat"
+n7060-low2,7060,low,2,-0.0001,"Citations, code and reference lists"
+n4176-high1,4176,high,1,-0.0001,"Recipes, advice lists and chat"
+n4176-high4,4176,high,4,-0.0001,Pleading and begging dialogue
+n7060-low0,7060,low,0,-0.0001,Tense first-person dread
+n1328-high1,1328,high,1,-0.0001,Once-upon-a-time children's stories
+n4896-low0,4896,low,0,-0.0002,Once-upon-a-time children's stories
+n4176-high0,4176,high,0,-0.0002,Medical and scientific text
+n4896-low3,4896,low,3,-0.0002,Once-upon-a-time children's stories
+n6978-low4,6978,low,4,-0.0002,Despair and suicidal hopelessness
+n6978-low1,6978,low,1,-0.0003,Despair and suicidal hopelessness
+n6978-low3,6978,low,3,-0.0003,"Confessions, guilt and regret"
+n6978-low0,6978,low,0,-0.0004,Sad or scared child stories
+n9935-low1,9935,low,1,-0.0004,Heated confrontation dialogue
+n6978-low5,6978,low,5,-0.0005,Once-upon-a-time children's stories
+n5518-low0,5518,low,0,-0.0006,Once-upon-a-time children's stories
+n5518-low1,5518,low,1,-0.0006,Once-upon-a-time children's stories
+n4176-high2,4176,high,2,-0.0006,"Recipes, advice lists and chat"
+n4896-low1,4896,low,1,-0.0006,Medical and scientific text
+n6204-low1,6204,low,1,-0.0006,"Recipes, advice lists and chat"
+n5518-low4,5518,low,4,-0.0007,other
+n4176-high3,4176,high,3,-0.001,Despair and suicidal hopelessness
+n5518-low6,5518,low,6,-0.0011,Once-upon-a-time children's stories
+n2444-high1,2444,high,1,-0.0017,"Recipes, advice lists and chat"
+n7060-low1,7060,low,1,-0.0018,"Confessions, guilt and regret"
+n5518-low5,5518,low,5,-0.0025,Once-upon-a-time children's stories
+n5518-low3,5518,low,3,-0.0027,Once-upon-a-time children's stories
+n5518-low2,5518,low,2,-0.0028,"Violence, gore and horror"
+n6978-low2,6978,low,2,-0.0033,Pleading and begging dialogue
+n1328-high0,1328,high,0,-0.0039,Family conflict and grief
+n9935-low0,9935,low,0,-0.0046,Fear and anxiety states
+n4896-low2,4896,low,2,-0.0069,Family conflict and grief
+n2444-high0,2444,high,0,-0.0123,"Violence, gore and horror"
+n6204-low0,6204,low,0,-0.0154,"Violence, gore and horror"
