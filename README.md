@@ -113,35 +113,51 @@ part = W[:, happy] @ T["shift"][0, happy]  # what the set writes; rebuilds 90% o
 ## Modes of an emotion's neurons: run it for another emotion
 
 What each neuron of an emotion's greedy set fires on, at both poles, judged blind. Done for happy
-(`results/harvest_happy_l25/report.html`, log `experiments/harvest_happy_l25.md`). For another emotion:
+(`results/harvest_happy_l25/report.html`, log `experiments/harvest_happy_l25.md`).
 
-1. **Config.** Copy `configs/harvest_angry_l25.yaml` (angry is ready). Set `run_id`, `emotion`, and `harvest.neurons_csv`
-   to `results/greedy_sets_l25/neurons/<emotion>.csv`. The config refuses an emotion that does not match its CSV.
-2. **GPU: harvest and modes on Colab.** Open `notebooks/harvest_modes.ipynb` in Colab (File > Open notebook > GitHub,
-   `narang99/emotion-neurons`). Switch the runtime to an L4 first, set `CONFIG`, run the cells in order.
-   - Harvest: ~12 min. Modes: ~25-30 min (the clustering step prints nothing for ~10 min).
-   - The download cell gives `<run_id>_results.zip` (~20 MB). Unzip it into `results/` of your clone.
-   - The 2-3 GB `runs/<run_id>` is only needed to rerun modes; the notebook can copy it to your Drive.
-3. **CPU: judge and report on your machine.**
-   ```
-   uv sync
-   mkdir -p ~/.config/openrouter && echo "<your OpenRouter key>" > ~/.config/openrouter/key && chmod 600 ~/.config/openrouter/key
-   uv run python scripts/judge_modes.py  --config configs/harvest_angry_l25.yaml   # ~15 min, under $1
-   uv run python scripts/modes_report.py --config configs/harvest_angry_l25.yaml   # ~20 s
-   ```
-   - The judges are Haiku 5.5 and Gemini 2.5 Flash-Lite on OpenRouter (`judge.models`). A stopped run resumes.
-   - The report downloads `lm_head` (~1.2 GB) once for the logit lens.
-4. **Read** `results/<run_id>/report.html` (open it in a browser) and `results/<run_id>/neurons.csv`.
-   - "No match" neurons push toward the emotion but fire on something else on the side the emotion uses.
-   - Check both poles: the side is read from a story-mean shift, and a few strong firings at the other pole can
-     hide behind it (happy's 3832: joyful firings at its high pole, but the word "laugh" drives its mean down).
+One command runs it end to end, with a checkpoint after each stage:
+
+```
+python scripts/pipeline.py --config configs/harvest_angry_l25.yaml
+```
+
+| stage | where | time (L4) | output in results/<run_id>/ |
+|---|---|---|---|
+| harvest | GPU | ~12 min | harvest.json (+ runs/<run_id>/, 2-3 GB) |
+| modes | GPU | ~25-30 min | modes.json, modes/batch_XX.txt |
+| judge | CPU, OpenRouter key | ~15 min, under $1 | judgements/<model>/batch_XX.jsonl |
+| report | CPU | ~1 min | report.html, neurons.csv |
+
+- **Restarts:** rerun the same command. Finished stages are skipped (markers in `results/<run_id>/stages/`).
+  - Inside a stage, the harvest reuses a saved corpus pass and the judge skips finished batch files.
+- **GPU and CPU on different machines:** without CUDA the run stops before the first GPU stage that is not done.
+  - Run it on Colab with `notebooks/modes_pipeline.ipynb` (File > Open notebook > GitHub, `narang99/emotion-neurons`).
+  - Then run the same command on your machine; it continues with judge and report.
+  - To move the files: `--pipeline.s3-prefix s3://your-bucket/...` on both machines, or the notebook's download cell
+    (unzip into `results/`).
+- **Stop early:** `--pipeline.until modes`.
+- **Quick check of a new setup:** `configs/pipeline_smoke_happy.yaml` (36 neurons, ~90k tokens, ~5 min on an L4).
+- **OpenRouter key:** `OPENROUTER_API_KEY`, or a file at `~/.config/openrouter/key`
+  (`mkdir -p ~/.config/openrouter && echo "<key>" > ~/.config/openrouter/key && chmod 600 ~/.config/openrouter/key`).
+  The judges are Haiku 5.5 and Gemini 2.5 Flash-Lite (`judge.models`).
+
+**A new emotion:** copy `configs/harvest_angry_l25.yaml` and set `run_id`, `emotion` and `harvest.neurons_csv`
+(`results/greedy_sets_l25/neurons/<emotion>.csv`). The config refuses an emotion that does not match its CSV.
+
+**Reading the report** (`report.html`, opens in a browser; `neurons.csv` has one row per neuron):
+
+- "No match" neurons push toward the emotion but fire on something else, on the side the emotion uses.
+- Check both poles. The side is read from a story-mean shift, and a few strong firings at the other pole can hide
+  behind it (happy's 3832: joyful firings at its high pole, but the word "laugh" drives its mean down).
+- "Match" leans on the harvest corpus: almost every happy-scene cluster came from TinyStories, the only narrative
+  source. Add a fiction corpus to `harvest.corpora` for emotions that children's stories rarely show.
 
 ## Layout
 
 | path | what |
 |---|---|
 | `src/emotion_neurons/` | library: `config`, `models` (load, hooks), `texts` (stories, corpora), `capture` (pooled sums), `vectors`, `poles`, `sparse` (greedy sets) |
-| `scripts/` | thin scripts: parse the config, call the library, save |
+| `scripts/` | thin scripts: parse the config, call the library, save; `pipeline.py` runs the modes report end to end |
 | `configs/` | one YAML per run |
 | `data/stories/` | the stories |
 | `results/` | small outputs, committed |
