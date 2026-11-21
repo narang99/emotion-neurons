@@ -69,10 +69,13 @@ python scripts/residual_sets.py --config configs/residual_sets.yaml --device cpu
 
 ![set curves](../results/residual_sets/set_curves.png)
 
+![set curves, linear x](../results/residual_sets/set_curves_linear.png)
+
 - Each method is scored against its own target.
 - **The two greedy searches trace almost the same curve.** The order in which they add neurons is nearly the same.
 - **They differ only in where they stop.**
   - Method 1 stops where the held-out cosine matches the whole MLP: cos 0.72 to 0.93, 268 to 1401 neurons.
   - Method 2 stops at the noise level: cos 0.93 to 0.97, 1499 to 2232 neurons.
-- **There is no elbow.** The cosine rises about linearly with log(set size), from 1 neuron to about 2000.
-  - So no small core carries the write, with the rest adding little. Each doubling of the set adds about the same.
+- **The cosine rises about linearly with log(set size)**, from 1 neuron to about 2000. Each doubling adds about the same.
+  - On a linear axis this looks like a fast rise and a long slow tail: about 100 neurons reach cos 0.6 to 0.7.
+  - But there is no point where the curve turns flat. Getting from 0.8 to 0.95 takes about 1000 more neurons.
