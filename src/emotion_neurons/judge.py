@@ -34,6 +34,12 @@ SCENES = {
     ),
     "sad": ("sad", "grief, loss, crying, loneliness, disappointment", '"sad"', "happy or neutral"),
     "afraid": ("frightening or fearful", "danger, threat, dread, panic, someone scared", '"afraid"', "safe or neutral"),
+    "desperate": (
+        "desperate",
+        "begging or pleading, running out of options or time, a last-ditch attempt, frantic efforts to fix a crisis",
+        '"desperate"',
+        "calm or neutral",
+    ),
 }
 """(scene words, what such scenes look like, the emotion word, the scenes where that word does not count)."""
 
