@@ -50,8 +50,8 @@ from safetensors.torch import load_file
 
 V = load_file("results/stage2_l25/vectors.safetensors")
 # keys <site>/<mean|neutral>/<raw|denoised>, each [12, dim]; emotion order in vectors_meta.json
-delta = V["mlp_out/mean/raw"]   # [12, 4096]: the MLP's emotion write
-dA = V["mlp_act/mean/raw"]      # [12, 12288]: per-neuron activation shift; delta_e = W_down @ dA_e
+delta = V["mlp_out/mean/raw"]  # [12, 4096]: the MLP's emotion write
+dA = V["mlp_act/mean/raw"]  # [12, 12288]: per-neuron activation shift; delta_e = W_down @ dA_e
 ```
 
 ### Step 3: poles
@@ -61,7 +61,7 @@ dA = V["mlp_act/mean/raw"]      # [12, 12288]: per-neuron activation shift; delt
 
 ```python
 P = load_file("results/poles/thresholds.safetensors")
-P["p3"], P["p97"]               # [12288] each
+P["p3"], P["p97"]  # [12288] each
 ```
 
 ## Layout
