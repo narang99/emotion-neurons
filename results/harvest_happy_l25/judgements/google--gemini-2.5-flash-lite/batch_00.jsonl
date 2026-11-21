@@ -1,0 +1,76 @@
+{"neuron":2862,"pole":"high","cluster":0,"mode":"describing a process until a certain state is reached","happy_windows":0,"windows":5,"scene":"cooking and preparing food"}
+{"neuron":2862,"pole":"high","cluster":1,"mode":"children expressing happiness and excitement","happy_windows":5,"windows":5,"scene":"children feeling happy and excited"}
+{"neuron":2862,"pole":"high","cluster":2,"mode":"children experiencing positive emotions and events","happy_windows":5,"windows":5,"scene":"children feeling happy and excited"}
+{"neuron":2862,"pole":"high","cluster":3,"mode":"listing factors or elements in a context","happy_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2862,"pole":"high","cluster":4,"mode":"children expressing joy and laughter","happy_windows":5,"windows":5,"scene":"children having fun and laughing"}
+{"neuron":2862,"pole":"high","cluster":5,"mode":"children experiencing positive emotions and events","happy_windows":5,"windows":5,"scene":"children feeling happy and excited"}
+{"neuron":2862,"pole":"high","cluster":6,"mode":"abbreviations and initialisms in technical or academic contexts","happy_windows":0,"windows":5,"scene":"technical or academic text"}
+{"neuron":2862,"pole":"low","cluster":0,"mode":"describing body parts and physical characteristics","happy_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2862,"pole":"low","cluster":1,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":2862,"pole":"low","cluster":2,"mode":"children expressing negative emotions or experiencing distress","happy_windows":0,"windows":5,"scene":"children in distress"}
+{"neuron":2862,"pole":"low","cluster":3,"mode":"children expressing negative emotions or experiencing distress","happy_windows":0,"windows":5,"scene":"children in distress"}
+{"neuron":2862,"pole":"low","cluster":4,"mode":"children experiencing fear or hearing noises","happy_windows":0,"windows":5,"scene":"children experiencing fear"}
+{"neuron":2862,"pole":"low","cluster":5,"mode":"abbreviations and initialisms in technical or academic contexts","happy_windows":0,"windows":5,"scene":"technical or academic text"}
+{"neuron":2862,"pole":"low","cluster":6,"mode":"describing food preparation and texture","happy_windows":0,"windows":5,"scene":"cooking and preparing food"}
+{"neuron":10272,"pole":"high","cluster":0,"mode":"pronouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10272,"pole":"high","cluster":1,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children feeling happy and interacting"}
+{"neuron":10272,"pole":"high","cluster":2,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children feeling happy and interacting"}
+{"neuron":10272,"pole":"low","cluster":0,"mode":"children expressing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":10272,"pole":"low","cluster":1,"mode":"names of people","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10272,"pole":"low","cluster":2,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children feeling happy and interacting"}
+{"neuron":10272,"pole":"low","cluster":3,"mode":"names of people","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10272,"pole":"low","cluster":4,"mode":"children expressing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":10272,"pole":"low","cluster":5,"mode":"children expressing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":7717,"pole":"high","cluster":0,"mode":"describing positive qualities and states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7717,"pole":"high","cluster":1,"mode":"academic or technical terms","happy_windows":0,"windows":5,"scene":"academic or technical text"}
+{"neuron":7717,"pole":"low","cluster":0,"mode":"prepositions indicating presence or inclusion","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7717,"pole":"low","cluster":1,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":7717,"pole":"low","cluster":2,"mode":"children experiencing positive emotions or events","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7717,"pole":"low","cluster":3,"mode":"conjunctions and prepositions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7717,"pole":"low","cluster":4,"mode":"pronouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7717,"pole":"low","cluster":5,"mode":"pronouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7717,"pole":"low","cluster":6,"mode":"children expressing happiness and excitement","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7717,"pole":"low","cluster":7,"mode":"children expressing negative emotions or situations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"high","cluster":0,"mode":"programming code elements and syntax","happy_windows":0,"windows":5,"scene":"technical text"}
+{"neuron":11485,"pole":"high","cluster":1,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":11485,"pole":"high","cluster":2,"mode":"children experiencing positive emotions and events","happy_windows":5,"windows":5,"scene":"children feeling happy and safe"}
+{"neuron":11485,"pole":"high","cluster":3,"mode":"verbs indicating movement or action","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"high","cluster":4,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":11485,"pole":"high","cluster":5,"mode":"children expressing excitement and positive emotions","happy_windows":5,"windows":5,"scene":"children feeling excited and happy"}
+{"neuron":11485,"pole":"high","cluster":6,"mode":"pronouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"high","cluster":7,"mode":"children experiencing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"low","cluster":0,"mode":"children expressing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":11485,"pole":"low","cluster":1,"mode":"children experiencing negative events or situations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"low","cluster":2,"mode":"names of people","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"low","cluster":3,"mode":"children expressing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"low","cluster":4,"mode":"conjunctions and pronouns","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11485,"pole":"low","cluster":5,"mode":"pronouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3832,"pole":"high","cluster":0,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children having fun and feeling happy"}
+{"neuron":3832,"pole":"high","cluster":1,"mode":"standard story opening phrases","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3832,"pole":"low","cluster":0,"mode":"children expressing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3832,"pole":"low","cluster":1,"mode":"interrogative words","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":3693,"pole":"high","cluster":0,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children having fun and feeling happy"}
+{"neuron":3693,"pole":"high","cluster":1,"mode":"children expressing positive emotions and interactions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3693,"pole":"low","cluster":0,"mode":"articles and prepositions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3693,"pole":"low","cluster":1,"mode":"conjunctions and pronouns","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3693,"pole":"low","cluster":2,"mode":"pronouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9964,"pole":"high","cluster":0,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children feeling happy and interacting"}
+{"neuron":9964,"pole":"high","cluster":1,"mode":"abbreviations and initialisms in academic contexts","happy_windows":0,"windows":5,"scene":"academic or technical text"}
+{"neuron":9964,"pole":"low","cluster":0,"mode":"articles and pronouns","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9964,"pole":"low","cluster":1,"mode":"articles and pronouns","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9964,"pole":"low","cluster":2,"mode":"prepositions and conjunctions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9964,"pole":"low","cluster":3,"mode":"programming code elements and syntax","happy_windows":0,"windows":5,"scene":"technical text"}
+{"neuron":9964,"pole":"low","cluster":4,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":9964,"pole":"low","cluster":5,"mode":"names of people","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6016,"pole":"high","cluster":0,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":6016,"pole":"high","cluster":1,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children feeling happy and excited"}
+{"neuron":6016,"pole":"high","cluster":2,"mode":"pronouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6016,"pole":"high","cluster":3,"mode":"punctuation and conjunctions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6016,"pole":"high","cluster":4,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":6016,"pole":"high","cluster":5,"mode":"children expressing excitement and positive emotions","happy_windows":5,"windows":5,"scene":"children feeling excited and happy"}
+{"neuron":6016,"pole":"high","cluster":6,"mode":"children expressing positive emotions and interactions","happy_windows":5,"windows":5,"scene":"children having fun and laughing"}
+{"neuron":6016,"pole":"high","cluster":7,"mode":"children expressing excitement and positive emotions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6016,"pole":"high","cluster":8,"mode":"characters expressing happiness or positive emotions","happy_windows":5,"windows":5,"scene":"positive emotional states"}
+{"neuron":6016,"pole":"low","cluster":0,"mode":"nouns referring to people or objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6016,"pole":"low","cluster":1,"mode":"verbs indicating physical actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6016,"pole":"low","cluster":2,"mode":"dialogue with quotation marks","happy_windows":0,"windows":5,"scene":"neutral dialogue"}

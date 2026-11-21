@@ -1,0 +1,51 @@
+{"neuron":1928,"pole":"high","cluster":0,"mode":"providing healthy and flavorful recipe ideas and cooking tips","happy_windows":0,"windows":5,"scene":"neutral cooking advice"}
+{"neuron":1928,"pole":"high","cluster":1,"mode":"encouraging engagement and providing positive closing remarks","happy_windows":0,"windows":5,"scene":"neutral closing remarks"}
+{"neuron":1928,"pole":"low","cluster":0,"mode":"suggesting toppings and ingredients for baked potatoes and soup","happy_windows":0,"windows":5,"scene":"neutral food preparation"}
+{"neuron":1928,"pole":"low","cluster":1,"mode":"offering advice on organization, workspace, and self-care","happy_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":5175,"pole":"high","cluster":0,"mode":"tips for arranging furniture and maximizing space in a home office","happy_windows":0,"windows":5,"scene":"neutral home office setup"}
+{"neuron":5175,"pole":"high","cluster":1,"mode":"children's stories about imagination and unexpected events","happy_windows":3,"windows":5,"scene":"childhood imagination and play"}
+{"neuron":5175,"pole":"high","cluster":2,"mode":"children's stories about kindness, learning, and surprises","happy_windows":4,"windows":5,"scene":"childhood learning and discovery"}
+{"neuron":5175,"pole":"low","cluster":0,"mode":"children's stories about seeing animals and friends","happy_windows":0,"windows":5,"scene":"childhood observation"}
+{"neuron":5175,"pole":"low","cluster":1,"mode":"references to numbers and letters in various contexts","happy_windows":0,"windows":5,"scene":"neutral factual text"}
+{"neuron":5175,"pole":"low","cluster":2,"mode":"cooking instructions and food preparation steps","happy_windows":0,"windows":5,"scene":"neutral cooking instructions"}
+{"neuron":5175,"pole":"low","cluster":3,"mode":"children's stories about helping, apologizing, and feeling bad","happy_windows":0,"windows":5,"scene":"childhood moral lessons"}
+{"neuron":5175,"pole":"low","cluster":4,"mode":"children's stories about fear, fun, and exploration","happy_windows":2,"windows":5,"scene":"childhood adventure and fear"}
+{"neuron":8976,"pole":"high","cluster":0,"mode":"societal norms, historical context, and agricultural issues","happy_windows":0,"windows":5,"scene":"neutral social commentary"}
+{"neuron":8976,"pole":"high","cluster":1,"mode":"children's stories about friendship, apologies, and positive interactions","happy_windows":4,"windows":5,"scene":"childhood friendship and resolution"}
+{"neuron":8976,"pole":"low","cluster":0,"mode":"organizations supporting refugees and weather patterns","happy_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":8976,"pole":"low","cluster":1,"mode":"stories about talking about dreams, learning, and experiences","happy_windows":0,"windows":5,"scene":"neutral storytelling"}
+{"neuron":8976,"pole":"low","cluster":2,"mode":"protein assemblies, disease states, and molecular channels","happy_windows":0,"windows":5,"scene":"neutral scientific text"}
+{"neuron":8976,"pole":"low","cluster":3,"mode":"children's stories about learning, asking questions, and family","happy_windows":0,"windows":5,"scene":"childhood learning and family"}
+{"neuron":10790,"pole":"high","cluster":0,"mode":"children's stories about apologizing and returning items","happy_windows":0,"windows":5,"scene":"childhood apologies"}
+{"neuron":10790,"pole":"high","cluster":1,"mode":"expressions of friendship, missing someone, and apologies","happy_windows":0,"windows":5,"scene":"neutral personal reflection"}
+{"neuron":10790,"pole":"high","cluster":2,"mode":"positive news, curiosity, and pride in accomplishments","happy_windows":3,"windows":5,"scene":"positive personal achievements"}
+{"neuron":10790,"pole":"high","cluster":3,"mode":"children's stories about kindness, sharing, and regret","happy_windows":3,"windows":5,"scene":"childhood moral lessons"}
+{"neuron":10790,"pole":"low","cluster":0,"mode":"children's stories about sharing, helping, and improving","happy_windows":2,"windows":5,"scene":"childhood sharing and improvement"}
+{"neuron":10790,"pole":"low","cluster":1,"mode":"children's stories about excitement, happiness, and exploration","happy_windows":5,"windows":5,"scene":"childhood excitement and joy"}
+{"neuron":1564,"pole":"high","cluster":0,"mode":"children's stories about happiness, laughter, and friendship","happy_windows":4,"windows":5,"scene":"childhood joy and friendship"}
+{"neuron":1564,"pole":"high","cluster":1,"mode":"examples of products, devices, and data analysis","happy_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":1564,"pole":"high","cluster":2,"mode":"children's stories about pride, helping, and feeling special","happy_windows":4,"windows":5,"scene":"childhood pride and accomplishment"}
+{"neuron":1564,"pole":"high","cluster":3,"mode":"children's stories about playing together and making friends","happy_windows":4,"windows":5,"scene":"childhood friendship and play"}
+{"neuron":1564,"pole":"high","cluster":4,"mode":"children's stories about relief, sadness, and exploration","happy_windows":2,"windows":5,"scene":"childhood experiences and feelings"}
+{"neuron":1564,"pole":"low","cluster":0,"mode":"cooking instructions and technical details","happy_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":1564,"pole":"low","cluster":1,"mode":"children's stories about happiness, friendship, and exploration","happy_windows":4,"windows":5,"scene":"childhood excitement and joy"}
+{"neuron":1564,"pole":"low","cluster":2,"mode":"information about privacy, researchers, and government actions","happy_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":2758,"pole":"high","cluster":0,"mode":"children's stories about gifts, help, and curriculum integration","happy_windows":1,"windows":5,"scene":"childhood anticipation and learning"}
+{"neuron":2758,"pole":"high","cluster":1,"mode":"children's stories about saying, asking, and winning","happy_windows":4,"windows":5,"scene":"childhood interaction and success"}
+{"neuron":2758,"pole":"high","cluster":2,"mode":"children's stories about understanding, praying, and being good","happy_windows":1,"windows":5,"scene":"childhood learning and faith"}
+{"neuron":2758,"pole":"high","cluster":3,"mode":"children's stories about cleaning, sorting, and feeling proud","happy_windows":3,"windows":5,"scene":"childhood chores and pride"}
+{"neuron":2758,"pole":"low","cluster":0,"mode":"legal regulations and environmental statutes","happy_windows":0,"windows":5,"scene":"neutral legal text"}
+{"neuron":2758,"pole":"low","cluster":1,"mode":"children's stories about conflict, escalation, and surprise","happy_windows":0,"windows":5,"scene":"childhood conflict and surprise"}
+{"neuron":2758,"pole":"low","cluster":2,"mode":"citations and references in academic texts","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":2758,"pole":"low","cluster":3,"mode":"financial figures and industry statistics","happy_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":2758,"pole":"low","cluster":4,"mode":"children's stories about taking, picking, and putting items","happy_windows":0,"windows":5,"scene":"childhood actions"}
+{"neuron":2758,"pole":"low","cluster":5,"mode":"children's stories about wonder, feeling better, and pride","happy_windows":2,"windows":5,"scene":"childhood emotions and growth"}
+{"neuron":2758,"pole":"low","cluster":6,"mode":"children's stories about smiling, friendship, and playing","happy_windows":4,"windows":5,"scene":"childhood friendship and joy"}
+{"neuron":3145,"pole":"high","cluster":0,"mode":"children's stories about tidying up, escaping boredom, and organization","happy_windows":0,"windows":5,"scene":"childhood chores and organization"}
+{"neuron":3145,"pole":"high","cluster":1,"mode":"children's stories about weather, testing cakes, and toys","happy_windows":2,"windows":5,"scene":"childhood activities and weather"}
+{"neuron":3145,"pole":"low","cluster":0,"mode":"children's stories about helping, messiness, and fun","happy_windows":1,"windows":5,"scene":"childhood learning and fun"}
+{"neuron":3145,"pole":"low","cluster":1,"mode":"children's stories about friendship, surprise, and fun","happy_windows":4,"windows":5,"scene":"childhood friendship and fun"}
+{"neuron":6352,"pole":"high","cluster":0,"mode":"children's stories about happiness, freedom, and excitement","happy_windows":4,"windows":5,"scene":"childhood joy and exploration"}
+{"neuron":6352,"pole":"high","cluster":1,"mode":"repeated story openings about characters and settings","happy_windows":0,"windows":5,"scene":"neutral story beginnings"}
+{"neuron":6352,"pole":"low","cluster":0,"mode":"children's stories about embarrassment, admiration, and contentment","happy_windows":2,"windows":5,"scene":"childhood emotions and observation"}
+{"neuron":6352,"pole":"low","cluster":1,"mode":"questions about providing more examples and details","happy_windows":0,"windows":5,"scene":"neutral request for information"}

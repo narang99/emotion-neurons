@@ -1,0 +1,49 @@
+{"neuron":10899,"pole":"high","cluster":0,"mode":"words related to parts of things, descriptions, and deductions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10899,"pole":"high","cluster":1,"mode":"words describing negative states or situations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10899,"pole":"low","cluster":0,"mode":"punctuation and dialogue markers in happy scenes","happy_windows":5,"windows":5,"scene":"joyful dialogue and celebration"}
+{"neuron":10899,"pole":"low","cluster":1,"mode":"words indicating positive feelings and actions","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":10899,"pole":"low","cluster":2,"mode":"words about appearance, comparison, and self-identity","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10899,"pole":"low","cluster":3,"mode":"pronouns and conjunctions in happy contexts","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":650,"pole":"high","cluster":0,"mode":"articles and prepositions in descriptive contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":650,"pole":"high","cluster":1,"mode":"proper nouns indicating places and organizations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":650,"pole":"high","cluster":2,"mode":"story beginnings and character introductions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":650,"pole":"high","cluster":3,"mode":"articles and prepositions in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":650,"pole":"high","cluster":4,"mode":"adjectives and nouns describing positive qualities","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":650,"pole":"low","cluster":0,"mode":"words related to negative situations and social interaction","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":650,"pole":"low","cluster":1,"mode":"exclamations and positive interjections in happy scenes","happy_windows":5,"windows":5,"scene":"joyful moments and achievements"}
+{"neuron":2652,"pole":"high","cluster":0,"mode":"assistant prompts and conversational markers","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"high","cluster":1,"mode":"words indicating processes, states, and tools","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"high","cluster":2,"mode":"food ingredients and preparation steps","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"high","cluster":3,"mode":"conjunctions, nouns, and pronouns in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"high","cluster":4,"mode":"abbreviations and titles in formal contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"high","cluster":5,"mode":"technical terms and programming keywords","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"low","cluster":0,"mode":"words related to actions and social interactions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"low","cluster":1,"mode":"words indicating positive emotions and outcomes","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":2652,"pole":"low","cluster":2,"mode":"dialogue markers and conversational phrases","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"low","cluster":3,"mode":"words indicating feelings, actions, and states","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":2652,"pole":"low","cluster":4,"mode":"conjunctions and pronouns in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2652,"pole":"low","cluster":5,"mode":"words related to objects and containers","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":62,"pole":"high","cluster":0,"mode":"conjunctions and nouns related to activities and states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":62,"pole":"high","cluster":1,"mode":"prepositions, conjunctions, and food items","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":62,"pole":"low","cluster":0,"mode":"words related to negative situations and social interaction","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":62,"pole":"low","cluster":1,"mode":"exclamations and positive interjections in happy scenes","happy_windows":5,"windows":5,"scene":"joyful moments and achievements"}
+{"neuron":998,"pole":"high","cluster":0,"mode":"past tense verbs indicating states of being","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":998,"pole":"high","cluster":1,"mode":"verbs indicating speech and dialogue","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":998,"pole":"high","cluster":2,"mode":"words indicating positive feelings and actions","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":998,"pole":"high","cluster":3,"mode":"conjunctions and pronouns in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":998,"pole":"high","cluster":4,"mode":"conjunctions and pronouns in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":998,"pole":"high","cluster":5,"mode":"conjunctions and pronouns in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":998,"pole":"low","cluster":0,"mode":"pronouns and conjunctions in happy contexts","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":998,"pole":"low","cluster":1,"mode":"words related to actions and social interactions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3637,"pole":"high","cluster":0,"mode":"bohemian atmosphere, seamy underbelly, industrial rock, pioneers, lexicography","happy_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3637,"pole":"high","cluster":1,"mode":"little girl/boy, twist, turn, go, explore, attic, dog","happy_windows":3,"windows":5,"scene":"childhood play and exploration"}
+{"neuron":3637,"pole":"high","cluster":2,"mode":"brave, clever, nice, polite, cute, cat, mouse, prince","happy_windows":3,"windows":5,"scene":"childhood interactions and learning"}
+{"neuron":3637,"pole":"high","cluster":3,"mode":"can't, don't, want to, help, play, mom, dad","happy_windows":2,"windows":5,"scene":"childhood requests and interactions"}
+{"neuron":3637,"pole":"low","cluster":0,"mode":"little girl, sad, happy, school, play, people","happy_windows":2,"windows":5,"scene":"childhood emotions and experiences"}
+{"neuron":3637,"pole":"low","cluster":1,"mode":"she, felt, relaxed, smiled, happy, curious","happy_windows":3,"windows":5,"scene":"childhood exploration and feelings"}
+{"neuron":3637,"pole":"low","cluster":2,"mode":"one day, special, build, structures, imagination, garden","happy_windows":1,"windows":5,"scene":"childhood discovery and imagination"}
+{"neuron":7513,"pole":"high","cluster":0,"mode":"prepositions, conjunctions, and geographical terms","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7513,"pole":"high","cluster":1,"mode":"words indicating positive emotions and outcomes","happy_windows":5,"windows":5,"scene":"happy moments and achievements"}
+{"neuron":7513,"pole":"high","cluster":2,"mode":"nouns related to objects and activities","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7513,"pole":"low","cluster":0,"mode":"words related to actions and social interactions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7513,"pole":"low","cluster":1,"mode":"phrases indicating story beginnings","happy_windows":0,"windows":5,"scene":"neutral narration"}

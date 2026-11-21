@@ -1,0 +1,54 @@
+{"neuron":3005,"pole":"high","cluster":0,"mode":"indefinite article 'a' after perception verbs in children's story openings","happy_windows":0,"windows":5,"scene":"simple children's stories discovering objects"}
+{"neuron":3005,"pole":"high","cluster":1,"mode":"'and'/adjectives in cheerful narration about fun, colorful, special moments","happy_windows":3,"windows":5,"scene":"kids playing, dress-up party, cozy rainy-day visit"}
+{"neuron":3005,"pole":"high","cluster":2,"mode":"code tokens: operators, brackets, and variable assignments in programming snippets","happy_windows":0,"windows":5,"scene":"programming code examples, no emotion"}
+{"neuron":3005,"pole":"low","cluster":0,"mode":"verbs of feeling or thinking (felt, wanted, knew, understood) after characters' emotional moments","happy_windows":3,"windows":5,"scene":"children's stories with emotional turns and joy"}
+{"neuron":3005,"pole":"low","cluster":1,"mode":"'there' in the stock opener 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"generic fairy-tale story openings"}
+{"neuron":5658,"pole":"high","cluster":0,"mode":"Possessive pronouns (her, his) after verbs in children's story narration","happy_windows":2,"windows":5,"scene":"Children's simple stories about playing and visiting family"}
+{"neuron":5658,"pole":"high","cluster":1,"mode":"Subject pronouns (she, he) starting a sentence after 'One day' or 'One morning'","happy_windows":1,"windows":5,"scene":"Children discovering things or facing small problems in stories"}
+{"neuron":5658,"pole":"high","cluster":2,"mode":"Connectives and list punctuation in informational self-improvement and mental health text","happy_windows":0,"windows":5,"scene":"Expository advice on productivity, social media, and mental health"}
+{"neuron":5658,"pole":"high","cluster":3,"mode":"Tokens inside names, titles, and citations in encyclopedic or bibliographic text","happy_windows":0,"windows":5,"scene":"Academic, historical, and biographical reference text"}
+{"neuron":5658,"pole":"high","cluster":4,"mode":"'to' or 'a' after movement or decision verbs (decided to, went to, go for a)","happy_windows":3,"windows":5,"scene":"Children setting out on outings, adventures, and games"}
+{"neuron":5658,"pole":"high","cluster":5,"mode":"'something' followed by an adjective like special, new, or different","happy_windows":3,"windows":5,"scene":"Characters planning gifts, surprises, or fun activities"}
+{"neuron":5658,"pole":"high","cluster":6,"mode":"Marketing and engagement terms in social media and brand strategy advice","happy_windows":0,"windows":5,"scene":"Business guidance on social media marketing and brand engagement"}
+{"neuron":5658,"pole":"low","cluster":0,"mode":"Conjunctions, names, and verbs after characters' worries, reluctance, or distress","happy_windows":0,"windows":5,"scene":"Children feeling anxious, sick, reluctant, or sad in stories"}
+{"neuron":5658,"pole":"low","cluster":1,"mode":"'play' or 'playing' after 'loved to' describing a character's habits","happy_windows":4,"windows":5,"scene":"Children's stories about a character who loves playing"}
+{"neuron":7839,"pole":"high","cluster":0,"mode":"period after the character name in 'Once upon a time, there was a girl named Lily'","happy_windows":0,"windows":5,"scene":"generic children's story openings"}
+{"neuron":7839,"pole":"high","cluster":1,"mode":"'day' in 'One day,' opening a new story event","happy_windows":1,"windows":5,"scene":"children's stories starting playful adventures"}
+{"neuron":7839,"pole":"high","cluster":2,"mode":"digits inside years and century numbers","happy_windows":0,"windows":5,"scene":"news and historical text, no emotion"}
+{"neuron":7839,"pole":"high","cluster":3,"mode":"sentence-ending punctuation after vivid discovery sentences in children's stories","happy_windows":2,"windows":5,"scene":"children discovering gifts, animals, or objects"}
+{"neuron":7839,"pole":"high","cluster":4,"mode":"'the' before nouns about sea, society, or needs in expository prose","happy_windows":0,"windows":5,"scene":"essays and sea-voyage narration, not joyful"}
+{"neuron":7839,"pole":"low","cluster":0,"mode":"sentence-initial 'The' starting a new sentence in short children's stories","happy_windows":3,"windows":5,"scene":"simple stories with friendly animals and happy endings"}
+{"neuron":7839,"pole":"low","cluster":1,"mode":"demonstratives 'This/These/Those' starting expository sentences","happy_windows":0,"windows":5,"scene":"informational and historical expository text"}
+{"neuron":1490,"pole":"high","cluster":0,"mode":"digits and number tokens in statistics and figures","happy_windows":0,"windows":5,"scene":"news and reports with numeric data"}
+{"neuron":1490,"pole":"high","cluster":1,"mode":"joy words (happy, excitement, fun) and 'and' within playful groups","happy_windows":5,"windows":5,"scene":"friends playing, laughing, having fun together"}
+{"neuron":1490,"pole":"low","cluster":0,"mode":"sentence-ending period followed by double space in instructional text","happy_windows":0,"windows":5,"scene":"how-to and tips lists, neutral"}
+{"neuron":1490,"pole":"low","cluster":1,"mode":"periods and 'Combine' in numbered recipe or tips lists","happy_windows":0,"windows":5,"scene":"recipes and numbered advice lists"}
+{"neuron":1490,"pole":"low","cluster":2,"mode":"word-internal fragments of names and terms in encyclopedic text","happy_windows":0,"windows":5,"scene":"encyclopedic and botanical reference text"}
+{"neuron":1490,"pole":"low","cluster":3,"mode":"helping and cleaning verbs and subjects in children's conflict stories","happy_windows":1,"windows":5,"scene":"children sharing, helping, or cleaning up"}
+{"neuron":409,"pole":"high","cluster":0,"mode":"'so' or 'felt' before an emotion adjective in short stories","happy_windows":1,"windows":5,"scene":"children's stories with mostly sad or tense feelings"}
+{"neuron":409,"pole":"high","cluster":1,"mode":"'that', 'happy', 'knowing' in reflective or emotional sentences","happy_windows":1,"windows":5,"scene":"reflective and emotional prose, mixed moods"}
+{"neuron":409,"pole":"high","cluster":2,"mode":"academic role and affiliation tokens in research news","happy_windows":0,"windows":5,"scene":"university research news, neutral"}
+{"neuron":409,"pole":"low","cluster":0,"mode":"'but', 'and', or period after attempts and struggles in narration","happy_windows":1,"windows":5,"scene":"simple stories about trying and struggling"}
+{"neuron":409,"pole":"low","cluster":1,"mode":"'assistant' or 'user' turn labels in chat transcripts","happy_windows":0,"windows":5,"scene":"chatbot question-and-answer exchanges"}
+{"neuron":782,"pole":"high","cluster":0,"mode":"verbs of reducing, minimizing, or producing in sustainability essays","happy_windows":0,"windows":5,"scene":"environmental and energy policy essays"}
+{"neuron":782,"pole":"high","cluster":1,"mode":"'They/She/and' starting clauses of happy reactions after excitement","happy_windows":3,"windows":5,"scene":"children celebrating, cheering, or relieved and smiling"}
+{"neuron":782,"pole":"high","cluster":2,"mode":"'very' or 'really' intensifying a descriptive adjective in stories","happy_windows":0,"windows":5,"scene":"simple descriptive children's stories"}
+{"neuron":782,"pole":"low","cluster":0,"mode":"'very', 'much', 'break', 'garden' in mundane descriptive narration","happy_windows":0,"windows":5,"scene":"neutral narration about objects and places"}
+{"neuron":782,"pole":"low","cluster":1,"mode":"'assistant' turn labels in chat transcripts","happy_windows":0,"windows":5,"scene":"chatbot task exchanges, business and writing help"}
+{"neuron":4796,"pole":"high","cluster":0,"mode":"sentence-initial 'The' starting a new sentence in short stories","happy_windows":3,"windows":5,"scene":"children's stories with playful or warm moments"}
+{"neuron":4796,"pole":"high","cluster":1,"mode":"'but', ',' or 'happy' after characters' emotional reactions","happy_windows":2,"windows":5,"scene":"children's stories with feelings of delight, fear, or upset"}
+{"neuron":4796,"pole":"high","cluster":2,"mode":"'day' in 'One day,' opening story events","happy_windows":0,"windows":5,"scene":"simple children's story openings"}
+{"neuron":4796,"pole":"low","cluster":0,"mode":"first-person pronoun 'I' starting quoted dialogue","happy_windows":1,"windows":5,"scene":"children's dialogue, mostly mild or sad talk"}
+{"neuron":4796,"pole":"low","cluster":1,"mode":"opening quotation marks starting spoken lines","happy_windows":1,"windows":5,"scene":"children's dialogue, excited or scolding exchanges"}
+{"neuron":4796,"pole":"low","cluster":2,"mode":"'you' addressed in scolding or correcting dialogue","happy_windows":0,"windows":5,"scene":"parents or siblings scolding children"}
+{"neuron":4796,"pole":"low","cluster":3,"mode":"adverbs and modal verbs inside dialogue lines","happy_windows":1,"windows":5,"scene":"casual dialogue between characters, mixed mood"}
+{"neuron":4796,"pole":"low","cluster":4,"mode":"'That/this/It' in dialogue identifying an object","happy_windows":0,"windows":5,"scene":"dialogue about found objects, often tense"}
+{"neuron":4796,"pole":"low","cluster":5,"mode":"pronouns starting sentences after a pleasant event","happy_windows":3,"windows":5,"scene":"children enjoying outings, fun, and quiet moments"}
+{"neuron":4796,"pole":"low","cluster":6,"mode":"'was' after a character's emotion, as in 'was so happy'","happy_windows":4,"windows":5,"scene":"characters receiving treats or good news, feeling happy"}
+{"neuron":10833,"pole":"high","cluster":0,"mode":"period ending expository claims in business and policy prose","happy_windows":0,"windows":5,"scene":"analytical essays on policy, business, and health"}
+{"neuron":10833,"pole":"high","cluster":1,"mode":"'which', 'can', 'for' linking clauses in advice or analysis","happy_windows":0,"windows":5,"scene":"advice and business analysis text"}
+{"neuron":10833,"pole":"high","cluster":2,"mode":"sentence-ending period after excited discovery or delight in stories","happy_windows":3,"windows":5,"scene":"children finding treasures, cake, or playing"}
+{"neuron":10833,"pole":"high","cluster":3,"mode":"'and' following a character's reaction in short stories","happy_windows":2,"windows":5,"scene":"children's stories with excitement, sadness, and treats"}
+{"neuron":10833,"pole":"high","cluster":4,"mode":"'was' after a character's emotion, as in 'was so excited'","happy_windows":5,"windows":5,"scene":"characters delighted by gifts, surprises, or discoveries"}
+{"neuron":10833,"pole":"low","cluster":0,"mode":"commas closing narrative clauses in story prose","happy_windows":1,"windows":5,"scene":"children's stories and expository narrative"}
+{"neuron":10833,"pole":"low","cluster":1,"mode":"comma after the stock opener 'Once upon a time'","happy_windows":0,"windows":5,"scene":"generic fairy-tale story openings"}

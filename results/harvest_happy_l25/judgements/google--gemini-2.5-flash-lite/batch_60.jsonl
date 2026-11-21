@@ -1,0 +1,60 @@
+{"neuron":3755,"pole":"high","cluster":0,"mode":"actions and reactions between siblings and friends","happy_windows":0,"windows":5,"scene":"sibling rivalry and sharing"}
+{"neuron":3755,"pole":"high","cluster":1,"mode":"names of people and their actions or feelings","happy_windows":0,"windows":5,"scene":"children's interactions and decisions"}
+{"neuron":3755,"pole":"low","cluster":0,"mode":"negative situations and potential dangers","happy_windows":0,"windows":5,"scene":"societal problems and research concerns"}
+{"neuron":3755,"pole":"low","cluster":1,"mode":"technical terms related to computer security","happy_windows":0,"windows":5,"scene":"digital security protocols"}
+{"neuron":6797,"pole":"high","cluster":0,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"recipe and food preparation"}
+{"neuron":6797,"pole":"high","cluster":1,"mode":"children's names and their activities","happy_windows":0,"windows":5,"scene":"children playing and exploring"}
+{"neuron":6797,"pole":"high","cluster":2,"mode":"technical terms and product descriptions","happy_windows":0,"windows":5,"scene":"technical product descriptions"}
+{"neuron":6797,"pole":"high","cluster":3,"mode":"abstract concepts and societal progress","happy_windows":0,"windows":5,"scene":"societal progress and technology"}
+{"neuron":6797,"pole":"high","cluster":4,"mode":"children's activities and positive emotions","happy_windows":2,"windows":5,"scene":"children playing happily"}
+{"neuron":6797,"pole":"high","cluster":5,"mode":"positive sensory experiences and enjoyment","happy_windows":3,"windows":5,"scene":"enjoyable moments and sensations"}
+{"neuron":6797,"pole":"low","cluster":0,"mode":"technical abbreviations and citations","happy_windows":0,"windows":5,"scene":"scientific and technical citations"}
+{"neuron":6797,"pole":"low","cluster":1,"mode":"actions and movement of people","happy_windows":0,"windows":5,"scene":"people in motion or danger"}
+{"neuron":6797,"pole":"low","cluster":2,"mode":"historical and military locations","happy_windows":0,"windows":5,"scene":"historical military movements"}
+{"neuron":6797,"pole":"low","cluster":3,"mode":"abstract concepts and societal issues","happy_windows":0,"windows":5,"scene":"societal issues and movements"}
+{"neuron":2541,"pole":"high","cluster":0,"mode":"children's names and their activities","happy_windows":0,"windows":5,"scene":"children's creative activities"}
+{"neuron":2541,"pole":"high","cluster":1,"mode":"business and marketing concepts","happy_windows":0,"windows":5,"scene":"business and marketing strategies"}
+{"neuron":2541,"pole":"high","cluster":2,"mode":"names of people and places","happy_windows":0,"windows":5,"scene":"historical and geographical references"}
+{"neuron":2541,"pole":"high","cluster":3,"mode":"years and historical events","happy_windows":0,"windows":5,"scene":"historical events and dates"}
+{"neuron":2541,"pole":"low","cluster":0,"mode":"actions and movement of people","happy_windows":0,"windows":5,"scene":"people and animals moving"}
+{"neuron":2541,"pole":"low","cluster":1,"mode":"actions and movement of people","happy_windows":0,"windows":5,"scene":"people going somewhere"}
+{"neuron":9440,"pole":"high","cluster":0,"mode":"business and marketing strategies","happy_windows":0,"windows":5,"scene":"business and marketing strategies"}
+{"neuron":9440,"pole":"high","cluster":1,"mode":"names of people and publications","happy_windows":0,"windows":5,"scene":"authors and publications"}
+{"neuron":9440,"pole":"high","cluster":2,"mode":"actions and consequences","happy_windows":0,"windows":5,"scene":"criminal actions and consequences"}
+{"neuron":9440,"pole":"high","cluster":3,"mode":"events and locations","happy_windows":0,"windows":5,"scene":"historical events and violence"}
+{"neuron":9440,"pole":"high","cluster":4,"mode":"children's activities and actions","happy_windows":1,"windows":5,"scene":"children playing and acting"}
+{"neuron":9440,"pole":"high","cluster":5,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"recipe and food preparation"}
+{"neuron":9440,"pole":"low","cluster":0,"mode":"health conditions and medical terms","happy_windows":0,"windows":5,"scene":"medical conditions and treatments"}
+{"neuron":9440,"pole":"low","cluster":1,"mode":"marketing and website optimization","happy_windows":0,"windows":5,"scene":"marketing and website strategies"}
+{"neuron":9440,"pole":"low","cluster":2,"mode":"children's activities and emotions","happy_windows":2,"windows":5,"scene":"children playing happily"}
+{"neuron":9440,"pole":"low","cluster":3,"mode":"food ingredients and preparation","happy_windows":0,"windows":5,"scene":"food ingredients and preparation"}
+{"neuron":5491,"pole":"high","cluster":0,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"recipe and food preparation"}
+{"neuron":5491,"pole":"high","cluster":1,"mode":"medical terms and conditions","happy_windows":0,"windows":5,"scene":"medical conditions and treatments"}
+{"neuron":5491,"pole":"high","cluster":2,"mode":"geographical and national references","happy_windows":0,"windows":5,"scene":"geographical and national references"}
+{"neuron":5491,"pole":"high","cluster":3,"mode":"geographical and cultural references","happy_windows":0,"windows":5,"scene":"geographical and cultural references"}
+{"neuron":5491,"pole":"high","cluster":4,"mode":"children's activities and locations","happy_windows":1,"windows":5,"scene":"children playing in nature"}
+{"neuron":5491,"pole":"high","cluster":5,"mode":"children's activities and events","happy_windows":1,"windows":5,"scene":"children enjoying activities"}
+{"neuron":5491,"pole":"low","cluster":0,"mode":"product descriptions and choices","happy_windows":0,"windows":5,"scene":"product descriptions and choices"}
+{"neuron":5491,"pole":"low","cluster":1,"mode":"technical terms and product features","happy_windows":0,"windows":5,"scene":"technical product features"}
+{"neuron":5491,"pole":"low","cluster":2,"mode":"children's activities and emotions","happy_windows":2,"windows":5,"scene":"children playing happily"}
+{"neuron":5491,"pole":"low","cluster":3,"mode":"food ingredients and preparation","happy_windows":0,"windows":5,"scene":"food ingredients and preparation"}
+{"neuron":11159,"pole":"high","cluster":0,"mode":"children's actions and emotions","happy_windows":2,"windows":5,"scene":"children playing and feeling free"}
+{"neuron":11159,"pole":"high","cluster":1,"mode":"actions and feelings of people","happy_windows":0,"windows":5,"scene":"people facing challenges"}
+{"neuron":11159,"pole":"low","cluster":0,"mode":"children's names and their characteristics","happy_windows":0,"windows":5,"scene":"children's names and wishes"}
+{"neuron":11159,"pole":"low","cluster":1,"mode":"actions and feelings of people","happy_windows":0,"windows":5,"scene":"people experiencing negative emotions"}
+{"neuron":11159,"pole":"low","cluster":2,"mode":"children's interactions and objects","happy_windows":0,"windows":5,"scene":"children interacting with toys"}
+{"neuron":11159,"pole":"low","cluster":3,"mode":"children's actions and conjunctions","happy_windows":0,"windows":5,"scene":"children's actions and decisions"}
+{"neuron":9131,"pole":"high","cluster":0,"mode":"ingredients and instructions for food preparation","happy_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":9131,"pole":"high","cluster":1,"mode":"programming code snippets and technical terms","happy_windows":0,"windows":5,"scene":"technical documentation"}
+{"neuron":9131,"pole":"high","cluster":2,"mode":"business and marketing strategies and tools","happy_windows":0,"windows":5,"scene":"business advice"}
+{"neuron":9131,"pole":"low","cluster":0,"mode":"religious and legal terms, group affiliations","happy_windows":0,"windows":5,"scene":"legal and religious context"}
+{"neuron":9131,"pole":"low","cluster":1,"mode":"website design and SEO elements","happy_windows":0,"windows":5,"scene":"web development"}
+{"neuron":9131,"pole":"low","cluster":2,"mode":"children's stories about friendship and fun","happy_windows":3,"windows":5,"scene":"children playing together"}
+{"neuron":6939,"pole":"high","cluster":0,"mode":"social issues and personal struggles","happy_windows":0,"windows":5,"scene":"social issues and personal struggles"}
+{"neuron":6939,"pole":"high","cluster":1,"mode":"children's names and their interactions","happy_windows":2,"windows":5,"scene":"children playing and interacting"}
+{"neuron":6939,"pole":"low","cluster":0,"mode":"children's dialogue and actions","happy_windows":0,"windows":5,"scene":"children's dialogue and actions"}
+{"neuron":6939,"pole":"low","cluster":1,"mode":"children's actions and emotions","happy_windows":0,"windows":5,"scene":"children's actions and emotions"}
+{"neuron":6939,"pole":"low","cluster":2,"mode":"actions and movement of animals","happy_windows":0,"windows":5,"scene":"animals and children playing"}
+{"neuron":6939,"pole":"low","cluster":3,"mode":"children's actions and emotions","happy_windows":2,"windows":5,"scene":"children's happy moments"}
+{"neuron":6939,"pole":"low","cluster":4,"mode":"societal issues and consequences","happy_windows":0,"windows":5,"scene":"societal issues and consequences"}
+{"neuron":6939,"pole":"low","cluster":5,"mode":"children's actions and emotions","happy_windows":3,"windows":5,"scene":"children's happy moments"}

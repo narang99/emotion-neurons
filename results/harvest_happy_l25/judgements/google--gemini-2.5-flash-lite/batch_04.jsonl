@@ -1,0 +1,52 @@
+{"neuron":5083,"pole":"high","cluster":0,"mode":"listing items, food, and descriptive elements","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5083,"pole":"high","cluster":1,"mode":"beginning a story with 'Once upon a time'","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5083,"pole":"low","cluster":0,"mode":"dialogue punctuation and interjections","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5083,"pole":"low","cluster":1,"mode":"describing actions and locations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5083,"pole":"low","cluster":2,"mode":"listing ingredients and instructions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5083,"pole":"low","cluster":3,"mode":"conjunctions and positive emotional responses","happy_windows":3,"windows":5,"scene":"happy moments"}
+{"neuron":2158,"pole":"high","cluster":0,"mode":"describing actions and emotional states","happy_windows":2,"windows":5,"scene":"happy moments"}
+{"neuron":2158,"pole":"high","cluster":1,"mode":"asking questions and making requests","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2158,"pole":"low","cluster":0,"mode":"punctuation and negative actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2158,"pole":"low","cluster":1,"mode":"prepositions and descriptive words","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2158,"pole":"low","cluster":2,"mode":"describing actions and negative outcomes","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2158,"pole":"low","cluster":3,"mode":"pronouns and negative emotional states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8197,"pole":"high","cluster":0,"mode":"positive adjectives and emotional states","happy_windows":3,"windows":5,"scene":"happy moments"}
+{"neuron":8197,"pole":"high","cluster":1,"mode":"describing appearance and actions","happy_windows":4,"windows":5,"scene":"happy moments"}
+{"neuron":8197,"pole":"low","cluster":0,"mode":"punctuation and recipe instructions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8197,"pole":"low","cluster":1,"mode":"descriptive adjectives for size","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8197,"pole":"low","cluster":2,"mode":"pronouns and emotional states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8197,"pole":"low","cluster":3,"mode":"conjunctions and descriptive adjectives","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8197,"pole":"low","cluster":4,"mode":"conjunctions and descriptive words","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6028,"pole":"high","cluster":0,"mode":"describing actions and cautious movement","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6028,"pole":"high","cluster":1,"mode":"dialogue and exclamations","happy_windows":2,"windows":5,"scene":"happy moments"}
+{"neuron":6028,"pole":"high","cluster":2,"mode":"dialogue and requests for help","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6028,"pole":"high","cluster":3,"mode":"articles and descriptive phrases","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6028,"pole":"high","cluster":4,"mode":"conjunctions and marketing terms","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6028,"pole":"high","cluster":5,"mode":"describing actions and locations","happy_windows":2,"windows":5,"scene":"happy moments"}
+{"neuron":6028,"pole":"high","cluster":6,"mode":"pronouns and cautious actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6028,"pole":"high","cluster":7,"mode":"names and positive emotional states","happy_windows":3,"windows":5,"scene":"happy moments"}
+{"neuron":6028,"pole":"low","cluster":0,"mode":"describing actions and emotional states","happy_windows":2,"windows":5,"scene":"happy moments"}
+{"neuron":6028,"pole":"low","cluster":1,"mode":"pronouns and negative emotional states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10854,"pole":"high","cluster":0,"mode":"serious business, politics, and serious situations","happy_windows":0,"windows":5,"scene":"Serious political and business contexts"}
+{"neuron":10854,"pole":"high","cluster":1,"mode":"professional communication, user queries, and information requests","happy_windows":0,"windows":5,"scene":"Professional communication and information exchange"}
+{"neuron":10854,"pole":"low","cluster":0,"mode":"pronouns indicating plurality or possession","happy_windows":0,"windows":5,"scene":"Narrative descriptions of actions and relationships"}
+{"neuron":10854,"pole":"low","cluster":1,"mode":"numbers and dates, often in a numerical context","happy_windows":0,"windows":5,"scene":"Numerical data and historical references"}
+{"neuron":2296,"pole":"high","cluster":0,"mode":"programming code elements and syntax","happy_windows":0,"windows":5,"scene":"Technical programming code snippets"}
+{"neuron":2296,"pole":"high","cluster":1,"mode":"gardening and planting instructions, focusing on roots","happy_windows":0,"windows":5,"scene":"Gardening and planting advice"}
+{"neuron":2296,"pole":"high","cluster":2,"mode":"recipe instructions, numbered steps","happy_windows":0,"windows":5,"scene":"Recipe instructions and food preparation"}
+{"neuron":2296,"pole":"high","cluster":3,"mode":"children's stories, happy moments, and actions","happy_windows":4,"windows":5,"scene":"Joyful childhood activities and stories"}
+{"neuron":2296,"pole":"high","cluster":4,"mode":"children playing, running, and spinning","happy_windows":4,"windows":5,"scene":"Children playing joyfully outdoors"}
+{"neuron":2296,"pole":"low","cluster":0,"mode":"children's stories, emotions, and actions","happy_windows":2,"windows":5,"scene":"Children's narrative with emotional moments"}
+{"neuron":2296,"pole":"low","cluster":1,"mode":"pronouns indicating possession or belonging","happy_windows":0,"windows":5,"scene":"Narrative descriptions of personal items"}
+{"neuron":3774,"pole":"high","cluster":0,"mode":"beginning stories with 'Once upon a time'","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3774,"pole":"high","cluster":1,"mode":"conjunctions and positive relationships","happy_windows":3,"windows":5,"scene":"happy moments"}
+{"neuron":3774,"pole":"high","cluster":2,"mode":"pronouns and descriptive adjectives","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3774,"pole":"high","cluster":3,"mode":"pronouns and story beginnings","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3774,"pole":"low","cluster":0,"mode":"describing actions and negative emotions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3774,"pole":"low","cluster":1,"mode":"prepositions and ingredients","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11140,"pole":"high","cluster":0,"mode":"medical and scientific terms","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11140,"pole":"high","cluster":1,"mode":"technical and scientific terms","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11140,"pole":"high","cluster":2,"mode":"pronouns and emotional states","happy_windows":2,"windows":5,"scene":"happy moments"}
+{"neuron":11140,"pole":"high","cluster":3,"mode":"dialogue and emotional responses","happy_windows":2,"windows":5,"scene":"happy moments"}
+{"neuron":11140,"pole":"low","cluster":0,"mode":"describing actions and caution","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11140,"pole":"low","cluster":1,"mode":"prepositions and infinitive verbs","happy_windows":0,"windows":5,"scene":"neutral narration"}

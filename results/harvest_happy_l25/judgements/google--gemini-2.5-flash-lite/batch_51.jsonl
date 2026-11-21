@@ -1,0 +1,75 @@
+{"neuron":664,"pole":"high","cluster":0,"mode":"A character experiences something positive or exciting, leading to a reaction.","happy_windows":0,"windows":5,"scene":"Positive discovery or event"}
+{"neuron":664,"pole":"high","cluster":1,"mode":"A character, often named Lily, asks a question or makes a request.","happy_windows":0,"windows":5,"scene":"Curiosity and inquiry"}
+{"neuron":664,"pole":"high","cluster":2,"mode":"A character, often Lily, performs an action or has a reaction.","happy_windows":0,"windows":5,"scene":"Character action or reaction"}
+{"neuron":664,"pole":"high","cluster":3,"mode":"A character, often Lily, speaks or makes a statement.","happy_windows":0,"windows":5,"scene":"Character speech or statement"}
+{"neuron":664,"pole":"high","cluster":4,"mode":"A character, often Lily, speaks or makes a statement.","happy_windows":0,"windows":5,"scene":"Character speech or statement"}
+{"neuron":664,"pole":"high","cluster":5,"mode":"A character experiences an emotion or a physical sensation.","happy_windows":0,"windows":5,"scene":"Emotional or physical experience"}
+{"neuron":664,"pole":"high","cluster":6,"mode":"A character, often Lily, expresses happiness or a positive emotion.","happy_windows":0,"windows":5,"scene":"Positive emotional expression"}
+{"neuron":664,"pole":"high","cluster":7,"mode":"Technical or procedural terms related to installation or resources.","happy_windows":0,"windows":5,"scene":"Technical or procedural context"}
+{"neuron":664,"pole":"high","cluster":8,"mode":"Numerical or statistical data, often related to elections or populations.","happy_windows":0,"windows":5,"scene":"Numerical or statistical data"}
+{"neuron":664,"pole":"low","cluster":0,"mode":"A character, often Lily, performs an action or has a reaction.","happy_windows":0,"windows":5,"scene":"Character action or reaction"}
+{"neuron":664,"pole":"low","cluster":1,"mode":"Abbreviations or initialisms, often related to organizations or locations.","happy_windows":0,"windows":5,"scene":"Abbreviations or initialisms"}
+{"neuron":11186,"pole":"high","cluster":0,"mode":"A character experiences a transition or the end of an activity.","happy_windows":0,"windows":5,"scene":"Transition or end of activity"}
+{"neuron":11186,"pole":"high","cluster":1,"mode":"Technical terms related to biology, science, or resources.","happy_windows":0,"windows":5,"scene":"Scientific or technical context"}
+{"neuron":11186,"pole":"high","cluster":2,"mode":"A character, often Lily, interacts with family or plays.","happy_windows":0,"windows":5,"scene":"Family interaction or play"}
+{"neuron":11186,"pole":"low","cluster":0,"mode":"possessive pronouns referring to a female child named Lily","happy_windows":0,"windows":5,"scene":"childhood, family, daily life"}
+{"neuron":11186,"pole":"low","cluster":1,"mode":"definite article referring to an object or concept","happy_windows":0,"windows":5,"scene":"neutral narration, description"}
+{"neuron":11186,"pole":"low","cluster":2,"mode":"quotation marks indicating direct speech or emphasis","happy_windows":0,"windows":5,"scene":"dialogue, storytelling"}
+{"neuron":11186,"pole":"low","cluster":3,"mode":"past tense verbs indicating movement or action","happy_windows":0,"windows":5,"scene":"action, movement, storytelling"}
+{"neuron":11186,"pole":"low","cluster":4,"mode":"past tense verbs indicating movement or action","happy_windows":0,"windows":5,"scene":"action, movement, storytelling"}
+{"neuron":11186,"pole":"low","cluster":5,"mode":"prepositions indicating addition or inclusion","happy_windows":0,"windows":5,"scene":"recipes, instructions"}
+{"neuron":11186,"pole":"low","cluster":6,"mode":"parts of words, often related to measurements or ingredients","happy_windows":0,"windows":5,"scene":"technical, recipes"}
+{"neuron":4895,"pole":"high","cluster":0,"mode":"Proper nouns, often company or product names, or technical terms.","happy_windows":0,"windows":5,"scene":"Proper nouns or technical terms"}
+{"neuron":4895,"pole":"high","cluster":1,"mode":"Historical or military terms related to battles and locations.","happy_windows":0,"windows":5,"scene":"Historical or military context"}
+{"neuron":4895,"pole":"high","cluster":2,"mode":"A character, often Lily, performs an action, usually involving taking something.","happy_windows":0,"windows":5,"scene":"Character taking an action"}
+{"neuron":4895,"pole":"high","cluster":3,"mode":"A character expresses happiness or pride after an accomplishment.","happy_windows":0,"windows":5,"scene":"Expression of happiness or pride"}
+{"neuron":4895,"pole":"high","cluster":4,"mode":"A character expresses pride or a positive feeling about something.","happy_windows":0,"windows":5,"scene":"Positive self-reflection or feeling"}
+{"neuron":4895,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating connection or purpose","happy_windows":0,"windows":5,"scene":"neutral narration, description"}
+{"neuron":4895,"pole":"low","cluster":1,"mode":"prepositions indicating location or time","happy_windows":0,"windows":5,"scene":"historical, military"}
+{"neuron":10674,"pole":"high","cluster":0,"mode":"prepositions and conjunctions indicating purpose or connection","happy_windows":0,"windows":5,"scene":"business, marketing, technology"}
+{"neuron":10674,"pole":"high","cluster":1,"mode":"conjunctions indicating addition or consequence","happy_windows":0,"windows":5,"scene":"self-improvement, productivity, communication"}
+{"neuron":10674,"pole":"high","cluster":2,"mode":"nouns related to design, content, and strategy","happy_windows":0,"windows":5,"scene":"marketing, design, business"}
+{"neuron":10674,"pole":"high","cluster":3,"mode":"interrogative pronouns and relative pronouns","happy_windows":0,"windows":5,"scene":"storytelling, curiosity, questions"}
+{"neuron":10674,"pole":"high","cluster":4,"mode":"verbs indicating speech or action","happy_windows":0,"windows":5,"scene":"dialogue, storytelling, children's stories"}
+{"neuron":10674,"pole":"high","cluster":5,"mode":"conjunctions indicating contrast or sequence","happy_windows":0,"windows":5,"scene":"narrative, action, storytelling"}
+{"neuron":10674,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating purpose or connection","happy_windows":0,"windows":5,"scene":"instructions, advice, technical"}
+{"neuron":10674,"pole":"low","cluster":1,"mode":"nouns related to communication and organization","happy_windows":0,"windows":5,"scene":"business, marketing, events"}
+{"neuron":10674,"pole":"low","cluster":2,"mode":"nouns related to technology and components","happy_windows":0,"windows":5,"scene":"technical, manufacturing, electronics"}
+{"neuron":10674,"pole":"low","cluster":3,"mode":"prepositions and conjunctions indicating time, place, or condition","happy_windows":0,"windows":5,"scene":"narrative, historical, political"}
+{"neuron":10674,"pole":"low","cluster":4,"mode":"pronouns and conjunctions indicating possession or condition","happy_windows":0,"windows":5,"scene":"dialogue, storytelling, children's stories"}
+{"neuron":6177,"pole":"high","cluster":0,"mode":"punctuation indicating the end of a sentence or clause","happy_windows":0,"windows":5,"scene":"children's stories, daily life"}
+{"neuron":6177,"pole":"high","cluster":1,"mode":"determiner 'One' starting a narrative sentence","happy_windows":0,"windows":5,"scene":"children's stories, fairy tales"}
+{"neuron":6177,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating purpose or connection","happy_windows":0,"windows":5,"scene":"instructions, advice, business"}
+{"neuron":6177,"pole":"low","cluster":1,"mode":"nouns related to communication and organization","happy_windows":0,"windows":5,"scene":"business, marketing, events"}
+{"neuron":6177,"pole":"low","cluster":2,"mode":"nouns related to technology and components","happy_windows":0,"windows":5,"scene":"technical, manufacturing, electronics"}
+{"neuron":6177,"pole":"low","cluster":3,"mode":"prepositions and conjunctions indicating time, place, or condition","happy_windows":0,"windows":5,"scene":"narrative, historical, political"}
+{"neuron":4291,"pole":"high","cluster":0,"mode":"A character experiences a strong external force or event.","happy_windows":0,"windows":5,"scene":"Encountering a strong force or event"}
+{"neuron":4291,"pole":"high","cluster":1,"mode":"A character, often Lily, sees or hears something.","happy_windows":0,"windows":5,"scene":"Sensory perception or event"}
+{"neuron":4291,"pole":"high","cluster":2,"mode":"A character, often Lily, performs an action or has a reaction.","happy_windows":0,"windows":5,"scene":"Character action or reaction"}
+{"neuron":4291,"pole":"high","cluster":3,"mode":"A character, often Lily, interacts with animals or objects.","happy_windows":0,"windows":5,"scene":"Interaction with animals or objects"}
+{"neuron":4291,"pole":"high","cluster":4,"mode":"Technical terms or abbreviations, often related to medical or scientific contexts.","happy_windows":0,"windows":5,"scene":"Technical or scientific context"}
+{"neuron":4291,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating connection or purpose","happy_windows":0,"windows":5,"scene":"neutral narration, description"}
+{"neuron":4291,"pole":"low","cluster":1,"mode":"verbs indicating speech or perception","happy_windows":0,"windows":5,"scene":"dialogue, storytelling, children's stories"}
+{"neuron":4291,"pole":"low","cluster":2,"mode":"pronouns indicating the subject of a sentence","happy_windows":0,"windows":5,"scene":"narrative, action, storytelling"}
+{"neuron":4291,"pole":"low","cluster":3,"mode":"words related to sound, animals, and objects","happy_windows":0,"windows":5,"scene":"children's stories, animals, objects"}
+{"neuron":4291,"pole":"low","cluster":4,"mode":"parts of words, often related to body parts or actions","happy_windows":0,"windows":5,"scene":"description, action, body"}
+{"neuron":4291,"pole":"low","cluster":5,"mode":"conjunctions and prepositions indicating addition or inclusion","happy_windows":0,"windows":5,"scene":"recipes, instructions"}
+{"neuron":4291,"pole":"low","cluster":6,"mode":"words related to food, ingredients, and actions","happy_windows":0,"windows":5,"scene":"recipes, food, cooking"}
+{"neuron":11034,"pole":"high","cluster":0,"mode":"Technical terms related to engineering, facilities, or concepts.","happy_windows":0,"windows":5,"scene":"Technical or engineering context"}
+{"neuron":11034,"pole":"high","cluster":1,"mode":"A character, often Lily, interacts with the environment or objects.","happy_windows":0,"windows":5,"scene":"Interaction with environment or objects"}
+{"neuron":11034,"pole":"high","cluster":2,"mode":"A character, often Lily, performs an action or has a positive reaction.","happy_windows":0,"windows":5,"scene":"Character action or positive reaction"}
+{"neuron":11034,"pole":"high","cluster":3,"mode":"A character, often Lily, performs an action, often involving grabbing or sticking.","happy_windows":0,"windows":5,"scene":"Character performing an action"}
+{"neuron":11034,"pole":"high","cluster":4,"mode":"A character, often Lily, interacts with body parts or objects.","happy_windows":0,"windows":5,"scene":"Interaction with body parts or objects"}
+{"neuron":11034,"pole":"high","cluster":5,"mode":"Ingredients or components, often related to food preparation.","happy_windows":0,"windows":5,"scene":"Food ingredients or components"}
+{"neuron":11034,"pole":"high","cluster":6,"mode":"Ingredients or components, often related to food preparation.","happy_windows":0,"windows":5,"scene":"Food ingredients or components"}
+{"neuron":11034,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating purpose or connection","happy_windows":0,"windows":5,"scene":"instructions, advice, business"}
+{"neuron":11034,"pole":"low","cluster":1,"mode":"nouns related to communication and organization","happy_windows":0,"windows":5,"scene":"business, marketing, events"}
+{"neuron":11034,"pole":"low","cluster":2,"mode":"nouns related to technology and components","happy_windows":0,"windows":5,"scene":"technical, manufacturing, electronics"}
+{"neuron":10341,"pole":"high","cluster":0,"mode":"A character, often Lily, expresses agreement or a positive sentiment.","happy_windows":0,"windows":5,"scene":"Agreement or positive sentiment"}
+{"neuron":10341,"pole":"high","cluster":1,"mode":"A character or entity performs an action that leads to a positive outcome.","happy_windows":0,"windows":5,"scene":"Action leading to positive outcome"}
+{"neuron":10341,"pole":"high","cluster":2,"mode":"Historical or military terms related to battles and locations.","happy_windows":0,"windows":5,"scene":"Historical or military context"}
+{"neuron":10341,"pole":"low","cluster":0,"mode":"A character expresses a desire or makes a request.","happy_windows":0,"windows":5,"scene":"Desire or request"}
+{"neuron":10341,"pole":"low","cluster":1,"mode":"Ingredients or components, often related to food preparation.","happy_windows":0,"windows":5,"scene":"Food ingredients or components"}
+{"neuron":10341,"pole":"low","cluster":2,"mode":"A character expresses a desire or makes a request.","happy_windows":0,"windows":5,"scene":"Desire or request"}
+{"neuron":10341,"pole":"low","cluster":3,"mode":"A character expresses a desire or makes a request.","happy_windows":0,"windows":5,"scene":"Desire or request"}
+{"neuron":10341,"pole":"low","cluster":4,"mode":"A character expresses a desire or makes a request.","happy_windows":0,"windows":5,"scene":"Desire or request"}

@@ -1,0 +1,56 @@
+{"neuron":4589,"pole":"high","cluster":0,"mode":"sudden realization or change in situation, often with a positive or neutral outcome","happy_windows":0,"windows":5,"scene":"neutral realization"}
+{"neuron":4589,"pole":"high","cluster":1,"mode":"positive reflection on past events or future possibilities","happy_windows":5,"windows":5,"scene":"happy memories and thoughts"}
+{"neuron":4589,"pole":"low","cluster":0,"mode":"expressions of pride and happiness among friends or family","happy_windows":4,"windows":5,"scene":"celebration and pride"}
+{"neuron":4589,"pole":"low","cluster":1,"mode":"programming code snippets with specific syntax","happy_windows":0,"windows":5,"scene":"technical code"}
+{"neuron":4589,"pole":"low","cluster":2,"mode":"negative or critical commentary on societal norms or expectations","happy_windows":0,"windows":5,"scene":"critical social commentary"}
+{"neuron":11613,"pole":"high","cluster":0,"mode":"positive social interactions and shared happy experiences","happy_windows":5,"windows":5,"scene":"joyful friendship and play"}
+{"neuron":11613,"pole":"high","cluster":1,"mode":"positive reinforcement and praise for actions","happy_windows":3,"windows":5,"scene":"praise and encouragement"}
+{"neuron":11613,"pole":"low","cluster":0,"mode":"discussion of mental health, healing, and personal growth","happy_windows":0,"windows":5,"scene":"mental health discussion"}
+{"neuron":11613,"pole":"low","cluster":1,"mode":"positive interactions and happy moments between characters","happy_windows":5,"windows":5,"scene":"happy interactions"}
+{"neuron":11613,"pole":"low","cluster":2,"mode":"children playing and enjoying themselves","happy_windows":5,"windows":5,"scene":"children playing happily"}
+{"neuron":3724,"pole":"high","cluster":0,"mode":"discovery of something exciting or wonderful, often with exclamation","happy_windows":5,"windows":5,"scene":"exciting discoveries"}
+{"neuron":3724,"pole":"high","cluster":1,"mode":"negative emotions or situations, often leading to action","happy_windows":0,"windows":5,"scene":"difficult situations"}
+{"neuron":3724,"pole":"high","cluster":2,"mode":"dialogue where a character responds or agrees","happy_windows":0,"windows":5,"scene":"conversational responses"}
+{"neuron":3724,"pole":"low","cluster":0,"mode":"negative events or situations, often with a sense of finality","happy_windows":0,"windows":5,"scene":"negative outcomes"}
+{"neuron":3724,"pole":"low","cluster":1,"mode":"positive interactions and happy moments between characters","happy_windows":5,"windows":5,"scene":"happy interactions"}
+{"neuron":11046,"pole":"high","cluster":0,"mode":"contrasting elements or unexpected outcomes in a situation","happy_windows":0,"windows":5,"scene":"contrasting situations"}
+{"neuron":11046,"pole":"high","cluster":1,"mode":"characters experiencing fear or sadness","happy_windows":0,"windows":5,"scene":"fear and sadness"}
+{"neuron":11046,"pole":"high","cluster":2,"mode":"objects or events causing distress or damage","happy_windows":0,"windows":5,"scene":"distress and damage"}
+{"neuron":11046,"pole":"low","cluster":0,"mode":"medical or biological conditions and their effects","happy_windows":0,"windows":5,"scene":"medical conditions"}
+{"neuron":11046,"pole":"low","cluster":1,"mode":"negative emotions like guilt, envy, or boredom","happy_windows":0,"windows":5,"scene":"negative emotions"}
+{"neuron":11046,"pole":"low","cluster":2,"mode":"sudden, unexpected events, often with a negative connotation","happy_windows":0,"windows":5,"scene":"sudden negative events"}
+{"neuron":6492,"pole":"high","cluster":0,"mode":"sudden appearance or event, often with a sense of wonder or surprise","happy_windows":0,"windows":5,"scene":"sudden events"}
+{"neuron":6492,"pole":"high","cluster":1,"mode":"confession, realization, or positive action after a mistake","happy_windows":1,"windows":5,"scene":"resolution and laughter"}
+{"neuron":6492,"pole":"high","cluster":2,"mode":"references to historical or cultural groups and their governance","happy_windows":0,"windows":5,"scene":"historical/cultural context"}
+{"neuron":6492,"pole":"low","cluster":0,"mode":"historical military events and their consequences","happy_windows":0,"windows":5,"scene":"historical military events"}
+{"neuron":6492,"pole":"low","cluster":1,"mode":"characters experiencing new or surprising situations","happy_windows":0,"windows":5,"scene":"new experiences"}
+{"neuron":6492,"pole":"low","cluster":2,"mode":"children playing and enjoying themselves","happy_windows":5,"windows":5,"scene":"children playing happily"}
+{"neuron":6492,"pole":"low","cluster":3,"mode":"food preparation and enjoyment","happy_windows":0,"windows":5,"scene":"food preparation"}
+{"neuron":6492,"pole":"low","cluster":4,"mode":"suddenly, a sudden event or action occurs, often unexpectedly","happy_windows":0,"windows":5,"scene":"unexpected events happening"}
+{"neuron":8760,"pole":"high","cluster":0,"mode":"characters, often named Lily, experiencing everyday life","happy_windows":0,"windows":5,"scene":"everyday life"}
+{"neuron":8760,"pole":"high","cluster":1,"mode":"programming code snippets with specific syntax","happy_windows":0,"windows":5,"scene":"technical code"}
+{"neuron":8760,"pole":"high","cluster":2,"mode":"positive interactions and happy moments between characters","happy_windows":3,"windows":5,"scene":"happy interactions"}
+{"neuron":8760,"pole":"high","cluster":3,"mode":"food preparation and enjoyment","happy_windows":0,"windows":5,"scene":"food preparation"}
+{"neuron":8760,"pole":"low","cluster":0,"mode":"historical military events and their consequences","happy_windows":0,"windows":5,"scene":"historical military events"}
+{"neuron":8760,"pole":"low","cluster":1,"mode":"characters experiencing new or surprising situations","happy_windows":0,"windows":5,"scene":"new experiences"}
+{"neuron":2436,"pole":"high","cluster":0,"mode":"conversational exchanges, often with expressions of emotion or concern","happy_windows":0,"windows":5,"scene":"conversational exchanges"}
+{"neuron":2436,"pole":"high","cluster":1,"mode":"characters experiencing positive emotions or achieving goals","happy_windows":5,"windows":5,"scene":"positive achievements"}
+{"neuron":2436,"pole":"high","cluster":2,"mode":"positive interactions and expressions of gratitude","happy_windows":5,"windows":5,"scene":"positive interactions"}
+{"neuron":2436,"pole":"high","cluster":3,"mode":"cultural traditions, historical significance, and group dynamics","happy_windows":0,"windows":5,"scene":"cultural and historical context"}
+{"neuron":2436,"pole":"low","cluster":0,"mode":"characters expressing sadness or apology, often with comfort","happy_windows":0,"windows":5,"scene":"sadness and comfort"}
+{"neuron":2436,"pole":"low","cluster":1,"mode":"characters experiencing positive emotions or achieving goals","happy_windows":5,"windows":5,"scene":"positive achievements"}
+{"neuron":2436,"pole":"low","cluster":2,"mode":"characters expressing happiness and pride","happy_windows":5,"windows":5,"scene":"happiness and pride"}
+{"neuron":2436,"pole":"low","cluster":3,"mode":"characters experiencing new or surprising situations","happy_windows":0,"windows":5,"scene":"new experiences"}
+{"neuron":2436,"pole":"low","cluster":4,"mode":"sudden, unexpected events, often with a negative connotation","happy_windows":0,"windows":5,"scene":"sudden negative events"}
+{"neuron":378,"pole":"high","cluster":0,"mode":"factual statements or observations, often with a concluding punctuation","happy_windows":0,"windows":5,"scene":"factual statements"}
+{"neuron":378,"pole":"high","cluster":1,"mode":"dialogue where a character responds or agrees","happy_windows":0,"windows":5,"scene":"conversational responses"}
+{"neuron":378,"pole":"high","cluster":2,"mode":"food preparation and enjoyment","happy_windows":0,"windows":5,"scene":"food preparation"}
+{"neuron":378,"pole":"high","cluster":3,"mode":"positive interactions and happy moments between characters","happy_windows":5,"windows":5,"scene":"happy interactions"}
+{"neuron":378,"pole":"high","cluster":4,"mode":"conversational exchanges, often with expressions of emotion or concern","happy_windows":0,"windows":5,"scene":"conversational exchanges"}
+{"neuron":378,"pole":"low","cluster":0,"mode":"characters expressing sadness or apology, often with comfort","happy_windows":0,"windows":5,"scene":"sadness and comfort"}
+{"neuron":378,"pole":"low","cluster":1,"mode":"characters expressing happiness and pride","happy_windows":5,"windows":5,"scene":"happiness and pride"}
+{"neuron":378,"pole":"low","cluster":2,"mode":"characters expressing happiness and pride","happy_windows":5,"windows":5,"scene":"happiness and pride"}
+{"neuron":378,"pole":"low","cluster":3,"mode":"characters experiencing new or surprising situations","happy_windows":0,"windows":5,"scene":"new experiences"}
+{"neuron":378,"pole":"low","cluster":4,"mode":"sudden, unexpected events, often with a negative connotation","happy_windows":0,"windows":5,"scene":"sudden negative events"}
+{"neuron":378,"pole":"low","cluster":5,"mode":"sudden, unexpected events, often with a negative connotation","happy_windows":0,"windows":5,"scene":"sudden negative events"}
+{"neuron":378,"pole":"low","cluster":6,"mode":"exclamations of discovery or excitement","happy_windows":5,"windows":5,"scene":"exciting discoveries"}

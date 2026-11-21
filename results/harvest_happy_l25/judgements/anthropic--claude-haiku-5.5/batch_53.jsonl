@@ -1,0 +1,74 @@
+{"neuron":6283,"pole":"high","cluster":0,"mode":"Scholarly commentary on Deuteronomy's legal and religious content, with mid-sentence tokens","happy_windows":0,"windows":5,"scene":"Academic biblical scholarship, no joyful scene"}
+{"neuron":6283,"pole":"high","cluster":1,"mode":"Mid-phrase tokens in simple children's stories about feelings and objects","happy_windows":1,"windows":5,"scene":"Children's stories with mixed moods"}
+{"neuron":6283,"pole":"low","cluster":0,"mode":"Recipe and food-list ingredient tokens in cooking suggestions","happy_windows":0,"windows":5,"scene":"Recipe and food suggestion lists"}
+{"neuron":6283,"pole":"low","cluster":1,"mode":"Medical and scientific technical terms about disease and research","happy_windows":0,"windows":5,"scene":"Medical and scientific technical writing"}
+{"neuron":6283,"pole":"low","cluster":2,"mode":"Fun, laughing, and playful activity contexts with negation or continuation words","happy_windows":3,"windows":5,"scene":"Kids and families having fun, laughing, playing music"}
+{"neuron":6283,"pole":"low","cluster":3,"mode":"Business and marketing terms in advice and strategy text","happy_windows":0,"windows":5,"scene":"Business strategy and healthcare policy text"}
+{"neuron":6283,"pole":"low","cluster":4,"mode":"Verb 'thought' after characters' reflective or sad moments","happy_windows":2,"windows":5,"scene":"Characters reflecting, mostly calm or gloomy"}
+{"neuron":6283,"pole":"low","cluster":5,"mode":"Character 'smiled' after dialogue in warm family or friend exchanges","happy_windows":4,"windows":5,"scene":"Warm family and friend dialogue with smiles"}
+{"neuron":6283,"pole":"low","cluster":6,"mode":"Verbs 'play' and 'playing' describing children at play","happy_windows":4,"windows":5,"scene":"Children playing together outdoors"}
+{"neuron":10812,"pole":"high","cluster":0,"mode":"Emotion adjectives like 'so', 'was' before glad or happy","happy_windows":5,"windows":5,"scene":"Characters feeling happy, glad, and proud"}
+{"neuron":10812,"pole":"high","cluster":1,"mode":"The verb 'felt' before a character's emotion like happy or proud","happy_windows":4,"windows":5,"scene":"Characters feeling happy, proud, or content"}
+{"neuron":10812,"pole":"low","cluster":0,"mode":"Food and recipe ingredient or flavor words in neutral text","happy_windows":1,"windows":5,"scene":"Recipes and food descriptions, mostly neutral"}
+{"neuron":10812,"pole":"low","cluster":1,"mode":"Story opener 'Once upon a time, there' token","happy_windows":0,"windows":5,"scene":"Neutral story openings"}
+{"neuron":7498,"pole":"high","cluster":0,"mode":"Tokens after joyful actions like laughing, clapping, or having a great time","happy_windows":4,"windows":5,"scene":"Children and creatures laughing, celebrating, having fun"}
+{"neuron":7498,"pole":"high","cluster":1,"mode":"The word 'all' in phrases like 'all the time' or 'all day'","happy_windows":2,"windows":5,"scene":"Playful days at the beach and games"}
+{"neuron":7498,"pole":"low","cluster":0,"mode":"Mid-sentence tokens in mixed or neutral narrative and debate text","happy_windows":1,"windows":5,"scene":"Mixed narration, some neutral or gloomy moods"}
+{"neuron":7498,"pole":"low","cluster":1,"mode":"Comma in the story opener 'Once upon a time,'","happy_windows":0,"windows":5,"scene":"Neutral story openings"}
+{"neuron":7498,"pole":"low","cluster":2,"mode":"The word 'was' in story openers 'there was'","happy_windows":0,"windows":5,"scene":"Neutral story openings"}
+{"neuron":7498,"pole":"low","cluster":3,"mode":"The word 'there' in story openers after a comma","happy_windows":0,"windows":5,"scene":"Neutral story openings"}
+{"neuron":4724,"pole":"high","cluster":0,"mode":"Verbs of exploring, helping, or searching in character-driven stories","happy_windows":3,"windows":5,"scene":"Characters exploring, helping, and enjoying discoveries"}
+{"neuron":4724,"pole":"high","cluster":1,"mode":"Code and markup tokens in programming snippets","happy_windows":0,"windows":5,"scene":"Programming and web code snippets"}
+{"neuron":4724,"pole":"high","cluster":2,"mode":"Name and proper-noun fragments in historical and academic text","happy_windows":0,"windows":5,"scene":"Historical and encyclopedic text"}
+{"neuron":4724,"pole":"low","cluster":0,"mode":"Sentence-final periods in advice and instructional text","happy_windows":0,"windows":5,"scene":"Advice and instructional writing"}
+{"neuron":4724,"pole":"low","cluster":1,"mode":"Technical or medical terms and conjunctions in informational text","happy_windows":0,"windows":5,"scene":"Medical and informational writing"}
+{"neuron":4724,"pole":"low","cluster":2,"mode":"Conjunctions 'and' in ingredient lists and recipe steps","happy_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":4724,"pole":"low","cluster":3,"mode":"Nouns in business, education, and program descriptions","happy_windows":0,"windows":5,"scene":"Business and education descriptions"}
+{"neuron":4724,"pole":"low","cluster":4,"mode":"The word 'inside' or location nouns after a character moves","happy_windows":1,"windows":5,"scene":"Characters going indoors or to places, mostly neutral"}
+{"neuron":4724,"pole":"low","cluster":5,"mode":"Superlatives and 'happy' or 'biggest' in challenge and reward moments","happy_windows":2,"windows":5,"scene":"Competitions, challenges, and small triumphs"}
+{"neuron":11899,"pole":"high","cluster":0,"mode":"The word 'of' in institution names like Department of or Institute of","happy_windows":0,"windows":5,"scene":"Institutional and governmental news text"}
+{"neuron":11899,"pole":"high","cluster":1,"mode":"Partial tokens in citations and reference lists","happy_windows":0,"windows":5,"scene":"Bibliographies and citations"}
+{"neuron":11899,"pole":"high","cluster":2,"mode":"Tokens in scholarly discussion of Deuteronomy and authorship","happy_windows":0,"windows":5,"scene":"Biblical scholarship"}
+{"neuron":11899,"pole":"high","cluster":3,"mode":"Word fragments in recipes and descriptive prose","happy_windows":0,"windows":5,"scene":"Recipes and nature descriptions"}
+{"neuron":11899,"pole":"high","cluster":4,"mode":"Science, energy, and policy nouns in technical articles","happy_windows":0,"windows":5,"scene":"Energy, environment, and science articles"}
+{"neuron":11899,"pole":"high","cluster":5,"mode":"Perception verbs 'saw' or 'met' in character stories","happy_windows":0,"windows":5,"scene":"Animal and character encounters, mostly neutral"}
+{"neuron":11899,"pole":"high","cluster":6,"mode":"The adjective 'happy' after a character's joyful situation","happy_windows":4,"windows":5,"scene":"Families and friends happy, laughing, sharing"}
+{"neuron":11899,"pole":"high","cluster":7,"mode":"Negation and pronouns in tense or fearful story moments","happy_windows":1,"windows":5,"scene":"Tense or scared adventure moments"}
+{"neuron":11899,"pole":"high","cluster":8,"mode":"Pronouns starting clauses in stories about effort or surprise","happy_windows":1,"windows":5,"scene":"Small creature adventures, mixed moods"}
+{"neuron":11899,"pole":"low","cluster":0,"mode":"Single digits inside numbers in measurements and citations","happy_windows":0,"windows":5,"scene":"Technical facts and reference numbers"}
+{"neuron":11899,"pole":"low","cluster":1,"mode":"Punctuation and pronoun tokens in dialogue and everyday narration","happy_windows":0,"windows":5,"scene":"Everyday dialogue and household scenes"}
+{"neuron":11899,"pole":"low","cluster":2,"mode":"Capitalized name or letter fragments in reference and directory text","happy_windows":0,"windows":5,"scene":"Directory and reference listings"}
+{"neuron":11291,"pole":"high","cluster":0,"mode":"Character names like Tim, Tom, Sandy in simple stories","happy_windows":2,"windows":5,"scene":"Children's stories with a named boy or girl"}
+{"neuron":11291,"pole":"high","cluster":1,"mode":"Proper nouns and institution names in news and encyclopedic text","happy_windows":0,"windows":5,"scene":"News and encyclopedic writing"}
+{"neuron":11291,"pole":"high","cluster":2,"mode":"Sentence-final periods ending happy story moments","happy_windows":3,"windows":5,"scene":"Happy animal and friendship story endings"}
+{"neuron":11291,"pole":"high","cluster":3,"mode":"Code tokens in programming scripts","happy_windows":0,"windows":5,"scene":"Programming code snippets"}
+{"neuron":11291,"pole":"high","cluster":4,"mode":"Business and product nouns in advice text","happy_windows":0,"windows":5,"scene":"Business and product advice"}
+{"neuron":11291,"pole":"high","cluster":5,"mode":"Verb 'help' or 'with' in advice about benefits","happy_windows":0,"windows":5,"scene":"Advice on benefits and learning"}
+{"neuron":11291,"pole":"high","cluster":6,"mode":"Quoted speech introduced by 'said' or 'mom' in short children's stories","happy_windows":1,"windows":5,"scene":"Parent and child dialogue, mostly mild or worried, one happy ending"}
+{"neuron":11291,"pole":"high","cluster":7,"mode":"Object pronouns and nouns after actions in short stories","happy_windows":1,"windows":5,"scene":"Everyday child adventures, mixed moods"}
+{"neuron":11291,"pole":"high","cluster":8,"mode":"Possessive pronouns referring to mom or toys","happy_windows":2,"windows":5,"scene":"Child and mom warm moments"}
+{"neuron":11291,"pole":"low","cluster":0,"mode":"Sentence-ending periods followed by trailing spaces before user turns","happy_windows":0,"windows":5,"scene":"Assistant chat and article endings"}
+{"neuron":11291,"pole":"low","cluster":1,"mode":"Periods ending marketing or service claims","happy_windows":0,"windows":5,"scene":"Business and service promotional text"}
+{"neuron":11291,"pole":"low","cluster":2,"mode":"The word 'smiled' or 'laughed' after a parent or child's reaction","happy_windows":3,"windows":5,"scene":"Parents and children reacting warmly"}
+{"neuron":11291,"pole":"low","cluster":3,"mode":"Sentence-final periods closing happy, celebratory story endings","happy_windows":4,"windows":5,"scene":"Friends and animals celebrating or playing together"}
+{"neuron":8415,"pole":"high","cluster":0,"mode":"Nouns and verbs ending advice or reflective career sentences","happy_windows":1,"windows":5,"scene":"Career, cooking, and advice reflections"}
+{"neuron":8415,"pole":"high","cluster":1,"mode":"Sentence-final periods after conclusive or summary statements","happy_windows":1,"windows":5,"scene":"Summaries and conclusions, some warm family moments"}
+{"neuron":8415,"pole":"low","cluster":0,"mode":"Possessive pronouns 'his' or 'her' near scared or sad characters","happy_windows":0,"windows":5,"scene":"Scared or sad characters in tense moments"}
+{"neuron":8415,"pole":"low","cluster":1,"mode":"Quotation marks after dialogue lines in kind exchanges","happy_windows":1,"windows":5,"scene":"Dialogue between characters, some warm"}
+{"neuron":8415,"pole":"low","cluster":2,"mode":"Verbs and prepositions in dark or emotional character moments","happy_windows":0,"windows":5,"scene":"Tense or emotional character moments"}
+{"neuron":8415,"pole":"low","cluster":3,"mode":"Determiners and nouns near fear, hugs, and dark woods","happy_windows":0,"windows":5,"scene":"Scary forests and fearful encounters"}
+{"neuron":8415,"pole":"low","cluster":4,"mode":"Sentence-final periods after pleasant or sad scene descriptions","happy_windows":3,"windows":5,"scene":"Pleasant outings, ice cream, friendship"}
+{"neuron":8415,"pole":"low","cluster":5,"mode":"Closing quotes and periods after affectionate remarks","happy_windows":2,"windows":5,"scene":"Affectionate gifts and family visits"}
+{"neuron":8415,"pole":"low","cluster":6,"mode":"Tokens in danger, battle, or captivity narratives","happy_windows":0,"windows":5,"scene":"Battles, fires, and captivity"}
+{"neuron":8415,"pole":"low","cluster":7,"mode":"'smiled' as the verb right after a character subject, before speech or action","happy_windows":5,"windows":5,"scene":"Characters smiling warmly during friendly exchanges with family or friends"}
+{"neuron":5060,"pole":"high","cluster":0,"mode":"Methodological terms in scientific and dietary research descriptions","happy_windows":0,"windows":5,"scene":"Academic research and study methodology descriptions"}
+{"neuron":5060,"pole":"high","cluster":1,"mode":"Customer and client experience wording in business and marketing advice","happy_windows":0,"windows":5,"scene":"Business marketing and customer service advice"}
+{"neuron":5060,"pole":"high","cluster":2,"mode":"Technical and historical reference text, mid-sentence word fragments","happy_windows":0,"windows":5,"scene":"Technical reports, references, and historical captions"}
+{"neuron":5060,"pole":"high","cluster":3,"mode":"Step-by-step cooking instruction wording such as boil, until, and into","happy_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":5060,"pole":"high","cluster":4,"mode":"Pronouns and 'You' in dialogue reacting to another character's action","happy_windows":1,"windows":5,"scene":"Children's dialogue between friends and family, mixed moods"}
+{"neuron":5060,"pole":"high","cluster":5,"mode":"Clause and sentence boundaries in short stories about daily events","happy_windows":1,"windows":5,"scene":"Children's stories about outings, games, and small mishaps"}
+{"neuron":5060,"pole":"low","cluster":0,"mode":"Sentence-ending punctuation after emotional states like happy or amazed","happy_windows":4,"windows":5,"scene":"Children's stories with characters feeling happy or amazed"}
+{"neuron":5060,"pole":"low","cluster":1,"mode":"Medical and disease terms in health and condition descriptions","happy_windows":0,"windows":5,"scene":"Medical and health information about diseases and treatments"}
+{"neuron":5060,"pole":"low","cluster":2,"mode":"Narrative 'she' or 'was' after 'one day' in simple children's stories","happy_windows":0,"windows":5,"scene":"Simple children's stories about Lily and daily activities"}
+{"neuron":5060,"pole":"low","cluster":3,"mode":"Emotion adjectives like sad, angry, tired, and hard in story narration","happy_windows":0,"windows":5,"scene":"Children's stories with sad, tired, or frustrated moods"}
+{"neuron":5060,"pole":"low","cluster":4,"mode":"Proper names and capitalized fragments in factual encyclopedic text","happy_windows":0,"windows":5,"scene":"Factual articles on animals, science, and history"}

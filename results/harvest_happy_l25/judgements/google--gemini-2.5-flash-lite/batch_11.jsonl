@@ -1,0 +1,68 @@
+{"neuron":624,"pole":"high","cluster":0,"mode":"children going to a specific place, often the park","happy_windows":0,"windows":5,"scene":"children going places"}
+{"neuron":624,"pole":"high","cluster":1,"mode":"children going to a specific place, often the park","happy_windows":0,"windows":5,"scene":"children going places"}
+{"neuron":624,"pole":"high","cluster":2,"mode":"children playing games and having fun","happy_windows":5,"windows":5,"scene":"children playing games"}
+{"neuron":624,"pole":"high","cluster":3,"mode":"places children go to play or relax","happy_windows":2,"windows":5,"scene":"children at park or beach"}
+{"neuron":624,"pole":"high","cluster":4,"mode":"children happy and learning new things","happy_windows":5,"windows":5,"scene":"children happy and learning"}
+{"neuron":624,"pole":"high","cluster":5,"mode":"children happy and excited to go places","happy_windows":5,"windows":5,"scene":"children excited for outings"}
+{"neuron":624,"pole":"low","cluster":0,"mode":"saying goodbye after an activity","happy_windows":0,"windows":5,"scene":"saying goodbye"}
+{"neuron":624,"pole":"low","cluster":1,"mode":"foreign words or abbreviations","happy_windows":0,"windows":5,"scene":"foreign words"}
+{"neuron":624,"pole":"low","cluster":2,"mode":"children feeling sad","happy_windows":0,"windows":5,"scene":"children feeling sad"}
+{"neuron":624,"pole":"low","cluster":3,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"food preparation"}
+{"neuron":6785,"pole":"high","cluster":0,"mode":"illustrating or explaining something","happy_windows":0,"windows":5,"scene":"explaining or illustrating"}
+{"neuron":6785,"pole":"high","cluster":1,"mode":"asking for more details or information","happy_windows":0,"windows":5,"scene":"requesting more details"}
+{"neuron":6785,"pole":"low","cluster":0,"mode":"children playing outside","happy_windows":0,"windows":5,"scene":"children playing outside"}
+{"neuron":6785,"pole":"low","cluster":1,"mode":"objects or items","happy_windows":0,"windows":5,"scene":"objects or items"}
+{"neuron":3966,"pole":"high","cluster":0,"mode":"children running and playing","happy_windows":1,"windows":5,"scene":"children playing"}
+{"neuron":3966,"pole":"high","cluster":1,"mode":"children running around and playing","happy_windows":5,"windows":5,"scene":"children playing"}
+{"neuron":3966,"pole":"low","cluster":0,"mode":"hugging or showing affection","happy_windows":0,"windows":5,"scene":"showing affection"}
+{"neuron":3966,"pole":"low","cluster":1,"mode":"children asking questions","happy_windows":0,"windows":5,"scene":"children asking questions"}
+{"neuron":7627,"pole":"high","cluster":0,"mode":"children asking for things or making requests","happy_windows":0,"windows":5,"scene":"children making requests"}
+{"neuron":7627,"pole":"high","cluster":1,"mode":"using 'I' statements in conversation","happy_windows":0,"windows":5,"scene":"personal statements"}
+{"neuron":7627,"pole":"high","cluster":2,"mode":"children playing or interacting","happy_windows":0,"windows":5,"scene":"children playing"}
+{"neuron":7627,"pole":"high","cluster":3,"mode":"serious or important topics","happy_windows":0,"windows":5,"scene":"serious topics"}
+{"neuron":7627,"pole":"high","cluster":4,"mode":"children playing or interacting","happy_windows":0,"windows":5,"scene":"children playing"}
+{"neuron":7627,"pole":"low","cluster":0,"mode":"children expressing emotions or asking for things","happy_windows":0,"windows":5,"scene":"children expressing emotions"}
+{"neuron":7627,"pole":"low","cluster":1,"mode":"food items or recipes","happy_windows":0,"windows":5,"scene":"food items"}
+{"neuron":8339,"pole":"high","cluster":0,"mode":"children playing and having fun","happy_windows":5,"windows":5,"scene":"children playing"}
+{"neuron":8339,"pole":"high","cluster":1,"mode":"children playing games","happy_windows":5,"windows":5,"scene":"children playing games"}
+{"neuron":8339,"pole":"low","cluster":0,"mode":"games or activities","happy_windows":0,"windows":5,"scene":"games or activities"}
+{"neuron":8339,"pole":"low","cluster":1,"mode":"describing a little child or object","happy_windows":0,"windows":5,"scene":"describing small things"}
+{"neuron":5663,"pole":"high","cluster":0,"mode":"dialogue, often involving mothers and children","happy_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":5663,"pole":"high","cluster":1,"mode":"sentences ending with punctuation","happy_windows":0,"windows":5,"scene":"ending punctuation"}
+{"neuron":5663,"pole":"high","cluster":2,"mode":"dialogue involving family members","happy_windows":3,"windows":5,"scene":"family dialogue"}
+{"neuron":5663,"pole":"high","cluster":3,"mode":"hugging and showing affection","happy_windows":5,"windows":5,"scene":"showing affection"}
+{"neuron":5663,"pole":"high","cluster":4,"mode":"dialogue, often involving mothers and children","happy_windows":5,"windows":5,"scene":"dialogue"}
+{"neuron":5663,"pole":"high","cluster":5,"mode":"nationalities or origins","happy_windows":0,"windows":5,"scene":"nationalities or origins"}
+{"neuron":5663,"pole":"high","cluster":6,"mode":"people and their actions","happy_windows":0,"windows":5,"scene":"people and actions"}
+{"neuron":5663,"pole":"high","cluster":7,"mode":"engagement and interaction","happy_windows":0,"windows":5,"scene":"engagement and interaction"}
+{"neuron":5663,"pole":"low","cluster":0,"mode":"expressing affection or apology","happy_windows":0,"windows":5,"scene":"affection or apology"}
+{"neuron":5663,"pole":"low","cluster":1,"mode":"food items or recipes","happy_windows":0,"windows":5,"scene":"food items"}
+{"neuron":5663,"pole":"low","cluster":2,"mode":"family members or relationships","happy_windows":0,"windows":5,"scene":"family members"}
+{"neuron":5663,"pole":"low","cluster":3,"mode":"children going places or doing activities","happy_windows":0,"windows":5,"scene":"children going places"}
+{"neuron":5663,"pole":"low","cluster":4,"mode":"children playing or interacting","happy_windows":0,"windows":5,"scene":"children playing"}
+{"neuron":5663,"pole":"low","cluster":5,"mode":"children playing or interacting","happy_windows":0,"windows":5,"scene":"children playing"}
+{"neuron":5663,"pole":"low","cluster":6,"mode":"child expresses fear or sadness, then is comforted by a friend or family member.","happy_windows":0,"windows":5,"scene":"comforting a scared child"}
+{"neuron":5663,"pole":"low","cluster":7,"mode":"characters smile, often after a positive interaction or event.","happy_windows":5,"windows":5,"scene":"happy interactions and positive feelings"}
+{"neuron":6954,"pole":"high","cluster":0,"mode":"dialogue indicating a negative or uncertain situation, often involving fear or broken promises.","happy_windows":0,"windows":5,"scene":"dialogue about negative situations"}
+{"neuron":6954,"pole":"high","cluster":1,"mode":"characters notice or hear something unusual, strange, or terrible.","happy_windows":0,"windows":5,"scene":"noticing something unusual"}
+{"neuron":6954,"pole":"high","cluster":2,"mode":"child expresses excitement or happiness about an activity or event.","happy_windows":5,"windows":5,"scene":"child's excitement and happiness"}
+{"neuron":6954,"pole":"high","cluster":3,"mode":"describing processes or events that involve specific materials or actions.","happy_windows":0,"windows":5,"scene":"describing processes and events"}
+{"neuron":6954,"pole":"high","cluster":4,"mode":"introduction of a character named Lily, often starting a story.","happy_windows":0,"windows":5,"scene":"introducing a character named Lily"}
+{"neuron":6954,"pole":"high","cluster":5,"mode":"character is tired or weak, often needing rest or help.","happy_windows":0,"windows":5,"scene":"character is tired or weak"}
+{"neuron":6954,"pole":"high","cluster":6,"mode":"character experiences happiness or excitement, often during play or an activity.","happy_windows":5,"windows":5,"scene":"character's happiness and excitement"}
+{"neuron":6954,"pole":"low","cluster":0,"mode":"dialogue expressing apology, regret, or a request for forgiveness.","happy_windows":0,"windows":5,"scene":"dialogue about apologies"}
+{"neuron":6954,"pole":"low","cluster":1,"mode":"characters interact with or observe an object, often with a sense of wonder or curiosity.","happy_windows":0,"windows":5,"scene":"interacting with objects"}
+{"neuron":6954,"pole":"low","cluster":2,"mode":"child is sad or scared, often needing comfort or reassurance.","happy_windows":0,"windows":5,"scene":"child's sadness or fear"}
+{"neuron":6954,"pole":"low","cluster":3,"mode":"character performs an action, often involving movement or interaction.","happy_windows":0,"windows":5,"scene":"character performing an action"}
+{"neuron":6954,"pole":"low","cluster":4,"mode":"character experiences joy or relief, often after a positive event or interaction.","happy_windows":5,"windows":5,"scene":"character's joy and relief"}
+{"neuron":3786,"pole":"high","cluster":0,"mode":"citations and publication details","happy_windows":0,"windows":5,"scene":"citations and publications"}
+{"neuron":3786,"pole":"high","cluster":1,"mode":"ingredients and food items","happy_windows":0,"windows":5,"scene":"ingredients and food"}
+{"neuron":3786,"pole":"high","cluster":2,"mode":"adding flavor or ingredients to food","happy_windows":0,"windows":5,"scene":"adding flavor or ingredients"}
+{"neuron":3786,"pole":"high","cluster":3,"mode":"children expressing emotions or making statements","happy_windows":0,"windows":5,"scene":"children expressing emotions"}
+{"neuron":3786,"pole":"high","cluster":4,"mode":"sentences starting with 'Once upon a time'","happy_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":3786,"pole":"low","cluster":0,"mode":"food preparation instructions","happy_windows":0,"windows":5,"scene":"food preparation instructions"}
+{"neuron":3786,"pole":"low","cluster":1,"mode":"health and wellness topics","happy_windows":0,"windows":5,"scene":"health and wellness"}
+{"neuron":3786,"pole":"low","cluster":2,"mode":"family members or relationships","happy_windows":0,"windows":5,"scene":"family members"}
+{"neuron":3786,"pole":"low","cluster":3,"mode":"children going places or doing activities","happy_windows":0,"windows":5,"scene":"children going places"}
+{"neuron":3786,"pole":"low","cluster":4,"mode":"children playing or interacting","happy_windows":0,"windows":5,"scene":"children playing"}
+{"neuron":3786,"pole":"low","cluster":5,"mode":"children playing or interacting","happy_windows":0,"windows":5,"scene":"children playing"}

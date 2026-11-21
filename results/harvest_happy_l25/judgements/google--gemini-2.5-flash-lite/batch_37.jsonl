@@ -1,0 +1,45 @@
+{"neuron":10197,"pole":"high","cluster":0,"mode":"Introduction of a young girl or boy in a story.","happy_windows":0,"windows":5,"scene":"Neutral story introduction"}
+{"neuron":10197,"pole":"high","cluster":1,"mode":"Words indicating totality or inclusion of all items.","happy_windows":0,"windows":5,"scene":"Technical or factual description"}
+{"neuron":10197,"pole":"low","cluster":0,"mode":"Words expressing positive emotions like excitement and happiness.","happy_windows":3,"windows":5,"scene":"Joyful childhood moments"}
+{"neuron":10197,"pole":"low","cluster":1,"mode":"Prepositions indicating location or time.","happy_windows":0,"windows":5,"scene":"Neutral narration or factual context"}
+{"neuron":5659,"pole":"high","cluster":0,"mode":"Verbs related to setting, displaying, or positioning information.","happy_windows":0,"windows":5,"scene":"Technical or instructional text"}
+{"neuron":5659,"pole":"high","cluster":1,"mode":"Words expressing positive emotions and actions.","happy_windows":4,"windows":5,"scene":"Joyful childhood play"}
+{"neuron":5659,"pole":"high","cluster":2,"mode":"Nouns related to organized activities and communication.","happy_windows":0,"windows":5,"scene":"Informational or educational context"}
+{"neuron":5659,"pole":"low","cluster":0,"mode":"Verbs and participles describing movement and exploration.","happy_windows":3,"windows":5,"scene":"Joyful childhood exploration"}
+{"neuron":5659,"pole":"low","cluster":1,"mode":"Verbs indicating speech or communication.","happy_windows":2,"windows":5,"scene":"Childhood interactions"}
+{"neuron":1976,"pole":"high","cluster":0,"mode":"Words indicating possession, conjunction, and action.","happy_windows":4,"windows":5,"scene":"Happy childhood play"}
+{"neuron":1976,"pole":"high","cluster":1,"mode":"Verbs indicating a decision or choice.","happy_windows":0,"windows":5,"scene":"Narrative progression"}
+{"neuron":1976,"pole":"low","cluster":0,"mode":"Pronouns indicating possession.","happy_windows":0,"windows":5,"scene":"Childhood narration"}
+{"neuron":1976,"pole":"low","cluster":1,"mode":"Prepositions indicating location or inclusion.","happy_windows":3,"windows":5,"scene":"Joyful childhood play"}
+{"neuron":1976,"pole":"low","cluster":2,"mode":"Punctuation marks indicating the end of a sentence.","happy_windows":3,"windows":5,"scene":"Happy childhood moments"}
+{"neuron":1976,"pole":"low","cluster":3,"mode":"Words indicating possession or belonging.","happy_windows":0,"windows":5,"scene":"Childhood narration"}
+{"neuron":1976,"pole":"low","cluster":4,"mode":"Conjunctions and pronouns indicating connection and action.","happy_windows":4,"windows":5,"scene":"Happy childhood play"}
+{"neuron":11047,"pole":"high","cluster":0,"mode":"Relative pronouns and prepositions indicating connection and manner.","happy_windows":0,"windows":5,"scene":"Marketing or informational text"}
+{"neuron":11047,"pole":"high","cluster":1,"mode":"Punctuation and abbreviations indicating publication details.","happy_windows":0,"windows":5,"scene":"Bibliographic or citation context"}
+{"neuron":11047,"pole":"low","cluster":0,"mode":"Punctuation indicating the end of a sentence or pause.","happy_windows":0,"windows":5,"scene":"Descriptive or narrative text"}
+{"neuron":11047,"pole":"low","cluster":1,"mode":"Conjunctions and auxiliary verbs indicating connection and possibility.","happy_windows":2,"windows":5,"scene":"Reflective or descriptive moments"}
+{"neuron":10105,"pole":"high","cluster":0,"mode":"Words expressing positive emotions and actions.","happy_windows":4,"windows":5,"scene":"Joyful childhood experiences"}
+{"neuron":10105,"pole":"high","cluster":1,"mode":"Punctuation indicating the end of a sentence.","happy_windows":0,"windows":5,"scene":"Story introductions"}
+{"neuron":10105,"pole":"low","cluster":0,"mode":"Pronouns and verbs indicating possession or action.","happy_windows":0,"windows":5,"scene":"Narrative or analytical text"}
+{"neuron":10105,"pole":"low","cluster":1,"mode":"Interrogative adverbs and phrases seeking more information.","happy_windows":0,"windows":5,"scene":"Question and answer format"}
+{"neuron":5211,"pole":"high","cluster":0,"mode":"Phrases seeking further information or examples.","happy_windows":0,"windows":5,"scene":"Interactive or informational context"}
+{"neuron":5211,"pole":"high","cluster":1,"mode":"Words indicating possession, relationship, or identity.","happy_windows":1,"windows":5,"scene":"Childhood interactions"}
+{"neuron":5211,"pole":"high","cluster":2,"mode":"Auxiliary verbs indicating past or potential actions.","happy_windows":2,"windows":5,"scene":"Childhood stories"}
+{"neuron":5211,"pole":"low","cluster":0,"mode":"Nouns related to objects or abstract concepts.","happy_windows":0,"windows":5,"scene":"Descriptive narration"}
+{"neuron":5211,"pole":"low","cluster":1,"mode":"Phrases seeking more details or explanations.","happy_windows":0,"windows":5,"scene":"Interactive or informational context"}
+{"neuron":1913,"pole":"high","cluster":0,"mode":"Words related to historical events, figures, and objects.","happy_windows":0,"windows":5,"scene":"Historical or factual context"}
+{"neuron":1913,"pole":"high","cluster":1,"mode":"Verbs indicating movement, perception, or action.","happy_windows":0,"windows":5,"scene":"Narrative progression"}
+{"neuron":1913,"pole":"high","cluster":2,"mode":"Nouns referring to animals and objects.","happy_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":1913,"pole":"high","cluster":3,"mode":"Punctuation indicating the end of a sentence.","happy_windows":4,"windows":5,"scene":"Happy childhood moments"}
+{"neuron":1913,"pole":"low","cluster":0,"mode":"Nouns referring to animals and objects.","happy_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":1913,"pole":"low","cluster":1,"mode":"Verbs indicating perception or observation.","happy_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":1913,"pole":"low","cluster":2,"mode":"Modal verbs indicating possibility or belonging.","happy_windows":0,"windows":5,"scene":"Academic or speculative text"}
+{"neuron":1913,"pole":"low","cluster":3,"mode":"Verbs indicating perception or observation.","happy_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":1913,"pole":"low","cluster":4,"mode":"Articles indicating specific nouns.","happy_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":10886,"pole":"high","cluster":0,"mode":"Standard introductory phrase for fairy tales.","happy_windows":0,"windows":5,"scene":"Story introductions"}
+{"neuron":10886,"pole":"high","cluster":1,"mode":"Pronouns indicating the subject of the sentence.","happy_windows":2,"windows":5,"scene":"Childhood interactions"}
+{"neuron":10886,"pole":"high","cluster":2,"mode":"Prepositions indicating origin or time.","happy_windows":0,"windows":5,"scene":"Narrative progression"}
+{"neuron":10886,"pole":"low","cluster":0,"mode":"Pronouns indicating the subject of the sentence.","happy_windows":0,"windows":5,"scene":"Childhood narration"}
+{"neuron":10886,"pole":"low","cluster":1,"mode":"Verbs indicating perception or observation.","happy_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":10886,"pole":"low","cluster":2,"mode":"Modal verbs indicating possibility or belonging.","happy_windows":0,"windows":5,"scene":"Academic or speculative text"}
+{"neuron":10886,"pole":"low","cluster":3,"mode":"Verbs indicating perception or observation.","happy_windows":0,"windows":5,"scene":"Children's stories"}
