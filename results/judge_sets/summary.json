@@ -1,0 +1,604 @@
+{
+ "overall": {
+  "both": {
+   "n": 80,
+   "named_related": 0.2125,
+   "named_related_ci": [
+    0.13712274217035494,
+    0.3142236061817758
+   ],
+   "named_clear": 0.025,
+   "named_clear_ci": [
+    0.006882748898125228,
+    0.08664600055322111
+   ],
+   "any_emotion": 0.2625,
+   "kinds": {
+    "word": 0.1375,
+    "situation": 0.125,
+    "body": 0.05,
+    "syntax": 0.3875,
+    "topic": 0.1,
+    "unclear": 0.2
+   }
+  },
+  "only_signal": {
+   "n": 80,
+   "named_related": 0.2125,
+   "named_related_ci": [
+    0.13712274217035494,
+    0.3142236061817758
+   ],
+   "named_clear": 0.0,
+   "named_clear_ci": [
+    -3.469446951953614e-18,
+    0.0458197362645751
+   ],
+   "any_emotion": 0.2875,
+   "kinds": {
+    "word": 0.1125,
+    "situation": 0.1,
+    "body": 0.0125,
+    "syntax": 0.3625,
+    "topic": 0.125,
+    "unclear": 0.2875
+   }
+  },
+  "random": {
+   "n": 20,
+   "named_related": 0.0,
+   "named_related_ci": [
+    -1.3877787807814457e-17,
+    0.16113012549493322
+   ],
+   "named_clear": 0.0,
+   "named_clear_ci": [
+    -1.3877787807814457e-17,
+    0.16113012549493322
+   ],
+   "any_emotion": 0.1,
+   "kinds": {
+    "word": 0.1,
+    "situation": 0.0,
+    "body": 0.0,
+    "syntax": 0.3,
+    "topic": 0.15,
+    "unclear": 0.45
+   }
+  }
+ },
+ "per_emotion": {
+  "afraid": {
+   "both": {
+    "n": 20,
+    "named_related": 0.25,
+    "named_related_ci": [
+     0.11186005278940309,
+     0.4687050099580636
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -1.3877787807814457e-17,
+     0.16113012549493322
+    ],
+    "any_emotion": 0.2,
+    "kinds": {
+     "word": 0.15,
+     "situation": 0.2,
+     "body": 0.1,
+     "syntax": 0.25,
+     "topic": 0.15,
+     "unclear": 0.15
+    }
+   },
+   "only_signal": {
+    "n": 20,
+    "named_related": 0.3,
+    "named_related_ci": [
+     0.14547527396899385,
+     0.5189767762289793
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -1.3877787807814457e-17,
+     0.16113012549493322
+    ],
+    "any_emotion": 0.3,
+    "kinds": {
+     "word": 0.0,
+     "situation": 0.2,
+     "body": 0.0,
+     "syntax": 0.2,
+     "topic": 0.2,
+     "unclear": 0.4
+    }
+   },
+   "random": {
+    "n": 5,
+    "named_related": 0.0,
+    "named_related_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "any_emotion": 0.0,
+    "kinds": {
+     "word": 0.0,
+     "situation": 0.0,
+     "body": 0.0,
+     "syntax": 0.8,
+     "topic": 0.0,
+     "unclear": 0.2
+    }
+   }
+  },
+  "happy": {
+   "both": {
+    "n": 20,
+    "named_related": 0.15,
+    "named_related_ci": [
+     0.05236779195949584,
+     0.36042329588695743
+    ],
+    "named_clear": 0.05,
+    "named_clear_ci": [
+     0.008881219432873136,
+     0.23613589351256675
+    ],
+    "any_emotion": 0.35,
+    "kinds": {
+     "word": 0.05,
+     "situation": 0.2,
+     "body": 0.0,
+     "syntax": 0.5,
+     "topic": 0.1,
+     "unclear": 0.15
+    }
+   },
+   "only_signal": {
+    "n": 20,
+    "named_related": 0.2,
+    "named_related_ci": [
+     0.0806563532712,
+     0.41602172202575993
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -1.3877787807814457e-17,
+     0.16113012549493322
+    ],
+    "any_emotion": 0.35,
+    "kinds": {
+     "word": 0.1,
+     "situation": 0.1,
+     "body": 0.0,
+     "syntax": 0.3,
+     "topic": 0.15,
+     "unclear": 0.35
+    }
+   },
+   "random": {
+    "n": 5,
+    "named_related": 0.0,
+    "named_related_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "any_emotion": 0.0,
+    "kinds": {
+     "word": 0.0,
+     "situation": 0.0,
+     "body": 0.0,
+     "syntax": 0.2,
+     "topic": 0.2,
+     "unclear": 0.6
+    }
+   }
+  },
+  "proud": {
+   "both": {
+    "n": 20,
+    "named_related": 0.15,
+    "named_related_ci": [
+     0.05236779195949584,
+     0.36042329588695743
+    ],
+    "named_clear": 0.05,
+    "named_clear_ci": [
+     0.008881219432873136,
+     0.23613589351256675
+    ],
+    "any_emotion": 0.15,
+    "kinds": {
+     "word": 0.2,
+     "situation": 0.0,
+     "body": 0.05,
+     "syntax": 0.45,
+     "topic": 0.0,
+     "unclear": 0.3
+    }
+   },
+   "only_signal": {
+    "n": 20,
+    "named_related": 0.0,
+    "named_related_ci": [
+     -1.3877787807814457e-17,
+     0.16113012549493322
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -1.3877787807814457e-17,
+     0.16113012549493322
+    ],
+    "any_emotion": 0.1,
+    "kinds": {
+     "word": 0.15,
+     "situation": 0.05,
+     "body": 0.0,
+     "syntax": 0.5,
+     "topic": 0.05,
+     "unclear": 0.25
+    }
+   },
+   "random": {
+    "n": 5,
+    "named_related": 0.0,
+    "named_related_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "any_emotion": 0.4,
+    "kinds": {
+     "word": 0.4,
+     "situation": 0.0,
+     "body": 0.0,
+     "syntax": 0.2,
+     "topic": 0.0,
+     "unclear": 0.4
+    }
+   }
+  },
+  "sad": {
+   "both": {
+    "n": 20,
+    "named_related": 0.3,
+    "named_related_ci": [
+     0.14547527396899385,
+     0.5189767762289793
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -1.3877787807814457e-17,
+     0.16113012549493322
+    ],
+    "any_emotion": 0.35,
+    "kinds": {
+     "word": 0.15,
+     "situation": 0.1,
+     "body": 0.05,
+     "syntax": 0.35,
+     "topic": 0.15,
+     "unclear": 0.2
+    }
+   },
+   "only_signal": {
+    "n": 20,
+    "named_related": 0.35,
+    "named_related_ci": [
+     0.18118954786794464,
+     0.5671494897805354
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -1.3877787807814457e-17,
+     0.16113012549493322
+    ],
+    "any_emotion": 0.4,
+    "kinds": {
+     "word": 0.2,
+     "situation": 0.05,
+     "body": 0.05,
+     "syntax": 0.45,
+     "topic": 0.1,
+     "unclear": 0.15
+    }
+   },
+   "random": {
+    "n": 5,
+    "named_related": 0.0,
+    "named_related_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "named_clear": 0.0,
+    "named_clear_ci": [
+     -2.7755575615628914e-17,
+     0.43449149475208104
+    ],
+    "any_emotion": 0.0,
+    "kinds": {
+     "word": 0.0,
+     "situation": 0.0,
+     "body": 0.0,
+     "syntax": 0.0,
+     "topic": 0.4,
+     "unclear": 0.6
+    }
+   }
+  }
+ },
+ "examples": {
+  "both": [
+   {
+    "neuron": 1171,
+    "emotion": "proud",
+    "theme": "mixed words after of, the, where",
+    "named": 0,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 6561,
+    "emotion": "proud",
+    "theme": "will and ll or d after a subject pronoun",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 10047,
+    "emotion": "sad",
+    "theme": "want or wanted, and not knowing what to do",
+    "named": 1,
+    "kind": "word"
+   },
+   {
+    "neuron": 3504,
+    "emotion": "happy",
+    "theme": "goodbyes and watching someone leave",
+    "named": 0,
+    "kind": "situation"
+   },
+   {
+    "neuron": 12115,
+    "emotion": "sad",
+    "theme": "online platforms, texting and searching online",
+    "named": 0,
+    "kind": "topic"
+   },
+   {
+    "neuron": 722,
+    "emotion": "proud",
+    "theme": "storing and keeping things: store, kept, held",
+    "named": 0,
+    "kind": "word"
+   },
+   {
+    "neuron": 2245,
+    "emotion": "sad",
+    "theme": "body parts after his or her: head, hand, chest",
+    "named": 1,
+    "kind": "body"
+   },
+   {
+    "neuron": 10623,
+    "emotion": "afraid",
+    "theme": "a noun introducing a named person; what it was",
+    "named": 0,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 9355,
+    "emotion": "happy",
+    "theme": "people and groups in happy or kind contexts",
+    "named": 1,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 10934,
+    "emotion": "happy",
+    "theme": "passive and get-verbs in mishaps: got caught, was given",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 9525,
+    "emotion": "proud",
+    "theme": "so or too before an adverb of degree",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 6248,
+    "emotion": "happy",
+    "theme": "and and clause-joining punctuation",
+    "named": 0,
+    "kind": "syntax"
+   }
+  ],
+  "only_signal": [
+   {
+    "neuron": 11360,
+    "emotion": "proud",
+    "theme": "word endings inside split words like colourful",
+    "named": 0,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 2079,
+    "emotion": "sad",
+    "theme": "physical strain: burning chest, ragged breath",
+    "named": 1,
+    "kind": "body"
+   },
+   {
+    "neuron": 8345,
+    "emotion": "proud",
+    "theme": "academic citations and web page boilerplate",
+    "named": 0,
+    "kind": "topic"
+   },
+   {
+    "neuron": 6040,
+    "emotion": "sad",
+    "theme": "firefighter rescue from fire or storm danger",
+    "named": 0,
+    "kind": "situation"
+   },
+   {
+    "neuron": 3145,
+    "emotion": "happy",
+    "theme": "busy household chores such as laundry and cooking",
+    "named": 0,
+    "kind": "situation"
+   },
+   {
+    "neuron": 11900,
+    "emotion": "sad",
+    "theme": "the verb let: let it go, let it pass",
+    "named": 1,
+    "kind": "word"
+   },
+   {
+    "neuron": 2354,
+    "emotion": "sad",
+    "theme": "medical conditions and tests, with clause breaks",
+    "named": 0,
+    "kind": "topic"
+   },
+   {
+    "neuron": 11555,
+    "emotion": "afraid",
+    "theme": "health risk, screening and early disease detection",
+    "named": 1,
+    "kind": "topic"
+   },
+   {
+    "neuron": 11975,
+    "emotion": "afraid",
+    "theme": "medication app feature requirements",
+    "named": 0,
+    "kind": "topic"
+   },
+   {
+    "neuron": 2741,
+    "emotion": "sad",
+    "theme": "connectives: that, then, where, why, finally",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 11502,
+    "emotion": "sad",
+    "theme": "recipe step numbers before Serve hot; One day, a little",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 7032,
+    "emotion": "happy",
+    "theme": "academic research and university institutions",
+    "named": 0,
+    "kind": "topic"
+   }
+  ],
+  "random": [
+   {
+    "neuron": 12111,
+    "emotion": "proud",
+    "theme": "polite thank you and question-opening Did",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 1317,
+    "emotion": "proud",
+    "theme": "web boilerplate and recipe steps",
+    "named": 0,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 1354,
+    "emotion": "proud",
+    "theme": "superlatives and ordinals: oldest, last, first",
+    "named": 0,
+    "kind": "word"
+   },
+   {
+    "neuron": 2391,
+    "emotion": "afraid",
+    "theme": "trailing space before list dashes in recipes",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 4489,
+    "emotion": "afraid",
+    "theme": "web boilerplate and reference-list text; no shared emotion",
+    "named": 0,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 4137,
+    "emotion": "proud",
+    "theme": "household objects in lists: bread, record player, rice",
+    "named": 0,
+    "kind": "word"
+   },
+   {
+    "neuron": 11669,
+    "emotion": "sad",
+    "theme": "researcher surnames and citation fragments",
+    "named": 0,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 3470,
+    "emotion": "afraid",
+    "theme": "'a' after transform verbs: made a farm, into a rope",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 3543,
+    "emotion": "sad",
+    "theme": "with, to and matching after nouns; no shared pattern",
+    "named": 0,
+    "kind": "unclear"
+   },
+   {
+    "neuron": 7569,
+    "emotion": "afraid",
+    "theme": "and, to, a after recipe or craft instructions",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 11713,
+    "emotion": "happy",
+    "theme": "in hopes of, tried to, prepositions after purpose phrases",
+    "named": 0,
+    "kind": "syntax"
+   },
+   {
+    "neuron": 5632,
+    "emotion": "proud",
+    "theme": "subword fragments inside place and person names (Hal-, Tal-aa)",
+    "named": 0,
+    "kind": "unclear"
+   }
+  ]
+ }
+}
