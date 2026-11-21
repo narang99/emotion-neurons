@@ -8,6 +8,7 @@
 
 import html
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -43,7 +44,10 @@ def mean(xs: list[float]) -> float:
 
 
 def strip(tokens: list[str], values: list[float], scale: float) -> str:
-    return str(colored_tokens(tokens, values, min_value=-scale, max_value=scale))
+    """circuitsvis writes its container as `<div .../>`. HTML has no self-closing div, so each strip would stay open
+    and every later story would nest inside it, narrower each time. Close it explicitly."""
+    rendered = str(colored_tokens(tokens, values, min_value=-scale, max_value=scale))
+    return re.sub(r'(<div id="circuits-vis-[^"]+"[^>]*?)\s*/>', r"\1></div>", rendered, count=1)
 
 
 def story_block(s: dict, scale: float, diff_scale: float) -> str:
