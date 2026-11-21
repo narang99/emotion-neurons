@@ -21,7 +21,7 @@ from pydantic import BaseModel
 from .config import ModesRunConfig
 from .judge import ask, read_key
 
-DISCOVER = """Below are clusters of what individual neurons in a language model respond to. Together these neurons build the model's internal "{emotion}" direction: the vector that separates {emotion} stories from other stories.
+DISCOVER = """Below are clusters of what individual neurons in a language model respond to. Together these neurons build the model's internal "{emotion}" direction: the vector that separates "{emotion}" examples from the rest.
 
 Each line: cluster id | the neuron's logit lens (tokens its output pushes up) | what the cluster's firing tokens have in common | the scenes they sit in | one example with the firing token in [[brackets]].
 Lines are ordered by how much of the "{emotion}" direction they carry, heaviest first.
