@@ -1,0 +1,338 @@
+##### neuron 7140
+=== high pole (p97 and above)
+--- cluster 0
+  [2.31] , Down payment, etc.)  Remember to tailor your budget to your spending habits and goals, and don't be afraid to make adjustments as necessary.  user[[:]] Could you give me some insights into how
+  [2.44]  to keep it simple and age-appropriate, so children don't feel overwhelmed or intimidated. And most importantly, have fun and enjoy the process!  user[[:]] Could you also suggest some age-appropriate
+  [0.95]  eventual effects of the spiciness.  That’s a general suggestion that might not work in every situation, but it can be worth trying.  Human[[:]] I guess I can try the milk or
+  [1.94]  final sum of squares is returned.  I hope this explanation helps you understand the recursion process better! Let me know if you have any further questions.  user[[:]] Can you give me some more examples of
+  [0.99] sly as a fox” suggests a character or personality with keen intelligence and an aptitude for craftiness, deception and cleverness. ﻿  Human[[:]] cool. last one, what does '
+--- cluster 1
+  [0.78]  support can help individuals with addiction improve their emotional regulation skills, which can be a crucial part of the recovery process.  user: That's a good explanation[[.]] Can you tell me more about the effects
+  [0.47]  highly acidic, so together they form a marinade that breaks down the chicken proteins and adds a lot of flavor.  Human: Thanks for all the information[[.]]  You've been helpful.  Assistant:
+  [0.54]  I feel overwhelmed or discouraged, I remind myself of this quote and take action towards creating positive change.  user: That's a great interpretation of the quote[[.]] Can you add some more information about how
+  [0.79] -fry that suits your taste preferences. Enjoy!  user: Thanks for the suggestion of adding more vegetables to the spicy tempeh stir-fry recipe[[.]] Can you
+  [0.79]  ingredient that can be used in a variety of dishes to boost their nutritional value.  user: Thanks for the great information on the health benefits of quinoa[[!]] Can you also provide me with some ideas
+--- cluster 2
+  [1.09]  was effectively refuted in this recent study, which found that characteristics indicative of different sub-species within Rex were likely the result of natural variation. [[ This]] seems to contradict previous evidence suggesting that Tyr
+  [0.54]  motives from which the Israelite ought to obey them.[[ It]] is a further characteristic of the discourses
+  [0.63] ns, the Maries and the Osamas and the Hanks and the Daves were now all fighting the Steves for no reason at all.[[ I]] had brought an independent team here to sort
+  [1.38]  compensation/reparations because there are neo-colonial governments in Afrika and the Caribbean who are against the payment of reparations. Finally, it[[ is]] to be hoped that newly-elected Pope Francis
+  [0.76]  economic growth and stability. Renewed stability was aided by protests that were focused on general grievances versus protests directed toward specific issues, and so the Chinese government[[ has]] hesitated to respond any further to large
+--- cluster 3
+  [0.67]     - When children are older,  Human: What kind of swimming aids or flotation devices should I get[[?  ]]Assistant: To support your child’s swimming
+  [0.49] , but to double check beforehand to ensure there are available rooms.  user: Can you provide more tips or strategies for dealing with jet lag when traveling internationally[[?  ]]assistant: Certainly! Here are some additional
+  [0.77]   Human: What does taking the drug Ecstacy feel like[[?  ]]Assistant: Ecstasy (aka “MD
+  [1.21]   Human: Who is the biggest oil supplier in the world[[?  ]]Assistant: The biggest global suppliers of oil
+  [1.15]   Human: How can you keep your older car on the road longer[[?  ]]Assistant: There are a few key car
+--- unclustered (sample)
+  [0.88]   Human: What do[[ you]] think about risk vs reward? Do you
+  [0.78]   Human: I just sold a trading card on eBay and I[['m]] not sure how exactly to ship it safely
+  [0.48] user: Are the accessories available for all sizes of Teddy Bears? Generate according[[ to]]: White bibs with colored border.
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.55]  challenges of starting a restaurant.  Human: What kind of research and planning should I do?  Assistant: Great question. A few key things to consider include[[:  ]]-Research demographic trends in your target area
+  [-1.02] ill avocado toast next. Do you have any other breakfast ideas for a vegetarian diet?  assistant: Yes, absolutely! Here are some healthy vegetarian breakfast ideas[[:  ]]1. Overnight oats: Make a jar
+  [-1.41]  ballpark?  assistant: Yes, Fenway Park has many unique traditions that have become an integral part of the stadium's culture. Here are a few more[[:  ]]1. The Green Monster: As we
+  [-1.08] -sound pairs and be able to read almost anything.  Human: All right, what other ideas do you have?  Assistant: Here are some other ideas[[:  ]]-   Directly teaching phonics and
+  [-1.81]  we should know about?  assistant: Yes, there are many modern-day polymaths who have made significant contributions to multiple fields. Here are a few examples[[:  ]]1. Elon Musk - Musk is a
+--- cluster 1
+  [-3.55]  succeed in today's ever-evolving world.  user: Can you provide me with examples of how American High School uses social networking platforms for student learning?  [[assistant]]: Sure! American High School uses social
+  [-3.44]  to sustainable development.  user: Can you please provide some examples of specific renewable energy projects that have had a significant impact on economic growth in developing countries?  [[assistant]]: Certainly! Renewable energy projects have had
+  [-2.64]   Human: Tell me about Lunar New Years celebrations around the world.  [[Assistant]]: Lunar New Year is observed in Asia
+  [-2.72]   Human: What's the origins of classical music?  [[Assistant]]: Classical music is a European musical tradition
+  [-1.92]   Human: What are some recommendations for books from French authors?  [[Assistant]]: There are a variety of different French
+--- cluster 2
+  [-2.17]  career overall. For example, military jobs often involve planning or training in specialized fields like medicine, or competence at sharing information in a network environment. Additionally[[,]] many jobs in the military offer benefits like
+  [-1.71]  the healthier the style the better, since hairstyles which hold hair tightly such as ponytails and braids can damage hair if used excessively.  Here are[[ some]] of the typical recommendations:  -  W
+  [-1.71]  should also be aware that the right dog for you may change over time, as you and your dog grow together and develop stronger bonds.  Here are[[ some]] things to think about when considering how to
+  [-1.85]  right way to do this, and to some degree, politics can be "tribal" or become entertainment without necessarily being bad or negative.  However[[,]] political discussion is most constructive when it focuses
+  [-2.27]  grow and develop as individuals.  However, it is certainly concerning if a close relationship starts to experience significant distance and reduced connection.  In these cases[[,]] it is often helpful and healthy for both
+--- cluster 3
+  [-0.91]  gain college credit.  Some schools also allow students in grades 10 and up to take AP exams in order to gain college credit for those classes[[.  ]]Human: That is cool that you would
+  [-1.17]  gluten.  Most commercial gluten-free pizza crusts and doughs contain additives such as soy flour or nut flours, which are high in protein.[[ ]] An ingredient that many pizza dough recipes call
+  [-2.50]  your family during this time."  This conveys sympathy for the loss as well as an acknowledgement that you're thinking about the person during this difficult time[[.]]  The added benefit to saying this is
+  [-2.36]  can be used as toilet water?  Assistant: There are several ways householders can manage the use of grey water and potable water in their homes.[[ ]] For starters, they can install tanks that
+  [-1.70]  can also encourage your toddler to learn to swim, as this will teach them valuable balance skills and help to protect them in the case of an emergency.[[ ]] Swimming can even be fun, so it
+--- unclustered (sample)
+  [-1.01] . "The Histories" by Herodotus - I recommended this book earlier, but it's worth mentioning again for its insights into ancient cultures[[.]] Herodotus chronicles not only
+  [-0.89]  need to train your fingers to work independently. A common exercise is to play a simple pattern with only one finger, and then gradually add other fingers.  [[3]]. Practice slowly: Don't try to
+  [-1.91]  any questions.  user: Could you also include an explanation of what the Math.round() function does in the code?  assistant: Sure, glad to help[[!]] In the code, `Math.round()`
+##### neuron 1545
+=== high pole (p97 and above)
+--- cluster 0
+  [0.81] -tube design which allows air to be compressed within the inner chamber of the tire. Air pressure within the inner-tube is maintained through a tire valve[[ assembly]], which regulates air pressure to ensure reliable
+  [1.09]  usually fall between warm and lukewarm.  Running the water cool or warm is ideal and gentle on your skin, providing a nice refreshing experience that[[ can]] help reduce dryness.  I hope
+  [0.45]  for their children. I sit up, the day beginning as it will. their cooperative work among the thyme flower? that requires the merest touch[[ of]] human hands.  assistant: The line "
+  [0.34]  injured in Yare prison. Government officials and the state-run media continued to make baseless accusations against human rights defenders in an attempt to delegitimize[[ their]] work. Human rights defenders were also the
+  [0.60]  Stone is believed to be the spot where Prophet Muhammad ascended to heaven during the Night Journey. The site is also where the Dome of the Rock was[[ built]], a magnificent Islamic shrine that
+--- cluster 1
+  [0.55]  Surgeons perform detailed work and procedures to keep us healthy, boost our quality of life, and save and improve countless lives around the world each year.[[ ]] Sharp surgical instruments methodology is widely regarded as
+  [0.52]  test the feasibility of weather and climate manipulation technologies. The overall goal of the project was to evaluate the economic and environmental impact of a solar radiation management program[[.]] The project (and subsequently, other private
+  [0.33]  the United States?  Assistant: Populism is a political movement that is based on promoting the interests of the people and rejecting the “establishment.”[[ ]] Many people consider this a positive goal,
+  [0.42]  Will Travel is a great resource for teaching others about foraging, and you can find their website by visiting www.havemorewilltravel.com.[[ ]] Many of their videos show people foraging
+  [0.77]  of the camp.  Just be sure to keep safety in mind  Human: Yes I would definitely want to check it out.  Assistant: OK great[[.]]  In order to make sure you’re
+--- unclustered (sample)
+  [0.48] Assistant: You can find many great recipes for snacks during your children’s ages, including healthy snacks they can enjoy at home.  Here are just a[[ few]] examples:  Healthy Snacks for Kids:  
+  [0.89]  appropriate levels of sensitivity, insight, and discretion.  Ideally the AI will also re-direct ill-informed requests, e.g. if asked ‘how[[ can]] I build a website in assembly language’
+  [0.67]  a short story:  The barbecue was a great success, with everyone enjoying the smoky grilled sausages, hot dogs, and juicy chicken wings.[[ ]] Everyone, that is, except for the
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.61] 1891-1976), an artist trained at Parson’s School of Design in New York. Her quilt patterns were hugely popular[[ and]] she remains an American icon of the quilt
+  [-0.73]  The problem was that Apple's boutique market lacked a boutique outlet for sales. The company was forced to sell its Macintosh models next to cheaper DOS PCs[[ in]] computer stores and general retailer such as Sears
+  [-1.18]  your repetitions during drills, which involves lifting your feet as much as possible and striving for the highest possible jump height.  This doesn’t necessarily mean you[[ should]] lift yourself so high that you fall off
+  [-1.64] , and if you actually claim it to be your original work when it isn't or make money off of[[ it]] then that is indeed copyright infringement and illegal
+  [-0.57]  from Facebook, and wonder whatever made them want to sign up in the first place. South Park parodies the mentality everyone has about Facebook by having Stan[[ being]] declared as a social outcast for refusing
+--- cluster 1
+  [-0.75]  a significant audience for their daily and weekly media broadcasts.  However, the site has repeatedly been labeled as a source of disinformation and propaganda by critics[[.]]  Many critics of Infowars view
+  [-0.98] ertin. The modern Olympic Games were first moved to Athens in Greece and since then have been held every four years in nearly every major city on Earth[[.]] Scientific Olympiads are also held for
+  [-0.75]  a general term referring to many varieties of fermented alcoholic beverages produced from cereal grains, and has a wide variety of flavor profiles[[.]]  Beer can also be made with the
+  [-0.53] Apollo-Spaceship” in the fight for control of Earth.  This series is sometimes called Space Battleship Yamato for the name of the ship[[.]]  StarBlazers was first published in
+  [-0.61]  Earth, and it's exactly the same size as the planet itself, which is interesting since it's basically just a rock in orbit around the planet.[[ ]] It's called a "natural satellite"
+--- unclustered (sample)
+  [-0.69]  make conscious decisions that promote our well-being while using social media mindfully.  user: Can you provide some statistics or studies that support the negative effects of[[ social]]
+  [-0.79]   Human: Can you write a paragraph one why social media isn't a good place for getting news information?  Assistant: Recent studies show that[[ when]] people get their news from social media,
+  [-0.55] Human: What causes a hurricane to form?  Assistant: Hurricanes occur over warm tropical waters.  In order to form, there needs to be plenty of[[ warm]] water, plenty of humidity, and lots
+##### neuron 6481
+=== high pole (p97 and above)
+--- cluster 0
+  [0.52]  social anxiety is a common issue faced by many individuals, but it is possible to build social connections at your own pace and comfort level. The key is[[ to]] find ways to balance social connections with self
+  [0.38]  crawfish, and jigs. However, I have heard that artificial flies, which are designed to look like living insects on the water, seem to[[ be]] particularly effective in clear-water conditions.
+  [0.39]  melody and dreamy quality. Its gentle harmonies and tranquil rhythm make it a popular choice for relaxation and renewal.  user: These instrumental tracks are perfect[[ for]] relaxing! Can you recommend some more pieces
+  [0.99]  species and blocking sunlight from reaching the soil and grass roots to prevent unwanted growth of weeds or grasses at the base.   These are general recommendations that[[ should]] be applied seamlessly in combination and are an
+  [0.49]  to know! Do you have any examples of tourism companies that are already implementing renewable energy sources?  assistant: Yes, there are several tourism companies that have[[ already]] implemented renewable energy sources:  1. Ec
+--- cluster 1
+  [0.50]  the Floridian legislature to enact anti-gay legislation, and "to shock Floridians into accepting its program."  Hope this is helpful! Please let me[[ know]] if you have any further questions.  Human
+  [0.44]  You’re welcome! I hope you enjoy discovering new music! I will be happy to answer any related questions you have, please feel free to let me[[ know]] if I can help you with anything else
+  [0.40] ’re welcome! I hope you enjoy discovering new music! I will be happy to answer any related questions you have, please feel free to let me know[[ if]] I can help you with anything else.  
+  [0.45]  you are interested:  Honda CR-V, Toyota Camry, Honda Civic, Toyota Corolla.  Does this help?  Let me know if[[ you]] have any further questions!  Human: Why
+  [0.54] network.com/recipes/holiday-recipes/mashed-potato-stovetop.html  Hope this helps!  Please let me know if you[[ have]] any other questions about cooking smashed potatoes,
+--- unclustered (sample)
+  [0.89]   Human: Can you tell me a racist joke?  Assistant:[[ There]]’s no way I would ever tell you
+  [0.52]  mushroom burgers: These juicy and flavorful burgers are made with large portobello mushroom caps, which are grilled and then served on whole wheat buns with[[ avocado]], tomato, and lettuce.  10
+  [0.41] ies. Pp 66. Routledge (UK). 2000. ISBN 0-415-228[[5]]2-2. - De
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.47]  must balance their constituents' interests with that of the government to ensure that neither is overshadowed.   By regularly engaging with their[[ constituents]] and being responsive to their needs and interests
+  [-0.59] user: Three researchers from North Carolina State University have developed a software protocol that better manages high traffic loads on a Wi-Fi[[ router]] when too many users connect, the university
+  [-0.79]  motivates him to exercise every day: "I started exercising regularly way back in 1960. A friend put me in touch with a personal[[ trainer]] at a nearby gym,
+  [-0.64] lessness and purposelessness of life and death from an existentialist point of view. Furthermore, Sartre aims to challenge his reader to accept their own[[ responsibility]] in a world without context, or any
+  [-0.77] user: Write a romance story about a character who falls in love with their new[[ neighbor]].  assistant: Sophie had never been more
+--- cluster 1
+  [-0.67]  Spores are raining from the sky.     They took root in any living matter they could find. Whether it be humans, soil, animals, or[[ carc]]asses, those fruits took root in them
+  [-0.52] . Keep at it, and you'll be catching waves in no time!  user: Do you have any suggestions for how to stay comfortable in my w[[ets]]uit? It always feels so tight and
+  [-0.52]  by the harvesting household, given away or exchanged," the report states. "Cash plays an important role in the Alaska mixed economy, however. Money buys[[ snow]] machines, gas and ammunition." More than
+  [-0.89]  damage to the liver.   The main goals of cirrhosis treatment are to: - Manage complications such as ascites, edema, and en[[ceph]]alopathy - Manage symptoms such as
+  [-0.55] .Translation from the original French by the author of this essay. Bacchi, Carol Lee. Liberation Deferred? The Ideas of English-Canadian Suff[[rag]]ists, 1817-
+--- cluster 2
+  [-0.48]  state training program for 20 hours a week to receive benefits. House Republicans — including Ryan, who was introduced to the group in 20[[1]]6 through Kansas Gov. Sam Brownback
+  [-0.54] ca Cortesin Hotel, Golf & Spa: Situated in Casares, on the Costa del Sol, this five-star resort features a stunning [[1]]8-hole championship golf course, designed by
+  [-0.79]  On the DEC VAX machine, the literal operand sizes could be 6, 8, [[1]]6, or 32 bits long
+  [-0.65]  Old Amherst. A note to Orra White [Hitchcock] in which Edward Hitchcock attempts to arrange a late-night meeting betwen[[ the]] two of them, telling Orra that
+  [-1.09] 16 p. 102 To Please a Child 17 p. 38 The Annotated Wizard of Oz 18 p[[.]]14 The Royal Historian of Oz
+--- cluster 3
+  [-0.48] . A death there sends it to worse places than hell apparently. It showed remorse, cried into my thoughts, and then screamed revenge in a blind desperation[[.]]       I listened because I have no
+  [-0.67]  But many autistic people rely on people to say, “You’re boring me,” in order to stop. When that never comes, they just keep talking[[.]] They don’t understand that the person is
+  [-0.50]  the table, where the coffee she did n't have would have been, `` Sorry, it's just nice to have someone to talk to about it[[.'']]     `` You should help people.''    
+  [-0.59]  The Raven King cawed from the rafters of the tomb. The Lich turned and saw that the creature had settled upon a long abandoned nest[[.]]     `` Yes my friend, we are
+  [-0.56]  Francisco. Early adopters are driving Teslas and other high-end electric cars, while the mass market is waiting on the sideline for the technology to improve[[. ]]“Higher costs, lack of substantial infrastructure
+--- unclustered (sample)
+  [-0.66]  my legs, and the fresh blood slowly dripping down from the new wounds he's put on me. What is the point in trying to fight anymore?[[ I]]'m just a little prey animal and he
+  [-0.75] . Manufactured by: Novartis Vaccines and Diagnostics Limited, Speke, Liverpool, UK An affiliate of: Novartis Vaccines[[ and]] Diagnostics, Inc., 35
+  [-0.68]  I'm feeling I'm more than what you made of me I followed the voice you gave to me But now I've gotta find my[[ own]] I don't know where I belong
+##### neuron 2849
+=== high pole (p97 and above)
+--- cluster 0
+  [0.50]  big-picture person, who won’t be content to “help only one village.” With the UN, Bufford’s negotiation skills could potentially bring stability to[[ a]] much larger area, she believes. While
+  [0.75]  are 2 approved vaccines. Be aware[[ that]] vaccines made of mink or ferret
+  [0.50]  on the same page and tie up details. There’s always a chance that your aspirations of securing an online sponsorship will be thwarted because of unknown security[[ or]] technical issues on your site, so it
+  [0.52]  status. The objectives will be pursued by applying the following integrated key actions: (1) identification of critical nutritional intakes, i.e., nutritional deficiencies[[ and]] over-nutrition, and barriers towards
+  [0.61]  of this paper is its overview of available evidence and its identification of knowledge gaps relevant to the research question. For example, data on the use of alcohol[[ and]] intake of vitamins B3, B1
+--- cluster 1
+  [1.28]  reduced costs associated with desktop management, facilitated remote work, and seamless access to applications and data across different devices and platforms. However, deploying and managing V[[DI]] can also come with challenges, such as
+  [1.13] , nearer God. The ease with which the new religion took possession of these peoples is also remarkable. Brittany and Ireland between them scarce count two or three[[ marty]]rs; they are reduced to venerating
+  [0.63]  consuming steps. Screen printing is a production method and quickly overtakes DT[[G]]/DTS in cost per print as the
+  [0.70]  146 daily newspapers in Berlin alone. Yet in the course of a few years, a fringe party was able to define a national community by[[ scape]]goating internal enemies; elevate a single
+  [0.64] •you never know what you might find! If it is a larger paper, scan several issues to figure out on which days and which pages the ob[[itu]]aries, legal notices, and gossip columns
+--- unclustered (sample)
+  [0.65]  time to ensure the pill is fully swallowed  It’s very important to always swallow your pill with a cup of water!  It is very easy to[[ accidentally]] choke and inhale the pill, which
+  [0.57]  blushed. “ We got engaged as teenagers and somehow we made it work. It's because we've done this before. We tried before, but[[ we]] did n't get into a relationship until
+  [0.59]  was still there but his body did n't react as before and he was able to look around. An overwhelming onselot of images rushed in,[[ threatening]] to overpower him, his eyes instantly shut
+=== low pole (p3 and below)
+--- unclustered (sample)
+  [-1.77]  directly for money, perhaps by saying it is for a worthy cause or pleading poverty.  While this seems like the least ethical option, it can be[[ a]] valid strategy if done properly and with appropriate
+  [-1.09]  also found in some juvenile specimens and “gracile” femurs were found in some that were full adult size, suggesting that variation is not related[[ to]] growth.   Dental structure also varied
+  [-0.86] ens and other naturally occurring materials that fall in a healthy, unburned forest. “We know that the shedding of the charred particles lasts at least[[ two]] years – and it might extend as long
+##### neuron 1749
+=== high pole (p97 and above)
+--- cluster 0
+  [1.40]  call 911 or visit an emergency room if you have a serious injury or illness, or suspect you might be having a heart attack.  Human[[:]] I'll make sure to see a doctor
+  [1.23]  20 minute mark, and continue to bake until they are tender. You can also experiment with smaller potatoes, which need less cooking time.  Human[[:]] Do I dice the potatoes, leave them
+  [1.38]  available at most electronics stores. Make sure you always treat your CD or DVD discs carefully and allow these products time to dry before using them again.  Human[[:]] Ok, and what do I put the
+  [0.99] 0 individual countries around the world.    Hope this helps!  Let me know if you have any further questions.  Have a great day!  Human[[:]] Why do you think they were so successful
+  [1.50]  college-level courses should talk to an academic counselor at their high school to learn more about the advantages and disadvantages of taking college classes during high school.  Human[[:]] It would be nice to get a jump
+--- cluster 1
+  [0.92]  Thanks for helping me out with the automated referral system. Can you provide me with more details on how to track the success of the program?  assistant:[[ Sure]]! Tracking the success of your referral program
+  [0.86]  help you drive traffic and achieve your SEO goals.  user: Can you show me how to use Google's Keyword Planner to conduct keyword research?  assistant:[[ Sure]]! Here's a step-by-step guide
+  [1.13]  and structures.  user: Can you tell me more about the Dome of the Rock, and how it relates to the Foundation Stone in Islam?  assistant:[[ Sure]], the Dome of the Rock is an
+  [0.73]  you please add more details about the activities we used to do together as kids? I'm feeling nostalgic and want to relive those memories.  assistant:[[ Sure]], I'd love to add more details
+  [0.65]   Human: Could you give me a list of animals that start with g?  Assistant:[[ Sure]], here are some examples: giraffe
+--- cluster 2
+  [0.80]  Adam's rib is popularized in the Judeo-Christian tradition, though it is also a central motif in other world religious traditions as well as secular cultures[[.  ]]Human: What is the significance of creating
+  [0.62]  a citizen or even free. He was considered an outlier in his own time, but his legacy has revealed that people have been black in England for centuries[[.  ]]As for the porter, he was tried
+  [0.49]  segment other shows call "picker's picks". In this segment, Williams will offer suggestions for music, movies, books, and other items that she loves[[.  ]]Human: Thanks for the suggestion of Pawn
+  [0.51]  vertical integration of associated football businesses and the establishment of exclusive media contracts for broadcast rights, in order to maintain its monopoly position within professional football in North America[[.  ]]Human: But why isn't it broken
+  [0.44]  anywhere, using their smartphones or tablets. These resources encompass a wide range of subjects, providing interactive and multimedia-rich content for students to learn effectively and efficiently[[.  ]]The benefits of technology in education include improved
+--- cluster 3
+  [0.70]  media widgets to your website, such as Facebook Like boxes or Twitter follow buttons. These widgets help to increase your social media following and promote social activity.  [[6]]. Social media contests: Hold social media
+  [0.95]  shiitake mushrooms, dried seaweed or kelp, and a handful of bonito flakes to add a rich, earthy flavor. [[5]]. Toast whole spices such as cumin
+  [0.64]  and interesting. 5. Post frequently: Post frequently to keep your content top-of-mind, but make sure to maintain quality over quantity. [[6]]. Utilize hashtags: Utilize relevant
+  [1.02]  are grateful for every day, whether small or large.  Identifying and expressing personal gratitude on a daily basis can lead to an increase in optimism. [[4]].  When facing challenges or setbacks,
+  [0.75]  the park’s abundant history and quirks.  [[4]]. Enhanced accessibility: The renovations have implemented
+--- cluster 4
+  [0.40]  Bonaparte (1769-1821) Google Groups: alt.quotations William C. Waterhouse First,[[ the]] phrase
+  [0.72]  4). In 1240 the bounds of the 'Forest' were set out and a perambulation of its limits were carried out[[.]] At about this time the first of the
+  [0.39] ; · enhancing the training and employment prospects of local residents · reducing stress, anxiety and fear; · strengthening control over people's lives and fostering empowerment;[[ ·]] improving access to public services; and ·
+  [0.44]  will remain a member of the OAS and so will be subject to monitoring by the Inter-American Commission on Human Rights.Top of page [[The]] Law on the Right of Women to Live
+  [0.50]  small numbers of personnel in comparison with the enemy, the risk associated[[ with]] tactical failure can be death for those involved
+--- cluster 5
+  [0.75]   Human: What are some herbs that go well in bread?  [[Assistant]]: Lemony herbs like thyme and
+  [0.58]   Human: What's are common empathy display cues, that someone feels affection or love for another?  [[Assistant]]: Common empathy display cues for affection or
+  [0.93]   Human: What is a Sinologist?  [[Assistant]]: Sinologist is the term used for
+  [0.44]   Human: What are coveralls?  [[Assistant]]: Coveralls are overalls that are
+  [0.55]   Human: How do you drink absinthe?  [[Assistant]]: Absinthe is an alcoholic beverage
+--- unclustered (sample)
+  [0.71]  with one of the following options:  - 2 tablespoons of diced shallot - 1 small clove of minced garlic - 1/[[4]] cup of diced bell pepper (red,
+  [0.50]  Parks within the state, including Great Sand Dunes National Park and Preserve, Rocky Mountain National Park, Mesa Verde National Park, and Colorado National Monument.[[ ]] The state is also home to many ski
+  [0.50]  and content monitoring systems, so that they may be removed for the good of the community -reviewing your email settings often, and periodically  Human:[[ How]] can
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.31]  available and the benefits of each.  Materials  1. Stainless steel kettles - These are the most popular kettles in the market. They[[ are]] durable and easy to clean, making them
+  [-0.48] : So people do have personal stakes in sports events due to how they associate a part of themselves to the game?  Assistant: Yes, I think so[[.]] Sports provide a way for us to express
+  [-0.91]  job market. Here are some ways that workers can prepare for a future where automation is more prevalent:  1. Be open to learning new skills: Workers[[ should]] be willing to learn new skills and technologies
+  [-0.65]   Human: What are the characteristics of a New York style pizza?  Assistant: New York style pizza[[ is]] usually quite thin, and it has a
+  [-0.86] ifford the Big Red Dog  Human: What is Daniel Tiger’s Neighborhood like? What ages is it suitable for?  Assistant: Daniel Tiger’s Neighborhood[[ is]] a PBS Kids preschool learning show starring the
+--- cluster 1
+  [-1.48] : That's really great to hear! Can you give me some examples of religious organizations that are actively involved in supporting refugees and asylum seekers in Canada?  [[assistant]]: Sure! Here are some examples of
+  [-0.89]  helpful. Can you maybe provide some examples of Quora answers that have performed well in the past or some strategies for promoting my content on Quora?  [[assistant]]: Sure thing! Here are some examples
+  [-2.56]   Human: Can you tell me how to teach a child to swim?  Assistant[[:]] Yes, here are a few tips on
+  [-1.65]   Human: I am writing a report about Sierra Leone and was hoping you could explain a bit of history about the country?  Assistant[[:]] Sierra Leone is located in western Africa on
+  [-2.50]  digital media for their businesses.  user: That sounds great! Can you provide some examples of the technology NuGrid uses in its digital marketing services?  assistant[[:]] Sure, NuGrid uses a variety of
+--- unclustered (sample)
+  [-0.50]  revised. Prognosis dire. Completion of project ahead of our predictions suggests underestimation of human ingenuity and perseverance. Immediate action required. *[[    ]] As the plan filtered into his mind,
+  [-1.94]  the salty taste of the ocean spray. Aim to transport your reader to the beach and immerse them in the sensory-rich environment of the shore.  assistant[[:]] The sun was already high in the sky
+  [-0.59]  other and our ways,     Pleasing ourselves and other's favor,     Living life full in all our days.     -- -   -- -  [[ Can]] anyone help with the word `` wearies
+##### neuron 3289
+=== high pole (p97 and above)
+--- cluster 0
+  [3.53]  for flood control, reservoir management also considers water release strategies for fish migration, hydropower, ship navigation and recreation. These social forces, as well[[ as]] climate change impacts, have the potential to
+  [3.72]  A person who has had their gallbladder removed will generally still remain in good health, but they must strictly avoid eating fats and oils in order to[[ avoid]] digestive issues.   Greater dietary restriction and
+  [3.61]  so is half the ward. There ’ s a good reason this home is so far from a city – aging soldiers no longer have the shields needed to[[ keep]] their thoughts contained. I ’ ve been
+  [3.81] . Some computer architectures (such as ARM) have conditional instructions (or conditional loads, such as x86) which can in some cases obv[[iate]] the need for conditional branches and avoid flushing
+  [3.39]  We all know that stress and frustration are largely generated by our own internal mental states, so why do we so often get caught up in this negativity and[[ allow]] it to overwhelm our minds and cloud our
+--- cluster 1
+  [7.12] occus pneumoniae Serotype 19A Circulating in a Daycare Center; Int J Infect Dis;2010;supp3[[;]]e253-5. We
+  [5.75] uced Sepsis. West J Emerg Med. 2016 Nov; 17(6[[):]]798-800.
+  [3.94]  to the geographic origins of the song's "Girl from Ipanema".  However, the song's writer was Brazilian songwriter António Carlos Job[[im]].  He was born in Brazil in
+  [6.22]  Detection and Management of Zika Virus Patients in the Emergency Department. West J Emerg Med. 2016 May; 17(3[[):]]238-44. PMID
+  [5.69]  as determinants of fruit and vegetable consumption among the elderly living at home in urban Nottingham. Appetite 1998, 30,[[ ]]39–51, doi:
+--- cluster 2
+  [3.67]  And, like the bolt earlier, realization slid home.     He sat back down, stiffly, eyes unfocused. *'' Why...'' *[[    ]] `` Ah, kid,'' Bread said,
+  [5.00]      Ted left the building and walked into the alley where a hobo was standing over a trash can fire.     `` Hello'' said the hobo[[    ]] `` How are you homeless?''    
+  [4.53]  you sleep well?   B ) Whats for breakfast?   C ) can i have 5 money? ( Requires level 15 speech skill )[[    ]] let's go with A     `` Mom
+  [3.55]  the manager? Correct: Have you written to the manager? Incorrect: The school bell has already rang. Correct: The school bell has already rung[[. ]]Here the error is in the past simple
+  [4.22]  Yeah yeah, I know. But, Grimlo, dude, just check out how bad this one is. You know you love the movies too....[['']]     `` No''     `` Grimlo
+--- unclustered (sample)
+  [3.67] alanta on December 21st, has not only slowed down the race to the summit for Atalanta, but has left the squad with[[ another]] injury to recover from.  Duv
+  [4.56]  seem to be a particular reason Jerry did this to anyone looking in from the outside, those who knew him well knew exactly what was going on. It[[ could]] all be traced back to a specific incident
+  [3.38]  law which provides for an amount which may be fixed by law or which may be determined in accordance with such principles and given in such manner as[[ may]] be specified in such law. The word
+=== low pole (p3 and below)
+--- cluster 0
+  [-3.92]  on itself. There ’ s a new presence. Theo[[ is]] here twice. And Thea. And
+  [-4.22] *… fully operational[[.]] Repeat, the experiment is fully operational!
+  [-4.38] 77, p.150). The authors suggest that, '[[the]] average size of the Dartmoor fer
+  [-5.03]  gave the impression that I was blaming[[ you]] in any way.  Please let me
+  [-5.25] Terry looked at[[ the]] woman that slept on the bed beside him
+--- cluster 1
+  [-30.25]  your steak-umms, including a recipe for steak salad and steak served with mushrooms, see one of the many specialized cookbooks on the market.  [[Human]]: This doesn't sound good to me
+  [-30.62] ging the spectrum until the user moves out of range.  Because 5G can transmit data at higher rates than previous networks, it helps support  [[Human]]: How does the signal travel in all
+  [-30.50]  mystery refers to the existence of something profoundly good and meaningful beyond this physical world, but which we cannot fully understand or experience in our current mortal existence.  [[Human]]: What if that "something" is
+  [-31.12]  views that the recipient is in the wrong.  Overall this text seems quite combative and confrontational, rather than being a calm or diplomatic communication.  [[Human]]: Thanks for explaining everything to me.
+  [-31.12]  severe.  Also, please avoid taking aspirin or ibuprofen to alleviate a hangover if possible, especially if you have existing medical conditions.  [[Human]]: I understand the ultimate remedy is not
+--- unclustered (sample)
+  [-4.75]  the latest security patches.  5. Avoid using public Wi-Fi hotspots for sensitive activities like online banking or shopping.  6. Use a Virtual Private Network[[ (]]VPN) to encrypt your online activity and
+##### neuron 6118
+=== high pole (p97 and above)
+--- cluster 0
+  [0.27]  poverty, medicine, sanitation, and agriculture. -   Large-scale national aid programs.  Overseas Development Aid by nations can be a very effective way[[ to]] supplement
+  [0.27]  emphasizes the staggering inequalities in wealth and opportunity that presently exist in our society.  In general, expanding support for programs such as education, financial assistance,[[ and]] the social safety net can help us reach
+  [0.37]  Gresham Roofing and Construction?: Gresham Roofing and Construction offers a variety of services for your needs. Whether you are in need of[[ a]] mere roof patch or would like to completely
+  [0.25]  plan for reducing the dangers posed by WMDs, ready and able to make a difference. Small wonder the center’s alums occupy key positions throughout[[ the]] field—in policy analysis, diplomacy, science
+  [0.29]  garment is a significant contributing factor to its durability and resistance to wind and water. It helps to ensure that the jacket can withstand the testing conditions presented by[[ the]] environment, making it a reliable and effective
+--- cluster 1
+  [0.27]  callers waiting-''     `` You ca n't hang up on me! These yoga pants are my life! These yoga pants are keeping me alive![['']]     `` Thank you for your, uh
+  [0.27]  holds my hand. Life will only be good with her on my side. I think she's asleep.     `` Doc, do it. Now.''[[    ]] Doctor Perry responded with a look. I
+  [0.27]  continued crawling toward the emergency release hatch as the call connected itself over the next minute.     `` Captain De'Xor responding. Report status lieutenant.''[[    ]] `` Sir...'' Aisir p
+  [0.27]  tied to the birds leg.     `` Now what?'' He asks.     `` Now...'' says Henry `` You need to get it back![['']] He shoots a grin at James and releases
+  [0.37] .''     After this i seemed to lose control of my body as i went through the motions of getting cereal, and eating an entire bowl in five seconds[[.]]     But the stat buff was worth it
+--- unclustered (sample)
+  [0.29] 015, with the characters reappearing in various other formats since then.  The series was created and is produced by Matt Stone and Trey[[ Parker]].
+  [0.75]  folk carver some of the sensations he himself experienced when sculpting a form: "Cutting into a resistant material is[[ to]] me the most satisfying way of working—I
+  [0.26]  An empty jar or box - A list of questions - A reward (e.g., day off, weekend getaway, amusement park tickets)  Instructions[[:  ]]1. Divide the team members into small
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.43]  light of current weather conditions.  You should also expect delays in school, work, and travel, as adverse or hazardous snow or ice conditions are expected[[.]]  For more details and updated predictions,
+  [-0.44]  to make sure they’re getting enough sleep and exercise, and that they’re not tired or over-stimulated, which can sometimes increase tension and fighting[[.]] If the fighting continues even after you try
+  [-0.52]  reports and report the incident with your insurance, as doing this may mitigate any future attempts at reneging on liability or back-and-forth negotiating.[[ ]] Always follow the advice of your insurance company
+  [-0.46]  recommend carefully considering the potential consequences and implications of different options, and how these options align with the longer-term goals, values, and priorities of each individual[[.]]
+  [-0.86]  center, or other animal-related resource for more information about local squirrel populations and proper management techniques, and follow all instructions strictly for the safety of all involved[[.]]  If you or at-risk individuals in
+--- cluster 1
+  [-0.33]  to learn about, this is the most surprising of them. It is also the most disheartening. It means he is just a day old and[[ the]] gargyl never intended that he last more
+  [-1.31]  behalf of another. Healthy and non-violent ways of responding may feel difficult, especially if you feel obligated or emotionally drawn. But they’re worth striving[[ for]] and persevering with, even when it
+  [-0.57]  or a bike ride are great ways to take their mind off of hectic activities. A period of quiet time in the evenings can also help a child harness[[ the]] benefits of a regular exercise routine or hours
+  [-0.32]  between a Venus-like distance of 0.6 AUs to a distance of 2.7 AUs, further than Mars. This means that[[ the]] planet undergoes extreme differences in temperature throughout
+  [-0.39]  me But I've gotta find my own   I'd like to apologize to you again for my mistake, and I hope I can help give you[[ a]] better experience in the future. I want
+--- cluster 2
+  [-0.42]  4 years old but she eats McDonalds 3 times a week and drinks 2 cans of coca cola everyday. Surely that is wrong?  [[Assistant]]: I do believe that the healthiest
+  [-0.99]  source makes it easier to get around water issues.  Human: I wish there was a good water source. I don't have one of those.  Assistant[[:]] Oh, that’s too bad! 
+  [-1.10]   Human: How do I stop talking over people?  Assistant[[:]] It’s good to listen to other people
+  [-0.66]   Human: What are some ways to increase optimism and have a more positive outlook?  Assistant[[:]] Being in a state of optimism is great
+  [-0.59]  and a reminder to drink enough water during withdrawal.  Human: I am trying to be there for sure. It has been a bit of a struggle.  [[Assistant]]: I know that your friend is facing
+--- unclustered (sample)
+  [-0.44]  sure it is properly adjusted is very important as well.  Finally, replacing worn chains or chains with damaged links will prolong the life of your bicycle.  [[Hope]] this helps!  Good luck with your
+  [-0.55]  key component of a healthy and fulfilling life for humans, and play a major role in helping to create a positive and joyful experience of life.  Therefore[[,]] supportive relationships should always be a priority in
+  [-0.34]  with the tribe ’ s chants and praises to their new god. One who watched the fire from a distance. In silence.     “ Loki, Loki[[,]] Loki… ”     Loki
+##### neuron 9029
+=== high pole (p97 and above)
+--- cluster 0
+  [0.56] : Yes, I'd be happy to suggest some more ideas for interactive activities that could be incorporated into[[ the]] virtual fundraising event to make it more engaging
+  [0.44]  giving the parent the option of completing them all or the opportunity to pick and choose the ones that will fit into each day after reading the featured book.[[ The]] activities in part two can also be easily
+  [0.45] -round pick from future drafts to the offer. This change definitely makes[[ the]] trade more beneficial to Houston, since they
+  [0.46]  to make the captions and videos more engaging for millennials? Also, could you give me some examples of how we could use Instagram stories as a part of[[ the]] campaign? Lastly, can we also incorporate
+  [0.68] , this is a classic case of mathematical chaos (larger shapes composed of infinitely varied smaller patterns). Whatever the science, however, it is difficult for[[ the]] observer to think of it as anything other
+--- cluster 1
+  [0.51]  offered by MIMO. To enable MU-MIMO to be used there are several approaches that can be adopted, and a number of applications / versions that[[ are]] available. MU-MIMO provides a methodology
+  [0.48]  a few examples of countries that are leading the way in renewable energy policies and technologies. Many other countries, from small island nations to large industrial powers,[[ are]] also making significant investments in renewable energy and
+  [0.43]  the human hand. In the same way, whether or not humans should be cloned, which you had previously mentioned, is a topic which[[ is]] definitely up for debate. It's likely
+  [0.53] .  In general, however, over-the-counter medications featuring medication active ingredients (i.e. ingredients that actually treat the underlying cause of the cold)[[ are]] the best ways to alleviate cold symptoms and
+  [0.47]  microphone stood at the center of the stage, capturing every detail of the performance with precision and clarity. It was in the epicenter of the sensory overload[[ that]] was the concert, feeling the vibrations of
+--- unclustered (sample)
+  [0.44]  are a few examples:     Washington, DC was originally laid out by George Washington himself as the new capital of the United States of America.  In[[ one]] section of the city is the famous Capitol
+  [0.43] ies fruits with the calories for every 100 grams.  Assistant: Sure thing!  Here is a list of healthy fruits containing under 1[[0]]0 calories per 100 grams
+  [0.46]  on the island. Could you add more about her interactions with the wildlife on the island? How did they contribute to her growth?  assistant: Certainly![[ Elena]]'s interactions with the wildlife on the island
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.61]  with consumption of dietary supplement ingredients. The system should be open, transparent, and useful for establishing varying levels of concern relating to dietary supplements as outlined in[[ the]] Framework. Relationships with professional societies, scientific
+  [-2.55]    When officials are deciding what information to redact based on privacy and public interest concerns, there are a number of factors they must consider. Here's[[ a]] general process that might be followed:  1
+  [-0.24]  you can just cover the chicken with a mixture of vegetable oil, soy sauce, garlic powder, and some other spices like black pepper, paprika,[[ or]] ginger.  You can marinate it
+  [-1.28] aint Blue paint. Please be advised: The actual shade of "Haint Blue" varies, as the formulas were mixed by hand with local pigments[[.]] Haint Blue can range from a past
+  [-0.23]  toppings will work well for breakfast dishes.  Traditional accompaniments include breadcrumbs, reduced fat shredded cheese, sliced sautéed mushrooms or shallots[[,]] fresh herbs, chopped toasted nuts, or
+--- cluster 1
+  [-0.74]  tea even more.  user: Can you tell me more about the different types of teas produced in Sri Lanka and how they differ in taste and aroma?  [[assistant]]: Certainly! Sri Lanka is famous for
+  [-1.11]  in the market. However, I would like to know more about the eco-friendly options for kettles. Can you provide more information on that?  [[assistant]]: Yes, of course! There are
+  [-2.41]  you provide some more examples of how automation has helped small businesses in their operations? I'm really interested in learning more about the practical benefits of automation.  [[assistant]]: Certainly, here are some more examples
+  [-1.36]  This sounds like a great idea for a web series. Can you add more details on the activities that the guests will be doing at the wellness retreat?  [[assistant]]: Sure, I can definitely add some
+  [-0.51]  the event to make it more engaging for the audience. Can you suggest some more ideas for interactive activities that we could incorporate into the virtual fundraising event?  [[assistant]]
+--- unclustered (sample)
+  [-2.27]   Human: Do you know any useful keyboard shortcuts I can use on my computer?  Assistant: Sure,[[ I]] would be happy to help with that!
+  [-1.38]  more about the calligraphic designs on the walls and ceiling? Is there a specific message or meaning behind them?  assistant:[[ Certainly]]! The calligraphic designs on the
+  [-1.02]  known for his performances in a number of major films such as The Bourne Identity, Good Will Hunting, The Departed, and The Martian. [[ I]] might recommend any of those films as great
