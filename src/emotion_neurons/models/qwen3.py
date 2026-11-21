@@ -4,14 +4,13 @@
 - Single-layer reads stop the forward pass right after that layer, so later layers are never computed.
 """
 
-import os
 from collections.abc import Callable, Iterator
 from contextlib import contextmanager
 
 import torch
 from jaxtyping import Float, Int
 from torch import Tensor, nn
-from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
+from transformers import PreTrainedModel
 
 from ..emotions import HOOKED_SITES, Site
 
@@ -20,18 +19,6 @@ SiteActivations = dict[Site, Float[Tensor, "batch seq dim"]]
 
 class StopForward(Exception):
     """Raised by the hook on the last layer a read needs."""
-
-
-def load_model(name: str, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
-    """bf16 and right padding, as every run here assumes."""
-    token = os.environ.get("HF_TOKEN") or None
-    tokenizer = AutoTokenizer.from_pretrained(name, token=token)
-    tokenizer.padding_side = "right"
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-    model = AutoModelForCausalLM.from_pretrained(name, dtype=torch.bfloat16, device_map=device, token=token)
-    model.eval()
-    return model, tokenizer
 
 
 def decoder_layers(model: PreTrainedModel) -> nn.ModuleList:

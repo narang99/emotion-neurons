@@ -20,10 +20,10 @@ from jaxtyping import Bool, Float, Int
 from pydantic import BaseModel, ConfigDict
 from safetensors.torch import load_file, save_file
 from torch import Tensor
-from transformers import AutoConfig, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
+from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from .config import HarvestConfig, ModesRunConfig
-from .models import load_model, read_mlp
+from .models import load_model, load_tokenizer, load_w_down, read_mlp
 from .poles import padded_batch, quantiles_per_neuron
 from .texts import corpus_windows
 
@@ -214,14 +214,14 @@ def run_harvest(cfg: ModesRunConfig) -> None:
     h = cfg.harvest
     t0 = time.time()
     chosen = neurons_until(h.neurons_csv, h.rebuilt_pct)
-    controls = control_neurons(chosen, AutoConfig.from_pretrained(cfg.model).intermediate_size, h.n_controls, h.seed)
+    controls = control_neurons(chosen, load_w_down(cfg.model, cfg.layer).shape[1], h.n_controls, h.seed)
     neurons = chosen + controls
     print(f"[neurons] {len(chosen)} from {h.neurons_csv} (to {h.rebuilt_pct}%) + {len(controls)} controls", flush=True)
 
     corpus = corpus_for(cfg, neurons)
     assert corpus.acts.shape[1] == len(neurons), f"saved corpus has {corpus.acts.shape[1]} neurons, expected {len(neurons)}"
     print(f"[corpus] {len(corpus.tokens)} tokens, {int(corpus.valid.sum())} valid, {time.time() - t0:.0f}s", flush=True)
-    tokenizer = AutoTokenizer.from_pretrained(cfg.model)
+    tokenizer = load_tokenizer(cfg.model)
     edges = band_edges(corpus, h, torch.device(cfg.device))
     print(f"[edges] both poles, {time.time() - t0:.0f}s", flush=True)
     bounds = corpus.window_bounds()

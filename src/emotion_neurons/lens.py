@@ -9,10 +9,13 @@ from jaxtyping import Float
 from torch import Tensor
 from transformers import PreTrainedTokenizerBase
 
+from .models.adapters import adapter_for
 from .models.weights import cache_dir, load_tensor
 
 
-def cached_bf16(model: str, name: str) -> Tensor:
+def cached_bf16(model: str, kind: str) -> Tensor:
+    """One checkpoint tensor ("lm_head" or "final_norm"), named by the model family's adapter."""
+    name = adapter_for(model).tensor_name(kind, None)
     path = cache_dir() / f"{model.replace('/', '--')}.{name}.pt"
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -22,7 +25,7 @@ def cached_bf16(model: str, name: str) -> Tensor:
 
 def unembedding(model: str, n_vocab: int) -> tuple[Tensor, Float[Tensor, " d_model"]]:
     """(lm_head [vocab, d_model] bf16, cut to the tokenizer's vocabulary; final norm gain, fp32)."""
-    return cached_bf16(model, "lm_head.weight")[:n_vocab], cached_bf16(model, "model.norm.weight").float()
+    return cached_bf16(model, "lm_head")[:n_vocab], cached_bf16(model, "final_norm").float()
 
 
 def top_token_ids(

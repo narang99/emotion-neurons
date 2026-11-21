@@ -16,13 +16,12 @@ from pathlib import Path
 
 import torch
 from safetensors.torch import load_file
-from transformers import AutoTokenizer
 
 from .config import ModesRunConfig
 from .emotions import EMOTIONS
 from .judge import SCENE_AT, read_verdict
 from .lens import decode_columns, top_token_ids, unembedding
-from .models import load_w_down
+from .models import load_tokenizer, load_w_down
 
 TEMPLATE = Path(__file__).parent / "templates" / "modes_report.html"
 LENS_TOP = 12
@@ -114,7 +113,7 @@ def neuron_info(neurons, controls, rows, W, shift, d) -> dict[int, dict]:
 
 
 def lenses(model: str, W, d, neurons: list[int]) -> tuple[dict[int, dict], dict]:
-    tokenizer = AutoTokenizer.from_pretrained(model)
+    tokenizer = load_tokenizer(model)
     W_U, gamma = unembedding(model, len(tokenizer))
     ids = top_token_ids(W_U, gamma, torch.cat([W[:, neurons], d[:, None]], 1), LENS_TOP)
     up, down = decode_columns(tokenizer, ids["up"]), decode_columns(tokenizer, ids["down"])
