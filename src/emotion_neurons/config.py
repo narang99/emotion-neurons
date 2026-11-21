@@ -101,6 +101,23 @@ class HarvestConfig(Section):
     seed: int = 0
 
 
+class ModesConfig(Section):
+    """Clusters of each harvested neuron's hits at each pole (`emotion_neurons.modes`); defaults of tag exp/stage3_l25."""
+
+    hits_used: int = Field(500, description="hits clustered per neuron and pole (a subsample of the harvest's)")
+    pca_dims: int = 50
+    min_cluster_size: int = 10
+    min_samples: int | None = 5
+    assign_quantile: float = Field(0.1, description="a noise hit joins a cluster above this quantile of member cosines")
+    exemplars: int = 5
+    other_exemplars: int = 3
+    neurons_per_batch: int = Field(8, description="neurons per text file for Haiku")
+    snippet_before: int = 30
+    snippet_after: int = 8
+    batch_size: int = 32
+    checks: int = Field(200, description="hits whose recomputed activation is checked against the harvest")
+
+
 class GreedySetsConfig(Section):
     """Greedy sets of one layer's neurons for each emotion's MLP write (`emotion_neurons.sparse`)."""
 
@@ -124,6 +141,7 @@ class RunConfig(BaseSettings):
     poles: PolesConfig = PolesConfig()
     greedy_sets: GreedySetsConfig = GreedySetsConfig()
     harvest: HarvestConfig = HarvestConfig()
+    modes: ModesConfig = ModesConfig()
 
     @classmethod
     def settings_customise_sources(
