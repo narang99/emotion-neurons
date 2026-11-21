@@ -2,11 +2,12 @@
 
 Which MLP neurons of Qwen3-8B (layer 25 of 36) build the model's emotion directions?
 
-This branch keeps only three things:
+This branch keeps four things:
 
 - the code that extracts activations and builds the emotion vectors;
 - the code that finds each neuron's poles;
-- a summary of the sparse-set methods we tried, in `experiments/SPARSE_SETS.md`.
+- a summary of the sparse-set methods we tried, in `experiments/SPARSE_SETS.md`;
+- the greedy sets of neurons for each emotion's write (below).
 
 Every other experiment lives at its git tag. `experiments/LOG.md` lists all of them, in order, with their results.
 
@@ -64,11 +65,56 @@ P = load_file("results/poles/thresholds.safetensors")
 P["p3"], P["p97"]  # [12288] each
 ```
 
+## Greedy sets: which neurons build each emotion's write
+
+- Tag `exp/greedy_sets_l25`, log `experiments/greedy_sets_l25.md`.
+- Per emotion, the fewest layer-25 neurons that rebuild 90% of the emotion's MLP write.
+  - Write: `W_down @ (mean activation on the emotion's 120 stories - mean on all 1680 stories)`. Exact, no PCA, no split.
+  - Neurons outside the set sit at their all-story mean.
+  - Greedy: add the neuron that rebuilds the most of what is still missing. Stop at 90%.
+- Set sizes: 1472 (loving) to 2025 (calm). Happy: 1527.
+
+### Reproduce (CPU, under a minute)
+
+```
+uv sync
+bash scripts/fetch_runs.sh    # runs/stage2_l25
+uv run python scripts/greedy_sets.py --config configs/greedy_sets_l25.yaml
+```
+
+- The first run downloads layer 25's `W_down` from the Hub (200 MB) into `~/.cache/huggingface/emotion-neurons/`.
+
+### Read the results
+
+- `results/greedy_sets_l25/sets.json`: `sets[<emotion>]` is the list of neurons, in the order greedy added them.
+- `results/greedy_sets_l25/neurons/<emotion>.csv`: one row per neuron in the set.
+  - `rank`: the step greedy added it.
+  - `write_share_pct`: its part of the write, along the write. Over all 12288 neurons it sums to 100.
+    - It can be negative: the neuron pushes against the write, but fixes a side direction.
+    - Over the set it sums to about 83%, not 90%. The other neurons fill the rest of the 90% by cancelling side directions.
+  - `rebuilt_after_pct`: the share of the write the set rebuilds once this neuron is in.
+  - `abar_emotion`, `abar_all`, `shift`: mean activation on the emotion's stories, on all stories, and the difference.
+- `results/greedy_sets_l25/tensors.safetensors`: `write`, `shift`, `abar_emotion` [12, dim] in `EMOTIONS` order, and `abar_all` [dim].
+- `results/greedy_sets_l25/summary.json`: per emotion, the set size, and the size at 50%, 75%, 90% and 95%.
+
+```python
+import json
+from safetensors.torch import load_file
+
+from emotion_neurons.models import load_w_down
+
+sets = json.load(open("results/greedy_sets_l25/sets.json"))["sets"]
+T = load_file("results/greedy_sets_l25/tensors.safetensors")
+W = load_w_down("Qwen/Qwen3-8B", 25)  # [4096, 12288]; column n is neuron n's write
+happy = sets["happy"]  # 1527 neurons; happy[0] = 2862
+part = W[:, happy] @ T["shift"][0, happy]  # what the set writes; rebuilds 90% of T["write"][0]
+```
+
 ## Layout
 
 | path | what |
 |---|---|
-| `src/emotion_neurons/` | library: `config`, `models` (load, hooks), `texts` (stories, corpora), `capture` (pooled sums), `vectors`, `poles` |
+| `src/emotion_neurons/` | library: `config`, `models` (load, hooks), `texts` (stories, corpora), `capture` (pooled sums), `vectors`, `poles`, `sparse` (greedy sets) |
 | `scripts/` | thin scripts: parse the config, call the library, save |
 | `configs/` | one YAML per run |
 | `data/stories/` | the stories |

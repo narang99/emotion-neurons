@@ -18,8 +18,6 @@ import yaml
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic_settings import BaseSettings, PydanticBaseSettingsSource, SettingsConfigDict
 
-from .emotions import EMOTIONS
-
 Baseline = Literal["mean", "neutral"]
 Variant = Literal["raw", "denoised"]
 
@@ -78,20 +76,11 @@ class PolesConfig(Section):
     seed: int = 0
 
 
-class SparseConfig(Section):
-    """Sparse sets of one layer's neurons for each emotion's gap write (`emotion_neurons.sparse`)."""
+class GreedySetsConfig(Section):
+    """Greedy sets of one layer's neurons for each emotion's MLP write (`emotion_neurons.sparse`)."""
 
     sums_run: str = Field("stage2_l25", description="runs/<sums_run> holds the pooled sums and stories.json")
-    emotions: list[str] = Field(list(EMOTIONS), description="a subset is for quick checks")
-    folds: int = Field(6, description="held-out early stopping over these folds (story_idx 0-5)")
-    lambda_points: int = Field(40, description="points on the lam path, from lambda_max down to lambda_min_ratio of it")
-    lambda_min_ratio: float = 1e-4
-    max_iterations: int = 20000
-    tolerance: float = Field(1e-6, description="stop when the mask moves less than this under one prox step")
-    greedy_steps: int = 6000
-    reference_leftover: float = Field(0.316, description="also reported: the size where the leftover reaches this (90% of |d|^2)")
-    random_sets: int = 5
-    seed: int = 0
+    rebuilt: float = Field(0.9, description="stop when the set rebuilds this share of the write")
 
 
 class RunConfig(BaseSettings):
@@ -108,7 +97,7 @@ class RunConfig(BaseSettings):
     extract: ExtractConfig = ExtractConfig()
     vectors: VectorsConfig = VectorsConfig()
     poles: PolesConfig = PolesConfig()
-    sparse: SparseConfig = SparseConfig()
+    greedy_sets: GreedySetsConfig = GreedySetsConfig()
 
     @classmethod
     def settings_customise_sources(

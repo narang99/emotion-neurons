@@ -1,8 +1,0 @@
-# Sparse sets by a relaxed mask in [0, 1] (fixed measured shifts, L1 penalty), with greedy as the baseline. CPU.
-#   python scripts/sparse_sets.py --config configs/sparse_relaxed_l25.yaml --device cpu
-# Needs runs/stage2_l25/ (scripts/fetch_runs.sh) and layer 25's W_down (downloaded from the Hub on first use).
-run_id: sparse_relaxed_l25
-model: Qwen/Qwen3-8B
-layer: 25
-sparse:
-  sums_run: stage2_l25
