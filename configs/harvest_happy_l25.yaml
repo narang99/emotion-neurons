@@ -1,0 +1,10 @@
+# Both poles of the happy greedy set's neurons up to 75% of the write (533 neurons), plus 20 random controls.
+# GPU, L4. About 2M tokens of general text to layer 25.
+#   python scripts/harvest.py --config configs/harvest_happy_l25.yaml
+run_id: harvest_happy_l25
+model: Qwen/Qwen3-8B
+layer: 25
+harvest:
+  neurons_csv: results/greedy_sets_l25/neurons/happy.csv
+  rebuilt_pct: 75
+  n_controls: 20

@@ -76,6 +76,31 @@ class PolesConfig(Section):
     seed: int = 0
 
 
+class HarvestConfig(Section):
+    """What chosen neurons fire on, at both poles (`emotion_neurons.harvest`)."""
+
+    neurons_csv: Path = Field(Path("results/greedy_sets_l25/neurons/happy.csv"), description="a greedy-set CSV, in rank order")
+    rebuilt_pct: float = Field(75.0, description="harvest the neurons up to the one that rebuilds this % of the write")
+    n_controls: int = 20
+    corpora: list[CorpusConfig] = [
+        CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=700_000),
+        CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=700_000),
+        CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=600_000),
+    ]
+    high_quantiles: list[float] = [0.97, 0.99, 0.999, 0.9999]
+    low_quantiles: list[float] = [0.03, 0.01, 0.001, 0.0001]
+    examples_per_band: int = 8
+    extreme_examples: int = 12
+    hits_per_pole: int = Field(1000, description="hit positions kept per neuron and pole, for the mode clustering")
+    before: int = Field(60, description="tokens shown before the firing token")
+    after: int = Field(8, description="tokens shown after it")
+    window: int = 256
+    min_window: int = 32
+    skip_first: int = Field(4, description="the first tokens of each window are left out (attention-sink effects)")
+    batch_size: int = 32
+    seed: int = 0
+
+
 class GreedySetsConfig(Section):
     """Greedy sets of one layer's neurons for each emotion's MLP write (`emotion_neurons.sparse`)."""
 
@@ -98,6 +123,7 @@ class RunConfig(BaseSettings):
     vectors: VectorsConfig = VectorsConfig()
     poles: PolesConfig = PolesConfig()
     greedy_sets: GreedySetsConfig = GreedySetsConfig()
+    harvest: HarvestConfig = HarvestConfig()
 
     @classmethod
     def settings_customise_sources(
