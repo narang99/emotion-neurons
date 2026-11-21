@@ -64,3 +64,15 @@ python scripts/residual_sets.py --config configs/residual_sets.yaml --device cpu
 - Only 20 held-out stories per emotion in the single split. The held-out gap is about half noise (0.48 to 0.68 of its length).
 - Greedy is not guaranteed optimal.
 - The first 6-fold run gave NaN on 4 of 72 folds. A rerun gave finite values with the same numbers elsewhere. It was a numerical fault on the Mac CPU, not in the data.
+
+## Set size vs cosine, both methods (`scripts/plot_set_curves.py`)
+
+![set curves](../results/residual_sets/set_curves.png)
+
+- Each method is scored against its own target.
+- **The two greedy searches trace almost the same curve.** The order in which they add neurons is nearly the same.
+- **They differ only in where they stop.**
+  - Method 1 stops where the held-out cosine matches the whole MLP: cos 0.72 to 0.93, 268 to 1401 neurons.
+  - Method 2 stops at the noise level: cos 0.93 to 0.97, 1499 to 2232 neurons.
+- **There is no elbow.** The cosine rises about linearly with log(set size), from 1 neuron to about 2000.
+  - So no small core carries the write, with the rest adding little. Each doubling of the set adds about the same.
