@@ -76,6 +76,13 @@ class PolesConfig(Section):
     seed: int = 0
 
 
+class GreedySetsConfig(Section):
+    """Greedy sets of one layer's neurons for each emotion's MLP write (`emotion_neurons.sparse`)."""
+
+    sums_run: str = Field("stage2_l25", description="runs/<sums_run> holds the pooled sums and stories.json")
+    rebuilt: float = Field(0.9, description="stop when the set rebuilds this share of the write")
+
+
 class RunConfig(BaseSettings):
     model_config = SettingsConfigDict(extra="forbid", cli_kebab_case=True)
 
@@ -90,6 +97,7 @@ class RunConfig(BaseSettings):
     extract: ExtractConfig = ExtractConfig()
     vectors: VectorsConfig = VectorsConfig()
     poles: PolesConfig = PolesConfig()
+    greedy_sets: GreedySetsConfig = GreedySetsConfig()
 
     @classmethod
     def settings_customise_sources(
