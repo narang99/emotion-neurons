@@ -1,5 +1,7 @@
 # Handoff: next run (2026-11-19)
 
+> For an outside opinion on the current work, read `HANDOFF_review.md` first. This file is the older run handoff.
+
 ## Current state (latest)
 
 - Done, with results and logs: causal sets, value swap, word tests, tail check, early-layer harvest, chain (3068),
