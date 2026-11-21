@@ -1,0 +1,11 @@
+# Chain token -> L8 neuron -> L25 n3068 ("pride") -> log p(" pride"), with random baselines (GPU, L4).
+#   python scripts/chain.py --config configs/chain.yaml
+run_id: chain
+model: Qwen/Qwen3-8B
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
+chain:
+  target: [25, 3068]
+  middles: [[8, 4826], [8, 7265], [24, 2010]]

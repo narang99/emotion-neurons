@@ -1,0 +1,10 @@
+# Signal set and cancelling rest: the fewest layer-25 neurons whose raw write rebuilds each emotion's gap write
+# (own minus other stories) in direction and length (CPU, from the signal_noise cache).
+#   python scripts/residual_sets.py --config configs/residual_sets.yaml --device cpu
+run_id: residual_sets
+model: Qwen/Qwen3-8B
+layer: 25
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50

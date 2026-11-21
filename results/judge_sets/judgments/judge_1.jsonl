@@ -1,0 +1,45 @@
+{"id": "N045", "theme": "leaving quickly: getaway, speed away, drive off", "emotion_named": 1, "any_emotion": 1, "kind": "situation"}
+{"id": "N046", "theme": "habitual adverbs: always, as she always did", "emotion_named": 0, "any_emotion": 0, "kind": "word"}
+{"id": "N047", "theme": "injuries and accidents: leg, cast, stitches, surgery", "emotion_named": 1, "any_emotion": 1, "kind": "situation"}
+{"id": "N048", "theme": "technical and generic text function words; no shared pattern", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N049", "theme": "name fragments inside proper nouns and place names", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N050", "theme": "article 'a' before kitchen and craft tools", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N051", "theme": "eyes, throat or voice reacting: went wide, turned to dread", "emotion_named": 1, "any_emotion": 2, "kind": "body"}
+{"id": "N052", "theme": "trailing space before list dashes in recipes", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N053", "theme": "'the' before community, public and institution nouns", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N054", "theme": "citation digits and punctuation; 'walked to/into' in stories", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N055", "theme": "web boilerplate and reference-list text; no shared emotion", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N056", "theme": "sentence-initial 'But' starting a narrative turn", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N057", "theme": "phone-number digits and hyphens in press contacts", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N058", "theme": "modal 'would' in 'would you like' and 'I'd mind'", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N059", "theme": "herb and plant descriptions: eyebright, milkweed, basil", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N060", "theme": "location prepositions after motion or place verbs", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N061", "theme": "helping or caring for someone hurt: took her to hospital", "emotion_named": 0, "any_emotion": 1, "kind": "situation"}
+{"id": "N062", "theme": "speech verbs after a quote: said, told, asked", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N063", "theme": "relative 'that' and cooking step verbs", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N064", "theme": "dates, years and times: Aug. 2, 2011-2012, a.m.", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N065", "theme": "household objects in lists: bread, record player, rice", "emotion_named": 0, "any_emotion": 0, "kind": "word"}
+{"id": "N066", "theme": "universal quantifiers: everything, everywhere, all around", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N067", "theme": "sentence-ending period before a new section heading", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N068", "theme": "interior color scheme and room design wording", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N069", "theme": "cautionary advice: careful, should be used, before doing", "emotion_named": 1, "any_emotion": 1, "kind": "situation"}
+{"id": "N070", "theme": "yoga poses, chakras and pilgrimage places", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N071", "theme": "spilling, splashing and pouring liquids", "emotion_named": 0, "any_emotion": 0, "kind": "situation"}
+{"id": "N072", "theme": "researcher surnames and citation fragments", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N073", "theme": "fable adjectives after 'the': the slow turtle, the old man", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N074", "theme": "chess moves: moved her queen, her pieces", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N075", "theme": "eerie whispers and sounds heard while moving", "emotion_named": 1, "any_emotion": 1, "kind": "situation"}
+{"id": "N076", "theme": "ISBN and phone digits, timestamps", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N077", "theme": "death and dying: died, passed on, posthumously", "emotion_named": 0, "any_emotion": 1, "kind": "situation"}
+{"id": "N078", "theme": "security verification is hard or difficult", "emotion_named": 0, "any_emotion": 0, "kind": "word"}
+{"id": "N079", "theme": "article 'a' after 'as' and 'for' in technical text", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N080", "theme": "pets and animals: dog, Max, pet senses owner", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N081", "theme": "alternatives and comparisons: or, than, class two", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N082", "theme": "sharing toys and playing together with friends", "emotion_named": 1, "any_emotion": 1, "kind": "word"}
+{"id": "N083", "theme": "'on' or 'start' before dates and days", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N084", "theme": "vaccine label and recipe instruction words", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N085", "theme": "pride and sense of accomplishment: proud, chest swelled", "emotion_named": 2, "any_emotion": 2, "kind": "word"}
+{"id": "N086", "theme": "period before a new narrative event in children's stories", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N087", "theme": "licensing and permission text; no shared pattern", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N088", "theme": "'a' after transform verbs: made a farm, into a rope", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N089", "theme": "name fragments inside proper nouns", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}

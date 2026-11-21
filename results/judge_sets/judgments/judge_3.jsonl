@@ -1,0 +1,45 @@
+{"id": "N135", "theme": "legal citations, courts, judges, law journals", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N136", "theme": "book and story references, Wizard of Oz, drawings", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N137", "theme": "the quantifier 'every' and 'knew every'", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N138", "theme": "medical review dates and mixed name fragments", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N139", "theme": "citation boilerplate and ISBN digits", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N140", "theme": "negation before verb: not, don't, never, didn't", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N141", "theme": "forget/remember reminders; 'don't be afraid' in a few", "emotion_named": 1, "any_emotion": 0, "kind": "word"}
+{"id": "N142", "theme": "'the one' and 'the best' superlative descriptors", "emotion_named": 1, "any_emotion": 0, "kind": "syntax"}
+{"id": "N143", "theme": "apologies and promises not to do it again", "emotion_named": 0, "any_emotion": 1, "kind": "situation"}
+{"id": "N144", "theme": "'with' after go, share or tour (with family, friends)", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N145", "theme": "preposition 'at' (at sea, at first, at the age)", "emotion_named": 1, "any_emotion": 1, "kind": "syntax"}
+{"id": "N146", "theme": "given-name and surname fragments", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N147", "theme": "hear and listen verbs (heard a noise)", "emotion_named": 0, "any_emotion": 0, "kind": "word"}
+{"id": "N148", "theme": "'the' and 'divide' in instructions and sports results", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N149", "theme": "'from', 'of' and absence words (no sign of, nobody)", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N150", "theme": "journal citation volume and page digits", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N151", "theme": "sit/put verbs with hand or head on body", "emotion_named": 0, "any_emotion": 0, "kind": "body"}
+{"id": "N152", "theme": "greetings and dialogue openers (Hello there, Good evening)", "emotion_named": 1, "any_emotion": 1, "kind": "syntax"}
+{"id": "N153", "theme": "name fragments and 'Another 352 words' text", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N154", "theme": "'following', 'given', 'described' in article text", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N155", "theme": "'as' and 'part of' function phrases", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N156", "theme": "'all' and 'was' in 'so happy' and 'all right'", "emotion_named": 1, "any_emotion": 1, "kind": "syntax"}
+{"id": "N157", "theme": "name fragments, citation digits, pleading 'please'", "emotion_named": 1, "any_emotion": 1, "kind": "unclear"}
+{"id": "N158", "theme": "'have' auxiliary and percentages or numbers", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N159", "theme": "cooking ingredients and flavor or taste description", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N160", "theme": "digits in dates, ISBNs and names", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N161", "theme": "species names (humpback dolphin, Sousa)", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N162", "theme": "pregnancy and women's health advice", "emotion_named": 0, "any_emotion": 1, "kind": "topic"}
+{"id": "N163", "theme": "piling up, accumulating, stacking", "emotion_named": 1, "any_emotion": 1, "kind": "word"}
+{"id": "N164", "theme": "'only', 'even if', ratios in health and story text", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N165", "theme": "'a', 'the', 'not' in moral and logic contexts", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N166", "theme": "food and name fragments (baklava, cilantro)", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N167", "theme": "'of' in instructions (sources of income) and fit", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N168", "theme": "motion prepositions after jump, throw, run (on, in, into)", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N169", "theme": "speech and arrival verbs (said, nodded, came out, pulled up)", "emotion_named": 1, "any_emotion": 1, "kind": "unclear"}
+{"id": "N170", "theme": "name fragments and journal names (Chin Med)", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N171", "theme": "'so' and 'truly' after excited, delighted, grateful", "emotion_named": 2, "any_emotion": 2, "kind": "word"}
+{"id": "N172", "theme": "narration verbs (broke into a run, called, repeat)", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N173", "theme": "exclamation and question marks ending a sentence", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N174", "theme": "dim light and shadows; burning body sensations", "emotion_named": 1, "any_emotion": 1, "kind": "situation"}
+{"id": "N175", "theme": "question mark before closing quote ('she asked')", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N176", "theme": "web boilerplate, citations and name fragments", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N177", "theme": "'we' in reassuring dialogue after distress", "emotion_named": 1, "any_emotion": 1, "kind": "syntax"}
+{"id": "N178", "theme": "'help' and 'assist' verbs (designed to help you)", "emotion_named": 0, "any_emotion": 0, "kind": "word"}
+{"id": "N179", "theme": "Apollo spacecraft stages and historical description", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}

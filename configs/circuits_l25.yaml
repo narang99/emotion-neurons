@@ -1,0 +1,15 @@
+# Dense circuits for the layer-25 emotion score on held-out stories (GPU, L4).
+#   python scripts/layer_vectors.py --config configs/layers_all.yaml   # CPU, once: unit vectors + mean activations
+#   python scripts/circuits.py      --config configs/circuits_l25.yaml
+# Needs results/layers_all/layer_vectors.safetensors and results/sparse_layers/sparse_layers.json (both committed).
+run_id: circuits_l25
+model: Qwen/Qwen3-8B
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
+circuits:
+  target_layer: 25
+  stories_per_emotion: 5
+  sizes: [100, 300, 1000, 3000, 10000, 30000]
+  report_size: 1000

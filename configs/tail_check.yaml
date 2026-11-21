@@ -1,0 +1,15 @@
+# Does an emotion's MLP write at layer 25 come from tail firings (>= p97, <= p3) or from small shifts on every
+# token? (GPU, L4.) Thresholds from a 210k-token sample of the harvest corpus.
+#   python scripts/tail_check.py --config configs/tail_check.yaml
+run_id: tail_check
+model: Qwen/Qwen3-8B
+layer: 25
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
+harvest:
+  corpora:
+    - {name: fineweb-edu, path: HuggingFaceFW/fineweb-edu, config: sample-10BT, tokens: 70000}
+    - {name: tinystories, path: roneneldan/TinyStories, tokens: 70000}
+    - {name: ultrachat, path: HuggingFaceH4/ultrachat_200k, split: train_sft, field: messages, tokens: 70000}

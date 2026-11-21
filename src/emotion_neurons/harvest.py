@@ -24,7 +24,8 @@ from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from .config import HarvestConfig, RunConfig
 from .decomposition.dims_then_neurons import rank_neurons
-from .models import read_mlp
+from .models import decoder_layers, read_mlp
+from .models.qwen3 import forward_until_stop, hooks, raise_stop
 from .texts import corpus_windows
 from .vectors import EmotionVectors
 
@@ -129,6 +130,48 @@ def activation_pass(
             arrays.pos[o : o + n] = np.arange(n)
             arrays.window[o : o + n] = i
     acts.flush()
+    return arrays
+
+
+@torch.no_grad()
+def activation_pass_layers(
+    model: PreTrainedModel,
+    layer_neurons: dict[int, list[int]],
+    windows: Windows,
+    batch_size: int,
+    pad_id: int,
+    acts_paths: dict[int, Path],
+) -> TokenArrays:
+    """`activation_pass` for several layers in one forward pass, stopped after the deepest one."""
+    offsets = windows.offsets
+    total = int(offsets[-1])
+    acts = {
+        k: np.lib.format.open_memmap(acts_paths[k], mode="w+", dtype=np.float16, shape=(total, len(n)))
+        for k, n in layer_neurons.items()
+    }
+    arrays = TokenArrays(tokens=np.zeros(total, np.int32), pos=np.zeros(total, np.int16), window=np.zeros(total, np.int32))
+    idx = {k: torch.tensor(n, device=model.device) for k, n in layer_neurons.items()}
+    blocks = decoder_layers(model)
+    store: dict[int, torch.Tensor] = {}
+    handles = [blocks[k].mlp.down_proj.register_forward_pre_hook(lambda _m, a, k=k: store.__setitem__(k, a[0][:, :, idx[k]].float()))
+               for k in layer_neurons]  # fmt: skip
+    handles.append(blocks[max(layer_neurons)].register_forward_hook(raise_stop))
+    order = sorted(range(len(windows.tokens)), key=lambda i: -len(windows.tokens[i]))
+    with hooks(handles):
+        for start in tqdm(range(0, len(order), batch_size), desc="harvest"):
+            batch = order[start : start + batch_size]
+            ids, mask = padded_batch([windows.tokens[i] for i in batch], pad_id)
+            forward_until_stop(model, ids.to(model.device), mask.to(model.device))
+            got = {k: store[k].half().cpu().numpy() for k in layer_neurons}
+            for j, i in enumerate(batch):
+                n, o = len(windows.tokens[i]), offsets[i]
+                for k in layer_neurons:
+                    acts[k][o : o + n] = got[k][j, :n]
+                arrays.tokens[o : o + n] = windows.tokens[i]
+                arrays.pos[o : o + n] = np.arange(n)
+                arrays.window[o : o + n] = i
+    for a in acts.values():
+        a.flush()
     return arrays
 
 

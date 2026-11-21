@@ -1,0 +1,1357 @@
+# Signal, noise and offset neurons along each emotion vector (layer 25, raw pushes)
+
+## happy
+
+- counts: specific 1057 (563 push +), constant 7276 (3569 +), noise 3955
+- share of the mean push: signal +0.94, specific +0.93, constant +0.01, noise +0.06
+- d' (own vs other held-out stories): signal +2.23, specific +2.84, constant +0.71, noise +1.43, all +2.16
+- noise sum: mean +0.086, sd 0.231 (independent: 0.185)
+
+### happy: strongest constant neurons
+
+- **n3853** push -0.043 (other stories -0.056); corpus median +0.12, p3 -1.14, p97 +1.15
+  - top tokens: '.', ' all', '.\n\n', ' each', ' other', ',', ' they', ' to'
+  - bottom tokens: ' They', ' and', ' they', '.', ',', '9', ' their', 'They'
+  - high: 's an ear monster!" another answered.  They all[[ agreed]] that the / Jimmy was playing outside with his friends when[[ they]] found a
+  - low: , Kett, & Trefil (1[[9]]93 /  in the closet. It is smooth and soft.[[ They]] both want
+- **n1439** push +0.037 (other stories +0.037); corpus median -0.68, p3 -2.27, p97 +0.38
+  - top tokens: ':', 'assistant', ' ', '2', '.\n\n', '4', ',', ' Bec'
+  - bottom tokens: ' the', ' her', ' to', ' you', ' I', ' jal', ' never', ' his'
+  - high:  Oz 4 p. 34 To Please[[ a]] Child  /  a Child 7 p. 47 To[[ Please]] a Child
+  - low:  the board.  Sara picked the white pieces and[[ her]] dad picked / ," his mum said in a harsh voice.  But[[ the]] naughty boy
+- **n7555** push -0.035 (other stories -0.033); corpus median +0.02, p3 -1.07, p97 +2.39
+  - top tokens: ',', '.', ' is', ' was', '.\n', ' the', ' have', ' in'
+  - bottom tokens: ',"', ' of', ',”', ' such', ' the', ' and', ' it', ','
+  - high: , and the family purse.”7[[ Whatever]] their secret / Unless you’ve buried your head in the sand[[ or]] just returned
+  - low:  picture of these structures and be able to characterize them[[,"]] Schroers /  their individual lives. Tom may have felt a special[[ clos]]eness to
+- **n10073** push -0.034 (other stories -0.033); corpus median -0.01, p3 -0.73, p97 +0.52
+  - top tokens: ' smiled', ' waved', ' of', '.\n\n', ' door', ' hands', ' looked', ' heart'
+  - bottom tokens: ' The', ' "', ',', ' of', ' the', ' Mother', '.', ' and'
+  - high:  Sun," NeedtoBreathe's "The[[ Heart]]," and /  games from this era, such as Pong and[[ Space]] Invaders
+  - low:  from "Love Idol," the author also recommends "[[Sur]]prised /  also recommend another book I read this month: "[[Sur]]prised
+- **n1590** push +0.032 (other stories +0.031); corpus median +0.22, p3 -0.79, p97 +0.95
+  - top tokens: ' or', ',', ' if', ' to', ' of', ' a', ' you', ' on'
+  - bottom tokens: ' your', ' the', ' a', ' and', ' you', ',', ' to', ' an'
+  - high:  will be in danger if you get pregnant. So[[ how]] does your /  with their hands, and drink from a cup.[[ If]] you saw
+  - low:  repairs and maintenance should also be prioritized to keep[[ your]] vehicle running / " in the title may be related to the author[['s]]
+- **n10947** push +0.030 (other stories +0.029); corpus median -0.19, p3 -0.55, p97 +0.19
+  - top tokens: ' time', ',', 'Time', '\n', ' data', ' of', ' a', ' for'
+  - bottom tokens: '.', ' barbar', ' garn', 'j', 'Yes', 'ac', ' Garn', ',"'
+  - high:  “by publishing short stories by Stanley Waterloo and Gardner[[ C]]. Te /  is a strong link between using drugs containing sodium val[[pro]]ate during
+  - low:  space weapons (the proposal is known as the Prevention[[ of]] an Arms / by publishing short stories by Stanley Waterloo and Gardner C[[.]] Teall
+- **n7527** push -0.029 (other stories -0.033); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n10794** push +0.029 (other stories +0.029); corpus median +0.59, p3 -0.05, p97 +0.91
+  - top tokens: '.', ',', ' the', ' is', ' of', ' are', ' (', ' as'
+  - bottom tokens: ' the', '.\n\n', ',', ' a', '.\n', ' of', ' to', '.'
+  - high:  forms (e.g. backdoor account, reverse[[ shell]], hidden /  programmer did not embed some code which includes a block[[ of]] encrypted instructions
+  - low: , from the other in the pair[[. ]]Each of /  your floral pattern as desired. With the help of[[ the]] French Curve
+- **n9578** push -0.028 (other stories -0.026); corpus median +0.19, p3 -0.08, p97 +0.79
+  - top tokens: ' Frank', ' to', '.', ' M', ' ', ' the', ' of', ' character'
+  - bottom tokens: ' the', ',', ' and', ' cast', '.', ' of', ' ', ' The'
+  - high:  like that? Kevin Spacey is so good as[[ Frank]] Underwood /  such as The Old Man and the Sea by Earn[[est]] Heming
+  - low:  a compelling arc was Chief Jim Hopper, played[[ by]] David Harbour /  compelling arc was Chief Jim Hopper, played by[[ David]] Harbour.
+- **n8517** push +0.027 (other stories +0.027); corpus median -0.62, p3 -1.26, p97 -0.10
+  - top tokens: ',', '.', 'deer', 'olly', ' in', ' road', ' /', ' girl'
+  - bottom tokens: '.', ',', ',"', ' feeling', ' “', ' because', ' seemed', ' advice'
+  - high: ium, fasces, legiones, omnia[[,]] nunc / . I fight with all my[[ might]], my
+  - low: , “…my show had some free time between bookings[[.]] At every /  the steam engine, the telephone, the talking-machine[[,]] and the
+
+### happy: strongest specific neurons
+
+- **n2862** push +0.254 (other stories +0.030); corpus median -0.02, p3 -0.47, p97 +0.50
+  - top tokens: ' laughed', ' laugh', ' to', ' laughing', ' gigg', ' started', ' laughs', ' and'
+  - bottom tokens: ' of', ' the', ' noise', ' loud', ' sound', ' just', ' in', ' whistle'
+  - high:  The squirrel started to laugh too. Joe laughed so[[ hard]] that he / , and they both laughed. They laughed so hard[[ they]] hugged each
+  - low: Ben picked up the car and made vroom-v[[room]] noises. /  problems. If you are experiencing side effects,[[ discuss]] this with
+- **n10272** push +0.220 (other stories +0.009); corpus median +0.02, p3 -0.50, p97 +0.47
+  - top tokens: ' ran', ' and', ' to', ',', ' he', ' a', ' man', ' They'
+  - bottom tokens: ' hugged', ' hug', ' her', ' hugs', ' and', ' a', ' big', ' other'
+  - high:  The bright sun shone down on them as the[[ lion]] and the / Sara loves her dog, Max.[[ Max]] is big
+  - low:  in general. Be open with your hugs, p[[ats]] on the /  read it very fast!"   They both smiled and[[ hugged]]. Daisy
+- **n7717** push +0.136 (other stories +0.029); corpus median -0.01, p3 -1.81, p97 +0.83
+  - top tokens: ' a', ' electric', ' cool', ' for', ' For', ' reliable', ' can', ' Can'
+  - bottom tokens: ' loved', ' and', ' laughed', ' jumped', ' big', ' Absolutely', ' lots', ' of'
+  - high:  prizes for the winners? : Ladybug Crafts:[[ Time]] for the / . But they hurried home, so the girl could[[ tell]] all her
+  - low: , dancing and singing! She was happy and full[[ of]] fun. /  Kbira district, which is known for its extraordinary[[ life]]. Clock
+- **n6016** push +0.074 (other stories +0.021); corpus median -0.04, p3 -0.48, p97 +0.97
+  - top tokens: ' a', ' laughed', '.\n\n', ' cried', ' and', ' She', ' out', '!"'
+  - bottom tokens: ' said', ',', '.', ' says', ' and', ' his', ' her', ' voice'
+  - high:  it before! She was so excited that she let[[ out]] a big / , and he fell to the ground with a str[[angled]] cry.
+  - low:  are a variety of licensing options available for use of[[ articles]] and graphics /  box.  "We're packing a frame," she[[ said]], "
+- **n2005** push +0.059 (other stories +0.020); corpus median +0.00, p3 -0.40, p97 +0.55
+  - top tokens: ' and', ' so', ' was', ' felt', ' happy', ' thanked', ' very', ' grateful'
+  - bottom tokens: ' a', "'s", ' was', ' very', ':', ' sounds', ' is', ' so'
+  - high:  nudged me along with their accolades I am[[ truly]] grateful. /  the heart to her mom as a surprise. Her[[ mom]] smiled and
+  - low: , they heard a voice. "Hello, who[[ has]] pulled out /  would shine in the sun. Everyone around could see[[ how]] strong Tom
+- **n1967** push +0.046 (other stories +0.027); corpus median +0.21, p3 -0.57, p97 +1.05
+  - top tokens: ' and', ' to', ' a', ',', ' online', ' in', 'idd', ' have'
+  - bottom tokens: ' and', ',', ' the', ' to', ' of', '.', ' they', ' but'
+  - high:  was different. Now, we can deliver goods and[[ information]] across vast /  husband's murder years earlier. She decides to try[[ online]] dating but
+  - low:  tracked Apollo 13’s S-IVB[[ by]] radio signals /  coming by, Dolly; I love seeing your[[ face]] here.
+- **n7469** push +0.037 (other stories +0.019); corpus median -0.00, p3 -0.65, p97 +0.35
+  - top tokens: '0', '\n', ' to', '9', '6', '5', '2', ' at'
+  - bottom tokens: ' and', ' out', ' arms', ',', ' up', ' his', ' held', ' waved'
+  - high: 15) 723-25[[5]]8  /  Information Environment”, ACM UIST’99,[[ ]]19
+  - low:  and proud. He excitedly held his toy pirate[[ up]] to the /  felt like dancing. He happily held his toy pirate[[ up]] high and
+- **n10722** push -0.017 (other stories -0.035); corpus median +0.27, p3 -0.64, p97 +0.72
+  - top tokens: ' the', ' to', ' a', ',', ' birthday', '.', ' Funeral', ' and'
+  - bottom tokens: ' the', ' of', ',', ' and', ' in', ' on', ' a', ' it'
+  - high: , quite pointedly, on George Washington's birthday[[,]] February  / It was Lucy's[[ birthday]]. She
+  - low:  he was popular. Whether it is shown on television[[ annually]] or rented /  heavy push on toys and recently released its top [[1]]00
+- **n1976** push -0.016 (other stories +0.000); corpus median +0.01, p3 -0.77, p97 +0.95
+  - top tokens: ' with', ' to', ' fun', ' wanted', ',', ' the', ' play', ' and'
+  - bottom tokens: ' take', ' to', ' and', ' a', ' relax', ' rest', ',', ' stretched'
+  - high:  were buying some snacks. They were happy to see[[ Tim]]my and /  and went to talk to him. The man asked[[ Tim]]my why
+  - low:  drink from the stream. Then he laid down and[[ soaked]] in the /  distance, and for the first time in days,[[ let]] out a
+- **n10987** push +0.013 (other stories -0.002); corpus median +0.01, p3 -0.66, p97 +0.47
+  - top tokens: ' wait', ' enjoyed', ' enjoy', ' I', "'t", ' an', ' to', ' love'
+  - bottom tokens: ' was', ' "', ' happy', ' Lily', '!', '.', ' she', 'ily'
+  - high:  my fitness app? I want to make sure users[[ enjoy]] using it /  settle for being a cowboy poet. I hope you[[ enjoy]] the read
+  - low:  a video," she said.   Lily cl[[apped]] her hands /  sheet. No more fighting. OK?"  Tom and[[ Anna]] think.
+
+## inspired
+
+- counts: specific 1594 (878 push +), constant 6562 (3590 +), noise 4132
+- share of the mean push: signal +0.96, specific +0.22, constant +0.74, noise +0.04
+- d' (own vs other held-out stories): signal +1.95, specific +2.87, constant +0.83, noise +1.68, all +2.08
+- noise sum: mean +0.167, sd 0.291 (independent: 0.206)
+
+### inspired: strongest constant neurons
+
+- **n9964** push +0.257 (other stories +0.236); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n7403** push +0.171 (other stories +0.164); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n5804** push +0.067 (other stories +0.067); corpus median -1.44, p3 -1.90, p97 +0.28
+  - top tokens: ':', '.', ' ', '8', '7', '2', '6', '5'
+  - bottom tokens: '.', ' essential', ' experience', ' of', ' effort', ' option', ' There', ' content'
+  - high: 11. Thomason PR, Fisher BL,[[ Carpenter]] PA, /  Marello 1998). -[[ Atkins]], B
+  - low: 5) If you would like to reuse any content[[ from]] New Scientist /  releases: Cite this work Researchers should cite[[ this]] work as
+- **n10958** push -0.055 (other stories -0.062); corpus median -0.74, p3 -3.97, p97 +2.80
+  - top tokens: ',', ' ', ' the', ' Tim', '.\n\n', '2', ' each', ' her'
+  - bottom tokens: ',', ' and', '6', ' the', '5', ' of', ' (', '.'
+  - high:  go explore and find something else fun to do![[â]]€ So /  are pretty."  Mom was not glad. She said[[,]] "No
+  - low: www.ncbi.nlm.nih.gov/pmc/articles/PMC[[6]]41 /  pleasure rather than business. The average plane departing K[[I]]WA carried
+- **n3893** push +0.051 (other stories +0.042); corpus median -0.05, p3 -2.27, p97 +1.13
+  - top tokens: ',', ' the', ' Tim', ' ch', ' ', '0', ' couldn', ' didn'
+  - bottom tokens: '.\n\n', ' -', ' there', ',', '.', ' is', '-', ' There'
+  - high:  didn't understand what "pray" meant, so[[ Tim]]my explained /  jar?" His mom looked at the jar and asked[[,]] "Where
+  - low:  enjoy doing to relax or de-stress?   [[ -]] What is / 22, 1862. Although[[ there]] were no
+- **n5668** push +0.049 (other stories +0.042); corpus median -0.13, p3 -2.05, p97 +1.01
+  - top tokens: ',', '1', ' ', '2', ' the', '0', ' didn', ' don'
+  - bottom tokens: '.', ' the', ' of', ',', ' The', '-', ' to', ' in'
+  - high:  needed a cast.  Lily was sad because she[[ couldn]]'t play /  many respects, the downfall of their relationship. D[[ens]]low sport
+  - low:  needed. The technology reduced[[ the]] time needed / ||This article includes[[ a]] list of
+- **n10162** push +0.048 (other stories +0.048); corpus median +0.70, p3 +0.27, p97 +1.25
+  - top tokens: ' and', '.', '|\n', '|', 'assistant', ' Bel', 'bad', ' Mac'
+  - bottom tokens: ' Obst', ' A', '3', 'ell', 'sf', '://', '2', ':'
+  - high: The Leading eBooks Store[[ Online]] for /  Grohol, Psy.D. on 21[[ Feb]] 2
+  - low:  unbiased health information from our partner university faculty. Net[[Well]]ness is /  relatively consistent scientific data showing a substantial health benefit. [[2]] Stars Contr
+- **n5651** push +0.041 (other stories +0.031); corpus median -0.29, p3 -3.12, p97 +2.27
+  - top tokens: ' ', '1', '2', ':', ' the', ' at', ' h', '-'
+  - bottom tokens: '0', ' ', '5', '2', '1', ',', '4', '9'
+  - high: . At Bethany Manor. Funeral services will be[[ at]] 1 /  in fish following an algal bloom (5)[[ (]]10
+  - low:  scientific debut online in Marine Mammal Science on[[ ]]31 / NEW HAVEN >> Jan[[ Schro]]ers and
+- **n6330** push -0.040 (other stories -0.045); corpus median +0.03, p3 -2.42, p97 +2.05
+  - top tokens: ',', ' to', ' that', ' with', ' it', ' there', ' and', ' had'
+  - bottom tokens: ' to', ',', ' the', ' more', ' These', ' and', ' as', ' a'
+  - high:  just a bird singing! Emily was no longer frightened[[,]] she was /  Mommy!"  His mom smiled and said, "[[That]]'s great
+  - low:  told you to eat your carrots for good vision[[,]] she wasn /  for the really praiseworthy actions. Despite your[[ best]] intentions to
+- **n10854** push +0.040 (other stories +0.043); corpus median +0.42, p3 -1.21, p97 +2.05
+  - top tokens: ',', ' of', '.\n\n', ' and', '.', ':', ' in', ' add'
+  - bottom tokens: ' the', ' of', ' to', ' an', ' a', ' her', ' their', ' and'
+  - high: 's a nice helmet. Where did you find it[[?"]] her mom /  to God's Mother, Andrea Maria [= Lady Mary[[];]] to bread
+  - low:  and Max are twins. They like to play with[[ their]] toys in / ed Command and Service Module (CSM) and[[ the]] Lunar Module
+
+### inspired: strongest specific neurons
+
+- **n2722** push +0.080 (other stories +0.032); corpus median +0.00, p3 -0.38, p97 +0.81
+  - top tokens: ' the', ' it', ' in', ',', ' on', ' book', '.', ' day'
+  - bottom tokens: ' your', ' to', '0', ' her', ' his', ' years', ' before', ' the'
+  - high:  must note for safe keeping. He wrote out the[[ story]] longhand /  note for safe keeping. He wrote out the story[[ long]]hand and
+  - low:  a CD. Timmy listened to it every night[[ before]] bed and / , applesauce, or fruit cocktail in your desk[[ at]] work for
+- **n8415** push -0.036 (other stories -0.074); corpus median +0.05, p3 -1.58, p97 +0.55
+  - top tokens: '.', '\n\n', ' as', 'ic', "'t", ',', ' know', ' first'
+  - bottom tokens: '.\n\n', '.', ',', '."\n\n', ',"', ' in', ' you', ' the'
+  - high: . The story must have a clear beginning, middle[[,]] and end /  saying was true. He was shocked and didn't[[ know]] how to
+  - low:  he wondered how much longer he could last[[.  ]]But despite / , smiling. "I love you[[."  ]]"I love
+- **n7527** push -0.051 (other stories -0.088); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n11109** push +0.010 (other stories -0.021); corpus median -0.06, p3 -0.48, p97 +0.49
+  - top tokens: ',', ' to', ' and', ' stress', ' that', ' heart', ' he', ' of'
+  - bottom tokens: ' of', ':', ' production', '2', ' to', ' was', 'av', ' that'
+  - high:  WP, Smith RP. The relationship among exercise,[[ stress]] /  grow up in poor families are more likely to experience[[ stress]], anxiety
+  - low:  clinical experience, or traditional usage as cited in each[[ article]]. The / appi G, Facchinetti F, G[[enn]]azzani
+- **n9146** push +0.018 (other stories -0.009); corpus median +0.03, p3 -1.48, p97 +0.46
+  - top tokens: ' of', ' to', 'cs', ',', ' hard', '.', ' try', ' in'
+  - bottom tokens: ' wanted', ' decided', ' he', ' said', ' I', ' knew', ' to', ' and'
+  - high:  by Arizona State University’s W.P. Carey School[[ of]] Business has /  create a sense of community, which can motivate users[[ to]] continue using
+  - low:  dream, he still felt excited about the bow.[[ He]] couldn't /  was very funny and gave him a hug. Charlie[[ vowed]] never to
+- **n7717** push +0.041 (other stories +0.017); corpus median -0.01, p3 -1.81, p97 +0.83
+  - top tokens: ' a', ' electric', ' cool', ' for', ' For', ' reliable', ' can', ' Can'
+  - bottom tokens: ' loved', ' and', ' laughed', ' jumped', ' big', ' Absolutely', ' lots', ' of'
+  - high:  prizes for the winners? : Ladybug Crafts:[[ Time]] for the / . But they hurried home, so the girl could[[ tell]] all her
+  - low: , dancing and singing! She was happy and full[[ of]] fun. /  Kbira district, which is known for its extraordinary[[ life]]. Clock
+- **n4357** push +0.024 (other stories +0.002); corpus median -0.00, p3 -0.59, p97 +0.44
+  - top tokens: ' on', ' a', ' in', ' to', ',', ' the', ' take', ' write'
+  - bottom tokens: ' to', ' you', ',', ' save', ' and', ' money', ' she', '-'
+  - high:  member to write down three things they appreciate about themselves[[ on]] three separate /  to write down three things they appreciate about themselves on[[ three]] separate sticky
+  - low:  the penny you found? If you save more penn[[ies]], you /  could get a package. Mom said that if she[[ saved]] up her
+- **n9935** push +0.030 (other stories +0.013); corpus median +0.24, p3 -1.27, p97 +0.80
+  - top tokens: "'t", ' not', ' deg', ' to', ' no', ' want', ' he', ' of'
+  - bottom tokens: ',', ' and', ' scared', ' to', ' but', ' the', ' as', ' of'
+  - high: . She thought it was so smelly.  "Don[['t]] worry, /  get scared. He didn't want his mom and[[ dad]] to be
+  - low: olly; I love seeing your face here. So[[ sorry]] you were /  time and practice to master, so don't get[[ discouraged]] if you
+- **n6973** push +0.052 (other stories +0.036); corpus median +0.03, p3 -0.60, p97 +1.55
+  - top tokens: ' to', ' a', ' of', ' the', ' about', ' that', '.', '-'
+  - bottom tokens: ',', ' or', ' one', '-', '.', ' What', ' and', ' of'
+  - high:  17 years of study, scientists have determined[[ that]] hump / –5. 8. Lin L. Literature research[[ on]] point injection
+  - low:  you enjoy doing to relax or de-stress? [[  ]] - What /  route other than IV; (PO, PR,[[ Intr]]anasal
+- **n9184** push -0.017 (other stories -0.032); corpus median -0.00, p3 -0.55, p97 +0.38
+  - top tokens: '.\n\n', '."\n\n', 'The', '!"\n\n', ' \n\n', 'assistant', '!"', '."'
+  - bottom tokens: '.', '.\n\n', ' "', '"', '."\n\n', 'œ', 'Oh', ','
+  - high:  to empty it through a stoma. Medically[[ Reviewed]] by a /  via youtube.com Love this article? Share it[[ with]] your friends
+  - low:  saw that it was still broken. He said,[[ "]]I think /  down, blocking off the tunnel she had just fled[[.  ]]But Lena
+
+## loving
+
+- counts: specific 2056 (1031 push +), constant 6529 (3009 +), noise 3703
+- share of the mean push: signal +0.91, specific -2.74, constant +3.65, noise +0.09
+- d' (own vs other held-out stories): signal +2.18, specific +2.32, constant +0.58, noise +1.42, all +2.32
+- noise sum: mean -0.046, sd 0.252 (independent: 0.219)
+
+### loving: strongest constant neurons
+
+- **n7403** push -0.107 (other stories -0.121); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n128** push +0.047 (other stories +0.039); corpus median +0.06, p3 -2.62, p97 +1.43
+  - top tokens: ' the', ' of', ' ', ',', '1', 'in', '|', '0'
+  - bottom tokens: ' ', ',', ' cup', ' and', '1', '.', '-', ' sliced'
+  - high: 9). Prague: Academia / The Hague,[[ Paris]]: M /  easily.   4. Number of Teams: The[[ SAN]]FL has
+  - low:  needed a cast.  Lily was sad because she[[ couldn]]'t play /  ball. They wanted to eat it, but it[[ was]] too high
+- **n12256** push -0.034 (other stories -0.035); corpus median -0.88, p3 -1.38, p97 -0.07
+  - top tokens: ' ', '/', '9', '8', ' (', ' y', '1', '6'
+  - bottom tokens: 'pr', '&w', '4', ' that', '3', '9', ':', ' good'
+  - high: itud hacia la vida siempre fue una inspiración[[ y]] nunca se /  de Medianoche de un Vaquero,[[ porque]] la mayoría
+  - low:  Madrid: Editorial Naval ISBN 84-7[[3]]41 /  de Lexicographie - Internationales Jah[[rb]]uch für
+- **n3893** push -0.034 (other stories -0.036); corpus median -0.05, p3 -2.27, p97 +1.13
+  - top tokens: ',', ' the', ' Tim', ' ch', ' ', '0', ' couldn', ' didn'
+  - bottom tokens: '.\n\n', ' -', ' there', ',', '.', ' is', '-', ' There'
+  - high:  didn't understand what "pray" meant, so[[ Tim]]my explained /  jar?" His mom looked at the jar and asked[[,]] "Where
+  - low:  enjoy doing to relax or de-stress?   [[ -]] What is / 22, 1862. Although[[ there]] were no
+- **n723** push +0.033 (other stories +0.010); corpus median +0.01, p3 -0.39, p97 +1.70
+  - top tokens: ',', ' the', ' was', ' couldn', ' didn', ' a', '1', ' and'
+  - bottom tokens: ' to', ' are', ' ', ' and', ' You', '.', ',', ' him'
+  - high:  Father Goose, His Book, published in 1[[8]]99 /  ever.  When it was time to go home,[[ Mom]]my and
+  - low: . I remember being told to sit at the table[[ until]] I finished /  and editing. (Recommended for Creative Writing, grades[[ ]]7-
+- **n10162** push -0.030 (other stories -0.029); corpus median +0.70, p3 +0.27, p97 +1.25
+  - top tokens: ' and', '.', '|\n', '|', 'assistant', ' Bel', 'bad', ' Mac'
+  - bottom tokens: ' Obst', ' A', '3', 'ell', 'sf', '://', '2', ':'
+  - high: The Leading eBooks Store[[ Online]] for /  Grohol, Psy.D. on 21[[ Feb]] 2
+  - low:  unbiased health information from our partner university faculty. Net[[Well]]ness is /  relatively consistent scientific data showing a substantial health benefit. [[2]] Stars Contr
+- **n7527** push -0.030 (other stories -0.031); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n5804** push -0.029 (other stories -0.030); corpus median -1.44, p3 -1.90, p97 +0.28
+  - top tokens: ':', '.', ' ', '8', '7', '2', '6', '5'
+  - bottom tokens: '.', ' essential', ' experience', ' of', ' effort', ' option', ' There', ' content'
+  - high: 11. Thomason PR, Fisher BL,[[ Carpenter]] PA, /  Marello 1998). -[[ Atkins]], B
+  - low: 5) If you would like to reuse any content[[ from]] New Scientist /  releases: Cite this work Researchers should cite[[ this]] work as
+- **n4597** push -0.029 (other stories -0.023); corpus median -0.19, p3 -1.10, p97 +0.39
+  - top tokens: ',', 'Look', '.', ' at', ' with', 'What', "'s", ' if'
+  - bottom tokens: ' "', 'Let', '.', ',', '!', 'œ', ' Let', ' let'
+  - high:  it was safe to come out.  Thank you Ben[[,]] she thought /  the park she waved at her friends, "Look[[ at]] my skirt
+  - low:  to play a game.  The pumpkin said, "[[Let]]'s clap / , there is a slide!" Sara says. "[[Let]]'s go
+- **n6248** push -0.026 (other stories -0.024); corpus median +0.36, p3 -1.68, p97 +2.44
+  - top tokens: '.', ',', ' is', ' natural', ' was', ' compared', ' jumped', ';'
+  - bottom tokens: '0', '5', ' what', 'ic', ',', ':', '8', '6'
+  - high:  and deserted from the expedition. Eventually the remaining four[[ vessels]], in /  net income of $9.9 million. This[[ compares]] to fourth
+  - low:  8°C (36° and 4[[6]]°F). /  The company's cash flow from operations in 2[[0]]03
+
+### loving: strongest specific neurons
+
+- **n10272** push +0.338 (other stories +0.003); corpus median +0.02, p3 -0.50, p97 +0.47
+  - top tokens: ' ran', ' and', ' to', ',', ' he', ' a', ' man', ' They'
+  - bottom tokens: ' hugged', ' hug', ' her', ' hugs', ' and', ' a', ' big', ' other'
+  - high:  The bright sun shone down on them as the[[ lion]] and the / Sara loves her dog, Max.[[ Max]] is big
+  - low:  in general. Be open with your hugs, p[[ats]] on the /  read it very fast!"   They both smiled and[[ hugged]]. Daisy
+- **n5663** push +0.174 (other stories +0.002); corpus median +0.02, p3 -0.35, p97 +0.42
+  - top tokens: ' and', ' She', ' said', ' says', ',', ' him', ' her', ' told'
+  - bottom tokens: ' smiled', ' and', ',', ',"', ' your', ' He', ' she', ' with'
+  - high:  other.  Then, Lily had an idea. She[[ whispered]] to Tom /  from one world into the next, he managed to[[ whisper]] to M
+  - low: ?"  His parents were taken aback, and his[[ mother]] started to /  things and put them around the frame.  M[[um]] smiled at
+- **n9964** push -0.107 (other stories -0.191); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n3563** push +0.064 (other stories +0.006); corpus median +0.01, p3 -0.37, p97 +0.52
+  - top tokens: ' to', ' ran', ' and', ' over', ' He', ' She', ',', ' flew'
+  - bottom tokens: ' on', ' to', ' and', ' under', ' a', ' the', ' your', ' I'
+  - high: 's lifeblood poured out onto the grass.  He[[ ran]] to his /  the grass.  He ran to his friend's side[[,]] crad
+  - low:  the balloon to Mum and Dad. They sat back[[ down]] on the /  man gave the balloon to Mum and Dad. They[[ sat]] back down
+- **n892** push +0.038 (other stories -0.003); corpus median -0.12, p3 -0.75, p97 +0.80
+  - top tokens: ' the', ',', ' felt', ' feel', ' texture', ' and', '.', ' soft'
+  - bottom tokens: ' it', ' her', ' the', ' your', 'ets', ' to', ' back', ' on'
+  - high: . She laughed happily and laughed at how the boat[[ felt]].    /  and dived into the tide.  Joy loved the[[ feel]] of the
+  - low:  conditioner to help the suit slide on more easily.[[ ]]3. /  lubricant: Wetsuits can be difficult to[[ get]] on,
+- **n10958** push +0.072 (other stories +0.037); corpus median -0.74, p3 -3.97, p97 +2.80
+  - top tokens: ',', ' ', ' the', ' Tim', '.\n\n', '2', ' each', ' her'
+  - bottom tokens: ',', ' and', '6', ' the', '5', ' of', ' (', '.'
+  - high:  go explore and find something else fun to do![[â]]€ So /  are pretty."  Mom was not glad. She said[[,]] "No
+  - low: www.ncbi.nlm.nih.gov/pmc/articles/PMC[[6]]41 /  pleasure rather than business. The average plane departing K[[I]]WA carried
+- **n5205** push +0.043 (other stories +0.008); corpus median -0.01, p3 -1.34, p97 +0.62
+  - top tokens: ' to', ' and', ' a', ',', ' would', ' own', ' his', ' for'
+  - bottom tokens: ' and', ' to', ',', ' She', ' They', ' you', ' on', ' not'
+  - high:  successful acting career, followed by business ventures including her[[ own]] wine and /  He used his win as a platform to launch his[[ own]] swimwear
+  - low:  any grandchildren of my own, but I would love[[ to]] have you /  with your hugs, pats on the back and[[ genuine]] words of
+- **n7762** push +0.033 (other stories +0.011); corpus median +0.01, p3 -0.69, p97 +1.74
+  - top tokens: '.', '.\n\n', ' "', ' will', "'t", ' I', ' so', '!'
+  - bottom tokens: ',', '.', ' "', ' Mom', ' you', 'Mom', '...', 'my'
+  - high:  friend to share her words - a gift indeed.[[ I]] want to /  to everyone that entered our January challenge and I will[[ be]] back with
+  - low:  "That sounds good, dad[[.]] Can we / . I understand. Kids will be kids. Have[[ a]] good day
+- **n7717** push +0.035 (other stories +0.013); corpus median -0.01, p3 -1.81, p97 +0.83
+  - top tokens: ' a', ' electric', ' cool', ' for', ' For', ' reliable', ' can', ' Can'
+  - bottom tokens: ' loved', ' and', ' laughed', ' jumped', ' big', ' Absolutely', ' lots', ' of'
+  - high:  prizes for the winners? : Ladybug Crafts:[[ Time]] for the / . But they hurried home, so the girl could[[ tell]] all her
+  - low: , dancing and singing! She was happy and full[[ of]] fun. /  Kbira district, which is known for its extraordinary[[ life]]. Clock
+- **n4452** push +0.020 (other stories -0.001); corpus median -0.10, p3 -0.58, p97 +1.28
+  - top tokens: ' on', ',', ' and', ' the', ' water', ' skin', ' something', ' wind'
+  - bottom tokens: ',', ' a', ' the', ' to', ' cath', ' of', '.', ' influenza'
+  - high:  in. He splashed around, feeling the cool[[ water]] on his /  in the warmth of the sun, feeling the cool[[ water]] on my
+  - low:  Doctor on 4/2/201[[4]] View /  flow into a collection bag. If you are able[[ to]] place the
+
+## proud
+
+- counts: specific 948 (527 push +), constant 7499 (3969 +), noise 3841
+- share of the mean push: signal +1.00, specific +0.38, constant +0.62, noise +0.00
+- d' (own vs other held-out stories): signal +1.78, specific +1.83, constant +1.20, noise +1.40, all +1.89
+- noise sum: mean +0.011, sd 0.167 (independent: 0.150)
+
+### proud: strongest constant neurons
+
+- **n7527** push -0.062 (other stories -0.066); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n1590** push +0.042 (other stories +0.041); corpus median +0.22, p3 -0.79, p97 +0.95
+  - top tokens: ' or', ',', ' if', ' to', ' of', ' a', ' you', ' on'
+  - bottom tokens: ' your', ' the', ' a', ' and', ' you', ',', ' to', ' an'
+  - high:  will be in danger if you get pregnant. So[[ how]] does your /  with their hands, and drink from a cup.[[ If]] you saw
+  - low:  repairs and maintenance should also be prioritized to keep[[ your]] vehicle running / " in the title may be related to the author[['s]]
+- **n1967** push +0.038 (other stories +0.028); corpus median +0.21, p3 -0.57, p97 +1.05
+  - top tokens: ' and', ' to', ' a', ',', ' online', ' in', 'idd', ' have'
+  - bottom tokens: ' and', ',', ' the', ' to', ' of', '.', ' they', ' but'
+  - high:  was different. Now, we can deliver goods and[[ information]] across vast /  husband's murder years earlier. She decides to try[[ online]] dating but
+  - low:  tracked Apollo 13’s S-IVB[[ by]] radio signals /  coming by, Dolly; I love seeing your[[ face]] here.
+- **n10729** push -0.036 (other stories -0.034); corpus median -0.66, p3 -3.22, p97 +0.32
+  - top tokens: ',', ' "', ' “', '"', ' you', ' /', '�', ' for'
+  - bottom tokens: ' it', ' that', ' you', ' can', ' It', "'t", ' they', ' the'
+  - high:  truck, grandpa," Ben says.  "Sorry[[,]] buddy, /  smiled and nodded. "That's very kind of[[ you]], dear
+  - low:  podcast topic  to attract the right audience, it[[’s]] important to /  a podcast topic  to attract the right audience,[[ it]]’s important
+- **n9964** push +0.034 (other stories +0.035); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n7469** push +0.032 (other stories +0.019); corpus median -0.00, p3 -0.65, p97 +0.35
+  - top tokens: '0', '\n', ' to', '9', '6', '5', '2', ' at'
+  - bottom tokens: ' and', ' out', ' arms', ',', ' up', ' his', ' held', ' waved'
+  - high: 15) 723-25[[5]]8  /  Information Environment”, ACM UIST’99,[[ ]]19
+  - low:  and proud. He excitedly held his toy pirate[[ up]] to the /  felt like dancing. He happily held his toy pirate[[ up]] high and
+- **n7403** push +0.031 (other stories +0.033); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n7070** push -0.026 (other stories -0.022); corpus median +0.10, p3 -0.98, p97 +2.08
+  - top tokens: ' for', ' you', '.', ' "', ' on', ' and', ' the', ' Then'
+  - bottom tokens: ',', ' Tim', ' his', ' worry', ' there', ' the', ' in', '1'
+  - high: Description of Show 1  [Title of Show[[ ]]2]  /  don't forget to check back to see if you[['ve]] won!
+  - low:  I have my breakfast now?"  Jake laughed and said[[,]] "Yes /  voice low and urgent. “Keep fighting, my[[ brave]] soldiers.
+- **n1975** push +0.026 (other stories +0.024); corpus median -0.44, p3 -0.87, p97 +0.47
+  - top tokens: ' have', ' to', ' want', ' a', "'t", ' not', ' the', ' in'
+  - bottom tokens: ' never', ',', ' stop', ' it', ' at', ' to', ' up', ' be'
+  - high:  He was only three years old and had not seen[[ very]] much of /  approach aims to attract as many visitors as possible,[[ regardless]] of their
+  - low:  fact, most people have probably never heard of him[[ at]] all unless /  powder away. She was very careful never to touch[[ it]] again.
+- **n5667** push +0.024 (other stories +0.022); corpus median -0.02, p3 -0.47, p97 +0.93
+  - top tokens: ' with', ' her', ' his', ' took', ',', ' put', ' and', ' a'
+  - bottom tokens: ' ran', ' flew', ' went', ' bird', ' to', ' run', ' was', ' running'
+  - high: Just before she drifted off, her mum came in[[ with]] a delicious /  carries in his hands, as is customary,[[ two]] or three
+  - low:  shouted, "Who wants to play?"  A bird[[ in]] a tall /  until she found it.  The wise owl smiled and[[ flew]] away,
+
+### proud: strongest specific neurons
+
+- **n2005** push +0.088 (other stories +0.023); corpus median +0.00, p3 -0.40, p97 +0.55
+  - top tokens: ' and', ' so', ' was', ' felt', ' happy', ' thanked', ' very', ' grateful'
+  - bottom tokens: ' a', "'s", ' was', ' very', ':', ' sounds', ' is', ' so'
+  - high:  nudged me along with their accolades I am[[ truly]] grateful. /  the heart to her mom as a surprise. Her[[ mom]] smiled and
+  - low: , they heard a voice. "Hello, who[[ has]] pulled out /  would shine in the sun. Everyone around could see[[ how]] strong Tom
+- **n3068** push +0.053 (other stories -0.001); corpus median -0.02, p3 -0.44, p97 +0.45
+  - top tokens: ' proud', ' sense', ' and', ' of', ' a', ' self', ',', ' to'
+  - bottom tokens: ' was', ' felt', ' very', ' so', ' were', ' still', ' with', ' is'
+  - high:  life in Xandoria, and people take great[[ pride]] in their /  opportunities, locally available fish and game, and a[[ sense]] of local
+  - low:  it first!" Leo was scared, but he was[[ also]] very hungry /  first!" Leo was scared, but he was also[[ very]] hungry.
+- **n10272** push +0.064 (other stories +0.011); corpus median +0.02, p3 -0.50, p97 +0.47
+  - top tokens: ' ran', ' and', ' to', ',', ' he', ' a', ' man', ' They'
+  - bottom tokens: ' hugged', ' hug', ' her', ' hugs', ' and', ' a', ' big', ' other'
+  - high:  The bright sun shone down on them as the[[ lion]] and the / Sara loves her dog, Max.[[ Max]] is big
+  - low:  in general. Be open with your hugs, p[[ats]] on the /  read it very fast!"   They both smiled and[[ hugged]]. Daisy
+- **n9935** push +0.031 (other stories +0.015); corpus median +0.24, p3 -1.27, p97 +0.80
+  - top tokens: "'t", ' not', ' deg', ' to', ' no', ' want', ' he', ' of'
+  - bottom tokens: ',', ' and', ' scared', ' to', ' but', ' the', ' as', ' of'
+  - high: . She thought it was so smelly.  "Don[['t]] worry, /  get scared. He didn't want his mom and[[ dad]] to be
+  - low: olly; I love seeing your face here. So[[ sorry]] you were /  time and practice to master, so don't get[[ discouraged]] if you
+- **n8415** push -0.027 (other stories -0.039); corpus median +0.05, p3 -1.58, p97 +0.55
+  - top tokens: '.', '\n\n', ' as', 'ic', "'t", ',', ' know', ' first'
+  - bottom tokens: '.\n\n', '.', ',', '."\n\n', ',"', ' in', ' you', ' the'
+  - high: . The story must have a clear beginning, middle[[,]] and end /  saying was true. He was shocked and didn't[[ know]] how to
+  - low:  he wondered how much longer he could last[[.  ]]But despite / , smiling. "I love you[[."  ]]"I love
+- **n8104** push +0.017 (other stories +0.006); corpus median -0.08, p3 -0.84, p97 +0.72
+  - top tokens: '.', ' ', ':', '0', ',', '2', '4', '1'
+  - bottom tokens: ' programs', ' J', ' ', '8', ' cultural', ' National', '7', '2'
+  - high: av Med 1989;12[[:]]56 / 4, its budget is $7.2 billion[[.]] NSF funds
+  - low:  Peter Thomison of Ohio State University Extension and the[[ Ohio]] Agricultural Research / . Madrid: Editorial Naval ISBN 84-[[7]]34
+- **n2722** push +0.024 (other stories +0.015); corpus median +0.00, p3 -0.38, p97 +0.81
+  - top tokens: ' the', ' it', ' in', ',', ' on', ' book', '.', ' day'
+  - bottom tokens: ' your', ' to', '0', ' her', ' his', ' years', ' before', ' the'
+  - high:  must note for safe keeping. He wrote out the[[ story]] longhand /  note for safe keeping. He wrote out the story[[ long]]hand and
+  - low:  a CD. Timmy listened to it every night[[ before]] bed and / , applesauce, or fruit cocktail in your desk[[ at]] work for
+- **n96** push +0.005 (other stories -0.003); corpus median -0.01, p3 -0.40, p97 +0.34
+  - top tokens: ' you', ' to', ',', ' is', ' the', ' of', ' they', ' are'
+  - bottom tokens: ' excited', ',', ' of', ' both', ' from', ' with', '.', '5'
+  - high:  or O blood types, and the Rh group is[[ either]] positive or /  any kind of blood transfusion. Whether you are[[ Rh]] (+)
+  - low: : You can use the Rule of 3 by[[ presenting]] a strong /  You can use the Rule of 3 by presenting[[ a]] strong argument
+- **n9443** push -0.004 (other stories -0.012); corpus median +0.00, p3 -0.77, p97 +0.99
+  - top tokens: ' to', '.', ' health', ' the', ' and', ',', ' was', ' He'
+  - bottom tokens: ' and', ',', ' Lily', ' to', ' She', ' face', ' he', ' the'
+  - high:  FAO is ready to provide assistance to the country[[ as]] required.  /  thanked the doctors for their help and he was ready[[ to]] go home
+  - low: , Emma, noticed and asked what was wrong.[[ Lily]] mentioned that / off scandal broke, for example, major newspaper sites[[ included]] user-generated
+- **n11360** push +0.023 (other stories +0.015); corpus median +0.28, p3 -0.51, p97 +0.78
+  - top tokens: ' towards', ' mum', ' ', 'ised', '’,', ' Mum', ' theatre', ' grey'
+  - bottom tokens: '.\n', '.', '\n', '0', ',', ' says', ' ', '."\n'
+  - high:  something he had brought. It was a big,[[ colourful]] balloon. /  Annie said.  So Annie and Ben ran around to[[ neighbouring]] farms and
+  - low:  friends and people in general. Dr Belilovsky[[ says]] it is /  E in treatment of primary dysmenorrhoea[[.]] Br J
+
+## calm
+
+- counts: specific 1169 (669 push +), constant 7320 (4083 +), noise 3799
+- share of the mean push: signal +0.98, specific +0.24, constant +0.74, noise +0.02
+- d' (own vs other held-out stories): signal +0.73, specific +1.64, constant +0.20, noise +0.35, all +0.69
+- noise sum: mean +0.089, sd 0.216 (independent: 0.183)
+
+### calm: strongest constant neurons
+
+- **n9964** push +0.334 (other stories +0.278); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n7403** push +0.200 (other stories +0.197); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n10958** push -0.072 (other stories -0.066); corpus median -0.74, p3 -3.97, p97 +2.80
+  - top tokens: ',', ' ', ' the', ' Tim', '.\n\n', '2', ' each', ' her'
+  - bottom tokens: ',', ' and', '6', ' the', '5', ' of', ' (', '.'
+  - high:  go explore and find something else fun to do![[â]]€ So /  are pretty."  Mom was not glad. She said[[,]] "No
+  - low: www.ncbi.nlm.nih.gov/pmc/articles/PMC[[6]]41 /  pleasure rather than business. The average plane departing K[[I]]WA carried
+- **n3893** push +0.071 (other stories +0.058); corpus median -0.05, p3 -2.27, p97 +1.13
+  - top tokens: ',', ' the', ' Tim', ' ch', ' ', '0', ' couldn', ' didn'
+  - bottom tokens: '.\n\n', ' -', ' there', ',', '.', ' is', '-', ' There'
+  - high:  didn't understand what "pray" meant, so[[ Tim]]my explained /  jar?" His mom looked at the jar and asked[[,]] "Where
+  - low:  enjoy doing to relax or de-stress?   [[ -]] What is / 22, 1862. Although[[ there]] were no
+- **n10162** push +0.057 (other stories +0.058); corpus median +0.70, p3 +0.27, p97 +1.25
+  - top tokens: ' and', '.', '|\n', '|', 'assistant', ' Bel', 'bad', ' Mac'
+  - bottom tokens: ' Obst', ' A', '3', 'ell', 'sf', '://', '2', ':'
+  - high: The Leading eBooks Store[[ Online]] for /  Grohol, Psy.D. on 21[[ Feb]] 2
+  - low:  unbiased health information from our partner university faculty. Net[[Well]]ness is /  relatively consistent scientific data showing a substantial health benefit. [[2]] Stars Contr
+- **n10854** push +0.049 (other stories +0.049); corpus median +0.42, p3 -1.21, p97 +2.05
+  - top tokens: ',', ' of', '.\n\n', ' and', '.', ':', ' in', ' add'
+  - bottom tokens: ' the', ' of', ' to', ' an', ' a', ' her', ' their', ' and'
+  - high: 's a nice helmet. Where did you find it[[?"]] her mom /  to God's Mother, Andrea Maria [= Lady Mary[[];]] to bread
+  - low:  and Max are twins. They like to play with[[ their]] toys in / ed Command and Service Module (CSM) and[[ the]] Lunar Module
+- **n7527** push -0.048 (other stories -0.050); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n5651** push +0.045 (other stories +0.041); corpus median -0.29, p3 -3.12, p97 +2.27
+  - top tokens: ' ', '1', '2', ':', ' the', ' at', ' h', '-'
+  - bottom tokens: '0', ' ', '5', '2', '1', ',', '4', '9'
+  - high: . At Bethany Manor. Funeral services will be[[ at]] 1 /  in fish following an algal bloom (5)[[ (]]10
+  - low:  scientific debut online in Marine Mammal Science on[[ ]]31 / NEW HAVEN >> Jan[[ Schro]]ers and
+- **n5668** push +0.043 (other stories +0.044); corpus median -0.13, p3 -2.05, p97 +1.01
+  - top tokens: ',', '1', ' ', '2', ' the', '0', ' didn', ' don'
+  - bottom tokens: '.', ' the', ' of', ',', ' The', '-', ' to', ' in'
+  - high:  needed a cast.  Lily was sad because she[[ couldn]]'t play /  many respects, the downfall of their relationship. D[[ens]]low sport
+  - low:  needed. The technology reduced[[ the]] time needed / ||This article includes[[ a]] list of
+- **n8415** push -0.042 (other stories -0.054); corpus median +0.05, p3 -1.58, p97 +0.55
+  - top tokens: '.', '\n\n', ' as', 'ic', "'t", ',', ' know', ' first'
+  - bottom tokens: '.\n\n', '.', ',', '."\n\n', ',"', ' in', ' you', ' the'
+  - high: . The story must have a clear beginning, middle[[,]] and end /  saying was true. He was shocked and didn't[[ know]] how to
+  - low:  he wondered how much longer he could last[[.  ]]But despite / , smiling. "I love you[[."  ]]"I love
+
+### calm: strongest specific neurons
+
+- **n1488** push +0.058 (other stories +0.015); corpus median -0.01, p3 -0.45, p97 +1.35
+  - top tokens: ' happy', ' and', ' content', ' he', ' He', ' asleep', ' was', ' peaceful'
+  - bottom tokens: ' "', ',', ' a', '"', '.', ' and', 'Yes', ' smiled'
+  - high:  pumpkin clapped his hands together, feeling happy and[[ content]]. And /  and soothing sensation. She closes her eyes and sigh[[s]]. She
+  - low:  book?" he asked, holding up the book.  [["]]Of course /  and have some ice cream. How does that sound[[?"  ]]Ben smiled
+- **n8249** push +0.074 (other stories +0.040); corpus median -0.01, p3 -0.68, p97 +0.43
+  - top tokens: ' in', ' the', ' known', ' what', ' into', ' knew', ' crossing', ' cross'
+  - bottom tokens: ' in', ' hear', ' of', ' a', ' the', ' just', ' her', ','
+  - high:  of a famous — though elusive — star pattern,[[ known]] as the /  I of Spain to command an expedition to Asia,[[ known]] as the
+  - low:  The revolver with which he had shot himself was still[[ in]] hand.” /  her breathing and focus on her surroundings. She could[[ hear]] the constant
+- **n3861** push +0.036 (other stories +0.015); corpus median -0.02, p3 -0.39, p97 +0.95
+  - top tokens: ' and', ' he', ' went', ' set', ' He', ' She', ' they', ' then'
+  - bottom tokens: ' and', ' to', ' the', ',', ' started', ' or', '-and', ' for'
+  - high:  herself. She puts the book back on her shelf[[ and]] runs to /  the prize. They said their goodbyes and[[ Joe]] went home
+  - low: ography is the art or craft of compiling, writing[[ and]] editing dictionaries /  veterinarian, and the veterinarian said she could go back[[ and]] fly.  
+- **n5869** push +0.034 (other stories +0.015); corpus median -0.02, p3 -1.18, p97 +0.52
+  - top tokens: ' and', ' that', ',', ' the', ' more', ' too', '.\n\n', ' enough'
+  - bottom tokens: ',', "'s", ' the', ' "', ' was', ' is', ' and', ' of'
+  - high:  imperfect and emotional, and that those imperfections are[[ what]] make us /  like she was drowning in sound. She tried to[[ cover]] her ears
+  - low:  into the seaweed jungle ever again, it would[[ always]] remain a /  and even as I struggled to push through, there[[ was]] a part
+- **n7555** push +0.075 (other stories +0.056); corpus median +0.02, p3 -1.07, p97 +2.39
+  - top tokens: ',', '.', ' is', ' was', '.\n', ' the', ' have', ' in'
+  - bottom tokens: ',"', ' of', ',”', ' such', ' the', ' and', ' it', ','
+  - high: , and the family purse.”7[[ Whatever]] their secret / Unless you’ve buried your head in the sand[[ or]] just returned
+  - low:  picture of these structures and be able to characterize them[[,"]] Schroers /  their individual lives. Tom may have felt a special[[ clos]]eness to
+- **n9873** push -0.018 (other stories -0.036); corpus median -0.16, p3 -1.23, p97 +0.73
+  - top tokens: ',', '.', ' I', ' on', ' and', "'s", ' in', "'t"
+  - bottom tokens: ' Sure', ',', ' worry', ' course', ' it', 'Look', ' Certainly', ' out'
+  - high: , and dark green pigments, including that [[old]] standby, /  of the day. “Look at that bad boy[[,]] he’s
+  - low:  took the flower and gave it to Ben.  "No[[,]] Ben. /  any pedals."  Lucy replied, "Don't[[ worry]], my
+- **n128** push -0.062 (other stories -0.047); corpus median +0.06, p3 -2.62, p97 +1.43
+  - top tokens: ' the', ' of', ' ', ',', '1', 'in', '|', '0'
+  - bottom tokens: ' ', ',', ' cup', ' and', '1', '.', '-', ' sliced'
+  - high: 9). Prague: Academia / The Hague,[[ Paris]]: M /  easily.   4. Number of Teams: The[[ SAN]]FL has
+  - low:  needed a cast.  Lily was sad because she[[ couldn]]'t play /  ball. They wanted to eat it, but it[[ was]] too high
+- **n6330** push -0.043 (other stories -0.057); corpus median +0.03, p3 -2.42, p97 +2.05
+  - top tokens: ',', ' to', ' that', ' with', ' it', ' there', ' and', ' had'
+  - bottom tokens: ' to', ',', ' the', ' more', ' These', ' and', ' as', ' a'
+  - high:  just a bird singing! Emily was no longer frightened[[,]] she was /  Mommy!"  His mom smiled and said, "[[That]]'s great
+  - low:  told you to eat your carrots for good vision[[,]] she wasn /  for the really praiseworthy actions. Despite your[[ best]] intentions to
+- **n12216** push +0.008 (other stories -0.006); corpus median -0.01, p3 -1.03, p97 +0.45
+  - top tokens: ' and', ' she', ' to', ',', ' read', ' he', ' of', ' breath'
+  - bottom tokens: "'t", ' could', ' in', ' believe', ' still', ' not', '.', '!'
+  - high: 0-15-2013 [[Copyright]] ©  / Source: Eurekalert & othersLast reviewed[[:]] By John
+  - low:  up for adoption when they were born. Tom couldn[['t]] understand why / user: That was incredibly suspenseful! I can[['t]] wait to
+- **n6028** push -0.013 (other stories -0.026); corpus median +0.04, p3 -0.57, p97 +0.82
+  - top tokens: ' eyes', ' your', ' the', ' echoing', '.', ' and', ' held', ' whisper'
+  - bottom tokens: ' the', ' of', ' on', ' to', ' you', ' your', ' watching', ' at'
+  - high:  whispers grew more frenzied, seeming to pour[[ over]] her like /  in the darkness, Lena started to hear strange sounds[[ echoing]] off the
+  - low:  with food often traveling thousands of miles just to reach[[ our]] plates, /  he should give it a try. So he picked[[ up]] his spoon
+
+## desperate
+
+- counts: specific 1574 (890 push +), constant 6800 (3635 +), noise 3914
+- share of the mean push: signal +0.96, specific +0.40, constant +0.56, noise +0.04
+- d' (own vs other held-out stories): signal +2.05, specific +2.47, constant +1.09, noise +1.85, all +2.24
+- noise sum: mean +0.149, sd 0.299 (independent: 0.198)
+
+### desperate: strongest constant neurons
+
+- **n9964** push +0.177 (other stories +0.160); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n7403** push +0.090 (other stories +0.095); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n5804** push +0.066 (other stories +0.064); corpus median -1.44, p3 -1.90, p97 +0.28
+  - top tokens: ':', '.', ' ', '8', '7', '2', '6', '5'
+  - bottom tokens: '.', ' essential', ' experience', ' of', ' effort', ' option', ' There', ' content'
+  - high: 11. Thomason PR, Fisher BL,[[ Carpenter]] PA, /  Marello 1998). -[[ Atkins]], B
+  - low: 5) If you would like to reuse any content[[ from]] New Scientist /  releases: Cite this work Researchers should cite[[ this]] work as
+- **n7555** push +0.045 (other stories +0.042); corpus median +0.02, p3 -1.07, p97 +2.39
+  - top tokens: ',', '.', ' is', ' was', '.\n', ' the', ' have', ' in'
+  - bottom tokens: ',"', ' of', ',”', ' such', ' the', ' and', ' it', ','
+  - high: , and the family purse.”7[[ Whatever]] their secret / Unless you’ve buried your head in the sand[[ or]] just returned
+  - low:  picture of these structures and be able to characterize them[[,"]] Schroers /  their individual lives. Tom may have felt a special[[ clos]]eness to
+- **n10854** push +0.040 (other stories +0.035); corpus median +0.42, p3 -1.21, p97 +2.05
+  - top tokens: ',', ' of', '.\n\n', ' and', '.', ':', ' in', ' add'
+  - bottom tokens: ' the', ' of', ' to', ' an', ' a', ' her', ' their', ' and'
+  - high: 's a nice helmet. Where did you find it[[?"]] her mom /  to God's Mother, Andrea Maria [= Lady Mary[[];]] to bread
+  - low:  and Max are twins. They like to play with[[ their]] toys in / ed Command and Service Module (CSM) and[[ the]] Lunar Module
+- **n4764** push -0.039 (other stories -0.048); corpus median +0.09, p3 -0.98, p97 +0.94
+  - top tokens: ' "', '.', ',', 'Let', ' I', 'I', '!', '"'
+  - bottom tokens: ' you', ' I', ' hope', '.', ',', "'t", ' we', ' what'
+  - high: "This one is the original," the parents replied.[[ "]]We made / "Yes, mom, it did," Sam says.[[ "]]I wanted
+  - low: ium, fasces, legiones, omnia[[,]] nunc / , and 15g of fat.  I[[ hope]] you enjoy
+- **n5651** push +0.039 (other stories +0.030); corpus median -0.29, p3 -3.12, p97 +2.27
+  - top tokens: ' ', '1', '2', ':', ' the', ' at', ' h', '-'
+  - bottom tokens: '0', ' ', '5', '2', '1', ',', '4', '9'
+  - high: . At Bethany Manor. Funeral services will be[[ at]] 1 /  in fish following an algal bloom (5)[[ (]]10
+  - low:  scientific debut online in Marine Mammal Science on[[ ]]31 / NEW HAVEN >> Jan[[ Schro]]ers and
+- **n8517** push -0.035 (other stories -0.035); corpus median -0.62, p3 -1.26, p97 -0.10
+  - top tokens: ',', '.', 'deer', 'olly', ' in', ' road', ' /', ' girl'
+  - bottom tokens: '.', ',', ',"', ' feeling', ' “', ' because', ' seemed', ' advice'
+  - high: ium, fasces, legiones, omnia[[,]] nunc / . I fight with all my[[ might]], my
+  - low: , “…my show had some free time between bookings[[.]] At every /  the steam engine, the telephone, the talking-machine[[,]] and the
+- **n10958** push -0.035 (other stories -0.027); corpus median -0.74, p3 -3.97, p97 +2.80
+  - top tokens: ',', ' ', ' the', ' Tim', '.\n\n', '2', ' each', ' her'
+  - bottom tokens: ',', ' and', '6', ' the', '5', ' of', ' (', '.'
+  - high:  go explore and find something else fun to do![[â]]€ So /  are pretty."  Mom was not glad. She said[[,]] "No
+  - low: www.ncbi.nlm.nih.gov/pmc/articles/PMC[[6]]41 /  pleasure rather than business. The average plane departing K[[I]]WA carried
+- **n128** push -0.034 (other stories -0.032); corpus median +0.06, p3 -2.62, p97 +1.43
+  - top tokens: ' the', ' of', ' ', ',', '1', 'in', '|', '0'
+  - bottom tokens: ' ', ',', ' cup', ' and', '1', '.', '-', ' sliced'
+  - high: 9). Prague: Academia / The Hague,[[ Paris]]: M /  easily.   4. Number of Teams: The[[ SAN]]FL has
+  - low:  needed a cast.  Lily was sad because she[[ couldn]]'t play /  ball. They wanted to eat it, but it[[ was]] too high
+
+### desperate: strongest specific neurons
+
+- **n3282** push +0.084 (other stories +0.016); corpus median -0.03, p3 -0.40, p97 +0.69
+  - top tokens: ' looked', ' searched', ',', ' but', ' to', '.', ' she', ' He'
+  - bottom tokens: ' to', ' and', ' She', '.', ' He', ' she', ' ran', ' asked'
+  - high:  looked for his rocket, but it was gone.[[ Tim]] searched and / . One day, Tom lost his key. He[[ looked]] everywhere,
+  - low:  hope this provides you with a helpful resource to make[[ informed]] decisions towards /  saw a woman who looked just like Mommy![[ She]] ran to
+- **n10272** push +0.020 (other stories -0.012); corpus median +0.02, p3 -0.50, p97 +0.47
+  - top tokens: ' ran', ' and', ' to', ',', ' he', ' a', ' man', ' They'
+  - bottom tokens: ' hugged', ' hug', ' her', ' hugs', ' and', ' a', ' big', ' other'
+  - high:  The bright sun shone down on them as the[[ lion]] and the / Sara loves her dog, Max.[[ Max]] is big
+  - low:  in general. Be open with your hugs, p[[ats]] on the /  read it very fast!"   They both smiled and[[ hugged]]. Daisy
+- **n3582** push -0.038 (other stories -0.016); corpus median +0.02, p3 -0.56, p97 +0.45
+  - top tokens: '.', ' to', ' a', ',', ' "', ' ways', ' and', ' that'
+  - bottom tokens: ' a', ' I', ' of', ' but', ' is', ' also', ' was', ' felt'
+  - high: . Puking in hotel and mall bathrooms is[[ no]] fun. /  our choices should be high in fiber, too.[[ Y]]ikes!
+  - low:  the confusion and the danger, there was a sense[[ of]] wonder that /  secrets can be hard to keep, but they can[[ also]] bring the
+- **n10422** push +0.024 (other stories +0.004); corpus median +0.01, p3 -0.37, p97 +0.58
+  - top tokens: ' the', ' fishing', '.', ' a', ' but', ',', ' catch', ' for'
+  - bottom tokens: ' to', ' and', ' in', ' that', ' made', ',', ' ', ' for'
+  - high:  pull the anchor and find a new spot, the[[ fishing]] guide is /  says he knows at least 20 good spots[[ to]] catch st
+  - low:  Is my thesis statement concise and clear? Did I[[ follow]] my outline /  proved more effective than regular maintenance with emollients[[ in]] reducing the
+- **n10474** push +0.050 (other stories +0.030); corpus median -0.04, p3 -1.38, p97 +0.50
+  - top tokens: ' to', ' and', ' I', ' go', ' you', ' a', ',', ' "'
+  - bottom tokens: ' a', ' to', ' the', ',', ' her', ' in', ' and', ' about'
+  - high: Hi, Tom!" Ben said. "Do you[[ want]] to play /  named Lucy heard him. She asked, "Did[[ you]] say you
+  - low:  couldn't find it. Just when Lily thought she[[ would]] never see /  chirps and spins around. They both tell jokes[[ about]] funny animals
+- **n11631** push +0.050 (other stories +0.032); corpus median -0.00, p3 -1.31, p97 +1.48
+  - top tokens: ',', ' and', ' he', ' was', ' to', '.', ' He', ' face'
+  - bottom tokens: '.', ',', ' and', ' of', ' to', ' the', ' his', ' but'
+  - high:  went directly to the office. He unlocked the door[[,]] entered, /  to the office. He unlocked the door, entered[[,]] and was
+  - low:  to defend their homeland and their Emperor, and he[[ closed]] his eyes /  worries, the tables were right next to each other[[ and]] other adults
+- **n11713** push +0.022 (other stories +0.005); corpus median -0.02, p3 -0.44, p97 +0.52
+  - top tokens: ' in', ',', ' to', ' around', ' the', ' a', ' an', ' She'
+  - bottom tokens: ' to', ' tried', ',', ' trying', ' try', ' in', ' hope', ' tries'
+  - high:  sad.   She decided to look around her house[[ to]] see if /  decided to take the jewel back to the woods.[[ She]] wanted to
+  - low:  face. “You saved my life.”  Antoine[[ tried]] to speak /  English dogs what we’re made of.”  Antoine[[ tried]] to steel
+- **n9397** push +0.024 (other stories +0.007); corpus median -0.01, p3 -0.59, p97 +0.52
+  - top tokens: ',', ' Can', ' to', ' if', ' can', ' on', ' I', ' for'
+  - bottom tokens: ' said', ' asked', ' and', ',', ' him', ' calling', ' to', ' called'
+  - high:  with the toy, so he asked Sue, "[[Can]] I play /  "I promise. Thank you for being kind.[[ Can]] I still
+  - low:  ask questions, Greenpeace has brought forward a motion[[ calling]] on St / , who didn't listen to his mum. She[[ asked]] him to
+- **n3862** push +0.024 (other stories +0.009); corpus median +0.01, p3 -0.41, p97 +0.45
+  - top tokens: ' to', ' and', ' the', ' was', '2', '/p', ' were', '.com'
+  - bottom tokens: ' smiled', ' to', ' laughed', ' He', ',', ' She', ' and', "'"
+  - high:  figured it out and the rock was balanced! His[[ friends]] cheered and /  second time, Jack flew over the magical skip.[[ Everyone]] was amazed
+  - low:  and the frog. She runs into the house.  [[Tom]] laughs. /  the family. Everyone started screaming and running around.[[ Joe]] was so
+- **n3497** push +0.019 (other stories +0.004); corpus median -0.01, p3 -0.70, p97 +0.61
+  - top tokens: ' a', ' of', ' every', ' her', ' the', ' at', ' in', ' as'
+  - bottom tokens: ' want', ' like', ' he', ' was', ' she', ' time', ' space', ' Space'
+  - high:  which is another reason why pineapple pizza is the worst[[ thing]] in the / . One day, she was swinging with all of[[ her]] might when
+  - low:  games from this era, such as Pong and[[ Space]] Invaders /  games from this era, such as Pong and[[ Space]] Invaders
+
+## angry
+
+- counts: specific 1831 (933 push +), constant 6755 (3035 +), noise 3702
+- share of the mean push: signal +0.98, specific -1.77, constant +2.75, noise +0.02
+- d' (own vs other held-out stories): signal +2.57, specific +2.85, constant +1.31, noise +2.17, all +2.73
+- noise sum: mean -0.014, sd 0.207 (independent: 0.157)
+
+### angry: strongest constant neurons
+
+- **n9964** push -0.170 (other stories -0.206); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n7403** push -0.152 (other stories -0.157); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n10729** push +0.072 (other stories +0.075); corpus median -0.66, p3 -3.22, p97 +0.32
+  - top tokens: ',', ' "', ' “', '"', ' you', ' /', '�', ' for'
+  - bottom tokens: ' it', ' that', ' you', ' can', ' It', "'t", ' they', ' the'
+  - high:  truck, grandpa," Ben says.  "Sorry[[,]] buddy, /  smiled and nodded. "That's very kind of[[ you]], dear
+  - low:  podcast topic  to attract the right audience, it[[’s]] important to /  a podcast topic  to attract the right audience,[[ it]]’s important
+- **n10958** push +0.065 (other stories +0.048); corpus median -0.74, p3 -3.97, p97 +2.80
+  - top tokens: ',', ' ', ' the', ' Tim', '.\n\n', '2', ' each', ' her'
+  - bottom tokens: ',', ' and', '6', ' the', '5', ' of', ' (', '.'
+  - high:  go explore and find something else fun to do![[â]]€ So /  are pretty."  Mom was not glad. She said[[,]] "No
+  - low: www.ncbi.nlm.nih.gov/pmc/articles/PMC[[6]]41 /  pleasure rather than business. The average plane departing K[[I]]WA carried
+- **n3634** push +0.062 (other stories +0.047); corpus median +0.04, p3 -1.10, p97 +3.53
+  - top tokens: ' I', ' really', ' it', ' you', ' we', ' what', ' he', ' was'
+  - bottom tokens: ' "', ',', ' where', '!', 'œ', 'No', ' love', ' as'
+  - high:  are all too prevalent in the U.S., it[[ sure]] makes sense /  a big tower and a small house and anything else[[ we]] want."  
+  - low: . He held the pear and said, "No[[,]] it's /  pedals."  Lucy replied, "Don't worry[[,]] my dad
+- **n10162** push -0.046 (other stories -0.045); corpus median +0.70, p3 +0.27, p97 +1.25
+  - top tokens: ' and', '.', '|\n', '|', 'assistant', ' Bel', 'bad', ' Mac'
+  - bottom tokens: ' Obst', ' A', '3', 'ell', 'sf', '://', '2', ':'
+  - high: The Leading eBooks Store[[ Online]] for /  Grohol, Psy.D. on 21[[ Feb]] 2
+  - low:  unbiased health information from our partner university faculty. Net[[Well]]ness is /  relatively consistent scientific data showing a substantial health benefit. [[2]] Stars Contr
+- **n6330** push +0.045 (other stories +0.039); corpus median +0.03, p3 -2.42, p97 +2.05
+  - top tokens: ',', ' to', ' that', ' with', ' it', ' there', ' and', ' had'
+  - bottom tokens: ' to', ',', ' the', ' more', ' These', ' and', ' as', ' a'
+  - high:  just a bird singing! Emily was no longer frightened[[,]] she was /  Mommy!"  His mom smiled and said, "[[That]]'s great
+  - low:  told you to eat your carrots for good vision[[,]] she wasn /  for the really praiseworthy actions. Despite your[[ best]] intentions to
+- **n5804** push -0.044 (other stories -0.044); corpus median -1.44, p3 -1.90, p97 +0.28
+  - top tokens: ':', '.', ' ', '8', '7', '2', '6', '5'
+  - bottom tokens: '.', ' essential', ' experience', ' of', ' effort', ' option', ' There', ' content'
+  - high: 11. Thomason PR, Fisher BL,[[ Carpenter]] PA, /  Marello 1998). -[[ Atkins]], B
+  - low: 5) If you would like to reuse any content[[ from]] New Scientist /  releases: Cite this work Researchers should cite[[ this]] work as
+- **n3893** push -0.042 (other stories -0.045); corpus median -0.05, p3 -2.27, p97 +1.13
+  - top tokens: ',', ' the', ' Tim', ' ch', ' ', '0', ' couldn', ' didn'
+  - bottom tokens: '.\n\n', ' -', ' there', ',', '.', ' is', '-', ' There'
+  - high:  didn't understand what "pray" meant, so[[ Tim]]my explained /  jar?" His mom looked at the jar and asked[[,]] "Where
+  - low:  enjoy doing to relax or de-stress?   [[ -]] What is / 22, 1862. Although[[ there]] were no
+- **n12256** push -0.039 (other stories -0.039); corpus median -0.88, p3 -1.38, p97 -0.07
+  - top tokens: ' ', '/', '9', '8', ' (', ' y', '1', '6'
+  - bottom tokens: 'pr', '&w', '4', ' that', '3', '9', ':', ' good'
+  - high: itud hacia la vida siempre fue una inspiración[[ y]] nunca se /  de Medianoche de un Vaquero,[[ porque]] la mayoría
+  - low:  Madrid: Editorial Naval ISBN 84-7[[3]]41 /  de Lexicographie - Internationales Jah[[rb]]uch für
+
+### angry: strongest specific neurons
+
+- **n2066** push +0.046 (other stories -0.034); corpus median +0.23, p3 -0.33, p97 +0.74
+  - top tokens: ' said', 'assistant', ',"', ' says', ' he', '!"', ' she', ':'
+  - bottom tokens: ',', ' voice', ' said', ' a', ' asked', ' and', ' in', '.'
+  - high:  was originally a war cry or slogan. Motto[[es]] first began /  she heard a friendly voice.  "Hi, Patch[[!"]] it said
+  - low:  your room," she said again, this time with[[ a]] firmer /  to tidy your room," she said again, this[[ time]] with a
+- **n155** push +0.059 (other stories +0.004); corpus median +0.06, p3 -0.65, p97 +0.47
+  - top tokens: ' the', ' to', ' of', ' C', ' for', ' and', ' your', ' important'
+  - bottom tokens: ' felt', ' in', ' the', ' a', 'on', ' up', 'anic', 'av'
+  - high:  sensation over a specific area of the anatomy without loss[[ of]] consciousness.  /  restorations. Loss of pain sensations without loss[[ of]] consciousness. 
+  - low:  This article also explains that a certain chemical accum[[ulates]] in the /  It was so eerie that Lena felt a shiver[[ run]] down her
+- **n10272** push +0.024 (other stories -0.013); corpus median +0.02, p3 -0.50, p97 +0.47
+  - top tokens: ' ran', ' and', ' to', ',', ' he', ' a', ' man', ' They'
+  - bottom tokens: ' hugged', ' hug', ' her', ' hugs', ' and', ' a', ' big', ' other'
+  - high:  The bright sun shone down on them as the[[ lion]] and the / Sara loves her dog, Max.[[ Max]] is big
+  - low:  in general. Be open with your hugs, p[[ats]] on the /  read it very fast!"   They both smiled and[[ hugged]]. Daisy
+- **n11109** push +0.048 (other stories +0.011); corpus median -0.06, p3 -0.48, p97 +0.49
+  - top tokens: ',', ' to', ' and', ' stress', ' that', ' heart', ' he', ' of'
+  - bottom tokens: ' of', ':', ' production', '2', ' to', ' was', 'av', ' that'
+  - high:  WP, Smith RP. The relationship among exercise,[[ stress]] /  grow up in poor families are more likely to experience[[ stress]], anxiety
+  - low:  clinical experience, or traditional usage as cited in each[[ article]]. The / appi G, Facchinetti F, G[[enn]]azzani
+- **n3754** push +0.054 (other stories +0.023); corpus median -0.00, p3 -0.49, p97 +0.93
+  - top tokens: ' and', 'ily', ' She', ' Lily', ' girl', ' she', 'y', ' he'
+  - bottom tokens: ' smiled', ' and', ',', ' He', ' nodded', ' his', ' mom', ' smiles'
+  - high:  me for a ride?"  Lucy nodded and[[ h]]opped into /  to come with me for a ride?"  Luc[[y]] nodded and
+  - low:  what was at the end of it. The man[[ smiled]] and explained / , looking out into the distance. I put my[[ hand]] on her
+- **n1545** push +0.043 (other stories +0.020); corpus median +0.02, p3 -0.45, p97 +0.48
+  - top tokens: ' of', ' that', ' on', ' love', ' in', ' loved', ' up', ' this'
+  - bottom tokens: ' of', ' that', ' for', ' had', ' in', ' to', ' this', ' as'
+  - high:  to see whatâ€™s on the other side[[ of]] that door /  and then said, "I will permit you to[[ open]] the jar
+  - low:  was definitely not a hit with critics. Co-author[[ of]] the study / . The parents said how glad they were to be[[ at]] the hotel
+- **n10474** push +0.065 (other stories +0.042); corpus median -0.04, p3 -1.38, p97 +0.50
+  - top tokens: ' to', ' and', ' I', ' go', ' you', ' a', ',', ' "'
+  - bottom tokens: ' a', ' to', ' the', ',', ' her', ' in', ' and', ' about'
+  - high: Hi, Tom!" Ben said. "Do you[[ want]] to play /  named Lucy heard him. She asked, "Did[[ you]] say you
+  - low:  couldn't find it. Just when Lily thought she[[ would]] never see /  chirps and spins around. They both tell jokes[[ about]] funny animals
+- **n1637** push +0.067 (other stories +0.047); corpus median -0.46, p3 -3.66, p97 +1.59
+  - top tokens: ',', ' and', ' you', ' it', ' is', 'Yes', ' It', 'Last'
+  - bottom tokens: ' but', ' day', ' mom', ',', ' he', '.', ' that', ' so'
+  - high:  She learned how to move the pieces and how to[[ say]] checkmate / , "Hoo, hoo, of course[[,]] little boy
+  - low:  to go inside. He looked for his rocket,[[ but]] it was / , there were two friends. They were hungry,[[ but]] they did
+- **n5663** push +0.014 (other stories -0.006); corpus median +0.02, p3 -0.35, p97 +0.42
+  - top tokens: ' and', ' She', ' said', ' says', ',', ' him', ' her', ' told'
+  - bottom tokens: ' smiled', ' and', ',', ',"', ' your', ' He', ' she', ' with'
+  - high:  other.  Then, Lily had an idea. She[[ whispered]] to Tom /  from one world into the next, he managed to[[ whisper]] to M
+  - low: ?"  His parents were taken aback, and his[[ mother]] started to /  things and put them around the frame.  M[[um]] smiled at
+- **n9873** push +0.047 (other stories +0.028); corpus median -0.16, p3 -1.23, p97 +0.73
+  - top tokens: ',', '.', ' I', ' on', ' and', "'s", ' in', "'t"
+  - bottom tokens: ' Sure', ',', ' worry', ' course', ' it', 'Look', ' Certainly', ' out'
+  - high: , and dark green pigments, including that [[old]] standby, /  of the day. “Look at that bad boy[[,]] he’s
+  - low:  took the flower and gave it to Ben.  "No[[,]] Ben. /  any pedals."  Lucy replied, "Don't[[ worry]], my
+
+## guilty
+
+- counts: specific 1479 (852 push +), constant 7175 (3761 +), noise 3634
+- share of the mean push: signal +0.98, specific +0.54, constant +0.44, noise +0.02
+- d' (own vs other held-out stories): signal +2.12, specific +2.25, constant +1.00, noise +1.31, all +2.14
+- noise sum: mean +0.060, sd 0.232 (independent: 0.157)
+
+### guilty: strongest constant neurons
+
+- **n10729** push -0.061 (other stories -0.062); corpus median -0.66, p3 -3.22, p97 +0.32
+  - top tokens: ',', ' "', ' “', '"', ' you', ' /', '�', ' for'
+  - bottom tokens: ' it', ' that', ' you', ' can', ' It', "'t", ' they', ' the'
+  - high:  truck, grandpa," Ben says.  "Sorry[[,]] buddy, /  smiled and nodded. "That's very kind of[[ you]], dear
+  - low:  podcast topic  to attract the right audience, it[[’s]] important to /  a podcast topic  to attract the right audience,[[ it]]’s important
+- **n7403** push +0.055 (other stories +0.054); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n7077** push +0.036 (other stories +0.038); corpus median +0.48, p3 -1.05, p97 +2.31
+  - top tokens: ',', '.', ' the', ' it', ' that', ' have', ' to', ' and'
+  - bottom tokens: ' the', ',', ' such', ' there', ' of', ' and', ' hugged', ' a'
+  - high:  so excited, and he knew what he wanted to[[ do]]! He /  garden hose and jumped in front of it. Suddenly[[,]] the water
+  - low:  the shuttering of no-longer-needed facilities in[[ such]] places as /  require an outside collection bag attached to a stoma[[,]] a surg
+- **n8413** push +0.030 (other stories +0.017); corpus median +0.01, p3 -0.59, p97 +1.32
+  - top tokens: ' "', ',', '"', ' to', ' can', ' for', 'Can', ' with'
+  - bottom tokens: ' the', ' to', ',', '.', ' in', ' of', ' find', ' "'
+  - high:  asked, "Why did the sky make that sound[[,]] mummy /  his mom the penny and asked her a question,[[ "]]Mom,
+  - low:  street, hand in hand. Chloe opened the door[[ to]] her house /  older brother Cruz. It was the third championship for[[ the]] family in
+- **n1065** push +0.030 (other stories +0.028); corpus median +0.15, p3 -1.54, p97 +2.03
+  - top tokens: ' and', ',', ' on', ' with', ' the', ' to', ' forgot', ' from'
+  - bottom tokens: ' to', ' of', ' for', ' you', ' this', ' the', ' can', ' on'
+  - high: arist regime, the aftermath of which brings Trotsky[[ and]] the other / One day, Jim forgot to do something. He[[ forgot]] to give
+  - low:  hydrocarbon ice. What made you want to look[[ up]] regolith /  style preferences. Here are some important factors to consider[[ when]] selecting a
+- **n1590** push +0.024 (other stories +0.023); corpus median +0.22, p3 -0.79, p97 +0.95
+  - top tokens: ' or', ',', ' if', ' to', ' of', ' a', ' you', ' on'
+  - bottom tokens: ' your', ' the', ' a', ' and', ' you', ',', ' to', ' an'
+  - high:  will be in danger if you get pregnant. So[[ how]] does your /  with their hands, and drink from a cup.[[ If]] you saw
+  - low:  repairs and maintenance should also be prioritized to keep[[ your]] vehicle running / " in the title may be related to the author[['s]]
+- **n7269** push +0.024 (other stories +0.023); corpus median -0.18, p3 -0.91, p97 +0.62
+  - top tokens: ' the', '.', ' of', ' if', ' to', ' with', ' until', ','
+  - bottom tokens: ' the', ' of', ' on', ',', '.', ' if', ' As', ' in'
+  - high:  relevant podcast communities and forums like reddit or discord to[[ promote]] your content / uttering, including feeling lighter and more mindful of[[ what]] you own
+  - low:  by a Doctor on 4/2/2[[0]]14 / ?  assistant: I can suggest some ways to cope[[ with]] regret such
+- **n9964** push +0.023 (other stories +0.027); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n6137** push -0.023 (other stories -0.023); corpus median +0.33, p3 -1.73, p97 +2.38
+  - top tokens: ' the', ' to', ',"', ' with', ' what', '.', ' liked', ' for'
+  - bottom tokens: ',', '.', ' of', ' the', ' on', '.\n', ' some', ' text'
+  - high:  couldn't remember why, but he was so happy[[ that]] he wanted /  Lily cried. "The bees sting me!"  Ben[[ heard]] Lily and
+  - low: . In our body[[,]] NAC /  crown into florets[[. ]]3.
+- **n8197** push +0.022 (other stories +0.011); corpus median +0.01, p3 -0.51, p97 +0.66
+  - top tokens: ' the', ' looked', ' to', ' pretty', '1', ' a', ' The', ' '
+  - bottom tokens: '-', ' ', '/', ' in', '3', '4', '0', ' for'
+  - high:  The bright sun shone down on them as the[[ lion]] and the /  the lioness to marry him and, happily,[[ she]] agreed.
+  - low:  stir-fry and store it in the fridge for[[ ]]3- / oup.com/ajcn/article/78/[[3]]/5
+
+### guilty: strongest specific neurons
+
+- **n48** push +0.110 (other stories +0.024); corpus median -0.07, p3 -0.54, p97 +0.36
+  - top tokens: ' He', ' and', ' tried', '.', ' She', ' to', ' said', "'t"
+  - bottom tokens: ' and', ' to', ',', ' a', ' in', ' eyes', ' staring', ' stared'
+  - high: ?"  Lily and Sam looked at each other and[[ lowered]] their heads /  You are a mean dog!"  Max feels embarrassed.[[ He]] did not
+  - low:  stir well. Cover tightly, and store in a[[ dark]] place at /  darkness and buried in unmarked graves. Others refused[[ to]] testify in
+- **n3634** push +0.127 (other stories +0.068); corpus median +0.04, p3 -1.10, p97 +3.53
+  - top tokens: ' I', ' really', ' it', ' you', ' we', ' what', ' he', ' was'
+  - bottom tokens: ' "', ',', ' where', '!', 'œ', 'No', ' love', ' as'
+  - high:  are all too prevalent in the U.S., it[[ sure]] makes sense /  a big tower and a small house and anything else[[ we]] want."  
+  - low: . He held the pear and said, "No[[,]] it's /  pedals."  Lucy replied, "Don't worry[[,]] my dad
+- **n4372** push +0.074 (other stories +0.017); corpus median +0.00, p3 -0.93, p97 +0.42
+  - top tokens: ' and', ' mom', ' to', ' She', ',', 'my', ' he', ' thought'
+  - bottom tokens: ' sorry', '.', ' say', ' and', ' said', ',', ' says', ' forgive'
+  - high: . He looked very wise and kind. Lily asked[[ him]] where the /  she wanted to marry Max instead. The king and[[ queen]] were happy
+  - low:  the emotions, learning from the mistake, seeking forgiveness[[ or]] making am /  accepting the emotions, learning from the mistake, seeking[[ forgiveness]] or making
+- **n2215** push +0.033 (other stories +0.011); corpus median -0.00, p3 -0.59, p97 +0.39
+  - top tokens: ' to', ' her', ' the', ',', ' and', ' a', ' him', ' Chin'
+  - bottom tokens: ' and', ' to', ',', ' the', '.', ' with', ' I', ' came'
+  - high:  the tall man.  The tall man showed Mum and[[ Dad]] something he /  house.  When he arrived, Ms. Lisa showed[[ him]] the room
+  - low:  "Sweet dreams."  She turned off the light and[[ left]] the room / , tucking him in. "Sweet dreams."  [[She]] turned off
+- **n6028** push +0.036 (other stories +0.019); corpus median +0.04, p3 -0.57, p97 +0.82
+  - top tokens: ' eyes', ' your', ' the', ' echoing', '.', ' and', ' held', ' whisper'
+  - bottom tokens: ' the', ' of', ' on', ' to', ' you', ' your', ' watching', ' at'
+  - high:  whispers grew more frenzied, seeming to pour[[ over]] her like /  in the darkness, Lena started to hear strange sounds[[ echoing]] off the
+  - low:  with food often traveling thousands of miles just to reach[[ our]] plates, /  he should give it a try. So he picked[[ up]] his spoon
+- **n8301** push +0.026 (other stories +0.010); corpus median -0.02, p3 -1.30, p97 +1.38
+  - top tokens: ' of', ' in', ' personal', ' for', ' health', ' Personal', ' forget', '-'
+  - bottom tokens: ' friends', ' to', 'my', ' Every', ',', ' for', ' with', ' be'
+  - high:  Frank was home on holiday that he met the other[[ love]] of his /  one thing you are proud of accomplishing in your[[ personal]] life?
+  - low:  had only $300 in grant money to[[ help]] him develop /  a package. Mom said that if she saved up[[ her]] allowance,
+- **n4764** push -0.044 (other stories -0.058); corpus median +0.09, p3 -0.98, p97 +0.94
+  - top tokens: ' "', '.', ',', 'Let', ' I', 'I', '!', '"'
+  - bottom tokens: ' you', ' I', ' hope', '.', ',', "'t", ' we', ' what'
+  - high: "This one is the original," the parents replied.[[ "]]We made / "Yes, mom, it did," Sam says.[[ "]]I wanted
+  - low: ium, fasces, legiones, omnia[[,]] nunc / , and 15g of fat.  I[[ hope]] you enjoy
+- **n9842** push +0.018 (other stories +0.006); corpus median -0.01, p3 -1.77, p97 +0.76
+  - top tokens: ' was', 'Let', ' you', ' of', ' are', ' I', ' at', ' together'
+  - bottom tokens: ' "', ',', '"', '"I', ' will', ' can', 'I', ' my'
+  - high: 's so shiny!"  The duck replied, "Be[[ careful]], ot /  coming in ragged gasps. "Take care[[ of]] my sister
+  - low: 't want to leave, Daddy," Rose said.  [["I]] know, /  asked, "Why did the sky make that sound[[,]] mummy
+- **n3325** push +0.014 (other stories +0.002); corpus median -0.05, p3 -0.57, p97 +0.69
+  - top tokens: ' to', ' and', ' the', ' a', '.', ',', ' He', ' for'
+  - bottom tokens: '.', ' They', ' and', ' they', ' friends', ',', ' She', 'Thank'
+  - high: . First, get to know their personal interests and[[ identify]] common goals /  there, we can collaborate with the client to develop[[ a]] tailored solution
+  - low:  in love quickly and passionately, spending every moment they[[ could]] steal from /  to rest and replenish his supplies. They had[[ fallen]] in love
+- **n9464** push -0.006 (other stories -0.017); corpus median +0.00, p3 -0.68, p97 +1.02
+  - top tokens: ' that', ',', ' voice', ' sound', 'umble', ' louder', ' pounding', ' face'
+  - bottom tokens: ',', ' like', '.', ':', ' the', ' been', ' a', ' just'
+  - high:  would find my way out eventually.  Finally, after[[ what]] felt like /  of the most prestigious in the city, with security[[ measures]] that were
+  - low:  pizza. I could eat 7 slices of pizza[[ just]] for dinner /  oval eggs. The monarch egg is no bigger than[[ the]] head of
+
+## sad
+
+- counts: specific 1114 (582 push +), constant 7610 (3704 +), noise 3564
+- share of the mean push: signal +1.03, specific -1.76, constant +2.79, noise -0.03
+- d' (own vs other held-out stories): signal +2.11, specific +2.28, constant +1.42, noise +1.18, all +2.01
+- noise sum: mean +0.013, sd 0.260 (independent: 0.200)
+
+### sad: strongest constant neurons
+
+- **n9964** push -0.093 (other stories -0.126); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n5804** push -0.079 (other stories -0.080); corpus median -1.44, p3 -1.90, p97 +0.28
+  - top tokens: ':', '.', ' ', '8', '7', '2', '6', '5'
+  - bottom tokens: '.', ' essential', ' experience', ' of', ' effort', ' option', ' There', ' content'
+  - high: 11. Thomason PR, Fisher BL,[[ Carpenter]] PA, /  Marello 1998). -[[ Atkins]], B
+  - low: 5) If you would like to reuse any content[[ from]] New Scientist /  releases: Cite this work Researchers should cite[[ this]] work as
+- **n7403** push -0.060 (other stories -0.067); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n8517** push -0.045 (other stories -0.046); corpus median -0.62, p3 -1.26, p97 -0.10
+  - top tokens: ',', '.', 'deer', 'olly', ' in', ' road', ' /', ' girl'
+  - bottom tokens: '.', ',', ',"', ' feeling', ' “', ' because', ' seemed', ' advice'
+  - high: ium, fasces, legiones, omnia[[,]] nunc / . I fight with all my[[ might]], my
+  - low: , “…my show had some free time between bookings[[.]] At every /  the steam engine, the telephone, the talking-machine[[,]] and the
+- **n6137** push -0.042 (other stories -0.045); corpus median +0.33, p3 -1.73, p97 +2.38
+  - top tokens: ' the', ' to', ',"', ' with', ' what', '.', ' liked', ' for'
+  - bottom tokens: ',', '.', ' of', ' the', ' on', '.\n', ' some', ' text'
+  - high:  couldn't remember why, but he was so happy[[ that]] he wanted /  Lily cried. "The bees sting me!"  Ben[[ heard]] Lily and
+  - low: . In our body[[,]] NAC /  crown into florets[[. ]]3.
+- **n10162** push -0.037 (other stories -0.038); corpus median +0.70, p3 +0.27, p97 +1.25
+  - top tokens: ' and', '.', '|\n', '|', 'assistant', ' Bel', 'bad', ' Mac'
+  - bottom tokens: ' Obst', ' A', '3', 'ell', 'sf', '://', '2', ':'
+  - high: The Leading eBooks Store[[ Online]] for /  Grohol, Psy.D. on 21[[ Feb]] 2
+  - low:  unbiased health information from our partner university faculty. Net[[Well]]ness is /  relatively consistent scientific data showing a substantial health benefit. [[2]] Stars Contr
+- **n6330** push +0.036 (other stories +0.031); corpus median +0.03, p3 -2.42, p97 +2.05
+  - top tokens: ',', ' to', ' that', ' with', ' it', ' there', ' and', ' had'
+  - bottom tokens: ' to', ',', ' the', ' more', ' These', ' and', ' as', ' a'
+  - high:  just a bird singing! Emily was no longer frightened[[,]] she was /  Mommy!"  His mom smiled and said, "[[That]]'s great
+  - low:  told you to eat your carrots for good vision[[,]] she wasn /  for the really praiseworthy actions. Despite your[[ best]] intentions to
+- **n11314** push -0.029 (other stories -0.029); corpus median +0.32, p3 -0.85, p97 +0.80
+  - top tokens: ',', ' ', ' (', '-', '2', ' the', ' your', '0'
+  - bottom tokens: ' the', ',', ' of', ' to', ' “', ' ', ' a', ' is'
+  - high: rioritize your emergency fund savings. Experts recommend at[[ least]] 3 / itize your emergency fund savings. Experts recommend at least[[ ]]3-
+  - low:  MGM couldn”t have said it any better,[[ “]]Time has /  of the era that’s given the mission the subtitle[[ of]] “the
+- **n7527** push -0.029 (other stories -0.025); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n1** push -0.028 (other stories -0.026); corpus median +0.49, p3 +0.17, p97 +0.95
+  - top tokens: ',', '.', ' Z', ' of', '9', 'il', '2', ' G'
+  - bottom tokens: '2', ',', '0', '.', ' and', '1', ' the', ' '
+  - high: -32. 25. Suzuki N,[[ U]]ebaba /  we want to find out," says Hakan[[ S]]vedhem
+  - low: 6-0815-X - Z[[g]]usta, /  journalist. Serves as a war correspondent in the[[ Balk]]an Wars
+
+### sad: strongest specific neurons
+
+- **n10958** push +0.065 (other stories +0.032); corpus median -0.74, p3 -3.97, p97 +2.80
+  - top tokens: ',', ' ', ' the', ' Tim', '.\n\n', '2', ' each', ' her'
+  - bottom tokens: ',', ' and', '6', ' the', '5', ' of', ' (', '.'
+  - high:  go explore and find something else fun to do![[â]]€ So /  are pretty."  Mom was not glad. She said[[,]] "No
+  - low: www.ncbi.nlm.nih.gov/pmc/articles/PMC[[6]]41 /  pleasure rather than business. The average plane departing K[[I]]WA carried
+- **n11109** push +0.009 (other stories -0.021); corpus median -0.06, p3 -0.48, p97 +0.49
+  - top tokens: ',', ' to', ' and', ' stress', ' that', ' heart', ' he', ' of'
+  - bottom tokens: ' of', ':', ' production', '2', ' to', ' was', 'av', ' that'
+  - high:  WP, Smith RP. The relationship among exercise,[[ stress]] /  grow up in poor families are more likely to experience[[ stress]], anxiety
+  - low:  clinical experience, or traditional usage as cited in each[[ article]]. The / appi G, Facchinetti F, G[[enn]]azzani
+- **n10073** push +0.079 (other stories +0.054); corpus median -0.01, p3 -0.73, p97 +0.52
+  - top tokens: ' smiled', ' waved', ' of', '.\n\n', ' door', ' hands', ' looked', ' heart'
+  - bottom tokens: ' The', ' "', ',', ' of', ' the', ' Mother', '.', ' and'
+  - high:  Sun," NeedtoBreathe's "The[[ Heart]]," and /  games from this era, such as Pong and[[ Space]] Invaders
+  - low:  from "Love Idol," the author also recommends "[[Sur]]prised /  also recommend another book I read this month: "[[Sur]]prised
+- **n48** push +0.038 (other stories +0.016); corpus median -0.07, p3 -0.54, p97 +0.36
+  - top tokens: ' He', ' and', ' tried', '.', ' She', ' to', ' said', "'t"
+  - bottom tokens: ' and', ' to', ',', ' a', ' in', ' eyes', ' staring', ' stared'
+  - high: ?"  Lily and Sam looked at each other and[[ lowered]] their heads /  You are a mean dog!"  Max feels embarrassed.[[ He]] did not
+  - low:  stir well. Cover tightly, and store in a[[ dark]] place at /  darkness and buried in unmarked graves. Others refused[[ to]] testify in
+- **n10687** push +0.036 (other stories +0.017); corpus median +0.01, p3 -1.66, p97 +1.11
+  - top tokens: ' the', ' his', ' and', ' of', ' her', ' their', ' around', ' turned'
+  - bottom tokens: ' to', ' went', ' go', ' and', ' they', ' They', ' I', ' wanted'
+  - high: The room went silent as the officers set the stret[[cher]] down on /  to help. The white bird shared its food with[[ the]] yellow bird
+  - low:  to make a mistake.  Afterwards, Jimmy went[[ back]] to playing /  so excited to dive in the wave again and he[[ went]] back to
+- **n1832** push +0.045 (other stories +0.029); corpus median -0.01, p3 -0.52, p97 +0.48
+  - top tokens: ' "', ' the', ' “', " '", ' do', ' a', ' mean', ' things'
+  - bottom tokens: '.', ',', ' "', ' “', ' it', "'s", ' too', " '"
+  - high: , and personal care expenses. -Consider reducing your[[ “]]lifestyle /  for a Java Virtual Machine. The functionality is there[[ "]]does not
+  - low:  Inuit self-rate their health as at least "[[very]] good" / ," he says. "Don't be scared.[[ It]] will be
+- **n3724** push +0.031 (other stories +0.018); corpus median +0.04, p3 -0.36, p97 +0.44
+  - top tokens: '!', '!"', '!\n\n', '!!'
+  - bottom tokens: ' "', '"', '!', ',', 'Mom', '"I', 'œ', '?'
+  - high: 1/2 cups brandy  Hope this helps[[!]] Let me /  been harvested using environmentally-friendly methods. Hope that helps[[!]]
+  - low:  heard his father's voice from inside the house.  [["]]John, / . So, his mom shouted louder and said,[[ "]]Pete
+- **n3444** push +0.023 (other stories +0.010); corpus median +0.00, p3 -0.73, p97 +0.38
+  - top tokens: ' the', ',', ' to', ' never', ' had', ' air', ' "', ' in'
+  - bottom tokens: ' to', ' know', ' knew', ' new', ' home', ' safe', ' see', ' and'
+  - high: Jane pointed towards the insect and said "Mommy[[,]] look! / 15. Martignoni E, Napp[[i]] G,
+  - low:  He knew that, even when things seem strange and[[ unfamiliar]], it /  as well as the munchkins. Oz is as[[ familiar]] as our
+- **n2707** push +0.012 (other stories -0.001); corpus median +0.00, p3 -0.53, p97 +0.62
+  - top tokens: ' She', ' smiled', ' to', ' with', ' and', ' hands', ' He', ' she'
+  - bottom tokens: '.', ',', ' and', ' was', ' his', "'t", ' not', ' to'
+  - high:  and hippo.  He yawned and rubbed[[ his]] eyes. /  elephant and hippo.  He yawned and[[ rubbed]] his eyes
+  - low:  dried Frannie's tears and looked around the room[[ until]] she found /  he could do.  Henri looked up at him[[,]] his breath
+- **n7990** push +0.041 (other stories +0.029); corpus median -0.00, p3 -0.42, p97 +0.46
+  - top tokens: ' make', ' a', ' was', ' looked', ' making', ' voice', ' write', ' says'
+  - bottom tokens: ' something', ' make', ' a', ' play', ' see', ' saw', ' pretended', ' pretend'
+  - high: . Henri's face was set with determination, his[[ eyes]] blazing with / "We fight for each other," Ada says, her[[ voice]] firm.
+  - low:  horn. They ran around the trees and bushes,[[ pretending]] to fight / NSF) is an independent federal agency that supports[[ fundamental]] research and
+
+## afraid
+
+- counts: specific 2037 (1183 push +), constant 6580 (3397 +), noise 3671
+- share of the mean push: signal +0.99, specific +0.71, constant +0.27, noise +0.01
+- d' (own vs other held-out stories): signal +2.75, specific +2.70, constant +1.16, noise +1.52, all +2.83
+- noise sum: mean +0.040, sd 0.236 (independent: 0.166)
+
+### afraid: strongest constant neurons
+
+- **n9964** push +0.099 (other stories +0.092); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n7403** push +0.040 (other stories +0.040); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n7555** push +0.036 (other stories +0.036); corpus median +0.02, p3 -1.07, p97 +2.39
+  - top tokens: ',', '.', ' is', ' was', '.\n', ' the', ' have', ' in'
+  - bottom tokens: ',"', ' of', ',”', ' such', ' the', ' and', ' it', ','
+  - high: , and the family purse.”7[[ Whatever]] their secret / Unless you’ve buried your head in the sand[[ or]] just returned
+  - low:  picture of these structures and be able to characterize them[[,"]] Schroers /  their individual lives. Tom may have felt a special[[ clos]]eness to
+- **n4764** push +0.030 (other stories +0.026); corpus median +0.09, p3 -0.98, p97 +0.94
+  - top tokens: ' "', '.', ',', 'Let', ' I', 'I', '!', '"'
+  - bottom tokens: ' you', ' I', ' hope', '.', ',', "'t", ' we', ' what'
+  - high: "This one is the original," the parents replied.[[ "]]We made / "Yes, mom, it did," Sam says.[[ "]]I wanted
+  - low: ium, fasces, legiones, omnia[[,]] nunc / , and 15g of fat.  I[[ hope]] you enjoy
+- **n6137** push -0.028 (other stories -0.027); corpus median +0.33, p3 -1.73, p97 +2.38
+  - top tokens: ' the', ' to', ',"', ' with', ' what', '.', ' liked', ' for'
+  - bottom tokens: ',', '.', ' of', ' the', ' on', '.\n', ' some', ' text'
+  - high:  couldn't remember why, but he was so happy[[ that]] he wanted /  Lily cried. "The bees sting me!"  Ben[[ heard]] Lily and
+  - low: . In our body[[,]] NAC /  crown into florets[[. ]]3.
+- **n1590** push -0.028 (other stories -0.028); corpus median +0.22, p3 -0.79, p97 +0.95
+  - top tokens: ' or', ',', ' if', ' to', ' of', ' a', ' you', ' on'
+  - bottom tokens: ' your', ' the', ' a', ' and', ' you', ',', ' to', ' an'
+  - high:  will be in danger if you get pregnant. So[[ how]] does your /  with their hands, and drink from a cup.[[ If]] you saw
+  - low:  repairs and maintenance should also be prioritized to keep[[ your]] vehicle running / " in the title may be related to the author[['s]]
+- **n3754** push +0.028 (other stories +0.018); corpus median -0.00, p3 -0.49, p97 +0.93
+  - top tokens: ' and', 'ily', ' She', ' Lily', ' girl', ' she', 'y', ' he'
+  - bottom tokens: ' smiled', ' and', ',', ' He', ' nodded', ' his', ' mom', ' smiles'
+  - high:  me for a ride?"  Lucy nodded and[[ h]]opped into /  to come with me for a ride?"  Luc[[y]] nodded and
+  - low:  what was at the end of it. The man[[ smiled]] and explained / , looking out into the distance. I put my[[ hand]] on her
+- **n5515** push -0.027 (other stories -0.026); corpus median +0.22, p3 -0.59, p97 +0.94
+  - top tokens: ' ', ',', ' the', ' to', ' that', '1', ')', ' of'
+  - bottom tokens: ' to', ' of', ' the', ' a', ' be', ' is', ' used', ' was'
+  - high: 1977, this network registered some [[1]]3, /  Greenpeace has brought forward a motion calling on St[[ato]]il to
+  - low:  check for defects or to ensure that the correct item[[ was]] picked.   /  to check for defects or to ensure that the correct[[ item]] was picked
+- **n7059** push +0.026 (other stories +0.019); corpus median -0.00, p3 -0.60, p97 +1.05
+  - top tokens: "'t", ' not', '.\n\n', ' to', '.', ' he', ' and', ' she'
+  - bottom tokens: ' your', ' and', '.', ' to', ' rest', ' can', ' If', ' for'
+  - high: my away.  Timmy felt sad and didn't[[ know]] what to /  felt sad and didn't know what to do.[[ He]] wanted to
+  - low:  the back of your left hand on the mat.[[ Rest]] your left /  Slowly lower your hips down to your heels and[[ rest]] your forehead
+- **n10474** push +0.025 (other stories +0.026); corpus median -0.04, p3 -1.38, p97 +0.50
+  - top tokens: ' to', ' and', ' I', ' go', ' you', ' a', ',', ' "'
+  - bottom tokens: ' a', ' to', ' the', ',', ' her', ' in', ' and', ' about'
+  - high: Hi, Tom!" Ben said. "Do you[[ want]] to play /  named Lucy heard him. She asked, "Did[[ you]] say you
+  - low:  couldn't find it. Just when Lily thought she[[ would]] never see /  chirps and spins around. They both tell jokes[[ about]] funny animals
+
+### afraid: strongest specific neurons
+
+- **n11109** push +0.144 (other stories +0.019); corpus median -0.06, p3 -0.48, p97 +0.49
+  - top tokens: ',', ' to', ' and', ' stress', ' that', ' heart', ' he', ' of'
+  - bottom tokens: ' of', ':', ' production', '2', ' to', ' was', 'av', ' that'
+  - high:  WP, Smith RP. The relationship among exercise,[[ stress]] /  grow up in poor families are more likely to experience[[ stress]], anxiety
+  - low:  clinical experience, or traditional usage as cited in each[[ article]]. The / appi G, Facchinetti F, G[[enn]]azzani
+- **n7527** push +0.171 (other stories +0.092); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n11976** push +0.091 (other stories +0.028); corpus median +0.00, p3 -0.68, p97 +0.78
+  - top tokens: ' felt', ' heart', '.', ' worried', ',', ' was', ' and', ' a'
+  - bottom tokens: ' was', '.', ' and', ' It', ',', '.\n\n', ' that', ' everything'
+  - high:  alone. You could have been hurt. You made[[ me]] very worried / . You could have been hurt. You made me[[ very]] worried."  
+  - low:  play on the slide, but Lily couldn't stop[[ thinking]] about the /  couldn't remember why, but he was so happy[[ that]] he wanted
+- **n4352** push +0.072 (other stories +0.031); corpus median -0.03, p3 -0.45, p97 +0.91
+  - top tokens: ' heard', ' a', ' hear', ',', '.', ' and', ' hears', ' noise'
+  - bottom tokens: ' saw', ' see', '.', ' of', ',', ' gl', ' spotted', '2'
+  - high: :  1. Use music and sound: Adding music[[,]] sound effects /  and interesting throughout each episode:  1. Use music[[ and]] sound:
+  - low: , Timmy the rabbit. Timmy had smelled[[ the]] delicious ac /  named Jay. He lived in a tree near a[[ glo]]omy lake
+- **n10272** push +0.026 (other stories -0.013); corpus median +0.02, p3 -0.50, p97 +0.47
+  - top tokens: ' ran', ' and', ' to', ',', ' he', ' a', ' man', ' They'
+  - bottom tokens: ' hugged', ' hug', ' her', ' hugs', ' and', ' a', ' big', ' other'
+  - high:  The bright sun shone down on them as the[[ lion]] and the / Sara loves her dog, Max.[[ Max]] is big
+  - low:  in general. Be open with your hugs, p[[ats]] on the /  read it very fast!"   They both smiled and[[ hugged]]. Daisy
+- **n6766** push +0.060 (other stories +0.027); corpus median -0.00, p3 -0.76, p97 +0.43
+  - top tokens: '.', ' your', ' on', ' the', ' noise', ' in', ' sound', ','
+  - bottom tokens: ' to', ' heart', ' until', ' they', ' it', ' began', ' a', ' lit'
+  - high:  Exerc 1998;30[[:]]90 /  Phys Ther 1989;69[[:]]17
+  - low:  the onions with a spoon of the goose fat when[[ they]] become transparent /  adventure. They hopped in the car and the[[ engine]] roared
+- **n3582** push -0.045 (other stories -0.012); corpus median +0.02, p3 -0.56, p97 +0.45
+  - top tokens: '.', ' to', ' a', ',', ' "', ' ways', ' and', ' that'
+  - bottom tokens: ' a', ' I', ' of', ' but', ' is', ' also', ' was', ' felt'
+  - high: . Puking in hotel and mall bathrooms is[[ no]] fun. /  our choices should be high in fiber, too.[[ Y]]ikes!
+  - low:  the confusion and the danger, there was a sense[[ of]] wonder that /  secrets can be hard to keep, but they can[[ also]] bring the
+- **n2158** push +0.048 (other stories +0.018); corpus median +0.01, p3 -0.50, p97 +0.39
+  - top tokens: ' your', ' to', '9', ' tried', ' the', ' back', ' and', ' with'
+  - bottom tokens: ' fell', ' and', ',', ' Lena', ' your', ' he', ' He', ' fall'
+  - high:  stumbling over the bodies of the enemy. He had[[ no]] idea who / : Beginners often rush to stand up before the board[[ is]] stable,
+  - low:  British soldier, felt the shock of impact as the[[ man]] fell to /  A British bullet struck Henri in the chest, and[[ he]] fell to
+- **n155** push +0.031 (other stories +0.005); corpus median +0.06, p3 -0.65, p97 +0.47
+  - top tokens: ' the', ' to', ' of', ' C', ' for', ' and', ' your', ' important'
+  - bottom tokens: ' felt', ' in', ' the', ' a', 'on', ' up', 'anic', 'av'
+  - high:  sensation over a specific area of the anatomy without loss[[ of]] consciousness.  /  restorations. Loss of pain sensations without loss[[ of]] consciousness. 
+  - low:  This article also explains that a certain chemical accum[[ulates]] in the /  It was so eerie that Lena felt a shiver[[ run]] down her
+- **n814** push +0.027 (other stories +0.001); corpus median +0.01, p3 -0.40, p97 +0.95
+  - top tokens: ' to', ' in', ' the', '.', ' was', ' of', ' a', ','
+  - bottom tokens: ' the', ' and', ' inside', ' she', ' in', ' to', ' ran', ' from'
+  - high:  the heist. The perpetrators had taken great care[[ to]] research the /  to disable the alarms and how to get in and[[ out]] quickly.  
+  - low:  main path. The other students and their guides were[[ barely]] visible in /  over the lake, until suddenly the sun came out[[ from]] behind the
+
+## nervous
+
+- counts: specific 2116 (1170 push +), constant 6570 (3436 +), noise 3602
+- share of the mean push: signal +1.01, specific +0.77, constant +0.24, noise -0.01
+- d' (own vs other held-out stories): signal +2.42, specific +2.37, constant +1.36, noise +1.93, all +2.64
+- noise sum: mean -0.033, sd 0.172 (independent: 0.155)
+
+### nervous: strongest constant neurons
+
+- **n10729** push -0.075 (other stories -0.071); corpus median -0.66, p3 -3.22, p97 +0.32
+  - top tokens: ',', ' "', ' “', '"', ' you', ' /', '�', ' for'
+  - bottom tokens: ' it', ' that', ' you', ' can', ' It', "'t", ' they', ' the'
+  - high:  truck, grandpa," Ben says.  "Sorry[[,]] buddy, /  smiled and nodded. "That's very kind of[[ you]], dear
+  - low:  podcast topic  to attract the right audience, it[[’s]] important to /  a podcast topic  to attract the right audience,[[ it]]’s important
+- **n9964** push +0.054 (other stories +0.050); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n1590** push -0.043 (other stories -0.045); corpus median +0.22, p3 -0.79, p97 +0.95
+  - top tokens: ' or', ',', ' if', ' to', ' of', ' a', ' you', ' on'
+  - bottom tokens: ' your', ' the', ' a', ' and', ' you', ',', ' to', ' an'
+  - high:  will be in danger if you get pregnant. So[[ how]] does your /  with their hands, and drink from a cup.[[ If]] you saw
+  - low:  repairs and maintenance should also be prioritized to keep[[ your]] vehicle running / " in the title may be related to the author[['s]]
+- **n4541** push +0.038 (other stories +0.029); corpus median -0.01, p3 -0.83, p97 +1.05
+  - top tokens: ' I', 'I', ' she', ' you', ' he', "'t", ' have', '"I'
+  - bottom tokens: ' I', ' to', ' can', ' like', "'t", ' know', ' want', ' hope'
+  - high:  DSHEA Finding: While the committee did[[ not]] conduct an /  a fantastic description of a day at the beach![[ I]] can almost
+  - low:  about being surrounded by so much green. I felt[[ like]] I was /  to receive [discount] off your purchase! We[[ can]]'t wait
+- **n9387** push +0.036 (other stories +0.030); corpus median +0.29, p3 -0.62, p97 +0.99
+  - top tokens: ' the', ' a', ' by', ' for', '.', ' have', '1', ' G'
+  - bottom tokens: ',', ' and', ' his', ' to', ' he', ' in', ' a', ' was'
+  - high:  Clelland JA, Jackson JR, et al.[[ Trans]]cutaneous /  is not feasible, the patients may need to have[[ an]] indw
+  - low:  he could do.  Henri looked up at him[[,]] his breath /  while that there was nothing he could do.  Hen[[ri]] looked up
+- **n7070** push +0.032 (other stories +0.026); corpus median +0.10, p3 -0.98, p97 +2.08
+  - top tokens: ' for', ' you', '.', ' "', ' on', ' and', ' the', ' Then'
+  - bottom tokens: ',', ' Tim', ' his', ' worry', ' there', ' the', ' in', '1'
+  - high: Description of Show 1  [Title of Show[[ ]]2]  /  don't forget to check back to see if you[['ve]] won!
+  - low:  I have my breakfast now?"  Jake laughed and said[[,]] "Yes /  voice low and urgent. “Keep fighting, my[[ brave]] soldiers.
+- **n7403** push +0.030 (other stories +0.032); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n5667** push -0.029 (other stories -0.035); corpus median -0.02, p3 -0.47, p97 +0.93
+  - top tokens: ' with', ' her', ' his', ' took', ',', ' put', ' and', ' a'
+  - bottom tokens: ' ran', ' flew', ' went', ' bird', ' to', ' run', ' was', ' running'
+  - high: Just before she drifted off, her mum came in[[ with]] a delicious /  carries in his hands, as is customary,[[ two]] or three
+  - low:  shouted, "Who wants to play?"  A bird[[ in]] a tall /  until she found it.  The wise owl smiled and[[ flew]] away,
+- **n12256** push +0.026 (other stories +0.026); corpus median -0.88, p3 -1.38, p97 -0.07
+  - top tokens: ' ', '/', '9', '8', ' (', ' y', '1', '6'
+  - bottom tokens: 'pr', '&w', '4', ' that', '3', '9', ':', ' good'
+  - high: itud hacia la vida siempre fue una inspiración[[ y]] nunca se /  de Medianoche de un Vaquero,[[ porque]] la mayoría
+  - low:  Madrid: Editorial Naval ISBN 84-7[[3]]41 /  de Lexicographie - Internationales Jah[[rb]]uch für
+- **n6137** push -0.026 (other stories -0.023); corpus median +0.33, p3 -1.73, p97 +2.38
+  - top tokens: ' the', ' to', ',"', ' with', ' what', '.', ' liked', ' for'
+  - bottom tokens: ',', '.', ' of', ' the', ' on', '.\n', ' some', ' text'
+  - high:  couldn't remember why, but he was so happy[[ that]] he wanted /  Lily cried. "The bees sting me!"  Ben[[ heard]] Lily and
+  - low: . In our body[[,]] NAC /  crown into florets[[. ]]3.
+
+### nervous: strongest specific neurons
+
+- **n11976** push +0.171 (other stories +0.033); corpus median +0.00, p3 -0.68, p97 +0.78
+  - top tokens: ' felt', ' heart', '.', ' worried', ',', ' was', ' and', ' a'
+  - bottom tokens: ' was', '.', ' and', ' It', ',', '.\n\n', ' that', ' everything'
+  - high:  alone. You could have been hurt. You made[[ me]] very worried / . You could have been hurt. You made me[[ very]] worried."  
+  - low:  play on the slide, but Lily couldn't stop[[ thinking]] about the /  couldn't remember why, but he was so happy[[ that]] he wanted
+- **n7527** push +0.204 (other stories +0.106); corpus median -0.00, p3 -0.37, p97 +1.53
+  - top tokens: ' to', "'t", ' never', '.', ' she', '.\n\n', ' could', ' was'
+  - bottom tokens: ' you', '2', ' believe', '9', '8', '7', '0', ' at'
+  - high:  as she bolted down the tunnel. She didn[['t]] know where /  as she bolted down the tunnel. She didn[['t]] know where
+  - low:  like to play?" she asked.  Sam couldn't[[ believe]] it! /  was a big, shiny prize. He couldn't[[ believe]] it.
+- **n11109** push +0.091 (other stories +0.017); corpus median -0.06, p3 -0.48, p97 +0.49
+  - top tokens: ',', ' to', ' and', ' stress', ' that', ' heart', ' he', ' of'
+  - bottom tokens: ' of', ':', ' production', '2', ' to', ' was', 'av', ' that'
+  - high:  WP, Smith RP. The relationship among exercise,[[ stress]] /  grow up in poor families are more likely to experience[[ stress]], anxiety
+  - low:  clinical experience, or traditional usage as cited in each[[ article]]. The / appi G, Facchinetti F, G[[enn]]azzani
+- **n10272** push +0.029 (other stories -0.013); corpus median +0.02, p3 -0.50, p97 +0.47
+  - top tokens: ' ran', ' and', ' to', ',', ' he', ' a', ' man', ' They'
+  - bottom tokens: ' hugged', ' hug', ' her', ' hugs', ' and', ' a', ' big', ' other'
+  - high:  The bright sun shone down on them as the[[ lion]] and the / Sara loves her dog, Max.[[ Max]] is big
+  - low:  in general. Be open with your hugs, p[[ats]] on the /  read it very fast!"   They both smiled and[[ hugged]]. Daisy
+- **n5847** push +0.042 (other stories +0.008); corpus median -0.05, p3 -0.54, p97 +0.82
+  - top tokens: ',', ' and', ' his', ' pain', ' of', ' was', ' cr', ' felt'
+  - bottom tokens: '.', ' the', ' J', ' by', '-', ' in', ' your', '/'
+  - high: "Are you okay, Lily?" Ben asked.  [["My]] hand hurts /  a haze of fear and adrenaline. His leg th[[rob]]bed with
+  - low: menorrhea: A relaxation therapy program. Int[[ J]] Gyna /  Disease and Bladder Control (cont.) In this[[ Article]] What
+- **n6561** push +0.044 (other stories +0.012); corpus median -0.01, p3 -0.41, p97 +0.54
+  - top tokens: ' will', ':', '!', ' to', ' nodded', ' looked', ' "', '.'
+  - bottom tokens: '.', ' "', ' He', '"', ' Antoine', '!', ',', ' I'
+  - high:  practice, you will get better!  user: I[['ll]] try to /  different today... A spring cleaning vlog with Bec[[!]] Clearing
+  - low:  that she had no idea which way they had gone[[.]] Every tunnel /  Max!" Sara says. "You made me fall[[!]] You are
+- **n48** push +0.043 (other stories +0.015); corpus median -0.07, p3 -0.54, p97 +0.36
+  - top tokens: ' He', ' and', ' tried', '.', ' She', ' to', ' said', "'t"
+  - bottom tokens: ' and', ' to', ',', ' a', ' in', ' eyes', ' staring', ' stared'
+  - high: ?"  Lily and Sam looked at each other and[[ lowered]] their heads /  You are a mean dog!"  Max feels embarrassed.[[ He]] did not
+  - low:  stir well. Cover tightly, and store in a[[ dark]] place at /  darkness and buried in unmarked graves. Others refused[[ to]] testify in
+- **n8415** push +0.066 (other stories +0.039); corpus median +0.05, p3 -1.58, p97 +0.55
+  - top tokens: '.', '\n\n', ' as', 'ic', "'t", ',', ' know', ' first'
+  - bottom tokens: '.\n\n', '.', ',', '."\n\n', ',"', ' in', ' you', ' the'
+  - high: . The story must have a clear beginning, middle[[,]] and end /  saying was true. He was shocked and didn't[[ know]] how to
+  - low:  he wondered how much longer he could last[[.  ]]But despite / , smiling. "I love you[[."  ]]"I love
+- **n4352** push +0.056 (other stories +0.030); corpus median -0.03, p3 -0.45, p97 +0.91
+  - top tokens: ' heard', ' a', ' hear', ',', '.', ' and', ' hears', ' noise'
+  - bottom tokens: ' saw', ' see', '.', ' of', ',', ' gl', ' spotted', '2'
+  - high: :  1. Use music and sound: Adding music[[,]] sound effects /  and interesting throughout each episode:  1. Use music[[ and]] sound:
+  - low: , Timmy the rabbit. Timmy had smelled[[ the]] delicious ac /  named Jay. He lived in a tree near a[[ glo]]omy lake
+- **n8177** push +0.043 (other stories +0.017); corpus median +0.01, p3 -0.78, p97 +1.50
+  - top tokens: ',', ' as', ' I', ' around', ' but', ' As', ' and', ' of'
+  - bottom tokens: ' and', ' I', '.', ',', 'So', 'Let', '."\n\n', ' "'
+  - high: ly. Is my thesis statement concise and clear?[[ Did]] I follow /  as he tried to take a step. "Where[[ am]] I going
+  - low:  would be an amazing view. The son agreed and[[ so]] they headed /  there would be an amazing view. The son agreed[[ and]] so they
+
+## surprised
+
+- counts: specific 1736 (838 push +), constant 6656 (2874 +), noise 3896
+- share of the mean push: signal +0.98, specific +0.07, constant +0.91, noise +0.02
+- d' (own vs other held-out stories): signal +1.65, specific +2.16, constant +0.86, noise +1.50, all +1.87
+- noise sum: mean -0.082, sd 0.266 (independent: 0.183)
+
+### surprised: strongest constant neurons
+
+- **n7403** push -0.245 (other stories -0.239); corpus median +1.30, p3 -0.36, p97 +3.44
+  - top tokens: '6', '9', '1', '-', '5', '0', ' Frank', ' for'
+  - bottom tokens: ' your', ' to', ' of', ':', ' ', ' and', ' on', ' Clinical'
+  - high: 78-90-279-[[1]]92 / - λεξικός, Henry[[ George]] Lidd
+  - low: oni E, Nappi G, Facchin[[etti]] F, /  wrinkles. A study published in the American Journal of[[ Clinical]] Nutrition found
+- **n7555** push -0.070 (other stories -0.062); corpus median +0.02, p3 -1.07, p97 +2.39
+  - top tokens: ',', '.', ' is', ' was', '.\n', ' the', ' have', ' in'
+  - bottom tokens: ',"', ' of', ',”', ' such', ' the', ' and', ' it', ','
+  - high: , and the family purse.”7[[ Whatever]] their secret / Unless you’ve buried your head in the sand[[ or]] just returned
+  - low:  picture of these structures and be able to characterize them[[,"]] Schroers /  their individual lives. Tom may have felt a special[[ clos]]eness to
+- **n10958** push +0.067 (other stories +0.070); corpus median -0.74, p3 -3.97, p97 +2.80
+  - top tokens: ',', ' ', ' the', ' Tim', '.\n\n', '2', ' each', ' her'
+  - bottom tokens: ',', ' and', '6', ' the', '5', ' of', ' (', '.'
+  - high:  go explore and find something else fun to do![[â]]€ So /  are pretty."  Mom was not glad. She said[[,]] "No
+  - low: www.ncbi.nlm.nih.gov/pmc/articles/PMC[[6]]41 /  pleasure rather than business. The average plane departing K[[I]]WA carried
+- **n10729** push +0.061 (other stories +0.066); corpus median -0.66, p3 -3.22, p97 +0.32
+  - top tokens: ',', ' "', ' “', '"', ' you', ' /', '�', ' for'
+  - bottom tokens: ' it', ' that', ' you', ' can', ' It', "'t", ' they', ' the'
+  - high:  truck, grandpa," Ben says.  "Sorry[[,]] buddy, /  smiled and nodded. "That's very kind of[[ you]], dear
+  - low:  podcast topic  to attract the right audience, it[[’s]] important to /  a podcast topic  to attract the right audience,[[ it]]’s important
+- **n6330** push +0.060 (other stories +0.054); corpus median +0.03, p3 -2.42, p97 +2.05
+  - top tokens: ',', ' to', ' that', ' with', ' it', ' there', ' and', ' had'
+  - bottom tokens: ' to', ',', ' the', ' more', ' These', ' and', ' as', ' a'
+  - high:  just a bird singing! Emily was no longer frightened[[,]] she was /  Mommy!"  His mom smiled and said, "[[That]]'s great
+  - low:  told you to eat your carrots for good vision[[,]] she wasn /  for the really praiseworthy actions. Despite your[[ best]] intentions to
+- **n10854** push -0.059 (other stories -0.062); corpus median +0.42, p3 -1.21, p97 +2.05
+  - top tokens: ',', ' of', '.\n\n', ' and', '.', ':', ' in', ' add'
+  - bottom tokens: ' the', ' of', ' to', ' an', ' a', ' her', ' their', ' and'
+  - high: 's a nice helmet. Where did you find it[[?"]] her mom /  to God's Mother, Andrea Maria [= Lady Mary[[];]] to bread
+  - low:  and Max are twins. They like to play with[[ their]] toys in / ed Command and Service Module (CSM) and[[ the]] Lunar Module
+- **n10162** push -0.059 (other stories -0.058); corpus median +0.70, p3 +0.27, p97 +1.25
+  - top tokens: ' and', '.', '|\n', '|', 'assistant', ' Bel', 'bad', ' Mac'
+  - bottom tokens: ' Obst', ' A', '3', 'ell', 'sf', '://', '2', ':'
+  - high: The Leading eBooks Store[[ Online]] for /  Grohol, Psy.D. on 21[[ Feb]] 2
+  - low:  unbiased health information from our partner university faculty. Net[[Well]]ness is /  relatively consistent scientific data showing a substantial health benefit. [[2]] Stars Contr
+- **n5804** push -0.058 (other stories -0.059); corpus median -1.44, p3 -1.90, p97 +0.28
+  - top tokens: ':', '.', ' ', '8', '7', '2', '6', '5'
+  - bottom tokens: '.', ' essential', ' experience', ' of', ' effort', ' option', ' There', ' content'
+  - high: 11. Thomason PR, Fisher BL,[[ Carpenter]] PA, /  Marello 1998). -[[ Atkins]], B
+  - low: 5) If you would like to reuse any content[[ from]] New Scientist /  releases: Cite this work Researchers should cite[[ this]] work as
+- **n3693** push +0.057 (other stories +0.034); corpus median +0.02, p3 -1.11, p97 +1.89
+  - top tokens: ' play', ' to', ' played', ' playing', ' she', ' he', ' They', ' and'
+  - bottom tokens: ' the', ' put', "'t", ' and', ' to', ' he', ' it', ' she'
+  - high: . She told Max that he shouldn't have been[[ playing]] so close /  was only three years old.   David liked to[[ play]] on the
+  - low: , surrounded by the wounded and dying. The woman[[ he]] had tried / ," Anna says. She runs and spreads her arms[[ like]] wings.
+- **n128** push +0.053 (other stories +0.066); corpus median +0.06, p3 -2.62, p97 +1.43
+  - top tokens: ' the', ' of', ' ', ',', '1', 'in', '|', '0'
+  - bottom tokens: ' ', ',', ' cup', ' and', '1', '.', '-', ' sliced'
+  - high: 9). Prague: Academia / The Hague,[[ Paris]]: M /  easily.   4. Number of Teams: The[[ SAN]]FL has
+  - low:  needed a cast.  Lily was sad because she[[ couldn]]'t play /  ball. They wanted to eat it, but it[[ was]] too high
+
+### surprised: strongest specific neurons
+
+- **n9964** push -0.234 (other stories -0.356); corpus median +1.55, p3 -5.16, p97 +7.19
+  - top tokens: '-', '5', '1', '2', '.\n', '7', '6', ' '
+  - bottom tokens: ' ', ' the', ' and', ',', ' to', ' type', ' There', ' your'
+  - high: 978-1-4051[[-]]38 /  ISBN 978-0-19[[-]]92
+  - low: rito bowl contains approximately 280 calories,[[ ]]25 / a hash contains approximately 220 calories,[[ ]]40
+- **n4311** push +0.118 (other stories +0.029); corpus median +0.00, p3 -0.78, p97 +0.78
+  - top tokens: '.\n\n', ' and', ' smiled', '.', ' looked', '?"\n\n', ' up', ' then'
+  - bottom tokens: ' felt', '.\n\n', ' a', '.', ' with', ' He', ' feel', ' She'
+  - high:  very much.   When it was over, Lily[[ looked]] up at /  that there was nothing he could do.  Henri[[ looked]] up at
+  - low:  as the young man moaned in pain. Antoine[[ felt]] tears prick /  upon a group of children playing tag. Max's[[ eyes]] lit up
+- **n12216** push +0.074 (other stories +0.004); corpus median -0.01, p3 -1.03, p97 +0.45
+  - top tokens: ' and', ' she', ' to', ',', ' read', ' he', ' of', ' breath'
+  - bottom tokens: "'t", ' could', ' in', ' believe', ' still', ' not', '.', '!'
+  - high: 0-15-2013 [[Copyright]] ©  / Source: Eurekalert & othersLast reviewed[[:]] By John
+  - low:  up for adoption when they were born. Tom couldn[['t]] understand why / user: That was incredibly suspenseful! I can[['t]] wait to
+- **n9184** push +0.078 (other stories +0.035); corpus median -0.00, p3 -0.55, p97 +0.38
+  - top tokens: '.\n\n', '."\n\n', 'The', '!"\n\n', ' \n\n', 'assistant', '!"', '."'
+  - bottom tokens: '.', '.\n\n', ' "', '"', '."\n\n', 'œ', 'Oh', ','
+  - high:  to empty it through a stoma. Medically[[ Reviewed]] by a /  via youtube.com Love this article? Share it[[ with]] your friends
+  - low:  saw that it was still broken. He said,[[ "]]I think /  down, blocking off the tunnel she had just fled[[.  ]]But Lena
+- **n7913** push +0.041 (other stories +0.005); corpus median -0.04, p3 -0.48, p97 +1.09
+  - top tokens: ' was', '.', ' very', ' She', ' He', ' and', '.\n\n', 'my'
+  - bottom tokens: ' what', ' know', ' where', ' idea', ' no', "'t", ' to', ' see'
+  - high:  a bit selfish of you, Max." Max was[[ very]] sad to /  was a bit selfish of you, Max." Max[[ was]] very sad
+  - low:  noise startled her. She looked around to try to[[ find]] out what /  Max was very sad to hear this and didn't[[ understand]] why her
+- **n8302** push +0.039 (other stories +0.012); corpus median -0.03, p3 -0.58, p97 +1.09
+  - top tokens: ' It', ' was', '.', ' it', ' and', ' He', ',', ' but'
+  - bottom tokens: ' could', ' to', ' see', ' saw', ' feel', ',', ' in', ' and'
+  - high:  Ben says. "The dog might bite you.[[ It]] might not / Suddenly, she saw a man walking towards her.[[ He]] looked very
+  - low:  its unrelenting heat. Looking up, I[[ could]] see the / , displaying every shade of blue imaginable. I could[[ see]] its r
+- **n3893** push -0.048 (other stories -0.074); corpus median -0.05, p3 -2.27, p97 +1.13
+  - top tokens: ',', ' the', ' Tim', ' ch', ' ', '0', ' couldn', ' didn'
+  - bottom tokens: '.\n\n', ' -', ' there', ',', '.', ' is', '-', ' There'
+  - high:  didn't understand what "pray" meant, so[[ Tim]]my explained /  jar?" His mom looked at the jar and asked[[,]] "Where
+  - low:  enjoy doing to relax or de-stress?   [[ -]] What is / 22, 1862. Although[[ there]] were no
+- **n6513** push +0.040 (other stories +0.014); corpus median +0.04, p3 -1.31, p97 +0.46
+  - top tokens: '.', '.\n\n', 'auto', 'The', ' heart', 'Just', '!', ' was'
+  - bottom tokens: ' a', ' and', ' saw', ' heard', ',', '.', ' to', ' there'
+  - high:  collaboration," said Anna Kerttula de E[[ch]]ave, / " to his late wife and friend, Judith Me[[ach]]am Hunter
+  - low:  is it, Tom?" she asks.  Tom gives[[ her]] the box / 's a surprise, you'll see!" She handed[[ Sam]] a big
+- **n2707** push +0.023 (other stories -0.002); corpus median +0.00, p3 -0.53, p97 +0.62
+  - top tokens: ' She', ' smiled', ' to', ' with', ' and', ' hands', ' He', ' she'
+  - bottom tokens: '.', ',', ' and', ' was', ' his', "'t", ' not', ' to'
+  - high:  and hippo.  He yawned and rubbed[[ his]] eyes. /  elephant and hippo.  He yawned and[[ rubbed]] his eyes
+  - low:  dried Frannie's tears and looked around the room[[ until]] she found /  he could do.  Henri looked up at him[[,]] his breath
+- **n9737** push +0.050 (other stories +0.030); corpus median +0.14, p3 -1.39, p97 +2.83
+  - top tokens: ' of', '\n', '-', ' Can', ',', ' and', 'compress', ' Henry'
+  - bottom tokens: '.\n', '.', ' ', '5', '-', ',', '3', '9'
+  - high:  to play with them?" Lily replied.  "No,[[ thank]] you, /  with primary dysmenorrhea. J Altern Com[[plement]] Med 
+  - low:  and Mayr, 19[[7]]7, /  and discuss like a professional automobile gross sales particular person[[.]] Based on

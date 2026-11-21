@@ -1,0 +1,1082 @@
+[
+ {
+  "neuron": 12111,
+  "emotion": "proud",
+  "group": "random",
+  "id": "N000"
+ },
+ {
+  "neuron": 1171,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N001"
+ },
+ {
+  "neuron": 11360,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N002"
+ },
+ {
+  "neuron": 6561,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N003"
+ },
+ {
+  "neuron": 2079,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N004"
+ },
+ {
+  "neuron": 10047,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N005"
+ },
+ {
+  "neuron": 8345,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N006"
+ },
+ {
+  "neuron": 6040,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N007"
+ },
+ {
+  "neuron": 3145,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N008"
+ },
+ {
+  "neuron": 1317,
+  "emotion": "proud",
+  "group": "random",
+  "id": "N009"
+ },
+ {
+  "neuron": 11900,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N010"
+ },
+ {
+  "neuron": 3504,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N011"
+ },
+ {
+  "neuron": 12115,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N012"
+ },
+ {
+  "neuron": 722,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N013"
+ },
+ {
+  "neuron": 2354,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N014"
+ },
+ {
+  "neuron": 2245,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N015"
+ },
+ {
+  "neuron": 10623,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N016"
+ },
+ {
+  "neuron": 11555,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N017"
+ },
+ {
+  "neuron": 11975,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N018"
+ },
+ {
+  "neuron": 2741,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N019"
+ },
+ {
+  "neuron": 9355,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N020"
+ },
+ {
+  "neuron": 10934,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N021"
+ },
+ {
+  "neuron": 9525,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N022"
+ },
+ {
+  "neuron": 6248,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N023"
+ },
+ {
+  "neuron": 5192,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N024"
+ },
+ {
+  "neuron": 10378,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N025"
+ },
+ {
+  "neuron": 11502,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N026"
+ },
+ {
+  "neuron": 7032,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N027"
+ },
+ {
+  "neuron": 3693,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N028"
+ },
+ {
+  "neuron": 10197,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N029"
+ },
+ {
+  "neuron": 6526,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N030"
+ },
+ {
+  "neuron": 4372,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N031"
+ },
+ {
+  "neuron": 8247,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N032"
+ },
+ {
+  "neuron": 2170,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N033"
+ },
+ {
+  "neuron": 7349,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N034"
+ },
+ {
+  "neuron": 6418,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N035"
+ },
+ {
+  "neuron": 1216,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N036"
+ },
+ {
+  "neuron": 887,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N037"
+ },
+ {
+  "neuron": 3361,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N038"
+ },
+ {
+  "neuron": 2129,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N039"
+ },
+ {
+  "neuron": 7959,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N040"
+ },
+ {
+  "neuron": 1546,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N041"
+ },
+ {
+  "neuron": 5830,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N042"
+ },
+ {
+  "neuron": 8151,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N043"
+ },
+ {
+  "neuron": 1354,
+  "emotion": "proud",
+  "group": "random",
+  "id": "N044"
+ },
+ {
+  "neuron": 717,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N045"
+ },
+ {
+  "neuron": 2838,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N046"
+ },
+ {
+  "neuron": 1395,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N047"
+ },
+ {
+  "neuron": 2456,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N048"
+ },
+ {
+  "neuron": 6856,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N049"
+ },
+ {
+  "neuron": 4729,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N050"
+ },
+ {
+  "neuron": 10775,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N051"
+ },
+ {
+  "neuron": 2391,
+  "emotion": "afraid",
+  "group": "random",
+  "id": "N052"
+ },
+ {
+  "neuron": 308,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N053"
+ },
+ {
+  "neuron": 7469,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N054"
+ },
+ {
+  "neuron": 4489,
+  "emotion": "afraid",
+  "group": "random",
+  "id": "N055"
+ },
+ {
+  "neuron": 11963,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N056"
+ },
+ {
+  "neuron": 10435,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N057"
+ },
+ {
+  "neuron": 826,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N058"
+ },
+ {
+  "neuron": 2684,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N059"
+ },
+ {
+  "neuron": 1902,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N060"
+ },
+ {
+  "neuron": 1687,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N061"
+ },
+ {
+  "neuron": 11626,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N062"
+ },
+ {
+  "neuron": 10172,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N063"
+ },
+ {
+  "neuron": 5902,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N064"
+ },
+ {
+  "neuron": 4137,
+  "emotion": "proud",
+  "group": "random",
+  "id": "N065"
+ },
+ {
+  "neuron": 3615,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N066"
+ },
+ {
+  "neuron": 2878,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N067"
+ },
+ {
+  "neuron": 1578,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N068"
+ },
+ {
+  "neuron": 8901,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N069"
+ },
+ {
+  "neuron": 1801,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N070"
+ },
+ {
+  "neuron": 7684,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N071"
+ },
+ {
+  "neuron": 11669,
+  "emotion": "sad",
+  "group": "random",
+  "id": "N072"
+ },
+ {
+  "neuron": 3060,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N073"
+ },
+ {
+  "neuron": 11068,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N074"
+ },
+ {
+  "neuron": 3531,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N075"
+ },
+ {
+  "neuron": 9198,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N076"
+ },
+ {
+  "neuron": 5698,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N077"
+ },
+ {
+  "neuron": 9982,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N078"
+ },
+ {
+  "neuron": 10062,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N079"
+ },
+ {
+  "neuron": 10272,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N080"
+ },
+ {
+  "neuron": 11388,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N081"
+ },
+ {
+  "neuron": 8923,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N082"
+ },
+ {
+  "neuron": 11376,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N083"
+ },
+ {
+  "neuron": 10627,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N084"
+ },
+ {
+  "neuron": 3068,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N085"
+ },
+ {
+  "neuron": 3220,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N086"
+ },
+ {
+  "neuron": 11562,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N087"
+ },
+ {
+  "neuron": 3470,
+  "emotion": "afraid",
+  "group": "random",
+  "id": "N088"
+ },
+ {
+  "neuron": 7093,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N089"
+ },
+ {
+  "neuron": 1179,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N090"
+ },
+ {
+  "neuron": 7015,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N091"
+ },
+ {
+  "neuron": 6305,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N092"
+ },
+ {
+  "neuron": 8960,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N093"
+ },
+ {
+  "neuron": 6191,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N094"
+ },
+ {
+  "neuron": 5762,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N095"
+ },
+ {
+  "neuron": 3751,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N096"
+ },
+ {
+  "neuron": 10440,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N097"
+ },
+ {
+  "neuron": 8384,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N098"
+ },
+ {
+  "neuron": 1524,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N099"
+ },
+ {
+  "neuron": 10598,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N100"
+ },
+ {
+  "neuron": 4891,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N101"
+ },
+ {
+  "neuron": 2061,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N102"
+ },
+ {
+  "neuron": 11902,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N103"
+ },
+ {
+  "neuron": 10159,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N104"
+ },
+ {
+  "neuron": 7252,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N105"
+ },
+ {
+  "neuron": 2248,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N106"
+ },
+ {
+  "neuron": 9131,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N107"
+ },
+ {
+  "neuron": 11092,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N108"
+ },
+ {
+  "neuron": 3734,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N109"
+ },
+ {
+  "neuron": 6389,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N110"
+ },
+ {
+  "neuron": 3543,
+  "emotion": "sad",
+  "group": "random",
+  "id": "N111"
+ },
+ {
+  "neuron": 7569,
+  "emotion": "afraid",
+  "group": "random",
+  "id": "N112"
+ },
+ {
+  "neuron": 7751,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N113"
+ },
+ {
+  "neuron": 7627,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N114"
+ },
+ {
+  "neuron": 6865,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N115"
+ },
+ {
+  "neuron": 5659,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N116"
+ },
+ {
+  "neuron": 2115,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N117"
+ },
+ {
+  "neuron": 4296,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N118"
+ },
+ {
+  "neuron": 11713,
+  "emotion": "happy",
+  "group": "random",
+  "id": "N119"
+ },
+ {
+  "neuron": 5632,
+  "emotion": "proud",
+  "group": "random",
+  "id": "N120"
+ },
+ {
+  "neuron": 10311,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N121"
+ },
+ {
+  "neuron": 1053,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N122"
+ },
+ {
+  "neuron": 8375,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N123"
+ },
+ {
+  "neuron": 1893,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N124"
+ },
+ {
+  "neuron": 3365,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N125"
+ },
+ {
+  "neuron": 3226,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N126"
+ },
+ {
+  "neuron": 3898,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N127"
+ },
+ {
+  "neuron": 12075,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N128"
+ },
+ {
+  "neuron": 2324,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N129"
+ },
+ {
+  "neuron": 8339,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N130"
+ },
+ {
+  "neuron": 525,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N131"
+ },
+ {
+  "neuron": 6985,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N132"
+ },
+ {
+  "neuron": 8008,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N133"
+ },
+ {
+  "neuron": 8301,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N134"
+ },
+ {
+  "neuron": 7263,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N135"
+ },
+ {
+  "neuron": 7844,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N136"
+ },
+ {
+  "neuron": 7126,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N137"
+ },
+ {
+  "neuron": 10948,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N138"
+ },
+ {
+  "neuron": 3591,
+  "emotion": "sad",
+  "group": "random",
+  "id": "N139"
+ },
+ {
+  "neuron": 1975,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N140"
+ },
+ {
+  "neuron": 11758,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N141"
+ },
+ {
+  "neuron": 11082,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N142"
+ },
+ {
+  "neuron": 399,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N143"
+ },
+ {
+  "neuron": 813,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N144"
+ },
+ {
+  "neuron": 9255,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N145"
+ },
+ {
+  "neuron": 10673,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N146"
+ },
+ {
+  "neuron": 4352,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N147"
+ },
+ {
+  "neuron": 5507,
+  "emotion": "afraid",
+  "group": "random",
+  "id": "N148"
+ },
+ {
+  "neuron": 3178,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N149"
+ },
+ {
+  "neuron": 4583,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N150"
+ },
+ {
+  "neuron": 9553,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N151"
+ },
+ {
+  "neuron": 5881,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N152"
+ },
+ {
+  "neuron": 11460,
+  "emotion": "happy",
+  "group": "random",
+  "id": "N153"
+ },
+ {
+  "neuron": 7838,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N154"
+ },
+ {
+  "neuron": 8307,
+  "emotion": "proud",
+  "group": "both",
+  "id": "N155"
+ },
+ {
+  "neuron": 11485,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N156"
+ },
+ {
+  "neuron": 7993,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N157"
+ },
+ {
+  "neuron": 6676,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N158"
+ },
+ {
+  "neuron": 620,
+  "emotion": "sad",
+  "group": "random",
+  "id": "N159"
+ },
+ {
+  "neuron": 7447,
+  "emotion": "happy",
+  "group": "random",
+  "id": "N160"
+ },
+ {
+  "neuron": 1727,
+  "emotion": "happy",
+  "group": "random",
+  "id": "N161"
+ },
+ {
+  "neuron": 2905,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N162"
+ },
+ {
+  "neuron": 5862,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N163"
+ },
+ {
+  "neuron": 20,
+  "emotion": "happy",
+  "group": "random",
+  "id": "N164"
+ },
+ {
+  "neuron": 1370,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N165"
+ },
+ {
+  "neuron": 5664,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N166"
+ },
+ {
+  "neuron": 1171,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N167"
+ },
+ {
+  "neuron": 11599,
+  "emotion": "sad",
+  "group": "both",
+  "id": "N168"
+ },
+ {
+  "neuron": 5553,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N169"
+ },
+ {
+  "neuron": 11628,
+  "emotion": "afraid",
+  "group": "only_signal",
+  "id": "N170"
+ },
+ {
+  "neuron": 2005,
+  "emotion": "happy",
+  "group": "both",
+  "id": "N171"
+ },
+ {
+  "neuron": 7702,
+  "emotion": "proud",
+  "group": "only_signal",
+  "id": "N172"
+ },
+ {
+  "neuron": 4981,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N173"
+ },
+ {
+  "neuron": 1364,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N174"
+ },
+ {
+  "neuron": 4253,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N175"
+ },
+ {
+  "neuron": 2094,
+  "emotion": "happy",
+  "group": "only_signal",
+  "id": "N176"
+ },
+ {
+  "neuron": 8018,
+  "emotion": "sad",
+  "group": "only_signal",
+  "id": "N177"
+ },
+ {
+  "neuron": 9786,
+  "emotion": "afraid",
+  "group": "both",
+  "id": "N178"
+ },
+ {
+  "neuron": 4944,
+  "emotion": "sad",
+  "group": "random",
+  "id": "N179"
+ }
+]

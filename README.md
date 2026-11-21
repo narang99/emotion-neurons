@@ -44,14 +44,31 @@ Which MLP neurons of Qwen3-8B (layer 25 of 36) write the model's emotion directi
   whether it predicts the next token at its key's hits. `scripts/kv_values.py`, `configs/kv_values_l25.yaml`.
   Add the same read for each emotion's whole write and its sparse set's write: per-neuron values that read as
   noise but a clear combined write would favour a distributed code (Hazy Research, "Stuffing MLPs Full of Facts").
-- [ ] **Swap happy and sad values** (GPU, causal): at layer 25, swap the `W_down` columns of happy's sparse set with
+- [x] **Swap happy and sad values** (done, `experiments/causal_sets.md`: the activation-shift swap and the `W_down` column swap) (GPU, causal): at layer 25, swap the `W_down` columns of happy's sparse set with
   sad's (pair by greedy rank; the sets overlap, so leave shared neurons alone), or inject sad's activation shift
   into happy's set on happy stories. Read out: projections on the emotion vectors at later layers, and the
   continuation the model writes. A flip towards sad means the set's values carry the emotion.
-- [ ] **Tail check**: per-token activations of each sparse set on the stories, to see whether an emotion's shift
+- [x] **Tail check** (done, `experiments/tail_check.md`): per-token activations of each sparse set on the stories, to see whether an emotion's shift
   comes from tokens above p97 / below p3 or from a small move on every token.
-- [ ] Cross-validated held-out (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
-- [ ] Other layers (rerun the pipeline with a new config).
+- [x] **Trace to the input** (done for n3068, `experiments/chain.md`): token -> MLP 0 -> L2 n8663 -> n3068 -> " pride", by an exact
+  source split (`circuits/sources.py`) and a patching scan (`scripts/chain_scan.py`).
+- [x] **Geva on MLP input rows** (done, `experiments/input_rows.md`) (CPU): read `W_gate[n] * g` and `W_up[n] * g` through `W_U` and `W_E`, for traced and random neurons.
+- [x] **More chains** (done for 11109 and 2862, `experiments/chain.md`).
+- [x] A chain for non-lexical hits (n3068 at context hits, `experiments/chain.md`) and an input read of negative firing (`experiments/input_rows.md`).
+- [x] **Directions of the write** (done, `experiments/direction_reports.md`) (`scripts/direction_reports.py`): split each emotion's MLP-25 write into `modes` (the set's
+  tail firings) and `remaining`; logit lens, top tokens and example sentences for main / modes / remaining.
+- [x] **Causal tail test** (done, `experiments/tail_check.md`): clamp set neurons into [p3, p97] against random sets.
+- [x] Cross-validated held-out (done, `experiments/crossval.md`) (5 folds instead of one 20-story split); tuning the shrinkage kappa by cross-validation.
+- [x] Other layers (done: vectors at all 36 layers, `experiments/journey_all.md`; sparse sets at all layers,
+  `experiments/sparse_layers.md`; harvests at layers 0, 2, 8, 12, `experiments/harvest_layers.md`).
+- [x] **Raw activations, no mean removed** (done): which neurons carry the emotion write, and do the rest cancel?
+  - `experiments/signal_noise.md`: noise, offset and emotion-specific neurons; modes of the offset neurons.
+  - `experiments/residual_sets.md`: the signal set that rebuilds the write, and what the rest does.
+  - The per-token versions (`exp/raw_sets`, `exp/raw_pools`) are superseded and kept only at their tags.
+- [ ] **Parked: neurons at about p75.** Neurons that help the direction but sit near p75, not at a pole. What do we do
+  with them: count them as part of the feature, or as a separate kind of contribution?
+- [ ] **Parked: "a feeling was just named" neurons.** Several top writers (48, 2066, 3582) fire after any feeling word
+  (`experiments/stage3_l25.md`). Is the emotion-specific part of the write in the many small terms instead of the top 10?
 
 ## Layout
 

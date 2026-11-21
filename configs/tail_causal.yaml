@@ -1,0 +1,17 @@
+# Causal tail test: clamp sparse-set neurons into [p3, p97] at layer 25, against random sets (GPU, L4).
+#   python scripts/tail_causal.py --config configs/tail_causal.yaml
+run_id: tail_causal
+model: Qwen/Qwen3-8B
+layer: 25
+data:
+  heldout_story_idx: [5]
+  heldout_neutral_idx: [10, 11]
+  split_token: 50
+causal_sets:
+  read_layers: [25, 28, 31, 35]
+  random_sets: 3
+harvest:
+  corpora:
+    - {name: fineweb-edu, path: HuggingFaceFW/fineweb-edu, config: sample-10BT, tokens: 70000}
+    - {name: tinystories, path: roneneldan/TinyStories, tokens: 70000}
+    - {name: ultrachat, path: HuggingFaceH4/ultrachat_200k, split: train_sft, field: messages, tokens: 70000}

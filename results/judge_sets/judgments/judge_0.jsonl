@@ -1,0 +1,45 @@
+{"id": "N000", "theme": "polite thank you and question-opening Did", "emotion_named": 0, "any_emotion": 1, "kind": "syntax"}
+{"id": "N001", "theme": "mixed words after of, the, where", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N002", "theme": "word endings inside split words like colourful", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N003", "theme": "will and ll or d after a subject pronoun", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N004", "theme": "physical strain: burning chest, ragged breath", "emotion_named": 1, "any_emotion": 1, "kind": "body"}
+{"id": "N005", "theme": "want or wanted, and not knowing what to do", "emotion_named": 1, "any_emotion": 1, "kind": "word"}
+{"id": "N006", "theme": "academic citations and web page boilerplate", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N007", "theme": "firefighter rescue from fire or storm danger", "emotion_named": 0, "any_emotion": 1, "kind": "situation"}
+{"id": "N008", "theme": "busy household chores such as laundry and cooking", "emotion_named": 0, "any_emotion": 0, "kind": "situation"}
+{"id": "N009", "theme": "web boilerplate and recipe steps", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N010", "theme": "the verb let: let it go, let it pass", "emotion_named": 1, "any_emotion": 1, "kind": "word"}
+{"id": "N011", "theme": "goodbyes and watching someone leave", "emotion_named": 0, "any_emotion": 2, "kind": "situation"}
+{"id": "N012", "theme": "online platforms, texting and searching online", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N013", "theme": "storing and keeping things: store, kept, held", "emotion_named": 0, "any_emotion": 0, "kind": "word"}
+{"id": "N014", "theme": "medical conditions and tests, with clause breaks", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N015", "theme": "body parts after his or her: head, hand, chest", "emotion_named": 1, "any_emotion": 1, "kind": "body"}
+{"id": "N016", "theme": "a noun introducing a named person; what it was", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N017", "theme": "health risk, screening and early disease detection", "emotion_named": 1, "any_emotion": 1, "kind": "topic"}
+{"id": "N018", "theme": "medication app feature requirements", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N019", "theme": "connectives: that, then, where, why, finally", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N020", "theme": "people and groups in happy or kind contexts", "emotion_named": 1, "any_emotion": 1, "kind": "unclear"}
+{"id": "N021", "theme": "passive and get-verbs in mishaps: got caught, was given", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N022", "theme": "so or too before an adverb of degree", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N023", "theme": "and and clause-joining punctuation", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N024", "theme": "fleeing, exile and escape from danger", "emotion_named": 1, "any_emotion": 1, "kind": "situation"}
+{"id": "N025", "theme": "exceptions: except, apart from, aside from", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N026", "theme": "recipe step numbers before Serve hot; One day, a little", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N027", "theme": "academic research and university institutions", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N028", "theme": "play, read and share verbs", "emotion_named": 0, "any_emotion": 0, "kind": "word"}
+{"id": "N029", "theme": "word fragments inside names and foreign words", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N030", "theme": "as or like with habitual routine, as she always did", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N031", "theme": "pronoun subjects in narration; a few apologies", "emotion_named": 0, "any_emotion": 1, "kind": "syntax"}
+{"id": "N032", "theme": "particle up after a verb: pick up, set up", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N033", "theme": "proper names and citation fragments", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N034", "theme": "digits inside numbers and citation codes", "emotion_named": 0, "any_emotion": 0, "kind": "syntax"}
+{"id": "N035", "theme": "Toys R Us closure and toy market; well-being", "emotion_named": 0, "any_emotion": 0, "kind": "unclear"}
+{"id": "N036", "theme": "cinematography and performing music on stage", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N037", "theme": "formal verification and Java program analysis", "emotion_named": 0, "any_emotion": 0, "kind": "topic"}
+{"id": "N038", "theme": "mixed; a few grey, worried or gone contexts", "emotion_named": 1, "any_emotion": 1, "kind": "unclear"}
+{"id": "N039", "theme": "numeric ranges, even more, heart pounding", "emotion_named": 0, "any_emotion": 1, "kind": "unclear"}
+{"id": "N040", "theme": "telling or sharing news with someone", "emotion_named": 1, "any_emotion": 1, "kind": "word"}
+{"id": "N041", "theme": "not knowing where or how to start", "emotion_named": 1, "any_emotion": 1, "kind": "word"}
+{"id": "N042", "theme": "being stared at or watched while threatened", "emotion_named": 0, "any_emotion": 1, "kind": "situation"}
+{"id": "N043", "theme": "suitable for beginners and skill levels", "emotion_named": 1, "any_emotion": 1, "kind": "word"}
+{"id": "N044", "theme": "superlatives and ordinals: oldest, last, first", "emotion_named": 0, "any_emotion": 1, "kind": "word"}
