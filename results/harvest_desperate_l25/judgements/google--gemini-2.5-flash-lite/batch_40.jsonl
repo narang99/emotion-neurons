@@ -1,0 +1,42 @@
+{"neuron":2823,"pole":"high","cluster":0,"mode":"personal danger, time constraints, and unexpected events","scene_windows":1,"windows":5,"scene":"facing danger and personal problems"}
+{"neuron":2823,"pole":"high","cluster":1,"mode":"identity, manipulation, and hidden motives","scene_windows":0,"windows":5,"scene":"confronting unsettling truths"}
+{"neuron":2823,"pole":"high","cluster":2,"mode":"frustration, anger, and feeling different","scene_windows":0,"windows":5,"scene":"expressing strong emotions"}
+{"neuron":2823,"pole":"high","cluster":3,"mode":"personal opinions, relationships, and everyday life","scene_windows":0,"windows":5,"scene":"casual conversation and reflection"}
+{"neuron":2823,"pole":"low","cluster":0,"mode":"curiosity, observation, and simple actions","scene_windows":0,"windows":5,"scene":"childlike wonder and discovery"}
+{"neuron":2823,"pole":"low","cluster":1,"mode":"positive experiences and sharing with friends","scene_windows":0,"windows":5,"scene":"joyful sharing and friendship"}
+{"neuron":9628,"pole":"high","cluster":0,"mode":"personal desires, actions, and consequences","scene_windows":0,"windows":5,"scene":"personal reflections and actions"}
+{"neuron":9628,"pole":"high","cluster":1,"mode":"medical conditions, research, and specific markers","scene_windows":0,"windows":5,"scene":"medical and scientific information"}
+{"neuron":9628,"pole":"low","cluster":0,"mode":"accomplishment, positive feelings, and sensory experiences","scene_windows":0,"windows":5,"scene":"achieving goals and feeling good"}
+{"neuron":9628,"pole":"low","cluster":1,"mode":"food preparation and ingredients","scene_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":7126,"pole":"high","cluster":0,"mode":"personal experiences, emotions, and actions","scene_windows":0,"windows":5,"scene":"personal reflections and experiences"}
+{"neuron":7126,"pole":"high","cluster":1,"mode":"actions, events, and positive outcomes","scene_windows":0,"windows":5,"scene":"positive actions and events"}
+{"neuron":7126,"pole":"low","cluster":0,"mode":"technical details, configurations, and addressing modes","scene_windows":0,"windows":5,"scene":"technical specifications and details"}
+{"neuron":7126,"pole":"low","cluster":1,"mode":"personal possessions and relationships","scene_windows":0,"windows":5,"scene":"personal items and relationships"}
+{"neuron":7126,"pole":"low","cluster":2,"mode":"exploration, emotions, and physical descriptions","scene_windows":0,"windows":5,"scene":"exploration and emotional states"}
+{"neuron":7126,"pole":"low","cluster":3,"mode":"social policies, economic conditions, and historical context","scene_windows":0,"windows":5,"scene":"historical social and economic context"}
+{"neuron":9839,"pole":"high","cluster":0,"mode":"feelings, sensations, and personal well-being","scene_windows":0,"windows":5,"scene":"experiencing physical sensations"}
+{"neuron":9839,"pole":"high","cluster":1,"mode":"personal qualities, relationships, and identity","scene_windows":0,"windows":5,"scene":"self-perception and relationships"}
+{"neuron":9839,"pole":"high","cluster":2,"mode":"beauty, observation, and sensory experiences","scene_windows":0,"windows":5,"scene":"observing beauty and sensory details"}
+{"neuron":9839,"pole":"low","cluster":0,"mode":"colors, textures, and physical descriptions","scene_windows":0,"windows":5,"scene":"describing colors and textures"}
+{"neuron":9839,"pole":"low","cluster":1,"mode":"actions, commands, and consequences","scene_windows":0,"windows":5,"scene":"actions and commands"}
+{"neuron":9839,"pole":"low","cluster":2,"mode":"power, influence, and personal agency","scene_windows":0,"windows":5,"scene":"struggle for power and agency"}
+{"neuron":9839,"pole":"low","cluster":3,"mode":"personal relationships, regret, and self-reflection","scene_windows":0,"windows":5,"scene":"personal relationships and regret"}
+{"neuron":9839,"pole":"low","cluster":4,"mode":"objects, people, and actions","scene_windows":0,"windows":5,"scene":"objects, people, and actions"}
+{"neuron":5750,"pole":"high","cluster":0,"mode":"personal interactions, emotions, and surprise","scene_windows":0,"windows":5,"scene":"personal interactions and emotions"}
+{"neuron":5750,"pole":"high","cluster":1,"mode":"introduction to characters and settings","scene_windows":0,"windows":5,"scene":"story introductions"}
+{"neuron":5750,"pole":"low","cluster":0,"mode":"discovery, emotions, and personal experiences","scene_windows":0,"windows":5,"scene":"discovery and emotional experiences"}
+{"neuron":5750,"pole":"low","cluster":1,"mode":"planning, execution, and event details","scene_windows":0,"windows":5,"scene":"event planning and details"}
+{"neuron":12006,"pole":"high","cluster":0,"mode":"fear, suspicion, and personal feelings","scene_windows":0,"windows":5,"scene":"fear and suspicion"}
+{"neuron":12006,"pole":"high","cluster":1,"mode":"effort, struggle, and personal transformation","scene_windows":0,"windows":5,"scene":"effort and personal transformation"}
+{"neuron":12006,"pole":"low","cluster":0,"mode":"sensory experiences, special objects, and new beginnings","scene_windows":0,"windows":5,"scene":"sensory experiences and new beginnings"}
+{"neuron":12006,"pole":"low","cluster":1,"mode":"personal growth, relationships, and positive attributes","scene_windows":0,"windows":5,"scene":"personal growth and positive traits"}
+{"neuron":12006,"pole":"low","cluster":2,"mode":"emotions, realization, and physical descriptions","scene_windows":0,"windows":5,"scene":"emotions and realization"}
+{"neuron":7833,"pole":"high","cluster":0,"mode":"emotions, reactions, and personal experiences","scene_windows":0,"windows":5,"scene":"emotions and personal experiences"}
+{"neuron":7833,"pole":"high","cluster":1,"mode":"dates, years, and numerical information","scene_windows":0,"windows":5,"scene":"dates and numerical information"}
+{"neuron":7833,"pole":"low","cluster":0,"mode":"personal well-being, self-reliance, and life experiences","scene_windows":0,"windows":5,"scene":"personal well-being and life"}
+{"neuron":7833,"pole":"low","cluster":1,"mode":"desire, action, and emotional states","scene_windows":0,"windows":5,"scene":"desire and action"}
+{"neuron":3523,"pole":"high","cluster":0,"mode":"activities, enjoyment, and positive interactions","scene_windows":0,"windows":5,"scene":"enjoyable activities and interactions"}
+{"neuron":3523,"pole":"high","cluster":1,"mode":"pride, happiness, and positive relationships","scene_windows":0,"windows":5,"scene":"pride and positive relationships"}
+{"neuron":3523,"pole":"low","cluster":0,"mode":"event planning, technical considerations, and logistics","scene_windows":0,"windows":5,"scene":"event planning and logistics"}
+{"neuron":3523,"pole":"low","cluster":1,"mode":"historical context, dates, and locations","scene_windows":0,"windows":5,"scene":"historical context and dates"}
+{"neuron":3523,"pole":"low","cluster":2,"mode":"physical descriptions, actions, and social interactions","scene_windows":0,"windows":5,"scene":"physical descriptions and interactions"}

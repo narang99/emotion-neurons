@@ -1,0 +1,47 @@
+{"neuron":5006,"pole":"high","cluster":0,"mode":"Tokens in tense, dramatic physical action near windows and streets","scene_windows":1,"windows":5,"scene":"Sudden violent action, crashes, a man contemplating a desperate jump"}
+{"neuron":5006,"pole":"high","cluster":1,"mode":"Quotation-mark fragments inside children's dialogue with mojibake encoding","scene_windows":0,"windows":5,"scene":"Simple children's stories with quoted speech"}
+{"neuron":5006,"pole":"low","cluster":0,"mode":"The infinitive 'to' after 'loved' in simple stories","scene_windows":0,"windows":5,"scene":"Cheerful bedtime-style children's stories about a child's routines"}
+{"neuron":5006,"pole":"low","cluster":1,"mode":"Word-internal fragments in encyclopedic historical or natural-history text","scene_windows":0,"windows":5,"scene":"Neutral historical and encyclopedic exposition"}
+{"neuron":1838,"pole":"high","cluster":0,"mode":"Emotion and desire words ending clauses in mild narrative","scene_windows":0,"windows":5,"scene":"Calm or mildly emotional narration, children's stories and reflections"}
+{"neuron":1838,"pole":"high","cluster":1,"mode":"Sentence-initial 'At' in bleak 'At least...' confessional statements","scene_windows":2,"windows":5,"scene":"Bleak first-person confrontations and despairing reflections"}
+{"neuron":1838,"pole":"low","cluster":0,"mode":"Commas after repeated actions or clauses in simple narratives","scene_windows":0,"windows":5,"scene":"Simple children's stories with repetitive actions"}
+{"neuron":1838,"pole":"low","cluster":1,"mode":"Sentence-final periods before a double space in children's trouble stories","scene_windows":0,"windows":5,"scene":"Children's stories about crying, tears, or mild mishaps"}
+{"neuron":1838,"pole":"low","cluster":2,"mode":"Emotional or pleading tokens such as 'him', 'terrified', 'but'","scene_windows":2,"windows":5,"scene":"Fearful or distressed dialogue and inner monologue"}
+{"neuron":1838,"pole":"low","cluster":3,"mode":"Digits and citation fragments in bibliographic or scholarly text","scene_windows":0,"windows":5,"scene":"Scholarly citations and reference material"}
+{"neuron":5565,"pole":"high","cluster":0,"mode":"Dialogue punctuation and question words in tense conversation","scene_windows":0,"windows":5,"scene":"Casual or tense dialogue between characters"}
+{"neuron":5565,"pole":"high","cluster":1,"mode":"Negation and first-person pronouns in reflective or grief-tinged narration","scene_windows":0,"windows":5,"scene":"Reflective narration about past loss and mood"}
+{"neuron":5565,"pole":"high","cluster":2,"mode":"Subject pronouns and 'said' tags in dialogue attribution","scene_windows":0,"windows":5,"scene":"Ordinary dialogue exchanges in fiction"}
+{"neuron":5565,"pole":"low","cluster":0,"mode":"Tokens in dark, panicked narration about threat and numbness","scene_windows":2,"windows":5,"scene":"Panicked battle, crisis, or eerie threatening scenes"}
+{"neuron":5565,"pole":"low","cluster":1,"mode":"Technical code and security configuration text tokens","scene_windows":0,"windows":5,"scene":"Programming, email security, and technical instructions"}
+{"neuron":1777,"pole":"high","cluster":0,"mode":"'so' intensifier before emotional adjectives in stories","scene_windows":0,"windows":5,"scene":"Happy children's stories with excited characters"}
+{"neuron":1777,"pole":"high","cluster":1,"mode":"Subject pronouns or names starting a happy resolution sentence","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with happy endings"}
+{"neuron":1777,"pole":"high","cluster":2,"mode":"Verbs of laughing and smiling in joyful moments","scene_windows":0,"windows":5,"scene":"Playful, joyful scenes with laughter"}
+{"neuron":1777,"pole":"high","cluster":3,"mode":"Sentence-initial 'You' in intimate or dramatic dialogue","scene_windows":1,"windows":5,"scene":"Dialogue with a devil, Death, or emotional confrontation"}
+{"neuron":1777,"pole":"low","cluster":0,"mode":"Word-initial fragments of verbs in tense, frightened narration","scene_windows":2,"windows":5,"scene":"Tense scenes of threat, fleeing a beast or prank"}
+{"neuron":1777,"pole":"low","cluster":1,"mode":"Subject pronouns and names in playful or sad children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about play and mild conflict"}
+{"neuron":1777,"pole":"low","cluster":2,"mode":"'home', 'go', 'to' in time-to-leave phrases","scene_windows":0,"windows":5,"scene":"Children's stories about going home at day's end"}
+{"neuron":9482,"pole":"high","cluster":0,"mode":"Clause-ending words in emotional, flustered first-person narration","scene_windows":1,"windows":5,"scene":"Frightened or emotional personal narratives"}
+{"neuron":9482,"pole":"high","cluster":1,"mode":"'there' in 'Once upon a time, there was' openings","scene_windows":0,"windows":5,"scene":"Story openings in children's tales"}
+{"neuron":9482,"pole":"low","cluster":0,"mode":"Subject pronouns starting sentences about excited or active characters","scene_windows":0,"windows":5,"scene":"Children's stories of excitement and play"}
+{"neuron":9482,"pole":"low","cluster":1,"mode":"Mixed narrative tokens in reflective or descriptive sentences","scene_windows":0,"windows":5,"scene":"Mixed fiction and essays, some on abuse or flight"}
+{"neuron":9482,"pole":"low","cluster":2,"mode":"Commas and 'that' in clauses of academic qualification","scene_windows":0,"windows":5,"scene":"Medical and scientific review prose"}
+{"neuron":2461,"pole":"high","cluster":0,"mode":"'and' or 'but' linking quick chase or catch actions","scene_windows":1,"windows":5,"scene":"Pursuit, chase, or stealing scenes"}
+{"neuron":2461,"pole":"high","cluster":1,"mode":"Business and news verbs such as expect, conducted, collect","scene_windows":0,"windows":5,"scene":"Business, news, and research reporting"}
+{"neuron":2461,"pole":"low","cluster":0,"mode":"Narrative tokens in cheerful, lighthearted story moments","scene_windows":0,"windows":5,"scene":"Happy or whimsical stories and light social scenes"}
+{"neuron":2461,"pole":"low","cluster":1,"mode":"Sentence-final periods ending happy story segments","scene_windows":0,"windows":5,"scene":"Simple children's stories with happy moods"}
+{"neuron":1488,"pole":"high","cluster":0,"mode":"'happy' as the emotional adjective ending a satisfied clause","scene_windows":0,"windows":5,"scene":"Children's stories with happy resolutions"}
+{"neuron":1488,"pole":"high","cluster":1,"mode":"Sentence-initial 'The' starting a new story beat","scene_windows":0,"windows":5,"scene":"Children's stories with contented endings"}
+{"neuron":1488,"pole":"high","cluster":2,"mode":"Sentence-final periods after fun or happy events","scene_windows":0,"windows":5,"scene":"Playful children's stories about shared fun"}
+{"neuron":1488,"pole":"high","cluster":3,"mode":"Pronouns starting a sentence after a happy moment","scene_windows":0,"windows":5,"scene":"Warm family and friend stories"}
+{"neuron":1488,"pole":"high","cluster":4,"mode":"'was' after a character's pleased or tired feeling","scene_windows":0,"windows":5,"scene":"Children's stories about contentment after play"}
+{"neuron":1488,"pole":"low","cluster":0,"mode":"Pronouns and commas in mildly mischievous or tense actions","scene_windows":0,"windows":5,"scene":"Light comedic scenes and minor conflicts"}
+{"neuron":1488,"pole":"low","cluster":1,"mode":"Opening quotation marks starting spoken lines in stories","scene_windows":0,"windows":5,"scene":"Children's stories with dialogue"}
+{"neuron":10466,"pole":"high","cluster":0,"mode":"Character names and pronouns in 'One day' story beats","scene_windows":0,"windows":5,"scene":"Children's stories about play and discovery"}
+{"neuron":10466,"pole":"high","cluster":1,"mode":"Auxiliary verbs in 'ever seen' or 'ever thought' comparisons","scene_windows":1,"windows":5,"scene":"Intense first-person narration, including a near-fatal moment"}
+{"neuron":10466,"pole":"high","cluster":2,"mode":"Code tokens and program-logic terms like files and directory","scene_windows":0,"windows":5,"scene":"Programming scripts and technical explanations"}
+{"neuron":10466,"pole":"high","cluster":3,"mode":"Technical nouns in scientific or factual sentences","scene_windows":0,"windows":5,"scene":"Scientific and agricultural factual reporting"}
+{"neuron":10466,"pole":"high","cluster":4,"mode":"Opening quotes and short exclamations in dialogue","scene_windows":0,"windows":5,"scene":"Children's dialogue and playful exchanges"}
+{"neuron":10466,"pole":"high","cluster":5,"mode":"'longer', 'long', 'time', 'away' in pleading or final moments","scene_windows":3,"windows":5,"scene":"Pleading, farewells, and final desperate moments"}
+{"neuron":10466,"pole":"high","cluster":6,"mode":"Citation punctuation and initials in reference lists","scene_windows":0,"windows":5,"scene":"Bibliographies and game stat listings"}
+{"neuron":10466,"pole":"low","cluster":0,"mode":"Abstract nouns for dreams, nightmares, and information","scene_windows":0,"windows":5,"scene":"Reflective or memory-focused narration"}
+{"neuron":10466,"pole":"low","cluster":1,"mode":"Transition words like 'then' and commas starting story actions","scene_windows":0,"windows":5,"scene":"Children's stories with simple plot progression"}

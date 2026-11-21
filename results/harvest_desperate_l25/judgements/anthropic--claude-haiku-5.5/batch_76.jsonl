@@ -1,0 +1,54 @@
+{"neuron":6714,"pole":"high","cluster":0,"mode":"\"to\" after motion verbs, introducing a destination noun","scene_windows":0,"windows":5,"scene":"simple children's stories about going places"}
+{"neuron":6714,"pole":"high","cluster":1,"mode":"Subject pronoun or 'girl' starting a clause after a happy event","scene_windows":0,"windows":5,"scene":"children's stories about a girl's happy discoveries"}
+{"neuron":6714,"pole":"high","cluster":2,"mode":"Modal, pronoun, or negation tokens in informal first-person narration","scene_windows":0,"windows":5,"scene":"casual personal narration and reflective prose"}
+{"neuron":6714,"pole":"high","cluster":3,"mode":"Concrete nouns as objects of verbs in simple stories","scene_windows":0,"windows":5,"scene":"children's stories about animals and family"}
+{"neuron":6714,"pole":"low","cluster":0,"mode":"Word fragments inside technical, scientific, or reference text","scene_windows":0,"windows":5,"scene":"encyclopedic, scientific, and citation passages"}
+{"neuron":6714,"pole":"low","cluster":1,"mode":"Mid-sentence words in emotional or tense narration","scene_windows":1,"windows":5,"scene":"tense personal narration and advice-style prose"}
+{"neuron":2422,"pole":"high","cluster":0,"mode":"Pronoun or name starting a new clause after a narrative event","scene_windows":0,"windows":5,"scene":"short children's and simple narrative stories"}
+{"neuron":2422,"pole":"high","cluster":1,"mode":"Past-tense 'ran' describing a character moving quickly","scene_windows":0,"windows":5,"scene":"children's stories of playful running"}
+{"neuron":2422,"pole":"high","cluster":2,"mode":"Food and container nouns (soup, juice, jug) in kitchen contexts","scene_windows":0,"windows":5,"scene":"children's stories about cooking and drinks"}
+{"neuron":2422,"pole":"high","cluster":3,"mode":"Word-piece fragments inside technical or academic terms","scene_windows":0,"windows":5,"scene":"academic, policy, and technical writing"}
+{"neuron":2422,"pole":"high","cluster":4,"mode":"Sentence-ending punctuation in literary, atmospheric prose","scene_windows":0,"windows":5,"scene":"literary scenes with mood and sensory detail"}
+{"neuron":2422,"pole":"low","cluster":0,"mode":"Pronoun 'me' or 'was' in unsettling observational narration","scene_windows":0,"windows":5,"scene":"eerie or uneasy first-person narration"}
+{"neuron":2422,"pole":"low","cluster":1,"mode":"Blank indentation tokens after dramatic action sentences","scene_windows":1,"windows":5,"scene":"tense action scenes with chaotic events"}
+{"neuron":10182,"pole":"high","cluster":0,"mode":"Transition words ('When', 'then') opening a new event clause","scene_windows":0,"windows":5,"scene":"narrative stories introducing a sudden event"}
+{"neuron":10182,"pole":"high","cluster":1,"mode":"'was' or 'she' after 'One day' or 'when' in story openings","scene_windows":0,"windows":5,"scene":"children's stories about a girl at play"}
+{"neuron":10182,"pole":"high","cluster":2,"mode":"Fragments of proper names and religious or classical terms","scene_windows":0,"windows":5,"scene":"biblical, classical, and literary commentary"}
+{"neuron":10182,"pole":"high","cluster":3,"mode":"'and' or names after a character's emotional reaction","scene_windows":0,"windows":5,"scene":"children's stories about feelings and surprises"}
+{"neuron":10182,"pole":"high","cluster":4,"mode":"Sentence-initial 'I' in first-person action narration","scene_windows":2,"windows":5,"scene":"first-person peril and frantic combat or escape"}
+{"neuron":10182,"pole":"low","cluster":0,"mode":"Sentence-end punctuation or whitespace after character actions","scene_windows":0,"windows":5,"scene":"simple children's stories with small actions"}
+{"neuron":10182,"pole":"low","cluster":1,"mode":"'was' after a character's name or noun subject","scene_windows":0,"windows":5,"scene":"simple children's stories about moods and pride"}
+{"neuron":10182,"pole":"low","cluster":2,"mode":"Clause-final adverbs or nouns in simple descriptions","scene_windows":0,"windows":5,"scene":"children's stories about animals and chores"}
+{"neuron":10182,"pole":"low","cluster":3,"mode":"Pronoun subjects starting sentences in narrative","scene_windows":0,"windows":5,"scene":"mixed first and third person narration"}
+{"neuron":506,"pole":"high","cluster":0,"mode":"Subject noun or pronoun starting a sentence after an event","scene_windows":0,"windows":5,"scene":"children's stories with a new character appearing"}
+{"neuron":506,"pole":"high","cluster":1,"mode":"Modal 'can/could' or 'to' in action-oriented narration","scene_windows":1,"windows":5,"scene":"tense action or investigation narration"}
+{"neuron":506,"pole":"low","cluster":0,"mode":"Speech verbs or adverbs right after dialogue","scene_windows":0,"windows":5,"scene":"dialogue scenes with characters speaking"}
+{"neuron":506,"pole":"low","cluster":1,"mode":"'said' after 'smiled and' in children's dialogue","scene_windows":0,"windows":5,"scene":"children's stories with friendly exchanges"}
+{"neuron":10945,"pole":"high","cluster":0,"mode":"Verb 'help' expressing purpose or assistance","scene_windows":0,"windows":5,"scene":"children's stories and educational lesson text"}
+{"neuron":10945,"pole":"high","cluster":1,"mode":"'loved' introducing a character's favourite activity","scene_windows":0,"windows":5,"scene":"children's story openings about characters"}
+{"neuron":10945,"pole":"high","cluster":2,"mode":"'started' beginning an activity in children's stories","scene_windows":0,"windows":5,"scene":"playful children's stories starting activities"}
+{"neuron":10945,"pole":"high","cluster":3,"mode":"Sentence-final periods after playful activity descriptions","scene_windows":0,"windows":5,"scene":"happy children's stories about games"}
+{"neuron":10945,"pole":"high","cluster":4,"mode":"'and' joining two joyful activity verbs","scene_windows":0,"windows":5,"scene":"cheerful children's stories about play"}
+{"neuron":10945,"pole":"high","cluster":5,"mode":"Punctuation closing emotional or dialogue statements","scene_windows":0,"windows":5,"scene":"dialogue with parents, kids, and quarrels"}
+{"neuron":10945,"pole":"high","cluster":6,"mode":"Social fun verbs 'play', 'played', 'laughed' with friends","scene_windows":0,"windows":5,"scene":"children's stories about friends having fun"}
+{"neuron":10945,"pole":"low","cluster":0,"mode":"Pronoun subjects starting a clause after curious actions","scene_windows":0,"windows":5,"scene":"children's stories of mischief and discovery"}
+{"neuron":10945,"pole":"low","cluster":1,"mode":"'decided' introducing a character's choice to act","scene_windows":0,"windows":5,"scene":"children's stories of exploring and adventure"}
+{"neuron":2291,"pole":"high","cluster":0,"mode":"Narrative tokens like 'time', 'he', 'enjoyed' in cheerful events","scene_windows":0,"windows":5,"scene":"light stories about friends and family"}
+{"neuron":2291,"pole":"high","cluster":1,"mode":"'[user]' speaker tags in chatbot dialogue","scene_windows":0,"windows":5,"scene":"assistant-user chat transcripts about advice"}
+{"neuron":2291,"pole":"low","cluster":0,"mode":"Sentence-initial 'He' or 'She' introducing a child character","scene_windows":0,"windows":5,"scene":"simple children's story openings"}
+{"neuron":2291,"pole":"low","cluster":1,"mode":"Numbers and citation fragments in references","scene_windows":0,"windows":5,"scene":"bibliographies, tables, and citations"}
+{"neuron":2291,"pole":"low","cluster":2,"mode":"'day' in the phrase 'One day' opening a story","scene_windows":0,"windows":5,"scene":"children's story openings"}
+{"neuron":2291,"pole":"low","cluster":3,"mode":"'day' or 'together' in repeated routine phrases","scene_windows":0,"windows":5,"scene":"children's stories and reflective routine text"}
+{"neuron":2291,"pole":"low","cluster":4,"mode":"Technology nouns such as apps, pages, and tools","scene_windows":0,"windows":5,"scene":"expository text on technology and business"}
+{"neuron":10356,"pole":"high","cluster":0,"mode":"Sentence-final periods ending advice or list items","scene_windows":0,"windows":5,"scene":"how-to lists and marketing advice"}
+{"neuron":10356,"pole":"high","cluster":1,"mode":"Periods closing a character's happy reaction","scene_windows":0,"windows":5,"scene":"children's stories ending on a moral"}
+{"neuron":10356,"pole":"high","cluster":2,"mode":"'and', 'she', 'he' after a character's feelings","scene_windows":0,"windows":5,"scene":"children's stories about kindness and worry"}
+{"neuron":10356,"pole":"high","cluster":3,"mode":"'said', 'be', 'the' in apologies and reconciliations","scene_windows":0,"windows":5,"scene":"children's stories about friendship and apologies"}
+{"neuron":10356,"pole":"low","cluster":0,"mode":"Verbs like 'stared' and 'said' after a subject","scene_windows":0,"windows":5,"scene":"tense or eerie narration and dialogue"}
+{"neuron":10356,"pole":"low","cluster":1,"mode":"'kept' expressing continued or persistent action","scene_windows":0,"windows":5,"scene":"children's stories of persistence and routine"}
+{"neuron":2179,"pole":"high","cluster":0,"mode":"Word-piece endings of place names in historical text","scene_windows":0,"windows":5,"scene":"military and geographic history passages"}
+{"neuron":2179,"pole":"high","cluster":1,"mode":"Sentence-initial 'And', 'T', or 'but' in tense dialogue","scene_windows":1,"windows":5,"scene":"tense confrontations and historical narration"}
+{"neuron":2179,"pole":"high","cluster":2,"mode":"Character names starting a sentence after an event","scene_windows":0,"windows":5,"scene":"children's stories about discovery and learning"}
+{"neuron":2179,"pole":"high","cluster":3,"mode":"Names as objects of 'thanked', 'told', or 'pushed'","scene_windows":0,"windows":5,"scene":"children's stories about helping and quarrels"}
+{"neuron":2179,"pole":"low","cluster":0,"mode":"'the' before important nouns in historical or crime text","scene_windows":0,"windows":5,"scene":"historical, sci-fi, and crime narration"}
+{"neuron":2179,"pole":"low","cluster":1,"mode":"Apostrophe contraction fragments inside dialogue","scene_windows":0,"windows":5,"scene":"casual dialogue and conversational narration"}

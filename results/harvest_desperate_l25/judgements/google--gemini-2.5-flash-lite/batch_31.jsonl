@@ -1,0 +1,42 @@
+{"neuron":2845,"pole":"high","cluster":0,"mode":"personal reflection on life, choices, and future challenges","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2845,"pole":"high","cluster":1,"mode":"child's desire to help or obtain something","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2845,"pole":"low","cluster":0,"mode":"self-doubt, uncertainty, or questioning identity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2845,"pole":"low","cluster":1,"mode":"negative emotions and difficult situations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5711,"pole":"high","cluster":0,"mode":"pronoun reference to a person or entity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5711,"pole":"high","cluster":1,"mode":"modal verbs expressing possibility or necessity","scene_windows":0,"windows":5,"scene":"technical narration"}
+{"neuron":5711,"pole":"low","cluster":0,"mode":"reducing negative impacts or consumption","scene_windows":0,"windows":5,"scene":"environmental discussion"}
+{"neuron":5711,"pole":"low","cluster":1,"mode":"personal feelings and relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6994,"pole":"high","cluster":0,"mode":"instructions or suggestions for food preparation","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":6994,"pole":"high","cluster":1,"mode":"personal observations and feelings about others","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6994,"pole":"low","cluster":0,"mode":"asking for permission or possibility","scene_windows":0,"windows":5,"scene":"child's dialogue"}
+{"neuron":6994,"pole":"low","cluster":1,"mode":"prepositions indicating origin or location","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6994,"pole":"low","cluster":2,"mode":"observing or interacting with nature","scene_windows":0,"windows":5,"scene":"child's observation"}
+{"neuron":6994,"pole":"low","cluster":3,"mode":"prepositions indicating quantity or part of something","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6967,"pole":"high","cluster":0,"mode":"expressing personal feelings and emotions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6967,"pole":"high","cluster":1,"mode":"modal verbs and pronouns indicating possibility or notice","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6967,"pole":"high","cluster":2,"mode":"actions of trying or experiencing something","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6967,"pole":"low","cluster":0,"mode":"modal verbs and pronouns indicating possession or existence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6967,"pole":"low","cluster":1,"mode":"celestial bodies and their appearance","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10137,"pole":"high","cluster":0,"mode":"pauses or transitions in speech or thought","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10137,"pole":"high","cluster":1,"mode":"interrogative words seeking reasons or explanations","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":10137,"pole":"low","cluster":0,"mode":"adverbs indicating suddenness or change","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10137,"pole":"low","cluster":1,"mode":"programming code snippets and syntax","scene_windows":0,"windows":5,"scene":"technical code"}
+{"neuron":12186,"pole":"high","cluster":0,"mode":"pronouns referring to objects or entities","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":12186,"pole":"high","cluster":1,"mode":"possessive pronouns referring to female individuals","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":12186,"pole":"low","cluster":0,"mode":"body parts and familial relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":12186,"pole":"low","cluster":1,"mode":"possessive pronouns referring to male individuals","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":12186,"pole":"low","cluster":2,"mode":"possessive pronouns referring to male individuals' actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10405,"pole":"high","cluster":0,"mode":"definite articles referring to specific objects or concepts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10405,"pole":"high","cluster":1,"mode":"pronouns and conjunctions indicating actions or states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10405,"pole":"high","cluster":2,"mode":"nouns related to biological processes and functions","scene_windows":0,"windows":5,"scene":"technical narration"}
+{"neuron":10405,"pole":"low","cluster":0,"mode":"conjunctions and adverbs indicating contrast or continuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10405,"pole":"low","cluster":1,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":10405,"pole":"low","cluster":2,"mode":"adverbs indicating direction or change of state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10405,"pole":"low","cluster":3,"mode":"conjunctions and adverbs indicating contrast or addition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9209,"pole":"high","cluster":0,"mode":"pronouns and conjunctions indicating location or connection","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9209,"pole":"high","cluster":1,"mode":"articles and pronouns indicating observation or existence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9209,"pole":"low","cluster":0,"mode":"abbreviations and partial words","scene_windows":0,"windows":5,"scene":"medical narration"}
+{"neuron":9209,"pole":"low","cluster":1,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":9209,"pole":"low","cluster":2,"mode":"adverbs indicating direction or change of state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9209,"pole":"low","cluster":3,"mode":"prepositions and adverbs indicating uncertainty or outcome","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9209,"pole":"low","cluster":4,"mode":"modal verbs and pronouns indicating possibility or action","scene_windows":0,"windows":5,"scene":"neutral narration"}

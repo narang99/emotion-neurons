@@ -1,0 +1,65 @@
+{"neuron":5855,"pole":"high","cluster":0,"mode":"Relative pronouns and determiners in narration about a struggling man's money and fear","scene_windows":2,"windows":5,"scene":"Man facing financial ruin, being followed, pressure to provide"}
+{"neuron":5855,"pole":"high","cluster":1,"mode":"Sentence-initial 'The' starting simple children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about animals and people"}
+{"neuron":5855,"pole":"low","cluster":0,"mode":"Conjunctions and nouns in tense first-person narration about fear and stress","scene_windows":2,"windows":5,"scene":"Tense personal narration, fear, countdown, workplace or social hardship"}
+{"neuron":5855,"pole":"low","cluster":1,"mode":"Sentence-initial 'All' in reflective generalizing statements","scene_windows":0,"windows":5,"scene":"Reflective or philosophical narration about death, speech, and time"}
+{"neuron":8420,"pole":"high","cluster":0,"mode":"Paragraph-break tokens after story-opening sentences in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories transitioning to the next paragraph"}
+{"neuron":8420,"pole":"high","cluster":1,"mode":"Paragraph breaks right before tense, suspenseful narrative beats","scene_windows":1,"windows":5,"scene":"Thriller or suspense scenes with armed threats and tension"}
+{"neuron":8420,"pole":"high","cluster":2,"mode":"Opening quotation marks starting dialogue after emotional beats","scene_windows":1,"windows":5,"scene":"Tense dialogue exchanges between characters in dramatic scenes"}
+{"neuron":8420,"pole":"high","cluster":3,"mode":"Citation and reference punctuation within bibliographic text","scene_windows":0,"windows":5,"scene":"Academic references and footnotes"}
+{"neuron":8420,"pole":"high","cluster":4,"mode":"Discourse connectives such as 'However' and 'Indeed' starting sentences","scene_windows":0,"windows":5,"scene":"Expository and narrative prose with contrastive transitions"}
+{"neuron":8420,"pole":"high","cluster":5,"mode":"Modal verbs in cautious academic or analytical statements","scene_windows":0,"windows":5,"scene":"Technical or scholarly discussion of data and feasibility"}
+{"neuron":8420,"pole":"high","cluster":6,"mode":"Word-initial fragments starting sentences in tense first-person action","scene_windows":1,"windows":5,"scene":"Gritty first-person action and dramatic physical reactions"}
+{"neuron":8420,"pole":"high","cluster":7,"mode":"Sentence-initial pronouns He/She in children's story narration","scene_windows":0,"windows":5,"scene":"Simple children's stories with characters doing small actions"}
+{"neuron":8420,"pole":"high","cluster":8,"mode":"Past-tense action verbs following a subject in tense scenes","scene_windows":0,"windows":5,"scene":"Dramatic narration of characters reacting or moving"}
+{"neuron":8420,"pole":"low","cluster":0,"mode":"Sentence-final periods in recipe and list instructions","scene_windows":0,"windows":5,"scene":"How-to lists, recipes and tips"}
+{"neuron":8420,"pole":"low","cluster":1,"mode":"Negation 'n' of contracted 'don't/can't' in emotional first-person speech","scene_windows":1,"windows":5,"scene":"Emotional or pleading first-person narration"}
+{"neuron":8420,"pole":"low","cluster":2,"mode":"Contractions and commas in simple children's story dialogue","scene_windows":0,"windows":5,"scene":"Children's stories with excited or happy characters"}
+{"neuron":8420,"pole":"low","cluster":3,"mode":"Character names and verbs in dramatic action narration","scene_windows":1,"windows":5,"scene":"Dramatic or confrontational fiction scenes"}
+{"neuron":8420,"pole":"low","cluster":4,"mode":"Sentence-ending periods in dark, suspenseful narration","scene_windows":0,"windows":5,"scene":"Dark fiction and terse narrative summaries"}
+{"neuron":8420,"pole":"low","cluster":5,"mode":"Negation fragments 'n't' in guilt or loss narration","scene_windows":1,"windows":5,"scene":"Reflective narration about loss, guilt, or danger"}
+{"neuron":8420,"pole":"low","cluster":6,"mode":"Family-member nouns like mommy/mom after 'Her' or 'His'","scene_windows":0,"windows":5,"scene":"Children's stories with parents and family routines"}
+{"neuron":8750,"pole":"high","cluster":0,"mode":"Content nouns and punctuation in mid-sentence expository or narrative prose","scene_windows":0,"windows":5,"scene":"Essays, descriptions of history and industry, light narration"}
+{"neuron":8750,"pole":"high","cluster":1,"mode":"Article 'a' after 'there was' in story openings","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":8750,"pole":"low","cluster":0,"mode":"Commas after clauses in simple narrative sentences","scene_windows":0,"windows":5,"scene":"Simple stories and personal anecdotes"}
+{"neuron":8750,"pole":"low","cluster":1,"mode":"Conjunctions 'and/then' linking actions in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories with sequential actions"}
+{"neuron":8750,"pole":"low","cluster":2,"mode":"Proper-name fragments and nouns in encyclopedic or news text","scene_windows":0,"windows":5,"scene":"Historical, news and encyclopedic passages"}
+{"neuron":8750,"pole":"low","cluster":3,"mode":"Emotional adjectives like sad, scared, impatient after 'was'","scene_windows":0,"windows":5,"scene":"Character feeling states in stories and personal narration"}
+{"neuron":5327,"pole":"high","cluster":0,"mode":"Word-piece fragments inside medical and biomedical terms","scene_windows":0,"windows":5,"scene":"Medical and pharmaceutical descriptions"}
+{"neuron":5327,"pole":"high","cluster":1,"mode":"Subject pronouns and 'and' starting clauses in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories with sudden surprises"}
+{"neuron":5327,"pole":"high","cluster":2,"mode":"Contrastive 'but' in clauses describing failed attempts","scene_windows":1,"windows":5,"scene":"Characters trying and failing to act, unsettling moments"}
+{"neuron":5327,"pole":"low","cluster":0,"mode":"Verbs and conjunctions in numbered advice and strategy lists","scene_windows":0,"windows":5,"scene":"Business and management advice lists"}
+{"neuron":5327,"pole":"low","cluster":1,"mode":"Sentence-final periods in short children's story narration","scene_windows":0,"windows":5,"scene":"Simple stories about animals and friends"}
+{"neuron":5327,"pole":"low","cluster":2,"mode":"Particles and verbs in grim or resentful first-person narration","scene_windows":0,"windows":5,"scene":"Bitter reflections on crime, family, and blame"}
+{"neuron":5327,"pole":"low","cluster":3,"mode":"Character name tokens starting sentences in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories with named characters"}
+{"neuron":11427,"pole":"high","cluster":0,"mode":"Connectives and modal verbs in informational advice text","scene_windows":0,"windows":5,"scene":"Practical advice on health, workplace, and skills"}
+{"neuron":11427,"pole":"high","cluster":1,"mode":"Sentence-initial pronouns in happy children's stories","scene_windows":0,"windows":5,"scene":"Cheerful children's stories at the park or home"}
+{"neuron":11427,"pole":"high","cluster":2,"mode":"Recipe-style words and punctuation in ingredient or method lists","scene_windows":0,"windows":5,"scene":"Recipes and food preparation instructions"}
+{"neuron":11427,"pole":"low","cluster":0,"mode":"Pronouns and nouns in narration of hardship and survival","scene_windows":1,"windows":5,"scene":"Survival, addiction recovery, and loss narratives"}
+{"neuron":11427,"pole":"low","cluster":1,"mode":"Conjunctions and 'you' in advice on focus and productivity","scene_windows":0,"windows":5,"scene":"Productivity and self-improvement advice"}
+{"neuron":4092,"pole":"high","cluster":0,"mode":"The adjective 'happy' after 'was so' in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories with characters feeling joy"}
+{"neuron":4092,"pole":"high","cluster":1,"mode":"Motion verbs 'went' and 'go' after emotional or decisive moments","scene_windows":0,"windows":5,"scene":"Characters deciding to move or leave after upset"}
+{"neuron":4092,"pole":"high","cluster":2,"mode":"Closing quotation marks after exclamations or questions in dialogue","scene_windows":1,"windows":5,"scene":"Tense or frantic spoken exchanges in fiction"}
+{"neuron":4092,"pole":"high","cluster":3,"mode":"Digits and symbols inside code, citations, and CSS values","scene_windows":0,"windows":5,"scene":"Code snippets and bibliographic references"}
+{"neuron":4092,"pole":"high","cluster":4,"mode":"Verb 'walked' describing character movement","scene_windows":0,"windows":5,"scene":"Characters walking somewhere in narrative"}
+{"neuron":4092,"pole":"high","cluster":5,"mode":"Speech tags 'said' or 'says' after quoted dialogue","scene_windows":0,"windows":5,"scene":"Light dialogue in children's stories and narration"}
+{"neuron":4092,"pole":"high","cluster":6,"mode":"The verb 'smiled' following a character's speech or action","scene_windows":0,"windows":5,"scene":"Warm family or child interactions"}
+{"neuron":4092,"pole":"high","cluster":7,"mode":"Sentence-initial pronouns after tense or emotional beats","scene_windows":0,"windows":5,"scene":"Dramatic fiction with tense moments and dialogue"}
+{"neuron":4092,"pole":"high","cluster":8,"mode":"Conjunction 'and' or pronoun after positive character actions","scene_windows":0,"windows":5,"scene":"Children's stories with happy resolutions"}
+{"neuron":4092,"pole":"low","cluster":0,"mode":"Sentence-ending periods in children's story openings","scene_windows":0,"windows":5,"scene":"Simple children's stories with adventure starts"}
+{"neuron":4092,"pole":"low","cluster":1,"mode":"Scattered words in reflective or wry narration","scene_windows":0,"windows":5,"scene":"Mild emotional narration and advice"}
+{"neuron":4092,"pole":"low","cluster":2,"mode":"Numerals and name fragments in citations and lists","scene_windows":0,"windows":5,"scene":"Reference lists and historical listings"}
+{"neuron":4092,"pole":"low","cluster":3,"mode":"Code tokens such as brackets, quotes and identifiers","scene_windows":0,"windows":5,"scene":"Programming code examples"}
+{"neuron":6223,"pole":"high","cluster":0,"mode":"User-turn marker tokens starting follow-up questions","scene_windows":0,"windows":5,"scene":"Chat transcripts with follow-up user questions"}
+{"neuron":6223,"pole":"high","cluster":1,"mode":"Sentence-initial 'One' opening the second beat of a story","scene_windows":0,"windows":5,"scene":"Children's story openings and 'One day' transitions"}
+{"neuron":6223,"pole":"high","cluster":2,"mode":"Sentence-initial 'The' after story-ending or action beats","scene_windows":0,"windows":5,"scene":"Children's and fable story endings"}
+{"neuron":6223,"pole":"high","cluster":3,"mode":"Abstract nouns completing descriptive or philosophical phrases","scene_windows":0,"windows":5,"scene":"Essays and speculative fiction on cognition and existence"}
+{"neuron":6223,"pole":"high","cluster":4,"mode":"Sentence-final periods closing happy or sad story beats","scene_windows":0,"windows":5,"scene":"Short children's stories ending with a moral or feeling"}
+{"neuron":6223,"pole":"low","cluster":0,"mode":"Determiners and nouns in technical hydrology and statistics prose","scene_windows":0,"windows":5,"scene":"Scientific research writing on watersheds and biomass"}
+{"neuron":6223,"pole":"low","cluster":1,"mode":"First-person pronoun 'I' starting sentences of anguish","scene_windows":1,"windows":5,"scene":"Anguished first-person narration of suffering and torment"}
+{"neuron":6223,"pole":"low","cluster":2,"mode":"Code and markup tokens such as brackets and tags","scene_windows":0,"windows":5,"scene":"Programming and configuration code examples"}
+{"neuron":3307,"pole":"high","cluster":0,"mode":"Verb 'felt' describing bodily or emotional sensations","scene_windows":0,"windows":5,"scene":"First-person and children's narration of sensations"}
+{"neuron":3307,"pole":"high","cluster":1,"mode":"Possessive 'his' after characters' gestures","scene_windows":0,"windows":5,"scene":"Dialogue scenes with a man gesturing or posturing"}
+{"neuron":3307,"pole":"high","cluster":2,"mode":"Sentence-final periods after perception or reaction beats","scene_windows":0,"windows":5,"scene":"Tense-but-calm narration of reactions and dialogue"}
+{"neuron":3307,"pole":"high","cluster":3,"mode":"Speaker nouns or pronouns before 'said' in dialogue","scene_windows":0,"windows":5,"scene":"Dialogue exchanges between characters"}
+{"neuron":3307,"pole":"low","cluster":0,"mode":"Emotion adjectives like scared, happy, anxious after was or sounded","scene_windows":1,"windows":5,"scene":"Children's and personal stories about worry or fear"}
+{"neuron":3307,"pole":"low","cluster":1,"mode":"Gaze verbs (looked/looking) right after a subject, starting a description of looking around","scene_windows":0,"windows":5,"scene":"Children's stories and calm narration of characters looking around"}

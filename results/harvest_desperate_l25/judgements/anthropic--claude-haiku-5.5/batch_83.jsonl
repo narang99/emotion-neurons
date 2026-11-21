@@ -1,0 +1,53 @@
+{"neuron":2843,"pole":"high","cluster":0,"mode":"Character name tokens starting a new subject in simple children's stories","scene_windows":0,"windows":5,"scene":"Calm children's morality stories about rooms, toys, dangers"}
+{"neuron":2843,"pole":"high","cluster":1,"mode":"Random tokens in crude or mixed informal prose, profanity and asides","scene_windows":0,"windows":5,"scene":"Rambling informal chat, crude jokes, mixed web text"}
+{"neuron":2843,"pole":"high","cluster":2,"mode":"Punctuation and quote marks opening or closing dialogue lines","scene_windows":0,"windows":5,"scene":"Dialogue in children's stories and outlaw or lab scenes"}
+{"neuron":2843,"pole":"low","cluster":0,"mode":"Pronoun or conjunction after a clause introducing a character's inner conflict","scene_windows":2,"windows":5,"scene":"Emotional or grim scenes: suicidal thoughts, fear, farewells"}
+{"neuron":2843,"pole":"low","cluster":1,"mode":"Comma after the stock opening 'Once upon a time'","scene_windows":0,"windows":5,"scene":"Generic children's story openings"}
+{"neuron":4364,"pole":"high","cluster":0,"mode":"Ingredient or object nouns and pronouns inside recipe or instruction steps","scene_windows":0,"windows":5,"scene":"Cooking recipes and food preparation instructions"}
+{"neuron":4364,"pole":"high","cluster":1,"mode":"Nouns naming a discovered or unusual object in narration","scene_windows":0,"windows":5,"scene":"Fantasy and kids' stories, odd discoveries, essays"}
+{"neuron":4364,"pole":"high","cluster":2,"mode":"Pronoun or verb following an animal or child action in narration","scene_windows":0,"windows":5,"scene":"Animal and child encounters in simple stories"}
+{"neuron":4364,"pole":"high","cluster":3,"mode":"Scientific or technical nouns about chemical, biological or physical properties","scene_windows":0,"windows":5,"scene":"Science and health explanatory articles"}
+{"neuron":4364,"pole":"low","cluster":0,"mode":"Emotion adjectives like proud or embarrassed ending a feeling line","scene_windows":0,"windows":5,"scene":"Children's stories about pride, embarrassment, happiness"}
+{"neuron":4364,"pole":"low","cluster":1,"mode":"Mid-sentence verbs and pronouns in mixed narrative and text","scene_windows":0,"windows":5,"scene":"Mixed narration, reflections, and mundane prose"}
+{"neuron":794,"pole":"high","cluster":0,"mode":"Subject pronoun or name starting a new action sentence","scene_windows":0,"windows":5,"scene":"Simple children's stories about gratitude and happiness"}
+{"neuron":794,"pole":"high","cluster":1,"mode":"Body parts or words mid-action in vivid physical description","scene_windows":1,"windows":5,"scene":"Tense action and physical sensory narration"}
+{"neuron":794,"pole":"high","cluster":2,"mode":"Code tokens and syntax inside programming examples","scene_windows":0,"windows":5,"scene":"Code snippets and programming Q&A"}
+{"neuron":794,"pole":"high","cluster":3,"mode":"Question or period ending a confused or emphatic dialogue line","scene_windows":0,"windows":5,"scene":"Dialogue with confusion, disorientation, or insistence"}
+{"neuron":794,"pole":"high","cluster":4,"mode":"Complementizers and modifiers in historical or political prose","scene_windows":0,"windows":5,"scene":"Historical and political encyclopedic passages"}
+{"neuron":794,"pole":"high","cluster":5,"mode":"Word-piece fragments splitting words mid-token","scene_windows":0,"windows":5,"scene":"Mixed news, cooking, and fragmented text"}
+{"neuron":794,"pole":"low","cluster":0,"mode":"Pronoun 'I' starting a line of emotional or grave speech","scene_windows":2,"windows":5,"scene":"Emotional confessions, fear, dying or farewell moments"}
+{"neuron":794,"pole":"low","cluster":1,"mode":"Numeric and punctuation tokens inside citations and product text","scene_windows":0,"windows":5,"scene":"Citations, product listings, technical fragments"}
+{"neuron":794,"pole":"low","cluster":2,"mode":"Object or pronoun completing a personal, tender or wistful clause","scene_windows":0,"windows":5,"scene":"Intimate personal narration and memories"}
+{"neuron":794,"pole":"low","cluster":3,"mode":"Pronoun 'She' starting the main character's sentence","scene_windows":0,"windows":5,"scene":"Opening lines of Lily-style children's stories"}
+{"neuron":8377,"pole":"high","cluster":0,"mode":"Negation 'not' or 'n't' in children's story clauses","scene_windows":0,"windows":5,"scene":"Children's stories about disobedience and consequences"}
+{"neuron":8377,"pole":"high","cluster":1,"mode":"Word-piece fragments inside food and animal name lists","scene_windows":0,"windows":5,"scene":"Recipes, animal facts, and disease lists"}
+{"neuron":8377,"pole":"high","cluster":2,"mode":"Punctuation after exclamations or questions in dialogue","scene_windows":0,"windows":5,"scene":"Heated or surprised dialogue in fiction"}
+{"neuron":8377,"pole":"high","cluster":3,"mode":"Object pronoun or noun after 'without' or 'to' in emotional clause","scene_windows":1,"windows":5,"scene":"Personal reflections on loss, inability, and family"}
+{"neuron":8377,"pole":"high","cluster":4,"mode":"First-person 'I' or 'even' opening a claim or assertion","scene_windows":1,"windows":5,"scene":"Tense confrontations and dialogue with threats or demands"}
+{"neuron":6285,"pole":"high","cluster":0,"mode":"Pronoun 'she' starting a clause after a small happy event","scene_windows":0,"windows":5,"scene":"Gentle children's stories about discoveries and kindness"}
+{"neuron":6285,"pole":"high","cluster":1,"mode":"Sentence-ending period after a character's positive action","scene_windows":0,"windows":5,"scene":"Children's stories with small kind or brave acts"}
+{"neuron":6285,"pole":"high","cluster":2,"mode":"Body part nouns in physical struggle with survival or danger","scene_windows":3,"windows":5,"scene":"Desperate survival, thirst, wounded or threatened characters"}
+{"neuron":6285,"pole":"high","cluster":3,"mode":"Verb 'smiled' after a character's reaction in dialogue","scene_windows":0,"windows":5,"scene":"Happy family and children's story reactions"}
+{"neuron":6285,"pole":"low","cluster":0,"mode":"Conjunction 'and' joining joyful actions in simple stories","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with joyful actions"}
+{"neuron":6285,"pole":"low","cluster":1,"mode":"Verb 'play' or 'played' describing children's playtime","scene_windows":0,"windows":5,"scene":"Children playing together in simple stories"}
+{"neuron":5162,"pole":"high","cluster":0,"mode":"Code tokens and comment markers in programming and tech text","scene_windows":0,"windows":5,"scene":"Code snippets and technical configuration text"}
+{"neuron":5162,"pole":"high","cluster":1,"mode":"Step numbering and conjunctions in recipe instructions","scene_windows":0,"windows":5,"scene":"Recipe steps and cooking instructions"}
+{"neuron":5162,"pole":"high","cluster":2,"mode":"Numbers and named entities in news and historical facts","scene_windows":0,"windows":5,"scene":"News reports and historical encyclopedia entries"}
+{"neuron":5162,"pole":"high","cluster":3,"mode":"Quote or period starting or ending a dialogue turn","scene_windows":0,"windows":5,"scene":"Fiction dialogue with discovery or reassurance"}
+{"neuron":5162,"pole":"low","cluster":0,"mode":"Story-opening or activity words in simple children's narratives","scene_windows":0,"windows":5,"scene":"Simple children's stories about bunnies and village life"}
+{"neuron":5162,"pole":"low","cluster":1,"mode":"Assistant role label starting a turn in chat transcripts","scene_windows":0,"windows":5,"scene":"User-assistant chat exchanges"}
+{"neuron":4780,"pole":"high","cluster":0,"mode":"Proper name tokens inside institutional or program names","scene_windows":0,"windows":5,"scene":"Institutional descriptions, program and organization names"}
+{"neuron":4780,"pole":"high","cluster":1,"mode":"Words completing a personal emotional or dramatic realization","scene_windows":0,"windows":5,"scene":"Personal reflection and dramatic moments"}
+{"neuron":4780,"pole":"high","cluster":2,"mode":"Sentence-final period closing a simple event sentence","scene_windows":0,"windows":5,"scene":"Simple children's stories with short actions"}
+{"neuron":4780,"pole":"low","cluster":0,"mode":"Contrastive 'But' starting a turn of events","scene_windows":0,"windows":5,"scene":"Narratives with setbacks and contrasting turns"}
+{"neuron":4780,"pole":"low","cluster":1,"mode":"Technical and specialized word fragments mid-term","scene_windows":0,"windows":5,"scene":"Chat assistant replies, scientific and political text"}
+{"neuron":4780,"pole":"low","cluster":2,"mode":"Comma after a clause in tense, feverish first-person narration","scene_windows":2,"windows":5,"scene":"Tense first-person peril, drowning, failing to stand"}
+{"neuron":4780,"pole":"low","cluster":3,"mode":"Comma after a physical action in tense narration","scene_windows":1,"windows":5,"scene":"Tense confrontations and physical movements"}
+{"neuron":4780,"pole":"low","cluster":4,"mode":"Comma before an appended clause in expository summaries","scene_windows":0,"windows":5,"scene":"Expository essays and summaries of cultural topics"}
+{"neuron":4780,"pole":"low","cluster":5,"mode":"Opening quotation mark starting a dialogue turn","scene_windows":0,"windows":5,"scene":"Dialogue in tense or awkward conversations"}
+{"neuron":4780,"pole":"low","cluster":6,"mode":"Period ending a bleak or resigned first-person statement","scene_windows":2,"windows":5,"scene":"Isolated survivors and grim resigned monologues"}
+{"neuron":4780,"pole":"low","cluster":7,"mode":"Question mark ending a probing or doubtful line of dialogue","scene_windows":0,"windows":5,"scene":"Conversational questions and suspicion"}
+{"neuron":11626,"pole":"high","cluster":0,"mode":"Speech verb 'said' or 'asked' after a dialogue line","scene_windows":0,"windows":5,"scene":"Dialogue attribution in stories and conversations"}
+{"neuron":11626,"pole":"high","cluster":1,"mode":"Verb 'was' after the 'Once upon a time, there' opening","scene_windows":0,"windows":5,"scene":"Children's story openings"}
+{"neuron":11626,"pole":"low","cluster":0,"mode":"Pronoun or conjunction starting a character's action in narration","scene_windows":0,"windows":5,"scene":"Narration of mundane character actions and reactions"}
+{"neuron":11626,"pole":"low","cluster":1,"mode":"'One' starting the 'One day' story transition","scene_windows":0,"windows":5,"scene":"Children's stories moving to the next event"}

@@ -1,0 +1,50 @@
+{"neuron":10145,"pole":"high","cluster":0,"mode":"narrative stories about children and animals, often with a positive outcome.","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":10145,"pole":"high","cluster":1,"mode":"historical and academic texts, referencing names, dates, and publications.","scene_windows":0,"windows":5,"scene":"historical/academic references"}
+{"neuron":10145,"pole":"low","cluster":0,"mode":"contemplative or uncertain statements, often about the future or existence.","scene_windows":0,"windows":5,"scene":"philosophical musings"}
+{"neuron":10145,"pole":"low","cluster":1,"mode":"requests for specific examples or improvements, often in a list format.","scene_windows":0,"windows":5,"scene":"seeking specific details"}
+{"neuron":10145,"pole":"low","cluster":2,"mode":"dialogue, often between children or characters in a story, using 'said'.","scene_windows":0,"windows":5,"scene":"story dialogue"}
+{"neuron":10145,"pole":"low","cluster":3,"mode":"factual or informational text, referencing sources or specific data.","scene_windows":0,"windows":5,"scene":"factual information"}
+{"neuron":10145,"pole":"low","cluster":4,"mode":"statements about possession or past actions, using 'had' or 'was'.","scene_windows":0,"windows":5,"scene":"past actions/possession"}
+{"neuron":10145,"pole":"low","cluster":5,"mode":"simple narrative interactions, often between friends or family.","scene_windows":0,"windows":5,"scene":"simple interactions"}
+{"neuron":1009,"pole":"high","cluster":0,"mode":"recipes and cooking instructions, listing ingredients and steps.","scene_windows":0,"windows":5,"scene":"cooking instructions"}
+{"neuron":1009,"pole":"high","cluster":1,"mode":"children's stories featuring animals and simple, often surprising, events.","scene_windows":0,"windows":5,"scene":"children's animal stories"}
+{"neuron":1009,"pole":"high","cluster":2,"mode":"children's stories about characters living in various locations.","scene_windows":0,"windows":5,"scene":"children's location stories"}
+{"neuron":1009,"pole":"high","cluster":3,"mode":"dialogue in children's stories, often involving sharing or helping.","scene_windows":0,"windows":5,"scene":"children's story dialogue"}
+{"neuron":1009,"pole":"high","cluster":4,"mode":"children's stories about characters experiencing happiness or excitement.","scene_windows":0,"windows":5,"scene":"children's happy stories"}
+{"neuron":1009,"pole":"high","cluster":5,"mode":"children's stories about kindness, bravery, and friendship.","scene_windows":0,"windows":5,"scene":"children's kindness stories"}
+{"neuron":1009,"pole":"high","cluster":6,"mode":"dialogue in children's stories, often involving agreement or affirmation.","scene_windows":0,"windows":5,"scene":"children's story affirmation"}
+{"neuron":1009,"pole":"high","cluster":7,"mode":"children's stories about characters enjoying outdoor activities.","scene_windows":0,"windows":5,"scene":"children's outdoor stories"}
+{"neuron":1009,"pole":"high","cluster":8,"mode":"narrative sentences, often using 'it' or 'which' to connect clauses.","scene_windows":0,"windows":5,"scene":"narrative connection"}
+{"neuron":1009,"pole":"low","cluster":0,"mode":"technical descriptions of mechanical parts and their functions.","scene_windows":0,"windows":5,"scene":"technical mechanical descriptions"}
+{"neuron":1009,"pole":"low","cluster":1,"mode":"narrative fragments expressing uncertainty, thought, or action.","scene_windows":0,"windows":5,"scene":"narrative uncertainty/action"}
+{"neuron":1009,"pole":"low","cluster":2,"mode":"academic or technical references, often including numbers or codes.","scene_windows":0,"windows":5,"scene":"academic/technical references"}
+{"neuron":1009,"pole":"low","cluster":3,"mode":"technical or programming contexts, often using specific keywords or letters.","scene_windows":0,"windows":5,"scene":"technical/programming context"}
+{"neuron":9526,"pole":"high","cluster":0,"mode":"children's stories with happy endings and themes of friendship.","scene_windows":0,"windows":5,"scene":"children's happy stories"}
+{"neuron":9526,"pole":"high","cluster":1,"mode":"personal narratives or dialogues expressing feelings or opinions.","scene_windows":0,"windows":5,"scene":"personal narratives/opinions"}
+{"neuron":9526,"pole":"low","cluster":0,"mode":"children's stories with positive outcomes and themes of friendship or discovery.","scene_windows":0,"windows":5,"scene":"children's positive stories"}
+{"neuron":9526,"pole":"low","cluster":1,"mode":"requests for more detail or specific information, often in a conversational tone.","scene_windows":0,"windows":5,"scene":"requesting details"}
+{"neuron":10903,"pole":"high","cluster":0,"mode":"narrative descriptions of exploration, discovery, or playful activities.","scene_windows":0,"windows":5,"scene":"exploration and play"}
+{"neuron":10903,"pole":"high","cluster":1,"mode":"children's stories about characters embarking on daily activities or adventures.","scene_windows":0,"windows":5,"scene":"children's daily adventures"}
+{"neuron":10903,"pole":"low","cluster":0,"mode":"narrative fragments expressing fear, anxiety, or uncertainty.","scene_windows":0,"windows":5,"scene":"fear and uncertainty"}
+{"neuron":10903,"pole":"low","cluster":1,"mode":"technical or programming contexts, often using specific keywords or file names.","scene_windows":0,"windows":5,"scene":"technical/programming context"}
+{"neuron":6978,"pole":"high","cluster":0,"mode":"narrative descriptions of observation, suspicion, or hidden knowledge.","scene_windows":0,"windows":5,"scene":"observation and suspicion"}
+{"neuron":6978,"pole":"high","cluster":1,"mode":"literary or academic references, often including titles and authors.","scene_windows":0,"windows":5,"scene":"literary/academic references"}
+{"neuron":6978,"pole":"low","cluster":0,"mode":"children's stories with themes of anxiety, fear, or loss.","scene_windows":0,"windows":5,"scene":"children's anxious stories"}
+{"neuron":6978,"pole":"low","cluster":1,"mode":"narrative descriptions of past events, often involving emotional states.","scene_windows":0,"windows":5,"scene":"past emotional events"}
+{"neuron":6978,"pole":"low","cluster":2,"mode":"dialogue or narrative fragments expressing urgency, threat, or conflict.","scene_windows":0,"windows":5,"scene":"urgency and conflict"}
+{"neuron":6978,"pole":"low","cluster":3,"mode":"narrative fragments expressing obligation, inability, or uncertainty.","scene_windows":0,"windows":5,"scene":"obligation and inability"}
+{"neuron":6978,"pole":"low","cluster":4,"mode":"narrative fragments expressing fear, loss, or a sense of being overwhelmed.","scene_windows":0,"windows":5,"scene":"fear and loss"}
+{"neuron":6978,"pole":"low","cluster":5,"mode":"narrative fragments expressing sadness, empathy, or fear.","scene_windows":0,"windows":5,"scene":"sadness and empathy"}
+{"neuron":3929,"pole":"high","cluster":0,"mode":"narrative descriptions of positive interactions, happiness, and friendship.","scene_windows":0,"windows":5,"scene":"positive interactions and friendship"}
+{"neuron":3929,"pole":"high","cluster":1,"mode":"dialogue or narrative fragments asking 'what' or expressing surprise.","scene_windows":0,"windows":5,"scene":"questions and surprise"}
+{"neuron":3929,"pole":"low","cluster":0,"mode":"narrative descriptions of positive outcomes, friendship, or joy.","scene_windows":0,"windows":5,"scene":"positive outcomes and joy"}
+{"neuron":3929,"pole":"low","cluster":1,"mode":"children's stories about characters who love activities or things.","scene_windows":0,"windows":5,"scene":"children's favorite things"}
+{"neuron":2436,"pole":"high","cluster":0,"mode":"narrative descriptions of waiting, anticipation, or unexpected events.","scene_windows":0,"windows":5,"scene":"waiting and anticipation"}
+{"neuron":2436,"pole":"high","cluster":1,"mode":"narrative fragments expressing emotional states like anger, comfort, or discomfort.","scene_windows":0,"windows":5,"scene":"emotional states"}
+{"neuron":2436,"pole":"low","cluster":0,"mode":"children's stories with themes of play, excitement, or discovery.","scene_windows":0,"windows":5,"scene":"children's play and discovery"}
+{"neuron":2436,"pole":"low","cluster":1,"mode":"technical or scientific descriptions, often related to biology or ecology.","scene_windows":0,"windows":5,"scene":"technical/scientific descriptions"}
+{"neuron":4960,"pole":"high","cluster":0,"mode":"narrative fragments expressing determination, observation, or sensory experience.","scene_windows":0,"windows":5,"scene":"determination and observation"}
+{"neuron":4960,"pole":"high","cluster":1,"mode":"bibliographic references, often including years and page numbers.","scene_windows":0,"windows":5,"scene":"bibliographic references"}
+{"neuron":4960,"pole":"low","cluster":0,"mode":"children's stories with themes of friendship, kindness, and positive goodbyes.","scene_windows":0,"windows":5,"scene":"children's friendship stories"}
+{"neuron":4960,"pole":"low","cluster":1,"mode":"narrative fragments expressing empathy, desire to help, or internal conflict.","scene_windows":0,"windows":5,"scene":"empathy and conflict"}
+{"neuron":4960,"pole":"low","cluster":2,"mode":"requests for more information or suggestions, often in a conversational tone.","scene_windows":0,"windows":5,"scene":"requesting information"}

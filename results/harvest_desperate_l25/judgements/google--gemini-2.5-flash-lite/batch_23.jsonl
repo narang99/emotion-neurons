@@ -1,0 +1,60 @@
+{"neuron":1206,"pole":"high","cluster":0,"mode":"driving action and results for businesses and non-profits","scene_windows":0,"windows":5,"scene":"business growth and engagement"}
+{"neuron":1206,"pole":"high","cluster":1,"mode":"personal observations and interactions, including a sense of being watched","scene_windows":0,"windows":5,"scene":"observing and interacting"}
+{"neuron":1206,"pole":"low","cluster":0,"mode":"consequences, interrogations, and personal growth","scene_windows":0,"windows":5,"scene":"difficult situations and self-reflection"}
+{"neuron":1206,"pole":"low","cluster":1,"mode":"curiosity, discovery, and simple actions","scene_windows":0,"windows":5,"scene":"curiosity and simple discoveries"}
+{"neuron":1206,"pole":"low","cluster":2,"mode":"dialogue, questioning, and statements of capability","scene_windows":0,"windows":5,"scene":"dialogue and questioning"}
+{"neuron":1206,"pole":"low","cluster":3,"mode":"simple actions and observations in children's stories","scene_windows":0,"windows":5,"scene":"children's stories and observations"}
+{"neuron":4413,"pole":"high","cluster":0,"mode":"positive outcomes and character traits in narratives","scene_windows":0,"windows":5,"scene":"positive narrative outcomes"}
+{"neuron":4413,"pole":"high","cluster":1,"mode":"technical and design considerations in various fields","scene_windows":0,"windows":5,"scene":"technical and design aspects"}
+{"neuron":4413,"pole":"low","cluster":0,"mode":"negative emotional responses and difficult actions","scene_windows":0,"windows":5,"scene":"negative emotional responses"}
+{"neuron":4413,"pole":"low","cluster":1,"mode":"product names and specific items","scene_windows":0,"windows":5,"scene":"product names and items"}
+{"neuron":6852,"pole":"high","cluster":0,"mode":"historical places and events","scene_windows":0,"windows":5,"scene":"historical places and events"}
+{"neuron":6852,"pole":"high","cluster":1,"mode":"positive relationships and personal feelings","scene_windows":0,"windows":5,"scene":"positive relationships and feelings"}
+{"neuron":6852,"pole":"low","cluster":0,"mode":"geographical and chemical terms","scene_windows":0,"windows":5,"scene":"geographical and chemical terms"}
+{"neuron":6852,"pole":"low","cluster":1,"mode":"food items and ingredients","scene_windows":0,"windows":5,"scene":"food items and ingredients"}
+{"neuron":6852,"pole":"low","cluster":2,"mode":"narrative actions and descriptions","scene_windows":0,"windows":5,"scene":"narrative actions and descriptions"}
+{"neuron":6852,"pole":"low","cluster":3,"mode":"programming code and technical terms","scene_windows":0,"windows":5,"scene":"programming code and technical terms"}
+{"neuron":8099,"pole":"high","cluster":0,"mode":"ingredients for recipes","scene_windows":0,"windows":5,"scene":"recipe ingredients"}
+{"neuron":8099,"pole":"high","cluster":1,"mode":"medical and academic citations","scene_windows":0,"windows":5,"scene":"medical and academic citations"}
+{"neuron":8099,"pole":"high","cluster":2,"mode":"clarifications and explanations of situations","scene_windows":0,"windows":5,"scene":"clarifications and explanations"}
+{"neuron":8099,"pole":"high","cluster":3,"mode":"choices, actions, and personal descriptions","scene_windows":0,"windows":5,"scene":"choices, actions, and descriptions"}
+{"neuron":8099,"pole":"high","cluster":4,"mode":"personal statements and requests","scene_windows":0,"windows":5,"scene":"personal statements and requests"}
+{"neuron":8099,"pole":"high","cluster":5,"mode":"personal statements and questions","scene_windows":0,"windows":5,"scene":"personal statements and questions"}
+{"neuron":8099,"pole":"high","cluster":6,"mode":"dialogue and simple statements","scene_windows":0,"windows":5,"scene":"dialogue and simple statements"}
+{"neuron":8099,"pole":"low","cluster":0,"mode":"narrative events and states of being","scene_windows":0,"windows":5,"scene":"narrative events and states"}
+{"neuron":8099,"pole":"low","cluster":1,"mode":"character states and simple actions","scene_windows":0,"windows":5,"scene":"character states and actions"}
+{"neuron":8099,"pole":"low","cluster":2,"mode":"medical and biological terms","scene_windows":0,"windows":5,"scene":"medical and biological terms"}
+{"neuron":8099,"pole":"low","cluster":3,"mode":"physical sensations and states","scene_windows":0,"windows":5,"scene":"physical sensations and states"}
+{"neuron":8099,"pole":"low","cluster":4,"mode":"uncertainty, possibility, and conditions","scene_windows":0,"windows":5,"scene":"uncertainty and conditions"}
+{"neuron":8099,"pole":"low","cluster":5,"mode":"dialogue and exclamations","scene_windows":0,"windows":5,"scene":"dialogue and exclamations"}
+{"neuron":2877,"pole":"high","cluster":0,"mode":"positive interactions and simple actions in stories","scene_windows":0,"windows":5,"scene":"positive story interactions"}
+{"neuron":2877,"pole":"high","cluster":1,"mode":"personal connections and positive feelings","scene_windows":0,"windows":5,"scene":"personal connections and feelings"}
+{"neuron":2877,"pole":"high","cluster":2,"mode":"negation and uncertainty in dialogue","scene_windows":0,"windows":5,"scene":"negation and uncertainty"}
+{"neuron":2877,"pole":"low","cluster":0,"mode":"family relationships and requests","scene_windows":0,"windows":5,"scene":"family relationships and requests"}
+{"neuron":2877,"pole":"low","cluster":1,"mode":"dialogue and simple statements","scene_windows":0,"windows":5,"scene":"dialogue and simple statements"}
+{"neuron":2877,"pole":"low","cluster":2,"mode":"childhood interactions and parental guidance","scene_windows":0,"windows":5,"scene":"children playing with parents"}
+{"neuron":2877,"pole":"low","cluster":3,"mode":"children learning lessons from parents","scene_windows":0,"windows":5,"scene":"children learning from parents"}
+{"neuron":2877,"pole":"low","cluster":4,"mode":"children's experiences and parental advice","scene_windows":0,"windows":5,"scene":"children receiving advice"}
+{"neuron":2877,"pole":"low","cluster":5,"mode":"children receiving gifts and praise from parents","scene_windows":0,"windows":5,"scene":"children receiving gifts"}
+{"neuron":2877,"pole":"low","cluster":6,"mode":"children receiving gifts and praise from parents","scene_windows":0,"windows":5,"scene":"children receiving gifts"}
+{"neuron":2877,"pole":"low","cluster":7,"mode":"children receiving gifts and praise from parents","scene_windows":0,"windows":5,"scene":"children receiving gifts"}
+{"neuron":2877,"pole":"low","cluster":8,"mode":"children interacting with parents and pets","scene_windows":0,"windows":5,"scene":"children playing with pets"}
+{"neuron":672,"pole":"high","cluster":0,"mode":"personal well-being and positive life changes","scene_windows":0,"windows":5,"scene":"personal well-being and change"}
+{"neuron":672,"pole":"high","cluster":1,"mode":"dialogue, questions, and acknowledgments","scene_windows":0,"windows":5,"scene":"dialogue and acknowledgments"}
+{"neuron":672,"pole":"high","cluster":2,"mode":"sensory experiences and physical reactions","scene_windows":0,"windows":5,"scene":"sensory experiences and reactions"}
+{"neuron":672,"pole":"low","cluster":0,"mode":"observations and realizations","scene_windows":0,"windows":5,"scene":"observations and realizations"}
+{"neuron":672,"pole":"low","cluster":1,"mode":"sudden events and unexpected occurrences","scene_windows":0,"windows":5,"scene":"sudden events and occurrences"}
+{"neuron":672,"pole":"low","cluster":2,"mode":"narrative events and descriptions","scene_windows":0,"windows":5,"scene":"narrative events and descriptions"}
+{"neuron":672,"pole":"low","cluster":3,"mode":"actions, objects, and simple observations","scene_windows":0,"windows":5,"scene":"actions, objects, and observations"}
+{"neuron":672,"pole":"low","cluster":4,"mode":"children's actions and parental responses","scene_windows":0,"windows":5,"scene":"children's actions and parents"}
+{"neuron":672,"pole":"low","cluster":5,"mode":"children's actions and parental responses","scene_windows":0,"windows":5,"scene":"children's actions and parents"}
+{"neuron":10553,"pole":"high","cluster":0,"mode":"positive interactions and shared experiences","scene_windows":0,"windows":5,"scene":"positive interactions and experiences"}
+{"neuron":10553,"pole":"high","cluster":1,"mode":"standard narrative openings","scene_windows":0,"windows":5,"scene":"standard narrative openings"}
+{"neuron":10553,"pole":"low","cluster":0,"mode":"personal reflections and feelings","scene_windows":0,"windows":5,"scene":"personal reflections and feelings"}
+{"neuron":10553,"pole":"low","cluster":1,"mode":"quantities and timeframes","scene_windows":0,"windows":5,"scene":"quantities and timeframes"}
+{"neuron":537,"pole":"high","cluster":0,"mode":"negative experiences and physical reactions","scene_windows":0,"windows":5,"scene":"negative experiences and reactions"}
+{"neuron":537,"pole":"high","cluster":1,"mode":"personal actions and achievements","scene_windows":0,"windows":5,"scene":"personal actions and achievements"}
+{"neuron":537,"pole":"low","cluster":0,"mode":"regret, judgment, and hypothetical situations","scene_windows":0,"windows":5,"scene":"regret and judgment"}
+{"neuron":537,"pole":"low","cluster":1,"mode":"positive outcomes and actions","scene_windows":0,"windows":5,"scene":"positive outcomes and actions"}
+{"neuron":537,"pole":"low","cluster":2,"mode":"narrative actions and descriptions","scene_windows":0,"windows":5,"scene":"narrative actions and descriptions"}
+{"neuron":537,"pole":"low","cluster":3,"mode":"actions, objects, and simple observations","scene_windows":0,"windows":5,"scene":"actions, objects, and observations"}

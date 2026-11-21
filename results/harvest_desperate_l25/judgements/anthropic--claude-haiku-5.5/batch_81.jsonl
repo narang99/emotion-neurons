@@ -1,0 +1,56 @@
+{"neuron":541,"pole":"high","cluster":0,"mode":"Function word after medical or health claim verbs (reduce, prevent, impact)","scene_windows":0,"windows":5,"scene":"health and nutrition articles"}
+{"neuron":541,"pole":"high","cluster":1,"mode":"Technical tokens in web, code, and news text","scene_windows":0,"windows":5,"scene":"code snippets and news articles"}
+{"neuron":541,"pole":"high","cluster":2,"mode":"Name and punctuation inside bibliographic or historical text","scene_windows":0,"windows":5,"scene":"historical writing and book references"}
+{"neuron":541,"pole":"high","cluster":3,"mode":"Ingredient and preparation words in recipe-style lists","scene_windows":0,"windows":5,"scene":"recipe and food listicles"}
+{"neuron":541,"pole":"high","cluster":4,"mode":"The word 'said' after a character's action in dialogue","scene_windows":0,"windows":5,"scene":"simple children's dialogue stories"}
+{"neuron":541,"pole":"high","cluster":5,"mode":"Concrete nouns or adverbs completing physical scene descriptions","scene_windows":0,"windows":5,"scene":"calm narrative descriptions"}
+{"neuron":541,"pole":"high","cluster":6,"mode":"The word 'was' after a child character's name or pronoun","scene_windows":0,"windows":5,"scene":"simple children's stories"}
+{"neuron":541,"pole":"low","cluster":0,"mode":"Subject pronoun in emotional narration about distress or fear","scene_windows":1,"windows":5,"scene":"sad or frightened personal narratives"}
+{"neuron":541,"pole":"low","cluster":1,"mode":"Code and markup tokens inside programming snippets","scene_windows":0,"windows":5,"scene":"programming and web code"}
+{"neuron":8820,"pole":"high","cluster":0,"mode":"Digits and URL fragments inside citations and code","scene_windows":0,"windows":5,"scene":"reference lists and code samples"}
+{"neuron":8820,"pole":"high","cluster":1,"mode":"Word completing an emotional or evaluative phrase in dialogue","scene_windows":0,"windows":5,"scene":"heated dialogue and inspirational prose"}
+{"neuron":8820,"pole":"high","cluster":2,"mode":"Action or body-reaction word in first-person tense moments","scene_windows":1,"windows":5,"scene":"tense first-person fear and standoffs"}
+{"neuron":8820,"pole":"high","cluster":3,"mode":"Pronoun or name starting a sentence in children's narrative","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":8820,"pole":"low","cluster":0,"mode":"Sentence-initial 'The' in simple children's story narration","scene_windows":0,"windows":5,"scene":"simple fairy-tale style stories"}
+{"neuron":8820,"pole":"low","cluster":1,"mode":"Sentence-final punctuation in simple children's stories","scene_windows":0,"windows":5,"scene":"children's bedtime stories"}
+{"neuron":8820,"pole":"low","cluster":2,"mode":"Comma after 'One day' introducing a story event","scene_windows":0,"windows":5,"scene":"children's story openings"}
+{"neuron":8820,"pole":"low","cluster":3,"mode":"The word 'day' in 'One day' story openings","scene_windows":0,"windows":5,"scene":"children's story openings"}
+{"neuron":8820,"pole":"low","cluster":4,"mode":"Digits and codes inside contact details and ISBN numbers","scene_windows":0,"windows":5,"scene":"contact info and reference lists"}
+{"neuron":8820,"pole":"low","cluster":5,"mode":"Comma or 'if' in reflective first-person clauses","scene_windows":0,"windows":5,"scene":"reflective personal narration"}
+{"neuron":8820,"pole":"low","cluster":6,"mode":"Conjunction 'and' linking marketing advice items","scene_windows":0,"windows":5,"scene":"marketing tips and advice lists"}
+{"neuron":11382,"pole":"high","cluster":0,"mode":"Adverb or noun at a narrative turning point in prose","scene_windows":0,"windows":5,"scene":"reflective fiction and dreams"}
+{"neuron":11382,"pole":"high","cluster":1,"mode":"Blank spacing token at the end of a dialogue line","scene_windows":0,"windows":5,"scene":"dialogue in fiction"}
+{"neuron":11382,"pole":"low","cluster":0,"mode":"Verb or noun completing a simple child action","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":11382,"pole":"low","cluster":1,"mode":"Quotation-mark artifact in children's dialogue","scene_windows":0,"windows":5,"scene":"children's dialogue stories"}
+{"neuron":8537,"pole":"high","cluster":0,"mode":"Function word in cooking or how-to advice phrasing","scene_windows":0,"windows":5,"scene":"recipes and how-to tips"}
+{"neuron":8537,"pole":"high","cluster":1,"mode":"Word inside factual or historical technical description","scene_windows":0,"windows":5,"scene":"encyclopedic and technical text"}
+{"neuron":8537,"pole":"high","cluster":2,"mode":"Line-ending token in song lyrics and poetry","scene_windows":0,"windows":5,"scene":"song lyrics and poems"}
+{"neuron":8537,"pole":"high","cluster":3,"mode":"Comma or pronoun in dialogue-driven fiction","scene_windows":0,"windows":5,"scene":"dialogue fiction and children's play"}
+{"neuron":8537,"pole":"high","cluster":4,"mode":"Blank spacing after a line of dialogue in fiction","scene_windows":1,"windows":5,"scene":"tense dialogue between characters"}
+{"neuron":8537,"pole":"low","cluster":0,"mode":"Pronoun or 'of' in simple narrative sentences","scene_windows":0,"windows":5,"scene":"simple narrative stories"}
+{"neuron":8537,"pole":"low","cluster":1,"mode":"Sentence-ending punctuation closing a story or dialogue","scene_windows":0,"windows":5,"scene":"story endings and dialogue"}
+{"neuron":8830,"pole":"high","cluster":0,"mode":"Possessive pronoun after a verb in children's stories","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":8830,"pole":"high","cluster":1,"mode":"Possessive pronoun modifying body or personal objects","scene_windows":1,"windows":5,"scene":"intense first-person or tearful moments"}
+{"neuron":8830,"pole":"high","cluster":2,"mode":"The word 'the' after 'on' describing physical placement","scene_windows":0,"windows":5,"scene":"action and domestic scenes"}
+{"neuron":8830,"pole":"high","cluster":3,"mode":"Subject pronoun starting a sentence in dialogue scenes","scene_windows":0,"windows":5,"scene":"dialogue fiction"}
+{"neuron":8830,"pole":"high","cluster":4,"mode":"Home location nouns in tense first-person narration","scene_windows":1,"windows":5,"scene":"anxious first-person apartment scenes"}
+{"neuron":8830,"pole":"low","cluster":0,"mode":"Sentence-final period in simple reflective narration","scene_windows":0,"windows":5,"scene":"simple stories and reflections"}
+{"neuron":8830,"pole":"low","cluster":1,"mode":"Opening quotation mark starting a character's speech","scene_windows":0,"windows":5,"scene":"children's dialogue stories"}
+{"neuron":8830,"pole":"low","cluster":2,"mode":"Punctuation or adjective inside descriptive fiction sentences","scene_windows":0,"windows":5,"scene":"descriptive fiction"}
+{"neuron":8830,"pole":"low","cluster":3,"mode":"Noun naming a household object in children's stories","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":2862,"pole":"high","cluster":0,"mode":"Verb 'started/began' marking the start of an action","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":2862,"pole":"high","cluster":1,"mode":"Conjunction or 'was' after a character's reaction","scene_windows":0,"windows":5,"scene":"children's stories with emotional beats"}
+{"neuron":2862,"pole":"high","cluster":2,"mode":"The word 'lot' or 'had' in 'lots of fun' phrases","scene_windows":0,"windows":5,"scene":"cheerful children's stories"}
+{"neuron":2862,"pole":"low","cluster":0,"mode":"Verb or noun after a character's fear or agitation","scene_windows":1,"windows":5,"scene":"frightening or panicked situations"}
+{"neuron":2862,"pole":"low","cluster":1,"mode":"Possessive pronoun in tense or threatening moments","scene_windows":2,"windows":5,"scene":"threatening or panicked physical danger"}
+{"neuron":1615,"pole":"high","cluster":0,"mode":"Comma or period after a character's emotional reaction","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":1615,"pole":"high","cluster":1,"mode":"Blank spacing token at the end of dialogue lines","scene_windows":0,"windows":5,"scene":"dialogue fiction"}
+{"neuron":1615,"pole":"low","cluster":0,"mode":"Adverb or 'for' in brief descriptive clauses","scene_windows":0,"windows":5,"scene":"children's stories and action fiction"}
+{"neuron":1615,"pole":"low","cluster":1,"mode":"Preposition or verb in recipe ingredient suggestions","scene_windows":0,"windows":5,"scene":"recipe and food tips"}
+{"neuron":8931,"pole":"high","cluster":0,"mode":"Conjunction or adverb in suspenseful first-person narration","scene_windows":1,"windows":5,"scene":"suspenseful or confusing personal events"}
+{"neuron":8931,"pole":"high","cluster":1,"mode":"The word 'was' in 'Once upon a time' openings","scene_windows":0,"windows":5,"scene":"children's story openings"}
+{"neuron":8931,"pole":"high","cluster":2,"mode":"The word 'there' in 'Once upon a time' openings","scene_windows":0,"windows":5,"scene":"children's story openings"}
+{"neuron":8931,"pole":"low","cluster":0,"mode":"Furniture or room noun ending a domestic location phrase","scene_windows":0,"windows":5,"scene":"household narration"}
+{"neuron":8931,"pole":"low","cluster":1,"mode":"Company or organization name inside business press releases","scene_windows":0,"windows":5,"scene":"business news and press releases"}
+{"neuron":8931,"pole":"low","cluster":2,"mode":"Sentence-final period after a reflective or dark statement","scene_windows":0,"windows":5,"scene":"reflective and dark narration"}
+{"neuron":8931,"pole":"low","cluster":3,"mode":"Pronoun 'I' or 'We' starting dialogue or self-statement","scene_windows":0,"windows":5,"scene":"dialogue and confessional narration"}

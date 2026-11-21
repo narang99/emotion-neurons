@@ -1,0 +1,39 @@
+{"neuron":6785,"pole":"high","cluster":0,"mode":"Mid-sentence function words and phrase endings in literary fiction","scene_windows":0,"windows":5,"scene":"Literary fiction narration, dialogue, and reflection"}
+{"neuron":6785,"pole":"high","cluster":1,"mode":"Sentence-final punctuation closing moral lessons in children's stories","scene_windows":0,"windows":5,"scene":"Children's morality tales with calm resolutions"}
+{"neuron":6785,"pole":"high","cluster":2,"mode":"Closing quotes and punctuation ending spoken dialogue lines","scene_windows":0,"windows":5,"scene":"Casual or dramatic dialogue exchanges in fiction"}
+{"neuron":6785,"pole":"low","cluster":0,"mode":"Story nouns like adventures, problems, food, treats in children's tales","scene_windows":0,"windows":5,"scene":"Simple children's stories about family and food"}
+{"neuron":6785,"pole":"low","cluster":1,"mode":"The word 'play' after 'loved to' or 'liked to' in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about a character playing"}
+{"neuron":6454,"pole":"high","cluster":0,"mode":"Size adjectives 'big' and 'large' describing objects in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's adventure narratives"}
+{"neuron":6454,"pole":"high","cluster":1,"mode":"Ingredient and list punctuation in recipe and food lists","scene_windows":0,"windows":5,"scene":"Recipe and food listicle text"}
+{"neuron":6454,"pole":"high","cluster":2,"mode":"Nouns for places and objects in descriptive narration","scene_windows":0,"windows":5,"scene":"Descriptive fiction and everyday narration"}
+{"neuron":6454,"pole":"high","cluster":3,"mode":"The word 'to' following want, decided, or went in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about wanting or going somewhere"}
+{"neuron":6454,"pole":"low","cluster":0,"mode":"Modal and auxiliary verbs like wanted, was, can in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about feelings and play"}
+{"neuron":6454,"pole":"low","cluster":1,"mode":"Verbs and prepositions in expository text about health and society","scene_windows":0,"windows":5,"scene":"Expository essays on health, technology, and society"}
+{"neuron":6454,"pole":"low","cluster":2,"mode":"The verb 'had' or 'ate' after characters' fun activities","scene_windows":0,"windows":5,"scene":"Children's stories about picnics and play"}
+{"neuron":6454,"pole":"low","cluster":3,"mode":"Ingredient and seasoning nouns in recipe descriptions","scene_windows":0,"windows":5,"scene":"Recipe and cooking ingredient lists"}
+{"neuron":6454,"pole":"low","cluster":4,"mode":"Digits and name fragments inside historical and reference text","scene_windows":0,"windows":5,"scene":"Historical and reference citations"}
+{"neuron":930,"pole":"low","cluster":0,"mode":"Narrative verbs and conjunctions in first-person prose","scene_windows":0,"windows":5,"scene":"Personal narration and quiet dialogue"}
+{"neuron":930,"pole":"low","cluster":1,"mode":"Citation and reference fragments in academic bibliographies","scene_windows":0,"windows":5,"scene":"Bibliographies and reports"}
+{"neuron":930,"pole":"low","cluster":2,"mode":"Whitespace and tokens inside code snippets","scene_windows":0,"windows":5,"scene":"Programming code examples"}
+{"neuron":6135,"pole":"high","cluster":0,"mode":"Possessive pronouns his/her/our after verbs of returning or showing","scene_windows":0,"windows":5,"scene":"Children's stories about returning home or sharing"}
+{"neuron":6135,"pole":"high","cluster":1,"mode":"The word 'to' after 'went' in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about going to places"}
+{"neuron":6135,"pole":"high","cluster":2,"mode":"Home and house nouns and 'was' in simple narration","scene_windows":0,"windows":5,"scene":"Simple children's stories set at home"}
+{"neuron":6135,"pole":"low","cluster":0,"mode":"Clause-joining punctuation and pronouns in fiction narration","scene_windows":0,"windows":5,"scene":"Crime and thriller narration and dialogue"}
+{"neuron":6135,"pole":"low","cluster":1,"mode":"Place-name fragments and proper-noun tokens in reference text","scene_windows":0,"windows":5,"scene":"Historical and geographic reference text"}
+{"neuron":8991,"pole":"high","cluster":0,"mode":"Pronouns and names as subjects in playful children's narration","scene_windows":0,"windows":5,"scene":"Playful children's stories about family and games"}
+{"neuron":8991,"pole":"high","cluster":1,"mode":"The opening 'there' in 'Once upon a time there was'","scene_windows":0,"windows":5,"scene":"Fairy-tale story openings"}
+{"neuron":8991,"pole":"low","cluster":0,"mode":"Speech verbs and subject pronouns in children's narration","scene_windows":0,"windows":5,"scene":"Children's stories with simple dialogue"}
+{"neuron":8991,"pole":"low","cluster":1,"mode":"The pronoun 'You' in praising or reassuring parental dialogue","scene_windows":0,"windows":5,"scene":"Children's stories with parent-child conversation"}
+{"neuron":1689,"pole":"high","cluster":0,"mode":"Sentence-ending periods and commas in dialogue-driven fiction","scene_windows":0,"windows":5,"scene":"Emotional dialogue and reflective fiction"}
+{"neuron":1689,"pole":"high","cluster":1,"mode":"Recipe connectors and noun phrases in cooking instructions","scene_windows":0,"windows":5,"scene":"Recipe and cooking advice text"}
+{"neuron":1689,"pole":"low","cluster":0,"mode":"Auxiliary verbs and copulas in past-tense narration","scene_windows":0,"windows":5,"scene":"Personal narration and emotional recollection"}
+{"neuron":1689,"pole":"low","cluster":1,"mode":"The verb 'kept' or 'keep' in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about keeping objects"}
+{"neuron":5713,"pole":"high","cluster":0,"mode":"Sentence-ending periods closing simple children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about finding and sharing"}
+{"neuron":5713,"pole":"high","cluster":1,"mode":"The word 'there' in 'Once upon a time, there was'","scene_windows":0,"windows":5,"scene":"Fairy-tale story openings"}
+{"neuron":5713,"pole":"low","cluster":0,"mode":"Nouns and objects ending tense action phrases in fiction","scene_windows":2,"windows":5,"scene":"Frantic fights and escapes in dark fiction"}
+{"neuron":5713,"pole":"low","cluster":1,"mode":"Sentence-ending periods after tense, ominous first-person statements","scene_windows":2,"windows":5,"scene":"Tense horror and suspense narration"}
+{"neuron":10230,"pole":"high","cluster":0,"mode":"Nouns closing descriptive phrases in personal narration","scene_windows":0,"windows":5,"scene":"Personal narration and reflective storytelling"}
+{"neuron":10230,"pole":"high","cluster":1,"mode":"Cooking verbs and time phrases in recipe steps","scene_windows":0,"windows":5,"scene":"Recipe instructions and cooking guidance"}
+{"neuron":10230,"pole":"low","cluster":0,"mode":"Concrete object nouns and pronouns in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about finding objects"}
+{"neuron":10230,"pole":"low","cluster":1,"mode":"Emotional action verbs in dialogue and dramatic narration","scene_windows":1,"windows":5,"scene":"Emotional farewell or urging moments in fiction"}
+{"neuron":10230,"pole":"low","cluster":2,"mode":"The word 'data' in business and technical explanations","scene_windows":0,"windows":5,"scene":"Business, technology, and disaster recovery text"}

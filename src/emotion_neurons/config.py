@@ -146,6 +146,9 @@ class PipelineConfig(Section):
         None, description="if set, each stage's outputs are pushed to <s3_prefix>/<run_id>/ and pulled back on a restart"
     )
     until: Literal["harvest", "modes", "judge", "report"] | None = Field(None, description="stop after this stage")
+    redo: list[Literal["harvest", "modes", "judge", "report"]] = Field(
+        [], description="run these stages again even if done (their markers are cleared after the S3 pull)"
+    )
 
 
 class RunConfig(BaseSettings):

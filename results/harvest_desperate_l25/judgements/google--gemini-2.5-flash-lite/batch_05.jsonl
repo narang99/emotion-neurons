@@ -1,0 +1,73 @@
+{"neuron":9164,"pole":"high","cluster":0,"mode":"Children's story introductions featuring a boy's name.","scene_windows":0,"windows":5,"scene":"Fictional narrative opening"}
+{"neuron":9164,"pole":"high","cluster":1,"mode":"Dialogue and narrative, often involving children or simple interactions.","scene_windows":0,"windows":5,"scene":"Everyday conversation and narration"}
+{"neuron":9164,"pole":"high","cluster":2,"mode":"Recipe instructions and food descriptions.","scene_windows":0,"windows":5,"scene":"Culinary instructions"}
+{"neuron":9164,"pole":"high","cluster":3,"mode":"Historical or academic text discussing towns and regions.","scene_windows":0,"windows":5,"scene":"Historical and geographical context"}
+{"neuron":9164,"pole":"high","cluster":4,"mode":"Narrative descriptions of observing creatures or places.","scene_windows":0,"windows":5,"scene":"Observation of surroundings"}
+{"neuron":9164,"pole":"high","cluster":5,"mode":"Narrative snippets about daily life, rooms, and happiness.","scene_windows":0,"windows":5,"scene":"Daily life and personal feelings"}
+{"neuron":9164,"pole":"high","cluster":6,"mode":"Action and reaction in tense or violent situations.","scene_windows":1,"windows":5,"scene":"Crisis and confrontation"}
+{"neuron":9164,"pole":"low","cluster":0,"mode":"Personal narrative focusing on body parts and feelings.","scene_windows":0,"windows":5,"scene":"Personal reflection and physical state"}
+{"neuron":9164,"pole":"low","cluster":1,"mode":"Recipe ingredient lists and cooking instructions.","scene_windows":0,"windows":5,"scene":"Culinary instructions"}
+{"neuron":9164,"pole":"low","cluster":2,"mode":"Children's stories about animals and simple adventures.","scene_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":9164,"pole":"low","cluster":3,"mode":"Children's stories about animals and simple discoveries.","scene_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":9164,"pole":"low","cluster":4,"mode":"Conversational snippets and personal reflections.","scene_windows":0,"windows":5,"scene":"Casual conversation and thought"}
+{"neuron":7689,"pole":"high","cluster":0,"mode":"Personal reflections on emotional states and past experiences.","scene_windows":0,"windows":5,"scene":"Personal emotional reflection"}
+{"neuron":7689,"pole":"high","cluster":1,"mode":"Children's story openings featuring a girl named Lily.","scene_windows":0,"windows":5,"scene":"Children's story opening"}
+{"neuron":7689,"pole":"low","cluster":0,"mode":"Technical code snippets and formatting.","scene_windows":0,"windows":5,"scene":"Programming code and formatting"}
+{"neuron":7689,"pole":"low","cluster":1,"mode":"Biblical or religious text references and numbering.","scene_windows":0,"windows":5,"scene":"Religious text reference"}
+{"neuron":7689,"pole":"low","cluster":2,"mode":"Numerical data and references, often in lists or citations.","scene_windows":0,"windows":5,"scene":"Numerical data and references"}
+{"neuron":7689,"pole":"low","cluster":3,"mode":"numbers and abbreviations in historical or academic contexts","scene_windows":0,"windows":5,"scene":"academic or historical text"}
+{"neuron":12216,"pole":"high","cluster":0,"mode":"Descriptive text about physical attributes and preparation.","scene_windows":0,"windows":5,"scene":"Descriptive and instructional text"}
+{"neuron":12216,"pole":"high","cluster":1,"mode":"Intense personal narrative, often with emotional distress.","scene_windows":1,"windows":5,"scene":"Emotional distress and struggle"}
+{"neuron":12216,"pole":"high","cluster":2,"mode":"Questions and exclamations expressing surprise or confusion.","scene_windows":0,"windows":5,"scene":"Surprise and confusion"}
+{"neuron":12216,"pole":"low","cluster":0,"mode":"Personal narrative expressing inability or refusal.","scene_windows":0,"windows":5,"scene":"Personal inability or refusal"}
+{"neuron":12216,"pole":"low","cluster":1,"mode":"Narrative about characters being thankful or proud.","scene_windows":0,"windows":5,"scene":"Gratitude and pride"}
+{"neuron":12216,"pole":"low","cluster":2,"mode":"Expressions of inability or regret.","scene_windows":0,"windows":5,"scene":"Inability and regret"}
+{"neuron":12216,"pole":"low","cluster":3,"mode":"Expressions of shock, awe, or surprise.","scene_windows":0,"windows":5,"scene":"Shock and surprise"}
+{"neuron":12216,"pole":"low","cluster":4,"mode":"Expressions of disbelief, confusion, or panic.","scene_windows":1,"windows":5,"scene":"Disbelief and panic"}
+{"neuron":12216,"pole":"low","cluster":5,"mode":"Expressions of sadness, regret, or emotional pain.","scene_windows":0,"windows":5,"scene":"Sadness and regret"}
+{"neuron":12216,"pole":"low","cluster":6,"mode":"Expressions of fear, confusion, or nervousness.","scene_windows":0,"windows":5,"scene":"Fear and confusion"}
+{"neuron":4382,"pole":"high","cluster":0,"mode":"body parts and actions, often in intense or violent contexts","scene_windows":1,"windows":5,"scene":"intense or violent actions"}
+{"neuron":4382,"pole":"high","cluster":1,"mode":"journal and publisher references, often with years","scene_windows":0,"windows":5,"scene":"academic or publication references"}
+{"neuron":4382,"pole":"high","cluster":2,"mode":"years and numbers in technical or business contexts","scene_windows":0,"windows":5,"scene":"technical or business context"}
+{"neuron":4382,"pole":"low","cluster":0,"mode":"locations and future actions, often with a sense of destination","scene_windows":0,"windows":5,"scene":"narrative with future actions"}
+{"neuron":4382,"pole":"low","cluster":1,"mode":"medical and scientific terms, often abbreviated","scene_windows":0,"windows":5,"scene":"medical or scientific text"}
+{"neuron":5242,"pole":"high","cluster":0,"mode":"Children's stories about characters seeing things.","scene_windows":0,"windows":5,"scene":"Children's story observation"}
+{"neuron":5242,"pole":"high","cluster":1,"mode":"Narrative about characters starting an action.","scene_windows":0,"windows":5,"scene":"Initiating an action"}
+{"neuron":5242,"pole":"high","cluster":2,"mode":"Children's story introductions featuring a character's preference.","scene_windows":0,"windows":5,"scene":"Children's story preference"}
+{"neuron":5242,"pole":"high","cluster":3,"mode":"Children's stories about characters wanting something.","scene_windows":0,"windows":5,"scene":"Children's story desire"}
+{"neuron":5242,"pole":"high","cluster":4,"mode":"Dialogue where characters say something.","scene_windows":0,"windows":5,"scene":"Dialogue and statements"}
+{"neuron":5242,"pole":"high","cluster":5,"mode":"Dialogue where characters say something.","scene_windows":0,"windows":5,"scene":"Dialogue and statements"}
+{"neuron":5242,"pole":"high","cluster":6,"mode":"Dialogue where characters ask questions.","scene_windows":0,"windows":5,"scene":"Dialogue and questions"}
+{"neuron":5242,"pole":"high","cluster":7,"mode":"Narrative about characters going somewhere.","scene_windows":0,"windows":5,"scene":"Movement and action"}
+{"neuron":5242,"pole":"high","cluster":8,"mode":"Descriptions of things being used, offered, or required.","scene_windows":0,"windows":5,"scene":"Description of use or requirement"}
+{"neuron":5242,"pole":"high","cluster":9,"mode":"Narrative about characters performing physical actions.","scene_windows":0,"windows":5,"scene":"Physical actions"}
+{"neuron":5242,"pole":"low","cluster":0,"mode":"Children's stories about characters playing.","scene_windows":0,"windows":5,"scene":"Children's story play"}
+{"neuron":5242,"pole":"low","cluster":1,"mode":"Narrative about characters making things.","scene_windows":0,"windows":5,"scene":"Creation and making"}
+{"neuron":5242,"pole":"low","cluster":2,"mode":"Technical terms and abbreviations.","scene_windows":0,"windows":5,"scene":"Technical terms and abbreviations"}
+{"neuron":5242,"pole":"low","cluster":3,"mode":"Expressions of thought, doubt, or questioning.","scene_windows":0,"windows":5,"scene":"Thought and questioning"}
+{"neuron":5242,"pole":"low","cluster":4,"mode":"Children's activities involving movement and play.","scene_windows":0,"windows":5,"scene":"Children's activities and movement"}
+{"neuron":5242,"pole":"low","cluster":5,"mode":"Descriptions of actions being performed or completed.","scene_windows":0,"windows":5,"scene":"Action and completion"}
+{"neuron":6402,"pole":"high","cluster":0,"mode":"Children's stories about characters helping each other.","scene_windows":0,"windows":5,"scene":"Children's story help"}
+{"neuron":6402,"pole":"high","cluster":1,"mode":"Dialogue and narrative involving positive interactions.","scene_windows":0,"windows":5,"scene":"Positive interaction and dialogue"}
+{"neuron":6402,"pole":"high","cluster":2,"mode":"Children's stories about characters wanting something.","scene_windows":0,"windows":5,"scene":"Children's story desire"}
+{"neuron":6402,"pole":"low","cluster":0,"mode":"Dialogue where characters say something.","scene_windows":0,"windows":5,"scene":"Dialogue and statements"}
+{"neuron":6402,"pole":"low","cluster":1,"mode":"Narrative about characters playing or going somewhere.","scene_windows":0,"windows":5,"scene":"Play and movement"}
+{"neuron":6402,"pole":"low","cluster":2,"mode":"Dialogue containing exclamations or questions.","scene_windows":0,"windows":5,"scene":"Dialogue and exclamations"}
+{"neuron":6402,"pole":"low","cluster":3,"mode":"Children's stories about characters wanting or needing something.","scene_windows":0,"windows":5,"scene":"Children's story need"}
+{"neuron":6402,"pole":"low","cluster":4,"mode":"Words related to proposals, plans, or actions.","scene_windows":0,"windows":5,"scene":"Proposals and actions"}
+{"neuron":6402,"pole":"low","cluster":5,"mode":"Dialogue and narrative involving personal relationships.","scene_windows":0,"windows":5,"scene":"Personal relationships and dialogue"}
+{"neuron":6402,"pole":"low","cluster":6,"mode":"Personal narrative expressing fear or confusion.","scene_windows":0,"windows":5,"scene":"Fear and confusion"}
+{"neuron":9443,"pole":"high","cluster":0,"mode":"Personal narrative expressing emotional states and actions.","scene_windows":0,"windows":5,"scene":"Personal emotional narrative"}
+{"neuron":9443,"pole":"high","cluster":1,"mode":"Narrative about characters being happy or thankful.","scene_windows":0,"windows":5,"scene":"Happiness and gratitude"}
+{"neuron":9443,"pole":"low","cluster":0,"mode":"Personal narrative expressing negative emotions or actions.","scene_windows":0,"windows":5,"scene":"Negative personal narrative"}
+{"neuron":9443,"pole":"low","cluster":1,"mode":"Prepositions indicating location or time.","scene_windows":0,"windows":5,"scene":"Location and time prepositions"}
+{"neuron":7527,"pole":"high","cluster":0,"mode":"Narrative about characters experiencing something for the first time.","scene_windows":0,"windows":5,"scene":"First-time experiences"}
+{"neuron":7527,"pole":"high","cluster":1,"mode":"Narrative about things happening or being a certain way.","scene_windows":0,"windows":5,"scene":"Events and states"}
+{"neuron":7527,"pole":"high","cluster":2,"mode":"Dialogue and narrative involving questions or requests.","scene_windows":0,"windows":5,"scene":"Dialogue and requests"}
+{"neuron":7527,"pole":"high","cluster":3,"mode":"Dialogue containing exclamations or questions.","scene_windows":0,"windows":5,"scene":"Dialogue and exclamations"}
+{"neuron":7527,"pole":"high","cluster":4,"mode":"Sensory descriptions and physical reactions.","scene_windows":0,"windows":5,"scene":"Sensory details and reactions"}
+{"neuron":7527,"pole":"high","cluster":5,"mode":"Narrative about characters interacting or feeling emotions.","scene_windows":0,"windows":5,"scene":"Interactions and emotions"}
+{"neuron":7527,"pole":"high","cluster":6,"mode":"Expressions of surprise, confusion, or nervousness.","scene_windows":0,"windows":5,"scene":"Surprise and confusion"}
+{"neuron":7527,"pole":"low","cluster":0,"mode":"Technical terms and code snippets.","scene_windows":0,"windows":5,"scene":"Technical terms and code"}
+{"neuron":7527,"pole":"low","cluster":1,"mode":"Words indicating relationships or connections.","scene_windows":0,"windows":5,"scene":"Relationships and connections"}
+{"neuron":7527,"pole":"low","cluster":2,"mode":"Narrative about characters going somewhere.","scene_windows":0,"windows":5,"scene":"Movement and action"}

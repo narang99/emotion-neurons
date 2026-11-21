@@ -1,0 +1,64 @@
+{"neuron":9091,"pole":"high","cluster":0,"mode":"first-person pronouns referring to the speaker's actions or thoughts","scene_windows":0,"windows":5,"scene":"personal reflection and action"}
+{"neuron":9091,"pole":"high","cluster":1,"mode":"numbers and dates, often in historical or factual contexts","scene_windows":0,"windows":5,"scene":"historical and factual enumeration"}
+{"neuron":9091,"pole":"low","cluster":0,"mode":"excitement and positive emotion, often from children","scene_windows":0,"windows":5,"scene":"childhood joy and discovery"}
+{"neuron":9091,"pole":"low","cluster":1,"mode":"dates and numbers, often in historical or factual contexts","scene_windows":0,"windows":5,"scene":"historical and factual enumeration"}
+{"neuron":9091,"pole":"low","cluster":2,"mode":"future actions or states, often with uncertainty","scene_windows":0,"windows":5,"scene":"speculation about future events"}
+{"neuron":9091,"pole":"low","cluster":3,"mode":"sudden emotional reactions or physical states","scene_windows":0,"windows":5,"scene":"sudden emotional or physical shifts"}
+{"neuron":3513,"pole":"high","cluster":0,"mode":"positive actions and outcomes, often involving children","scene_windows":0,"windows":5,"scene":"positive childhood experiences"}
+{"neuron":3513,"pole":"high","cluster":1,"mode":"actions of running, often with emotional context","scene_windows":0,"windows":5,"scene":"running with emotion"}
+{"neuron":3513,"pole":"high","cluster":2,"mode":"smiles and positive social interactions","scene_windows":0,"windows":5,"scene":"positive social interactions"}
+{"neuron":3513,"pole":"high","cluster":3,"mode":"developmental stages and activities","scene_windows":0,"windows":5,"scene":"childhood development and activities"}
+{"neuron":3513,"pole":"high","cluster":4,"mode":"pronouns referring to female individuals, often children","scene_windows":0,"windows":5,"scene":"female characters in narratives"}
+{"neuron":3513,"pole":"high","cluster":5,"mode":"conjunctions and positive social interactions","scene_windows":0,"windows":5,"scene":"positive social interactions and agreement"}
+{"neuron":3513,"pole":"high","cluster":6,"mode":"punctuation indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"completion of actions or thoughts"}
+{"neuron":3513,"pole":"low","cluster":0,"mode":"pronouns referring to self or others in a negative context","scene_windows":0,"windows":5,"scene":"negative self or other reference"}
+{"neuron":3513,"pole":"low","cluster":1,"mode":"pronouns referring to female individuals, often children","scene_windows":0,"windows":5,"scene":"female characters in narratives"}
+{"neuron":3513,"pole":"low","cluster":2,"mode":"expressions of negative emotion or states","scene_windows":0,"windows":5,"scene":"negative emotional states"}
+{"neuron":3513,"pole":"low","cluster":3,"mode":"punctuation indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"completion of actions or thoughts"}
+{"neuron":3513,"pole":"low","cluster":4,"mode":"punctuation indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"completion of actions or thoughts"}
+{"neuron":3513,"pole":"low","cluster":5,"mode":"punctuation indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"completion of actions or thoughts"}
+{"neuron":10150,"pole":"high","cluster":0,"mode":"verbs of perception and action, often with emotional context","scene_windows":0,"windows":5,"scene":"perception and action"}
+{"neuron":10150,"pole":"high","cluster":1,"mode":"objects and locations, often in a narrative context","scene_windows":0,"windows":5,"scene":"objects and locations in narrative"}
+{"neuron":10150,"pole":"high","cluster":2,"mode":"technical and descriptive terms, often related to technology","scene_windows":0,"windows":5,"scene":"technical and descriptive terms"}
+{"neuron":10150,"pole":"high","cluster":3,"mode":"smiles and positive social interactions","scene_windows":0,"windows":5,"scene":"positive social interactions"}
+{"neuron":10150,"pole":"high","cluster":4,"mode":"pronouns referring to female individuals, often mothers","scene_windows":0,"windows":5,"scene":"female figures in narrative"}
+{"neuron":10150,"pole":"high","cluster":5,"mode":"conjunctions and positive social interactions","scene_windows":0,"windows":5,"scene":"positive social interactions and agreement"}
+{"neuron":10150,"pole":"high","cluster":6,"mode":"pronouns referring to individuals in positive contexts","scene_windows":0,"windows":5,"scene":"positive individual actions"}
+{"neuron":10150,"pole":"low","cluster":0,"mode":"verbs and nouns related to physical objects and states","scene_windows":0,"windows":5,"scene":"physical objects and states"}
+{"neuron":10150,"pole":"low","cluster":1,"mode":"abbreviations and acronyms, often in technical contexts","scene_windows":0,"windows":5,"scene":"technical abbreviations and acronyms"}
+{"neuron":10150,"pole":"low","cluster":2,"mode":"expressions of emotion and physical states","scene_windows":0,"windows":5,"scene":"emotional and physical states"}
+{"neuron":10150,"pole":"low","cluster":3,"mode":"actions and states of being, often with negative connotations","scene_windows":0,"windows":5,"scene":"negative actions and states"}
+{"neuron":1704,"pole":"high","cluster":0,"mode":"verbs expressing desire or intention","scene_windows":0,"windows":5,"scene":"desire and intention"}
+{"neuron":1704,"pole":"high","cluster":1,"mode":"verbs indicating acquisition or movement","scene_windows":0,"windows":5,"scene":"acquisition and movement"}
+{"neuron":1704,"pole":"high","cluster":2,"mode":"terms related to growth, development, and change","scene_windows":0,"windows":5,"scene":"growth, development, and change"}
+{"neuron":1704,"pole":"high","cluster":3,"mode":"first-person pronouns referring to the speaker's actions or thoughts","scene_windows":0,"windows":5,"scene":"personal reflection and action"}
+{"neuron":1704,"pole":"high","cluster":4,"mode":"nouns indicating abstract concepts or time","scene_windows":0,"windows":5,"scene":"abstract concepts and time"}
+{"neuron":1704,"pole":"high","cluster":5,"mode":"expressions of negative emotion or states","scene_windows":0,"windows":5,"scene":"negative emotional states"}
+{"neuron":1704,"pole":"high","cluster":6,"mode":"expressions of positive emotion or states","scene_windows":0,"windows":5,"scene":"positive emotional states"}
+{"neuron":1704,"pole":"low","cluster":0,"mode":"nouns related to physical objects and locations","scene_windows":0,"windows":5,"scene":"physical objects and locations"}
+{"neuron":1704,"pole":"low","cluster":1,"mode":"verbs indicating states of being or action","scene_windows":0,"windows":5,"scene":"states of being and action"}
+{"neuron":8339,"pole":"high","cluster":0,"mode":"pronouns referring to female individuals, often children","scene_windows":0,"windows":5,"scene":"female characters in narratives"}
+{"neuron":8339,"pole":"high","cluster":1,"mode":"verbs related to play and recreation","scene_windows":0,"windows":5,"scene":"play and recreation"}
+{"neuron":8339,"pole":"low","cluster":0,"mode":"pronouns referring to individuals, often in a narrative context","scene_windows":0,"windows":5,"scene":"individuals in narrative"}
+{"neuron":8339,"pole":"low","cluster":1,"mode":"articles and conjunctions, often in lists or descriptions","scene_windows":0,"windows":5,"scene":"articles and conjunctions"}
+{"neuron":8339,"pole":"low","cluster":2,"mode":"pronouns referring to individuals, often in a narrative context","scene_windows":0,"windows":5,"scene":"individuals in narrative"}
+{"neuron":8339,"pole":"low","cluster":3,"mode":"childhood play, games, and simple actions","scene_windows":0,"windows":5,"scene":"children playing and interacting"}
+{"neuron":10452,"pole":"high","cluster":0,"mode":"dialogue and actions in a narrative context","scene_windows":0,"windows":5,"scene":"conversations and immediate actions"}
+{"neuron":10452,"pole":"high","cluster":1,"mode":"possessive pronouns and actions related to body parts","scene_windows":0,"windows":5,"scene":"personal interactions and physical sensations"}
+{"neuron":10452,"pole":"low","cluster":0,"mode":"parts of words related to commerce and creation","scene_windows":0,"windows":5,"scene":"commercial and creative processes"}
+{"neuron":10452,"pole":"low","cluster":1,"mode":"numerical and organizational identifiers","scene_windows":0,"windows":5,"scene":"technical and organizational data"}
+{"neuron":10452,"pole":"low","cluster":2,"mode":"actions and sensory experiences","scene_windows":0,"windows":5,"scene":"sensory experiences and reactions"}
+{"neuron":10452,"pole":"low","cluster":3,"mode":"actions and simple statements of being","scene_windows":0,"windows":5,"scene":"childhood actions and emotions"}
+{"neuron":1974,"pole":"high","cluster":0,"mode":"first-person pronouns referring to the speaker's actions or thoughts","scene_windows":0,"windows":5,"scene":"personal reflection and action"}
+{"neuron":1974,"pole":"high","cluster":1,"mode":"conjunctions and adverbs indicating connection or reason","scene_windows":0,"windows":5,"scene":"connection and reason"}
+{"neuron":1974,"pole":"low","cluster":0,"mode":"numbers and punctuation, often in lists or citations","scene_windows":0,"windows":5,"scene":"numbers and punctuation"}
+{"neuron":1974,"pole":"low","cluster":1,"mode":"words indicating contribution or function","scene_windows":0,"windows":5,"scene":"contribution and function"}
+{"neuron":1974,"pole":"low","cluster":2,"mode":"conjunctions and adverbs indicating addition or contrast","scene_windows":0,"windows":5,"scene":"addition and contrast"}
+{"neuron":1974,"pole":"low","cluster":3,"mode":"punctuation and conjunctions indicating continuation or contrast","scene_windows":0,"windows":5,"scene":"continuation and contrast"}
+{"neuron":1974,"pole":"low","cluster":4,"mode":"expressions of negative emotion and difficult situations","scene_windows":2,"windows":5,"scene":"despair and difficult circumstances"}
+{"neuron":8059,"pole":"high","cluster":0,"mode":"nouns referring to body parts and abstract concepts","scene_windows":0,"windows":5,"scene":"body parts and abstract concepts"}
+{"neuron":8059,"pole":"high","cluster":1,"mode":"punctuation indicating pauses or breaks in speech","scene_windows":0,"windows":5,"scene":"pauses and breaks in speech"}
+{"neuron":8059,"pole":"high","cluster":2,"mode":"pronouns and nouns referring to individuals and their relationships","scene_windows":0,"windows":5,"scene":"individuals and relationships"}
+{"neuron":8059,"pole":"low","cluster":0,"mode":"terms related to organizations and initiatives","scene_windows":0,"windows":5,"scene":"organizations and initiatives"}
+{"neuron":8059,"pole":"low","cluster":1,"mode":"expressions of emotion and states of being","scene_windows":0,"windows":5,"scene":"emotion and states of being"}
+{"neuron":8059,"pole":"low","cluster":2,"mode":"names of female individuals, often in narrative contexts","scene_windows":0,"windows":5,"scene":"female names in narrative"}

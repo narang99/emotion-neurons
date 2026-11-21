@@ -1,0 +1,22 @@
+{"neuron":11841,"pole":"high","cluster":0,"mode":"Sentence-final punctuation in science and news articles, before quotations","scene_windows":0,"windows":5,"scene":"Science and research news reporting"}
+{"neuron":11841,"pole":"high","cluster":1,"mode":"Word completing a phrase in simple children's story dialogue or narration","scene_windows":0,"windows":5,"scene":"Children's stories with everyday domestic situations"}
+{"neuron":11841,"pole":"high","cluster":2,"mode":"Contraction or negation starting a clause in narrative tension moments","scene_windows":0,"windows":5,"scene":"Mild suspense in short fiction"}
+{"neuron":11841,"pole":"high","cluster":3,"mode":"Closing quotation marks after exclamations or questions in children's dialogue","scene_windows":0,"windows":5,"scene":"Simple children's stories with dialogue"}
+{"neuron":11841,"pole":"low","cluster":0,"mode":"Sentence-ending periods in calm narrative fiction and descriptive prose","scene_windows":0,"windows":5,"scene":"Calm narrative fiction and family scenes"}
+{"neuron":11841,"pole":"low","cluster":1,"mode":"Sentence-ending periods in news and nonfiction articles before quotes","scene_windows":0,"windows":5,"scene":"News and policy reporting"}
+{"neuron":12011,"pole":"high","cluster":0,"mode":"Sentence-final periods closing opinionated or personal narrative statements","scene_windows":0,"windows":5,"scene":"Personal reflection and casual narration"}
+{"neuron":12011,"pole":"high","cluster":1,"mode":"Word ending a noun or verb phrase in informal narrative or dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue and casual speech"}
+{"neuron":12011,"pole":"high","cluster":2,"mode":"Mid-word or name fragments in proper nouns and citations","scene_windows":0,"windows":5,"scene":"Reference lists, names, and news articles"}
+{"neuron":12011,"pole":"low","cluster":0,"mode":"Nouns and words ending dialogue or narrative clauses in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue and sardonic narration"}
+{"neuron":12011,"pole":"low","cluster":1,"mode":"Code, instructions, and technical or marketing text tokens","scene_windows":0,"windows":5,"scene":"Programming tutorials and web copy"}
+{"neuron":12258,"pole":"high","cluster":0,"mode":"Subject pronoun 'She' or 'who' opening a sentence in a fairy-tale opening","scene_windows":0,"windows":5,"scene":"Once-upon-a-time children's story openings"}
+{"neuron":12258,"pole":"high","cluster":1,"mode":"Punctuation ending animal or character dialogue in children's stories","scene_windows":0,"windows":5,"scene":"Playful children's stories with animal talk"}
+{"neuron":12258,"pole":"high","cluster":2,"mode":"Adjective or noun in advice text about improving skills or engagement","scene_windows":0,"windows":5,"scene":"How-to advice on marketing and content"}
+{"neuron":12258,"pole":"high","cluster":3,"mode":"Sentence-starting pronoun in narration of confusion or fear","scene_windows":1,"windows":5,"scene":"Lost or frightened characters in narration"}
+{"neuron":12258,"pole":"high","cluster":4,"mode":"Numbers and fragments inside data tables and parenthetical listings","scene_windows":0,"windows":5,"scene":"Scientific data tables and nutrition surveys"}
+{"neuron":12258,"pole":"high","cluster":5,"mode":"Sentence-ending period before a 'But' turn in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with a turning point"}
+{"neuron":12258,"pole":"high","cluster":6,"mode":"Period ending a sentence describing a discovery during a walk","scene_windows":0,"windows":5,"scene":"Simple children's stories about outings"}
+{"neuron":12258,"pole":"high","cluster":7,"mode":"Dialogue tokens in emotional or casual conversations between characters","scene_windows":0,"windows":5,"scene":"Personal dialogue and arguments"}
+{"neuron":12258,"pole":"high","cluster":8,"mode":"Articles and possessives before nouns in children's story narration","scene_windows":0,"windows":5,"scene":"Playful children's stories"}
+{"neuron":12258,"pole":"low","cluster":0,"mode":"Commas and clause-ending tokens in sad or tense dialogue and narration","scene_windows":0,"windows":5,"scene":"Emotional family and dialogue scenes"}
+{"neuron":12258,"pole":"low","cluster":1,"mode":"Mid-word fragments in technical, science, and descriptive text","scene_windows":0,"windows":5,"scene":"Technical and scientific descriptions"}

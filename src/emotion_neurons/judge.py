@@ -59,13 +59,13 @@ For every cluster, return:
 - "windows": how many windows the cluster has;
 - "scene": what the scenes are, in 3 to 8 words.
 
-Answer with one JSON object per line and nothing else, in file order, one line per cluster:
+Answer with one JSON object per line and nothing else, in file order, one line per cluster. Every line must include "pole":
 {{"neuron": N, "pole": "high" or "low", "cluster": K, "mode": "...", "{emotion}_windows": 0, "windows": 5, "scene": "..."}}"""
 
 
 class Verdict(BaseModel):
     neuron: int
-    pole: str
+    pole: str | None = None  # some judges leave it out; `place_verdicts` restores it from the file order
     cluster: int
     mode: str
     scene_windows: int
@@ -133,19 +133,37 @@ def ask(model: str, system: str, user: str, key: str, max_tokens: int, attempts:
     raise AssertionError("unreachable")
 
 
+def place_verdicts(verdicts: list[Verdict], expected: list[tuple[int, str, int]]) -> dict[tuple, Verdict]:
+    """{(neuron, pole, cluster): verdict}. A verdict without a pole takes the first open cluster of its neuron with
+    that id, in file order (high pole before low): Gemini 2.5 Flash-Lite left "pole" out of whole replies."""
+    open_keys = list(expected)
+    placed = {}
+    for v in verdicts:
+        key = (
+            (v.neuron, v.pole, v.cluster)
+            if v.pole
+            else next((k for k in open_keys if k[0] == v.neuron and k[2] == v.cluster), None)
+        )
+        if key is None or key in placed or key not in open_keys:
+            continue
+        open_keys.remove(key)
+        placed[key] = v.model_copy(update={"pole": key[1]})
+    return placed
+
+
 def judge_batch(
     model: str, emotion: str, text: str, key: str, max_tokens: int
 ) -> tuple[list[Verdict], list[tuple[int, str, int]]]:
     """Verdicts for every cluster of one batch file. Clusters missing from the first reply are asked again once."""
     system = instructions(emotion)
     expected = cluster_keys(text)
-    found = {(v.neuron, v.pole, v.cluster): v for v in parse_verdicts(ask(model, system, text, key, max_tokens))}
+    found = place_verdicts(parse_verdicts(ask(model, system, text, key, max_tokens)), expected)
     missing = [k for k in expected if k not in found]
     if missing:
         wanted = "\n".join(f"neuron {n}, {p} pole, cluster {c}" for n, p, c in missing)
         retry = f"{text}\n\nReturn lines only for these clusters, which were missing:\n{wanted}"
-        for v in parse_verdicts(ask(model, system, retry, key, max_tokens)):
-            found.setdefault((v.neuron, v.pole, v.cluster), v)
+        for k, v in place_verdicts(parse_verdicts(ask(model, system, retry, key, max_tokens)), missing).items():
+            found.setdefault(k, v)
     verdicts = [found[k] for k in expected if k in found]
     return verdicts, [k for k in expected if k not in found]
 

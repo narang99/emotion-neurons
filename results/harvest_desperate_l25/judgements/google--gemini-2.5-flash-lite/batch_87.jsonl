@@ -1,0 +1,44 @@
+{"neuron":10227,"pole":"high","cluster":0,"mode":"Children playing in the garden or park with friends and family.","scene_windows":0,"windows":5,"scene":"Childhood play and family interaction"}
+{"neuron":10227,"pole":"high","cluster":1,"mode":"Children reflecting on past actions and feeling remorse.","scene_windows":0,"windows":5,"scene":"Children's remorse and reconciliation"}
+{"neuron":10227,"pole":"high","cluster":2,"mode":"Narrative descriptions of community, domain, story, and day.","scene_windows":0,"windows":5,"scene":"Describing aspects of life and community"}
+{"neuron":10227,"pole":"high","cluster":3,"mode":"Sudden, unexpected events occurring during children's play.","scene_windows":0,"windows":5,"scene":"Sudden events during play"}
+{"neuron":10227,"pole":"high","cluster":4,"mode":"Waiting, anticipation, and observation in various settings.","scene_windows":0,"windows":5,"scene":"Anticipation and observation"}
+{"neuron":10227,"pole":"high","cluster":5,"mode":"Children encountering new and interesting things during play.","scene_windows":0,"windows":5,"scene":"Children's discovery and curiosity"}
+{"neuron":10227,"pole":"high","cluster":6,"mode":"Children experiencing happiness and accomplishment during activities.","scene_windows":0,"windows":5,"scene":"Joyful childhood experiences"}
+{"neuron":10227,"pole":"high","cluster":7,"mode":"Expressions of happiness, gratitude, and enjoyment after activities.","scene_windows":0,"windows":5,"scene":"Positive outcomes and enjoyment"}
+{"neuron":10227,"pole":"high","cluster":8,"mode":"Children playing with toys or in the park.","scene_windows":0,"windows":5,"scene":"Children's play and imagination"}
+{"neuron":10227,"pole":"low","cluster":0,"mode":"Moments of fear, realization, and uncertainty.","scene_windows":1,"windows":5,"scene":"Fear and uncertainty"}
+{"neuron":10227,"pole":"low","cluster":1,"mode":"Personal reflections, trust, and self-awareness.","scene_windows":0,"windows":5,"scene":"Personal reflection and self-awareness"}
+{"neuron":2444,"pole":"high","cluster":0,"mode":"Fulfilling wishes, familiar yet changed streets, and taunting.","scene_windows":0,"windows":5,"scene":"Fulfilling wishes and facing change"}
+{"neuron":2444,"pole":"high","cluster":1,"mode":"Ingredients and steps for cooking, often with specific items.","scene_windows":0,"windows":5,"scene":"Culinary instructions and ingredients"}
+{"neuron":2444,"pole":"low","cluster":0,"mode":"Negative physical sensations, fear, and regret.","scene_windows":0,"windows":5,"scene":"Negative physical and emotional states"}
+{"neuron":2444,"pole":"low","cluster":1,"mode":"Recipe ingredients and preparation steps.","scene_windows":0,"windows":5,"scene":"Recipe preparation and ingredients"}
+{"neuron":8189,"pole":"high","cluster":0,"mode":"Children finding items and experiencing emotions.","scene_windows":0,"windows":5,"scene":"Children's discoveries and emotions"}
+{"neuron":8189,"pole":"high","cluster":1,"mode":"Moments of realization, regret, and change.","scene_windows":0,"windows":5,"scene":"Moments of realization and change"}
+{"neuron":8189,"pole":"high","cluster":2,"mode":"Apologies, comfort, and moments of connection.","scene_windows":0,"windows":5,"scene":"Apologies and comfort"}
+{"neuron":8189,"pole":"high","cluster":3,"mode":"Children expressing wishes, hopes, and making dares.","scene_windows":0,"windows":5,"scene":"Children's expressions and interactions"}
+{"neuron":8189,"pole":"low","cluster":0,"mode":"Negative outcomes, financial hardship, and difficult situations.","scene_windows":0,"windows":5,"scene":"Negative outcomes and hardship"}
+{"neuron":8189,"pole":"low","cluster":1,"mode":"Contractions and negations in sentences.","scene_windows":0,"windows":5,"scene":"Contractions and negations"}
+{"neuron":8189,"pole":"low","cluster":2,"mode":"Expressions of internal conflict and struggle.","scene_windows":0,"windows":5,"scene":"Internal conflict and struggle"}
+{"neuron":8189,"pole":"low","cluster":3,"mode":"Dialogue and actions indicating conflict or determination.","scene_windows":0,"windows":5,"scene":"Conflict and determination"}
+{"neuron":10323,"pole":"high","cluster":0,"mode":"Discoveries, sudden events, and unexpected paths.","scene_windows":0,"windows":5,"scene":"Discoveries and unexpected events"}
+{"neuron":10323,"pole":"high","cluster":1,"mode":"Code snippets and programming language elements.","scene_windows":0,"windows":5,"scene":"Programming code elements"}
+{"neuron":10323,"pole":"low","cluster":0,"mode":"Recipe ingredients and preparation steps.","scene_windows":0,"windows":5,"scene":"Recipe ingredients and steps"}
+{"neuron":10323,"pole":"low","cluster":1,"mode":"Expressions of affection, response, and minor actions.","scene_windows":0,"windows":5,"scene":"Affection and minor actions"}
+{"neuron":10323,"pole":"low","cluster":2,"mode":"Poetry, historical references, and names.","scene_windows":0,"windows":5,"scene":"Poetry and historical references"}
+{"neuron":2995,"pole":"high","cluster":0,"mode":"Historical notoriety, emotional surfacing, and recognized lineage.","scene_windows":0,"windows":5,"scene":"Historical notoriety and lineage"}
+{"neuron":2995,"pole":"high","cluster":1,"mode":"Urgent news, parental concern, and demands.","scene_windows":0,"windows":5,"scene":"Urgent news and demands"}
+{"neuron":2995,"pole":"low","cluster":0,"mode":"Help arriving in difficult situations.","scene_windows":0,"windows":5,"scene":"Help arriving in need"}
+{"neuron":2995,"pole":"low","cluster":1,"mode":"Gratitude, friendship, and positive outcomes.","scene_windows":0,"windows":5,"scene":"Gratitude and friendship"}
+{"neuron":2995,"pole":"low","cluster":2,"mode":"Sudden events and changes in circumstances.","scene_windows":0,"windows":5,"scene":"Sudden events and changes"}
+{"neuron":2995,"pole":"low","cluster":3,"mode":"Actions and dialogue indicating playfulness or determination.","scene_windows":0,"windows":5,"scene":"Playfulness and determination"}
+{"neuron":2995,"pole":"low","cluster":4,"mode":"Objects and actions within a confined space.","scene_windows":0,"windows":5,"scene":"Objects and actions in space"}
+{"neuron":11333,"pole":"high","cluster":0,"mode":"Negative descriptions of people, situations, and experiences.","scene_windows":0,"windows":5,"scene":"Negative descriptions and experiences"}
+{"neuron":11333,"pole":"high","cluster":1,"mode":"Code snippets and programming language elements.","scene_windows":0,"windows":5,"scene":"Programming code elements"}
+{"neuron":11333,"pole":"low","cluster":0,"mode":"Negative events, fear, and uncertainty.","scene_windows":0,"windows":5,"scene":"Negative events and fear"}
+{"neuron":11333,"pole":"low","cluster":1,"mode":"Children's activities and reactions.","scene_windows":0,"windows":5,"scene":"Children's activities and reactions"}
+{"neuron":8328,"pole":"high","cluster":0,"mode":"Daily routines, personal reflections, and methods.","scene_windows":0,"windows":5,"scene":"Daily routines and reflections"}
+{"neuron":8328,"pole":"high","cluster":1,"mode":"Historical figures, institutions, and geographical locations.","scene_windows":0,"windows":5,"scene":"Historical figures and places"}
+{"neuron":8328,"pole":"low","cluster":0,"mode":"Personal reflections, sorrow, and seeking solitude.","scene_windows":0,"windows":5,"scene":"Personal reflections and sorrow"}
+{"neuron":8328,"pole":"low","cluster":1,"mode":"Historical periods, cultural institutions, and names.","scene_windows":0,"windows":5,"scene":"Historical periods and culture"}
+{"neuron":8328,"pole":"low","cluster":2,"mode":"Medical treatments, procedures, and clinical settings.","scene_windows":0,"windows":5,"scene":"Medical treatments and settings"}

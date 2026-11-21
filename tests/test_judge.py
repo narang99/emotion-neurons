@@ -19,3 +19,12 @@ def test_instructions_name_the_emotion_key():
 def test_cluster_keys_skip_unclustered_groups():
     text = "##### neuron 5\n=== high pole (p97)\n--- cluster 0\n  [1.0] a\n--- unclustered (sample)\n=== low pole (p3)\n--- cluster 1\n"
     assert cluster_keys(text) == [(5, "high", 0), (5, "low", 1)]
+
+
+def test_verdicts_without_a_pole_follow_file_order():
+    from emotion_neurons.judge import Verdict, place_verdicts
+
+    expected = [(5, "high", 0), (5, "high", 1), (5, "low", 0), (5, "low", 1), (5, "low", 2)]
+    lines = [Verdict(neuron=5, cluster=c, mode="m", scene_windows=0, windows=5, scene="s") for c in (0, 1, 0, 1, 2)]
+    placed = place_verdicts(lines, expected)
+    assert list(placed) == expected and all(placed[k].pole == k[1] for k in expected)

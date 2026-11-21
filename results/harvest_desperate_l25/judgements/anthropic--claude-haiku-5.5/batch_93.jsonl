@@ -1,0 +1,56 @@
+{"neuron":7060,"pole":"high","cluster":0,"mode":"Closing quotation mark after quoted speech in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with dialogue"}
+{"neuron":7060,"pole":"high","cluster":1,"mode":"Whitespace token after a quoted line in mixed fiction","scene_windows":0,"windows":5,"scene":"Dialogue-heavy sci-fi and fantasy fiction"}
+{"neuron":7060,"pole":"high","cluster":2,"mode":"Period ending a short reaction or action sentence in narration","scene_windows":0,"windows":5,"scene":"Emotional reactions in family and mystery narration"}
+{"neuron":7060,"pole":"high","cluster":3,"mode":"Sentence-final period or whitespace before a new narrative sentence","scene_windows":0,"windows":5,"scene":"Simple children's stories with gentle plots"}
+{"neuron":7060,"pole":"high","cluster":4,"mode":"Comma after a speech verb introducing a quotation","scene_windows":0,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":7060,"pole":"high","cluster":5,"mode":"Speech verb 'said' right after a conjunction or subject","scene_windows":0,"windows":5,"scene":"Children's stories with a parent or friend speaking"}
+{"neuron":7060,"pole":"high","cluster":6,"mode":"Character name token starting a sentence after dialogue","scene_windows":0,"windows":5,"scene":"Simple children's stories with friends playing"}
+{"neuron":7060,"pole":"high","cluster":7,"mode":"Opening quotation mark starting a line of dialogue","scene_windows":0,"windows":5,"scene":"Children's stories and dialogue exchanges"}
+{"neuron":7060,"pole":"high","cluster":8,"mode":"Code and technical syntax tokens in programs","scene_windows":0,"windows":5,"scene":"Source code and technical snippets"}
+{"neuron":7060,"pole":"high","cluster":9,"mode":"'said' or 'says' tagging a speaker after a quote","scene_windows":0,"windows":5,"scene":"Children's stories with characters reacting aloud"}
+{"neuron":7060,"pole":"high","cluster":10,"mode":"Mid-sentence nouns or particles in emotional story moments","scene_windows":0,"windows":5,"scene":"Children's stories and emotional narration"}
+{"neuron":7060,"pole":"high","cluster":11,"mode":"Contraction fragments like n't or 're in casual speech","scene_windows":0,"windows":5,"scene":"Casual informal first-person narration and chat"}
+{"neuron":7060,"pole":"low","cluster":0,"mode":"First-person pronoun 'I' starting a sentence in narration","scene_windows":0,"windows":5,"scene":"Tense first-person introspective narration"}
+{"neuron":7060,"pole":"low","cluster":1,"mode":"Sentence-ending period after narrative statements of events","scene_windows":1,"windows":5,"scene":"Post-crisis or dramatic first-person narration"}
+{"neuron":7060,"pole":"low","cluster":2,"mode":"Code syntax tokens inside database and shell scripts","scene_windows":0,"windows":5,"scene":"Programming and shell code snippets"}
+{"neuron":4459,"pole":"high","cluster":0,"mode":"Subject pronoun or 'but' after a contrast clause","scene_windows":0,"windows":5,"scene":"Fearful or sad narrative of characters' feelings"}
+{"neuron":4459,"pole":"high","cluster":1,"mode":"Auxiliary 'did/does/do' before 'not' in negation","scene_windows":0,"windows":5,"scene":"Children's stories with scared characters refusing"}
+{"neuron":4459,"pole":"low","cluster":0,"mode":"Period or closing quote ending a parent's reassuring line","scene_windows":0,"windows":5,"scene":"Gentle children's stories with parents"}
+{"neuron":4459,"pole":"low","cluster":1,"mode":"Article 'the' inside journalistic or essay prose","scene_windows":0,"windows":5,"scene":"Expository essays and news-style prose"}
+{"neuron":4459,"pole":"low","cluster":2,"mode":"Punctuation in cooking recipe instructions","scene_windows":0,"windows":5,"scene":"Recipe instructions for cooking"}
+{"neuron":4459,"pole":"low","cluster":3,"mode":"Object nouns or pronouns after verbs in confrontation","scene_windows":0,"windows":5,"scene":"Tense arguments and interpersonal confrontations"}
+{"neuron":4459,"pole":"low","cluster":4,"mode":"Motion verb 'walked' or 'went' after a subject","scene_windows":0,"windows":5,"scene":"Simple narrative of characters moving around"}
+{"neuron":4459,"pole":"low","cluster":5,"mode":"Conjunction 'and' or pronoun 'He' starting a clause","scene_windows":0,"windows":5,"scene":"Narrative action and quiet character moments"}
+{"neuron":1389,"pole":"high","cluster":0,"mode":"Participle or adjective before 'for' or 'used' in informational text","scene_windows":0,"windows":5,"scene":"Informational text about herbs, crafts, and history"}
+{"neuron":1389,"pole":"high","cluster":1,"mode":"Nouns or punctuation at ends of descriptive literary clauses","scene_windows":0,"windows":5,"scene":"Descriptive fiction with quirky characters"}
+{"neuron":1389,"pole":"high","cluster":2,"mode":"Intensifier 'so' after 'was' describing excitement or mood","scene_windows":0,"windows":5,"scene":"Short children's stories about emotions"}
+{"neuron":1389,"pole":"low","cluster":0,"mode":"Plural nouns or pronouns in toy and product descriptions","scene_windows":0,"windows":5,"scene":"Product descriptions and music history text"}
+{"neuron":1389,"pole":"low","cluster":1,"mode":"'there' in the opening phrase 'Once upon a time'","scene_windows":0,"windows":5,"scene":"Story openings in children's fairy tales"}
+{"neuron":3138,"pole":"high","cluster":0,"mode":"Fragment 'n' of negative contraction n't in dialogue","scene_windows":0,"windows":5,"scene":"Dialogue in fantasy and dark fiction"}
+{"neuron":3138,"pole":"high","cluster":1,"mode":"Role label 'assistant' starting a chatbot reply","scene_windows":0,"windows":5,"scene":"User-assistant chat exchanges on varied topics"}
+{"neuron":3138,"pole":"high","cluster":2,"mode":"Period or comma closing a reflective or bleak sentence","scene_windows":0,"windows":5,"scene":"Reflective fiction about immortality and fate"}
+{"neuron":3138,"pole":"low","cluster":0,"mode":"Subject pronoun 'She' or 'they' in happy story endings","scene_windows":0,"windows":5,"scene":"Cheerful children's stories"}
+{"neuron":3138,"pole":"low","cluster":1,"mode":"Past-tense 'was' after a child subject in stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about happy events"}
+{"neuron":11405,"pole":"high","cluster":0,"mode":"First-person 'I' in candid, opinionated narration","scene_windows":0,"windows":5,"scene":"Blunt first-person dialogue and narration"}
+{"neuron":11405,"pole":"high","cluster":1,"mode":"Word-fragment token splitting a word mid-stem","scene_windows":0,"windows":5,"scene":"Science and philosophy prose with word fragments"}
+{"neuron":11405,"pole":"low","cluster":0,"mode":"Digits or characters inside citations and tables","scene_windows":0,"windows":5,"scene":"Bibliographies, tables, and reference text"}
+{"neuron":11405,"pole":"low","cluster":1,"mode":"Sentence-ending period or 'was/were' in simple narration","scene_windows":0,"windows":5,"scene":"Simple children's stories about characters' feelings"}
+{"neuron":6290,"pole":"high","cluster":0,"mode":"Narrative tokens in a character's tense decision moments","scene_windows":0,"windows":5,"scene":"Tense internal narration about challenges and family"}
+{"neuron":6290,"pole":"high","cluster":1,"mode":"Period before a new 'user:' or assistant turn","scene_windows":0,"windows":5,"scene":"Chatbot conversations on business and sports"}
+{"neuron":6290,"pole":"low","cluster":0,"mode":"Possessive 'your' or 'my' in advice instructions","scene_windows":0,"windows":5,"scene":"How-to advice for offices and campaigns"}
+{"neuron":6290,"pole":"low","cluster":1,"mode":"Contrastive 'but' linking clauses in narration","scene_windows":0,"windows":5,"scene":"Reflective or narrative contrast passages"}
+{"neuron":6290,"pole":"low","cluster":2,"mode":"Character nouns or names as story subjects","scene_windows":0,"windows":5,"scene":"Short children's stories about a girl or friends"}
+{"neuron":1394,"pole":"high","cluster":0,"mode":"Pronoun 'I' or 'you' in relative clauses in narration","scene_windows":0,"windows":5,"scene":"Dark first-person narration and horror"}
+{"neuron":1394,"pole":"high","cluster":1,"mode":"Name fragments or words within lists and trivia","scene_windows":0,"windows":5,"scene":"Trivia, biographies, and song lyrics"}
+{"neuron":1394,"pole":"high","cluster":2,"mode":"Sentence-ending period after emotional or tense clauses","scene_windows":0,"windows":5,"scene":"Tense escape and fear narration"}
+{"neuron":1394,"pole":"high","cluster":3,"mode":"Nouns for feelings or light within intense descriptions","scene_windows":0,"windows":5,"scene":"Intense sensory and emotional descriptive scenes"}
+{"neuron":1394,"pole":"low","cluster":0,"mode":"Verb 'was' in the formulaic 'Once upon a time, there was'","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":1394,"pole":"low","cluster":1,"mode":"'and' or 'was' linking clauses about child characters","scene_windows":0,"windows":5,"scene":"Simple children's stories about sharing and feelings"}
+{"neuron":1394,"pole":"low","cluster":2,"mode":"Article 'a' after 'there was' in story openings","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":144,"pole":"high","cluster":0,"mode":"Object pronoun or noun at a tense standoff moment","scene_windows":0,"windows":5,"scene":"Tense confrontations and standoffs in fiction"}
+{"neuron":144,"pole":"high","cluster":1,"mode":"Abstract noun naming an obstacle or threat","scene_windows":0,"windows":5,"scene":"Discussions of problems, slang, and global threats"}
+{"neuron":144,"pole":"low","cluster":0,"mode":"Clause-linking 'and' or subject 'He' in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's adventure stories"}
+{"neuron":144,"pole":"low","cluster":1,"mode":"Sentence-ending period in simple story narration","scene_windows":0,"windows":5,"scene":"Simple children's stories about exploring"}
+{"neuron":144,"pole":"low","cluster":2,"mode":"Name or word-initial fragment at start of token","scene_windows":0,"windows":5,"scene":"Mixed story and dialogue fragments"}
+{"neuron":144,"pole":"low","cluster":3,"mode":"Preposition 'at' or 'to' after a verb of looking","scene_windows":0,"windows":5,"scene":"Reflective and tense narration about characters"}
+{"neuron":144,"pole":"low","cluster":4,"mode":"Sentence-ending period or question mark in narration","scene_windows":0,"windows":5,"scene":"Narration with beg or ritual moments"}

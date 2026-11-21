@@ -1,0 +1,58 @@
+{"neuron":3572,"pole":"high","cluster":0,"mode":"connecting ideas and elements with 'and'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"high","cluster":1,"mode":"describing positive sensory experiences and outcomes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"high","cluster":2,"mode":"describing positive sensory experiences and outcomes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"high","cluster":3,"mode":"describing positive emotional states and feelings","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"high","cluster":4,"mode":"describing negative emotional states and feelings","scene_windows":4,"windows":5,"scene":"childhood disappointment"}
+{"neuron":3572,"pole":"high","cluster":5,"mode":"describing positive emotional states and feelings","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"high","cluster":6,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"high","cluster":7,"mode":"describing abstract concepts and states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"high","cluster":8,"mode":"using punctuation for pauses or connections","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"low","cluster":0,"mode":"describing states of being and past events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"low","cluster":1,"mode":"referring to plural subjects and their actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"low","cluster":2,"mode":"referring to negative or unpleasant qualities","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3572,"pole":"low","cluster":3,"mode":"describing actions of movement and exploration","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2541,"pole":"high","cluster":0,"mode":"referring to names of people","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2541,"pole":"high","cluster":1,"mode":"indicating origin or source of something","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2541,"pole":"high","cluster":2,"mode":"describing states of being and relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2541,"pole":"high","cluster":3,"mode":"indicating purpose or direction of action","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2541,"pole":"low","cluster":0,"mode":"indicating purpose or direction of action","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2541,"pole":"low","cluster":1,"mode":"describing locations of activity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2541,"pole":"low","cluster":2,"mode":"referring to names of people or places","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11876,"pole":"high","cluster":0,"mode":"referring to people, places, or things","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11876,"pole":"high","cluster":1,"mode":"indicating possession or belonging","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11876,"pole":"low","cluster":0,"mode":"indicating purpose or direction of action","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11876,"pole":"low","cluster":1,"mode":"describing states of being and past events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11876,"pole":"low","cluster":2,"mode":"referring to time and sequence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"high","cluster":0,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"high","cluster":1,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"low","cluster":0,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"low","cluster":1,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"low","cluster":2,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"low","cluster":3,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"low","cluster":4,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"low","cluster":5,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9395,"pole":"low","cluster":6,"mode":"pronouns referring to a character's actions or discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5763,"pole":"high","cluster":0,"mode":"descriptive terms for objects and materials","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5763,"pole":"high","cluster":1,"mode":"numbers and abbreviations in citations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5763,"pole":"high","cluster":2,"mode":"food items and cooking terms","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5763,"pole":"high","cluster":3,"mode":"descriptive terms for experiences and states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5763,"pole":"high","cluster":4,"mode":"verbs and conjunctions related to learning and communication","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5763,"pole":"low","cluster":0,"mode":"pronouns and descriptive terms for objects","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5763,"pole":"low","cluster":1,"mode":"verbs and conjunctions related to desire and action","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1528,"pole":"high","cluster":0,"mode":"referring to pronouns and their context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1528,"pole":"high","cluster":1,"mode":"referring to parts of animals or things","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1528,"pole":"low","cluster":0,"mode":"referring to pronouns and their context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1528,"pole":"low","cluster":1,"mode":"referring to conjunctions and their context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7340,"pole":"high","cluster":0,"mode":"describing states of being and past events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7340,"pole":"high","cluster":1,"mode":"describing actions of playing and enjoyment","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7340,"pole":"low","cluster":0,"mode":"referring to nationalities or origins","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7340,"pole":"low","cluster":1,"mode":"referring to names of people","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7340,"pole":"low","cluster":2,"mode":"referring to people or abstract concepts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"high","cluster":0,"mode":"referring to definite articles and their context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"high","cluster":1,"mode":"referring to names of people or places","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"high","cluster":2,"mode":"referring to pronouns and their context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"high","cluster":3,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"high","cluster":4,"mode":"referring to people and their relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"high","cluster":5,"mode":"using punctuation for pauses or connections","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"low","cluster":0,"mode":"referring to pronouns and their context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11480,"pole":"low","cluster":1,"mode":"referring to negation and absence","scene_windows":0,"windows":5,"scene":"neutral narration"}

@@ -10,6 +10,8 @@
 - GPU stages (harvest, modes) stop the run cleanly on a machine without CUDA; rerun there with a GPU, or continue the
   CPU stages (judge, report) elsewhere from the pushed checkpoints.
 - Inside a stage, the harvest reuses a saved corpus pass and the judge skips finished batch files.
+- `pipeline.redo` runs stages again. Deleting local files is not enough with S3: the pull at the start restores them.
+  - A redone judge stage keeps finished files and re-asks only files with missing clusters.
 """
 
 import json
@@ -142,6 +144,8 @@ def run_pipeline(cfg: ModesRunConfig) -> list[str]:
     torch.set_grad_enabled(False)
     t_start = time.time()
     pull_results(cfg)
+    for name in cfg.pipeline.redo:  # after the pull: S3 would otherwise bring the markers back
+        marker_path(cfg, name).unlink(missing_ok=True)
     ran = []
     for stage in STAGES:
         if is_done(cfg, stage):

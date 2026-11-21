@@ -1,0 +1,46 @@
+{"neuron":11722,"pole":"high","cluster":0,"mode":"marked token indicates the beginning of an action or a change in state","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":11722,"pole":"high","cluster":1,"mode":"marked token indicates a negative event or realization","scene_windows":0,"windows":5,"scene":"negative events and realizations"}
+{"neuron":11722,"pole":"low","cluster":0,"mode":"marked token indicates a prepositional phrase or conjunction","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11722,"pole":"low","cluster":1,"mode":"marked token indicates the end or completion of an action","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":3092,"pole":"high","cluster":0,"mode":"marked token indicates a location or a group of people","scene_windows":0,"windows":5,"scene":"social interaction and settings"}
+{"neuron":3092,"pole":"high","cluster":1,"mode":"marked token indicates a pause or a transition","scene_windows":0,"windows":5,"scene":"narrative transition"}
+{"neuron":3092,"pole":"low","cluster":0,"mode":"marked token indicates a number or a list item","scene_windows":0,"windows":5,"scene":"instructional or informational text"}
+{"neuron":3092,"pole":"low","cluster":1,"mode":"marked token indicates a partial word or abbreviation","scene_windows":0,"windows":5,"scene":"incomplete words"}
+{"neuron":6305,"pole":"high","cluster":0,"mode":"marked token indicates a conjunction or pronoun starting a clause","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":6305,"pole":"high","cluster":1,"mode":"marked token indicates a verb expressing liking or preference","scene_windows":0,"windows":5,"scene":"positive emotions and preferences"}
+{"neuron":6305,"pole":"low","cluster":0,"mode":"marked token indicates an indefinite article","scene_windows":0,"windows":5,"scene":"narrative introduction"}
+{"neuron":6305,"pole":"low","cluster":1,"mode":"marked token indicates a verb or noun related to state or condition","scene_windows":0,"windows":5,"scene":"description of state"}
+{"neuron":6305,"pole":"low","cluster":2,"mode":"marked token indicates a verb of perception","scene_windows":0,"windows":5,"scene":"observation and discovery"}
+{"neuron":5828,"pole":"high","cluster":0,"mode":"marked token indicates a pronoun or conjunction","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":5828,"pole":"high","cluster":1,"mode":"marked token indicates a pronoun or conjunction","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":5828,"pole":"low","cluster":0,"mode":"marked token indicates a verb or noun related to action or state","scene_windows":0,"windows":5,"scene":"action and reaction"}
+{"neuron":5828,"pole":"low","cluster":1,"mode":"marked token indicates a pronoun","scene_windows":0,"windows":5,"scene":"personal statements"}
+{"neuron":5828,"pole":"low","cluster":2,"mode":"marked token indicates a conjunction or preposition","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":5828,"pole":"low","cluster":3,"mode":"marked token indicates a question word or punctuation","scene_windows":0,"windows":5,"scene":"dialogue and questions"}
+{"neuron":5828,"pole":"low","cluster":4,"mode":"marked token indicates a conjunction or adverb","scene_windows":0,"windows":5,"scene":"narrative transition"}
+{"neuron":11226,"pole":"high","cluster":0,"mode":"marked token indicates a partial word or abbreviation","scene_windows":0,"windows":5,"scene":"technical or academic text"}
+{"neuron":11226,"pole":"high","cluster":1,"mode":"marked token indicates a verb expressing emotion or reaction","scene_windows":0,"windows":5,"scene":"positive emotional responses"}
+{"neuron":11226,"pole":"high","cluster":2,"mode":"marked token indicates a proper noun (name)","scene_windows":0,"windows":5,"scene":"character introduction"}
+{"neuron":11226,"pole":"high","cluster":3,"mode":"marked token indicates a verb of speaking","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":11226,"pole":"high","cluster":4,"mode":"marked token indicates a pronoun or conjunction","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":11226,"pole":"high","cluster":5,"mode":"marked token indicates a noun related to food or ingredients","scene_windows":0,"windows":5,"scene":"recipe or food description"}
+{"neuron":11226,"pole":"high","cluster":6,"mode":"marked token indicates a noun related to location or object","scene_windows":0,"windows":5,"scene":"description of place or object"}
+{"neuron":11226,"pole":"high","cluster":7,"mode":"marked token indicates a pronoun or adverb","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":11226,"pole":"low","cluster":0,"mode":"marked token indicates a partial word or conjunction","scene_windows":0,"windows":5,"scene":"negative emotional states"}
+{"neuron":11226,"pole":"low","cluster":1,"mode":"marked token indicates a verb of motion","scene_windows":0,"windows":5,"scene":"playful action"}
+{"neuron":4759,"pole":"high","cluster":0,"mode":"marked token indicates a noun or pronoun","scene_windows":0,"windows":5,"scene":"discussion and interaction"}
+{"neuron":4759,"pole":"high","cluster":1,"mode":"marked token indicates a quotation mark or dialogue starter","scene_windows":0,"windows":5,"scene":"dialogue and emotion"}
+{"neuron":4759,"pole":"low","cluster":0,"mode":"marked token indicates a preposition","scene_windows":0,"windows":5,"scene":"contextual information"}
+{"neuron":4759,"pole":"low","cluster":1,"mode":"marked token indicates punctuation","scene_windows":0,"windows":5,"scene":"declarative statements"}
+{"neuron":4759,"pole":"low","cluster":2,"mode":"marked token indicates a noun or conjunction","scene_windows":0,"windows":5,"scene":"internal thoughts and feelings"}
+{"neuron":8713,"pole":"high","cluster":0,"mode":"pronouns referring to the speaker or a potential future descendant","scene_windows":0,"windows":5,"scene":"uncertain future, potential threats"}
+{"neuron":8713,"pole":"high","cluster":1,"mode":"numbers indicating time, quantity, or order","scene_windows":0,"windows":5,"scene":"historical accounts, planning, future hopes"}
+{"neuron":8713,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating personal experience or concession","scene_windows":0,"windows":5,"scene":"personal reflection, difficult situations"}
+{"neuron":8713,"pole":"low","cluster":1,"mode":"introductory phrase for fairy tales","scene_windows":0,"windows":5,"scene":"storytelling, simple narratives"}
+{"neuron":10625,"pole":"high","cluster":0,"mode":"marked token indicates a pronoun","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":10625,"pole":"high","cluster":1,"mode":"marked token indicates a conjunction or adverb","scene_windows":0,"windows":5,"scene":"uncertainty and challenges"}
+{"neuron":10625,"pole":"high","cluster":2,"mode":"marked token indicates a proper noun (name)","scene_windows":0,"windows":5,"scene":"specific locations or entities"}
+{"neuron":10625,"pole":"high","cluster":3,"mode":"marked token indicates a conjunction","scene_windows":0,"windows":5,"scene":"dialogue and negotiation"}
+{"neuron":10625,"pole":"high","cluster":4,"mode":"marked token indicates a conjunction or adverb","scene_windows":0,"windows":5,"scene":"narrative transition"}
+{"neuron":10625,"pole":"low","cluster":0,"mode":"marked token indicates a pronoun or conjunction","scene_windows":0,"windows":5,"scene":"personal distress"}
+{"neuron":10625,"pole":"low","cluster":1,"mode":"marked token indicates a pronoun or conjunction","scene_windows":0,"windows":5,"scene":"narrative introduction"}

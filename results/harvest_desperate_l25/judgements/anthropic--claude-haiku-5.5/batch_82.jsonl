@@ -1,0 +1,65 @@
+{"neuron":2923,"pole":"high","cluster":0,"mode":"Indefinite article 'a' in predicate or role descriptions","scene_windows":0,"windows":5,"scene":"Casual narration and dialogue describing people's roles"}
+{"neuron":2923,"pole":"high","cluster":1,"mode":"Names, numbers and adjectives inside citations and encyclopedic text","scene_windows":0,"windows":5,"scene":"Bibliographies and encyclopedic or historical reference text"}
+{"neuron":2923,"pole":"high","cluster":2,"mode":"Nouns or adjectives completing noun phrases in plain narrative","scene_windows":0,"windows":5,"scene":"Calm narrative passages, a wedding, a crew's isolation"}
+{"neuron":2923,"pole":"high","cluster":3,"mode":"The word 'like' introducing a simile or comparison","scene_windows":0,"windows":5,"scene":"Narration comparing feelings or actions to other things"}
+{"neuron":2923,"pole":"low","cluster":0,"mode":"Quote marks and punctuation closing tense dialogue lines","scene_windows":2,"windows":5,"scene":"Urgent arguments and interviews during an apocalyptic crisis"}
+{"neuron":2923,"pole":"low","cluster":1,"mode":"Citation and bibliography tokens in reference lists","scene_windows":0,"windows":5,"scene":"Academic references and bibliographic metadata"}
+{"neuron":2923,"pole":"low","cluster":2,"mode":"Policy and social nouns such as community, problem, procedures","scene_windows":0,"windows":5,"scene":"Expository articles on health, waste and communities"}
+{"neuron":2923,"pole":"low","cluster":3,"mode":"Concrete object nouns like shell, cup and rock in stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about found objects"}
+{"neuron":2923,"pole":"low","cluster":4,"mode":"Negation contractions like didn't, couldn't, can't","scene_windows":1,"windows":5,"scene":"Personal and children's narratives about being unable"}
+{"neuron":2923,"pole":"low","cluster":5,"mode":"Subject pronouns and quotes at dialogue turn boundaries","scene_windows":0,"windows":5,"scene":"Tense first-person dialogue scenes with awkward reactions"}
+{"neuron":9983,"pole":"high","cluster":0,"mode":"Code, markup and technical syntax tokens","scene_windows":0,"windows":5,"scene":"Programming help and technical instructions"}
+{"neuron":9983,"pole":"high","cluster":1,"mode":"Digits and fragments inside citations and identifiers","scene_windows":0,"windows":5,"scene":"Reference lists and technical citations"}
+{"neuron":9983,"pole":"high","cluster":2,"mode":"Sentence-initial 'I' starting first-person narrative clauses","scene_windows":1,"windows":5,"scene":"First-person tense confrontations and vows of action"}
+{"neuron":9983,"pole":"high","cluster":3,"mode":"Concrete nouns and objects in action or wonder scenes","scene_windows":1,"windows":5,"scene":"Fantasy and adventure scenes with objects and escapes"}
+{"neuron":9983,"pole":"low","cluster":0,"mode":"Possessive pronouns his and her in narration","scene_windows":0,"windows":5,"scene":"Everyday third-person narration of errands and routines"}
+{"neuron":9983,"pole":"low","cluster":1,"mode":"Proper-name fragments and names of places or groups","scene_windows":0,"windows":5,"scene":"Encyclopedic and trivia text about names and places"}
+{"neuron":9983,"pole":"low","cluster":2,"mode":"Adjectives and word fragments in descriptive narrative","scene_windows":0,"windows":5,"scene":"Descriptive prose about bodies, objects and routines"}
+{"neuron":9983,"pole":"low","cluster":3,"mode":"Body and emotion verbs describing reactions","scene_windows":0,"windows":5,"scene":"Reflective narration of reactions and memories"}
+{"neuron":751,"pole":"high","cluster":0,"mode":"Article 'a' or 'are' inside combat or danger narration","scene_windows":2,"windows":5,"scene":"Wartime attacks and frantic escapes from enemies"}
+{"neuron":751,"pole":"high","cluster":1,"mode":"Indefinite article 'a' introducing a sudden event","scene_windows":0,"windows":5,"scene":"Children's stories with sudden surprising events"}
+{"neuron":751,"pole":"low","cluster":0,"mode":"Character pronouns and names as sentence subjects","scene_windows":0,"windows":5,"scene":"Simple children's stories about siblings and animals"}
+{"neuron":751,"pole":"low","cluster":1,"mode":"Numbers and function words in historical or scholarly text","scene_windows":0,"windows":5,"scene":"Historical and scholarly reference passages"}
+{"neuron":6667,"pole":"high","cluster":0,"mode":"The auxiliary 'had' after a character's happy experience","scene_windows":0,"windows":5,"scene":"Children's stories about fun and pride"}
+{"neuron":6667,"pole":"high","cluster":1,"mode":"The verb 'said' introducing a character's speech","scene_windows":0,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":6667,"pole":"high","cluster":2,"mode":"Conjunction 'and' or 'they' after characters' actions","scene_windows":0,"windows":5,"scene":"Children's stories about kindness and helping"}
+{"neuron":6667,"pole":"high","cluster":3,"mode":"Closing quotation marks ending dialogue lines","scene_windows":0,"windows":5,"scene":"Dialogue exchanges in fantasy or sci-fi stories"}
+{"neuron":6667,"pole":"low","cluster":0,"mode":"Full stops ending cheerful children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about play and fun"}
+{"neuron":6667,"pole":"low","cluster":1,"mode":"Contrast words but, before, if after hardship","scene_windows":2,"windows":5,"scene":"Tense survival or escape narration under pressure"}
+{"neuron":6667,"pole":"low","cluster":2,"mode":"Verbs and particles of chores like clean up and dry","scene_windows":0,"windows":5,"scene":"Children's stories about household chores"}
+{"neuron":11880,"pole":"high","cluster":0,"mode":"The conjunction 'and' linking character actions","scene_windows":0,"windows":5,"scene":"Children's stories and simple action narration"}
+{"neuron":11880,"pole":"high","cluster":1,"mode":"Punctuation and conjunctions in step-by-step instructions","scene_windows":0,"windows":5,"scene":"Recipes and how-to instructions"}
+{"neuron":11880,"pole":"low","cluster":0,"mode":"The verb 'started' before an action begins","scene_windows":0,"windows":5,"scene":"Children's stories about starting activities"}
+{"neuron":11880,"pole":"low","cluster":1,"mode":"The speech verb 'said' after a character's name","scene_windows":0,"windows":5,"scene":"Children's dialogue stories"}
+{"neuron":11880,"pole":"low","cluster":2,"mode":"Body parts and nouns in distressed sensory narration","scene_windows":1,"windows":5,"scene":"Dark, unsettling first-person narration"}
+{"neuron":11880,"pole":"low","cluster":3,"mode":"Conjunction 'and' inside grim or chaotic descriptions","scene_windows":1,"windows":5,"scene":"Chaotic, grim scenes of crisis and decay"}
+{"neuron":11880,"pole":"low","cluster":4,"mode":"Smile and laugh verbs ending happy moments","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about friends"}
+{"neuron":11880,"pole":"low","cluster":5,"mode":"Word-start fragments in dramatic literary sentences","scene_windows":0,"windows":5,"scene":"Dramatic literary narration of dark moments"}
+{"neuron":11880,"pole":"low","cluster":6,"mode":"Code comment and syntax tokens in programming","scene_windows":0,"windows":5,"scene":"Programming tutorials and code explanations"}
+{"neuron":8647,"pole":"high","cluster":0,"mode":"Step numbers in recipe and instruction lists","scene_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":8647,"pole":"high","cluster":1,"mode":"Possessive 'Her' or 's' before a family member","scene_windows":0,"windows":5,"scene":"Children's stories about family members"}
+{"neuron":8647,"pole":"high","cluster":2,"mode":"Comma after 'One day' opening a story event","scene_windows":0,"windows":5,"scene":"Simple children's story openings"}
+{"neuron":8647,"pole":"high","cluster":3,"mode":"Closing quote after a question or speech in children's stories","scene_windows":0,"windows":5,"scene":"Parent-child dialogue in simple stories"}
+{"neuron":8647,"pole":"high","cluster":4,"mode":"Commas and quote marks inside emotional speech","scene_windows":1,"windows":5,"scene":"Pleading speech and gentle family dialogue"}
+{"neuron":8647,"pole":"high","cluster":5,"mode":"The word 'mom' as a family reference","scene_windows":0,"windows":5,"scene":"Children's stories about mom and home"}
+{"neuron":8647,"pole":"high","cluster":6,"mode":"Mom or Dad as direct address","scene_windows":0,"windows":5,"scene":"Family dialogue in simple children's stories"}
+{"neuron":8647,"pole":"high","cluster":7,"mode":"Full stops ending short simple story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about outings"}
+{"neuron":8647,"pole":"high","cluster":8,"mode":"Quote marks and spacing closing speech in stories","scene_windows":0,"windows":5,"scene":"Children's dialogue with mothers"}
+{"neuron":8647,"pole":"low","cluster":0,"mode":"Character nouns like girl, baby and Bob as subjects","scene_windows":0,"windows":5,"scene":"Children's stories about outings and food"}
+{"neuron":8647,"pole":"low","cluster":1,"mode":"Conjunctions and prepositions in scholarly citations","scene_windows":0,"windows":5,"scene":"Academic and reference text"}
+{"neuron":8647,"pole":"low","cluster":2,"mode":"Article 'the' before place nouns like park","scene_windows":0,"windows":5,"scene":"Simple stories about going to places"}
+{"neuron":8647,"pole":"low","cluster":3,"mode":"Possessive 's and her after loss-related nouns","scene_windows":0,"windows":5,"scene":"Reflective narration about loss and family"}
+{"neuron":8647,"pole":"low","cluster":4,"mode":"Possessive 'his' or 'her' before a parent noun","scene_windows":0,"windows":5,"scene":"Children asking parents for things"}
+{"neuron":1024,"pole":"high","cluster":0,"mode":"Advisory words like any, offer, including in guidance","scene_windows":0,"windows":5,"scene":"Advice on services, sales and organizations"}
+{"neuron":1024,"pole":"high","cluster":1,"mode":"Sentence-initial 'It' or punctuation in tense narration","scene_windows":1,"windows":5,"scene":"Tense scenes of a robbery or emotional crisis"}
+{"neuron":1024,"pole":"low","cluster":0,"mode":"Ordinary function words ending dialogue or description","scene_windows":0,"windows":5,"scene":"Mixed fiction and dialogue passages"}
+{"neuron":1024,"pole":"low","cluster":1,"mode":"Verbs like help and adjust in marketing tips","scene_windows":0,"windows":5,"scene":"Social media and marketing advice lists"}
+{"neuron":2520,"pole":"high","cluster":0,"mode":"Name fragments and word-internal splits in narrative","scene_windows":0,"windows":5,"scene":"Children's and fable narratives with characters"}
+{"neuron":2520,"pole":"high","cluster":1,"mode":"Closing quote marks after emotional statements","scene_windows":1,"windows":5,"scene":"Tense dialogue about danger and self-defense"}
+{"neuron":2520,"pole":"high","cluster":2,"mode":"Proper-name fragments starting place or river names","scene_windows":0,"windows":5,"scene":"Historical and travel descriptions of places"}
+{"neuron":2520,"pole":"high","cluster":3,"mode":"Sentence-initial 'I' in first-person resolve passages","scene_windows":2,"windows":5,"scene":"Desperate first-person vows during danger and loss"}
+{"neuron":2520,"pole":"high","cluster":4,"mode":"Nutrient and medical terms preceding 'supports' or 'as'","scene_windows":0,"windows":5,"scene":"Medical and nutrition informational text"}
+{"neuron":2520,"pole":"low","cluster":0,"mode":"Sentence-ending periods in product and lifestyle copy","scene_windows":0,"windows":5,"scene":"Guides on home, food and lifestyle"}
+{"neuron":2520,"pole":"low","cluster":1,"mode":"Verbs and adjectives in simple story narration","scene_windows":0,"windows":5,"scene":"Simple children's stories about games and parks"}
+{"neuron":2520,"pole":"low","cluster":2,"mode":"Mid-word or key term in clinical medical text about procedures and complications","scene_windows":0,"windows":5,"scene":"Clinical descriptions of surgical procedures and complications"}
+{"neuron":2520,"pole":"low","cluster":3,"mode":"Tokens inside bibliographic citations, DOIs, and reference-list fragments","scene_windows":0,"windows":5,"scene":"Academic and medical reference lists and citations"}

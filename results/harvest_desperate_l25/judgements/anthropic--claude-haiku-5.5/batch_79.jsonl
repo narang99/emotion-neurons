@@ -1,0 +1,54 @@
+{"neuron":4447,"pole":"high","cluster":0,"mode":"Numeric or citation fragments inside reference-style or listing text","scene_windows":0,"windows":5,"scene":"Citations, course listings, and funding or grade figures"}
+{"neuron":4447,"pole":"high","cluster":1,"mode":"Food, cocktail and ingredient words in recipes or descriptions","scene_windows":0,"windows":5,"scene":"Cocktail recipes and cooking ingredient lists"}
+{"neuron":4447,"pole":"high","cluster":2,"mode":"Emotional reaction words such as afraid, shock, panic, bewildered","scene_windows":1,"windows":5,"scene":"Fear, panic and startled reactions in narrative passages"}
+{"neuron":4447,"pole":"high","cluster":3,"mode":"Sentence-ending gap before a sudden tense plot turn","scene_windows":1,"windows":5,"scene":"Tense narrative moments with crashes, wakings and suspense"}
+{"neuron":4447,"pole":"low","cluster":0,"mode":"Full stops ending simple sentences in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's bedtime-style stories"}
+{"neuron":4447,"pole":"low","cluster":1,"mode":"Subject pronouns starting sentences in simple narratives","scene_windows":0,"windows":5,"scene":"Simple stories about children, animals and outings"}
+{"neuron":4447,"pole":"low","cluster":2,"mode":"Nouns and pronouns about characters in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about parties, pets and friends"}
+{"neuron":4447,"pole":"low","cluster":3,"mode":"Numbers and measurements in factual or statistical text","scene_windows":0,"windows":5,"scene":"Statistics, temperatures, prices and health facts"}
+{"neuron":10948,"pole":"high","cluster":0,"mode":"Emotive nouns like fear, idea, cuddle, dragon in story text","scene_windows":1,"windows":5,"scene":"Fantasy and personal narrative with fear or whimsy"}
+{"neuron":10948,"pole":"high","cluster":1,"mode":"Sentence-ending periods or punctuation before a user turn","scene_windows":0,"windows":5,"scene":"Chatbot dialogue turns closing an assistant answer"}
+{"neuron":10948,"pole":"low","cluster":0,"mode":"Function words in recipe instructions and ingredient lists","scene_windows":0,"windows":5,"scene":"Recipes with toppings, seasoning and prep steps"}
+{"neuron":10948,"pole":"low","cluster":1,"mode":"Numbers and tokens inside medical or statistical sentences","scene_windows":0,"windows":5,"scene":"Medical study results and energy statistics"}
+{"neuron":10948,"pole":"low","cluster":2,"mode":"Full stops ending short sentences in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about trips and play"}
+{"neuron":10948,"pole":"low","cluster":3,"mode":"Topic nouns like team, company, career, podcast in descriptions","scene_windows":0,"windows":5,"scene":"Course, job and content descriptions"}
+{"neuron":10948,"pole":"low","cluster":4,"mode":"Possessive pronouns his or her after prepositions or verbs","scene_windows":0,"windows":5,"scene":"Children's stories about family members and chores"}
+{"neuron":10948,"pole":"low","cluster":5,"mode":"Subject pronoun I or he starting a clause in tense narration","scene_windows":2,"windows":5,"scene":"Tense first-person scenes of struggle or exhaustion"}
+{"neuron":10948,"pole":"low","cluster":6,"mode":"Name fragments and proper nouns mid-word in text","scene_windows":0,"windows":5,"scene":"News, reviews and dialogue with names"}
+{"neuron":9106,"pole":"high","cluster":0,"mode":"Pronouns and verbs after descriptive or reflective clauses","scene_windows":0,"windows":5,"scene":"Narrative descriptions of places and wary observation"}
+{"neuron":9106,"pole":"high","cluster":1,"mode":"Colon after assistant token introducing an answer","scene_windows":0,"windows":5,"scene":"Chatbot coding and explanation dialogues"}
+{"neuron":9106,"pole":"low","cluster":0,"mode":"Periods closing claims about statistics or descriptions","scene_windows":0,"windows":5,"scene":"Graduation rates, school policy and landscape descriptions"}
+{"neuron":9106,"pole":"low","cluster":1,"mode":"Ingredient and step punctuation in recipe lists","scene_windows":0,"windows":5,"scene":"Recipes for tacos, sauces and tofu dishes"}
+{"neuron":9106,"pole":"low","cluster":2,"mode":"Citation fragments and proper names in bibliographies","scene_windows":0,"windows":5,"scene":"Reference lists and bibliographic entries"}
+{"neuron":9106,"pole":"low","cluster":3,"mode":"Question marks and periods closing tense dialogue lines","scene_windows":2,"windows":5,"scene":"Tense dialogue with pleading or threats"}
+{"neuron":9106,"pole":"low","cluster":4,"mode":"Subject pronouns starting clauses in simple narratives","scene_windows":0,"windows":5,"scene":"Children's stories and action narration"}
+{"neuron":9559,"pole":"high","cluster":0,"mode":"Nouns closing emotional or dramatic phrases in narration","scene_windows":2,"windows":5,"scene":"Dramatic narration about power, hurt and confrontation"}
+{"neuron":9559,"pole":"high","cluster":1,"mode":"Code tokens like operators, brackets and command fragments","scene_windows":0,"windows":5,"scene":"Programming code in Tcl, assembly and shell"}
+{"neuron":9559,"pole":"low","cluster":0,"mode":"Closing brackets and indentation in code snippets","scene_windows":0,"windows":5,"scene":"PHP, Ruby and shell code examples"}
+{"neuron":9559,"pole":"low","cluster":1,"mode":"Word-internal fragments split across tokens","scene_windows":0,"windows":5,"scene":"Animal facts and split-word text"}
+{"neuron":9559,"pole":"low","cluster":2,"mode":"Pronouns and nouns about people in narrative clauses","scene_windows":0,"windows":5,"scene":"Narratives about people, rooms and moods"}
+{"neuron":10172,"pole":"high","cluster":0,"mode":"Commas and nouns closing narrative clauses in stories","scene_windows":1,"windows":5,"scene":"Children's stories and a rescue moment"}
+{"neuron":10172,"pole":"high","cluster":1,"mode":"Possessive pronouns his or her before bedroom or home nouns","scene_windows":0,"windows":5,"scene":"Simple children's stories about home and routines"}
+{"neuron":10172,"pole":"low","cluster":0,"mode":"Units and numbers in water quality measurements","scene_windows":0,"windows":5,"scene":"Environmental water pollution study figures"}
+{"neuron":10172,"pole":"low","cluster":1,"mode":"Code tokens and method-description words","scene_windows":0,"windows":5,"scene":"Code explanations and program descriptions"}
+{"neuron":10172,"pole":"low","cluster":2,"mode":"Clause-linking words in tense first-person narration","scene_windows":1,"windows":5,"scene":"Tense narration about hidden burdens or failures"}
+{"neuron":10172,"pole":"low","cluster":3,"mode":"Citation and place-name fragments in references","scene_windows":0,"windows":5,"scene":"Medical references and news-style facts"}
+{"neuron":8556,"pole":"high","cluster":0,"mode":"Clause-boundary tokens in tense dramatic narration","scene_windows":2,"windows":5,"scene":"Tense scenes of threat, hurt and escape"}
+{"neuron":8556,"pole":"high","cluster":1,"mode":"Preposition 'in' after location verbs in children's stories","scene_windows":0,"windows":5,"scene":"Simple stories about parks and places"}
+{"neuron":8556,"pole":"low","cluster":0,"mode":"Was, puppy, cat as subjects in simple stories","scene_windows":0,"windows":5,"scene":"Children's stories about rescuing animals"}
+{"neuron":8556,"pole":"low","cluster":1,"mode":"Opening quotation marks starting dialogue lines","scene_windows":1,"windows":5,"scene":"Tense dialogue with confrontation or fear"}
+{"neuron":8556,"pole":"low","cluster":2,"mode":"Sentence-starting pronouns after shock or pain","scene_windows":2,"windows":5,"scene":"Aftermath scenes of injury, loss of control, pain"}
+{"neuron":8556,"pole":"low","cluster":3,"mode":"Conjunction 'and' linking actions in children's stories","scene_windows":0,"windows":5,"scene":"Simple stories about play and arguments"}
+{"neuron":8556,"pole":"low","cluster":4,"mode":"Breath, down, and out after exhausted physical actions","scene_windows":1,"windows":5,"scene":"Exhausted characters after struggle or fall"}
+{"neuron":8556,"pole":"low","cluster":5,"mode":"Health tips and sports nutrition advice fragments","scene_windows":0,"windows":5,"scene":"Hydration and athletic health advice"}
+{"neuron":11868,"pole":"high","cluster":0,"mode":"Pronoun She or He starting a character description","scene_windows":0,"windows":5,"scene":"Story openings introducing a main character"}
+{"neuron":11868,"pole":"high","cluster":1,"mode":"The word 'there' in 'Once upon a time' openings","scene_windows":0,"windows":5,"scene":"Fairy-tale story openings"}
+{"neuron":11868,"pole":"low","cluster":0,"mode":"Self-blame or pleading phrases in emotional dialogue","scene_windows":2,"windows":5,"scene":"Guilt, pleading and urgent reassurance dialogue"}
+{"neuron":11868,"pole":"low","cluster":1,"mode":"The word 'happy' after 'was so' in children's stories","scene_windows":0,"windows":5,"scene":"Happy endings in children's stories"}
+{"neuron":2519,"pole":"high","cluster":0,"mode":"Numbers and dashes in citations and page ranges","scene_windows":0,"windows":5,"scene":"Bibliographic references and page numbers"}
+{"neuron":2519,"pole":"high","cluster":1,"mode":"Nouns and conjunctions in craft or project steps","scene_windows":0,"windows":5,"scene":"Children's crafting, baking and repair stories"}
+{"neuron":2519,"pole":"low","cluster":0,"mode":"Object nouns and verbs in happy children's stories","scene_windows":0,"windows":5,"scene":"Children sharing and showing things to family"}
+{"neuron":2519,"pole":"low","cluster":1,"mode":"Ingredient and category nouns in food lists","scene_windows":0,"windows":5,"scene":"Marinades, spices and medical lists"}
+{"neuron":2519,"pole":"low","cluster":2,"mode":"Subject nouns and pronouns in gentle children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about cooking, clay and play"}
+{"neuron":2519,"pole":"low","cluster":3,"mode":"Abstract nouns in analytical or opinion prose","scene_windows":0,"windows":5,"scene":"Policy, nuclear and flu-season commentary"}
+{"neuron":2519,"pole":"low","cluster":4,"mode":"Sentence-ending periods in dialogue and tales","scene_windows":0,"windows":5,"scene":"Light fairy tales and friendly dialogue"}

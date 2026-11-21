@@ -1,0 +1,70 @@
+{"neuron":10595,"pole":"high","cluster":0,"mode":"creating visually appealing content and branding for millennials on social media","scene_windows":0,"windows":5,"scene":"marketing and branding strategy"}
+{"neuron":10595,"pole":"high","cluster":1,"mode":"excited characters saying something positive or declarative","scene_windows":0,"windows":5,"scene":"children's stories, positive interactions"}
+{"neuron":10595,"pole":"high","cluster":2,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":10595,"pole":"high","cluster":3,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":10595,"pole":"high","cluster":4,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":10595,"pole":"high","cluster":5,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":10595,"pole":"high","cluster":6,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":10595,"pole":"high","cluster":7,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":10595,"pole":"low","cluster":0,"mode":"past tense possession or existence of objects","scene_windows":0,"windows":5,"scene":"narration, description of objects"}
+{"neuron":10595,"pole":"low","cluster":1,"mode":"characters noticing or seeing something","scene_windows":0,"windows":5,"scene":"narration, observation"}
+{"neuron":10595,"pole":"low","cluster":2,"mode":"discovery of an object or entity","scene_windows":0,"windows":5,"scene":"discovery, finding something"}
+{"neuron":10595,"pole":"low","cluster":3,"mode":"referring to parts of speech or grammatical elements","scene_windows":0,"windows":5,"scene":"technical writing, grammar"}
+{"neuron":10595,"pole":"low","cluster":4,"mode":"ending punctuation in narrative or dialogue","scene_windows":0,"windows":5,"scene":"narration, dialogue ending"}
+{"neuron":10595,"pole":"low","cluster":5,"mode":"conjunctions connecting clauses or ideas","scene_windows":0,"windows":5,"scene":"narration, connecting ideas"}
+{"neuron":10595,"pole":"low","cluster":6,"mode":"pronouns referring to a male person, often in a moment of action or speech","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":10595,"pole":"low","cluster":7,"mode":"references to a mother figure, often in a nurturing context","scene_windows":0,"windows":5,"scene":"childhood and family"}
+{"neuron":7760,"pole":"high","cluster":0,"mode":"characters expressing sadness or distress","scene_windows":0,"windows":5,"scene":"emotional distress, sadness"}
+{"neuron":7760,"pole":"high","cluster":1,"mode":"pronouns referring to self or others in dialogue","scene_windows":0,"windows":5,"scene":"dialogue, personal reference"}
+{"neuron":7760,"pole":"low","cluster":0,"mode":"prepositions indicating location or manner","scene_windows":0,"windows":5,"scene":"narration, description"}
+{"neuron":7760,"pole":"low","cluster":1,"mode":"possessive pronouns or adjectives","scene_windows":0,"windows":5,"scene":"narration, description"}
+{"neuron":7760,"pole":"low","cluster":2,"mode":"question marks indicating direct questions","scene_windows":0,"windows":5,"scene":"dialogue, questioning"}
+{"neuron":7760,"pole":"low","cluster":3,"mode":"demonstrative pronouns or adjectives","scene_windows":0,"windows":5,"scene":"narration, pointing out"}
+{"neuron":7760,"pole":"low","cluster":4,"mode":"verbs indicating movement or action","scene_windows":0,"windows":5,"scene":"narration, action"}
+{"neuron":3888,"pole":"high","cluster":0,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":3888,"pole":"high","cluster":1,"mode":"characters speaking directly, often quoting or confirming","scene_windows":0,"windows":5,"scene":"dialogue, confirmation, direct speech"}
+{"neuron":3888,"pole":"high","cluster":2,"mode":"pronouns and verbs indicating existence or state","scene_windows":0,"windows":5,"scene":"narration, description of state"}
+{"neuron":3888,"pole":"low","cluster":0,"mode":"end punctuation in narrative or dialogue","scene_windows":0,"windows":5,"scene":"narration, dialogue ending"}
+{"neuron":3888,"pole":"low","cluster":1,"mode":"referring to parts of speech or grammatical elements","scene_windows":0,"windows":5,"scene":"technical writing, grammar"}
+{"neuron":3888,"pole":"low","cluster":2,"mode":"names of characters in dialogue","scene_windows":0,"windows":5,"scene":"dialogue, character names"}
+{"neuron":3888,"pole":"low","cluster":3,"mode":"dialogue markers indicating direct speech","scene_windows":0,"windows":5,"scene":"dialogue, direct speech"}
+{"neuron":7222,"pole":"high","cluster":0,"mode":"pronouns and conjunctions connecting clauses or ideas","scene_windows":0,"windows":5,"scene":"narration, connecting ideas"}
+{"neuron":7222,"pole":"high","cluster":1,"mode":"bibliographic citations and abbreviations","scene_windows":0,"windows":5,"scene":"academic writing, citations"}
+{"neuron":7222,"pole":"low","cluster":0,"mode":"elements of the environment","scene_windows":0,"windows":5,"scene":"narration, environmental description"}
+{"neuron":7222,"pole":"low","cluster":1,"mode":"verbs indicating action or activity","scene_windows":0,"windows":5,"scene":"narration, action"}
+{"neuron":11208,"pole":"high","cluster":0,"mode":"pronouns referring to people or groups","scene_windows":0,"windows":5,"scene":"instructions, advice"}
+{"neuron":11208,"pole":"high","cluster":1,"mode":"pronouns referring to self or others in dialogue","scene_windows":0,"windows":5,"scene":"dialogue, personal reference"}
+{"neuron":11208,"pole":"high","cluster":2,"mode":"objects or entities in a narrative","scene_windows":0,"windows":5,"scene":"narration, description of objects"}
+{"neuron":11208,"pole":"high","cluster":3,"mode":"characters expressing happiness or positive emotion","scene_windows":0,"windows":5,"scene":"positive emotions, happiness"}
+{"neuron":11208,"pole":"low","cluster":0,"mode":"pronouns referring to self or others in dialogue","scene_windows":0,"windows":5,"scene":"dialogue, personal reference"}
+{"neuron":11208,"pole":"low","cluster":1,"mode":"conjunctions connecting clauses or ideas","scene_windows":0,"windows":5,"scene":"marketing, strategy"}
+{"neuron":10465,"pole":"high","cluster":0,"mode":"people and relationships, often with emotional undertones","scene_windows":0,"windows":5,"scene":"interpersonal dynamics"}
+{"neuron":10465,"pole":"high","cluster":1,"mode":"technical terms related to programming and data structures","scene_windows":0,"windows":5,"scene":"coding and software"}
+{"neuron":10465,"pole":"low","cluster":0,"mode":"dialogue markers and conversational fillers","scene_windows":0,"windows":5,"scene":"casual conversation"}
+{"neuron":10465,"pole":"low","cluster":1,"mode":"programming terms and code snippets","scene_windows":0,"windows":5,"scene":"technical code"}
+{"neuron":10465,"pole":"low","cluster":2,"mode":"childlike actions and simple objects","scene_windows":0,"windows":5,"scene":"childhood play"}
+{"neuron":10465,"pole":"low","cluster":3,"mode":"dialogue markers and conversational fillers","scene_windows":0,"windows":5,"scene":"dialogue and speech"}
+{"neuron":10465,"pole":"low","cluster":4,"mode":"actions and observations in narrative","scene_windows":0,"windows":5,"scene":"narrative observation"}
+{"neuron":11250,"pole":"high","cluster":0,"mode":"temporal conjunctions indicating sequence","scene_windows":0,"windows":5,"scene":"narration, sequence of events"}
+{"neuron":11250,"pole":"high","cluster":1,"mode":"temporal conjunctions indicating sequence","scene_windows":0,"windows":5,"scene":"narration, sequence of events"}
+{"neuron":11250,"pole":"high","cluster":2,"mode":"temporal conjunctions indicating sequence","scene_windows":0,"windows":5,"scene":"narration, sequence of events"}
+{"neuron":11250,"pole":"high","cluster":3,"mode":"conjunctions connecting clauses or ideas","scene_windows":0,"windows":5,"scene":"dialogue, connecting ideas"}
+{"neuron":11250,"pole":"high","cluster":4,"mode":"temporal conjunctions indicating sequence","scene_windows":0,"windows":5,"scene":"narration, sequence of events"}
+{"neuron":11250,"pole":"high","cluster":5,"mode":"adjectives describing states or conditions","scene_windows":0,"windows":5,"scene":"description, states"}
+{"neuron":11250,"pole":"low","cluster":0,"mode":"numerical indicators in lists or instructions","scene_windows":0,"windows":5,"scene":"instructions, lists"}
+{"neuron":11250,"pole":"low","cluster":1,"mode":"referring to patterns or processes","scene_windows":0,"windows":5,"scene":"technical, scientific"}
+{"neuron":11250,"pole":"low","cluster":2,"mode":"pronouns referring to self or others in dialogue","scene_windows":0,"windows":5,"scene":"dialogue, personal reference"}
+{"neuron":11250,"pole":"low","cluster":3,"mode":"names or abbreviations in text","scene_windows":0,"windows":5,"scene":"technical, abbreviations"}
+{"neuron":11250,"pole":"low","cluster":4,"mode":"verbs indicating speech or communication","scene_windows":0,"windows":5,"scene":"dialogue, speech"}
+{"neuron":11250,"pole":"low","cluster":5,"mode":"prepositions indicating direction or proximity","scene_windows":0,"windows":5,"scene":"narration, direction"}
+{"neuron":11468,"pole":"high","cluster":0,"mode":"characters expressing desire or capability","scene_windows":0,"windows":5,"scene":"desire, capability"}
+{"neuron":11468,"pole":"high","cluster":1,"mode":"pronouns and prepositions indicating purpose or direction","scene_windows":0,"windows":5,"scene":"narration, purpose"}
+{"neuron":11468,"pole":"high","cluster":2,"mode":"place names and abbreviations","scene_windows":0,"windows":5,"scene":"geography, place names"}
+{"neuron":11468,"pole":"high","cluster":3,"mode":"negation and uncertainty in dialogue","scene_windows":0,"windows":5,"scene":"dialogue, negation"}
+{"neuron":11468,"pole":"high","cluster":4,"mode":"pronouns and conjunctions connecting clauses or ideas","scene_windows":0,"windows":5,"scene":"narration, connecting ideas"}
+{"neuron":11468,"pole":"low","cluster":0,"mode":"modal verbs indicating possibility or necessity","scene_windows":0,"windows":5,"scene":"narrative possibility"}
+{"neuron":11468,"pole":"low","cluster":1,"mode":"prepositions and conjunctions indicating purpose or relation","scene_windows":0,"windows":5,"scene":"purpose and relation"}
+{"neuron":11468,"pole":"low","cluster":2,"mode":"place names and geographical references","scene_windows":0,"windows":5,"scene":"geographical locations"}
+{"neuron":11468,"pole":"low","cluster":3,"mode":"negation and uncertainty in dialogue","scene_windows":0,"windows":5,"scene":"dialogue and doubt"}
+{"neuron":11468,"pole":"low","cluster":4,"mode":"narrative actions and observations","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":11468,"pole":"low","cluster":5,"mode":"dialogue markers and conversational fillers","scene_windows":0,"windows":5,"scene":"dialogue and speech"}

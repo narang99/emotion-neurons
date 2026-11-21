@@ -1,0 +1,51 @@
+{"neuron":4917,"pole":"high","cluster":0,"mode":"positive conjunctions and happy outcomes","scene_windows":0,"windows":5,"scene":"children playing happily"}
+{"neuron":4917,"pole":"high","cluster":1,"mode":"questions about identity and extreme situations","scene_windows":0,"windows":5,"scene":"philosophical contemplation"}
+{"neuron":4917,"pole":"high","cluster":2,"mode":"polite interjections and expressions of gratitude","scene_windows":0,"windows":5,"scene":"polite conversation"}
+{"neuron":4917,"pole":"high","cluster":3,"mode":"expressions of loneliness and sadness","scene_windows":0,"windows":5,"scene":"sadness and isolation"}
+{"neuron":4917,"pole":"high","cluster":4,"mode":"questions and uncertainty about the future","scene_windows":0,"windows":5,"scene":"uncertainty and questioning"}
+{"neuron":4917,"pole":"low","cluster":0,"mode":"educational and informational terms","scene_windows":0,"windows":5,"scene":"educational context"}
+{"neuron":4917,"pole":"low","cluster":1,"mode":"expressions of despair and negative emotions","scene_windows":1,"windows":5,"scene":"despair and hopelessness"}
+{"neuron":4917,"pole":"low","cluster":2,"mode":"social interaction and community terms","scene_windows":0,"windows":5,"scene":"social engagement"}
+{"neuron":2496,"pole":"high","cluster":0,"mode":"possessive pronouns and objects","scene_windows":0,"windows":5,"scene":"possession and ownership"}
+{"neuron":2496,"pole":"high","cluster":1,"mode":"narrative beginnings and existence","scene_windows":0,"windows":5,"scene":"storytelling introductions"}
+{"neuron":2496,"pole":"low","cluster":0,"mode":"numerical data and abbreviations","scene_windows":0,"windows":5,"scene":"data and statistics"}
+{"neuron":2496,"pole":"low","cluster":1,"mode":"definite articles and narrative elements","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":10854,"pole":"high","cluster":0,"mode":"expressions of relief and self-awareness","scene_windows":0,"windows":5,"scene":"emotional release and realization"}
+{"neuron":10854,"pole":"high","cluster":1,"mode":"positive outcomes and future possibilities","scene_windows":0,"windows":5,"scene":"positive future outlook"}
+{"neuron":10854,"pole":"low","cluster":0,"mode":"definite articles and objects","scene_windows":0,"windows":5,"scene":"object description"}
+{"neuron":10854,"pole":"low","cluster":1,"mode":"negative adjectives and undesirable states","scene_windows":0,"windows":5,"scene":"negative conditions"}
+{"neuron":10854,"pole":"low","cluster":2,"mode":"plural possessive pronouns and relationships","scene_windows":0,"windows":5,"scene":"relationships and interactions"}
+{"neuron":10854,"pole":"low","cluster":3,"mode":"personal pronouns and possessive relationships","scene_windows":0,"windows":5,"scene":"personal connections"}
+{"neuron":10854,"pole":"low","cluster":4,"mode":"numerical data and citations","scene_windows":0,"windows":5,"scene":"data and research"}
+{"neuron":10854,"pole":"low","cluster":5,"mode":"numerical data and years","scene_windows":0,"windows":5,"scene":"historical data"}
+{"neuron":7336,"pole":"high","cluster":0,"mode":"personal pronouns and positive emotions","scene_windows":0,"windows":5,"scene":"happiness and contentment"}
+{"neuron":7336,"pole":"high","cluster":1,"mode":"narrative beginnings and temporal markers","scene_windows":0,"windows":5,"scene":"storytelling introductions"}
+{"neuron":7336,"pole":"low","cluster":0,"mode":"proper nouns and place names","scene_windows":0,"windows":5,"scene":"geographical references"}
+{"neuron":7336,"pole":"low","cluster":1,"mode":"conjunctions and conditional statements","scene_windows":0,"windows":5,"scene":"hypothetical situations"}
+{"neuron":7336,"pole":"low","cluster":2,"mode":"temporal adverbs and states of being","scene_windows":0,"windows":5,"scene":"ongoing actions"}
+{"neuron":7336,"pole":"low","cluster":3,"mode":"copular verbs and states of being","scene_windows":0,"windows":5,"scene":"descriptions of states"}
+{"neuron":472,"pole":"high","cluster":0,"mode":"questions about future plans and strategies","scene_windows":0,"windows":5,"scene":"inquiry and planning"}
+{"neuron":472,"pole":"high","cluster":1,"mode":"positive qualities and professional attributes","scene_windows":0,"windows":5,"scene":"professionalism and character"}
+{"neuron":472,"pole":"high","cluster":2,"mode":"cooking instructions and temporal adverbs","scene_windows":0,"windows":5,"scene":"cooking directions"}
+{"neuron":472,"pole":"low","cluster":0,"mode":"personal pronouns and expressions of emotion","scene_windows":0,"windows":5,"scene":"emotional expression"}
+{"neuron":472,"pole":"low","cluster":1,"mode":"personal pronouns and narrative elements","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":11997,"pole":"high","cluster":0,"mode":"personal pronouns and creature descriptions","scene_windows":0,"windows":5,"scene":"creature interactions"}
+{"neuron":11997,"pole":"high","cluster":1,"mode":"cooking instructions and ingredient preparation","scene_windows":0,"windows":5,"scene":"food preparation steps"}
+{"neuron":11997,"pole":"low","cluster":0,"mode":"personal pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"narrative conjunctions"}
+{"neuron":11997,"pole":"low","cluster":1,"mode":"prepositions and scientific terms","scene_windows":0,"windows":5,"scene":"scientific context"}
+{"neuron":6790,"pole":"high","cluster":0,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"declarative statements"}
+{"neuron":6790,"pole":"high","cluster":1,"mode":"narrative beginnings and existence","scene_windows":0,"windows":5,"scene":"storytelling introductions"}
+{"neuron":6790,"pole":"low","cluster":0,"mode":"punctuation and recipe instructions","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":6790,"pole":"low","cluster":1,"mode":"adjectives and negative states","scene_windows":0,"windows":5,"scene":"negative emotional states"}
+{"neuron":6790,"pole":"low","cluster":2,"mode":"pronouns and narrative elements","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":6029,"pole":"high","cluster":0,"mode":"pronouns and objects","scene_windows":0,"windows":5,"scene":"object identification"}
+{"neuron":6029,"pole":"high","cluster":1,"mode":"conjunctions and negative outcomes","scene_windows":0,"windows":5,"scene":"negative consequences"}
+{"neuron":6029,"pole":"high","cluster":2,"mode":"adjectives and negative emotions","scene_windows":0,"windows":5,"scene":"fear and distress"}
+{"neuron":6029,"pole":"high","cluster":3,"mode":"personal pronouns and positive emotions","scene_windows":0,"windows":5,"scene":"happiness and joy"}
+{"neuron":6029,"pole":"high","cluster":4,"mode":"personal pronouns and emotional states","scene_windows":0,"windows":5,"scene":"emotional experiences"}
+{"neuron":6029,"pole":"high","cluster":5,"mode":"exclamations and exciting discoveries","scene_windows":0,"windows":5,"scene":"excitement and discovery"}
+{"neuron":6029,"pole":"high","cluster":6,"mode":"personal pronouns and actions","scene_windows":0,"windows":5,"scene":"actions and consequences"}
+{"neuron":6029,"pole":"low","cluster":0,"mode":"narrative beginnings and names","scene_windows":0,"windows":5,"scene":"storytelling introductions"}
+{"neuron":6029,"pole":"low","cluster":1,"mode":"requests for specific information","scene_windows":0,"windows":5,"scene":"information seeking"}
+{"neuron":6029,"pole":"low","cluster":2,"mode":"expressions of gratitude and friendship","scene_windows":0,"windows":5,"scene":"gratitude and friendship"}
+{"neuron":6029,"pole":"low","cluster":3,"mode":"dialogue and reported speech","scene_windows":0,"windows":5,"scene":"conversational dialogue"}

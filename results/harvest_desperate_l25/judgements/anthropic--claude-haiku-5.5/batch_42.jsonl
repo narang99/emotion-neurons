@@ -1,0 +1,50 @@
+{"neuron":1896,"pole":"high","cluster":0,"mode":"Emotional first-person dialogue around the marked verb 'had' or pronoun in tense personal moments","scene_windows":2,"windows":5,"scene":"Tense family confrontation and emotional self-justification"}
+{"neuron":1896,"pole":"high","cluster":1,"mode":"Superlative or idiomatic endpoints: 'best', 'moment', 'warning', 'turn', 'know'","scene_windows":2,"windows":5,"scene":"Town crisis, escape from danger, and a heartfelt letter"}
+{"neuron":1896,"pole":"high","cluster":2,"mode":"Numeric or fragmentary tokens inside technical, medical, or factual prose","scene_windows":0,"windows":5,"scene":"Scientific, medical, and encyclopedic exposition"}
+{"neuron":1896,"pole":"high","cluster":3,"mode":"Body-part or object nouns in descriptive narration","scene_windows":0,"windows":5,"scene":"Neutral descriptive narration and whimsical stories"}
+{"neuron":1896,"pole":"low","cluster":0,"mode":"Narrative verbs of decision, learning, or watching after an event","scene_windows":0,"windows":5,"scene":"Simple children's stories and reflective narration"}
+{"neuron":1896,"pole":"low","cluster":1,"mode":"The verb 'tried' marking effort after a setback","scene_windows":2,"windows":5,"scene":"Characters struggling after mishaps, lost, or panicking"}
+{"neuron":2925,"pole":"high","cluster":0,"mode":"Mid-dialogue or emotional word tokens in fiction, such as 'again' and 'that'","scene_windows":1,"windows":5,"scene":"Tense supernatural or dramatic dialogue"}
+{"neuron":2925,"pole":"high","cluster":1,"mode":"Split or fragmented word pieces in literary vocabulary","scene_windows":0,"windows":5,"scene":"Literary narration with unusual vocabulary"}
+{"neuron":2925,"pole":"high","cluster":2,"mode":"Word fragments inside scientific, culinary, or historical names","scene_windows":0,"windows":5,"scene":"Scientific, botanical, and historical exposition"}
+{"neuron":2925,"pole":"low","cluster":0,"mode":"Ingredient or item nouns in recipe instructions","scene_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":2925,"pole":"low","cluster":1,"mode":"Subject nouns in expository prose about cities, products, and programs","scene_windows":0,"windows":5,"scene":"Informational essays on business and places"}
+{"neuron":2925,"pole":"low","cluster":2,"mode":"Opening quotation marks starting new dialogue lines","scene_windows":1,"windows":5,"scene":"Dialogue exchanges in fiction, some tense"}
+{"neuron":2925,"pole":"low","cluster":3,"mode":"Blank-line gaps in fiction right after a dialogue or action beat","scene_windows":1,"windows":5,"scene":"Tense fiction with sniper, ledge, and bartender moments"}
+{"neuron":2925,"pole":"low","cluster":4,"mode":"Sentence-initial pronouns for a character in past narration","scene_windows":0,"windows":5,"scene":"Character narration in mixed fiction"}
+{"neuron":2925,"pole":"low","cluster":5,"mode":"Pronouns or nouns closing physical gestures in narration","scene_windows":0,"windows":5,"scene":"Gestures and movements in emotional fiction"}
+{"neuron":9428,"pole":"high","cluster":0,"mode":"Subject pronouns and clause starts in tense narrative","scene_windows":2,"windows":5,"scene":"Threatening confrontations and suffering in fiction"}
+{"neuron":9428,"pole":"high","cluster":1,"mode":"The adjective 'big' in simple children's stories","scene_windows":0,"windows":5,"scene":"Simple children's bedtime-style stories"}
+{"neuron":9428,"pole":"low","cluster":0,"mode":"Tokens in first-person speech about urgency, time, or blame","scene_windows":2,"windows":5,"scene":"Urgent arguments and a countdown to danger"}
+{"neuron":9428,"pole":"low","cluster":1,"mode":"The adjective 'happy' or 'smile' in children's stories","scene_windows":0,"windows":5,"scene":"Cheerful children's stories"}
+{"neuron":9428,"pole":"low","cluster":2,"mode":"Object nouns like window, doors, and core in eerie narration","scene_windows":0,"windows":5,"scene":"Eerie or tense descriptive narration"}
+{"neuron":10258,"pole":"high","cluster":0,"mode":"Dialogue reply words like 'Yes', 'Sure', 'Don't worry' in children's stories","scene_windows":0,"windows":5,"scene":"Children's dialogue between parents and kids"}
+{"neuron":10258,"pole":"high","cluster":1,"mode":"Dialogue punctuation and pronouns in conversational replies","scene_windows":0,"windows":5,"scene":"Everyday and sardonic conversations"}
+{"neuron":10258,"pole":"high","cluster":2,"mode":"Sentence-initial 'I' in distressed, emotional speech","scene_windows":3,"windows":5,"scene":"Panicked or distraught characters pleading or confessing"}
+{"neuron":10258,"pole":"low","cluster":0,"mode":"Cognitive verbs like knew, thought, realized in narration","scene_windows":1,"windows":5,"scene":"Reflective or realization moments in stories"}
+{"neuron":10258,"pole":"low","cluster":1,"mode":"The word 'how' introducing an embedded clause","scene_windows":0,"windows":5,"scene":"Expository and reflective sentences"}
+{"neuron":2828,"pole":"high","cluster":0,"mode":"Narrative continuation tokens in simple children's stories","scene_windows":0,"windows":5,"scene":"Children's stories and family moments"}
+{"neuron":2828,"pole":"high","cluster":1,"mode":"Code tokens and identifiers in programming examples","scene_windows":0,"windows":5,"scene":"Programming tutorials and code samples"}
+{"neuron":2828,"pole":"low","cluster":0,"mode":"Citation numbers and name fragments in reference lists","scene_windows":0,"windows":5,"scene":"Bibliographies and reference lists"}
+{"neuron":2828,"pole":"low","cluster":1,"mode":"Numbers and compound names in health supplement lists","scene_windows":0,"windows":5,"scene":"Health and supplement articles and citations"}
+{"neuron":2828,"pole":"low","cluster":2,"mode":"Emotional or reactive words like scared, himself, understanding","scene_windows":0,"windows":5,"scene":"Fictional characters reacting emotionally"}
+{"neuron":2828,"pole":"low","cluster":3,"mode":"Sentence-initial 'He' or 'She' after a scary or surprising event","scene_windows":0,"windows":5,"scene":"Simple children's stories with discoveries"}
+{"neuron":3558,"pole":"high","cluster":0,"mode":"Verbs and subject words in marketing and web-content advice","scene_windows":0,"windows":5,"scene":"Marketing and business advice dialogues"}
+{"neuron":3558,"pole":"high","cluster":1,"mode":"Sentence-initial first-person 'I' reacting to events","scene_windows":1,"windows":5,"scene":"First-person narration of suspicion and tension"}
+{"neuron":3558,"pole":"high","cluster":2,"mode":"Nouns for seats, objects, or body impacts in narration","scene_windows":0,"windows":5,"scene":"Weary or painful physical moments"}
+{"neuron":3558,"pole":"high","cluster":3,"mode":"Verbs of looking or staring after a character reacts","scene_windows":1,"windows":5,"scene":"Character reactions in quiet narrative moments"}
+{"neuron":3558,"pole":"low","cluster":0,"mode":"Reaction tokens like groan, attention, face in frustrated gestures","scene_windows":0,"windows":5,"scene":"Frustrated or exasperated dialogue scenes"}
+{"neuron":3558,"pole":"low","cluster":1,"mode":"Commas and clause joins after action or description","scene_windows":0,"windows":5,"scene":"Narrative sentences with descriptive clauses"}
+{"neuron":6866,"pole":"high","cluster":0,"mode":"Digits inside dates and citation numbers","scene_windows":0,"windows":5,"scene":"Dates, polls, and reference data"}
+{"neuron":6866,"pole":"high","cluster":1,"mode":"Speaker-name or first-letter tokens starting dialogue lines","scene_windows":0,"windows":5,"scene":"Script-style dialogue and children's stories"}
+{"neuron":6866,"pole":"high","cluster":2,"mode":"Emotional nouns or adjectives like terror, joy, throat, head","scene_windows":1,"windows":5,"scene":"Fearful or joyful emotional narration"}
+{"neuron":6866,"pole":"high","cluster":3,"mode":"The infinitive marker 'to' after intention or readiness","scene_windows":1,"windows":5,"scene":"Characters deciding or forced to act"}
+{"neuron":6866,"pole":"high","cluster":4,"mode":"Sentence-initial pronouns or conjunctions in narration","scene_windows":1,"windows":5,"scene":"Fantasy and adventure narration"}
+{"neuron":6866,"pole":"low","cluster":0,"mode":"Hyphens, punctuation, and standards nouns in argument prose","scene_windows":0,"windows":5,"scene":"Commentary and fictional essays"}
+{"neuron":6866,"pole":"low","cluster":1,"mode":"The word 'there' in 'Once upon a time' openings","scene_windows":0,"windows":5,"scene":"Fairy-tale story openings"}
+{"neuron":10588,"pole":"high","cluster":0,"mode":"Object nouns like collection, toys, and around in home settings","scene_windows":0,"windows":5,"scene":"Children playing with toys at home"}
+{"neuron":10588,"pole":"high","cluster":1,"mode":"The article 'the' before a location noun in stories","scene_windows":0,"windows":5,"scene":"Children's stories about everyday places"}
+{"neuron":10588,"pole":"low","cluster":0,"mode":"The noun 'park' ending a location phrase in stories","scene_windows":0,"windows":5,"scene":"Children's stories set in parks"}
+{"neuron":10588,"pole":"low","cluster":1,"mode":"Verbs and prepositions in argumentative or analytic prose","scene_windows":0,"windows":5,"scene":"Analytic essays on policy and risk"}
+{"neuron":10588,"pole":"low","cluster":2,"mode":"The noun 'home' ending a return or travel phrase","scene_windows":0,"windows":5,"scene":"Stories about returning home"}
+{"neuron":10588,"pole":"low","cluster":3,"mode":"Prepositions and light nouns in tense action narration","scene_windows":1,"windows":5,"scene":"Fleeing or anxious action sequences"}

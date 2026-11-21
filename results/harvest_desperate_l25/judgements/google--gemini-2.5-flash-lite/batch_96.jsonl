@@ -1,0 +1,45 @@
+{"neuron":4853,"pole":"high","cluster":0,"mode":"asking for more information about a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":4853,"pole":"high","cluster":1,"mode":"expressing negative emotions or difficult circumstances","scene_windows":0,"windows":5,"scene":"personal hardship and distress"}
+{"neuron":4853,"pole":"high","cluster":2,"mode":"describing positive outcomes and happiness","scene_windows":0,"windows":5,"scene":"happy resolution of events"}
+{"neuron":4853,"pole":"low","cluster":0,"mode":"discussing negative situations or lack of options","scene_windows":0,"windows":5,"scene":"negative circumstances"}
+{"neuron":4853,"pole":"low","cluster":1,"mode":"offering assistance or information","scene_windows":0,"windows":5,"scene":"helpful assistant"}
+{"neuron":5387,"pole":"high","cluster":0,"mode":"listing ingredients for recipes","scene_windows":0,"windows":5,"scene":"recipe preparation"}
+{"neuron":5387,"pole":"high","cluster":1,"mode":"describing physical sensations and emotional states","scene_windows":0,"windows":5,"scene":"anxiety and fear"}
+{"neuron":5387,"pole":"high","cluster":2,"mode":"technical or academic references","scene_windows":0,"windows":5,"scene":"technical documentation"}
+{"neuron":5387,"pole":"low","cluster":0,"mode":"narrating simple actions and events","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":5387,"pole":"low","cluster":1,"mode":"discussing nutritional information and health benefits","scene_windows":0,"windows":5,"scene":"health and nutrition"}
+{"neuron":5387,"pole":"low","cluster":2,"mode":"discussing medical conditions and predispositions","scene_windows":0,"windows":5,"scene":"medical information"}
+{"neuron":5387,"pole":"low","cluster":3,"mode":"discussing financial data and statistics","scene_windows":0,"windows":5,"scene":"statistical data"}
+{"neuron":5777,"pole":"high","cluster":0,"mode":"describing actions and locations within a narrative","scene_windows":0,"windows":5,"scene":"narrative description"}
+{"neuron":5777,"pole":"high","cluster":1,"mode":"user asking for more information or examples","scene_windows":0,"windows":5,"scene":"information seeking"}
+{"neuron":5777,"pole":"low","cluster":0,"mode":"describing physical sensations and actions","scene_windows":0,"windows":5,"scene":"physical sensations"}
+{"neuron":5777,"pole":"low","cluster":1,"mode":"describing experiences and emotions","scene_windows":0,"windows":5,"scene":"personal experience"}
+{"neuron":6274,"pole":"high","cluster":0,"mode":"asking for more examples or tips","scene_windows":0,"windows":5,"scene":"information seeking"}
+{"neuron":6274,"pole":"high","cluster":1,"mode":"describing positive feelings and outcomes","scene_windows":0,"windows":5,"scene":"positive resolution"}
+{"neuron":6274,"pole":"high","cluster":2,"mode":"describing difficult situations and helplessness","scene_windows":1,"windows":5,"scene":"hopelessness and struggle"}
+{"neuron":6274,"pole":"high","cluster":3,"mode":"discussing specific details or data points","scene_windows":0,"windows":5,"scene":"specific details"}
+{"neuron":6274,"pole":"high","cluster":4,"mode":"describing negative emotions and reactions","scene_windows":0,"windows":5,"scene":"negative emotions"}
+{"neuron":6274,"pole":"low","cluster":0,"mode":"describing simple actions and events","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":6274,"pole":"low","cluster":1,"mode":"describing negative situations and emotions","scene_windows":0,"windows":5,"scene":"negative situations"}
+{"neuron":6274,"pole":"low","cluster":2,"mode":"describing actions and outcomes","scene_windows":0,"windows":5,"scene":"actions and outcomes"}
+{"neuron":8411,"pole":"high","cluster":0,"mode":"listing ingredients or components for food","scene_windows":0,"windows":5,"scene":"food preparation"}
+{"neuron":8411,"pole":"high","cluster":1,"mode":"discussing personal feelings and social interactions","scene_windows":0,"windows":5,"scene":"personal feelings"}
+{"neuron":8411,"pole":"high","cluster":2,"mode":"describing actions and interactions","scene_windows":0,"windows":5,"scene":"actions and interactions"}
+{"neuron":8411,"pole":"low","cluster":0,"mode":"describing functions or features of a system","scene_windows":0,"windows":5,"scene":"system features"}
+{"neuron":8411,"pole":"low","cluster":1,"mode":"describing negative situations and emotions","scene_windows":0,"windows":5,"scene":"negative situations"}
+{"neuron":9473,"pole":"high","cluster":0,"mode":"describing physical sensations and negative conditions","scene_windows":0,"windows":5,"scene":"physical discomfort"}
+{"neuron":9473,"pole":"high","cluster":1,"mode":"describing children and their actions","scene_windows":0,"windows":5,"scene":"children's activities"}
+{"neuron":9473,"pole":"low","cluster":0,"mode":"describing negative situations and personal feelings","scene_windows":0,"windows":5,"scene":"negative situations"}
+{"neuron":9473,"pole":"low","cluster":1,"mode":"narrating simple events with a specific beginning","scene_windows":0,"windows":5,"scene":"simple narrative start"}
+{"neuron":9510,"pole":"high","cluster":0,"mode":"mentioning organizations and specific entities","scene_windows":0,"windows":5,"scene":"organizational references"}
+{"neuron":9510,"pole":"high","cluster":1,"mode":"describing actions and positive emotions","scene_windows":0,"windows":5,"scene":"positive actions"}
+{"neuron":9510,"pole":"low","cluster":0,"mode":"discussing geographical locations and historical lineage","scene_windows":0,"windows":5,"scene":"geographical and historical"}
+{"neuron":9510,"pole":"low","cluster":1,"mode":"describing marketing strategies and engagement","scene_windows":0,"windows":5,"scene":"marketing and engagement"}
+{"neuron":9510,"pole":"low","cluster":2,"mode":"describing negative situations and actions","scene_windows":0,"windows":5,"scene":"negative situations"}
+{"neuron":9510,"pole":"low","cluster":3,"mode":"discussing abstract concepts and challenges","scene_windows":0,"windows":5,"scene":"abstract concepts"}
+{"neuron":10228,"pole":"high","cluster":0,"mode":"technical details and data points","scene_windows":0,"windows":5,"scene":"technical data"}
+{"neuron":10228,"pole":"high","cluster":1,"mode":"describing personal feelings and situations","scene_windows":0,"windows":5,"scene":"personal situations"}
+{"neuron":10228,"pole":"high","cluster":2,"mode":"describing actions and interactions","scene_windows":0,"windows":5,"scene":"actions and interactions"}
+{"neuron":10228,"pole":"low","cluster":0,"mode":"describing food and eating experiences","scene_windows":0,"windows":5,"scene":"food and eating"}
+{"neuron":10228,"pole":"low","cluster":1,"mode":"discussing negative situations and personal struggles","scene_windows":0,"windows":5,"scene":"personal struggles"}
+{"neuron":10228,"pole":"low","cluster":2,"mode":"discussing financial matters and costs","scene_windows":0,"windows":5,"scene":"financial matters"}

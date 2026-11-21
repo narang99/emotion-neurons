@@ -1,0 +1,49 @@
+{"neuron":6240,"pole":"high","cluster":0,"mode":"dialogue markers indicating a direct quote or speech","scene_windows":0,"windows":5,"scene":"confrontational dialogue"}
+{"neuron":6240,"pole":"high","cluster":1,"mode":"dialogue markers indicating a direct quote or speech","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6240,"pole":"high","cluster":2,"mode":"dialogue markers indicating a direct quote or speech","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":6240,"pole":"high","cluster":3,"mode":"dialogue markers indicating a direct quote or speech","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":6240,"pole":"low","cluster":0,"mode":"conjunctions and pronouns connecting subjects","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":6240,"pole":"low","cluster":1,"mode":"pronouns and verbs indicating observation","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":6240,"pole":"low","cluster":2,"mode":"conjunctions and adverbs indicating sequence","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":6240,"pole":"low","cluster":3,"mode":"conjunctions and prepositions indicating location","scene_windows":0,"windows":5,"scene":"factual description"}
+{"neuron":6240,"pole":"low","cluster":4,"mode":"conjunctions and adverbs indicating time","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":6240,"pole":"low","cluster":5,"mode":"pronouns and verbs indicating action","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":2903,"pole":"high","cluster":0,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"narrative conclusion"}
+{"neuron":2903,"pole":"high","cluster":1,"mode":"conjunctions and verbs indicating cooking actions","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":2903,"pole":"low","cluster":0,"mode":"conjunctions and adverbs indicating sequence","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":2903,"pole":"low","cluster":1,"mode":"pronouns and verbs indicating action","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":2903,"pole":"low","cluster":2,"mode":"conjunctions and adverbs indicating sequence","scene_windows":0,"windows":5,"scene":"narrative sequence"}
+{"neuron":4946,"pole":"high","cluster":0,"mode":"words related to biology and science","scene_windows":0,"windows":5,"scene":"scientific text"}
+{"neuron":4946,"pole":"high","cluster":1,"mode":"pronouns and verbs indicating past tense","scene_windows":0,"windows":5,"scene":"narrative past"}
+{"neuron":4946,"pole":"low","cluster":0,"mode":"conjunctions and pronouns connecting subjects","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":4946,"pole":"low","cluster":1,"mode":"conjunctions and verbs indicating cooking actions","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":258,"pole":"high","cluster":0,"mode":"articles indicating definite noun","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":258,"pole":"high","cluster":1,"mode":"verbs indicating movement","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":258,"pole":"high","cluster":2,"mode":"conjunctions and adverbs indicating sequence","scene_windows":0,"windows":5,"scene":"narrative sequence"}
+{"neuron":258,"pole":"low","cluster":0,"mode":"verbs indicating usage","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":258,"pole":"low","cluster":1,"mode":"conjunctions and verbs indicating action","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":258,"pole":"low","cluster":2,"mode":"conjunctions and verbs indicating cooking actions","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":10611,"pole":"high","cluster":0,"mode":"pronouns and verbs indicating personal reference","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":10611,"pole":"high","cluster":1,"mode":"articles indicating definite noun","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":10611,"pole":"low","cluster":0,"mode":"proper nouns indicating characters","scene_windows":0,"windows":5,"scene":"simple narrative"}
+{"neuron":10611,"pole":"low","cluster":1,"mode":"numbers indicating sequence or quantity","scene_windows":0,"windows":5,"scene":"factual data"}
+{"neuron":7153,"pole":"high","cluster":0,"mode":"conjunctions and verbs indicating belief or state","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":7153,"pole":"high","cluster":1,"mode":"pronouns and verbs indicating negation","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":7153,"pole":"low","cluster":0,"mode":"letters indicating abbreviations or parts of words","scene_windows":0,"windows":5,"scene":"factual text"}
+{"neuron":7153,"pole":"low","cluster":1,"mode":"conjunctions and verbs indicating cooking actions","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":7153,"pole":"low","cluster":2,"mode":"verbs indicating scientific processes","scene_windows":0,"windows":5,"scene":"scientific text"}
+{"neuron":7153,"pole":"low","cluster":3,"mode":"conjunctions and nouns indicating dialogue","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":1433,"pole":"high","cluster":0,"mode":"possessive pronouns and contractions indicating ownership or belonging","scene_windows":0,"windows":5,"scene":"children playing and feeling free"}
+{"neuron":1433,"pole":"high","cluster":1,"mode":"numerical data and technical specifications","scene_windows":0,"windows":5,"scene":"technical specifications and data"}
+{"neuron":1433,"pole":"high","cluster":2,"mode":"conjunctions indicating sequence or cause and effect","scene_windows":0,"windows":5,"scene":"childhood experiences and emotions"}
+{"neuron":1433,"pole":"high","cluster":3,"mode":"nouns related to services, equipment, and abstract concepts","scene_windows":0,"windows":5,"scene":"business and technology descriptions"}
+{"neuron":1433,"pole":"low","cluster":0,"mode":"numbers and abbreviations in technical or numerical contexts","scene_windows":0,"windows":5,"scene":"technical data and specifications"}
+{"neuron":1433,"pole":"low","cluster":1,"mode":"food items and ingredients","scene_windows":0,"windows":5,"scene":"recipes and food preparation"}
+{"neuron":1433,"pole":"low","cluster":2,"mode":"verbs related to actions and processes","scene_windows":0,"windows":5,"scene":"describing actions and processes"}
+{"neuron":1433,"pole":"low","cluster":3,"mode":"first-person pronouns and contractions indicating personal state","scene_windows":0,"windows":5,"scene":"personal feelings and statements"}
+{"neuron":1433,"pole":"low","cluster":4,"mode":"possessive pronouns and contractions indicating ownership or belonging","scene_windows":0,"windows":5,"scene":"childhood and family interactions"}
+{"neuron":7094,"pole":"high","cluster":0,"mode":"punctuation indicating pause or end of sentence","scene_windows":0,"windows":5,"scene":"conversational closing"}
+{"neuron":7094,"pole":"high","cluster":1,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"narrative conclusion"}
+{"neuron":7094,"pole":"high","cluster":2,"mode":"punctuation indicating pause or end of sentence","scene_windows":0,"windows":5,"scene":"instructional closing"}
+{"neuron":7094,"pole":"low","cluster":0,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"narrative conclusion"}
+{"neuron":7094,"pole":"low","cluster":1,"mode":"numbers indicating sequence or quantity","scene_windows":0,"windows":5,"scene":"instructional text"}
