@@ -169,27 +169,39 @@ token ({len(removal["removed"])} neurons removed, {removal["removed_push_pct"]:.
     return f'{head}\n<div class="wrap">{intro}{"".join(sections)}</div>'
 
 
-def build_top_page(result_dir: Path, scores_file: str = "token_scores_all.json", top: int = 20) -> str:
-    """The `top` stories whose total token change (removed minus original, summed over the story) drops most.
+def top_k_drop(s: dict, k: int) -> tuple[float, list[tuple[str, float]]]:
+    """Sum of the k biggest token drops (removed minus original), and those tokens.
 
-    One plain list across all stories and emotions: rank, change, and the side-by-side strips."""
+    Unlike the total over the story, it does not grow with story length or with a small shift on every token."""
+    diff = [b - a for a, b in zip(s["d"], s["d_minus"])]
+    worst = sorted(range(len(diff)), key=diff.__getitem__)[:k]
+    return sum(diff[i] for i in worst), [(s["tokens"][i], diff[i]) for i in worst]
+
+
+def build_top_page(result_dir: Path, scores_file: str = "token_scores_all.json", top: int = 20, k: int = 5) -> str:
+    """The `top` stories with the largest sum of their k biggest token drops, one list across all stories."""
     data = json.loads((result_dir / scores_file).read_text())
     removal = json.loads((result_dir / "removal.json").read_text())
     emotion = data["emotion"]
-    total = {s["id"]: sum(b - a for a, b in zip(s["d"], s["d_minus"])) for s in data["stories"]}
-    shown = sorted(data["stories"], key=lambda s: total[s["id"]])[:top]
-    scale = max(max(abs(x) for x in s[k]) for s in shown for k in ("d", "d_minus"))
+    score = {s["id"]: top_k_drop(s, k) for s in data["stories"]}
+    shown = sorted(data["stories"], key=lambda s: score[s["id"]][0])[:top]
+    scale = max(max(abs(x) for x in s[key]) for s in shown for key in ("d", "d_minus"))
     diff_scale = max(max(abs(b - a) for a, b in zip(s["d"], s["d_minus"])) for s in shown)
     head = f"""<title>{emotion.capitalize()} Minus {html.escape(removal["theme"])}: Top Stories</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>{STYLE}</style>"""
     intro = f"""<h1>The {top} stories that change most when the "{html.escape(removal["theme"])}" neurons are removed</h1>
-<p>Ranked by total change: the cosine with the theme-removed {emotion} vector minus the cosine with the original, summed
-over the story's tokens, biggest drop first. All {len(data["stories"])} stories (train and held-out). Colour scale ±{scale:.2f}
-for both columns; difference ±{diff_scale:.3f}.</p>"""
+<p>Ranked by the sum of each story's {k} biggest token drops (cosine with the theme-removed {emotion} vector minus cosine
+with the original), biggest first. This does not grow with story length. All {len(data["stories"])} stories (train and
+held-out). Colour scale ±{scale:.2f} for both columns; difference ±{diff_scale:.3f}.</p>"""
+
+    def heading(rank: int, s: dict) -> str:
+        total, worst = score[s["id"]]
+        tokens = ", ".join(f"{html.escape(t.strip() or repr(t))} {v:+.3f}" for t, v in worst)
+        return f"<h2>{rank}. {html.escape(s['label'])}: top-{k} drop {total:+.3f}</h2><p>{tokens}</p>"
+
     blocks = "\n".join(
-        f"<h2>{rank}. total change {total[s['id']]:+.2f}</h2>\n{story_block(s, scale, diff_scale, split=s.get('split', 'heldout'))}"
-        for rank, s in enumerate(shown, 1)
+        heading(rank, s) + story_block(s, scale, diff_scale, split=s.get("split", "heldout")) for rank, s in enumerate(shown, 1)
     )
     return f'{head}\n<div class="wrap">{intro}{blocks}</div>'
