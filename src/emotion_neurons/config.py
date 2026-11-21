@@ -289,6 +289,16 @@ class ResidualSetsConfig(Section):
     seed: int = 0
 
 
+class JudgeSetsConfig(Section):
+    emotions: list[str] = ["happy", "sad", "afraid", "proud"]
+    per_group: int = Field(20, description="neurons per emotion only in the signal set, and in both sets")
+    random_per_emotion: int = Field(5, description="neurons per emotion in neither set (baseline)")
+    corpus_top: int = 12
+    corpus_bottom: int = 5
+    story_top: int = 8
+    seed: int = 0
+
+
 class ProbeConfig(Section):
     stories_dir: Path = Path("data/adult_stories")
     source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
@@ -332,6 +342,7 @@ class RunConfig(BaseSettings):
     direction_reports: DirectionReportsConfig = DirectionReportsConfig()
     signal_noise: SignalNoiseConfig = SignalNoiseConfig()
     residual_sets: ResidualSetsConfig = ResidualSetsConfig()
+    judge_sets: JudgeSetsConfig = JudgeSetsConfig()
     probe: ProbeConfig = ProbeConfig()
 
     @classmethod
