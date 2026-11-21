@@ -1,5 +1,0 @@
-# Geva's lens on MLP input rows: what each neuron responds to, from weights alone, checked against harvests (CPU).
-#   python scripts/input_rows.py --config configs/input_rows.yaml
-run_id: input_rows
-model: Qwen/Qwen3-8B
-device: cpu

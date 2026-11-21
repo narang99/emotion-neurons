@@ -1,9 +1,0 @@
-# 6-fold cross-validation of the layer-25 accuracy and of the shrinkage kappa (no forward pass; GPU if present).
-#   python scripts/crossval.py --config configs/crossval.yaml
-run_id: crossval
-model: Qwen/Qwen3-8B
-layer: 25
-data:
-  heldout_story_idx: [5]
-  heldout_neutral_idx: [10, 11]
-  split_token: 50

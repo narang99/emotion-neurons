@@ -1,0 +1,7 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "layer": 25,
+ "tokens": 206704,
+ "quantiles": {"p3": 0.03, "p97": 0.97},
+ "source": "copied from runs/raw_pools/cache.safetensors (tag exp/raw_pools), same corpus sample and code as scripts/poles.py"
+}

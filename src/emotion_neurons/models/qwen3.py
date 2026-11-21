@@ -9,8 +9,7 @@ from collections.abc import Callable, Iterator
 from contextlib import contextmanager
 
 import torch
-from einops import einsum
-from jaxtyping import Bool, Float, Int
+from jaxtyping import Float, Int
 from torch import Tensor, nn
 from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
 
@@ -107,40 +106,3 @@ def read_mlp(
     with hooks(handles):
         forward_until_stop(model, input_ids, attention_mask)
     return acts["mlp_in"].float(), acts["mlp_act"][:, :, neurons].float()
-
-
-def late_sum(x: Float[Tensor, "batch seq dim"], late: Bool[Tensor, "batch seq"]) -> Float[Tensor, "batch dim"]:
-    return einsum(x.float(), late.float(), "batch seq dim, batch seq -> batch dim")
-
-
-@torch.no_grad()
-def late_sums_all_layers(
-    model: PreTrainedModel,
-    input_ids: Int[Tensor, "batch seq"],
-    attention_mask: Int[Tensor, "batch seq"],
-    late: Bool[Tensor, "batch seq"],
-) -> dict[str, Float[Tensor, "batch dim"]]:
-    """Every layer's sites, summed over the late tokens inside the hooks.
-
-    - Keeping the full activations of all layers for a batch would need about 8 GB of GPU memory.
-    - `embed` is the input to layer 0, so attention's write at layer l is `{l}/resid_mid - {l-1}/resid_post`.
-    """
-    sums: dict[str, Tensor] = {}
-
-    def sum_input(key: str) -> Callable:
-        return lambda _module, args: sums.__setitem__(key, late_sum(args[0], late))
-
-    def sum_output(key: str) -> Callable:
-        return lambda _module, _args, out: sums.__setitem__(key, late_sum(out[0] if isinstance(out, tuple) else out, late))
-
-    layers = decoder_layers(model)
-    handles = [layers[0].register_forward_pre_hook(sum_input("embed"))]
-    for i, layer in enumerate(layers):
-        handles += [
-            layer.post_attention_layernorm.register_forward_pre_hook(sum_input(f"{i}/resid_mid")),
-            layer.mlp.down_proj.register_forward_pre_hook(sum_input(f"{i}/mlp_act")),
-            layer.register_forward_hook(sum_output(f"{i}/resid_post")),
-        ]
-    with hooks(handles):
-        model.model(input_ids=input_ids, attention_mask=attention_mask, use_cache=False)
-    return sums

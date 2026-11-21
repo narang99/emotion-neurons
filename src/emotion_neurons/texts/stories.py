@@ -1,4 +1,4 @@
-"""Story sets: the committed training stories, and any other labelled JSONL folder.
+"""The committed training stories.
 
 - Training stories have a fixed order and a held-out split.
   - Every per-story array uses that order, so `stories.json` in a run records it.
@@ -23,17 +23,6 @@ class Story(BaseModel):
     story_idx: int
     text: str
     heldout: bool
-
-
-class LabelledText(BaseModel):
-    """A text outside the training stories, e.g. data/adult_stories."""
-
-    id: str
-    emotion: str
-    story_idx: int
-    text: str
-    form: str | None = None
-    explicit: bool | None = None
 
 
 class StoryRecord(BaseModel):
@@ -63,11 +52,6 @@ def load_stories(cfg: DataConfig) -> list[Story]:
 
 def heldout_indices(cfg: DataConfig, emotion: str) -> list[int]:
     return cfg.heldout_neutral_idx if emotion == "neutral" else cfg.heldout_story_idx
-
-
-def load_labelled_texts(folder: Path) -> list[LabelledText]:
-    texts = [LabelledText(**row) for path in sorted(folder.glob("*.jsonl")) for row in read_jsonl(path)]
-    return sorted(texts, key=lambda t: t.id)
 
 
 def load_story_records(run_dir: Path) -> list[StoryRecord]:

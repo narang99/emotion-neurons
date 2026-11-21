@@ -1,0 +1,7 @@
+# Poles of every layer-25 neuron: p3 and p97 over 210k tokens of general text. GPU, L4, about 10 min.
+#   python scripts/poles.py --config configs/poles.yaml
+run_id: poles
+model: Qwen/Qwen3-8B
+layer: 25
+poles:
+  quantiles: [0.03, 0.97]

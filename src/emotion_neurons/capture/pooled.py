@@ -1,9 +1,7 @@
 """Per-story pooled sums of hooked sites, and the per-story means built from them.
 
 - A run keeps sums, not activations: averages, differences and the MLP's write are all linear in them.
-- Two files exist:
-  - single layer (`extract.py`): `<site>/<early|late>` sums and `counts` [story, 2];
-  - all layers (`extract_layers.py`): `{layer}/<site>` late sums, `embed`, and `late_count` [story].
+- `extract.py` writes `<site>/<early|late>` sums and `counts` [story, 2].
 """
 
 from pathlib import Path
@@ -40,33 +38,9 @@ def pooled_sums(
 
 
 def late_means(run_dir: Path) -> StoryMeans:
-    """Single-layer run: mean over each story's late tokens, in fp64. mlp_out = resid_post - resid_mid, exact."""
+    """Mean over each story's late tokens, in fp64. mlp_out = resid_post - resid_mid, exact."""
     sums = load_file(str(run_dir / "sums.safetensors"))
     late = sums["counts"][:, 1:2].double()
     means: StoryMeans = {site: sums[f"{site}/late"].double() / late for site in HOOKED_SITES}
     means["mlp_out"] = means["resid_post"] - means["resid_mid"]
     return means
-
-
-class LayerMeans:
-    """All-layer run: per-story late means of every layer's sites, loaded once."""
-
-    def __init__(self, run_dir: Path):
-        self.sums = load_file(str(run_dir / "sums.safetensors"))
-        self.count = self.sums.pop("late_count").double()[:, None]
-        self.n_layers = 1 + max(int(k.split("/")[0]) for k in self.sums if k != "embed")
-
-    def site(self, layer: int, site: Site) -> Float[Tensor, "story dim"]:
-        if site == "mlp_out":
-            return self.site(layer, "resid_post") - self.site(layer, "resid_mid")
-        return self.sums[f"{layer}/{site}"].double() / self.count
-
-    def embed(self) -> Float[Tensor, "story d_model"]:
-        return self.sums["embed"].double() / self.count
-
-    def attention_write(self, layer: int) -> Float[Tensor, "story d_model"]:
-        before = self.embed() if layer == 0 else self.site(layer - 1, "resid_post")
-        return self.site(layer, "resid_mid") - before
-
-    def layer_means(self, layer: int) -> StoryMeans:
-        return {site: self.site(layer, site) for site in ("resid_mid", "resid_post", "mlp_act", "mlp_out")}

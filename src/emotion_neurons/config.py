@@ -51,30 +51,6 @@ class VectorsConfig(Section):
     )
 
 
-class ProjectConfig(Section):
-    vectors: list[str] = Field(
-        ["mean/raw", "mean/denoised"],
-        description="baseline/variant pairs whose unit vectors every held-out token is projected onto",
-    )
-    batch_size: int = 16
-    logit_lens_k: int = 20
-
-
-class ReportConfig(Section):
-    story_site: Literal["resid_mid", "resid_post", "mlp_act", "mlp_out"] = Field(
-        "resid_post", description="site whose projections colour the per-story token pages"
-    )
-    story_vector: str = "mean/denoised"
-
-
-class NeuronSetConfig(Section):
-    vectors_run: str = Field("stage2_l25", description="results/<vectors_run>/vectors.safetensors holds the write and dA")
-    dim_share: float = Field(0.9, gt=0, le=1, description="share of delta's positive (and negative) mass the kept dims cover")
-    neuron_share: float = Field(
-        0.9, gt=0, le=1, description="share of a dim's positive (and negative) terms the kept neurons cover"
-    )
-
-
 class CorpusConfig(Section):
     name: str
     path: str
@@ -84,228 +60,20 @@ class CorpusConfig(Section):
     tokens: int
 
 
-class HarvestConfig(Section):
+class PolesConfig(Section):
+    """The poles of a neuron: at or below its p3, or at or above its p97, over general text."""
+
     corpora: list[CorpusConfig] = [
-        CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=700_000),
-        CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=650_000),
-        CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=650_000),
+        CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=70_000),
+        CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=70_000),
+        CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=70_000),
     ]
+    quantiles: list[float] = [0.03, 0.97]
     window: int = 256
     min_window: int = 32
-    skip_first: int = Field(4, description="the first tokens of each window are left out of percentiles and hits")
+    skip_first: int = Field(4, description="the first tokens of each window are left out (attention-sink effects)")
     batch_size: int = 32
-    n_controls: int = 50
-    max_neurons: int = Field(1000, description="harvest the whole Stage 3 set up to this size, else the ranked top")
-    per_group: int = Field(25, description="when ranking: neurons per (emotion, pole), see emotion_neurons.selection")
     seed: int = 0
-    percentiles: list[float] = [0.97, 0.99, 0.999, 0.9999]
-    percentile_chunk: int = 64
-    examples_per_band: int = 20
-    top_k: int = 50
-    hits_per_neuron: int = Field(512, description="p97+ hits sampled per neuron for mode clustering (plus the top_k)")
-    neurons_file: Path | None = Field(None, description="selection.json from min_set.py; overrides the Stage 3 ranking")
-
-
-class ModesConfig(Section):
-    per_group: int = Field(10, description="neurons per (emotion, neuron pole), by summed term over the kept dims")
-    n_controls: int = 20
-    pca_dims: int = 50
-    min_cluster_size: int = 10
-    min_samples: int | None = 5
-    assign_quantile: float = Field(0.1, description="a noise hit joins a cluster above this quantile of member cosines")
-    exemplars: int = 5
-    noise_exemplars: int = 3
-    neurons_per_batch: int = 10
-
-
-class MinSetConfig(Section):
-    greedy_steps: int = Field(2000, description="greedy forward-selection steps per emotion (stops at cos 0.99)")
-    select: int = Field(64, description="neurons for the mode analysis, round-robin down the greedy orders")
-
-
-class SparseSetConfig(Section):
-    taus: list[float] = Field([0.8, 0.9, 0.95], description="target cosines for the smallest-set search")
-    sizes: list[int] = Field([16, 64, 128, 256, 512, 1024, 2048], description="set sizes reported")
-    greedy_steps: int = 2500
-    max_swaps: int = Field(2000, description="1-swaps per polish")
-    emotions: list[str] = Field([], description="restrict to these emotions (empty: all 12)")
-    target: Literal["raw", "denoised"] = Field("raw", description="denoised: neutral PCs of the write removed")
-    seed: int = Field(0, description="split of the train stories into halves for cross-fit greedy")
-    shrink_kappas: list[float] = Field([1.0, 4.0, 9.0], description="shrunk-target greedy: r = max(0, 1 - kappa/t^2)")
-
-
-class SparseLayersConfig(Section):
-    source_run: str = Field("layers_all", description="all-layer pooled sums from extract_layers.py")
-    layers: list[int] = Field([], description="layers to run (empty: all)")
-    greedy_steps: int = 2500
-    target_cos: float = Field(0.9, description="also report the smallest greedy prefix reaching this train cosine")
-    seed: int = 0
-
-
-class CircuitsConfig(Section):
-    vectors_file: Path = Field(Path("results/layers_all/layer_vectors.safetensors"), description="from layer_vectors.py")
-    sparse_layers_file: Path = Field(Path("results/sparse_layers/sparse_layers.json"), description="emotion sets per layer")
-    target_layer: int = Field(25, description="the emotion score is read from this layer's resid_post")
-    stories_per_emotion: int = Field(5, description="held-out stories per emotion")
-    sizes: list[int] = Field([100, 300, 1000, 3000, 10000], description="circuit sizes checked by mean ablation")
-    report_size: int = Field(1000, description="circuit size whose nodes are split by emotion-set membership")
-    seed: int = 0
-
-
-class NeuronCircuitConfig(Section):
-    layer: int = 25
-    neuron: int = 3068
-    texts_dir: Path = Field(Path("data/adult_stories"), description="scanned with the held-out training stories")
-    harvest_run: str = Field("top64_l25", description="its harvest.json gives the neuron's percentile thresholds")
-    band: int = Field(0, description="hit threshold: index into the harvest percentiles (0: p97, 1: p99, 2: p99.9, 3: p99.99)")
-    top_writers: int = 30
-    top_readers: int = 15
-    check_sizes: list[int] = [5, 20, 100]
-    top_tokens: int = 12
-
-
-class HeadReadsConfig(Section):
-    neurons: list[list[int]] = Field(
-        [[25, 3068], [25, 11109], [25, 2862], [26, 6691], [27, 6612]], description="[layer, neuron] pairs"
-    )
-    random_layer: int = 25
-    random_count: int = 4
-    texts_dir: Path = Path("data/adult_stories")
-    top_tokens: int = Field(100, description="the neuron's top activations over all texts")
-    top_heads: int = 8
-    check_sizes: list[int] = [3, 10]
-    vocab_top: int = 10
-    seed: int = 0
-
-
-class CausalSetsConfig(Section):
-    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set")
-    vectors_file: Path = Field(Path("results/stage2_l25/vectors.safetensors"), description="dA_e and the 12-emotion mean")
-    layer_vectors_file: Path = Field(Path("results/layers_all/layer_vectors.safetensors"), description="unit vectors per layer")
-    read_layers: list[int] = [25, 28, 31, 35]
-    random_sets: int = Field(3, description="random sets of the same size, per emotion and per swap pair")
-    swaps: list[list[str]] = [
-        ["happy", "sad"],
-        ["sad", "happy"],
-        ["calm", "afraid"],
-        ["afraid", "calm"],
-        ["proud", "guilty"],
-        ["guilty", "proud"],
-    ]
-    swap_scales: list[float] = [1.0, 4.0]
-    question: str = "\n\nQuestion: In one word, how does the main character feel?\nAnswer: The main character feels"
-    continuation: str = "\n\nThat evening,"
-    generate_per_pair: int = 3
-    new_tokens: int = 40
-    seed: int = 0
-
-
-class WordTestsConfig(Section):
-    adult_dir: Path = Field(Path("data/adult_stories"), description="split into explicit and implied by their flag")
-    mislead_file: Path = Path("data/word_tests/mislead.jsonl")
-    layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
-
-
-class ChainConfig(Section):
-    target: list[int] = Field([25, 3068], description="[layer, neuron] whose hits define the tokens")
-    middles: list[list[int]] = Field([[8, 4826], [8, 7265]], description="middle neurons, each tested as a link")
-    logit_token: str = " pride"
-    replacement: str = Field(" thing", description="the token put in place of a source token")
-    texts_dir: Path = Path("data/adult_stories")
-    harvest_run: str = Field("top64_l25", description="its harvest.json gives the target's threshold")
-    band: int = Field(2, description="index into the harvest percentiles (2: p99.9)")
-    max_hits: int = 40
-    random_middles: int = 10
-    random_tokens: int = 3
-    scan_top_layers: int = Field(3, description="chain_scan: MLP layers whose neurons are scanned")
-    candidates: int = Field(10, description="chain_scan: neurons per layer and hit, by largest change under the swap")
-    report_neurons: int = Field(10, description="chain_scan: best neurons kept, tested as a set")
-    exclude_pattern: str = Field("", description="chain_scan: drop hits whose token (stripped, lower case) matches this regex")
-    min_drop: float = Field(1.0, description="chain_scan: skip hits where the swap lowers the target by less")
-    layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
-    seed: int = 0
-
-
-class HarvestLayersConfig(Section):
-    layers: list[int] = [0, 2, 8, 12]
-    sparse_layers_file: Path = Path("results/sparse_layers/sparse_layers.json")
-    per_emotion: int = Field(8, description="first neurons of each emotion's sparse set at the layer")
-    named: list[list[int]] = Field([[8, 4826], [8, 7265]], description="[layer, neuron] pairs always included")
-    controls: int = 40
-    top_tokens: int = 100
-
-
-class TailCheckConfig(Section):
-    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set")
-    vectors_file: Path = Field(Path("results/stage2_l25/vectors.safetensors"), description="Stage 2's dA_e, for the check")
-
-
-class InputRowsConfig(Section):
-    harvest_dir: Path = Field(Path("results/harvest_layers"), description="L<k>.json files: neurons with known top tokens")
-    named: list[list[int]] = [[2, 8663], [8, 4826], [8, 7265], [22, 3221], [24, 2010], [25, 3068], [25, 11109], [25, 2862]]
-    top_k: int = Field(200, description="lens top tokens compared with the harvest's top tokens")
-    show: int = 30
-
-
-class CrossvalConfig(Section):
-    vectors_run: str = Field("stage2_l25", description="runs/<vectors_run> holds the pooled sums and stories.json")
-    kappas: list[float] = Field([0.0, 1.0, 4.0, 9.0, 16.0], description="0: the plain target; else the shrunk target")
-    sizes: list[int] = [64, 128, 256, 512]
-    choose_at: int = Field(256, description="kappa is chosen by the mean held-out transfer at this set size")
-    seed: int = 0
-
-
-class DirectionReportsConfig(Section):
-    vectors_file: Path = Path("results/stage2_l25/vectors.safetensors")
-    sets_file: Path = Path("results/sparse_l25_denoised/sets.json")
-    texts_dir: Path = Field(Path("data/adult_stories"), description="scanned with the held-out stories")
-    emotions: list[str] = ["happy", "sad", "afraid", "proud"]
-    lens_top: int = 15
-    top_examples: int = 15
-    examples: int = 3
-    example_tokens: int = 140
-    mark_quantile: float = Field(0.95, description="tokens above this quantile of a direction's values are marked")
-
-
-class SignalNoiseConfig(Section):
-    layer_vectors_file: Path = Field(
-        Path("results/layers_all/layer_vectors.safetensors"), description="`unit` [layer, emotion, d_model]"
-    )
-    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set, for overlap")
-    thresholds_file: Path = Field(
-        Path("runs/raw_pools/cache.safetensors"),
-        description="p3 / p97 per neuron, if cached (from the raw_pools run, tag exp/raw_pools)",
-    )
-    t_cut: float = Field(4.6, description="|t| above this is not zero: about Bonferroni p < 0.01 over 12288 neurons")
-    mass: float = Field(0.9, description="share of the mean push used to count how many neurons carry it")
-    seed: int = 0
-
-
-class ResidualSetsConfig(Section):
-    levels: list[float] = Field([0.2, 0.1, 0.05], description="leftover |d - s| / |d| at which the set is read")
-    steps: int = Field(6000, description="greedy steps at most")
-    sizes: list[int] = Field([100, 300, 1000, 3000], description="leftover reported at these set sizes")
-    random_sets: int = 3
-    seed: int = 0
-
-
-class JudgeSetsConfig(Section):
-    emotions: list[str] = ["happy", "sad", "afraid", "proud"]
-    per_group: int = Field(20, description="neurons per emotion only in the signal set, and in both sets")
-    random_per_emotion: int = Field(5, description="neurons per emotion in neither set (baseline)")
-    corpus_top: int = 12
-    corpus_bottom: int = 5
-    story_top: int = 8
-    seed: int = 0
-
-
-class ProbeConfig(Section):
-    stories_dir: Path = Path("data/adult_stories")
-    source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
-    skip_first: int = 4
-    context_before: int = 20
-    context_after: int = 4
-    examples_per_neuron: int = 8
 
 
 class RunConfig(BaseSettings):
@@ -321,29 +89,7 @@ class RunConfig(BaseSettings):
     data: DataConfig = DataConfig()
     extract: ExtractConfig = ExtractConfig()
     vectors: VectorsConfig = VectorsConfig()
-    project: ProjectConfig = ProjectConfig()
-    report: ReportConfig = ReportConfig()
-    neuron_set: NeuronSetConfig = NeuronSetConfig()
-    harvest: HarvestConfig = HarvestConfig()
-    modes: ModesConfig = ModesConfig()
-    min_set: MinSetConfig = MinSetConfig()
-    sparse_set: SparseSetConfig = SparseSetConfig()
-    sparse_layers: SparseLayersConfig = SparseLayersConfig()
-    circuits: CircuitsConfig = CircuitsConfig()
-    neuron_circuit: NeuronCircuitConfig = NeuronCircuitConfig()
-    head_reads: HeadReadsConfig = HeadReadsConfig()
-    causal_sets: CausalSetsConfig = CausalSetsConfig()
-    word_tests: WordTestsConfig = WordTestsConfig()
-    chain: ChainConfig = ChainConfig()
-    harvest_layers: HarvestLayersConfig = HarvestLayersConfig()
-    tail_check: TailCheckConfig = TailCheckConfig()
-    input_rows: InputRowsConfig = InputRowsConfig()
-    crossval: CrossvalConfig = CrossvalConfig()
-    direction_reports: DirectionReportsConfig = DirectionReportsConfig()
-    signal_noise: SignalNoiseConfig = SignalNoiseConfig()
-    residual_sets: ResidualSetsConfig = ResidualSetsConfig()
-    judge_sets: JudgeSetsConfig = JudgeSetsConfig()
-    probe: ProbeConfig = ProbeConfig()
+    poles: PolesConfig = PolesConfig()
 
     @classmethod
     def settings_customise_sources(

@@ -1,8 +1,6 @@
 # Stage 2: emotion vectors at Qwen3-8B layer 25 (of 36), checked on held-out stories.
 #   python scripts/extract.py       --config configs/stage2_l25.yaml   # GPU, ~10 min on an L4
 #   python scripts/build_vectors.py --config configs/stage2_l25.yaml   # CPU, seconds
-#   python scripts/project.py       --config configs/stage2_l25.yaml   # GPU, ~2 min
-#   python scripts/report.py        --config configs/stage2_l25.yaml   # CPU
 run_id: stage2_l25
 model: Qwen/Qwen3-8B
 layer: 25
@@ -14,8 +12,3 @@ extract:
   batch_size: 16
 vectors:
   denoise_variance: 0.5
-project:
-  vectors: [mean/raw, mean/denoised]
-report:
-  story_site: resid_post
-  story_vector: mean/denoised

@@ -6,7 +6,9 @@ This file is the index of all experiments, in order. It also records how the wor
 
 - Each experiment has one row in the table.
 - Each experiment has a tag at the commit that made its results.
-- Each experiment has a detailed log in `experiments/`.
+- Each experiment has a detailed log. Since the trim of 2026-11-21, the logs and the code live only at the tags.
+  - Read a log: `git show <tag>:experiments/<log>`.
+  - The sparse-set methods are summarised in `SPARSE_SETS.md`.
 - Status:
   - **kept**: the result is in `main` (or in a PR for `main`) and is part of the final result;
   - **failed**: the method did not work. The branch and the tag stay. The log tells why;
