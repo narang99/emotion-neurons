@@ -55,6 +55,7 @@ This file is the index of all experiments, in order. It also records how the wor
 | `exp/sparse_relaxed_l25` | superseded | relaxed mask in [0, 1] with an L1 penalty, and 6-fold stops | needs more neurons than greedy (happy 1787 vs 1501 at 90%); held-out early stopping never stops | `sparse_relaxed_l25.md` |
 | `exp/greedy_sets_l25` | kept | greedy sets that rebuild 90% of each emotion's MLP write (emotion mean minus all-story mean, no PCA) | 1472 to 2025 neurons; 50% from 87 to 261; happy's top neuron 2862 carries 8.9% | `greedy_sets_l25.md` |
 | `exp/harvest_happy_l25` | kept | both poles of the happy set to 75% (532 neurons + 20 controls), 2M tokens; modes; two blind judges (OpenRouter) | no-match 136 neurons (11.9% of push, 22 in top 100); match 46% vs controls 20%; 3832 fires at its low pole on 98% of laugh words; 9964 is neutral vs emotional | `harvest_happy_l25.md` |
+| `exp/refusal_qwen1` | kept | the refusal direction of Qwen-1 7B Chat (Arditi et al. 2024, paper splits 128+32), its layer-17 neuron set, modes, prompt view | layer 18, last post-instruction token; harmful refusal 93.8% -> 9.4% ablated, harmless 6.3% -> 100% added; 35 of the top 40 neurons are harm-category detectors at the reply token; in general text they do syntax and chat structure | `refusal_qwen1.md` |
 
 ## Record of the session of 2026-11-18 and 2026-11-19
 

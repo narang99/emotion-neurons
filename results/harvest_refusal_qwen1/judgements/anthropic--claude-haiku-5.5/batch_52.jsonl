@@ -1,0 +1,44 @@
+{"neuron":8497,"pole":"high","cluster":0,"mode":"Mid-sentence commas, 'also', 'to' in expository text","scene_windows":0,"windows":5,"scene":"Neutral expository news and policy text"}
+{"neuron":8497,"pole":"high","cluster":1,"mode":"Names, citations, and number sequences mid-token","scene_windows":0,"windows":5,"scene":"Bibliographic lists, names, and historical records"}
+{"neuron":8497,"pole":"low","cluster":0,"mode":"Scientific verbs and participles ending technical clauses","scene_windows":0,"windows":5,"scene":"Scientific and technical expository writing"}
+{"neuron":8497,"pole":"low","cluster":1,"mode":"'your', 'and', and '2012' inside how-to and web text","scene_windows":0,"windows":5,"scene":"How-to guides and marketing web copy"}
+{"neuron":1258,"pole":"high","cluster":0,"mode":"Prepositions and commas mid-sentence in expository text","scene_windows":0,"windows":5,"scene":"Neutral informational and research prose"}
+{"neuron":1258,"pole":"high","cluster":1,"mode":"Colon after 'Assistant' or 'user' turn label","scene_windows":0,"windows":5,"scene":"Chatbot dialogue turns on everyday topics"}
+{"neuron":1258,"pole":"low","cluster":0,"mode":"Trailing space or period ending an expository sentence","scene_windows":0,"windows":5,"scene":"Encyclopedic and informational web text"}
+{"neuron":1258,"pole":"low","cluster":1,"mode":"Dashes and punctuation mid-sentence in descriptive text","scene_windows":0,"windows":5,"scene":"Descriptive articles on sports, science, and history"}
+{"neuron":1258,"pole":"low","cluster":2,"mode":"Period closing a narrative sentence","scene_windows":0,"windows":5,"scene":"Fiction narration with dialogue"}
+{"neuron":1258,"pole":"low","cluster":3,"mode":"Prepositions and nouns in personal or promotional prose","scene_windows":0,"windows":5,"scene":"Personal reflections and company blurbs"}
+{"neuron":1258,"pole":"low","cluster":4,"mode":"Sentence-final period or space before a new paragraph","scene_windows":0,"windows":5,"scene":"Science and news articles"}
+{"neuron":1258,"pole":"low","cluster":5,"mode":"Industry and craft nouns mid-description","scene_windows":0,"windows":5,"scene":"Printing, sports memorabilia, and legal descriptions"}
+{"neuron":1258,"pole":"low","cluster":6,"mode":"'the' or 'in' before a technical noun phrase","scene_windows":0,"windows":5,"scene":"Technical and historical reference text"}
+{"neuron":456,"pole":"high","cluster":0,"mode":"'the' or 'and' inside step-by-step narrative description","scene_windows":0,"windows":5,"scene":"Instructional and narrative prose, some self-defense tips"}
+{"neuron":456,"pole":"high","cluster":1,"mode":"Colon after 'Assistant' or 'assistant' turn label","scene_windows":0,"windows":5,"scene":"Chatbot answers on cooking, repairs, and etiquette"}
+{"neuron":456,"pole":"low","cluster":0,"mode":"Function words in technical or business description","scene_windows":0,"windows":5,"scene":"Technical and business expository text"}
+{"neuron":456,"pole":"low","cluster":1,"mode":"Colon after 'user' or 'Human' turn label","scene_windows":0,"windows":5,"scene":"Chatbot dialogue turns on recipes and travel"}
+{"neuron":103,"pole":"high","cluster":0,"mode":"Modal or auxiliary word inside user requests","scene_windows":0,"windows":5,"scene":"User requests for cooking, cleaning, and content help"}
+{"neuron":103,"pole":"high","cluster":1,"mode":"Colon after 'Human' turn label","scene_windows":0,"windows":5,"scene":"Human-assistant dialogue on everyday questions"}
+{"neuron":103,"pole":"low","cluster":0,"mode":"Period or comma closing reflective or opinion sentences","scene_windows":0,"windows":5,"scene":"Reflective essays and opinion prose"}
+{"neuron":103,"pole":"low","cluster":1,"mode":"'you' or 'carpet' inside recipe and how-to replies","scene_windows":0,"windows":5,"scene":"User requests and cooking or DIY advice"}
+{"neuron":2162,"pole":"high","cluster":0,"mode":"Pronoun 'me' or 'I' at sentence starts in fiction","scene_windows":0,"windows":5,"scene":"Fiction narration with dialogue"}
+{"neuron":2162,"pole":"high","cluster":1,"mode":"Comparative 'than' or 'of' in product and descriptive comparisons","scene_windows":0,"windows":5,"scene":"Product comparisons and descriptive facts"}
+{"neuron":2162,"pole":"high","cluster":2,"mode":"Technical noun mid-compound term","scene_windows":0,"windows":5,"scene":"Technical and medical reference text"}
+{"neuron":2162,"pole":"high","cluster":3,"mode":"Sentence-final period after a personal claim","scene_windows":0,"windows":5,"scene":"Personal essays and advice prose"}
+{"neuron":2162,"pole":"low","cluster":0,"mode":"'in' or 'There' starting a historical or factual clause","scene_windows":0,"windows":5,"scene":"History, industry, and cultural facts"}
+{"neuron":2162,"pole":"low","cluster":1,"mode":"'Here are' or 'are' opening an assistant list reply","scene_windows":0,"windows":5,"scene":"Chatbot list replies to user requests"}
+{"neuron":1505,"pole":"high","cluster":0,"mode":"Noun ending a list or noun phrase in how-to text","scene_windows":0,"windows":5,"scene":"Tips, automation, and public service text"}
+{"neuron":1505,"pole":"high","cluster":1,"mode":"Colon after 'user' turn label","scene_windows":0,"windows":5,"scene":"User requests for tips and information"}
+{"neuron":1505,"pole":"high","cluster":2,"mode":"Colon after 'Human' turn label","scene_windows":0,"windows":5,"scene":"Human questions to an assistant on varied topics"}
+{"neuron":1505,"pole":"low","cluster":0,"mode":"Noun or 'two' ending a technical or philosophical phrase","scene_windows":0,"windows":5,"scene":"Industrial processes, encryption, and philosophy text"}
+{"neuron":1505,"pole":"low","cluster":1,"mode":"Turn label 'assistant' or 'user' before a reply","scene_windows":0,"windows":5,"scene":"Chatbot dialogue turns on travel and recipes"}
+{"neuron":2624,"pole":"high","cluster":0,"mode":"'the', 'and', or 'a' mid-phrase in expository text","scene_windows":0,"windows":5,"scene":"Expository and reference prose"}
+{"neuron":2624,"pole":"high","cluster":1,"mode":"'on' or 'about' after 'information' or 'insights'","scene_windows":0,"windows":5,"scene":"Mental health and resource recommendation replies"}
+{"neuron":2624,"pole":"low","cluster":0,"mode":"'There' or 'are' starting a factual sentence","scene_windows":0,"windows":5,"scene":"Health, culture, and factual explanations"}
+{"neuron":2624,"pole":"low","cluster":1,"mode":"'Here are' or 'are' opening a list reply","scene_windows":0,"windows":5,"scene":"Chatbot list replies to user requests"}
+{"neuron":2624,"pole":"low","cluster":2,"mode":"Colon or 'Here' after assistant turn label","scene_windows":0,"windows":5,"scene":"Chatbot replies on recipes and activities"}
+{"neuron":2624,"pole":"low","cluster":3,"mode":"Noun or verb in a task or request description","scene_windows":0,"windows":5,"scene":"Writing task prompts and business or tech text"}
+{"neuron":2624,"pole":"low","cluster":4,"mode":"Period closing a descriptive sentence","scene_windows":0,"windows":5,"scene":"Descriptive web text and game or sleep articles"}
+{"neuron":1788,"pole":"high","cluster":0,"mode":"'and' or comma inside a list of descriptive features","scene_windows":0,"windows":5,"scene":"Travel descriptions and promotional copy"}
+{"neuron":1788,"pole":"high","cluster":1,"mode":"'the' before a place or region noun","scene_windows":0,"windows":5,"scene":"Geography and history facts about places"}
+{"neuron":1788,"pole":"low","cluster":0,"mode":"Blank-space or period ending a narrative paragraph","scene_windows":0,"windows":5,"scene":"Fiction and historical narration"}
+{"neuron":1788,"pole":"low","cluster":1,"mode":"Noun in a technical or place-name phrase","scene_windows":0,"windows":5,"scene":"Caves, floods, and scientific reports"}
+{"neuron":1788,"pole":"low","cluster":2,"mode":"Preposition 'of', 'with', or 'by' after an abstract noun","scene_windows":0,"windows":5,"scene":"Philosophical and historical essays"}

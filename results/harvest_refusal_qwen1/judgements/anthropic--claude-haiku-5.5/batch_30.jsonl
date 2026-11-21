@@ -1,0 +1,40 @@
+{"neuron":7916,"pole":"high","cluster":0,"mode":"Sentence-opening 'There are/many' in assistant answers to advice questions","scene_windows":0,"windows":5,"scene":"Benign assistant answers to everyday questions"}
+{"neuron":7916,"pole":"high","cluster":1,"mode":"Content nouns and demonstratives in neutral informational prose","scene_windows":0,"windows":5,"scene":"Neutral technical or marketing informational text"}
+{"neuron":7916,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' before the start of an answer","scene_windows":0,"windows":5,"scene":"Benign human-assistant Q&A exchanges"}
+{"neuron":7916,"pole":"low","cluster":0,"mode":"Punctuation and articles in expository prose about society or places","scene_windows":0,"windows":5,"scene":"Neutral encyclopedic and news-style narration"}
+{"neuron":7916,"pole":"low","cluster":1,"mode":"Opening 'Sure/Certainly, here' in assistant list replies","scene_windows":0,"windows":5,"scene":"Benign assistant offering lists or tips"}
+{"neuron":9168,"pole":"high","cluster":0,"mode":"Pronouns and auxiliaries in conversational or narrative user turns","scene_windows":0,"windows":5,"scene":"Friendly user chat and storytelling"}
+{"neuron":9168,"pole":"high","cluster":1,"mode":"Exclamation or colon opening assistant replies ('Certainly!', 'Sure,')","scene_windows":0,"windows":5,"scene":"Benign assistant replies offering suggestions"}
+{"neuron":9168,"pole":"high","cluster":2,"mode":"Content nouns ending clauses in advice and descriptive text","scene_windows":0,"windows":5,"scene":"Informational marketing and advice writing"}
+{"neuron":9168,"pole":"high","cluster":3,"mode":"Function words mid-phrase in essay-style prose","scene_windows":0,"windows":5,"scene":"Literary and expository essay prose"}
+{"neuron":9168,"pole":"low","cluster":0,"mode":"Prepositions and conjunctions inside descriptive summary sentences","scene_windows":0,"windows":5,"scene":"Neutral summaries and descriptive writing"}
+{"neuron":9168,"pole":"low","cluster":1,"mode":"Subject 'I' starting assistant replies, often disclaiming","scene_windows":0,"windows":5,"scene":"Assistant replies stating limits or next steps"}
+{"neuron":2859,"pole":"high","cluster":0,"mode":"Commas and conjunctions in general advisory explanations","scene_windows":0,"windows":5,"scene":"Explanatory advice on everyday topics"}
+{"neuron":2859,"pole":"high","cluster":1,"mode":"'There are/is' existential phrases in assistant explanations","scene_windows":0,"windows":5,"scene":"Benign explanatory assistant answers"}
+{"neuron":2859,"pole":"low","cluster":0,"mode":"'the' and prepositions before place or institution names","scene_windows":0,"windows":5,"scene":"Factual geography, history and science text"}
+{"neuron":2859,"pole":"low","cluster":1,"mode":"Prepositions after abstract nouns in essay prose","scene_windows":0,"windows":5,"scene":"Reflective essays on culture and society"}
+{"neuron":2859,"pole":"low","cluster":2,"mode":"Topic nouns ending phrases in advice and factual text","scene_windows":0,"windows":5,"scene":"Informational text on media, music, health"}
+{"neuron":9180,"pole":"high","cluster":0,"mode":"Colon after 'Assistant' or role tag before first answer word","scene_windows":0,"windows":5,"scene":"Benign assistant answers to general questions"}
+{"neuron":9180,"pole":"high","cluster":1,"mode":"Technical or topical nouns ending factual news sentences","scene_windows":0,"windows":5,"scene":"News and factual reporting on science and health"}
+{"neuron":9180,"pole":"high","cluster":2,"mode":"'the' preceding a noun in expository sentences","scene_windows":0,"windows":5,"scene":"Business, legal and encyclopedic exposition"}
+{"neuron":9180,"pole":"low","cluster":0,"mode":"Conjunctions and commas in summary or advice sentences","scene_windows":0,"windows":5,"scene":"Summaries of health and education programs"}
+{"neuron":9180,"pole":"low","cluster":1,"mode":"Process and technology nouns in business or technical text","scene_windows":0,"windows":5,"scene":"Business and technology descriptions"}
+{"neuron":9180,"pole":"low","cluster":2,"mode":"Closing quotation marks ending dialogue in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes"}
+{"neuron":262,"pole":"high","cluster":0,"mode":"Mid-sentence verbs and nouns in essay or design prose","scene_windows":0,"windows":5,"scene":"Expository essays on design, work and health"}
+{"neuron":262,"pole":"high","cluster":1,"mode":"Colon after 'user' or 'Human' turn labels","scene_windows":0,"windows":5,"scene":"Multi-turn chat transcripts with user prompts"}
+{"neuron":262,"pole":"low","cluster":0,"mode":"'Assistant' role tag beginning an assistant answer","scene_windows":0,"windows":5,"scene":"Benign human-assistant Q&A transcripts"}
+{"neuron":262,"pole":"low","cluster":1,"mode":"Sentence-ending periods in historical or encyclopedic prose","scene_windows":0,"windows":5,"scene":"Historical and encyclopedic narration"}
+{"neuron":262,"pole":"low","cluster":2,"mode":"Question mark and spaces closing a Human question","scene_windows":0,"windows":5,"scene":"Human questions before assistant replies"}
+{"neuron":400,"pole":"high","cluster":0,"mode":"Abstract nouns and prepositions in social or political essays","scene_windows":0,"windows":5,"scene":"Essays on society, politics and environment"}
+{"neuron":400,"pole":"high","cluster":1,"mode":"Punctuation closing dialogue lines in fiction","scene_windows":0,"windows":5,"scene":"Fictional dialogue with angry or playful tone"}
+{"neuron":400,"pole":"high","cluster":2,"mode":"Sentence-final periods in advice and closing statements","scene_windows":0,"windows":5,"scene":"Advisory assistant text on legal, music, tech"}
+{"neuron":400,"pole":"low","cluster":0,"mode":"Name fragments and list items in encyclopedic or recipe text","scene_windows":0,"windows":5,"scene":"Biographical lists, recipes and news snippets"}
+{"neuron":400,"pole":"low","cluster":1,"mode":"'I' or 'to' in personal and narrative sentences","scene_windows":0,"windows":5,"scene":"First-person narration and reflective accounts"}
+{"neuron":2893,"pole":"high","cluster":0,"mode":"Specific technical or policy nouns in informational prose","scene_windows":0,"windows":5,"scene":"Policy, industry and history exposition"}
+{"neuron":2893,"pole":"high","cluster":1,"mode":"'to/very/be' qualifiers inside advisory or opinion sentences","scene_windows":0,"windows":5,"scene":"Advice and opinion explanations"}
+{"neuron":2893,"pole":"low","cluster":0,"mode":"Technical science nouns and determiners in expository text","scene_windows":0,"windows":5,"scene":"Science, agriculture and biology explanations"}
+{"neuron":2893,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' in medical or everyday questions","scene_windows":0,"windows":5,"scene":"Health and everyday question-answer turns"}
+{"neuron":2239,"pole":"high","cluster":0,"mode":"'of/by/such' prepositions in historical or narrative phrases","scene_windows":0,"windows":5,"scene":"Historical, fantasy and narrative prose"}
+{"neuron":2239,"pole":"high","cluster":1,"mode":"Dashes separating ingredient items in recipe lists","scene_windows":0,"windows":5,"scene":"Recipe ingredient lists"}
+{"neuron":2239,"pole":"low","cluster":0,"mode":"Nouns closing phrases in advice and fiction sentences","scene_windows":0,"windows":5,"scene":"Advice, business and fictional narration"}
+{"neuron":2239,"pole":"low","cluster":1,"mode":"Sentence-ending periods in dark fiction narration","scene_windows":0,"windows":5,"scene":"Fiction narration with tense or violent moments"}

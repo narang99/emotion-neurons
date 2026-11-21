@@ -1,0 +1,35 @@
+{"neuron":9075,"pole":"high","cluster":0,"mode":"Ordinary informational text where the marked token is a noun or phrase mid-description","scene_windows":0,"windows":5,"scene":"Benign informational or product-advice explanations"}
+{"neuron":9075,"pole":"high","cluster":1,"mode":"Marked 'user:' role tokens starting a new user turn after an assistant reply","scene_windows":0,"windows":5,"scene":"Benign multi-turn chat with follow-up requests"}
+{"neuron":9075,"pole":"low","cluster":0,"mode":"Marked 'Sure' opening an assistant's agreeable reply to a request","scene_windows":0,"windows":5,"scene":"Benign assistant agreeing to help with tasks"}
+{"neuron":9075,"pole":"low","cluster":1,"mode":"Marked 'Assistant:' or 'user:' role tokens beginning a reply to a question","scene_windows":0,"windows":5,"scene":"Benign how-to Q&A dialogues"}
+{"neuron":9075,"pole":"low","cluster":2,"mode":"Mid-sentence tokens in regulatory, medical or educational descriptive text","scene_windows":0,"windows":5,"scene":"Neutral regulatory, course and training descriptions"}
+{"neuron":9075,"pole":"low","cluster":3,"mode":"Sentence-final periods ending expository factual statements","scene_windows":0,"windows":5,"scene":"Neutral encyclopedic or explanatory prose"}
+{"neuron":6477,"pole":"high","cluster":0,"mode":"Noun phrases completing business, engineering or technical descriptions","scene_windows":0,"windows":5,"scene":"Neutral business and engineering explanations"}
+{"neuron":6477,"pole":"high","cluster":1,"mode":"Sentence-ending periods and punctuation in factual informational statements","scene_windows":0,"windows":5,"scene":"Neutral factual Q&A and explanatory text"}
+{"neuron":6477,"pole":"low","cluster":0,"mode":"Clause boundaries and possessives in historical or descriptive narration","scene_windows":0,"windows":5,"scene":"Neutral history, art and science descriptions"}
+{"neuron":6477,"pole":"low","cluster":1,"mode":"Assistant role tokens starting answers to direct questions","scene_windows":0,"windows":5,"scene":"Benign question-answer dialogues on various topics"}
+{"neuron":4250,"pole":"high","cluster":0,"mode":"Discourse connectives and clause breaks in essayistic argument prose","scene_windows":0,"windows":5,"scene":"Neutral essays on society, history and health"}
+{"neuron":4250,"pole":"high","cluster":1,"mode":"Closing courtesy phrases in assistant replies offering further help","scene_windows":0,"windows":5,"scene":"Friendly assistant sign-offs ending conversations"}
+{"neuron":4250,"pole":"low","cluster":0,"mode":"Opening quote marks and dialogue punctuation in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes"}
+{"neuron":4250,"pole":"low","cluster":1,"mode":"Sentence ends and blank spacing in advisory answers","scene_windows":0,"windows":5,"scene":"Practical advice answers on health and life"}
+{"neuron":4250,"pole":"low","cluster":2,"mode":"Function words inside descriptive or literary narration","scene_windows":0,"windows":5,"scene":"Literary prose and evaluative writing"}
+{"neuron":4250,"pole":"low","cluster":3,"mode":"Subject pronoun 'I' starting quoted speech in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with emotional speeches"}
+{"neuron":7853,"pole":"high","cluster":0,"mode":"Prepositions and pronouns in historical biographical narration","scene_windows":0,"windows":5,"scene":"Historical and biographical narrative text"}
+{"neuron":7853,"pole":"high","cluster":1,"mode":"Closing pleasantries and helpfulness remarks ending assistant replies","scene_windows":0,"windows":5,"scene":"Friendly assistant sign-off messages"}
+{"neuron":7853,"pole":"low","cluster":0,"mode":"Generic content nouns and 'can' in general expository sentences","scene_windows":0,"windows":5,"scene":"Neutral explanatory text on nature and health"}
+{"neuron":7853,"pole":"low","cluster":1,"mode":"Demonstrative 'this' starting a follow-up explanatory sentence","scene_windows":0,"windows":5,"scene":"Neutral explanations about warfare, graffiti, math"}
+{"neuron":2924,"pole":"high","cluster":0,"mode":"Colons after 'user' or 'Human' role labels starting a new turn","scene_windows":0,"windows":5,"scene":"Benign multi-turn chats on hobbies and culture"}
+{"neuron":2924,"pole":"high","cluster":1,"mode":"Assistant role tag starting an answer to a factual question","scene_windows":0,"windows":5,"scene":"Benign Q&A on cooking, products and collectibles"}
+{"neuron":2924,"pole":"high","cluster":2,"mode":"Sentence-ending punctuation and spaces after general informational claims","scene_windows":0,"windows":5,"scene":"Neutral informational text on technology and safety"}
+{"neuron":2924,"pole":"high","cluster":3,"mode":"Hedged advice wording like 'Some', 'should', 'recommend', 'advisable'","scene_windows":0,"windows":5,"scene":"Personal advice on health, relationships and careers"}
+{"neuron":2924,"pole":"low","cluster":0,"mode":"Commas and 'the' inside informational explanatory sentences","scene_windows":0,"windows":5,"scene":"Neutral science, health and tech explanations"}
+{"neuron":2924,"pole":"low","cluster":1,"mode":"Colons introducing numbered list items in advice","scene_windows":0,"windows":5,"scene":"Structured lists of practical tips"}
+{"neuron":8464,"pole":"high","cluster":0,"mode":"Mid-clause function words in academic or news reporting about studies and findings","scene_windows":0,"windows":5,"scene":"Scientific study and news reporting excerpts"}
+{"neuron":8464,"pole":"high","cluster":1,"mode":"Proper nouns and place names inside citations, references, and named-entity mentions","scene_windows":0,"windows":5,"scene":"Bibliographic citations, novel excerpts, and news naming places or companies"}
+{"neuron":8464,"pole":"high","cluster":2,"mode":"Content nouns or connectives ending a clause in general expository or promotional prose","scene_windows":0,"windows":5,"scene":"General informational, advice, and promotional writing"}
+{"neuron":10474,"pole":"high","cluster":0,"mode":"Dialogue tokens in fiction, such as 'me', 'not', 'do' in speech","scene_windows":0,"windows":5,"scene":"Fiction dialogue with playful or emotional speech"}
+{"neuron":10474,"pole":"high","cluster":1,"mode":"Specific nouns completing product, engineering or marketing instructions","scene_windows":0,"windows":5,"scene":"Practical how-to and tips content"}
+{"neuron":10474,"pole":"high","cluster":2,"mode":"Mid-sentence words in historical or argumentative prose","scene_windows":0,"windows":5,"scene":"Neutral history, sports and society commentary"}
+{"neuron":10474,"pole":"high","cluster":3,"mode":"Commas after clauses in factual or explanatory statements","scene_windows":0,"windows":5,"scene":"Neutral science, medicine and factual Q&A"}
+{"neuron":10474,"pole":"low","cluster":0,"mode":"Question marks ending user questions before assistant answers","scene_windows":0,"windows":5,"scene":"Benign home, car and music questions"}
+{"neuron":10474,"pole":"low","cluster":1,"mode":"Modal 'Can' opening follow-up requests in user turns","scene_windows":0,"windows":5,"scene":"Benign follow-up requests for tips or edits"}

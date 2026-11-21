@@ -1,0 +1,29 @@
+{"neuron":4851,"pole":"high","cluster":0,"mode":"Digit within a year number in news, citations, and references","scene_windows":0,"windows":5,"scene":"News articles and citations mentioning years"}
+{"neuron":4851,"pole":"high","cluster":1,"mode":"Prepositions 'of'/'the'/'in' mid-phrase in formal or instructional prose","scene_windows":0,"windows":5,"scene":"Formal history, guidance, and career text"}
+{"neuron":4851,"pole":"low","cluster":0,"mode":"Auxiliary verbs 'is', 'be', 'are', 'a' in general advice sentences","scene_windows":0,"windows":5,"scene":"Everyday advice and explanatory assistant answers"}
+{"neuron":4851,"pole":"low","cluster":1,"mode":"Closing quotation marks and punctuation ending dialogue lines in fiction","scene_windows":0,"windows":5,"scene":"Fictional dialogue between characters"}
+{"neuron":4851,"pole":"low","cluster":2,"mode":"Colon after 'Human' speaker label in chat transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant chat transcripts, mostly benign questions"}
+{"neuron":1025,"pole":"high","cluster":0,"mode":"Technical or business noun phrases within industry description text","scene_windows":0,"windows":5,"scene":"Technical, business, and medical process descriptions"}
+{"neuron":1025,"pole":"high","cluster":1,"mode":"Article 'the' preceding a specific event or object noun","scene_windows":0,"windows":5,"scene":"News and reference text about events and studies"}
+{"neuron":1025,"pole":"low","cluster":0,"mode":"Mid-sentence function words and nouns in planning or technical prose","scene_windows":0,"windows":5,"scene":"Logistics, networking, and science descriptions"}
+{"neuron":1025,"pole":"low","cluster":1,"mode":"Sentence-final periods ending a segment before a Human turn or dialogue","scene_windows":0,"windows":5,"scene":"Fiction passages and chat transcript boundaries"}
+{"neuron":8707,"pole":"low","cluster":0,"mode":"Conjunctions and nouns in informational or advice sentences","scene_windows":0,"windows":5,"scene":"Health, business, and web content descriptions"}
+{"neuron":8707,"pole":"low","cluster":1,"mode":"Sentence-ending punctuation in narrative and personal reflection","scene_windows":0,"windows":5,"scene":"Personal narrative and fiction sentences"}
+{"neuron":5862,"pole":"low","cluster":0,"mode":"Modal and infinitive words 'to', 'will', 'would', 'you' in fiction","scene_windows":0,"windows":5,"scene":"Science-fiction and time-travel dialogue"}
+{"neuron":5862,"pole":"low","cluster":1,"mode":"Digits and separators inside numeric data or tables","scene_windows":0,"windows":5,"scene":"Tabular, numeric, and citation data"}
+{"neuron":5862,"pole":"low","cluster":2,"mode":"Sentence-final periods in dramatic or tense fiction","scene_windows":0,"windows":5,"scene":"Tense fiction and military dialogue"}
+{"neuron":9364,"pole":"high","cluster":0,"mode":"Conjunctions and nouns completing phrases in cooking and medicine text","scene_windows":0,"windows":5,"scene":"Cooking tips and medical-supplement explanations"}
+{"neuron":9364,"pole":"high","cluster":1,"mode":"Article 'the' before place nouns in suspenseful narration","scene_windows":0,"windows":5,"scene":"Atmospheric fantasy and adventure fiction"}
+{"neuron":2421,"pole":"high","cluster":0,"mode":"Word fragments and key nouns in descriptive expository text","scene_windows":0,"windows":5,"scene":"Policy, history, and plant descriptions"}
+{"neuron":2421,"pole":"high","cluster":1,"mode":"Sentence-ending periods in narrative and analytical prose","scene_windows":0,"windows":5,"scene":"Crime and historical narrative passages"}
+{"neuron":2421,"pole":"high","cluster":2,"mode":"Determiners and prepositions in assistant answers to questions","scene_windows":0,"windows":5,"scene":"Q&A assistant replies on everyday and debated topics"}
+{"neuron":2421,"pole":"low","cluster":0,"mode":"Connectives and adjectives in general expository sentences","scene_windows":0,"windows":5,"scene":"Expository and narrative sentences on varied topics"}
+{"neuron":2421,"pole":"low","cluster":1,"mode":"Example-introducing word 'such' in list-style advice","scene_windows":0,"windows":5,"scene":"Listicle advice on wellness and travel"}
+{"neuron":7806,"pole":"high","cluster":0,"mode":"Conjunctions and articles in list-style informational text","scene_windows":0,"windows":5,"scene":"Lists on decor, research findings, and AR technology"}
+{"neuron":7806,"pole":"high","cluster":1,"mode":"Spatial prepositions after cooking-action verbs in recipes","scene_windows":0,"windows":5,"scene":"Step-by-step cooking instructions"}
+{"neuron":7806,"pole":"low","cluster":0,"mode":"Speaker label 'Assistant' and sentence-final tokens in chat","scene_windows":0,"windows":5,"scene":"Chat exchanges about weather, music, and songs"}
+{"neuron":7806,"pole":"low","cluster":1,"mode":"Digits and partial numbers in technical or biological facts","scene_windows":0,"windows":5,"scene":"Animal, instrument, and numeric reference facts"}
+{"neuron":2348,"pole":"high","cluster":0,"mode":"Final nouns completing phrases in workplace and health text","scene_windows":0,"windows":5,"scene":"Workplace, education, and safety announcements"}
+{"neuron":2348,"pole":"high","cluster":1,"mode":"Sentence-final periods in emotional or dystopian fiction","scene_windows":0,"windows":5,"scene":"Literary fiction about illness and survival"}
+{"neuron":2348,"pole":"low","cluster":0,"mode":"Conjunctions and auxiliaries in narrative and societal prose","scene_windows":0,"windows":5,"scene":"Social and historical narrative passages"}
+{"neuron":2348,"pole":"low","cluster":1,"mode":"Chocolate and candy nouns within dessert recipe text","scene_windows":0,"windows":5,"scene":"Candy and chocolate dessert recipes and chats"}

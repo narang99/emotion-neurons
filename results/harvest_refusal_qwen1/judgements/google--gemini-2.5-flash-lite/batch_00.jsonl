@@ -1,0 +1,31 @@
+{"neuron":1958,"pole":"high","cluster":0,"mode":"articles 'a', 'an', 'the' used as determiners for nouns.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1958,"pole":"high","cluster":1,"mode":"words related to health and well-being.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1958,"pole":"low","cluster":0,"mode":"pronouns referring to a male person or his possessions.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1958,"pole":"low","cluster":1,"mode":"punctuation and conjunctions in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":799,"pole":"high","cluster":0,"mode":"punctuation and conjunctions in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":799,"pole":"high","cluster":1,"mode":"affirmative responses to questions.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":799,"pole":"high","cluster":2,"mode":"conjunctions and adverbs in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":799,"pole":"low","cluster":0,"mode":"conjunctions and prepositions in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":799,"pole":"low","cluster":1,"mode":"affirmative responses to questions.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5634,"pole":"high","cluster":0,"mode":"dialogue markers and quoted speech.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5634,"pole":"high","cluster":1,"mode":"conjunctions and prepositions in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5634,"pole":"high","cluster":2,"mode":"assistant responses to user questions.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5634,"pole":"low","cluster":0,"mode":"common nouns for objects and items.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5634,"pole":"low","cluster":1,"mode":"negative contractions in dialogue.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9572,"pole":"high","cluster":0,"mode":"conjunctions and nouns in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9572,"pole":"high","cluster":1,"mode":"dialogue markers and quoted speech.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9572,"pole":"low","cluster":0,"mode":"prepositions and conjunctions in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9572,"pole":"low","cluster":1,"mode":"pronouns referring to the speaker.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3366,"pole":"high","cluster":0,"mode":"conjunctions and adverbs in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3366,"pole":"high","cluster":1,"mode":"pronouns referring to abstract concepts or situations.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3366,"pole":"low","cluster":0,"mode":"common nouns for groups and items.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3366,"pole":"low","cluster":1,"mode":"words related to medical conditions and treatments.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2882,"pole":"high","cluster":0,"mode":"conjunctions and nouns in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2882,"pole":"high","cluster":1,"mode":"affirmative responses and exclamations.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2882,"pole":"low","cluster":0,"mode":"prepositions and conjunctions in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2882,"pole":"low","cluster":1,"mode":"assistant responses to user questions.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":540,"pole":"high","cluster":0,"mode":"articles and pronouns in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":540,"pole":"high","cluster":1,"mode":"assistant responses to user questions.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":540,"pole":"low","cluster":0,"mode":"words related to negative outcomes and states.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":540,"pole":"low","cluster":1,"mode":"articles and prepositions in neutral sentences.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":540,"pole":"low","cluster":2,"mode":"pronouns referring to the speaker and negative states.","scene_windows":0,"windows":5,"scene":"neutral narration"}

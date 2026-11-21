@@ -1,0 +1,40 @@
+{"neuron":9685,"pole":"high","cluster":0,"mode":"asking for more information about a topic, continuing a conversation","scene_windows":0,"windows":5,"scene":"neutral conversation continuation"}
+{"neuron":9685,"pole":"high","cluster":1,"mode":"asking for instructions or explanations on how to do something","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":9685,"pole":"high","cluster":2,"mode":"asking for recommendations or opinions on subjective topics","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":9685,"pole":"high","cluster":3,"mode":"dialogue markers, indicating speech or thought in narrative","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":9685,"pole":"high","cluster":4,"mode":"asking for clarification or additional details on a topic","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":9685,"pole":"high","cluster":5,"mode":"referring to a person or group in a narrative context","scene_windows":0,"windows":5,"scene":"narrative context"}
+{"neuron":9685,"pole":"high","cluster":6,"mode":"expressing uncertainty or observation in a narrative context","scene_windows":0,"windows":5,"scene":"narrative observation"}
+{"neuron":9685,"pole":"high","cluster":7,"mode":"describing actions or states within a narrative","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":9685,"pole":"low","cluster":0,"mode":"dialogue markers, indicating speech or thought in narrative","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":9685,"pole":"low","cluster":1,"mode":"first-person perspective in narrative, expressing thoughts or actions","scene_windows":0,"windows":5,"scene":"narrative first-person"}
+{"neuron":9685,"pole":"low","cluster":2,"mode":"referring to a concept or item previously mentioned","scene_windows":0,"windows":5,"scene":"technical explanation"}
+{"neuron":9685,"pole":"low","cluster":3,"mode":"referring to comparative or superlative states","scene_windows":0,"windows":5,"scene":"comparative description"}
+{"neuron":9685,"pole":"low","cluster":4,"mode":"expressing a negative outcome or state","scene_windows":0,"windows":5,"scene":"narrative negative outcome"}
+{"neuron":9268,"pole":"high","cluster":0,"mode":"referring to articles or entities in a general context","scene_windows":0,"windows":5,"scene":"general context"}
+{"neuron":9268,"pole":"high","cluster":1,"mode":"indicating speech or thought in narrative","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":9268,"pole":"low","cluster":0,"mode":"indicating past tense actions or states","scene_windows":0,"windows":5,"scene":"narrative past tense"}
+{"neuron":9268,"pole":"low","cluster":1,"mode":"asking for information or recommendations","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":9250,"pole":"high","cluster":0,"mode":"referring to societal concepts or entities","scene_windows":0,"windows":5,"scene":"societal discussion"}
+{"neuron":9250,"pole":"high","cluster":1,"mode":"asking for more information or elaboration","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":1037,"pole":"low","cluster":0,"mode":"indicating past tense actions or states","scene_windows":0,"windows":5,"scene":"narrative past tense"}
+{"neuron":1037,"pole":"low","cluster":1,"mode":"referring to location or context","scene_windows":0,"windows":5,"scene":"contextual reference"}
+{"neuron":1037,"pole":"low","cluster":2,"mode":"referring to abstract or negative concepts","scene_windows":0,"windows":5,"scene":"abstract concepts"}
+{"neuron":836,"pole":"high","cluster":0,"mode":"conjunctions and references in descriptive or explanatory text","scene_windows":0,"windows":5,"scene":"explanatory text"}
+{"neuron":836,"pole":"high","cluster":1,"mode":"asking for recommendations or advice","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":836,"pole":"low","cluster":0,"mode":"first-person perspective in narrative or requests","scene_windows":0,"windows":5,"scene":"personal statement/request"}
+{"neuron":836,"pole":"low","cluster":1,"mode":"referring to articles or entities in a general context","scene_windows":0,"windows":5,"scene":"general context"}
+{"neuron":836,"pole":"low","cluster":2,"mode":"dialogue markers, indicating speech in narrative","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":3048,"pole":"high","cluster":0,"mode":"asking for help or information","scene_windows":0,"windows":5,"scene":"neutral request for help"}
+{"neuron":3048,"pole":"high","cluster":1,"mode":"asking for information or advice","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":3048,"pole":"high","cluster":2,"mode":"providing suggestions or lists","scene_windows":0,"windows":5,"scene":"offering suggestions"}
+{"neuron":3048,"pole":"high","cluster":3,"mode":"referring to processes or methods","scene_windows":0,"windows":5,"scene":"process description"}
+{"neuron":3048,"pole":"high","cluster":4,"mode":"dialogue markers, indicating speech in narrative","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":3048,"pole":"low","cluster":0,"mode":"referring to legal or safety guidelines","scene_windows":0,"windows":5,"scene":"legal/safety context"}
+{"neuron":3048,"pole":"low","cluster":1,"mode":"asking for information or advice","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":6676,"pole":"high","cluster":0,"mode":"referring to entities or concepts in a general context","scene_windows":0,"windows":5,"scene":"general context"}
+{"neuron":6676,"pole":"high","cluster":1,"mode":"asking for tips or suggestions","scene_windows":0,"windows":5,"scene":"neutral request for advice"}
+{"neuron":6676,"pole":"low","cluster":0,"mode":"referring to articles or entities in a general context","scene_windows":0,"windows":5,"scene":"general context"}
+{"neuron":6676,"pole":"low","cluster":1,"mode":"dialogue markers, indicating speech or thought in narrative","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":8751,"pole":"low","cluster":0,"mode":"referring to articles or entities in a general context","scene_windows":0,"windows":5,"scene":"general context"}
+{"neuron":8751,"pole":"low","cluster":1,"mode":"asking for information or advice","scene_windows":0,"windows":5,"scene":"neutral request for information"}

@@ -1,0 +1,41 @@
+{"neuron":9013,"pole":"high","cluster":0,"mode":"examples of groups, opportunities, services, and patterns","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":9013,"pole":"high","cluster":1,"mode":"actions taken to prevent or achieve something","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"high","cluster":0,"mode":"punctuation marks and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"high","cluster":1,"mode":"phrases indicating a specific context or situation","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"high","cluster":2,"mode":"sentence-starting articles and pronouns","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"high","cluster":3,"mode":"nouns related to conflict, places, and body parts","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"low","cluster":0,"mode":"numbered lists and recipe steps","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"low","cluster":1,"mode":"abbreviations and character names","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"low","cluster":2,"mode":"articles and pronouns referring to specific entities","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"low","cluster":3,"mode":"words related to legal and social processes","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"low","cluster":4,"mode":"punctuation and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":4284,"pole":"low","cluster":5,"mode":"phrases indicating location or purpose","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6724,"pole":"high","cluster":0,"mode":"punctuation and conjunctions","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6724,"pole":"high","cluster":1,"mode":"nouns related to risks, materials, and facts","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6724,"pole":"high","cluster":2,"mode":"prepositions indicating purpose or direction","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6724,"pole":"low","cluster":0,"mode":"articles and prepositions indicating context","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6724,"pole":"low","cluster":1,"mode":"dialogue markers and quoted speech","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":7448,"pole":"high","cluster":0,"mode":"prepositions indicating relation or possession","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":7448,"pole":"high","cluster":1,"mode":"punctuation and interjections","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":7448,"pole":"low","cluster":0,"mode":"articles and pronouns referring to specific entities","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":7448,"pole":"low","cluster":1,"mode":"conjunctions indicating addition or contrast","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6183,"pole":"high","cluster":0,"mode":"dialogue markers and user queries","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6183,"pole":"high","cluster":1,"mode":"punctuation and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6183,"pole":"high","cluster":2,"mode":"punctuation and conjunctions","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6183,"pole":"high","cluster":3,"mode":"punctuation and exclamations","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6183,"pole":"high","cluster":4,"mode":"punctuation and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6183,"pole":"low","cluster":0,"mode":"articles and prepositions indicating context","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":6183,"pole":"low","cluster":1,"mode":"pronouns and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":9945,"pole":"high","cluster":0,"mode":"articles and pronouns referring to specific entities","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":9945,"pole":"high","cluster":1,"mode":"dialogue markers and user queries","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":9945,"pole":"low","cluster":0,"mode":"punctuation and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":9945,"pole":"low","cluster":1,"mode":"dialogue markers and assistant responses","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":5724,"pole":"high","cluster":0,"mode":"dialogue markers and quoted speech","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":5724,"pole":"high","cluster":1,"mode":"articles and pronouns referring to specific entities","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":5724,"pole":"high","cluster":2,"mode":"punctuation and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":5724,"pole":"low","cluster":0,"mode":"articles and prepositions indicating context","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":5724,"pole":"low","cluster":1,"mode":"pronouns and sentence endings","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":10331,"pole":"high","cluster":0,"mode":"pronouns and prepositions indicating source","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":10331,"pole":"high","cluster":1,"mode":"interjections and dialogue markers","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":10331,"pole":"low","cluster":0,"mode":"prepositions indicating relation or source","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":10331,"pole":"low","cluster":1,"mode":"pronouns and dialogue markers","scene_windows":0,"windows":5,"scene":"neutral factual narration"}

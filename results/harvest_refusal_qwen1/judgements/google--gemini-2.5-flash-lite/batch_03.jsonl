@@ -1,0 +1,42 @@
+{"neuron":7140,"pole":"high","cluster":0,"mode":"Asking for more information or examples after an explanation.","scene_windows":0,"windows":5,"scene":"requesting further details"}
+{"neuron":7140,"pole":"high","cluster":1,"mode":"Asking for more information or examples after an explanation.","scene_windows":0,"windows":5,"scene":"requesting further details"}
+{"neuron":7140,"pole":"high","cluster":2,"mode":"Pronoun referring to a previously mentioned subject or idea.","scene_windows":0,"windows":5,"scene":"referring to prior context"}
+{"neuron":7140,"pole":"high","cluster":3,"mode":"Asking for information or advice, often with a question mark.","scene_windows":0,"windows":5,"scene":"seeking specific information"}
+{"neuron":7140,"pole":"low","cluster":0,"mode":"asking for ideas or examples, often following a previous response","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":7140,"pole":"low","cluster":1,"mode":"asking for examples or details after a previous explanation","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":7140,"pole":"low","cluster":2,"mode":"asking for more information or examples after a previous statement","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":7140,"pole":"low","cluster":3,"mode":"asking for more information or examples after a previous statement","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":1545,"pole":"high","cluster":0,"mode":"Words related to components, assembly, or construction.","scene_windows":0,"windows":5,"scene":"describing physical objects"}
+{"neuron":1545,"pole":"high","cluster":1,"mode":"Positive affirmations or confirmations.","scene_windows":0,"windows":5,"scene":"positive conversational closing"}
+{"neuron":1545,"pole":"low","cluster":0,"mode":"Conjunctions and prepositions connecting clauses or phrases.","scene_windows":0,"windows":5,"scene":"connecting sentence parts"}
+{"neuron":1545,"pole":"low","cluster":1,"mode":"Words related to media, events, or origins.","scene_windows":0,"windows":5,"scene":"discussing media and history"}
+{"neuron":6481,"pole":"high","cluster":0,"mode":"Words indicating advice, recommendations, or suggestions.","scene_windows":0,"windows":5,"scene":"offering guidance"}
+{"neuron":6481,"pole":"high","cluster":1,"mode":"Phrases indicating a request for further information or clarification.","scene_windows":0,"windows":5,"scene":"seeking more details"}
+{"neuron":6481,"pole":"low","cluster":0,"mode":"Words related to roles, responsibilities, or positions.","scene_windows":0,"windows":5,"scene":"identifying roles"}
+{"neuron":6481,"pole":"low","cluster":1,"mode":"Words related to living things or their parts.","scene_windows":0,"windows":5,"scene":"referring to biological entities"}
+{"neuron":6481,"pole":"low","cluster":2,"mode":"Numbers and ordinal indicators.","scene_windows":0,"windows":5,"scene":"numerical and sequential references"}
+{"neuron":6481,"pole":"low","cluster":3,"mode":"Words indicating speech, thought, or internal states.","scene_windows":0,"windows":5,"scene":"expressing internal states"}
+{"neuron":2849,"pole":"high","cluster":0,"mode":"Conjunctions and prepositions connecting related concepts.","scene_windows":0,"windows":5,"scene":"linking related ideas"}
+{"neuron":2849,"pole":"high","cluster":1,"mode":"Abbreviations and acronyms related to technology or organizations.","scene_windows":0,"windows":5,"scene":"technical and organizational abbreviations"}
+{"neuron":1749,"pole":"high","cluster":0,"mode":"Asking for clarification or more details after receiving information.","scene_windows":0,"windows":5,"scene":"seeking further clarification"}
+{"neuron":1749,"pole":"high","cluster":1,"mode":"Positive affirmations and offers of assistance.","scene_windows":0,"windows":5,"scene":"offering help and confirmation"}
+{"neuron":1749,"pole":"high","cluster":2,"mode":"Phrases indicating historical or cultural significance.","scene_windows":0,"windows":5,"scene":"discussing cultural significance"}
+{"neuron":1749,"pole":"high","cluster":3,"mode":"Numbered lists or steps for instructions or recommendations.","scene_windows":0,"windows":5,"scene":"providing numbered advice"}
+{"neuron":1749,"pole":"high","cluster":4,"mode":"Words indicating possession or belonging.","scene_windows":0,"windows":5,"scene":"indicating possession"}
+{"neuron":1749,"pole":"high","cluster":5,"mode":"Direct questions seeking specific information.","scene_windows":0,"windows":5,"scene":"asking for specific details"}
+{"neuron":1749,"pole":"low","cluster":0,"mode":"Words indicating state of being or possession.","scene_windows":0,"windows":5,"scene":"describing states or possession"}
+{"neuron":1749,"pole":"low","cluster":1,"mode":"Phrases indicating a request for more information or examples.","scene_windows":0,"windows":5,"scene":"requesting more examples"}
+{"neuron":3289,"pole":"high","cluster":0,"mode":"Words indicating necessity, avoidance, or permission.","scene_windows":0,"windows":5,"scene":"expressing necessity or avoidance"}
+{"neuron":3289,"pole":"high","cluster":1,"mode":"Punctuation marks used in medical or academic citations.","scene_windows":0,"windows":5,"scene":"citation punctuation"}
+{"neuron":3289,"pole":"high","cluster":2,"mode":"Ellipsis indicating a pause or omission in dialogue.","scene_windows":0,"windows":5,"scene":"dialogue pauses or omissions"}
+{"neuron":3289,"pole":"low","cluster":0,"mode":"Words indicating state of being or possession.","scene_windows":0,"windows":5,"scene":"describing states or possession"}
+{"neuron":3289,"pole":"low","cluster":1,"mode":"Phrases indicating a request for more information or examples.","scene_windows":0,"windows":5,"scene":"requesting more examples"}
+{"neuron":6118,"pole":"high","cluster":0,"mode":"Words indicating purpose, inclusion, or belonging.","scene_windows":0,"windows":5,"scene":"indicating purpose or inclusion"}
+{"neuron":6118,"pole":"high","cluster":1,"mode":"Dialogue markers indicating speech or action.","scene_windows":0,"windows":5,"scene":"dialogue and action"}
+{"neuron":6118,"pole":"low","cluster":0,"mode":"Words indicating consequences, conditions, or advice.","scene_windows":0,"windows":5,"scene":"discussing consequences or advice"}
+{"neuron":6118,"pole":"low","cluster":1,"mode":"Words indicating possession, purpose, or belonging.","scene_windows":0,"windows":5,"scene":"indicating possession or purpose"}
+{"neuron":6118,"pole":"low","cluster":2,"mode":"Phrases indicating a request for assistance or information.","scene_windows":0,"windows":5,"scene":"requesting assistance"}
+{"neuron":9029,"pole":"high","cluster":0,"mode":"Words indicating definiteness or inclusion.","scene_windows":0,"windows":5,"scene":"indicating definiteness or inclusion"}
+{"neuron":9029,"pole":"high","cluster":1,"mode":"Words indicating existence, availability, or state.","scene_windows":0,"windows":5,"scene":"indicating existence or availability"}
+{"neuron":9029,"pole":"low","cluster":0,"mode":"Words indicating purpose, inclusion, or belonging.","scene_windows":0,"windows":5,"scene":"indicating purpose or inclusion"}
+{"neuron":9029,"pole":"low","cluster":1,"mode":"Phrases indicating a request for more information or examples.","scene_windows":0,"windows":5,"scene":"requesting more examples"}

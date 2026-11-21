@@ -1,0 +1,38 @@
+{"neuron":2665,"pole":"high","cluster":0,"mode":"positive self-affirmation and growing confidence in personal abilities","scene_windows":0,"windows":5,"scene":"personal growth and self-improvement"}
+{"neuron":2665,"pole":"high","cluster":1,"mode":"factual information about events, organizations, and public health","scene_windows":0,"windows":5,"scene":"informative and factual narration"}
+{"neuron":2665,"pole":"high","cluster":2,"mode":"historical and geographical locations and events","scene_windows":0,"windows":5,"scene":"historical and geographical context"}
+{"neuron":2665,"pole":"low","cluster":0,"mode":"negative consequences and potential dangers","scene_windows":0,"windows":5,"scene":"cautionary and negative outcomes"}
+{"neuron":2665,"pole":"low","cluster":1,"mode":"assistant declining to provide specific information or advice","scene_windows":3,"windows":5,"scene":"assistant refusal and limitations"}
+{"neuron":2639,"pole":"high","cluster":0,"mode":"historical context and political entities","scene_windows":0,"windows":5,"scene":"historical and political information"}
+{"neuron":2639,"pole":"high","cluster":1,"mode":"factual information about dates, numbers, and organizations","scene_windows":0,"windows":5,"scene":"factual and numerical data"}
+{"neuron":2639,"pole":"low","cluster":0,"mode":"providing information and advice","scene_windows":0,"windows":5,"scene":"informative and advisory content"}
+{"neuron":2639,"pole":"low","cluster":1,"mode":"assistant offering information and advice","scene_windows":0,"windows":5,"scene":"informative and advisory content"}
+{"neuron":1219,"pole":"high","cluster":0,"mode":"personal pronouns and advice for content creation","scene_windows":0,"windows":5,"scene":"advice and personal communication"}
+{"neuron":1219,"pole":"high","cluster":1,"mode":"supportive advice and inclusive language","scene_windows":0,"windows":5,"scene":"supportive and inclusive communication"}
+{"neuron":1219,"pole":"low","cluster":0,"mode":"negative actions and locations","scene_windows":0,"windows":5,"scene":"negative actions and locations"}
+{"neuron":1219,"pole":"low","cluster":1,"mode":"practical advice and safety precautions","scene_windows":0,"windows":5,"scene":"practical advice and safety"}
+{"neuron":7825,"pole":"high","cluster":0,"mode":"emotional distress and inability to help","scene_windows":0,"windows":5,"scene":"emotional distress and helplessness"}
+{"neuron":7825,"pole":"high","cluster":1,"mode":"factual information about health, nutrition, and technology","scene_windows":0,"windows":5,"scene":"factual and technical information"}
+{"neuron":7825,"pole":"low","cluster":0,"mode":"historical events and scientific concepts","scene_windows":0,"windows":5,"scene":"historical and scientific context"}
+{"neuron":7825,"pole":"low","cluster":1,"mode":"descriptive narration and practical advice","scene_windows":0,"windows":5,"scene":"descriptive narration and advice"}
+{"neuron":9203,"pole":"high","cluster":0,"mode":"requesting more information about specific topics","scene_windows":0,"windows":5,"scene":"information seeking and requests"}
+{"neuron":9203,"pole":"high","cluster":1,"mode":"technical advancements and future developments","scene_windows":0,"windows":5,"scene":"technical and scientific advancements"}
+{"neuron":9203,"pole":"high","cluster":2,"mode":"offering examples and steps for various tasks","scene_windows":0,"windows":5,"scene":"offering examples and steps"}
+{"neuron":9203,"pole":"low","cluster":0,"mode":"advice on self-improvement and goal setting","scene_windows":0,"windows":5,"scene":"advice on self-improvement"}
+{"neuron":9203,"pole":"low","cluster":1,"mode":"offering recommendations and advice","scene_windows":0,"windows":5,"scene":"offering recommendations and advice"}
+{"neuron":9203,"pole":"low","cluster":2,"mode":"describing dance steps and musical instruments","scene_windows":0,"windows":5,"scene":"describing dance and music"}
+{"neuron":9203,"pole":"low","cluster":3,"mode":"conservation efforts and environmental concerns","scene_windows":0,"windows":5,"scene":"conservation and environmental issues"}
+{"neuron":9203,"pole":"low","cluster":4,"mode":"risks and consequences of certain actions","scene_windows":0,"windows":5,"scene":"risks and consequences"}
+{"neuron":4100,"pole":"high","cluster":0,"mode":"impact of income inequality and career considerations","scene_windows":0,"windows":5,"scene":"social issues and career advice"}
+{"neuron":4100,"pole":"high","cluster":1,"mode":"cultural practices and personal expression","scene_windows":0,"windows":5,"scene":"cultural practices and personal expression"}
+{"neuron":4100,"pole":"low","cluster":0,"mode":"negative consequences and personal struggles","scene_windows":0,"windows":5,"scene":"negative consequences and struggles"}
+{"neuron":4100,"pole":"low","cluster":1,"mode":"descriptive narration and practical advice","scene_windows":0,"windows":5,"scene":"descriptive narration and advice"}
+{"neuron":4100,"pole":"low","cluster":2,"mode":"assistant responses to user questions about marketing, vehicles, and careers","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":6317,"pole":"high","cluster":0,"mode":"historical context and scientific behavior","scene_windows":0,"windows":5,"scene":"historical and scientific context"}
+{"neuron":6317,"pole":"high","cluster":1,"mode":"narrative descriptions of being lost or in difficult situations","scene_windows":0,"windows":5,"scene":"narrative of difficult situations"}
+{"neuron":6317,"pole":"low","cluster":0,"mode":"technical details and scientific processes","scene_windows":0,"windows":5,"scene":"technical and scientific details"}
+{"neuron":6317,"pole":"low","cluster":1,"mode":"assistant declining to provide specific information or advice","scene_windows":3,"windows":5,"scene":"assistant refusal and limitations"}
+{"neuron":8143,"pole":"high","cluster":0,"mode":"biological processes and medical information","scene_windows":0,"windows":5,"scene":"biological and medical information"}
+{"neuron":8143,"pole":"high","cluster":1,"mode":"narrative descriptions of conflict and observation","scene_windows":0,"windows":5,"scene":"narrative of conflict and observation"}
+{"neuron":8143,"pole":"low","cluster":0,"mode":"information about mood, budget, and Taoism","scene_windows":0,"windows":5,"scene":"information on various topics"}
+{"neuron":8143,"pole":"low","cluster":1,"mode":"assistant offering advice and information","scene_windows":0,"windows":5,"scene":"offering advice and information"}

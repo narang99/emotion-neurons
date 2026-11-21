@@ -152,6 +152,19 @@ python scripts/pipeline.py --config configs/harvest_angry_l25.yaml
 - "Match" leans on the harvest corpus: almost every happy-scene cluster came from TinyStories, the only narrative
   source. Add a fiction corpus to `harvest.corpora` for emotions that children's stories rarely show.
 
+## Directions on instruction data (e.g. refusal)
+
+- `vectors.diff_means`: a target category's mean minus the mean of all or of the other categories; optional PCA.
+- `datasets`: example sets. `StoriesSet` (the emotion stories) and `InstructionSet` (benchmark instructions sampled
+  per category from JSON URLs or Hub datasets, in the model's chat format; positions = the post-instruction tokens).
+- `models.adapters`: model families. `hf` (Qwen3 and other native models) and `qwen1` (Qwen-1 chat, converted to a
+  native Qwen2 model; `tests/test_qwen1.py` checks the logits against its own code).
+- `scripts/direction.py`: the direction, chosen as in Arditi et al. 2024 (ablation, addition, KL), with a generation check.
+- `scripts/direction_neurons.py`: its neuron set (the MLP writing into the chosen layer), in the greedy-set format, so
+  the modes pipeline (`scripts/pipeline.py`) runs on it unchanged (`ModesRunConfig.concept`).
+- `scripts/direction_prompts.py`: the top neurons read at the direction's own position, with the prompts at their extremes.
+- Done for refusal on Qwen-1 7B Chat: `experiments/refusal_qwen1.md`.
+
 ## Layout
 
 | path | what |

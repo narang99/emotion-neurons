@@ -1,0 +1,46 @@
+{"neuron":9109,"pole":"high","cluster":0,"mode":"Sentence-final punctuation or space in factual, encyclopedic text","scene_windows":0,"windows":5,"scene":"Scientific and encyclopedic factual passages"}
+{"neuron":9109,"pole":"high","cluster":1,"mode":"Proper nouns or place names mid-phrase in historical or geographic text","scene_windows":0,"windows":5,"scene":"Historical, geographic and biographical narration"}
+{"neuron":9109,"pole":"high","cluster":2,"mode":"Technical or business nouns following adjectives in industry descriptions","scene_windows":0,"windows":5,"scene":"Technical and industry descriptive text"}
+{"neuron":9109,"pole":"high","cluster":3,"mode":"Prepositions and punctuation after factor or cause phrases","scene_windows":0,"windows":5,"scene":"Analytical text discussing causes and factors"}
+{"neuron":9109,"pole":"low","cluster":0,"mode":"Opening quotation marks starting dialogue in narrative fiction","scene_windows":0,"windows":5,"scene":"Fictional narrative with quoted dialogue"}
+{"neuron":9109,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' turn label in dialogue transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant chat transcripts answering questions"}
+{"neuron":9109,"pole":"low","cluster":2,"mode":"Concrete nouns ending clauses in news or descriptive reporting","scene_windows":0,"windows":5,"scene":"News reporting and descriptive prose"}
+{"neuron":9109,"pole":"low","cluster":3,"mode":"Question mark ending a human question before assistant reply","scene_windows":0,"windows":5,"scene":"Human questions in chat transcripts"}
+{"neuron":9109,"pole":"low","cluster":4,"mode":"Sentence-end period before a new Human turn in chat","scene_windows":0,"windows":5,"scene":"Chat transcripts with advice and follow-up turns"}
+{"neuron":10681,"pole":"high","cluster":0,"mode":"Prepositions or articles before institution names in factual text","scene_windows":0,"windows":5,"scene":"Research, museum and institutional news"}
+{"neuron":10681,"pole":"high","cluster":1,"mode":"Sentence-final period after general claims about factors","scene_windows":0,"windows":5,"scene":"Expository essays on society and behavior"}
+{"neuron":10681,"pole":"low","cluster":0,"mode":"Articles or numbers inside narrative or descriptive sentences","scene_windows":0,"windows":5,"scene":"Fiction narration and science prose"}
+{"neuron":10681,"pole":"low","cluster":1,"mode":"Step or list item numbers starting numbered instructions","scene_windows":0,"windows":5,"scene":"Numbered how-to and marketing lists"}
+{"neuron":4902,"pole":"high","cluster":0,"mode":"Mid-phrase function words or word parts in descriptive text","scene_windows":0,"windows":5,"scene":"Descriptive and informational prose"}
+{"neuron":4902,"pole":"high","cluster":1,"mode":"Article 'the' preceding a noun in factual statements","scene_windows":0,"windows":5,"scene":"Historical and factual news statements"}
+{"neuron":4902,"pole":"low","cluster":0,"mode":"Possessive pronouns his or my before body or face nouns","scene_windows":0,"windows":5,"scene":"Narrative fiction with character description"}
+{"neuron":4902,"pole":"low","cluster":1,"mode":"Article 'The' or 'the' starting factual clauses","scene_windows":0,"windows":5,"scene":"Regulatory, scientific and technical descriptions"}
+{"neuron":10877,"pole":"high","cluster":0,"mode":"Connectives or commas in health and advice sentences","scene_windows":0,"windows":5,"scene":"Health, parenting and addiction advice"}
+{"neuron":10877,"pole":"high","cluster":1,"mode":"Sentence-ending punctuation in fiction action or dialogue beats","scene_windows":0,"windows":5,"scene":"Fictional narrative with dialogue and action"}
+{"neuron":10877,"pole":"low","cluster":0,"mode":"Prepositions or conjunctions inside academic or historical claims","scene_windows":0,"windows":5,"scene":"Academic and historical analysis"}
+{"neuron":10877,"pole":"low","cluster":1,"mode":"Pronoun or verb inside first-person emotional narration","scene_windows":0,"windows":5,"scene":"First-person fiction with emotional or traumatic memories"}
+{"neuron":10877,"pole":"low","cluster":2,"mode":"Paragraph-ending punctuation before a closing remark","scene_windows":0,"windows":5,"scene":"Informational essays and assistant closing lines"}
+{"neuron":10877,"pole":"low","cluster":3,"mode":"Citation and bibliographic punctuation or abbreviations","scene_windows":0,"windows":5,"scene":"Reference lists, citations and event listings"}
+{"neuron":10877,"pole":"low","cluster":4,"mode":"Proper name or agency word in factual reporting","scene_windows":0,"windows":5,"scene":"News and reference text naming people or agencies"}
+{"neuron":4802,"pole":"high","cluster":0,"mode":"Auxiliary verbs or punctuation mid-claim in general statements","scene_windows":0,"windows":5,"scene":"Informational advice and economic explanation"}
+{"neuron":4802,"pole":"high","cluster":1,"mode":"'Here' followed by 's or are opening an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant replies offering itineraries and recommendations"}
+{"neuron":4802,"pole":"low","cluster":0,"mode":"Copula is or are after a technical subject noun","scene_windows":0,"windows":5,"scene":"Scientific and technical explanatory text"}
+{"neuron":4802,"pole":"low","cluster":1,"mode":"Question-opening 'is' or 'are' in human questions","scene_windows":0,"windows":5,"scene":"Human questions in chat transcripts"}
+{"neuron":3281,"pole":"high","cluster":0,"mode":"Assistant turn label or reply opener after human thanks","scene_windows":0,"windows":5,"scene":"Chat transcripts with thanks and follow-ups"}
+{"neuron":3281,"pole":"high","cluster":1,"mode":"Copula was or is after a subject noun in essays","scene_windows":0,"windows":5,"scene":"Literary and historical essay analysis"}
+{"neuron":3281,"pole":"high","cluster":2,"mode":"First-person 'I' starting an assistant sentence","scene_windows":0,"windows":5,"scene":"Assistant replies in chat and code help"}
+{"neuron":3281,"pole":"low","cluster":0,"mode":"Pronoun 'it' followed by 's or is before importance claims","scene_windows":0,"windows":5,"scene":"Advice text about tips and precautions"}
+{"neuron":3281,"pole":"low","cluster":1,"mode":"Colon after 'assistant' label before answer","scene_windows":0,"windows":5,"scene":"Chat transcripts with recommendations"}
+{"neuron":3281,"pole":"low","cluster":2,"mode":"Verb or preposition after a subject in descriptive prose","scene_windows":0,"windows":5,"scene":"Descriptive fiction and product descriptions"}
+{"neuron":3281,"pole":"low","cluster":3,"mode":"'and' joining paired adjectives in descriptive phrases","scene_windows":0,"windows":5,"scene":"Descriptive writing and product or cyber topics"}
+{"neuron":6271,"pole":"high","cluster":0,"mode":"Assistant label starting a helpful answer to a request","scene_windows":0,"windows":5,"scene":"Chat requests for tips and information"}
+{"neuron":6271,"pole":"high","cluster":1,"mode":"Noun ending a descriptive phrase about organizations or topics","scene_windows":0,"windows":5,"scene":"Informational descriptions of agencies and content"}
+{"neuron":6271,"pole":"high","cluster":2,"mode":"Bracketed '1' starting the first item of a list","scene_windows":0,"windows":5,"scene":"Assistant step-by-step list answers"}
+{"neuron":6271,"pole":"low","cluster":0,"mode":"Bracketed step number starting recipe or instruction items","scene_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":6271,"pole":"low","cluster":1,"mode":"Colon or dash introducing a list item heading","scene_windows":0,"windows":5,"scene":"Numbered lists of tips and examples"}
+{"neuron":6271,"pole":"low","cluster":2,"mode":"Verb 'is' or quotation mark in technical or cultural definitions","scene_windows":0,"windows":5,"scene":"Encyclopedic definitions and web technical notes"}
+{"neuron":6271,"pole":"low","cluster":3,"mode":"Period closing a historical or descriptive sentence","scene_windows":0,"windows":5,"scene":"History and military explanatory text"}
+{"neuron":4664,"pole":"high","cluster":0,"mode":"Content noun ending a motivational or advice phrase","scene_windows":0,"windows":5,"scene":"Self-help and community advice writing"}
+{"neuron":4664,"pole":"high","cluster":1,"mode":"Sentence-final period or spacing in marketing and tip lists","scene_windows":0,"windows":5,"scene":"Business tips, marketing and recipe lists"}
+{"neuron":4664,"pole":"low","cluster":0,"mode":"Punctuation or determiner inside dense explanatory sentences","scene_windows":0,"windows":5,"scene":"Engineering, disaster and driving-behavior texts"}
+{"neuron":4664,"pole":"low","cluster":1,"mode":"Blank token after health or safety advice sentences","scene_windows":0,"windows":5,"scene":"Health, fitness and safety advice passages"}

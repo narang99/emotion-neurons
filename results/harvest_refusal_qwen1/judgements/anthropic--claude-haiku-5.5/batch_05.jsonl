@@ -1,0 +1,33 @@
+{"neuron":9518,"pole":"high","cluster":0,"mode":"Mid-phrase word in benign conversational or product-related text","scene_windows":0,"windows":5,"scene":"Benign chat about cooking, decor, e-commerce, coworkers"}
+{"neuron":9518,"pole":"high","cluster":1,"mode":"Sentence-final period closing informational explanatory statements","scene_windows":0,"windows":5,"scene":"Informational explanations about space, relationships, color theory"}
+{"neuron":9518,"pole":"low","cluster":0,"mode":"Speaker-role label 'assistant' or colon starting a reply","scene_windows":0,"windows":5,"scene":"Benign assistant-user chat transcripts"}
+{"neuron":9518,"pole":"low","cluster":1,"mode":"Paragraph-break whitespace token in fiction narration","scene_windows":0,"windows":5,"scene":"Science fiction and literary narrative passages"}
+{"neuron":9518,"pole":"low","cluster":2,"mode":"Sentence-ending period in expository or descriptive prose","scene_windows":0,"windows":5,"scene":"Expository text on society, sports, nature, skincare"}
+{"neuron":9518,"pole":"low","cluster":3,"mode":"Question mark ending a human question before assistant reply","scene_windows":0,"windows":5,"scene":"Benign human questions to an assistant"}
+{"neuron":9717,"pole":"high","cluster":0,"mode":"Mid-sentence preposition or pronoun in analytical expository text","scene_windows":0,"windows":5,"scene":"Essays and articles on sports, politics, history, research"}
+{"neuron":9717,"pole":"high","cluster":1,"mode":"Sentence-end punctuation in fiction dialogue and narration","scene_windows":0,"windows":5,"scene":"Adventure and crime fiction narration with dialogue"}
+{"neuron":9717,"pole":"low","cluster":0,"mode":"Content noun ending a descriptive noun phrase in informational text","scene_windows":0,"windows":5,"scene":"Encyclopedic descriptions of places, crops, legal cases"}
+{"neuron":9717,"pole":"low","cluster":1,"mode":"Article 'the' preceding an object in instructional action steps","scene_windows":0,"windows":5,"scene":"Cooking and gardening instructions, beach cleanup narrative"}
+{"neuron":4559,"pole":"high","cluster":0,"mode":"Dialogue punctuation or interjection in tense fiction exchanges","scene_windows":0,"windows":5,"scene":"Action and dialogue scenes in fiction"}
+{"neuron":4559,"pole":"high","cluster":1,"mode":"Numeric or quoted token in technical product or reference text","scene_windows":0,"windows":5,"scene":"Product manuals, data tables, programming examples"}
+{"neuron":4559,"pole":"high","cluster":2,"mode":"Determiner 'the' or possessive before a noun in prose","scene_windows":0,"windows":5,"scene":"Essays, fiction, and climate or astronomy prose"}
+{"neuron":8490,"pole":"high","cluster":0,"mode":"Connecting word inside health and safety advice sentences","scene_windows":0,"windows":5,"scene":"Practical advice on lab safety, health, mail packaging"}
+{"neuron":8490,"pole":"high","cluster":1,"mode":"Colon after 'Assistant' label in short Q&A exchanges","scene_windows":0,"windows":5,"scene":"Brief everyday question-answer chat turns"}
+{"neuron":8490,"pole":"low","cluster":0,"mode":"Technical or topical noun in informational explanatory sentences","scene_windows":0,"windows":5,"scene":"Business, energy, education, and religion explainers"}
+{"neuron":8490,"pole":"low","cluster":1,"mode":"Pronoun or noun closing a personal emotional statement","scene_windows":0,"windows":5,"scene":"First-person confessional and personal relationship narratives"}
+{"neuron":8490,"pole":"low","cluster":2,"mode":"Sentence-final period in first-person fiction narration","scene_windows":0,"windows":5,"scene":"Short fictional narratives with internal reflection"}
+{"neuron":8346,"pole":"high","cluster":0,"mode":"Mid-phrase function word in advisory or descriptive prose","scene_windows":0,"windows":5,"scene":"Game tips, mental health policy, character descriptions"}
+{"neuron":8346,"pole":"high","cluster":1,"mode":"Step number token at start of numbered recipe instructions","scene_windows":0,"windows":5,"scene":"Numbered recipe and smoothie preparation steps"}
+{"neuron":8346,"pole":"low","cluster":0,"mode":"Punctuation or function word in neutral informational prose","scene_windows":0,"windows":5,"scene":"Descriptive text on events, fitness tech, heritage"}
+{"neuron":8346,"pole":"low","cluster":1,"mode":"Turn-start role marker 'Human' after assistant answer","scene_windows":0,"windows":5,"scene":"Benign multi-turn chats on food, parenting, tires"}
+{"neuron":7362,"pole":"high","cluster":0,"mode":"Preposition or infinitive 'to' in institutional achievement statements","scene_windows":0,"windows":5,"scene":"Organizational and mentor praise, disaster response plans"}
+{"neuron":7362,"pole":"high","cluster":1,"mode":"Conjunction 'and' linking two parallel consequences or qualities","scene_windows":0,"windows":5,"scene":"Health risks, regulation, and maintenance advice"}
+{"neuron":7362,"pole":"low","cluster":0,"mode":"Possessive or infinitive 'your' or 'to' in advice to readers","scene_windows":0,"windows":5,"scene":"Advice on automation, water intake, mindfulness"}
+{"neuron":7362,"pole":"low","cluster":1,"mode":"Role label 'user' colon starting a new user turn","scene_windows":0,"windows":5,"scene":"Multi-turn chats about companies, music, formulas"}
+{"neuron":4499,"pole":"high","cluster":0,"mode":"Narrative word before a reflective clause in literary prose","scene_windows":0,"windows":5,"scene":"Literary fiction and personal reflection passages"}
+{"neuron":4499,"pole":"high","cluster":1,"mode":"Adjective or noun modifying a recommended practice in advice","scene_windows":0,"windows":5,"scene":"Advice on survival, health, business, web security"}
+{"neuron":4499,"pole":"high","cluster":2,"mode":"Copular verb 'be' or 'is' within informational claims","scene_windows":0,"windows":5,"scene":"Explanations about carpets, produce, history, cooking"}
+{"neuron":4499,"pole":"high","cluster":3,"mode":"Content noun or adjective in descriptive educational text","scene_windows":0,"windows":5,"scene":"Literary criticism, biology, history, and book reviews"}
+{"neuron":4242,"pole":"high","cluster":0,"mode":"Colon after 'Human' label opening a new turn","scene_windows":0,"windows":5,"scene":"Benign multi-turn chats on kitchen, economics, climate"}
+{"neuron":4242,"pole":"high","cluster":1,"mode":"Article 'the' or 'in' within topical informational sentences","scene_windows":0,"windows":5,"scene":"Expository text on AR, math, California, Egyptian history"}
+{"neuron":4242,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' label opening a reply","scene_windows":0,"windows":5,"scene":"Benign health, technology, and plant Q&A exchanges"}
