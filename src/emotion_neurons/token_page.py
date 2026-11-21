@@ -167,3 +167,29 @@ token ({len(removal["removed"])} neurons removed, {removal["removed_push_pct"]:.
         ranking_section("Ranked by the total change over the story", "total", stories, changes, top_table, top_shown),
     ]
     return f'{head}\n<div class="wrap">{intro}{"".join(sections)}</div>'
+
+
+def build_top_page(result_dir: Path, scores_file: str = "token_scores_all.json", top: int = 20) -> str:
+    """The `top` stories whose total token change (removed minus original, summed over the story) drops most.
+
+    One plain list across all stories and emotions: rank, change, and the side-by-side strips."""
+    data = json.loads((result_dir / scores_file).read_text())
+    removal = json.loads((result_dir / "removal.json").read_text())
+    emotion = data["emotion"]
+    total = {s["id"]: sum(b - a for a, b in zip(s["d"], s["d_minus"])) for s in data["stories"]}
+    shown = sorted(data["stories"], key=lambda s: total[s["id"]])[:top]
+    scale = max(max(abs(x) for x in s[k]) for s in shown for k in ("d", "d_minus"))
+    diff_scale = max(max(abs(b - a) for a, b in zip(s["d"], s["d_minus"])) for s in shown)
+    head = f"""<title>{emotion.capitalize()} Minus {html.escape(removal["theme"])}: Top Stories</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>{STYLE}</style>"""
+    intro = f"""<h1>The {top} stories that change most when the "{html.escape(removal["theme"])}" neurons are removed</h1>
+<p>Ranked by total change: the cosine with the theme-removed {emotion} vector minus the cosine with the original, summed
+over the story's tokens, biggest drop first. All {len(data["stories"])} stories (train and held-out). Colour scale ±{scale:.2f}
+for both columns; difference ±{diff_scale:.3f}.</p>"""
+    blocks = "\n".join(
+        f"<h2>{rank}. total change {total[s['id']]:+.2f}</h2>\n{story_block(s, scale, diff_scale, split=s.get('split', 'heldout'))}"
+        for rank, s in enumerate(shown, 1)
+    )
+    return f'{head}\n<div class="wrap">{intro}{blocks}</div>'
