@@ -44,3 +44,6 @@ ignore = ["E501", "F722", "F821"]
 
 [dependency-groups]
 dev = ["pytest>=8"]
+viz = [
+    "circuitsvis>=1.43.3",
+]
