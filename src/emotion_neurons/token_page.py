@@ -131,7 +131,7 @@ def ranking_section(title: str, key: str, stories: list[dict], changes: dict, to
         labels[s["label"]] += 1
     spread = ", ".join(f"{k} {v}" for k, v in sorted(labels.items(), key=lambda kv: -kv[1]))
     rows = "".join(
-        f"<tr><td>{r}</td><td>{html.escape(s['id'])}</td><td>{html.escape(s['label'])}</td><td>{s['split']}</td>"
+        f"<tr><td>{r}</td><td>{html.escape(s['id'])}</td><td>{html.escape(s['label'])}</td><td>{s.get('split', 'heldout')}</td>"
         f"<td>{changes[s['id']]['max_drop']:+.3f}</td><td>{html.escape(changes[s['id']]['max_drop_token'].strip())}</td>"
         f"<td>{changes[s['id']]['total']:+.2f}</td></tr>"
         for r, s in enumerate(ranked[:top_table], 1)
@@ -139,7 +139,7 @@ def ranking_section(title: str, key: str, stories: list[dict], changes: dict, to
     shown = ranked[:top_shown]
     scale = max(max(abs(x) for x in s[k]) for s in shown for k in ("d", "d_minus"))
     diff_scale = max(max(abs(b - a) for a, b in zip(s["d"], s["d_minus"])) for s in shown)
-    blocks = "\n".join(story_block(s, scale, diff_scale, split=s["split"]) for s in shown)
+    blocks = "\n".join(story_block(s, scale, diff_scale, split=s.get("split", "heldout")) for s in shown)
     return f"""<h2>{title}</h2>
 <p>Top {top_table} by emotion: {spread}.</p>
 <div class="table-wrap"><table><tr><th>rank</th><th>story</th><th>label</th><th>split</th><th>biggest token drop</th><th>token</th><th>total change</th></tr>{rows}</table></div>
