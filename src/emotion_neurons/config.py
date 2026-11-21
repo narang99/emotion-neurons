@@ -15,8 +15,10 @@ from pathlib import Path
 from typing import Literal
 
 import yaml
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 from pydantic_settings import BaseSettings, PydanticBaseSettingsSource, SettingsConfigDict
+
+from .emotions import EMOTIONS
 
 Baseline = Literal["mean", "neutral"]
 Variant = Literal["raw", "denoised"]
@@ -141,6 +143,7 @@ class RunConfig(BaseSettings):
     run_id: str = Field("dev", description="names runs/<run_id> (large, ignored) and results/<run_id> (committed)")
     model: str = "Qwen/Qwen3-8B"
     layer: int = 25
+    emotion: str = Field("happy", description="the emotion a harvest, judge or report run is about (one of EMOTIONS)")
     device: str = "cuda"
     runs_dir: Path = Path("runs")
     results_dir: Path = Path("results")
@@ -164,6 +167,14 @@ class RunConfig(BaseSettings):
     ) -> tuple[PydanticBaseSettingsSource, ...]:
         """An environment variable named `MODEL` or `DEVICE` must not silently override a field."""
         return (init_settings,)
+
+    @model_validator(mode="after")
+    def emotion_matches_its_neurons(self) -> "RunConfig":
+        """A config that names one emotion but harvests another emotion's set is a copy-paste slip; fail on it."""
+        assert self.emotion in EMOTIONS, f"emotion {self.emotion!r} is not one of {EMOTIONS}"
+        csv_emotion = self.harvest.neurons_csv.stem
+        assert csv_emotion == self.emotion, f"emotion is {self.emotion!r} but harvest.neurons_csv is {csv_emotion}'s set"
+        return self
 
     @property
     def run_dir(self) -> Path:

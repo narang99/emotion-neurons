@@ -110,6 +110,32 @@ happy = sets["happy"]  # 1527 neurons; happy[0] = 2862
 part = W[:, happy] @ T["shift"][0, happy]  # what the set writes; rebuilds 90% of T["write"][0]
 ```
 
+## Modes of an emotion's neurons: run it for another emotion
+
+What each neuron of an emotion's greedy set fires on, at both poles, judged blind. Done for happy
+(`results/harvest_happy_l25/report.html`, log `experiments/harvest_happy_l25.md`). For another emotion:
+
+1. **Config.** Copy `configs/harvest_angry_l25.yaml` (angry is ready). Set `run_id`, `emotion`, and `harvest.neurons_csv`
+   to `results/greedy_sets_l25/neurons/<emotion>.csv`. The config refuses an emotion that does not match its CSV.
+2. **GPU: harvest and modes on Colab.** Open `notebooks/harvest_modes.ipynb` in Colab (File > Open notebook > GitHub,
+   `narang99/emotion-neurons`). Switch the runtime to an L4 first, set `CONFIG`, run the cells in order.
+   - Harvest: ~12 min. Modes: ~25-30 min (the clustering step prints nothing for ~10 min).
+   - The download cell gives `<run_id>_results.zip` (~20 MB). Unzip it into `results/` of your clone.
+   - The 2-3 GB `runs/<run_id>` is only needed to rerun modes; the notebook can copy it to your Drive.
+3. **CPU: judge and report on your machine.**
+   ```
+   uv sync
+   mkdir -p ~/.config/openrouter && echo "<your OpenRouter key>" > ~/.config/openrouter/key && chmod 600 ~/.config/openrouter/key
+   uv run python scripts/judge_modes.py  --config configs/harvest_angry_l25.yaml   # ~15 min, under $1
+   uv run python scripts/modes_report.py --config configs/harvest_angry_l25.yaml   # ~20 s
+   ```
+   - The judges are Haiku 5.5 and Gemini 2.5 Flash-Lite on OpenRouter (`judge.models`). A stopped run resumes.
+   - The report downloads `lm_head` (~1.2 GB) once for the logit lens.
+4. **Read** `results/<run_id>/report.html` (open it in a browser) and `results/<run_id>/neurons.csv`.
+   - "No match" neurons push toward the emotion but fire on something else on the side the emotion uses.
+   - Check both poles: the side is read from a story-mean shift, and a few strong firings at the other pole can
+     hide behind it (happy's 3832: joyful firings at its high pole, but the word "laugh" drives its mean down).
+
 ## Layout
 
 | path | what |

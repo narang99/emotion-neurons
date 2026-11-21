@@ -1,9 +1,13 @@
-# Both poles of the happy greedy set's neurons up to 75% of the write (533 neurons), plus 20 random controls.
+# Both poles of the happy greedy set's neurons up to 75% of the write (532 neurons), plus 20 random controls.
 # GPU, L4. About 2M tokens of general text to layer 25.
-#   python scripts/harvest.py --config configs/harvest_happy_l25.yaml
+#   python scripts/harvest.py      --config configs/harvest_happy_l25.yaml   # GPU, L4, ~12 min
+#   python scripts/modes.py        --config configs/harvest_happy_l25.yaml   # GPU, L4, ~25 min
+#   python scripts/judge_modes.py  --config configs/harvest_happy_l25.yaml   # CPU, OpenRouter key
+#   python scripts/modes_report.py --config configs/harvest_happy_l25.yaml   # CPU
 run_id: harvest_happy_l25
 model: Qwen/Qwen3-8B
 layer: 25
+emotion: happy
 harvest:
   neurons_csv: results/greedy_sets_l25/neurons/happy.csv
   rebuilt_pct: 75

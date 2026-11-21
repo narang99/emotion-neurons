@@ -1,17 +1,20 @@
 """Data for the modes report: one card per harvested neuron, with both poles, judge verdicts and the logit lens.
 
-- The happy side of a neuron is the pole happy moves it toward: high if its happy shift is positive, else low.
-- Neuron class, from the clusters on its happy side (a cluster is happy for a judge at 3+ of 5 windows):
-  - "happy": at least one cluster is happy for every judge that judged it;
-  - "split": no such cluster, but at least one is happy for one judge;
-  - "not happy": no cluster on the happy side is happy for either judge.
+- A neuron's side is the pole the emotion moves it toward: high if its shift for the emotion is positive, else low.
+  - The shift is a story-mean difference, so a few strong firings at the other pole can hide behind it
+    (neuron 3832 for happy: high-pole joyful firings, but laugh words drive its mean down).
+- Neuron class, from the clusters on its side (a cluster is an emotion scene for a judge at 3+ of 5 windows):
+  - "match": at least one cluster is an emotion scene for every judge that judged it;
+  - "split": no such cluster, but at least one is for one judge;
+  - "no match": no cluster on its side is for any judge.
 """
 
-import json
 import re
 from pathlib import Path
 
-HAPPY_AT = 3
+from .judge import Verdict
+
+SCENE_AT = 3
 
 
 def read_cluster_texts(modes_dir: Path) -> dict[tuple, list]:
@@ -34,30 +37,30 @@ def read_cluster_texts(modes_dir: Path) -> dict[tuple, list]:
 
 
 def read_judgements(judgements_dir: Path) -> dict[str, dict[tuple, dict]]:
-    """{model folder name: {(neuron, pole, cluster): verdict}}."""
+    """{model folder name: {(neuron, pole, cluster): verdict as a dict with scene_windows}}."""
     out = {}
     for folder in sorted(p for p in judgements_dir.iterdir() if p.is_dir()):
         verdicts = {}
         for path in sorted(folder.glob("batch_*.jsonl")):
             for line in path.read_text().splitlines():
-                v = json.loads(line)
-                verdicts[(v["neuron"], v["pole"], v["cluster"])] = v
+                v = Verdict.model_validate_json(line)
+                verdicts[(v.neuron, v.pole, v.cluster)] = v.model_dump()
         out[folder.name] = verdicts
     return out
 
 
-def happy_side(shift: float) -> str:
+def emotion_side(shift: float) -> str:
     return "high" if shift >= 0 else "low"
 
 
 def neuron_class(clusters: list[dict], judges: list[str]) -> str:
-    """A judge with no verdict on a cluster casts no vote there (Gemini skips 55 of 4483 clusters every time)."""
-    votes = [[c["verdicts"][j]["happy_windows"] >= HAPPY_AT for j in judges if j in c["verdicts"]] for c in clusters]
+    """A judge with no verdict on a cluster casts no vote there (for happy, Gemini skipped 55 of 4483 every time)."""
+    votes = [[c["verdicts"][j]["scene_windows"] >= SCENE_AT for j in judges if j in c["verdicts"]] for c in clusters]
     if any(v and all(v) for v in votes):
-        return "happy"
+        return "match"
     if any(any(v) for v in votes):
         return "split"
-    return "not happy"
+    return "no match"
 
 
 def neuron_card(n: int, info: dict, modes: dict, texts: dict, judgements: dict, lens: dict) -> dict:
@@ -75,8 +78,8 @@ def neuron_card(n: int, info: dict, modes: dict, texts: dict, judgements: dict, 
             })  # fmt: skip
         poles[pole] = {"n_hits": modes[pole]["n_hits"], "other": modes[pole]["other"], "clusters": clusters,
                        "other_examples": texts.get((n, pole, "other"), [])}  # fmt: skip
-    side = happy_side(info["shift"])
+    side = emotion_side(info["shift"])
     return {
-        "neuron": n, **info, "happy_side": side, "class": neuron_class(poles[side]["clusters"], judges),
+        "neuron": n, **info, "side": side, "class": neuron_class(poles[side]["clusters"], judges),
         "lens": lens, "poles": poles,
     }  # fmt: skip

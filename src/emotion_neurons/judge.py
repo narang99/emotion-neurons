@@ -2,9 +2,10 @@
 
 - Input: a modes batch file (`scripts/modes.py`): per neuron and pole, clusters of exemplar windows with the
   firing token marked [[like this]]. The judge sees no labels, no emotion and no reason the neuron was chosen.
-- Per cluster the judge returns: a short mode name, how many windows sit in a happy or joyful scene, and the scenes.
-- Scene, not word: a marked "and" inside a joyful scene counts as happy; the word "happy" in a sad scene does not.
+- Per cluster the judge returns: a short mode name, how many windows sit in a scene of the emotion, and the scenes.
+- Scene, not word: for happy, a marked "and" inside a joyful scene counts; the word "happy" in a sad scene does not.
 - The API key is read from a file at run time and never printed.
+- The happy run of 2026-11-21 stored the count as "happy_windows"; it reads as `scene_windows`.
 """
 
 import json
@@ -14,21 +15,41 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-from pydantic import BaseModel
+from pydantic import AliasChoices, BaseModel, Field
 
 API = "https://openrouter.ai/api/v1/chat/completions"
 
-INSTRUCTIONS = """You read clusters of text windows. Each window has one token marked [[like this]]; a number in brackets before it is a neuron's activation there, which you can ignore.
+SCENES = {
+    "happy": ("happy or joyful", "laughing, celebrating, having fun, delight, warm happy moments", '"happy"', "sad or neutral"),
+    "angry": (
+        "angry",
+        "arguing, shouting, rage, frustration, resentment, someone furious or fed up",
+        '"angry"',
+        "calm or neutral",
+    ),
+    "sad": ("sad", "grief, loss, crying, loneliness, disappointment", '"sad"', "happy or neutral"),
+    "afraid": ("frightening or fearful", "danger, threat, dread, panic, someone scared", '"afraid"', "safe or neutral"),
+}
+"""(scene words, what such scenes look like, the emotion word, the scenes where that word does not count)."""
+
+
+def scene_hint(emotion: str) -> tuple[str, str, str, str]:
+    return SCENES.get(emotion, (emotion, f"people feeling {emotion}", f'"{emotion}"', "neutral"))
+
+
+def instructions(emotion: str) -> str:
+    scene, looks, word, elsewhere = scene_hint(emotion)
+    return f"""You read clusters of text windows. Each window has one token marked [[like this]]; a number in brackets before it is a neuron's activation there, which you can ignore.
 The file is organised as: "##### neuron N", then "=== high pole" or "=== low pole", then "--- cluster K" followed by its windows. Ignore "--- unclustered (sample)" groups.
 
 For every cluster, return:
 - "mode": what the marked tokens and their contexts have in common, in at most 15 words;
-- "happy_windows": how many of its windows sit in a happy or joyful SCENE. Judge the situation and mood of the surrounding text (laughing, celebrating, having fun, delight, warm happy moments). Do not judge by the marked word alone: a marked "and", "so", "." or "was" inside a joyful scene counts as happy; the word "happy" inside a sad or neutral scene does not. Recipes, technical text, news and neutral narration are not happy;
+- "scene_windows": how many of its windows sit in a {scene} SCENE. Judge the situation and mood of the surrounding text ({looks}). Do not judge by the marked word alone: a marked "and", "so", "." or "was" inside such a scene counts; the word {word} inside a {elsewhere} scene does not. Recipes, technical text, news and neutral narration do not count;
 - "windows": how many windows the cluster has;
 - "scene": what the scenes are, in 3 to 8 words.
 
 Answer with one JSON object per line and nothing else, in file order, one line per cluster:
-{"neuron": N, "pole": "high" or "low", "cluster": K, "mode": "...", "happy_windows": 0, "windows": 5, "scene": "..."}"""
+{{"neuron": N, "pole": "high" or "low", "cluster": K, "mode": "...", "scene_windows": 0, "windows": 5, "scene": "..."}}"""
 
 
 class Verdict(BaseModel):
@@ -36,7 +57,7 @@ class Verdict(BaseModel):
     pole: str
     cluster: int
     mode: str
-    happy_windows: int
+    scene_windows: int = Field(validation_alias=AliasChoices("scene_windows", "happy_windows"))
     windows: int
     scene: str
 
@@ -65,11 +86,11 @@ def parse_verdicts(content: str) -> list[Verdict]:
     return verdicts
 
 
-def ask(model: str, user: str, key: str, max_tokens: int, attempts: int = 4) -> str:
+def ask(model: str, system: str, user: str, key: str, max_tokens: int, attempts: int = 4) -> str:
     """One chat completion; retries with backoff on network errors, rate limits and server errors."""
     body = json.dumps({
         "model": model, "temperature": 0, "max_tokens": max_tokens,
-        "messages": [{"role": "system", "content": INSTRUCTIONS}, {"role": "user", "content": user}],
+        "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
     }).encode()  # fmt: skip
     request = urllib.request.Request(
         API, data=body, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
@@ -87,15 +108,18 @@ def ask(model: str, user: str, key: str, max_tokens: int, attempts: int = 4) -> 
     raise AssertionError("unreachable")
 
 
-def judge_batch(model: str, text: str, key: str, max_tokens: int) -> tuple[list[Verdict], list[tuple[int, str, int]]]:
+def judge_batch(
+    model: str, emotion: str, text: str, key: str, max_tokens: int
+) -> tuple[list[Verdict], list[tuple[int, str, int]]]:
     """Verdicts for every cluster of one batch file. Clusters missing from the first reply are asked again once."""
+    system = instructions(emotion)
     expected = cluster_keys(text)
-    found = {(v.neuron, v.pole, v.cluster): v for v in parse_verdicts(ask(model, text, key, max_tokens))}
+    found = {(v.neuron, v.pole, v.cluster): v for v in parse_verdicts(ask(model, system, text, key, max_tokens))}
     missing = [k for k in expected if k not in found]
     if missing:
         wanted = "\n".join(f"neuron {n}, {p} pole, cluster {c}" for n, p, c in missing)
         retry = f"{text}\n\nReturn lines only for these clusters, which were missing:\n{wanted}"
-        for v in parse_verdicts(ask(model, retry, key, max_tokens)):
+        for v in parse_verdicts(ask(model, system, retry, key, max_tokens)):
             found.setdefault((v.neuron, v.pole, v.cluster), v)
     verdicts = [found[k] for k in expected if k in found]
     return verdicts, [k for k in expected if k not in found]

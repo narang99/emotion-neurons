@@ -1,0 +1,13 @@
+# Both poles of the angry greedy set's neurons up to 75% of the write, plus 20 random controls.
+#   python scripts/harvest.py      --config configs/harvest_angry_l25.yaml   # GPU, L4, ~12 min
+#   python scripts/modes.py        --config configs/harvest_angry_l25.yaml   # GPU, L4, ~25 min
+#   python scripts/judge_modes.py  --config configs/harvest_angry_l25.yaml   # CPU, OpenRouter key, ~15 min, < $1
+#   python scripts/modes_report.py --config configs/harvest_angry_l25.yaml   # CPU, ~20 s
+run_id: harvest_angry_l25
+model: Qwen/Qwen3-8B
+layer: 25
+emotion: angry
+harvest:
+  neurons_csv: results/greedy_sets_l25/neurons/angry.csv
+  rebuilt_pct: 75
+  n_controls: 20
