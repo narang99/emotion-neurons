@@ -5,7 +5,8 @@
 - Per cluster the judge returns: a short mode name, how many windows sit in a scene of the emotion, and the scenes.
 - Scene, not word: for happy, a marked "and" inside a joyful scene counts; the word "happy" in a sad scene does not.
 - The API key is read from a file at run time and never printed.
-- The happy run of 2026-11-21 stored the count as "happy_windows"; it reads as `scene_windows`.
+- The judge reports the count under an emotion-named key ("happy_windows", "angry_windows"); it is stored as
+  `scene_windows`. A generic key name ("scene_windows") made Gemini 2.5 Flash-Lite write "windows" twice instead.
 """
 
 import json
@@ -17,7 +18,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-from pydantic import AliasChoices, BaseModel, Field
+from pydantic import BaseModel
 
 from .config import ModesRunConfig
 
@@ -48,12 +49,12 @@ The file is organised as: "##### neuron N", then "=== high pole" or "=== low pol
 
 For every cluster, return:
 - "mode": what the marked tokens and their contexts have in common, in at most 15 words;
-- "scene_windows": how many of its windows sit in a {scene} SCENE. Judge the situation and mood of the surrounding text ({looks}). Do not judge by the marked word alone: a marked "and", "so", "." or "was" inside such a scene counts; the word {word} inside a {elsewhere} scene does not. Recipes, technical text, news and neutral narration do not count;
+- "{emotion}_windows": how many of its windows sit in a {scene} SCENE. Judge the situation and mood of the surrounding text ({looks}). Do not judge by the marked word alone: a marked "and", "so", "." or "was" inside such a scene counts; the word {word} inside a {elsewhere} scene does not. Recipes, technical text, news and neutral narration do not count;
 - "windows": how many windows the cluster has;
 - "scene": what the scenes are, in 3 to 8 words.
 
 Answer with one JSON object per line and nothing else, in file order, one line per cluster:
-{{"neuron": N, "pole": "high" or "low", "cluster": K, "mode": "...", "scene_windows": 0, "windows": 5, "scene": "..."}}"""
+{{"neuron": N, "pole": "high" or "low", "cluster": K, "mode": "...", "{emotion}_windows": 0, "windows": 5, "scene": "..."}}"""
 
 
 class Verdict(BaseModel):
@@ -61,7 +62,7 @@ class Verdict(BaseModel):
     pole: str
     cluster: int
     mode: str
-    scene_windows: int = Field(validation_alias=AliasChoices("scene_windows", "happy_windows"))
+    scene_windows: int
     windows: int
     scene: str
 
@@ -84,10 +85,24 @@ def parse_verdicts(content: str) -> list[Verdict]:
     verdicts = []
     for match in re.finditer(r"\{[^{}]*\}", content):
         try:
-            verdicts.append(Verdict(**json.loads(match.group(0))))
+            verdicts.append(Verdict(**with_scene_count(json.loads(match.group(0)))))
         except (json.JSONDecodeError, ValueError, TypeError):
             continue
     return verdicts
+
+
+def read_verdict(line: str) -> Verdict:
+    """One stored verdict; older files keep the emotion-named count ("happy_windows")."""
+    return Verdict(**with_scene_count(json.loads(line)))
+
+
+def with_scene_count(row: dict) -> dict:
+    """Move the emotion-named count ("happy_windows", "angry_windows", ...) to `scene_windows`."""
+    if "scene_windows" not in row:
+        named = [k for k in row if k.endswith("_windows")]
+        if named:
+            row["scene_windows"] = row.pop(named[0])
+    return row
 
 
 def ask(model: str, system: str, user: str, key: str, max_tokens: int, attempts: int = 4) -> str:
@@ -171,7 +186,7 @@ def load_verdicts(folder: Path) -> dict[tuple, Verdict]:
     verdicts = {}
     for path in sorted(folder.glob("batch_*.jsonl")):
         for line in path.read_text().splitlines():
-            v = Verdict.model_validate_json(line)
+            v = read_verdict(line)
             verdicts[(v.neuron, v.pole, v.cluster)] = v
     return verdicts
 

@@ -20,7 +20,7 @@ from transformers import AutoTokenizer
 
 from .config import ModesRunConfig
 from .emotions import EMOTIONS
-from .judge import SCENE_AT, Verdict
+from .judge import SCENE_AT, read_verdict
 from .lens import decode_columns, top_token_ids, unembedding
 from .models import load_w_down
 
@@ -54,7 +54,7 @@ def read_judgements(judgements_dir: Path) -> dict[str, dict[tuple, dict]]:
         verdicts = {}
         for path in sorted(folder.glob("batch_*.jsonl")):
             for line in path.read_text().splitlines():
-                v = Verdict.model_validate_json(line)
+                v = read_verdict(line)
                 verdicts[(v.neuron, v.pole, v.cluster)] = v.model_dump()
         out[folder.name] = verdicts
     return out

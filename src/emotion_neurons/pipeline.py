@@ -68,11 +68,14 @@ def marker_path(cfg: ModesRunConfig, stage: str) -> Path:
 
 
 def is_done(cfg: ModesRunConfig, stage: Stage) -> bool:
+    """The marker exists and its outputs are intact. With S3 checkpoints, the large runs/ files may be on S3 only:
+    a machine that runs only judge and report never needs them, and modes pulls them when missing."""
     path = marker_path(cfg, stage.name)
     if not path.exists():
         return False
     outputs = json.loads(path.read_text())["outputs"]
-    return bool(outputs) and all(Path(p).exists() and Path(p).stat().st_size == size for p, size in outputs.items())
+    local = {p: size for p, size in outputs.items() if not (cfg.pipeline.s3_prefix and Path(p).is_relative_to(cfg.run_dir))}
+    return bool(outputs) and all(Path(p).exists() and Path(p).stat().st_size == size for p, size in local.items())
 
 
 def git_commit() -> str:
