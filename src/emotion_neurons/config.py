@@ -237,6 +237,7 @@ class RemovalConfig(Section):
 
 class TokensConfig(Section):
     batch_size: int = 16
+    stories: Literal["heldout", "all"] = Field("heldout", description="which stories get per-token scores")
 
 
 class ThemeRemovalRunConfig(RunConfig):

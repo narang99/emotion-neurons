@@ -123,7 +123,11 @@ def story_token_scores(
     return rows
 
 
-def heldout_texts(cfg: ThemeRemovalRunConfig) -> tuple[list[str], list[str], list[str]]:
-    """Texts, labels and ids of the held-out stories, in run order."""
-    stories = [s for s in load_stories(cfg.data) if s.heldout]
-    return [s.text for s in stories], [s.emotion for s in stories], [s.id for s in stories]
+def story_texts(cfg: ThemeRemovalRunConfig) -> list[dict]:
+    """The stories `tokens.stories` asks for, in run order: id, label, split ("train" or "heldout") and text.
+
+    Train stories built the vectors, so they are not a test of them; they show which tokens move."""
+    stories = load_stories(cfg.data)
+    if cfg.tokens.stories == "heldout":
+        stories = [s for s in stories if s.heldout]
+    return [{"id": s.id, "label": s.emotion, "split": "heldout" if s.heldout else "train", "text": s.text} for s in stories]

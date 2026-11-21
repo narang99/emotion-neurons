@@ -50,12 +50,12 @@ def strip(tokens: list[str], values: list[float], scale: float) -> str:
     return re.sub(r'(<div id="circuits-vis-[^"]+"[^>]*?)\s*/>', r"\1></div>", rendered, count=1)
 
 
-def story_block(s: dict, scale: float, diff_scale: float) -> str:
+def story_block(s: dict, scale: float, diff_scale: float, split: str | None = None) -> str:
     diff = [b - a for a, b in zip(s["d"], s["d_minus"])]
     worst = sorted(zip(diff, s["tokens"]), key=lambda x: x[0])[:6]
     chips = "".join(f'<span class="tok">{html.escape(t.strip() or repr(t))} {v:+.3f}</span> ' for v, t in worst)
     return f"""<div class="story">
-  <div class="story-head"><span class="sid">{html.escape(s["id"])}</span><span class="meta">label: {html.escape(s["label"])} ·
+  <div class="story-head"><span class="sid">{html.escape(s["id"])}</span><span class="meta">label: {html.escape(s["label"])}{" · " + split if split else ""} ·
     mean cosine {mean(s["d"]):+.3f} → {mean(s["d_minus"]):+.3f} ({mean(diff):+.4f})</span></div>
   <div class="pair">
     <div class="col"><div class="label">original vector</div>{strip(s["tokens"], s["d"], scale)}</div>
@@ -115,3 +115,55 @@ columns (±{scale:.2f}). The difference strip has its own scale (±{diff_scale:.
 then the {others} other held-out stories whose mean cosine drops most.</p>"""
     blocks = "\n".join(story_block(s, scale, diff_scale) for s in shown)
     return f'{head}\n<div class="wrap">{intro}{summary_tables(stories)}<h2>Stories</h2>{blocks}</div>'
+
+
+def story_changes(s: dict) -> dict:
+    """Per story: the biggest single-token drop (and its token) and the total change, removed minus original."""
+    diff = [b - a for a, b in zip(s["d"], s["d_minus"])]
+    i = min(range(len(diff)), key=diff.__getitem__)
+    return {"max_drop": diff[i], "max_drop_token": s["tokens"][i], "total": sum(diff)}
+
+
+def ranking_section(title: str, key: str, stories: list[dict], changes: dict, top_table: int, top_shown: int) -> str:
+    ranked = sorted(stories, key=lambda s: changes[s["id"]][key])
+    labels = defaultdict(int)
+    for s in ranked[:top_table]:
+        labels[s["label"]] += 1
+    spread = ", ".join(f"{k} {v}" for k, v in sorted(labels.items(), key=lambda kv: -kv[1]))
+    rows = "".join(
+        f"<tr><td>{r}</td><td>{html.escape(s['id'])}</td><td>{html.escape(s['label'])}</td><td>{s['split']}</td>"
+        f"<td>{changes[s['id']]['max_drop']:+.3f}</td><td>{html.escape(changes[s['id']]['max_drop_token'].strip())}</td>"
+        f"<td>{changes[s['id']]['total']:+.2f}</td></tr>"
+        for r, s in enumerate(ranked[:top_table], 1)
+    )
+    shown = ranked[:top_shown]
+    scale = max(max(abs(x) for x in s[k]) for s in shown for k in ("d", "d_minus"))
+    diff_scale = max(max(abs(b - a) for a, b in zip(s["d"], s["d_minus"])) for s in shown)
+    blocks = "\n".join(story_block(s, scale, diff_scale, split=s["split"]) for s in shown)
+    return f"""<h2>{title}</h2>
+<p>Top {top_table} by emotion: {spread}.</p>
+<div class="table-wrap"><table><tr><th>rank</th><th>story</th><th>label</th><th>split</th><th>biggest token drop</th><th>token</th><th>total change</th></tr>{rows}</table></div>
+<p>The top {top_shown}, drawn side by side (colour scale ±{scale:.2f}; difference ±{diff_scale:.3f}).</p>
+{blocks}"""
+
+
+def build_ranked_page(
+    result_dir: Path, scores_file: str = "token_scores_all.json", top_table: int = 50, top_shown: int = 25
+) -> str:
+    data = json.loads((result_dir / scores_file).read_text())
+    removal = json.loads((result_dir / "removal.json").read_text())
+    emotion, stories = data["emotion"], data["stories"]
+    changes = {s["id"]: story_changes(s) for s in stories}
+    head = f"""<title>{emotion.capitalize()} Minus {html.escape(removal["theme"])}: Rankings</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>{STYLE}</style>"""
+    intro = f"""<h1>Where removing the "{html.escape(removal["theme"])}" neurons changes the {emotion} vector most</h1>
+<p>All {len(stories)} stories (train and held-out; the train stories built the vectors, so they show which tokens move,
+not how well the vector generalises). Change = cosine with the theme-removed vector minus cosine with the original, per
+token ({len(removal["removed"])} neurons removed, {removal["removed_push_pct"]:.2f}% of the push). Two rankings, biggest drop first.</p>"""
+    sections = [
+        ranking_section("Ranked by the biggest single-token drop", "max_drop", stories, changes, top_table, top_shown),
+        ranking_section("Ranked by the total change over the story", "total", stories, changes, top_table, top_shown),
+    ]
+    return f'{head}\n<div class="wrap">{intro}{"".join(sections)}</div>'
