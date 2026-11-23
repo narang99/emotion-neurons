@@ -34,8 +34,8 @@
 
 {% if report.token_views %}
 <h2>Token views</h2>
-<p>Held-out stories, {{ report.token_views | length }} shown. Each token's <code>{{ report.token_site }}</code> activation, minus the grand mean,
-with neutral PCs removed, is compared in cosine with each denoised vector.
+<p>Held-out stories, {{ report.token_views | length }} shown. Each token's raw <code>{{ report.token_site }}</code> activation is compared in cosine with each denoised vector,
+as in the emotions paper: nothing is subtracted from the activation.
 Each view opens on the story's own emotion; pick another to colour the text by it, or hover a token for all 12 values.
 The vectors average tokens 50 and later, so early tokens are outside what built them.</p>
 {% for v in report.token_views %}{{ token_view(v) }}{% endfor %}

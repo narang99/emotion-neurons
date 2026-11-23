@@ -1,8 +1,10 @@
 """Per-token scores against saved vectors, for the token views of the reports. GPU.
 
 - Stories: every held-out story (12 emotions and neutral), each token scored against all 12 emotion vectors.
-  - Score: cosine of the token's activation, minus the grand mean, with neutral PCs removed, with each denoised vector.
-  - This is the nearest-vector check of `vectors.checks`, done per token instead of per story mean.
+  - Score: cosine of the token's raw activation with each denoised vector, as in the emotions paper.
+  - The paper removes the neutral PCs from the vectors only. Removing them from the activation too would change only
+    the cosine's norm, since the denoised vectors have no component along them.
+  - Unlike the story-level check in `vectors.checks`, nothing is centred: its leave-one-out needs the grand mean.
 - Direction: every val prompt, followed by its saved plain reply, projected onto the unit direction at its layer's input.
   - Plain replies only: the ablated and added runs change the stream, so their tokens would need those hooks too.
 - Saved as results/<run_id>/token_scores.json (texts, tokens, offsets) and token_scores.safetensors (scores, fp16).
@@ -24,7 +26,6 @@ from .datasets import InstructionSet
 from .emotions import EMOTIONS
 from .models import ModelAdapter, read_layer, read_resid_pre
 from .texts import load_stories
-from .vectors import remove
 
 Scores = Float[Tensor, "token series"]
 
@@ -49,11 +50,8 @@ def token_strings(tokenizer: PreTrainedTokenizerBase, ids: list[int]) -> list[st
     return [tokenizer.decode([i]) for i in ids]
 
 
-def emotion_cosines(
-    x: Float[Tensor, "seq dim"], grand: Float[Tensor, " dim"], pcs: Float[Tensor, "k dim"], vectors: Float[Tensor, "emotion dim"]
-) -> Float[Tensor, "seq emotion"]:
-    centred = remove(x - grand, pcs)
-    return torch.nn.functional.normalize(centred, dim=-1) @ torch.nn.functional.normalize(vectors, dim=-1).T
+def emotion_cosines(x: Float[Tensor, "seq dim"], vectors: Float[Tensor, "emotion dim"]) -> Float[Tensor, "seq emotion"]:
+    return torch.nn.functional.normalize(x, dim=-1) @ torch.nn.functional.normalize(vectors, dim=-1).T
 
 
 def site_activations(model, layer: int, ids: Tensor, mask: Tensor, site: str) -> Tensor:
@@ -67,9 +65,8 @@ def story_token_scores(
     tokens = cfg.emotion_vectors.tokens
     site = tokens.site
     saved = load_file(str(cfg.result_dir / "vectors.safetensors"))
-    vectors, grand, pcs = (saved[f"{site}/{k}"].double() for k in ("mean/denoised", "grand_mean", "neutral_pcs"))
+    vectors = saved[f"{site}/mean/denoised"].double().to(model.device)
     stories = [s for s in load_stories(cfg.stories) if s.heldout]
-    vectors, grand, pcs = vectors.to(model.device), grand.to(model.device), pcs.to(model.device)
     texts, rows, start = [], [], 0
     for b in range(0, len(stories), tokens.batch_size):
         batch = stories[b : b + tokens.batch_size]
@@ -77,7 +74,7 @@ def story_token_scores(
         ids, mask = padded(encoded, tokenizer.pad_token_id)
         x = site_activations(model, cfg.emotion_vectors.extract.layer, ids.to(model.device), mask.to(model.device), site).double()
         for j, (story, story_ids) in enumerate(zip(batch, encoded)):
-            rows.append(emotion_cosines(x[j, : len(story_ids)], grand, pcs, vectors).float().cpu())
+            rows.append(emotion_cosines(x[j, : len(story_ids)], vectors).float().cpu())
             texts.append(TokenText(id=story.id, label=story.emotion, tokens=token_strings(tokenizer, story_ids), start=start))
             start += len(story_ids)
         print(f"[tokens] {min(b + tokens.batch_size, len(stories))} of {len(stories)} stories", flush=True)
