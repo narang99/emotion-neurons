@@ -1,0 +1,77 @@
+{"neuron":2490,"pole":"high","cluster":0,"mode":"body temperature regulation and blood circulation","scene_windows":0,"windows":5,"scene":"neutral scientific explanation"}
+{"neuron":2490,"pole":"high","cluster":1,"mode":"definition of poverty and resource exclusion","scene_windows":0,"windows":5,"scene":"neutral economic discussion"}
+{"neuron":2490,"pole":"high","cluster":2,"mode":"supplements and foods to improve sleep and mood","scene_windows":0,"windows":5,"scene":"neutral health advice"}
+{"neuron":2490,"pole":"high","cluster":3,"mode":"specific numerical values and technical details","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":2490,"pole":"high","cluster":4,"mode":"stages of sleep and brain activity","scene_windows":0,"windows":5,"scene":"neutral scientific explanation"}
+{"neuron":2490,"pole":"low","cluster":0,"mode":"chemicals in personal care products affecting organisms","scene_windows":0,"windows":5,"scene":"neutral scientific explanation"}
+{"neuron":2490,"pole":"low","cluster":1,"mode":"constitutional rights to a fair trial","scene_windows":0,"windows":5,"scene":"neutral legal discussion"}
+{"neuron":2490,"pole":"low","cluster":2,"mode":"scientific journal publications and discoveries","scene_windows":0,"windows":5,"scene":"neutral scientific reporting"}
+{"neuron":2490,"pole":"low","cluster":3,"mode":"researchers and their collaborators","scene_windows":0,"windows":5,"scene":"neutral scientific reporting"}
+{"neuron":2490,"pole":"low","cluster":4,"mode":"studies on climate change and water resources","scene_windows":0,"windows":5,"scene":"neutral scientific reporting"}
+{"neuron":2490,"pole":"low","cluster":5,"mode":"bacteria and diseases like tuberculosis","scene_windows":0,"windows":5,"scene":"neutral health information"}
+{"neuron":2490,"pole":"low","cluster":6,"mode":"income comparison and household economics","scene_windows":0,"windows":5,"scene":"neutral economic discussion"}
+{"neuron":3438,"pole":"high","cluster":0,"mode":"never again or never to be","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":3438,"pole":"high","cluster":1,"mode":"punctuation and sentence structure","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":3438,"pole":"high","cluster":2,"mode":"first-person narrative and personal experience","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":3438,"pole":"low","cluster":0,"mode":"inability to do something","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":3438,"pole":"low","cluster":1,"mode":"contractions and informal speech","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":3887,"pole":"high","cluster":0,"mode":"automotive upgrades and specifications","scene_windows":0,"windows":5,"scene":"neutral automotive discussion"}
+{"neuron":3887,"pole":"high","cluster":1,"mode":"adding colors and decorative elements","scene_windows":0,"windows":5,"scene":"neutral interior design advice"}
+{"neuron":3887,"pole":"high","cluster":2,"mode":"adding accent colors for visual interest","scene_windows":0,"windows":5,"scene":"neutral interior design advice"}
+{"neuron":3887,"pole":"high","cluster":3,"mode":"coastal and bohemian color schemes","scene_windows":0,"windows":5,"scene":"neutral interior design advice"}
+{"neuron":3887,"pole":"high","cluster":4,"mode":"automotive upgrades and exterior styling","scene_windows":0,"windows":5,"scene":"neutral automotive discussion"}
+{"neuron":3887,"pole":"high","cluster":5,"mode":"describing colors of objects and nature","scene_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":3887,"pole":"high","cluster":6,"mode":"vehicle upgrades and expected changes","scene_windows":0,"windows":5,"scene":"neutral automotive discussion"}
+{"neuron":3887,"pole":"high","cluster":7,"mode":"human rights and child protection principles","scene_windows":0,"windows":5,"scene":"neutral social commentary"}
+{"neuron":3887,"pole":"high","cluster":8,"mode":"asking clarifying questions in a dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":3887,"pole":"low","cluster":0,"mode":"css background properties","scene_windows":0,"windows":5,"scene":"neutral technical code"}
+{"neuron":3887,"pole":"low","cluster":1,"mode":"making content clear and engaging","scene_windows":0,"windows":5,"scene":"neutral web design advice"}
+{"neuron":3887,"pole":"low","cluster":2,"mode":"asking for definitions and explanations","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":3887,"pole":"low","cluster":3,"mode":"providing information and closing remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":3887,"pole":"low","cluster":4,"mode":"standard features and vehicle specifications","scene_windows":0,"windows":5,"scene":"neutral automotive discussion"}
+{"neuron":3887,"pole":"low","cluster":5,"mode":"location and position relative to something","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":6945,"pole":"high","cluster":0,"mode":"dialogue and direct speech","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":6945,"pole":"high","cluster":1,"mode":"historical and scientific contexts","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":6945,"pole":"high","cluster":2,"mode":"dialogue and conversational exchanges","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":6945,"pole":"low","cluster":0,"mode":"referring to text or articles","scene_windows":0,"windows":5,"scene":"neutral factual reporting"}
+{"neuron":6945,"pole":"low","cluster":1,"mode":"geographical locations and characteristics","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":6945,"pole":"low","cluster":2,"mode":"cities and geographical areas","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":6945,"pole":"low","cluster":3,"mode":"historical events and outcomes","scene_windows":0,"windows":5,"scene":"neutral historical reporting"}
+{"neuron":7365,"pole":"high","cluster":0,"mode":"slang terms for menstrual cycle","scene_windows":0,"windows":5,"scene":"neutral health information"}
+{"neuron":7365,"pole":"high","cluster":1,"mode":"plants and sunlight for energy","scene_windows":0,"windows":5,"scene":"neutral scientific explanation"}
+{"neuron":7365,"pole":"high","cluster":2,"mode":"cultural celebrations and traditions","scene_windows":0,"windows":5,"scene":"neutral cultural description"}
+{"neuron":7365,"pole":"high","cluster":3,"mode":"stock market performance and seasonality","scene_windows":0,"windows":5,"scene":"neutral financial discussion"}
+{"neuron":7365,"pole":"low","cluster":0,"mode":"time periods and quantities","scene_windows":0,"windows":5,"scene":"neutral scientific reporting"}
+{"neuron":7365,"pole":"low","cluster":1,"mode":"haiku poetry and nature themes","scene_windows":0,"windows":5,"scene":"neutral literary discussion"}
+{"neuron":8254,"pole":"high","cluster":0,"mode":"biological pathways and therapeutic targets","scene_windows":0,"windows":5,"scene":"neutral scientific explanation"}
+{"neuron":8254,"pole":"high","cluster":1,"mode":"vegetable names and food preparation","scene_windows":0,"windows":5,"scene":"neutral recipe discussion"}
+{"neuron":8254,"pole":"high","cluster":2,"mode":"anatomical terms and medical conditions","scene_windows":0,"windows":5,"scene":"neutral medical information"}
+{"neuron":8254,"pole":"high","cluster":3,"mode":"medical screening and disease agents","scene_windows":0,"windows":5,"scene":"neutral medical information"}
+{"neuron":8254,"pole":"high","cluster":4,"mode":"food items and descriptive adjectives","scene_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":8254,"pole":"high","cluster":5,"mode":"describing landscapes and locations","scene_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":8254,"pole":"high","cluster":6,"mode":"medical treatments and yoga poses","scene_windows":0,"windows":5,"scene":"neutral health advice"}
+{"neuron":8254,"pole":"low","cluster":0,"mode":"colors and descriptive adjectives","scene_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":8254,"pole":"low","cluster":1,"mode":"science education organizations and conferences","scene_windows":0,"windows":5,"scene":"neutral informational text"}
+{"neuron":8254,"pole":"low","cluster":2,"mode":"jacket types and material descriptions","scene_windows":0,"windows":5,"scene":"neutral product description"}
+{"neuron":8254,"pole":"low","cluster":3,"mode":"organizations and acronyms","scene_windows":0,"windows":5,"scene":"neutral informational text"}
+{"neuron":8254,"pole":"low","cluster":4,"mode":"historical figures and publications","scene_windows":0,"windows":5,"scene":"neutral historical reporting"}
+{"neuron":8254,"pole":"low","cluster":5,"mode":"religious and cultural symbols","scene_windows":0,"windows":5,"scene":"neutral cultural discussion"}
+{"neuron":8590,"pole":"high","cluster":0,"mode":"personal reflections and past experiences","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"high","cluster":1,"mode":"thoughts and internal monologue","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"high","cluster":2,"mode":"dialogue and direct speech","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"high","cluster":3,"mode":"internal thoughts and realizations","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"high","cluster":4,"mode":"giving opinions and personal assessments","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8590,"pole":"high","cluster":5,"mode":"dialogue and asking questions","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8590,"pole":"high","cluster":6,"mode":"dialogue and direct speech","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"high","cluster":7,"mode":"dialogue and direct speech","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8590,"pole":"high","cluster":8,"mode":"referring to time and events","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"high","cluster":9,"mode":"giving advice and suggestions","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8590,"pole":"low","cluster":0,"mode":"time perception and duration","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"low","cluster":1,"mode":"asking for opinions and thoughts","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8590,"pole":"low","cluster":2,"mode":"duration and extent of something","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"low","cluster":3,"mode":"negation and inability","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"low","cluster":4,"mode":"comparison and expectation","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"low","cluster":5,"mode":"describing events and circumstances","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"low","cluster":6,"mode":"all and entirety","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"low","cluster":7,"mode":"definite articles and pronouns","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":8590,"pole":"low","cluster":8,"mode":"time and frequency","scene_windows":0,"windows":5,"scene":"neutral narrative"}

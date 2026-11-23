@@ -1,0 +1,61 @@
+{"neuron":178,"pole":"high","cluster":0,"mode":"Marked 'solar' in renewable energy discussions","scene_windows":0,"windows":5,"scene":"Renewable energy and solar power explanations"}
+{"neuron":178,"pole":"high","cluster":1,"mode":"Marked 'to' after 'I need' in user requests","scene_windows":0,"windows":5,"scene":"Everyday user requests for help with tasks"}
+{"neuron":178,"pole":"high","cluster":2,"mode":"Connective or preposition marking a following clause or list","scene_windows":0,"windows":5,"scene":"Neutral explanatory or comparative prose"}
+{"neuron":178,"pole":"high","cluster":3,"mode":"Marked 'about' before quantities, durations or approximations","scene_windows":0,"windows":5,"scene":"Neutral factual narration about time or cost"}
+{"neuron":178,"pole":"low","cluster":0,"mode":"Gratitude or praise words in closing chat replies","scene_windows":0,"windows":5,"scene":"User thanking assistant after helpful answers"}
+{"neuron":178,"pole":"low","cluster":1,"mode":"Marked 'buy/buying/purchase' in cryptocurrency and bullion explanations","scene_windows":0,"windows":5,"scene":"Explaining how to buy crypto or precious metals"}
+{"neuron":178,"pole":"low","cluster":2,"mode":"Sentence-initial 'Many' starting platform or company descriptions","scene_windows":0,"windows":5,"scene":"Describing services and exchanges in informational answers"}
+{"neuron":178,"pole":"low","cluster":3,"mode":"Question mark after 'Can you help' style requests","scene_windows":0,"windows":5,"scene":"Human asking assistant for help with simple tasks"}
+{"neuron":178,"pole":"low","cluster":4,"mode":"Function words inside neutral informational sentences","scene_windows":0,"windows":5,"scene":"Neutral news and science article prose"}
+{"neuron":178,"pole":"low","cluster":5,"mode":"Prompt and output wording inside code and program examples","scene_windows":0,"windows":5,"scene":"Programming code with input prompts"}
+{"neuron":4519,"pole":"high","cluster":0,"mode":"Sentence-opening 'Thank' after assistant label","scene_windows":0,"windows":5,"scene":"Assistant replies opening with thanks"}
+{"neuron":4519,"pole":"high","cluster":1,"mode":"Marked 'gave/give' in phrases like gave up or gave way","scene_windows":0,"windows":5,"scene":"Fiction narration about giving up or yielding"}
+{"neuron":4519,"pole":"high","cluster":2,"mode":"Marked 'learned' after a character subject in stories","scene_windows":0,"windows":5,"scene":"Narrative fiction about characters gaining knowledge"}
+{"neuron":4519,"pole":"high","cluster":3,"mode":"Marked 'told' or 'tell' in narrative and requests","scene_windows":0,"windows":5,"scene":"Story narration and user asking to be told things"}
+{"neuron":4519,"pole":"high","cluster":4,"mode":"Auxiliary verbs or determiners in expository sentences","scene_windows":0,"windows":5,"scene":"Expository text on education, intelligence, jewelry"}
+{"neuron":4519,"pole":"high","cluster":5,"mode":"Token 'assistant' or colon starting an assistant reply","scene_windows":0,"windows":5,"scene":"Chat turns offering list recommendations"}
+{"neuron":4519,"pole":"low","cluster":0,"mode":"Marked 'yes' opening replies to a user remark","scene_windows":0,"windows":5,"scene":"Casual assistant agreeing with user statements"}
+{"neuron":4519,"pole":"low","cluster":1,"mode":"Marked 'times' in phrases like 'at times' or 'there were times'","scene_windows":0,"windows":5,"scene":"Narrative describing difficult periods and hardships"}
+{"neuron":4519,"pole":"low","cluster":2,"mode":"Commas, periods or 'because' mid-sentence in narrative or argument","scene_windows":0,"windows":5,"scene":"Story and essay prose about fear and society"}
+{"neuron":4519,"pole":"low","cluster":3,"mode":"Marked 'know' in emotional first-person dialogue","scene_windows":0,"windows":5,"scene":"Dramatic dialogue with confessions and admissions"}
+{"neuron":8111,"pole":"high","cluster":0,"mode":"Mid-phrase nouns and conjunctions in formal descriptive prose","scene_windows":0,"windows":5,"scene":"Academic and historical descriptive writing"}
+{"neuron":8111,"pole":"high","cluster":1,"mode":"Words inside the phrase 'skill or intelligence in one area'","scene_windows":0,"windows":5,"scene":"Q&A defining an idiot savant"}
+{"neuron":8111,"pole":"low","cluster":0,"mode":"Ingredient or liquid nouns in recipe and food lists","scene_windows":0,"windows":5,"scene":"Recipes and healthy drink suggestions"}
+{"neuron":8111,"pole":"low","cluster":1,"mode":"Abstract nouns like challenges, properties, skills ending phrases","scene_windows":0,"windows":5,"scene":"Academic and science news prose"}
+{"neuron":8111,"pole":"low","cluster":2,"mode":"Marked 'this' or 'following' in summarize or rewrite requests","scene_windows":0,"windows":5,"scene":"User asking to transform a provided text"}
+{"neuron":7286,"pole":"high","cluster":0,"mode":"Colon after 'Title' in creative writing replies","scene_windows":0,"windows":5,"scene":"Assistant drafting titled scripts and stories"}
+{"neuron":7286,"pole":"high","cluster":1,"mode":"Verbs 'represent/symbolize' describing painting elements","scene_windows":0,"windows":5,"scene":"Collaborative painting description discussions"}
+{"neuron":7286,"pole":"high","cluster":2,"mode":"'of/about' after requests to add more details","scene_windows":0,"windows":5,"scene":"User requesting expanded story details"}
+{"neuron":7286,"pole":"high","cluster":3,"mode":"Function words in essay-style analytic sentences","scene_windows":0,"windows":5,"scene":"Literary and financial analysis prose"}
+{"neuron":7286,"pole":"high","cluster":4,"mode":"Assistant label beginning replies adding story details","scene_windows":0,"windows":5,"scene":"Creative story-expansion chat turns"}
+{"neuron":7286,"pole":"low","cluster":0,"mode":"Sentence-final periods in informational answers","scene_windows":0,"windows":5,"scene":"Assistant explaining products and topics"}
+{"neuron":7286,"pole":"low","cluster":1,"mode":"Copula 'is/was' or 'also' mid-sentence in advice","scene_windows":0,"windows":5,"scene":"Lifestyle advice and news narration"}
+{"neuron":4509,"pole":"high","cluster":0,"mode":"Prepositions and nouns in formal historical or institutional prose","scene_windows":0,"windows":5,"scene":"Historical and institutional expository writing"}
+{"neuron":4509,"pole":"high","cluster":1,"mode":"Marked 'is/good/that' in user feedback replies","scene_windows":0,"windows":5,"scene":"User responding positively to assistant content"}
+{"neuron":4509,"pole":"low","cluster":0,"mode":"Commas and periods closing clauses in advice prose","scene_windows":0,"windows":5,"scene":"Advice and informational explanations"}
+{"neuron":4509,"pole":"low","cluster":1,"mode":"Question mark ending user questions before assistant reply","scene_windows":0,"windows":5,"scene":"Human asking factual questions to assistant"}
+{"neuron":7006,"pole":"high","cluster":0,"mode":"Resolve and willingness words in war or crime narratives","scene_windows":0,"windows":5,"scene":"Wartime and spy fiction about resolve"}
+{"neuron":7006,"pole":"high","cluster":1,"mode":"Marked 'it/all' in song chorus about doing it again","scene_windows":0,"windows":5,"scene":"Song lyrics about friendship and loyalty"}
+{"neuron":7006,"pole":"high","cluster":2,"mode":"Marked 'do/it' in repeated chorus lyric line","scene_windows":0,"windows":5,"scene":"Song chorus lyrics about friendship"}
+{"neuron":7006,"pole":"low","cluster":0,"mode":"Speaker label 'user' starting a new turn","scene_windows":0,"windows":5,"scene":"Chat follow-up requests after generated content"}
+{"neuron":7006,"pole":"low","cluster":1,"mode":"Speaker label 'user' after informational assistant answers","scene_windows":0,"windows":5,"scene":"Follow-up user remarks on factual answers"}
+{"neuron":7006,"pole":"low","cluster":2,"mode":"Marked 'response' in 'generate the response' instructions","scene_windows":0,"windows":5,"scene":"Text-based task instructions for generating responses"}
+{"neuron":7006,"pole":"low","cluster":3,"mode":"Colon after user label in recipe follow-ups","scene_windows":0,"windows":5,"scene":"Cooking and wellness chat follow-ups"}
+{"neuron":7006,"pole":"low","cluster":4,"mode":"'that' or 'they/I' after 'knew' in tense narration","scene_windows":0,"windows":5,"scene":"Suspenseful narration of danger and battle"}
+{"neuron":7006,"pole":"low","cluster":5,"mode":"Scattered function words in reflective or dramatic prose","scene_windows":0,"windows":5,"scene":"Mixed reflective and crime-themed prose"}
+{"neuron":7006,"pole":"low","cluster":6,"mode":"Marked 'as' in clauses about activity or time","scene_windows":0,"windows":5,"scene":"Essays and narratives about crafts and survival"}
+{"neuron":2202,"pole":"high","cluster":0,"mode":"Abstract nouns ending a sentence about values or healing","scene_windows":0,"windows":5,"scene":"Reflective essays and recommendation lists"}
+{"neuron":2202,"pole":"high","cluster":1,"mode":"Token 'assistant' starting a reply to a user question","scene_windows":0,"windows":5,"scene":"Chat turns answering factual user questions"}
+{"neuron":2202,"pole":"low","cluster":0,"mode":"Time-travel words like past and future in fiction","scene_windows":0,"windows":5,"scene":"Time-travel and story-expansion narratives"}
+{"neuron":2202,"pole":"low","cluster":1,"mode":"Question marks ending user questions and assistant openers","scene_windows":0,"windows":5,"scene":"Short factual Q&A exchanges"}
+{"neuron":2202,"pole":"low","cluster":2,"mode":"Sentence-final quotes ending dialogue lines","scene_windows":0,"windows":5,"scene":"Sci-fi and hostile dialogue passages"}
+{"neuron":2202,"pole":"low","cluster":3,"mode":"Nouns like monster, methods, system, resources","scene_windows":0,"windows":5,"scene":"Mixed narrative and technical descriptions"}
+{"neuron":2202,"pole":"low","cluster":4,"mode":"Sentence-final periods before source citation footers","scene_windows":0,"windows":5,"scene":"Science news article endings"}
+{"neuron":2202,"pole":"low","cluster":5,"mode":"Sentence-final periods before follow-up turns","scene_windows":0,"windows":5,"scene":"Assistant answers ending before user turns"}
+{"neuron":2202,"pole":"low","cluster":6,"mode":"Sentence-final periods in expository encyclopedia prose","scene_windows":0,"windows":5,"scene":"Encyclopedic explanations of topics"}
+{"neuron":2202,"pole":"low","cluster":7,"mode":"Sentence-final periods in science and nature facts","scene_windows":0,"windows":5,"scene":"Factual text about animals and science"}
+{"neuron":4521,"pole":"high","cluster":0,"mode":"Words 'you try to use it' in DRM access explanation","scene_windows":0,"windows":5,"scene":"Explaining DRM blocking unlicensed use"}
+{"neuron":4521,"pole":"high","cluster":1,"mode":"Safety-qualifying conjunctions and commas in hazard warnings","scene_windows":3,"windows":5,"scene":"Safety warnings about chemicals, fire and beaches"}
+{"neuron":4521,"pole":"high","cluster":2,"mode":"'make sure' and 'are' in safe-handling instructions","scene_windows":3,"windows":5,"scene":"Safety tips for batteries, fire and pesticides"}
+{"neuron":4521,"pole":"low","cluster":0,"mode":"Pronoun 'I' before recommendation or hope phrases","scene_windows":0,"windows":5,"scene":"Assistant recommending products and skin care"}
+{"neuron":4521,"pole":"low","cluster":1,"mode":"Marked 'there' starting answers to cooking questions","scene_windows":0,"windows":5,"scene":"Cooking and hobby Q&A openers"}

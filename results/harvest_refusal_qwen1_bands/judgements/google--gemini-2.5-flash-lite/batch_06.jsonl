@@ -1,0 +1,76 @@
+{"neuron":8490,"pole":"high","cluster":0,"mode":"best to respect your ex's partner and keep interactions minimal","scene_windows":0,"windows":5,"scene":"relationship advice"}
+{"neuron":8490,"pole":"high","cluster":1,"mode":"how to do X","scene_windows":0,"windows":5,"scene":"asking for instructions"}
+{"neuron":8490,"pole":"high","cluster":2,"mode":"can help us leave our artificial worlds","scene_windows":0,"windows":5,"scene":"personal growth advice"}
+{"neuron":8490,"pole":"high","cluster":3,"mode":"minimizing disruptions and duration","scene_windows":0,"windows":5,"scene":"technical process description"}
+{"neuron":8490,"pole":"low","cluster":0,"mode":"simple and convenient options","scene_windows":0,"windows":5,"scene":"party planning advice"}
+{"neuron":8490,"pole":"low","cluster":1,"mode":"pain relief modifications for yoga poses","scene_windows":0,"windows":5,"scene":"yoga pose modifications"}
+{"neuron":8346,"pole":"high","cluster":0,"mode":"numerical sequences","scene_windows":0,"windows":5,"scene":"data listing"}
+{"neuron":8346,"pole":"high","cluster":1,"mode":"dance move names","scene_windows":0,"windows":5,"scene":"dance instruction"}
+{"neuron":8346,"pole":"high","cluster":2,"mode":"dance move names","scene_windows":0,"windows":5,"scene":"dance instruction"}
+{"neuron":8346,"pole":"high","cluster":3,"mode":"numerical sequences","scene_windows":0,"windows":5,"scene":"data listing"}
+{"neuron":8346,"pole":"high","cluster":4,"mode":"citation numbers","scene_windows":0,"windows":5,"scene":"academic reference"}
+{"neuron":8346,"pole":"high","cluster":5,"mode":"numerical sequences","scene_windows":0,"windows":5,"scene":"data listing"}
+{"neuron":8346,"pole":"high","cluster":6,"mode":"color codes","scene_windows":0,"windows":5,"scene":"web development code"}
+{"neuron":8346,"pole":"high","cluster":7,"mode":"dates","scene_windows":0,"windows":5,"scene":"event listing"}
+{"neuron":8346,"pole":"high","cluster":8,"mode":"URLs","scene_windows":0,"windows":5,"scene":"web link"}
+{"neuron":8346,"pole":"high","cluster":9,"mode":"polite closing remarks","scene_windows":0,"windows":5,"scene":"customer service closing"}
+{"neuron":8346,"pole":"high","cluster":10,"mode":"numbered food items","scene_windows":0,"windows":5,"scene":"recipe listing"}
+{"neuron":8346,"pole":"high","cluster":11,"mode":"numbered list items","scene_windows":0,"windows":5,"scene":"instructional list"}
+{"neuron":8346,"pole":"high","cluster":12,"mode":"CSS code snippets","scene_windows":0,"windows":5,"scene":"web development code"}
+{"neuron":8346,"pole":"high","cluster":13,"mode":"abbreviated words","scene_windows":0,"windows":5,"scene":"text analysis"}
+{"neuron":8346,"pole":"high","cluster":14,"mode":"pronouns","scene_windows":0,"windows":5,"scene":"narrative text"}
+{"neuron":8346,"pole":"high","cluster":15,"mode":"contact information","scene_windows":0,"windows":5,"scene":"business contact"}
+{"neuron":8346,"pole":"low","cluster":0,"mode":"asking for information","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":8346,"pole":"low","cluster":1,"mode":"helpful closing remarks","scene_windows":0,"windows":5,"scene":"instructional closing"}
+{"neuron":8346,"pole":"low","cluster":2,"mode":"names","scene_windows":0,"windows":5,"scene":"bibliographic entry"}
+{"neuron":8346,"pole":"low","cluster":3,"mode":"descriptive phrases","scene_windows":0,"windows":5,"scene":"factual description"}
+{"neuron":8346,"pole":"low","cluster":4,"mode":"common nouns","scene_windows":0,"windows":5,"scene":"general knowledge"}
+{"neuron":8346,"pole":"low","cluster":5,"mode":"punctuation","scene_windows":0,"windows":5,"scene":"narrative text"}
+{"neuron":7362,"pole":"high","cluster":0,"mode":"to end this cycle of violence","scene_windows":0,"windows":5,"scene":"policy discussion"}
+{"neuron":7362,"pole":"high","cluster":1,"mode":"prepare them for adulthood","scene_windows":0,"windows":5,"scene":"life skills advice"}
+{"neuron":7362,"pole":"low","cluster":0,"mode":"have any other questions","scene_windows":0,"windows":5,"scene":"customer service closing"}
+{"neuron":7362,"pole":"low","cluster":1,"mode":"sorry to hear that","scene_windows":0,"windows":5,"scene":"empathetic response"}
+{"neuron":7362,"pole":"low","cluster":2,"mode":"wonderful day","scene_windows":0,"windows":5,"scene":"polite closing"}
+{"neuron":7362,"pole":"low","cluster":3,"mode":"happy to help","scene_windows":0,"windows":5,"scene":"helpful closing"}
+{"neuron":7362,"pole":"low","cluster":4,"mode":"sports player statistics","scene_windows":0,"windows":5,"scene":"sports news"}
+{"neuron":7362,"pole":"low","cluster":5,"mode":"are feeling suicidal or distressed","scene_windows":1,"windows":5,"scene":"harmful content refusal"}
+{"neuron":7362,"pole":"low","cluster":6,"mode":"to recognize this guilt","scene_windows":0,"windows":5,"scene":"psychological advice"}
+{"neuron":7362,"pole":"low","cluster":7,"mode":"famous love poems","scene_windows":0,"windows":5,"scene":"literary discussion"}
+{"neuron":4499,"pole":"high","cluster":0,"mode":"advice against doing things too quickly or overcrowding","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":4499,"pole":"high","cluster":1,"mode":"uncertainty about spying and military orders","scene_windows":0,"windows":5,"scene":"uncertainty and orders"}
+{"neuron":4499,"pole":"high","cluster":2,"mode":"discussion of Christians, power grids, and IO/scheduling contention","scene_windows":0,"windows":5,"scene":"religious and technical discussion"}
+{"neuron":4499,"pole":"high","cluster":3,"mode":"comparison of sexual acts and temperature effects","scene_windows":0,"windows":5,"scene":"describing sexual acts"}
+{"neuron":4499,"pole":"low","cluster":0,"mode":"water quality, pollution, and assimilation of native peoples","scene_windows":0,"windows":5,"scene":"environmental and cultural discussion"}
+{"neuron":4499,"pole":"low","cluster":1,"mode":"consequences of taking things for granted or for granted","scene_windows":0,"windows":5,"scene":"consequences of actions"}
+{"neuron":4242,"pole":"high","cluster":0,"mode":"other outdoor pursuit","scene_windows":0,"windows":5,"scene":"activity suggestion"}
+{"neuron":4242,"pole":"high","cluster":1,"mode":"are there doctors who can do it","scene_windows":0,"windows":5,"scene":"asking for clarification"}
+{"neuron":4242,"pole":"high","cluster":2,"mode":"how is death administered","scene_windows":0,"windows":5,"scene":"asking for factual information"}
+{"neuron":4242,"pole":"high","cluster":3,"mode":"how do you make X","scene_windows":0,"windows":5,"scene":"asking for instructions"}
+{"neuron":4242,"pole":"high","cluster":4,"mode":"illegal drug trade","scene_windows":0,"windows":5,"scene":"discussion of illegal activity"}
+{"neuron":4242,"pole":"high","cluster":5,"mode":"are in summary","scene_windows":0,"windows":5,"scene":"listing health benefits"}
+{"neuron":4242,"pole":"high","cluster":6,"mode":"ethical and stated in an open manner","scene_windows":0,"windows":5,"scene":"relationship advice"}
+{"neuron":4242,"pole":"low","cluster":0,"mode":"have lived exclusively in the plains","scene_windows":0,"windows":5,"scene":"paleontological discussion"}
+{"neuron":4242,"pole":"low","cluster":1,"mode":"such as","scene_windows":0,"windows":5,"scene":"listing examples"}
+{"neuron":2782,"pole":"high","cluster":0,"mode":"variety of options for pets, teas, and hiking","scene_windows":0,"windows":5,"scene":"describing variety"}
+{"neuron":2782,"pole":"high","cluster":1,"mode":"marketing tactics for businesses, both traditional and digital","scene_windows":0,"windows":5,"scene":"marketing strategies"}
+{"neuron":2782,"pole":"high","cluster":2,"mode":"options for evening activities and breakfast foods","scene_windows":0,"windows":5,"scene":"suggesting activities"}
+{"neuron":2782,"pole":"high","cluster":3,"mode":"discussion of graffiti, renewable energy policies, and weather patterns","scene_windows":0,"windows":5,"scene":"societal and environmental topics"}
+{"neuron":2782,"pole":"high","cluster":4,"mode":"comparison of printing methods and ethnic diversity","scene_windows":0,"windows":5,"scene":"technical and demographic comparison"}
+{"neuron":2782,"pole":"high","cluster":5,"mode":"examples of marketing tactics and casino games","scene_windows":0,"windows":5,"scene":"examples of tactics"}
+{"neuron":2782,"pole":"low","cluster":0,"mode":"relationship advice and safety exploration","scene_windows":0,"windows":5,"scene":"relationship and safety advice"}
+{"neuron":2782,"pole":"low","cluster":1,"mode":"gratitude journaling and relaxation techniques","scene_windows":0,"windows":5,"scene":"personal well-being practices"}
+{"neuron":4788,"pole":"high","cluster":0,"mode":"balance these interests in a","scene_windows":0,"windows":5,"scene":"policy discussion"}
+{"neuron":4788,"pole":"high","cluster":1,"mode":"elaborate further if you are interested","scene_windows":0,"windows":5,"scene":"offering more information"}
+{"neuron":4788,"pole":"low","cluster":0,"mode":"research has strongly established that","scene_windows":0,"windows":5,"scene":"scientific explanation"}
+{"neuron":4788,"pole":"low","cluster":1,"mode":"while it's possible to bleach","scene_windows":0,"windows":5,"scene":"feasibility assessment"}
+{"neuron":36,"pole":"high","cluster":0,"mode":"tell me things to see","scene_windows":0,"windows":5,"scene":"asking for recommendations"}
+{"neuron":36,"pole":"high","cluster":1,"mode":"do I need to go to school","scene_windows":0,"windows":5,"scene":"asking for career advice"}
+{"neuron":36,"pole":"high","cluster":2,"mode":"do they let you keep weapons","scene_windows":0,"windows":5,"scene":"asking about regulations"}
+{"neuron":36,"pole":"high","cluster":3,"mode":"so if I connected a car battery","scene_windows":0,"windows":5,"scene":"hypothetical dangerous scenario"}
+{"neuron":36,"pole":"high","cluster":4,"mode":"how do singers remember lyrics","scene_windows":0,"windows":5,"scene":"asking for explanation"}
+{"neuron":36,"pole":"high","cluster":5,"mode":"the Mennonites","scene_windows":0,"windows":5,"scene":"cultural description"}
+{"neuron":36,"pole":"high","cluster":6,"mode":"do you have to take a test","scene_windows":0,"windows":5,"scene":"asking about requirements"}
+{"neuron":36,"pole":"low","cluster":0,"mode":"have lived exclusively in the plains","scene_windows":0,"windows":5,"scene":"paleontological discussion"}
+{"neuron":36,"pole":"low","cluster":1,"mode":"such as","scene_windows":0,"windows":5,"scene":"listing examples"}
+{"neuron":36,"pole":"low","cluster":2,"mode":"in order to get home","scene_windows":1,"windows":5,"scene":"asking for illegal help"}
+{"neuron":36,"pole":"low","cluster":3,"mode":"yes that would certainly be","scene_windows":0,"windows":5,"scene":"agreement and humor"}

@@ -1,0 +1,76 @@
+{"neuron":10141,"pole":"high","cluster":0,"mode":"Names associated with Frank, Baum, and Maxfield Parrish, related to books and art.","scene_windows":0,"windows":5,"scene":"Biographical details and creative works"}
+{"neuron":10141,"pole":"high","cluster":1,"mode":"Ellipses indicating pauses or omitted speech in dialogue.","scene_windows":0,"windows":5,"scene":"Conversational pauses and omissions"}
+{"neuron":10141,"pole":"high","cluster":2,"mode":"Assistant responses to user questions about various topics.","scene_windows":0,"windows":5,"scene":"Informative assistant responses"}
+{"neuron":10141,"pole":"high","cluster":3,"mode":"Academic or technical text discussing concepts and relationships.","scene_windows":0,"windows":5,"scene":"Formal discussion of concepts"}
+{"neuron":10141,"pole":"high","cluster":4,"mode":"Expressions of panic, fear, and intense emotion in narrative.","scene_windows":0,"windows":5,"scene":"Intense emotional narrative"}
+{"neuron":10141,"pole":"high","cluster":5,"mode":"Scientific research and university news, often with location tags.","scene_windows":0,"windows":5,"scene":"University research and news"}
+{"neuron":10141,"pole":"high","cluster":6,"mode":"Fragments of text, often with ellipses or unusual punctuation.","scene_windows":0,"windows":5,"scene":"Fragmented textual elements"}
+{"neuron":10141,"pole":"low","cluster":0,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":1,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":2,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":3,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":4,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":5,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":6,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":7,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":8,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":9,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":10,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10141,"pole":"low","cluster":11,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":9708,"pole":"high","cluster":0,"mode":"Screenplay scene headings and descriptions, often with FADE IN.","scene_windows":0,"windows":5,"scene":"Screenplay scene beginnings"}
+{"neuron":9708,"pole":"high","cluster":1,"mode":"Explanations of processes or situations, often using 'of' or 'in'.","scene_windows":0,"windows":5,"scene":"Explanations of processes and situations"}
+{"neuron":9708,"pole":"high","cluster":2,"mode":"Examples of e-commerce websites using videos to showcase products.","scene_windows":0,"windows":5,"scene":"E-commerce video marketing examples"}
+{"neuron":9708,"pole":"low","cluster":0,"mode":"Phrases indicating inclusion or desired outcomes.","scene_windows":0,"windows":5,"scene":"Indicating inclusion or results"}
+{"neuron":9708,"pole":"low","cluster":1,"mode":"Instructions or descriptions involving time and cooking.","scene_windows":0,"windows":5,"scene":"Cooking and time instructions"}
+{"neuron":731,"pole":"high","cluster":0,"mode":"Chattahoochee Technical College information and student experiences.","scene_windows":0,"windows":5,"scene":"Technical college information"}
+{"neuron":731,"pole":"high","cluster":1,"mode":"Image links and descriptions of color schemes for interior design.","scene_windows":0,"windows":5,"scene":"Interior design color schemes"}
+{"neuron":731,"pole":"high","cluster":2,"mode":"YouTube links demonstrating cooking techniques or processes.","scene_windows":0,"windows":5,"scene":"Cooking demonstration videos"}
+{"neuron":731,"pole":"high","cluster":3,"mode":"Image links and descriptions of interior design color schemes.","scene_windows":0,"windows":5,"scene":"Interior design color schemes"}
+{"neuron":731,"pole":"high","cluster":4,"mode":"Examples of various applications, products, or marketing strategies.","scene_windows":0,"windows":5,"scene":"Examples of applications and strategies"}
+{"neuron":731,"pole":"high","cluster":5,"mode":"Expressions of hope and helpfulness in response to queries.","scene_windows":0,"windows":5,"scene":"Helpful and hopeful responses"}
+{"neuron":731,"pole":"high","cluster":6,"mode":"References to the Centers for Disease Control and Prevention (CDC).","scene_windows":0,"windows":5,"scene":"References to CDC"}
+{"neuron":731,"pole":"high","cluster":7,"mode":"Examples of applications, technologies, or ideas.","scene_windows":0,"windows":5,"scene":"Examples of applications and ideas"}
+{"neuron":731,"pole":"high","cluster":8,"mode":"Website links, often from Reddit or Yelp.","scene_windows":0,"windows":5,"scene":"Website links and references"}
+{"neuron":731,"pole":"high","cluster":9,"mode":"Grammatical structures involving 'have' and 'to'.","scene_windows":0,"windows":5,"scene":"Grammatical structures with 'have' and 'to'"}
+{"neuron":731,"pole":"high","cluster":10,"mode":"Sentences starting with 'These' referring to previous examples.","scene_windows":0,"windows":5,"scene":"Referring to previous examples"}
+{"neuron":731,"pole":"high","cluster":11,"mode":"Phrases indicating examples or capabilities.","scene_windows":0,"windows":5,"scene":"Indicating examples or capabilities"}
+{"neuron":731,"pole":"low","cluster":0,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":1,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":2,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":3,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":4,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":5,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":6,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":7,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":8,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":731,"pole":"low","cluster":9,"mode":"asking for information about specific topics, often with a question mark.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":9013,"pole":"high","cluster":0,"mode":"References to the 'first' instance of something, often historical.","scene_windows":0,"windows":5,"scene":"Historical 'first' occurrences"}
+{"neuron":9013,"pole":"high","cluster":1,"mode":"Sequences of events described using 'after'.","scene_windows":0,"windows":5,"scene":"Sequences of events with 'after'"}
+{"neuron":9013,"pole":"high","cluster":2,"mode":"Phrases indicating a short duration or processing time.","scene_windows":0,"windows":5,"scene":"Short durations and processing times"}
+{"neuron":9013,"pole":"high","cluster":3,"mode":"Narrative descriptions of events occurring after a period of time.","scene_windows":0,"windows":5,"scene":"Events occurring after time"}
+{"neuron":9013,"pole":"high","cluster":4,"mode":"First-person narrative fragments, often expressing surprise or realization.","scene_windows":0,"windows":5,"scene":"First-person realization fragments"}
+{"neuron":9013,"pole":"high","cluster":5,"mode":"Phrases indicating modification or a specific area.","scene_windows":0,"windows":5,"scene":"Modification and specific areas"}
+{"neuron":9013,"pole":"high","cluster":6,"mode":"Clauses describing actions or plans, often using 'which' or 'can'.","scene_windows":0,"windows":5,"scene":"Describing actions and plans"}
+{"neuron":9013,"pole":"low","cluster":0,"mode":"Phrases indicating a significant achievement or milestone.","scene_windows":0,"windows":5,"scene":"Significant achievements and milestones"}
+{"neuron":9013,"pole":"low","cluster":1,"mode":"Phrases indicating a crucial or necessary step forward.","scene_windows":0,"windows":5,"scene":"Crucial or necessary steps"}
+{"neuron":9013,"pole":"low","cluster":2,"mode":"Expressions of finality or arrival.","scene_windows":0,"windows":5,"scene":"Expressions of finality or arrival"}
+{"neuron":9013,"pole":"low","cluster":3,"mode":"Phrases indicating contribution or purpose.","scene_windows":0,"windows":5,"scene":"Indicating contribution or purpose"}
+{"neuron":9013,"pole":"low","cluster":4,"mode":"Phrases indicating a specific moment or event.","scene_windows":0,"windows":5,"scene":"Specific moments or events"}
+{"neuron":4284,"pole":"high","cluster":0,"mode":"Questions about historical figures, often using 'the'.","scene_windows":0,"windows":5,"scene":"Questions about historical figures"}
+{"neuron":4284,"pole":"high","cluster":1,"mode":"Direct address and commands, often using 'you' or 'your'.","scene_windows":0,"windows":5,"scene":"Direct address and commands"}
+{"neuron":4284,"pole":"high","cluster":2,"mode":"Phrases describing states or conditions, often using 'the'.","scene_windows":0,"windows":5,"scene":"Describing states or conditions"}
+{"neuron":4284,"pole":"high","cluster":3,"mode":"Phrases indicating application, function, or location, often using 'of' or 'in'.","scene_windows":0,"windows":5,"scene":"Application, function, or location"}
+{"neuron":4284,"pole":"high","cluster":4,"mode":"Technical descriptions or explanations, often using 'the'.","scene_windows":0,"windows":5,"scene":"Technical descriptions and explanations"}
+{"neuron":4284,"pole":"high","cluster":5,"mode":"Narrative descriptions focusing on sensory details or actions, using 'the'.","scene_windows":0,"windows":5,"scene":"Sensory details and actions"}
+{"neuron":4284,"pole":"high","cluster":6,"mode":"Statements about biological processes or historical facts, using 'The'.","scene_windows":0,"windows":5,"scene":"Biological and historical statements"}
+{"neuron":4284,"pole":"high","cluster":7,"mode":"Narrative descriptions of actions or events, using 'The'.","scene_windows":0,"windows":5,"scene":"Narrative actions and events"}
+{"neuron":4284,"pole":"low","cluster":0,"mode":"Phrases related to video games and their characteristics.","scene_windows":0,"windows":5,"scene":"Video game characteristics"}
+{"neuron":4284,"pole":"low","cluster":1,"mode":"Phrases related to military careers and benefits, using 'the'.","scene_windows":0,"windows":5,"scene":"Military careers and benefits"}
+{"neuron":4284,"pole":"low","cluster":2,"mode":"Phrases related to social media marketing and automation.","scene_windows":0,"windows":5,"scene":"Social media marketing and automation"}
+{"neuron":6724,"pole":"high","cluster":0,"mode":"Questions about practical matters like cost, time, and capital.","scene_windows":0,"windows":5,"scene":"Practical questions about cost"}
+{"neuron":6724,"pole":"high","cluster":1,"mode":"Encouragement to reach out for support or help.","scene_windows":0,"windows":5,"scene":"Encouragement to seek support"}
+{"neuron":6724,"pole":"high","cluster":2,"mode":"Advice on seeking support for urgent concerns or distress.","scene_windows":0,"windows":5,"scene":"Seeking support for distress"}
+{"neuron":6724,"pole":"high","cluster":3,"mode":"Phrases indicating action, purpose, or benefit.","scene_windows":0,"windows":5,"scene":"Indicating action, purpose, or benefit"}
+{"neuron":6724,"pole":"high","cluster":4,"mode":"Advice on seeking support for emotional or mental health crises.","scene_windows":0,"windows":5,"scene":"Support for mental health crises"}
+{"neuron":6724,"pole":"low","cluster":0,"mode":"Phrases indicating improvement, learning, or problem-solving.","scene_windows":0,"windows":5,"scene":"Improvement, learning, and problem-solving"}
+{"neuron":6724,"pole":"low","cluster":1,"mode":"Phrases indicating a negative state or inability.","scene_windows":0,"windows":5,"scene":"Negative states or inability"}

@@ -1,0 +1,69 @@
+{"neuron":6123,"pole":"high","cluster":0,"mode":"instructions for self-defense against attackers","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":6123,"pole":"high","cluster":1,"mode":"first-person narrative, internal thoughts, and observations","scene_windows":0,"windows":5,"scene":"narration"}
+{"neuron":6123,"pole":"high","cluster":2,"mode":"cooking instructions, removing ingredients from heat","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":6123,"pole":"low","cluster":0,"mode":"telling someone to be quiet or stop talking","scene_windows":0,"windows":5,"scene":"argument/confrontation"}
+{"neuron":6123,"pole":"low","cluster":1,"mode":"bringing down an outlaw leader or a temple","scene_windows":0,"windows":5,"scene":"action/conflict"}
+{"neuron":6123,"pole":"low","cluster":2,"mode":"putting an end to a plan, menace, or crisis","scene_windows":0,"windows":5,"scene":"resolution/conclusion"}
+{"neuron":6123,"pole":"low","cluster":3,"mode":"physically placing hands or arms on something or someone","scene_windows":0,"windows":5,"scene":"action/interaction"}
+{"neuron":6123,"pole":"low","cluster":4,"mode":"putting an end to a plan, menace, or crisis","scene_windows":0,"windows":5,"scene":"resolution/conclusion"}
+{"neuron":6123,"pole":"low","cluster":5,"mode":"interrupting or cutting off speech or action","scene_windows":0,"windows":5,"scene":"interruption"}
+{"neuron":6123,"pole":"low","cluster":6,"mode":"drawing to a close, ending of an event or period","scene_windows":0,"windows":5,"scene":"conclusion/ending"}
+{"neuron":6123,"pole":"low","cluster":7,"mode":"drawing to a close, ending of an event or period","scene_windows":0,"windows":5,"scene":"conclusion/ending"}
+{"neuron":6123,"pole":"low","cluster":8,"mode":"stopping or halting movement or action","scene_windows":0,"windows":5,"scene":"action/interaction"}
+{"neuron":6123,"pole":"low","cluster":9,"mode":"stopping or preventing an action or process","scene_windows":0,"windows":5,"scene":"prevention/control"}
+{"neuron":9616,"pole":"high","cluster":0,"mode":"examples of similes and metaphors for chaos","scene_windows":0,"windows":5,"scene":"literary analysis"}
+{"neuron":9616,"pole":"high","cluster":1,"mode":"terms of endearment used in dialogue","scene_windows":0,"windows":5,"scene":"dialogue/conversation"}
+{"neuron":9616,"pole":"high","cluster":2,"mode":"copying or quoting text for a user","scene_windows":0,"windows":5,"scene":"text manipulation"}
+{"neuron":9616,"pole":"high","cluster":3,"mode":"requesting edits or revisions to text","scene_windows":0,"windows":5,"scene":"text editing"}
+{"neuron":9616,"pole":"high","cluster":4,"mode":"rules for subject-verb agreement in grammar","scene_windows":0,"windows":5,"scene":"grammar explanation"}
+{"neuron":9616,"pole":"high","cluster":5,"mode":"examples of irregular verb past participles","scene_windows":0,"windows":5,"scene":"grammar explanation"}
+{"neuron":9616,"pole":"high","cluster":6,"mode":"assistant providing creative writing ideas","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":9616,"pole":"high","cluster":7,"mode":"narrative descriptions of settings or situations","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":9616,"pole":"high","cluster":8,"mode":"asking questions about personal confidence or social skills","scene_windows":0,"windows":5,"scene":"advice seeking"}
+{"neuron":9616,"pole":"high","cluster":9,"mode":"asking questions in dialogue","scene_windows":0,"windows":5,"scene":"dialogue/conversation"}
+{"neuron":9616,"pole":"high","cluster":10,"mode":"specific nouns or names used in context","scene_windows":0,"windows":5,"scene":"contextual detail"}
+{"neuron":9616,"pole":"high","cluster":11,"mode":"prepositions indicating possession or relationship","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":9616,"pole":"low","cluster":0,"mode":"requesting text formatting into all caps","scene_windows":0,"windows":5,"scene":"text formatting request"}
+{"neuron":9616,"pole":"low","cluster":1,"mode":"dialogue with quoted speech, often expressing surprise or disbelief","scene_windows":0,"windows":5,"scene":"dialogue/confrontation"}
+{"neuron":9616,"pole":"low","cluster":2,"mode":"dialogue with quoted speech, often expressing emotion or uncertainty","scene_windows":0,"windows":5,"scene":"dialogue/emotion"}
+{"neuron":9616,"pole":"low","cluster":3,"mode":"assistant providing advice or instructions, often with punctuation","scene_windows":0,"windows":5,"scene":"advice/instructions"}
+{"neuron":4161,"pole":"high","cluster":0,"mode":"possessive pronouns referring to the listener's belongings or relationships","scene_windows":0,"windows":5,"scene":"addressing listener"}
+{"neuron":4161,"pole":"high","cluster":1,"mode":"pronouns indicating existence or inclusion","scene_windows":0,"windows":5,"scene":"description/context"}
+{"neuron":4161,"pole":"high","cluster":2,"mode":"pronouns referring to the listener's actions or state","scene_windows":0,"windows":5,"scene":"addressing listener"}
+{"neuron":4161,"pole":"low","cluster":0,"mode":"pronouns referring to the subject of the sentence","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":4161,"pole":"low","cluster":1,"mode":"pronouns referring to the listener's actions or state","scene_windows":0,"windows":5,"scene":"addressing listener"}
+{"neuron":7140,"pole":"high","cluster":0,"mode":"human asking for advice or information","scene_windows":0,"windows":5,"scene":"advice seeking"}
+{"neuron":7140,"pole":"high","cluster":1,"mode":"human asking for advice or information","scene_windows":0,"windows":5,"scene":"advice seeking"}
+{"neuron":7140,"pole":"high","cluster":2,"mode":"human asking for advice or information","scene_windows":0,"windows":5,"scene":"advice seeking"}
+{"neuron":7140,"pole":"high","cluster":3,"mode":"human asking for advice or information","scene_windows":0,"windows":5,"scene":"advice seeking"}
+{"neuron":7140,"pole":"high","cluster":4,"mode":"human asking for paraphrasing or summarization","scene_windows":0,"windows":5,"scene":"text manipulation"}
+{"neuron":7140,"pole":"high","cluster":5,"mode":"pronouns indicating self-reference or possession","scene_windows":0,"windows":5,"scene":"self-reference"}
+{"neuron":7140,"pole":"high","cluster":6,"mode":"assistant responding to user prompts, often with punctuation","scene_windows":0,"windows":5,"scene":"assistant response"}
+{"neuron":7140,"pole":"low","cluster":0,"mode":"assistant responding to user prompts, often with punctuation","scene_windows":0,"windows":5,"scene":"assistant response"}
+{"neuron":7140,"pole":"low","cluster":1,"mode":"assistant responding to user prompts, often with punctuation","scene_windows":0,"windows":5,"scene":"assistant response"}
+{"neuron":7140,"pole":"low","cluster":2,"mode":"assistant responding to user prompts, often with punctuation","scene_windows":0,"windows":5,"scene":"assistant response"}
+{"neuron":7140,"pole":"low","cluster":3,"mode":"assistant responding to user prompts, often with punctuation","scene_windows":0,"windows":5,"scene":"assistant response"}
+{"neuron":7140,"pole":"low","cluster":4,"mode":"assistant responding to user prompts, often with punctuation","scene_windows":0,"windows":5,"scene":"assistant response"}
+{"neuron":7140,"pole":"low","cluster":5,"mode":"assistant providing examples or suggestions","scene_windows":0,"windows":5,"scene":"providing examples"}
+{"neuron":7140,"pole":"low","cluster":6,"mode":"assistant providing examples or suggestions","scene_windows":0,"windows":5,"scene":"providing examples"}
+{"neuron":7140,"pole":"low","cluster":7,"mode":"conjunctions introducing contrasting or conditional clauses","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":7140,"pole":"low","cluster":8,"mode":"conjunctions introducing contrasting or conditional clauses","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":7140,"pole":"low","cluster":9,"mode":"conjunctions introducing contrasting or conditional clauses","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":7140,"pole":"low","cluster":10,"mode":"conjunctions introducing contrasting or conditional clauses","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":7140,"pole":"low","cluster":11,"mode":"conjunctions introducing contrasting or conditional clauses","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":1545,"pole":"high","cluster":0,"mode":"pronouns indicating purpose or direction","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":1545,"pole":"high","cluster":1,"mode":"conjunctions connecting clauses or phrases","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":1545,"pole":"low","cluster":0,"mode":"pronouns referring to specific entities or concepts","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":1545,"pole":"low","cluster":1,"mode":"prepositions indicating time or purpose","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":6481,"pole":"high","cluster":0,"mode":"pronouns indicating conditionality or qualification","scene_windows":0,"windows":5,"scene":"conditional statement"}
+{"neuron":6481,"pole":"high","cluster":1,"mode":"pronouns indicating responsibility or state","scene_windows":0,"windows":5,"scene":"responsibility/state"}
+{"neuron":6481,"pole":"low","cluster":0,"mode":"pronouns referring to female individuals or entities","scene_windows":0,"windows":5,"scene":"grammatical reference"}
+{"neuron":6481,"pole":"low","cluster":1,"mode":"pronouns referring to specific nationalities or groups","scene_windows":0,"windows":5,"scene":"demographic reference"}
+{"neuron":6481,"pole":"low","cluster":2,"mode":"punctuation indicating the end of a sentence or phrase","scene_windows":0,"windows":5,"scene":"sentence termination"}
+{"neuron":2849,"pole":"high","cluster":0,"mode":"pronouns indicating possibility or potential","scene_windows":0,"windows":5,"scene":"possibility/potential"}
+{"neuron":2849,"pole":"high","cluster":1,"mode":"pronouns indicating alternatives or choices","scene_windows":0,"windows":5,"scene":"alternative/choice"}
+{"neuron":2849,"pole":"high","cluster":2,"mode":"pronouns indicating alternatives or choices","scene_windows":0,"windows":5,"scene":"alternative/choice"}
+{"neuron":2849,"pole":"low","cluster":0,"mode":"articles indicating indefiniteness or singularity","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":2849,"pole":"low","cluster":1,"mode":"conjunctions indicating contrast or continuation","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":2849,"pole":"low","cluster":2,"mode":"punctuation indicating the end of a sentence or phrase","scene_windows":0,"windows":5,"scene":"sentence termination"}
+{"neuron":2849,"pole":"low","cluster":3,"mode":"dialogue with quoted speech, often expressing uncertainty or inquiry","scene_windows":0,"windows":5,"scene":"dialogue/inquiry"}

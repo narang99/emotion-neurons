@@ -1,0 +1,68 @@
+{"neuron":400,"pole":"high","cluster":0,"mode":"expressing certainty or knowledge about a situation or outcome","scene_windows":0,"windows":5,"scene":"narrative, internal thought"}
+{"neuron":400,"pole":"high","cluster":1,"mode":"expressing hope or offering assistance","scene_windows":0,"windows":5,"scene":"helpful advice, offering support"}
+{"neuron":400,"pole":"low","cluster":0,"mode":"referring to specific body parts or anatomical features","scene_windows":0,"windows":5,"scene":"biological description, factual"}
+{"neuron":400,"pole":"low","cluster":1,"mode":"describing emotional states or psychological qualities","scene_windows":0,"windows":5,"scene":"psychological description, emotional"}
+{"neuron":400,"pole":"low","cluster":2,"mode":"expressing sadness or distress through tears","scene_windows":0,"windows":5,"scene":"emotional narrative, sadness"}
+{"neuron":400,"pole":"low","cluster":3,"mode":"describing the act of breaking or separating something","scene_windows":0,"windows":5,"scene":"instruction, action description"}
+{"neuron":400,"pole":"low","cluster":4,"mode":"referring to edible plant matter","scene_windows":0,"windows":5,"scene":"food, healthy eating"}
+{"neuron":400,"pole":"low","cluster":5,"mode":"describing overcoming challenges or difficulties","scene_windows":0,"windows":5,"scene":"self-help, overcoming obstacles"}
+{"neuron":400,"pole":"low","cluster":6,"mode":"referring to atmospheric precipitation","scene_windows":0,"windows":5,"scene":"weather, sensory description"}
+{"neuron":400,"pole":"low","cluster":7,"mode":"referring to atmospheric precipitation","scene_windows":0,"windows":5,"scene":"environmental, sustainable living"}
+{"neuron":2893,"pole":"high","cluster":0,"mode":"referring to a specific city in New York","scene_windows":0,"windows":5,"scene":"bibliographic citation, academic"}
+{"neuron":2893,"pole":"high","cluster":1,"mode":"describing human characteristics or capabilities","scene_windows":0,"windows":5,"scene":"philosophical, human nature"}
+{"neuron":2893,"pole":"high","cluster":2,"mode":"listing items or components","scene_windows":0,"windows":5,"scene":"listing, factual information"}
+{"neuron":2893,"pole":"high","cluster":3,"mode":"indicating direction or relationship","scene_windows":0,"windows":5,"scene":"prepositional phrase, grammatical"}
+{"neuron":2893,"pole":"high","cluster":4,"mode":"expressing hope or offering assistance","scene_windows":0,"windows":5,"scene":"helpful advice, offering support"}
+{"neuron":2893,"pole":"low","cluster":0,"mode":"referring to articles or conjunctions","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":2893,"pole":"low","cluster":1,"mode":"indicating cause or reason","scene_windows":0,"windows":5,"scene":"causal relationship, explanation"}
+{"neuron":2893,"pole":"low","cluster":2,"mode":"indicating manner or comparison","scene_windows":0,"windows":5,"scene":"adverbial phrase, descriptive"}
+{"neuron":2893,"pole":"low","cluster":3,"mode":"describing complexity or difficulty","scene_windows":0,"windows":5,"scene":"descriptive, abstract concept"}
+{"neuron":2893,"pole":"low","cluster":4,"mode":"complex and complicated issues, situations, and emotions.","scene_windows":0,"windows":5,"scene":"discussing difficult topics"}
+{"neuron":2239,"pole":"high","cluster":0,"mode":"indicating location or relationship","scene_windows":0,"windows":5,"scene":"prepositional phrase, theological"}
+{"neuron":2239,"pole":"high","cluster":1,"mode":"indicating punctuation or sentence structure","scene_windows":0,"windows":5,"scene":"grammatical, narrative"}
+{"neuron":2239,"pole":"high","cluster":2,"mode":"referring to negative experiences or conditions","scene_windows":0,"windows":5,"scene":"theological, philosophical"}
+{"neuron":2239,"pole":"high","cluster":3,"mode":"indicating relationship or possession","scene_windows":0,"windows":5,"scene":"prepositional phrase, grammatical"}
+{"neuron":2239,"pole":"high","cluster":4,"mode":"indicating conjunction or addition","scene_windows":0,"windows":5,"scene":"conjunction, descriptive"}
+{"neuron":2239,"pole":"low","cluster":0,"mode":"referring to pronouns or gendered nouns","scene_windows":0,"windows":5,"scene":"pronoun usage, narrative"}
+{"neuron":2239,"pole":"low","cluster":1,"mode":"referring to articles or conjunctions","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3688,"pole":"high","cluster":0,"mode":"referring to time periods or locations","scene_windows":0,"windows":5,"scene":"historical context, factual"}
+{"neuron":3688,"pole":"high","cluster":1,"mode":"describing the beginning of an action or process","scene_windows":0,"windows":5,"scene":"process description, entrepreneurial"}
+{"neuron":3688,"pole":"low","cluster":0,"mode":"indicating conjunctions or prepositions","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3688,"pole":"low","cluster":1,"mode":"referring to pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"pronoun usage, grammatical"}
+{"neuron":2449,"pole":"high","cluster":0,"mode":"referring to numbers, locations, or specific items","scene_windows":0,"windows":5,"scene":"factual, numerical data"}
+{"neuron":2449,"pole":"high","cluster":1,"mode":"indicating punctuation or sentence structure","scene_windows":0,"windows":5,"scene":"grammatical, narrative"}
+{"neuron":2449,"pole":"high","cluster":2,"mode":"describing the action of reaching for something","scene_windows":0,"windows":5,"scene":"action description, physical"}
+{"neuron":2449,"pole":"low","cluster":0,"mode":"referring to categories or types of entities","scene_windows":0,"windows":5,"scene":"categorization, factual"}
+{"neuron":2449,"pole":"low","cluster":1,"mode":"referring to categories or types of entities","scene_windows":0,"windows":5,"scene":"categorization, factual"}
+{"neuron":9068,"pole":"high","cluster":0,"mode":"referring to specific locations or events","scene_windows":0,"windows":5,"scene":"geographical, event description"}
+{"neuron":9068,"pole":"high","cluster":1,"mode":"referring to a specific online encyclopedia","scene_windows":0,"windows":5,"scene":"information source, factual"}
+{"neuron":9068,"pole":"low","cluster":0,"mode":"indicating prepositions or conjunctions","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":9068,"pole":"low","cluster":1,"mode":"referring to edible plants or parts of plants","scene_windows":0,"windows":5,"scene":"food, culinary"}
+{"neuron":3206,"pole":"high","cluster":0,"mode":"indicating code or programming language elements","scene_windows":0,"windows":5,"scene":"programming, code snippet"}
+{"neuron":3206,"pole":"high","cluster":1,"mode":"indicating sequential steps in a process","scene_windows":0,"windows":5,"scene":"instruction, recipe"}
+{"neuron":3206,"pole":"high","cluster":2,"mode":"indicating sequential steps in a process","scene_windows":0,"windows":5,"scene":"instruction, advice"}
+{"neuron":3206,"pole":"high","cluster":3,"mode":"indicating code or programming language elements","scene_windows":0,"windows":5,"scene":"programming, code snippet"}
+{"neuron":3206,"pole":"high","cluster":4,"mode":"indicating special characters or symbols","scene_windows":0,"windows":5,"scene":"text formatting, special characters"}
+{"neuron":3206,"pole":"high","cluster":5,"mode":"indicating body parts or locations","scene_windows":0,"windows":5,"scene":"medical, anatomical"}
+{"neuron":3206,"pole":"high","cluster":6,"mode":"indicating punctuation or sentence structure","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3206,"pole":"high","cluster":7,"mode":"indicating punctuation or sentence structure","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3206,"pole":"low","cluster":0,"mode":"indicating prepositions or conjunctions","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3206,"pole":"low","cluster":1,"mode":"indicating marketing strategies or actions","scene_windows":0,"windows":5,"scene":"marketing, business strategy"}
+{"neuron":3206,"pole":"low","cluster":2,"mode":"steps or actions in a process, often numbered.","scene_windows":0,"windows":5,"scene":"explaining sequential steps"}
+{"neuron":3206,"pole":"low","cluster":3,"mode":"code snippets and formatting.","scene_windows":0,"windows":5,"scene":"code and formatting examples"}
+{"neuron":3206,"pole":"low","cluster":4,"mode":"links and citations with special characters.","scene_windows":0,"windows":5,"scene":"referencing external sources"}
+{"neuron":3206,"pole":"low","cluster":5,"mode":"actions or states, often with punctuation.","scene_windows":0,"windows":5,"scene":"describing actions and states"}
+{"neuron":3206,"pole":"low","cluster":6,"mode":"general statements or explanations, often with punctuation.","scene_windows":0,"windows":5,"scene":"providing general information"}
+{"neuron":3206,"pole":"low","cluster":7,"mode":"general statements or explanations, often with punctuation.","scene_windows":0,"windows":5,"scene":"providing general information"}
+{"neuron":3206,"pole":"low","cluster":8,"mode":"parenthetical information or descriptions.","scene_windows":0,"windows":5,"scene":"providing parenthetical details"}
+{"neuron":3206,"pole":"low","cluster":9,"mode":"names and parenthetical information.","scene_windows":0,"windows":5,"scene":"identifying people and entities"}
+{"neuron":3503,"pole":"high","cluster":0,"mode":"indicating existence or presence","scene_windows":0,"windows":5,"scene":"factual statement, existence"}
+{"neuron":3503,"pole":"high","cluster":1,"mode":"referring to a single instance or example","scene_windows":0,"windows":5,"scene":"example, specific instance"}
+{"neuron":3503,"pole":"high","cluster":2,"mode":"referring to multiple instances or examples","scene_windows":0,"windows":5,"scene":"examples, listing"}
+{"neuron":3503,"pole":"high","cluster":3,"mode":"indicating identity or definition","scene_windows":0,"windows":5,"scene":"definition, factual"}
+{"neuron":3503,"pole":"high","cluster":4,"mode":"indicating direct speech or quotation","scene_windows":0,"windows":5,"scene":"dialogue, quotation"}
+{"neuron":3503,"pole":"high","cluster":5,"mode":"referring to pronouns or personal experience","scene_windows":0,"windows":5,"scene":"personal narrative, pronoun"}
+{"neuron":3503,"pole":"high","cluster":6,"mode":"indicating punctuation or sentence structure","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3503,"pole":"high","cluster":7,"mode":"indicating punctuation or sentence structure","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3503,"pole":"low","cluster":0,"mode":"indicating prepositions or conjunctions","scene_windows":0,"windows":5,"scene":"grammatical, factual"}
+{"neuron":3503,"pole":"low","cluster":1,"mode":"indicating marketing strategies or actions","scene_windows":0,"windows":5,"scene":"marketing, business strategy"}

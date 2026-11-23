@@ -1,0 +1,73 @@
+{"neuron":674,"pole":"high","cluster":0,"mode":"asking a coworker out for social purposes without violating sexual harassment laws","scene_windows":0,"windows":5,"scene":"neutral workplace advice"}
+{"neuron":674,"pole":"high","cluster":1,"mode":"literary devices, pocket dimensions, and technology access","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":674,"pole":"high","cluster":2,"mode":"dating coworkers and workplace policies","scene_windows":0,"windows":5,"scene":"neutral workplace advice"}
+{"neuron":674,"pole":"low","cluster":0,"mode":"legal proceedings and financial foundations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":674,"pole":"low","cluster":1,"mode":"religious and political commentary, and organized crime","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":674,"pole":"low","cluster":2,"mode":"criminal activity and financial embezzlement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3969,"pole":"high","cluster":0,"mode":"personal revenge motivations for law enforcement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3969,"pole":"high","cluster":1,"mode":"resilience, hope, and pool maintenance","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3969,"pole":"high","cluster":2,"mode":"dialogue with quotation marks","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3969,"pole":"low","cluster":0,"mode":"water conservation and die design","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3969,"pole":"low","cluster":1,"mode":"conversational endings and crime narratives","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6731,"pole":"high","cluster":0,"mode":"asking for assistance with translation and recipes","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":6731,"pole":"high","cluster":1,"mode":"advice on pet care, social services, and technology","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":6731,"pole":"high","cluster":2,"mode":"asking for information about health, pets, and repairs","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":6731,"pole":"low","cluster":0,"mode":"narratives about characters beginning actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6731,"pole":"low","cluster":1,"mode":"ongoing societal issues and historical continuity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6731,"pole":"low","cluster":2,"mode":"historical wisdom, policy impact, and scientific theories","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6731,"pole":"low","cluster":3,"mode":"fashion accessories and financial planning","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":10206,"pole":"high","cluster":0,"mode":"influencer marketing for limited-time offers","scene_windows":0,"windows":5,"scene":"neutral marketing advice"}
+{"neuron":10206,"pole":"high","cluster":1,"mode":"creating unique experiences for limited-time offers","scene_windows":0,"windows":5,"scene":"neutral marketing advice"}
+{"neuron":10206,"pole":"high","cluster":2,"mode":"seasonal discounts and website offers","scene_windows":0,"windows":5,"scene":"neutral marketing advice"}
+{"neuron":10206,"pole":"high","cluster":3,"mode":"historical context, gun violence, and plant care","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10206,"pole":"high","cluster":4,"mode":"creating urgency with limited-time offers and personalized ads","scene_windows":0,"windows":5,"scene":"neutral marketing advice"}
+{"neuron":10206,"pole":"low","cluster":0,"mode":"cooking instructions involving pouring and adding ingredients","scene_windows":0,"windows":5,"scene":"neutral cooking instructions"}
+{"neuron":10206,"pole":"low","cluster":1,"mode":"encouraging participation in fundraising and events","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":10206,"pole":"low","cluster":2,"mode":"art display, waste management, and historical motifs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10206,"pole":"low","cluster":3,"mode":"baking instructions involving scooping and dropping dough","scene_windows":0,"windows":5,"scene":"neutral cooking instructions"}
+{"neuron":10102,"pole":"high","cluster":0,"mode":"asking for advice and information","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":10102,"pole":"high","cluster":1,"mode":"dialogue featuring the title 'Miss'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":2,"mode":"narrative scene transitions using dashes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":3,"mode":"lists of names","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":4,"mode":"dialogue expressing disbelief or questioning reality","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":5,"mode":"dialogue with asterisks indicating emphasis or special terms","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":6,"mode":"dialogue with bolded words indicating emphasis or shouting","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":7,"mode":"dialogue with empty spaces indicating pauses or trailing off","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":8,"mode":"dialogue with punctuation indicating pauses or abbreviations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":9,"mode":"dialogue offering choices with 'or'","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":10102,"pole":"high","cluster":10,"mode":"mentions of Massachusetts General Hospital","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":11,"mode":"discussion of mass events and violence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":12,"mode":"discussion of mass shootings and gun control","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":13,"mode":"lists of places and names","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":14,"mode":"dialogue using 'so' for emphasis or continuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":15,"mode":"phrases indicating abundance or possession","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"high","cluster":16,"mode":"dialogue referring to specific items or ideas","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":0,"mode":"script formatting with scene indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":1,"mode":"haiku poems about nature","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":2,"mode":"closing remarks for professional communication","scene_windows":0,"windows":5,"scene":"neutral communication"}
+{"neuron":10102,"pole":"low","cluster":3,"mode":"dialogue with quotation marks indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":4,"mode":"citations and references","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":5,"mode":"contact information for university departments","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":6,"mode":"dialogue with pauses indicated by spaces","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":7,"mode":"medical definitions and conditions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":8,"mode":"dialogue with character names and parenthetical actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":9,"mode":"assistant responses to user requests","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":10102,"pole":"low","cluster":10,"mode":"contact information for university departments","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10102,"pole":"low","cluster":11,"mode":"code snippets for temperature conversion","scene_windows":0,"windows":5,"scene":"neutral code"}
+{"neuron":10102,"pole":"low","cluster":12,"mode":"code snippets for web scraping and machine learning","scene_windows":0,"windows":5,"scene":"neutral code"}
+{"neuron":10102,"pole":"low","cluster":13,"mode":"advice on confidence, health, and reading","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":10102,"pole":"low","cluster":14,"mode":"bibliographic references","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9075,"pole":"high","cluster":0,"mode":"asking factual questions and receiving answers","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":9075,"pole":"high","cluster":1,"mode":"discussion of social issues and cultural elements","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9075,"pole":"high","cluster":2,"mode":"user reactions to narrative descriptions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9075,"pole":"low","cluster":0,"mode":"narratives about conflict, gambling, and human nature","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9075,"pole":"low","cluster":1,"mode":"asking for instructions on cleaning and preparation","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":9075,"pole":"low","cluster":2,"mode":"definitions and explanations of terms","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":9075,"pole":"low","cluster":3,"mode":"asking for advice on comforting a child, managing social media time, or dealing with fruit flies","scene_windows":0,"windows":5,"scene":"asking for advice"}
+{"neuron":6477,"pole":"high","cluster":0,"mode":"advice on school community, phone charging, and driving efficiency","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":6477,"pole":"high","cluster":1,"mode":"narratives involving children, history, and group dynamics","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6477,"pole":"high","cluster":2,"mode":"mentions of California, Los Angeles, and historical events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6477,"pole":"high","cluster":3,"mode":"historical figures, team building, and personal experiences","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6477,"pole":"low","cluster":0,"mode":"content marketing, sensors, and human characteristics","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6477,"pole":"low","cluster":1,"mode":"asking for definitions and information about organizations","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":6477,"pole":"low","cluster":2,"mode":"definitions and explanations of medical and scientific terms","scene_windows":0,"windows":5,"scene":"neutral assistance"}

@@ -1,0 +1,59 @@
+{"neuron":2162,"pole":"high","cluster":0,"mode":"prepositions connecting nouns and phrases, indicating relationship or location","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2162,"pole":"high","cluster":1,"mode":"relative pronouns introducing clauses about skills or services","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2162,"pole":"low","cluster":0,"mode":"assistant's polite refusal or acknowledgement of a question","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":2162,"pole":"low","cluster":1,"mode":"past participle indicating something has been shown or demonstrated","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2162,"pole":"low","cluster":2,"mode":"prepositions introducing clauses about circumstances or situations","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2162,"pole":"low","cluster":3,"mode":"punctuation indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2162,"pole":"low","cluster":4,"mode":"words related to development, structure, or composition","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2162,"pole":"low","cluster":5,"mode":"pronouns and verbs indicating personal requests or desires","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":1505,"pole":"high","cluster":0,"mode":"nouns related to systems, practices, and locations","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1505,"pole":"high","cluster":1,"mode":"dialogue markers indicating user questions or requests","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":1505,"pole":"low","cluster":0,"mode":"years indicating publication or historical dates","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1505,"pole":"low","cluster":1,"mode":"abbreviations for 'et cetera', indicating a list continues","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1505,"pole":"low","cluster":2,"mode":"adverbs summarizing or concluding a statement","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1505,"pole":"low","cluster":3,"mode":"punctuation indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1505,"pole":"low","cluster":4,"mode":"dialogue markers indicating assistant's response","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":1505,"pole":"low","cluster":5,"mode":"words indicating possession, quantity, or state","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1505,"pole":"low","cluster":6,"mode":"nouns related to offerings, topics, activities, or features","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2624,"pole":"high","cluster":0,"mode":"interrogative pronouns and verbs asking about requirements or content","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2624,"pole":"high","cluster":1,"mode":"interrogative pronouns asking for clarification or definition","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2624,"pole":"high","cluster":2,"mode":"articles and prepositions indicating specific items or locations","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2624,"pole":"high","cluster":3,"mode":"prepositions introducing information about topics or subjects","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2624,"pole":"low","cluster":0,"mode":"interrogative pronouns asking about types or kinds","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":2624,"pole":"low","cluster":1,"mode":"dialogue markers indicating assistant's response","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":2624,"pole":"low","cluster":2,"mode":"pronouns indicating examples or possibilities","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":2624,"pole":"low","cluster":3,"mode":"adverbs introducing suggestions or recommendations","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":2624,"pole":"low","cluster":4,"mode":"superlative adjectives indicating the highest degree","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2624,"pole":"low","cluster":5,"mode":"verbs indicating requests for information or examples","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":2624,"pole":"low","cluster":6,"mode":"interrogative modal verbs asking for possibility or permission","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":2624,"pole":"low","cluster":7,"mode":"punctuation indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":2624,"pole":"low","cluster":8,"mode":"nouns indicating lineage or past occurrences","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1788,"pole":"high","cluster":0,"mode":"nouns indicating location or belonging","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1788,"pole":"high","cluster":1,"mode":"prepositions indicating location within a place","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1788,"pole":"high","cluster":2,"mode":"nouns related to commerce and retail activities","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1788,"pole":"low","cluster":0,"mode":"prepositions indicating direction, purpose, or relationship","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1788,"pole":"low","cluster":1,"mode":"parentheses enclosing measurements or abbreviations","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1442,"pole":"high","cluster":0,"mode":"phrases indicating escape or finding a way out","scene_windows":0,"windows":5,"scene":"narrative of struggle and escape"}
+{"neuron":1442,"pole":"high","cluster":1,"mode":"phrases indicating reassurance and overcoming difficulty","scene_windows":0,"windows":5,"scene":"narrative of support and survival"}
+{"neuron":1442,"pole":"high","cluster":2,"mode":"prepositions indicating influence or direction","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1442,"pole":"high","cluster":3,"mode":"pronouns and verbs indicating existence, hope, or presence","scene_windows":0,"windows":5,"scene":"supportive and hopeful message"}
+{"neuron":1442,"pole":"low","cluster":0,"mode":"modal verbs and adverbs indicating negation or uncertainty","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1442,"pole":"low","cluster":1,"mode":"negated modal verbs indicating inability or lack of desire","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1442,"pole":"low","cluster":2,"mode":"articles and prepositions indicating specific items or locations","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1442,"pole":"low","cluster":3,"mode":"words indicating positive anticipation or desire","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":10067,"pole":"high","cluster":0,"mode":"pronouns and prepositions indicating agency or purpose","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10067,"pole":"high","cluster":1,"mode":"verbs indicating action or placement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10067,"pole":"low","cluster":0,"mode":"negated auxiliary verbs indicating lack of recognition or possession","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10067,"pole":"low","cluster":1,"mode":"negated auxiliary verbs indicating lack of knowledge or desire","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1707,"pole":"high","cluster":0,"mode":"interrogative pronouns asking about interest or suitability","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":1707,"pole":"high","cluster":1,"mode":"pronouns and phrases indicating alternatives or lack of success","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1707,"pole":"high","cluster":2,"mode":"phrases indicating troubleshooting steps and lack of success","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1707,"pole":"high","cluster":3,"mode":"phrases offering help and positive closing","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":1707,"pole":"high","cluster":4,"mode":"pronouns and phrases introducing examples or suggestions","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":1707,"pole":"high","cluster":5,"mode":"modal verbs indicating possibility or helpfulness","scene_windows":0,"windows":5,"scene":"neutral polite interaction"}
+{"neuron":1707,"pole":"high","cluster":6,"mode":"negated modal verbs indicating refusal or inability","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1707,"pole":"high","cluster":7,"mode":"nouns related to attention, response, triggers, or organizations","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1707,"pole":"high","cluster":8,"mode":"nouns indicating lineage or past occurrences","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1707,"pole":"low","cluster":0,"mode":"negated verbs indicating unfamiliarity or lack of experience","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1707,"pole":"low","cluster":1,"mode":"prepositions indicating negation or location","scene_windows":0,"windows":5,"scene":"neutral factual description"}
+{"neuron":1707,"pole":"low","cluster":2,"mode":"articles and prepositions indicating specific items or locations","scene_windows":0,"windows":5,"scene":"neutral factual description"}

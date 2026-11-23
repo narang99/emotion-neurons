@@ -1,0 +1,72 @@
+{"neuron":3412,"pole":"high","cluster":0,"mode":"Sentence-opening 'that' in assistant replies praising or reacting to a question","scene_windows":0,"windows":5,"scene":"Casual Q&A where assistant opens with a reaction"}
+{"neuron":3412,"pole":"high","cluster":1,"mode":"Sentence-final period or question mark before a new speaker turn","scene_windows":0,"windows":5,"scene":"Long instructions or questions ending before assistant or user turn"}
+{"neuron":3412,"pole":"high","cluster":2,"mode":"'this' opening an assistant reply calling the question interesting or complicated","scene_windows":0,"windows":5,"scene":"Everyday questions answered with a hedged opener"}
+{"neuron":3412,"pole":"high","cluster":3,"mode":"'great' in assistant praise of the user's question","scene_windows":0,"windows":5,"scene":"Assistant complimenting a user's question before answering"}
+{"neuron":3412,"pole":"high","cluster":4,"mode":"'interesting' inside 'a very interesting question' opener","scene_windows":0,"windows":5,"scene":"Assistant opening replies to general knowledge questions"}
+{"neuron":3412,"pole":"high","cluster":5,"mode":"'few' in 'a few examples/ways' introducing a list","scene_windows":0,"windows":5,"scene":"Assistant introducing a short enumerated set of examples"}
+{"neuron":3412,"pole":"high","cluster":6,"mode":"'Here' or 'are' starting an assistant recommendation list","scene_windows":0,"windows":5,"scene":"Assistant beginning recommendations or example lists"}
+{"neuron":3412,"pole":"high","cluster":7,"mode":"'a' in 'is a tricky/complicated/good question' opener","scene_windows":0,"windows":5,"scene":"Assistant evaluating a how-to or factual question"}
+{"neuron":3412,"pole":"high","cluster":8,"mode":"'is' in 'this is a very complex question' opener","scene_windows":0,"windows":5,"scene":"Assistant hedging about how complex a question is"}
+{"neuron":3412,"pole":"high","cluster":9,"mode":"Colon ending 'here are some examples' before a numbered list","scene_windows":0,"windows":5,"scene":"Assistant introducing numbered example lists"}
+{"neuron":3412,"pole":"high","cluster":10,"mode":"'other' in 'and other' list-closing phrases","scene_windows":0,"windows":5,"scene":"Descriptive lists of items, services or measures"}
+{"neuron":3412,"pole":"high","cluster":11,"mode":"'and' joining the last two items of a noun list","scene_windows":0,"windows":5,"scene":"Expository sentences listing places, species or items"}
+{"neuron":3412,"pole":"high","cluster":12,"mode":"Period ending a sentence right before an inline speaker label","scene_windows":0,"windows":5,"scene":"Conversation transcripts with speaker turns following prose"}
+{"neuron":3412,"pole":"high","cluster":13,"mode":"Run of multiple spaces ending a narrative sentence","scene_windows":0,"windows":5,"scene":"Casual first-person narrative with odd spacing"}
+{"neuron":3412,"pole":"low","cluster":0,"mode":"Blank or stray space token mid-phrase in formal expository prose","scene_windows":0,"windows":5,"scene":"Encyclopedic or news prose with broken spacing"}
+{"neuron":3412,"pole":"low","cluster":1,"mode":"Digit inside numeric specs such as kWh, kW or horsepower","scene_windows":0,"windows":5,"scene":"Car and battery spec descriptions"}
+{"neuron":3412,"pole":"low","cluster":2,"mode":"Prepositions or conjunctions ('about', 'to', 'and') in formal prose","scene_windows":0,"windows":5,"scene":"Formal essays about policy, careers and education"}
+{"neuron":3412,"pole":"low","cluster":3,"mode":"Decimal point or digit inside kettle and tank capacity numbers","scene_windows":0,"windows":5,"scene":"Product descriptions of kettles with liter sizes"}
+{"neuron":7712,"pole":"high","cluster":0,"mode":"Punctuation or spacing right after a screenplay dialogue line","scene_windows":0,"windows":5,"scene":"Screenplay dialogue with parenthetical stage directions"}
+{"neuron":7712,"pole":"high","cluster":1,"mode":"Trailing space after a sentence before a new paragraph","scene_windows":0,"windows":5,"scene":"Expository facts about surnames, batteries, pests"}
+{"neuron":7712,"pole":"high","cluster":2,"mode":"Character name tokens in screenplay speaker tags","scene_windows":0,"windows":5,"scene":"Screenplay scene about soldiers and desertion"}
+{"neuron":7712,"pole":"high","cluster":3,"mode":"Blank space after a character name tag in screenplay action","scene_windows":0,"windows":5,"scene":"Screenplay action with a sheriff chasing outlaws"}
+{"neuron":7712,"pole":"high","cluster":4,"mode":"Opening quotation mark beginning a new line of dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue exchanges between characters"}
+{"neuron":7712,"pole":"high","cluster":5,"mode":"Closing quotation mark or apostrophe after spoken dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue ending a spoken line"}
+{"neuron":7712,"pole":"high","cluster":6,"mode":"Whitespace token after a dialogue or narrative paragraph end","scene_windows":0,"windows":5,"scene":"Fiction narrative with tense or dramatic moments"}
+{"neuron":7712,"pole":"high","cluster":7,"mode":"Period or article 'The' starting or ending expository sentences","scene_windows":0,"windows":5,"scene":"Expository text on architecture, materials and fear"}
+{"neuron":7712,"pole":"high","cluster":8,"mode":"Hyphen starting a bullet in pros and cons lists","scene_windows":0,"windows":5,"scene":"Pros and cons lists about public and private schools"}
+{"neuron":7712,"pole":"low","cluster":0,"mode":"Commas, 'and' or periods inside descriptive list-like prose","scene_windows":0,"windows":5,"scene":"Descriptive fiction and kitchen or product lists"}
+{"neuron":7712,"pole":"low","cluster":1,"mode":"Empty bracket placeholder tokens in template text","scene_windows":0,"windows":5,"scene":"Fill-in-the-blank document templates with brackets"}
+{"neuron":313,"pole":"high","cluster":0,"mode":"'sure' after 'Be' in cautionary advice sentences","scene_windows":0,"windows":5,"scene":"Practical advice tips about travel, labs and car auctions"}
+{"neuron":313,"pole":"high","cluster":1,"mode":"Exclamation mark after user thanks in a chat turn","scene_windows":0,"windows":5,"scene":"User thanking assistant then asking a follow-up"}
+{"neuron":313,"pole":"high","cluster":2,"mode":"Period ending a paragraph before a user or Human turn","scene_windows":0,"windows":5,"scene":"Assistant answers followed by user follow-up questions"}
+{"neuron":313,"pole":"high","cluster":3,"mode":"Period or exclamation closing an assistant's helpful answer, such as 'Hope this helps!'","scene_windows":0,"windows":5,"scene":"Assistant wrapping up a helpful answer to a benign question"}
+{"neuron":313,"pole":"high","cluster":4,"mode":"Exclamation after an assistant's enthusiastic opening acknowledgment of a user request","scene_windows":0,"windows":5,"scene":"Friendly assistant opening replies to everyday requests"}
+{"neuron":313,"pole":"high","cluster":5,"mode":"Exclamation after 'I'm happy to help' in thank-you exchanges","scene_windows":0,"windows":5,"scene":"Assistant replying to user thanks, polite closing"}
+{"neuron":313,"pole":"high","cluster":6,"mode":"Sentence-initial 'In addition' connecting elaboration in advice or business text","scene_windows":0,"windows":5,"scene":"Expository advice and business descriptions"}
+{"neuron":313,"pole":"high","cluster":7,"mode":"Period ending factual sentences about examples, products, or works","scene_windows":0,"windows":5,"scene":"Informational text on fruit, games, books, food"}
+{"neuron":313,"pole":"high","cluster":8,"mode":"Period ending biographical or encyclopedic statements about notable people and places","scene_windows":0,"windows":5,"scene":"Biographies and country or company descriptions"}
+{"neuron":313,"pole":"high","cluster":9,"mode":"Period or slash ending news and reference sentences about events and reports","scene_windows":0,"windows":5,"scene":"News and reports on storms, health programs, research"}
+{"neuron":313,"pole":"high","cluster":10,"mode":"Period after the formulaic greeting 'I hope this letter finds you well'","scene_windows":0,"windows":5,"scene":"Drafting business letters and emails for users"}
+{"neuron":313,"pole":"low","cluster":0,"mode":"'hope' in assistant closing lines like 'I hope these tips help'","scene_windows":0,"windows":5,"scene":"Assistant wrapping up cooking and tips answers"}
+{"neuron":313,"pole":"low","cluster":1,"mode":"'here' in 'I'm here to help' closing offers of further assistance","scene_windows":0,"windows":5,"scene":"Assistant offering further help at end of reply"}
+{"neuron":313,"pole":"low","cluster":2,"mode":"'would' inside hypothetical 'if you could meet anyone, who would' questions","scene_windows":0,"windows":5,"scene":"Lists of reflective or prompt questions for users"}
+{"neuron":313,"pole":"low","cluster":3,"mode":"'I'm/I am' in 'You're welcome, I'm happy to help' replies","scene_windows":0,"windows":5,"scene":"Assistant acknowledging user thanks politely"}
+{"neuron":313,"pole":"low","cluster":4,"mode":"'happy' or 'glad' after 'You are very welcome, I'm'","scene_windows":0,"windows":5,"scene":"Assistant replying to thanks in closing exchanges"}
+{"neuron":313,"pole":"low","cluster":5,"mode":"Colon after 'Assistant' label introducing a reply","scene_windows":0,"windows":5,"scene":"Chat transcripts with user questions and assistant replies"}
+{"neuron":313,"pole":"low","cluster":6,"mode":"'else' in 'Is there anything else I can help you with today?'","scene_windows":0,"windows":5,"scene":"Assistant ending conversation, offering more help"}
+{"neuron":313,"pole":"low","cluster":7,"mode":"'here' in 'Sure, here are some...' list introductions","scene_windows":0,"windows":5,"scene":"Assistant introducing recommendation or example lists"}
+{"neuron":313,"pole":"low","cluster":8,"mode":"Function words mid-sentence in descriptive prose about people, practices, and history","scene_windows":0,"windows":5,"scene":"Expository history, healing, and biography passages"}
+{"neuron":313,"pole":"low","cluster":9,"mode":"Colon after 'here are some' or 'Certainly' list-introducing assistant lines","scene_windows":0,"windows":5,"scene":"Assistant producing numbered idea or resource lists"}
+{"neuron":7696,"pole":"high","cluster":0,"mode":"'tend' after 'people' or subjects making general tendency claims","scene_windows":0,"windows":5,"scene":"Explanations of general human or animal tendencies"}
+{"neuron":7696,"pole":"high","cluster":1,"mode":"'Hmm' opening an assistant reply to a question","scene_windows":0,"windows":5,"scene":"Assistant hesitating before answering everyday questions"}
+{"neuron":7696,"pole":"high","cluster":2,"mode":"Pronoun 'it' or 'It' introducing a conditional or general claim","scene_windows":0,"windows":5,"scene":"Advice on relationships, fitness and property"}
+{"neuron":7696,"pole":"high","cluster":3,"mode":"Negation 'n't' split from 'did' or 'do' in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with negated past or present verbs"}
+{"neuron":7696,"pole":"low","cluster":0,"mode":"Quote or blank tokens inside spliced code, letters or boilerplate","scene_windows":1,"windows":5,"scene":"Corrupted Google Assistant letter and code snippets"}
+{"neuron":7696,"pole":"low","cluster":1,"mode":"'user:' colon before a new user turn","scene_windows":0,"windows":5,"scene":"Chat transcripts where user follows assistant text"}
+{"neuron":7696,"pole":"low","cluster":2,"mode":"Period or blank after a dramatic fiction sentence","scene_windows":0,"windows":5,"scene":"Dark fantasy and sci-fi narration with dramatic tone"}
+{"neuron":7696,"pole":"low","cluster":3,"mode":"Repeated dash tokens in separator lines","scene_windows":0,"windows":5,"scene":"Fiction text broken by dash separator lines"}
+{"neuron":7696,"pole":"low","cluster":4,"mode":"Colon or whitespace introducing a list of tips or ideas","scene_windows":0,"windows":5,"scene":"Assistant introducing numbered tips or idea lists"}
+{"neuron":7696,"pole":"low","cluster":5,"mode":"Punctuation ending an assistant reply before a Human turn","scene_windows":0,"windows":5,"scene":"Chat transcripts with Human and Assistant turns"}
+{"neuron":7696,"pole":"low","cluster":6,"mode":"Period closing a user thanks or assistant reply turn","scene_windows":0,"windows":5,"scene":"Closing pleasantries and short conversation wrap-ups"}
+{"neuron":7696,"pole":"low","cluster":7,"mode":"Blank whitespace line after a fiction paragraph","scene_windows":0,"windows":5,"scene":"Story fragments with paragraph breaks"}
+{"neuron":7696,"pole":"low","cluster":8,"mode":"Blank whitespace line after dramatic narrative sentence","scene_windows":0,"windows":5,"scene":"Fiction with suspenseful or dark endings"}
+{"neuron":7696,"pole":"low","cluster":9,"mode":"Dash-run separator tokens before a fiction break","scene_windows":0,"windows":5,"scene":"Story sections separated by dash lines"}
+{"neuron":7696,"pole":"low","cluster":10,"mode":"Role label 'assistant' or 'Assistant' starting a reply","scene_windows":0,"windows":5,"scene":"Chat turns where a question precedes assistant label"}
+{"neuron":7696,"pole":"low","cluster":11,"mode":"Trailing space after a sentence before a numbered list","scene_windows":0,"windows":5,"scene":"Lists of tips or resources in assistant answers"}
+{"neuron":7696,"pole":"low","cluster":12,"mode":"Period ending a practical advice or general factual sentence","scene_windows":0,"windows":5,"scene":"Practical advice on cars, pests and measurements"}
+{"neuron":7696,"pole":"low","cluster":13,"mode":"Period ending an expository or narrative sentence","scene_windows":0,"windows":5,"scene":"Expository passages on therapy, sampling and plants"}
+{"neuron":7696,"pole":"low","cluster":14,"mode":"Function words like 'and', 'the', 'led' in mid-sentence","scene_windows":0,"windows":5,"scene":"Medical, historical and literary explanatory prose"}
+{"neuron":7696,"pole":"low","cluster":15,"mode":"'.org' or '.ca' domain endings in support resource URLs","scene_windows":5,"windows":5,"scene":"Crisis and abuse support hotline resource listings"}
+{"neuron":7696,"pole":"low","cluster":16,"mode":"Blank whitespace after first-person fiction sentences","scene_windows":0,"windows":5,"scene":"First-person fiction with tense emotional moments"}
+{"neuron":7696,"pole":"low","cluster":17,"mode":"Blank whitespace after narrative fiction sentence","scene_windows":0,"windows":5,"scene":"Narrative fiction scene breaks"}

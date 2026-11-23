@@ -1,0 +1,70 @@
+{"neuron":10925,"pole":"high","cluster":0,"mode":"assistant expresses pleasure at being helpful","scene_windows":0,"windows":5,"scene":"neutral positive interaction"}
+{"neuron":10925,"pole":"high","cluster":1,"mode":"assistant provides information based on a text","scene_windows":0,"windows":5,"scene":"neutral information retrieval"}
+{"neuron":10925,"pole":"high","cluster":2,"mode":"assistant confirms user's understanding or statement","scene_windows":0,"windows":5,"scene":"neutral confirmation"}
+{"neuron":10925,"pole":"high","cluster":3,"mode":"dates and numbers in a historical record context","scene_windows":0,"windows":5,"scene":"neutral historical data"}
+{"neuron":10925,"pole":"high","cluster":4,"mode":"segment markers and time ranges in a transcript","scene_windows":0,"windows":5,"scene":"neutral transcript structure"}
+{"neuron":10925,"pole":"high","cluster":5,"mode":"introduces a scientific or factual statement","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":10925,"pole":"high","cluster":6,"mode":"introduces a significant advantage or benefit","scene_windows":0,"windows":5,"scene":"neutral positive statement"}
+{"neuron":10925,"pole":"high","cluster":7,"mode":"assistant confirms user's understanding or statement","scene_windows":0,"windows":5,"scene":"neutral confirmation"}
+{"neuron":10925,"pole":"high","cluster":8,"mode":"assistant offers helpful closing remarks","scene_windows":0,"windows":5,"scene":"neutral helpful closing"}
+{"neuron":10925,"pole":"high","cluster":9,"mode":"assistant offers to help with a request","scene_windows":0,"windows":5,"scene":"neutral offer of help"}
+{"neuron":10925,"pole":"high","cluster":10,"mode":"introduces a clause or phrase","scene_windows":0,"windows":5,"scene":"neutral sentence structure"}
+{"neuron":10925,"pole":"high","cluster":11,"mode":"introduces an additional point or example","scene_windows":0,"windows":5,"scene":"neutral additional point"}
+{"neuron":10925,"pole":"low","cluster":0,"mode":"assistant defines a term or concept","scene_windows":0,"windows":5,"scene":"neutral definition"}
+{"neuron":10925,"pole":"low","cluster":1,"mode":"assistant explains a process or concept","scene_windows":0,"windows":5,"scene":"neutral explanation"}
+{"neuron":10925,"pole":"low","cluster":2,"mode":"assistant summarizes or gives an overview","scene_windows":0,"windows":5,"scene":"neutral summary"}
+{"neuron":10925,"pole":"low","cluster":3,"mode":"assistant describes a general characteristic or consideration","scene_windows":0,"windows":5,"scene":"neutral general characteristic"}
+{"neuron":10925,"pole":"low","cluster":4,"mode":"assistant introduces a topic or question","scene_windows":0,"windows":5,"scene":"neutral topic introduction"}
+{"neuron":10925,"pole":"low","cluster":5,"mode":"assistant offers help or suggestions","scene_windows":0,"windows":5,"scene":"neutral helpful offer"}
+{"neuron":10925,"pole":"low","cluster":6,"mode":"assistant states a fact or common occurrence","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":10925,"pole":"low","cluster":7,"mode":"assistant confirms user's statement or question","scene_windows":0,"windows":5,"scene":"neutral confirmation"}
+{"neuron":10925,"pole":"low","cluster":8,"mode":"introduces a description or definition","scene_windows":0,"windows":5,"scene":"neutral description/definition"}
+{"neuron":10925,"pole":"low","cluster":9,"mode":"assistant describes a general characteristic or consideration","scene_windows":0,"windows":5,"scene":"neutral general characteristic"}
+{"neuron":10925,"pole":"low","cluster":10,"mode":"introduces a factual statement or explanation","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":10925,"pole":"low","cluster":11,"mode":"introduces a conjunction or preposition","scene_windows":0,"windows":5,"scene":"neutral sentence structure"}
+{"neuron":5858,"pole":"high","cluster":0,"mode":"describes trying to do something to the best of one's ability","scene_windows":0,"windows":5,"scene":"neutral emotional description"}
+{"neuron":5858,"pole":"high","cluster":1,"mode":"assistant offers help or advice","scene_windows":0,"windows":5,"scene":"neutral helpful offer"}
+{"neuron":5858,"pole":"high","cluster":2,"mode":"assistant states a fact or common occurrence","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":5858,"pole":"high","cluster":3,"mode":"contrasting conjunction indicating an exception or difficulty","scene_windows":0,"windows":5,"scene":"neutral contrast"}
+{"neuron":5858,"pole":"high","cluster":4,"mode":"describes the AI's own characteristics or limitations","scene_windows":0,"windows":5,"scene":"neutral AI self-description"}
+{"neuron":5858,"pole":"high","cluster":5,"mode":"assistant offers support or resources","scene_windows":0,"windows":5,"scene":"neutral supportive offer"}
+{"neuron":5858,"pole":"low","cluster":0,"mode":"assistant expresses uncertainty or hesitation","scene_windows":0,"windows":5,"scene":"neutral hesitant response"}
+{"neuron":5858,"pole":"low","cluster":1,"mode":"assistant introduces a topic or question","scene_windows":0,"windows":5,"scene":"neutral topic introduction"}
+{"neuron":5858,"pole":"low","cluster":2,"mode":"assistant offers help or suggestions","scene_windows":0,"windows":5,"scene":"neutral helpful offer"}
+{"neuron":5858,"pole":"low","cluster":3,"mode":"assistant confirms user's statement or question","scene_windows":0,"windows":5,"scene":"neutral confirmation"}
+{"neuron":5858,"pole":"low","cluster":4,"mode":"Assistant's response to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"Neutral user query and assistant response"}
+{"neuron":5858,"pole":"low","cluster":5,"mode":"Assistant's response to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"Neutral user query and assistant response"}
+{"neuron":5858,"pole":"low","cluster":6,"mode":"Assistant's response to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"Neutral user query and assistant response"}
+{"neuron":5858,"pole":"low","cluster":7,"mode":"Assistant's response to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"Neutral user query and assistant response"}
+{"neuron":5858,"pole":"low","cluster":8,"mode":"Assistant's response to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"Neutral user query and assistant response"}
+{"neuron":5858,"pole":"low","cluster":9,"mode":"Assistant's response to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"Neutral user query and assistant response"}
+{"neuron":6506,"pole":"high","cluster":0,"mode":"introduces a factual statement or explanation","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":6506,"pole":"high","cluster":1,"mode":"introduces a point or question about a topic","scene_windows":0,"windows":5,"scene":"neutral topic introduction"}
+{"neuron":6506,"pole":"high","cluster":2,"mode":"assistant confirms user's statement or question","scene_windows":0,"windows":5,"scene":"neutral confirmation"}
+{"neuron":6506,"pole":"low","cluster":0,"mode":"AI assistant's disclaimer about not giving advice on sensitive issues.","scene_windows":0,"windows":5,"scene":"AI disclaimer about limitations"}
+{"neuron":6506,"pole":"low","cluster":1,"mode":"Instructions for storing food items in airtight containers in the refrigerator.","scene_windows":0,"windows":5,"scene":"Neutral food storage instructions"}
+{"neuron":6506,"pole":"low","cluster":2,"mode":"Describing food items or processes, often with 'is' or 'and'.","scene_windows":0,"windows":5,"scene":"Neutral food description"}
+{"neuron":6506,"pole":"low","cluster":3,"mode":"Advice on seeking professional help for sensitive issues.","scene_windows":0,"windows":5,"scene":"AI advice on seeking help"}
+{"neuron":6506,"pole":"low","cluster":4,"mode":"Advice on seeking professional help for sensitive issues.","scene_windows":0,"windows":5,"scene":"AI advice on seeking help"}
+{"neuron":6506,"pole":"low","cluster":5,"mode":"Describing food items or processes, often with 'is' or 'and'.","scene_windows":0,"windows":5,"scene":"Neutral food description"}
+{"neuron":6506,"pole":"low","cluster":6,"mode":"Describing food items or processes, often with 'is' or 'and'.","scene_windows":0,"windows":5,"scene":"Neutral food description"}
+{"neuron":6506,"pole":"low","cluster":7,"mode":"Advice on seeking professional help for sensitive issues.","scene_windows":0,"windows":5,"scene":"AI advice on seeking help"}
+{"neuron":6506,"pole":"low","cluster":8,"mode":"Advice on seeking professional help for sensitive issues.","scene_windows":0,"windows":5,"scene":"AI advice on seeking help"}
+{"neuron":6506,"pole":"low","cluster":9,"mode":"Describing food items or processes, often with 'is' or 'and'.","scene_windows":0,"windows":5,"scene":"Neutral food description"}
+{"neuron":6506,"pole":"low","cluster":10,"mode":"Describing food items or processes, often with 'is' or 'and'.","scene_windows":0,"windows":5,"scene":"Neutral food description"}
+{"neuron":6506,"pole":"low","cluster":11,"mode":"Describing food items or processes, often with 'is' or 'and'.","scene_windows":0,"windows":5,"scene":"Neutral food description"}
+{"neuron":5698,"pole":"high","cluster":0,"mode":"indicates purpose or consequence","scene_windows":0,"windows":5,"scene":"neutral purpose/consequence"}
+{"neuron":5698,"pole":"high","cluster":1,"mode":"indicates a likely outcome or effect","scene_windows":0,"windows":5,"scene":"neutral outcome/effect"}
+{"neuron":5698,"pole":"low","cluster":0,"mode":"indicates purpose or consequence","scene_windows":0,"windows":5,"scene":"neutral purpose/consequence"}
+{"neuron":5698,"pole":"low","cluster":1,"mode":"indicates a likely outcome or effect","scene_windows":0,"windows":5,"scene":"neutral outcome/effect"}
+{"neuron":9646,"pole":"high","cluster":0,"mode":"introduces a description of a company's service or product","scene_windows":0,"windows":5,"scene":"neutral business description"}
+{"neuron":9646,"pole":"high","cluster":1,"mode":"explains how something works or is done","scene_windows":0,"windows":5,"scene":"neutral explanation"}
+{"neuron":9646,"pole":"high","cluster":2,"mode":"informs user about the status or next steps","scene_windows":0,"windows":5,"scene":"neutral status update"}
+{"neuron":9646,"pole":"high","cluster":3,"mode":"introduces a description of a website's pricing or products","scene_windows":0,"windows":5,"scene":"neutral business description"}
+{"neuron":9646,"pole":"high","cluster":4,"mode":"suggests tourist activities or shopping opportunities","scene_windows":0,"windows":5,"scene":"neutral tourist suggestion"}
+{"neuron":9646,"pole":"high","cluster":5,"mode":"introduces a comparison or description","scene_windows":0,"windows":5,"scene":"neutral comparison/description"}
+{"neuron":9646,"pole":"high","cluster":6,"mode":"introduces examples of content types","scene_windows":0,"windows":5,"scene":"neutral content example"}
+{"neuron":9646,"pole":"low","cluster":0,"mode":"assistant states inability to provide advice on sensitive topics","scene_windows":0,"windows":5,"scene":"neutral refusal of sensitive advice"}
+{"neuron":9646,"pole":"low","cluster":1,"mode":"introduces a preposition indicating location or containment","scene_windows":0,"windows":5,"scene":"neutral sentence structure"}
+{"neuron":9646,"pole":"low","cluster":2,"mode":"introduces a conjunction or preposition","scene_windows":0,"windows":5,"scene":"neutral sentence structure"}
+{"neuron":9646,"pole":"low","cluster":3,"mode":"introduces a preposition or conjunction","scene_windows":0,"windows":5,"scene":"neutral sentence structure"}

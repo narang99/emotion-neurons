@@ -1,0 +1,80 @@
+{"neuron":10220,"pole":"high","cluster":0,"mode":"Hypothetical 'if you could' questions where 'would' precedes 'it'","scene_windows":0,"windows":5,"scene":"Casual interview or survey questions about hypothetical wishes"}
+{"neuron":10220,"pole":"high","cluster":1,"mode":"Sentence-initial 'These' introducing enumerated examples or services","scene_windows":0,"windows":5,"scene":"Expository text listing examples, services, or technologies"}
+{"neuron":10220,"pole":"high","cluster":2,"mode":"'such' introducing examples after a comma or noun","scene_windows":0,"windows":5,"scene":"Expository or policy text giving examples with 'such as'"}
+{"neuron":10220,"pole":"high","cluster":3,"mode":"Colon after 'user' label in multi-turn chat transcripts","scene_windows":0,"windows":5,"scene":"Casual chat turns asking follow-up questions about products or topics"}
+{"neuron":10220,"pole":"high","cluster":4,"mode":"'what' as a question word or clause opener in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue and conversations with curious questions"}
+{"neuron":10220,"pole":"high","cluster":5,"mode":"'which' introducing a clause that comments on the preceding statement","scene_windows":0,"windows":5,"scene":"How-to and advice text with explanatory relative clauses"}
+{"neuron":10220,"pole":"high","cluster":6,"mode":"Comma after a clause, before an elaborating continuation","scene_windows":0,"windows":5,"scene":"Expository text on religion, health, or policy topics"}
+{"neuron":10220,"pole":"high","cluster":7,"mode":"Verb 'is' or 'are' after a noun phrase subject in factual statements","scene_windows":0,"windows":5,"scene":"Factual, legal, or news-style statements about rules and data"}
+{"neuron":10220,"pole":"high","cluster":8,"mode":"Generic nouns ending business or process phrases","scene_windows":0,"windows":5,"scene":"Business, SEO, and medical procedure advice text"}
+{"neuron":10220,"pole":"high","cluster":9,"mode":"Sentence-final period closing a descriptive statement","scene_windows":0,"windows":5,"scene":"Neutral expository or narrative sentences"}
+{"neuron":10220,"pole":"low","cluster":0,"mode":"Colon after 'Assistant' label opening a list answer","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A asking for recommendations or ideas"}
+{"neuron":10220,"pole":"low","cluster":1,"mode":"Question mark or period ending a user's question before the assistant reply","scene_windows":0,"windows":5,"scene":"Simple factual user questions answered by assistant"}
+{"neuron":10220,"pole":"low","cluster":2,"mode":"Colon introducing a numbered list in assistant answers","scene_windows":0,"windows":5,"scene":"Assistant giving lists of tips, recipes, or options"}
+{"neuron":10220,"pole":"low","cluster":3,"mode":"Ordinal or method nouns like 'option', 'method', 'strategy' after 'best' or 'common'","scene_windows":0,"windows":5,"scene":"Practical household advice on pests, food storage, or tools"}
+{"neuron":10220,"pole":"low","cluster":4,"mode":"Question mark ending a rhetorical question in narrative","scene_windows":1,"windows":5,"scene":"Suspenseful or abusive fiction with rhetorical questions"}
+{"neuron":10220,"pole":"low","cluster":5,"mode":"Verb 'is' after a noun like 'challenge', 'approach', or 'idea'","scene_windows":0,"windows":5,"scene":"Advice and news text on pests, policy, and psychology"}
+{"neuron":10220,"pole":"low","cluster":6,"mode":"Copula 'is', 'was', 'are' after a subject in descriptive statements","scene_windows":0,"windows":5,"scene":"Scientific, product, and descriptive encyclopedic text"}
+{"neuron":10220,"pole":"low","cluster":7,"mode":"Period after 'something' or a description ending a suspenseful sentence","scene_windows":0,"windows":5,"scene":"Suspenseful first-person and fantasy narration"}
+{"neuron":8515,"pole":"high","cluster":0,"mode":"Auxiliary 'do' or 'did' in conditional or temporal clauses","scene_windows":0,"windows":5,"scene":"Advice and narrative with 'if you do' or 'when I did'"}
+{"neuron":8515,"pole":"high","cluster":1,"mode":"'but' or 'however' contrasting two clauses","scene_windows":0,"windows":5,"scene":"Expository and historical text with contrastive clauses"}
+{"neuron":8515,"pole":"high","cluster":2,"mode":"Narrative subject pronoun or 'then/before' starting a clause after action","scene_windows":0,"windows":5,"scene":"Fiction narration of sudden actions and reactions"}
+{"neuron":8515,"pole":"high","cluster":3,"mode":"Comparative or quantity words in health and nature descriptions","scene_windows":0,"windows":5,"scene":"Health tips and weather or hurricane explanations"}
+{"neuron":8515,"pole":"high","cluster":4,"mode":"Coordinating 'and' joining parallel instructions or clauses","scene_windows":0,"windows":5,"scene":"Lists of instructions and advice on security or lifestyle"}
+{"neuron":8515,"pole":"low","cluster":0,"mode":"Blank space or digit inside repeated course schedule table entries","scene_windows":0,"windows":5,"scene":"Course schedule tables with semester headers"}
+{"neuron":8515,"pole":"low","cluster":1,"mode":"Page-number digit in repeated book listing entries","scene_windows":0,"windows":5,"scene":"Bibliographic book listing with page numbers"}
+{"neuron":8515,"pole":"low","cluster":2,"mode":"Article 'the' or 'it' after a preposition in assistant answers","scene_windows":0,"windows":5,"scene":"Assistant answers to factual questions on energy and science"}
+{"neuron":8515,"pole":"low","cluster":3,"mode":"Assistant role label token opening a reply","scene_windows":0,"windows":5,"scene":"Short factual human-assistant Q&A openings"}
+{"neuron":10108,"pole":"high","cluster":0,"mode":"Verbs 'let' or 'allow' after modal or question about permitting harm","scene_windows":0,"windows":5,"scene":"Dramatic dialogue about letting harm or events happen"}
+{"neuron":10108,"pole":"high","cluster":1,"mode":"'how' or 'did' in questions expressing uncertainty or surprise","scene_windows":0,"windows":5,"scene":"Dialogue and mystery narration about how something happened"}
+{"neuron":10108,"pole":"high","cluster":2,"mode":"Comma or noun ending a clause about lights or despite contrasts","scene_windows":0,"windows":5,"scene":"Narrative and legal text on contrasts and conditions"}
+{"neuron":10108,"pole":"high","cluster":3,"mode":"'the' before risk or harm nouns after reduce or mitigate verbs","scene_windows":0,"windows":5,"scene":"Health and safety text on reducing risks"}
+{"neuron":10108,"pole":"low","cluster":0,"mode":"Verb 'prevent' after 'and' or 'helping' in care instructions","scene_windows":0,"windows":5,"scene":"Cooking, gardening, and care instructions"}
+{"neuron":10108,"pole":"low","cluster":1,"mode":"Preposition 'of', 'for', or 'will' after threat or uncertainty nouns","scene_windows":0,"windows":5,"scene":"Descriptive text on threats, careers, and social situations"}
+{"neuron":10108,"pole":"low","cluster":2,"mode":"Verbs 'reduce' or 'reducing' expressing business efficiency goals","scene_windows":0,"windows":5,"scene":"Business and manufacturing efficiency descriptions"}
+{"neuron":9386,"pole":"high","cluster":0,"mode":"'that' after 'Hmm' opening a reply to a question","scene_windows":0,"windows":5,"scene":"Assistant replies hesitating before answering user questions"}
+{"neuron":9386,"pole":"high","cluster":1,"mode":"Negation 'not' after copula, qualifying a general claim","scene_windows":0,"windows":5,"scene":"Explanatory text qualifying claims about society and products"}
+{"neuron":9386,"pole":"high","cluster":2,"mode":"'considered' or 'to' within a negated addressing-mode definition","scene_windows":0,"windows":5,"scene":"Technical definition of addressing modes in computing"}
+{"neuron":9386,"pole":"low","cluster":0,"mode":"Verb 'carry' or 'carried' before 'out' in activity phrases","scene_windows":0,"windows":5,"scene":"Business and organizational text on executing activities"}
+{"neuron":9386,"pole":"low","cluster":1,"mode":"Health-condition adjective 'cardiovascular' in lists of disease risks","scene_windows":0,"windows":5,"scene":"Health risk articles on obesity, vaping, and sleep"}
+{"neuron":9386,"pole":"low","cluster":2,"mode":"Material noun 'cardboard' in craft or activity lists","scene_windows":0,"windows":5,"scene":"Kids craft and play ideas listing materials"}
+{"neuron":9386,"pole":"low","cluster":3,"mode":"Noun 'card' referring to a physical or mysterious card object","scene_windows":0,"windows":5,"scene":"Fiction and gift-writing mentions of a card"}
+{"neuron":9386,"pole":"low","cluster":4,"mode":"Name fragment 'Cart' in names of mathematician Cartan","scene_windows":0,"windows":5,"scene":"Mathematical references to Élie Cartan"}
+{"neuron":3342,"pole":"high","cluster":0,"mode":"Evaluative adjective or adverb after 'sounds' or 'seems' in user replies","scene_windows":0,"windows":5,"scene":"Casual chat replies praising assistant suggestions"}
+{"neuron":3342,"pole":"high","cluster":1,"mode":"Sentence-initial 'Here' introducing a list of examples","scene_windows":0,"windows":5,"scene":"Assistant replies offering lists of options"}
+{"neuron":3342,"pole":"low","cluster":0,"mode":"Determiner 'kind' or 'kinds' in 'this kind of' phrases","scene_windows":0,"windows":5,"scene":"Expository text on research, behavior, and technology types"}
+{"neuron":3342,"pole":"low","cluster":1,"mode":"Verbs 'try' or 'trying' followed by an infinitive","scene_windows":0,"windows":5,"scene":"Narrative and advice text describing attempts"}
+{"neuron":3342,"pole":"low","cluster":2,"mode":"Determiner 'a little' modifying comparative or degree","scene_windows":0,"windows":5,"scene":"Cooking and narrative descriptions of slight degree"}
+{"neuron":3342,"pole":"low","cluster":3,"mode":"Phrase 'the rest of' before a noun phrase","scene_windows":0,"windows":5,"scene":"Narrative and descriptive text about remaining parts"}
+{"neuron":3342,"pole":"low","cluster":4,"mode":"Quantity word 'about' before a numeric measurement","scene_windows":0,"windows":5,"scene":"Environmental and technical reports with approximate figures"}
+{"neuron":3342,"pole":"low","cluster":5,"mode":"Noun 'lot' in 'a lot of' quantity phrases","scene_windows":0,"windows":5,"scene":"Descriptions of effort, damage, and attention"}
+{"neuron":3342,"pole":"low","cluster":6,"mode":"Preposition 'about' after topic nouns like debates or awareness","scene_windows":0,"windows":5,"scene":"Descriptive text on debates, awareness, and stereotypes"}
+{"neuron":3342,"pole":"low","cluster":7,"mode":"Infinitive marker 'to' after 'has' or 'have' expressing obligation","scene_windows":0,"windows":5,"scene":"News and technical text on required actions"}
+{"neuron":3342,"pole":"low","cluster":8,"mode":"Noun 'people' or 'like' after care or benefit phrases","scene_windows":0,"windows":5,"scene":"Healthcare access and military benefit descriptions"}
+{"neuron":3342,"pole":"low","cluster":9,"mode":"Verb 'sure' in 'make sure' advice phrases","scene_windows":0,"windows":5,"scene":"Advice on costs, security, and compliance checks"}
+{"neuron":1443,"pole":"high","cluster":0,"mode":"Definite article 'the' after 'in' before a time or place noun","scene_windows":0,"windows":5,"scene":"Historical and factual text about years and places"}
+{"neuron":1443,"pole":"high","cluster":1,"mode":"Negation 'not' qualifying a generalization after 'however'","scene_windows":0,"windows":5,"scene":"Explanatory text qualifying generalizations about people and content"}
+{"neuron":1443,"pole":"low","cluster":0,"mode":"Comma within a clause before an elaborating continuation","scene_windows":0,"windows":5,"scene":"Recommendations and reflective sentences with commas"}
+{"neuron":1443,"pole":"low","cluster":1,"mode":"Article 'a' after 'in' before a manner or quality noun","scene_windows":0,"windows":5,"scene":"Narrative and descriptive phrases 'in a way' manner"}
+{"neuron":1443,"pole":"low","cluster":2,"mode":"Article 'a' after 'in' before a place or state noun","scene_windows":1,"windows":5,"scene":"Fiction and threats of imprisonment or violence"}
+{"neuron":1443,"pole":"low","cluster":3,"mode":"Article 'a' after 'in' before a manner adjective","scene_windows":0,"windows":5,"scene":"Business and workplace descriptions of communication style"}
+{"neuron":1443,"pole":"low","cluster":4,"mode":"Article 'a' or 'an' after sentence-initial 'In'","scene_windows":0,"windows":5,"scene":"Varied expository and narrative sentences opening with 'In'"}
+{"neuron":3808,"pole":"high","cluster":0,"mode":"Comparison connective 'than' or 'a' after 'rather' or 'instead'","scene_windows":0,"windows":5,"scene":"Historical and advice text contrasting alternatives"}
+{"neuron":3808,"pole":"high","cluster":1,"mode":"Conditional 'if' and 'you' framing a programming scenario","scene_windows":0,"windows":5,"scene":"Technical explanation of sorting algorithm use cases"}
+{"neuron":3808,"pole":"low","cluster":0,"mode":"Adjective 'repetitive' or 'simple' describing tasks or things","scene_windows":0,"windows":5,"scene":"Automation and business benefit descriptions"}
+{"neuron":3808,"pole":"low","cluster":1,"mode":"Adjective 'inexpensive' or 'cheap' describing product cost","scene_windows":0,"windows":5,"scene":"Product comparisons on cost and materials"}
+{"neuron":3808,"pole":"low","cluster":2,"mode":"Determiner 'the' or 'and' inside partitive or class phrases","scene_windows":0,"windows":5,"scene":"Historical descriptions of soldiers, drinks, and social classes"}
+{"neuron":3808,"pole":"low","cluster":3,"mode":"Adjective or verb in critical description of Mozart's simplicity","scene_windows":0,"windows":5,"scene":"Historical music criticism and biography"}
+{"neuron":1117,"pole":"high","cluster":0,"mode":"Determiner or comma before a noun in mild recommendation sentences","scene_windows":0,"windows":5,"scene":"Health and food advice with light list phrasing"}
+{"neuron":1117,"pole":"high","cluster":1,"mode":"Dash or en dash inside numeric page ranges in citations","scene_windows":0,"windows":5,"scene":"Academic reference lists with page ranges"}
+{"neuron":1117,"pole":"low","cluster":0,"mode":"Comma separating items in a recipe ingredient or step list","scene_windows":0,"windows":5,"scene":"Numbered recipe instructions with ingredient lists"}
+{"neuron":1117,"pole":"low","cluster":1,"mode":"Final digit of page numbers in citation references","scene_windows":0,"windows":5,"scene":"Academic reference lists with journal page numbers"}
+{"neuron":1117,"pole":"low","cluster":2,"mode":"Dash before quantity in recipe ingredient lists","scene_windows":0,"windows":5,"scene":"Recipe ingredient bullet lists"}
+{"neuron":1117,"pole":"low","cluster":3,"mode":"Colon after 'Ingredients' heading in recipes","scene_windows":0,"windows":5,"scene":"Recipe headings introducing ingredient lists"}
+{"neuron":1117,"pole":"low","cluster":4,"mode":"Dash starting list items under recipe 'Ingredients:' headers","scene_windows":0,"windows":5,"scene":"Recipe ingredient lists in cooking instructions"}
+{"neuron":1117,"pole":"low","cluster":5,"mode":"Dash separating items within daily meal plan entries","scene_windows":0,"windows":5,"scene":"Daily meal plan listings with lunch, dinner, snacks"}
+{"neuron":1117,"pole":"low","cluster":6,"mode":"Punctuation and brackets inside programming code snippets","scene_windows":0,"windows":5,"scene":"Arduino and C++ code examples"}
+{"neuron":1117,"pole":"low","cluster":7,"mode":"Modal or polite request verbs after user turn prompts","scene_windows":0,"windows":5,"scene":"User making polite follow-up requests to assistant"}
+{"neuron":1117,"pole":"low","cluster":8,"mode":"Sentence-initial 'Can' opening follow-up questions after thanks","scene_windows":0,"windows":5,"scene":"User thanks assistant then asks a follow-up question"}
+{"neuron":1117,"pole":"low","cluster":9,"mode":"Function words mid-sentence in neutral expository text","scene_windows":0,"windows":5,"scene":"Neutral informational text on varied topics"}
+{"neuron":1117,"pole":"low","cluster":10,"mode":"First-person pronoun or contraction opening user's reaction","scene_windows":0,"windows":5,"scene":"User reacting to assistant's previous reply"}

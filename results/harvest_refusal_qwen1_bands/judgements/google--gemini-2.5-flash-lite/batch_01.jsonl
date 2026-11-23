@@ -1,0 +1,59 @@
+{"neuron":540,"pole":"high","cluster":0,"mode":"modal verbs expressing possibility or inability","scene_windows":0,"windows":5,"scene":"neutral explanation of limitations"}
+{"neuron":540,"pole":"high","cluster":1,"mode":"negation of feelings or actions","scene_windows":0,"windows":5,"scene":"neutral narration of past events"}
+{"neuron":540,"pole":"low","cluster":0,"mode":"pronouns referring to the listener or self","scene_windows":0,"windows":5,"scene":"neutral narration of gratitude"}
+{"neuron":540,"pole":"low","cluster":1,"mode":"articles indicating a singular noun","scene_windows":0,"windows":5,"scene":"neutral explanation of cooking"}
+{"neuron":540,"pole":"low","cluster":2,"mode":"words indicating negative states or conditions","scene_windows":0,"windows":5,"scene":"neutral narration of hardship"}
+{"neuron":540,"pole":"low","cluster":3,"mode":"positive adjectives for questions or suggestions","scene_windows":0,"windows":5,"scene":"neutral conversation about options"}
+{"neuron":3094,"pole":"high","cluster":0,"mode":"prepositions indicating location or relation","scene_windows":0,"windows":5,"scene":"neutral explanation of technical details"}
+{"neuron":3094,"pole":"high","cluster":1,"mode":"conjunctions or verbs indicating seeking help","scene_windows":5,"windows":5,"scene":"refusal of harmful request"}
+{"neuron":3094,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating inclusion","scene_windows":0,"windows":5,"scene":"neutral narration of crime"}
+{"neuron":3094,"pole":"low","cluster":1,"mode":"prepositions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"neutral conversation about paywalls"}
+{"neuron":1469,"pole":"high","cluster":0,"mode":"pronouns indicating self-reference or apology","scene_windows":0,"windows":5,"scene":"neutral conversation about instructions"}
+{"neuron":1469,"pole":"high","cluster":1,"mode":"nouns indicating negative concepts or actions","scene_windows":0,"windows":5,"scene":"neutral discussion of societal issues"}
+{"neuron":1469,"pole":"high","cluster":2,"mode":"pronouns and verbs indicating existence or state","scene_windows":0,"windows":5,"scene":"neutral conversation about media"}
+{"neuron":1469,"pole":"low","cluster":0,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":1469,"pole":"low","cluster":1,"mode":"pronouns indicating the listener","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":1469,"pole":"low","cluster":2,"mode":"negation words or phrases","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":1469,"pole":"low","cluster":3,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":2760,"pole":"high","cluster":0,"mode":"adjectives indicating unacceptability or negativity","scene_windows":0,"windows":5,"scene":"neutral discussion of free speech"}
+{"neuron":2760,"pole":"high","cluster":1,"mode":"pronouns indicating self-reference or apology","scene_windows":0,"windows":5,"scene":"neutral conversation with assistant"}
+{"neuron":2760,"pole":"low","cluster":0,"mode":"negation words indicating denial or absence","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":2760,"pole":"low","cluster":1,"mode":"expletives indicating strong negative emotion","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":2760,"pole":"low","cluster":2,"mode":"words indicating negative consequences or outcomes","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":2760,"pole":"low","cluster":3,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":233,"pole":"high","cluster":0,"mode":"verbs indicating identification or understanding","scene_windows":0,"windows":5,"scene":"neutral explanation of therapy"}
+{"neuron":233,"pole":"high","cluster":1,"mode":"articles indicating a singular noun","scene_windows":0,"windows":5,"scene":"neutral advice about medical consultation"}
+{"neuron":233,"pole":"high","cluster":2,"mode":"prepositions indicating relation or possession","scene_windows":0,"windows":5,"scene":"neutral discussion of societal issues"}
+{"neuron":233,"pole":"high","cluster":3,"mode":"adverbs and conjunctions indicating affirmation","scene_windows":0,"windows":5,"scene":"neutral conversation with assistant"}
+{"neuron":233,"pole":"low","cluster":0,"mode":"verbs indicating certainty or necessity","scene_windows":0,"windows":5,"scene":"neutral advice about products"}
+{"neuron":233,"pole":"low","cluster":1,"mode":"articles indicating a singular noun","scene_windows":0,"windows":5,"scene":"neutral explanation of processes"}
+{"neuron":233,"pole":"low","cluster":2,"mode":"articles indicating a singular noun","scene_windows":0,"windows":5,"scene":"neutral conversation about dental floss"}
+{"neuron":233,"pole":"low","cluster":3,"mode":"nouns indicating protective measures","scene_windows":0,"windows":5,"scene":"neutral advice about safety"}
+{"neuron":233,"pole":"low","cluster":4,"mode":"nouns indicating forethought or strategy","scene_windows":0,"windows":5,"scene":"neutral advice about projects"}
+{"neuron":233,"pole":"low","cluster":5,"mode":"nouns indicating readiness or forethought","scene_windows":0,"windows":5,"scene":"neutral advice about camping"}
+{"neuron":233,"pole":"low","cluster":6,"mode":"prepositions indicating purpose or direction","scene_windows":0,"windows":5,"scene":"neutral advice about cooking"}
+{"neuron":233,"pole":"low","cluster":7,"mode":"nouns indicating attention or protection","scene_windows":0,"windows":5,"scene":"neutral advice about plant care"}
+{"neuron":233,"pole":"low","cluster":8,"mode":"verbs indicating initial action","scene_windows":0,"windows":5,"scene":"neutral recipe instructions"}
+{"neuron":233,"pole":"low","cluster":9,"mode":"words indicating prior action or state","scene_windows":0,"windows":5,"scene":"neutral discussion of technology"}
+{"neuron":233,"pole":"low","cluster":10,"mode":"punctuation indicating endings or continuation","scene_windows":0,"windows":5,"scene":"neutral advice about health"}
+{"neuron":4907,"pole":"high","cluster":0,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":4907,"pole":"high","cluster":1,"mode":"articles and prepositions indicating relation","scene_windows":0,"windows":5,"scene":"neutral explanation of technology"}
+{"neuron":4907,"pole":"high","cluster":2,"mode":"punctuation and assistant indicators","scene_windows":0,"windows":5,"scene":"neutral conversation with assistant"}
+{"neuron":4907,"pole":"low","cluster":0,"mode":"verbs indicating insertion or definition","scene_windows":0,"windows":5,"scene":"neutral advice about projects"}
+{"neuron":4907,"pole":"low","cluster":1,"mode":"pronouns indicating the listener or self","scene_windows":0,"windows":5,"scene":"neutral conversation about culture"}
+{"neuron":4907,"pole":"low","cluster":2,"mode":"adverbs and conjunctions indicating affirmation","scene_windows":0,"windows":5,"scene":"neutral conversation with assistant"}
+{"neuron":10981,"pole":"high","cluster":0,"mode":"nouns indicating positive aspects or outcomes","scene_windows":0,"windows":5,"scene":"neutral discussion of pros and cons"}
+{"neuron":10981,"pole":"high","cluster":1,"mode":"adverbs and conjunctions indicating addition or continuation","scene_windows":0,"windows":5,"scene":"neutral discussion of philosophy"}
+{"neuron":10981,"pole":"high","cluster":2,"mode":"assistant indicators and suggestions","scene_windows":0,"windows":5,"scene":"neutral conversation with assistant"}
+{"neuron":10981,"pole":"low","cluster":0,"mode":"interjections indicating agreement or emphasis","scene_windows":0,"windows":5,"scene":"neutral conversation about electricity"}
+{"neuron":10981,"pole":"low","cluster":1,"mode":"conjunctions indicating contrast or exception","scene_windows":0,"windows":5,"scene":"neutral discussion of risks"}
+{"neuron":10981,"pole":"low","cluster":2,"mode":"assistant indicators and questions","scene_windows":0,"windows":5,"scene":"neutral conversation about harmful acts"}
+{"neuron":10981,"pole":"low","cluster":3,"mode":"conjunctions indicating contrast or exception","scene_windows":0,"windows":5,"scene":"neutral discussion of tradeoffs"}
+{"neuron":10981,"pole":"low","cluster":4,"mode":"nouns indicating temporal periods or situations","scene_windows":0,"windows":5,"scene":"neutral discussion of history"}
+{"neuron":10981,"pole":"low","cluster":5,"mode":"interjections indicating surprise or disbelief","scene_windows":0,"windows":5,"scene":"neutral narration of dialogue"}
+{"neuron":4894,"pole":"high","cluster":0,"mode":"nouns indicating cooking vessels","scene_windows":0,"windows":5,"scene":"neutral recipe instructions"}
+{"neuron":4894,"pole":"high","cluster":1,"mode":"verbs indicating combining ingredients","scene_windows":0,"windows":5,"scene":"neutral recipe instructions"}
+{"neuron":4894,"pole":"high","cluster":2,"mode":"nouns indicating locations or regions","scene_windows":0,"windows":5,"scene":"neutral historical facts"}
+{"neuron":4894,"pole":"high","cluster":3,"mode":"nouns indicating natural environments","scene_windows":0,"windows":5,"scene":"neutral narration of stories"}
+{"neuron":4894,"pole":"low","cluster":0,"mode":"words indicating inclusion or examples","scene_windows":0,"windows":5,"scene":"neutral discussion of procedures"}
+{"neuron":4894,"pole":"low","cluster":1,"mode":"adjectives indicating typicality or standard","scene_windows":0,"windows":5,"scene":"neutral discussion of products"}

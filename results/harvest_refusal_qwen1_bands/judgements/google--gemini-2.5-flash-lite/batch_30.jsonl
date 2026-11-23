@@ -1,0 +1,78 @@
+{"neuron":6046,"pole":"high","cluster":0,"mode":"affirmative responses to questions or statements, often in dialogue","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6046,"pole":"high","cluster":1,"mode":"hesitant or qualifying agreement, often starting a sentence","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6046,"pole":"high","cluster":2,"mode":"conditional statements, introducing a hypothetical situation","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6046,"pole":"high","cluster":3,"mode":"emphatic or angry declarations, often in dialogue","scene_windows":0,"windows":5,"scene":"confrontational dialogue"}
+{"neuron":6046,"pole":"high","cluster":4,"mode":"declarative statements, often ending sentences or clauses","scene_windows":0,"windows":5,"scene":"declarative narration"}
+{"neuron":6046,"pole":"high","cluster":5,"mode":"quoted speech, often starting dialogue","scene_windows":0,"windows":5,"scene":"quoted dialogue"}
+{"neuron":6046,"pole":"low","cluster":0,"mode":"informal expressions of knowledge or understanding","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6046,"pole":"low","cluster":1,"mode":"expressions of acceptance or agreement, often in dialogue","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6046,"pole":"low","cluster":2,"mode":"hesitant or incomplete speech, often in dialogue","scene_windows":0,"windows":5,"scene":"dialogue with hesitation"}
+{"neuron":6046,"pole":"low","cluster":3,"mode":"questions, often seeking clarification or information","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6046,"pole":"low","cluster":4,"mode":"conjunctions and prepositions, connecting clauses or phrases","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6046,"pole":"low","cluster":5,"mode":"quoted speech, often starting dialogue","scene_windows":0,"windows":5,"scene":"quoted dialogue"}
+{"neuron":4171,"pole":"high","cluster":0,"mode":"instructional steps, often numbered","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4171,"pole":"high","cluster":1,"mode":"instructional steps, often numbered","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4171,"pole":"high","cluster":2,"mode":"instructional steps, often numbered","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4171,"pole":"high","cluster":3,"mode":"instructional steps, often numbered","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4171,"pole":"high","cluster":4,"mode":"numerical data, often in a sequence","scene_windows":0,"windows":5,"scene":"numerical data"}
+{"neuron":4171,"pole":"high","cluster":5,"mode":"adverbs indicating frequency or manner","scene_windows":0,"windows":5,"scene":"advice and recommendations"}
+{"neuron":4171,"pole":"high","cluster":6,"mode":"interrogative adverbs, asking about manner or time","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":4171,"pole":"high","cluster":7,"mode":"conjunctions and punctuation, connecting clauses or ending sentences","scene_windows":0,"windows":5,"scene":"factual narration"}
+{"neuron":4171,"pole":"high","cluster":8,"mode":"definite articles, introducing nouns","scene_windows":0,"windows":5,"scene":"statistical data"}
+{"neuron":4171,"pole":"high","cluster":9,"mode":"numerical data, often percentages","scene_windows":0,"windows":5,"scene":"statistical data"}
+{"neuron":4171,"pole":"high","cluster":10,"mode":"auxiliary verbs and conjunctions, forming clauses","scene_windows":0,"windows":5,"scene":"advice and explanations"}
+{"neuron":4171,"pole":"high","cluster":11,"mode":"plural nouns, referring to abstract concepts or groups","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":4171,"pole":"high","cluster":12,"mode":"imperative verbs, giving instructions","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4171,"pole":"low","cluster":0,"mode":"conjunctions and punctuation, connecting clauses or ending sentences","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4171,"pole":"low","cluster":1,"mode":"negative particles, indicating negation","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":301,"pole":"high","cluster":0,"mode":"pronouns and conjunctions, referring to entities or actions","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":301,"pole":"high","cluster":1,"mode":"user prompts, indicating a question or request","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":301,"pole":"low","cluster":0,"mode":"verbs indicating writing or communication","scene_windows":0,"windows":5,"scene":"formal letter drafting"}
+{"neuron":301,"pole":"low","cluster":1,"mode":"adjectives indicating importance or relevance","scene_windows":0,"windows":5,"scene":"explanation of concepts"}
+{"neuron":301,"pole":"low","cluster":2,"mode":"interrogative adverbs, asking 'why'","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":301,"pole":"low","cluster":3,"mode":"punctuation and conjunctions, connecting clauses","scene_windows":0,"windows":5,"scene":"legal or procedural text"}
+{"neuron":301,"pole":"low","cluster":4,"mode":"forms of the verb 'to be', indicating state or existence","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":301,"pole":"low","cluster":5,"mode":"forms of the verb 'to be', indicating state or existence","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":301,"pole":"low","cluster":6,"mode":"asking for help or offering assistance in a polite and helpful manner","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":301,"pole":"low","cluster":7,"mode":"asking for help or offering assistance in a polite and helpful manner","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":1719,"pole":"high","cluster":0,"mode":"adverbs and conjunctions, indicating contrast or circumstance","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":1719,"pole":"high","cluster":1,"mode":"expressing surprise, confusion, or being taken aback by something unexpected","scene_windows":0,"windows":5,"scene":"narrative surprise or shock"}
+{"neuron":1719,"pole":"low","cluster":0,"mode":"nouns indicating abstract concepts like justice or revenge","scene_windows":0,"windows":5,"scene":"dialogue about justice"}
+{"neuron":1719,"pole":"low","cluster":1,"mode":"verbs indicating cessation or prevention","scene_windows":0,"windows":5,"scene":"advice and instructions"}
+{"neuron":1719,"pole":"low","cluster":2,"mode":"interrogative adverbs, asking 'how'","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":1719,"pole":"low","cluster":3,"mode":"prepositions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"advice and instructions"}
+{"neuron":1719,"pole":"low","cluster":4,"mode":"prepositions indicating direction or exit","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":7339,"pole":"high","cluster":0,"mode":"prepositions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"factual information"}
+{"neuron":7339,"pole":"high","cluster":1,"mode":"prepositions indicating similarity or example","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":7339,"pole":"low","cluster":0,"mode":"articles and prepositions, introducing phrases","scene_windows":0,"windows":5,"scene":"explanation of algorithms"}
+{"neuron":7339,"pole":"low","cluster":1,"mode":"pronouns indicating the addressee","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":7339,"pole":"low","cluster":2,"mode":"quantifiers indicating amount","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":7339,"pole":"low","cluster":3,"mode":"prepositions indicating location or scope","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":7339,"pole":"low","cluster":4,"mode":"prepositions indicating location or scope","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":7339,"pole":"low","cluster":5,"mode":"punctuation and conjunctions, connecting clauses","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":6209,"pole":"high","cluster":0,"mode":"verbs indicating perception or discovery","scene_windows":0,"windows":5,"scene":"narrative description"}
+{"neuron":6209,"pole":"high","cluster":1,"mode":"quantifiers indicating plurality or variety","scene_windows":0,"windows":5,"scene":"factual information"}
+{"neuron":6209,"pole":"high","cluster":2,"mode":"pronouns indicating a specific item or person","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":6209,"pole":"low","cluster":0,"mode":"contractions of 'that is' or 'that has'","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6209,"pole":"low","cluster":1,"mode":"adjectives indicating interest or curiosity","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6209,"pole":"low","cluster":2,"mode":"pronouns indicating the addressee","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6209,"pole":"low","cluster":3,"mode":"pronouns indicating the addressee","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":6209,"pole":"low","cluster":4,"mode":"asking for clarification or more information about a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":6209,"pole":"low","cluster":5,"mode":"asking for clarification or more information about a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":6209,"pole":"low","cluster":6,"mode":"asking for clarification or more information about a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":6209,"pole":"low","cluster":7,"mode":"asking for clarification or more information about a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":6209,"pole":"low","cluster":8,"mode":"asking for clarification or more information about a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":3703,"pole":"high","cluster":0,"mode":"expressions of helpfulness and politeness","scene_windows":0,"windows":5,"scene":"helpful assistant response"}
+{"neuron":3703,"pole":"high","cluster":1,"mode":"expressions of helpfulness and politeness","scene_windows":0,"windows":5,"scene":"helpful assistant response"}
+{"neuron":3703,"pole":"high","cluster":2,"mode":"expressions of willingness and affirmation","scene_windows":0,"windows":5,"scene":"helpful assistant response"}
+{"neuron":3703,"pole":"high","cluster":3,"mode":"articles and conjunctions, introducing modified text","scene_windows":0,"windows":5,"scene":"text modification"}
+{"neuron":3703,"pole":"high","cluster":4,"mode":"phrases indicating seeking more information","scene_windows":0,"windows":5,"scene":"information seeking"}
+{"neuron":3703,"pole":"high","cluster":5,"mode":"pronouns indicating the addressee","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":3703,"pole":"high","cluster":6,"mode":"articles and prepositions, introducing phrases","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":3703,"pole":"high","cluster":7,"mode":"conjunctions indicating contrast or exception","scene_windows":0,"windows":5,"scene":"factual information"}
+{"neuron":3703,"pole":"high","cluster":8,"mode":"pronouns indicating the addressee","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":3703,"pole":"high","cluster":9,"mode":"conjunctions indicating condition","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":3703,"pole":"low","cluster":0,"mode":"assistant prompts, indicating a response","scene_windows":0,"windows":5,"scene":"assistant response"}
+{"neuron":3703,"pole":"low","cluster":1,"mode":"prepositions indicating similarity or example","scene_windows":0,"windows":5,"scene":"factual information"}
+{"neuron":3703,"pole":"low","cluster":2,"mode":"prepositions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"advice and instructions"}
+{"neuron":3703,"pole":"low","cluster":3,"mode":"prepositions indicating scope or subject","scene_windows":0,"windows":5,"scene":"explanation of concepts"}

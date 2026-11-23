@@ -1,0 +1,78 @@
+{"neuron":801,"pole":"high","cluster":0,"mode":"sentence-initial 'Still' after a narrative pause or contrast","scene_windows":0,"windows":5,"scene":"narrative fiction and expository prose"}
+{"neuron":801,"pole":"high","cluster":1,"mode":"sentence-initial 'I' starting a user's follow-up request","scene_windows":0,"windows":5,"scene":"chatbot dialogues with user follow-up requests"}
+{"neuron":801,"pole":"high","cluster":2,"mode":"sentence-initial 'However' introducing a contrasting point","scene_windows":0,"windows":5,"scene":"argumentative essays and opinion explanations"}
+{"neuron":801,"pole":"high","cluster":3,"mode":"'I' after assistant's 'I see what you mean' clarification","scene_windows":0,"windows":5,"scene":"assistant clarifying a misunderstood quiz request"}
+{"neuron":801,"pole":"high","cluster":4,"mode":"exclamation mark after user thanks or praise","scene_windows":0,"windows":5,"scene":"user thanking assistant then asking more"}
+{"neuron":801,"pole":"high","cluster":5,"mode":"sentence-initial 'But' after a resolution or climax","scene_windows":0,"windows":5,"scene":"crime and detective narrative turns"}
+{"neuron":801,"pole":"high","cluster":6,"mode":"punctuation after assistant apology for an error","scene_windows":0,"windows":5,"scene":"assistant apologizing for mistakes in corrections"}
+{"neuron":801,"pole":"high","cluster":7,"mode":"mid-sentence 'but' linking contrasting clauses","scene_windows":0,"windows":5,"scene":"advice and reflective prose"}
+{"neuron":801,"pole":"high","cluster":8,"mode":"'But' introducing a twist after a calm setup","scene_windows":0,"windows":5,"scene":"adventure narrative with foreshadowing"}
+{"neuron":801,"pole":"high","cluster":9,"mode":"'but' in emotional or reflective narrative clauses","scene_windows":0,"windows":5,"scene":"literary first-person narration"}
+{"neuron":801,"pole":"high","cluster":10,"mode":"sentence-initial 'But' contrasting prior statement","scene_windows":0,"windows":5,"scene":"monologues and dramatic narrative"}
+{"neuron":801,"pole":"high","cluster":11,"mode":"'just' in self-justifying or minimizing statements","scene_windows":1,"windows":5,"scene":"one user plans revenge sabotage; others ambiguous"}
+{"neuron":801,"pole":"high","cluster":12,"mode":"period closing an explanatory or reflective sentence","scene_windows":0,"windows":5,"scene":"essay and story prose"}
+{"neuron":801,"pole":"high","cluster":13,"mode":"digit tokens inside URLs and links","scene_windows":0,"windows":5,"scene":"reddit and youtube link text"}
+{"neuron":801,"pole":"high","cluster":14,"mode":"sentence-initial 'I' in first-person narration","scene_windows":0,"windows":5,"scene":"first-person memoir and fiction"}
+{"neuron":801,"pole":"low","cluster":0,"mode":"'know' in tag-like 'you know?' dialogue fillers","scene_windows":0,"windows":5,"scene":"casual spoken dialogue and screenplay lines"}
+{"neuron":801,"pole":"low","cluster":1,"mode":"fragments inside URLs and PDF identifiers","scene_windows":0,"windows":5,"scene":"web links and document identifiers"}
+{"neuron":801,"pole":"low","cluster":2,"mode":"digits within census percentage and statistic figures","scene_windows":0,"windows":5,"scene":"census demographic statistics text"}
+{"neuron":801,"pole":"low","cluster":3,"mode":"sentence-initial 'Also' adding extra tips","scene_windows":0,"windows":5,"scene":"how-to instructions and practical advice"}
+{"neuron":801,"pole":"low","cluster":4,"mode":"sentence-initial 'The' starting statistical description","scene_windows":0,"windows":5,"scene":"census and demographic descriptions"}
+{"neuron":801,"pole":"low","cluster":5,"mode":"'and' joining clauses in list-like descriptions","scene_windows":0,"windows":5,"scene":"recommendations and descriptive exposition"}
+{"neuron":801,"pole":"low","cluster":6,"mode":"sentence-initial 'And' continuing a thought","scene_windows":0,"windows":5,"scene":"casual opinion and romantic narration"}
+{"neuron":801,"pole":"low","cluster":7,"mode":"period ending factual sentences in expository prose","scene_windows":0,"windows":5,"scene":"history and science expository text"}
+{"neuron":801,"pole":"low","cluster":8,"mode":"function words within ordinary descriptive sentences","scene_windows":0,"windows":5,"scene":"advice, narration and mixed prose"}
+{"neuron":801,"pole":"low","cluster":9,"mode":"'and' linking clauses in analytic or descriptive writing","scene_windows":0,"windows":5,"scene":"literary analysis and expository text"}
+{"neuron":953,"pole":"high","cluster":0,"mode":"list-number punctuation in numbered listicles","scene_windows":0,"windows":5,"scene":"numbered lists of attractions and books"}
+{"neuron":953,"pole":"high","cluster":1,"mode":"function words mid-phrase in informational text","scene_windows":0,"windows":5,"scene":"informational and business descriptive prose"}
+{"neuron":953,"pole":"high","cluster":2,"mode":"compass direction adjectives like northern or southern","scene_windows":0,"windows":5,"scene":"geographic and regional descriptions"}
+{"neuron":953,"pole":"low","cluster":0,"mode":"'and' or place-name tokens after southern/state references","scene_windows":0,"windows":5,"scene":"geographic and history descriptions"}
+{"neuron":953,"pole":"low","cluster":1,"mode":"possessive 's after country names","scene_windows":0,"windows":5,"scene":"art history and national facts"}
+{"neuron":1351,"pole":"high","cluster":0,"mode":"prepositions after nouns like 'lead to', 'risk of'","scene_windows":0,"windows":5,"scene":"health advice and drug-use narrative"}
+{"neuron":1351,"pole":"high","cluster":1,"mode":"split contraction fragments like 'don' and 'hasn'","scene_windows":0,"windows":5,"scene":"dialogue, script and user requests"}
+{"neuron":1351,"pole":"low","cluster":0,"mode":"words 'to find a way' in migrant camp description","scene_windows":0,"windows":5,"scene":"news and art description of migrant camp"}
+{"neuron":1351,"pole":"low","cluster":1,"mode":"'those who' in deportation policy phrasing","scene_windows":0,"windows":5,"scene":"news on EU-Turkey migrant policy"}
+{"neuron":1351,"pole":"low","cluster":2,"mode":"'easier for me to' and 'help you' in immigration questions","scene_windows":0,"windows":5,"scene":"immigration advice dialogue about moving abroad"}
+{"neuron":1351,"pole":"low","cluster":3,"mode":"function words in visa and location advice","scene_windows":0,"windows":5,"scene":"visa advice and travel destination text"}
+{"neuron":1351,"pole":"low","cluster":4,"mode":"the word 'travel' as a modifier or topic","scene_windows":0,"windows":5,"scene":"travel agency and party conversation prompts"}
+{"neuron":2003,"pole":"high","cluster":0,"mode":"'many' or 'some' after sentence-initial 'In'","scene_windows":0,"windows":5,"scene":"generalizing cultural and practical statements"}
+{"neuron":2003,"pole":"high","cluster":1,"mode":"'down' in locative or temporal phrases","scene_windows":0,"windows":5,"scene":"dialogue and narrative about places and future"}
+{"neuron":2003,"pole":"high","cluster":2,"mode":"sentence-initial 'In' starting time transitions","scene_windows":0,"windows":5,"scene":"dramatic narrative about future and endings"}
+{"neuron":2003,"pole":"high","cluster":3,"mode":"sentence-initial 'And with' introducing a conclusion","scene_windows":0,"windows":5,"scene":"fantasy and narrative climaxes"}
+{"neuron":2003,"pole":"high","cluster":4,"mode":"'in' after verbs like 'do this in' or 'survive in'","scene_windows":0,"windows":5,"scene":"dialogue and narrative about social settings"}
+{"neuron":2003,"pole":"high","cluster":5,"mode":"'downward' as an adjective or adverb","scene_windows":0,"windows":5,"scene":"inflation reports and technical instructions"}
+{"neuron":2003,"pole":"high","cluster":6,"mode":"complementizers 'whether', 'that', 'different' after verbs","scene_windows":0,"windows":5,"scene":"reflective and fantasy prose"}
+{"neuron":2003,"pole":"high","cluster":7,"mode":"sentence-initial 'And' after a strong assertion","scene_windows":0,"windows":5,"scene":"dialogue and sci-fi narrative"}
+{"neuron":2003,"pole":"low","cluster":0,"mode":"sentence-initial 'In' starting recipe steps","scene_windows":0,"windows":5,"scene":"numbered recipe instructions"}
+{"neuron":2003,"pole":"low","cluster":1,"mode":"'the' in locative phrases after prepositions","scene_windows":0,"windows":5,"scene":"descriptive fiction settings"}
+{"neuron":2003,"pole":"low","cluster":2,"mode":"'in the' before body parts after shooting or hitting","scene_windows":0,"windows":5,"scene":"fictional gunfights and fights"}
+{"neuron":2042,"pole":"high","cluster":0,"mode":"mid-word fragments inside proper names","scene_windows":0,"windows":5,"scene":"encyclopedic and religious text"}
+{"neuron":2042,"pole":"high","cluster":1,"mode":"mid-word fragments inside surnames and citations","scene_windows":0,"windows":5,"scene":"bibliographies and reference lists"}
+{"neuron":2042,"pole":"high","cluster":2,"mode":"nested bracket and number tokens in code","scene_windows":0,"windows":5,"scene":"python array code samples"}
+{"neuron":2042,"pole":"high","cluster":3,"mode":"sentence-final period or closing parenthesis in prose","scene_windows":0,"windows":5,"scene":"literary and encyclopedic prose"}
+{"neuron":2042,"pole":"high","cluster":4,"mode":"period ending generic informational sentences","scene_windows":0,"windows":5,"scene":"gardening, cooking and food advice"}
+{"neuron":2042,"pole":"low","cluster":0,"mode":"opening quotation marks starting dialogue","scene_windows":0,"windows":5,"scene":"fiction dialogue with computer and bong"}
+{"neuron":2042,"pole":"low","cluster":1,"mode":"split 'n't' contraction tokens","scene_windows":0,"windows":5,"scene":"quoted dialogue in fiction"}
+{"neuron":2042,"pole":"low","cluster":2,"mode":"punctuation inside quoted political commentary","scene_windows":0,"windows":5,"scene":"news quotes about FISA investigation"}
+{"neuron":2042,"pole":"low","cluster":3,"mode":"'Human:' colon in chat dialogue turns","scene_windows":0,"windows":5,"scene":"medical and health chat dialogues"}
+{"neuron":2042,"pole":"low","cluster":4,"mode":"commas and quotes inside explanatory quoted text","scene_windows":0,"windows":5,"scene":"science and health news quotations"}
+{"neuron":2042,"pole":"low","cluster":5,"mode":"family address words like 'mommy' or 'Dad' in dialogue","scene_windows":0,"windows":5,"scene":"fiction about moon colonies and family"}
+{"neuron":2129,"pole":"high","cluster":0,"mode":"'of', 'companies', 'that' in opinion or argument statements","scene_windows":0,"windows":5,"scene":"essays on policy and online content rules"}
+{"neuron":2129,"pole":"high","cluster":1,"mode":"quotation mark before 'lovely' in news narrative","scene_windows":0,"windows":5,"scene":"news account of dog attack on a home"}
+{"neuron":2129,"pole":"low","cluster":0,"mode":"pronoun or verb after character or tendency words","scene_windows":0,"windows":5,"scene":"philosophy and literary analysis"}
+{"neuron":2129,"pole":"low","cluster":1,"mode":"'on' or 'the' after 'depending' in cooking times","scene_windows":0,"windows":5,"scene":"cooking time instructions"}
+{"neuron":2161,"pole":"high","cluster":0,"mode":"\"going\" after \"are/is\" in future-intent constructions (\"is going to\")","scene_windows":0,"windows":5,"scene":"Science and policy articles describing future plans or outcomes"}
+{"neuron":2161,"pole":"high","cluster":1,"mode":"\"live\" as a verb after modals, negation, or \"and\" (live up to, live a lifestyle)","scene_windows":0,"windows":5,"scene":"Lifestyle, education, and cultural commentary about living or behaving"}
+{"neuron":2161,"pole":"high","cluster":2,"mode":"\"available\"/\"obtained\" after \"information ... is/can be\" in referral sentences","scene_windows":0,"windows":5,"scene":"Official notices pointing readers to further information sources"}
+{"neuron":2161,"pole":"high","cluster":3,"mode":"\"tell\" in \"Can you tell me...\" opening user requests","scene_windows":0,"windows":5,"scene":"Simple user questions to an assistant on varied topics"}
+{"neuron":2161,"pole":"high","cluster":4,"mode":"\"the\" in idiom \"on the top/rise/scale/list\" predicting a noun phrase","scene_windows":0,"windows":5,"scene":"Articles and recipes describing trends or rankings"}
+{"neuron":2161,"pole":"high","cluster":5,"mode":"\"on\" in idioms like \"on track\", \"on the same page\", \"on your way\"","scene_windows":0,"windows":5,"scene":"Advice and business or education writing on progress"}
+{"neuron":2161,"pole":"high","cluster":6,"mode":"\"College\" in university unit names after \"OSU's\"","scene_windows":0,"windows":5,"scene":"Oregon State University press releases naming faculty and departments"}
+{"neuron":2161,"pole":"high","cluster":7,"mode":"mid-word fragments inside proper nouns (Magellan, Okeechobee, Mossack Fonseca)","scene_windows":0,"windows":5,"scene":"News and history text with place names, people, and firms"}
+{"neuron":2161,"pole":"high","cluster":8,"mode":"demonstrative or article determiners (these, the, this, their) before a noun","scene_windows":0,"windows":5,"scene":"Narrative and advice prose describing nature, problems, or respect"}
+{"neuron":2161,"pole":"high","cluster":9,"mode":"name fragments and nouns inside place or venue names (music hall, San Antonio, New Haven)","scene_windows":0,"windows":5,"scene":"Event announcements, teacher programs, and scenic narrative"}
+{"neuron":2161,"pole":"high","cluster":10,"mode":"comma after a city, institution, or name in an appositive location","scene_windows":0,"windows":5,"scene":"News items and bios naming people with their institutions"}
+{"neuron":2161,"pole":"low","cluster":0,"mode":"\"both\" in \"both X and Y\" comparative constructions","scene_windows":0,"windows":5,"scene":"Expository text comparing two groups, systems, or options"}
+{"neuron":2161,"pole":"low","cluster":1,"mode":"\"of\" after quantifiers (many of, some of, one of, all of)","scene_windows":0,"windows":5,"scene":"Assistant and expository text on shared traits or partial groups"}
+{"neuron":2161,"pole":"low","cluster":2,"mode":"prepositions and determiners (with, the) after verbs of alignment or requirement","scene_windows":0,"windows":5,"scene":"Expository and advice text on politics, law, and engagement"}
+{"neuron":2161,"pole":"low","cluster":3,"mode":"\"vary\"/\"varies\" as a verb after a plural or generic subject","scene_windows":0,"windows":5,"scene":"Explanatory answers noting variability across people or cases"}

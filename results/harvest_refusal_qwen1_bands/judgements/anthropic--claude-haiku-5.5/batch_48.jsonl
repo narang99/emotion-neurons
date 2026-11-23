@@ -1,0 +1,73 @@
+{"neuron":1535,"pole":"high","cluster":0,"mode":"The word 'find' in purpose or goal phrases seeking something lost or needed","scene_windows":0,"windows":5,"scene":"Narrative of characters seeking homes, solutions or way home"}
+{"neuron":1535,"pole":"high","cluster":1,"mode":"'search'/'searching' marking the act of looking for something","scene_windows":0,"windows":5,"scene":"Sci-fi and survival narratives about searching for answers or resources"}
+{"neuron":1535,"pole":"low","cluster":0,"mode":"'sat' as the verb after a character's subject pronoun or name","scene_windows":0,"windows":5,"scene":"Fantasy and drama narration of characters sitting down"}
+{"neuron":1535,"pole":"low","cluster":1,"mode":"'presence' as a noun following 'the' in scientific or descriptive statements","scene_windows":0,"windows":5,"scene":"Explanations of pests, chemicals and environmental signs"}
+{"neuron":1535,"pole":"low","cluster":2,"mode":"Articles 'a'/'an' introducing descriptive noun phrases in narrative prose","scene_windows":0,"windows":5,"scene":"Fiction describing light, glow and scenes"}
+{"neuron":1535,"pole":"low","cluster":3,"mode":"'in' after body parts or gestures, describing manner or expression","scene_windows":0,"windows":5,"scene":"Fiction depicting characters' gestures and facial expressions"}
+{"neuron":5807,"pole":"high","cluster":0,"mode":"'According' starting a sentence attributing information to a source","scene_windows":0,"windows":5,"scene":"News and informational text citing sources"}
+{"neuron":5807,"pole":"high","cluster":1,"mode":"'as' introducing a name or alternate descriptor","scene_windows":0,"windows":5,"scene":"Narrative introductions of named characters"}
+{"neuron":5807,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' label opening an answer to a question","scene_windows":0,"windows":5,"scene":"Human-assistant factual Q&A transcripts"}
+{"neuron":5807,"pole":"high","cluster":3,"mode":"'Some' starting a sentence about varied expert or study views","scene_windows":0,"windows":5,"scene":"Assistant answers on health and debated claims"}
+{"neuron":5807,"pole":"high","cluster":4,"mode":"'what' introducing a clause describing what a group claimed or saw","scene_windows":0,"windows":5,"scene":"News about protests, militias and claims"}
+{"neuron":5807,"pole":"high","cluster":5,"mode":"Comma or quote closing a quoted clause before attribution","scene_windows":0,"windows":5,"scene":"News reports of incidents with attributed quotes"}
+{"neuron":5807,"pole":"high","cluster":6,"mode":"Sentence-ending period closing descriptive narrative sentences","scene_windows":0,"windows":5,"scene":"Stories and articles about space missions and films"}
+{"neuron":5807,"pole":"high","cluster":7,"mode":"Prepositions after nouns or verbs (on, into, with, to)","scene_windows":0,"windows":5,"scene":"Informational and advisory text on topics"}
+{"neuron":5807,"pole":"high","cluster":8,"mode":"'The' starting a new sentence referring back to a prior subject","scene_windows":0,"windows":5,"scene":"Encyclopedic and news text about controversies and recommendations"}
+{"neuron":5807,"pole":"low","cluster":0,"mode":"Verb 'is' or 'to'/'by' in forecast predictions about economic outcomes","scene_windows":0,"windows":5,"scene":"Economic forecast and inflation report news"}
+{"neuron":5807,"pole":"low","cluster":1,"mode":"'critics' as the subject of scholarly consensus statements","scene_windows":0,"windows":5,"scene":"Biblical scholarship on Deuteronomy authorship"}
+{"neuron":5807,"pole":"low","cluster":2,"mode":"'to' or 'a' after 'compared' in earnings comparisons","scene_windows":0,"windows":5,"scene":"Corporate earnings reports comparing periods"}
+{"neuron":5807,"pole":"low","cluster":3,"mode":"Period ending citation-like source-analysis sentences","scene_windows":0,"windows":5,"scene":"Scholarly commentary dividing biblical chapters"}
+{"neuron":5807,"pole":"low","cluster":4,"mode":"Commas separating names in lists of scholars","scene_windows":0,"windows":5,"scene":"Scholarly list of commentators and dates"}
+{"neuron":5807,"pole":"low","cluster":5,"mode":"Period after financial guidance statements about quarters","scene_windows":0,"windows":5,"scene":"Bookseller earnings and store sales outlook"}
+{"neuron":5807,"pole":"low","cluster":6,"mode":"Single-letter or name fragments in scholar-name lists","scene_windows":0,"windows":5,"scene":"Scholarly attribution lists of critics"}
+{"neuron":5807,"pole":"low","cluster":7,"mode":"Commas after clauses in descriptive sentences","scene_windows":0,"windows":5,"scene":"Descriptive fantasy and how-to prose"}
+{"neuron":5158,"pole":"high","cluster":0,"mode":"Color words describing hair, eyes or appearance","scene_windows":0,"windows":5,"scene":"Descriptions of people, animals and color"}
+{"neuron":5158,"pole":"high","cluster":1,"mode":"'What' starting a question after a Human turn label","scene_windows":0,"windows":5,"scene":"Human-assistant multi-turn Q&A"}
+{"neuron":5158,"pole":"high","cluster":2,"mode":"'Assistant' label beginning an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant replies in chat transcripts"}
+{"neuron":5158,"pole":"high","cluster":3,"mode":"Empty space after a praising or framing sentence before the answer","scene_windows":0,"windows":5,"scene":"Assistant replies opening with question remarks"}
+{"neuron":5158,"pole":"high","cluster":4,"mode":"Prepositions or articles inside technical or instructional sentences","scene_windows":0,"windows":5,"scene":"Fish care, history and science explanations"}
+{"neuron":5158,"pole":"high","cluster":5,"mode":"Opening quotation marks starting dialogue lines","scene_windows":0,"windows":5,"scene":"Fiction dialogue exchanges"}
+{"neuron":5158,"pole":"low","cluster":0,"mode":"Prepositions 'of' or 'about' after descriptive or action nouns","scene_windows":0,"windows":5,"scene":"Narrative description and rambling scenes"}
+{"neuron":5158,"pole":"low","cluster":1,"mode":"Commas separating items in a quoted list of education terms","scene_windows":0,"windows":5,"scene":"Quoted Wendell Phillips education passage"}
+{"neuron":2040,"pole":"high","cluster":0,"mode":"Colon or exclamation after 'Sure' or 'Assistant' before giving examples","scene_windows":0,"windows":5,"scene":"Assistant replies introducing examples"}
+{"neuron":2040,"pole":"high","cluster":1,"mode":"'an'/'here'/'is' introducing an example in assistant replies","scene_windows":0,"windows":5,"scene":"Assistant offering examples for writing and coding"}
+{"neuron":2040,"pole":"high","cluster":2,"mode":"Words 'of', 'has', 'a' describing array length in code explanations","scene_windows":0,"windows":5,"scene":"Programming explanation of loops and array dimensions"}
+{"neuron":2040,"pole":"high","cluster":3,"mode":"Punctuation or spacing inside CSS or HTML style attributes","scene_windows":0,"windows":5,"scene":"Code snippets for styled buttons"}
+{"neuron":2040,"pole":"high","cluster":4,"mode":"Determiner 'the' or 'about' before a topic noun","scene_windows":0,"windows":5,"scene":"Music, pets, and environmental discussions"}
+{"neuron":2040,"pole":"high","cluster":5,"mode":"Whitespace token closing a code function before test calls","scene_windows":0,"windows":5,"scene":"Code functions followed by example usage"}
+{"neuron":2040,"pole":"low","cluster":0,"mode":"'a' after 'write ... about' in creative writing prompts","scene_windows":0,"windows":5,"scene":"User requests for short stories and paintings"}
+{"neuron":2040,"pole":"low","cluster":1,"mode":"'to' after 'went' in sentence rewriting and narratives","scene_windows":0,"windows":5,"scene":"Rewriting sentences about trips and names"}
+{"neuron":8975,"pole":"low","cluster":0,"mode":"'yield to' or 'yield' in traffic right-of-way instructions","scene_windows":0,"windows":5,"scene":"Driving rules and traffic yielding advice"}
+{"neuron":8975,"pole":"low","cluster":1,"mode":"'other' or 'are' in phrases about other drivers' positions","scene_windows":0,"windows":5,"scene":"Safe driving and cyclist signaling advice"}
+{"neuron":8975,"pole":"low","cluster":2,"mode":"Connectives 'and', 'to', 'that' in advice or wildlife description","scene_windows":0,"windows":5,"scene":"Driving lane advice and kangaroo behaviour"}
+{"neuron":8975,"pole":"low","cluster":3,"mode":"'bear' or 'and'/'to' inside bear encounter safety instructions","scene_windows":0,"windows":5,"scene":"Bear country safety guidance"}
+{"neuron":818,"pole":"high","cluster":0,"mode":"Descriptor words like 'good', 'creative', 'a' in helpful answers","scene_windows":0,"windows":5,"scene":"Assistant advice on monitors, business plans and solar systems"}
+{"neuron":818,"pole":"high","cluster":1,"mode":"'vegan' or 'vegetarian' qualifying recipe suggestions","scene_windows":0,"windows":5,"scene":"Assistant recipe suggestions for diet-specific dishes"}
+{"neuron":818,"pole":"low","cluster":0,"mode":"Opening quotation marks starting new dialogue paragraphs","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes"}
+{"neuron":818,"pole":"low","cluster":1,"mode":"Nouns or pronouns ending phrases about resources, homes or areas","scene_windows":0,"windows":5,"scene":"Informational text on energy, health and history"}
+{"neuron":818,"pole":"low","cluster":2,"mode":"Period ending a sentence before a new section starts","scene_windows":0,"windows":5,"scene":"Historical and academic encyclopedic passages"}
+{"neuron":818,"pole":"low","cluster":3,"mode":"Question mark ending a user question before an assistant reply","scene_windows":0,"windows":5,"scene":"User requests followed by assistant answers"}
+{"neuron":818,"pole":"low","cluster":4,"mode":"Period ending sentences before a new numbered paragraph","scene_windows":0,"windows":5,"scene":"Advice and information lists"}
+{"neuron":818,"pole":"low","cluster":5,"mode":"Period or space ending a paragraph before a new item","scene_windows":0,"windows":5,"scene":"Class descriptions, job requirements and web tips"}
+{"neuron":890,"pole":"high","cluster":0,"mode":"'Finally' introducing the last point in an ordered list","scene_windows":0,"windows":5,"scene":"Essay-style explanations of harmonica, clouds and anniversaries"}
+{"neuron":890,"pole":"high","cluster":1,"mode":"'and' joining the final items of a list of actions","scene_windows":0,"windows":5,"scene":"Descriptive essays on city, design and wellbeing"}
+{"neuron":890,"pole":"high","cluster":2,"mode":"Bracketed list numbers starting enumerated tips","scene_windows":0,"windows":5,"scene":"Numbered advice lists on marriage, storage and credit"}
+{"neuron":890,"pole":"low","cluster":0,"mode":"Question mark ending a user question before a reply","scene_windows":0,"windows":5,"scene":"User questions about recipes, stories and history"}
+{"neuron":890,"pole":"low","cluster":1,"mode":"'Here' or 'here' opening assistant lists of suggestions","scene_windows":0,"windows":5,"scene":"Assistant replies offering guidelines and tips"}
+{"neuron":890,"pole":"low","cluster":2,"mode":"Numbered list markers in quiz question sequences","scene_windows":0,"windows":5,"scene":"Trivia and question lists"}
+{"neuron":890,"pole":"low","cluster":3,"mode":"'and' joining items in descriptive list phrases","scene_windows":0,"windows":5,"scene":"Essays on education, flowers and technology"}
+{"neuron":890,"pole":"low","cluster":4,"mode":"'Additionally' starting a new supporting sentence","scene_windows":0,"windows":5,"scene":"Business, study and city description paragraphs"}
+{"neuron":4476,"pole":"high","cluster":0,"mode":"Exclamation or comma right after 'Absolutely' or 'Sure' opening a reply","scene_windows":0,"windows":5,"scene":"Assistant replies agreeing to revise content"}
+{"neuron":4476,"pole":"high","cluster":1,"mode":"'example' after 'For' introducing an illustration","scene_windows":0,"windows":5,"scene":"Assistant advice with illustrative examples"}
+{"neuron":4476,"pole":"high","cluster":2,"mode":"Colon after numbered item titles in lists","scene_windows":0,"windows":5,"scene":"Recipe and renewable energy listicles"}
+{"neuron":4476,"pole":"high","cluster":3,"mode":"Colon introducing a list of examples in assistant replies","scene_windows":0,"windows":5,"scene":"Assistant lists of literary works, companies and festivals"}
+{"neuron":4476,"pole":"high","cluster":4,"mode":"Colon or spacing before a summary paragraph","scene_windows":0,"windows":5,"scene":"Assistant summaries of articles"}
+{"neuron":4476,"pole":"high","cluster":5,"mode":"'So' or 'Thus' starting a logical consequence sentence","scene_windows":0,"windows":5,"scene":"Explanatory text on words, names and rules"}
+{"neuron":4476,"pole":"high","cluster":6,"mode":"Colon after 'Assistant' label introducing a summary","scene_windows":0,"windows":5,"scene":"Summarization requests and book or history answers"}
+{"neuron":4476,"pole":"high","cluster":7,"mode":"'assistant' label opening a reply about named organizations","scene_windows":0,"windows":5,"scene":"Q&A about insurance, university and event details"}
+{"neuron":4476,"pole":"high","cluster":8,"mode":"Comma after 'For example' introducing an illustration","scene_windows":0,"windows":5,"scene":"Marketing and technology advice with examples"}
+{"neuron":4476,"pole":"high","cluster":9,"mode":"Hyphen or punctuation starting a new list item or citation fragment","scene_windows":0,"windows":5,"scene":"Reference lists, web snippets, and bulleted fragments"}
+{"neuron":4476,"pole":"high","cluster":10,"mode":"Mid-phrase function word before an expected continuation in expository text","scene_windows":0,"windows":5,"scene":"Expository articles on climate, art, history, and crisis"}
+{"neuron":4476,"pole":"high","cluster":11,"mode":"'means' introducing an explanatory consequence after This/which/that","scene_windows":0,"windows":5,"scene":"Explanatory text about implications and definitions"}
+{"neuron":4476,"pole":"low","cluster":0,"mode":"Evaluative adjective or noun in advice ('important', 'good idea')","scene_windows":0,"windows":5,"scene":"How-to advice and practical tips writing"}
+{"neuron":4476,"pole":"low","cluster":1,"mode":"Time-relative words ('before', 'weeks') in countdown schedule entries","scene_windows":0,"windows":5,"scene":"Event planning timeline checklists"}

@@ -1,0 +1,74 @@
+{"neuron":9671,"pole":"high","cluster":0,"mode":"Function words inside marketing and advertising campaign descriptions","scene_windows":0,"windows":5,"scene":"Marketing campaign and brand strategy examples"}
+{"neuron":9671,"pole":"high","cluster":1,"mode":"Periods ending sentences in spammy essay-service pricing copy","scene_windows":0,"windows":5,"scene":"Essay-writing service promotional text"}
+{"neuron":9671,"pole":"high","cluster":2,"mode":"Words in essay-service discount and returning-customer promotional copy","scene_windows":0,"windows":5,"scene":"Essay-writing service discount advertisement"}
+{"neuron":9671,"pole":"low","cluster":0,"mode":"Promo-code and placeholder tokens in ticket sales template","scene_windows":0,"windows":5,"scene":"Theatre ticket promotion template with placeholders"}
+{"neuron":9671,"pole":"low","cluster":1,"mode":"Price digits in magazine subscription offer text","scene_windows":0,"windows":5,"scene":"Magazine subscription sales banner"}
+{"neuron":9671,"pole":"low","cluster":2,"mode":"Sign-up and referral wording in referral program discussion","scene_windows":0,"windows":5,"scene":"Referral program and subscriber growth advice"}
+{"neuron":9671,"pole":"low","cluster":3,"mode":"Generic technology and improvement verbs in business prose","scene_windows":0,"windows":5,"scene":"Neutral tech and business explanatory text"}
+{"neuron":9671,"pole":"low","cluster":4,"mode":"The word referral in referral-program advice","scene_windows":0,"windows":5,"scene":"Referral marketing tips and instructions"}
+{"neuron":272,"pole":"high","cluster":0,"mode":"Phrases introducing a list of recipes or instructions","scene_windows":0,"windows":5,"scene":"Assistant giving recipe and how-to lists"}
+{"neuron":272,"pole":"high","cluster":1,"mode":"Digits inside dates and numeric references","scene_windows":0,"windows":5,"scene":"Dates in citations and survey reports"}
+{"neuron":272,"pole":"high","cluster":2,"mode":"Blank or spacing tokens right after colons and periods in prompts","scene_windows":0,"windows":5,"scene":"Fill-in-the-blank and text-copy requests"}
+{"neuron":272,"pole":"high","cluster":3,"mode":"Commas separating items in descriptive lists","scene_windows":0,"windows":5,"scene":"Descriptive lists in tutorials and activities"}
+{"neuron":272,"pole":"high","cluster":4,"mode":"Page-number digits in bibliography reference entries","scene_windows":0,"windows":5,"scene":"Academic reference lists"}
+{"neuron":272,"pole":"high","cluster":5,"mode":"Place nouns like room and lake in fiction","scene_windows":0,"windows":5,"scene":"First-person fiction narration about locations"}
+{"neuron":272,"pole":"high","cluster":6,"mode":"Articles before location nouns in narrative action","scene_windows":0,"windows":5,"scene":"Narrative action storytelling"}
+{"neuron":272,"pole":"low","cluster":0,"mode":"Commas between author surnames and initials in references","scene_windows":0,"windows":5,"scene":"Bibliography author lists"}
+{"neuron":272,"pole":"low","cluster":1,"mode":"Commas after author surnames in reference entries","scene_windows":0,"windows":5,"scene":"Scientific citation lists"}
+{"neuron":272,"pole":"low","cluster":2,"mode":"Author initials and surnames in reference entries","scene_windows":0,"windows":5,"scene":"Academic citation lists"}
+{"neuron":272,"pole":"low","cluster":3,"mode":"Ingredient and food nouns in sandwich and snack lists","scene_windows":0,"windows":5,"scene":"Food ingredient and recipe suggestions"}
+{"neuron":272,"pole":"low","cluster":4,"mode":"Vegetable and ingredient nouns in recipes","scene_windows":0,"windows":5,"scene":"Cooking and recipe conversations"}
+{"neuron":272,"pole":"low","cluster":5,"mode":"Determiners and nouns in factual history and science prose","scene_windows":0,"windows":5,"scene":"Encyclopedic and news-style exposition"}
+{"neuron":272,"pole":"low","cluster":6,"mode":"Articles and infinitive markers in writing requests","scene_windows":0,"windows":5,"scene":"Users requesting stories and tasks"}
+{"neuron":9077,"pole":"high","cluster":0,"mode":"Verbs and nouns in smooth narrative prose","scene_windows":0,"windows":5,"scene":"Descriptive fiction and general prose"}
+{"neuron":9077,"pole":"high","cluster":1,"mode":"Sentence-ending periods in descriptive expository text","scene_windows":0,"windows":5,"scene":"Encyclopedic travel and culture descriptions"}
+{"neuron":9077,"pole":"high","cluster":2,"mode":"Recipe measurements and step-number punctuation","scene_windows":0,"windows":5,"scene":"Cooking recipe instructions"}
+{"neuron":9077,"pole":"high","cluster":3,"mode":"Technical nouns and qualifiers in science explanations","scene_windows":0,"windows":5,"scene":"Science and technology explanations"}
+{"neuron":9077,"pole":"low","cluster":0,"mode":"Apology words in AI admitting misunderstanding","scene_windows":0,"windows":5,"scene":"Assistant apologizing for earlier errors"}
+{"neuron":9077,"pole":"low","cluster":1,"mode":"The word there introducing existence statements","scene_windows":0,"windows":5,"scene":"Factual and fictional descriptive statements"}
+{"neuron":9077,"pole":"low","cluster":2,"mode":"First-person pronoun in AI correction statements","scene_windows":0,"windows":5,"scene":"Assistant correcting prior responses"}
+{"neuron":9077,"pole":"low","cluster":3,"mode":"Negation not in AI self-description statements","scene_windows":0,"windows":5,"scene":"AI describing its own nature and lack of feelings"}
+{"neuron":9077,"pole":"low","cluster":4,"mode":"Negative no and no-existence in confined-space narration","scene_windows":0,"windows":5,"scene":"Survival narration describing empty surroundings"}
+{"neuron":9077,"pole":"low","cluster":5,"mode":"Quantity words like many and much in historical claims","scene_windows":0,"windows":5,"scene":"History and civilization discussion"}
+{"neuron":9077,"pole":"low","cluster":6,"mode":"Sentence-level tokens in AI self-disclosure and disclaimers","scene_windows":0,"windows":5,"scene":"AI describing its design and purpose"}
+{"neuron":969,"pole":"high","cluster":0,"mode":"Nouns and pronouns in problem and emotion descriptions","scene_windows":0,"windows":5,"scene":"Narrative and policy discussion of problems"}
+{"neuron":969,"pole":"high","cluster":1,"mode":"The verb let in dialogue and instructions","scene_windows":0,"windows":5,"scene":"Dialogue and assistant suggestions"}
+{"neuron":969,"pole":"low","cluster":0,"mode":"Pronoun and copula after profane exclamations","scene_windows":0,"windows":5,"scene":"Angry confrontational fiction dialogue"}
+{"neuron":969,"pole":"low","cluster":1,"mode":"The user tag at start of follow-up turns","scene_windows":0,"windows":5,"scene":"Multi-turn chat transcripts"}
+{"neuron":5623,"pole":"high","cluster":0,"mode":"Can starting a follow-up request to the assistant","scene_windows":0,"windows":5,"scene":"User feedback requesting story or content additions"}
+{"neuron":5623,"pole":"high","cluster":1,"mode":"Now marking dramatic turn in narrative speech","scene_windows":0,"windows":5,"scene":"Dramatic fiction dialogue"}
+{"neuron":5623,"pole":"high","cluster":2,"mode":"Prepositions and conjunctions linking clauses in essays","scene_windows":0,"windows":5,"scene":"Expository essays on relationships and driving"}
+{"neuron":5623,"pole":"high","cluster":3,"mode":"Contrastive but and however after user feedback","scene_windows":0,"windows":5,"scene":"User feedback on assistant drafts"}
+{"neuron":5623,"pole":"low","cluster":0,"mode":"The word hope in friendly closing remarks","scene_windows":0,"windows":5,"scene":"Assistant closing pleasantries"}
+{"neuron":5623,"pole":"low","cluster":1,"mode":"Articles and prepositions in analytical essay prose","scene_windows":0,"windows":5,"scene":"Analytical commentary on policy and history"}
+{"neuron":5623,"pole":"low","cluster":2,"mode":"The word opposite in contrast descriptions","scene_windows":0,"windows":5,"scene":"Character and object contrast descriptions"}
+{"neuron":5766,"pole":"high","cluster":0,"mode":"Function words in sentences about Roman numeral usage","scene_windows":0,"windows":5,"scene":"Explanation of Roman numerals"}
+{"neuron":5766,"pole":"high","cluster":1,"mode":"Opening quotation marks before riddle answers","scene_windows":0,"windows":5,"scene":"Riddle question and answer exchanges"}
+{"neuron":5766,"pole":"high","cluster":2,"mode":"The word as after such in example lists","scene_windows":0,"windows":5,"scene":"Computer architecture explanations"}
+{"neuron":5766,"pole":"high","cluster":3,"mode":"Commas inside lists of career or activity examples","scene_windows":0,"windows":5,"scene":"Career and occupation suggestions"}
+{"neuron":5766,"pole":"high","cluster":4,"mode":"Commas and the within enumerations of categories","scene_windows":0,"windows":5,"scene":"Political and historical category lists"}
+{"neuron":5766,"pole":"high","cluster":5,"mode":"Commas separating country names in lists","scene_windows":0,"windows":5,"scene":"Country lists on measurement and legal systems"}
+{"neuron":5766,"pole":"low","cluster":0,"mode":"Question marks ending example requests","scene_windows":0,"windows":5,"scene":"User requests for examples"}
+{"neuron":5766,"pole":"low","cluster":1,"mode":"Plural nouns like areas and kinds in general claims","scene_windows":0,"windows":5,"scene":"General discussion of fields and variety"}
+{"neuron":5766,"pole":"low","cluster":2,"mode":"Articles and prepositions in descriptive narrative and analysis","scene_windows":0,"windows":5,"scene":"Mixed narrative and explanatory prose"}
+{"neuron":5766,"pole":"low","cluster":3,"mode":"Numeral 1 starting enumerated list items","scene_windows":0,"windows":5,"scene":"Assistant recommendation lists"}
+{"neuron":9541,"pole":"high","cluster":0,"mode":"Colon after Human speaker label","scene_windows":0,"windows":5,"scene":"Multi-turn chat transcripts"}
+{"neuron":9541,"pole":"high","cluster":1,"mode":"Colon after Assistant speaker label","scene_windows":0,"windows":5,"scene":"Assistant replies in chat transcripts"}
+{"neuron":9541,"pole":"high","cluster":2,"mode":"Pronoun I opening user turns after Human label","scene_windows":0,"windows":5,"scene":"User pushback in chat transcripts"}
+{"neuron":9541,"pole":"high","cluster":3,"mode":"Period after user statements declaring the assistant wrong","scene_windows":0,"windows":5,"scene":"User correcting assistant answers"}
+{"neuron":9541,"pole":"high","cluster":4,"mode":"Determiners and punctuation in reflective narration","scene_windows":0,"windows":5,"scene":"Literary narration and dialogue"}
+{"neuron":9541,"pole":"high","cluster":5,"mode":"Opening quote marks starting dialogue lines","scene_windows":0,"windows":5,"scene":"Fiction dialogue exchanges"}
+{"neuron":9541,"pole":"low","cluster":0,"mode":"Dynasty and proper names in user praise of history","scene_windows":0,"windows":5,"scene":"User discussing ancient civilizations"}
+{"neuron":9541,"pole":"low","cluster":1,"mode":"Word-piece us in succubus mythology text","scene_windows":0,"windows":5,"scene":"Mythology and folklore descriptions"}
+{"neuron":8740,"pole":"high","cluster":0,"mode":"Depending as opening of conditional answers","scene_windows":0,"windows":5,"scene":"Assistant answering how-to and cost questions"}
+{"neuron":8740,"pole":"high","cluster":1,"mode":"Negation in I do not have access statements","scene_windows":0,"windows":5,"scene":"Assistant stating lack of access to information"}
+{"neuron":8740,"pole":"high","cluster":2,"mode":"First-person I starting assistant limitation or advice","scene_windows":0,"windows":5,"scene":"Assistant disclaimers and recommendations"}
+{"neuron":8740,"pole":"high","cluster":3,"mode":"Function words in marketing benefit explanations","scene_windows":0,"windows":5,"scene":"Clothing product marketing advice"}
+{"neuron":8740,"pole":"high","cluster":4,"mode":"Colon after Assistant label in Q&A","scene_windows":0,"windows":5,"scene":"Question-answer chat openings"}
+{"neuron":8740,"pole":"high","cluster":5,"mode":"Period after I do not have access disclaimers","scene_windows":0,"windows":5,"scene":"Assistant lacking specific information"}
+{"neuron":8740,"pole":"high","cluster":6,"mode":"Commas after subjectivity hedges in answers","scene_windows":0,"windows":5,"scene":"Subjective taste and advice questions"}
+{"neuron":8740,"pole":"high","cluster":7,"mode":"The word vary in variability statements","scene_windows":0,"windows":5,"scene":"Explanations of things that vary"}
+{"neuron":8740,"pole":"high","cluster":8,"mode":"Prepositions and conjunctions in general explanatory prose","scene_windows":0,"windows":5,"scene":"General explanations and advice"}
+{"neuron":8740,"pole":"high","cluster":9,"mode":"Modal can in cautionary or possibility statements","scene_windows":0,"windows":5,"scene":"Health and product risk explanations"}
+{"neuron":8740,"pole":"low","cluster":0,"mode":"Pepper words in cooking and spice contexts","scene_windows":0,"windows":5,"scene":"Recipe spice and pickling suggestions"}
+{"neuron":8740,"pole":"low","cluster":1,"mode":"Olive in cooking ingredient lists","scene_windows":0,"windows":5,"scene":"Recipe and pantry ingredient lists"}

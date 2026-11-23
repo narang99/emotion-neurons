@@ -1,0 +1,80 @@
+{"neuron":7530,"pole":"high","cluster":0,"mode":"suggestions for health and fitness activities","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":7530,"pole":"high","cluster":1,"mode":"advice on career and social media engagement","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":7530,"pole":"high","cluster":2,"mode":"narrative snippets about personal feelings and reactions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7530,"pole":"high","cluster":3,"mode":"asking for and providing information on various topics","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":7530,"pole":"high","cluster":4,"mode":"details about policies, traditions, and events","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":7530,"pole":"high","cluster":5,"mode":"classic poems for various occasions","scene_windows":0,"windows":5,"scene":"neutral literature"}
+{"neuron":7530,"pole":"high","cluster":6,"mode":"technical explanations of environmental systems","scene_windows":0,"windows":5,"scene":"neutral technical"}
+{"neuron":7530,"pole":"high","cluster":7,"mode":"references to publications and historical documents","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":7530,"pole":"high","cluster":8,"mode":"advice on physical activity and social issues","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":7530,"pole":"high","cluster":9,"mode":"citations for research and publications","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":7530,"pole":"high","cluster":10,"mode":"steps to reduce carbon footprint and energy use","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":7530,"pole":"high","cluster":11,"mode":"graphic descriptions of injuries and formatting requests","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7530,"pole":"low","cluster":0,"mode":"symptoms of illness and distress","scene_windows":0,"windows":5,"scene":"neutral medical"}
+{"neuron":7530,"pole":"low","cluster":1,"mode":"ingredients and fabric care instructions","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":7530,"pole":"low","cluster":2,"mode":"clothing items and types of peppers","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":7530,"pole":"low","cluster":3,"mode":"food preparation instructions and ingredients","scene_windows":0,"windows":5,"scene":"neutral cooking"}
+{"neuron":6390,"pole":"high","cluster":0,"mode":"social pressure, conformity, and individuality","scene_windows":0,"windows":5,"scene":"neutral social"}
+{"neuron":6390,"pole":"high","cluster":1,"mode":"fear of revealing powers and being an outsider","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":6390,"pole":"low","cluster":0,"mode":"relationships with friends and social isolation","scene_windows":0,"windows":5,"scene":"neutral social"}
+{"neuron":6390,"pole":"low","cluster":1,"mode":"seeking asylum and refuge in embassies","scene_windows":0,"windows":5,"scene":"neutral political"}
+{"neuron":6390,"pole":"low","cluster":2,"mode":"military retreat and battle movements","scene_windows":0,"windows":5,"scene":"neutral historical"}
+{"neuron":6390,"pole":"low","cluster":3,"mode":"personal wellbeing, finances, and quiet areas","scene_windows":0,"windows":5,"scene":"neutral personal"}
+{"neuron":6390,"pole":"low","cluster":4,"mode":"military positioning and troop movements","scene_windows":0,"windows":5,"scene":"neutral historical"}
+{"neuron":4187,"pole":"high","cluster":0,"mode":"initiating actions and brainstorming ideas","scene_windows":0,"windows":5,"scene":"neutral action"}
+{"neuron":4187,"pole":"high","cluster":1,"mode":"personal feelings of control and isolation","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":4187,"pole":"high","cluster":2,"mode":"skin health and environmental stressors","scene_windows":0,"windows":5,"scene":"neutral health"}
+{"neuron":4187,"pole":"low","cluster":0,"mode":"using tools and skills for specific purposes","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":4187,"pole":"low","cluster":1,"mode":"user questions about gaming consoles and licenses","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4187,"pole":"low","cluster":2,"mode":"numerical data and project planning","scene_windows":0,"windows":5,"scene":"neutral technical"}
+{"neuron":134,"pole":"high","cluster":0,"mode":"cultural views on polymaths and expertise","scene_windows":0,"windows":5,"scene":"neutral cultural"}
+{"neuron":134,"pole":"high","cluster":1,"mode":"details about historical figures and fictional elements","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":134,"pole":"high","cluster":2,"mode":"encouragement and positive reinforcement","scene_windows":0,"windows":5,"scene":"neutral encouragement"}
+{"neuron":134,"pole":"low","cluster":0,"mode":"nutritional benefits of various food sources","scene_windows":0,"windows":5,"scene":"neutral health"}
+{"neuron":134,"pole":"low","cluster":1,"mode":"wishes for success in personal endeavors","scene_windows":0,"windows":5,"scene":"neutral encouragement"}
+{"neuron":134,"pole":"low","cluster":2,"mode":"script formatting for scene settings","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":134,"pole":"low","cluster":3,"mode":"script formatting for scene settings","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":134,"pole":"low","cluster":4,"mode":"script formatting for scene settings","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":134,"pole":"low","cluster":5,"mode":"narrative prompts and story elements","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":134,"pole":"low","cluster":6,"mode":"concepts of health and disease prevention","scene_windows":0,"windows":5,"scene":"neutral health"}
+{"neuron":134,"pole":"low","cluster":7,"mode":"conclusions for policy and business strategies","scene_windows":0,"windows":5,"scene":"neutral conclusion"}
+{"neuron":3356,"pole":"high","cluster":0,"mode":"enrollment growth and pollution reduction over time","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":3356,"pole":"high","cluster":1,"mode":"advice on social ease and energy conservation","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":3356,"pole":"high","cluster":2,"mode":"historical trends in urban growth and technology","scene_windows":0,"windows":5,"scene":"neutral historical"}
+{"neuron":3356,"pole":"low","cluster":0,"mode":"need for humanitarian engagement and government programs","scene_windows":0,"windows":5,"scene":"neutral social"}
+{"neuron":3356,"pole":"low","cluster":1,"mode":"baking instructions and cooling times","scene_windows":0,"windows":5,"scene":"neutral cooking"}
+{"neuron":2151,"pole":"high","cluster":0,"mode":"narrative expressions of emotional limitation","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":2151,"pole":"high","cluster":1,"mode":"arguments about aggression and temperature correlation","scene_windows":0,"windows":5,"scene":"neutral debate"}
+{"neuron":2151,"pole":"high","cluster":2,"mode":"acknowledging negative emotions and seeking help","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":2151,"pole":"high","cluster":3,"mode":"statements of fact and collaborative design","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":2151,"pole":"high","cluster":4,"mode":"personal reflections on relationships and identity","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":2151,"pole":"high","cluster":5,"mode":"expressions of amazement at achievements","scene_windows":0,"windows":5,"scene":"neutral admiration"}
+{"neuron":2151,"pole":"high","cluster":6,"mode":"open-mindedness and objective information sharing","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":2151,"pole":"high","cluster":7,"mode":"strategic planning and learning from mistakes","scene_windows":0,"windows":5,"scene":"neutral strategy"}
+{"neuron":2151,"pole":"high","cluster":8,"mode":"geographical locations and personal attributes","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":2151,"pole":"high","cluster":9,"mode":"narrative elements and character actions","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":2151,"pole":"low","cluster":0,"mode":"using tools and skills for specific purposes","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":2151,"pole":"low","cluster":1,"mode":"podcast outlines and introductions","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":2151,"pole":"low","cluster":2,"mode":"nursery rhymes and literary attributions","scene_windows":0,"windows":5,"scene":"neutral literature"}
+{"neuron":2151,"pole":"low","cluster":3,"mode":"hooks for audience engagement and topic introductions","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":2151,"pole":"low","cluster":4,"mode":"advice and tips for various situations","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":2151,"pole":"low","cluster":5,"mode":"numerical data and calculations","scene_windows":0,"windows":5,"scene":"neutral technical"}
+{"neuron":4301,"pole":"high","cluster":0,"mode":"difficulty recalling song titles","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4301,"pole":"high","cluster":1,"mode":"user requests for information and examples","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4301,"pole":"high","cluster":2,"mode":"determining causes and identifying factors","scene_windows":0,"windows":5,"scene":"neutral analysis"}
+{"neuron":4301,"pole":"high","cluster":3,"mode":"identifying actions and areas for improvement","scene_windows":0,"windows":5,"scene":"neutral analysis"}
+{"neuron":4301,"pole":"high","cluster":4,"mode":"using tools and statistical analysis for data","scene_windows":0,"windows":5,"scene":"neutral technical"}
+{"neuron":4301,"pole":"high","cluster":5,"mode":"user questions about phone issues and supplements","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4301,"pole":"low","cluster":0,"mode":"tips for visibility and body warmth","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":4301,"pole":"low","cluster":1,"mode":"podcast introductions and outlines","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":4301,"pole":"low","cluster":2,"mode":"nursery rhymes and literary attributions","scene_windows":0,"windows":5,"scene":"neutral literature"}
+{"neuron":4301,"pole":"low","cluster":3,"mode":"hooks for audience engagement and topic introductions","scene_windows":0,"windows":5,"scene":"neutral creative"}
+{"neuron":4301,"pole":"low","cluster":4,"mode":"advice and tips for various situations","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":4301,"pole":"low","cluster":5,"mode":"numerical data and calculations","scene_windows":0,"windows":5,"scene":"neutral technical"}
+{"neuron":4301,"pole":"low","cluster":6,"mode":"numerical data and calculations","scene_windows":0,"windows":5,"scene":"neutral technical"}
+{"neuron":4301,"pole":"low","cluster":7,"mode":"requests for examples and assistance","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4301,"pole":"low","cluster":8,"mode":"numerical data and calculations","scene_windows":0,"windows":5,"scene":"neutral technical"}
+{"neuron":4301,"pole":"low","cluster":9,"mode":"requests for information and edits","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4301,"pole":"low","cluster":10,"mode":"requests for trivia questions and summaries","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4301,"pole":"low","cluster":11,"mode":"narrative elements and character reactions","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":4301,"pole":"low","cluster":12,"mode":"dialogue and character interactions","scene_windows":0,"windows":5,"scene":"neutral dialogue"}

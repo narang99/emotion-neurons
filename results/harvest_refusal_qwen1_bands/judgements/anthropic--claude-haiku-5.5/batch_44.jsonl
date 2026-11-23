@@ -1,0 +1,72 @@
+{"neuron":8101,"pole":"high","cluster":0,"mode":"Prepositions mid-phrase in generic explanatory or narrative text","scene_windows":0,"windows":5,"scene":"Neutral advice, history, and recipe-style prose"}
+{"neuron":8101,"pole":"high","cluster":1,"mode":"Instructions or consult verbs in product safety advice","scene_windows":0,"windows":5,"scene":"Product usage and safety-precaution advice"}
+{"neuron":8101,"pole":"low","cluster":0,"mode":"'best' in 'for best results' cooking tips","scene_windows":0,"windows":5,"scene":"Cooking and recipe tips"}
+{"neuron":8101,"pole":"low","cluster":1,"mode":"'more' in 'For more information' referral closings","scene_windows":0,"windows":5,"scene":"Closing pointers to further resources"}
+{"neuron":8101,"pole":"low","cluster":2,"mode":"'helpful' in 'I hope this is helpful' sign-offs","scene_windows":0,"windows":5,"scene":"Assistant closing remarks after answering"}
+{"neuron":8101,"pole":"low","cluster":3,"mode":"Sentence-initial 'Hope' in closing helpfulness remarks","scene_windows":0,"windows":5,"scene":"Assistant sign-off after answering a request"}
+{"neuron":8101,"pole":"low","cluster":4,"mode":"'hope' in 'I hope this helps' closing sentences","scene_windows":0,"windows":5,"scene":"Assistant closing remarks on practical topics"}
+{"neuron":8101,"pole":"low","cluster":5,"mode":"'hope' in friendly end-of-conversation sign-offs","scene_windows":0,"windows":5,"scene":"Friendly thank-you exchanges ending the chat"}
+{"neuron":8101,"pole":"low","cluster":6,"mode":"'thrive' or 'to' after needs for plant or animal growth","scene_windows":0,"windows":5,"scene":"Plant care, animal feeding, and diet information"}
+{"neuron":8101,"pole":"low","cluster":7,"mode":"'engagement' and engage words in marketing content","scene_windows":0,"windows":5,"scene":"Online marketing and content creation tips"}
+{"neuron":7203,"pole":"high","cluster":0,"mode":"'Here' opening an assistant's list-style reply","scene_windows":0,"windows":5,"scene":"Assistant answering user suggestion requests"}
+{"neuron":7203,"pole":"high","cluster":1,"mode":"'are'/'some' in 'Sure, here are' list openers","scene_windows":0,"windows":5,"scene":"Assistant offering lists of tips or ideas"}
+{"neuron":7203,"pole":"high","cluster":2,"mode":"Trailing whitespace tokens ending creative or narrative passages","scene_windows":0,"windows":5,"scene":"Fiction passages and mixed text endings"}
+{"neuron":7203,"pole":"high","cluster":3,"mode":"Whitespace or period tokens ending advice list items","scene_windows":0,"windows":5,"scene":"Numbered productivity and marketing advice"}
+{"neuron":7203,"pole":"high","cluster":4,"mode":"'these' in 'these days' trend statements","scene_windows":0,"windows":5,"scene":"Descriptions of current trends and practices"}
+{"neuron":7203,"pole":"high","cluster":5,"mode":"Sentence-initial 'These' referring back to prior subject","scene_windows":0,"windows":5,"scene":"Expository essays on industry and society"}
+{"neuron":7203,"pole":"high","cluster":6,"mode":"Mid-sentence nouns in generic descriptive narration","scene_windows":0,"windows":5,"scene":"Narrative and descriptive prose passages"}
+{"neuron":7203,"pole":"high","cluster":7,"mode":"'Those' starting a sentence referring to a group","scene_windows":0,"windows":5,"scene":"Commentary on events, reviews, and effects"}
+{"neuron":7203,"pole":"low","cluster":0,"mode":"'a' in 'there are a number/lot of' phrasing","scene_windows":0,"windows":5,"scene":"Assistant answers on varied everyday topics"}
+{"neuron":7203,"pole":"low","cluster":1,"mode":"'a' in 'Here are a few' list introductions","scene_windows":0,"windows":5,"scene":"Assistant offering a few suggestions"}
+{"neuron":7203,"pole":"low","cluster":2,"mode":"'do' in short 'How do I' user question prompts","scene_windows":0,"windows":5,"scene":"Simple how-to questions to assistant"}
+{"neuron":7203,"pole":"low","cluster":3,"mode":"Mid-sentence function words in expository prose","scene_windows":0,"windows":5,"scene":"Technical and scientific explanatory text"}
+{"neuron":7203,"pole":"low","cluster":4,"mode":"'Are' starting a follow-up question after Human turn","scene_windows":0,"windows":5,"scene":"Multi-turn follow-up questions in dialogue"}
+{"neuron":7203,"pole":"low","cluster":5,"mode":"'Do' starting a follow-up question in dialogue","scene_windows":0,"windows":5,"scene":"Users asking follow-up questions about topics"}
+{"neuron":7203,"pole":"low","cluster":6,"mode":"'are' in 'Who are' questions","scene_windows":0,"windows":5,"scene":"Short identity or recommendation questions"}
+{"neuron":7203,"pole":"low","cluster":7,"mode":"'do' in 'What do you think' or 'What do I do' questions","scene_windows":0,"windows":5,"scene":"User asking opinions or what to do next"}
+{"neuron":7203,"pole":"low","cluster":8,"mode":"'are' in 'What are' factual questions","scene_windows":0,"windows":5,"scene":"Short factual what-is questions"}
+{"neuron":8290,"pole":"high","cluster":0,"mode":"Determiners and nouns mid-phrase in general prose","scene_windows":0,"windows":5,"scene":"Writing tips, military careers, descriptive narration"}
+{"neuron":8290,"pole":"high","cluster":1,"mode":"Subject and infinitive words in how-to instruction phrasing","scene_windows":0,"windows":5,"scene":"Assistant explaining how to practice a skill"}
+{"neuron":8290,"pole":"low","cluster":0,"mode":"Article 'a' or 'an' before reward nouns in game prizes","scene_windows":0,"windows":5,"scene":"Team games and contest prize descriptions"}
+{"neuron":8290,"pole":"low","cluster":1,"mode":"Determiners 'the'/'our' in mid-sentence scientific or event prose","scene_windows":0,"windows":5,"scene":"Research abstracts and drink pairing details"}
+{"neuron":8290,"pole":"low","cluster":2,"mode":"Commas inside lists of event activities","scene_windows":0,"windows":5,"scene":"Event schedule descriptions listing activities"}
+{"neuron":1972,"pole":"high","cluster":0,"mode":"'with' in 'animals that start with letter' requests","scene_windows":0,"windows":5,"scene":"List requests about letters and starting words"}
+{"neuron":1972,"pole":"high","cluster":1,"mode":"'the' before 'letter' in Morse code and SOS explanations","scene_windows":0,"windows":5,"scene":"Explanations of signaling and letter sequences"}
+{"neuron":1972,"pole":"high","cluster":2,"mode":"'capital' in capitalization and string-processing requests","scene_windows":0,"windows":5,"scene":"Programming tasks on text capitalization"}
+{"neuron":1972,"pole":"high","cluster":3,"mode":"'the' or 'a' starting clauses about letters or examples","scene_windows":0,"windows":5,"scene":"Technical and historical descriptive passages"}
+{"neuron":1972,"pole":"high","cluster":4,"mode":"'+' within keyboard shortcut combinations like CTRL+","scene_windows":0,"windows":5,"scene":"Listing computer keyboard shortcuts"}
+{"neuron":1972,"pole":"low","cluster":0,"mode":"En dash inside journal page ranges in citations","scene_windows":0,"windows":5,"scene":"Academic reference lists"}
+{"neuron":1972,"pole":"low","cluster":1,"mode":"Decimal points within financial percentage figures","scene_windows":0,"windows":5,"scene":"Corporate sales and financial reporting"}
+{"neuron":1972,"pole":"low","cluster":2,"mode":"Period after author initial in reference entries","scene_windows":0,"windows":5,"scene":"Bibliography citation entries"}
+{"neuron":1972,"pole":"low","cluster":3,"mode":"Author surnames' second names inside bibliographic references","scene_windows":0,"windows":5,"scene":"Reference lists and citations"}
+{"neuron":1972,"pole":"low","cluster":4,"mode":"Author initial tokens in citation author lists","scene_windows":0,"windows":5,"scene":"Academic reference entries"}
+{"neuron":1972,"pole":"low","cluster":5,"mode":"Commas between author names in reference lists","scene_windows":0,"windows":5,"scene":"Bibliographic citation strings"}
+{"neuron":1972,"pole":"low","cluster":6,"mode":"Line-ending rhyme words in a poem about elk","scene_windows":0,"windows":5,"scene":"Rhyming nature poem and user comments"}
+{"neuron":1972,"pole":"low","cluster":7,"mode":"Mid-sentence words in descriptive or advisory prose","scene_windows":0,"windows":5,"scene":"Expository text on flutes, therapy, and results"}
+{"neuron":1972,"pole":"low","cluster":8,"mode":"Digits inside numeric statistics and table values","scene_windows":0,"windows":5,"scene":"Census statistics and benchmark output"}
+{"neuron":63,"pole":"high","cluster":0,"mode":"'Fin' word-start token in place or organization names","scene_windows":0,"windows":5,"scene":"Place names and organizations in articles"}
+{"neuron":63,"pole":"high","cluster":1,"mode":"'Sum' token in military names and 'sum' word fragments","scene_windows":0,"windows":5,"scene":"Civil War history and reference entries"}
+{"neuron":63,"pole":"high","cluster":2,"mode":"'conclusion' after 'In' opening a closing paragraph","scene_windows":0,"windows":5,"scene":"Essay-style conclusions on mental health and tech"}
+{"neuron":63,"pole":"high","cluster":3,"mode":"Sentence-initial 'Conclusion' heading in generated plans","scene_windows":0,"windows":5,"scene":"Structured event and workshop plan outputs"}
+{"neuron":63,"pole":"high","cluster":4,"mode":"Summary verb stems in summarize requests","scene_windows":0,"windows":5,"scene":"User requests to summarize text"}
+{"neuron":63,"pole":"high","cluster":5,"mode":"Nouns ending an argument or a story setting","scene_windows":0,"windows":5,"scene":"Writing tips and narrative scene descriptions"}
+{"neuron":63,"pole":"high","cluster":6,"mode":"'sum' in requests to compute sums in code","scene_windows":0,"windows":5,"scene":"Programming tasks computing sums"}
+{"neuron":63,"pole":"low","cluster":0,"mode":"Determiners and 'is' in list of essay challenges","scene_windows":0,"windows":5,"scene":"Essay discussing virtual reality drawbacks"}
+{"neuron":63,"pole":"low","cluster":1,"mode":"Articles 'the' and 'is' inside argumentative prose","scene_windows":0,"windows":5,"scene":"Essays on composting, healthcare, and vaccination"}
+{"neuron":63,"pole":"low","cluster":2,"mode":"'I' or 'but' after a wish-to-learn clause","scene_windows":0,"windows":5,"scene":"User saying they want to learn a skill"}
+{"neuron":7022,"pole":"high","cluster":0,"mode":"'Assistant' turn label starting a reply","scene_windows":0,"windows":5,"scene":"Q&A turns on health, recipes, and writing"}
+{"neuron":7022,"pole":"high","cluster":1,"mode":"Blank space token after sentence end","scene_windows":0,"windows":5,"scene":"Expository text on policy and culture"}
+{"neuron":7022,"pole":"high","cluster":2,"mode":"Pipe delimiter token in wiki-style infobox markup","scene_windows":0,"windows":5,"scene":"Wikipedia-style tables and drug labels"}
+{"neuron":7022,"pole":"high","cluster":3,"mode":"Digit tokens inside repeated number-factoring strings","scene_windows":0,"windows":5,"scene":"Arithmetic digit decompositions"}
+{"neuron":7022,"pole":"high","cluster":4,"mode":"Double-pipe table delimiters in nutrient tables","scene_windows":0,"windows":5,"scene":"Formatted nutrition data tables"}
+{"neuron":7022,"pole":"high","cluster":5,"mode":"Blank double-space token between simulated terminal lines","scene_windows":0,"windows":5,"scene":"Simulated chatbot terminal with file deletion"}
+{"neuron":7022,"pole":"high","cluster":6,"mode":"'www' in URL domain prefixes","scene_windows":0,"windows":5,"scene":"Recipe and service website links"}
+{"neuron":7022,"pole":"high","cluster":7,"mode":"Sentence-final period or space before new numbered item","scene_windows":0,"windows":5,"scene":"Listicle-style informational answers"}
+{"neuron":7022,"pole":"high","cluster":8,"mode":"Question mark ending a user question before assistant","scene_windows":0,"windows":5,"scene":"User questions in multi-turn chats"}
+{"neuron":7022,"pole":"high","cluster":9,"mode":"Digits within years or numbers in citations","scene_windows":0,"windows":5,"scene":"Reference and factual text with dates"}
+{"neuron":7022,"pole":"high","cluster":10,"mode":"'waiting' or 'breath' in tense suspense narration","scene_windows":0,"windows":5,"scene":"Suspenseful story of hiding behind a bedroom door"}
+{"neuron":7022,"pole":"low","cluster":0,"mode":"'you' or 'any' in closing offers of further help","scene_windows":0,"windows":5,"scene":"Assistant closing offers after verbose answer"}
+{"neuron":7022,"pole":"low","cluster":1,"mode":"'are'/'as' in claims about teacher qualifications","scene_windows":0,"windows":5,"scene":"School staff qualification statements"}
+{"neuron":7022,"pole":"low","cluster":2,"mode":"Opening quotation mark when quoting a prior statement","scene_windows":0,"windows":5,"scene":"User quoting assistant statements for follow-up"}
+{"neuron":7022,"pole":"low","cluster":3,"mode":"Prepositions and articles inside edit or summary requests","scene_windows":0,"windows":5,"scene":"Text editing and rewriting requests"}
+{"neuron":7022,"pole":"low","cluster":4,"mode":"Colon-space token introducing a revised text","scene_windows":0,"windows":5,"scene":"Assistant delivering edited versions of text"}
