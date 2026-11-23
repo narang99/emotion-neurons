@@ -1,0 +1,60 @@
+{"neuron":903,"pole":"high","cluster":0,"mode":"The marked token is the start of a sentence or clause, often introducing a noun phrase.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"high","cluster":1,"mode":"The marked token is part of a phrase indicating a specific or unique instance.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"high","cluster":2,"mode":"The marked token is part of a phrase indicating a specific or unique instance.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"high","cluster":3,"mode":"The marked token is a conjunction connecting clauses or phrases, often indicating consequence or addition.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"high","cluster":4,"mode":"The marked token is an adverb indicating a sudden or unexpected event.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"high","cluster":5,"mode":"The marked token is a punctuation mark ending a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"high","cluster":6,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"low","cluster":0,"mode":"The marked token is a pronoun referring to a female subject, often initiating or continuing a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":903,"pole":"low","cluster":1,"mode":"The marked token is a verb indicating speech, often introducing dialogue.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":3932,"pole":"high","cluster":0,"mode":"The marked token is a verb indicating action or creation, often in a list of instructions.","scene_windows":0,"windows":5,"scene":"Instructional text"}
+{"neuron":3932,"pole":"high","cluster":1,"mode":"The marked token is a conjunction indicating addition or continuation, often in a list of instructions.","scene_windows":0,"windows":5,"scene":"Instructional text"}
+{"neuron":3932,"pole":"high","cluster":2,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":3932,"pole":"high","cluster":3,"mode":"The marked token is part of a matrix or array notation, common in programming.","scene_windows":0,"windows":5,"scene":"Technical text"}
+{"neuron":3932,"pole":"low","cluster":0,"mode":"The marked token is a conjunction indicating addition or continuation, often in a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":3932,"pole":"low","cluster":1,"mode":"The marked token is a plural noun referring to commercial entities.","scene_windows":0,"windows":5,"scene":"Business text"}
+{"neuron":9401,"pole":"high","cluster":0,"mode":"The marked token indicates a desirable quality, often related to cost or health.","scene_windows":0,"windows":5,"scene":"Informational text"}
+{"neuron":9401,"pole":"high","cluster":1,"mode":"The marked token is a possessive pronoun referring to a female subject.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9401,"pole":"high","cluster":2,"mode":"The marked token is a verb indicating placement or action, often in a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9401,"pole":"high","cluster":3,"mode":"The marked token is a definite article, introducing a specific noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9401,"pole":"high","cluster":4,"mode":"The marked token is a definite article, introducing a specific noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9401,"pole":"low","cluster":0,"mode":"The marked token is a conjunction indicating addition or continuation, often in a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9401,"pole":"low","cluster":1,"mode":"The marked token is a conjunction indicating addition or continuation, often in a narrative.","scene_windows":0,"windows":5,"scene":"Business text"}
+{"neuron":9401,"pole":"low","cluster":2,"mode":"The marked token is a possessive pronoun referring to a female subject.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9401,"pole":"low","cluster":3,"mode":"The marked token is a conjunction indicating addition or continuation, often in a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9401,"pole":"low","cluster":4,"mode":"The marked token is an adverb indicating degree, often in a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5769,"pole":"high","cluster":0,"mode":"personal reflections on memories, self-esteem, and opinions","scene_windows":0,"windows":5,"scene":"personal reflections"}
+{"neuron":5769,"pole":"high","cluster":1,"mode":"hasty actions, powerful figures, and unexpected discoveries","scene_windows":0,"windows":5,"scene":"action and discovery"}
+{"neuron":5769,"pole":"high","cluster":2,"mode":"children's experiences with magical places and toys","scene_windows":0,"windows":5,"scene":"childhood wonder"}
+{"neuron":5769,"pole":"high","cluster":3,"mode":"children's adventures involving doors and lines","scene_windows":0,"windows":5,"scene":"childhood adventure"}
+{"neuron":5769,"pole":"high","cluster":4,"mode":"children's interactions with vendors and animals","scene_windows":0,"windows":5,"scene":"childhood interactions"}
+{"neuron":5769,"pole":"low","cluster":0,"mode":"citations and references in academic or bibliographical contexts","scene_windows":0,"windows":5,"scene":"bibliographical references"}
+{"neuron":5769,"pole":"low","cluster":1,"mode":"narratives of relief, discovery, and waiting","scene_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":5769,"pole":"low","cluster":2,"mode":"personal reflections and observations, often with a negative or uncertain tone","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":9533,"pole":"high","cluster":0,"mode":"The marked token is a preposition indicating relationship or purpose.","scene_windows":0,"windows":5,"scene":"Business text"}
+{"neuron":9533,"pole":"high","cluster":1,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9533,"pole":"high","cluster":2,"mode":"The marked token is a conjunction indicating addition or continuation, often in a list of instructions.","scene_windows":0,"windows":5,"scene":"Instructional text"}
+{"neuron":9533,"pole":"low","cluster":0,"mode":"The marked token is part of a place name, often indicating a region.","scene_windows":0,"windows":5,"scene":"Historical text"}
+{"neuron":9533,"pole":"low","cluster":1,"mode":"The marked token is a conjunction indicating addition or continuation, often in a list of ingredients.","scene_windows":0,"windows":5,"scene":"Instructional text"}
+{"neuron":9533,"pole":"low","cluster":2,"mode":"The marked token is a possessive pronoun referring to a female subject.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9533,"pole":"low","cluster":3,"mode":"The marked token is a definite article, introducing a specific noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4507,"pole":"high","cluster":0,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Informational text"}
+{"neuron":4507,"pole":"high","cluster":1,"mode":"The marked token is the first letter of a word, often starting a sentence or proper noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4507,"pole":"high","cluster":2,"mode":"The marked token is a definite article, introducing a specific noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4507,"pole":"high","cluster":3,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4507,"pole":"low","cluster":0,"mode":"The marked token is a conjunction indicating addition or continuation, often in a list of ingredients.","scene_windows":0,"windows":5,"scene":"Instructional text"}
+{"neuron":4507,"pole":"low","cluster":1,"mode":"The marked token is part of a proper noun, often a title or place name.","scene_windows":0,"windows":5,"scene":"Informational text"}
+{"neuron":4507,"pole":"low","cluster":2,"mode":"The marked token is a possessive pronoun referring to a female subject.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4507,"pole":"low","cluster":3,"mode":"The marked token is a definite article, introducing a specific noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4507,"pole":"low","cluster":4,"mode":"children's fear and bravery in various situations","scene_windows":0,"windows":5,"scene":"childhood fear and bravery"}
+{"neuron":972,"pole":"high","cluster":0,"mode":"The marked token indicates a positive feeling or state, often in a narrative context.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":972,"pole":"high","cluster":1,"mode":"The marked token is a number, often part of a date or identifier.","scene_windows":0,"windows":5,"scene":"Informational text"}
+{"neuron":972,"pole":"low","cluster":0,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":972,"pole":"low","cluster":1,"mode":"The marked token is a pronoun referring to a female subject, often initiating or continuing a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":972,"pole":"low","cluster":2,"mode":"The marked token is a pronoun referring to a male subject, often initiating or continuing a narrative.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5668,"pole":"high","cluster":0,"mode":"The marked token is a definite article, introducing a specific noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5668,"pole":"high","cluster":1,"mode":"The marked token is a modal verb indicating inability or past inability.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5668,"pole":"low","cluster":0,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Bibliographic text"}
+{"neuron":5668,"pole":"low","cluster":1,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5668,"pole":"low","cluster":2,"mode":"The marked token is a punctuation mark indicating a pause or separation within a sentence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5668,"pole":"low","cluster":3,"mode":"The marked token is a definite article, introducing a specific noun.","scene_windows":0,"windows":5,"scene":"Neutral narration"}

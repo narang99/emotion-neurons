@@ -1,0 +1,78 @@
+{"neuron":6046,"pole":"high","cluster":0,"mode":"Sentence-initial 'Yeah'/'Yes' replying in dialogue","scene_windows":0,"windows":5,"scene":"casual everyday dialogue between characters"}
+{"neuron":6046,"pole":"high","cluster":1,"mode":"Sentence-initial 'Well' opening a spoken reply","scene_windows":0,"windows":5,"scene":"light conversational banter between characters"}
+{"neuron":6046,"pole":"high","cluster":2,"mode":"'If' starting a conditional clause in heated speech","scene_windows":1,"windows":5,"scene":"angry arguments with insults and threats"}
+{"neuron":6046,"pole":"high","cluster":3,"mode":"Closing parenthesis after stage direction in tense exchange","scene_windows":5,"windows":5,"scene":"sheriff and outlaw confrontation, bloodthirsty violence"}
+{"neuron":6046,"pole":"high","cluster":4,"mode":"Sentence-final period after harsh accusatory statements","scene_windows":2,"windows":5,"scene":"hostile confrontations, bullying, abusive parental authority"}
+{"neuron":6046,"pole":"high","cluster":5,"mode":"Opening quote mark starting a shouted or threatening line","scene_windows":3,"windows":5,"scene":"violent fight and brutal aftermath scenes"}
+{"neuron":6046,"pole":"low","cluster":0,"mode":"'know' as casual filler in speech","scene_windows":0,"windows":5,"scene":"casual conversation and rambling dialogue"}
+{"neuron":6046,"pole":"low","cluster":1,"mode":"Polite acknowledgement words like 'okay', 'fine', 'worries'","scene_windows":0,"windows":5,"scene":"everyday polite exchanges and reassurances"}
+{"neuron":6046,"pole":"low","cluster":2,"mode":"Ellipsis or hesitation after 'I' in speech","scene_windows":0,"windows":5,"scene":"stammering dialogue, shocked or flustered speakers"}
+{"neuron":6046,"pole":"low","cluster":3,"mode":"Question mark ending a clarifying question","scene_windows":0,"windows":5,"scene":"curious questions in fantasy and dialogue"}
+{"neuron":6046,"pole":"low","cluster":4,"mode":"Connective 'and'/'to' mid-sentence in expository prose","scene_windows":0,"windows":5,"scene":"expository narration on society, history, and identity"}
+{"neuron":6046,"pole":"low","cluster":5,"mode":"Closing quote mark after a short question or retort","scene_windows":0,"windows":5,"scene":"heated but mundane arguing dialogue"}
+{"neuron":4171,"pole":"high","cluster":0,"mode":"'Step' numbering in how-to instructions","scene_windows":0,"windows":5,"scene":"how-to guides for baby food and kitchens"}
+{"neuron":4171,"pole":"high","cluster":1,"mode":"Numbered list item markers in procedural guides","scene_windows":0,"windows":5,"scene":"cooking and workspace step-by-step guides"}
+{"neuron":4171,"pole":"high","cluster":2,"mode":"Period after list number in numbered instructions","scene_windows":0,"windows":5,"scene":"numbered marketing and seafood recipe lists"}
+{"neuron":4171,"pole":"high","cluster":3,"mode":"Sentence boundary after cooking or procedure step","scene_windows":0,"windows":5,"scene":"recipes and step-based instructions"}
+{"neuron":4171,"pole":"high","cluster":4,"mode":"Repeated number sequence tokens in arithmetic pattern","scene_windows":0,"windows":5,"scene":"repetitive numeric sequences"}
+{"neuron":4171,"pole":"high","cluster":5,"mode":"'always' in health advice sentences","scene_windows":0,"windows":5,"scene":"health and wellness advice"}
+{"neuron":4171,"pole":"high","cluster":6,"mode":"Sentence-initial 'How' in health questions","scene_windows":0,"windows":5,"scene":"FAQ about diabetes, pregnancy, and infection"}
+{"neuron":4171,"pole":"high","cluster":7,"mode":"Sentence-final period closing a factual claim","scene_windows":0,"windows":5,"scene":"nutrition, food, and health informational text"}
+{"neuron":4171,"pole":"high","cluster":8,"mode":"Sentence-initial 'The' in census-style statistics","scene_windows":0,"windows":5,"scene":"county demographic statistics text"}
+{"neuron":4171,"pole":"high","cluster":9,"mode":"Digit within percentage figures in census data","scene_windows":0,"windows":5,"scene":"county income and population statistics"}
+{"neuron":4171,"pole":"high","cluster":10,"mode":"'is'/'it's' in advisory 'so it is best' sentences","scene_windows":0,"windows":5,"scene":"advice on safety, finance, and activities"}
+{"neuron":4171,"pole":"high","cluster":11,"mode":"Noun completing a descriptive phrase in expository text","scene_windows":0,"windows":5,"scene":"history, technology, and product descriptions"}
+{"neuron":4171,"pole":"high","cluster":12,"mode":"Sentence-initial 'Pour' in cooking instructions","scene_windows":0,"windows":5,"scene":"cooking recipe instructions"}
+{"neuron":4171,"pole":"low","cluster":0,"mode":"Comma after timing phrase in recipe steps","scene_windows":0,"windows":5,"scene":"recipes and cooking instructions"}
+{"neuron":4171,"pole":"low","cluster":1,"mode":"Negation fragment 'n' in contractions","scene_windows":0,"windows":5,"scene":"narrative dialogue with negations"}
+{"neuron":301,"pole":"high","cluster":0,"mode":"Mid-sentence pronoun or determiner in descriptive prose","scene_windows":0,"windows":5,"scene":"travel, music, and science descriptions"}
+{"neuron":301,"pole":"high","cluster":1,"mode":"'user' role label starting a new turn","scene_windows":0,"windows":5,"scene":"chat transcripts with user follow-up questions"}
+{"neuron":301,"pole":"low","cluster":0,"mode":"'writing' after 'I am' in letter openings","scene_windows":0,"windows":5,"scene":"drafted formal letters and emails"}
+{"neuron":301,"pole":"low","cluster":1,"mode":"'important'/'relevant' predicate adjective after 'is'","scene_windows":0,"windows":5,"scene":"explanatory answers on science and history"}
+{"neuron":301,"pole":"low","cluster":2,"mode":"Colon after 'Assistant' in Q&A transcripts","scene_windows":0,"windows":5,"scene":"human-assistant question and answer transcripts"}
+{"neuron":301,"pole":"low","cluster":3,"mode":"Sentence end after legal or historical definition","scene_windows":0,"windows":5,"scene":"explanations of jury trials and lobotomies"}
+{"neuron":301,"pole":"low","cluster":4,"mode":"'is'/'are' copula introducing a definition","scene_windows":0,"windows":5,"scene":"explanatory answers on systems and concepts"}
+{"neuron":301,"pole":"low","cluster":5,"mode":"'is' after a noun opening a definition","scene_windows":0,"windows":5,"scene":"definitional Q&A about everyday objects"}
+{"neuron":301,"pole":"low","cluster":6,"mode":"Function words and modifiers mid-sentence","scene_windows":0,"windows":5,"scene":"mixed informational and advisory text"}
+{"neuron":301,"pole":"low","cluster":7,"mode":"Sentence-initial 'I' starting a first-person statement","scene_windows":0,"windows":5,"scene":"first-person opinions and AI assistant replies"}
+{"neuron":1719,"pole":"high","cluster":0,"mode":"Word completing an abstract phrase in advice text","scene_windows":0,"windows":5,"scene":"advice on bias, art sales, and news"}
+{"neuron":1719,"pole":"high","cluster":1,"mode":"Emotion or reaction noun after 'a look of'","scene_windows":0,"windows":5,"scene":"narrative reactions of surprise and confusion"}
+{"neuron":1719,"pole":"low","cluster":0,"mode":"'justice' or 'revenge' as the object of a quest","scene_windows":3,"windows":5,"scene":"outlaw sheriff standoff and revenge plots"}
+{"neuron":1719,"pole":"low","cluster":1,"mode":"Verb 'stop' in intent or cessation phrases","scene_windows":0,"windows":5,"scene":"advice on habits and fantasy quest dialogue"}
+{"neuron":1719,"pole":"low","cluster":2,"mode":"Colon after 'Assistant' in Q&A transcripts","scene_windows":0,"windows":5,"scene":"human-assistant practical questions and answers"}
+{"neuron":1719,"pole":"low","cluster":3,"mode":"Goal or change noun ending a sentence","scene_windows":0,"windows":5,"scene":"fitness, housing, and policy commentary"}
+{"neuron":1719,"pole":"low","cluster":4,"mode":"'out' completing 'way out' in escape phrases","scene_windows":0,"windows":5,"scene":"characters searching for an escape route"}
+{"neuron":7339,"pole":"high","cluster":0,"mode":"Preposition after a noun or verb in service phrases","scene_windows":0,"windows":5,"scene":"informational text on services and support"}
+{"neuron":7339,"pole":"high","cluster":1,"mode":"'such' introducing examples in explanations","scene_windows":0,"windows":5,"scene":"explanatory text with example lists"}
+{"neuron":7339,"pole":"low","cluster":0,"mode":"Article or 'is' introducing an example in code explanation","scene_windows":0,"windows":5,"scene":"programming and film-summary explanations"}
+{"neuron":7339,"pole":"low","cluster":1,"mode":"'you' after 'Can' in user requests","scene_windows":0,"windows":5,"scene":"user requests for recipes and suggestions"}
+{"neuron":7339,"pole":"low","cluster":2,"mode":"Measurement noun in ingredient lists","scene_windows":0,"windows":5,"scene":"recipe ingredient lists"}
+{"neuron":7339,"pole":"low","cluster":3,"mode":"'around' completing 'around the world' phrases","scene_windows":0,"windows":5,"scene":"history and biography summaries"}
+{"neuron":7339,"pole":"low","cluster":4,"mode":"Preposition or noun after technical or regional phrase","scene_windows":0,"windows":5,"scene":"encyclopedic and craft descriptions"}
+{"neuron":7339,"pole":"low","cluster":5,"mode":"Sentence-end double space before assistant turn","scene_windows":0,"windows":5,"scene":"user requests and assistant replies on projects"}
+{"neuron":6209,"pole":"high","cluster":0,"mode":"'saw'/'see'/'found' after 'what I' in revelations","scene_windows":0,"windows":5,"scene":"mysterious discovery narratives"}
+{"neuron":6209,"pole":"high","cluster":1,"mode":"Quantity adjective 'several'/'many' after 'offers'","scene_windows":0,"windows":5,"scene":"assistant answers about programs and initiatives"}
+{"neuron":6209,"pole":"high","cluster":2,"mode":"Sentence-initial 'One' opening a list of details","scene_windows":0,"windows":5,"scene":"personal memories and biographical descriptions"}
+{"neuron":6209,"pole":"low","cluster":0,"mode":"'is' or 'that's' before 'an interesting question'","scene_windows":0,"windows":5,"scene":"polite Q&A about facts and names"}
+{"neuron":6209,"pole":"low","cluster":1,"mode":"'interesting' in openers praising the question","scene_windows":0,"windows":5,"scene":"assistant replies praising user questions"}
+{"neuron":6209,"pole":"low","cluster":2,"mode":"Pronoun 'you' or 'I' within hope or closing phrases","scene_windows":0,"windows":5,"scene":"assistant closing remarks and recommendations"}
+{"neuron":6209,"pole":"low","cluster":3,"mode":"Modal verb 'can' or 'will' after 'I' in offers","scene_windows":0,"windows":5,"scene":"assistant offers to help with tasks"}
+{"neuron":6209,"pole":"low","cluster":4,"mode":"Copula 'is' or 'was' after a technical subject","scene_windows":0,"windows":5,"scene":"technical and policy descriptions"}
+{"neuron":6209,"pole":"low","cluster":5,"mode":"'States' or 'S' completing 'United States'","scene_windows":0,"windows":5,"scene":"questions and facts about the United States"}
+{"neuron":6209,"pole":"low","cluster":6,"mode":"'one' in 'one of the' superlative phrases","scene_windows":0,"windows":5,"scene":"descriptions of institutions and systems"}
+{"neuron":6209,"pole":"low","cluster":7,"mode":"Noun ending a phrase about groups or economy","scene_windows":0,"windows":5,"scene":"health, economy, and environment reporting"}
+{"neuron":6209,"pole":"low","cluster":8,"mode":"'you' or 'can' after 'Can' in follow-up requests","scene_windows":0,"windows":5,"scene":"user requests for explanations and summaries"}
+{"neuron":3703,"pole":"high","cluster":0,"mode":"'to' after 'happy' in closing courtesy lines","scene_windows":0,"windows":5,"scene":"assistant thank-you exchanges"}
+{"neuron":3703,"pole":"high","cluster":1,"mode":"'happy' in polite reply to thanks","scene_windows":0,"windows":5,"scene":"assistant replies to user gratitude"}
+{"neuron":3703,"pole":"high","cluster":2,"mode":"'course' in 'Of course!' opening replies","scene_windows":0,"windows":5,"scene":"assistant agreeing to user requests"}
+{"neuron":3703,"pole":"high","cluster":3,"mode":"'the' or 'Here's' introducing a revised text","scene_windows":0,"windows":5,"scene":"assistant rewriting or editing user text"}
+{"neuron":3703,"pole":"high","cluster":4,"mode":"'more' after 'learn' in pointer phrases","scene_windows":0,"windows":5,"scene":"closing pointers to further information"}
+{"neuron":3703,"pole":"high","cluster":5,"mode":"'you' after 'Can' in user requests","scene_windows":0,"windows":5,"scene":"user requests for rewriting or explanations"}
+{"neuron":3703,"pole":"high","cluster":6,"mode":"Article 'a' or 'the' before evaluative noun","scene_windows":0,"windows":5,"scene":"descriptive narratives about history and business"}
+{"neuron":3703,"pole":"high","cluster":7,"mode":"Sentence-initial 'However' contrasting a point","scene_windows":0,"windows":5,"scene":"balanced advice and technical caveats"}
+{"neuron":3703,"pole":"high","cluster":8,"mode":"'any' in 'if you have any questions' closings","scene_windows":0,"windows":5,"scene":"assistant closing offers for more questions"}
+{"neuron":3703,"pole":"high","cluster":9,"mode":"The token \"if\" in closing offers after \"let me know\"","scene_windows":0,"windows":5,"scene":"Friendly assistant chat closing with offers of further help"}
+{"neuron":3703,"pole":"low","cluster":0,"mode":"Role label \"assistant\" starting answers to questions about documents","scene_windows":0,"windows":5,"scene":"User questions about books, shows, articles, then assistant replies"}
+{"neuron":3703,"pole":"low","cluster":1,"mode":"\"like\" or \"such\" introducing example lists within explanatory text","scene_windows":0,"windows":5,"scene":"Informational explanations of services, objects, weather, and examples"}
+{"neuron":3703,"pole":"low","cluster":2,"mode":"Infinitive or preposition \"to\" after nouns and verbs of effort","scene_windows":0,"windows":5,"scene":"Advice and explanatory text about apps, music, parks, baking"}
+{"neuron":3703,"pole":"low","cluster":3,"mode":"Preposition \"about\" following nouns like research, views, conclusions","scene_windows":0,"windows":5,"scene":"Informational discussion of research, theories, parenting, paywalls, aliens"}

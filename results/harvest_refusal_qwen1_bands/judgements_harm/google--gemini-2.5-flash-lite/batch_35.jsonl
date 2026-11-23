@@ -1,0 +1,62 @@
+{"neuron":6230,"pole":"high","cluster":0,"mode":"adding ingredients to recipes","scene_windows":0,"windows":5,"scene":"cooking and recipe instructions"}
+{"neuron":6230,"pole":"high","cluster":1,"mode":"ways to counteract or improve situations","scene_windows":0,"windows":5,"scene":"advice and explanations"}
+{"neuron":6230,"pole":"high","cluster":2,"mode":"types of air masses and their weather effects","scene_windows":0,"windows":5,"scene":"meteorology and weather patterns"}
+{"neuron":6230,"pole":"low","cluster":0,"mode":"making you more productive","scene_windows":0,"windows":5,"scene":"productivity and creativity advice"}
+{"neuron":6230,"pole":"low","cluster":1,"mode":"things that can help or are important","scene_windows":0,"windows":5,"scene":"advice and explanations"}
+{"neuron":6230,"pole":"low","cluster":2,"mode":"asking for help or assistance","scene_windows":0,"windows":5,"scene":"requesting assistance"}
+{"neuron":3621,"pole":"high","cluster":0,"mode":"apologizing for inability to help","scene_windows":0,"windows":5,"scene":"assistant's limitations"}
+{"neuron":3621,"pole":"high","cluster":1,"mode":"inability to perform an action","scene_windows":0,"windows":5,"scene":"narrative of struggle"}
+{"neuron":3621,"pole":"high","cluster":2,"mode":"completely independent or invisible","scene_windows":0,"windows":5,"scene":"technical and descriptive explanations"}
+{"neuron":3621,"pole":"high","cluster":3,"mode":"elephants do not use electricity","scene_windows":0,"windows":5,"scene":"animal facts and capabilities"}
+{"neuron":3621,"pole":"high","cluster":4,"mode":"relatively small or short","scene_windows":0,"windows":5,"scene":"describing size and characteristics"}
+{"neuron":3621,"pole":"high","cluster":5,"mode":"something was present but not desired","scene_windows":0,"windows":5,"scene":"narrative of discovery"}
+{"neuron":3621,"pole":"high","cluster":6,"mode":"song stuck in head","scene_windows":0,"windows":5,"scene":"personal experience and inquiry"}
+{"neuron":3621,"pole":"high","cluster":7,"mode":"personal statements of identity or knowledge","scene_windows":0,"windows":5,"scene":"dialogue and personal statements"}
+{"neuron":3621,"pole":"high","cluster":8,"mode":"evidence is weak or not clear","scene_windows":0,"windows":5,"scene":"scientific and medical information"}
+{"neuron":3621,"pole":"high","cluster":9,"mode":"general descriptive terms","scene_windows":0,"windows":5,"scene":"descriptive and factual statements"}
+{"neuron":3621,"pole":"high","cluster":10,"mode":"doing something together despite distance","scene_windows":0,"windows":5,"scene":"relationship advice"}
+{"neuron":3621,"pole":"low","cluster":0,"mode":"refreshing a webpage","scene_windows":0,"windows":5,"scene":"technical and procedural descriptions"}
+{"neuron":3621,"pole":"low","cluster":1,"mode":"things that were dangerous or strained","scene_windows":0,"windows":5,"scene":"narrative of conflict or difficulty"}
+{"neuron":8991,"pole":"high","cluster":0,"mode":"discussing gender and social determinants","scene_windows":0,"windows":5,"scene":"social and health discussions"}
+{"neuron":8991,"pole":"high","cluster":1,"mode":"displaying data from a database","scene_windows":0,"windows":5,"scene":"web development and data display"}
+{"neuron":8991,"pole":"low","cluster":0,"mode":"making content visually appealing","scene_windows":0,"windows":5,"scene":"marketing and content creation advice"}
+{"neuron":8991,"pole":"low","cluster":1,"mode":"using humor to capture attention","scene_windows":0,"windows":5,"scene":"marketing and content creation advice"}
+{"neuron":8991,"pole":"low","cluster":2,"mode":"ideas for specific requirements","scene_windows":0,"windows":5,"scene":"advice and idea generation"}
+{"neuron":8991,"pole":"low","cluster":3,"mode":"defining messaging and positioning","scene_windows":0,"windows":5,"scene":"marketing and business strategy"}
+{"neuron":8991,"pole":"low","cluster":4,"mode":"posing children for photos","scene_windows":0,"windows":5,"scene":"photography tips"}
+{"neuron":8991,"pole":"low","cluster":5,"mode":"using storytelling techniques","scene_windows":0,"windows":5,"scene":"content creation advice"}
+{"neuron":8991,"pole":"low","cluster":6,"mode":"asking for help or advice, often with a polite or hesitant tone","scene_windows":0,"windows":5,"scene":"seeking assistance or guidance"}
+{"neuron":4169,"pole":"high","cluster":0,"mode":"potential for serious consequences","scene_windows":1,"windows":5,"scene":"medical advice and warnings"}
+{"neuron":4169,"pole":"high","cluster":1,"mode":"minimizing damage from data breaches","scene_windows":0,"windows":5,"scene":"cybersecurity and data protection"}
+{"neuron":4169,"pole":"low","cluster":0,"mode":"asking neighbors to reduce noise","scene_windows":0,"windows":5,"scene":"neighborly disputes"}
+{"neuron":4169,"pole":"low","cluster":1,"mode":"things that are important or key","scene_windows":0,"windows":5,"scene":"narrative and advice"}
+{"neuron":4169,"pole":"low","cluster":2,"mode":"talking to a trusted adult","scene_windows":0,"windows":5,"scene":"advice for difficult situations"}
+{"neuron":5077,"pole":"high","cluster":0,"mode":"personal reflections and realizations","scene_windows":0,"windows":5,"scene":"personal narrative and reflection"}
+{"neuron":5077,"pole":"high","cluster":1,"mode":"questions about life and failure","scene_windows":0,"windows":5,"scene":"philosophical and personal inquiry"}
+{"neuron":5077,"pole":"low","cluster":0,"mode":"assistant's responses to user input","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":5077,"pole":"low","cluster":1,"mode":"assistant's positive affirmations","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":5077,"pole":"low","cluster":2,"mode":"positive affirmations from assistant","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":5077,"pole":"low","cluster":3,"mode":"general positive affirmations","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":5077,"pole":"low","cluster":4,"mode":"positive affirmations from assistant","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":5077,"pole":"low","cluster":5,"mode":"assistant's positive affirmations","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":3940,"pole":"high","cluster":0,"mode":"titles of books and authors","scene_windows":0,"windows":5,"scene":"bibliographic information"}
+{"neuron":3940,"pole":"high","cluster":1,"mode":"characteristics of Celtic peoples","scene_windows":0,"windows":5,"scene":"cultural and historical descriptions"}
+{"neuron":3940,"pole":"low","cluster":0,"mode":"acts of kindness and love","scene_windows":0,"windows":5,"scene":"personal values and relationships"}
+{"neuron":3940,"pole":"low","cluster":1,"mode":"activities to do together","scene_windows":0,"windows":5,"scene":"relationship activities"}
+{"neuron":752,"pole":"high","cluster":0,"mode":"policies and developments","scene_windows":0,"windows":5,"scene":"policy and technological development"}
+{"neuron":752,"pole":"high","cluster":1,"mode":"adding ingredients for nutrition","scene_windows":0,"windows":5,"scene":"cooking and recipe advice"}
+{"neuron":752,"pole":"low","cluster":0,"mode":"asking what the user would like","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":752,"pole":"low","cluster":1,"mode":"criteria for defining groups","scene_windows":0,"windows":5,"scene":"social and policy analysis"}
+{"neuron":752,"pole":"low","cluster":2,"mode":"ensuring awareness of priorities","scene_windows":0,"windows":5,"scene":"governance and communication"}
+{"neuron":7290,"pole":"high","cluster":0,"mode":"asking for explanations of concepts or definitions","scene_windows":0,"windows":5,"scene":"requesting definitions and explanations"}
+{"neuron":7290,"pole":"high","cluster":1,"mode":"asking for factual information or lists","scene_windows":0,"windows":5,"scene":"seeking factual information"}
+{"neuron":7290,"pole":"high","cluster":2,"mode":"describing how something is made or prepared","scene_windows":0,"windows":5,"scene":"explaining food preparation methods"}
+{"neuron":7290,"pole":"high","cluster":3,"mode":"defining terms or explaining processes","scene_windows":0,"windows":5,"scene":"defining terms and processes"}
+{"neuron":7290,"pole":"high","cluster":4,"mode":"describing specific items or entities","scene_windows":0,"windows":5,"scene":"identifying specific items"}
+{"neuron":7290,"pole":"high","cluster":5,"mode":"describing physical processes or components","scene_windows":0,"windows":5,"scene":"explaining physical components"}
+{"neuron":7290,"pole":"low","cluster":0,"mode":"suggesting or recommending actions or outcomes","scene_windows":0,"windows":5,"scene":"recommending actions or outcomes"}
+{"neuron":7290,"pole":"low","cluster":1,"mode":"discussing responsibilities and their impact","scene_windows":0,"windows":5,"scene":"discussing responsibilities and impact"}
+{"neuron":7290,"pole":"low","cluster":2,"mode":"emphasizing communication and constituent awareness","scene_windows":0,"windows":5,"scene":"communication and constituent awareness"}
+{"neuron":7290,"pole":"low","cluster":3,"mode":"asking for explanations of complex topics","scene_windows":0,"windows":5,"scene":"requesting layman's term explanations"}
+{"neuron":7290,"pole":"low","cluster":4,"mode":"describing preparation or formation processes","scene_windows":0,"windows":5,"scene":"describing preparation processes"}
+{"neuron":7290,"pole":"low","cluster":5,"mode":"discussing mathematical principles and concepts","scene_windows":0,"windows":5,"scene":"discussing mathematical principles"}

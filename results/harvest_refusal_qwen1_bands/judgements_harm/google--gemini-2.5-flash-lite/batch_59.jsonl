@@ -1,0 +1,80 @@
+{"neuron":10220,"pole":"high","cluster":0,"mode":"hypothetical questions about life choices and global problems","scene_windows":0,"windows":5,"scene":"hypothetical life choices"}
+{"neuron":10220,"pole":"high","cluster":1,"mode":"listing examples of new applications or services","scene_windows":0,"windows":5,"scene":"listing examples"}
+{"neuron":10220,"pole":"high","cluster":2,"mode":"providing examples of specific items or concepts","scene_windows":0,"windows":5,"scene":"providing examples"}
+{"neuron":10220,"pole":"high","cluster":3,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"asking for information"}
+{"neuron":10220,"pole":"high","cluster":4,"mode":"asking for clarification or information","scene_windows":0,"windows":5,"scene":"asking for clarification"}
+{"neuron":10220,"pole":"high","cluster":5,"mode":"explaining consequences or conditions","scene_windows":0,"windows":5,"scene":"explaining consequences"}
+{"neuron":10220,"pole":"high","cluster":6,"mode":"listing items or practices","scene_windows":0,"windows":5,"scene":"listing items"}
+{"neuron":10220,"pole":"high","cluster":7,"mode":"stating facts or conditions","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":10220,"pole":"high","cluster":8,"mode":"listing strategies, procedures, or programs","scene_windows":0,"windows":5,"scene":"listing strategies"}
+{"neuron":10220,"pole":"high","cluster":9,"mode":"ending sentences or clauses","scene_windows":0,"windows":5,"scene":"ending sentences"}
+{"neuron":10220,"pole":"low","cluster":0,"mode":"asking for recommendations or lists","scene_windows":0,"windows":5,"scene":"asking for recommendations"}
+{"neuron":10220,"pole":"low","cluster":1,"mode":"asking for lists or summaries","scene_windows":0,"windows":5,"scene":"asking for lists"}
+{"neuron":10220,"pole":"low","cluster":2,"mode":"providing lists or suggestions","scene_windows":0,"windows":5,"scene":"providing suggestions"}
+{"neuron":10220,"pole":"low","cluster":3,"mode":"listing options or methods","scene_windows":0,"windows":5,"scene":"listing options"}
+{"neuron":10220,"pole":"low","cluster":4,"mode":"asking rhetorical questions about situations","scene_windows":0,"windows":5,"scene":"rhetorical questions"}
+{"neuron":10220,"pole":"low","cluster":5,"mode":"stating facts or conditions","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":10220,"pole":"low","cluster":6,"mode":"stating facts or conditions","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":10220,"pole":"low","cluster":7,"mode":"describing a dangerous or frightening situation","scene_windows":1,"windows":5,"scene":"dangerous situation"}
+{"neuron":8515,"pole":"high","cluster":0,"mode":"conditional actions or outcomes","scene_windows":0,"windows":5,"scene":"conditional actions"}
+{"neuron":8515,"pole":"high","cluster":1,"mode":"contrasting statements or conditions","scene_windows":0,"windows":5,"scene":"contrasting statements"}
+{"neuron":8515,"pole":"high","cluster":2,"mode":"describing actions or events","scene_windows":0,"windows":5,"scene":"describing actions"}
+{"neuron":8515,"pole":"high","cluster":3,"mode":"describing qualities or risks","scene_windows":0,"windows":5,"scene":"describing qualities"}
+{"neuron":8515,"pole":"high","cluster":4,"mode":"listing conjunctions or connecting phrases","scene_windows":0,"windows":5,"scene":"listing conjunctions"}
+{"neuron":8515,"pole":"low","cluster":0,"mode":"listing course codes and terms","scene_windows":0,"windows":5,"scene":"listing course codes"}
+{"neuron":8515,"pole":"low","cluster":1,"mode":"listing page numbers and titles","scene_windows":0,"windows":5,"scene":"listing page numbers"}
+{"neuron":8515,"pole":"low","cluster":2,"mode":"referring to specific items or entities","scene_windows":0,"windows":5,"scene":"referring to items"}
+{"neuron":8515,"pole":"low","cluster":3,"mode":"asking rhetorical questions about situations","scene_windows":0,"windows":5,"scene":"rhetorical questions"}
+{"neuron":10108,"pole":"high","cluster":0,"mode":"prohibiting actions or allowing negative outcomes","scene_windows":0,"windows":5,"scene":"prohibiting actions"}
+{"neuron":10108,"pole":"high","cluster":1,"mode":"asking how something happened or was done","scene_windows":0,"windows":5,"scene":"asking how"}
+{"neuron":10108,"pole":"high","cluster":2,"mode":"referring to specific items or entities","scene_windows":0,"windows":5,"scene":"referring to items"}
+{"neuron":10108,"pole":"high","cluster":3,"mode":"reducing risks or likelihoods","scene_windows":0,"windows":5,"scene":"reducing risks"}
+{"neuron":10108,"pole":"low","cluster":0,"mode":"preventing negative outcomes","scene_windows":0,"windows":5,"scene":"preventing negative outcomes"}
+{"neuron":10108,"pole":"low","cluster":1,"mode":"listing potential threats or conditions","scene_windows":0,"windows":5,"scene":"listing threats"}
+{"neuron":10108,"pole":"low","cluster":2,"mode":"reducing negative outcomes","scene_windows":0,"windows":5,"scene":"reducing negative outcomes"}
+{"neuron":9386,"pole":"high","cluster":0,"mode":"asking clarifying questions","scene_windows":0,"windows":5,"scene":"asking clarifying questions"}
+{"neuron":9386,"pole":"high","cluster":1,"mode":"stating negative conditions or limitations","scene_windows":0,"windows":5,"scene":"stating negative conditions"}
+{"neuron":9386,"pole":"high","cluster":2,"mode":"stating negative conditions or limitations","scene_windows":0,"windows":5,"scene":"stating negative conditions"}
+{"neuron":9386,"pole":"low","cluster":0,"mode":"describing actions being carried out","scene_windows":0,"windows":5,"scene":"describing actions"}
+{"neuron":9386,"pole":"low","cluster":1,"mode":"listing health conditions","scene_windows":0,"windows":5,"scene":"listing health conditions"}
+{"neuron":9386,"pole":"low","cluster":2,"mode":"describing items or entities","scene_windows":0,"windows":5,"scene":"describing items"}
+{"neuron":9386,"pole":"low","cluster":3,"mode":"describing simple or advanced qualities","scene_windows":0,"windows":5,"scene":"describing qualities"}
+{"neuron":9386,"pole":"low","cluster":4,"mode":"describing approximate quantities or times","scene_windows":0,"windows":5,"scene":"describing quantities"}
+{"neuron":3342,"pole":"high","cluster":0,"mode":"positive feedback and support for a plan","scene_windows":0,"windows":5,"scene":"positive feedback on a plan"}
+{"neuron":3342,"pole":"high","cluster":1,"mode":"listing options or suggestions","scene_windows":0,"windows":5,"scene":"offering suggestions or options"}
+{"neuron":3342,"pole":"low","cluster":0,"mode":"describing a type or kind of behavior or technology","scene_windows":0,"windows":5,"scene":"describing types of behavior"}
+{"neuron":3342,"pole":"low","cluster":1,"mode":"describing an action or attempt","scene_windows":0,"windows":5,"scene":"describing attempts or actions"}
+{"neuron":3342,"pole":"low","cluster":2,"mode":"describing a degree or quantity","scene_windows":0,"windows":5,"scene":"describing degrees of intensity"}
+{"neuron":3342,"pole":"low","cluster":3,"mode":"describing the remainder or other parts","scene_windows":0,"windows":5,"scene":"describing remaining parts"}
+{"neuron":3342,"pole":"low","cluster":4,"mode":"describing a quantity or approximation","scene_windows":0,"windows":5,"scene":"describing quantities or approximations"}
+{"neuron":3342,"pole":"low","cluster":5,"mode":"describing a large quantity or amount","scene_windows":0,"windows":5,"scene":"describing large amounts"}
+{"neuron":3342,"pole":"low","cluster":6,"mode":"discussing topics or subjects","scene_windows":0,"windows":5,"scene":"discussing topics or subjects"}
+{"neuron":3342,"pole":"low","cluster":7,"mode":"indicating necessity or obligation","scene_windows":0,"windows":5,"scene":"indicating necessity or obligation"}
+{"neuron":3342,"pole":"low","cluster":8,"mode":"referring to people or groups","scene_windows":0,"windows":5,"scene":"referring to people or groups"}
+{"neuron":3342,"pole":"low","cluster":9,"mode":"making sure or verifying","scene_windows":0,"windows":5,"scene":"making sure or verifying"}
+{"neuron":1443,"pole":"high","cluster":0,"mode":"referring to a time period or historical context","scene_windows":0,"windows":5,"scene":"referring to historical periods"}
+{"neuron":1443,"pole":"high","cluster":1,"mode":"negating a general statement or possibility","scene_windows":0,"windows":5,"scene":"negating general statements"}
+{"neuron":1443,"pole":"low","cluster":0,"mode":"referring to a group or collective","scene_windows":0,"windows":5,"scene":"referring to groups or collectives"}
+{"neuron":1443,"pole":"low","cluster":1,"mode":"describing a manner or way","scene_windows":0,"windows":5,"scene":"describing a manner or way"}
+{"neuron":1443,"pole":"low","cluster":2,"mode":"describing a location or state","scene_windows":0,"windows":5,"scene":"describing locations or states"}
+{"neuron":1443,"pole":"low","cluster":3,"mode":"describing a quantity or approximation","scene_windows":0,"windows":5,"scene":"describing quantities or approximations"}
+{"neuron":1443,"pole":"low","cluster":4,"mode":"describing a quantity or approximation","scene_windows":0,"windows":5,"scene":"describing quantities or approximations"}
+{"neuron":3808,"pole":"high","cluster":0,"mode":"contrasting options or choices","scene_windows":0,"windows":5,"scene":"contrasting options"}
+{"neuron":3808,"pole":"high","cluster":1,"mode":"describing conditions or scenarios","scene_windows":0,"windows":5,"scene":"describing conditions"}
+{"neuron":3808,"pole":"low","cluster":0,"mode":"describing repetitive or manual tasks","scene_windows":0,"windows":5,"scene":"describing tasks"}
+{"neuron":3808,"pole":"low","cluster":1,"mode":"listing inexpensive items or materials","scene_windows":0,"windows":5,"scene":"listing inexpensive items"}
+{"neuron":3808,"pole":"low","cluster":2,"mode":"referring to specific items or entities","scene_windows":0,"windows":5,"scene":"referring to items"}
+{"neuron":3808,"pole":"low","cluster":3,"mode":"describing simple or advanced qualities","scene_windows":0,"windows":5,"scene":"describing qualities"}
+{"neuron":1117,"pole":"high","cluster":0,"mode":"referring to specific items or entities","scene_windows":0,"windows":5,"scene":"referring to items"}
+{"neuron":1117,"pole":"high","cluster":1,"mode":"listing citations or references","scene_windows":0,"windows":5,"scene":"listing citations"}
+{"neuron":1117,"pole":"low","cluster":0,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"listing ingredients"}
+{"neuron":1117,"pole":"low","cluster":1,"mode":"listing citations or references","scene_windows":0,"windows":5,"scene":"listing citations"}
+{"neuron":1117,"pole":"low","cluster":2,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"listing ingredients"}
+{"neuron":1117,"pole":"low","cluster":3,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"listing ingredients"}
+{"neuron":1117,"pole":"low","cluster":4,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"listing ingredients"}
+{"neuron":1117,"pole":"low","cluster":5,"mode":"listing meal components","scene_windows":0,"windows":5,"scene":"listing meal components"}
+{"neuron":1117,"pole":"low","cluster":6,"mode":"listing code snippets or functions","scene_windows":0,"windows":5,"scene":"listing code snippets"}
+{"neuron":1117,"pole":"low","cluster":7,"mode":"asking for clarification or information","scene_windows":0,"windows":5,"scene":"asking for clarification"}
+{"neuron":1117,"pole":"low","cluster":8,"mode":"asking for clarification or information","scene_windows":0,"windows":5,"scene":"asking for clarification"}
+{"neuron":1117,"pole":"low","cluster":9,"mode":"listing conjunctions or connecting phrases","scene_windows":0,"windows":5,"scene":"listing conjunctions"}
+{"neuron":1117,"pole":"low","cluster":10,"mode":"expressing personal feelings or opinions","scene_windows":0,"windows":5,"scene":"expressing opinions"}

@@ -1,0 +1,75 @@
+{"neuron":655,"pole":"high","cluster":0,"mode":"neutral statements about facts, instructions, or descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":655,"pole":"high","cluster":1,"mode":"expressions of happiness and excitement","happy_windows":5,"windows":5,"scene":"joyful moments"}
+{"neuron":655,"pole":"high","cluster":2,"mode":"story beginnings with 'Once upon a time' and 'loved to'","happy_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":655,"pole":"high","cluster":3,"mode":"story beginnings with 'Once upon a time' and 'loved to'","happy_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":655,"pole":"high","cluster":4,"mode":"words related to food, plants, and scientific terms","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":655,"pole":"high","cluster":5,"mode":"pronouns and words related to actions and overcoming challenges","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":655,"pole":"low","cluster":0,"mode":"references to family members like mom and mommy","happy_windows":0,"windows":5,"scene":"family interactions"}
+{"neuron":655,"pole":"low","cluster":1,"mode":"words related to worry, animals, and actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":655,"pole":"low","cluster":2,"mode":"names and titles, often in historical or military contexts","happy_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":9806,"pole":"high","cluster":0,"mode":"words related to nature, water, and actions","happy_windows":1,"windows":5,"scene":"nature exploration"}
+{"neuron":9806,"pole":"high","cluster":1,"mode":"numbers and measurements, often in scientific or technical contexts","happy_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":9806,"pole":"low","cluster":0,"mode":"words related to animals, food, and descriptions","happy_windows":0,"windows":5,"scene":"animal descriptions"}
+{"neuron":9806,"pole":"low","cluster":1,"mode":"articles and prepositions, often in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9806,"pole":"low","cluster":2,"mode":"words related to time, states, and physical processes","happy_windows":0,"windows":5,"scene":"scientific explanation"}
+{"neuron":9806,"pole":"low","cluster":3,"mode":"words related to discovery, actions, and locations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9806,"pole":"low","cluster":4,"mode":"words related to actions, possession, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9806,"pole":"low","cluster":5,"mode":"words related to family, objects, and actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9806,"pole":"low","cluster":6,"mode":"words related to actions, animals, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"high","cluster":0,"mode":"words related to location, sound, and discovery","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"high","cluster":1,"mode":"words related to activities, technology, and marketing","happy_windows":0,"windows":5,"scene":"business context"}
+{"neuron":11548,"pole":"high","cluster":2,"mode":"expressions of apology, relief, and acceptance","happy_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":11548,"pole":"high","cluster":3,"mode":"words related to nature, actions, and sudden events","happy_windows":1,"windows":5,"scene":"playful outdoor scene"}
+{"neuron":11548,"pole":"high","cluster":4,"mode":"words related to movement, direction, and observation","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"high","cluster":5,"mode":"words related to agreement, actions, and gratitude","happy_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":11548,"pole":"low","cluster":0,"mode":"words related to surprise, fear, and sounds","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"low","cluster":1,"mode":"articles and prepositions, often in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"low","cluster":2,"mode":"words related to time, states, and physical processes","happy_windows":0,"windows":5,"scene":"scientific explanation"}
+{"neuron":11548,"pole":"low","cluster":3,"mode":"words related to discovery, actions, and locations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"low","cluster":4,"mode":"words related to actions, possession, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"low","cluster":5,"mode":"words related to family, objects, and actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"low","cluster":6,"mode":"words related to actions, animals, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11548,"pole":"low","cluster":7,"mode":"numbers and abbreviations, often in technical or scientific contexts","happy_windows":0,"windows":5,"scene":"technical context"}
+{"neuron":10226,"pole":"high","cluster":0,"mode":"words related to society, history, and descriptions","happy_windows":0,"windows":5,"scene":"social commentary"}
+{"neuron":10226,"pole":"high","cluster":1,"mode":"names and titles, often in fictional or character contexts","happy_windows":0,"windows":5,"scene":"character introduction"}
+{"neuron":10226,"pole":"high","cluster":2,"mode":"articles and prepositions, often in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10226,"pole":"high","cluster":3,"mode":"words related to professions, objects, and actions","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10226,"pole":"high","cluster":4,"mode":"words related to society, politics, and processes","happy_windows":0,"windows":5,"scene":"societal context"}
+{"neuron":10226,"pole":"low","cluster":0,"mode":"words related to awards, literature, and descriptions","happy_windows":0,"windows":5,"scene":"literary context"}
+{"neuron":10226,"pole":"low","cluster":1,"mode":"expressions of surprise, happiness, and excitement","happy_windows":1,"windows":5,"scene":"joyful moments"}
+{"neuron":10226,"pole":"low","cluster":2,"mode":"articles and prepositions, often in narrative contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10226,"pole":"low","cluster":3,"mode":"words related to happiness, excitement, and positive emotions","happy_windows":0,"windows":5,"scene":"positive emotions"}
+{"neuron":10226,"pole":"low","cluster":4,"mode":"words related to desire, actions, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8190,"pole":"high","cluster":0,"mode":"words related to food, ingredients, and preparation","happy_windows":0,"windows":5,"scene":"food preparation"}
+{"neuron":8190,"pole":"high","cluster":1,"mode":"words related to events, locations, and time","happy_windows":0,"windows":5,"scene":"event description"}
+{"neuron":8190,"pole":"high","cluster":2,"mode":"words related to time, relationships, and memories","happy_windows":0,"windows":5,"scene":"nostalgic reflection"}
+{"neuron":8190,"pole":"high","cluster":3,"mode":"words related to playing, friendship, and activities","happy_windows":0,"windows":5,"scene":"playful interaction"}
+{"neuron":8190,"pole":"high","cluster":4,"mode":"names and pronouns referring to people or groups","happy_windows":0,"windows":5,"scene":"character focus"}
+{"neuron":8190,"pole":"high","cluster":5,"mode":"words related to emotions, states, and actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8190,"pole":"low","cluster":0,"mode":"references to 'mom' and 'mommy' in a caring context","happy_windows":0,"windows":5,"scene":"family interaction"}
+{"neuron":8190,"pole":"low","cluster":1,"mode":"words related to actions, movement, and direction","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8190,"pole":"low","cluster":2,"mode":"words related to actions, states, and objects","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4153,"pole":"high","cluster":0,"mode":"words related to food preparation and serving","happy_windows":0,"windows":5,"scene":"cooking instructions"}
+{"neuron":4153,"pole":"high","cluster":1,"mode":"expressions of surprise, excitement, and positive feelings","happy_windows":4,"windows":5,"scene":"joyful outdoor scene"}
+{"neuron":4153,"pole":"high","cluster":2,"mode":"words related to events, locations, and descriptions","happy_windows":0,"windows":5,"scene":"event description"}
+{"neuron":4153,"pole":"high","cluster":3,"mode":"words related to time, actions, and observations","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4153,"pole":"high","cluster":4,"mode":"words related to surprise, discovery, and sounds","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4153,"pole":"high","cluster":5,"mode":"words related to actions, placement, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4153,"pole":"high","cluster":6,"mode":"words related to names, actions, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4153,"pole":"low","cluster":0,"mode":"words related to fear, movement, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4153,"pole":"low","cluster":1,"mode":"words related to negative emotions, actions, and descriptions","happy_windows":0,"windows":5,"scene":"negative emotions"}
+{"neuron":5052,"pole":"high","cluster":0,"mode":"words related to websites, tools, and actions","happy_windows":0,"windows":5,"scene":"web development"}
+{"neuron":5052,"pole":"high","cluster":1,"mode":"dialogue expressing agreement, excitement, and curiosity","happy_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":5052,"pole":"low","cluster":0,"mode":"words related to feelings, actions, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5052,"pole":"low","cluster":1,"mode":"words related to negative emotions, actions, and descriptions","happy_windows":0,"windows":5,"scene":"negative emotions"}
+{"neuron":5052,"pole":"low","cluster":2,"mode":"words related to commands, directories, and file operations","happy_windows":0,"windows":5,"scene":"technical instructions"}
+{"neuron":5052,"pole":"low","cluster":3,"mode":"words related to names, historical periods, and descriptions","happy_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":6472,"pole":"high","cluster":0,"mode":"dialogue expressing refusal, disagreement, or commands","happy_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":6472,"pole":"high","cluster":1,"mode":"conjunctions indicating contrast or unexpected events","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6472,"pole":"high","cluster":2,"mode":"words related to actions, locations, and excitement","happy_windows":1,"windows":5,"scene":"playful outdoor scene"}
+{"neuron":6472,"pole":"high","cluster":3,"mode":"adverbs expressing intensity and positive emotions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6472,"pole":"high","cluster":4,"mode":"words related to parts, materials, and descriptions","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":6472,"pole":"high","cluster":5,"mode":"words related to actions, helping, and learning","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6472,"pole":"high","cluster":6,"mode":"pronouns and words related to actions and excitement","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6472,"pole":"low","cluster":0,"mode":"words related to movement, sensation, and descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6472,"pole":"low","cluster":1,"mode":"words related to negative emotions, actions, and descriptions","happy_windows":0,"windows":5,"scene":"negative emotions"}

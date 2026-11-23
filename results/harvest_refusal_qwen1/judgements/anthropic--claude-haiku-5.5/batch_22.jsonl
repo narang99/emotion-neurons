@@ -1,0 +1,46 @@
+{"neuron":7696,"pole":"high","cluster":0,"mode":"sentence-initial 'It' in neutral expository prose","scene_windows":0,"windows":5,"scene":"neutral essays and explanatory articles on everyday topics"}
+{"neuron":7696,"pole":"high","cluster":1,"mode":"sentence-final periods and 'is' in factual statements","scene_windows":0,"windows":5,"scene":"factual Q&A and informational text about parks, forests, legality"}
+{"neuron":7696,"pole":"high","cluster":2,"mode":"punctuation ending narrative sentences in fiction","scene_windows":0,"windows":5,"scene":"fantasy and dialogue fiction passages"}
+{"neuron":7696,"pole":"low","cluster":0,"mode":"'Assistant' label token starting a reply to a human question","scene_windows":0,"windows":5,"scene":"benign chat questions about cooking, cheering up, shopping"}
+{"neuron":7696,"pole":"low","cluster":1,"mode":"colon or space before a list in an assistant answer","scene_windows":0,"windows":5,"scene":"helpful assistant giving tips and lists on everyday topics"}
+{"neuron":7696,"pole":"low","cluster":2,"mode":"'user' speaker label in multi-turn conversational transcripts","scene_windows":0,"windows":5,"scene":"casual chat turns discussing food, music, films"}
+{"neuron":7696,"pole":"low","cluster":3,"mode":"opening quotation mark starting dialogue after narration","scene_windows":0,"windows":5,"scene":"fiction narration introducing spoken lines"}
+{"neuron":7696,"pole":"low","cluster":4,"mode":"blank indentation token before a new fiction paragraph","scene_windows":0,"windows":5,"scene":"science fiction and thriller narrative passages"}
+{"neuron":7696,"pole":"low","cluster":5,"mode":"period closing a sentence in informal or descriptive prose","scene_windows":0,"windows":5,"scene":"travel diaries, gaming forum and science commentary"}
+{"neuron":7696,"pole":"low","cluster":6,"mode":"mid-sentence function word in explanatory prose","scene_windows":0,"windows":5,"scene":"encyclopedic and health-science explanations"}
+{"neuron":7696,"pole":"low","cluster":7,"mode":"domain-suffix token inside a URL","scene_windows":0,"windows":5,"scene":"assistant answers containing reference links"}
+{"neuron":7696,"pole":"low","cluster":8,"mode":"period followed by a 'user:' turn marker","scene_windows":0,"windows":5,"scene":"multi-turn chat following informational or course text"}
+{"neuron":7696,"pole":"low","cluster":9,"mode":"question mark ending a human question before the assistant reply","scene_windows":0,"windows":5,"scene":"benign science, pets and entertainment questions"}
+{"neuron":4329,"pole":"high","cluster":0,"mode":"question mark ending a human question before an assistant answer","scene_windows":0,"windows":5,"scene":"health, science and computing Q&A"}
+{"neuron":4329,"pole":"high","cluster":1,"mode":"colon after 'Assistant' introducing a list or answer","scene_windows":0,"windows":5,"scene":"friendly assistant suggestions for recipes, dates, study"}
+{"neuron":4329,"pole":"high","cluster":2,"mode":"article 'a' or 'is' in 'this is a complex question' openers","scene_windows":0,"windows":5,"scene":"assistant hedging on opinion or ethics questions"}
+{"neuron":4329,"pole":"high","cluster":3,"mode":"period ending generalized health or factual statements","scene_windows":0,"windows":5,"scene":"informational text on health, rabbits, home decor"}
+{"neuron":4329,"pole":"high","cluster":4,"mode":"noun ending a finance or nutrition phrase, e.g. 'funds', 'diet'","scene_windows":0,"windows":5,"scene":"explanatory text on money laundering, workouts, recipes"}
+{"neuron":4329,"pole":"high","cluster":5,"mode":"'hope' and 'helps' in friendly closing sentences","scene_windows":0,"windows":5,"scene":"assistant closing remarks offering encouragement and advice"}
+{"neuron":4329,"pole":"low","cluster":0,"mode":"preposition or noun in technical or manufacturing description","scene_windows":0,"windows":5,"scene":"technical text on MIMO, weather models, crafts"}
+{"neuron":4329,"pole":"low","cluster":1,"mode":"comma after an appositive or clause in encyclopedic prose","scene_windows":0,"windows":5,"scene":"encyclopedic descriptions of festivals, events, medicine"}
+{"neuron":5337,"pole":"high","cluster":0,"mode":"sentence-ending period in historical or factual statements","scene_windows":0,"windows":5,"scene":"history of IVF, soft drinks, forecasting, recipes"}
+{"neuron":5337,"pole":"high","cluster":1,"mode":"determiner or preposition in historical or statistical descriptions","scene_windows":0,"windows":5,"scene":"gun violence statistics, Windows history, soda trends"}
+{"neuron":5337,"pole":"low","cluster":0,"mode":"noun or verb mid-sentence in historical narrative","scene_windows":0,"windows":5,"scene":"history, astronomy and biography passages"}
+{"neuron":5337,"pole":"low","cluster":1,"mode":"'which' or 'this' linking clauses in explanations","scene_windows":0,"windows":5,"scene":"science and math explanations of physical processes"}
+{"neuron":10138,"pole":"high","cluster":0,"mode":"possessive or preposition inside general advisory sentences","scene_windows":0,"windows":5,"scene":"history, chemical safety tips, self-improvement advice"}
+{"neuron":10138,"pole":"high","cluster":1,"mode":"ingredient list punctuation in baking recipes","scene_windows":0,"windows":5,"scene":"cookie and chicken recipe instructions"}
+{"neuron":4486,"pole":"high","cluster":0,"mode":"noun or pronoun ending a clause in opinionated essay prose","scene_windows":0,"windows":5,"scene":"essays on society, family, democracy"}
+{"neuron":4486,"pole":"high","cluster":1,"mode":"copular 'is' or 'are' introducing a generalized claim","scene_windows":0,"windows":5,"scene":"essays on charity, language, teaching, research summaries"}
+{"neuron":125,"pole":"high","cluster":0,"mode":"'information' or 'more' in user requests for further detail","scene_windows":0,"windows":5,"scene":"user asking follow-up detail on topics"}
+{"neuron":125,"pole":"high","cluster":1,"mode":"bracket, colon or whitespace starting a new template or segment","scene_windows":0,"windows":5,"scene":"templates, sports schedule, product review writing"}
+{"neuron":125,"pole":"high","cluster":2,"mode":"word completing a claim about a noun or valuable experience","scene_windows":0,"windows":5,"scene":"news and academic profile writing"}
+{"neuron":125,"pole":"high","cluster":3,"mode":"repeated dashes separating sections of text","scene_windows":0,"windows":5,"scene":"fiction chapter breaks and separators"}
+{"neuron":125,"pole":"low","cluster":0,"mode":"closing offer-of-help phrase ending assistant reply","scene_windows":0,"windows":5,"scene":"assistant closing lines inviting follow-up questions"}
+{"neuron":125,"pole":"low","cluster":1,"mode":"token mid-phrase in encyclopedic facts or numbers","scene_windows":0,"windows":5,"scene":"encyclopedic facts about people, IMF, bees"}
+{"neuron":125,"pole":"low","cluster":2,"mode":"dialogue or hedging words inside narrative fiction","scene_windows":0,"windows":5,"scene":"fiction dialogue and story narration"}
+{"neuron":4976,"pole":"high","cluster":0,"mode":"period ending a short dramatic narrative sentence","scene_windows":0,"windows":5,"scene":"fiction with violence, chases and aftermath"}
+{"neuron":4976,"pole":"high","cluster":1,"mode":"'the' or number inside historical or geographic facts","scene_windows":0,"windows":5,"scene":"history, population statistics, literature background"}
+{"neuron":4976,"pole":"high","cluster":2,"mode":"content noun or verb in descriptive assistant explanations","scene_windows":0,"windows":5,"scene":"assistant explanations on education, music, sports, customs"}
+{"neuron":4976,"pole":"low","cluster":0,"mode":"function word in technical or narrative explanation","scene_windows":0,"windows":5,"scene":"medical explanation, fiction about nuking a volcano"}
+{"neuron":4976,"pole":"low","cluster":1,"mode":"comma or university name in biographical or news facts","scene_windows":0,"windows":5,"scene":"science news and university research reports"}
+{"neuron":5660,"pole":"high","cluster":0,"mode":"noun ending a phrase about challenges or hardships","scene_windows":0,"windows":5,"scene":"essays on drug abuse, first responders, adventure stories"}
+{"neuron":5660,"pole":"high","cluster":1,"mode":"'by' or 'of' after a verb of control or thwarting","scene_windows":0,"windows":5,"scene":"political commentary and fiction battle scenes"}
+{"neuron":5660,"pole":"high","cluster":2,"mode":"conjunction 'and' or 'or' linking lists of risks or traits","scene_windows":0,"windows":5,"scene":"health and emotion explanations, aquarium care, alcohol risks"}
+{"neuron":5660,"pole":"low","cluster":0,"mode":"determiner or conjunction inside historical or moral narration","scene_windows":0,"windows":5,"scene":"historical essays and fiction about power and patronage"}
+{"neuron":5660,"pole":"low","cluster":1,"mode":"digits, brackets or list punctuation in tables or lists","scene_windows":0,"windows":5,"scene":"nutrition tables, sleep tips, surname lists"}

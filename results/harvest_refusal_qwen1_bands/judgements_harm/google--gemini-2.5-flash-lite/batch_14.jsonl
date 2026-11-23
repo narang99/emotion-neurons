@@ -1,0 +1,79 @@
+{"neuron":902,"pole":"high","cluster":0,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":902,"pole":"high","cluster":1,"mode":"expressing gratitude or thanks","scene_windows":0,"windows":5,"scene":"polite interaction"}
+{"neuron":902,"pole":"high","cluster":2,"mode":"acknowledging correctness or agreement","scene_windows":0,"windows":5,"scene":"neutral clarification"}
+{"neuron":902,"pole":"high","cluster":3,"mode":"acknowledging an interesting point or question","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":902,"pole":"high","cluster":4,"mode":"acknowledging a statement or question","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":902,"pole":"high","cluster":5,"mode":"acknowledging a statement or question","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":902,"pole":"high","cluster":6,"mode":"addressing someone directly, often with emphasis","scene_windows":0,"windows":5,"scene":"direct address"}
+{"neuron":902,"pole":"high","cluster":7,"mode":"asking a rhetorical or challenging question","scene_windows":0,"windows":5,"scene":"confrontational questioning"}
+{"neuron":902,"pole":"high","cluster":8,"mode":"using punctuation for lists or citations","scene_windows":0,"windows":5,"scene":"listing information"}
+{"neuron":902,"pole":"high","cluster":9,"mode":"using prepositions or conjunctions","scene_windows":0,"windows":5,"scene":"connecting ideas"}
+{"neuron":902,"pole":"high","cluster":10,"mode":"ending sentences or clauses","scene_windows":0,"windows":5,"scene":"sentence termination"}
+{"neuron":902,"pole":"low","cluster":0,"mode":"asking a question, often seeking advice","scene_windows":0,"windows":5,"scene":"seeking advice"}
+{"neuron":902,"pole":"low","cluster":1,"mode":"expressing nervousness or inadequacy","scene_windows":0,"windows":5,"scene":"hesitant self-assessment"}
+{"neuron":902,"pole":"low","cluster":2,"mode":"asking a question, often with surprise or disbelief","scene_windows":0,"windows":5,"scene":"surprised questioning"}
+{"neuron":902,"pole":"low","cluster":3,"mode":"asking a question, often with doubt or challenge","scene_windows":0,"windows":5,"scene":"challenging question"}
+{"neuron":902,"pole":"low","cluster":4,"mode":"making a claim or statement","scene_windows":0,"windows":5,"scene":"asserting a claim"}
+{"neuron":902,"pole":"low","cluster":5,"mode":"using conjunctions to connect clauses","scene_windows":0,"windows":5,"scene":"connecting ideas"}
+{"neuron":902,"pole":"low","cluster":6,"mode":"using conjunctions to connect clauses","scene_windows":0,"windows":5,"scene":"connecting ideas"}
+{"neuron":239,"pole":"high","cluster":0,"mode":"prepositions indicating inclusion or purpose","scene_windows":0,"windows":5,"scene":"listing components"}
+{"neuron":239,"pole":"high","cluster":1,"mode":"describing water for consumption","scene_windows":0,"windows":5,"scene":"water safety"}
+{"neuron":47,"pole":"high","cluster":0,"mode":"listing items or steps","scene_windows":0,"windows":5,"scene":"enumerating points"}
+{"neuron":47,"pole":"high","cluster":1,"mode":"referencing biblical verses or chapters","scene_windows":0,"windows":5,"scene":"biblical citation"}
+{"neuron":47,"pole":"high","cluster":2,"mode":"listing food preparation methods","scene_windows":0,"windows":5,"scene":"culinary suggestions"}
+{"neuron":47,"pole":"high","cluster":3,"mode":"listing legal or religious injunctions","scene_windows":0,"windows":5,"scene":"legal/religious rules"}
+{"neuron":47,"pole":"high","cluster":4,"mode":"listing technological applications or features","scene_windows":0,"windows":5,"scene":"technology features"}
+{"neuron":47,"pole":"high","cluster":5,"mode":"listing potential benefits or outcomes","scene_windows":0,"windows":5,"scene":"listing benefits"}
+{"neuron":47,"pole":"high","cluster":6,"mode":"listing positive attributes or outcomes","scene_windows":0,"windows":5,"scene":"positive outcomes"}
+{"neuron":47,"pole":"high","cluster":7,"mode":"listing impacts or effects","scene_windows":0,"windows":5,"scene":"listing impacts"}
+{"neuron":47,"pole":"high","cluster":8,"mode":"listing activities or items","scene_windows":0,"windows":5,"scene":"listing activities"}
+{"neuron":47,"pole":"high","cluster":9,"mode":"listing examples or items","scene_windows":0,"windows":5,"scene":"listing examples"}
+{"neuron":47,"pole":"high","cluster":10,"mode":"listing potential dangers or concerns","scene_windows":0,"windows":5,"scene":"listing dangers"}
+{"neuron":47,"pole":"high","cluster":11,"mode":"listing potential issues or applications","scene_windows":0,"windows":5,"scene":"listing issues"}
+{"neuron":47,"pole":"high","cluster":12,"mode":"listing food items or preparations","scene_windows":0,"windows":5,"scene":"listing food"}
+{"neuron":47,"pole":"high","cluster":13,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"listing ingredients"}
+{"neuron":47,"pole":"high","cluster":14,"mode":"listing technological advancements or applications","scene_windows":0,"windows":5,"scene":"listing technology"}
+{"neuron":47,"pole":"high","cluster":15,"mode":"listing social media strategies or techniques","scene_windows":0,"windows":5,"scene":"listing strategies"}
+{"neuron":47,"pole":"low","cluster":0,"mode":"indicating educational support or services","scene_windows":0,"windows":5,"scene":"educational services"}
+{"neuron":47,"pole":"low","cluster":1,"mode":"asking for more information or clarification","scene_windows":0,"windows":5,"scene":"seeking details"}
+{"neuron":9838,"pole":"high","cluster":0,"mode":"citing medical journals and page numbers","scene_windows":0,"windows":5,"scene":"medical citation"}
+{"neuron":9838,"pole":"high","cluster":1,"mode":"citing academic journals and volume/page numbers","scene_windows":0,"windows":5,"scene":"academic citation"}
+{"neuron":9838,"pole":"high","cluster":2,"mode":"expressing urgency or impending doom","scene_windows":0,"windows":5,"scene":"urgent situation"}
+{"neuron":9838,"pole":"high","cluster":3,"mode":"making a conditional statement or threat","scene_windows":0,"windows":5,"scene":"conditional threat"}
+{"neuron":9838,"pole":"high","cluster":4,"mode":"using punctuation within sentences","scene_windows":0,"windows":5,"scene":"sentence punctuation"}
+{"neuron":9838,"pole":"high","cluster":5,"mode":"referencing sources or archives","scene_windows":0,"windows":5,"scene":"source reference"}
+{"neuron":9838,"pole":"high","cluster":6,"mode":"asking for more details or descriptions","scene_windows":0,"windows":5,"scene":"requesting details"}
+{"neuron":9838,"pole":"high","cluster":7,"mode":"citing medical journals and page numbers","scene_windows":0,"windows":5,"scene":"medical citation"}
+{"neuron":9838,"pole":"high","cluster":8,"mode":"referencing parts of a text or object","scene_windows":0,"windows":5,"scene":"referencing parts"}
+{"neuron":9838,"pole":"high","cluster":9,"mode":"listing items or features","scene_windows":0,"windows":5,"scene":"listing features"}
+{"neuron":9838,"pole":"low","cluster":0,"mode":"reporting statements or quotes","scene_windows":0,"windows":5,"scene":"reporting statements"}
+{"neuron":9838,"pole":"low","cluster":1,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"seeking clarification"}
+{"neuron":9838,"pole":"low","cluster":2,"mode":"referencing names or historical figures","scene_windows":0,"windows":5,"scene":"historical references"}
+{"neuron":9838,"pole":"low","cluster":3,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"seeking information"}
+{"neuron":9838,"pole":"low","cluster":4,"mode":"listing authors or researchers","scene_windows":0,"windows":5,"scene":"listing authors"}
+{"neuron":9838,"pole":"low","cluster":5,"mode":"asking questions about time or origin","scene_windows":0,"windows":5,"scene":"inquiring about time"}
+{"neuron":9838,"pole":"low","cluster":6,"mode":"asking for recommendations or suggestions","scene_windows":0,"windows":5,"scene":"seeking recommendations"}
+{"neuron":9838,"pole":"low","cluster":7,"mode":"asking questions about existence or state","scene_windows":0,"windows":5,"scene":"inquiring about state"}
+{"neuron":10742,"pole":"high","cluster":0,"mode":"offering assistance or information","scene_windows":0,"windows":5,"scene":"offering help"}
+{"neuron":10742,"pole":"high","cluster":1,"mode":"offering closing remarks or well wishes","scene_windows":0,"windows":5,"scene":"polite closing"}
+{"neuron":10742,"pole":"high","cluster":2,"mode":"offering information or assistance","scene_windows":0,"windows":5,"scene":"offering assistance"}
+{"neuron":10742,"pole":"high","cluster":3,"mode":"expressing surprise or disbelief","scene_windows":0,"windows":5,"scene":"surprised reaction"}
+{"neuron":10742,"pole":"high","cluster":4,"mode":"offering suggestions or tips","scene_windows":0,"windows":5,"scene":"offering suggestions"}
+{"neuron":10742,"pole":"high","cluster":5,"mode":"making a statement or expressing disagreement","scene_windows":0,"windows":5,"scene":"expressing disagreement"}
+{"neuron":10742,"pole":"high","cluster":6,"mode":"offering apologies or clarifications","scene_windows":0,"windows":5,"scene":"apologetic clarification"}
+{"neuron":10742,"pole":"high","cluster":7,"mode":"expressing internal conflict or contemplation","scene_windows":0,"windows":5,"scene":"internal conflict"}
+{"neuron":10742,"pole":"high","cluster":8,"mode":"offering details or explanations","scene_windows":0,"windows":5,"scene":"offering details"}
+{"neuron":10742,"pole":"high","cluster":9,"mode":"using transitional words to introduce lists","scene_windows":0,"windows":5,"scene":"introducing lists"}
+{"neuron":10742,"pole":"high","cluster":10,"mode":"offering revised information or summaries","scene_windows":0,"windows":5,"scene":"offering revisions"}
+{"neuron":10742,"pole":"high","cluster":11,"mode":"using transitional words to add information","scene_windows":0,"windows":5,"scene":"adding information"}
+{"neuron":10742,"pole":"high","cluster":12,"mode":"listing items or suggestions","scene_windows":0,"windows":5,"scene":"listing suggestions"}
+{"neuron":10742,"pole":"high","cluster":13,"mode":"offering examples or information","scene_windows":0,"windows":5,"scene":"offering examples"}
+{"neuron":10742,"pole":"high","cluster":14,"mode":"defining terms or concepts","scene_windows":0,"windows":5,"scene":"defining concepts"}
+{"neuron":10742,"pole":"high","cluster":15,"mode":"listing ingredients or components","scene_windows":0,"windows":5,"scene":"listing ingredients"}
+{"neuron":10742,"pole":"high","cluster":16,"mode":"listing benefits or outcomes","scene_windows":0,"windows":5,"scene":"listing benefits"}
+{"neuron":10742,"pole":"high","cluster":17,"mode":"listing potential solutions or strategies","scene_windows":0,"windows":5,"scene":"listing solutions"}
+{"neuron":10742,"pole":"high","cluster":18,"mode":"using conjunctions to connect clauses","scene_windows":0,"windows":5,"scene":"connecting clauses"}
+{"neuron":10742,"pole":"high","cluster":19,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"dialogue quotation"}
+{"neuron":10742,"pole":"low","cluster":0,"mode":"reporting statements or quotes","scene_windows":0,"windows":5,"scene":"reporting statements"}
+{"neuron":10742,"pole":"low","cluster":1,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"seeking clarification"}
+{"neuron":10742,"pole":"low","cluster":2,"mode":"referencing names or historical figures","scene_windows":0,"windows":5,"scene":"historical references"}

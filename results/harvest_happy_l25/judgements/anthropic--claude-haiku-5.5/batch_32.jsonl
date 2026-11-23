@@ -1,0 +1,68 @@
+{"neuron":5139,"pole":"high","cluster":0,"mode":"Chopped or listed food ingredients and vegetable options in assistant advice","happy_windows":0,"windows":5,"scene":"Chatbot cooking and food suggestion lists"}
+{"neuron":5139,"pole":"high","cluster":1,"mode":"Sentence-initial 'After'/'When' starting a new narrative clause","happy_windows":2,"windows":5,"scene":"Children's short stories with outings and meals"}
+{"neuron":5139,"pole":"high","cluster":2,"mode":"Story verbs and articles after a character's action (saw, sees, started)","happy_windows":1,"windows":5,"scene":"Children's stories about exploring and playing"}
+{"neuron":5139,"pole":"high","cluster":3,"mode":"Sentence-initial 'The' starting a new sentence after emotional beats","happy_windows":2,"windows":5,"scene":"Simple moral tales with characters reacting emotionally"}
+{"neuron":5139,"pole":"low","cluster":0,"mode":"Pronouns and quantifiers mid-sentence in formal historical or expository prose","happy_windows":0,"windows":5,"scene":"History and religious expository writing"}
+{"neuron":5139,"pole":"low","cluster":1,"mode":"Punctuation and tokens inside citations and reference lists","happy_windows":0,"windows":5,"scene":"Bibliographies and reference entries"}
+{"neuron":4955,"pole":"high","cluster":0,"mode":"Proper names and fragments in encyclopedic or institutional informational text","happy_windows":0,"windows":5,"scene":"Informational pages about colleges, countries, gardening"}
+{"neuron":4955,"pole":"high","cluster":1,"mode":"Narrative tokens after emotional or fun events (she, was, fun)","happy_windows":2,"windows":5,"scene":"Children's stories with mixed moods and play"}
+{"neuron":4955,"pole":"high","cluster":2,"mode":"The intensifier 'very' describing a character's feeling","happy_windows":3,"windows":5,"scene":"Simple children's stories about excited or hungry kids"}
+{"neuron":4955,"pole":"low","cluster":0,"mode":"Speech-tag verbs like nods or grinning in dialogue","happy_windows":2,"windows":5,"scene":"Dialogue-heavy fiction with characters reacting"}
+{"neuron":4955,"pole":"low","cluster":1,"mode":"Character smiled or nodded before speaking in dialogue","happy_windows":4,"windows":5,"scene":"Family conversations with warm reactions"}
+{"neuron":4955,"pole":"low","cluster":2,"mode":"Punctuation and tokens in encyclopedic or informational prose","happy_windows":0,"windows":5,"scene":"Informational and factual passages"}
+{"neuron":4955,"pole":"low","cluster":3,"mode":"Sentence-initial time transitions like Soon, Suddenly, and","happy_windows":0,"windows":5,"scene":"Children's story plot progression"}
+{"neuron":4955,"pole":"low","cluster":4,"mode":"Was after a character's name, followed by an emotion","happy_windows":1,"windows":5,"scene":"Children's stories with sad, scared or excited moods"}
+{"neuron":4955,"pole":"low","cluster":5,"mode":"Character names or pronouns starting a sentence after conflict","happy_windows":1,"windows":5,"scene":"Stories about apologies, mistakes and fear"}
+{"neuron":4955,"pole":"low","cluster":6,"mode":"Smiled or laughed followed by 'and said' in dialogue","happy_windows":4,"windows":5,"scene":"Warm dialogue where characters smile and respond"}
+{"neuron":6491,"pole":"high","cluster":0,"mode":"Sentence-initial When or narrative time clauses after a character's feeling","happy_windows":2,"windows":5,"scene":"Children's stories with brave or excited characters"}
+{"neuron":6491,"pole":"high","cluster":1,"mode":"Recipe and list tokens in food and meal suggestions","happy_windows":0,"windows":5,"scene":"Vegetarian recipe and meal idea lists"}
+{"neuron":6491,"pole":"low","cluster":0,"mode":"Nouns like day, again, moment closing reflective or ending sentences","happy_windows":1,"windows":5,"scene":"Reflective narration and short story endings"}
+{"neuron":6491,"pole":"low","cluster":1,"mode":"Month names used as dates in historical text","happy_windows":0,"windows":5,"scene":"Historical and archival documentation"}
+{"neuron":4915,"pole":"high","cluster":0,"mode":"Sentence-ending periods before new paragraphs in informational text","happy_windows":0,"windows":5,"scene":"Essays and informational descriptions"}
+{"neuron":4915,"pole":"high","cluster":1,"mode":"Place or proper-name fragments in historical narrative","happy_windows":0,"windows":5,"scene":"Historical accounts of wars and cities"}
+{"neuron":4915,"pole":"high","cluster":2,"mode":"Sentence-final periods closing story events with happy outcomes","happy_windows":4,"windows":5,"scene":"Children's stories ending with fun or pride"}
+{"neuron":4915,"pole":"high","cluster":3,"mode":"Speaker names after dialogue tags like said or says","happy_windows":2,"windows":5,"scene":"Playful conversations between kids and parents"}
+{"neuron":4915,"pole":"high","cluster":4,"mode":"Scientific or technical nouns in research descriptions","happy_windows":0,"windows":5,"scene":"Science and medical research reporting"}
+{"neuron":4915,"pole":"high","cluster":5,"mode":"Question openers like Do, Can, Let's in dialogue","happy_windows":3,"windows":5,"scene":"Friendly family and playground dialogue"}
+{"neuron":4915,"pole":"low","cluster":0,"mode":"Could or Can starting user requests to an assistant","happy_windows":0,"windows":5,"scene":"Chatbot follow-up questions and requests"}
+{"neuron":4915,"pole":"low","cluster":1,"mode":"Once upon a time story openers about playing and loving","happy_windows":2,"windows":5,"scene":"Simple children's story openings"}
+{"neuron":4915,"pole":"low","cluster":2,"mode":"Sentence endings in mixed narrative and informational text","happy_windows":1,"windows":5,"scene":"Story endings and factual passages"}
+{"neuron":4915,"pole":"low","cluster":3,"mode":"Tokens in neutral narrative about searching or playing","happy_windows":0,"windows":5,"scene":"Neutral children's narration about searching and games"}
+{"neuron":4915,"pole":"low","cluster":4,"mode":"Was after a character's name before an emotion word","happy_windows":1,"windows":5,"scene":"Children's stories with varied emotions"}
+{"neuron":4915,"pole":"low","cluster":5,"mode":"Sentence-final period after a speaker's emotional line","happy_windows":1,"windows":5,"scene":"Dialogue with apologies and reassurance"}
+{"neuron":4915,"pole":"low","cluster":6,"mode":"Hug, smile or happy words after a warm moment","happy_windows":3,"windows":5,"scene":"Stories of friendship, hugs and gratitude"}
+{"neuron":5766,"pole":"high","cluster":0,"mode":"Object pronouns and nouns after an action toward a character","happy_windows":2,"windows":5,"scene":"Simple stories about a boy, girl or animal"}
+{"neuron":5766,"pole":"high","cluster":1,"mode":"Business and marketing text with possessives and features","happy_windows":0,"windows":5,"scene":"Marketing and social media advice"}
+{"neuron":5766,"pole":"low","cluster":0,"mode":"Generic nouns like wine, woman, city in expository text","happy_windows":0,"windows":5,"scene":"Expository articles on wine, health and finance"}
+{"neuron":5766,"pole":"low","cluster":1,"mode":"Technical nouns like directory, text, table, email in code requests","happy_windows":0,"windows":5,"scene":"Software and script specifications"}
+{"neuron":5766,"pole":"low","cluster":2,"mode":"Place nouns like garden, park, yard after play setting","happy_windows":2,"windows":5,"scene":"Children's stories set in outdoor play spaces"}
+{"neuron":5766,"pole":"low","cluster":3,"mode":"Comma after One day or Suddenly opening a plot turn","happy_windows":0,"windows":5,"scene":"Children's stories with sudden plot changes"}
+{"neuron":5766,"pole":"low","cluster":4,"mode":"Sentence ends or and after a 'one day' problem event","happy_windows":0,"windows":5,"scene":"Stories about a problem arising one day"}
+{"neuron":5766,"pole":"low","cluster":5,"mode":"The or the starting a clause about a creature or object","happy_windows":0,"windows":5,"scene":"Stories with scary encounters with animals"}
+{"neuron":5766,"pole":"low","cluster":6,"mode":"Sentence-initial The or the in encyclopedic historical text","happy_windows":0,"windows":5,"scene":"Historical and religious background passages"}
+{"neuron":7902,"pole":"high","cluster":0,"mode":"Temporal conjunctions When, until, as soon as in narration","happy_windows":1,"windows":5,"scene":"Adventure stories with exploration and discovery"}
+{"neuron":7902,"pole":"high","cluster":1,"mode":"Sentence endings after excited discovery or arrival","happy_windows":3,"windows":5,"scene":"Children's outings and seaside or garden adventures"}
+{"neuron":7902,"pole":"high","cluster":2,"mode":"Plural nouns of things discovered while exploring","happy_windows":3,"windows":5,"scene":"Wonder-filled exploration of colors, birds and plants"}
+{"neuron":7902,"pole":"high","cluster":3,"mode":"Nouns in scientific or social expository sentences","happy_windows":0,"windows":5,"scene":"Health, research and society reporting"}
+{"neuron":7902,"pole":"low","cluster":0,"mode":"Loved as the verb after a girl or boy's name","happy_windows":2,"windows":5,"scene":"Story openings about a child who loves things"}
+{"neuron":7902,"pole":"low","cluster":1,"mode":"Pronoun she or and inside simple scene descriptions","happy_windows":1,"windows":5,"scene":"Children's stories about play and adventure"}
+{"neuron":7902,"pole":"low","cluster":2,"mode":"The word day after One in story openings","happy_windows":1,"windows":5,"scene":"Once upon a time story beginnings"}
+{"neuron":481,"pole":"high","cluster":0,"mode":"Sentence-final periods after a character's emotional moment","happy_windows":3,"windows":5,"scene":"Children's stories with feelings and friendship"}
+{"neuron":481,"pole":"high","cluster":1,"mode":"Assistant tag at the start of a reply","happy_windows":0,"windows":5,"scene":"Chatbot replies offering tips and ideas"}
+{"neuron":481,"pole":"low","cluster":0,"mode":"The or the within cooking and recipe instructions","happy_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":481,"pole":"low","cluster":1,"mode":"Connectives like as, other, and within autism explanations","happy_windows":0,"windows":5,"scene":"Explanatory text about autism and uncertainty"}
+{"neuron":481,"pole":"low","cluster":2,"mode":"Tokens in tables, citations and place-name lists","happy_windows":0,"windows":5,"scene":"Reference tables and bibliographies"}
+{"neuron":481,"pole":"low","cluster":3,"mode":"Commas and outside after playful actions in stories","happy_windows":1,"windows":5,"scene":"Children's stories about play and searching"}
+{"neuron":481,"pole":"low","cluster":4,"mode":"Sentence-initial The starting a new event in stories","happy_windows":2,"windows":5,"scene":"Fun stories with kindness and wonder"}
+{"neuron":481,"pole":"low","cluster":5,"mode":"Dialogue tags and names in friendly conversations","happy_windows":2,"windows":5,"scene":"Friendly exchanges between children and animals"}
+{"neuron":8264,"pole":"high","cluster":0,"mode":"Opening quotation mark after a parent's speech tag","happy_windows":3,"windows":5,"scene":"Lily and her mom in warm everyday dialogue"}
+{"neuron":8264,"pole":"high","cluster":1,"mode":"And linking two emotional feelings or actions","happy_windows":3,"windows":5,"scene":"Excited children and animals in playful stories"}
+{"neuron":8264,"pole":"high","cluster":2,"mode":"Sentence-final periods in technology and education essays","happy_windows":0,"windows":5,"scene":"Technology in education and online marketing"}
+{"neuron":8264,"pole":"low","cluster":0,"mode":"Can starting user requests after assistant answers","happy_windows":0,"windows":5,"scene":"Chatbot follow-up requests for more detail"}
+{"neuron":8264,"pole":"low","cluster":1,"mode":"Day after One in story openings","happy_windows":0,"windows":5,"scene":"Once upon a time story beginnings"}
+{"neuron":8264,"pole":"low","cluster":2,"mode":"That or this after a child's worried speech","happy_windows":1,"windows":5,"scene":"Children upset about lost or broken things"}
+{"neuron":8264,"pole":"low","cluster":3,"mode":"Colons introducing tips in advice lists","happy_windows":0,"windows":5,"scene":"Self-help and marketing tip lists"}
+{"neuron":8264,"pole":"low","cluster":4,"mode":"Sentence-final punctuation after a delightful or scared moment","happy_windows":2,"windows":5,"scene":"Stories about animals, apples and small discoveries"}
+{"neuron":8264,"pole":"low","cluster":5,"mode":"Comma after One day opening a new plot event","happy_windows":0,"windows":5,"scene":"Simple stories about a child's ordinary day"}
+{"neuron":8264,"pole":"low","cluster":6,"mode":"Abstract social nouns like consumers, comfort, sculptor","happy_windows":0,"windows":5,"scene":"Social commentary and film or book discussion"}
+{"neuron":8264,"pole":"low","cluster":7,"mode":"Modal verbs could, will, has in policy statements","happy_windows":0,"windows":5,"scene":"Economic, policy and budget discussion"}

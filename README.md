@@ -110,12 +110,67 @@ happy = sets["happy"]  # 1527 neurons; happy[0] = 2862
 part = W[:, happy] @ T["shift"][0, happy]  # what the set writes; rebuilds 90% of T["write"][0]
 ```
 
+## Modes of an emotion's neurons: run it for another emotion
+
+What each neuron of an emotion's greedy set fires on, at both poles, judged blind. Done for happy
+(`results/harvest_happy_l25/report.html`, log `experiments/harvest_happy_l25.md`).
+
+One command runs it end to end, with a checkpoint after each stage:
+
+```
+python scripts/pipeline.py --config configs/harvest_angry_l25.yaml
+```
+
+| stage | where | time (L4) | output in results/<run_id>/ |
+|---|---|---|---|
+| harvest | GPU | ~12 min | harvest.json (+ runs/<run_id>/, 2-3 GB) |
+| modes | GPU | ~25-30 min | modes.json, modes/batch_XX.txt |
+| judge | CPU, OpenRouter key | ~15 min, under $1 | judgements/<model>/batch_XX.jsonl |
+| report | CPU | ~1 min | report.html, neurons.csv |
+
+- **Restarts:** rerun the same command. Finished stages are skipped (markers in `results/<run_id>/stages/`).
+  - Inside a stage, the harvest reuses a saved corpus pass and the judge skips finished batch files.
+- **GPU and CPU on different machines:** without CUDA the run stops before the first GPU stage that is not done.
+  - Run it on Colab with `notebooks/modes_pipeline.ipynb` (File > Open notebook > GitHub, `narang99/emotion-neurons`).
+  - Then run the same command on your machine; it continues with judge and report.
+  - To move the files: `--pipeline.s3-prefix s3://your-bucket/...` on both machines, or the notebook's download cell
+    (unzip into `results/`).
+- **Stop early:** `--pipeline.until modes`.
+- **Quick check of a new setup:** `configs/pipeline_smoke_happy.yaml` (36 neurons, ~90k tokens, ~5 min on an L4).
+- **OpenRouter key:** `OPENROUTER_API_KEY`, or a file at `~/.config/openrouter/key`
+  (`mkdir -p ~/.config/openrouter && echo "<key>" > ~/.config/openrouter/key && chmod 600 ~/.config/openrouter/key`).
+  The judges are Haiku 5.5 and Gemini 2.5 Flash-Lite (`judge.models`).
+
+**A new emotion:** copy `configs/harvest_angry_l25.yaml` and set `run_id`, `emotion` and `harvest.neurons_csv`
+(`results/greedy_sets_l25/neurons/<emotion>.csv`). The config refuses an emotion that does not match its CSV.
+
+**Reading the report** (`report.html`, opens in a browser; `neurons.csv` has one row per neuron):
+
+- "No match" neurons push toward the emotion but fire on something else, on the side the emotion uses.
+- Check both poles. The side is read from a story-mean shift, and a few strong firings at the other pole can hide
+  behind it (happy's 3832: joyful firings at its high pole, but the word "laugh" drives its mean down).
+- "Match" leans on the harvest corpus: almost every happy-scene cluster came from TinyStories, the only narrative
+  source. Add a fiction corpus to `harvest.corpora` for emotions that children's stories rarely show.
+
+## Directions on instruction data (e.g. refusal)
+
+- `vectors.diff_means`: a target category's mean minus the mean of all or of the other categories; optional PCA.
+- `datasets`: example sets. `StoriesSet` (the emotion stories) and `InstructionSet` (benchmark instructions sampled
+  per category from JSON URLs or Hub datasets, in the model's chat format; positions = the post-instruction tokens).
+- `models.adapters`: model families. `hf` (Qwen3 and other native models) and `qwen1` (Qwen-1 chat, converted to a
+  native Qwen2 model; `tests/test_qwen1.py` checks the logits against its own code).
+- `scripts/direction.py`: the direction, chosen as in Arditi et al. 2024 (ablation, addition, KL), with a generation check.
+- `scripts/direction_neurons.py`: its neuron set (the MLP writing into the chosen layer), in the greedy-set format, so
+  the modes pipeline (`scripts/pipeline.py`) runs on it unchanged (`ModesRunConfig.concept`).
+- `scripts/direction_prompts.py`: the top neurons read at the direction's own position, with the prompts at their extremes.
+- Done for refusal on Qwen-1 7B Chat: `experiments/refusal_qwen1.md`.
+
 ## Layout
 
 | path | what |
 |---|---|
 | `src/emotion_neurons/` | library: `config`, `models` (load, hooks), `texts` (stories, corpora), `capture` (pooled sums), `vectors`, `poles`, `sparse` (greedy sets) |
-| `scripts/` | thin scripts: parse the config, call the library, save |
+| `scripts/` | thin scripts: parse the config, call the library, save; `pipeline.py` runs the modes report end to end |
 | `configs/` | one YAML per run |
 | `data/stories/` | the stories |
 | `results/` | small outputs, committed |

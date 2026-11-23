@@ -1,0 +1,80 @@
+{"neuron":1749,"pole":"high","cluster":0,"mode":"providing specific information about car parts and maintenance.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":1749,"pole":"high","cluster":1,"mode":"offering assistance and providing examples or tips.","scene_windows":0,"windows":5,"scene":"helpful assistant providing information"}
+{"neuron":1749,"pole":"high","cluster":2,"mode":"answering factual questions with definitions and explanations.","scene_windows":0,"windows":5,"scene":"neutral factual question answering"}
+{"neuron":1749,"pole":"high","cluster":3,"mode":"answering user questions about health, car parts, and conflict diamonds.","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":1749,"pole":"high","cluster":4,"mode":"offering additional information and examples upon user request.","scene_windows":0,"windows":5,"scene":"helpful assistant providing details"}
+{"neuron":1749,"pole":"high","cluster":5,"mode":"confirming and providing additional details or examples.","scene_windows":0,"windows":5,"scene":"helpful assistant providing details"}
+{"neuron":1749,"pole":"high","cluster":6,"mode":"describing atmospheric conditions and personal feelings.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1749,"pole":"high","cluster":7,"mode":"providing factual information and observations about places and practices.","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":1749,"pole":"high","cluster":8,"mode":"discussing historical military units and technical terms.","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":1749,"pole":"high","cluster":9,"mode":"offering tips and advice, often numbered.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":1749,"pole":"high","cluster":10,"mode":"providing numbered tips and advice for various situations.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":1749,"pole":"high","cluster":11,"mode":"explaining reasons, often starting with 'Secondly' or 'Thirdly'.","scene_windows":0,"windows":5,"scene":"neutral explanation"}
+{"neuron":1749,"pole":"low","cluster":0,"mode":"listing items or titles, often with brief descriptions.","scene_windows":0,"windows":5,"scene":"neutral listing"}
+{"neuron":1749,"pole":"low","cluster":1,"mode":"dialogue with quoted speech, often expressing doubt or surprise.","scene_windows":0,"windows":5,"scene":"dialogue with quoted speech"}
+{"neuron":1749,"pole":"low","cluster":2,"mode":"answering factual questions with brief introductions.","scene_windows":0,"windows":5,"scene":"neutral factual question answering"}
+{"neuron":1749,"pole":"low","cluster":3,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":1749,"pole":"low","cluster":4,"mode":"offering additional tips or suggestions, often numbered.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":1749,"pole":"low","cluster":5,"mode":"answering personal choice questions with balanced perspectives.","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":1749,"pole":"low","cluster":6,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":1749,"pole":"low","cluster":7,"mode":"providing factual information about various topics.","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":1749,"pole":"low","cluster":8,"mode":"dialogue with quoted speech, often expressing surprise or disbelief.","scene_windows":0,"windows":5,"scene":"dialogue with quoted speech"}
+{"neuron":1749,"pole":"low","cluster":9,"mode":"answering questions about health and well-being with advice.","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":1749,"pole":"low","cluster":10,"mode":"correcting misunderstandings and apologizing.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":3289,"pole":"high","cluster":0,"mode":"citing academic publications related to nutrition and public health.","scene_windows":0,"windows":5,"scene":"neutral academic citation"}
+{"neuron":3289,"pole":"high","cluster":1,"mode":"discussing various topics with prepositions like 'of', 'to', 'make', 'The'.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3289,"pole":"high","cluster":2,"mode":"citing academic publications with journal details and DOIs.","scene_windows":0,"windows":5,"scene":"neutral academic citation"}
+{"neuron":3289,"pole":"low","cluster":0,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":3289,"pole":"low","cluster":1,"mode":"dialogue with quoted speech, often expressing hesitation or uncertainty.","scene_windows":0,"windows":5,"scene":"dialogue with quoted speech"}
+{"neuron":3289,"pole":"low","cluster":2,"mode":"providing tips and strategies for various situations.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":3289,"pole":"low","cluster":3,"mode":"dialogue with quoted speech, often expressing finality or resignation.","scene_windows":0,"windows":5,"scene":"dialogue with quoted speech"}
+{"neuron":3289,"pole":"low","cluster":4,"mode":"offering additional tips or suggestions, often numbered.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":3289,"pole":"low","cluster":5,"mode":"discussing various topics with prepositions like 'of', 'in', 'as'.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6118,"pole":"high","cluster":0,"mode":"providing careful handling instructions with 'as' clauses.","scene_windows":0,"windows":5,"scene":"neutral instructions"}
+{"neuron":6118,"pole":"high","cluster":1,"mode":"explaining causes and consequences using 'due to'.","scene_windows":0,"windows":5,"scene":"neutral explanation"}
+{"neuron":6118,"pole":"high","cluster":2,"mode":"offering assistance and providing examples or tips.","scene_windows":0,"windows":5,"scene":"helpful assistant providing information"}
+{"neuron":6118,"pole":"high","cluster":3,"mode":"discussing various topics with conjunctions like 'and', 'support'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":6118,"pole":"high","cluster":4,"mode":"describing actions and events using prepositions like 'by', 'before', 'off'.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6118,"pole":"low","cluster":0,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":6118,"pole":"low","cluster":1,"mode":"offering advice and suggestions, often starting with 'I'.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":6118,"pole":"low","cluster":2,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":6118,"pole":"low","cluster":3,"mode":"discussing various topics with conjunctions like 'and', 'However'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":6118,"pole":"low","cluster":4,"mode":"discussing various topics with conjunctions like 'though', 'although'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":6118,"pole":"low","cluster":5,"mode":"offering tips and advice, often numbered.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":6118,"pole":"low","cluster":6,"mode":"discussing various topics with conjunctions like 'and', 'if'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":9029,"pole":"high","cluster":0,"mode":"discussing finance, development, and collaboration.","scene_windows":0,"windows":5,"scene":"neutral factual information"}
+{"neuron":9029,"pole":"high","cluster":1,"mode":"offering assistance and providing examples or poems.","scene_windows":0,"windows":5,"scene":"helpful assistant providing creative content"}
+{"neuron":9029,"pole":"low","cluster":0,"mode":"offering assistance and providing information.","scene_windows":0,"windows":5,"scene":"helpful assistant providing information"}
+{"neuron":9029,"pole":"low","cluster":1,"mode":"offering assistance and providing examples or tips.","scene_windows":0,"windows":5,"scene":"helpful assistant providing information"}
+{"neuron":1183,"pole":"high","cluster":0,"mode":"discussing food, products, and programs with conjunctions.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":1183,"pole":"high","cluster":1,"mode":"answering factual questions with brief introductions.","scene_windows":0,"windows":5,"scene":"neutral factual question answering"}
+{"neuron":1183,"pole":"low","cluster":0,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":1183,"pole":"low","cluster":1,"mode":"offering advice and suggestions, often starting with 'I'.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":1183,"pole":"low","cluster":2,"mode":"answering factual questions with brief introductions.","scene_windows":0,"windows":5,"scene":"neutral factual question answering"}
+{"neuron":1183,"pole":"low","cluster":3,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":1183,"pole":"low","cluster":4,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":3184,"pole":"high","cluster":0,"mode":"providing advice and warnings, often using 'Not'.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":3184,"pole":"high","cluster":1,"mode":"offering advice and suggestions, often starting with 'Good'.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":3184,"pole":"high","cluster":2,"mode":"providing tips and advice, often numbered.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":3184,"pole":"high","cluster":3,"mode":"offering assistance and providing examples or explanations.","scene_windows":0,"windows":5,"scene":"helpful assistant providing information"}
+{"neuron":3184,"pole":"high","cluster":4,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":3184,"pole":"high","cluster":5,"mode":"answering factual questions with brief introductions.","scene_windows":0,"windows":5,"scene":"neutral factual question answering"}
+{"neuron":3184,"pole":"high","cluster":6,"mode":"discussing various topics with conjunctions like 'and', 'as'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":3184,"pole":"high","cluster":7,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":3184,"pole":"high","cluster":8,"mode":"discussing various topics with conjunctions like 'and', 'as'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":3184,"pole":"high","cluster":9,"mode":"discussing various topics with conjunctions like 'and', 'as'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":3184,"pole":"high","cluster":10,"mode":"offering assistance and providing details or tips.","scene_windows":0,"windows":5,"scene":"helpful assistant providing information"}
+{"neuron":3184,"pole":"low","cluster":0,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":3184,"pole":"low","cluster":1,"mode":"offering advice and suggestions, often starting with 'I'.","scene_windows":0,"windows":5,"scene":"helpful assistant providing advice"}
+{"neuron":2837,"pole":"high","cluster":0,"mode":"discussing proposals, beliefs, and actions with conjunctions.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"high","cluster":1,"mode":"discussing various topics with conjunctions like 'it', 'it's'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":0,"mode":"answering factual questions with brief introductions.","scene_windows":0,"windows":5,"scene":"neutral factual question answering"}
+{"neuron":2837,"pole":"low","cluster":1,"mode":"discussing various topics with conjunctions like 'Of', 'Of'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":2,"mode":"discussing various topics with conjunctions like 'However'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":3,"mode":"discussing various topics with conjunctions like 'As'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":4,"mode":"discussing various topics with conjunctions like 'though', 'although'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":5,"mode":"discussing various topics with conjunctions like 'and', 'if'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":6,"mode":"discussing various topics with conjunctions like 'and', 'if'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":7,"mode":"providing thanks and acknowledgments after receiving information.","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":2837,"pole":"low","cluster":8,"mode":"discussing various topics with conjunctions like 'and', 'the'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2837,"pole":"low","cluster":9,"mode":"discussing various topics with conjunctions like 'and', 'regardless'.","scene_windows":0,"windows":5,"scene":"neutral discussion"}

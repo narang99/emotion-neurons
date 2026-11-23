@@ -1,0 +1,53 @@
+{"neuron":9986,"pole":"high","cluster":0,"mode":"Once upon a time, a girl was named...","scene_windows":0,"windows":5,"scene":"Fairy tale introduction"}
+{"neuron":9986,"pole":"high","cluster":1,"mode":"Direct speech, often a quote or exclamation.","scene_windows":0,"windows":5,"scene":"Dialogue and narration"}
+{"neuron":9986,"pole":"high","cluster":2,"mode":"Happy endings and positive outcomes for characters.","scene_windows":0,"windows":5,"scene":"Children's story resolution"}
+{"neuron":9986,"pole":"high","cluster":3,"mode":"Direct speech, often a quote or exclamation.","scene_windows":0,"windows":5,"scene":"Dialogue and narration"}
+{"neuron":9986,"pole":"high","cluster":4,"mode":"Common locations for children's activities and play.","scene_windows":0,"windows":5,"scene":"Children's play locations"}
+{"neuron":9986,"pole":"high","cluster":5,"mode":"Proper nouns, often names of places or organizations.","scene_windows":0,"windows":5,"scene":"News and factual reporting"}
+{"neuron":9986,"pole":"low","cluster":0,"mode":"Common locations for children's activities and play.","scene_windows":0,"windows":5,"scene":"Children's play locations"}
+{"neuron":9986,"pole":"low","cluster":1,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":9986,"pole":"low","cluster":2,"mode":"Happy endings and positive outcomes for characters.","scene_windows":0,"windows":5,"scene":"Children's story resolution"}
+{"neuron":9986,"pole":"low","cluster":3,"mode":"Happy endings and positive outcomes for characters.","scene_windows":0,"windows":5,"scene":"Children's story resolution"}
+{"neuron":8051,"pole":"high","cluster":0,"mode":"Direct speech, often a quote or exclamation.","scene_windows":0,"windows":5,"scene":"Dialogue and narration"}
+{"neuron":8051,"pole":"high","cluster":1,"mode":"Direct speech, often a quote or exclamation.","scene_windows":0,"windows":5,"scene":"Dialogue and narration"}
+{"neuron":8051,"pole":"high","cluster":2,"mode":"Proper nouns, often names of places or organizations.","scene_windows":0,"windows":5,"scene":"News and factual reporting"}
+{"neuron":8051,"pole":"high","cluster":3,"mode":"Possessive pronouns referring to a female.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":8051,"pole":"high","cluster":4,"mode":"Verbs indicating visual perception.","scene_windows":0,"windows":5,"scene":"Observation and perception"}
+{"neuron":8051,"pole":"high","cluster":5,"mode":"First-person singular pronoun.","scene_windows":0,"windows":5,"scene":"First-person narration"}
+{"neuron":8051,"pole":"high","cluster":6,"mode":"Definite article, referring to a specific noun.","scene_windows":0,"windows":5,"scene":"Narration and description"}
+{"neuron":8051,"pole":"high","cluster":7,"mode":"Definite article, referring to a specific noun.","scene_windows":0,"windows":5,"scene":"Narration and description"}
+{"neuron":8051,"pole":"low","cluster":0,"mode":"Conjunctions indicating cause or result.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":8051,"pole":"low","cluster":1,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":8051,"pole":"low","cluster":2,"mode":"dialogue punctuation, quotes, and parenthetical remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8051,"pole":"low","cluster":3,"mode":"dialogue punctuation, quotes, and parenthetical remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8051,"pole":"low","cluster":4,"mode":"dialogue punctuation, quotes, and parenthetical remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8051,"pole":"low","cluster":5,"mode":"dialogue punctuation, quotes, and parenthetical remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8051,"pole":"low","cluster":6,"mode":"dialogue punctuation, quotes, and parenthetical remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8051,"pole":"low","cluster":7,"mode":"dialogue punctuation, quotes, and parenthetical remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8051,"pole":"low","cluster":8,"mode":"dialogue punctuation, quotes, and parenthetical remarks","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":10284,"pole":"high","cluster":0,"mode":"Conjunctions indicating cause or result.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":10284,"pole":"high","cluster":1,"mode":"Verbs indicating effort or attempt.","scene_windows":0,"windows":5,"scene":"Struggle and effort"}
+{"neuron":10284,"pole":"low","cluster":0,"mode":"Conjunctions indicating cause or result.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":10284,"pole":"low","cluster":1,"mode":"Numbers, often indicating quantity or order.","scene_windows":0,"windows":5,"scene":"Factual and technical text"}
+{"neuron":709,"pole":"high","cluster":0,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":709,"pole":"high","cluster":1,"mode":"Nouns indicating a feeling of coldness or fear.","scene_windows":0,"windows":5,"scene":"Fear and apprehension"}
+{"neuron":709,"pole":"low","cluster":0,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":709,"pole":"low","cluster":1,"mode":"Prepositions indicating location or direction.","scene_windows":0,"windows":5,"scene":"Movement and location"}
+{"neuron":6628,"pole":"high","cluster":0,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":6628,"pole":"high","cluster":1,"mode":"Once upon a time, there was a...","scene_windows":0,"windows":5,"scene":"Fairy tale introduction"}
+{"neuron":6628,"pole":"low","cluster":0,"mode":"Conjunctions indicating cause or result.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":6628,"pole":"low","cluster":1,"mode":"Conjunctions indicating cause or result.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":6628,"pole":"low","cluster":2,"mode":"Direct speech, often a quote or exclamation.","scene_windows":0,"windows":5,"scene":"Dialogue and narration"}
+{"neuron":2129,"pole":"high","cluster":0,"mode":"Direct speech, often a quote or exclamation.","scene_windows":0,"windows":5,"scene":"Dialogue and narration"}
+{"neuron":2129,"pole":"high","cluster":1,"mode":"Conjunctions indicating cause or result.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":2129,"pole":"high","cluster":2,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":2129,"pole":"low","cluster":0,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":2129,"pole":"low","cluster":1,"mode":"Prepositions indicating location or direction.","scene_windows":0,"windows":5,"scene":"Movement and location"}
+{"neuron":5137,"pole":"high","cluster":0,"mode":"Nouns indicating places or routes.","scene_windows":0,"windows":5,"scene":"Travel and conflict"}
+{"neuron":5137,"pole":"high","cluster":1,"mode":"Expressions of gratitude or politeness.","scene_windows":0,"windows":5,"scene":"Polite social interaction"}
+{"neuron":5137,"pole":"low","cluster":0,"mode":"Proper nouns, often names of places or organizations.","scene_windows":0,"windows":5,"scene":"Historical and geographical context"}
+{"neuron":5137,"pole":"low","cluster":1,"mode":"Verbs indicating movement.","scene_windows":0,"windows":5,"scene":"Movement and location"}
+{"neuron":7077,"pole":"high","cluster":0,"mode":"Pronouns indicating a state of being or action.","scene_windows":0,"windows":5,"scene":"Narration and dialogue"}
+{"neuron":7077,"pole":"high","cluster":1,"mode":"Adverbs indicating time or manner.","scene_windows":0,"windows":5,"scene":"Time and progression"}
+{"neuron":7077,"pole":"low","cluster":0,"mode":"Verbs indicating communication or action.","scene_windows":0,"windows":5,"scene":"Communication and action"}
+{"neuron":7077,"pole":"low","cluster":1,"mode":"Prepositions indicating location or direction.","scene_windows":0,"windows":5,"scene":"Movement and location"}

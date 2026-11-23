@@ -1,0 +1,73 @@
+{"neuron":3634,"pole":"high","cluster":0,"mode":"First-person perspective expressing sadness, safety, or self-deprecation.","scene_windows":0,"windows":5,"scene":"Personal feelings and reflections"}
+{"neuron":3634,"pole":"high","cluster":1,"mode":"Third-person perspective describing children's emotions and actions.","scene_windows":0,"windows":5,"scene":"Children's emotional states and actions"}
+{"neuron":3634,"pole":"high","cluster":2,"mode":"Third-person perspective describing children's negative emotions.","scene_windows":0,"windows":5,"scene":"Children's sadness and fear"}
+{"neuron":3634,"pole":"low","cluster":0,"mode":"Focus on positive actions and beliefs about children.","scene_windows":0,"windows":5,"scene":"Child development and support"}
+{"neuron":3634,"pole":"low","cluster":1,"mode":"Dialogue and narrative involving characters and their actions.","scene_windows":0,"windows":5,"scene":"Conversational and narrative snippets"}
+{"neuron":3634,"pole":"low","cluster":2,"mode":"Reflection on personal faults, regrets, and future disappearance.","scene_windows":0,"windows":5,"scene":"Personal introspection and existential thoughts"}
+{"neuron":9737,"pole":"high","cluster":0,"mode":"Children's names and positive interactions.","scene_windows":0,"windows":5,"scene":"Children's names and activities"}
+{"neuron":9737,"pole":"high","cluster":1,"mode":"Lists of ingredients or marketing tactics.","scene_windows":0,"windows":5,"scene":"Lists and instructions"}
+{"neuron":9737,"pole":"high","cluster":2,"mode":"Citations and publication details.","scene_windows":0,"windows":5,"scene":"Bibliographic and citation details"}
+{"neuron":9737,"pole":"high","cluster":3,"mode":"Code snippets and programming syntax.","scene_windows":0,"windows":5,"scene":"Programming code and syntax"}
+{"neuron":9737,"pole":"high","cluster":4,"mode":"Children expressing apologies, thanks, or asking questions.","scene_windows":0,"windows":5,"scene":"Children's dialogue and interactions"}
+{"neuron":9737,"pole":"high","cluster":5,"mode":"Dialogue and narrative involving children and their activities.","scene_windows":0,"windows":5,"scene":"Children's dialogue and play"}
+{"neuron":9737,"pole":"low","cluster":0,"mode":"Numbers and citations.","scene_windows":0,"windows":5,"scene":"Numerical and citation data"}
+{"neuron":9737,"pole":"low","cluster":1,"mode":"Narrative snippets involving future, memory, and actions.","scene_windows":0,"windows":5,"scene":"Narrative fragments and reflections"}
+{"neuron":9737,"pole":"low","cluster":2,"mode":"Names and titles, often in a narrative context.","scene_windows":0,"windows":5,"scene":"Names and narrative context"}
+{"neuron":9737,"pole":"low","cluster":3,"mode":"Narrative snippets involving time, events, and actions.","scene_windows":0,"windows":5,"scene":"Narrative fragments and events"}
+{"neuron":9737,"pole":"low","cluster":4,"mode":"Dialogue and narrative involving characters and their actions.","scene_windows":0,"windows":5,"scene":"Dialogue and narrative actions"}
+{"neuron":9052,"pole":"high","cluster":0,"mode":"References to places, people, and events.","scene_windows":0,"windows":5,"scene":"References to places and people"}
+{"neuron":9052,"pole":"high","cluster":1,"mode":"Narrative descriptions of settings and characters.","scene_windows":0,"windows":5,"scene":"Narrative descriptions of settings"}
+{"neuron":9052,"pole":"high","cluster":2,"mode":"Assistant responses to user queries about various topics.","scene_windows":0,"windows":5,"scene":"Assistant responses to queries"}
+{"neuron":9052,"pole":"low","cluster":0,"mode":"First-person narrative expressing feelings and actions.","scene_windows":0,"windows":5,"scene":"Personal narrative and feelings"}
+{"neuron":9052,"pole":"low","cluster":1,"mode":"Self-care advice and tips.","scene_windows":0,"windows":5,"scene":"Self-care advice and tips"}
+{"neuron":9525,"pole":"high","cluster":0,"mode":"Narrative descriptions of actions and internal states.","scene_windows":0,"windows":5,"scene":"Narrative actions and internal states"}
+{"neuron":9525,"pole":"high","cluster":1,"mode":"Children's names and narrative beginnings.","scene_windows":0,"windows":5,"scene":"Children's names and story beginnings"}
+{"neuron":9525,"pole":"low","cluster":0,"mode":"Third-person narrative involving characters and their actions.","scene_windows":0,"windows":5,"scene":"Narrative involving characters and actions"}
+{"neuron":9525,"pole":"low","cluster":1,"mode":"Third-person narrative describing characters and events.","scene_windows":0,"windows":5,"scene":"Narrative descriptions of characters"}
+{"neuron":881,"pole":"high","cluster":0,"mode":"Children expressing gratitude and parents responding.","scene_windows":0,"windows":5,"scene":"Children's gratitude and parental response"}
+{"neuron":881,"pole":"high","cluster":1,"mode":"Children interacting with parents and family members.","scene_windows":0,"windows":5,"scene":"Children's family interactions"}
+{"neuron":881,"pole":"high","cluster":2,"mode":"Dialogue and narrative involving characters and their emotions.","scene_windows":0,"windows":5,"scene":"Dialogue and emotional narrative"}
+{"neuron":881,"pole":"high","cluster":3,"mode":"Children's names and narrative descriptions of activities.","scene_windows":0,"windows":5,"scene":"Children's names and activities"}
+{"neuron":881,"pole":"low","cluster":0,"mode":"Third-person narrative describing children and their actions.","scene_windows":0,"windows":5,"scene":"Children's narrative and actions"}
+{"neuron":881,"pole":"low","cluster":1,"mode":"Third-person narrative describing children and their actions.","scene_windows":0,"windows":5,"scene":"Children's narrative and actions"}
+{"neuron":881,"pole":"low","cluster":2,"mode":"Third-person narrative describing characters and events.","scene_windows":0,"windows":5,"scene":"Narrative descriptions of characters"}
+{"neuron":881,"pole":"low","cluster":3,"mode":"Children's names and narrative descriptions of activities.","scene_windows":0,"windows":5,"scene":"Children's names and activities"}
+{"neuron":881,"pole":"low","cluster":4,"mode":"Dialogue and narrative involving characters and their actions.","scene_windows":0,"windows":5,"scene":"Dialogue and narrative actions"}
+{"neuron":881,"pole":"low","cluster":5,"mode":"Children's names and narrative descriptions of activities.","scene_windows":0,"windows":5,"scene":"Children's names and activities"}
+{"neuron":6513,"pole":"high","cluster":0,"mode":"Third-person narrative describing characters and events.","scene_windows":0,"windows":5,"scene":"Narrative descriptions of characters"}
+{"neuron":6513,"pole":"high","cluster":1,"mode":"First-person narrative describing physical sensations and emotions.","scene_windows":0,"windows":5,"scene":"Personal narrative and sensations"}
+{"neuron":6513,"pole":"high","cluster":2,"mode":"First-person narrative expressing opinions and observations.","scene_windows":0,"windows":5,"scene":"Personal opinions and observations"}
+{"neuron":6513,"pole":"high","cluster":3,"mode":"Third-person narrative describing children's actions and emotions.","scene_windows":0,"windows":5,"scene":"Children's narrative and emotions"}
+{"neuron":6513,"pole":"high","cluster":4,"mode":"Dialogue and narrative involving characters and their questions.","scene_windows":0,"windows":5,"scene":"Dialogue and character questions"}
+{"neuron":6513,"pole":"high","cluster":5,"mode":"Citations and publication details.","scene_windows":0,"windows":5,"scene":"Bibliographic and citation details"}
+{"neuron":6513,"pole":"high","cluster":6,"mode":"Third-person narrative describing characters and actions.","scene_windows":0,"windows":5,"scene":"Narrative descriptions of characters"}
+{"neuron":6513,"pole":"high","cluster":7,"mode":"Dialogue and narrative involving characters and their actions.","scene_windows":0,"windows":5,"scene":"Dialogue and narrative actions"}
+{"neuron":6513,"pole":"high","cluster":8,"mode":"Children's names and narrative descriptions of activities.","scene_windows":0,"windows":5,"scene":"Children's names and activities"}
+{"neuron":6513,"pole":"high","cluster":9,"mode":"Dialogue and narrative involving characters and their emotions.","scene_windows":0,"windows":5,"scene":"Dialogue and emotional narrative"}
+{"neuron":6513,"pole":"high","cluster":10,"mode":"Children's names and narrative descriptions of activities.","scene_windows":0,"windows":5,"scene":"Children's names and activities"}
+{"neuron":6513,"pole":"low","cluster":0,"mode":"Third-person narrative describing children and their actions.","scene_windows":0,"windows":5,"scene":"Children's narrative and actions"}
+{"neuron":6513,"pole":"low","cluster":1,"mode":"Third-person narrative describing children and their actions.","scene_windows":0,"windows":5,"scene":"Children's narrative and actions"}
+{"neuron":6513,"pole":"low","cluster":2,"mode":"Third-person narrative describing characters and events.","scene_windows":0,"windows":5,"scene":"Narrative descriptions of characters"}
+{"neuron":6513,"pole":"low","cluster":3,"mode":"Children's names and narrative descriptions of activities.","scene_windows":0,"windows":5,"scene":"Children's names and activities"}
+{"neuron":4082,"pole":"high","cluster":0,"mode":"Narrative descriptions of actions and sensory details.","scene_windows":0,"windows":5,"scene":"Narrative actions and sensory details"}
+{"neuron":4082,"pole":"high","cluster":1,"mode":"Advice and instructions for various activities.","scene_windows":0,"windows":5,"scene":"Advice and instructions"}
+{"neuron":4082,"pole":"low","cluster":0,"mode":"Citations and abbreviations.","scene_windows":0,"windows":5,"scene":"Citations and abbreviations"}
+{"neuron":4082,"pole":"low","cluster":1,"mode":"Recipe ingredients and instructions.","scene_windows":0,"windows":5,"scene":"Recipe ingredients and instructions"}
+{"neuron":4082,"pole":"low","cluster":2,"mode":"Third-person narrative describing characters and events.","scene_windows":0,"windows":5,"scene":"Narrative descriptions of characters"}
+{"neuron":4082,"pole":"low","cluster":3,"mode":"Advice and instructions for various activities.","scene_windows":0,"windows":5,"scene":"Advice and instructions"}
+{"neuron":4082,"pole":"low","cluster":4,"mode":"Narrative descriptions of actions and internal states.","scene_windows":0,"windows":5,"scene":"Narrative actions and internal states"}
+{"neuron":4082,"pole":"low","cluster":5,"mode":"Dialogue and narrative involving characters and their actions.","scene_windows":0,"windows":5,"scene":"Dialogue and narrative actions"}
+{"neuron":4082,"pole":"low","cluster":6,"mode":"Dialogue and narrative involving characters and their emotions.","scene_windows":0,"windows":5,"scene":"Dialogue and emotional narrative"}
+{"neuron":4082,"pole":"low","cluster":7,"mode":"children playing together, experiencing joy and friendship","scene_windows":0,"windows":5,"scene":"Children playing happily"}
+{"neuron":5924,"pole":"high","cluster":0,"mode":"locations and names, often in lists or citations","scene_windows":0,"windows":5,"scene":"Lists of places and names"}
+{"neuron":5924,"pole":"high","cluster":1,"mode":"uncertainty, doubt, or lack of knowledge","scene_windows":0,"windows":5,"scene":"Hesitation and uncertainty"}
+{"neuron":5924,"pole":"high","cluster":2,"mode":"children playing in a park or outdoors","scene_windows":0,"windows":5,"scene":"Children playing outdoors"}
+{"neuron":5924,"pole":"low","cluster":0,"mode":"children interacting with parents, often receiving instructions or comfort","scene_windows":0,"windows":5,"scene":"Parental interaction with children"}
+{"neuron":5924,"pole":"low","cluster":1,"mode":"children interacting with parents, receiving instructions or comfort","scene_windows":0,"windows":5,"scene":"Parental interaction with children"}
+{"neuron":5924,"pole":"low","cluster":2,"mode":"children experiencing emotions like sadness or embarrassment, often with parental comfort","scene_windows":0,"windows":5,"scene":"Childhood emotions and comfort"}
+{"neuron":5924,"pole":"low","cluster":3,"mode":"children learning or experiencing new things, often with parental guidance","scene_windows":0,"windows":5,"scene":"Children learning and experiencing"}
+{"neuron":5924,"pole":"low","cluster":4,"mode":"children interacting with mothers, receiving comfort or permission","scene_windows":0,"windows":5,"scene":"Mother-child interactions"}
+{"neuron":5924,"pole":"low","cluster":5,"mode":"children interacting with mothers, receiving comfort or permission","scene_windows":0,"windows":5,"scene":"Mother-child interactions"}
+{"neuron":5924,"pole":"low","cluster":6,"mode":"children receiving comfort or reassurance from mothers","scene_windows":0,"windows":5,"scene":"Mothers comforting children"}
+{"neuron":5924,"pole":"low","cluster":7,"mode":"children playing together and experiencing joy","scene_windows":0,"windows":5,"scene":"Children playing joyfully"}
+{"neuron":5924,"pole":"low","cluster":8,"mode":"children interacting with objects or pets, receiving care","scene_windows":0,"windows":5,"scene":"Children interacting with objects/pets"}

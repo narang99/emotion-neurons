@@ -1,0 +1,67 @@
+{"neuron":4116,"pole":"high","cluster":0,"mode":"infinitive 'to' or 'began to' in reflective personal-growth narration","happy_windows":0,"windows":5,"scene":"reflective personal stories about relationships and self-discovery"}
+{"neuron":4116,"pole":"high","cluster":1,"mode":"proper-noun or number tokens in historical and financial news text","happy_windows":0,"windows":5,"scene":"historical accounts, news reports, policy and finance"}
+{"neuron":4116,"pole":"low","cluster":0,"mode":"quotation marks and punctuation opening dialogue in children's stories","happy_windows":1,"windows":5,"scene":"children's dialogue with pets, animals, and friends"}
+{"neuron":4116,"pole":"low","cluster":1,"mode":"institutional names and organization tokens in formal news or reports","happy_windows":0,"windows":5,"scene":"government, education, and organizational news reporting"}
+{"neuron":4116,"pole":"low","cluster":2,"mode":"CPU and addressing-mode technical terms in computing explanations","happy_windows":0,"windows":5,"scene":"computer architecture and technical documentation"}
+{"neuron":4116,"pole":"low","cluster":3,"mode":"adjectives and nouns describing food, dance, or cultural practice","happy_windows":0,"windows":5,"scene":"recipes and descriptions of cultural traditions"}
+{"neuron":4877,"pole":"high","cluster":0,"mode":"sentence-ending punctuation after events in short children's stories","happy_windows":2,"windows":5,"scene":"simple children's stories with playful or surprising moments"}
+{"neuron":4877,"pole":"high","cluster":1,"mode":"'Suddenly' or 'then' starting a new turn in narrative","happy_windows":1,"windows":5,"scene":"children's adventure stories with discoveries"}
+{"neuron":4877,"pole":"high","cluster":2,"mode":"'started' introducing a change or trouble in a story","happy_windows":0,"windows":5,"scene":"stories of sudden trouble with boats, weather, objects"}
+{"neuron":4877,"pole":"high","cluster":3,"mode":"verbs and names in dated historical biographical sentences","happy_windows":0,"windows":5,"scene":"historical biographies and political events"}
+{"neuron":4877,"pole":"high","cluster":4,"mode":"emotional closing nouns and pronouns about memories and care","happy_windows":3,"windows":5,"scene":"warm reflections on memories, love, and holidays"}
+{"neuron":4877,"pole":"high","cluster":5,"mode":"sentence-level subject or connective tokens in technical and social prose","happy_windows":0,"windows":5,"scene":"code explanations, social commentary, and historical analysis"}
+{"neuron":4877,"pole":"low","cluster":0,"mode":"periods after loving affirmations between parents and children","happy_windows":4,"windows":5,"scene":"parents and children expressing love and gratitude"}
+{"neuron":4877,"pole":"low","cluster":1,"mode":"'was' describing a character's pride or happiness after an achievement","happy_windows":4,"windows":5,"scene":"children proud of creations and accomplishments"}
+{"neuron":4877,"pole":"low","cluster":2,"mode":"'smiled' as a character's reaction in dialogue","happy_windows":4,"windows":5,"scene":"characters smiling and thanking each other warmly"}
+{"neuron":4877,"pole":"low","cluster":3,"mode":"medical, economic, and social-issue terms in expository prose","happy_windows":0,"windows":5,"scene":"health, economics, and social research writing"}
+{"neuron":4877,"pole":"low","cluster":4,"mode":"character pronouns after happy or fun events in stories","happy_windows":5,"windows":5,"scene":"children playing, hugging, and having fun"}
+{"neuron":4877,"pole":"low","cluster":5,"mode":"sentence-final periods after joyful activities and feelings","happy_windows":5,"windows":5,"scene":"children celebrating, playing, and feeling proud"}
+{"neuron":5285,"pole":"high","cluster":0,"mode":"sentence-end or pronoun after a discovery of a nice object","happy_windows":3,"windows":5,"scene":"children discovering pretty or special things outdoors"}
+{"neuron":5285,"pole":"high","cluster":1,"mode":"'they' referring back to a group within a relative clause","happy_windows":1,"windows":5,"scene":"mixed stories about groups, gratitude, and cooking"}
+{"neuron":5285,"pole":"high","cluster":2,"mode":"object or pronoun tokens in playful stories about toys","happy_windows":1,"windows":5,"scene":"children playing with toys and everyday objects"}
+{"neuron":5285,"pole":"high","cluster":3,"mode":"verbs and participles in historical or philosophical prose","happy_windows":0,"windows":5,"scene":"historical, military, and philosophical writing"}
+{"neuron":5285,"pole":"low","cluster":0,"mode":"'is' or 'also' in general statements about recycling and health","happy_windows":0,"windows":5,"scene":"informational text on environment and pet care"}
+{"neuron":5285,"pole":"low","cluster":1,"mode":"pronouns and emotion words after a group's happy or fearful action","happy_windows":1,"windows":5,"scene":"mixed everyday stories with feelings"}
+{"neuron":5285,"pole":"low","cluster":2,"mode":"'was' after a simple object as subject in children's stories","happy_windows":1,"windows":5,"scene":"simple stories about objects and everyday outings"}
+{"neuron":5285,"pole":"low","cluster":3,"mode":"'be' after 'wants to' or 'able to' in moral lessons","happy_windows":0,"windows":5,"scene":"moral lessons about being brave, kind, and safe"}
+{"neuron":6321,"pole":"high","cluster":0,"mode":"'knew' after a character's emotional realization","happy_windows":2,"windows":5,"scene":"characters realizing things, some joyful and some sad"}
+{"neuron":6321,"pole":"high","cluster":1,"mode":"'the' after 'went to' in simple park or store trips","happy_windows":2,"windows":5,"scene":"children going to the park or store with family"}
+{"neuron":6321,"pole":"high","cluster":2,"mode":"word fragments in policy, medical, and historical text","happy_windows":0,"windows":5,"scene":"fire codes, medical studies, and historical military events"}
+{"neuron":6321,"pole":"high","cluster":3,"mode":"design, material, or requirement nouns in product and tip text","happy_windows":0,"windows":5,"scene":"game design, recycling, travel and dietary tips"}
+{"neuron":6321,"pole":"high","cluster":4,"mode":"subject name or pronoun after excited or eager action","happy_windows":3,"windows":5,"scene":"children eagerly trying things and running off excited"}
+{"neuron":6321,"pole":"low","cluster":0,"mode":"'happy', 'fun', and 'and' in children's sharing and playing stories","happy_windows":3,"windows":5,"scene":"children playing, sharing, and feeling happy outdoors"}
+{"neuron":6321,"pole":"low","cluster":1,"mode":"technical nouns and identifiers in software and product descriptions","happy_windows":0,"windows":5,"scene":"software code, accessibility, and technical specs"}
+{"neuron":6458,"pole":"high","cluster":0,"mode":"'was', 'felt', or 'is' describing a character's personality or feeling","happy_windows":3,"windows":5,"scene":"character sketches of playful, curious, or content children"}
+{"neuron":6458,"pole":"high","cluster":1,"mode":"code and technical identifiers in programming explanations","happy_windows":0,"windows":5,"scene":"programming, memory, and hardware technical documentation"}
+{"neuron":6458,"pole":"high","cluster":2,"mode":"ingredient and recipe words in food descriptions","happy_windows":0,"windows":5,"scene":"recipes and cooking suggestions"}
+{"neuron":6458,"pole":"high","cluster":3,"mode":"'look' or 'watched' describing a character's gaze","happy_windows":0,"windows":5,"scene":"characters looking at objects, neutral or curious"}
+{"neuron":6458,"pole":"high","cluster":4,"mode":"'He' or 'and' starting a helper's kind action","happy_windows":2,"windows":5,"scene":"kind helpers assisting and children smiling"}
+{"neuron":6458,"pole":"low","cluster":0,"mode":"possessive pronouns after 'play with' in friend stories","happy_windows":2,"windows":5,"scene":"children playing with friends and toys"}
+{"neuron":6458,"pole":"low","cluster":1,"mode":"'little' in formulaic 'Once upon a time' story openings","happy_windows":0,"windows":5,"scene":"generic story openings about small characters"}
+{"neuron":6458,"pole":"low","cluster":2,"mode":"sentence-initial 'The' starting a new narrative clause","happy_windows":0,"windows":5,"scene":"children's stories with wonder and mild events"}
+{"neuron":6458,"pole":"low","cluster":3,"mode":"'play' after 'loved to' in character introductions","happy_windows":1,"windows":5,"scene":"formulaic introductions of characters who like to play"}
+{"neuron":6458,"pole":"low","cluster":4,"mode":"sound or voice nouns in frightening or curious moments","happy_windows":0,"windows":5,"scene":"characters hearing sounds, some scared, some curious"}
+{"neuron":6458,"pole":"low","cluster":5,"mode":"'They' or 'did' after characters make up or feel good","happy_windows":3,"windows":5,"scene":"families and friends reconciling and having fun together"}
+{"neuron":6458,"pole":"low","cluster":6,"mode":"descriptive nouns in pattern, craft, and food contexts","happy_windows":0,"windows":5,"scene":"pet descriptions, sewing patterns, and recipes"}
+{"neuron":6549,"pole":"high","cluster":0,"mode":"mother or family noun followed by a reaction or smile","happy_windows":2,"windows":5,"scene":"children and parents in warm family moments"}
+{"neuron":6549,"pole":"high","cluster":1,"mode":"abstract nouns and suffixes in academic and technical discussion","happy_windows":0,"windows":5,"scene":"academic and technical research writing"}
+{"neuron":6549,"pole":"high","cluster":2,"mode":"motion verbs like spun, spinning, zoomed in whimsical stories","happy_windows":2,"windows":5,"scene":"whimsical stories of objects spinning and moving"}
+{"neuron":6549,"pole":"high","cluster":3,"mode":"'sad' or 'angry' describing a character's negative feeling","happy_windows":0,"windows":5,"scene":"children upset after conflicts or accidents"}
+{"neuron":6549,"pole":"low","cluster":0,"mode":"descriptive nouns after worry, cleaning, or cooking actions","happy_windows":1,"windows":5,"scene":"cleaning, baking, and worried moments"}
+{"neuron":6549,"pole":"low","cluster":1,"mode":"'together' or 'outside' after 'loved to play'","happy_windows":4,"windows":5,"scene":"friends and animals playing together outdoors"}
+{"neuron":6765,"pole":"high","cluster":0,"mode":"'the' or 'also' in essays about technology and agriculture","happy_windows":0,"windows":5,"scene":"essays on technology, farming, and sustainability"}
+{"neuron":6765,"pole":"high","cluster":1,"mode":"sentence-final period followed by double space in dialogue stories","happy_windows":0,"windows":5,"scene":"family stories with decisions and conflicts"}
+{"neuron":6765,"pole":"high","cluster":2,"mode":"'and' or 'he' after a character's striving or worry","happy_windows":1,"windows":5,"scene":"characters racing, napping, or losing things"}
+{"neuron":6765,"pole":"high","cluster":3,"mode":"Historical and academic nouns in expository text about states, religion, and cultural change","happy_windows":0,"windows":5,"scene":"Historical or scholarly expository passages"}
+{"neuron":6765,"pole":"high","cluster":4,"mode":"Business and instructional advice nouns in how-to guidance on performance and engagement","happy_windows":0,"windows":5,"scene":"Workplace and marketing advice articles"}
+{"neuron":6765,"pole":"high","cluster":5,"mode":"Story endings where characters return, reuse, or take pride in objects","happy_windows":2,"windows":5,"scene":"Children's stories with pride and sharing"}
+{"neuron":6765,"pole":"low","cluster":0,"mode":"Emotional reaction tokens after a character's sad, scared, or lonely moment","happy_windows":0,"windows":5,"scene":"Children's stories with sadness or fear"}
+{"neuron":6765,"pole":"low","cluster":1,"mode":"Past-tense 'saw' as a character notices something after a setback","happy_windows":0,"windows":5,"scene":"Simple children's stories with mild distress"}
+{"neuron":7154,"pole":"high","cluster":0,"mode":"Passive or verb forms like 'used', 'studied', 'work' in explanatory technical text","happy_windows":0,"windows":5,"scene":"Technical or educational explanations and Q&A"}
+{"neuron":7154,"pole":"high","cluster":1,"mode":"Fragments inside proper names of people, places, and dynasties","happy_windows":0,"windows":5,"scene":"Historical and geographic reference text"}
+{"neuron":7154,"pole":"high","cluster":2,"mode":"Abstract reflective phrasing about culture, knowledge, and seemingly endless activity","happy_windows":0,"windows":5,"scene":"Essays on culture, history, and modern life"}
+{"neuron":7154,"pole":"high","cluster":3,"mode":"Character state after 'was/were' or 'for being', often pride or excitement","happy_windows":3,"windows":5,"scene":"Children's stories with pride, excitement, or success"}
+{"neuron":7154,"pole":"low","cluster":0,"mode":"Numbers, years, or blank tokens in citations, specs, and parameters","happy_windows":0,"windows":5,"scene":"Technical specs, legal and historical citations"}
+{"neuron":7154,"pole":"low","cluster":1,"mode":"'that' or 'of' after scholarly verbs like proved, hypothesis, or disdain","happy_windows":0,"windows":5,"scene":"Scholarly historical and biblical analysis"}
+{"neuron":7154,"pole":"low","cluster":2,"mode":"Social group nouns like society, sinners, laymen, and priesthood","happy_windows":0,"windows":5,"scene":"Historical and religious discussion of social groups"}
+{"neuron":7154,"pole":"low","cluster":3,"mode":"'was' after a character subject, often followed by an emotional state","happy_windows":3,"windows":5,"scene":"Simple children's stories with characters' feelings"}

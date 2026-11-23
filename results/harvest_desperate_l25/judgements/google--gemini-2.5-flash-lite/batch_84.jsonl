@@ -1,0 +1,57 @@
+{"neuron":7351,"pole":"high","cluster":0,"mode":"eerie sounds, animal actions, or a wish for death","scene_windows":1,"windows":5,"scene":"ominous, violent, or magical events"}
+{"neuron":7351,"pole":"high","cluster":1,"mode":"technical computing terms: addressing modes, registers, memory","scene_windows":0,"windows":5,"scene":"technical explanation of computing"}
+{"neuron":7351,"pole":"high","cluster":2,"mode":"children's stories about sadness or excitement","scene_windows":0,"windows":5,"scene":"childhood narrative, mild disappointment"}
+{"neuron":7351,"pole":"high","cluster":3,"mode":"conversational fragments, questioning identity or relationships","scene_windows":0,"windows":5,"scene":"introspective, slightly confused dialogue"}
+{"neuron":7351,"pole":"high","cluster":4,"mode":"children's stories about animals and parks","scene_windows":0,"windows":5,"scene":"childhood narrative, simple observations"}
+{"neuron":7351,"pole":"low","cluster":0,"mode":"playing with objects, making snacks, or receiving cookies","scene_windows":0,"windows":5,"scene":"childhood narrative, simple activities"}
+{"neuron":7351,"pole":"low","cluster":1,"mode":"observing destruction or transformation","scene_windows":0,"windows":5,"scene":"dramatic or unsettling observations"}
+{"neuron":7351,"pole":"low","cluster":2,"mode":"citations and technical terms","scene_windows":0,"windows":5,"scene":"academic or technical text"}
+{"neuron":7351,"pole":"low","cluster":3,"mode":"describing intense fear, panic, or destruction","scene_windows":1,"windows":5,"scene":"intense fear and destruction"}
+{"neuron":7351,"pole":"low","cluster":4,"mode":"physical affection: hugging, caressing","scene_windows":0,"windows":5,"scene":"expressions of affection or comfort"}
+{"neuron":7351,"pole":"low","cluster":5,"mode":"objects or people reacting unexpectedly","scene_windows":0,"windows":5,"scene":"unusual or unsettling events"}
+{"neuron":3144,"pole":"high","cluster":0,"mode":"personal feelings of having nothing or needing something","scene_windows":0,"windows":5,"scene":"personal reflection, lack of fulfillment"}
+{"neuron":3144,"pole":"high","cluster":1,"mode":"AI assistant providing information or suggestions","scene_windows":0,"windows":5,"scene":"conversational AI interaction"}
+{"neuron":3144,"pole":"low","cluster":0,"mode":"conversational fragments, observing events","scene_windows":0,"windows":5,"scene":"observational, slightly melancholic dialogue"}
+{"neuron":3144,"pole":"low","cluster":1,"mode":"gratitude, learning, or receiving gifts","scene_windows":0,"windows":5,"scene":"positive emotional responses"}
+{"neuron":5902,"pole":"high","cluster":0,"mode":"actions, popularity, coping, heritage, leadership","scene_windows":0,"windows":5,"scene":"societal and political commentary"}
+{"neuron":5902,"pole":"high","cluster":1,"mode":"numerical ranges and citations","scene_windows":0,"windows":5,"scene":"academic or technical text"}
+{"neuron":5902,"pole":"low","cluster":0,"mode":"statements about burden, vulnerability, or health risks","scene_windows":0,"windows":5,"scene":"societal issues, health concerns"}
+{"neuron":5902,"pole":"low","cluster":1,"mode":"fear of confrontation or questioning identity","scene_windows":0,"windows":5,"scene":"anxious or confrontational dialogue"}
+{"neuron":5902,"pole":"low","cluster":2,"mode":"describing products, brands, or energy sources","scene_windows":0,"windows":5,"scene":"descriptive, informative text"}
+{"neuron":5902,"pole":"low","cluster":3,"mode":"describing feelings of despair, panic, or responsibility","scene_windows":1,"windows":5,"scene":"overwhelming negative emotions"}
+{"neuron":5902,"pole":"low","cluster":4,"mode":"physical actions of freezing, hugging, or holding","scene_windows":0,"windows":5,"scene":"physical interactions, emotional distress"}
+{"neuron":5902,"pole":"low","cluster":5,"mode":"objects or people reacting unexpectedly","scene_windows":0,"windows":5,"scene":"unusual or unsettling events"}
+{"neuron":5902,"pole":"low","cluster":6,"mode":"sounds, physical sensations, or actions","scene_windows":0,"windows":5,"scene":"sensory details, physical actions"}
+{"neuron":5902,"pole":"low","cluster":7,"mode":"conversational fragments, questioning identity","scene_windows":0,"windows":5,"scene":"dialogue, identity exploration"}
+{"neuron":9255,"pole":"high","cluster":0,"mode":"sudden events or realizations","scene_windows":0,"windows":5,"scene":"sudden unexpected occurrences"}
+{"neuron":9255,"pole":"high","cluster":1,"mode":"sudden events or realizations","scene_windows":0,"windows":5,"scene":"sudden unexpected occurrences"}
+{"neuron":9255,"pole":"high","cluster":2,"mode":"feelings of burden, sorrow, or joy","scene_windows":0,"windows":5,"scene":"emotional states, profound realizations"}
+{"neuron":9255,"pole":"low","cluster":0,"mode":"place names or technical terms","scene_windows":0,"windows":5,"scene":"geographical or technical context"}
+{"neuron":9255,"pole":"low","cluster":1,"mode":"sudden events or realizations","scene_windows":0,"windows":5,"scene":"sudden unexpected occurrences"}
+{"neuron":9255,"pole":"low","cluster":2,"mode":"feelings of happiness or gratitude","scene_windows":0,"windows":5,"scene":"positive emotional states"}
+{"neuron":8205,"pole":"high","cluster":0,"mode":"describing food, flavors, or sensory experiences","scene_windows":0,"windows":5,"scene":"sensory descriptions, food"}
+{"neuron":8205,"pole":"high","cluster":1,"mode":"scientific or ecological concepts","scene_windows":0,"windows":5,"scene":"scientific or ecological context"}
+{"neuron":8205,"pole":"low","cluster":0,"mode":"feelings of fear, sadness, or confusion","scene_windows":0,"windows":5,"scene":"negative emotional states"}
+{"neuron":8205,"pole":"low","cluster":1,"mode":"citations and technical terms","scene_windows":0,"windows":5,"scene":"academic or technical text"}
+{"neuron":8800,"pole":"high","cluster":0,"mode":"weather conditions, temperature, and water supply","scene_windows":0,"windows":5,"scene":"environmental conditions, drought"}
+{"neuron":8800,"pole":"high","cluster":1,"mode":"feelings of cheerfulness, happiness, or relief","scene_windows":0,"windows":5,"scene":"positive emotional states"}
+{"neuron":8800,"pole":"high","cluster":2,"mode":"children's stories about being sleepy, scared, or adventurous","scene_windows":0,"windows":5,"scene":"childhood narrative, mild emotions"}
+{"neuron":8800,"pole":"high","cluster":3,"mode":"feelings of happiness, sadness, or friendship","scene_windows":0,"windows":5,"scene":"positive and negative emotions"}
+{"neuron":8800,"pole":"high","cluster":4,"mode":"conversational fragments, questions, or statements","scene_windows":0,"windows":5,"scene":"dialogue, casual conversation"}
+{"neuron":8800,"pole":"low","cluster":0,"mode":"narrative openings: 'Once upon a time, there was...'","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":8800,"pole":"low","cluster":1,"mode":"narrative openings: 'Once upon a time, there was...'","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":8800,"pole":"low","cluster":2,"mode":"narrative openings: 'From that day on...'","scene_windows":0,"windows":5,"scene":"story progression, consequences"}
+{"neuron":8800,"pole":"low","cluster":3,"mode":"narrative openings: 'Once upon a time...'","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":8800,"pole":"low","cluster":4,"mode":"narrative openings: 'Once upon a time...'","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":7193,"pole":"high","cluster":0,"mode":"requests for help, statements of love, or actions","scene_windows":0,"windows":5,"scene":"dialogue, emotional interactions"}
+{"neuron":7193,"pole":"high","cluster":1,"mode":"conversational fragments, descriptions of conflict or identity","scene_windows":0,"windows":5,"scene":"dialogue, conflict, identity"}
+{"neuron":7193,"pole":"low","cluster":0,"mode":"descriptions of suffering, nervousness, or actions","scene_windows":0,"windows":5,"scene":"negative emotions, actions"}
+{"neuron":7193,"pole":"low","cluster":1,"mode":"narrative openings: 'Once upon a time, there was...'","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":1828,"pole":"high","cluster":0,"mode":"desire or wanting something","scene_windows":0,"windows":5,"scene":"childhood desires, simple goals"}
+{"neuron":1828,"pole":"high","cluster":1,"mode":"looking or observing","scene_windows":0,"windows":5,"scene":"observation, visual perception"}
+{"neuron":1828,"pole":"high","cluster":2,"mode":"actions of getting or becoming","scene_windows":0,"windows":5,"scene":"actions, transformations"}
+{"neuron":1828,"pole":"high","cluster":3,"mode":"actions of going or wanting","scene_windows":0,"windows":5,"scene":"actions, desires"}
+{"neuron":1828,"pole":"high","cluster":4,"mode":"conjunctions and pronouns indicating connection or possession","scene_windows":0,"windows":5,"scene":"relationships, possession"}
+{"neuron":1828,"pole":"high","cluster":5,"mode":"impacts, opportunities, determination, security","scene_windows":0,"windows":5,"scene":"positive outcomes, achievements"}
+{"neuron":1828,"pole":"low","cluster":0,"mode":"descriptions of suffering, phenomena, or feelings","scene_windows":0,"windows":5,"scene":"negative emotions, unusual events"}
+{"neuron":1828,"pole":"low","cluster":1,"mode":"descriptions of being very something","scene_windows":0,"windows":5,"scene":"descriptive statements"}

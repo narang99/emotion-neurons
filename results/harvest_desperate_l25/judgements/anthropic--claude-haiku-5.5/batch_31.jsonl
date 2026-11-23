@@ -1,0 +1,42 @@
+{"neuron":2845,"pole":"high","cluster":0,"mode":"Clause-boundary punctuation or verb in reflective, literary narration","scene_windows":0,"windows":5,"scene":"Reflective literary narration about life and relationships"}
+{"neuron":2845,"pole":"high","cluster":1,"mode":"\"wanted\" after a character's name in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with characters' desires"}
+{"neuron":2845,"pole":"low","cluster":0,"mode":"Mid-clause function words in literary dialogue and description","scene_windows":0,"windows":5,"scene":"Literary fiction dialogue and character observation"}
+{"neuron":2845,"pole":"low","cluster":1,"mode":"Emotion or evaluation adjectives and verbs in children's story conflicts","scene_windows":0,"windows":5,"scene":"Children's stories about upset feelings and small conflicts"}
+{"neuron":5711,"pole":"high","cluster":0,"mode":"Subject pronouns starting a new sentence in narrative fiction","scene_windows":0,"windows":5,"scene":"Fiction narration in apocalyptic or tense settings"}
+{"neuron":5711,"pole":"high","cluster":1,"mode":"Continuation tokens mid-sentence in technical process explanations","scene_windows":0,"windows":5,"scene":"Technical explanations of processes like plasma, sludge, health"}
+{"neuron":5711,"pole":"low","cluster":0,"mode":"Verbs of reducing or lowering in sustainability and efficiency contexts","scene_windows":0,"windows":5,"scene":"Articles on AI, logistics, carbon emissions reduction"}
+{"neuron":5711,"pole":"low","cluster":1,"mode":"Emotional judgments of self or others, e.g. unforgivable, unthinkable","scene_windows":2,"windows":5,"scene":"Personal emotional confessions about regret and loss"}
+{"neuron":6994,"pole":"high","cluster":0,"mode":"Recipe and cooking instruction phrasing, sentence-level continuation","scene_windows":0,"windows":5,"scene":"Recipe and food preparation instructions"}
+{"neuron":6994,"pole":"high","cluster":1,"mode":"Function words in social or narrative description of attitudes","scene_windows":0,"windows":5,"scene":"Narrative descriptions of social attitudes and behavior"}
+{"neuron":6994,"pole":"low","cluster":0,"mode":"\"Can\" beginning a request or question in dialogue","scene_windows":0,"windows":5,"scene":"Children's dialogue making requests and asking favors"}
+{"neuron":6994,"pole":"low","cluster":1,"mode":"Prepositions after medical or biological process verbs","scene_windows":0,"windows":5,"scene":"Medical and biological descriptions of conditions and pathogens"}
+{"neuron":6994,"pole":"low","cluster":2,"mode":"Prepositions after waved or looked, in animal encounters","scene_windows":0,"windows":5,"scene":"Children's stories about encounters with animals and nature"}
+{"neuron":6994,"pole":"low","cluster":3,"mode":"\"of\" after quantifiers like most, many, all","scene_windows":0,"windows":5,"scene":"Quantifier phrases in fiction and descriptive prose"}
+{"neuron":6967,"pole":"high","cluster":0,"mode":"\"felt\" or \"feel\" introducing an emotional state","scene_windows":0,"windows":5,"scene":"Character emotional states in stories and reflections"}
+{"neuron":6967,"pole":"high","cluster":1,"mode":"Verbs and infinitives of intent or expectation mid-narrative","scene_windows":0,"windows":5,"scene":"Narrative scenes of expectation, intent, and quiet tension"}
+{"neuron":6967,"pole":"high","cluster":2,"mode":"\"tries/tried/trying\" describing effortful attempts under pressure","scene_windows":3,"windows":5,"scene":"Chaotic crises with characters attempting to regain control"}
+{"neuron":6967,"pole":"low","cluster":0,"mode":"Auxiliary or pronoun after modal or seem in fantasy narration","scene_windows":0,"windows":5,"scene":"Fantasy and quest narration about characters and fights"}
+{"neuron":6967,"pole":"low","cluster":1,"mode":"\"sky\" ending a location phrase in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories set outdoors looking at the sky"}
+{"neuron":10137,"pole":"high","cluster":0,"mode":"Punctuation mid-sentence in reflective first-person narration","scene_windows":0,"windows":5,"scene":"Reflective first-person narration about memories and feelings"}
+{"neuron":10137,"pole":"high","cluster":1,"mode":"\"Why\" opening a question or reply in dialogue","scene_windows":0,"windows":5,"scene":"Conversational dialogue and playful questioning"}
+{"neuron":10137,"pole":"low","cluster":0,"mode":"Function words inside dialogue narration and reflection","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction with reflective asides"}
+{"neuron":10137,"pole":"low","cluster":1,"mode":"Code syntax tokens such as brackets, underscores, whitespace","scene_windows":0,"windows":5,"scene":"Source code snippets in various languages"}
+{"neuron":12186,"pole":"high","cluster":0,"mode":"Demonstrative or object pronoun starting a descriptive clause","scene_windows":0,"windows":5,"scene":"Descriptive narration of objects and strange creatures"}
+{"neuron":12186,"pole":"high","cluster":1,"mode":"Possessive or object pronouns in children's story sentences","scene_windows":0,"windows":5,"scene":"Children's stories about family, toys, and feelings"}
+{"neuron":12186,"pole":"low","cluster":0,"mode":"Possessed nouns after determiners like her or their","scene_windows":0,"windows":5,"scene":"Simple stories and casual narration about people and objects"}
+{"neuron":12186,"pole":"low","cluster":1,"mode":"Possessive pronouns referring to parents in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories involving parents and family members"}
+{"neuron":12186,"pole":"low","cluster":2,"mode":"Possessive pronouns after looked at or my, in tense moments","scene_windows":2,"windows":5,"scene":"Tense first-person and captive-escape narration"}
+{"neuron":10405,"pole":"high","cluster":0,"mode":"\"the\" after spatial prepositions like in or into","scene_windows":0,"windows":5,"scene":"Narration of locations, distance, and dark or fire settings"}
+{"neuron":10405,"pole":"high","cluster":1,"mode":"Subject pronouns or conjunctions in tense physical action","scene_windows":2,"windows":5,"scene":"Tense physical struggles and fraught moments"}
+{"neuron":10405,"pole":"high","cluster":2,"mode":"Biomedical and technical nouns in health and science articles","scene_windows":0,"windows":5,"scene":"Health, medicine, and science news articles"}
+{"neuron":10405,"pole":"low","cluster":0,"mode":"Blank whitespace tokens after emotional dialogue lines","scene_windows":1,"windows":5,"scene":"Emotional dialogue scenes with comfort or bargaining"}
+{"neuron":10405,"pole":"low","cluster":1,"mode":"Adverbs or verbs ending emotional character actions","scene_windows":0,"windows":5,"scene":"Character emotional beats in drifting or tense narration"}
+{"neuron":10405,"pole":"low","cluster":2,"mode":"Verbs and clause endings in summarizing narrative or historical prose","scene_windows":0,"windows":5,"scene":"Historical summaries and story-writing prompts"}
+{"neuron":10405,"pole":"low","cluster":3,"mode":"Conjunctions \"but\" and \"and\" in reflective or doubtful clauses","scene_windows":1,"windows":5,"scene":"Reflective narration weighing doubt and hope"}
+{"neuron":9209,"pole":"high","cluster":0,"mode":"Subject pronoun or conjunction in tense exploration narration","scene_windows":1,"windows":5,"scene":"Characters lost or moving through danger"}
+{"neuron":9209,"pole":"high","cluster":1,"mode":"\"a\" or \"saw\" introducing a sighting in park stories","scene_windows":0,"windows":5,"scene":"Children's stories set in parks noticing things"}
+{"neuron":9209,"pole":"low","cluster":0,"mode":"Mid-word fragments and punctuation in varied prose","scene_windows":0,"windows":5,"scene":"Mixed prose on medicine, fiction, and dialogue"}
+{"neuron":9209,"pole":"low","cluster":1,"mode":"Closing quotation marks and punctuation ending spoken lines","scene_windows":0,"windows":5,"scene":"Dialogue lines in tense or joking exchanges"}
+{"neuron":9209,"pole":"low","cluster":2,"mode":"Speech verbs or directional words after dialogue","scene_windows":0,"windows":5,"scene":"Dialogue tags and characters' small physical reactions"}
+{"neuron":9209,"pole":"low","cluster":3,"mode":"Final words of clauses such as out, over, good, reality","scene_windows":0,"windows":5,"scene":"Mixed fiction, journal entries, and casual writing"}
+{"neuron":9209,"pole":"low","cluster":4,"mode":"Modal or pronoun in confessions about wants and choices","scene_windows":0,"windows":5,"scene":"First-person confessions about refusal and wanting"}

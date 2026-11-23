@@ -1,0 +1,77 @@
+{"neuron":2490,"pole":"high","cluster":0,"mode":"auxiliary/infinitive tokens in body-temperature explanation","scene_windows":0,"windows":5,"scene":"Science explanation of body heat regulation"}
+{"neuron":2490,"pole":"high","cluster":1,"mode":"relative/pronoun tokens in poverty definition sentence","scene_windows":0,"windows":5,"scene":"Academic definition of poverty in a study"}
+{"neuron":2490,"pole":"high","cluster":2,"mode":"'to'/'improve' tokens in supplement health-benefit claims","scene_windows":0,"windows":5,"scene":"Health and supplement benefits article"}
+{"neuron":2490,"pole":"high","cluster":3,"mode":"scattered determiners and numbers in mundane descriptions","scene_windows":0,"windows":5,"scene":"Neutral mixed informational text"}
+{"neuron":2490,"pole":"high","cluster":4,"mode":"descriptive words in sleep-stage characterization","scene_windows":0,"windows":5,"scene":"Explanation of sleep stages"}
+{"neuron":2490,"pole":"low","cluster":0,"mode":"tokens after 'hinders/slows' in chemical effect claims","scene_windows":0,"windows":5,"scene":"Triclosan and ginger health research news"}
+{"neuron":2490,"pole":"low","cluster":1,"mode":"'right to a fair trial' phrasing in legal rights","scene_windows":0,"windows":5,"scene":"US constitutional rights explanation and lawsuit"}
+{"neuron":2490,"pole":"low","cluster":2,"mode":"'Proceedings of the National Academy' journal citation tokens","scene_windows":0,"windows":5,"scene":"Science journal research news"}
+{"neuron":2490,"pole":"low","cluster":3,"mode":"'researchers/collaborators' subject nouns in study reports","scene_windows":0,"windows":5,"scene":"Science news about research teams"}
+{"neuron":2490,"pole":"low","cluster":4,"mode":"'study' and 'the' after author-lead phrasing","scene_windows":0,"windows":5,"scene":"University press release on研究 co-authors"}
+{"neuron":2490,"pole":"low","cluster":5,"mode":"Streptococcus/mycobacterium bacterial name fragments","scene_windows":0,"windows":5,"scene":"Infectious disease and vaccine description"}
+{"neuron":2490,"pole":"low","cluster":6,"mode":"comparative 'than' after higher/more income or rates","scene_windows":0,"windows":5,"scene":"Comparative statistics in economics and studies"}
+{"neuron":3438,"pole":"high","cluster":0,"mode":"'never' in dramatic narrative about permanent outcomes","scene_windows":0,"windows":5,"scene":"Fiction narration of grief and loss"}
+{"neuron":3438,"pole":"high","cluster":1,"mode":"narrative pivot tokens in historical and fantasy prose","scene_windows":0,"windows":5,"scene":"Historical and fictional narrative passages"}
+{"neuron":3438,"pole":"high","cluster":2,"mode":"sentence-initial pronouns after violent or physical events","scene_windows":0,"windows":5,"scene":"Fiction narration of a beating or aftermath"}
+{"neuron":3438,"pole":"low","cluster":0,"mode":"'n't' contraction in negated first-person narration","scene_windows":0,"windows":5,"scene":"First-person fiction with inability phrasing"}
+{"neuron":3438,"pole":"low","cluster":1,"mode":"apostrophe fragments in negated contractions","scene_windows":0,"windows":5,"scene":"Fiction dialogue and narration with contractions"}
+{"neuron":3887,"pole":"high","cluster":0,"mode":"car trim upgrade nouns like badging and trim","scene_windows":0,"windows":5,"scene":"Hyundai Kona N car upgrade speculation"}
+{"neuron":3887,"pole":"high","cluster":1,"mode":"'add' verbs in interior decorating advice","scene_windows":0,"windows":5,"scene":"Home decor color scheme tips"}
+{"neuron":3887,"pole":"high","cluster":2,"mode":"'colors' noun after 'accent' in design advice","scene_windows":0,"windows":5,"scene":"Interior design accent color guidance"}
+{"neuron":3887,"pole":"high","cluster":3,"mode":"conjunctions and commas in color-scheme lists","scene_windows":0,"windows":5,"scene":"Decor style color scheme descriptions"}
+{"neuron":3887,"pole":"high","cluster":4,"mode":"commas listing car upgrade features","scene_windows":0,"windows":5,"scene":"Car performance upgrade descriptions"}
+{"neuron":3887,"pole":"high","cluster":5,"mode":"colour adjectives describing shades and plumage","scene_windows":0,"windows":5,"scene":"Descriptions of colours in birds and objects"}
+{"neuron":3887,"pole":"high","cluster":6,"mode":"modal 'will/be/likely' in expected vehicle features","scene_windows":0,"windows":5,"scene":"Assistant speculation on Kona N features"}
+{"neuron":3887,"pole":"high","cluster":7,"mode":"function words in mixed prose","scene_windows":0,"windows":5,"scene":"Miscellaneous prose passages"}
+{"neuron":3887,"pole":"high","cluster":8,"mode":"speaker labels and turn markers in dialogue","scene_windows":0,"windows":5,"scene":"Chat transcripts with Human and user labels"}
+{"neuron":3887,"pole":"low","cluster":0,"mode":"CSS background property tokens","scene_windows":0,"windows":5,"scene":"Web page CSS styling code"}
+{"neuron":3887,"pole":"low","cluster":1,"mode":"'making/make' verbs in advice writing","scene_windows":0,"windows":5,"scene":"Tips on websites, DIY, and advertising"}
+{"neuron":3887,"pole":"low","cluster":2,"mode":"'Assistant' role label starting answers","scene_windows":0,"windows":5,"scene":"Human-assistant factual Q&A transcripts"}
+{"neuron":3887,"pole":"low","cluster":3,"mode":"sentence-final punctuation before speaker turn breaks","scene_windows":0,"windows":5,"scene":"Chat replies ending before next turn"}
+{"neuron":3887,"pole":"low","cluster":4,"mode":"prepositions and 'of' in product and news text","scene_windows":0,"windows":5,"scene":"Car features, tech and industry news"}
+{"neuron":3887,"pole":"low","cluster":5,"mode":"'behind' locative in suspense narration","scene_windows":0,"windows":5,"scene":"Fiction suspense scenes with hidden watchers"}
+{"neuron":6945,"pole":"high","cluster":0,"mode":"closing quote marks in fiction dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with quoted speech"}
+{"neuron":6945,"pole":"high","cluster":1,"mode":"content nouns and verbs in policy and social topics","scene_windows":0,"windows":5,"scene":"Essays on policy, markets, and prostitution"}
+{"neuron":6945,"pole":"high","cluster":2,"mode":"'It' starting assistant replies about sensitive requests","scene_windows":2,"windows":5,"scene":"Assistant replies to identity and survival requests"}
+{"neuron":6945,"pole":"low","cluster":0,"mode":"'text/article' nouns in document-grounded questions","scene_windows":0,"windows":5,"scene":"Assistant answering questions about a given text"}
+{"neuron":6945,"pole":"low","cluster":1,"mode":"commas after place or geography clauses","scene_windows":0,"windows":5,"scene":"Encyclopedic text about places and cities"}
+{"neuron":6945,"pole":"low","cluster":2,"mode":"'city/country/area' nouns after prestigious superlatives","scene_windows":0,"windows":5,"scene":"Descriptions of heists, universities and locations"}
+{"neuron":6945,"pole":"low","cluster":3,"mode":"sentence-ending periods in informational statements","scene_windows":0,"windows":5,"scene":"Expository statements about policy and science"}
+{"neuron":7365,"pole":"high","cluster":0,"mode":"tokens within menstrual cycle definition phrasing","scene_windows":0,"windows":5,"scene":"Slang definition of menstrual cycle timing"}
+{"neuron":7365,"pole":"high","cluster":1,"mode":"'sunlight' noun in photosynthesis explanations","scene_windows":0,"windows":5,"scene":"Plant and algae energy Q&A"}
+{"neuron":7365,"pole":"high","cluster":2,"mode":"prepositions in cultural and activity descriptions","scene_windows":0,"windows":5,"scene":"Cultural traditions and pet care text"}
+{"neuron":7365,"pole":"high","cluster":3,"mode":"'the week/day' phrasing in stock-market Monday effect","scene_windows":0,"windows":5,"scene":"Stock market day-of-week discussion"}
+{"neuron":7365,"pole":"low","cluster":0,"mode":"quantity and time spans in process durations","scene_windows":0,"windows":5,"scene":"Environmental and compost timelines"}
+{"neuron":7365,"pole":"low","cluster":1,"mode":"'the' and 'a' before abstract poetic subjects","scene_windows":0,"windows":5,"scene":"Descriptions of haiku poetry form"}
+{"neuron":8254,"pole":"high","cluster":0,"mode":"split 'WE' token inside TWEAK protein name","scene_windows":0,"windows":5,"scene":"Biomedical TWEAK/Fn14 signaling research"}
+{"neuron":8254,"pole":"high","cluster":1,"mode":"word-initial 'Le' or 'le' fragments","scene_windows":0,"windows":5,"scene":"Recipe lists and marketing tips with Le words"}
+{"neuron":8254,"pole":"high","cluster":2,"mode":"word-initial 'Se' or 'se' fragments","scene_windows":0,"windows":5,"scene":"Botany, exercise and sewing instructions"}
+{"neuron":8254,"pole":"high","cluster":3,"mode":"word-initial 'Ne' fragments in names and terms","scene_windows":0,"windows":5,"scene":"Science and medical names beginning Ne"}
+{"neuron":8254,"pole":"high","cluster":4,"mode":"word-initial 'ste' fragments in words","scene_windows":0,"windows":5,"scene":"Mixed prose with steak, steed, steaming"}
+{"neuron":8254,"pole":"high","cluster":5,"mode":"miscellaneous mid-word fragments in descriptive text","scene_windows":0,"windows":5,"scene":"Landscapes, heritage and research descriptions"}
+{"neuron":8254,"pole":"high","cluster":6,"mode":"'E' or 'e' word-initial fragments","scene_windows":0,"windows":5,"scene":"Herbal remedies, yoga poses, creature descriptions"}
+{"neuron":8254,"pole":"low","cluster":0,"mode":"'gr' word-initial fragments","scene_windows":0,"windows":5,"scene":"Recipes, book titles and narrative sounds"}
+{"neuron":8254,"pole":"low","cluster":1,"mode":"'NST' fragment of NSTA acronym","scene_windows":0,"windows":5,"scene":"Science teacher association event listings"}
+{"neuron":8254,"pole":"low","cluster":2,"mode":"'St' word-initial fragments","scene_windows":0,"windows":5,"scene":"Car brakes, fishing, medical stents text"}
+{"neuron":8254,"pole":"low","cluster":3,"mode":"'O' acronym-initial fragments","scene_windows":0,"windows":5,"scene":"Institutional acronyms like OHSU and ONS"}
+{"neuron":8254,"pole":"low","cluster":4,"mode":"period after middle initials in names","scene_windows":0,"windows":5,"scene":"Author and scientist names with initials"}
+{"neuron":8254,"pole":"low","cluster":5,"mode":"single-letter or initial fragments starting words","scene_windows":0,"windows":5,"scene":"Scattered citations and jacket or lamp names"}
+{"neuron":8590,"pole":"high","cluster":0,"mode":"sentence-initial 'Just' adding emphatic aside","scene_windows":0,"windows":5,"scene":"Dramatic narration and gaming commentary"}
+{"neuron":8590,"pole":"high","cluster":1,"mode":"comma after 'thought' introducing inner thought","scene_windows":0,"windows":5,"scene":"Narrative inner monologue in tense moments"}
+{"neuron":8590,"pole":"high","cluster":2,"mode":"opening quotation marks starting dialogue lines","scene_windows":0,"windows":5,"scene":"Fiction dialogue after tense moments"}
+{"neuron":8590,"pole":"high","cluster":3,"mode":"asterisks opening italic thoughts in fiction","scene_windows":0,"windows":5,"scene":"Fiction with italic inner thoughts"}
+{"neuron":8590,"pole":"high","cluster":4,"mode":"'say' after 'I would' in hedged opinions","scene_windows":0,"windows":5,"scene":"Opinion answers on names, health and ethics"}
+{"neuron":8590,"pole":"high","cluster":5,"mode":"colon introducing quoted speech","scene_windows":0,"windows":5,"scene":"Reported speech with colons in narratives"}
+{"neuron":8590,"pole":"high","cluster":6,"mode":"sentence-final periods in dialogue and speculation","scene_windows":0,"windows":5,"scene":"Fiction and speculative commentary"}
+{"neuron":8590,"pole":"high","cluster":7,"mode":"question marks closing quoted dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue ending in questions"}
+{"neuron":8590,"pole":"high","cluster":8,"mode":"'the' after 'for' in phrasing about time or audiences","scene_windows":0,"windows":5,"scene":"Literary and reflective prose"}
+{"neuron":8590,"pole":"high","cluster":9,"mode":"'so' starting consequence clauses","scene_windows":0,"windows":5,"scene":"Advice and opinion text with so-clauses"}
+{"neuron":8590,"pole":"low","cluster":0,"mode":"'seemed' after 'what' in time-distortion phrasing","scene_windows":0,"windows":5,"scene":"Narration of hours or eternity passing"}
+{"neuron":8590,"pole":"low","cluster":1,"mode":"'think' after 'What do you' in questions","scene_windows":0,"windows":5,"scene":"Human questions asking for opinions"}
+{"neuron":8590,"pole":"low","cluster":2,"mode":"'so' in 'for so long/many' duration phrases","scene_windows":0,"windows":5,"scene":"Narrative and essays on long durations"}
+{"neuron":8590,"pole":"low","cluster":3,"mode":"'n' of negative contractions before 't","scene_windows":0,"windows":5,"scene":"Narration with negated did/do verbs"}
+{"neuron":8590,"pole":"low","cluster":4,"mode":"comparative 'than' followed by expected or was","scene_windows":0,"windows":5,"scene":"Comparative expectation statements"}
+{"neuron":8590,"pole":"low","cluster":5,"mode":"'was/could' after 'what' in understanding clauses","scene_windows":0,"windows":5,"scene":"Narration of confusion and unknown events"}
+{"neuron":8590,"pole":"low","cluster":6,"mode":"quantifier 'all' before objects or groups","scene_windows":0,"windows":5,"scene":"Narration about agencies, digging and wishes"}
+{"neuron":8590,"pole":"low","cluster":7,"mode":"Sentence-initial \"The\" starting a new clause in narrative or news prose","scene_windows":0,"windows":5,"scene":"Neutral narration and news reporting, no harmful requests"}
+{"neuron":8590,"pole":"low","cluster":8,"mode":"\"time\" in the idiom \"from time to time\" or \"for time\" phrasing","scene_windows":0,"windows":5,"scene":"Everyday narration and advice about mood, habits, and feelings"}

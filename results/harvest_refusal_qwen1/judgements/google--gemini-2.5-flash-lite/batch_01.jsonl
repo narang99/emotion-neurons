@@ -1,0 +1,35 @@
+{"neuron":3094,"pole":"high","cluster":0,"mode":"Endings of sentences, often with periods, in factual or historical contexts.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":3094,"pole":"high","cluster":1,"mode":"Prepositions and conjunctions indicating consequence or purpose.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":3094,"pole":"low","cluster":0,"mode":"Prepositions and conjunctions indicating purpose or relation.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":3094,"pole":"low","cluster":1,"mode":"Punctuation and conjunctions indicating continuation or conclusion.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1469,"pole":"high","cluster":0,"mode":"Nouns indicating positive social connections and circumstances.","scene_windows":0,"windows":5,"scene":"Positive personal situations"}
+{"neuron":1469,"pole":"high","cluster":1,"mode":"Verbs and auxiliaries indicating state or existence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1469,"pole":"low","cluster":0,"mode":"Prepositions and conjunctions indicating purpose or relation.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1469,"pole":"low","cluster":1,"mode":"Nouns and abbreviations indicating entities or organizations.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":2760,"pole":"low","cluster":0,"mode":"Nouns and conjunctions indicating tasks, states, or transitions.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":2760,"pole":"low","cluster":1,"mode":"Punctuation and conjunctions indicating continuation or conclusion.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":233,"pole":"high","cluster":0,"mode":"Prepositions and conjunctions indicating cause or relation.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":233,"pole":"high","cluster":1,"mode":"Verbs and auxiliaries indicating state or existence.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":233,"pole":"low","cluster":0,"mode":"Nouns and conjunctions indicating assistance or alternatives.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":233,"pole":"low","cluster":1,"mode":"Nouns and conjunctions indicating process or outcome.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":233,"pole":"low","cluster":2,"mode":"Punctuation and conjunctions indicating process or completion.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4907,"pole":"high","cluster":0,"mode":"Nouns and conjunctions indicating explanation or distribution.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4907,"pole":"high","cluster":1,"mode":"Prepositions and conjunctions indicating location or relation.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4907,"pole":"high","cluster":2,"mode":"Nouns and conjunctions indicating place or origin.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4907,"pole":"high","cluster":3,"mode":"Punctuation and conjunctions indicating speech or dialogue.","scene_windows":0,"windows":5,"scene":"Dialogue"}
+{"neuron":4907,"pole":"high","cluster":4,"mode":"Nouns and conjunctions indicating ability or state.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4907,"pole":"low","cluster":0,"mode":"Numbers and conjunctions indicating ingredients or quantities.","scene_windows":0,"windows":5,"scene":"Recipe"}
+{"neuron":4907,"pole":"low","cluster":1,"mode":"Conjunctions and pronouns indicating continuation or relation.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":4907,"pole":"low","cluster":2,"mode":"Numbers and conjunctions indicating steps or processes.","scene_windows":0,"windows":5,"scene":"Instructional text"}
+{"neuron":10981,"pole":"low","cluster":0,"mode":"general recommendations for muscle growth, recovery, and knowledge acquisition approaches","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":10981,"pole":"low","cluster":1,"mode":"conversational interjections and expressions of surprise or disbelief","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":4894,"pole":"high","cluster":0,"mode":"negotiating boundaries, migration routes, and system containment protocols","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":4894,"pole":"high","cluster":1,"mode":"technical processes in manufacturing, metallurgy, and signal transmission","scene_windows":0,"windows":5,"scene":"technical explanation"}
+{"neuron":4894,"pole":"high","cluster":2,"mode":"environmental conservation, retail costs, relationship needs, and pest control","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":4894,"pole":"low","cluster":0,"mode":"asking for factual information about historical and political topics","scene_windows":0,"windows":5,"scene":"neutral inquiry"}
+{"neuron":4894,"pole":"low","cluster":1,"mode":"industrial sectors, property descriptions, market structures, and conservation plans","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":4894,"pole":"low","cluster":2,"mode":"company descriptions, scientific theories, parenting skills, and building materials","scene_windows":0,"windows":5,"scene":"neutral explanation"}
+{"neuron":10716,"pole":"high","cluster":0,"mode":"Nouns and conjunctions indicating negative outcomes or states.","scene_windows":0,"windows":5,"scene":"Negative situations"}
+{"neuron":10716,"pole":"high","cluster":1,"mode":"Nouns and conjunctions indicating negative actions or states.","scene_windows":0,"windows":5,"scene":"Negative situations"}
+{"neuron":10716,"pole":"low","cluster":0,"mode":"Nouns and conjunctions indicating measurement or quality.","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":10716,"pole":"low","cluster":1,"mode":"Nouns and conjunctions indicating materials or processes.","scene_windows":0,"windows":5,"scene":"Neutral narration"}

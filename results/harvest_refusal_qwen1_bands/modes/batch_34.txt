@@ -1,0 +1,528 @@
+##### neuron 9597
+=== high pole (p97 and above)
+--- cluster 0
+  [4.16]  museums, exhibitions, and cultural events that preserve the memory of the ancient trade routes that once passed through the city.  user: Wow, I had no[[ idea]] that Shenyang had such a rich
+  [3.94]  the Qin Dynasty left a significant impact on the world with their engineering and architectural achievements that still remains to this date.  user: Wow, I had no[[ idea]] the Qin Dynasty accomplished so much in terms
+  [3.83]  of autism.  These are just a few examples of modern-day polymaths who are making significant contributions to multiple fields.  user: Wow, I had no[[ idea]] about all these modern-day polymaths!
+  [3.42]  of rainfall using a rain gauge can be helpful for predicting and managing water resources, agricultural practices, and weather forecasting.  user: Wow, I had no[[ idea]] there were so many ways to measure rainfall
+  [3.19]  the Central Park Conservancy to learn more about opportunities to get involved and how to support the park's preservation efforts.  user: Wow, I had no[[ idea]] there were so many ways to get involved
+--- cluster 1
+  [4.03]  47 prefectures. Their influence remains strong, although there have been a few high-profile arrests and imprisonment of Yakuza members in recent decades[[.]] They do a lot of everyday kinds of
+  [1.70] 2, worldwide 700 million new doses of vaccines were administered to infants, which gives a sense of how important vaccines are for global health.[[ ]] The most effective and
+  [2.03]  today, the Yakuza are still involved in many kinds of criminal activities, and membership numbers in the Yakuza continue to run in the thousands[[.]] Some observers believe there are now as many
+  [1.18]  as symbols of true love and commitment, as well as expressions of success and prosperity. These ideas have continued to inform engagement ring traditions to the present day[[.]]
+  [2.52]  extremely unpopular.  Assistant: It very much was, with significant opposition particularly coming from major business and cultural interests who were relatively dependent on the alcohol industry.[[ ]] Even among more conservative elements supporting the ban
+--- cluster 2
+  [2.98]  and future generations.  user: Can you clarify what kind of technology and practices would be used to improve irrigation efficiency in the Yakima River Basin?  assistant[[:]] Sure, improving irrigation efficiency can be accomplished
+  [2.75]  the destructive size and potential of nuclear weapons in the Wikipedia article Nuclear weapons.  Human: Can you give me a brief history of the atomic bomb?  Assistant[[:]] The first nuclear weapons were developed during World
+  [3.62] : Can you please give me more information on the different types of energy storage technologies that are being developed to support the use of intermittent renewable energy sources?  [[assistant]]: Sure, there are several energy storage
+  [2.95]  of them have been experiencing financial difficulties.  user: Can you provide any information on how the Bank of England plans to reduce inflation in the UK?  assistant[[:]] There are various tools and strategies that the
+  [3.28]  stream” are all consistent with the expected trends of climate change.  Human: Thanks. What causes of the drought were related to water water management ?  Assistant[[:]] Several issues in California’s water management have
+--- unclustered (sample)
+  [1.26]   Human: Is there a hard and fast rule for what "offensiveness" is in 2020 america?  Assistant: Well[[,]] this can be a very complex issue.
+  [1.02]   Human: Who were the first people to inhabit Greenland?  Assistant: It[[ is]] believed that the first people to inhabit Greenland
+  [2.30]   Human: Can you write a paragraph advocating for mandatory children's planning education in public schools?  Assistant: Sure, I'd be happy to[[.]] It seems like in the realm of family
+=== low pole (p3 and below)
+--- cluster 0
+  [-3.33]  methods used for low-income populations in food consumption surveys: A literature review. Br. J. Nutr. 2009, 1[[0]]1, S95–S1
+  [-3.72] ake, C.; McNeill, G. Diet and deprivation in pregnancy. Br. J. Nutr. 2009, 1[[0]]2, 1487–
+  [-3.41]  A.; et al. Mapping low intake of micronutrients across Europe. Br. J. Nutr. 2013, 1[[1]]0, 755–7
+  [-3.94] .; Drewnowski, A. Does social class predict diet quality? Am. J. Clin. Nutr. 2008, [[8]]7, 1107–
+  [-3.72]  and vegetable consumption in a low-income French population. J. Nutr. 2010, 1[[4]]0, 823–8
+--- cluster 1
+  [-3.00] aucoma Laser Treatment Parameters and Practices of ASCRS Members–1999 Survey." Journal of Cataract and Refractive Surgery 2[[6]] (May 2000):
+  [-2.64]  pulmonary rehabilitation in patients with asthma and chronic obstructive pulmonary disease: a research synthesis. Arch Phys Med Rehabil. 1999;8[[0]]:103-111
+  [-3.50] amic acid, and ibuprofen on pain in women with primary dysmenorrhea. J Altern Complement Med 2009;1[[5]]:129–32. 
+  [-2.08] . "Corneal Endothelial Damage After Neodymium: YAG Laser Iridotomy." Ophthalmic Surgery and Lasers 3[[1]] (October 2000):
+  [-3.00]  of the EPIC project. European Prospective Investigation into Cancer and Nutrition. Int. J. Epidemiol. 1997, 2[[6]] (Suppl. 1), S
+--- cluster 2
+  [-3.31] , depending on your conditions and climate.  Best results can be obtained in an area that is warm (17-31°C, or [[6]]3-88°F) with high
+  [-2.84] s are generally blue. The explanation is that the tips of the dunes are warmer at night (by about 6° Celsius, or 1[[1]]° Fahrenheit) because winds have swept them
+  [-4.53]  best sturgeon fishing areas in the colonies. In 1882, Massachusetts passed a law enacting a minimum 30 cm (1[[2]] inch) stretched mesh for taking sturgeon
+  [-3.66]  environments, depending on your conditions and climate.  Best results can be obtained in an area that is warm (17-31°C, or[[ ]]63-88°F) with
+  [-3.34]  of sand dunes. The dunes' height ranges from 150 to 200 meters (500 to 65[[0]] feet) or more, and studies of
+--- cluster 3
+  [-1.64]  and Goudey 1997). The very steep and complex terrain of the Klamath Mountains covers approximately 22,5[[0]]0 km2 (8,69
+  [-1.89]  land border in the world, in terms of distance, it is relatively a short, mostly urban land border. The US shares a 4,0[[0]]0 km land border with Canada, while
+  [-3.06]  from the Space Sciences Department at NASA’s Marshall Space Flight Center in Huntsville, Ala., will launch a weather balloon to 100,0[[0]]0 feet about 2 a.m.
+  [-0.88]  In fact the oil-change intervals for both conventional and synthetic motor oil are similar, and should be performed according to manufacturer guidelines somewhere between 3,0[[0]]0 and 10,00
+  [-2.89] 1, scholarships are awarded to exceptional Oregon residents with grade point averages of 3.85 or higher and/or SAT scores of 1,9[[0]]0-plus. Awards are for $8
+--- cluster 4
+  [-3.03]  undertakes. A primary focus of its activities will be to help developing countries establish effective risk management programs for natural disasters, say its organizers. The United[[ Nations]] University is an independent academic organization established by
+  [-3.36]  into the organ trafficking allegations in June 2008, Albania refused to initiate its own investigation. In February 2011, the[[ UN]] Special Representative to Kosovo called for an independent
+  [-2.94]  a weekly summary of everything being written about WMD issues. He also did a fellowship at CNS headquarters in Washington, D.C. and another at the[[ UN]]. But what he valued most was the
+  [-3.42]  management network announced STANFORD -- A global network designed to improve national and international efforts to deal with natural disasters has been formed by the United[[ Nations]] University in cooperation with Stanford University, the
+  [-1.23]  more effective, direct complementation of local currency reserves, like the International Monetary Fund's SDR currency.  We should also provide more resources for the[[ UN]] World Food Program’s projects to combat mal
+--- cluster 5
+  [-1.61]  there. The 5th was severely handled at the Battle of Cedar Mountain a month earlier as part of Bank's corps losing 40 [[percent]] of their effective strength. The other four
+  [-2.44]  appetite for energy. And in the U.S., our strong economy and lifestyle - built on large houses and car-centric habits - contribute about 25[[ percent]] of the world's man-made greenhouse gases
+  [-2.05]  Report (MMWR) found that adult New Yorkers with diabetes who checked their blood glucose levels at least once a day increased by more than 75[[ percent]], from 43.5 percent
+  [-2.30]  rise in opioid-induced fatalities. In 2020, the overdose death rate from stimulants such as methamphetamine was up 50[[%]] over 2019 and the
+  [-1.18]  states and districts the same way that economic activity is distributed today, with no change in the current distribution. For example, if one state employs 6[[ percent]] of the nation’s workforce, we would
+--- cluster 6
+  [-3.62]  the location of an embryo--that is,[[ whether]] it is inside a woman's uterus or
+  [-3.41]  the same information that the sundial relies on for its shadow. Knowing the time, and seeing the shadow, we can find the same orientation". Knowing[[ whether]] the sundial is facing north or south
+  [-2.14] , and pain relief over the next several hours was not significantly better in the treatment group compared to placebo.10 More controlled trials are needed to determine[[ whether]] acupuncture is a useful treatment for dysmen
+  [-4.28] , or solar flare, near the Sun. But because they could not see the mass ejection traveling through space, they could not tell with any certainty[[ whether]] it would affect Earth when it arrived four
+  [-3.23]  the human hand. In the same way,[[ whether]] or not humans should be cloned, which
+--- cluster 7
+  [-3.30]  school grad. But, other ways to read this graph can lead to a different conclusion. The figure also shows, for example, that something approaching half[[ of]] college graduates (the figure doesn’t allow
+  [-1.72]  children is not possible. What is color vision deficiency, and how is it inherited? About 8-10%[[ of]] all men have difficulty distinguishing between certain colors
+  [-2.02]  study included 270 patients (mean age, 43.3 years; mean BMI, 46.9). More than half[[ of]] the study participants were female. Sleep habits
+  [-2.17]  of many genes that are inherited from both parents. Many different environmental factors are also thought to impact visual acuity. Also, about 50%[[ of]] all people have decreased visual acuity that
+  [-1.82]  the likelihood of disease in the vaccinated person. Before adequate vaccination, and as is currently seen in many developing countries, as much as 70%[[ of]] invasive pneumococcal disease occurred in
+--- unclustered (sample)
+  [-0.82]  inadequate iodine status in UK pregnant women on cognitive outcomes in their children.” Lancet, 382.9889 (20[[1]]3):331-31
+  [-2.03] , yes the B.M.I. is an “abbreviation for Body Mass Index, which is calculated as weight (in kilograms) divided by height (in[[ metres]]) squared”.  The test basically involves
+  [-2.05]  eventually losing only a few seconds over a long sea journey. By knowing the correct time, a navigator could calculate a vessel's longitude - its east/w[[est]] position. The clockmaker was born near
+##### neuron 4108
+=== high pole (p97 and above)
+--- cluster 0
+  [1.10]   Human: How do you care for contact lenses?  Assistant[[:]] There are a number of different methods for
+  [1.26]   Human: How do you take your own measurements?  Assistant[[:]] There are many ways to take measurements.
+  [1.88]   Human: What should I know about delayed onset muscle soreness and exercising?  Assistant[[:]] Delayed onset muscle soreness, or
+  [0.95]   Human: Can you give me tips on applying eyeshadow evenly?  Assistant[[:]] Yes, here’s some advice. 
+  [0.81] , and none of them are violent or anything. Have there been any studies on this?  Assistant[[:]] Yes there have been a number of controlled
+--- cluster 1
+  [1.01]   Human: Can you explain what a paradox is[[?  ]]Assistant: Sure, a paradox is a
+  [0.84]   Human: Is carbonation what contributes to tooth decay in drinks like soda, or are there other chemicals and factors[[?  ]]Assistant: Carbonation does contribute to tooth
+  [0.92]   Human: Does microdermabrasion work[[?  ]]Assistant: Microdermabrasion,
+  [1.36]  How much influence does the Yakuza have in Japan? I know they were big at one point, but you don't hear about them much now[[.  ]]Assistant: The Yakuza are still
+  [0.72]  sounds great! Can you provide me with some additional information on the health benefits of quinoa? I want to know what I'm putting into my body[[.  ]]assistant: Certainly! Quinoa is actually
+--- cluster 2
+  [2.17] ac 4. Amazon Basics 5. Panasonic 6. Tenergy 7. Sony 8. Maxell  When choosing batteries, make[[ sure]] to select the appropriate size (usually AAA
+  [2.14]  choose a reputable brand that's known for producing high-quality crab meat. - Package: make[[ sure]] the package has a secure seal or is
+  [2.27] . In addition to whole, fresh fruits, you can also find fruit in dried and canned forms.  And when purchasing packaged or canned fruit, be[[ sure]] to look at the labels to avoid foods
+  [2.16] , salmon, tuna, cod, mahi mahi, and swordfish. There are so many delicious possibilities, but of course you should always be[[ sure]] to choose seafood that is healthy and sustain
+  [1.98]  until it turns pink. - For a creamier texture, use full-fat coconut milk instead of the light version. - If using frozen shrimp, make[[ sure]] to thaw it completely and dry it with
+--- cluster 3
+  [2.56]   Human: Have you heard of South Park television series?  Assistant: Yes, of course[[!]]  South Park is an Emmy-award
+  [2.78]   Human: Are you familiar with the Song of Roland?  Assistant: Of course[[!]] The Song of Roland is a medieval French
+  [1.40]  a movie.  assistant: Absolutely[[!]] "Just Like You Imagined" is
+  [2.06]  practical tips section a bit bigger? I want it to be easily readable for anyone who sees the poster.  assistant: Sure thing[[!]] Here's the updated design with the font
+  [2.12]  the basic framework for a Python web scraper. Can you add some tips on how to handle websites with dynamic content?  assistant: Sure[[!]] Here are some tips on how to handle
+--- cluster 4
+  [0.57] Are there any specific areas or concerns I can help you explore further?  Please let me know if I can assist further – I'm here to help[[!]]
+  [1.37]  However, please feel free to contact our Customer Support team via email at [email protected] if you require additional assistance. I hope this resolves your issue[[.]]
+  [0.54]  remains a topic of ongoing scientific inquiry and considerable debate.  Of course, I would be happy to further discuss this fascinating topic with you at any time[[.]]
+  [0.70]  and just be patient and dedicated with yourself as you learn, practice, and grow!  I am here to support you and help you the whole way[[!]]  I would recommend veering away from
+  [0.71]  the herb mixture for a vibrant and flavorful side dish.  I hope you find some of these variations inspiring and can enjoy them as you cook in the future[[!]]
+--- cluster 5
+  [0.62]  happy to answer your questions.  What would you like to discuss?  Human: What are some fun video games I might enjoy playing?  Assistant: That[[ is]] a very interesting question!  Here are
+  [0.82]  Is it possible for you to translate this headline? "Straftäter bei begleitetem Freigang entkommen!"  Assistant: Hmm, that[[ is]] a very unusual sentence structure!  It
+  [1.51]   Human: I have a hole in my blue jeans and I'm hoping to fix it somehow. What are your suggestions?  Assistant: It's[[ definitely]] possible to fix a small hole in your
+  [1.47]  an "opposite" placebo effect, where someone actually gets sick with a disease because they're so worried about said disease?  Assistant: Yes, this[[ is]] called "nocebo," and it
+  [1.44]  and communicate with guests.  I hope that helps!  Human: Can I rent out a property and then list it as an Airbnb?  Assistant: Yes.[[ That]]’s possible. You will need to apply
+--- cluster 6
+  [2.17]  niche communities where you know potential users will be. You could run AMAs to engage with users and answer their questions, or post interesting content that relates[[ to]] the app and fits the community's interests
+  [1.79]  Destinations page should showcase visually appealing imagery of different locations that the agency has to offer. Each destination should have an accompanying brief description highlighting the key features[[ of]] each location tailored towards the target audience.
+  [1.98]  The track features a driving beat and soaring synth hooks that give it a distinctly danceable quality, while still retaining the grit and intensity that are hallmarks[[ of]] the band's sound. It's a
+  [1.07]  there are so many factors involved including matchups, team chemistry, and individual talent. However, it's always exciting to see which players will emerge as heroes[[ during]] the playoffs.  user: I agree!
+  [0.59]  If there is any chance that your fern could be exposed to frost or freezing temperatures, it is best to provide a sheltered area indoors to protect it[[ from]] such conditions.  In colder regions,
+--- cluster 7
+  [1.41]  learning to surf here: https://www.surf instructor.com/beginner/ If you have any questions or need further advice, just ask! I[['m]] here to help!  Human: How hard
+  [2.12] /portal/dmv/detail/drivers/license/handbook  If you have any questions, please feel free to reach out to me whenever you like, I[['m]] here to help. I also encourage you
+  [0.95]  can I best articulate my love and commitment through this special symbol?  If you are seeking more detailed information or assistance, please reach out to me, and[[ I]] would be happy to provide more personalized guidance
+  [0.79] , eclectic edge and appeal to the best of both traditional and modern tastes.    If you are seeking more detailed information or assistance, please reach out to[[ me]], and I would be happy to provide
+  [1.94]  out reliable and community resources for support in times of crisis, and reaching out to local law enforcement for emergency assistance. Please stay safe and know that I[[ am]] here to help however I can. For
+--- unclustered (sample)
+  [1.44]  link has a 404 error.  Assistant: I apologize for the inconvenience. Please know that I always prioritize the safety and security of my users[[,]] and an adaptive spam filter on the site
+  [0.61] , simply highlight a word or phrase in the article, then enter the article name or term you'd like to link to in the search box below,[[ and]] select from the list of results. Note
+  [1.52]  and whether there have been any changes to it since the start of the project.  assistant: I do not have access to your specific project budget details.[[ However]], I recommend that you include the budget
+=== low pole (p3 and below)
+--- cluster 0
+  [-4.31]  their customers’ lives easier or better.  5. Keep it Simple: Ad designs should be visually appealing but simple, ensuring that the message is easy to[[ understand]]. A busy or cluttered ad can
+  [-3.81]  Define the purpose of the extension the first step is to define the purpose of your extension in a clear and concise manner. It should be easy to[[ understand]] and explain why users should install it.
+  [-3.00] . Try to articulate these as small, simple steps or actions that complement your users’ goals and tasks. Make them convenient, and make it easy to[[ understand]] how to simply go about taking these actions
+  [-2.97] , and more. The ad format you choose should depend on your objective and audience. When you select the format, make sure that it is easy to[[ understand]] and visually appealing.  5. Write Comp
+  [-2.61]  clear and concise language in your ad copy. Avoid using too much technical jargon or being too wordy. Your copy should be easy to read and[[ understand]]. 3. Use emotional triggers:
+--- cluster 1
+  [-1.06]  models and mannequins should depend on[[ the]] brand's image and the desired impact on
+  [-0.52]  and extensive nature of the training program.  Therefore, it is quite uncommon for teenagers to attend a full clown school, as they are usually more inclined[[ to]] enroll in a children's circus school that
+  [-0.80]  social tools, such as wikis, blogs, RSS, IM and forums. There is still the same problem I saw with email adoption – people need[[ to]] be shown how to use the new tools
+  [-0.57]  storing a 16-bit offset value in the new direct (D) register. As a result, a greater number of programs were able to utilize[[ the]] enhanced direct page addressing mode versus legacy processors
+  [-0.95]  professional athlete is critical to optimize their performance, endurance, speed, and overall physical and mental well-being. The nutritional plan should be tailored to the athlete[['s]] specific needs and goals, taking into account
+--- cluster 2
+  [-1.07]  Confused, I stepped forward. He was here too early, something was wrong. Terribly wrong.     “ I ’ m sorry, ” he[[ whispered]].     -- -- --     -0
+  [-2.61]  scared now. If he is here, then at least she ’ s got something… she ’ s…     “ I ’ m dying, ” she[[ whispers]], because she can feel it and she
+  [-1.99]  down the short hallway to a closed door labeled recovery.     `` I'll give you two some privacy. Go on in whenever you are ready,'' she[[ whispered]] before returning to her desk,     Jess
+  [-2.89]  the first one to cross the border between Russia and Ukraine, at least after the war had broken out.     `` He... Help,'' he managed to[[ whisper]], falling to the ground in front of
+  [-1.45]  to speak. As if sensing your shift in mood, Erzabet also sobered a little.     `` It is... an exchange,'' she said[[ softly]]. `` Another type of life-rit
+--- unclustered (sample)
+  [-2.72]  plan to focus on tactics that have a higher impact on your goals.  In terms of content and style, keep your roadmap simple and straightforward. Use clear[[ language]], visual aids, and concise messaging to
+  [-3.22]  and concise: Use clear and concise language in your ad copy. Avoid using too much technical jargon or being too wordy. Your copy should be[[ easy]] to read and understand. 3.
+  [-4.69]  emphasizes how the product will make their customers’ lives easier or better.  5. Keep it Simple: Ad designs should be visually appealing but simple, ensuring[[ that]] the message is easy to understand. A
+##### neuron 857
+=== high pole (p97 and above)
+--- cluster 0
+  [3.45] , and the cut looked sort of weird and silvery, and wavy like a heat haze comin' from a welder's torch.    [[ Now]] this thing must've been a good foot
+  [2.53] , spangled in colors from aged copper to deep oxblood. The traveler ’ s blade was made from it, I knew immediately.     “[[ Now]] this lake was the length of ten circ
+  [3.39]  a little protectively around that right pocket and my intuition starts nagging me that maybe we're operating with different understandings of the word `` empty''.[[ Now]] you do n't need to explain to
+  [2.11] . It told us all what was going to happen. It gave us time to prepare, mentally. Like it cares for us to some extent.    [[ Now]] I'm hearing about some religious group gaining
+  [1.74]  through at least the first few comments. What this means is that they are spending even more time on your blog which also looks great to search engines! [[Now]] let’s shift gears to user generated content
+--- cluster 1
+  [5.81] . Now, I'm sorry about unleashing a horrible threat to the world and all that, but I'm also kind of proud of myself. I[[ mean]], I did all this. Wow.''
+  [6.09]  `` They call it'super-sized'. It's all because Ray Kroc had a philosophical fling with Nietzche when he was younger! I[[ mean]], can you believe it?''    
+  [4.44]  out of the negatives into the low single digits! I can ’ t even imagine how horrible everything would be if I didn ’ t have them! I[[ mean]]
+  [4.09] Vibrations! Vibrations and light. That was the key！ I[[ mean]] it all goes back to Einstein right?
+  [4.47] 'd understand if you were upset if I loved another woman, but let's be honest; all I did was stick my dick in her.     I[[ mean]] shit, she looks just like you Judy
+--- cluster 2
+  [2.20] 86Multimedia Downloads Multimedia: Two OSU faculty members were key contributors to the landmark report issue this week from the Intergovernmental Panel on[[ Climate]] Change, a United Nations-sponsored group of
+  [1.78] , the global effects on the environment would result in extreme climatic changes that would significantly impact human civilizations. According to the Intergovernmental Panel on[[ Climate]] Change (IPCC), future climate change
+  [2.03] , not the Smithsonian. Other text nearby ties short-term climate changes to fluctuations in solar radiation, which the U.N. Intergovernmental Panel on[[ Climate]] Change (IPCC) has discounted as
+  [1.80]  that the two regions are committed to phasing out or reducing fossil fuel usage - this is not nearly enough, especially in the face of worsening effects of[[ climate]] change.      As of 20
+  [2.34]  of $3.9 trillion (calculated carbon debt of over emitters) into a climate change adaptation fund for use in those countries hardest hit by[[ climate]] change, and - The carbon credit
+--- cluster 3
+  [2.62]  trumpets, he could hear roaring, but only softly so. Nobody was around him, though he wore heavy armour along with a sword and shield,[[ as]] well as a helmet. A lone warrior
+  [1.79] 'll change the course of history very quickly, however I had something in particular in mind.     I've always desired to rise above the average man,[[ as]] a testament to my almighty greatness.
+  [1.08]  now, father. I must depart on my quest to fulfill my holy greatness,'' said James as he stood in the doorway, covered in white flowing robes[[ as]] gentle winds beckoned his body to free
+  [2.28] . My sister agrees with me. She heard it much the same way I did.     I felt like I had been let in on a secret,[[ as]] had everyone else at the time. Scientists
+  [2.33]  his return home to become the sheriff of a small town to clean it up from crime.  It features a lot of gun fights and intense action,[[ as]] well as dramatic moments and themes of revenge
+--- cluster 4
+  [3.91]  a reincarnation of sorts taking place in the thoroughly modern, emancipated Anne. [[Like]] the powerful tectonic forces which still
+  [5.06]  among the pool of prisoners who would not be incarcerated long-term in other nations — non-violent and petty offenders who do not need constant guard. Just[[ as]] in the Third Reich, federal authorities wish
+  [3.91] "? Please consider the possibility that,[[ like]] Olivia and Anne, you might discover your
+  [3.69] ends.     `` When would you like to go?''     `` Cape Cod, November 11, 1620.''     And[[ like]] that, I had my wish. I
+  [1.84]  they are larger than many microscopic multicellular organisms such as rotifers and water fleas, and have been known to eat smaller members of these groups. [[Like]] many other large, single-celled organisms
+--- cluster 5
+  [2.53]  of hues and fragrances. While there is great variety in the colors and scents of miniature roses, they tend to have shorter, more compact flowers[[ than]] traditional roses.  Human: I was recently
+  [2.31]  delay air travel for several days or request oxygen to be provided. With the decreased use of blood transfusion, many post-operative patients are more anaemic[[ than]] they have been in the past. It
+  [0.74]  longer, coarser fur than mice, and will have a somewhat heavier body and larger ears.  Additionally, rats are generally somewhat more aggressive and destructive[[ than]] mice.  If you are seeing small
+  [0.42]  sport involving a half-track luge that is pulled by one athlete.  Skeleton races are run with the sled upside down, which makes them much faster[[ than]] traditional luge races.  Human: Thank
+  [2.55]  ability does not appear to change substantially.  This is counterintuitive to our common experience of many older people seeming similar to, or even less intelligent[[ than]], younger individuals.  However it is
+--- cluster 6
+  [0.78] .  user: Can you provide more details on Acxiom's approach to working with postal operators to develop the direct marketing industry in the Arab world?  [[assistant]]: Acxiom's approach to working
+  [0.66]  you expand on where the euphemism came from? Why would sailors refer to being "under" the weather if the weather made them sick?  Assistant[[:]] Yes, that’s a good question!
+  [1.54]  more sustainable and livable planet.  user: Can you add some information on how renewable energy can benefit local communities, especially those in developing countries?  assistant[[:]] Absolutely! Renewable energy can bring numerous benefits
+  [1.03]  flower, but it's interesting to learn about its spiritual significance. Is there a reason why it's specifically a lotus and not another flower?  assistant[[:]] Yes, the lotus flower was specifically
+  [0.58] , try some seltzer, it’s sweetened with sugar but doesn’t have any extra calories.  Human: What is seltzer?  Assistant[[:]] Seltzer is a kind of fiz
+--- cluster 7
+  [1.78] 0 years. This story of Eve's creation from Adam's rib is often understood to embody the spiritual nature of marriage and humanity's relationship to divinity[[.]] It has many symbolic interpretations, but the
+  [0.46]  a jury of their peers.  This means that individuals are entitled to have a panel of their fellow citizens determine the verdict and sentence in criminal trials.[[ ]] This system is intended to promote fairness and
+  [0.84]   Another important benefit of using conditioner is that it can serve as a protective layer for the hair, which can help to prevent chemical and environmental damage.[[ ]] Regular use of both shampoo and conditioner significantly
+  [0.74]  other side of the world?  Assistant: The “other side of the world” refers to distant and unfamiliar lands located far from one’s familiar home.[[ ]] This often implies that the traveler will be
+  [1.39]  or meaningful but meaningless?  Assistant: It is possible that the matrix of reality is ultimately meaningless, and that the universe is without ultimate purpose or meaning.[[ ]] Even if this is the case, one
+--- cluster 8
+  [0.61]  the 11th because he knew them from his North Carolina adventure and trusted the colonel, Kingsbury, who was a good friend[[.]] The rest of Harland's brigade,
+  [0.51]  have an opportunity to rehearse how they might respond to a similar situation, such as a dilemma, that they may find themselves faced with in real life[[.]] And what's more, using a story
+  [0.36]  golden white, untainted by the years of hurt that life brings. He looked at the small body in which it came from, fragile and motionless[[.]]     `` I will watch you closely,
+  [1.85]  His uncle refused to move; he just stood there and stared, guilt stricken and distraught. Surely he couldn ’ t be blaming this on himself[[?]] It was a fluke, nothing could
+  [1.08]  pork barrel politics as spending that is intended to benefit constituents of a politician in return for their political support, either in the form of campaign contributions or votes[[.]] The term supposedly originates to a pre-C
+--- cluster 9
+  [1.31]  Polity is more responsive to the needs of the people than an oligarchy, because the middle class is more likely to be in touch with the concerns[[ of]] the masses.  4. Education: The
+  [1.96]  the goals and values of the government as a whole, by doing the following:  1. Engaging with their constituents regularly: MPs must stay in touch[[ with]] the needs and concerns of their constituents by
+  [0.95]  They identified the keywords and terms that their ideal customers would be searching for and crafted messaging and content that would resonate[[ with]] them. They also created personas that represented
+  [1.74]  Approach promotes empathy and tolerance through imparting simple, direct, and clear information related to death and grief, in a manner that is meaningful and comprehensible[[ for]] the children. This approach can definitely be
+  [0.97] , which is responsible for gene silencing and is regulated by the cofactor NAD +. Levels of NAD + are sensitive to the respiratory state[[ of]] the cell and increase with respiration,
+--- cluster 10
+  [1.73] 2 To Please a Child 17 p. 38 The Annotated Wizard of Oz 18 p.14 The Royal Historian[[ of]] Oz 19 p.12
+  [3.38]  reputation but the comforts of life and the pleasures of traveling that he and Maud enjoyed so much. Baum became known as the “Royal Historian[[ of]] Oz” until his death when Ruth Plum
+  [0.85] ids Hainous Sinne, Heartie Repentance, Heavie Punishment, a poem (1631); The Historie[[ of]] the Holy Warre (163
+  [2.53]  at the Paris Observatory. The concept of paradigm shifts was first articulated by US philosopher Thomas Kuhn in a 1962 book, The Structure[[ of]] Scientific Revolutions. A sea change in
+  [0.65]  history must be false; but it must be conceded that much of our history of the revolutionary era is fiction written in gush. The Heritage and Challenge[[ of]] History By Paul Keith Conkin and
+--- cluster 11
+  [0.40]  your daughter, and to let her know specifically how much you value her, which will be the best gift of all!   Dedicating this time[[ together]] to exploring what your family values and enjoys
+  [0.39] ihistamines, may be recommended to relieve symptoms only if it can be determined that the hives are caused by allergy. In cases where hives[[ are]] not related to allergy, the removal of
+  [0.38]  hard in the exercises that can help you improve your performance the most. Overall, this is a sport where dedication is very important, so make sure you[[’re]] putting in time and effort learning the cheer
+  [0.47] uccino machines can really be a fun addition to a household, and I do think they're a great investment for people who drink a lot of these[[ drinks]].  There are a lot available for
+  [0.39]  40 small bulbs were[[ planted]] in competition with 40 large bulbs
+--- cluster 12
+  [6.84]  one thing to note is that there’s no real difference between still and sparkling water -- when we say “sparkling” we just mean water with some[[ carbon]]ation, which is a result of carbon
+  [7.25]   Human: What were some of the first soda drinks that were made?  Assistant: You might think of “soda” as referring to[[ carbon]]ated beverages containing flavoring, perhaps sometimes
+  [5.66]  need white sugar, a type of flavored liquor called liqueur, and club soda.  Club soda, also called soda water, is basically just plain[[ carbon]]ated water, with no added flavoring
+  [6.22]  of drinks, using very different ingredients, and thus can really be made in a wide variety of flavors and types, as long as it contains the appropriate[[ carbon]] dioxide.  There are also many different
+  [7.09] , all of which can also help prevent motion sickness.  Another thing that can help is eating and drinking little while you use the headset, and drinking[[ carbon]]ated beverages while using it can also help
+--- cluster 13
+  [7.28]  supply – they just need to understand the importance of acting now and in a way that supports global intergenerational environmental stability and their economic viability. The[[ Carbon]]Sense Foundation would like to receive funding to
+  [6.97]  long-term thinking, and has been involved in a number of pivotal events that have shaped climate change thinking. In light of this we have now launched The[[ Carbon]]Sense Foundation. The CarbonSense Foundation is
+  [5.12] vel and other local and global impacts - when animated, can be used to tell any ‘carbon story’. Our aim immediate aim is for the[[ Carbon]] Quilt to make a significant contribution to
+  [8.69]  based upon the solution as above. For a 3-page overview of the project proposal please click here. For further information please contact: The[[ Carbon]]Sense Foundation Devon TQ1
+  [5.75] ulment of the over-emitting countries’ carbon debt. This thinking is detailed in a 3-page overview which you can download here. 3)[[ Carbon]] Depletion Protocol - how oil, coal
+--- cluster 14
+  [5.34]  help in achieving sustainable tourism goals?  assistant: The use of renewable energy sources can help achieve sustainable tourism goals in several ways:  1. Reducing the[[ carbon]] footprint: By using renewable energy sources,
+  [5.50]  critical analysis to support your argument.  assistant: Over the past decade, there has been a global shift towards renewable energy sources as countries strive towards reducing their[[ carbon]] footprint and achieving sustainable development. As such
+  [4.72]  employing tens of thousands of people in the country. As such, the government has been hesitant to adopt renewable energy sources and has faced challenges in reducing its[[ carbon]] emissions. However, in recent years,
+  [7.59]  40% of its total electricity consumption.  3. California, USA: California is a state in the USA that has set ambitious targets for reducing[[ carbon]] emissions and increasing the use of renewable energy
+  [4.84] ettles are available in various sizes, shapes, and materials. Choosing one that suits your needs and preferences is essential to ensure that you can reduce your[[ carbon]] footprint and make a positive impact on the
+--- cluster 15
+  [6.03]  but its surface temperature is about 460 degrees Celsius. This is hot enough to melt lead! The Venusian atmosphere is mainly made up of[[ carbon]] dioxide, a 'greenhouse gas'.
+  [7.00]  begin using in-situ resources on Mars to create an atmosphere with enough effective pressure to sustain human life. Steps to accomplish this could include the use of[[ carbon]] dioxide “snow catchers” to collect
+  [6.28]  Titan may have provided especially good conditions for the development of life. Early in its history, liquid water may have been exposed to the surface, allowing complex[[ carbon]]-containing molecules from the atmosphere to mix with
+  [6.44] ?” Without necessarily subscribing to Kervran’s ideas about the origin of the earthly iron deposits, powerful electric discharges through other common elements, like[[ carbon]] and oxygen, can form iron deposits.
+  [4.47]  of Chemistry, Stanford University The goal of this project is to develop efficient strategies for using renewable sources of electricity to produce energy-dense liquid fuels from[[ carbon]] dioxide (CO2) and biomass.
+--- cluster 16
+  [6.25]  no idea where they came from. That’s what makes this research exciting.” Scientists are particularly interested in particles sinking to great depths — an important process in[[ carbon]] sequestration from the atmosphere. Boss
+  [4.91]  satellite ocean color imagery to study ecological processes, such as what species of phytoplankton dominate, and biogeochemical processes, including how fast[[ carbon]] is fixed by phytoplankton into
+  [5.00]  well as in the global system. Knowing what’s below the surface throughout the oceans is needed in researching the role of the water in cycling elements such as[[ carbon]] that are fundamental in understanding Earth’s climate
+  [6.03]  the ocean physics and the biosphere — the part of the Earth and its atmosphere that is capable of supporting living organisms. During photosynthesis, plants convert[[ carbon]] dioxide into organic particles that are distributed throughout
+  [5.72]  quantities of olivine make it an impractical geoengineering The mineral, which can give beaches distinctive green sand, is a natural[[ carbon]] sink. It dissolves easily in water
+--- cluster 17
+  [5.75] Carbon capture and storage (CCS) is controversial in the eyes of the general public. Pressure build-up in the subsurface induced by the injection of[[ carbon]] dioxide from industrial-scale projects is a key
+  [5.44]  researcher Dr. Jens Birkholzer considered three different types of storage reservoirs: closed, partially closed and open. They indicate that the storage of[[ carbon]] dioxide deep underground will occur mainly in partially
+  [5.22]  for the amount of carbon dioxide that can be safely stored underground. In their paper, the Berkeley Lab researchers considered a full-scale deployment scenario in which enough[[ carbon]] dioxide is stored to make relevant contributions to
+  [4.28]  Technology. The study debates some of the conclusions drawn in an earlier study by Ehlig-Economides and Economides1, countering their claims that[[ carbon]] dioxide cannot feasibly be stored underground.
+  [5.03]  dioxide injection occurs. The authors conclude that CCS can still be considered as a practical means of mitigating carbon dioxide emissions as there is more capacity to store[[ carbon]] dioxide underground than suggested in the study of
+--- unclustered (sample)
+  [1.94]  even if they were, they were n't bad for you.'' I nodded again and took a long swig of the scotch.     `` You[[ know]],'' I said, I just read a
+  [0.44]   Human: Summar[[ise]] article into ONE sentence - The one-child
+  [0.52] . Initially, I agreed with her, but that was before I knew the extent of his abuse and before I realized how vastly different his parenting philosophy was[[ from]] mine. Not that I had any experience
+=== low pole (p3 and below)
+--- cluster 0
+  [-2.25]  the fringes of society, struggling to make ends meet. He was constantly exposed to violence and crime, and he quickly learned how to defend himself.  [[As]] time went on, however, Jacob became
+  [-1.45]  with her identity and how the society perceives her?  assistant: Anna's newfound ability to communicate telepathically with others was both exciting and terrifying.[[ As]] she explored her power, she started to
+  [-2.14]  always thought of my grandparents as a perfect couple, and the idea that they had gone down a different path before I was born left me feeling shattered.  [[As]] I dug deeper, I discovered more and
+  [-2.36]  addiction started taking over her life. She frequently skipped work to visit casinos and the guilty pleasure was only made worse by how addicting the game became.  [[As]] her random gambling excursions started taking up
+  [-1.96]  to nurse the bird back to health. She spent hours every day caring for the bird, giving it food, water, and keeping it sheltered.[[ As]] she helped the bird, Elena began to
+--- cluster 1
+  [-0.99]  Carcassonne, Monopoly) and clones (Clubhouse Games, Words With Friends) of tabletop board games for game consoles and handhelds,[[ as]] well as original video game-only designs (
+  [-1.38]   Human: How do I teach a child to skip count?  Assistant: Simple number counting is a useful core skill for many math activities,[[ as]] well as interacting with numbers in the real
+  [-2.53]  was at its height in the 1970s, but a lot of good disco tunes can still be found from the 80s[[ as]] well. One of the most famous disco
+  [-1.59]  rugged and stormy Alaska coast gives the island a very cool and wild natural character.  The island is home to a thriving population of brown bears,[[ as]] well as a number of other species.
+  [-1.48]  a lot myself by performing this kind of service for others. So not only do I enjoy helping people, but I learn a great deal from doing so[[ as]] well.  Human: Do you ever get
+--- cluster 2
+  [-1.98]   Human: How do I learn to be more appreciative?  Assistant[[:]] One of the best ways to be more
+  [-1.98]   Human: How do I learn to be more appreciative?  Assistant[[:]] One of the best ways to be more
+  [-1.45]   Human: How can I arrange my closet?  Assistant[[:]] Organizing  Human: Looks like you
+  [-1.49]   Human: How do you clean jeans?  Assistant[[:]] It’s best to rinse them in a
+  [-2.03]   Human: How do I make homemade salad dressings?  Assistant[[:]] There are a wide variety of flavorful and
+--- cluster 3
+  [-0.64]  male in a decent home. You had every advantage given to you, and you did nothing with is, so I deserve what I have gotten''    [[ ``]] I think we're done here,'' He
+  [-1.64]  will, `` do we still work for you? What with the resigning and all.''     Mei Li pauses, and after a moment, laughs.[[ ``]] No,'' she replies, smiling at her
+  [-0.76]  In front of that college audience.''     `` Ooooh right. You're the guy who pretended to be a Cain, right? Sorry.''    [[ ``]] You killed my daughter.''     `` No
+  [-1.47]  I'm trying too hard... She can tell... * `` Sh-should I call you Charlie instead?''     Charlotte gave her a dark glare.[[ ``]] No. Absolutely not.'' She picked up
+  [-2.23]  the horrors your birthed into this world. I --''     `` Enough,'' he said calmly, like a grandfather, waving at me to stop.[[ ``]] Enough. I know. I know those
+--- cluster 4
+  [-2.17]  contribution increases.  The sales tax alternative would increase Milwaukee's sales tax rate by 0.5%, which would generate an estimated $160 million[[ per]] year. Of this revenue, roughly half
+  [-1.38]  chances for upward mobility are slim. According to the Census Bureau, half the jobs in the United States pay less than $34,000[[ per]] year, and a quarter of the jobs
+  [-2.11]  when it launched the country’s first MA degree in Nonproliferation and Terrorism Studies, which enrolls an average of 100 students[[ per]] year. “Although the total number of
+  [-2.39]  whiskey which they used to pay taxes at only two shillings, six pence[[ per]] gallon. Middle Tennessee was close behind.
+  [-1.12] otor face runout due to hub face runout or contamination will typically have a period of 1 minimum and 1 maximum[[ per]] revolution of the brake rotor. Another cause
+--- cluster 5
+  [-1.28]  healthier options, such as fresh fruit or veggies with hummus or plain popcorn.  [[6]]. Keep a food diary: write down
+  [-0.82]  a variety of interdisciplinary projects, including collaborations with artists from different cultures and backgrounds.  [[5]]. Temple Grandin - Grandin is
+  [-0.64]  such as ground turkey, chicken, pork, or lamb.  [[2]]. Bun: Choose a soft bun that
+  [-0.59]  is located in a colonial-era house, which has been beautifully preserved. The restaurant also has a small museum that showcases the colonial-era artifacts and antiques[[.  ]]4. La Trattoria del Mon
+  [-0.59]  the product, creating a halo-like effect around it. This technique can be particularly effective for products that are translucent or that have interesting textures or patterns.[[ ]]5. Light tents - Light tents are
+--- cluster 6
+  [-0.63]  artificial intelligence. We are already seeing research into the neuroscience of decision-making and social behaviors such as neuro-economics, which models choice behavior mathematically[[.]] And enormous advances are being made in understanding
+  [-0.90] ’s what keeps me in the business.” Peace-builders in Training “Young people can lead the way[[ in]] overcoming old conflicts,” President Barak Obama
+  [-0.55]  elected and when. If the government allows us to vote but that vote is meaningless, the fact is that it is a dictatorship masking as democracy, because[[ the]] people cannot change the government to suit their
+  [-1.65] 's emotional incarnations going to look like total freaks?'' Stoner shrugs and hands the bong back. `` They'll all be unique[[,]] but most probably wo n't be quite
+  [-0.88]  with ol' grams too much, I was a bit of a firebrand[[ in]] my youth, and I wo n't
+--- cluster 7
+  [-1.62]   Human: Why[[ do]] tears come out when people yawn?  
+  [-1.62]   Human: Why[[ do]] some people think Elvis is still alive?  
+  [-1.62]   Human: Why[[ do]] some people who become very obese but then
+  [-2.02]   Human: Out of curiosity, why[[ do]] straight men sometimes watch lesbian porn?  Assistant
+  [-2.83]  sheet with nothing but your name, COMMUNICATIONS 101 on the title line, and the date in the right hand corner. *Why[[ do]] I write my name on my notes,
+--- unclustered (sample)
+  [-2.41]  was sentenced to six weeks in prison, partly due to his previous record and the nature of the assault. He was also ordered to pay £50[[ in]] compensation to the victim. In court,
+  [-1.00]  reddish appearance. Scientists believe the red color come from clouds reacting to solar ultraviolet radiation. Why[[ is]] Jupiter getting a surge of extra red spots
+  [-0.88] anks on her at every turn. But through it all, she remained determined, driven by a thirst for adventure that she had never known before.  As[[ the]] weeks went by, Mrs. Dawson found
+##### neuron 10434
+=== high pole (p97 and above)
+--- cluster 0
+  [0.61]  challenging yet exciting excursion. We were about to embark on an intense kayaking trip through the rapids, and we could feel the adrenaline coursing through[[ our]] veins. We donned our life vests
+  [0.55]  did n't create a way to view other dimensions through the mirror in my bathroom! It was all a delightful failure, prolonged by a chemical imbalance in[[ my]] brain.'' Jonn was extremely hungover
+  [0.78] The wine burnt his tongue and lips as it touched them. He spat it out, frantically trying to expel the poison from[[ his]] body. It was too late, he
+  [1.59]  making me clench my fist in rage.     `` You just watch me'' I retorted, the strain of our contest sapping the wit from[[ my]] tongue.     As confident as I must
+  [1.49]  sweep over him. He smiles once more and pulls the needle from[[ his]] arm and catches my eye.     He
+--- cluster 1
+  [0.95]  he was a mad scientist. Victor goes through a barrage of security features including Iris scanners, fingerprints, palm scanners, and very long passwords. After he[[ puts]] in all
+  [2.23]  see you do it, though. In person for once. Can you show me?''     `` Ah!'' She pretends to be offended,[[ putting]] her hand over her heart. `` We
+  [0.51]  end, it was their unwavering determination and courage that allowed them to reach the innermost chamber of the fortress and face the demon lord himself,[[ putting]] an end to his plans to enslave
+  [0.99]  element of singer-songwriter music is songwriting craft -- the lyrics and melody of the song are its most important aspects, and it’s really important to[[ put]] a lot of thought and care into those
+  [0.86]  ’ t know. She doesn ’ t know and he doesn ’ t know and they are strangers. They are strangers and they have never met. He[[ puts]] a hand on her wrist and she pulls
+--- unclustered (sample)
+  [2.12]  you do it, though. In person for once. Can you show me?''     `` Ah!'' She pretends to be offended, putting[[ her]] hand over her heart. `` We are
+  [2.56]  contact with it would know me, I'd made sure of that, I did n't just put blood, sweat and tears into it. I put[[ my]] SOUL into it! And no one
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.50] When I was a child, I would always dream that I had wings and I would fly all over[[ the]] town. I always told my parents that
+  [-1.62]      It's quiet like always. I try to remember the town like it was when I was younger. I think I used to come by here with[[ some]] people, maybe family? I forget why
+  [-1.34] , small toys, beans, and different types of rocks.  Little girls can also collect anything they find beautiful, such as roses, seashells[[,]] and pretty ribbon.  Human: How would
+  [-1.31]  listened for a moment. Something had arrived nearby. A ship perhaps? The crowd shrieked as the camera rolled over to face the sky, and[[ a]] masked being aiming what appeared to be a
+  [-0.70] ’s music, or even watching PBS or other children’s movies that focus on the fine art of creativity can be extremely beneficial for helping children[[ find]] some temporary focus and quiet time. Doing
+--- cluster 1
+  [-3.00]  and they both share a moment of silence. ALEX (CONT'D) (winking) Want to see something cool? Kate nods her head. Alex[[ takes]] out a notebook from his backpack and writes
+  [-2.97]  and they both share a moment of silence.  ALEX (CONT'D) (winking) Want to see something cool?  Kate nods her head.  Alex[[ takes]] out a notebook from his backpack and writes
+  [-2.75]  and they both share a moment of silence.  ALEX (CONT'D) (winking) Want to see something cool?  Kate nods her head.  Alex[[ takes]] out a notebook from his backpack and writes
+  [-2.52]  and they both share a moment of silence.  ALEX (CONT'D) (winking) Want to see something cool?  Kate nods her head.  Alex[[ takes]] out a notebook from his backpack and writes
+  [-3.27]  they both share a moment of silence.  ALEX (CONT'D) (winking) Want to see something cool?  Kate nods her head.  Alex takes[[ out]] a notebook from his backpack and writes down
+--- unclustered (sample)
+  [-2.44]  on something hard, losing my balance and slamming my face into the freezing earth. I touched my left hand to my nose, and my white glove came[[ away]] with dark red blood. *Pay more
+  [-2.36]  something hard, losing my balance and slamming my face into the freezing earth. I touched my left hand to my nose, and my white glove came away[[ with]] dark red blood. *Pay more attention
+  [-2.22]  foot on something hard, losing my balance and slamming my face into the freezing earth. I touched my left hand to my nose, and my white glove[[ came]] away with dark red blood. *Pay
+##### neuron 8821
+=== high pole (p97 and above)
+--- cluster 0
+  [0.94]  open standards, conducting a thorough evaluation of multiple solutions, and exploring the use of cloud-hosted VDI solutions. With proper planning and implementation, V[[DI]] can help organizations realize the benefits of secure
+  [2.36]  resorts also have conference facilities for corporate events, team building activities, and business meetings in a beautiful natural setting. With all these services and amenities, golf[[ resorts]] have become a one-stop vacation spot for
+  [2.78]  can be improved. Be open to constructive criticism and feedback, and use it to guide your marketing strategy. In conclusion, measuring the success of your marketing[[ roadmap]] plan is essential to achieving your marketing objectives
+  [1.89]  known as the flower of the gods and is believed to have medicinal properties.  Overall,[[ flowers]] have been used for centuries in India for
+  [2.92]  in their marketing efforts. Additionally, it would be valuable if you could discuss the ideal content and style to implement for maximum success.  assistant: Roadmap[[ planning]] is an essential tool for businesses to prioritize
+--- cluster 1
+  [2.45]  can damage both the machine and the items being washed. For all safely and  Human[[:]] Thanks for the information.  Assistant: My
+  [2.39]  every bite of your food, rather  Human[[:]] what about running  Assistant: Running can
+  [2.31] -quality health care for all people. Such a universal standard is therefore important, especially  Human[[:]] Can you do it for me?  Assistant
+  [2.66]  such as for treatment of asthma or allergies, prenatal problems, autism, and other  Human[[:]] Do chiropractors get any formal medical training
+  [2.91]  can also help to identify  Human[[:]] What's the best way to store Christmas
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.69]  in small-scale hydro and other renewables. 3. Improved access to financing: Access to financing can be a major barrier to renewable energy investment, especially[[ in]] developing countries. Organizations such as the World
+  [-0.74]  (23 people dead and many more blinded due adding ethanol to the wine). Bar-B-Q competitions are practically a sport in America. However, because[[ of]] severe regionalism there are plenty who can
+  [-0.54]  outweighs privacy concerns: If a public official is being investigated for corruption, there might be a public interest in knowing the details of the investigation, which[[ could]] include sensitive information about the official's personal
+  [-0.89]  power grids, so it’s important to ensure that power grids are adequately protected.  Electric power companies can modify their systems to quickly disconnect from the grid[[ upon]] detecting an imminent solar flare, and they
+  [-0.62] After President Lincoln issued the Emancipation Proclamation on January 1, 1863, the U.S. Army began recruiting black men[[ in]] earnest. The Confederate government regarded captured black
+--- cluster 1
+  [-0.96]  have the same interests and priorities that I did when we[[ were]] in our 20s.  Mark
+  [-0.59]  not here to teach you elementary physics, kids! I'm here to teach you about some of the responsibilities you'll need to know about before you reach[[ the]] legal voting age! And I'm sure
+  [-0.54]  by identifying that social media use is not actually helping you, so these other strategies may be helpful.  Human: I feel like I might miss something if[[ I]] am not on social media. I'll
+  [-0.47]  now. Please take care of yourself, and know that I will be here for you whenever you[[ are]] ready to resume our conversation, and will
+  [-0.67]  coffee breaks and fooling around with Pam at reception when there is still work to be done.''     `` And this'consoling' you will be[[ doing]] for your girlfriend, that fifteen minutes will
+--- cluster 2
+  [-1.34]  pressure air masses from the north and hot wet air from the south. Over the decades these numbers have many times produced tornadoes in and around Jop[[lin]] MO. This time the numbers were particularly
+  [-0.62]  the site of Cartmell's appointment as first Methodist Woman Missionary to[[ Japan]]. They consider the church to be a
+  [-2.02] 12. A look at which states were hit hardest by extreme climate and weather events in 2011. In a forested state like[[ Montana]], hotter and drier years leave forests
+  [-1.06] ) that produce a variety of agricultural products, including beef, dairy products, and other foodstuffs. The Mennonites’ arrival in the Ch[[aco]] coincided with the rise in tensions between
+  [-0.83]  reflects the industry’s view that extreme catastrophic events are few and far between. As 1-in-100-year events go, the Costa Concord[[ia]] grounding and capsizing off the coast of
+--- cluster 3
+  [-1.30]  find that social media isn’t driving the engagement you hoped for, you can adjust your tactics to focus on tactics that have a higher impact on your goals[[.]] 5. Experiment and Iterate: Try
+  [-1.38]  computer networking conference that serves as a premier forum for researchers, academics, and industry professionals to discuss and present their latest findings and innovations in emerging network technologies[[.]]   The 2012 edition
+  [-1.24]  upside down" was particularly impactful, as it introduced a new dimension to the show and added an element of fear and danger that was absent in previous episodes[[.  ]]overall, "stranger things" is
+  [-0.50]  long. Egg noodles typically take around 8 to 10 minutes to cook, but check them often to make sure they're not getting too soft[[.]] 3. Use less water: if
+  [-1.27]  border, the Carpathian Mountains to the east, the Bohemian Massif to the southwest, and the Southern Carpathians to the southeast[[.]]  The basin contains a dense network of
+--- unclustered (sample)
+  [-1.69] . Use descriptive language and vivid imagery to bring the concert to life for the reader.  assistant: The bright lights shone down on the stage as the[[ microphone]] stood at its center, eagerly awaiting the
+  [-5.75]  HUGS Project," has expanded to other cities and has inspired others to start similar initiatives.  These are just a few examples of individuals who have put[[ Gandhi]]'s quote into practice and made a positive
+  [-0.88]  yes, I see what you are asking now.  It is definitely possible that some of these ingredients could increase the overall salt content of your ramen[[,]] however most
+##### neuron 7504
+=== high pole (p97 and above)
+--- cluster 0
+  [2.44]  replied in unwavering solitude.     “ You were always there! Sitting on my shoulder and whispering into my ear. From birth until death![[ ”]] I screamed.     “ I did not
+  [1.26]  We have n't spoken since the heart attack.''     `` I'm... sorry.''     `` Maybe I just need someone else. Like you do?[['']]     ``... oh...''     ``
+  [1.52]  just does n't work that way. Sure, you can bring your wealth with you, sure. But your earthly wealth is n't not immortal wealth[[.'']]     `` Well.. if all I brought
+  [0.89]  We've practiced magic for many years, and finally were we able to travel great distances to find you. Did n't you guys do the same?[['']] The voice continued. I had been briefed
+  [1.95]  friend. ”     “ I didn ’ t send that. Sarah believe me. I didn ’ t send that. ”     “ How can I![[ ”]]     “ Just look at the clock.
+--- cluster 1
+  [1.09]  sandy-haired young man. It was gorgeous. Smart too, it would appear. Of course, It had nothing on him, but honestly who did?[[    ]] Now he wouldn ’ t want you to
+  [1.37]  he slowly lowered his hand, and began stroking the babies head. He went to pat his stomach but the dragon snapped up and barred his teeth.[[    ]] `` Hold on, Hold on. Its
+  [2.55]  and begin our work. Many times she tries to talk to me and i just ignore her. After about a week she gets fed up with me.[[    ]] `` Have I done anything to annoy you
+  [2.03]  The train approaches swiftly, growing larger and closer by the second. For a moment I think she's holding onto me. Clinging onto my torso.[[    ]]
+  [1.84]  the black sheep of the family, thanks to the aforementioned Death Eaters, but I do n't get asked a lot of questions at family dinners.[[    ]] Oh well, fuck them. I get
+--- cluster 2
+  [2.25]  life, our world, all of it. A damn computer program!''     Collins stood up, his nostrils flaring with his revelation.    [[ ``]] What do you mean, how can you
+  [2.48]  to send the children on excessively dangerous things. The suspected war criminal actually does a good job at keeping them safe in something as dangerous as potions.''    [[ ``]] How is potions dangerous?'' The fact
+  [1.41]      `` Brain aneurysm.''     I moved my hands up to my temples. I felt a warmth that I had n't felt before.[[ ``]] Is it going to hurt?'' I
+  [1.93]  just mad.''     `` Maybe. Or maybe he's gone for good.''    [[ ``]] Do n't say that.''     ``
+  [2.45] , yelling at us silently from behind her helmet.     `` I see similar symbols to ours, but there are no solid matches!'' Gregory exclaimed.[[ ``]] Damn it, who are these people?
+--- cluster 3
+  [1.92]  build long-term resilience.  user: Could you add some more ideas for gratitude-themed crafts that children could do? I think my child would really enjoy that[[.  ]]assistant: Certainly! Here are some additional
+  [1.22]  once. You can always try again and keep building on your practice.  user: Can you recommend some simple Pilates exercises that I could try at home[[?  ]]assistant: Certainly! Here are some simple
+  [2.53]  some visuals or graphics that would go well with the tagline we end up using? I want to make sure our marketing materials are eye-catching and memorable[[.  ]]assistant: Sure! Here are some visuals
+  [1.93] -term consequences for both physical and mental health.  user: Could you give me more examples of how technology disrupts sleep patterns besides the ones you have mentioned[[?  ]]assistant: Sure, here are some additional
+  [1.39]  success of the SEO strategy.  user: Can you give me some tips on how to effectively choose keywords for my SEO strategy based on the given text material[[?  ]]assistant: Sure! Based on the given
+--- cluster 4
+  [2.48]  infection that causes immune system dysfunction and multi-organ failure. Alverdy had a hunch that gut microbes might play a critical and culpable role[[ in]] this process. Fifteen years ago
+  [1.17]  give the disease its name – and is fatal without treatment. It’s still difficult to treat, and neurologic damage is permanent. Past efforts to control[[ the]] disease, including insect traps, insecticide
+  [1.29]  have on their skin. If a person does not have any current skin condition, a chemical peel for legs can be performed. It should be noted that[[ this]] procedure should be performed by a doctor only
+  [1.74]  a trade agreement is reached between the two countries, these companies, including Apple, could recover their earnings. In essence, his view is that the impact[[ of]] the trade uncertainty on companies like Apple will
+  [0.95] odes as quickly as they are deposited. Design and implementation considerations. The design and implementation of an electrowinning unit depend on the configuration and control of[[ the]] electroplating and rinse operations. Elect
+--- cluster 5
+  [2.73] , dancing and the celebration of holidays were forbidden because the belief was this activity was Pagan. Ironically, the only celebrating tolerated was for the agricultural harvest[[. ]]The children of John Goodwin, a
+  [2.92] "; others simply discard them. It's estimated that there are about 100,000 surplus embryos frozen in fertility clinics around the country[[. ]]For some traditional Jewish groups, the fact
+  [1.07]  distinct components of coarse, grey grains on top of fine red soil–or we have aggregates that are grey but when squished, the red comes out[[.” ]]Since orbital images of the landing area shows
+  [1.86]  355 despite an exile in 347), Donatus ended up being the primary spokesman for the movement, and it bears his name[[. ]]Donatus and his faction declared the l
+  [1.88]  policies both domestically (a strong national bank) and in foreign policy, Jefferson had, however wittingly, sucked the air out of the minority party[[. ]]The consequence, of course, was sacrificing
+--- unclustered (sample)
+  [1.30]  (often formed from huge convection cells) that often produce cumulonimbus clouds, which are clouds associated with violent weather systems like hurricanes. [[ And]] finally, as the name implies, cum
+  [1.62]  surrounding the rest of the area. From what I could tell, we were shoved into a giant domed circle.     Oh, that's right.[[ ``]] We.''     I had basically forgotten about
+  [1.35]  Japan Near the End of World War II, Resulting in Tremendous Civilian Casualties and Suffering.  The Use of[[ Nuclear]] Weapons by the U.S. in These
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.78]  Don't hold back on any quirky ideas!  assistant: Sure, here are some tips for making your promotional materials stand out:  1. Use Humour[[:]] Humour is an excellent way to capture
+  [-1.13]  name, and customize the content based on their preferences and interests. This will increase the likelihood of them referring friends and family.  7. Communicate regularly[[:]] Keep your subscribers informed about the progress of
+  [-1.76]  the sport or through accidents. Small mishaps can lead to bigger physical maladies if coaches are not familiar with safety and first aid. - Good communication[[.]] Miscommunication can place a youth in danger
+  [-1.74]  on the list are "nice to haves," put them aside for now and focus on what is essential to complete the project.  6. Be Flexible[[:]] Be open to alternative or cost-saving options
+  [-1.83]  celebrate, too.  And when team members share good news, always try to respond positively . Positive reinforcements further enhance team morale.  4. Give a gift[[.]] A celebratory gift could be a one
+--- cluster 1
+  [-1.67] : Regularly monitor your KPIs and metrics to measure your performance[[.]] Set up a system to track your progress
+  [-2.44]  growth mindset and reframing negative thoughts related to time management:  1. Celebrate Small Wins: Set yourself daily or weekly goals, and celebrate achieving them[[.]] Reward yourself for the progress you have made
+  [-1.70]  breaks: If you feel uncomfortable in your wetsuit, take a break out of the water to adjust it or take it off for a few minutes[[.]] This will help you avoid feeling constricted
+  [-1.62] . Experiment and Iterate: Try new tactics and strategies. Remember that not all campaigns will meet your expectations. Test new ideas and adjust your plan as needed[[.]] Analyze the data, learn from the
+  [-2.34]  technology and platforms that will be used for the event, such as video conferencing software, fundraising platforms, and trivia games, to ensure they run smoothly[[.]] Conduct a full run-through of the event
+--- cluster 2
+  [-1.20]  Protection. Each of the institutions and organizations involved in the ecological reserve has a link to their site on this webpage. “This site gives others the opportunity[[ to]] get to know the place and the type
+  [-1.23]  for public companies. The organization was experiencing explosive growth; however, the marketing organization was not able to effectively support that growth. Cendix management explored[[ the]] current organizational structure, interviewed key executives and
+  [-1.68]  individuals who doesn't care about anyone, or, at worst, outright sociopaths or serial killers. Even sympathetic extroverted people who may respect[[ the]] loners' space will nevertheless insist that
+  [-0.83] , such as the curves of a vine or the waves of a water pattern. By using the French Curve to guide the lines, the resulting pattern can[[ be]] more symmetrical and balanced.  user:
+  [-1.33] secondary metabolites" -- low-molecular-weight compounds that are synthesized by a plant, microorganism or animal -- are not essential to sustain life within[[ the]] cell. Presumably, they confer an
+--- cluster 3
+  [-1.32]  and knelt down. A clump of strands had swirled themselves around the inside of his drain, tendrils waving gently in the draining tub[[.]] He glanced down, reminding himself that yes
+  [-1.12]  His cave sat atop a mountain overlooking the city to the south, but if he turned north and crossed to the other side, he could see the stars[[.]] Moonlight glinted off the river
+  [-1.05]  The wretched little creatures below would be his servants. He was the laws of physics. He could do what he pleased with the fabric of the universe[[.]]     Kozilek was the sh
+  [-2.50]  Gilmore started playing as soon as the credits for the Waterboy had finished. Ahmed felt at ease, his brain melting in a cocktail of happy chemicals[[.]] He watched and rooted for Happy Gilmore
+  [-0.82]  a shuttle in the time we've been speaking.'' We nodded and continued to inspect the construct on screen. The images that were on screen were clearly alien[[.]] An elongated spacecraft, with
+--- unclustered (sample)
+  [-1.64]  Cornedbeef roast recipes, articles and photos to love. Choose from hundreds of Cornedbeef roast recipes that you can cook easily and quickly[[.]] Prepare your ingredients and start cooking Corned
+  [-2.14]  cheese: Add shredded cheese (cheddar, feta, goat, etc.) to the egg mixture before cooking to get melty, cheesy scrambled eggs[[.]] 2. Scrambled eggs with
+  [-0.85]  and thrum as the urge to flee began to rise in me.   And yet I could not move a muscle[[,]] nor blink, nor move.     ``
+##### neuron 8324
+=== high pole (p97 and above)
+--- cluster 0
+  [1.62]   Human: Can you[[ give]] me some ideas of what crafts I could
+  [2.41]   Human: I need help finding an outlet that sells good outdoor pants at a discount. Can you[[ give]] me some recommendations?  Assistant: Sure,
+  [1.03]  transformed.  user: These are great ideas! Can you[[ give]] me some tips on how to stay consistent
+  [3.64]   Human: I want to give my students a example of a good analogy. Can you[[ give]] me one and explain what it means?  
+  [3.39]   Human: I'm writing an essay and I need a synonym for the word "important"  – can you[[ give]] me three?  Assistant: Sure! Here
+--- cluster 1
+  [1.54]   Human: Can[[ you]] summarize the objective and rules for the game
+  [1.54]   Human: Can[[ you]] help me to solve this math problem?
+  [1.54]   Human: Can[[ you]] provide a list of 5 things you
+  [1.31]   Human: Could[[ you]] make the following lyrics from Beyonce into
+  [3.95]  hours, the fighting intense  user: This is a great start, but I want to know more about the other soldiers in Napoleon's army. Can[[ you]] add some more details about their experiences during
+--- cluster 2
+  [5.06] ?'' I asked. `` If I ca n't remember it happening, how do I know it's real?''     `` You do n't[[ need]] to know,'' said Rudy. `` The
+  [3.44]  cool he doesn ’ t even have to speak a word. I ask him can I take photos. He didn ’ t answer but I don ’ t[[ need]] him to, I just took them before
+  [2.53]  had been modified to detect colors and sounds our ancestors could only dream about, spurring an amazing renesseciance in the arts. We no longer[[ needed]] the massive strength of our ancestors, and
+  [4.09]  golfers and the family, friends and business they bring across Europe and around the world. Golf resorts are the latest with an offering so complete you wont[[ need]] to leave their premises. Barcelona Golf
+  [1.93]  certain why Baum and Denslow split up but it has been suggested that there were several possible reasons, one being that neither Baum nor Denslow[[ needed]] the other to prosper, now that each
+--- cluster 3
+  [3.73] . I don't have one of those.  Assistant: Oh, that’s too bad!  It’s really tough to grow grapes in a desert climate[[ without]] water.  You might have luck with
+  [2.56]  but granted him mercy. They would pass through without disruption, as long as the messengers returned to them by the following nightfall. If they did[[ not]] return, the foreign army was prepared to
+  [1.10]  set up a self-contained guinea pig "room" in your home to give your animal as much space as possible! Besides the cage, you should[[ have]] hay for bedding/substrate, chew
+  [0.56] , plants convert carbon dioxide into organic particles that are distributed throughout the upper water column. Some remain suspended while others are carried to depth. “It’s crucial[[ we]] understand their dynamics if we want to understand
+  [3.52]  Clairvoyant was different. Clairvoyant had to rely on his brain, had to find every advantage he could get to make up for his lack[[ of]] physical ability.     This made it difficult
+--- cluster 4
+  [4.66]   Human: How can I practice a balance beam routine if I don[['t]] have a balance beam?  Assistant: It
+  [4.66]   Human: How can I practice a balance beam routine if I don[['t]] have a balance beam?  Assistant: It
+  [3.98]  daily lives, and it is essential to prioritize social connections for our overall well-being.  user: These sound like great ideas, but what if I don[['t]] really feel like connecting with people? Social
+  [4.19]  the positive things in your life, can help make you happier and brighten your personality.  Human: That is a good idea. What if I don[['t]] like to write?  Assistant: Another option
+  [1.95]  food sources you find, symptom of ant problems will usually go away once you manage to remove their main source of food.  Human: What if we don[['t]] have any crumbs of food laying around?
+--- unclustered (sample)
+  [3.70]  this destruction he has caused. Beatrice exclaims “ WHAT WERE YOU THINKING ” Victor explains that he has been wanting to end it forever but[[ needed]] a perfect opportunity where he would eliminate the
+  [2.39]  three-fourths of the state legislatures comprising Congress.  When an amendment is successfully passed in this manner, it must then be formally approved[[ by]] the states through the processes of Congress and
+  [2.36]  luck with your dreads!  If you have any further questions about the process I would be happy to help.  Human: How much hair do you[[ need]] to start dreads?  Assistant: This
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.34]  are a number of different ways that you can do this, from meditation and yoga to cognitive exercises and physical activity. All of these different practices can help[[ you]] to reach higher levels of consciousness and become
+  [-1.44]  then god help you, Representative.''     She breathes for a moment and Andreas stares, mouth forming inchoate shapes as he scrabbles for[[ a]] reply. The office outside her door has
+  [-0.43]  this is a tough and very important question! Surviving during a time of war is certainly a difficult and stressful challenge.  Here are some possible approaches[[ to]] consider:  o Take shelter in an underground
+  [-0.36] , the colours of the sunset, the intricacies of a butterfly's wings – things that had always been there, but she had never taken the time[[ to]] notice. It was almost like she had
+  [-0.26]  is, and when is the time to get their work done, stay organized, work hard and show discipline. Help them plan out their time wisely so[[ that]] they can complete homework with enough
+--- cluster 1
+  [-2.53]  1 fi  # Check if the directory exists if [ ! -d "$2"[[ ];]] then   echo "Directory $2
+  [-2.34]  "Please provide an extension as an argument." exit 1 fi  # Check if the directory exists if [ ! -d "$2"[[ ];]] then   echo "Directory $2
+  [-2.22] bash backup_folder="/path/to/backup/folder"  # Create backup folder if it doesn't exist if [ ! -d "$backup_folder[["]] ]; then   mkdir -p "$
+  [-2.31]  backup_folder="/path/to/backup/folder"  # Create backup folder if it doesn't exist if [ ! -d "$backup_folder"[[ ];]] then   mkdir -p "$backup
+  [-3.55] path/to/backup/folder" days=14  # Create backup folder if it doesn't exist if [ ! -d "$backup_folder[["]] ]; then   mkdir -p "$
+--- cluster 2
+  [-5.47] 's how the modified `find` command would look like:  ```bash backup_folder="/path/to/backup/folder"  # Create backup folder if[[ it]] doesn't exist if [ ! -
+  [-2.86]  the modified `find` command would look like:  ```bash backup_folder="/path/to/backup/folder"  # Create backup folder if it doesn[['t]] exist if [ ! -d "$
+  [-5.66]  not excluded by the specified `find` options, will be moved to the backup folder specified by `$backup_folder`. The script creates the backup folder if[[ it]] doesn't already exist. Note that `
+  [-5.41]  Here's how the modified `find` command would look like:  ```bash backup_folder="/path/to/backup/folder"  # Create backup folder[[ if]] it doesn't exist if [ !
+  [-2.67]  by the specified `find` options, will be moved to the backup folder specified by `$backup_folder`. The script creates the backup folder if it doesn[['t]] already exist. Note that `mv`
+--- unclustered (sample)
+  [-2.66] ’s much more difficult if you start to forget everyday tasks like paying bills, or if you have trouble learning new information.  Forgetting that you’ve[[ taken]] a shower and then taking another, or
+  [-2.17]  script that will search for the given extension files recursively in the specified directory and its subdirectories:  ``` #!/bin/bash  # Check if the user[[ has]] provided input for the extension if [
+  [-1.43] echo "Enter directory path:" read dir_path  # Check if directory path is valid while [ ! -d "$dir_path" ] do [[ ]] echo "Invalid directory path. Enter again

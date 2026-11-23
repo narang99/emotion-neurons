@@ -1,0 +1,80 @@
+{"neuron":4752,"pole":"high","cluster":0,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"casual conversation"}
+{"neuron":4752,"pole":"high","cluster":1,"mode":"asking a question after a statement","scene_windows":0,"windows":5,"scene":"information seeking"}
+{"neuron":4752,"pole":"high","cluster":2,"mode":"dialogue marker, often indicating surprise or realization","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":4752,"pole":"high","cluster":3,"mode":"confirming information or agreement","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":4752,"pole":"high","cluster":4,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":4752,"pole":"high","cluster":5,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":4752,"pole":"high","cluster":6,"mode":"confirming information or agreement","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":4752,"pole":"high","cluster":7,"mode":"confirming information or agreement","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":4752,"pole":"high","cluster":8,"mode":"assistant's affirmative response to a question","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":4752,"pole":"high","cluster":9,"mode":"assistant's polite closing after helping","scene_windows":0,"windows":5,"scene":"customer service interaction"}
+{"neuron":4752,"pole":"high","cluster":10,"mode":"dialogue marker, often indicating surprise or realization","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":4752,"pole":"high","cluster":11,"mode":"punctuation within a sentence","scene_windows":0,"windows":5,"scene":"technical text, narration"}
+{"neuron":4752,"pole":"high","cluster":12,"mode":"past tense verb indicating action","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":4752,"pole":"high","cluster":13,"mode":"pronoun indicating agreement or affirmation","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":4752,"pole":"high","cluster":14,"mode":"noun indicating a quantity or selection","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":4752,"pole":"high","cluster":15,"mode":"possessive pronoun or contraction","scene_windows":0,"windows":5,"scene":"narration, technical text"}
+{"neuron":4752,"pole":"low","cluster":0,"mode":"pronoun indicating self or subject","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":4752,"pole":"low","cluster":1,"mode":"colon introducing a list or explanation","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4752,"pole":"low","cluster":2,"mode":"pronoun indicating self or subject","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":4752,"pole":"low","cluster":3,"mode":"dialogue marker, often indicating surprise or realization","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":4752,"pole":"low","cluster":4,"mode":"pronoun indicating self or subject","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":4752,"pole":"low","cluster":5,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":4752,"pole":"low","cluster":6,"mode":"determiner indicating possession or relation","scene_windows":0,"windows":5,"scene":"technical text, narration"}
+{"neuron":4752,"pole":"low","cluster":7,"mode":"date marker","scene_windows":0,"windows":5,"scene":"bibliographic information"}
+{"neuron":4752,"pole":"low","cluster":8,"mode":"date marker","scene_windows":0,"windows":5,"scene":"bibliographic information"}
+{"neuron":7916,"pole":"high","cluster":0,"mode":"plural determiner indicating existence","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":7916,"pole":"high","cluster":1,"mode":"assistant's affirmative response to a question","scene_windows":0,"windows":5,"scene":"customer service interaction"}
+{"neuron":7916,"pole":"low","cluster":0,"mode":"determiner indicating existence","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":7916,"pole":"low","cluster":1,"mode":"determiner indicating singularity","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":7916,"pole":"low","cluster":2,"mode":"determiner indicating singularity","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":7916,"pole":"low","cluster":3,"mode":"determiner indicating singularity","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":7916,"pole":"low","cluster":4,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":7916,"pole":"low","cluster":5,"mode":"conjunction indicating contrast","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":9168,"pole":"high","cluster":0,"mode":"assistant's affirmative response to a question","scene_windows":0,"windows":5,"scene":"customer service interaction"}
+{"neuron":9168,"pole":"high","cluster":1,"mode":"noun indicating a query or topic","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":9168,"pole":"high","cluster":2,"mode":"assistant's affirmative response to a question","scene_windows":0,"windows":5,"scene":"customer service interaction"}
+{"neuron":9168,"pole":"high","cluster":3,"mode":"pronoun indicating self or subject","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":9168,"pole":"high","cluster":4,"mode":"determiner indicating existence","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":9168,"pole":"high","cluster":5,"mode":"pronoun indicating self or subject","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":9168,"pole":"high","cluster":6,"mode":"adjective describing a positive experience","scene_windows":0,"windows":5,"scene":"narration, description"}
+{"neuron":9168,"pole":"high","cluster":7,"mode":"punctuation indicating excitement","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":9168,"pole":"low","cluster":0,"mode":"determiner indicating singularity or part","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":9168,"pole":"low","cluster":1,"mode":"determiner indicating existence","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":2859,"pole":"high","cluster":0,"mode":"preposition indicating condition or variation","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":2859,"pole":"high","cluster":1,"mode":"determiner indicating uncertainty or choice","scene_windows":0,"windows":5,"scene":"opinion, discussion"}
+{"neuron":2859,"pole":"high","cluster":2,"mode":"determiner indicating uncertainty or choice","scene_windows":0,"windows":5,"scene":"opinion, discussion"}
+{"neuron":2859,"pole":"high","cluster":3,"mode":"determiner indicating quantity or variety","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":2859,"pole":"high","cluster":4,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"narration, description"}
+{"neuron":2859,"pole":"high","cluster":5,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"ethical discussion"}
+{"neuron":2859,"pole":"low","cluster":0,"mode":"factors influencing the type of information being redacted or the type of disease.","scene_windows":0,"windows":5,"scene":"neutral factual explanation"}
+{"neuron":2859,"pole":"low","cluster":1,"mode":"reasons for nervousness and the presence of life.","scene_windows":0,"windows":5,"scene":"neutral factual explanation"}
+{"neuron":9180,"pole":"high","cluster":0,"mode":"information about the user's experience and attention.","scene_windows":0,"windows":5,"scene":"neutral factual explanation"}
+{"neuron":9180,"pole":"high","cluster":1,"mode":"potential side effects, risks, and benefits of actions.","scene_windows":0,"windows":5,"scene":"neutral factual explanation"}
+{"neuron":9180,"pole":"low","cluster":0,"mode":"determining the type of information, disease, or fallacy.","scene_windows":0,"windows":5,"scene":"neutral factual explanation"}
+{"neuron":9180,"pole":"low","cluster":1,"mode":"cave termination points and flute scales.","scene_windows":0,"windows":5,"scene":"neutral factual explanation"}
+{"neuron":9180,"pole":"low","cluster":2,"mode":"understanding what is being communicated or bought.","scene_windows":0,"windows":5,"scene":"neutral factual explanation"}
+{"neuron":262,"pole":"high","cluster":0,"mode":"symbol indicating a phone number prefix","scene_windows":0,"windows":5,"scene":"contact information"}
+{"neuron":262,"pole":"high","cluster":1,"mode":"symbol indicating a special character or placeholder","scene_windows":0,"windows":5,"scene":"narrative, dialogue"}
+{"neuron":262,"pole":"high","cluster":2,"mode":"user identifier in dialogue","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":262,"pole":"high","cluster":3,"mode":"separator indicating a section break","scene_windows":0,"windows":5,"scene":"narrative, dialogue"}
+{"neuron":262,"pole":"high","cluster":4,"mode":"conjunction indicating addition","scene_windows":0,"windows":5,"scene":"description, technical text"}
+{"neuron":262,"pole":"high","cluster":5,"mode":"verb indicating addition","scene_windows":0,"windows":5,"scene":"recipe, instructions"}
+{"neuron":262,"pole":"high","cluster":6,"mode":"symbol indicating addition or positive value","scene_windows":0,"windows":5,"scene":"technical text, assembly language"}
+{"neuron":262,"pole":"high","cluster":7,"mode":"symbol indicating addition or positive value","scene_windows":0,"windows":5,"scene":"technical text, assembly language"}
+{"neuron":262,"pole":"high","cluster":8,"mode":"conjunction indicating addition","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":262,"pole":"high","cluster":9,"mode":"symbol indicating addition or positive value","scene_windows":0,"windows":5,"scene":"technical text, assembly language"}
+{"neuron":262,"pole":"high","cluster":10,"mode":"symbol indicating addition or positive value","scene_windows":0,"windows":5,"scene":"technical text, assembly language"}
+{"neuron":262,"pole":"high","cluster":11,"mode":"user identifier in dialogue","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":262,"pole":"high","cluster":12,"mode":"adverb indicating addition","scene_windows":0,"windows":5,"scene":"description, narration"}
+{"neuron":262,"pole":"high","cluster":13,"mode":"determiner indicating inclusion","scene_windows":0,"windows":5,"scene":"narration, description"}
+{"neuron":262,"pole":"high","cluster":14,"mode":"adverb indicating emphasis or specificity","scene_windows":0,"windows":5,"scene":"general description"}
+{"neuron":262,"pole":"low","cluster":0,"mode":"punctuation indicating a citation or reference","scene_windows":0,"windows":5,"scene":"legal or technical text"}
+{"neuron":262,"pole":"low","cluster":1,"mode":"assistant's affirmative response to a question","scene_windows":0,"windows":5,"scene":"customer service interaction"}
+{"neuron":262,"pole":"low","cluster":2,"mode":"assistant's affirmative response to a question","scene_windows":0,"windows":5,"scene":"customer service interaction"}
+{"neuron":262,"pole":"low","cluster":3,"mode":"punctuation indicating a question","scene_windows":0,"windows":5,"scene":"question and answer"}
+{"neuron":262,"pole":"low","cluster":4,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"historical text"}
+{"neuron":262,"pole":"low","cluster":5,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"narration, description"}
+{"neuron":262,"pole":"low","cluster":6,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"technical text, narration"}
+{"neuron":262,"pole":"low","cluster":7,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"historical text"}
+{"neuron":262,"pole":"low","cluster":8,"mode":"determiner indicating singularity or part","scene_windows":0,"windows":5,"scene":"general description"}

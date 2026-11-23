@@ -1,0 +1,51 @@
+{"neuron":9024,"pole":"high","cluster":0,"mode":"narrative openings, descriptions, and personal accounts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9024,"pole":"high","cluster":1,"mode":"classic fairy tale openings","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9024,"pole":"low","cluster":0,"mode":"citations, technical details, and code snippets","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9024,"pole":"low","cluster":1,"mode":"dark, violent, or suspenseful narrative moments","scene_windows":3,"windows":5,"scene":"tense, dangerous situation"}
+{"neuron":9024,"pole":"low","cluster":2,"mode":"food preparation and ingredients","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4070,"pole":"high","cluster":0,"mode":"pronouns referring to people in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4070,"pole":"high","cluster":1,"mode":"technical and scientific terms, often biological or medical","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4070,"pole":"low","cluster":0,"mode":"positive affirmations and outcomes in narrative","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4070,"pole":"low","cluster":1,"mode":"social hierarchy and abstract concepts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4070,"pole":"low","cluster":2,"mode":"actions and physical sensations in narrative","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4070,"pole":"low","cluster":3,"mode":"expressions of agreement, uncertainty, or resignation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8365,"pole":"high","cluster":0,"mode":"children's activities and locations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8365,"pole":"high","cluster":1,"mode":"common locations and settings in children's stories","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8365,"pole":"high","cluster":2,"mode":"narrative elements and character actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8365,"pole":"high","cluster":3,"mode":"narrative punctuation and emotional states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8365,"pole":"low","cluster":0,"mode":"indefinite articles and possessive pronouns in narrative","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8365,"pole":"low","cluster":1,"mode":"temporal markers in narrative openings","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1475,"pole":"high","cluster":0,"mode":"past tense verbs indicating desire, action, or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1475,"pole":"high","cluster":1,"mode":"bibliographic citations and academic references","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1475,"pole":"low","cluster":0,"mode":"past tense verbs indicating state or result","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1475,"pole":"low","cluster":1,"mode":"age and identity in narrative openings","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"high","cluster":0,"mode":"positive outcomes and emotional satisfaction in narrative","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"high","cluster":1,"mode":"pauses and reflective moments in narrative","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"high","cluster":2,"mode":"moments of realization, despair, or vulnerability","scene_windows":1,"windows":5,"scene":"crisis, emotional distress"}
+{"neuron":6868,"pole":"high","cluster":3,"mode":"objects and actions related to conflict or resolution","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"high","cluster":4,"mode":"temporal conjunctions indicating sequence of events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"high","cluster":5,"mode":"pronouns indicating self-reference or personal experience","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"low","cluster":0,"mode":"plural nouns related to materials and processes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"low","cluster":1,"mode":"descriptive adjectives and nouns in technical contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6868,"pole":"low","cluster":2,"mode":"verbs indicating refusal, uncertainty, or negative actions","scene_windows":1,"windows":5,"scene":"tense, confrontational situation"}
+{"neuron":6868,"pole":"low","cluster":3,"mode":"past tense verbs indicating completion or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9935,"pole":"high","cluster":0,"mode":"using punctuation to end sentences or clauses in marketing and e-commerce contexts","scene_windows":0,"windows":5,"scene":"marketing and e-commerce"}
+{"neuron":9935,"pole":"high","cluster":1,"mode":"expressing refusal or uncertainty with 'don't' in narrative contexts","scene_windows":0,"windows":5,"scene":"narrative and dialogue"}
+{"neuron":9935,"pole":"high","cluster":2,"mode":"using periods to end statements of defiance or resignation","scene_windows":0,"windows":5,"scene":"defiance and resignation"}
+{"neuron":9935,"pole":"high","cluster":3,"mode":"using punctuation to end exclamations or questions in children's stories","scene_windows":0,"windows":5,"scene":"children's stories"}
+{"neuron":9935,"pole":"high","cluster":4,"mode":"using punctuation to end statements about negative outcomes or regrets","scene_windows":0,"windows":5,"scene":"negative outcomes and regrets"}
+{"neuron":9935,"pole":"high","cluster":5,"mode":"using pronouns and punctuation in narrative to express happiness or action","scene_windows":0,"windows":5,"scene":"narrative of happiness and action"}
+{"neuron":9935,"pole":"low","cluster":0,"mode":"expressing negative outcomes or sadness with punctuation","scene_windows":0,"windows":5,"scene":"negative outcomes and sadness"}
+{"neuron":9935,"pole":"low","cluster":1,"mode":"using color words and punctuation in descriptive contexts","scene_windows":0,"windows":5,"scene":"descriptive contexts"}
+{"neuron":8921,"pole":"high","cluster":0,"mode":"pronouns and verbs indicating personal experience or observation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8921,"pole":"high","cluster":1,"mode":"ingredients and preparation methods for food","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8921,"pole":"low","cluster":0,"mode":"pronouns indicating self, others, or possession","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8921,"pole":"low","cluster":1,"mode":"descriptive adjectives and nouns related to color and appearance","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"high","cluster":0,"mode":"pronouns and conjunctions indicating personal relationships or states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"high","cluster":1,"mode":"food items and celebratory meals","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"low","cluster":0,"mode":"pronouns and adverbs indicating attribution or belonging","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"low","cluster":1,"mode":"narrative openings with character names","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"low","cluster":2,"mode":"verbs and nouns describing physical attributes and actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"low","cluster":3,"mode":"nouns and verbs related to knowledge, effort, and conflict","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"low","cluster":4,"mode":"pronouns indicating self-reference or personal experience","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1328,"pole":"low","cluster":5,"mode":"dialogue markers and expressions of disbelief or negation","scene_windows":1,"windows":5,"scene":"confrontational dialogue"}

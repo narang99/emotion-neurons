@@ -1,0 +1,64 @@
+{"neuron":2498,"pole":"high","cluster":0,"mode":"Tokens after a bodily-sensation or sudden-event verb in narrative prose","scene_windows":1,"windows":5,"scene":"Mundane or tense narrative: bee sting, hospital, subtle danger"}
+{"neuron":2498,"pole":"high","cluster":1,"mode":"Punctuation and tokens inside citations and reference lists","scene_windows":0,"windows":5,"scene":"Bibliographic references and academic citations"}
+{"neuron":2498,"pole":"low","cluster":0,"mode":"Pronouns and punctuation mid-dialogue in emotionally charged moments","scene_windows":1,"windows":5,"scene":"Emotional dialogue, anger, and personal fear"}
+{"neuron":2498,"pole":"low","cluster":1,"mode":"Determiner 'the' in simple children's story sentences","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with happy endings"}
+{"neuron":306,"pole":"high","cluster":0,"mode":"Pronouns starting confrontational or emotional dialogue lines","scene_windows":1,"windows":5,"scene":"Confrontations, moral conflict, and tense dialogue"}
+{"neuron":306,"pole":"high","cluster":1,"mode":"Commas after clauses describing dramatic visual or physical action","scene_windows":1,"windows":5,"scene":"Alien or apocalyptic scenes with frantic action"}
+{"neuron":306,"pole":"high","cluster":2,"mode":"Pronoun 'It' starting gentle, reassuring sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories with warm, calm moments"}
+{"neuron":306,"pole":"low","cluster":0,"mode":"Commas and 'and/with' inside ingredient and recipe lists","scene_windows":0,"windows":5,"scene":"Recipe and food listicle writing"}
+{"neuron":306,"pole":"low","cluster":1,"mode":"Sentence-final periods in short narrative reflections","scene_windows":1,"windows":5,"scene":"Narration of hopelessness, luck, or wry reflection"}
+{"neuron":306,"pole":"low","cluster":2,"mode":"Closing quotation marks ending short, tense dialogue lines","scene_windows":2,"windows":5,"scene":"Heated dialogue, pleading, and urgent confrontations"}
+{"neuron":6561,"pole":"high","cluster":0,"mode":"Sentence-ending periods and spaces in assistant-style instructional text","scene_windows":0,"windows":5,"scene":"Chat-style assistant answers and how-to guides"}
+{"neuron":6561,"pole":"high","cluster":1,"mode":"'you' after 'Can/Could' in user requests to assistant","scene_windows":0,"windows":5,"scene":"User asking assistant for more examples or tips"}
+{"neuron":6561,"pole":"high","cluster":2,"mode":"Periods ending happy, closing sentences in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with cheerful wrap-up"}
+{"neuron":6561,"pole":"high","cluster":3,"mode":"'looked' verb after a character subject in narration","scene_windows":0,"windows":5,"scene":"Investigative or observational narration of scenes"}
+{"neuron":6561,"pole":"high","cluster":4,"mode":"'smiled' and 'and' linking happy character reactions","scene_windows":0,"windows":5,"scene":"Happy children's stories with pleasant emotional beats"}
+{"neuron":6561,"pole":"high","cluster":5,"mode":"Possessive 'his/her' after physical action verbs","scene_windows":0,"windows":5,"scene":"Physical action and everyday character movement"}
+{"neuron":6561,"pole":"high","cluster":6,"mode":"Short affirmative replies like 'Okay' and 'Sure' in dialogue","scene_windows":0,"windows":5,"scene":"Friendly children's dialogue and sharing moments"}
+{"neuron":6561,"pole":"high","cluster":7,"mode":"Periods before closing quotation marks in dialogue","scene_windows":1,"windows":5,"scene":"Dramatic dialogue, ultimatums, and sci-fi exchanges"}
+{"neuron":6561,"pole":"high","cluster":8,"mode":"'I', 'might', 'will' in flirtatious or conditional speech","scene_windows":0,"windows":5,"scene":"Flirtation, promises, and conditional romantic talk"}
+{"neuron":6561,"pole":"high","cluster":9,"mode":"Opening quotation marks starting a new speaker's line","scene_windows":0,"windows":5,"scene":"Casual dialogue exchanges between characters"}
+{"neuron":6561,"pole":"high","cluster":10,"mode":"'smiled' verb after a character subject in kids' stories","scene_windows":0,"windows":5,"scene":"Children's stories with characters reacting kindly"}
+{"neuron":6561,"pole":"high","cluster":11,"mode":"Gesture verbs and body parts ('nodded', 'chin', 'down')","scene_windows":0,"windows":5,"scene":"Character reactions and gestures in dialogue scenes"}
+{"neuron":6561,"pole":"low","cluster":0,"mode":"Blank whitespace tokens between paragraphs in fiction","scene_windows":1,"windows":5,"scene":"Paragraph breaks in tense or dark narrative fiction"}
+{"neuron":6561,"pole":"low","cluster":1,"mode":"Interrupted or clipped speech fragments like 'ugh', 'Sarah', 'damn'","scene_windows":2,"windows":5,"scene":"Panicked, pleading or frustrated spoken moments"}
+{"neuron":6561,"pole":"low","cluster":2,"mode":"Pronoun 'It' as subject in descriptive sentences","scene_windows":0,"windows":5,"scene":"Descriptive narration of odd people or objects"}
+{"neuron":6561,"pole":"low","cluster":3,"mode":"Closing quotation marks after emphatic or pleading lines","scene_windows":1,"windows":5,"scene":"Tense dialogue with pleading or threatening lines"}
+{"neuron":6561,"pole":"low","cluster":4,"mode":"Contraction fragment 's' after 'It' or 'It's'","scene_windows":0,"windows":5,"scene":"Casual dialogue and reflective observations"}
+{"neuron":6561,"pole":"low","cluster":5,"mode":"Action verb or particle after a character subject","scene_windows":0,"windows":5,"scene":"Physical movement and reactions in narration"}
+{"neuron":6561,"pole":"low","cluster":6,"mode":"Sentence-initial pronoun 'He/I' in tense narration","scene_windows":2,"windows":5,"scene":"Action, guilt, and desperate survival narration"}
+{"neuron":6561,"pole":"low","cluster":7,"mode":"Opening quotation marks starting urgent or pleading speech","scene_windows":1,"windows":5,"scene":"Pleading or urgent exchanges, loan and farewell scenes"}
+{"neuron":6561,"pole":"low","cluster":8,"mode":"Question marks ending in-character questions","scene_windows":0,"windows":5,"scene":"Casual or confused questions in dialogue"}
+{"neuron":6561,"pole":"low","cluster":9,"mode":"Sentence-ending periods in tense investigative narration","scene_windows":1,"windows":5,"scene":"Investigations, surveillance, and suspenseful narration"}
+{"neuron":6561,"pole":"low","cluster":10,"mode":"Sentence-ending periods in simple children's story events","scene_windows":0,"windows":5,"scene":"Simple children's stories about everyday problems"}
+{"neuron":2254,"pole":"high","cluster":0,"mode":"Sentence-ending periods in journalistic or science reporting","scene_windows":0,"windows":5,"scene":"News and science article prose"}
+{"neuron":2254,"pole":"high","cluster":1,"mode":"'all' as a quantifier in narrative sentences","scene_windows":0,"windows":5,"scene":"Storytelling about sorrow, loss, or solitude"}
+{"neuron":2254,"pole":"high","cluster":2,"mode":"'that/because' introducing clauses about knowledge or reasons","scene_windows":0,"windows":5,"scene":"Reflective narration about end of humanity"}
+{"neuron":2254,"pole":"high","cluster":3,"mode":"'wanted' expressing desire in narrative","scene_windows":0,"windows":5,"scene":"Character desires in stories and reflections"}
+{"neuron":2254,"pole":"low","cluster":0,"mode":"Sentence-initial 'But/then/He' transitions in narrative","scene_windows":0,"windows":5,"scene":"Story narration with plot transitions"}
+{"neuron":2254,"pole":"low","cluster":1,"mode":"'assistant' role label starting chatbot answers","scene_windows":0,"windows":5,"scene":"Chat transcripts with user-assistant turns"}
+{"neuron":250,"pole":"high","cluster":0,"mode":"Code syntax tokens in PHP, Arduino, and SQL snippets","scene_windows":0,"windows":5,"scene":"Programming code examples and explanations"}
+{"neuron":250,"pole":"high","cluster":1,"mode":"'and' joining actions in narrative sentences","scene_windows":0,"windows":5,"scene":"Everyday action narration and light comedy"}
+{"neuron":250,"pole":"high","cluster":2,"mode":"Periods ending clauses about effort or frustration","scene_windows":0,"windows":5,"scene":"Reflective or struggling-character narration"}
+{"neuron":250,"pole":"high","cluster":3,"mode":"Closing quotation marks after emphatic exclamations","scene_windows":1,"windows":5,"scene":"Argumentative dialogue with emphatic outbursts"}
+{"neuron":250,"pole":"low","cluster":0,"mode":"Everyday nouns like computer, phone, groceries, alley","scene_windows":0,"windows":5,"scene":"Routine daily life and mundane errands"}
+{"neuron":250,"pole":"low","cluster":1,"mode":"Periods and transitions in simple children's narratives","scene_windows":0,"windows":5,"scene":"Children's stories about trips and small problems"}
+{"neuron":2655,"pole":"high","cluster":0,"mode":"Recipe instruction tokens like 'Add', 'a', commas","scene_windows":0,"windows":5,"scene":"Cooking recipe instructions"}
+{"neuron":2655,"pole":"high","cluster":1,"mode":"Seat, chair, or 'them' nouns in tense narration","scene_windows":0,"windows":5,"scene":"Character seated or observing in dramatic moments"}
+{"neuron":2655,"pole":"low","cluster":0,"mode":"Abstract noun phrases in political or social essays","scene_windows":0,"windows":5,"scene":"Expository essays on society and governance"}
+{"neuron":2655,"pole":"low","cluster":1,"mode":"Periods after urgent statements in investigative logs","scene_windows":1,"windows":5,"scene":"Crime, alerts, and urgent reports"}
+{"neuron":6831,"pole":"high","cluster":0,"mode":"Auxiliary 'was' after a character subject in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about finding treasure"}
+{"neuron":6831,"pole":"high","cluster":1,"mode":"Verbs and pronouns after a character subject in narration","scene_windows":0,"windows":5,"scene":"Varied narration about discovery and battle"}
+{"neuron":6831,"pole":"high","cluster":2,"mode":"Sentence-initial 'She/He' starting children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about exploring and finding"}
+{"neuron":6831,"pole":"low","cluster":0,"mode":"Modal 'could/'d' expressing ability or wishes","scene_windows":2,"windows":5,"scene":"Urgent escapes, wishes, and anguished moments"}
+{"neuron":6831,"pole":"low","cluster":1,"mode":"'was' in formulaic 'Once upon a time, there was'","scene_windows":0,"windows":5,"scene":"Fairy-tale story openings"}
+{"neuron":8946,"pole":"high","cluster":0,"mode":"Determiner 'the' before location or object nouns","scene_windows":0,"windows":5,"scene":"Playful children's stories at parks and water"}
+{"neuron":8946,"pole":"high","cluster":1,"mode":"Ingredient and method nouns in recipe-style lists","scene_windows":0,"windows":5,"scene":"Food and recipe variation lists"}
+{"neuron":8946,"pole":"high","cluster":2,"mode":"Technical nouns and verbs in enterprise technology prose","scene_windows":0,"windows":5,"scene":"Business and technology explanatory articles"}
+{"neuron":8946,"pole":"high","cluster":3,"mode":"Sci-fi technical or possessive words like 'our', 'optimal'","scene_windows":0,"windows":5,"scene":"Science-fiction dialogue about ships and robots"}
+{"neuron":8946,"pole":"high","cluster":4,"mode":"Object nouns like 'box' and 'it' after 'opened'","scene_windows":0,"windows":5,"scene":"Children's stories opening boxes and puzzles"}
+{"neuron":8946,"pole":"high","cluster":5,"mode":"'looked' verb after a character subject","scene_windows":0,"windows":5,"scene":"Simple narration of characters noticing things"}
+{"neuron":8946,"pole":"high","cluster":6,"mode":"Closing quotes and punctuation at end of speech","scene_windows":0,"windows":5,"scene":"Dialogue between characters, mostly everyday"}
+{"neuron":8946,"pole":"high","cluster":7,"mode":"Subject pronoun or name starting a sentence in gentle, warm narration","scene_windows":0,"windows":5,"scene":"Calm children's stories about animals and family moments"}
+{"neuron":8946,"pole":"low","cluster":0,"mode":"Function words mid-sentence during tense, urgent physical action or phone-call moments","scene_windows":2,"windows":5,"scene":"Tense shootout, frantic phone grab, hurried escape narration"}
+{"neuron":8946,"pole":"low","cluster":1,"mode":"Conjunctions and articles in expository comparisons of tools, products, and procedures","scene_windows":0,"windows":5,"scene":"Technical product descriptions: lawn mowers, lasers, electric vehicle charging"}

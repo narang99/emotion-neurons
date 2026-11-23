@@ -1,0 +1,79 @@
+{"neuron":902,"pole":"high","cluster":0,"mode":"Assistant opener word after user question, praising the question","scene_windows":0,"windows":5,"scene":"Friendly assistant replies to casual how-to questions"}
+{"neuron":902,"pole":"high","cluster":1,"mode":"\"for\"/\"your\" in assistant thank-you openers","scene_windows":0,"windows":5,"scene":"Assistant thanking user for feedback or interest"}
+{"neuron":902,"pole":"high","cluster":2,"mode":"\"are/'re\" in assistant opener affirming user correction","scene_windows":0,"windows":5,"scene":"Assistant agreeing user was right about a point"}
+{"neuron":902,"pole":"high","cluster":3,"mode":"\"a\" in assistant phrase calling user's question interesting","scene_windows":0,"windows":5,"scene":"Assistant calling a user's question interesting or complex"}
+{"neuron":902,"pole":"high","cluster":4,"mode":"\"'s/That\" in assistant affirmations like \"That's wonderful\"","scene_windows":0,"windows":5,"scene":"Assistant validating user statements or fan remarks"}
+{"neuron":902,"pole":"high","cluster":5,"mode":"Colon or role label right before assistant reply begins","scene_windows":0,"windows":5,"scene":"Chat turns where assistant answers a factual question"}
+{"neuron":902,"pole":"high","cluster":6,"mode":"Sentence-initial \"You\" opening quoted fiction dialogue","scene_windows":0,"windows":5,"scene":"Tense fantasy or romance dialogue between characters"}
+{"neuron":902,"pole":"high","cluster":7,"mode":"Question mark closing rhetorical questions in heated dialogue","scene_windows":0,"windows":5,"scene":"Emotional confrontational fiction dialogue"}
+{"neuron":902,"pole":"high","cluster":8,"mode":"Comma before contrastive \"but\" in claims about common beliefs","scene_windows":0,"windows":5,"scene":"Expository text qualifying popular assumptions"}
+{"neuron":902,"pole":"high","cluster":9,"mode":"Mid-sentence function words in positive descriptive prose","scene_windows":0,"windows":5,"scene":"Upbeat informational or product-related text"}
+{"neuron":902,"pole":"high","cluster":10,"mode":"Sentence-final period after claims in opinion essays","scene_windows":0,"windows":5,"scene":"Opinion essays on society, food, education"}
+{"neuron":902,"pole":"low","cluster":0,"mode":"Question mark ending a user's health or lifestyle question","scene_windows":0,"windows":5,"scene":"User asking everyday health or wellness questions"}
+{"neuron":902,"pole":"low","cluster":1,"mode":"Period after character's hesitant speech in script","scene_windows":0,"windows":5,"scene":"Scripted conversation between two people"}
+{"neuron":902,"pole":"low","cluster":2,"mode":"Blank whitespace right after a line of fiction dialogue","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction exchanges"}
+{"neuron":902,"pole":"low","cluster":3,"mode":"Closing quote mark after a character's question","scene_windows":0,"windows":5,"scene":"Dialogue in fantasy or thriller fiction"}
+{"neuron":902,"pole":"low","cluster":4,"mode":"\"Claim\" label introducing a fact-check claim","scene_windows":0,"windows":5,"scene":"Fact-checking article about Common Core standards"}
+{"neuron":902,"pole":"low","cluster":5,"mode":"Sentence-ending punctuation in general expository text","scene_windows":0,"windows":5,"scene":"Encyclopedic or explanatory prose"}
+{"neuron":902,"pole":"low","cluster":6,"mode":"\"But\" starting a reflective contrast in narration","scene_windows":0,"windows":5,"scene":"First-person reflective or literary narration"}
+{"neuron":239,"pole":"high","cluster":0,"mode":"Prepositions \"in/to/and\" in chemical or health-risk phrasing","scene_windows":0,"windows":5,"scene":"Articles on contaminants and chemical health concerns"}
+{"neuron":239,"pole":"high","cluster":1,"mode":"\"drinking\" in water-quality and well-contamination text","scene_windows":0,"windows":5,"scene":"Reports on drinking water safety and wells"}
+{"neuron":47,"pole":"high","cluster":0,"mode":"Bracketed list number before a new numbered item","scene_windows":0,"windows":5,"scene":"Numbered lists of activities or tips"}
+{"neuron":47,"pole":"high","cluster":1,"mode":"Closing parenthesis after an enumerated point number","scene_windows":0,"windows":5,"scene":"Scholarly analysis of ancient text with numbered points"}
+{"neuron":47,"pole":"high","cluster":2,"mode":"Hyphen starting a bullet item in food tip lists","scene_windows":0,"windows":5,"scene":"Bulleted recipe and food usage suggestions"}
+{"neuron":47,"pole":"high","cluster":3,"mode":"Semicolon or period inside numbered scriptural citations","scene_windows":0,"windows":5,"scene":"Structured outline of biblical law references"}
+{"neuron":47,"pole":"high","cluster":4,"mode":"Colon after a numbered idea heading","scene_windows":0,"windows":5,"scene":"Numbered lists of tech or wellness ideas"}
+{"neuron":47,"pole":"high","cluster":5,"mode":"Trailing space ending a paragraph of general claims","scene_windows":0,"windows":5,"scene":"General informational paragraphs on health and success"}
+{"neuron":47,"pole":"high","cluster":6,"mode":"Double-space after descriptive sentence in profiles","scene_windows":0,"windows":5,"scene":"Descriptive text on people, festivals, animals"}
+{"neuron":47,"pole":"high","cluster":7,"mode":"Sentence end before a follow-on explanatory sentence","scene_windows":0,"windows":5,"scene":"Essays on organizations, automation, and culture"}
+{"neuron":47,"pole":"high","cluster":8,"mode":"Dash or bullet starting an activity list item","scene_windows":0,"windows":5,"scene":"Lists of date or family activity ideas"}
+{"neuron":47,"pole":"high","cluster":9,"mode":"Mid-sentence articles and \"how\" before a noun phrase","scene_windows":0,"windows":5,"scene":"Book reviews and descriptive prose"}
+{"neuron":47,"pole":"high","cluster":10,"mode":"Colon after assistant or user role label","scene_windows":0,"windows":5,"scene":"Chat turns starting factual answers"}
+{"neuron":47,"pole":"high","cluster":11,"mode":"Comma inside lists of items or topics","scene_windows":0,"windows":5,"scene":"Enumerations of courses, foods, and fields"}
+{"neuron":47,"pole":"high","cluster":12,"mode":"Period after list number in numbered recipe lists","scene_windows":0,"windows":5,"scene":"Numbered healthy food and snack lists"}
+{"neuron":47,"pole":"high","cluster":13,"mode":"Hyphen beginning a new bullet or sentence fragment","scene_windows":0,"windows":5,"scene":"Bulleted health and product tip lists"}
+{"neuron":47,"pole":"high","cluster":14,"mode":"Period after item number in numbered business lists","scene_windows":0,"windows":5,"scene":"Numbered lists of industry trends and examples"}
+{"neuron":47,"pole":"high","cluster":15,"mode":"Period after item number in numbered marketing tips","scene_windows":0,"windows":5,"scene":"Numbered social media and marketing advice"}
+{"neuron":47,"pole":"low","cluster":0,"mode":"Period ending an informational sentence in plain prose","scene_windows":0,"windows":5,"scene":"Informational text on education, flies, cooking"}
+{"neuron":47,"pole":"low","cluster":1,"mode":"Question mark ending a user's question to assistant","scene_windows":0,"windows":5,"scene":"User questions in chat requesting information"}
+{"neuron":9838,"pole":"high","cluster":0,"mode":"Colon between journal volume and issue numbers in citations","scene_windows":0,"windows":5,"scene":"Medical reference lists on dysmenorrhea"}
+{"neuron":9838,"pole":"high","cluster":1,"mode":"Digits inside journal citation volume and page numbers","scene_windows":0,"windows":5,"scene":"Scientific reference lists with citations"}
+{"neuron":9838,"pole":"high","cluster":2,"mode":"Blank indentation after a narrative sentence break","scene_windows":0,"windows":5,"scene":"Tense fiction passages with paragraph breaks"}
+{"neuron":9838,"pole":"high","cluster":3,"mode":"Comma or closing quote inside character speech","scene_windows":0,"windows":5,"scene":"Dialogue in fiction with spoken lines"}
+{"neuron":9838,"pole":"high","cluster":4,"mode":"Sentence boundary period in technical explanations","scene_windows":0,"windows":5,"scene":"Technical or science explainer text"}
+{"neuron":9838,"pole":"high","cluster":5,"mode":"End of web page header or title line","scene_windows":0,"windows":5,"scene":"Scraped web pages with headers and bylines"}
+{"neuron":9838,"pole":"high","cluster":6,"mode":"Punctuation ending a user's request to add details","scene_windows":0,"windows":5,"scene":"User asking assistant to expand a story"}
+{"neuron":9838,"pole":"high","cluster":7,"mode":"Digits or dashes inside reference page ranges","scene_windows":0,"windows":5,"scene":"Bibliography entries with page numbers"}
+{"neuron":9838,"pole":"high","cluster":8,"mode":"Prepositions \"of/by/into\" after a noun phrase","scene_windows":0,"windows":5,"scene":"Descriptive historical and narrative prose"}
+{"neuron":9838,"pole":"high","cluster":9,"mode":"Period ending a descriptive or explanatory sentence","scene_windows":0,"windows":5,"scene":"Product, career, and education descriptions"}
+{"neuron":9838,"pole":"low","cluster":0,"mode":"Speech verb \"says/said\" after a quoted statement","scene_windows":0,"windows":5,"scene":"News quotes attributed to researchers"}
+{"neuron":9838,"pole":"low","cluster":1,"mode":"Colon right after the Assistant role label","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A transcripts"}
+{"neuron":9838,"pole":"low","cluster":2,"mode":"Given names in genealogy or registry entries","scene_windows":0,"windows":5,"scene":"Historical family and registry records"}
+{"neuron":9838,"pole":"low","cluster":3,"mode":"\"about\" in user requests for information on topics","scene_windows":0,"windows":5,"scene":"Users asking assistant to explain a topic"}
+{"neuron":9838,"pole":"low","cluster":4,"mode":"Comma separating author names in citation lists","scene_windows":0,"windows":5,"scene":"PubMed-style reference entries"}
+{"neuron":9838,"pole":"low","cluster":5,"mode":"\"did/do\" auxiliary in user questions about dates","scene_windows":0,"windows":5,"scene":"Short user questions asking when or how"}
+{"neuron":9838,"pole":"low","cluster":6,"mode":"\"in\" in user requests for local recommendations","scene_windows":0,"windows":5,"scene":"Travel recommendation requests from users"}
+{"neuron":9838,"pole":"low","cluster":7,"mode":"\"are\" starting a user's question about a topic","scene_windows":0,"windows":5,"scene":"Short user questions asking what things are"}
+{"neuron":10742,"pole":"high","cluster":0,"mode":"\"Sure\" opening an assistant reply to a request","scene_windows":0,"windows":5,"scene":"Assistant agreeing to add requested details"}
+{"neuron":10742,"pole":"high","cluster":1,"mode":"Comma after a closing salutation in letters","scene_windows":0,"windows":5,"scene":"Business emails with sign-offs"}
+{"neuron":10742,"pole":"high","cluster":2,"mode":"Punctuation ending a user's request for more detail","scene_windows":0,"windows":5,"scene":"User asking for additional product or content details"}
+{"neuron":10742,"pole":"high","cluster":3,"mode":"Blank indentation after a fiction paragraph","scene_windows":0,"windows":5,"scene":"Narrative fiction with paragraph breaks"}
+{"neuron":10742,"pole":"high","cluster":4,"mode":"Digit \"1\" starting a numbered list of tips","scene_windows":0,"windows":5,"scene":"Assistant numbered list of examples or tips"}
+{"neuron":10742,"pole":"high","cluster":5,"mode":"Closing quote mark after spoken dialogue","scene_windows":0,"windows":5,"scene":"Heated fiction dialogue between characters"}
+{"neuron":10742,"pole":"high","cluster":6,"mode":"Sentence-final or exclamation punctuation in assistant replies","scene_windows":0,"windows":5,"scene":"Assistant apologizing or confirming user changes"}
+{"neuron":10742,"pole":"high","cluster":7,"mode":"Period after screenplay stage direction line","scene_windows":0,"windows":5,"scene":"Screenplay-style war drama scene"}
+{"neuron":10742,"pole":"high","cluster":8,"mode":"Colon introducing a detailed list or description","scene_windows":0,"windows":5,"scene":"Assistant introducing details on requested items"}
+{"neuron":10742,"pole":"high","cluster":9,"mode":"\"Finally\" transition opening a final point","scene_windows":0,"windows":5,"scene":"Advice lists on conserving or preparing"}
+{"neuron":10742,"pole":"high","cluster":10,"mode":"Period or comma closing a letter or email before a signature","scene_windows":0,"windows":5,"scene":"Business emails and formal letter closings"}
+{"neuron":10742,"pole":"high","cluster":11,"mode":"Sentence-initial 'Additionally' starting a new point in marketing text","scene_windows":0,"windows":5,"scene":"Business, marketing, and travel promotional descriptions"}
+{"neuron":10742,"pole":"high","cluster":12,"mode":"Colon after a numbered list item heading","scene_windows":0,"windows":5,"scene":"Numbered idea lists for crafts, recipes, and challenges"}
+{"neuron":10742,"pole":"high","cluster":13,"mode":"Assistant role label after a user request for examples","scene_windows":0,"windows":5,"scene":"User asks for examples or details; assistant replies"}
+{"neuron":10742,"pole":"high","cluster":14,"mode":"Colon after 'Assistant' label answering a factual question","scene_windows":0,"windows":5,"scene":"Trivia and factual Q&A dialogues"}
+{"neuron":10742,"pole":"high","cluster":15,"mode":"Period ending a food or recipe item description","scene_windows":0,"windows":5,"scene":"Numbered lists of recipes and soups"}
+{"neuron":10742,"pole":"high","cluster":16,"mode":"Period closing an expository or review sentence","scene_windows":0,"windows":5,"scene":"Encyclopedic explanations and film review text"}
+{"neuron":10742,"pole":"high","cluster":17,"mode":"Period ending a personal or explanatory sentence before elaboration","scene_windows":0,"windows":5,"scene":"Personal anecdotes and explanations of renewable energy and business tools"}
+{"neuron":10742,"pole":"high","cluster":18,"mode":"Conjunction or modal mid-sentence in advice or comparison","scene_windows":0,"windows":5,"scene":"Advice and comparison writing on software, debate, and recipes"}
+{"neuron":10742,"pole":"high","cluster":19,"mode":"Opening quotation mark starting a line of fiction dialogue","scene_windows":0,"windows":5,"scene":"Fantasy and romance fiction dialogue"}
+{"neuron":10742,"pole":"low","cluster":0,"mode":"Word 'First' in grant funding listings","scene_windows":0,"windows":5,"scene":"Research grant award listings"}
+{"neuron":10742,"pole":"low","cluster":1,"mode":"Function words 'an', 'the', 'of' mid-phrase in questions and answers","scene_windows":0,"windows":5,"scene":"Educational Q&A and explanatory assistant replies"}
+{"neuron":10742,"pole":"low","cluster":2,"mode":"Word 'year' in grant funding listings","scene_windows":0,"windows":5,"scene":"Research grant award listings"}

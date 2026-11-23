@@ -1,0 +1,62 @@
+{"neuron":6177,"pole":"high","cluster":0,"mode":"positive emotional states and actions of children","scene_windows":0,"windows":5,"scene":"Children's happy moments"}
+{"neuron":6177,"pole":"high","cluster":1,"mode":"describing objects and places with size adjectives","scene_windows":0,"windows":5,"scene":"Describing size of things"}
+{"neuron":6177,"pole":"high","cluster":2,"mode":"introducing characters in children's stories","scene_windows":0,"windows":5,"scene":"Story introductions"}
+{"neuron":6177,"pole":"high","cluster":3,"mode":"positive interactions and affirmations between characters","scene_windows":0,"windows":5,"scene":"Positive interactions"}
+{"neuron":6177,"pole":"high","cluster":4,"mode":"characters expressing happiness or relief","scene_windows":0,"windows":5,"scene":"Happy conclusions"}
+{"neuron":12112,"pole":"high","cluster":0,"mode":"describing struggle, fear, and intense effort","scene_windows":1,"windows":5,"scene":"Intense struggle and fear"}
+{"neuron":12112,"pole":"high","cluster":1,"mode":"children enjoying activities, often starting stories","scene_windows":0,"windows":5,"scene":"Children playing happily"}
+{"neuron":12112,"pole":"low","cluster":0,"mode":"historical and philosophical discussions about societal issues","scene_windows":0,"windows":5,"scene":"Societal and historical context"}
+{"neuron":12112,"pole":"low","cluster":1,"mode":"children asking questions or expressing confusion","scene_windows":0,"windows":5,"scene":"Children's questions"}
+{"neuron":12112,"pole":"low","cluster":2,"mode":"characters expressing vulnerability or seeking protection","scene_windows":0,"windows":5,"scene":"Vulnerability and protection"}
+{"neuron":12112,"pole":"low","cluster":3,"mode":"characters experiencing fear or negative emotions","scene_windows":0,"windows":5,"scene":"Fear and negative emotions"}
+{"neuron":12060,"pole":"high","cluster":0,"mode":"describing sensory experiences and physical sensations","scene_windows":0,"windows":5,"scene":"Sensory experiences"}
+{"neuron":12060,"pole":"high","cluster":1,"mode":"describing animal behavior and characteristics","scene_windows":0,"windows":5,"scene":"Animal behavior and traits"}
+{"neuron":12060,"pole":"low","cluster":0,"mode":"introducing young female characters in simple narratives","scene_windows":0,"windows":5,"scene":"Simple story introductions"}
+{"neuron":12060,"pole":"low","cluster":1,"mode":"introducing a singular entity or concept","scene_windows":0,"windows":5,"scene":"Introducing a singular item"}
+{"neuron":12060,"pole":"low","cluster":2,"mode":"describing locations or settings","scene_windows":0,"windows":5,"scene":"Describing locations"}
+{"neuron":12060,"pole":"low","cluster":3,"mode":"introducing a singular entity or concept","scene_windows":0,"windows":5,"scene":"Introducing a singular item"}
+{"neuron":12060,"pole":"low","cluster":4,"mode":"introducing a singular entity or concept","scene_windows":0,"windows":5,"scene":"Introducing a singular item"}
+{"neuron":12060,"pole":"low","cluster":5,"mode":"introducing a singular entity or concept","scene_windows":0,"windows":5,"scene":"Introducing a singular item"}
+{"neuron":12060,"pole":"low","cluster":6,"mode":"describing abstract concepts or values","scene_windows":0,"windows":5,"scene":"Abstract concepts and values"}
+{"neuron":12060,"pole":"low","cluster":7,"mode":"describing physical actions or states","scene_windows":0,"windows":5,"scene":"Physical actions and states"}
+{"neuron":12060,"pole":"low","cluster":8,"mode":"describing possession or personal attributes","scene_windows":0,"windows":5,"scene":"Possession and personal attributes"}
+{"neuron":5801,"pole":"high","cluster":0,"mode":"referring to specific locations or objects","scene_windows":0,"windows":5,"scene":"Referring to specific items"}
+{"neuron":5801,"pole":"high","cluster":1,"mode":"expressing positive emotions and anticipation","scene_windows":0,"windows":5,"scene":"Positive emotions and anticipation"}
+{"neuron":5801,"pole":"high","cluster":2,"mode":"technical code snippets or programming syntax","scene_windows":0,"windows":5,"scene":"Technical code snippets"}
+{"neuron":5801,"pole":"high","cluster":3,"mode":"referring to specific years or numerical data","scene_windows":0,"windows":5,"scene":"Specific years and data"}
+{"neuron":5801,"pole":"high","cluster":4,"mode":"referring to specific years or numerical data","scene_windows":0,"windows":5,"scene":"Specific years and data"}
+{"neuron":5801,"pole":"low","cluster":0,"mode":"ending simple narratives with punctuation","scene_windows":0,"windows":5,"scene":"Simple narrative endings"}
+{"neuron":5801,"pole":"low","cluster":1,"mode":"referring to technical or structural elements","scene_windows":0,"windows":5,"scene":"Technical and structural elements"}
+{"neuron":5801,"pole":"low","cluster":2,"mode":"describing negative experiences or outcomes","scene_windows":0,"windows":5,"scene":"Negative experiences and outcomes"}
+{"neuron":5801,"pole":"low","cluster":3,"mode":"introducing contrasting ideas or situations","scene_windows":0,"windows":5,"scene":"Contrasting ideas"}
+{"neuron":1052,"pole":"high","cluster":0,"mode":"listing ingredients or accompaniments for food","scene_windows":0,"windows":5,"scene":"Food ingredients and accompaniments"}
+{"neuron":1052,"pole":"high","cluster":1,"mode":"referring to specific people or projects","scene_windows":0,"windows":5,"scene":"Specific people and projects"}
+{"neuron":1052,"pole":"high","cluster":2,"mode":"expressing certainty or making a statement","scene_windows":0,"windows":5,"scene":"Expressing certainty"}
+{"neuron":1052,"pole":"high","cluster":3,"mode":"referring to biological or medical concepts","scene_windows":0,"windows":5,"scene":"Biological and medical concepts"}
+{"neuron":1052,"pole":"low","cluster":0,"mode":"referring to specific nutrients or substances","scene_windows":0,"windows":5,"scene":"Specific nutrients and substances"}
+{"neuron":1052,"pole":"low","cluster":1,"mode":"referring to educational or financial concepts","scene_windows":0,"windows":5,"scene":"Educational and financial concepts"}
+{"neuron":1052,"pole":"low","cluster":2,"mode":"referring to locations or settings","scene_windows":0,"windows":5,"scene":"Locations and settings"}
+{"neuron":1052,"pole":"low","cluster":3,"mode":"describing physical sensations or states","scene_windows":0,"windows":5,"scene":"Physical sensations and states"}
+{"neuron":1052,"pole":"low","cluster":4,"mode":"describing possession or personal attributes","scene_windows":0,"windows":5,"scene":"Possession and personal attributes"}
+{"neuron":1052,"pole":"low","cluster":5,"mode":"words indicating possession or belonging, often in a narrative context.","scene_windows":0,"windows":5,"scene":"Children's stories and personal narratives"}
+{"neuron":4721,"pole":"high","cluster":0,"mode":"words related to education, programs, and opportunities.","scene_windows":0,"windows":5,"scene":"Educational programs and opportunities"}
+{"neuron":4721,"pole":"high","cluster":1,"mode":"abbreviations and acronyms, often related to specific fields or organizations.","scene_windows":0,"windows":5,"scene":"Technical and organizational contexts"}
+{"neuron":4721,"pole":"high","cluster":2,"mode":"words expressing positive emotions and personal qualities.","scene_windows":0,"windows":5,"scene":"Positive emotions and self-worth"}
+{"neuron":4721,"pole":"high","cluster":3,"mode":"names of people and pronouns, often in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative introductions and character focus"}
+{"neuron":4721,"pole":"low","cluster":0,"mode":"punctuation and short interjections, often at the end of sentences.","scene_windows":0,"windows":5,"scene":"Conversational endings and pauses"}
+{"neuron":4721,"pole":"low","cluster":1,"mode":"words indicating negation or uncertainty, often in dialogue.","scene_windows":0,"windows":5,"scene":"Dialogue expressing doubt or refusal"}
+{"neuron":10080,"pole":"high","cluster":0,"mode":"referring to specific historical or geographical locations","scene_windows":0,"windows":5,"scene":"Historical and geographical locations"}
+{"neuron":10080,"pole":"high","cluster":1,"mode":"referring to biological or medical terms","scene_windows":0,"windows":5,"scene":"Biological and medical terms"}
+{"neuron":10080,"pole":"high","cluster":2,"mode":"describing negative social or personal attributes","scene_windows":0,"windows":5,"scene":"Negative social attributes"}
+{"neuron":10080,"pole":"high","cluster":3,"mode":"referring to people or entities being addressed","scene_windows":0,"windows":5,"scene":"Addressing people or entities"}
+{"neuron":10080,"pole":"high","cluster":4,"mode":"referring to maternal figures","scene_windows":0,"windows":5,"scene":"Maternal figures"}
+{"neuron":10080,"pole":"low","cluster":0,"mode":"referring to numerical values or quantities","scene_windows":0,"windows":5,"scene":"Numerical values and quantities"}
+{"neuron":10080,"pole":"low","cluster":1,"mode":"referring to people or entities being addressed","scene_windows":0,"windows":5,"scene":"Addressing people or entities"}
+{"neuron":11858,"pole":"high","cluster":0,"mode":"describing dramatic or intense situations","scene_windows":1,"windows":5,"scene":"Dramatic and intense situations"}
+{"neuron":11858,"pole":"high","cluster":1,"mode":"children wanting to do something","scene_windows":0,"windows":5,"scene":"Children's desires"}
+{"neuron":11858,"pole":"high","cluster":2,"mode":"characters expressing pride or accomplishment","scene_windows":0,"windows":5,"scene":"Pride and accomplishment"}
+{"neuron":11858,"pole":"high","cluster":3,"mode":"referring to medical conditions or therapies","scene_windows":0,"windows":5,"scene":"Medical conditions and therapies"}
+{"neuron":11858,"pole":"high","cluster":4,"mode":"describing possession or personal attributes","scene_windows":0,"windows":5,"scene":"Possession and personal attributes"}
+{"neuron":11858,"pole":"high","cluster":5,"mode":"referring to actions or processes impacting entities","scene_windows":0,"windows":5,"scene":"Actions impacting entities"}
+{"neuron":11858,"pole":"low","cluster":0,"mode":"expressing uncertainty or hesitation","scene_windows":0,"windows":5,"scene":"Uncertainty and hesitation"}
+{"neuron":11858,"pole":"low","cluster":1,"mode":"asking questions or expressing confusion","scene_windows":0,"windows":5,"scene":"Questions and confusion"}

@@ -1,0 +1,71 @@
+{"neuron":3799,"pole":"high","cluster":0,"mode":"Numeric count token completing a cricket or sports statistic","scene_windows":0,"windows":5,"scene":"Cricket and sports performance reporting about Virat Kohli"}
+{"neuron":3799,"pole":"high","cluster":1,"mode":"Assorted mid-sentence nouns and prepositions in ordinary prose","scene_windows":0,"windows":5,"scene":"Mixed narrative and informational text, no harmful content"}
+{"neuron":3799,"pole":"high","cluster":2,"mode":"Digit tokens inside hockey, basketball and baseball statistics","scene_windows":0,"windows":5,"scene":"Sports game and player statistics reporting"}
+{"neuron":3799,"pole":"low","cluster":0,"mode":"Article 'a' after 'Here are' introducing a list of tips","scene_windows":0,"windows":5,"scene":"Assistant offering lists of practical tips"}
+{"neuron":3799,"pole":"low","cluster":1,"mode":"Decade digit '0' in years like 1950s or 1960s","scene_windows":0,"windows":5,"scene":"Historical narration about decades and dates"}
+{"neuron":3799,"pole":"low","cluster":2,"mode":"Speaker tag 'assistant' or colon starting a reply","scene_windows":0,"windows":5,"scene":"User-assistant chat turns giving helpful answers"}
+{"neuron":3799,"pole":"low","cluster":3,"mode":"Closing quotation mark ending dialogue in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes with quoted speech"}
+{"neuron":3799,"pole":"low","cluster":4,"mode":"'Yes' or 'That' opening an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant confirming or affirming user statements"}
+{"neuron":3799,"pole":"low","cluster":5,"mode":"Question mark and trailing space before assistant reply","scene_windows":0,"windows":5,"scene":"User questions to assistant about tech, cooking, irrigation"}
+{"neuron":3799,"pole":"low","cluster":6,"mode":"Commas, nouns and words inside health and industry prose","scene_windows":0,"windows":5,"scene":"Informational articles on vaccines, energy, workouts"}
+{"neuron":3799,"pole":"low","cluster":7,"mode":"The word 'study' after 'A' citing research findings","scene_windows":0,"windows":5,"scene":"Health and wellness articles citing studies"}
+{"neuron":2420,"pole":"high","cluster":0,"mode":"Colon after 'Human' starting a new turn","scene_windows":0,"windows":5,"scene":"Human-assistant dialogue about medical and informational topics"}
+{"neuron":2420,"pole":"high","cluster":1,"mode":"Blank paragraph-break token at end of fiction paragraph","scene_windows":0,"windows":5,"scene":"Narrative fiction paragraphs with dialogue"}
+{"neuron":2420,"pole":"high","cluster":2,"mode":"The word 'being' in technical passive phrasing","scene_windows":0,"windows":5,"scene":"Technical and manufacturing instructions"}
+{"neuron":2420,"pole":"high","cluster":3,"mode":"Contracted negation 'n' in 'do n't' inside fiction","scene_windows":0,"windows":5,"scene":"First-person fiction and informal narration"}
+{"neuron":2420,"pole":"high","cluster":4,"mode":"Space or blank token inside titles and series phrases","scene_windows":0,"windows":5,"scene":"Encyclopedic titles and historical reference text"}
+{"neuron":2420,"pole":"high","cluster":5,"mode":"Question or period plus spacing before assistant reply","scene_windows":0,"windows":5,"scene":"User requests for follow-up examples and ideas"}
+{"neuron":2420,"pole":"high","cluster":6,"mode":"Determiners and nouns mid-phrase in descriptive prose","scene_windows":0,"windows":5,"scene":"Descriptive prose on gardening, waffles, earthquakes"}
+{"neuron":2420,"pole":"high","cluster":7,"mode":"Pronoun referring back to an object in a relative clause","scene_windows":0,"windows":5,"scene":"Fiction and tutorial narration about objects"}
+{"neuron":2420,"pole":"low","cluster":0,"mode":"Blank or space token right after a document title","scene_windows":0,"windows":5,"scene":"Document headings for reports and guides"}
+{"neuron":2420,"pole":"low","cluster":1,"mode":"Double space token after a recipe or document title","scene_windows":0,"windows":5,"scene":"Recipe and content-plan headers in assistant replies"}
+{"neuron":2420,"pole":"low","cluster":2,"mode":"Colon or assistant tag before a conversational reply","scene_windows":0,"windows":5,"scene":"Human-assistant chat asking for ideas and lists"}
+{"neuron":6535,"pole":"high","cluster":0,"mode":"'following' in 'By following these' summary sentences","scene_windows":0,"windows":5,"scene":"How-to advice articles ending with summary steps"}
+{"neuron":6535,"pole":"high","cluster":1,"mode":"'Both' starting a sentence referring to two items","scene_windows":0,"windows":5,"scene":"Expository text comparing two people or processes"}
+{"neuron":6535,"pole":"high","cluster":2,"mode":"'Each' or 'each' introducing a distributive item reference","scene_windows":0,"windows":5,"scene":"Descriptions of packages, teas, sites, and activities"}
+{"neuron":6535,"pole":"high","cluster":3,"mode":"'All of' starting a summary about a set of items","scene_windows":0,"windows":5,"scene":"Lists of activities, veggies, and criteria"}
+{"neuron":6535,"pole":"high","cluster":4,"mode":"Sentence-initial 'All' summarizing preceding items","scene_windows":0,"windows":5,"scene":"Expository conclusions about mindfulness, models, DNS steps"}
+{"neuron":6535,"pole":"high","cluster":5,"mode":"Sentence-initial 'One' starting an enumerated example","scene_windows":0,"windows":5,"scene":"Chef dialogue and narrative about favorite things"}
+{"neuron":6535,"pole":"high","cluster":6,"mode":"Indefinite article 'a' before a noun phrase of scale or novelty","scene_windows":0,"windows":5,"scene":"Science and fiction prose about changes and approaches"}
+{"neuron":6535,"pole":"high","cluster":7,"mode":"'some' after 'Here are' introducing suggestions","scene_windows":0,"windows":5,"scene":"Assistant offering tips for apps, cybersecurity, shows"}
+{"neuron":6535,"pole":"low","cluster":0,"mode":"Sentence-initial 'This' referring back to a prior claim","scene_windows":0,"windows":5,"scene":"Expository text on trademarks, SEO, chemicals"}
+{"neuron":6535,"pole":"low","cluster":1,"mode":"Sentence-initial 'These' summarizing a preceding list","scene_windows":0,"windows":5,"scene":"Expository text on factors, themes, principles"}
+{"neuron":6535,"pole":"low","cluster":2,"mode":"Sentence-initial 'No' in dialogue replies","scene_windows":0,"windows":5,"scene":"Fiction dialogue with characters answering"}
+{"neuron":6535,"pole":"low","cluster":3,"mode":"Concrete object nouns completing physical descriptions","scene_windows":0,"windows":5,"scene":"Guides on watches, houses, streams, and drives"}
+{"neuron":6535,"pole":"low","cluster":4,"mode":"First-person or possessive pronoun in tense narration","scene_windows":0,"windows":5,"scene":"Fiction narration describing panic and emotion"}
+{"neuron":2187,"pole":"high","cluster":0,"mode":"'a' in 'This is a' opening a reply to a hard question","scene_windows":0,"windows":5,"scene":"Assistant replies to broad or sensitive factual questions"}
+{"neuron":2187,"pole":"high","cluster":1,"mode":"'That' opening an assistant reply evaluating a question","scene_windows":0,"windows":5,"scene":"Assistant responses to opinion and hypothetical questions"}
+{"neuron":2187,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' before answering a contentious question","scene_windows":0,"windows":5,"scene":"Human questions on society, politics, and values"}
+{"neuron":2187,"pole":"high","cluster":3,"mode":"'as' introducing a historical role or function","scene_windows":0,"windows":5,"scene":"Historical explanations of inventions and origins"}
+{"neuron":2187,"pole":"high","cluster":4,"mode":"Period closing an informational sentence","scene_windows":0,"windows":5,"scene":"Advice on skincare, glass, muffins, house building"}
+{"neuron":2187,"pole":"high","cluster":5,"mode":"Demonstrative plural noun 'these sorts/kinds/types of'","scene_windows":0,"windows":5,"scene":"Assistant caveats about categories of questions or foods"}
+{"neuron":2187,"pole":"low","cluster":0,"mode":"Article 'a' predicating quality after a copula","scene_windows":0,"windows":5,"scene":"Product and advice statements about tasks and mattresses"}
+{"neuron":2187,"pole":"low","cluster":1,"mode":"Conjunctions and punctuation in philosophical prose","scene_windows":0,"windows":5,"scene":"Essays on money, death, and religious sites"}
+{"neuron":2187,"pole":"low","cluster":2,"mode":"Colon after assistant tag before a list answer","scene_windows":0,"windows":5,"scene":"Chat answers about recipes, keyboards, beef, support"}
+{"neuron":6097,"pole":"high","cluster":0,"mode":"'important' or 'idea' in advice sentences about hygiene","scene_windows":0,"windows":5,"scene":"Practical advice on food safety, pests, household chemicals"}
+{"neuron":6097,"pole":"high","cluster":1,"mode":"'helpful' after 'can be' or 'also be' suggestions","scene_windows":0,"windows":5,"scene":"Suggestions for parties, apologies, stories, hair removal"}
+{"neuron":6097,"pole":"low","cluster":0,"mode":"Conjunction 'and' or 'to' linking clauses in argument","scene_windows":0,"windows":5,"scene":"Opinion essays on kissing, parenting, free speech"}
+{"neuron":6097,"pole":"low","cluster":1,"mode":"Modal verb 'need' expressing necessity","scene_windows":0,"windows":5,"scene":"Essays and dialogue on education, tents, audiences"}
+{"neuron":5709,"pole":"high","cluster":0,"mode":"Colon after 'Human' opening a new user turn","scene_windows":0,"windows":5,"scene":"Human-assistant chat about passports, potatoes, salads"}
+{"neuron":5709,"pole":"high","cluster":1,"mode":"'user' tag starting a new user turn","scene_windows":0,"windows":5,"scene":"User-assistant chat about writing, guitars, FEMA"}
+{"neuron":5709,"pole":"high","cluster":2,"mode":"'Sounds' starting a user acknowledgment reply","scene_windows":0,"windows":5,"scene":"Human responses reacting to recipes"}
+{"neuron":5709,"pole":"high","cluster":3,"mode":"Assistant or user tag starting a reply about resources","scene_windows":0,"windows":5,"scene":"Chat about cooking classes, footnotes, film awards"}
+{"neuron":5709,"pole":"high","cluster":4,"mode":"Comma after 'Okay' or 'All right' in user replies","scene_windows":0,"windows":5,"scene":"Human-assistant chat about practice, shaving, potatoes"}
+{"neuron":5709,"pole":"high","cluster":5,"mode":"Opening quotation mark starting dialogue after narration","scene_windows":0,"windows":5,"scene":"Fiction dialogue exchanges between characters"}
+{"neuron":5709,"pole":"high","cluster":6,"mode":"Speech verb 'replied' or 'replies' after a quote","scene_windows":0,"windows":5,"scene":"Fiction narration of characters responding"}
+{"neuron":5709,"pole":"high","cluster":7,"mode":"Blank token after closing quote in fiction dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with replies and narration"}
+{"neuron":5709,"pole":"high","cluster":8,"mode":"Subject name or pronoun starting a sentence after dialogue","scene_windows":0,"windows":5,"scene":"Fiction narrated scenes with multiple characters"}
+{"neuron":5709,"pole":"high","cluster":9,"mode":"Conjunction 'but' after a clause of waiting or contrast","scene_windows":0,"windows":5,"scene":"Short stories and bedtime-style narration"}
+{"neuron":5709,"pole":"high","cluster":10,"mode":"Period ending a question or action in fiction","scene_windows":0,"windows":5,"scene":"Fiction narration with dialogue and actions"}
+{"neuron":5709,"pole":"high","cluster":11,"mode":"Prepositions after planned or known events","scene_windows":0,"windows":5,"scene":"Second-person scripted advice and autism explanations"}
+{"neuron":5709,"pole":"high","cluster":12,"mode":"Pronoun 'I' starting a user turn","scene_windows":0,"windows":5,"scene":"Human turns in chat about crab, art, frosting, pets"}
+{"neuron":5709,"pole":"low","cluster":0,"mode":"Profanity 'fuck' or 'hell' in exasperated speech","scene_windows":0,"windows":5,"scene":"Angry dialogue and frustrated outbursts in fiction"}
+{"neuron":5709,"pole":"low","cluster":1,"mode":"Ellipsis token trailing off speech","scene_windows":0,"windows":5,"scene":"Fiction dialogue with hesitant or trailing speech"}
+{"neuron":5709,"pole":"low","cluster":2,"mode":"Opening quotation mark starting a reply in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with disbelief and confrontation"}
+{"neuron":5709,"pole":"low","cluster":3,"mode":"Definite article 'the' before a location or noun","scene_windows":0,"windows":5,"scene":"Narrative action scenes and mid-sentence descriptions"}
+{"neuron":5709,"pole":"low","cluster":4,"mode":"'staring' or 'stare' describing a character's gaze","scene_windows":0,"windows":5,"scene":"Fiction describing characters watching each other"}
+{"neuron":3007,"pole":"high","cluster":0,"mode":"Auxiliary verb 'was' or 'is' in descriptive narration","scene_windows":0,"windows":5,"scene":"Fantasy and descriptive fiction about surroundings"}
+{"neuron":3007,"pole":"high","cluster":1,"mode":"Colon after 'Assistant' starting an explanation","scene_windows":0,"windows":5,"scene":"Assistant explanations of medical, financial, and science terms"}
+{"neuron":3007,"pole":"high","cluster":2,"mode":"'Assistant' tag starting an explanatory answer","scene_windows":0,"windows":5,"scene":"Human questions with brief assistant answers"}
+{"neuron":3007,"pole":"low","cluster":0,"mode":"Modal or copula 'can' or 'is' in generalized claims","scene_windows":0,"windows":5,"scene":"Essays on parenting, etiquette, and military careers"}
+{"neuron":3007,"pole":"low","cluster":1,"mode":"Existential 'there is' before a claim","scene_windows":0,"windows":5,"scene":"Discussions of food preferences, breakfast, and vocal training"}

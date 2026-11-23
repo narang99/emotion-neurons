@@ -1,0 +1,55 @@
+{"neuron":6410,"pole":"high","cluster":0,"mode":"Advice-listicle wording about marketing, tools, and content strategy","scene_windows":0,"windows":5,"scene":"Neutral how-to marketing advice article"}
+{"neuron":6410,"pole":"high","cluster":1,"mode":"Academic verbs and nouns in research and study descriptions","scene_windows":0,"windows":5,"scene":"Scientific and nutrition research prose"}
+{"neuron":6410,"pole":"high","cluster":2,"mode":"Scattered single tokens inside literary or odd fragments","scene_windows":0,"windows":5,"scene":"Mixed poetic, historical, and reflective prose"}
+{"neuron":6410,"pole":"high","cluster":3,"mode":"Dialogue punctuation and quote marks opening or closing speech","scene_windows":0,"windows":5,"scene":"Casual fiction dialogue exchanges"}
+{"neuron":6410,"pole":"high","cluster":4,"mode":"Pronoun subjects starting sentences in simple children's stories","scene_windows":0,"windows":5,"scene":"Simple children's story narration"}
+{"neuron":6410,"pole":"high","cluster":5,"mode":"Question words and pronouns in children's dialogue","scene_windows":0,"windows":5,"scene":"Children's conversational dialogue"}
+{"neuron":6410,"pole":"low","cluster":0,"mode":"Copular and descriptive words in fiction narration","scene_windows":0,"windows":5,"scene":"Calm narrative fiction and personal scenes"}
+{"neuron":6410,"pole":"low","cluster":1,"mode":"Nutrition-study terminology such as nutrient, quality, and acid","scene_windows":0,"windows":5,"scene":"Dietary research descriptions and references"}
+{"neuron":2776,"pole":"high","cluster":0,"mode":"Narrative action words like her, embrace, closer, circle","scene_windows":0,"windows":5,"scene":"Tense but calm fiction narration"}
+{"neuron":2776,"pole":"high","cluster":1,"mode":"Recipe ingredient and serving words such as with, fresh, 1","scene_windows":0,"windows":5,"scene":"Recipes and ingredient lists"}
+{"neuron":2776,"pole":"low","cluster":0,"mode":"Numbers and digits in news, history, and forecasts","scene_windows":0,"windows":5,"scene":"Financial news, military history, surf forecasts"}
+{"neuron":2776,"pole":"low","cluster":1,"mode":"Verbs of reaction and action in fiction, like glared, managed","scene_windows":1,"windows":5,"scene":"Action and dialogue scenes, one plea"}
+{"neuron":2776,"pole":"low","cluster":2,"mode":"Code tokens and punctuation inside programming snippets","scene_windows":0,"windows":5,"scene":"Programming, database, and technical instructions"}
+{"neuron":2776,"pole":"low","cluster":3,"mode":"Cooking step punctuation and conjunctions in recipes","scene_windows":0,"windows":5,"scene":"Recipe preparation instructions"}
+{"neuron":186,"pole":"high","cluster":0,"mode":"Closing quotation marks ending spoken dialogue lines","scene_windows":0,"windows":5,"scene":"Casual dialogue exchanges in fiction"}
+{"neuron":186,"pole":"high","cluster":1,"mode":"Playful or descriptive adjectives inside dialogue and narration","scene_windows":0,"windows":5,"scene":"Light conversational fiction"}
+{"neuron":186,"pole":"low","cluster":0,"mode":"Business and technology nouns like therapy, engagement, automation","scene_windows":0,"windows":5,"scene":"Expository business and policy writing"}
+{"neuron":186,"pole":"low","cluster":1,"mode":"Narrative transitions after clauses, like then, and, comma","scene_windows":0,"windows":5,"scene":"Simple children's adventure stories"}
+{"neuron":186,"pole":"low","cluster":2,"mode":"Action verbs and conjunctions in moral fables","scene_windows":0,"windows":5,"scene":"Children's fables about sharing and flying"}
+{"neuron":186,"pole":"low","cluster":3,"mode":"Word-fragment tokens split mid-word, like grotes, bewild, delic","scene_windows":0,"windows":5,"scene":"Descriptive fiction and historical narration"}
+{"neuron":186,"pole":"low","cluster":4,"mode":"Tense pronouns and hesitant words in emotional confrontation","scene_windows":2,"windows":5,"scene":"Tense fiction with urgency and inner conflict"}
+{"neuron":186,"pole":"low","cluster":5,"mode":"Preposition 'to' after motion verbs toward destinations","scene_windows":0,"windows":5,"scene":"Children's outings and simple travel narration"}
+{"neuron":6014,"pole":"high","cluster":0,"mode":"Emotional narration words like happening, him, eyes, you","scene_windows":1,"windows":5,"scene":"Emotional family and personal distress narration"}
+{"neuron":6014,"pole":"high","cluster":1,"mode":"Negative contractions and never in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about baths, picnics, worries"}
+{"neuron":6014,"pole":"low","cluster":0,"mode":"Question marks and exclamations inside intense spoken lines","scene_windows":3,"windows":5,"scene":"Confrontation and pleading dialogue in danger"}
+{"neuron":6014,"pole":"low","cluster":1,"mode":"Indefinite article 'a' in expository life descriptions","scene_windows":0,"windows":5,"scene":"Personal essays and reflective descriptions"}
+{"neuron":6014,"pole":"low","cluster":2,"mode":"Nouns and infinitive 'to' after help, power, solace","scene_windows":2,"windows":5,"scene":"Struggles for help, power, or comfort"}
+{"neuron":6014,"pole":"low","cluster":3,"mode":"Citation punctuation and digits in references and legal text","scene_windows":0,"windows":5,"scene":"Bibliographies, legal articles, historical lists"}
+{"neuron":4971,"pole":"high","cluster":0,"mode":"Sentence-initial pronouns and conjunctions in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's adventure narration"}
+{"neuron":4971,"pole":"high","cluster":1,"mode":"Conjunctions and prepositions within recipe instructions","scene_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":4971,"pole":"low","cluster":0,"mode":"Mid-sentence tokens in character descriptions and fiction","scene_windows":0,"windows":5,"scene":"Fiction describing characters and sensations"}
+{"neuron":4971,"pole":"low","cluster":1,"mode":"Sentence-final periods in advice and expository text","scene_windows":0,"windows":5,"scene":"Expository advice and how-to writing"}
+{"neuron":6728,"pole":"high","cluster":0,"mode":"Sentence-initial 'The' starting children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories"}
+{"neuron":6728,"pole":"high","cluster":1,"mode":"Commas and subject words in dramatic narrative clauses","scene_windows":0,"windows":5,"scene":"Narrative fiction with scene-setting"}
+{"neuron":6728,"pole":"high","cluster":2,"mode":"Dialogue words like minutes, supportive, try, up","scene_windows":0,"windows":5,"scene":"Everyday dialogue and apologies"}
+{"neuron":6728,"pole":"high","cluster":3,"mode":"Sentence-final periods in short children's narrative sentences","scene_windows":0,"windows":5,"scene":"Children's stories about discovery and play"}
+{"neuron":6728,"pole":"high","cluster":4,"mode":"Quotation marks and commas after short spoken lines","scene_windows":0,"windows":5,"scene":"Dialogue in tense or casual fiction"}
+{"neuron":6728,"pole":"high","cluster":5,"mode":"Periods and exclamations closing encouraging children's speech","scene_windows":0,"windows":5,"scene":"Family and children's encouraging dialogue"}
+{"neuron":6728,"pole":"high","cluster":6,"mode":"Opening quotation marks starting reflective replies","scene_windows":0,"windows":5,"scene":"Reflective conversational fiction"}
+{"neuron":6728,"pole":"low","cluster":0,"mode":"Conjunctions 'then', 'as', 'and' linking narrative actions","scene_windows":1,"windows":5,"scene":"Tense fear and narrative sequences"}
+{"neuron":6728,"pole":"low","cluster":1,"mode":"Periods before quotes in children's dialogue narration","scene_windows":0,"windows":5,"scene":"Children's stories with spoken dialogue"}
+{"neuron":6728,"pole":"low","cluster":2,"mode":"Closing quotation marks after short exclamations","scene_windows":0,"windows":5,"scene":"Heated but neutral dialogue exchanges"}
+{"neuron":6728,"pole":"low","cluster":3,"mode":"Blank whitespace tokens before quoted speech","scene_windows":0,"windows":5,"scene":"Fiction dialogue formatting"}
+{"neuron":2173,"pole":"high","cluster":0,"mode":"Comma after 'Once upon a time' opening fairy tales","scene_windows":0,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":2173,"pole":"high","cluster":1,"mode":"'there' after 'Once upon a time' in story openings","scene_windows":0,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":2173,"pole":"high","cluster":2,"mode":"'One' starting the second sentence of children's stories","scene_windows":0,"windows":5,"scene":"Children's fairy tale narration"}
+{"neuron":2173,"pole":"high","cluster":3,"mode":"Clause-ending commas and conjunctions in varied narration","scene_windows":0,"windows":5,"scene":"Mixed fiction and reflective prose"}
+{"neuron":2173,"pole":"high","cluster":4,"mode":"'was' after 'there' in story openings","scene_windows":0,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":2173,"pole":"low","cluster":0,"mode":"Periods closing speech tags in tense narration","scene_windows":0,"windows":5,"scene":"Tense dialogue and character narration"}
+{"neuron":2173,"pole":"low","cluster":1,"mode":"Subject pronouns starting sentences after dialogue","scene_windows":0,"windows":5,"scene":"Tense fiction with confrontation"}
+{"neuron":2173,"pole":"low","cluster":2,"mode":"Infinitive 'to' after help, allow, or enough","scene_windows":0,"windows":5,"scene":"Expository and reflective text about ability"}
+{"neuron":1982,"pole":"high","cluster":0,"mode":"Scattered content words ending first-person reflective sentences","scene_windows":0,"windows":5,"scene":"Introspective first-person narration"}
+{"neuron":1982,"pole":"high","cluster":1,"mode":"Code and markup tokens in programming snippets","scene_windows":0,"windows":5,"scene":"Code examples and web markup"}
+{"neuron":1982,"pole":"low","cluster":0,"mode":"Comma after 'Once upon a time' opening","scene_windows":0,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":1982,"pole":"low","cluster":1,"mode":"Sentence-final periods in children's story endings","scene_windows":0,"windows":5,"scene":"Children's stories with happy resolutions"}

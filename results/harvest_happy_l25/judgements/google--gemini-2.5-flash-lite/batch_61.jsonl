@@ -1,0 +1,62 @@
+{"neuron":1320,"pole":"high","cluster":0,"mode":"Instructions for preparing food, specifically potatoes and nuts.","happy_windows":0,"windows":5,"scene":"Cooking and food preparation"}
+{"neuron":1320,"pole":"high","cluster":1,"mode":"Computer addressing modes and instructions, including registers and memory.","happy_windows":0,"windows":5,"scene":"Technical computer documentation"}
+{"neuron":1320,"pole":"high","cluster":2,"mode":"Biblical text references, specifically Leviticus and Deuteronomy.","happy_windows":0,"windows":5,"scene":"Religious or academic text analysis"}
+{"neuron":1320,"pole":"high","cluster":3,"mode":"Programming code snippets, including variable assignments and console output.","happy_windows":0,"windows":5,"scene":"Software development and coding"}
+{"neuron":1320,"pole":"high","cluster":4,"mode":"Children's story narrative, focusing on characters' actions and curiosity.","happy_windows":5,"windows":5,"scene":"Children's story, curious exploration"}
+{"neuron":1320,"pole":"high","cluster":5,"mode":"Narrative descriptions of actions and reactions, often in a story context.","happy_windows":4,"windows":5,"scene":"Storytelling, action and emotion"}
+{"neuron":1320,"pole":"low","cluster":0,"mode":"Children's story narrative, focusing on characters' feelings and reactions.","happy_windows":5,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":1320,"pole":"low","cluster":1,"mode":"Children's story narrative, focusing on characters' actions and emotions.","happy_windows":4,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":1320,"pole":"low","cluster":2,"mode":"Narrative descriptions of actions and events, often with a neutral or slightly negative tone.","happy_windows":0,"windows":5,"scene":"Storytelling, neutral events"}
+{"neuron":1320,"pole":"low","cluster":3,"mode":"Children's story narrative, focusing on characters' actions and positive outcomes.","happy_windows":5,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":1320,"pole":"low","cluster":4,"mode":"Technical computer programming, specifically addressing modes and memory access.","happy_windows":0,"windows":5,"scene":"Technical computer programming"}
+{"neuron":1320,"pole":"low","cluster":5,"mode":"Discussions about political plans, community actions, and personal choices.","happy_windows":0,"windows":5,"scene":"Political and social commentary"}
+{"neuron":11158,"pole":"high","cluster":0,"mode":"Children's story narrative, focusing on characters' actions and plans.","happy_windows":3,"windows":5,"scene":"Children's story, anticipation"}
+{"neuron":11158,"pole":"high","cluster":1,"mode":"Opening phrases of children's stories, establishing characters and setting.","happy_windows":5,"windows":5,"scene":"Children's story, beginning"}
+{"neuron":11158,"pole":"low","cluster":0,"mode":"Children's story narrative, focusing on characters' positive emotions and actions.","happy_windows":4,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":11158,"pole":"low","cluster":1,"mode":"Cooking instructions and descriptions of food preparation.","happy_windows":0,"windows":5,"scene":"Cooking and food preparation"}
+{"neuron":7772,"pole":"high","cluster":0,"mode":"Children's story narrative, focusing on characters' realizations and learning.","happy_windows":3,"windows":5,"scene":"Children's story, learning moments"}
+{"neuron":7772,"pole":"high","cluster":1,"mode":"Military and organizational names, including commands and companies.","happy_windows":0,"windows":5,"scene":"Military and organizational context"}
+{"neuron":7772,"pole":"high","cluster":2,"mode":"Children's story narrative, focusing on characters playing and interacting with objects.","happy_windows":4,"windows":5,"scene":"Children's story, playing together"}
+{"neuron":7772,"pole":"high","cluster":3,"mode":"Children's story narrative, focusing on characters playing together in various settings.","happy_windows":5,"windows":5,"scene":"Children's story, playing together"}
+{"neuron":7772,"pole":"low","cluster":0,"mode":"Text related to political or social structures, often with negative prefixes.","happy_windows":0,"windows":5,"scene":"Political and social structures"}
+{"neuron":7772,"pole":"low","cluster":1,"mode":"Children's story narrative, focusing on characters' positive emotions and simple statements.","happy_windows":4,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":7772,"pole":"low","cluster":2,"mode":"Children's story narrative, focusing on characters' fear and actions.","happy_windows":0,"windows":5,"scene":"Children's story, fear and action"}
+{"neuron":7772,"pole":"low","cluster":3,"mode":"Children's story narrative, focusing on characters' actions and discoveries.","happy_windows":4,"windows":5,"scene":"Children's story, discovery and exploration"}
+{"neuron":4815,"pole":"high","cluster":0,"mode":"References to publications, authors, and media outlets.","happy_windows":0,"windows":5,"scene":"Publication and media references"}
+{"neuron":4815,"pole":"high","cluster":1,"mode":"Children's story narrative, focusing on characters' names and positive interactions.","happy_windows":5,"windows":5,"scene":"Children's story, friendship and play"}
+{"neuron":4815,"pole":"high","cluster":2,"mode":"Children's story narrative, focusing on characters' positive emotions and relationships.","happy_windows":5,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":4815,"pole":"high","cluster":3,"mode":"Discussions about opportunities, success, and overcoming challenges.","happy_windows":0,"windows":5,"scene":"Success and opportunity discussions"}
+{"neuron":4815,"pole":"low","cluster":0,"mode":"Text related to social services, data collection, and regional information.","happy_windows":0,"windows":5,"scene":"Social services and data"}
+{"neuron":4815,"pole":"low","cluster":1,"mode":"Children's story narrative, focusing on characters' positive emotions and simple statements.","happy_windows":4,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":4815,"pole":"low","cluster":2,"mode":"Children's story narrative, focusing on characters' actions and emotions.","happy_windows":0,"windows":5,"scene":"Children's story, neutral actions"}
+{"neuron":7252,"pole":"high","cluster":0,"mode":"Numerical data and references, often in scientific or academic contexts.","happy_windows":0,"windows":5,"scene":"Scientific and academic data"}
+{"neuron":7252,"pole":"high","cluster":1,"mode":"Historical military accounts, focusing on battles and army movements.","happy_windows":0,"windows":5,"scene":"Military history and battles"}
+{"neuron":7252,"pole":"high","cluster":2,"mode":"Scientific descriptions of geological and biological processes.","happy_windows":0,"windows":5,"scene":"Scientific and geological descriptions"}
+{"neuron":7252,"pole":"high","cluster":3,"mode":"Children's story narrative, focusing on characters seeing and experiencing things.","happy_windows":5,"windows":5,"scene":"Children's story, observation and experience"}
+{"neuron":7252,"pole":"high","cluster":4,"mode":"Marketing and social media strategy, focusing on tracking and analysis.","happy_windows":0,"windows":5,"scene":"Marketing and social media strategy"}
+{"neuron":7252,"pole":"low","cluster":0,"mode":"Children's story narrative, focusing on characters' positive emotions and relationships.","happy_windows":4,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":7252,"pole":"low","cluster":1,"mode":"Children's story narrative, focusing on characters' desires and actions.","happy_windows":0,"windows":5,"scene":"Children's story, desire and action"}
+{"neuron":7668,"pole":"high","cluster":0,"mode":"Children's story narrative, focusing on characters returning and actions.","happy_windows":3,"windows":5,"scene":"Children's story, return and action"}
+{"neuron":7668,"pole":"high","cluster":1,"mode":"Children's story narrative, focusing on characters' actions and curiosity.","happy_windows":4,"windows":5,"scene":"Children's story, exploration and curiosity"}
+{"neuron":7668,"pole":"high","cluster":2,"mode":"Children's story narrative, focusing on characters taking actions and objects.","happy_windows":4,"windows":5,"scene":"Children's story, action and objects"}
+{"neuron":7668,"pole":"low","cluster":0,"mode":"Children's story narrative, focusing on characters' actions and emotions.","happy_windows":3,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":7668,"pole":"low","cluster":1,"mode":"Children's story narrative, focusing on characters' desires and actions.","happy_windows":0,"windows":5,"scene":"Children's story, desire and action"}
+{"neuron":10847,"pole":"high","cluster":0,"mode":"Children's story narrative, focusing on characters' positive emotions and interactions.","happy_windows":5,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":10847,"pole":"high","cluster":1,"mode":"Bibliographic references, including author names and publication details.","happy_windows":0,"windows":5,"scene":"Bibliographic references"}
+{"neuron":10847,"pole":"high","cluster":2,"mode":"Descriptions of technology and its benefits, focusing on efficiency and essential features.","happy_windows":0,"windows":5,"scene":"Technology and its benefits"}
+{"neuron":10847,"pole":"high","cluster":3,"mode":"Children's story narrative, focusing on characters' actions and environments.","happy_windows":2,"windows":5,"scene":"Children's story, exploration and environment"}
+{"neuron":10847,"pole":"high","cluster":4,"mode":"Discussions about renewable energy projects and their economic potential.","happy_windows":0,"windows":5,"scene":"Renewable energy projects"}
+{"neuron":10847,"pole":"low","cluster":0,"mode":"References to historical figures, books, and companies.","happy_windows":0,"windows":5,"scene":"Historical and literary references"}
+{"neuron":10847,"pole":"low","cluster":1,"mode":"Scientific and medical research, focusing on specific compounds and tests.","happy_windows":0,"windows":5,"scene":"Scientific and medical research"}
+{"neuron":10847,"pole":"low","cluster":2,"mode":"Narrative descriptions of overcoming challenges and building relationships.","happy_windows":0,"windows":5,"scene":"Overcoming challenges and relationships"}
+{"neuron":10847,"pole":"low","cluster":3,"mode":"Children's story narrative, focusing on characters' actions and discoveries.","happy_windows":4,"windows":5,"scene":"Children's story, discovery and exploration"}
+{"neuron":5469,"pole":"high","cluster":0,"mode":"Children's story narrative, focusing on characters' joyful interactions and play.","happy_windows":5,"windows":5,"scene":"Children's story, joyful play"}
+{"neuron":5469,"pole":"high","cluster":1,"mode":"Scientific descriptions of RNA structures and cellular components.","happy_windows":0,"windows":5,"scene":"Scientific and biological descriptions"}
+{"neuron":5469,"pole":"high","cluster":2,"mode":"Discussions about education, learning methods, and personal development.","happy_windows":0,"windows":5,"scene":"Education and personal development"}
+{"neuron":5469,"pole":"high","cluster":3,"mode":"Children's story narrative, focusing on characters' communication and emotions.","happy_windows":4,"windows":5,"scene":"Children's story, communication and emotion"}
+{"neuron":5469,"pole":"high","cluster":4,"mode":"Children's story narrative, focusing on characters' excitement and actions.","happy_windows":5,"windows":5,"scene":"Children's story, excitement and action"}
+{"neuron":5469,"pole":"low","cluster":0,"mode":"Children's story narrative, focusing on characters' happiness and positive emotions.","happy_windows":4,"windows":5,"scene":"Children's story, happy moments"}
+{"neuron":5469,"pole":"low","cluster":1,"mode":"Narrative descriptions of overcoming hardship and building community.","happy_windows":0,"windows":5,"scene":"Overcoming hardship and community"}
+{"neuron":5469,"pole":"low","cluster":2,"mode":"Opening phrases of children's stories, introducing characters.","happy_windows":0,"windows":5,"scene":"Children's story, beginning"}
+{"neuron":5469,"pole":"low","cluster":3,"mode":"Discussions about personal growth, life lessons, and responsibility.","happy_windows":0,"windows":5,"scene":"Personal growth and responsibility"}
+{"neuron":5469,"pole":"low","cluster":4,"mode":"Dates and references, often in news or academic contexts.","happy_windows":0,"windows":5,"scene":"Dates and references"}

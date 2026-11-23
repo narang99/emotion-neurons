@@ -1,0 +1,68 @@
+{"neuron":10716,"pole":"high","cluster":0,"mode":"words indicating alarm, instability, inaccuracy, or negative outcomes","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10716,"pole":"high","cluster":1,"mode":"punctuation and conjunctions used in factual explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10716,"pole":"low","cluster":0,"mode":"conjunctions and adverbs indicating contrast or concession","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10716,"pole":"low","cluster":1,"mode":"punctuation and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10716,"pole":"low","cluster":2,"mode":"words related to time, consciousness, and food","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10716,"pole":"low","cluster":3,"mode":"conjunctions and adverbs indicating contrast or concession","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9257,"pole":"high","cluster":0,"mode":"verbs related to taking action, often with negative connotations","scene_windows":1,"windows":5,"scene":"drug use, regret, crime"}
+{"neuron":9257,"pole":"high","cluster":1,"mode":"initials and names, often associated with historical figures","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9257,"pole":"high","cluster":2,"mode":"names and interjections used in dialogue","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9257,"pole":"high","cluster":3,"mode":"names and interjections used in dialogue","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9257,"pole":"high","cluster":4,"mode":"prepositions and pronouns indicating direction or possession","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9257,"pole":"high","cluster":5,"mode":"conjunctions and adverbs indicating agreement or clarification","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9257,"pole":"high","cluster":6,"mode":"names and interjections used in dialogue","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9257,"pole":"high","cluster":7,"mode":"names and titles, often associated with historical or academic contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9257,"pole":"low","cluster":0,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9257,"pole":"low","cluster":1,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2189,"pole":"high","cluster":0,"mode":"words indicating specific entities or events","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2189,"pole":"high","cluster":1,"mode":"words indicating actions or states, often in a conversational context","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":2189,"pole":"high","cluster":2,"mode":"conjunctions and adverbs indicating connection or negation","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2189,"pole":"high","cluster":3,"mode":"words indicating actions, states, or entities","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2189,"pole":"low","cluster":0,"mode":"negation and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2189,"pole":"low","cluster":1,"mode":"negation and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"high","cluster":0,"mode":"words related to risk assessment and caution","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"high","cluster":1,"mode":"pronouns and possessives indicating personal involvement","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":2546,"pole":"high","cluster":2,"mode":"verbs and adverbs indicating reaction or movement","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":2546,"pole":"high","cluster":3,"mode":"adjectives and adverbs indicating caution or reservation","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"high","cluster":4,"mode":"conjunctions and prepositions indicating connection or purpose","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"high","cluster":5,"mode":"adverbs and adjectives indicating prudence or best practice","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"low","cluster":0,"mode":"verbs indicating change of direction or position","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":2546,"pole":"low","cluster":1,"mode":"verbs indicating action or hesitation","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":2546,"pole":"low","cluster":2,"mode":"modal verbs and adverbs indicating obligation or location","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"low","cluster":3,"mode":"verbs indicating perception or observation","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":2546,"pole":"low","cluster":4,"mode":"conjunctions and adverbs indicating negation or manner","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"low","cluster":5,"mode":"verbs and adverbs indicating past action or possession","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"low","cluster":6,"mode":"prepositions and conjunctions indicating relationship or composition","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2546,"pole":"low","cluster":7,"mode":"pronouns indicating self-reference","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":9296,"pole":"high","cluster":0,"mode":"words indicating requests for additional information or examples","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9296,"pole":"high","cluster":1,"mode":"prepositions and conjunctions indicating examples or purpose","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9296,"pole":"high","cluster":2,"mode":"interjections and names used in dialogue","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9296,"pole":"high","cluster":3,"mode":"pronouns and interjections indicating affirmation or assistance","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9296,"pole":"high","cluster":4,"mode":"conjunctions and prepositions indicating connection or purpose","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9296,"pole":"high","cluster":5,"mode":"conjunctions and prepositions indicating connection or purpose","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9296,"pole":"high","cluster":6,"mode":"adverbs and conjunctions indicating certainty or manner","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9296,"pole":"high","cluster":7,"mode":"conjunctions and adverbs indicating condition or consequence","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9296,"pole":"low","cluster":0,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9296,"pole":"low","cluster":1,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9296,"pole":"low","cluster":2,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"high","cluster":0,"mode":"affirmative responses and requests for details","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":1,"mode":"negative imperatives and expressions of encouragement","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":2,"mode":"affirmative interjections and requests for information","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":3,"mode":"affirmative responses and requests for examples","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":4,"mode":"affirmative responses and requests for examples","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":5,"mode":"affirmative responses and requests for ideas","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":6,"mode":"affirmative responses and requests for information","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":7,"mode":"conjunctions and adverbs indicating condition or consequence","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":8,"mode":"apologies and expressions of regret","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":9,"mode":"expressions of gratitude and welcome","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":10,"mode":"conjunctions and adverbs indicating explanation or concession","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"high","cluster":11,"mode":"quotation marks and interjections used in dialogue","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"low","cluster":0,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"low","cluster":1,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"low","cluster":2,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"low","cluster":3,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"low","cluster":4,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"low","cluster":5,"mode":"articles and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"low","cluster":6,"mode":"interrogative pronouns and verbs","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8161,"pole":"low","cluster":7,"mode":"pronouns indicating self-reference","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8161,"pole":"low","cluster":8,"mode":"negation and conjunctions used in explanations","scene_windows":0,"windows":5,"scene":"neutral, informative"}

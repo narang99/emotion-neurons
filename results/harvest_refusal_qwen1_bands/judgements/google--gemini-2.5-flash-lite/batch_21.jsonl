@@ -1,0 +1,66 @@
+{"neuron":3039,"pole":"high","cluster":0,"mode":"translating a news article from a browser that isn't working correctly","scene_windows":0,"windows":5,"scene":"neutral assistance request"}
+{"neuron":3039,"pole":"high","cluster":1,"mode":"starting to learn or do something new","scene_windows":0,"windows":5,"scene":"neutral instruction or narration"}
+{"neuron":3039,"pole":"high","cluster":2,"mode":"using a product or performing an action","scene_windows":0,"windows":5,"scene":"neutral instruction or narration"}
+{"neuron":3039,"pole":"high","cluster":3,"mode":"practicing skills to improve performance","scene_windows":0,"windows":5,"scene":"neutral advice or instruction"}
+{"neuron":3039,"pole":"low","cluster":0,"mode":"playing games or musical instruments","scene_windows":0,"windows":5,"scene":"neutral suggestion"}
+{"neuron":3039,"pole":"low","cluster":1,"mode":"refusing to help with illegal or dangerous behavior","scene_windows":5,"windows":5,"scene":"refusal of harmful request"}
+{"neuron":3039,"pole":"low","cluster":2,"mode":"assistant responding to a user's question","scene_windows":0,"windows":5,"scene":"neutral question and answer"}
+{"neuron":3039,"pole":"low","cluster":3,"mode":"pronouns referring to people or groups","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3039,"pole":"low","cluster":4,"mode":"assistant offering help or expressing inability","scene_windows":0,"windows":5,"scene":"neutral assistance or refusal"}
+{"neuron":10816,"pole":"high","cluster":0,"mode":"family history of breast cancer","scene_windows":0,"windows":5,"scene":"neutral medical information"}
+{"neuron":10816,"pole":"high","cluster":1,"mode":"testing positive for a virus","scene_windows":0,"windows":5,"scene":"neutral medical report"}
+{"neuron":10816,"pole":"high","cluster":2,"mode":"implementing automation or using resources","scene_windows":0,"windows":5,"scene":"neutral advice or instruction"}
+{"neuron":10816,"pole":"high","cluster":3,"mode":"conditional statements about rabies or illness","scene_windows":0,"windows":5,"scene":"neutral medical advice"}
+{"neuron":10816,"pole":"high","cluster":4,"mode":"seeking medical attention for symptoms","scene_windows":0,"windows":5,"scene":"neutral medical advice"}
+{"neuron":10816,"pole":"low","cluster":0,"mode":"expressing hope for helpful information","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":10816,"pole":"low","cluster":1,"mode":"conditional statements about seeking more information","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":10816,"pole":"low","cluster":2,"mode":"pronouns referring to time or events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10816,"pole":"low","cluster":3,"mode":"assistant responding to user questions","scene_windows":0,"windows":5,"scene":"neutral question and answer"}
+{"neuron":10816,"pole":"low","cluster":4,"mode":"assistant offering help or asking about user preferences","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":10816,"pole":"low","cluster":5,"mode":"pronouns referring to people or things","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10816,"pole":"low","cluster":6,"mode":"pronouns referring to time or events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":921,"pole":"high","cluster":0,"mode":"questions about technology and labor","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":921,"pole":"high","cluster":1,"mode":"requesting more information or details","scene_windows":0,"windows":5,"scene":"neutral assistance request"}
+{"neuron":921,"pole":"high","cluster":2,"mode":"requesting more information or organization","scene_windows":0,"windows":5,"scene":"neutral assistance request"}
+{"neuron":921,"pole":"low","cluster":0,"mode":"punctuation marks indicating pauses or endings","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":921,"pole":"low","cluster":1,"mode":"expressing hope for helpfulness","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":10180,"pole":"high","cluster":0,"mode":"pronouns referring to things or places","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10180,"pole":"high","cluster":1,"mode":"preventing negative outcomes","scene_windows":0,"windows":5,"scene":"neutral advice or instruction"}
+{"neuron":10180,"pole":"low","cluster":0,"mode":"adding ingredients or components","scene_windows":0,"windows":5,"scene":"neutral recipe or advice"}
+{"neuron":10180,"pole":"low","cluster":1,"mode":"consuming a variety of foods for health","scene_windows":0,"windows":5,"scene":"neutral health advice"}
+{"neuron":10180,"pole":"low","cluster":2,"mode":"consuming a variety of foods for health","scene_windows":0,"windows":5,"scene":"neutral health advice"}
+{"neuron":10180,"pole":"low","cluster":3,"mode":"pronouns referring to people or things","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10180,"pole":"low","cluster":4,"mode":"stirring ingredients during cooking","scene_windows":0,"windows":5,"scene":"neutral recipe instruction"}
+{"neuron":6158,"pole":"low","cluster":0,"mode":"negation of possibility or presence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6158,"pole":"low","cluster":1,"mode":"negation of possibility or presence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6158,"pole":"low","cluster":2,"mode":"pronouns referring to time or events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6158,"pole":"low","cluster":3,"mode":"pronouns referring to things or comparisons","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6158,"pole":"low","cluster":4,"mode":"pronouns referring to places or comparisons","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6158,"pole":"low","cluster":5,"mode":"pronouns referring to comparisons or time","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6158,"pole":"low","cluster":6,"mode":"pronouns referring to things or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6158,"pole":"low","cluster":7,"mode":"pronouns and conjunctions in neutral or descriptive text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7169,"pole":"high","cluster":0,"mode":"questions within dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":7169,"pole":"high","cluster":1,"mode":"percentages referring to population demographics","scene_windows":0,"windows":5,"scene":"neutral statistics"}
+{"neuron":7169,"pole":"high","cluster":2,"mode":"scene markers indicating setting and action","scene_windows":0,"windows":5,"scene":"neutral screenplay"}
+{"neuron":7169,"pole":"high","cluster":3,"mode":"scene markers indicating setting and action","scene_windows":0,"windows":5,"scene":"neutral screenplay"}
+{"neuron":7169,"pole":"high","cluster":4,"mode":"assistant providing story elements","scene_windows":0,"windows":5,"scene":"neutral creative writing"}
+{"neuron":7169,"pole":"high","cluster":5,"mode":"scene markers indicating setting and action","scene_windows":0,"windows":5,"scene":"neutral screenplay"}
+{"neuron":7169,"pole":"high","cluster":6,"mode":"financial figures in millions","scene_windows":0,"windows":5,"scene":"neutral business report"}
+{"neuron":7169,"pole":"high","cluster":7,"mode":"financial figures in millions and sales","scene_windows":0,"windows":5,"scene":"neutral business report"}
+{"neuron":7169,"pole":"high","cluster":8,"mode":"verbs indicating speech","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":7169,"pole":"high","cluster":9,"mode":"pronouns referring to things or places","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7169,"pole":"high","cluster":10,"mode":"measurements of height and width","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":7169,"pole":"high","cluster":11,"mode":"names and titles","scene_windows":0,"windows":5,"scene":"neutral screenplay"}
+{"neuron":7169,"pole":"high","cluster":12,"mode":"punctuation marks indicating pauses or actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7169,"pole":"high","cluster":13,"mode":"scientific measurements and processes","scene_windows":0,"windows":5,"scene":"neutral scientific text"}
+{"neuron":7169,"pole":"high","cluster":14,"mode":"names and dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":7169,"pole":"high","cluster":15,"mode":"pronouns referring to things or actions","scene_windows":0,"windows":5,"scene":"neutral advice or narration"}
+{"neuron":7169,"pole":"low","cluster":0,"mode":"offering assistance or support","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":7169,"pole":"low","cluster":1,"mode":"asking questions or seeking clarification","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":7169,"pole":"low","cluster":2,"mode":"asking if further assistance is needed","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":7169,"pole":"low","cluster":3,"mode":"asking for questions or assistance","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":7169,"pole":"low","cluster":4,"mode":"asking about user preferences or goals","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":7169,"pole":"low","cluster":5,"mode":"user asking questions or making statements","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":7169,"pole":"low","cluster":6,"mode":"pronouns referring to things or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7169,"pole":"low","cluster":7,"mode":"pronouns referring to things or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7169,"pole":"low","cluster":8,"mode":"pronouns referring to things or time","scene_windows":0,"windows":5,"scene":"neutral narration"}

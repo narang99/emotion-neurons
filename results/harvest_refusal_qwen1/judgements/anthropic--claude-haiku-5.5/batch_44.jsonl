@@ -1,0 +1,28 @@
+{"neuron":10670,"pole":"high","cluster":0,"mode":"Mid-phrase content tokens in expository informational text","scene_windows":0,"windows":5,"scene":"Academic and informational passages on health, zoning, education"}
+{"neuron":10670,"pole":"high","cluster":1,"mode":"Pronouns and articles starting clauses in fiction narration","scene_windows":0,"windows":5,"scene":"Fiction narrative and dialogue, mostly dark or tense stories"}
+{"neuron":10670,"pole":"low","cluster":0,"mode":"Sentence-final or list-boundary tokens in travel and recipe text","scene_windows":0,"windows":5,"scene":"Travel guides, recipes, and chatbot-style answers"}
+{"neuron":10670,"pole":"low","cluster":1,"mode":"Mid-sentence function words in narrative and argumentative prose","scene_windows":0,"windows":5,"scene":"Fiction and essays on law, economics, and crime"}
+{"neuron":10670,"pole":"low","cluster":2,"mode":"Proper-name fragments and terms inside factual encyclopedic sentences","scene_windows":0,"windows":5,"scene":"Encyclopedic history, legal news, and academic citations"}
+{"neuron":7988,"pole":"low","cluster":0,"mode":"Function words mid-sentence in practical how-to and informational text","scene_windows":0,"windows":5,"scene":"Practical advice on ponds, social media, and pollution"}
+{"neuron":7988,"pole":"low","cluster":1,"mode":"Colon after user questions, before assistant replies","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A on crafts, bikes, and pest control"}
+{"neuron":1001,"pole":"high","cluster":0,"mode":"Connective words linking clauses in expository prose","scene_windows":0,"windows":5,"scene":"Historical and cultural essays and descriptive narration"}
+{"neuron":1001,"pole":"high","cluster":1,"mode":"Discourse connectives like 'For example' and 'Additionally' opening sentences","scene_windows":0,"windows":5,"scene":"Informational answers on carrots, tents, water, and machining"}
+{"neuron":1001,"pole":"low","cluster":0,"mode":"Sentence-initial 'The' in geopolitical and policy commentary","scene_windows":0,"windows":5,"scene":"Essays on cyber attacks, space rockets, and climate policy"}
+{"neuron":1001,"pole":"low","cluster":1,"mode":"Sentence-initial 'This' following descriptions of a heist or study","scene_windows":0,"windows":5,"scene":"News-style narration of a heist and scientific findings"}
+{"neuron":10299,"pole":"low","cluster":0,"mode":"Prepositions 'to', 'of', 'for' after abstract predicate adjectives","scene_windows":0,"windows":5,"scene":"Essays on climate action, mental health, and wildlife safety"}
+{"neuron":10299,"pole":"low","cluster":1,"mode":"Colon at end of user prompt before assistant answer","scene_windows":0,"windows":5,"scene":"Assistant replies to recommendation and how-to questions"}
+{"neuron":135,"pole":"high","cluster":0,"mode":"Pronoun or conjunction starting narrative sentences in fiction","scene_windows":0,"windows":5,"scene":"Fantasy and literary fiction narration"}
+{"neuron":135,"pole":"high","cluster":1,"mode":"Closing quotation marks ending spoken dialogue lines","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction scenes"}
+{"neuron":135,"pole":"low","cluster":0,"mode":"Commas, periods, or 'you' in follow-up requests and essays","scene_windows":0,"windows":5,"scene":"User requests for more detail and descriptive essays"}
+{"neuron":135,"pole":"low","cluster":1,"mode":"Opening quotation marks starting spoken dialogue","scene_windows":0,"windows":5,"scene":"Dialogue in fantasy and humorous fiction"}
+{"neuron":995,"pole":"high","cluster":0,"mode":"Sentence-ending punctuation or 'is' in reflective essay prose","scene_windows":0,"windows":5,"scene":"Reflective essays and speculative narration"}
+{"neuron":995,"pole":"high","cluster":1,"mode":"Colon after 'Human' tag introducing a question","scene_windows":0,"windows":5,"scene":"Human-assistant dialogue on opera, tattoos, and haircare"}
+{"neuron":995,"pole":"low","cluster":0,"mode":"Closing quotation marks after short spoken lines","scene_windows":0,"windows":5,"scene":"Dialogue in surreal and dark fiction"}
+{"neuron":995,"pole":"low","cluster":1,"mode":"Whitespace token before closing assistant courtesy lines","scene_windows":0,"windows":5,"scene":"Assistant closing remarks offering further help"}
+{"neuron":995,"pole":"low","cluster":2,"mode":"Auxiliary 'is', 'there', 'has' opening factual answers","scene_windows":0,"windows":5,"scene":"Q&A on vaping, singing, cryptocurrency, and folk remedies"}
+{"neuron":995,"pole":"low","cluster":3,"mode":"Articles and conjunctions inside descriptive informational sentences","scene_windows":0,"windows":5,"scene":"Descriptive text on colors, philanthropy, and special education"}
+{"neuron":995,"pole":"low","cluster":4,"mode":"Colon or 'Assistant' tag at start of assistant turn","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A on soccer, dogs, and apartments"}
+{"neuron":7106,"pole":"high","cluster":0,"mode":"Prepositions and articles in requests and descriptive business text","scene_windows":0,"windows":5,"scene":"User requests for workouts, history, and business writing"}
+{"neuron":7106,"pole":"high","cluster":1,"mode":"Colon after 'Human' tag before a follow-up question","scene_windows":0,"windows":5,"scene":"Multi-turn chats on nutrition, games, and campfires"}
+{"neuron":3765,"pole":"low","cluster":0,"mode":"Nouns closing descriptive phrases about wrestling, music, and chemistry","scene_windows":0,"windows":5,"scene":"Factual and narrative text on sports, music, and industry"}
+{"neuron":3765,"pole":"low","cluster":1,"mode":"Determiners 'the' and 'a' in superlative or ranking statements","scene_windows":0,"windows":5,"scene":"Listicles and history on music, baseball, and rollercoasters"}

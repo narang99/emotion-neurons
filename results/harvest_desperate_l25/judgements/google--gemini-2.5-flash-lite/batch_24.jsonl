@@ -1,0 +1,64 @@
+{"neuron":2498,"pole":"high","cluster":0,"mode":"physical sensations, ideas, and states of being","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":2498,"pole":"high","cluster":1,"mode":"bibliographic citations and references","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":2498,"pole":"low","cluster":0,"mode":"personal address and direct questions","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":2498,"pole":"low","cluster":1,"mode":"positive outcomes for children","scene_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":306,"pole":"high","cluster":0,"mode":"direct address and personal pronouns","scene_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":306,"pole":"high","cluster":1,"mode":"dramatic events and beings","scene_windows":0,"windows":5,"scene":"Action/Suspense"}
+{"neuron":306,"pole":"high","cluster":2,"mode":"positive affirmations and explanations","scene_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":306,"pole":"low","cluster":0,"mode":"ingredients and food preparation","scene_windows":0,"windows":5,"scene":"Recipes"}
+{"neuron":306,"pole":"low","cluster":1,"mode":"negative outcomes and resignation","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":306,"pole":"low","cluster":2,"mode":"negative dialogue and threats","scene_windows":0,"windows":5,"scene":"Conflict/Threat"}
+{"neuron":6561,"pole":"high","cluster":0,"mode":"website creation and AI sustainability","scene_windows":0,"windows":5,"scene":"Informative/Technical"}
+{"neuron":6561,"pole":"high","cluster":1,"mode":"marketing and outreach strategies","scene_windows":0,"windows":5,"scene":"Business/Marketing"}
+{"neuron":6561,"pole":"high","cluster":2,"mode":"children's positive experiences and gratitude","scene_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":6561,"pole":"high","cluster":3,"mode":"visual observation and assessment","scene_windows":0,"windows":5,"scene":"Observation/Assessment"}
+{"neuron":6561,"pole":"high","cluster":4,"mode":"positive social interactions and joy","scene_windows":0,"windows":5,"scene":"Positive interactions"}
+{"neuron":6561,"pole":"high","cluster":5,"mode":"possessive pronouns and actions","scene_windows":0,"windows":5,"scene":"Action/Description"}
+{"neuron":6561,"pole":"high","cluster":6,"mode":"agreement and permission","scene_windows":0,"windows":5,"scene":"Agreement/Permission"}
+{"neuron":6561,"pole":"high","cluster":7,"mode":"declarative statements and future outlook","scene_windows":0,"windows":5,"scene":"Declarative statements"}
+{"neuron":6561,"pole":"high","cluster":8,"mode":"personal pronouns and future actions","scene_windows":0,"windows":5,"scene":"Personal interaction"}
+{"neuron":6561,"pole":"high","cluster":9,"mode":"dialogue and self-description","scene_windows":0,"windows":5,"scene":"Dialogue/Self-description"}
+{"neuron":6561,"pole":"high","cluster":10,"mode":"positive social interactions and smiles","scene_windows":0,"windows":5,"scene":"Positive interactions"}
+{"neuron":6561,"pole":"high","cluster":11,"mode":"affirmative responses and physical actions","scene_windows":0,"windows":5,"scene":"Affirmation/Action"}
+{"neuron":6561,"pole":"low","cluster":0,"mode":"negative outcomes and finality","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":6561,"pole":"low","cluster":1,"mode":"pronouns and uncertainty","scene_windows":0,"windows":5,"scene":"Uncertainty/Doubt"}
+{"neuron":6561,"pole":"low","cluster":2,"mode":"negative outcomes and false impressions","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":6561,"pole":"low","cluster":3,"mode":"negative dialogue and threats","scene_windows":0,"windows":5,"scene":"Conflict/Threat"}
+{"neuron":6561,"pole":"low","cluster":4,"mode":"negative outcomes and relief","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":6561,"pole":"low","cluster":5,"mode":"physical actions and sounds","scene_windows":0,"windows":5,"scene":"Physical action"}
+{"neuron":6561,"pole":"low","cluster":6,"mode":"negative outcomes and regret","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":6561,"pole":"low","cluster":7,"mode":"negative dialogue and pleas","scene_windows":0,"windows":5,"scene":"Conflict/Plea"}
+{"neuron":6561,"pole":"low","cluster":8,"mode":"questions and uncertainty","scene_windows":0,"windows":5,"scene":"Questioning/Uncertainty"}
+{"neuron":6561,"pole":"low","cluster":9,"mode":"negative outcomes and silence","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":6561,"pole":"low","cluster":10,"mode":"negative outcomes and sadness","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":2254,"pole":"high","cluster":0,"mode":"scientific research and environmental issues","scene_windows":0,"windows":5,"scene":"Scientific research"}
+{"neuron":2254,"pole":"high","cluster":1,"mode":"personal isolation and loss","scene_windows":0,"windows":5,"scene":"Isolation/Loss"}
+{"neuron":2254,"pole":"high","cluster":2,"mode":"conjunctions and causal relationships","scene_windows":0,"windows":5,"scene":"Causal relationships"}
+{"neuron":2254,"pole":"high","cluster":3,"mode":"desire and motivation","scene_windows":0,"windows":5,"scene":"Desire/Motivation"}
+{"neuron":2254,"pole":"low","cluster":0,"mode":"negative outcomes and finality","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":2254,"pole":"low","cluster":1,"mode":"pronouns and uncertainty","scene_windows":0,"windows":5,"scene":"Uncertainty/Doubt"}
+{"neuron":250,"pole":"high","cluster":0,"mode":"programming code and technical terms","scene_windows":0,"windows":5,"scene":"Technical/Programming"}
+{"neuron":250,"pole":"high","cluster":1,"mode":"actions and conjunctions","scene_windows":0,"windows":5,"scene":"Action/Description"}
+{"neuron":250,"pole":"high","cluster":2,"mode":"observations and explanations","scene_windows":0,"windows":5,"scene":"Observation/Explanation"}
+{"neuron":250,"pole":"high","cluster":3,"mode":"dialogue and commands","scene_windows":0,"windows":5,"scene":"Dialogue/Command"}
+{"neuron":250,"pole":"low","cluster":0,"mode":"locations and activities","scene_windows":0,"windows":5,"scene":"Location/Activity"}
+{"neuron":250,"pole":"low","cluster":1,"mode":"negative outcomes and sadness","scene_windows":0,"windows":5,"scene":"Negative outcomes"}
+{"neuron":2655,"pole":"high","cluster":0,"mode":"food preparation and ingredients","scene_windows":0,"windows":5,"scene":"Recipes"}
+{"neuron":2655,"pole":"high","cluster":1,"mode":"observations and physical states","scene_windows":0,"windows":5,"scene":"Observation/Physical state"}
+{"neuron":2655,"pole":"low","cluster":0,"mode":"social structures and belonging","scene_windows":0,"windows":5,"scene":"Social structures"}
+{"neuron":2655,"pole":"low","cluster":1,"mode":"negative dialogue and threats","scene_windows":0,"windows":5,"scene":"Conflict/Threat"}
+{"neuron":6831,"pole":"high","cluster":0,"mode":"positive emotions and actions","scene_windows":0,"windows":5,"scene":"Positive emotions/Action"}
+{"neuron":6831,"pole":"high","cluster":1,"mode":"observations and actions","scene_windows":0,"windows":5,"scene":"Observation/Action"}
+{"neuron":6831,"pole":"high","cluster":2,"mode":"positive emotions and actions","scene_windows":0,"windows":5,"scene":"Positive emotions/Action"}
+{"neuron":6831,"pole":"low","cluster":0,"mode":"negative outcomes and regret","scene_windows":1,"windows":5,"scene":"Desperate escape attempt"}
+{"neuron":6831,"pole":"low","cluster":1,"mode":"past tense and existence","scene_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":8946,"pole":"high","cluster":0,"mode":"children's activities and positive emotions","scene_windows":0,"windows":5,"scene":"Children's activities"}
+{"neuron":8946,"pole":"high","cluster":1,"mode":"food ingredients and preparation","scene_windows":0,"windows":5,"scene":"Recipes"}
+{"neuron":8946,"pole":"high","cluster":2,"mode":"technology and cost reduction","scene_windows":0,"windows":5,"scene":"Technology/Cost reduction"}
+{"neuron":8946,"pole":"high","cluster":3,"mode":"technology and design","scene_windows":0,"windows":5,"scene":"Technology/Design"}
+{"neuron":8946,"pole":"high","cluster":4,"mode":"objects and actions","scene_windows":0,"windows":5,"scene":"Objects/Actions"}
+{"neuron":8946,"pole":"high","cluster":5,"mode":"observations and actions","scene_windows":0,"windows":5,"scene":"Observation/Action"}
+{"neuron":8946,"pole":"high","cluster":6,"mode":"dialogue and questions","scene_windows":0,"windows":5,"scene":"Dialogue/Question"}
+{"neuron":8946,"pole":"high","cluster":7,"mode":"positive interactions and emotions","scene_windows":0,"windows":5,"scene":"Positive interactions"}
+{"neuron":8946,"pole":"low","cluster":0,"mode":"actions and negative outcomes","scene_windows":1,"windows":5,"scene":"Desperate escape attempt"}
+{"neuron":8946,"pole":"low","cluster":1,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"Neutral narration"}

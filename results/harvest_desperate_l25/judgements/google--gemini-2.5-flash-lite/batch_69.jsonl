@@ -1,0 +1,62 @@
+{"neuron":680,"pole":"high","cluster":0,"mode":"ingredients and preparation steps for various dishes","scene_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":680,"pole":"high","cluster":1,"mode":"emotional distress, fear, and anger","scene_windows":5,"windows":5,"scene":"Moments of intense emotional crisis"}
+{"neuron":680,"pole":"high","cluster":2,"mode":"pauses and hesitations in speech or action","scene_windows":0,"windows":5,"scene":"Moments of contemplation or pause"}
+{"neuron":680,"pole":"low","cluster":0,"mode":"characters in children's stories","scene_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":680,"pole":"low","cluster":1,"mode":"punctuation marks ending sentences","scene_windows":0,"windows":5,"scene":"Neutral sentence endings"}
+{"neuron":680,"pole":"low","cluster":2,"mode":"stages of plant growth and development","scene_windows":0,"windows":5,"scene":"Scientific description of plants"}
+{"neuron":680,"pole":"low","cluster":3,"mode":"geographical locations and regions","scene_windows":0,"windows":5,"scene":"Geographical descriptions"}
+{"neuron":680,"pole":"low","cluster":4,"mode":"feelings of happiness and contentment","scene_windows":0,"windows":5,"scene":"Expressions of joy"}
+{"neuron":680,"pole":"low","cluster":5,"mode":"actions of jumping or leaping","scene_windows":0,"windows":5,"scene":"Physical actions"}
+{"neuron":680,"pole":"low","cluster":6,"mode":"possessive pronouns referring to people","scene_windows":0,"windows":5,"scene":"Possessive references"}
+{"neuron":8034,"pole":"high","cluster":0,"mode":"positive outcomes and interactions","scene_windows":0,"windows":5,"scene":"Positive social interactions"}
+{"neuron":8034,"pole":"high","cluster":1,"mode":"pronouns and conjunctions connecting clauses","scene_windows":0,"windows":5,"scene":"Grammatical connections"}
+{"neuron":8034,"pole":"high","cluster":2,"mode":"movement towards a destination","scene_windows":0,"windows":5,"scene":"Travel and movement"}
+{"neuron":8034,"pole":"low","cluster":0,"mode":"body parts, specifically eyes","scene_windows":0,"windows":5,"scene":"Physical descriptions"}
+{"neuron":8034,"pole":"low","cluster":1,"mode":"beginning of fairy tales","scene_windows":0,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":10098,"pole":"high","cluster":0,"mode":"concepts of society, people, and existence","scene_windows":0,"windows":5,"scene":"Societal and existential themes"}
+{"neuron":10098,"pole":"high","cluster":1,"mode":"items or services offered","scene_windows":0,"windows":5,"scene":"Lists of offerings"}
+{"neuron":10098,"pole":"low","cluster":0,"mode":"concepts of life, home, and goals","scene_windows":0,"windows":5,"scene":"Personal life concepts"}
+{"neuron":10098,"pole":"low","cluster":1,"mode":"beginnings of fairy tales","scene_windows":0,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":6241,"pole":"high","cluster":0,"mode":"children's stories about animals and actions","scene_windows":0,"windows":5,"scene":"Children's story actions"}
+{"neuron":6241,"pole":"high","cluster":1,"mode":"physical objects and their interaction","scene_windows":0,"windows":5,"scene":"Object interaction"}
+{"neuron":6241,"pole":"high","cluster":2,"mode":"people and their actions or states","scene_windows":0,"windows":5,"scene":"Human actions and states"}
+{"neuron":6241,"pole":"low","cluster":0,"mode":"biological and scientific terms","scene_windows":0,"windows":5,"scene":"Scientific terminology"}
+{"neuron":6241,"pole":"low","cluster":1,"mode":"elements and substances","scene_windows":0,"windows":5,"scene":"Material elements"}
+{"neuron":6241,"pole":"low","cluster":2,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"Pronoun usage"}
+{"neuron":6241,"pole":"low","cluster":3,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"Pronoun usage"}
+{"neuron":6241,"pole":"low","cluster":4,"mode":"actions of taking or holding","scene_windows":0,"windows":5,"scene":"Actions of possession"}
+{"neuron":11402,"pole":"high","cluster":0,"mode":"frantic search for something, possibly a person or object, in a domestic setting.","scene_windows":1,"windows":5,"scene":"Frantic search in kitchen"}
+{"neuron":11402,"pole":"high","cluster":1,"mode":"dialogue where a character is speaking to another, often with a quote mark.","scene_windows":0,"windows":5,"scene":"Dialogue with quote marks"}
+{"neuron":11402,"pole":"high","cluster":2,"mode":"narrative describing a positive experience or observation, often with a sense of wonder.","scene_windows":0,"windows":5,"scene":"Positive experience or observation"}
+{"neuron":11402,"pole":"high","cluster":3,"mode":"philosophical or existential reflection on life, power, or perception.","scene_windows":0,"windows":5,"scene":"Existential reflection on life"}
+{"neuron":11402,"pole":"high","cluster":4,"mode":"children playing or enjoying activities, often with a sense of happiness.","scene_windows":0,"windows":5,"scene":"Children playing and enjoying"}
+{"neuron":11402,"pole":"high","cluster":5,"mode":"dialogue where a character is speaking to another, often with a quote mark.","scene_windows":0,"windows":5,"scene":"Dialogue with quote marks"}
+{"neuron":11402,"pole":"low","cluster":0,"mode":"dialogue where a character is speaking to another, often with a quote mark.","scene_windows":0,"windows":5,"scene":"Dialogue with quote marks"}
+{"neuron":11402,"pole":"low","cluster":1,"mode":"technical or scientific text discussing biological or chemical processes.","scene_windows":0,"windows":5,"scene":"Technical/scientific discussion"}
+{"neuron":11402,"pole":"low","cluster":2,"mode":"narrative describing a child's experience or discovery, often with a sense of wonder.","scene_windows":0,"windows":5,"scene":"Child's experience or discovery"}
+{"neuron":11402,"pole":"low","cluster":3,"mode":"first-person reflection on personal beliefs, past experiences, or observations.","scene_windows":0,"windows":5,"scene":"First-person reflection"}
+{"neuron":11402,"pole":"low","cluster":4,"mode":"dialogue expressing gratitude or affection, often between children and adults.","scene_windows":0,"windows":5,"scene":"Expressing gratitude or affection"}
+{"neuron":11402,"pole":"low","cluster":5,"mode":"dialogue where a character is speaking to another, often with a quote mark.","scene_windows":0,"windows":5,"scene":"Dialogue with quote marks"}
+{"neuron":12089,"pole":"high","cluster":0,"mode":"conjunctions and prepositions connecting ideas","scene_windows":0,"windows":5,"scene":"Connecting words"}
+{"neuron":12089,"pole":"high","cluster":1,"mode":"pronouns and conjunctions connecting clauses","scene_windows":0,"windows":5,"scene":"Grammatical connections"}
+{"neuron":12089,"pole":"low","cluster":0,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"Pronoun usage"}
+{"neuron":12089,"pole":"low","cluster":1,"mode":"numbers and quantities","scene_windows":0,"windows":5,"scene":"Numerical references"}
+{"neuron":1495,"pole":"high","cluster":0,"mode":"code snippets, often involving programming logic or commands.","scene_windows":0,"windows":5,"scene":"Code snippets and commands"}
+{"neuron":1495,"pole":"high","cluster":1,"mode":"narrative describing personal experiences, often with a sense of isolation or observation.","scene_windows":0,"windows":5,"scene":"Personal experiences and observations"}
+{"neuron":1495,"pole":"high","cluster":2,"mode":"narrative describing observations or events, often with a sense of unease or surprise.","scene_windows":0,"windows":5,"scene":"Observations and events with unease"}
+{"neuron":1495,"pole":"low","cluster":0,"mode":"dialogue where a character is speaking to another, often with a quote mark.","scene_windows":0,"windows":5,"scene":"Dialogue with quote marks"}
+{"neuron":1495,"pole":"low","cluster":1,"mode":"technical or factual text discussing numbers, statistics, or specific entities.","scene_windows":0,"windows":5,"scene":"Technical/factual text with numbers"}
+{"neuron":1495,"pole":"low","cluster":2,"mode":"technical or descriptive text discussing design, structure, or criteria.","scene_windows":0,"windows":5,"scene":"Technical/descriptive text"}
+{"neuron":11735,"pole":"high","cluster":0,"mode":"questions about emotions and existence","scene_windows":0,"windows":5,"scene":"Existential questioning"}
+{"neuron":11735,"pole":"high","cluster":1,"mode":"biological and scientific terms","scene_windows":0,"windows":5,"scene":"Scientific terminology"}
+{"neuron":11735,"pole":"high","cluster":2,"mode":"people and their actions or states","scene_windows":0,"windows":5,"scene":"Human actions and states"}
+{"neuron":11735,"pole":"high","cluster":3,"mode":"concepts of power, pride, and assumptions","scene_windows":0,"windows":5,"scene":"Abstract concepts"}
+{"neuron":11735,"pole":"high","cluster":4,"mode":"children's stories about playing and fun","scene_windows":0,"windows":5,"scene":"Children's play"}
+{"neuron":11735,"pole":"high","cluster":5,"mode":"dialogue markers and interjections","scene_windows":0,"windows":5,"scene":"Conversational elements"}
+{"neuron":11735,"pole":"low","cluster":0,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"Pronoun usage"}
+{"neuron":11735,"pole":"low","cluster":1,"mode":"numbers and quantities","scene_windows":0,"windows":5,"scene":"Numerical references"}
+{"neuron":11735,"pole":"low","cluster":2,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"Pronoun usage"}
+{"neuron":11735,"pole":"low","cluster":3,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"Pronoun usage"}
+{"neuron":11735,"pole":"low","cluster":4,"mode":"expressions of gratitude","scene_windows":0,"windows":5,"scene":"Expressions of thanks"}
+{"neuron":11735,"pole":"low","cluster":5,"mode":"pronouns referring to groups","scene_windows":0,"windows":5,"scene":"Group pronoun usage"}
+{"neuron":11735,"pole":"low","cluster":6,"mode":"dialogue markers and interjections","scene_windows":0,"windows":5,"scene":"Conversational elements"}

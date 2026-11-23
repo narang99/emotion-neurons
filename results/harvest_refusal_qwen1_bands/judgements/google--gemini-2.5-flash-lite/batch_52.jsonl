@@ -1,0 +1,78 @@
+{"neuron":7988,"pole":"high","cluster":0,"mode":"the definite article used before nouns and noun phrases","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":7988,"pole":"high","cluster":1,"mode":"different kinds or types of something","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":7988,"pole":"low","cluster":0,"mode":"knowledge, learning, or the field of study","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":7988,"pole":"low","cluster":1,"mode":"mental health and well-being","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":1001,"pole":"high","cluster":0,"mode":"punctuation marks like commas and brackets","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":1001,"pole":"high","cluster":1,"mode":"examples or illustrations of a point","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":1001,"pole":"low","cluster":0,"mode":"ability or capacity to do something","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":1001,"pole":"low","cluster":1,"mode":"possessive pronoun referring to the recipient","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":1001,"pole":"low","cluster":2,"mode":"the definite article used before nouns and noun phrases","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":1001,"pole":"low","cluster":3,"mode":"preposition indicating direction or purpose","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":10299,"pole":"high","cluster":0,"mode":"articles and prepositions indicating quantity or agency","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":10299,"pole":"high","cluster":1,"mode":"modal verb indicating inability","scene_windows":0,"windows":5,"scene":"personal narrative or reflection"}
+{"neuron":10299,"pole":"low","cluster":0,"mode":"prepositions indicating purpose or direction","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":10299,"pole":"low","cluster":1,"mode":"adjective indicating personalization or customization","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":135,"pole":"high","cluster":0,"mode":"code snippets and programming functions","scene_windows":0,"windows":5,"scene":"technical programming context"}
+{"neuron":135,"pole":"high","cluster":1,"mode":"verbs indicating possession or existence","scene_windows":0,"windows":5,"scene":"technical programming context"}
+{"neuron":135,"pole":"high","cluster":2,"mode":"first-person singular pronoun","scene_windows":0,"windows":5,"scene":"narrative or dialogue"}
+{"neuron":135,"pole":"high","cluster":3,"mode":"punctuation marks indicating speech or quotes","scene_windows":0,"windows":5,"scene":"narrative or dialogue"}
+{"neuron":135,"pole":"low","cluster":0,"mode":"assistant responses to user questions","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":135,"pole":"low","cluster":1,"mode":"punctuation marks indicating end of sentence","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":135,"pole":"low","cluster":2,"mode":"punctuation marks indicating speech or quotes","scene_windows":0,"windows":5,"scene":"narrative or dialogue"}
+{"neuron":135,"pole":"low","cluster":3,"mode":"interrogative pronoun asking for identity","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":135,"pole":"low","cluster":4,"mode":"first-person singular pronoun","scene_windows":0,"windows":5,"scene":"narrative or dialogue"}
+{"neuron":135,"pole":"low","cluster":5,"mode":"interrogative pronoun asking for ability","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":135,"pole":"low","cluster":6,"mode":"interrogative pronoun asking for ability","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":135,"pole":"low","cluster":7,"mode":"interjections or pauses in speech","scene_windows":0,"windows":5,"scene":"narrative or dialogue"}
+{"neuron":135,"pole":"low","cluster":8,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":135,"pole":"low","cluster":9,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":135,"pole":"low","cluster":10,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":135,"pole":"low","cluster":11,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":135,"pole":"low","cluster":12,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":135,"pole":"low","cluster":13,"mode":"colors in a list","scene_windows":0,"windows":5,"scene":"descriptive narrative"}
+{"neuron":995,"pole":"high","cluster":0,"mode":"verbs indicating change of state or condition","scene_windows":0,"windows":5,"scene":"narrative or dialogue"}
+{"neuron":995,"pole":"high","cluster":1,"mode":"articles and prepositions indicating quantity or agency","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"high","cluster":2,"mode":"assistant responses to user questions","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"high","cluster":3,"mode":"affirmative responses to user statements","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"high","cluster":4,"mode":"adverbs indicating degree or importance","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":995,"pole":"high","cluster":5,"mode":"punctuation indicating end of sentence or query","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"high","cluster":6,"mode":"punctuation indicating end of sentence or query","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"high","cluster":7,"mode":"punctuation indicating end of sentence or query","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"high","cluster":8,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":995,"pole":"high","cluster":9,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":995,"pole":"high","cluster":10,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":995,"pole":"high","cluster":11,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":995,"pole":"high","cluster":12,"mode":"punctuation indicating end of sentence or citation","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":995,"pole":"low","cluster":0,"mode":"first-person singular pronoun","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"low","cluster":1,"mode":"punctuation indicating end of sentence or exclamation","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"low","cluster":2,"mode":"punctuation marks indicating speech or quotes","scene_windows":0,"windows":5,"scene":"narrative or dialogue"}
+{"neuron":995,"pole":"low","cluster":3,"mode":"punctuation indicating end of sentence or query","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":995,"pole":"low","cluster":4,"mode":"articles and prepositions indicating quantity or agency","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":995,"pole":"low","cluster":5,"mode":"articles and prepositions indicating quantity or agency","scene_windows":0,"windows":5,"scene":"technical programming context"}
+{"neuron":7106,"pole":"high","cluster":0,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"high","cluster":1,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"high","cluster":2,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"high","cluster":3,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"high","cluster":4,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"low","cluster":0,"mode":"conjunctions and prepositions connecting clauses and phrases","scene_windows":0,"windows":5,"scene":"neutral narration and description"}
+{"neuron":7106,"pole":"low","cluster":1,"mode":"words related to nuclear events and their consequences","scene_windows":0,"windows":5,"scene":"apocalyptic nuclear scenario"}
+{"neuron":7106,"pole":"low","cluster":2,"mode":"dialogue markers indicating hesitation or incomplete speech","scene_windows":0,"windows":5,"scene":"hesitant dialogue exchange"}
+{"neuron":7106,"pole":"low","cluster":3,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"low","cluster":4,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"low","cluster":5,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":7106,"pole":"low","cluster":6,"mode":"prepositions and conjunctions indicating purpose or relationship","scene_windows":0,"windows":5,"scene":"neutral narration and explanation"}
+{"neuron":7106,"pole":"low","cluster":7,"mode":"dialogue markers indicating a question or statement within a narrative context","scene_windows":0,"windows":5,"scene":"narrative dialogue exchange"}
+{"neuron":3765,"pole":"high","cluster":0,"mode":"adjectives indicating severity or significance","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":3765,"pole":"high","cluster":1,"mode":"bodily fluid indicating exertion or stress","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":3765,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating connection","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":3765,"pole":"low","cluster":1,"mode":"adjective indicating extreme danger or destruction","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":257,"pole":"high","cluster":0,"mode":"verbs indicating the act of giving or bestowing","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":257,"pole":"high","cluster":1,"mode":"verbs indicating difficulty or effort","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":257,"pole":"high","cluster":2,"mode":"noun phrase indicating spatial separation","scene_windows":0,"windows":5,"scene":"conversational query and response"}
+{"neuron":257,"pole":"high","cluster":3,"mode":"infinitive marker indicating purpose or intention","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":257,"pole":"high","cluster":4,"mode":"verbs indicating attempt or endeavor","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":257,"pole":"high","cluster":5,"mode":"verbs indicating effort or action","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":257,"pole":"high","cluster":6,"mode":"words indicating effort or action in a narrative context","scene_windows":0,"windows":6,"scene":"narrative context of struggle"}
+{"neuron":257,"pole":"low","cluster":0,"mode":"numbers indicating years or decades","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":257,"pole":"low","cluster":1,"mode":"pronouns indicating possession or identity","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}
+{"neuron":257,"pole":"low","cluster":2,"mode":"numbers indicating quantity or duration","scene_windows":0,"windows":5,"scene":"neutral academic or factual text"}

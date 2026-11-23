@@ -1,0 +1,20 @@
+# What the neurons behind Qwen-1 7B Chat's refusal direction fire on (configs/refusal_qwen1.yaml chose layer 18,
+# last post-instruction token; layer 17's MLP is the last one writing into it). Its neurons up to 75% of that MLP's
+# refusal write, plus 20 random controls, both poles.
+#   python scripts/direction.py         --config configs/refusal_qwen1.yaml   # the direction (GPU)
+#   python scripts/direction_neurons.py --config configs/refusal_qwen1.yaml   # its neuron set (GPU)
+#   python scripts/pipeline.py --config configs/harvest_refusal_qwen1.yaml    # harvest -> modes -> judge -> report
+run_id: harvest_refusal_qwen1
+model: Qwen/Qwen-7B-Chat
+layer: 17
+concept: refusal
+harvest:
+  neurons_csv: results/refusal_qwen1/neurons/refusal.csv
+  rebuilt_pct: 75
+  n_controls: 20
+  # General text and chat, plus HH-RLHF dialogues (harmful requests and refusals) and adult fiction (violence, crime).
+  corpora:
+    - {name: fineweb-edu, path: HuggingFaceFW/fineweb-edu, config: sample-10BT, tokens: 600000}
+    - {name: ultrachat, path: HuggingFaceH4/ultrachat_200k, split: train_sft, field: messages, tokens: 500000}
+    - {name: hh-rlhf, path: Anthropic/hh-rlhf, field: chosen, tokens: 700000}
+    - {name: writingprompts, path: euclaise/writingprompts, field: story, tokens: 400000}

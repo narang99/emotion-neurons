@@ -1,0 +1,75 @@
+{"neuron":4067,"pole":"high","cluster":0,"mode":"connecting descriptive words with 'and' for positive attributes","scene_windows":0,"windows":5,"scene":"describing positive qualities"}
+{"neuron":4067,"pole":"high","cluster":1,"mode":"using 'a' to introduce descriptive phrases for appearance","scene_windows":0,"windows":5,"scene":"describing appearance"}
+{"neuron":4067,"pole":"high","cluster":2,"mode":"indicating return or movement back to a previous state or place","scene_windows":0,"windows":5,"scene":"describing movement or return"}
+{"neuron":4067,"pole":"high","cluster":3,"mode":"describing physical posture and body positioning","scene_windows":0,"windows":5,"scene":"describing physical actions"}
+{"neuron":4067,"pole":"high","cluster":4,"mode":"referring to specific entities or concepts within a context","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":4067,"pole":"high","cluster":5,"mode":"indicating necessity or advisability of an action or state","scene_windows":0,"windows":5,"scene":"advising on actions"}
+{"neuron":4067,"pole":"low","cluster":0,"mode":"indicating tendency or purpose, often with a negative connotation","scene_windows":0,"windows":5,"scene":"describing tendencies"}
+{"neuron":4067,"pole":"low","cluster":1,"mode":"indicating future action or intention, often in an apologetic context","scene_windows":0,"windows":5,"scene":"apologizing for future actions"}
+{"neuron":1693,"pole":"high","cluster":0,"mode":"guiding or directing through challenges or complex situations","scene_windows":0,"windows":5,"scene":"navigating complex situations"}
+{"neuron":1693,"pole":"high","cluster":1,"mode":"occurring or happening during a specific period or event","scene_windows":0,"windows":5,"scene":"during a specific time"}
+{"neuron":1693,"pole":"high","cluster":2,"mode":"evoking interest, enthusiasm, or anticipation","scene_windows":0,"windows":5,"scene":"evoking excitement"}
+{"neuron":1693,"pole":"high","cluster":3,"mode":"characterized by difficulty, intricacy, or multiple factors","scene_windows":0,"windows":5,"scene":"describing complexity"}
+{"neuron":1693,"pole":"high","cluster":4,"mode":"indicating a significant degree of difficulty or challenge","scene_windows":0,"windows":5,"scene":"indicating difficulty"}
+{"neuron":1693,"pole":"high","cluster":5,"mode":"indicating a situation requiring careful consideration or action","scene_windows":0,"windows":5,"scene":"requiring careful consideration"}
+{"neuron":1693,"pole":"high","cluster":6,"mode":"describing a situation that is hard to deal with","scene_windows":0,"windows":5,"scene":"describing difficult situations"}
+{"neuron":1693,"pole":"high","cluster":7,"mode":"indicating a situation that is hard to deal with","scene_windows":0,"windows":5,"scene":"describing tricky situations"}
+{"neuron":1693,"pole":"high","cluster":8,"mode":"referring to the current or immediate situation","scene_windows":0,"windows":5,"scene":"referring to current situation"}
+{"neuron":1693,"pole":"high","cluster":9,"mode":"referring to specific entities or concepts within a context","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":1693,"pole":"high","cluster":10,"mode":"indicating movement or passage through a period or situation","scene_windows":0,"windows":5,"scene":"moving through situations"}
+{"neuron":1693,"pole":"low","cluster":0,"mode":"referring to specific entities or concepts within a context","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":1693,"pole":"low","cluster":1,"mode":"indicating a state of being or action, often in a factual context","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":10504,"pole":"high","cluster":0,"mode":"asking questions based on provided text passages","scene_windows":0,"windows":5,"scene":"asking questions about text"}
+{"neuron":10504,"pole":"high","cluster":1,"mode":"indicating addition or inclusion of something","scene_windows":0,"windows":5,"scene":"indicating addition"}
+{"neuron":10504,"pole":"high","cluster":2,"mode":"referring to a specific number or quantity","scene_windows":0,"windows":5,"scene":"referring to a number"}
+{"neuron":10504,"pole":"high","cluster":3,"mode":"connecting concepts or actions with 'and' for positive outcomes","scene_windows":0,"windows":5,"scene":"connecting positive outcomes"}
+{"neuron":10504,"pole":"high","cluster":4,"mode":"listing items or concepts connected by commas","scene_windows":0,"windows":5,"scene":"listing connected items"}
+{"neuron":10504,"pole":"low","cluster":0,"mode":"affirming or confirming a statement","scene_windows":0,"windows":5,"scene":"affirming statements"}
+{"neuron":10504,"pole":"low","cluster":1,"mode":"indicating a state of being or action, often in a factual context","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":10504,"pole":"low","cluster":2,"mode":"indicating a state of being or action, often in a factual context","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":10504,"pole":"low","cluster":3,"mode":"providing examples or instances of something","scene_windows":0,"windows":5,"scene":"giving examples"}
+{"neuron":10504,"pole":"low","cluster":4,"mode":"providing additional information or details","scene_windows":0,"windows":5,"scene":"adding details"}
+{"neuron":10504,"pole":"low","cluster":5,"mode":"indicating inclusion or belonging within a context","scene_windows":0,"windows":5,"scene":"indicating inclusion"}
+{"neuron":10504,"pole":"low","cluster":6,"mode":"requesting or offering further information or clarification","scene_windows":0,"windows":5,"scene":"requesting information"}
+{"neuron":1176,"pole":"high","cluster":0,"mode":"stating a fact or condition, often with emphasis","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":1176,"pole":"high","cluster":1,"mode":"referring to the person being addressed","scene_windows":0,"windows":5,"scene":"referring to the listener"}
+{"neuron":1176,"pole":"high","cluster":2,"mode":"indicating inclusion or belonging within a context","scene_windows":0,"windows":5,"scene":"indicating inclusion"}
+{"neuron":1176,"pole":"high","cluster":3,"mode":"indicating a state of being or action, often in a factual context","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":1176,"pole":"low","cluster":0,"mode":"affirming or confirming a statement","scene_windows":0,"windows":5,"scene":"affirming statements"}
+{"neuron":1176,"pole":"low","cluster":1,"mode":"indicating a state of being or action, often in a factual context","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":1176,"pole":"low","cluster":2,"mode":"indicating a state of being or action, often in a factual context","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":10789,"pole":"high","cluster":0,"mode":"companies should have clear rules for content to promote equality and respect.","scene_windows":0,"windows":5,"scene":"promoting equality and respect"}
+{"neuron":10789,"pole":"high","cluster":1,"mode":"you can improve independence by getting familiar with legal rights.","scene_windows":0,"windows":5,"scene":"improving independence and rights"}
+{"neuron":10789,"pole":"high","cluster":2,"mode":"it is good to make sure the environment is stimulating for cats.","scene_windows":0,"windows":5,"scene":"stimulating cat environment"}
+{"neuron":10789,"pole":"low","cluster":0,"mode":"certainty about supporting a friend through counseling.","scene_windows":0,"windows":5,"scene":"supporting a friend"}
+{"neuron":10789,"pole":"low","cluster":1,"mode":"asking for more information or suggestions.","scene_windows":0,"windows":5,"scene":"requesting more information"}
+{"neuron":10789,"pole":"low","cluster":2,"mode":"asking for more information or suggestions.","scene_windows":0,"windows":5,"scene":"requesting more information"}
+{"neuron":10789,"pole":"low","cluster":3,"mode":"complex questions with tentative theories.","scene_windows":0,"windows":5,"scene":"complex questions and theories"}
+{"neuron":10789,"pole":"low","cluster":4,"mode":"asking for more information or suggestions.","scene_windows":0,"windows":5,"scene":"requesting more information"}
+{"neuron":4856,"pole":"high","cluster":0,"mode":"confirming a statement with emphasis","scene_windows":0,"windows":5,"scene":"confirming statements"}
+{"neuron":4856,"pole":"high","cluster":1,"mode":"confirming a statement with emphasis","scene_windows":0,"windows":5,"scene":"confirming statements"}
+{"neuron":4856,"pole":"high","cluster":2,"mode":"confirming a statement with emphasis","scene_windows":0,"windows":5,"scene":"confirming statements"}
+{"neuron":4856,"pole":"high","cluster":3,"mode":"affirming or confirming a statement","scene_windows":0,"windows":5,"scene":"affirming statements"}
+{"neuron":4856,"pole":"high","cluster":4,"mode":"confirming a statement with emphasis","scene_windows":0,"windows":5,"scene":"confirming statements"}
+{"neuron":4856,"pole":"high","cluster":5,"mode":"confirming a statement with emphasis","scene_windows":0,"windows":5,"scene":"confirming statements"}
+{"neuron":4856,"pole":"high","cluster":6,"mode":"indicating agreement or understanding","scene_windows":0,"windows":5,"scene":"indicating agreement"}
+{"neuron":4856,"pole":"high","cluster":7,"mode":"indicating dialogue or speech","scene_windows":0,"windows":5,"scene":"indicating dialogue"}
+{"neuron":4856,"pole":"high","cluster":8,"mode":"referring to specific entities or concepts within a context","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":4856,"pole":"high","cluster":9,"mode":"dialogue with quoted speech and pauses.","scene_windows":0,"windows":5,"scene":"dialogue with pauses"}
+{"neuron":4856,"pole":"low","cluster":0,"mode":"affirming or confirming a statement","scene_windows":0,"windows":5,"scene":"affirming statements"}
+{"neuron":4856,"pole":"low","cluster":1,"mode":"requesting or offering further information or clarification","scene_windows":0,"windows":5,"scene":"requesting information"}
+{"neuron":4856,"pole":"low","cluster":2,"mode":"affirming or confirming a statement","scene_windows":0,"windows":5,"scene":"affirming statements"}
+{"neuron":4856,"pole":"low","cluster":3,"mode":"indicating a contrast or concession","scene_windows":0,"windows":5,"scene":"indicating contrast"}
+{"neuron":4856,"pole":"low","cluster":4,"mode":"referring to specific entities or concepts within a context","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":4856,"pole":"low","cluster":5,"mode":"indicating dialogue or speech","scene_windows":0,"windows":5,"scene":"indicating dialogue"}
+{"neuron":4541,"pole":"high","cluster":0,"mode":"indicating direction, purpose, or target","scene_windows":0,"windows":5,"scene":"indicating direction or purpose"}
+{"neuron":4541,"pole":"high","cluster":1,"mode":"indicating speech or a direct quote","scene_windows":0,"windows":5,"scene":"indicating speech"}
+{"neuron":4541,"pole":"low","cluster":0,"mode":"indicating necessity or advisability of an action or state","scene_windows":0,"windows":5,"scene":"advising on actions"}
+{"neuron":4541,"pole":"low","cluster":1,"mode":"indicating an alternative or choice between options","scene_windows":0,"windows":5,"scene":"indicating alternatives"}
+{"neuron":9314,"pole":"high","cluster":0,"mode":"referring to negative concepts or practices","scene_windows":0,"windows":5,"scene":"referring to negative concepts"}
+{"neuron":9314,"pole":"high","cluster":1,"mode":"referring to renewable energy sources and policies","scene_windows":0,"windows":5,"scene":"renewable energy"}
+{"neuron":9314,"pole":"low","cluster":0,"mode":"requesting or offering further information or clarification","scene_windows":0,"windows":5,"scene":"requesting information"}
+{"neuron":9314,"pole":"low","cluster":1,"mode":"requesting or offering further information or clarification","scene_windows":0,"windows":5,"scene":"requesting information"}
+{"neuron":9314,"pole":"low","cluster":2,"mode":"indicating inclusion or belonging within a context","scene_windows":0,"windows":5,"scene":"indicating inclusion"}
+{"neuron":9314,"pole":"low","cluster":3,"mode":"indicating a state of being or action, often in a factual context","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":9314,"pole":"low","cluster":4,"mode":"indicating a conclusion or summary of information","scene_windows":0,"windows":5,"scene":"indicating conclusion"}

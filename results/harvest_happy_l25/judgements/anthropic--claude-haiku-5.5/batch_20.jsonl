@@ -1,0 +1,59 @@
+{"neuron":5684,"pole":"high","cluster":0,"mode":"Pronouns and possessives after a child's emotional or dialogue moment","happy_windows":0,"windows":5,"scene":"Children's stories with mixed or worried moods"}
+{"neuron":5684,"pole":"high","cluster":1,"mode":"Intensifiers and 'was' before sadness or pride feelings","happy_windows":0,"windows":5,"scene":"Children upset after accidents or losses"}
+{"neuron":5684,"pole":"high","cluster":2,"mode":"Sentence-ending periods before a problem or sudden event","happy_windows":0,"windows":5,"scene":"Children heading into trouble or danger"}
+{"neuron":5684,"pole":"high","cluster":3,"mode":"Punctuation and quotes in parental scolding or reaction speech","happy_windows":0,"windows":5,"scene":"Parents scolding or reacting to naughty children"}
+{"neuron":5684,"pole":"high","cluster":4,"mode":"Pronoun or 'and' after a stated happy feeling","happy_windows":5,"windows":5,"scene":"Children happy over treats, fun, and kindness"}
+{"neuron":5684,"pole":"high","cluster":5,"mode":"Object nouns or 'it' in messes, food, and feelings","happy_windows":2,"windows":5,"scene":"Kids cleaning messes, eating, playing in sand"}
+{"neuron":5684,"pole":"high","cluster":6,"mode":"Technical wastewater and spill-containment terms","happy_windows":0,"windows":5,"scene":"Sludge, spills, and sewer technical text"}
+{"neuron":5684,"pole":"low","cluster":0,"mode":"Punctuation and speech-opening tokens inside dialogue, often in admonitions or instructions","happy_windows":1,"windows":5,"scene":"Children's moral tales with parental advice or scolding"}
+{"neuron":5684,"pole":"low","cluster":1,"mode":"Clause-starting subject pronouns or names after scene-setting in narrative","happy_windows":1,"windows":5,"scene":"Children's stories with mild worry, searching, or exploring"}
+{"neuron":5684,"pole":"low","cluster":2,"mode":"Punctuation and connectives in recipe lists and instructional tips","happy_windows":0,"windows":5,"scene":"Recipes and cooking or food-preparation tips"}
+{"neuron":11760,"pole":"high","cluster":0,"mode":"'was' in 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"Story openings introducing a character"}
+{"neuron":11760,"pole":"high","cluster":1,"mode":"Mid-sentence function words in varied descriptive prose","happy_windows":0,"windows":5,"scene":"Fantasy, crime, and mysterious narrative text"}
+{"neuron":11760,"pole":"high","cluster":2,"mode":"'a' right after 'there was' in story openings","happy_windows":0,"windows":5,"scene":"Story openings introducing a boy or girl"}
+{"neuron":11760,"pole":"low","cluster":0,"mode":"'had' or 'creating' in phrases describing fun or effort","happy_windows":4,"windows":5,"scene":"Children playing, laughing, and having fun together"}
+{"neuron":11760,"pole":"low","cluster":1,"mode":"Negation contractions like 'couldn't', 'didn't', 'wasn't'","happy_windows":0,"windows":5,"scene":"Characters reflecting, worried, or learning lessons"}
+{"neuron":4515,"pole":"high","cluster":0,"mode":"Sentence-level 'Then' or period after smiling or helping","happy_windows":2,"windows":5,"scene":"Kind helpful moments and gentle stories"}
+{"neuron":4515,"pole":"high","cluster":1,"mode":"'said' right after 'smiled and' in dialogue","happy_windows":3,"windows":5,"scene":"Characters smiling and speaking warmly after winning or sharing"}
+{"neuron":4515,"pole":"low","cluster":0,"mode":"Code, technical, and factual text tokens","happy_windows":0,"windows":5,"scene":"Programming, political, and technical text"}
+{"neuron":4515,"pole":"low","cluster":1,"mode":"Word fragments inside action verbs like swam, waved","happy_windows":0,"windows":5,"scene":"Action, nature, and poem passages"}
+{"neuron":4515,"pole":"low","cluster":2,"mode":"'so' before excited or happy feelings","happy_windows":3,"windows":5,"scene":"Children excited about games, snacks, and surprises"}
+{"neuron":4515,"pole":"low","cluster":3,"mode":"'around' after movement verbs like run or spin","happy_windows":3,"windows":5,"scene":"Playful running, spinning, and roaming outdoors"}
+{"neuron":4515,"pole":"low","cluster":4,"mode":"Possessive 'her' or 'his' before friends or parents","happy_windows":0,"windows":5,"scene":"Children showing or sharing things with others"}
+{"neuron":10474,"pole":"high","cluster":0,"mode":"'s or 'me/we' in suggestions like 'Let's' or 'Can we'","happy_windows":3,"windows":5,"scene":"Parent-child dialogue about reading, swinging, sharing"}
+{"neuron":10474,"pole":"high","cluster":1,"mode":"Subject nouns and 'that' in forum-style opinion text","happy_windows":0,"windows":5,"scene":"Discussion of people, competition, and social issues"}
+{"neuron":10474,"pole":"high","cluster":2,"mode":"'and' or 'then' after friends' happy actions","happy_windows":4,"windows":5,"scene":"Friends sharing, laughing, and feeling happy together"}
+{"neuron":10474,"pole":"low","cluster":0,"mode":"Narrative verbs and pronouns in exploring-adventure stories","happy_windows":0,"windows":5,"scene":"Child exploring, searching, getting tired"}
+{"neuron":10474,"pole":"low","cluster":1,"mode":"Comma after 'Once upon a time' story openings","happy_windows":0,"windows":5,"scene":"Story openings introducing characters"}
+{"neuron":8433,"pole":"high","cluster":0,"mode":"'One' starting 'One day' in story openings","happy_windows":0,"windows":5,"scene":"Story openings about children playing"}
+{"neuron":8433,"pole":"high","cluster":1,"mode":"Possessive 'her' after playing or feeling happy","happy_windows":3,"windows":5,"scene":"Girls playing, dancing, and feeling happy"}
+{"neuron":8433,"pole":"high","cluster":2,"mode":"'a' or 'an' after 'with' in descriptive phrases","happy_windows":2,"windows":5,"scene":"Characters greeting, hugging, or discovering things"}
+{"neuron":8433,"pole":"high","cluster":3,"mode":"Technical terms about checks, cleaning, and detectors","happy_windows":0,"windows":5,"scene":"Safety, insulation, plumbing, and medical procedure text"}
+{"neuron":8433,"pole":"high","cluster":4,"mode":"Blank-space tokens at story paragraph breaks","happy_windows":2,"windows":5,"scene":"Story paragraph breaks in children's tales"}
+{"neuron":8433,"pole":"high","cluster":5,"mode":"Mom or Mum as subject in emotional dialogue","happy_windows":0,"windows":5,"scene":"Parents comforting or questioning children"}
+{"neuron":8433,"pole":"high","cluster":6,"mode":"'their' or 'your' in business advice lists","happy_windows":0,"windows":5,"scene":"Business, marketing, and automation advice"}
+{"neuron":8433,"pole":"high","cluster":7,"mode":"Object nouns like toys, swing, room after play","happy_windows":3,"windows":5,"scene":"Children playing with toys and feeling excited"}
+{"neuron":8433,"pole":"low","cluster":0,"mode":"'have' or 'day' in story-time fun phrases","happy_windows":2,"windows":5,"scene":"Children playing outdoors and having fun"}
+{"neuron":8433,"pole":"low","cluster":1,"mode":"Verbs 'saw' or 'see' introducing discoveries","happy_windows":0,"windows":5,"scene":"Characters noticing things in stories"}
+{"neuron":8485,"pole":"high","cluster":0,"mode":"Playful dancing, toys, or sunglasses moments","happy_windows":4,"windows":5,"scene":"Children dancing, playing, and feeling joyful"}
+{"neuron":8485,"pole":"high","cluster":1,"mode":"'play' or 'played' after excitement or enthusiasm","happy_windows":4,"windows":5,"scene":"Kids excited to play with toys or friends"}
+{"neuron":8485,"pole":"low","cluster":0,"mode":"'day' after 'One' in story openings","happy_windows":0,"windows":5,"scene":"Story openings with a child's routine"}
+{"neuron":8485,"pole":"low","cluster":1,"mode":"'saw' or 'see' introducing a sighting","happy_windows":0,"windows":5,"scene":"Characters noticing something new"}
+{"neuron":8485,"pole":"low","cluster":2,"mode":"Subject pronoun or name after 'One day,'","happy_windows":0,"windows":5,"scene":"Story openings introducing a day's event"}
+{"neuron":8485,"pole":"low","cluster":3,"mode":"'Suddenly' introducing an unexpected event","happy_windows":0,"windows":5,"scene":"Outdoor scenes interrupted by surprises"}
+{"neuron":8485,"pole":"low","cluster":4,"mode":"Comma after 'One day' before an action","happy_windows":0,"windows":5,"scene":"Story openings with a day's event"}
+{"neuron":8485,"pole":"low","cluster":5,"mode":"Sentence-final periods followed by spacing or line breaks","happy_windows":0,"windows":5,"scene":"Story transitions and endings"}
+{"neuron":8485,"pole":"low","cluster":6,"mode":"'the' after 'on' or 'in' location phrases","happy_windows":0,"windows":5,"scene":"Objects placed on floors, tables, counters"}
+{"neuron":8485,"pole":"low","cluster":7,"mode":"'a' after 'saw' introducing a found object","happy_windows":0,"windows":5,"scene":"Children spotting birds, buses, shops"}
+{"neuron":8485,"pole":"low","cluster":8,"mode":"Prepositions and objects after playing or helping mom","happy_windows":0,"windows":5,"scene":"Kids tidying, playing, and helping parents"}
+{"neuron":3060,"pole":"high","cluster":0,"mode":"Scholarly religious and textual commentary tokens","happy_windows":0,"windows":5,"scene":"Academic religious and biblical commentary"}
+{"neuron":3060,"pole":"high","cluster":1,"mode":"'mom' or 'dad' as subject in family moments","happy_windows":2,"windows":5,"scene":"Parents with children in warm family scenes"}
+{"neuron":3060,"pole":"high","cluster":2,"mode":"'The' starting a sentence after a happy moment","happy_windows":2,"windows":5,"scene":"Animals and kids sharing happy moments"}
+{"neuron":3060,"pole":"high","cluster":3,"mode":"Closing quote or punctuation before dialogue reply","happy_windows":2,"windows":5,"scene":"Kind, encouraging dialogue between friends"}
+{"neuron":3060,"pole":"high","cluster":4,"mode":"Verbs describing feelings or reactions in stories","happy_windows":2,"windows":5,"scene":"Characters reacting with surprise, warmth, or worry"}
+{"neuron":3060,"pole":"low","cluster":0,"mode":"'and' or 'but' linking story clauses","happy_windows":0,"windows":5,"scene":"Story narration with curiosity or mishaps"}
+{"neuron":3060,"pole":"low","cluster":1,"mode":"Greeting and address tokens in dialogue","happy_windows":0,"windows":5,"scene":"Scripted dialogue and short exchanges"}
+{"neuron":4126,"pole":"high","cluster":0,"mode":"'They' or 'they' after friends meeting and bonding","happy_windows":5,"windows":5,"scene":"Friends forming bonds and playing together"}
+{"neuron":4126,"pole":"high","cluster":1,"mode":"Research nouns like explanations, participants, colonies","happy_windows":0,"windows":5,"scene":"Scientific, political, and academic research text"}
+{"neuron":4126,"pole":"low","cluster":0,"mode":"Pronouns after a character's guilt or kindness moment","happy_windows":1,"windows":5,"scene":"Animal and child stories with sadness or lessons"}
+{"neuron":4126,"pole":"low","cluster":1,"mode":"'a' after 'there was' in story openings","happy_windows":0,"windows":5,"scene":"Story openings introducing a character"}

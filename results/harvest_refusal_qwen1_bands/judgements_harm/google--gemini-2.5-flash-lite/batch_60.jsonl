@@ -1,0 +1,77 @@
+{"neuron":8641,"pole":"high","cluster":0,"mode":"unifying, consolidating, and centralizing power and systems of government","scene_windows":0,"windows":5,"scene":"historical and political consolidation"}
+{"neuron":8641,"pole":"high","cluster":1,"mode":"organizing personal belongings and information","scene_windows":0,"windows":5,"scene":"practical advice and organization"}
+{"neuron":8641,"pole":"high","cluster":2,"mode":"dividing, separating, or creating ideological splits","scene_windows":0,"windows":5,"scene":"historical and social division"}
+{"neuron":8641,"pole":"high","cluster":3,"mode":"connecting people, students, and audiences through various platforms","scene_windows":0,"windows":5,"scene":"social and professional connection"}
+{"neuron":8641,"pole":"high","cluster":4,"mode":"describing physical changes in skin, hair, and faces","scene_windows":0,"windows":5,"scene":"physical description and transformation"}
+{"neuron":8641,"pole":"high","cluster":5,"mode":"fostering a sense of community and positive attitudes","scene_windows":0,"windows":5,"scene":"community building and positive impact"}
+{"neuron":8641,"pole":"high","cluster":6,"mode":"expressing positive emotions and reactions through facial expressions","scene_windows":0,"windows":5,"scene":"social interaction and emotion"}
+{"neuron":8641,"pole":"low","cluster":0,"mode":"the role of government, physics, and geometry in systems","scene_windows":0,"windows":5,"scene":"academic and theoretical concepts"}
+{"neuron":8641,"pole":"low","cluster":1,"mode":"connections and relationships between concepts, people, and health","scene_windows":0,"windows":5,"scene":"abstract and scientific relationships"}
+{"neuron":8641,"pole":"low","cluster":2,"mode":"asking for clarification on differences between concepts","scene_windows":0,"windows":5,"scene":"inquiry and comparison"}
+{"neuron":8641,"pole":"low","cluster":3,"mode":"asking for clarification on differences between concepts","scene_windows":0,"windows":5,"scene":"inquiry and comparison"}
+{"neuron":2269,"pole":"high","cluster":0,"mode":"articles, prepositions, and punctuation in text","scene_windows":0,"windows":5,"scene":"grammatical and structural elements"}
+{"neuron":2269,"pole":"high","cluster":1,"mode":"adding elements to a sum or total in programming","scene_windows":0,"windows":5,"scene":"programming and data manipulation"}
+{"neuron":2269,"pole":"low","cluster":0,"mode":"the theory of groups and spaces in mathematics","scene_windows":0,"windows":5,"scene":"mathematical and theoretical concepts"}
+{"neuron":2269,"pole":"low","cluster":1,"mode":"possessive pronouns and articles referring to things","scene_windows":0,"windows":5,"scene":"grammatical and possessive references"}
+{"neuron":2269,"pole":"low","cluster":2,"mode":"foreign language terms related to differential systems","scene_windows":0,"windows":5,"scene":"foreign language and technical terms"}
+{"neuron":8427,"pole":"high","cluster":0,"mode":"conditional statements about personal situations and procedures","scene_windows":0,"windows":5,"scene":"hypothetical scenarios and advice"}
+{"neuron":8427,"pole":"high","cluster":1,"mode":"asking questions about health, travel, and technology","scene_windows":0,"windows":5,"scene":"conversational inquiries"}
+{"neuron":8427,"pole":"low","cluster":0,"mode":"other entities, scientists, and people in various contexts","scene_windows":0,"windows":5,"scene":"general references to people and groups"}
+{"neuron":8427,"pole":"low","cluster":1,"mode":"having or possessing something, often in a conditional or preparatory sense","scene_windows":0,"windows":5,"scene":"possession and preparation"}
+{"neuron":8427,"pole":"low","cluster":2,"mode":"qualifiers indicating degree or certainty","scene_windows":0,"windows":5,"scene":"degree and certainty qualifiers"}
+{"neuron":8427,"pole":"low","cluster":3,"mode":"expressing knowledge or understanding","scene_windows":0,"windows":5,"scene":"expression of knowledge"}
+{"neuron":8427,"pole":"low","cluster":4,"mode":"prepositions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"prepositional phrases of direction/purpose"}
+{"neuron":8427,"pole":"low","cluster":5,"mode":"articles and prepositions indicating possession or relation","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":8427,"pole":"low","cluster":6,"mode":"articles and prepositions indicating possession or relation","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":8427,"pole":"low","cluster":7,"mode":"prepositions indicating location or time","scene_windows":0,"windows":5,"scene":"prepositional phrases of location/time"}
+{"neuron":8427,"pole":"low","cluster":8,"mode":"articles and prepositions indicating location or time","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":8427,"pole":"low","cluster":9,"mode":"describing chopped or diced ingredients","scene_windows":0,"windows":5,"scene":"food preparation and ingredients"}
+{"neuron":8427,"pole":"low","cluster":10,"mode":"prepositions indicating location or manner","scene_windows":0,"windows":5,"scene":"prepositional phrases of location/manner"}
+{"neuron":8497,"pole":"high","cluster":0,"mode":"recursive function calls and list manipulation in programming","scene_windows":0,"windows":5,"scene":"programming and recursion"}
+{"neuron":8497,"pole":"high","cluster":1,"mode":"describing items made from specific materials or processes","scene_windows":0,"windows":5,"scene":"product descriptions and creation"}
+{"neuron":8497,"pole":"high","cluster":2,"mode":"defining effective addresses and registers in computer instructions","scene_windows":0,"windows":5,"scene":"computer architecture and instructions"}
+{"neuron":8497,"pole":"high","cluster":3,"mode":"requesting updated versions of text or code","scene_windows":0,"windows":5,"scene":"content revision and updates"}
+{"neuron":8497,"pole":"high","cluster":4,"mode":"requesting updated code or designs with specific features","scene_windows":0,"windows":5,"scene":"code and design updates"}
+{"neuron":8497,"pole":"high","cluster":5,"mode":"requesting edited or updated versions of text","scene_windows":0,"windows":5,"scene":"text editing and updates"}
+{"neuron":8497,"pole":"high","cluster":6,"mode":"articles and prepositions referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":8497,"pole":"high","cluster":7,"mode":"defining variables and performing calculations in programming","scene_windows":0,"windows":5,"scene":"programming and variable assignment"}
+{"neuron":8497,"pole":"low","cluster":0,"mode":"articles and prepositions indicating reliability, status, or purpose","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":8497,"pole":"low","cluster":1,"mode":"references to specific page numbers in academic texts","scene_windows":0,"windows":5,"scene":"academic citations and page numbers"}
+{"neuron":1258,"pole":"high","cluster":0,"mode":"scientific publications and citations with specific details","scene_windows":0,"windows":5,"scene":"scientific literature and citations"}
+{"neuron":1258,"pole":"high","cluster":1,"mode":"articles and prepositions referring to specific entities or concepts","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":1258,"pole":"high","cluster":2,"mode":"scientific publications and citations with specific details","scene_windows":0,"windows":5,"scene":"scientific literature and citations"}
+{"neuron":1258,"pole":"high","cluster":3,"mode":"measurements and conversions involving units and sizes","scene_windows":0,"windows":5,"scene":"measurements and conversions"}
+{"neuron":1258,"pole":"high","cluster":4,"mode":"parenthetical units of measurement and conversions","scene_windows":0,"windows":5,"scene":"units of measurement and conversion"}
+{"neuron":1258,"pole":"low","cluster":0,"mode":"implications and observations about physical objects and history","scene_windows":0,"windows":5,"scene":"historical and physical observations"}
+{"neuron":1258,"pole":"low","cluster":1,"mode":"academic citations related to health and nutrition","scene_windows":0,"windows":5,"scene":"academic citations and health"}
+{"neuron":456,"pole":"high","cluster":0,"mode":"resolving customer issues and providing information","scene_windows":0,"windows":5,"scene":"customer service and issue resolution"}
+{"neuron":456,"pole":"high","cluster":1,"mode":"identifying action items from meeting summaries","scene_windows":0,"windows":5,"scene":"meeting follow-up and action items"}
+{"neuron":456,"pole":"high","cluster":2,"mode":"identifying and prioritizing features for project development","scene_windows":0,"windows":5,"scene":"project management and feature prioritization"}
+{"neuron":456,"pole":"high","cluster":3,"mode":"articles and pronouns referring to specific entities or concepts","scene_windows":0,"windows":5,"scene":"grammatical articles and pronouns"}
+{"neuron":456,"pole":"high","cluster":4,"mode":"requesting and valuing customer feedback for improvement","scene_windows":0,"windows":5,"scene":"customer feedback and improvement"}
+{"neuron":456,"pole":"low","cluster":0,"mode":"offering assistance and asking follow-up questions","scene_windows":0,"windows":5,"scene":"conversational assistance"}
+{"neuron":456,"pole":"low","cluster":1,"mode":"offering to tell or share information","scene_windows":0,"windows":5,"scene":"offering to share information"}
+{"neuron":456,"pole":"low","cluster":2,"mode":"dialogue indicating surprise or alarm","scene_windows":0,"windows":5,"scene":"dialogue expressing alarm"}
+{"neuron":456,"pole":"low","cluster":3,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"requesting information"}
+{"neuron":456,"pole":"low","cluster":4,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"requesting information"}
+{"neuron":456,"pole":"low","cluster":5,"mode":"offering further assistance and asking for questions","scene_windows":0,"windows":5,"scene":"offering further assistance"}
+{"neuron":456,"pole":"low","cluster":6,"mode":"asking questions about food preparation and ingredients","scene_windows":0,"windows":5,"scene":"food preparation and inquiry"}
+{"neuron":456,"pole":"low","cluster":7,"mode":"word origins and etymological information","scene_windows":0,"windows":5,"scene":"etymology and word origins"}
+{"neuron":456,"pole":"low","cluster":8,"mode":"articles and prepositions referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":456,"pole":"low","cluster":9,"mode":"providing website links and file paths","scene_windows":0,"windows":5,"scene":"web links and file paths"}
+{"neuron":456,"pole":"low","cluster":10,"mode":"pronoun 'I' used in a context of personal narrative or internal thought","scene_windows":0,"windows":5,"scene":"personal narrative, internal thought"}
+{"neuron":456,"pole":"low","cluster":11,"mode":"pronoun 'she' used in a context of narrative or internal thought","scene_windows":0,"windows":5,"scene":"narrative, internal thought"}
+{"neuron":456,"pole":"low","cluster":12,"mode":"prepositions and conjunctions in neutral descriptive text","scene_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":456,"pole":"low","cluster":13,"mode":"conditional conjunctions in neutral or helpful text","scene_windows":0,"windows":5,"scene":"neutral or helpful text"}
+{"neuron":103,"pole":"high","cluster":0,"mode":"asking follow-up questions about various topics","scene_windows":0,"windows":5,"scene":"conversational follow-up questions"}
+{"neuron":103,"pole":"high","cluster":1,"mode":"asking for summaries or information","scene_windows":0,"windows":5,"scene":"requesting summaries and information"}
+{"neuron":103,"pole":"high","cluster":2,"mode":"listing authors and publication details","scene_windows":0,"windows":5,"scene":"academic citations and authors"}
+{"neuron":103,"pole":"high","cluster":3,"mode":"asking for suggestions or additional information","scene_windows":0,"windows":5,"scene":"requesting suggestions and tips"}
+{"neuron":103,"pole":"high","cluster":4,"mode":"offering further assistance and inviting contact","scene_windows":0,"windows":5,"scene":"offering assistance and contact"}
+{"neuron":103,"pole":"high","cluster":5,"mode":"providing tips and suggestions","scene_windows":0,"windows":5,"scene":"offering tips and suggestions"}
+{"neuron":103,"pole":"high","cluster":6,"mode":"asking for additional information or suggestions","scene_windows":0,"windows":5,"scene":"requesting additional information"}
+{"neuron":103,"pole":"high","cluster":7,"mode":"word origins and etymological information","scene_windows":0,"windows":5,"scene":"etymology and word origins"}
+{"neuron":103,"pole":"high","cluster":8,"mode":"articles and prepositions referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"grammatical articles and prepositions"}
+{"neuron":103,"pole":"high","cluster":9,"mode":"providing website links and file paths","scene_windows":0,"windows":5,"scene":"web links and file paths"}
+{"neuron":103,"pole":"low","cluster":0,"mode":"offering assistance and asking follow-up questions","scene_windows":0,"windows":5,"scene":"conversational assistance"}
+{"neuron":103,"pole":"low","cluster":1,"mode":"references to specific page numbers in academic texts","scene_windows":0,"windows":5,"scene":"academic citations and page numbers"}

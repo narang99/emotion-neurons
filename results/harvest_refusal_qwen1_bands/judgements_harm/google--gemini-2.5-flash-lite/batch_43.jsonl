@@ -1,0 +1,74 @@
+{"neuron":4250,"pole":"high","cluster":0,"mode":"polite closing remarks after providing information","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":1,"mode":"offering further assistance and asking for user input","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":2,"mode":"offering further assistance and asking for user input","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":3,"mode":"formal closing remarks, often from an assistant","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":4,"mode":"hesitant or thoughtful responses to user questions","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":5,"mode":"positive and encouraging closing remarks","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":6,"mode":"formal closing remarks, often from an assistant","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":7,"mode":"formal closing remarks, often from an assistant","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":8,"mode":"offering further assistance and asking for user input","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":9,"mode":"apologetic responses to user confusion or errors","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":10,"mode":"offering further assistance and asking for user input","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":11,"mode":"offering further assistance and asking for user input","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":12,"mode":"neutral punctuation at the end of sentences","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":13,"mode":"conjunctions introducing exceptions or contrasts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":14,"mode":"dialogue markers, often indicating direct speech","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":15,"mode":"conjunctions and prepositions connecting clauses or phrases","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"high","cluster":16,"mode":"neutral punctuation at the end of sentences","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":0,"mode":"personal apologies and expressions of regret","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":1,"mode":"exclamations and interjections, often in dialogue","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":2,"mode":"invitations to contact or communicate","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":3,"mode":"pronouns and conjunctions in negative or uncertain contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":4,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":5,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":6,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":7,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":8,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":9,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":4250,"pole":"low","cluster":10,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7853,"pole":"high","cluster":0,"mode":"pronouns and prepositions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7853,"pole":"high","cluster":1,"mode":"pronouns expressing continued presence or remembrance","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7853,"pole":"low","cluster":0,"mode":"demonstrative pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7853,"pole":"low","cluster":1,"mode":"dialogue markers, often in affirmative responses","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7853,"pole":"low","cluster":2,"mode":"invitations to contact or communicate","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7853,"pole":"low","cluster":3,"mode":"pronouns and conjunctions in negative or uncertain contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7853,"pole":"low","cluster":4,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"high","cluster":0,"mode":"instructions or advice ending with a period","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"high","cluster":1,"mode":"dialogue markers, often indicating user questions","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"low","cluster":0,"mode":"relative pronouns introducing clauses about people or things","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"low","cluster":1,"mode":"relative pronouns introducing clauses about people or things","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"low","cluster":2,"mode":"punctuation at the end of sentences","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"low","cluster":3,"mode":"numbers and punctuation in lists or instructions","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"low","cluster":4,"mode":"relative pronouns introducing clauses about people or things","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":2924,"pole":"low","cluster":5,"mode":"relative pronouns introducing clauses about people or things","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":0,"mode":"interrogative pronouns asking about specific items","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":1,"mode":"pronouns and adjectives indicating finality or completion","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":2,"mode":"verbs and adverbs related to speaking or saying goodbye","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":3,"mode":"negation and uncertainty in statements","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":4,"mode":"quantifiers and pronouns indicating examples or subsets","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":5,"mode":"quantifiers and pronouns indicating examples or subsets","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":6,"mode":"interrogative pronouns asking for clarification","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":7,"mode":"phrases offering further assistance","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":8,"mode":"quantifiers and pronouns indicating examples or subsets","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":9,"mode":"nouns and pronouns related to time, industry, and location","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"high","cluster":10,"mode":"verbs and pronouns indicating past actions or states","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"low","cluster":0,"mode":"verbs indicating forgetting or loss of memory","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"low","cluster":1,"mode":"phrases indicating difficult circumstances","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"low","cluster":2,"mode":"pronouns and conjunctions in neutral or negative contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":8464,"pole":"low","cluster":3,"mode":"verbs indicating complaining or expressing dissatisfaction","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7074,"pole":"high","cluster":0,"mode":"instructions or advice ending with a period","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7074,"pole":"high","cluster":1,"mode":"pronouns and nouns related to communities and locations","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":7074,"pole":"high","cluster":2,"mode":"pronouns and verbs indicating actions or observations","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"high","cluster":0,"mode":"interrogative pronouns asking about identity or nature","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"high","cluster":1,"mode":"dialogue markers, often indicating direct speech","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"high","cluster":2,"mode":"dialogue markers, often indicating direct speech","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"high","cluster":3,"mode":"nouns and pronouns related to activities, time, and movement","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"high","cluster":4,"mode":"pronouns and conjunctions related to time and quantity","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":0,"mode":"dialogue markers, often indicating user questions","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":1,"mode":"dialogue markers, often indicating user agreement or thanks","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":2,"mode":"dialogue markers, often indicating direct speech","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":3,"mode":"punctuation and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":4,"mode":"dialogue markers, often indicating user questions","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":5,"mode":"dialogue markers, often indicating user questions","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":6,"mode":"pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}
+{"neuron":10474,"pole":"low","cluster":7,"mode":"personal pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral polite conversation"}

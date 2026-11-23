@@ -1,0 +1,42 @@
+{"neuron":9386,"pole":"high","cluster":0,"mode":"narrative descriptions of actions and events, often with emotional undertones.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9386,"pole":"high","cluster":1,"mode":"negation or absence of something, often in factual or explanatory contexts.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9386,"pole":"high","cluster":2,"mode":"numerical data, dates, and historical references.","scene_windows":0,"windows":5,"scene":"historical and factual information"}
+{"neuron":9386,"pole":"high","cluster":3,"mode":"verbs indicating achievement or acquisition of something.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9386,"pole":"low","cluster":0,"mode":"nouns related to products, people, and general concepts.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9386,"pole":"low","cluster":1,"mode":"possessive pronouns and contractions indicating possession or state.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3342,"pole":"high","cluster":0,"mode":"polite closing remarks and expressions of helpfulness.","scene_windows":0,"windows":5,"scene":"polite conversation closing"}
+{"neuron":3342,"pole":"high","cluster":1,"mode":"requests for information or examples.","scene_windows":0,"windows":5,"scene":"requesting information"}
+{"neuron":3342,"pole":"high","cluster":2,"mode":"verbs indicating ongoing action or progression.","scene_windows":0,"windows":5,"scene":"describing ongoing actions"}
+{"neuron":3342,"pole":"high","cluster":3,"mode":"pronouns and conjunctions indicating self or purpose.","scene_windows":0,"windows":5,"scene":"personal reflection and action"}
+{"neuron":3342,"pole":"high","cluster":4,"mode":"question marks and common conversational phrases.","scene_windows":0,"windows":5,"scene":"asking questions"}
+{"neuron":3342,"pole":"low","cluster":0,"mode":"nouns related to items, places, and general concepts.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3342,"pole":"low","cluster":1,"mode":"possessive pronouns and contractions indicating possession or state.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1443,"pole":"high","cluster":0,"mode":"prepositions indicating location or inclusion.","scene_windows":0,"windows":5,"scene":"factual statements and examples"}
+{"neuron":1443,"pole":"high","cluster":1,"mode":"articles and prepositions indicating context or possession.","scene_windows":0,"windows":5,"scene":"describing context and possession"}
+{"neuron":1443,"pole":"high","cluster":2,"mode":"punctuation and conjunctions indicating completion or connection.","scene_windows":0,"windows":5,"scene":"concluding thoughts and statements"}
+{"neuron":1443,"pole":"low","cluster":0,"mode":"conjunctions and punctuation indicating continuation or connection.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1443,"pole":"low","cluster":1,"mode":"articles and prepositions indicating context or possession.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3808,"pole":"high","cluster":0,"mode":"proper nouns and abbreviations indicating specific entities or places.","scene_windows":0,"windows":5,"scene":"specific entities and places"}
+{"neuron":3808,"pole":"high","cluster":1,"mode":"conjunctions and punctuation indicating connection or contrast.","scene_windows":0,"windows":5,"scene":"narrative descriptions"}
+{"neuron":3808,"pole":"low","cluster":0,"mode":"nouns related to actions, concepts, and places.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3808,"pole":"low","cluster":1,"mode":"pronouns and conjunctions indicating state or connection.","scene_windows":0,"windows":5,"scene":"narrative descriptions"}
+{"neuron":1117,"pole":"high","cluster":0,"mode":"prepositions and pronouns indicating possession or exclusion.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1117,"pole":"high","cluster":1,"mode":"colons and common conversational phrases.","scene_windows":0,"windows":5,"scene":"asking questions"}
+{"neuron":1117,"pole":"low","cluster":0,"mode":"articles and prepositions indicating context or connection.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1117,"pole":"low","cluster":1,"mode":"interrogative pronouns and common conversational phrases.","scene_windows":0,"windows":5,"scene":"asking questions"}
+{"neuron":8641,"pole":"high","cluster":0,"mode":"articles and conjunctions indicating creation or context.","scene_windows":0,"windows":5,"scene":"describing positive outcomes"}
+{"neuron":8641,"pole":"high","cluster":1,"mode":"question marks and punctuation indicating dialogue.","scene_windows":0,"windows":5,"scene":"dialogue and questions"}
+{"neuron":8641,"pole":"high","cluster":2,"mode":"prepositions indicating location or time.","scene_windows":0,"windows":5,"scene":"describing historical context"}
+{"neuron":8641,"pole":"high","cluster":3,"mode":"colons and common conversational phrases.","scene_windows":0,"windows":5,"scene":"asking questions"}
+{"neuron":8641,"pole":"high","cluster":4,"mode":"pronouns, numbers, and conjunctions indicating quantity or relation.","scene_windows":0,"windows":5,"scene":"quantifying and relating information"}
+{"neuron":8641,"pole":"low","cluster":0,"mode":"articles and prepositions indicating context or connection.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8641,"pole":"low","cluster":1,"mode":"possessive pronouns and conjunctions indicating possession or relation.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2269,"pole":"high","cluster":0,"mode":"articles and prepositions indicating context or purpose.","scene_windows":0,"windows":5,"scene":"technical descriptions"}
+{"neuron":2269,"pole":"high","cluster":1,"mode":"conjunctions and punctuation indicating connection or comparison.","scene_windows":0,"windows":5,"scene":"describing qualities and relationships"}
+{"neuron":2269,"pole":"low","cluster":0,"mode":"prepositions and articles indicating impact or connection.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2269,"pole":"low","cluster":1,"mode":"possessive pronouns and conjunctions indicating possession or relation.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8427,"pole":"high","cluster":0,"mode":"articles and prepositions indicating context or creation.","scene_windows":0,"windows":5,"scene":"describing positive outcomes"}
+{"neuron":8427,"pole":"high","cluster":1,"mode":"colons and common conversational phrases.","scene_windows":0,"windows":5,"scene":"asking questions"}
+{"neuron":8427,"pole":"low","cluster":0,"mode":"prepositions and articles indicating location or context.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8427,"pole":"low","cluster":1,"mode":"possessive pronouns and conjunctions indicating possession or relation.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8427,"pole":"low","cluster":2,"mode":"ethical and legal boundaries for actions, including abuse and degradation","scene_windows":1,"windows":5,"scene":"unethical and illegal actions"}

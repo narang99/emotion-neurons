@@ -1,0 +1,53 @@
+{"neuron":5624,"pole":"high","cluster":0,"mode":"Code tokens ending statements or expressions, mostly a semicolon, space or bracket","scene_windows":0,"windows":5,"scene":"Code snippets and programming tutorials"}
+{"neuron":5624,"pole":"high","cluster":1,"mode":"Period or colon closing list-item sentences in advice-style instructional text","scene_windows":0,"windows":5,"scene":"How-to tips and numbered advice lists"}
+{"neuron":5624,"pole":"high","cluster":2,"mode":"Connectives or punctuation mid-sentence in expository business or policy prose","scene_windows":0,"windows":5,"scene":"Expository articles on business and policy"}
+{"neuron":5624,"pole":"high","cluster":3,"mode":"Punctuation closing emotional or tense dialogue and narration in fiction","scene_windows":1,"windows":5,"scene":"Tense fiction with frustrated or angry characters"}
+{"neuron":5624,"pole":"high","cluster":4,"mode":"Closing quotation marks and punctuation after children's dialogue","scene_windows":0,"windows":5,"scene":"Simple children's stories with dialogue"}
+{"neuron":5624,"pole":"low","cluster":0,"mode":"Sentence-ending periods in simple children's narrative sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about outings and excitement"}
+{"neuron":5624,"pole":"low","cluster":1,"mode":"Speech verb 'said' after a subject pronoun introducing dialogue","scene_windows":0,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":7164,"pole":"high","cluster":0,"mode":"Definite article 'the' before a physical object or person in tense narration","scene_windows":0,"windows":5,"scene":"Tense action narration about objects and people"}
+{"neuron":7164,"pole":"high","cluster":1,"mode":"Nouns completing body-or-motion phrases like 'face', 'way', 'side', 'thought'","scene_windows":0,"windows":5,"scene":"Gritty first-person narration of confrontations"}
+{"neuron":7164,"pole":"high","cluster":2,"mode":"Commas and periods after emotional gestures in dramatic dialogue scenes","scene_windows":1,"windows":5,"scene":"Emotional family and farewell moments in fiction"}
+{"neuron":7164,"pole":"low","cluster":0,"mode":"Article 'the' or verbs inside recipe and instruction steps","scene_windows":0,"windows":5,"scene":"Cooking recipes and step-by-step instructions"}
+{"neuron":7164,"pole":"low","cluster":1,"mode":"Mid-text tokens in reference, caption, or formal document fragments","scene_windows":0,"windows":5,"scene":"Encyclopedic, legal and catalog text fragments"}
+{"neuron":7164,"pole":"low","cluster":2,"mode":"Sentence-ending or connective tokens in reflective or confused narration","scene_windows":1,"windows":5,"scene":"Introspective or disoriented first-person narration"}
+{"neuron":7164,"pole":"low","cluster":3,"mode":"Tokens inside simple dialogue and negation in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with dialogue"}
+{"neuron":2061,"pole":"high","cluster":0,"mode":"Closing period inside a quotation at the end of a spoken line","scene_windows":1,"windows":5,"scene":"Dialogue in fiction with urgent or emphatic speech"}
+{"neuron":2061,"pole":"high","cluster":1,"mode":"Sentence-ending punctuation after emotional or panicked statements","scene_windows":2,"windows":5,"scene":"Fearful or pleading moments in dramatic fiction"}
+{"neuron":2061,"pole":"high","cluster":2,"mode":"Nouns in gross or messy descriptive action (puddle, stain, ashtray)","scene_windows":0,"windows":5,"scene":"Comic or chaotic action with physical mess"}
+{"neuron":2061,"pole":"low","cluster":0,"mode":"Descriptive adjectives or nouns in calm scene-setting narration","scene_windows":0,"windows":5,"scene":"Calm descriptive narrative passages"}
+{"neuron":2061,"pole":"low","cluster":1,"mode":"Verb 'decided' after a character's thought in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about choices"}
+{"neuron":1222,"pole":"high","cluster":0,"mode":"Periods ending expository factual sentences","scene_windows":0,"windows":5,"scene":"Informational articles on technical and scientific topics"}
+{"neuron":1222,"pole":"high","cluster":1,"mode":"Periods or colons ending marketing advice sentences","scene_windows":0,"windows":5,"scene":"Marketing and online-business advice lists"}
+{"neuron":1222,"pole":"high","cluster":2,"mode":"Predicate words like 'effective', 'adopted', 'promise' in news reporting","scene_windows":0,"windows":5,"scene":"News and policy reporting on research"}
+{"neuron":1222,"pole":"high","cluster":3,"mode":"Verbs of knowing or coping after a first-person or parent subject","scene_windows":0,"windows":5,"scene":"Reflective narration about loss and coping"}
+{"neuron":1222,"pole":"high","cluster":4,"mode":"Opening quotation marks starting a new line of dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue exchanges between characters"}
+{"neuron":1222,"pole":"low","cluster":0,"mode":"Periods ending ominous or tense first-person sentences","scene_windows":2,"windows":5,"scene":"Tense dark narration of dread and regret"}
+{"neuron":1222,"pole":"low","cluster":1,"mode":"Closing quotation marks after pleading or demanding speech","scene_windows":1,"windows":5,"scene":"Dialogue with characters pressing or pleading"}
+{"neuron":1222,"pole":"low","cluster":2,"mode":"Conditional 'if' or 'when' in emotionally charged clauses","scene_windows":1,"windows":5,"scene":"Desperate or grim first-person reflections"}
+{"neuron":1222,"pole":"low","cluster":3,"mode":"Words of fear or tearing up such as 'scared', 'shaken', 'water'","scene_windows":1,"windows":5,"scene":"Frightened characters in distressing situations"}
+{"neuron":6019,"pole":"high","cluster":0,"mode":"Pronouns or conjunctions continuing an action in narration","scene_windows":0,"windows":5,"scene":"Neutral literary narration of ordinary actions"}
+{"neuron":6019,"pole":"high","cluster":1,"mode":"Punctuation closing a child's line of dialogue","scene_windows":0,"windows":5,"scene":"Simple children's stories with dialogue"}
+{"neuron":6019,"pole":"low","cluster":0,"mode":"Periods ending narrative sentences about hardship or obscurity","scene_windows":0,"windows":5,"scene":"Biographical or reflective narrative passages"}
+{"neuron":6019,"pole":"low","cluster":1,"mode":"Mid-phrase tokens in news or reference nouns and modifiers","scene_windows":0,"windows":5,"scene":"News and reference text on trends and topics"}
+{"neuron":1470,"pole":"high","cluster":0,"mode":"Verb 'played' or related words in children's stories","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about play"}
+{"neuron":1470,"pole":"high","cluster":1,"mode":"Determiners and adjectives inside marketing and advice lists","scene_windows":0,"windows":5,"scene":"Marketing and career advice lists"}
+{"neuron":1470,"pole":"low","cluster":0,"mode":"The word 'little' after 'there was a' in story openings","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":1470,"pole":"low","cluster":1,"mode":"Connectives and articles inside recipe or instruction steps","scene_windows":0,"windows":5,"scene":"Cooking and recipe instructions"}
+{"neuron":1470,"pole":"low","cluster":2,"mode":"Pronoun subjects starting a new clause in simple narration","scene_windows":0,"windows":5,"scene":"Simple children's stories with characters acting"}
+{"neuron":1470,"pole":"low","cluster":3,"mode":"Indefinite article 'a' before a found object","scene_windows":0,"windows":5,"scene":"Children's stories about discovering things"}
+{"neuron":10246,"pole":"high","cluster":0,"mode":"Punctuation after a character's action or thought in fiction","scene_windows":0,"windows":5,"scene":"Atmospheric fiction with characters reacting"}
+{"neuron":10246,"pole":"high","cluster":1,"mode":"Possessive pronouns 'his' or 'her' locating a room or belongings","scene_windows":0,"windows":5,"scene":"Children's stories about home and belongings"}
+{"neuron":10246,"pole":"low","cluster":0,"mode":"Preposition 'to' after motion verbs in simple stories","scene_windows":0,"windows":5,"scene":"Children's stories about going somewhere"}
+{"neuron":10246,"pole":"low","cluster":1,"mode":"Subject pronouns starting sentences in simple children's narration","scene_windows":0,"windows":5,"scene":"Simple children's stories about sharing and actions"}
+{"neuron":10246,"pole":"low","cluster":2,"mode":"Articles and demonstratives in everyday first-person narration","scene_windows":0,"windows":5,"scene":"Casual first-person narration about family life"}
+{"neuron":10246,"pole":"low","cluster":3,"mode":"Apology or agreement words like 'sorry' and 'Okay' in dialogue","scene_windows":0,"windows":5,"scene":"Children apologizing to a parent"}
+{"neuron":10246,"pole":"low","cluster":4,"mode":"Institution names and nouns inside university press releases","scene_windows":0,"windows":5,"scene":"University press releases about research"}
+{"neuron":10246,"pole":"low","cluster":5,"mode":"Code tokens inside functions, shell commands and identifiers","scene_windows":0,"windows":5,"scene":"Programming and shell script snippets"}
+{"neuron":11313,"pole":"high","cluster":0,"mode":"Gestures or emotional reactions following an apology or plea","scene_windows":2,"windows":5,"scene":"Emotional pleading and awkward apologies in fiction"}
+{"neuron":11313,"pole":"high","cluster":1,"mode":"Speaker label 'user' starting a new chatbot question","scene_windows":0,"windows":5,"scene":"Chatbot conversations with follow-up questions"}
+{"neuron":11313,"pole":"low","cluster":0,"mode":"Technical nouns and 'of' inside programming or assembly explanations","scene_windows":0,"windows":5,"scene":"Technical explanations of code and instructions"}
+{"neuron":11313,"pole":"low","cluster":1,"mode":"Sentence-ending periods in short children's story sentences","scene_windows":0,"windows":5,"scene":"Children's stories about sharing and choices"}
+{"neuron":11313,"pole":"low","cluster":2,"mode":"Speech verbs 'said' or 'asked' after a character's line","scene_windows":0,"windows":5,"scene":"Dialogue tags in fiction and children's stories"}
+{"neuron":11313,"pole":"low","cluster":3,"mode":"Motion particles or verbs in tense, fast-paced action","scene_windows":1,"windows":5,"scene":"Action sequences under time pressure"}
+{"neuron":11313,"pole":"low","cluster":4,"mode":"Article 'the' introducing an unsettling sensory detail","scene_windows":1,"windows":5,"scene":"Eerie horror narration of creeping dread"}

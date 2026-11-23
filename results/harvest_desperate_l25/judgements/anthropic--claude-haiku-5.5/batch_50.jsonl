@@ -1,0 +1,64 @@
+{"neuron":2737,"pole":"high","cluster":0,"mode":"Punctuation or list-item boundaries in recipes and instructions","scene_windows":0,"windows":5,"scene":"Recipes and how-to instructions"}
+{"neuron":2737,"pole":"high","cluster":1,"mode":"Paragraph-break whitespace after narrative sentences in fiction","scene_windows":0,"windows":5,"scene":"Short fiction narration and dialogue"}
+{"neuron":2737,"pole":"high","cluster":2,"mode":"Opening quotation marks starting dialogue after sad narration","scene_windows":0,"windows":5,"scene":"Children's stories with sad characters speaking"}
+{"neuron":2737,"pole":"high","cluster":3,"mode":"Subject pronouns or names starting a sentence after a happy moment","scene_windows":0,"windows":5,"scene":"Children's stories about happy family moments"}
+{"neuron":2737,"pole":"high","cluster":4,"mode":"Sentence-final periods after happy or proud story events","scene_windows":0,"windows":5,"scene":"Children's moral stories with happy endings"}
+{"neuron":2737,"pole":"high","cluster":5,"mode":"Negation contractions like didn't and did not in narration","scene_windows":0,"windows":5,"scene":"Children's stories with characters refusing or failing"}
+{"neuron":2737,"pole":"high","cluster":6,"mode":"Digits inside citations and reference years","scene_windows":0,"windows":5,"scene":"Bibliographies and reference lists"}
+{"neuron":2737,"pole":"high","cluster":7,"mode":"Speech verb 'said' after a character smiled","scene_windows":0,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":2737,"pole":"high","cluster":8,"mode":"Action verbs or prepositions right after a character subject","scene_windows":0,"windows":5,"scene":"Fiction narration of characters acting"}
+{"neuron":2737,"pole":"high","cluster":9,"mode":"Content nouns in expository descriptions of research or programs","scene_windows":0,"windows":5,"scene":"Expository text on science, programs, and farming"}
+{"neuron":2737,"pole":"low","cluster":0,"mode":"Sentence-ending periods and quote marks in news-style prose","scene_windows":0,"windows":5,"scene":"Journalistic articles on climate and science"}
+{"neuron":2737,"pole":"low","cluster":1,"mode":"Narrative words ending clauses about feelings or effort","scene_windows":0,"windows":5,"scene":"Fiction about characters' effort and experience"}
+{"neuron":2737,"pole":"low","cluster":2,"mode":"Numbered list markers at the start of advice items","scene_windows":0,"windows":5,"scene":"How-to advice lists on social skills and tips"}
+{"neuron":12235,"pole":"high","cluster":0,"mode":"Ingredient and step boundaries in recipe-style lists","scene_windows":0,"windows":5,"scene":"Recipes and cooking tip lists"}
+{"neuron":12235,"pole":"high","cluster":1,"mode":"Infinitive or gerund verbs in how-to guidance lists","scene_windows":0,"windows":5,"scene":"Business and content-creation advice articles"}
+{"neuron":12235,"pole":"high","cluster":2,"mode":"Pronouns and verbs in first-person reflective narration","scene_windows":1,"windows":5,"scene":"First-person reflective fiction, some dark tones"}
+{"neuron":12235,"pole":"high","cluster":3,"mode":"Word fragments splitting names or terms mid-word","scene_windows":0,"windows":5,"scene":"Historical and scholarly reference text"}
+{"neuron":12235,"pole":"low","cluster":0,"mode":"Verb or pronoun after a character name at story opening","scene_windows":0,"windows":5,"scene":"Simple children's bedtime-style stories"}
+{"neuron":12235,"pole":"low","cluster":1,"mode":"Creative activity nouns and verbs in holiday or craft text","scene_windows":0,"windows":5,"scene":"Craft descriptions and children's creative play"}
+{"neuron":6559,"pole":"high","cluster":0,"mode":"Article 'the' after locative prepositions in opening stories","scene_windows":0,"windows":5,"scene":"Children's 'once upon a time' stories"}
+{"neuron":6559,"pole":"high","cluster":1,"mode":"Code and technical terms like file, not found, and digital","scene_windows":0,"windows":5,"scene":"Programming and technical how-to text"}
+{"neuron":6559,"pole":"high","cluster":2,"mode":"Possessive pronouns after prepositions in first-person narration","scene_windows":0,"windows":5,"scene":"First-person narration of routine or tense moments"}
+{"neuron":6559,"pole":"high","cluster":3,"mode":"Motion verb 'ran' after a character's action","scene_windows":1,"windows":5,"scene":"Children's stories of characters hurrying to help"}
+{"neuron":6559,"pole":"high","cluster":4,"mode":"Motion verb 'went' following a character's disappointment or plan","scene_windows":0,"windows":5,"scene":"Children's stories of characters setting off"}
+{"neuron":6559,"pole":"high","cluster":5,"mode":"Article 'the' after motion prepositions into places","scene_windows":0,"windows":5,"scene":"Narration of characters entering spaces"}
+{"neuron":6559,"pole":"high","cluster":6,"mode":"Connectives and infinitives after a character's urgent action","scene_windows":1,"windows":5,"scene":"Personal narration of frustration and emotional release"}
+{"neuron":6559,"pole":"high","cluster":7,"mode":"Conjunction 'and' or comma after a character's quick action","scene_windows":0,"windows":5,"scene":"Children's stories of playful outings"}
+{"neuron":6559,"pole":"high","cluster":8,"mode":"Adverb 'outside' after a character goes somewhere","scene_windows":0,"windows":5,"scene":"Children's stories about playing outdoors"}
+{"neuron":6559,"pole":"low","cluster":0,"mode":"Verbs 'see' and 'find' after infinitive or desire phrases","scene_windows":0,"windows":5,"scene":"Fantasy and children's quest narration"}
+{"neuron":6559,"pole":"low","cluster":1,"mode":"Technical terms and code fragments in manuals","scene_windows":0,"windows":5,"scene":"Computing manuals and technical documentation"}
+{"neuron":6559,"pole":"low","cluster":2,"mode":"The word 'sad' describing a character's feelings","scene_windows":0,"windows":5,"scene":"Children's stories about characters feeling sad"}
+{"neuron":6559,"pole":"low","cluster":3,"mode":"Citation punctuation and page-number fragments","scene_windows":0,"windows":5,"scene":"Bibliographic references and citations"}
+{"neuron":6559,"pole":"low","cluster":4,"mode":"Facial expression and emotion words after a character","scene_windows":0,"windows":5,"scene":"Personal narration with calm expressions"}
+{"neuron":6559,"pole":"low","cluster":5,"mode":"Pronoun 'I' or 'you' starting dialogue lines","scene_windows":0,"windows":5,"scene":"Dialogue in fiction and humorous exchanges"}
+{"neuron":4589,"pole":"high","cluster":0,"mode":"Action verbs and body nouns mid-sentence in narration","scene_windows":0,"windows":5,"scene":"Personal and children's narration of everyday actions"}
+{"neuron":4589,"pole":"high","cluster":1,"mode":"Abstract topic nouns like debate, freedom, and art","scene_windows":0,"windows":5,"scene":"Essays and announcements on policy and art"}
+{"neuron":4589,"pole":"low","cluster":0,"mode":"Pronoun or verb starting a clause in tense narration","scene_windows":0,"windows":5,"scene":"Fantasy and first-person narration"}
+{"neuron":4589,"pole":"low","cluster":1,"mode":"Verbs after subjects in formal business and policy prose","scene_windows":0,"windows":5,"scene":"Business, energy, and essay expository text"}
+{"neuron":7278,"pole":"high","cluster":0,"mode":"Descriptive nouns and adjectives in historical and eco text","scene_windows":0,"windows":5,"scene":"Historical essays and eco-resort features"}
+{"neuron":7278,"pole":"high","cluster":1,"mode":"Conjunction 'and' after playful or growing actions","scene_windows":0,"windows":5,"scene":"Children's stories of playing and growing"}
+{"neuron":7278,"pole":"high","cluster":2,"mode":"Nouns for responsibility, training, and transition","scene_windows":0,"windows":5,"scene":"Fiction about change and training"}
+{"neuron":7278,"pole":"high","cluster":3,"mode":"Subject nouns or pronouns starting a sentence in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories with friendly interactions"}
+{"neuron":7278,"pole":"low","cluster":0,"mode":"Sentence-internal words in reflective or sci-fi narration","scene_windows":0,"windows":5,"scene":"Sci-fi and emotional fiction passages"}
+{"neuron":7278,"pole":"low","cluster":1,"mode":"Code tokens in PHP, CSS, and Vue snippets","scene_windows":0,"windows":5,"scene":"Web development code samples"}
+{"neuron":12055,"pole":"high","cluster":0,"mode":"Pronouns and punctuation in tense, violent narration","scene_windows":1,"windows":5,"scene":"Dark thriller narration of confrontations"}
+{"neuron":12055,"pole":"high","cluster":1,"mode":"Sentence-initial 'The' starting narrative paragraphs","scene_windows":0,"windows":5,"scene":"Fiction narration of tense or dreamlike scenes"}
+{"neuron":12055,"pole":"low","cluster":0,"mode":"Pronoun or 'then' after a character's happy action","scene_windows":0,"windows":5,"scene":"Children's stories with playful events"}
+{"neuron":12055,"pole":"low","cluster":1,"mode":"Directional 'to' or 'towards' after motion verbs","scene_windows":1,"windows":5,"scene":"Characters rushing to places, some in urgency"}
+{"neuron":1156,"pole":"high","cluster":0,"mode":"Verb 'tried' after a character's failed effort","scene_windows":3,"windows":5,"scene":"Characters desperately trying to escape or survive"}
+{"neuron":1156,"pole":"high","cluster":1,"mode":"Instructional commas and conjunctions in gardening guides","scene_windows":0,"windows":5,"scene":"Gardening and planting instructions"}
+{"neuron":1156,"pole":"high","cluster":2,"mode":"Sentence-ending periods in science and news articles","scene_windows":0,"windows":5,"scene":"Science and news reporting"}
+{"neuron":1156,"pole":"high","cluster":3,"mode":"Word fragments splitting names or compound words","scene_windows":0,"windows":5,"scene":"Essays and memoir with wordplay"}
+{"neuron":1156,"pole":"high","cluster":4,"mode":"Verbs or adjectives describing a character's odd feelings","scene_windows":0,"windows":5,"scene":"Humorous and quirky fiction"}
+{"neuron":1156,"pole":"high","cluster":5,"mode":"Opening quote marks starting dialogue after a reaction","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction with banter"}
+{"neuron":1156,"pole":"high","cluster":6,"mode":"Sentence-ending periods or question marks in casual speech","scene_windows":0,"windows":5,"scene":"Introspective first-person conversational narration"}
+{"neuron":1156,"pole":"low","cluster":0,"mode":"Verbs like run, turned, and help after a fear beat","scene_windows":1,"windows":5,"scene":"Characters fleeing or scared in tense moments"}
+{"neuron":1156,"pole":"low","cluster":1,"mode":"Opening quote after 'said,' in children's dialogue","scene_windows":0,"windows":5,"scene":"Children's stories with polite dialogue"}
+{"neuron":1156,"pole":"low","cluster":2,"mode":"Opening quote marks starting a character's speech","scene_windows":0,"windows":5,"scene":"Fiction dialogue in calm scenes"}
+{"neuron":1156,"pole":"low","cluster":3,"mode":"Interjections and words ending exasperated dialogue","scene_windows":0,"windows":5,"scene":"Fantasy and thriller dialogue"}
+{"neuron":1156,"pole":"low","cluster":4,"mode":"Mid-word fragments in names and technical terms","scene_windows":0,"windows":5,"scene":"Fantasy names and cooking or dental text"}
+{"neuron":2452,"pole":"high","cluster":0,"mode":"Body and room nouns after possessives or prepositions","scene_windows":0,"windows":5,"scene":"Tense or uncomfortable first-person narration"}
+{"neuron":2452,"pole":"high","cluster":1,"mode":"First-person subject 'I' starting a sentence in dialogue","scene_windows":0,"windows":5,"scene":"First-person conversational fiction"}
+{"neuron":2452,"pole":"low","cluster":0,"mode":"Adjectives describing a character's temperament or mood","scene_windows":0,"windows":5,"scene":"Character descriptions in fiction"}
+{"neuron":2452,"pole":"low","cluster":1,"mode":"Speech verb 'said' after a character's kind action","scene_windows":0,"windows":5,"scene":"Children's stories with friendly characters"}

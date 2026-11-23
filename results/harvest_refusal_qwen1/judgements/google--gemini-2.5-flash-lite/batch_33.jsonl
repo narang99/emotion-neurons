@@ -1,0 +1,38 @@
+{"neuron":8055,"pole":"high","cluster":0,"mode":"asking for suggestions or recommendations on various topics","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":8055,"pole":"high","cluster":1,"mode":"discussing potential challenges or considerations","scene_windows":0,"windows":5,"scene":"neutral discussion of pros and cons"}
+{"neuron":8055,"pole":"high","cluster":2,"mode":"offering alternative strategies or options","scene_windows":0,"windows":5,"scene":"neutral suggestion of alternatives"}
+{"neuron":8055,"pole":"low","cluster":0,"mode":"describing personal beliefs, actions, or situations","scene_windows":0,"windows":5,"scene":"personal narrative or description"}
+{"neuron":8055,"pole":"low","cluster":1,"mode":"providing neutral information or explanations","scene_windows":0,"windows":5,"scene":"neutral information sharing"}
+{"neuron":86,"pole":"high","cluster":0,"mode":"stating facts or observations about a topic","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":86,"pole":"high","cluster":1,"mode":"asking for or providing information about specific topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":86,"pole":"low","cluster":0,"mode":"providing instructions or advice on practical matters","scene_windows":0,"windows":5,"scene":"neutral practical advice"}
+{"neuron":86,"pole":"low","cluster":1,"mode":"asking for or providing information about various topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":8172,"pole":"high","cluster":0,"mode":"describing situations or providing instructions","scene_windows":0,"windows":5,"scene":"neutral description or instruction"}
+{"neuron":8172,"pole":"high","cluster":1,"mode":"asking for or providing information on various subjects","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":8172,"pole":"low","cluster":0,"mode":"asking for or providing information on various topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":8172,"pole":"low","cluster":1,"mode":"asking for or providing information on various topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":8172,"pole":"low","cluster":2,"mode":"asking for or providing information on various topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":8172,"pole":"low","cluster":3,"mode":"providing neutral information or explanations","scene_windows":0,"windows":5,"scene":"neutral information sharing"}
+{"neuron":8172,"pole":"low","cluster":4,"mode":"providing neutral information or explanations","scene_windows":0,"windows":5,"scene":"neutral information sharing"}
+{"neuron":222,"pole":"high","cluster":0,"mode":"explaining reasons or providing examples","scene_windows":0,"windows":5,"scene":"neutral explanation or example"}
+{"neuron":222,"pole":"high","cluster":1,"mode":"describing processes or functions","scene_windows":0,"windows":5,"scene":"neutral process description"}
+{"neuron":222,"pole":"high","cluster":2,"mode":"providing information about specific entities or events","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":222,"pole":"high","cluster":3,"mode":"describing events or situations","scene_windows":0,"windows":5,"scene":"neutral narrative description"}
+{"neuron":222,"pole":"low","cluster":0,"mode":"asking for or providing information on various topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":222,"pole":"low","cluster":1,"mode":"providing neutral information or explanations","scene_windows":0,"windows":5,"scene":"neutral information sharing"}
+{"neuron":222,"pole":"low","cluster":2,"mode":"asking for or providing information on various topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":7001,"pole":"high","cluster":0,"mode":"providing explanations or details about processes","scene_windows":0,"windows":5,"scene":"neutral explanation or detail"}
+{"neuron":7001,"pole":"high","cluster":1,"mode":"discussing processes, roles, or relationships","scene_windows":0,"windows":5,"scene":"neutral process or role discussion"}
+{"neuron":3080,"pole":"high","cluster":0,"mode":"asking for summaries or recommendations","scene_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":3080,"pole":"high","cluster":1,"mode":"providing advice or information related to marketing and content","scene_windows":0,"windows":5,"scene":"neutral advice on marketing"}
+{"neuron":3080,"pole":"high","cluster":2,"mode":"asking for or providing tips and examples","scene_windows":0,"windows":5,"scene":"neutral request for tips"}
+{"neuron":3080,"pole":"low","cluster":0,"mode":"describing personal experiences or feelings","scene_windows":0,"windows":5,"scene":"personal narrative or reflection"}
+{"neuron":3080,"pole":"low","cluster":1,"mode":"describing events or situations","scene_windows":0,"windows":5,"scene":"neutral narrative description"}
+{"neuron":3080,"pole":"low","cluster":2,"mode":"asking for or providing information on various topics","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":5728,"pole":"high","cluster":0,"mode":"providing information or descriptions","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":5728,"pole":"high","cluster":1,"mode":"providing historical or descriptive information","scene_windows":0,"windows":5,"scene":"neutral historical description"}
+{"neuron":5728,"pole":"low","cluster":0,"mode":"dialogue or narration with quoted speech","scene_windows":0,"windows":5,"scene":"narrative with dialogue"}
+{"neuron":5728,"pole":"low","cluster":1,"mode":"providing neutral information or explanations","scene_windows":0,"windows":5,"scene":"neutral information sharing"}
+{"neuron":5728,"pole":"low","cluster":2,"mode":"describing events or situations","scene_windows":0,"windows":5,"scene":"neutral narrative description"}
+{"neuron":8794,"pole":"low","cluster":0,"mode":"discussing challenges or coping mechanisms","scene_windows":0,"windows":5,"scene":"neutral discussion of challenges"}
+{"neuron":8794,"pole":"low","cluster":1,"mode":"providing information about locations or events","scene_windows":0,"windows":5,"scene":"neutral factual statement"}

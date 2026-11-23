@@ -1,0 +1,78 @@
+{"neuron":801,"pole":"high","cluster":0,"mode":"contrasting a previous statement or situation with a new one","scene_windows":0,"windows":5,"scene":"contrast and continuation"}
+{"neuron":801,"pole":"high","cluster":1,"mode":"personal perspective or statement of intent","scene_windows":0,"windows":5,"scene":"personal statement or intent"}
+{"neuron":801,"pole":"high","cluster":2,"mode":"introducing a contrasting or qualifying point","scene_windows":0,"windows":5,"scene":"contrast and qualification"}
+{"neuron":801,"pole":"high","cluster":3,"mode":"apologizing for a misunderstanding or error","scene_windows":0,"windows":5,"scene":"apology and clarification"}
+{"neuron":801,"pole":"high","cluster":4,"mode":"expressing positive feedback or appreciation","scene_windows":0,"windows":5,"scene":"positive feedback and appreciation"}
+{"neuron":801,"pole":"high","cluster":5,"mode":"introducing a contrast or unexpected turn","scene_windows":0,"windows":5,"scene":"contrast and unexpected turn"}
+{"neuron":801,"pole":"high","cluster":6,"mode":"apologizing for an error or misunderstanding","scene_windows":0,"windows":5,"scene":"apology and correction"}
+{"neuron":801,"pole":"high","cluster":7,"mode":"introducing a contrast or qualification","scene_windows":0,"windows":5,"scene":"contrast and qualification"}
+{"neuron":801,"pole":"high","cluster":8,"mode":"introducing a contrast or unexpected turn","scene_windows":0,"windows":5,"scene":"contrast and unexpected turn"}
+{"neuron":801,"pole":"high","cluster":9,"mode":"introducing a contrast or qualification","scene_windows":0,"windows":5,"scene":"contrast and qualification"}
+{"neuron":801,"pole":"high","cluster":10,"mode":"introducing a contrast or unexpected turn","scene_windows":0,"windows":5,"scene":"contrast and unexpected turn"}
+{"neuron":801,"pole":"high","cluster":11,"mode":"expressing a personal desire or action","scene_windows":0,"windows":5,"scene":"personal desire or action"}
+{"neuron":801,"pole":"high","cluster":12,"mode":"ending a sentence or thought","scene_windows":0,"windows":5,"scene":"sentence ending"}
+{"neuron":801,"pole":"high","cluster":13,"mode":"numerical or code references","scene_windows":0,"windows":5,"scene":"numerical or code references"}
+{"neuron":801,"pole":"high","cluster":14,"mode":"personal statement or reflection","scene_windows":0,"windows":5,"scene":"personal statement or reflection"}
+{"neuron":801,"pole":"low","cluster":0,"mode":"colloquial expression of understanding or emphasis","scene_windows":0,"windows":5,"scene":"colloquial expression"}
+{"neuron":801,"pole":"low","cluster":1,"mode":"numerical or code references","scene_windows":0,"windows":5,"scene":"numerical or code references"}
+{"neuron":801,"pole":"low","cluster":2,"mode":"numerical data or statistics","scene_windows":0,"windows":5,"scene":"numerical data or statistics"}
+{"neuron":801,"pole":"low","cluster":3,"mode":"introducing an additional point or consideration","scene_windows":0,"windows":5,"scene":"additional point or consideration"}
+{"neuron":801,"pole":"low","cluster":4,"mode":"referring to a specific entity or group","scene_windows":0,"windows":5,"scene":"specific entity or group"}
+{"neuron":801,"pole":"low","cluster":5,"mode":"conjunction indicating addition or continuation","scene_windows":0,"windows":5,"scene":"addition or continuation"}
+{"neuron":801,"pole":"low","cluster":6,"mode":"conjunction indicating addition or continuation","scene_windows":0,"windows":5,"scene":"addition or continuation"}
+{"neuron":801,"pole":"low","cluster":7,"mode":"ending a sentence or thought","scene_windows":0,"windows":5,"scene":"sentence ending"}
+{"neuron":801,"pole":"low","cluster":8,"mode":"referring to a specific entity or group","scene_windows":0,"windows":5,"scene":"specific entity or group"}
+{"neuron":801,"pole":"low","cluster":9,"mode":"conjunction indicating addition or continuation","scene_windows":0,"windows":5,"scene":"addition or continuation"}
+{"neuron":953,"pole":"high","cluster":0,"mode":"listing items or points","scene_windows":0,"windows":5,"scene":"listing items or points"}
+{"neuron":953,"pole":"high","cluster":1,"mode":"referring to possession or belonging","scene_windows":0,"windows":5,"scene":"possession or belonging"}
+{"neuron":953,"pole":"high","cluster":2,"mode":"specifying direction or location","scene_windows":0,"windows":5,"scene":"direction or location"}
+{"neuron":953,"pole":"low","cluster":0,"mode":"conjunction indicating addition or continuation","scene_windows":0,"windows":5,"scene":"addition or continuation"}
+{"neuron":953,"pole":"low","cluster":1,"mode":"referring to possession or belonging","scene_windows":0,"windows":5,"scene":"possession or belonging"}
+{"neuron":1351,"pole":"high","cluster":0,"mode":"preposition indicating direction or cause","scene_windows":0,"windows":5,"scene":"direction or cause"}
+{"neuron":1351,"pole":"high","cluster":1,"mode":"negation or contraction","scene_windows":0,"windows":5,"scene":"negation or contraction"}
+{"neuron":1351,"pole":"low","cluster":0,"mode":"preposition indicating direction or purpose","scene_windows":0,"windows":5,"scene":"direction or purpose"}
+{"neuron":1351,"pole":"low","cluster":1,"mode":"relative pronoun indicating choice or condition","scene_windows":0,"windows":5,"scene":"choice or condition"}
+{"neuron":1351,"pole":"low","cluster":2,"mode":"pronoun indicating a person or entity","scene_windows":0,"windows":5,"scene":"person or entity"}
+{"neuron":1351,"pole":"low","cluster":3,"mode":"preposition indicating purpose or recipient","scene_windows":0,"windows":5,"scene":"purpose or recipient"}
+{"neuron":1351,"pole":"low","cluster":4,"mode":"preposition indicating purpose or recipient","scene_windows":0,"windows":5,"scene":"purpose or recipient"}
+{"neuron":2003,"pole":"high","cluster":0,"mode":"specifying quantity or location","scene_windows":0,"windows":5,"scene":"quantity or location"}
+{"neuron":2003,"pole":"high","cluster":1,"mode":"specifying direction or location","scene_windows":0,"windows":5,"scene":"direction or location"}
+{"neuron":2003,"pole":"high","cluster":2,"mode":"preposition indicating location or time","scene_windows":0,"windows":5,"scene":"location or time"}
+{"neuron":2003,"pole":"high","cluster":3,"mode":"conjunction indicating addition or accompaniment","scene_windows":0,"windows":5,"scene":"addition or accompaniment"}
+{"neuron":2003,"pole":"high","cluster":4,"mode":"preposition indicating location or time","scene_windows":0,"windows":5,"scene":"location or time"}
+{"neuron":2003,"pole":"high","cluster":5,"mode":"adverb indicating direction","scene_windows":0,"windows":5,"scene":"direction"}
+{"neuron":2003,"pole":"high","cluster":6,"mode":"conjunction indicating addition or contrast","scene_windows":0,"windows":5,"scene":"addition or contrast"}
+{"neuron":2003,"pole":"high","cluster":7,"mode":"conjunction indicating addition or continuation","scene_windows":0,"windows":5,"scene":"addition or continuation"}
+{"neuron":2003,"pole":"low","cluster":0,"mode":"preposition indicating location or purpose","scene_windows":0,"windows":5,"scene":"location or purpose"}
+{"neuron":2003,"pole":"low","cluster":1,"mode":"preposition indicating location or time","scene_windows":0,"windows":5,"scene":"location or time"}
+{"neuron":2003,"pole":"low","cluster":2,"mode":"preposition indicating location or time","scene_windows":0,"windows":5,"scene":"location or time"}
+{"neuron":2042,"pole":"high","cluster":0,"mode":"parts of words, often proper nouns","scene_windows":0,"windows":5,"scene":"parts of words"}
+{"neuron":2042,"pole":"high","cluster":1,"mode":"parts of words, often proper nouns","scene_windows":0,"windows":5,"scene":"parts of words"}
+{"neuron":2042,"pole":"high","cluster":2,"mode":"numerical or code references","scene_windows":0,"windows":5,"scene":"numerical or code references"}
+{"neuron":2042,"pole":"high","cluster":3,"mode":"ending punctuation or sentence fragment","scene_windows":0,"windows":5,"scene":"punctuation or fragment"}
+{"neuron":2042,"pole":"high","cluster":4,"mode":"parts of words or sentence fragments","scene_windows":0,"windows":5,"scene":"parts of words or fragment"}
+{"neuron":2042,"pole":"low","cluster":0,"mode":"quotation marks or dialogue markers","scene_windows":0,"windows":5,"scene":"dialogue markers"}
+{"neuron":2042,"pole":"low","cluster":1,"mode":"negation or contraction","scene_windows":0,"windows":5,"scene":"negation or contraction"}
+{"neuron":2042,"pole":"low","cluster":2,"mode":"punctuation or sentence fragment","scene_windows":0,"windows":5,"scene":"punctuation or fragment"}
+{"neuron":2042,"pole":"low","cluster":3,"mode":"question or colon","scene_windows":0,"windows":5,"scene":"question or colon"}
+{"neuron":2042,"pole":"low","cluster":4,"mode":"punctuation or quotation marks","scene_windows":0,"windows":5,"scene":"punctuation or quotation"}
+{"neuron":2042,"pole":"low","cluster":5,"mode":"mom, dad, mommy, child, parent, family, child's perspective","scene_windows":0,"windows":5,"scene":"child's perspective on family"}
+{"neuron":2129,"pole":"high","cluster":0,"mode":"companies, rules, content, equality, respect, internet","scene_windows":0,"windows":5,"scene":"internet company content rules"}
+{"neuron":2129,"pole":"high","cluster":1,"mode":"dogs, home, lovely, terribly wrong, suburb","scene_windows":0,"windows":5,"scene":"dogs at home gone wrong"}
+{"neuron":2129,"pole":"low","cluster":0,"mode":"character, servant, rights, justice, career, talents","scene_windows":0,"windows":5,"scene":"character and career choices"}
+{"neuron":2129,"pole":"low","cluster":1,"mode":"steak, thickness, cooking time, bake, salmon","scene_windows":0,"windows":5,"scene":"cooking times for meat"}
+{"neuron":2161,"pole":"high","cluster":0,"mode":"indicating future action or process","scene_windows":0,"windows":5,"scene":"future action or process"}
+{"neuron":2161,"pole":"high","cluster":1,"mode":"indicating present or future action","scene_windows":0,"windows":5,"scene":"present or future action"}
+{"neuron":2161,"pole":"high","cluster":2,"mode":"indicating availability or acquisition","scene_windows":0,"windows":5,"scene":"availability or acquisition"}
+{"neuron":2161,"pole":"high","cluster":3,"mode":"requesting information or action","scene_windows":0,"windows":5,"scene":"requesting information or action"}
+{"neuron":2161,"pole":"high","cluster":4,"mode":"indicating position or trend","scene_windows":0,"windows":5,"scene":"position or trend"}
+{"neuron":2161,"pole":"high","cluster":5,"mode":"indicating position or state","scene_windows":0,"windows":5,"scene":"position or state"}
+{"neuron":2161,"pole":"high","cluster":6,"mode":"referring to an academic institution","scene_windows":0,"windows":5,"scene":"academic institution"}
+{"neuron":2161,"pole":"high","cluster":7,"mode":"parts of words, often proper nouns","scene_windows":0,"windows":5,"scene":"parts of words"}
+{"neuron":2161,"pole":"high","cluster":8,"mode":"referring to entities or groups","scene_windows":0,"windows":5,"scene":"entities or groups"}
+{"neuron":2161,"pole":"high","cluster":9,"mode":"referring to locations or events","scene_windows":0,"windows":5,"scene":"locations or events"}
+{"neuron":2161,"pole":"high","cluster":10,"mode":"hall, Antonio, Haven, college, sciences, professor","scene_windows":0,"windows":5,"scene":"university college departments"}
+{"neuron":2161,"pole":"low","cluster":0,"mode":"conjunction indicating addition or contrast","scene_windows":0,"windows":5,"scene":"addition or contrast"}
+{"neuron":2161,"pole":"low","cluster":1,"mode":"pronoun indicating possession or relation","scene_windows":0,"windows":5,"scene":"possession or relation"}
+{"neuron":2161,"pole":"low","cluster":2,"mode":"preposition indicating relation or engagement","scene_windows":0,"windows":5,"scene":"relation or engagement"}
+{"neuron":2161,"pole":"low","cluster":3,"mode":"indicating variation or difference","scene_windows":0,"windows":5,"scene":"variation or difference"}

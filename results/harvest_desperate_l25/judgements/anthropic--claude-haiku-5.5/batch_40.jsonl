@@ -1,0 +1,42 @@
+{"neuron":2823,"pole":"high","cluster":0,"mode":"Mid-word subword fragments inside first-person tense or action narration","scene_windows":1,"windows":5,"scene":"Zombie apocalypse survival and tense personal narration"}
+{"neuron":2823,"pole":"high","cluster":1,"mode":"Pronouns and copulas in tense dialogue and confrontational speech","scene_windows":0,"windows":5,"scene":"Tense dialogue and menacing confrontations"}
+{"neuron":2823,"pole":"high","cluster":2,"mode":"Exclamation or sentence-final punctuation closing emotional outbursts","scene_windows":0,"windows":5,"scene":"Angry or exasperated outbursts in casual speech"}
+{"neuron":2823,"pole":"high","cluster":3,"mode":"Closing quotation marks ending dialogue lines","scene_windows":0,"windows":5,"scene":"Ordinary conversational dialogue"}
+{"neuron":2823,"pole":"low","cluster":0,"mode":"Pronouns and punctuation in simple children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about everyday adventures"}
+{"neuron":2823,"pole":"low","cluster":1,"mode":"Possessive pronouns referring back to family members or friends","scene_windows":0,"windows":5,"scene":"Children's stories about family and friends"}
+{"neuron":9628,"pole":"high","cluster":0,"mode":"Nouns closing reflective or personal narrative clauses","scene_windows":0,"windows":5,"scene":"Memoir-style narration about crime, art, or romance"}
+{"neuron":9628,"pole":"high","cluster":1,"mode":"Medical and scientific terms in disease research sentences","scene_windows":0,"windows":5,"scene":"Medical and biology research summaries"}
+{"neuron":9628,"pole":"low","cluster":0,"mode":"Clause-ending punctuation and nouns in ordinary expository or narrative prose","scene_windows":0,"windows":5,"scene":"Everyday narration and descriptive expository text"}
+{"neuron":9628,"pole":"low","cluster":1,"mode":"Commas and list separators within recipe ingredients and instructions","scene_windows":0,"windows":5,"scene":"Recipe instructions and ingredient lists"}
+{"neuron":7126,"pole":"high","cluster":0,"mode":"Object nouns and pronouns closing dark, sinister narrative clauses","scene_windows":0,"windows":5,"scene":"Dark fantasy and horror narration"}
+{"neuron":7126,"pole":"high","cluster":1,"mode":"Action verbs right after a character subject in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories with characters acting out events"}
+{"neuron":7126,"pole":"low","cluster":0,"mode":"Technical determiners and punctuation in reference-style explanatory text","scene_windows":0,"windows":5,"scene":"Technical, legal, and reference explanations"}
+{"neuron":7126,"pole":"low","cluster":1,"mode":"Possessive pronouns after location or family words in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about home and family"}
+{"neuron":7126,"pole":"low","cluster":2,"mode":"Descriptive verbs and nouns in atmospheric narrative passages","scene_windows":0,"windows":5,"scene":"Atmospheric fiction with eerie or quiet scenes"}
+{"neuron":7126,"pole":"low","cluster":3,"mode":"Commas and semicolons linking clauses in expository technical prose","scene_windows":0,"windows":5,"scene":"Expository science, health, and policy writing"}
+{"neuron":9839,"pole":"high","cluster":0,"mode":"The word 'felt' or 'feel' after a child character subject","scene_windows":0,"windows":5,"scene":"Children's stories describing characters' feelings"}
+{"neuron":9839,"pole":"high","cluster":1,"mode":"Auxiliary verbs and copulas after a man or woman subject","scene_windows":0,"windows":5,"scene":"Personal narration describing people and emotions"}
+{"neuron":9839,"pole":"high","cluster":2,"mode":"The intensifier 'so' or 'very' before an adjective of description","scene_windows":0,"windows":5,"scene":"Children's stories describing something pretty or amazing"}
+{"neuron":9839,"pole":"low","cluster":0,"mode":"Descriptive adjectives and colors in atmospheric literary sentences","scene_windows":0,"windows":5,"scene":"Literary description of places, objects, and appearances"}
+{"neuron":9839,"pole":"low","cluster":1,"mode":"Sentence-initial 'The' or 'the' in tense sensory scenes","scene_windows":1,"windows":5,"scene":"Tense captivity and threat scenes with sensory detail"}
+{"neuron":9839,"pole":"low","cluster":2,"mode":"Auxiliary 'had' after a character subject in dark narrative","scene_windows":0,"windows":5,"scene":"Political intrigue and power struggles in fiction"}
+{"neuron":9839,"pole":"low","cluster":3,"mode":"First-person 'I' starting clauses in confessional or diary narration","scene_windows":1,"windows":5,"scene":"Distressed first-person confessions and diary entries"}
+{"neuron":9839,"pole":"low","cluster":4,"mode":"Subject nouns and pronouns before threatening or mocking speech","scene_windows":1,"windows":5,"scene":"Captive or threatened characters in tense dialogue"}
+{"neuron":5750,"pole":"high","cluster":0,"mode":"Subject pronouns or conjunctions after a dramatic event","scene_windows":0,"windows":5,"scene":"Emotional dramatic narration and romance"}
+{"neuron":5750,"pole":"high","cluster":1,"mode":"The verb 'was' in 'Once upon a time there was'","scene_windows":0,"windows":5,"scene":"Fairy-tale story openings"}
+{"neuron":5750,"pole":"low","cluster":0,"mode":"Subject pronouns starting sentences in children's story narration","scene_windows":0,"windows":5,"scene":"Simple children's stories with small emotional moments"}
+{"neuron":5750,"pole":"low","cluster":1,"mode":"The 'assistant' role label in chat-formatted dialogues","scene_windows":0,"windows":5,"scene":"AI assistant chat transcripts with requests"}
+{"neuron":12006,"pole":"high","cluster":0,"mode":"Subject pronouns after a tense emotional or threatening build-up","scene_windows":2,"windows":5,"scene":"Tense survival, siege, and anxious suspense scenes"}
+{"neuron":12006,"pole":"high","cluster":1,"mode":"The infinitive 'to' after 'tried' or 'trying' in struggles","scene_windows":2,"windows":5,"scene":"Characters struggling to fix or get something"}
+{"neuron":12006,"pole":"low","cluster":0,"mode":"Sentence-final periods closing descriptive narrative sentences","scene_windows":0,"windows":5,"scene":"Simple narrative passages about places and actions"}
+{"neuron":12006,"pole":"low","cluster":1,"mode":"Verbs and adjectives mid-clause in reflective or world-building prose","scene_windows":0,"windows":5,"scene":"Reflective prose and speculative world-building"}
+{"neuron":12006,"pole":"low","cluster":2,"mode":"Subject pronouns or names starting clauses in tense action","scene_windows":1,"windows":5,"scene":"Action and panic scenes with characters in peril"}
+{"neuron":7833,"pole":"high","cluster":0,"mode":"Subject pronoun after an upset or emotional child event","scene_windows":0,"windows":5,"scene":"Children's stories about upset characters and mishaps"}
+{"neuron":7833,"pole":"high","cluster":1,"mode":"Digits in dates, years, and citation numbers","scene_windows":0,"windows":5,"scene":"Dates, citations, and reference numbers"}
+{"neuron":7833,"pole":"low","cluster":0,"mode":"Nouns and adjectives closing character-description clauses","scene_windows":0,"windows":5,"scene":"Character backstories and everyday narration"}
+{"neuron":7833,"pole":"low","cluster":1,"mode":"The verb 'wanted' after a character subject in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about characters wanting things"}
+{"neuron":3523,"pole":"high","cluster":0,"mode":"Sentence-final periods closing happy children's story sentences","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about sharing and play"}
+{"neuron":3523,"pole":"high","cluster":1,"mode":"Subject pronouns starting sentences in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about friends and gratitude"}
+{"neuron":3523,"pole":"low","cluster":0,"mode":"Sentence punctuation in instructional tips and numbered lists","scene_windows":0,"windows":5,"scene":"Numbered tips for events and marketing"}
+{"neuron":3523,"pole":"low","cluster":1,"mode":"Digits and word fragments in dates, codes, and listings","scene_windows":0,"windows":5,"scene":"Dates, code snippets, and reference listings"}
+{"neuron":3523,"pole":"low","cluster":2,"mode":"Nouns and verbs in descriptive literary narration about people","scene_windows":0,"windows":5,"scene":"Literary narration of people in town or rural settings"}

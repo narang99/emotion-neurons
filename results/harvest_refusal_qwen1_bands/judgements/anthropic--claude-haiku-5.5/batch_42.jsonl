@@ -1,0 +1,73 @@
+{"neuron":674,"pole":"high","cluster":0,"mode":"Conjunctions and 'as long as' in advice on dating coworkers legally","scene_windows":0,"windows":5,"scene":"Workplace dating advice and legal guidance"}
+{"neuron":674,"pole":"high","cluster":1,"mode":"Generic mid-sentence function words in neutral expository prose","scene_windows":0,"windows":5,"scene":"Neutral essays, fiction, and explanatory text"}
+{"neuron":674,"pole":"high","cluster":2,"mode":"Modal and subordinate words in advice about romance with coworkers","scene_windows":0,"windows":5,"scene":"Advice on pursuing a coworker romantically"}
+{"neuron":674,"pole":"low","cluster":0,"mode":"Verbs and prepositions describing corruption or graft in news reporting","scene_windows":0,"windows":5,"scene":"News coverage of the Marcos graft conviction"}
+{"neuron":674,"pole":"low","cluster":1,"mode":"Determiners and conjunctions in neutral informational sentences","scene_windows":0,"windows":5,"scene":"Neutral news and informational writing"}
+{"neuron":674,"pole":"low","cluster":2,"mode":"Narrative verbs about embezzlement and motives in a crime story","scene_windows":0,"windows":5,"scene":"Fictional story about an embezzling accountant"}
+{"neuron":3969,"pole":"high","cluster":0,"mode":"'to' and 'for' in accusatory dialogue about revenge motives","scene_windows":0,"windows":5,"scene":"Western dialogue confronting a sheriff about revenge"}
+{"neuron":3969,"pole":"high","cluster":1,"mode":"Conjunctions and 'that' in neutral explanatory sentences","scene_windows":0,"windows":5,"scene":"Neutral explanatory and literary text"}
+{"neuron":3969,"pole":"high","cluster":2,"mode":"Opening quotation marks starting dialogue lines in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue between characters"}
+{"neuron":3969,"pole":"low","cluster":0,"mode":"Prepositions and modals in neutral advisory or informational sentences","scene_windows":0,"windows":5,"scene":"Environmental and workplace advice text"}
+{"neuron":3969,"pole":"low","cluster":1,"mode":"Sentence-final periods closing short dramatic narrative lines","scene_windows":0,"windows":5,"scene":"Tense fiction narration and dialogue"}
+{"neuron":6731,"pole":"high","cluster":0,"mode":"'you' or 'could' in polite requests for help","scene_windows":0,"windows":5,"scene":"Benign user requests for translation or recipes"}
+{"neuron":6731,"pole":"high","cluster":1,"mode":"'to' and 'useful' in neutral advice-giving sentences","scene_windows":0,"windows":5,"scene":"Practical advice on pets, crafts, and policy"}
+{"neuron":6731,"pole":"high","cluster":2,"mode":"Assistant turn token starting an answer to a question","scene_windows":0,"windows":5,"scene":"Human-assistant factual Q&A exchanges"}
+{"neuron":6731,"pole":"low","cluster":0,"mode":"The verb 'began' introducing a character's new action","scene_windows":0,"windows":5,"scene":"Short fictional character narratives"}
+{"neuron":6731,"pole":"low","cluster":1,"mode":"The verb 'continue' describing ongoing trends or developments","scene_windows":0,"windows":5,"scene":"Expository text on social and scientific trends"}
+{"neuron":6731,"pole":"low","cluster":2,"mode":"Pronouns and prepositions in historical or scientific explanations","scene_windows":0,"windows":5,"scene":"Historical and scientific explanatory prose"}
+{"neuron":6731,"pole":"low","cluster":3,"mode":"Article 'a' or 'an' before 'essential' or 'great' predicate nouns","scene_windows":0,"windows":5,"scene":"Wellness and lifestyle advice writing"}
+{"neuron":10206,"pole":"high","cluster":0,"mode":"'limited' in 'limited-time offer' marketing phrases","scene_windows":0,"windows":5,"scene":"Influencer marketing and promotion strategy"}
+{"neuron":10206,"pole":"high","cluster":1,"mode":"Articles and commas in lists describing unique product offers","scene_windows":0,"windows":5,"scene":"Marketing advice on creating urgency"}
+{"neuron":10206,"pole":"high","cluster":2,"mode":"Phrasing around seasonal discounts and checking offers","scene_windows":0,"windows":5,"scene":"Describing discounts and promotional offers"}
+{"neuron":10206,"pole":"high","cluster":3,"mode":"Function words in neutral advice on safety, history, and wildlife","scene_windows":0,"windows":5,"scene":"Safety tips, fiction, and wildlife advice"}
+{"neuron":10206,"pole":"high","cluster":4,"mode":"'sense of urgency' phrasing in marketing campaign descriptions","scene_windows":0,"windows":5,"scene":"Marketing campaigns creating urgency and hype"}
+{"neuron":10206,"pole":"low","cluster":0,"mode":"Cooking verbs like pour, add, and drop in recipe steps","scene_windows":0,"windows":5,"scene":"Cooking and frying recipe instructions"}
+{"neuron":10206,"pole":"low","cluster":1,"mode":"The verb 'encourage' in fundraising and promotion tips","scene_windows":0,"windows":5,"scene":"Charity campaign and social media planning"}
+{"neuron":10206,"pole":"low","cluster":2,"mode":"Assorted function words in descriptive and instructional prose","scene_windows":0,"windows":5,"scene":"Art, horse racing, and history descriptions"}
+{"neuron":10206,"pole":"low","cluster":3,"mode":"Scoop, drop, and onto in baking dough instructions","scene_windows":0,"windows":5,"scene":"Baking cookie recipe steps"}
+{"neuron":10102,"pole":"high","cluster":0,"mode":"Colon after 'Assistant' starting a reply","scene_windows":0,"windows":5,"scene":"Benign assistant replies to parenting and cooking questions"}
+{"neuron":10102,"pole":"high","cluster":1,"mode":"The word 'Miss' before a name or title","scene_windows":0,"windows":5,"scene":"Fiction with characters addressed as Miss"}
+{"neuron":10102,"pole":"high","cluster":2,"mode":"Repeated dashes used as a separator line","scene_windows":0,"windows":5,"scene":"Fantasy and sci-fi story separators"}
+{"neuron":10102,"pole":"high","cluster":3,"mode":"Commas separating long lists of pet names","scene_windows":0,"windows":5,"scene":"Lists of cat names"}
+{"neuron":10102,"pole":"high","cluster":4,"mode":"Opening or closing quotation marks in dialogue","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction"}
+{"neuron":10102,"pole":"high","cluster":5,"mode":"Asterisks used for emphasis in roleplay text","scene_windows":0,"windows":5,"scene":"Emphatic fiction and roleplay narration"}
+{"neuron":10102,"pole":"high","cluster":6,"mode":"Bold markers placed before emphasized words","scene_windows":0,"windows":5,"scene":"Emotional fiction with bold emphasis"}
+{"neuron":10102,"pole":"high","cluster":7,"mode":"Blank or spacing tokens at song lyric line breaks","scene_windows":0,"windows":5,"scene":"Song lyrics with repeated refrains"}
+{"neuron":10102,"pole":"high","cluster":8,"mode":"Period followed directly by spacing before a new speaker","scene_windows":0,"windows":5,"scene":"Dialogue transcripts and chat turns"}
+{"neuron":10102,"pole":"high","cluster":9,"mode":"'or' in lists of options or alternatives","scene_windows":0,"windows":5,"scene":"Lists of options in plans and recipes"}
+{"neuron":10102,"pole":"high","cluster":10,"mode":"'Massachusetts' before 'General Hospital' or state agencies","scene_windows":0,"windows":5,"scene":"Institutional and research contact listings"}
+{"neuron":10102,"pole":"high","cluster":11,"mode":"The word 'mass' in mass media, murder, or shootings","scene_windows":0,"windows":5,"scene":"Mass events and mass media discussions"}
+{"neuron":10102,"pole":"high","cluster":12,"mode":"'mass' in discussions of mass shootings and gun policy","scene_windows":0,"windows":5,"scene":"Gun violence and gun control policy discussion"}
+{"neuron":10102,"pole":"high","cluster":13,"mode":"Commas separating items in lists of places or names","scene_windows":0,"windows":5,"scene":"Lists of towns, states, and performers"}
+{"neuron":10102,"pole":"high","cluster":14,"mode":"The intensifier 'so' before an adjective","scene_windows":0,"windows":5,"scene":"Sci-fi and narrative emotional descriptions"}
+{"neuron":10102,"pole":"high","cluster":15,"mode":"'of' and 'the' after quantity or intensity words","scene_windows":0,"windows":5,"scene":"Descriptive narrative prose"}
+{"neuron":10102,"pole":"high","cluster":16,"mode":"Demonstrative 'that' pointing back to a specific item","scene_windows":0,"windows":5,"scene":"Narrative fiction with recalled objects"}
+{"neuron":10102,"pole":"low","cluster":0,"mode":"Double spaces or breaks inside script and screenplay titles","scene_windows":0,"windows":5,"scene":"Assistant-drafted screenplay revisions"}
+{"neuron":10102,"pole":"low","cluster":1,"mode":"Colon or spacing before a sample poem","scene_windows":0,"windows":5,"scene":"Haiku and poem writing requests"}
+{"neuron":10102,"pole":"low","cluster":2,"mode":"Period and spacing at the end of letter closings","scene_windows":0,"windows":5,"scene":"Business email closing lines"}
+{"neuron":10102,"pole":"low","cluster":3,"mode":"Opening quotation marks starting dialogue after narration","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes"}
+{"neuron":10102,"pole":"low","cluster":4,"mode":"Period after numbers in reference citations","scene_windows":0,"windows":5,"scene":"Bibliographies and reference lists"}
+{"neuron":10102,"pole":"low","cluster":5,"mode":"Digits in phone numbers within media contact listings","scene_windows":0,"windows":5,"scene":"University media contact blurbs"}
+{"neuron":10102,"pole":"low","cluster":6,"mode":"Whitespace tokens after closing quotes in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue with indented speech"}
+{"neuron":10102,"pole":"low","cluster":7,"mode":"Period and spacing between glossary term definitions","scene_windows":0,"windows":5,"scene":"Medical glossary definitions"}
+{"neuron":10102,"pole":"low","cluster":8,"mode":"Character name fragments in screenplay dialogue","scene_windows":0,"windows":5,"scene":"Screenplay scenes with character cues"}
+{"neuron":10102,"pole":"low","cluster":9,"mode":"Colon or punctuation at assistant turn boundaries","scene_windows":0,"windows":5,"scene":"Chat turns with benign assistant replies"}
+{"neuron":10102,"pole":"low","cluster":10,"mode":"Commas in media contact and source attributions","scene_windows":0,"windows":5,"scene":"University press contact listings"}
+{"neuron":10102,"pole":"low","cluster":11,"mode":"Type keywords at the start of code statements","scene_windows":0,"windows":5,"scene":"Code snippets for temperature conversion"}
+{"neuron":10102,"pole":"low","cluster":12,"mode":"Whitespace after opening PHP and Python code lines","scene_windows":0,"windows":5,"scene":"Code for database and scraper scripts"}
+{"neuron":10102,"pole":"low","cluster":13,"mode":"Commas and 'healthier' in advice sentences","scene_windows":0,"windows":5,"scene":"Self-improvement and health advice"}
+{"neuron":10102,"pole":"low","cluster":14,"mode":"Periods after author names in reference lists","scene_windows":0,"windows":5,"scene":"Bibliography of Ohio history sources"}
+{"neuron":9075,"pole":"high","cluster":0,"mode":"Assistant token opening an answer to a question","scene_windows":0,"windows":5,"scene":"Q&A about history, religion, and cooking"}
+{"neuron":9075,"pole":"high","cluster":1,"mode":"Nouns completing technical or cultural terms","scene_windows":0,"windows":5,"scene":"Technical and cultural descriptive text"}
+{"neuron":9075,"pole":"high","cluster":2,"mode":"User turn tag starting a follow-up message","scene_windows":0,"windows":5,"scene":"Creative writing and health chat turns"}
+{"neuron":9075,"pole":"low","cluster":0,"mode":"Sentence-final periods ending short argumentative claims","scene_windows":0,"windows":5,"scene":"Forum-style and informational sentences"}
+{"neuron":9075,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' starting how-to answers","scene_windows":0,"windows":5,"scene":"How-to Q&A with benign household tasks"}
+{"neuron":9075,"pole":"low","cluster":2,"mode":"Assistant token starting a factual definition","scene_windows":0,"windows":5,"scene":"Factual definition Q&A"}
+{"neuron":9075,"pole":"low","cluster":3,"mode":"Colon introducing a list of tips or suggestions","scene_windows":0,"windows":5,"scene":"Advice lists on parenting and productivity"}
+{"neuron":6477,"pole":"high","cluster":0,"mode":"Prepositions completing benign advice phrases about school, driving, or charging habits","scene_windows":0,"windows":5,"scene":"Neutral everyday advice and explanatory text"}
+{"neuron":6477,"pole":"high","cluster":1,"mode":"Conjunctions 'and'/'but' joining clauses in narrative or essay sentences","scene_windows":0,"windows":5,"scene":"Narrative reflections and expository essay sentences"}
+{"neuron":6477,"pole":"high","cluster":2,"mode":"Nouns or place names completing factual, encyclopedic, or list-style phrases","scene_windows":0,"windows":5,"scene":"Encyclopedic facts, travel suggestions, and history"}
+{"neuron":6477,"pole":"high","cluster":3,"mode":"Mid-phrase words in descriptive or interpersonal narrative sentences","scene_windows":0,"windows":5,"scene":"Descriptive narration and team-building or instructional text"}
+{"neuron":6477,"pole":"low","cluster":0,"mode":"Function words inside technical or marketing descriptive sentences","scene_windows":0,"windows":5,"scene":"Technical product descriptions and fiction narration"}
+{"neuron":6477,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' opening a reply to a Human question","scene_windows":0,"windows":5,"scene":"Harmless Human-Assistant factual or how-to Q&A"}
+{"neuron":6477,"pole":"low","cluster":2,"mode":"Sentence-final or 'Assistant' token opening factual definitional answers","scene_windows":0,"windows":5,"scene":"Harmless factual Q&A about definitions and comparisons"}

@@ -1,0 +1,36 @@
+{"neuron":1719,"pole":"high","cluster":0,"mode":"Mid-phrase token completing a noun phrase in instructional or descriptive technical text","scene_windows":0,"windows":5,"scene":"Technical, instructional, and marketing descriptions"}
+{"neuron":1719,"pole":"high","cluster":1,"mode":"Mid-sentence verb or pronoun in promotional and biographical prose","scene_windows":0,"windows":5,"scene":"Influencer marketing and biographical or fictional narration"}
+{"neuron":1719,"pole":"low","cluster":0,"mode":"Prepositions and infinitives mid-clause in advisory or educational prose","scene_windows":0,"windows":5,"scene":"Advice, education, and historical or technical explanation"}
+{"neuron":1719,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' tag opening a chatbot answer","scene_windows":0,"windows":5,"scene":"Human–assistant Q&A exchanges on everyday topics"}
+{"neuron":7339,"pole":"high","cluster":0,"mode":"Comma or 'but' after a clause in casual or fictional dialogue","scene_windows":0,"windows":5,"scene":"Fantasy fiction dialogue and casual conversational writing"}
+{"neuron":7339,"pole":"high","cluster":1,"mode":"Nouns naming topics or categories in expository descriptive text","scene_windows":0,"windows":5,"scene":"Expository articles on culture, technology, jewelry, and parenting"}
+{"neuron":7339,"pole":"low","cluster":0,"mode":"Function words mid-phrase in informational assistant-style text","scene_windows":0,"windows":5,"scene":"Assistant answers on history, technology, and culture"}
+{"neuron":7339,"pole":"low","cluster":1,"mode":"Final punctuation closing a user question or request","scene_windows":0,"windows":5,"scene":"User questions to an AI assistant on varied topics"}
+{"neuron":6209,"pole":"high","cluster":0,"mode":"Colon after 'Assistant' or 'assistant' tag introducing an answer","scene_windows":0,"windows":5,"scene":"Human–assistant science and general knowledge Q&A"}
+{"neuron":6209,"pole":"high","cluster":1,"mode":"Commas and periods mid-sentence in narrative and advisory prose","scene_windows":0,"windows":5,"scene":"Stories, financial advice, and cultural commentary"}
+{"neuron":6209,"pole":"high","cluster":2,"mode":"Exclamation mark after 'Sure' or 'Certainly' opening assistant replies","scene_windows":0,"windows":5,"scene":"Assistant replies to follow-up user requests for more detail"}
+{"neuron":6209,"pole":"low","cluster":0,"mode":"Auxiliary verbs 'will', 'is', 'be' in formal expository sentences","scene_windows":0,"windows":5,"scene":"Formal essays on architecture, cooking, science, and politics"}
+{"neuron":6209,"pole":"low","cluster":1,"mode":"Final word of named entities in historical or geographic text","scene_windows":0,"windows":5,"scene":"Historical, biographical, and geographic reference passages"}
+{"neuron":3703,"pole":"high","cluster":0,"mode":"Determiners and pronouns in positive advisory or explanatory statements","scene_windows":0,"windows":5,"scene":"Health, family, and policy explanations"}
+{"neuron":3703,"pole":"high","cluster":1,"mode":"'you' or 'me' right after 'Can' in user requests","scene_windows":0,"windows":5,"scene":"User requests for lists, haiku, and explanations"}
+{"neuron":3703,"pole":"low","cluster":0,"mode":"Prepositions and pronouns in formal advisory or policy statements","scene_windows":0,"windows":5,"scene":"Policy, finance, grief, and wellbeing advice"}
+{"neuron":3703,"pole":"low","cluster":1,"mode":"'assistant' tag beginning an assistant turn in dialogues","scene_windows":0,"windows":5,"scene":"Human–assistant questions on business, health, and history"}
+{"neuron":6808,"pole":"high","cluster":0,"mode":"Colon after 'assistant' tag before the answer","scene_windows":0,"windows":5,"scene":"User questions about products, parks, and tech tips"}
+{"neuron":6808,"pole":"high","cluster":1,"mode":"Negation 'n' in 'didn't' or 'don't' within fiction dialogue","scene_windows":0,"windows":5,"scene":"Thriller and fantasy narrative dialogue"}
+{"neuron":6808,"pole":"low","cluster":0,"mode":"'but' linking contrasting clauses in narrative prose","scene_windows":0,"windows":5,"scene":"Fiction narration with contrastive clauses"}
+{"neuron":6808,"pole":"low","cluster":1,"mode":"Prepositions and determiners in descriptive essay prose","scene_windows":0,"windows":5,"scene":"Essays on graffiti, networks, and urban life"}
+{"neuron":6808,"pole":"low","cluster":2,"mode":"'was' or 'it' pronoun-verb pairs in first-person narration","scene_windows":0,"windows":5,"scene":"Fiction narration about time travel and perception"}
+{"neuron":4018,"pole":"high","cluster":0,"mode":"Possessive pronouns in narrative and marketing about one's people","scene_windows":0,"windows":5,"scene":"Story narration and small-business marketing text"}
+{"neuron":4018,"pole":"high","cluster":1,"mode":"Function words within expository explanations of processes","scene_windows":0,"windows":5,"scene":"Explanations of Roman history, encryption, and robotics"}
+{"neuron":4018,"pole":"high","cluster":2,"mode":"Content nouns in creative writing and Q&A answers","scene_windows":0,"windows":5,"scene":"Poetry, plays, and content-creation advice"}
+{"neuron":5519,"pole":"high","cluster":0,"mode":"Commas after clauses in expository sentences about causes and effects","scene_windows":0,"windows":5,"scene":"Science, environment, and food expository writing"}
+{"neuron":5519,"pole":"high","cluster":1,"mode":"Mid-word or noun tokens in informational and educational text","scene_windows":0,"windows":5,"scene":"Educational lessons, veterinary and environmental information"}
+{"neuron":5519,"pole":"high","cluster":2,"mode":"Sentence-final periods in narrative and historical descriptions","scene_windows":0,"windows":5,"scene":"Fiction about discrimination and historical performance text"}
+{"neuron":5519,"pole":"low","cluster":0,"mode":"Nouns in descriptive marketing and product text","scene_windows":0,"windows":5,"scene":"Hotel marketing, gardening, and video game descriptions"}
+{"neuron":5519,"pole":"low","cluster":1,"mode":"'If' or 'I' opening conditional advice clauses","scene_windows":0,"windows":5,"scene":"How-to steps and relationship or sales advice"}
+{"neuron":5519,"pole":"low","cluster":2,"mode":"Copular verbs 'is', 'are' in descriptive statements","scene_windows":0,"windows":5,"scene":"Descriptive prose on roses, waste, and fiction"}
+{"neuron":5519,"pole":"low","cluster":3,"mode":"Mid-sentence tokens and sentence ends in mixed informational text","scene_windows":0,"windows":5,"scene":"Mixed expository text on poverty, Chernobyl, and time travel"}
+{"neuron":10781,"pole":"high","cluster":0,"mode":"Prepositions after action verbs in fiction narration","scene_windows":0,"windows":5,"scene":"Fantasy and horror narrative scenes"}
+{"neuron":10781,"pole":"high","cluster":1,"mode":"'Assistant' tag opening replies in Human–assistant dialogues","scene_windows":0,"windows":5,"scene":"Human–assistant how-to and factual questions"}
+{"neuron":10781,"pole":"low","cluster":0,"mode":"Conjunctions and articles mid-sentence in expository text","scene_windows":0,"windows":5,"scene":"Environmental, skincare, and medical descriptive text"}
+{"neuron":10781,"pole":"low","cluster":1,"mode":"'I' starting an assistant reply after the turn tag","scene_windows":0,"windows":5,"scene":"Assistant replies to cooking, sales, and scheduling requests"}

@@ -1,0 +1,63 @@
+{"neuron":2245,"pole":"high","cluster":0,"mode":"punctuation and conjunctions connecting clauses or phrases","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2245,"pole":"high","cluster":1,"mode":"dialogue markers and quotation marks","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2245,"pole":"low","cluster":0,"mode":"names of people","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2245,"pole":"low","cluster":1,"mode":"pronouns referring to a male person","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2245,"pole":"low","cluster":2,"mode":"empty strings or placeholders","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2245,"pole":"low","cluster":3,"mode":"body parts and physical sensations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2245,"pole":"low","cluster":4,"mode":"punctuation and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"high","cluster":0,"mode":"dialogue markers and quotation marks","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"high","cluster":1,"mode":"pronouns referring to a female person","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"high","cluster":2,"mode":"verbs related to sound and emotion","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"high","cluster":3,"mode":"verbs related to sound and listening","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"low","cluster":0,"mode":"dialogue markers and quotation marks","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"low","cluster":1,"mode":"verbs indicating desire or wanting","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"low","cluster":2,"mode":"negation and non-existence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"low","cluster":3,"mode":"abbreviations and partial words","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"low","cluster":4,"mode":"body parts and actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"low","cluster":5,"mode":"adverbs and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6576,"pole":"low","cluster":6,"mode":"conjunctions and prepositions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"high","cluster":0,"mode":"punctuation and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"high","cluster":1,"mode":"dialogue markers and quotation marks","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"high","cluster":2,"mode":"verbs related to asking and picking","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"high","cluster":3,"mode":"verbs related to saying and speaking","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"high","cluster":4,"mode":"adjectives and adverbs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"high","cluster":5,"mode":"pronouns referring to a female person","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"high","cluster":6,"mode":"prepositions and pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"low","cluster":0,"mode":"prepositions and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"low","cluster":1,"mode":"numbers and units","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1687,"pole":"low","cluster":2,"mode":"negation and non-existence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":415,"pole":"high","cluster":0,"mode":"adverbs and pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":415,"pole":"high","cluster":1,"mode":"numbers and units","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":415,"pole":"high","cluster":2,"mode":"dialogue markers and quotation marks","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":415,"pole":"high","cluster":3,"mode":"adverbs and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":415,"pole":"low","cluster":0,"mode":"verbs indicating liking or loving","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":415,"pole":"low","cluster":1,"mode":"numbers and units","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"high","cluster":0,"mode":"conjunctions and prepositions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"high","cluster":1,"mode":"percentages and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"high","cluster":2,"mode":"verbs related to breathing and movement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"high","cluster":3,"mode":"partial words and abbreviations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"high","cluster":4,"mode":"organizations and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"low","cluster":0,"mode":"prepositions and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"low","cluster":1,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"low","cluster":2,"mode":"pronouns referring to a female person","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"low","cluster":3,"mode":"proper nouns and partial words","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6811,"pole":"low","cluster":4,"mode":"words indicating negation or absence of something","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":6811,"pole":"low","cluster":5,"mode":"words indicating negation or absence of something","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":10592,"pole":"high","cluster":0,"mode":"prepositions indicating location or direction","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":10592,"pole":"high","cluster":1,"mode":"words indicating emotion or state","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":10592,"pole":"high","cluster":2,"mode":"words related to programming and data retrieval","scene_windows":0,"windows":5,"scene":"technical"}
+{"neuron":10592,"pole":"low","cluster":0,"mode":"verbs indicating liking or preference","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":10592,"pole":"low","cluster":1,"mode":"verbs indicating state of being or action","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":10592,"pole":"low","cluster":2,"mode":"words indicating comparison or similarity","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":2911,"pole":"high","cluster":0,"mode":"verbs related to smiling and sighing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2911,"pole":"high","cluster":1,"mode":"pronouns and names","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2911,"pole":"low","cluster":0,"mode":"proper nouns and partial words","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2911,"pole":"low","cluster":1,"mode":"verbs indicating existence or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"high","cluster":0,"mode":"prepositions and articles","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"high","cluster":1,"mode":"conjunctions and punctuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"high","cluster":2,"mode":"prepositions and pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"high","cluster":3,"mode":"punctuation and partial words","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"low","cluster":0,"mode":"prepositions and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"low","cluster":1,"mode":"conjunctions and punctuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"low","cluster":2,"mode":"nouns related to places","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3598,"pole":"low","cluster":3,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral"}

@@ -1,0 +1,62 @@
+{"neuron":7222,"pole":"high","cluster":0,"mode":"narrative descriptions of events and actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7222,"pole":"high","cluster":1,"mode":"names and titles in academic or historical contexts","happy_windows":0,"windows":5,"scene":"neutral academic context"}
+{"neuron":7222,"pole":"low","cluster":0,"mode":"children playing and having fun","happy_windows":5,"windows":5,"scene":"joyful children playing"}
+{"neuron":7222,"pole":"low","cluster":1,"mode":"describing music tracks and their qualities","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":583,"pole":"high","cluster":0,"mode":"children expressing happiness and pride","happy_windows":5,"windows":5,"scene":"happy children"}
+{"neuron":583,"pole":"high","cluster":1,"mode":"describing people and their characteristics or situations","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":583,"pole":"high","cluster":2,"mode":"children's names in happy, excited scenarios","happy_windows":5,"windows":5,"scene":"happy children's activities"}
+{"neuron":583,"pole":"high","cluster":3,"mode":"children interacting with animals or objects","happy_windows":1,"windows":5,"scene":"childhood interactions"}
+{"neuron":583,"pole":"low","cluster":0,"mode":"children's names in safe, happy situations","happy_windows":3,"windows":5,"scene":"happy children"}
+{"neuron":583,"pole":"low","cluster":1,"mode":"describing website features and user experiences","happy_windows":0,"windows":5,"scene":"neutral website description"}
+{"neuron":2066,"pole":"high","cluster":0,"mode":"children expressing positive emotions like happiness and excitement","happy_windows":5,"windows":5,"scene":"joyful children"}
+{"neuron":2066,"pole":"high","cluster":1,"mode":"dialogue and greetings between characters","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":2066,"pole":"low","cluster":0,"mode":"children receiving gifts or items","happy_windows":1,"windows":5,"scene":"childhood events"}
+{"neuron":2066,"pole":"low","cluster":1,"mode":"describing website features and user experiences","happy_windows":0,"windows":5,"scene":"neutral website description"}
+{"neuron":11599,"pole":"high","cluster":0,"mode":"children going to places or events","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11599,"pole":"high","cluster":1,"mode":"children playing and having fun","happy_windows":5,"windows":5,"scene":"joyful children playing"}
+{"neuron":11599,"pole":"high","cluster":2,"mode":"dates and locations in historical or descriptive contexts","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":11599,"pole":"high","cluster":3,"mode":"children playing with friends or family","happy_windows":5,"windows":5,"scene":"happy children playing"}
+{"neuron":11599,"pole":"high","cluster":4,"mode":"children going to places like parks or beaches","happy_windows":5,"windows":5,"scene":"happy children's outings"}
+{"neuron":11599,"pole":"high","cluster":5,"mode":"children visiting places like parks or stores","happy_windows":0,"windows":5,"scene":"childhood activities"}
+{"neuron":11599,"pole":"high","cluster":6,"mode":"children playing and experiencing joy","happy_windows":5,"windows":5,"scene":"joyful children playing"}
+{"neuron":11599,"pole":"high","cluster":7,"mode":"children jumping and expressing excitement","happy_windows":5,"windows":5,"scene":"excited children"}
+{"neuron":11599,"pole":"low","cluster":0,"mode":"children visiting places like parks or shores","happy_windows":0,"windows":5,"scene":"childhood activities"}
+{"neuron":11599,"pole":"low","cluster":1,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"neutral recipe"}
+{"neuron":11599,"pole":"low","cluster":2,"mode":"yoga poses and instructions","happy_windows":0,"windows":5,"scene":"neutral yoga instruction"}
+{"neuron":11349,"pole":"high","cluster":0,"mode":"technical terms and processes in design and engineering","happy_windows":0,"windows":5,"scene":"neutral technical description"}
+{"neuron":11349,"pole":"high","cluster":1,"mode":"educational concepts and teaching methods","happy_windows":0,"windows":5,"scene":"neutral educational context"}
+{"neuron":11349,"pole":"low","cluster":0,"mode":"historical and geographical references","happy_windows":0,"windows":5,"scene":"neutral historical context"}
+{"neuron":11349,"pole":"low","cluster":1,"mode":"children experiencing fear or getting lost","happy_windows":0,"windows":5,"scene":"neutral childhood events"}
+{"neuron":11349,"pole":"low","cluster":2,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"neutral recipe"}
+{"neuron":801,"pole":"high","cluster":0,"mode":"children expressing love for activities","happy_windows":5,"windows":5,"scene":"happy children"}
+{"neuron":801,"pole":"high","cluster":1,"mode":"introduction of characters in stories","happy_windows":0,"windows":5,"scene":"neutral story introduction"}
+{"neuron":801,"pole":"high","cluster":2,"mode":"children expressing happiness and smiling","happy_windows":5,"windows":5,"scene":"happy children"}
+{"neuron":801,"pole":"high","cluster":3,"mode":"children expressing excitement and happiness","happy_windows":5,"windows":5,"scene":"happy children"}
+{"neuron":801,"pole":"high","cluster":4,"mode":"dialogue and interactions between characters","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":801,"pole":"high","cluster":5,"mode":"dialogue and interactions between characters","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":801,"pole":"high","cluster":6,"mode":"describing actions and sounds","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":801,"pole":"high","cluster":7,"mode":"dialogue and interactions between characters","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":801,"pole":"high","cluster":8,"mode":"children expressing emotions or states","happy_windows":0,"windows":5,"scene":"neutral childhood events"}
+{"neuron":801,"pole":"low","cluster":0,"mode":"children's actions and emotions","happy_windows":0,"windows":5,"scene":"neutral childhood events"}
+{"neuron":801,"pole":"low","cluster":1,"mode":"dialogue and interactions between characters","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":801,"pole":"low","cluster":2,"mode":"historical and geographical references","happy_windows":0,"windows":5,"scene":"neutral historical context"}
+{"neuron":801,"pole":"low","cluster":3,"mode":"children playing and enjoying activities","happy_windows":0,"windows":5,"scene":"neutral childhood activities"}
+{"neuron":801,"pole":"low","cluster":4,"mode":"personal reflections and expressions of gratitude","happy_windows":0,"windows":5,"scene":"neutral personal reflection"}
+{"neuron":801,"pole":"low","cluster":5,"mode":"children interacting with animals or objects","happy_windows":0,"windows":5,"scene":"neutral childhood interactions"}
+{"neuron":801,"pole":"low","cluster":6,"mode":"children running away or leaving","happy_windows":0,"windows":5,"scene":"neutral action"}
+{"neuron":8686,"pole":"high","cluster":0,"mode":"children wanting to do things","happy_windows":5,"windows":5,"scene":"happy children's desires"}
+{"neuron":8686,"pole":"high","cluster":1,"mode":"children expressing love for activities","happy_windows":5,"windows":5,"scene":"happy children"}
+{"neuron":8686,"pole":"high","cluster":2,"mode":"children playing and exploring","happy_windows":5,"windows":5,"scene":"joyful children playing"}
+{"neuron":8686,"pole":"high","cluster":3,"mode":"children liking or loving activities","happy_windows":5,"windows":5,"scene":"happy children"}
+{"neuron":8686,"pole":"high","cluster":4,"mode":"describing states or conditions of objects or people","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":8686,"pole":"high","cluster":5,"mode":"children wanting to do things","happy_windows":0,"windows":5,"scene":"childhood desires"}
+{"neuron":8686,"pole":"high","cluster":6,"mode":"children speaking or exclaiming","happy_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":8686,"pole":"high","cluster":7,"mode":"children having fun and enjoying activities","happy_windows":5,"windows":5,"scene":"joyful children playing"}
+{"neuron":8686,"pole":"high","cluster":8,"mode":"children seeing or finding things","happy_windows":0,"windows":5,"scene":"neutral childhood events"}
+{"neuron":8686,"pole":"high","cluster":9,"mode":"children seeing things","happy_windows":0,"windows":5,"scene":"neutral childhood events"}
+{"neuron":8686,"pole":"low","cluster":0,"mode":"children's actions and emotions","happy_windows":0,"windows":5,"scene":"neutral childhood events"}
+{"neuron":8686,"pole":"low","cluster":1,"mode":"story introductions with 'once upon a time'","happy_windows":0,"windows":5,"scene":"neutral story introduction"}
+{"neuron":1777,"pole":"high","cluster":0,"mode":"children expressing happiness and positive emotions","happy_windows":5,"windows":5,"scene":"happy children"}
+{"neuron":1777,"pole":"high","cluster":1,"mode":"helping animals or objects","happy_windows":1,"windows":5,"scene":"childhood kindness"}
+{"neuron":1777,"pole":"low","cluster":0,"mode":"children's actions and emotions","happy_windows":0,"windows":5,"scene":"neutral childhood events"}
+{"neuron":1777,"pole":"low","cluster":1,"mode":"dialogue and interactions between characters","happy_windows":0,"windows":5,"scene":"neutral dialogue"}

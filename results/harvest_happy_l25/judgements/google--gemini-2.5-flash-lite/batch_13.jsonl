@@ -1,0 +1,91 @@
+{"neuron":3862,"pole":"high","cluster":0,"mode":"children arguing or expressing distress, often with quoted speech.","happy_windows":0,"windows":5,"scene":"children arguing"}
+{"neuron":3862,"pole":"high","cluster":1,"mode":"negative impacts of technology and inequality on mental health.","happy_windows":0,"windows":5,"scene":"mental health issues"}
+{"neuron":3862,"pole":"high","cluster":2,"mode":"children expressing happiness and excitement, often with exclamations.","happy_windows":5,"windows":5,"scene":"children's joy and excitement"}
+{"neuron":3862,"pole":"high","cluster":3,"mode":"children expressing sadness, disappointment, or loneliness.","happy_windows":0,"windows":5,"scene":"childhood sadness"}
+{"neuron":3862,"pole":"high","cluster":4,"mode":"children experiencing a mix of emotions, often related to play or accidents.","happy_windows":2,"windows":5,"scene":"childhood play and accidents"}
+{"neuron":3862,"pole":"high","cluster":5,"mode":"children wanting to do something, often involving play or exploration.","happy_windows":0,"windows":5,"scene":"children's desires"}
+{"neuron":3862,"pole":"low","cluster":0,"mode":"children expressing apologies or offering help, often with quoted speech.","happy_windows":0,"windows":5,"scene":"children's apologies"}
+{"neuron":3862,"pole":"low","cluster":1,"mode":"technical or logistical challenges, often involving systems or equipment.","happy_windows":0,"windows":5,"scene":"technical difficulties"}
+{"neuron":3862,"pole":"low","cluster":2,"mode":"historical or geographical references to regions and dynasties.","happy_windows":0,"windows":5,"scene":"historical regions"}
+{"neuron":3862,"pole":"low","cluster":3,"mode":"children expressing happiness and smiling, often in response to positive interactions.","happy_windows":5,"windows":5,"scene":"children's happiness"}
+{"neuron":3862,"pole":"low","cluster":4,"mode":"children experiencing events, often involving finding things or playing.","happy_windows":0,"windows":5,"scene":"children's experiences"}
+{"neuron":4690,"pole":"high","cluster":0,"mode":"children exploring or embarking on adventures, often starting with 'Once upon a time'.","happy_windows":0,"windows":5,"scene":"children's adventures"}
+{"neuron":4690,"pole":"high","cluster":1,"mode":"tourism, events, and attractions, often involving visitors and activities.","happy_windows":0,"windows":5,"scene":"tourism and attractions"}
+{"neuron":4690,"pole":"high","cluster":2,"mode":"negative effects of technology and screen time on well-being and social skills.","happy_windows":0,"windows":5,"scene":"technology's negative effects"}
+{"neuron":4690,"pole":"high","cluster":3,"mode":"children playing or experiencing events, often starting with 'Once upon a time'.","happy_windows":0,"windows":5,"scene":"children's play"}
+{"neuron":4690,"pole":"high","cluster":4,"mode":"children playing, often involving specific activities like swinging or playing games.","happy_windows":5,"windows":5,"scene":"children playing"}
+{"neuron":4690,"pole":"high","cluster":5,"mode":"children playing with toys or engaging in activities like swinging.","happy_windows":0,"windows":5,"scene":"children's play activities"}
+{"neuron":4690,"pole":"low","cluster":0,"mode":"children playing in a park, often involving activities like running or playing games.","happy_windows":0,"windows":5,"scene":"children in the park"}
+{"neuron":4690,"pole":"low","cluster":1,"mode":"children having fun and enjoying activities, often involving playing or spending time together.","happy_windows":5,"windows":5,"scene":"children having fun"}
+{"neuron":4690,"pole":"low","cluster":2,"mode":"children interacting or playing, often involving sharing or being happy.","happy_windows":0,"windows":5,"scene":"children interacting"}
+{"neuron":4690,"pole":"low","cluster":3,"mode":"children experiencing happiness and warmth, often related to simple pleasures.","happy_windows":5,"windows":5,"scene":"children's happiness"}
+{"neuron":4690,"pole":"low","cluster":4,"mode":"children experiencing events, often involving playing or finding things.","happy_windows":0,"windows":5,"scene":"children's experiences"}
+{"neuron":4690,"pole":"low","cluster":5,"mode":"children expressing happiness or excitement, often related to activities or discoveries.","happy_windows":5,"windows":5,"scene":"children's joy"}
+{"neuron":4690,"pole":"low","cluster":6,"mode":"children playing, running, jumping, and having fun together","happy_windows":3,"windows":5,"scene":"children playing happily"}
+{"neuron":4690,"pole":"low","cluster":7,"mode":"children happy and proud of their achievements","happy_windows":3,"windows":5,"scene":"children proud of accomplishments"}
+{"neuron":8247,"pole":"high","cluster":0,"mode":"children playing and exploring their surroundings","happy_windows":3,"windows":5,"scene":"children playing and exploring"}
+{"neuron":8247,"pole":"high","cluster":1,"mode":"recipes with ingredients and instructions","happy_windows":0,"windows":5,"scene":"cooking instructions"}
+{"neuron":8247,"pole":"low","cluster":0,"mode":"children playing and exploring in the park","happy_windows":3,"windows":5,"scene":"children playing in park"}
+{"neuron":8247,"pole":"low","cluster":1,"mode":"keeping company, busy, hidden, or manageable","happy_windows":0,"windows":5,"scene":"maintaining control or company"}
+{"neuron":4969,"pole":"high","cluster":0,"mode":"children struggling with difficult tasks, often using 'but' to indicate failure.","happy_windows":0,"windows":5,"scene":"children's struggles"}
+{"neuron":4969,"pole":"high","cluster":1,"mode":"health issues, problems, and the well-being of people.","happy_windows":0,"windows":5,"scene":"health and well-being"}
+{"neuron":4969,"pole":"high","cluster":2,"mode":"children or animals struggling or being trapped, often with quoted speech.","happy_windows":0,"windows":5,"scene":"struggle and entrapment"}
+{"neuron":4969,"pole":"high","cluster":3,"mode":"children feeling sad, left out, or stuck, often with quoted speech.","happy_windows":0,"windows":5,"scene":"childhood sadness and exclusion"}
+{"neuron":4969,"pole":"low","cluster":0,"mode":"children expressing sadness or disappointment, often with punctuation indicating finality.","happy_windows":0,"windows":5,"scene":"childhood sadness"}
+{"neuron":4969,"pole":"low","cluster":1,"mode":"challenges and cooperation needed to combat global issues.","happy_windows":0,"windows":5,"scene":"global challenges"}
+{"neuron":4969,"pole":"low","cluster":2,"mode":"children experiencing emotions like sadness or relief, often related to interactions.","happy_windows":0,"windows":5,"scene":"children's emotions"}
+{"neuron":4969,"pole":"low","cluster":3,"mode":"children experiencing happiness or pride, often related to learning or achievements.","happy_windows":5,"windows":5,"scene":"children's happiness"}
+{"neuron":4969,"pole":"low","cluster":4,"mode":"techniques for reducing stress, anxiety, and improving mood.","happy_windows":0,"windows":5,"scene":"stress reduction techniques"}
+{"neuron":9842,"pole":"high","cluster":0,"mode":"children named Lily, Sally, Timmy, starting stories","happy_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":9842,"pole":"high","cluster":1,"mode":"children's stories starting with 'One day'","happy_windows":4,"windows":5,"scene":"children's story beginnings"}
+{"neuron":9842,"pole":"high","cluster":2,"mode":"children's stories about a girl named Lily","happy_windows":4,"windows":5,"scene":"children's story about Lily"}
+{"neuron":9842,"pole":"high","cluster":3,"mode":"children's stories starting with 'Once upon a time there was'","happy_windows":4,"windows":5,"scene":"children's story beginnings"}
+{"neuron":9842,"pole":"high","cluster":4,"mode":"references to groups, religious or otherwise","happy_windows":0,"windows":5,"scene":"group references"}
+{"neuron":9842,"pole":"high","cluster":5,"mode":"children's stories about a little girl","happy_windows":4,"windows":5,"scene":"children's story about a girl"}
+{"neuron":9842,"pole":"high","cluster":6,"mode":"songs about battles, love, and life","happy_windows":0,"windows":5,"scene":"song lyrics"}
+{"neuron":9842,"pole":"high","cluster":7,"mode":"children playing and interacting","happy_windows":4,"windows":5,"scene":"children playing and interacting"}
+{"neuron":9842,"pole":"high","cluster":8,"mode":"children's stories about a girl named Lily","happy_windows":4,"windows":5,"scene":"children's story about Lily"}
+{"neuron":9842,"pole":"high","cluster":9,"mode":"children interacting with friends and family","happy_windows":4,"windows":5,"scene":"children interacting happily"}
+{"neuron":9842,"pole":"high","cluster":10,"mode":"children interacting with adults and friends","happy_windows":4,"windows":5,"scene":"children interacting positively"}
+{"neuron":9842,"pole":"low","cluster":0,"mode":"children expressing sadness or asking for help","happy_windows":0,"windows":5,"scene":"children expressing negative emotions"}
+{"neuron":9842,"pole":"low","cluster":1,"mode":"cooperation and implementation of strategies","happy_windows":0,"windows":5,"scene":"cooperative strategy implementation"}
+{"neuron":9842,"pole":"low","cluster":2,"mode":"children feeling isolated, relieved, or brave","happy_windows":0,"windows":5,"scene":"children's emotional states"}
+{"neuron":9842,"pole":"low","cluster":3,"mode":"cultural and ethnic group references","happy_windows":0,"windows":5,"scene":"cultural and ethnic references"}
+{"neuron":9842,"pole":"low","cluster":4,"mode":"reducing stress, anxiety, and improving mood","happy_windows":0,"windows":5,"scene":"stress reduction techniques"}
+{"neuron":9842,"pole":"low","cluster":5,"mode":"community support and educational facilities","happy_windows":0,"windows":5,"scene":"community and educational support"}
+{"neuron":9842,"pole":"low","cluster":6,"mode":"children feeling happy, sad, or scared","happy_windows":2,"windows":5,"scene":"children's emotional states"}
+{"neuron":9842,"pole":"low","cluster":7,"mode":"children feeling lucky, proud, or helpful","happy_windows":4,"windows":5,"scene":"children feeling positive emotions"}
+{"neuron":9842,"pole":"low","cluster":8,"mode":"children choosing toys and experiencing fun","happy_windows":3,"windows":5,"scene":"children choosing toys and having fun"}
+{"neuron":9842,"pole":"low","cluster":9,"mode":"children interacting with family and friends","happy_windows":4,"windows":5,"scene":"children interacting positively"}
+{"neuron":3409,"pole":"high","cluster":0,"mode":"children expressing happiness and pride, often related to achievements or praise.","happy_windows":5,"windows":5,"scene":"children's happiness and pride"}
+{"neuron":3409,"pole":"high","cluster":1,"mode":"children expressing happiness or excitement, often related to family or gifts.","happy_windows":5,"windows":5,"scene":"children's joy"}
+{"neuron":3409,"pole":"high","cluster":2,"mode":"children experiencing sadness or happiness, often related to discoveries or events.","happy_windows":2,"windows":5,"scene":"children's emotions"}
+{"neuron":3409,"pole":"high","cluster":3,"mode":"children experiencing events, often involving actions like running, jumping, or blinking.","happy_windows":0,"windows":5,"scene":"children's actions"}
+{"neuron":3409,"pole":"high","cluster":4,"mode":"groups or individuals considering options or making decisions, often related to needs or problems.","happy_windows":0,"windows":5,"scene":"decision making"}
+{"neuron":3409,"pole":"high","cluster":5,"mode":"children experiencing happiness or excitement, often related to discoveries or play.","happy_windows":5,"windows":5,"scene":"children's joy"}
+{"neuron":3409,"pole":"high","cluster":6,"mode":"children experiencing events, often involving discoveries or playing.","happy_windows":0,"windows":5,"scene":"children's experiences"}
+{"neuron":3409,"pole":"low","cluster":0,"mode":"children asking for or offering help, often with quoted speech.","happy_windows":0,"windows":5,"scene":"children asking for help"}
+{"neuron":3409,"pole":"low","cluster":1,"mode":"instructions for preparing food, often involving adding ingredients.","happy_windows":0,"windows":5,"scene":"food preparation instructions"}
+{"neuron":3409,"pole":"low","cluster":2,"mode":"children experiencing emotions like sadness, relief, or feeling better, often related to interactions.","happy_windows":0,"windows":5,"scene":"children's emotions"}
+{"neuron":3409,"pole":"low","cluster":3,"mode":"children experiencing happiness or pride, often related to simple pleasures or achievements.","happy_windows":5,"windows":5,"scene":"children's happiness"}
+{"neuron":3409,"pole":"low","cluster":4,"mode":"techniques for reducing stress, anxiety, and improving mood.","happy_windows":0,"windows":5,"scene":"stress reduction techniques"}
+{"neuron":3409,"pole":"low","cluster":5,"mode":"children experiencing happiness or satisfaction, often related to activities or discoveries.","happy_windows":5,"windows":5,"scene":"children's happiness"}
+{"neuron":3409,"pole":"low","cluster":6,"mode":"children expressing happiness or excitement, often related to discoveries or play.","happy_windows":0,"windows":5,"scene":"children's joy"}
+{"neuron":3409,"pole":"low","cluster":7,"mode":"children experiencing happiness or pride, often related to achievements or simple pleasures.","happy_windows":0,"windows":5,"scene":"children's happiness"}
+{"neuron":3409,"pole":"low","cluster":8,"mode":"children experiencing happiness or pride, often related to toys or events.","happy_windows":0,"windows":5,"scene":"children's happiness"}
+{"neuron":3409,"pole":"low","cluster":9,"mode":"children expressing happiness or excitement, often related to activities or interactions.","happy_windows":0,"windows":5,"scene":"children's joy"}
+{"neuron":4184,"pole":"high","cluster":0,"mode":"competitions, curriculum development, and interactions with ambassadors.","happy_windows":0,"windows":5,"scene":"competitions and diplomacy"}
+{"neuron":4184,"pole":"high","cluster":1,"mode":"children playing or experiencing events, often starting with 'Once upon a time'.","happy_windows":0,"windows":5,"scene":"children's play"}
+{"neuron":4184,"pole":"low","cluster":0,"mode":"children having fun and enjoying activities, often involving play or laughter.","happy_windows":5,"windows":5,"scene":"children having fun"}
+{"neuron":4184,"pole":"low","cluster":1,"mode":"children playing or engaging in activities, often involving running or jumping.","happy_windows":0,"windows":5,"scene":"children playing"}
+{"neuron":4184,"pole":"low","cluster":2,"mode":"children playing, often involving specific activities like swinging or playing games.","happy_windows":0,"windows":5,"scene":"children's play activities"}
+{"neuron":4184,"pole":"low","cluster":3,"mode":"technical or descriptive terms, often related to media or mathematics.","happy_windows":0,"windows":5,"scene":"technical terms"}
+{"neuron":4184,"pole":"low","cluster":4,"mode":"feelings of being stuck or wanting more from life.","happy_windows":0,"windows":5,"scene":"feeling stuck"}
+{"neuron":4184,"pole":"low","cluster":5,"mode":"children experiencing happiness or satisfaction, often related to activities or discoveries.","happy_windows":5,"windows":5,"scene":"children's happiness"}
+{"neuron":11278,"pole":"high","cluster":0,"mode":"historical periods and contexts, often involving dates and specific eras.","happy_windows":0,"windows":5,"scene":"historical periods"}
+{"neuron":11278,"pole":"high","cluster":1,"mode":"children expressing excitement or surprise, often with exclamations.","happy_windows":5,"windows":5,"scene":"children's excitement"}
+{"neuron":11278,"pole":"high","cluster":2,"mode":"children expressing excitement or pride, often related to achievements or activities.","happy_windows":5,"windows":5,"scene":"children's excitement and pride"}
+{"neuron":11278,"pole":"low","cluster":0,"mode":"numerical data, often related to measurements or quantities.","happy_windows":0,"windows":5,"scene":"numerical data"}
+{"neuron":11278,"pole":"low","cluster":1,"mode":"children expressing negative emotions or uncertainty, often with quoted speech.","happy_windows":0,"windows":5,"scene":"children's negative emotions"}
+{"neuron":11278,"pole":"low","cluster":2,"mode":"children experiencing emotions like isolation, relief, or bravery.","happy_windows":0,"windows":5,"scene":"children's emotions"}
+{"neuron":11278,"pole":"low","cluster":3,"mode":"ethnic or regional identifiers, often related to geographical locations.","happy_windows":0,"windows":5,"scene":"ethnic and regional identifiers"}

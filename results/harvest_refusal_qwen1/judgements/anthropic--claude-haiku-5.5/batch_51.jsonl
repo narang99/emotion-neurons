@@ -1,0 +1,42 @@
+{"neuron":9386,"pole":"high","cluster":0,"mode":"Sentence-final or paragraph-break tokens in narrative prose","scene_windows":0,"windows":5,"scene":"Everyday narrative fiction and personal storytelling"}
+{"neuron":9386,"pole":"high","cluster":1,"mode":"Negation 'not' in claims about media, behavior, or practices","scene_windows":0,"windows":5,"scene":"Neutral explanatory or informational articles"}
+{"neuron":9386,"pole":"high","cluster":2,"mode":"Digits within years or citation dates in historical text","scene_windows":0,"windows":5,"scene":"Historical and scientific reference passages"}
+{"neuron":9386,"pole":"high","cluster":3,"mode":"Advice-giving verbs and words in student or career guidance","scene_windows":0,"windows":5,"scene":"Advice and tips for students or professionals"}
+{"neuron":9386,"pole":"low","cluster":0,"mode":"Nouns ending descriptive or instructional phrases, like customers or products","scene_windows":0,"windows":5,"scene":"Business, industry, and general informational text"}
+{"neuron":9386,"pole":"low","cluster":1,"mode":"Name fragments and word pieces inside proper nouns","scene_windows":0,"windows":5,"scene":"Encyclopedic text about people, places, and plants"}
+{"neuron":3342,"pole":"high","cluster":0,"mode":"Closing punctuation in assistant replies to thanks","scene_windows":0,"windows":5,"scene":"Polite chatbot exchanges ending a conversation"}
+{"neuron":3342,"pole":"high","cluster":1,"mode":"Request phrasing like 'give me' or 'add some' in user asks","scene_windows":0,"windows":5,"scene":"User requests for examples, tips, or more information"}
+{"neuron":3342,"pole":"high","cluster":2,"mode":"The word 'go' or 'going' in idiomatic phrases","scene_windows":0,"windows":5,"scene":"Fiction and citations with 'go' verb usage"}
+{"neuron":3342,"pole":"high","cluster":3,"mode":"Pronouns and verbs before a clause ending or intent","scene_windows":0,"windows":5,"scene":"Personal reflection and mixed informal prose"}
+{"neuron":3342,"pole":"high","cluster":4,"mode":"Question mark ending a Human question before Assistant reply","scene_windows":0,"windows":5,"scene":"Human-assistant factual or lifestyle questions"}
+{"neuron":3342,"pole":"low","cluster":0,"mode":"Qualifying words like 'different', 'quickly', 'many' in expository sentences","scene_windows":0,"windows":5,"scene":"Expository science, policy, and program descriptions"}
+{"neuron":3342,"pole":"low","cluster":1,"mode":"Possessive or contraction 's' after 'it' in descriptive sentences","scene_windows":0,"windows":5,"scene":"Explanatory chat and trivia about objects or history"}
+{"neuron":1443,"pole":"high","cluster":0,"mode":"Sentence-initial 'In' starting transitional phrases","scene_windows":0,"windows":5,"scene":"Expository essays and product or topic overviews"}
+{"neuron":1443,"pole":"high","cluster":1,"mode":"Articles 'the' or 'a' before abstract or setting nouns","scene_windows":0,"windows":5,"scene":"Literary analysis and descriptive writing"}
+{"neuron":1443,"pole":"high","cluster":2,"mode":"Sentence-ending periods or spaces after factual statements","scene_windows":0,"windows":5,"scene":"Explanatory facts about history, science, and culture"}
+{"neuron":1443,"pole":"low","cluster":0,"mode":"Commas after clauses mid-sentence in explanatory text","scene_windows":0,"windows":5,"scene":"Technical and historical expository writing"}
+{"neuron":1443,"pole":"low","cluster":1,"mode":"Article 'the' before nouns in informational sentences","scene_windows":0,"windows":5,"scene":"Encyclopedic and general factual passages"}
+{"neuron":3808,"pole":"high","cluster":0,"mode":"Name or term boundary tokens in news and reference text","scene_windows":0,"windows":5,"scene":"News, music history, and property law text"}
+{"neuron":3808,"pole":"high","cluster":1,"mode":"Sentence-ending periods in dark fiction narration","scene_windows":0,"windows":5,"scene":"Fantasy and horror narrative passages"}
+{"neuron":3808,"pole":"low","cluster":0,"mode":"Topic nouns like violence, research, resources in policy text","scene_windows":0,"windows":5,"scene":"News and policy discussion of social topics"}
+{"neuron":3808,"pole":"low","cluster":1,"mode":"Subject pronouns and verbs starting narrative clauses","scene_windows":0,"windows":5,"scene":"Fiction narration with dialogue and action"}
+{"neuron":1117,"pole":"high","cluster":0,"mode":"Determiners 'your', 'of', 'the', 'from' in advice sentences","scene_windows":0,"windows":5,"scene":"How-to and advice writing on content or cooking"}
+{"neuron":1117,"pole":"high","cluster":1,"mode":"Assistant role label or colon after a Human question","scene_windows":0,"windows":5,"scene":"Human-assistant exchanges on fitness, gardening, food"}
+{"neuron":1117,"pole":"low","cluster":0,"mode":"Determiners and conjunctions in news-style sentences","scene_windows":0,"windows":5,"scene":"Water, legal, and historical reporting"}
+{"neuron":1117,"pole":"low","cluster":1,"mode":"Question-opening words 'Can', 'Could', 'Do' after speaker tags","scene_windows":0,"windows":5,"scene":"User-assistant requests and riddles"}
+{"neuron":8641,"pole":"high","cluster":0,"mode":"Article 'a' after verbs of creating or promoting","scene_windows":0,"windows":5,"scene":"Wellness, relationships, and interior design writing"}
+{"neuron":8641,"pole":"high","cluster":1,"mode":"Sentence-ending punctuation in emotional fiction dialogue","scene_windows":0,"windows":5,"scene":"Romance and emotional narrative fiction"}
+{"neuron":8641,"pole":"high","cluster":2,"mode":"Preposition 'in' after events, places, or quantities","scene_windows":0,"windows":5,"scene":"Environmental, fishing, and weather informational text"}
+{"neuron":8641,"pole":"high","cluster":3,"mode":"Assistant label or colon before a substantive answer","scene_windows":0,"windows":5,"scene":"User-assistant questions on business and literature"}
+{"neuron":8641,"pole":"high","cluster":4,"mode":"Numeric or quantity tokens and 'about' in statistics","scene_windows":0,"windows":5,"scene":"Health, marketing plans, and demographic reporting"}
+{"neuron":8641,"pole":"low","cluster":0,"mode":"Article 'the' before nouns in historical or tech narration","scene_windows":0,"windows":5,"scene":"Tech history, space, and colonization text"}
+{"neuron":8641,"pole":"low","cluster":1,"mode":"Abstract nouns like struggle, strain, impact, transition","scene_windows":0,"windows":5,"scene":"Literary analysis and descriptive essays"}
+{"neuron":2269,"pole":"high","cluster":0,"mode":"Articles and 'to' in technical or business descriptions","scene_windows":0,"windows":5,"scene":"Computing, energy, and organizational reports"}
+{"neuron":2269,"pole":"high","cluster":1,"mode":"Coordinating 'and' or 'or' joining abstract qualities","scene_windows":0,"windows":5,"scene":"Advice and discussion on success and relationships"}
+{"neuron":2269,"pole":"low","cluster":0,"mode":"Prepositions and articles in technical or narrative clauses","scene_windows":0,"windows":5,"scene":"Manufacturing, history, and sci-fi narration"}
+{"neuron":2269,"pole":"low","cluster":1,"mode":"Nouns closing evocative phrases like needs, rights, souls","scene_windows":0,"windows":5,"scene":"Civic, fantasy, and motivational writing"}
+{"neuron":8427,"pole":"high","cluster":0,"mode":"Article 'a' or 'the' and 'to' after creating or leading verbs","scene_windows":0,"windows":5,"scene":"Health, design, and accessibility informational text"}
+{"neuron":8427,"pole":"high","cluster":1,"mode":"Colon after 'Assistant' before a first answer","scene_windows":0,"windows":5,"scene":"Human-assistant questions on drinks, travel, history"}
+{"neuron":8427,"pole":"low","cluster":0,"mode":"Preposition 'in' after nouns describing regional or cultural settings","scene_windows":0,"windows":5,"scene":"Flowers, weather, sports, and history prose"}
+{"neuron":8427,"pole":"low","cluster":1,"mode":"Possessive determiners 'your', 'their', 'its' in advice","scene_windows":0,"windows":5,"scene":"Safety, plumbing, and product advice writing"}
+{"neuron":8427,"pole":"low","cluster":2,"mode":"Sentence-ending periods or spaces before a new sentence","scene_windows":1,"windows":5,"scene":"Mixed expository text; one condemning illegal activity"}

@@ -1,0 +1,85 @@
+{"neuron":7786,"pole":"high","cluster":0,"mode":"words that help or enable actions or understanding","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":7786,"pole":"high","cluster":1,"mode":"past tense verb indicating movement or transition","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":7786,"pole":"high","cluster":2,"mode":"numerical digits and symbols","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":7786,"pole":"low","cluster":0,"mode":"words related to actions, responses, and changes","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":7786,"pole":"low","cluster":1,"mode":"numerical digits and symbols","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":7786,"pole":"low","cluster":2,"mode":"words related to actions, changes, and connections","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":7786,"pole":"low","cluster":3,"mode":"words indicating positive emotions and shared activities","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":7786,"pole":"low","cluster":4,"mode":"words indicating actions, intentions, and expectations","happy_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":420,"pole":"high","cluster":0,"mode":"past tense verb indicating speech","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":420,"pole":"high","cluster":1,"mode":"punctuation and short interjections","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":420,"pole":"high","cluster":2,"mode":"punctuation indicating the end of a statement","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":420,"pole":"high","cluster":3,"mode":"words related to beliefs, perceptions, and evaluations","happy_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":420,"pole":"high","cluster":4,"mode":"verbs indicating physical actions of moving or holding","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":420,"pole":"low","cluster":0,"mode":"punctuation and words indicating place or state","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":420,"pole":"low","cluster":1,"mode":"words indicating time and transition","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":420,"pole":"low","cluster":2,"mode":"words related to processes, content, and targeting","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":420,"pole":"low","cluster":3,"mode":"words related to environment and physical attributes","happy_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":420,"pole":"low","cluster":4,"mode":"pronouns and conjunctions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1321,"pole":"high","cluster":0,"mode":"verbs indicating feeling or sensation","happy_windows":4,"windows":5,"scene":"children's story narrative"}
+{"neuron":1321,"pole":"high","cluster":1,"mode":"past tense verb indicating perception","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1321,"pole":"high","cluster":2,"mode":"verbs indicating movement or action","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1321,"pole":"high","cluster":3,"mode":"verbs indicating desire or intention","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1321,"pole":"low","cluster":0,"mode":"words related to actions and accommodation","happy_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":1321,"pole":"low","cluster":1,"mode":"words indicating playing and togetherness","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":1321,"pole":"low","cluster":2,"mode":"words related to marketing and content creation","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":4352,"pole":"high","cluster":0,"mode":"referring to a specific object or entity previously mentioned","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"high","cluster":1,"mode":"technical terms related to physical processes and systems","happy_windows":0,"windows":5,"scene":"technical, neutral"}
+{"neuron":4352,"pole":"high","cluster":2,"mode":"podcast creation and engagement strategies","happy_windows":0,"windows":5,"scene":"instructional, neutral"}
+{"neuron":4352,"pole":"high","cluster":3,"mode":"sudden events or transitions in a narrative","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"high","cluster":4,"mode":"narrative progression, often involving a female protagonist","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"high","cluster":5,"mode":"actions and observations of a female character","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":0,"mode":"definite articles referring to specific objects or entities","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":1,"mode":"physical processes and states","happy_windows":0,"windows":5,"scene":"technical, neutral"}
+{"neuron":4352,"pole":"low","cluster":2,"mode":"actions and observations of a female character","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":3,"mode":"objects and their properties in a narrative context","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":4,"mode":"actions and observations of a female character","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":5,"mode":"actions and observations of a female character","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":6,"mode":"actions and states of being","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":7,"mode":"actions and states of being","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":4352,"pole":"low","cluster":8,"mode":"actions and observations of a female character","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10945,"pole":"high","cluster":0,"mode":"verbs indicating the start of an action","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"high","cluster":1,"mode":"verbs indicating playing","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"high","cluster":2,"mode":"verbs indicating love or affection","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"high","cluster":3,"mode":"infinitive marker 'to'","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"high","cluster":4,"mode":"adverb indicating togetherness","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"high","cluster":5,"mode":"words indicating enjoyment and time","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"high","cluster":6,"mode":"words indicating sounds and actions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"high","cluster":7,"mode":"punctuation and conjunctions","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"low","cluster":0,"mode":"pronouns and conjunctions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":10945,"pole":"low","cluster":1,"mode":"verbs indicating state or action","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":0,"mode":"punctuation and conjunctions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":1,"mode":"prepositions indicating direction or movement","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":2,"mode":"punctuation and conjunctions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":3,"mode":"possessive pronouns","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":4,"mode":"verbs indicating speech","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":5,"mode":"words indicating excitement and emotion","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":6,"mode":"words indicating sounds and actions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":7,"mode":"verbs indicating positive emotion","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":8,"mode":"pronouns and names","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"high","cluster":9,"mode":"conjunctions and positive emotions","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":2707,"pole":"low","cluster":0,"mode":"punctuation indicating pauses or endings in dialogue","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2707,"pole":"low","cluster":1,"mode":"prepositions indicating direction or destination","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2707,"pole":"low","cluster":2,"mode":"punctuation indicating pauses or endings in dialogue","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2707,"pole":"low","cluster":3,"mode":"possessive pronouns referring to a male character","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2707,"pole":"low","cluster":4,"mode":"verbs indicating speech or communication","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2707,"pole":"low","cluster":5,"mode":"adjectives indicating positive emotional states","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2707,"pole":"low","cluster":6,"mode":"onomatopoeia and sounds","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2707,"pole":"low","cluster":7,"mode":"verbs indicating positive emotional states","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10729,"pole":"high","cluster":0,"mode":"endings of sentences or clauses, indicating completion","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10729,"pole":"high","cluster":1,"mode":"list items or numbered points","happy_windows":0,"windows":5,"scene":"instructional, neutral"}
+{"neuron":10729,"pole":"high","cluster":2,"mode":"code snippets or placeholders","happy_windows":0,"windows":5,"scene":"technical, neutral"}
+{"neuron":10729,"pole":"high","cluster":3,"mode":"food ingredients and culinary terms","happy_windows":0,"windows":5,"scene":"recipe, neutral"}
+{"neuron":10729,"pole":"high","cluster":4,"mode":"punctuation indicating pauses or endings in dialogue","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10729,"pole":"low","cluster":0,"mode":"negation or lack of something","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10729,"pole":"low","cluster":1,"mode":"user experience and program-related terms","happy_windows":0,"windows":5,"scene":"technical, neutral"}
+{"neuron":10729,"pole":"low","cluster":2,"mode":"pronouns and conjunctions indicating possession or condition","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10729,"pole":"low","cluster":3,"mode":"pronouns and conjunctions indicating possession or condition","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":9079,"pole":"high","cluster":0,"mode":"pronouns indicating gender and action","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":9079,"pole":"high","cluster":1,"mode":"pronouns indicating state or being","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":9079,"pole":"high","cluster":2,"mode":"punctuation and conjunctions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":9079,"pole":"high","cluster":3,"mode":"conjunctions indicating contrast or transition","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":9079,"pole":"high","cluster":4,"mode":"conjunctions indicating connection or sequence","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":9079,"pole":"high","cluster":5,"mode":"pronouns indicating subject or object","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":9079,"pole":"low","cluster":0,"mode":"nouns indicating characters and objects","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":9079,"pole":"low","cluster":1,"mode":"punctuation and conjunctions","happy_windows":0,"windows":5,"scene":"children's story narrative"}

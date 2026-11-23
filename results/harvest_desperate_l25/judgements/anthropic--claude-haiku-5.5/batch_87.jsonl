@@ -1,0 +1,49 @@
+{"neuron":10227,"pole":"high","cluster":0,"mode":"Possessive pronouns after verbs in children's stories","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about playing and family"}
+{"neuron":10227,"pole":"high","cluster":1,"mode":"Subject pronouns starting sentences after emotional resolution","scene_windows":0,"windows":5,"scene":"Children's stories with characters feeling sorry or happy"}
+{"neuron":10227,"pole":"high","cluster":2,"mode":"Nouns ending a phrase, mid-sentence in expository or narrative text","scene_windows":0,"windows":5,"scene":"Mixed marketing, fantasy, and everyday narration"}
+{"neuron":10227,"pole":"high","cluster":3,"mode":"Sentence-initial 'Suddenly' introducing a sudden event","scene_windows":0,"windows":5,"scene":"Children's stories where something unexpected happens"}
+{"neuron":10227,"pole":"high","cluster":4,"mode":"Periods closing tense, waiting, or suspenseful sentences","scene_windows":0,"windows":5,"scene":"Suspenseful narration of waiting or observing"}
+{"neuron":10227,"pole":"high","cluster":5,"mode":"Periods after a character notices or sees something","scene_windows":0,"windows":5,"scene":"Children's stories about discovering something new"}
+{"neuron":10227,"pole":"high","cluster":6,"mode":"Paragraph-ending periods and blank spaces before a new event","scene_windows":0,"windows":5,"scene":"Children's stories with happy moments turning to new events"}
+{"neuron":10227,"pole":"high","cluster":7,"mode":"Periods closing happy or relieved resolution sentences","scene_windows":0,"windows":5,"scene":"Children's stories ending in contentment"}
+{"neuron":10227,"pole":"high","cluster":8,"mode":"Periods ending the 'Once upon a time' opening sentence","scene_windows":0,"windows":5,"scene":"Story openings introducing a character"}
+{"neuron":10227,"pole":"low","cluster":0,"mode":"Mid-sentence words in emotional or dramatic adult narration","scene_windows":0,"windows":5,"scene":"Adult fiction with stress, fear, or confusion"}
+{"neuron":10227,"pole":"low","cluster":1,"mode":"Modals and pronouns in reflective adult narrative","scene_windows":0,"windows":5,"scene":"Adult fiction reflecting on choices and feelings"}
+{"neuron":2444,"pole":"high","cluster":0,"mode":"Nouns and pronouns in dark, grim narrative settings","scene_windows":0,"windows":5,"scene":"Dark fantasy or crime narration about pursuits"}
+{"neuron":2444,"pole":"high","cluster":1,"mode":"Recipe ingredient list and instruction tokens","scene_windows":0,"windows":5,"scene":"Cooking recipes and ingredient lists"}
+{"neuron":2444,"pole":"low","cluster":0,"mode":"Narrative tokens mid-action in fiction","scene_windows":0,"windows":5,"scene":"Fiction with characters acting or discovering"}
+{"neuron":2444,"pole":"low","cluster":1,"mode":"Recipe and ingredient list tokens","scene_windows":0,"windows":5,"scene":"Cooking and food preparation instructions"}
+{"neuron":8189,"pole":"high","cluster":0,"mode":"Conjunction 'and' linking actions in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about daily events"}
+{"neuron":8189,"pole":"high","cluster":1,"mode":"Words in romantic or reflective narrative, mid-clause","scene_windows":0,"windows":5,"scene":"Narratives about love, routine, or everyday life"}
+{"neuron":8189,"pole":"high","cluster":2,"mode":"Sentence-final periods after urgent or apologetic statements","scene_windows":2,"windows":5,"scene":"Tense confrontations, urgent warnings, and apologies"}
+{"neuron":8189,"pole":"high","cluster":3,"mode":"Opening quotation marks introducing dialogue replies","scene_windows":0,"windows":5,"scene":"Dialogue where a character speaks to another"}
+{"neuron":8189,"pole":"low","cluster":0,"mode":"Periods ending informational or explanatory sentences","scene_windows":0,"windows":5,"scene":"Advice articles and how-to explanations"}
+{"neuron":8189,"pole":"low","cluster":1,"mode":"Negation and contraction tokens in casual dialogue","scene_windows":0,"windows":5,"scene":"Casual conversational or narrative dialogue"}
+{"neuron":8189,"pole":"low","cluster":2,"mode":"Content words in medical or scholarly explanatory text","scene_windows":0,"windows":5,"scene":"Medical, scientific, and reference texts"}
+{"neuron":8189,"pole":"low","cluster":3,"mode":"Opening quotation marks starting a character's speech","scene_windows":0,"windows":5,"scene":"Dramatic fiction with dialogue and menace"}
+{"neuron":2112,"pole":"high","cluster":0,"mode":"Words ending a casual action or reaction phrase","scene_windows":0,"windows":5,"scene":"Casual or gritty adult dialogue and narration"}
+{"neuron":2112,"pole":"high","cluster":1,"mode":"The verb 'was' in 'Once upon a time there was'","scene_windows":0,"windows":5,"scene":"Children's story openings"}
+{"neuron":2112,"pole":"low","cluster":0,"mode":"Technical or scientific noun tokens mid-term","scene_windows":0,"windows":5,"scene":"Science, health, and reference writing"}
+{"neuron":2112,"pole":"low","cluster":1,"mode":"The verb 'make' in varied contexts","scene_windows":0,"windows":5,"scene":"Children's stories and instructional text"}
+{"neuron":2112,"pole":"low","cluster":2,"mode":"Object pronouns and phrases after fight or follow verbs","scene_windows":1,"windows":5,"scene":"Tense, combative or emotional dialogue"}
+{"neuron":10323,"pole":"high","cluster":0,"mode":"Clause-boundary tokens after time or sudden-action phrases","scene_windows":0,"windows":5,"scene":"Narrative suspense and everyday action scenes"}
+{"neuron":10323,"pole":"high","cluster":1,"mode":"Code and data tokens inside programming snippets","scene_windows":0,"windows":5,"scene":"Programming code and numeric data"}
+{"neuron":10323,"pole":"low","cluster":0,"mode":"Function words inside recipe and ingredient lists","scene_windows":0,"windows":5,"scene":"Recipes and food preparation"}
+{"neuron":10323,"pole":"low","cluster":1,"mode":"Verbs and words in expressive dialogue actions","scene_windows":0,"windows":5,"scene":"Emotional or dramatic dialogue and actions"}
+{"neuron":10323,"pole":"low","cluster":2,"mode":"Name or citation fragments in reference text","scene_windows":0,"windows":5,"scene":"Bibliographic, historical, and regulatory references"}
+{"neuron":2995,"pole":"high","cluster":0,"mode":"Commas and nouns in formal or historical exposition","scene_windows":0,"windows":5,"scene":"Historical and literary commentary"}
+{"neuron":2995,"pole":"high","cluster":1,"mode":"Opening quotation marks starting urgent dialogue","scene_windows":2,"windows":5,"scene":"Tense dialogue with shocked or pleading characters"}
+{"neuron":2995,"pole":"low","cluster":0,"mode":"The verb 'came' bringing help to a character","scene_windows":0,"windows":5,"scene":"Children's stories where someone arrives to help"}
+{"neuron":2995,"pole":"low","cluster":1,"mode":"Sentence-ending periods after happy resolutions","scene_windows":0,"windows":5,"scene":"Children's stories ending happily"}
+{"neuron":2995,"pole":"low","cluster":2,"mode":"'One day' and 'Suddenly' story transition words","scene_windows":0,"windows":5,"scene":"Children's story openings and transitions"}
+{"neuron":2995,"pole":"low","cluster":3,"mode":"Action verbs like played, run, or away in stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about play and animals"}
+{"neuron":2995,"pole":"low","cluster":4,"mode":"The preposition 'in' after containers or places","scene_windows":0,"windows":5,"scene":"Simple stories about objects and places"}
+{"neuron":11333,"pole":"high","cluster":0,"mode":"Nouns closing vivid or insulting phrases","scene_windows":0,"windows":5,"scene":"Casual or chaotic narration and commentary"}
+{"neuron":11333,"pole":"high","cluster":1,"mode":"Code syntax tokens such as brackets and semicolons","scene_windows":0,"windows":5,"scene":"Programming code examples"}
+{"neuron":11333,"pole":"low","cluster":0,"mode":"Nouns and pronouns in tense crime or threat narration","scene_windows":2,"windows":5,"scene":"Tense thriller scenes with fear and pursuit"}
+{"neuron":11333,"pole":"low","cluster":1,"mode":"Sentence subjects in simple children's narration","scene_windows":0,"windows":5,"scene":"Simple children's stories about discovery"}
+{"neuron":8328,"pole":"high","cluster":0,"mode":"Adjectives and nouns in descriptive personal narration","scene_windows":0,"windows":5,"scene":"Descriptive first-person and everyday narration"}
+{"neuron":8328,"pole":"high","cluster":1,"mode":"Proper names and punctuation in encyclopedic text","scene_windows":0,"windows":5,"scene":"Encyclopedic and bibliographic reference text"}
+{"neuron":8328,"pole":"low","cluster":0,"mode":"Sentence-ending periods in reflective first-person prose","scene_windows":0,"windows":5,"scene":"Reflective or melancholic first-person narration"}
+{"neuron":8328,"pole":"low","cluster":1,"mode":"Name fragments and conjunctions in historical text","scene_windows":0,"windows":5,"scene":"Historical and cultural reference writing"}
+{"neuron":8328,"pole":"low","cluster":2,"mode":"Medical and clinical technical terms","scene_windows":0,"windows":5,"scene":"Medical and clinical information text"}

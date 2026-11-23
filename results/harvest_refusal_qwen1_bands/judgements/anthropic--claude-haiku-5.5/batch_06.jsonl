@@ -1,0 +1,76 @@
+{"neuron":8490,"pole":"high","cluster":0,"mode":"Advice on 'best' in relationship and pet-care guidance","scene_windows":0,"windows":5,"scene":"Advice about exes and dog health"}
+{"neuron":8490,"pole":"high","cluster":1,"mode":"Assistant colon after a Human question in dialogue","scene_windows":1,"windows":5,"scene":"Human-assistant Q&A, mostly mundane, one body-burial query"}
+{"neuron":8490,"pole":"high","cluster":2,"mode":"Infinitive or preposition in narrative and technical sentences","scene_windows":0,"windows":5,"scene":"Neutral narration about robots, prosthetics, a heroine"}
+{"neuron":8490,"pole":"high","cluster":3,"mode":"'Avoid' or 'minimize' purpose verbs in technical text","scene_windows":0,"windows":5,"scene":"Technical and business text on minimizing risk"}
+{"neuron":8490,"pole":"low","cluster":0,"mode":"Conjunctions and punctuation inside practical advice lists","scene_windows":0,"windows":5,"scene":"Party, writing and business tips"}
+{"neuron":8490,"pole":"low","cluster":1,"mode":"Comma after 'If you have [body part] pain' in yoga modifications","scene_windows":0,"windows":5,"scene":"Yoga pose instructions for people with pain"}
+{"neuron":8346,"pole":"high","cluster":0,"mode":"Tab characters inside numeric data rows","scene_windows":0,"windows":5,"scene":"Tab-separated number sequences"}
+{"neuron":8346,"pole":"high","cluster":1,"mode":"Digit after '1.1' in numbered dance-step lists","scene_windows":0,"windows":5,"scene":"Square dance call lists"}
+{"neuron":8346,"pole":"high","cluster":2,"mode":"Blank space before step numbers in dance lists","scene_windows":0,"windows":5,"scene":"Square dance call lists"}
+{"neuron":8346,"pole":"high","cluster":3,"mode":"Digits inside repeated arithmetic expression strings","scene_windows":0,"windows":5,"scene":"Repeated number equations"}
+{"neuron":8346,"pole":"high","cluster":4,"mode":"Volume or issue digits in journal citations","scene_windows":0,"windows":5,"scene":"Medical reference lists"}
+{"neuron":8346,"pole":"high","cluster":5,"mode":"Numbers inside C++ nested brace array literals","scene_windows":0,"windows":5,"scene":"Code data initializers"}
+{"neuron":8346,"pole":"high","cluster":6,"mode":"Hex colour digit inside HTML/CSS code examples","scene_windows":0,"windows":5,"scene":"Button styling code snippets"}
+{"neuron":8346,"pole":"high","cluster":7,"mode":"Year digits in dated citations and event listings","scene_windows":0,"windows":5,"scene":"Web citations and rally schedules"}
+{"neuron":8346,"pole":"high","cluster":8,"mode":"Digits inside URLs in bibliography entries","scene_windows":0,"windows":5,"scene":"Essay reference URLs"}
+{"neuron":8346,"pole":"high","cluster":9,"mode":"'hesitate' or 'free' in polite closing invitations","scene_windows":0,"windows":5,"scene":"Polite closing lines offering further help"}
+{"neuron":8346,"pole":"high","cluster":10,"mode":"List item number before a new recipe or idea","scene_windows":0,"windows":5,"scene":"Numbered food and recipe lists"}
+{"neuron":8346,"pole":"high","cluster":11,"mode":"Blank token before a new numbered list item","scene_windows":0,"windows":5,"scene":"Numbered tip and idea lists"}
+{"neuron":8346,"pole":"high","cluster":12,"mode":"CSS property tokens inside table style blocks","scene_windows":0,"windows":5,"scene":"HTML table CSS code"}
+{"neuron":8346,"pole":"high","cluster":13,"mode":"Word-initial fragments split mid-word","scene_windows":0,"windows":5,"scene":"Varied web and news text fragments"}
+{"neuron":8346,"pole":"high","cluster":14,"mode":"Function words inside ordinary narrative sentences","scene_windows":0,"windows":5,"scene":"Narrative and AI self-description"}
+{"neuron":8346,"pole":"high","cluster":15,"mode":"Phrase 'feel free to get in touch with us'","scene_windows":0,"windows":5,"scene":"Website contact-page copy"}
+{"neuron":8346,"pole":"low","cluster":0,"mode":"Colon after 'Human' starting a dialogue turn","scene_windows":0,"windows":5,"scene":"Casual chat turns about cooking and trips"}
+{"neuron":8346,"pole":"low","cluster":1,"mode":"'helps' in 'Hope this helps' closings","scene_windows":0,"windows":5,"scene":"Assistant closing lines on cooking and history"}
+{"neuron":8346,"pole":"low","cluster":2,"mode":"Middle initial inside bibliographic author names","scene_windows":0,"windows":5,"scene":"Reference list author names"}
+{"neuron":8346,"pole":"low","cluster":3,"mode":"Blank token before a new sentence in expository text","scene_windows":0,"windows":5,"scene":"Explanatory science and art text"}
+{"neuron":8346,"pole":"low","cluster":4,"mode":"Content words ending a clause in mixed prose","scene_windows":0,"windows":5,"scene":"Varied prose and dialogue"}
+{"neuron":8346,"pole":"low","cluster":5,"mode":"Period ending a short fiction sentence","scene_windows":0,"windows":5,"scene":"Dark fiction narration"}
+{"neuron":7362,"pole":"high","cluster":0,"mode":"'to' or 'form' after policy and purpose phrases","scene_windows":0,"windows":5,"scene":"Policy, safety and business descriptions"}
+{"neuron":7362,"pole":"high","cluster":1,"mode":"'for' after 'prepare/ready' before adulthood or college","scene_windows":0,"windows":5,"scene":"Education and life-skills writing"}
+{"neuron":7362,"pole":"low","cluster":0,"mode":"'have' or 'any' in closing offers of further help","scene_windows":0,"windows":5,"scene":"Assistant closing lines after thanks"}
+{"neuron":7362,"pole":"low","cluster":1,"mode":"'that' or 'about' after 'sorry to hear'","scene_windows":0,"windows":5,"scene":"Empathetic replies to user problems"}
+{"neuron":7362,"pole":"low","cluster":2,"mode":"'wonderful' or 'great' in 'have a day' wishes","scene_windows":0,"windows":5,"scene":"Assistant farewell wishes"}
+{"neuron":7362,"pole":"low","cluster":3,"mode":"'to' after 'happy/glad/thrilled' expressions","scene_windows":0,"windows":5,"scene":"Assistant warm replies and congratulations"}
+{"neuron":7362,"pole":"low","cluster":4,"mode":"Sentence boundary in sports news about a hockey player","scene_windows":0,"windows":5,"scene":"Hockey contract news"}
+{"neuron":7362,"pole":"low","cluster":5,"mode":"'are' or 'you' after 'if you' in crisis-support advice","scene_windows":5,"windows":5,"scene":"Assistant declining illegal acts, urging help"}
+{"neuron":7362,"pole":"low","cluster":6,"mode":"Function words in safety and benefits advice","scene_windows":0,"windows":5,"scene":"Miscellaneous advice and product text"}
+{"neuron":7362,"pole":"low","cluster":7,"mode":"Colon after 'user' starting a follow-up request","scene_windows":0,"windows":5,"scene":"Follow-up user requests on poems, recipes, events"}
+{"neuron":4499,"pole":"high","cluster":0,"mode":"Negation 'n't' in practice tips","scene_windows":0,"windows":5,"scene":"Instructions on music, cooking and surfing"}
+{"neuron":4499,"pole":"high","cluster":1,"mode":"Negation 'not' or 'n't' in narrative statements","scene_windows":0,"windows":5,"scene":"Historical and fictional narration"}
+{"neuron":4499,"pole":"high","cluster":2,"mode":"'that' or 'to' introducing clauses in essay prose","scene_windows":0,"windows":5,"scene":"Historical and general expository prose"}
+{"neuron":4499,"pole":"high","cluster":3,"mode":"'than' after 'rather' in comparisons","scene_windows":0,"windows":5,"scene":"Comparative explanations, including adult-content description"}
+{"neuron":4499,"pole":"low","cluster":0,"mode":"Function words in general descriptive prose","scene_windows":0,"windows":5,"scene":"Environment, history and health text"}
+{"neuron":4499,"pole":"low","cluster":1,"mode":"'take' or 'took' verb after subordinate clause","scene_windows":0,"windows":5,"scene":"Narrative and advice about taking things"}
+{"neuron":4242,"pole":"high","cluster":0,"mode":"'other' after 'or' in example lists","scene_windows":0,"windows":5,"scene":"Lists of activities, proteins and literature"}
+{"neuron":4242,"pole":"high","cluster":1,"mode":"Colon after 'Human' starting a new question","scene_windows":0,"windows":5,"scene":"Casual Human-assistant questions on careers and tips"}
+{"neuron":4242,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' opening an answer","scene_windows":0,"windows":5,"scene":"Factual Q&A on medicine and jobs"}
+{"neuron":4242,"pole":"high","cluster":3,"mode":"Question mark and space after a user question","scene_windows":0,"windows":5,"scene":"Short factual questions on health and food"}
+{"neuron":4242,"pole":"high","cluster":4,"mode":"Sentence-ending punctuation in encyclopedic prose","scene_windows":0,"windows":5,"scene":"Science, TV and geography articles"}
+{"neuron":4242,"pole":"high","cluster":5,"mode":"Colon introducing a list or explanation","scene_windows":0,"windows":5,"scene":"Lists introduced by colons on health and products"}
+{"neuron":4242,"pole":"high","cluster":6,"mode":"Space or period at end of a paragraph","scene_windows":1,"windows":5,"scene":"Mixed paragraphs, one discouraging deception in relationships"}
+{"neuron":4242,"pole":"low","cluster":0,"mode":"Article 'the' in descriptive and narrative phrases","scene_windows":0,"windows":5,"scene":"Adventure and wilderness narration"}
+{"neuron":4242,"pole":"low","cluster":1,"mode":"Hyphen starting a bibliography entry","scene_windows":0,"windows":5,"scene":"Journal reference lists"}
+{"neuron":2782,"pole":"high","cluster":0,"mode":"'from' introducing a range of options","scene_windows":0,"windows":5,"scene":"Product range and variety descriptions"}
+{"neuron":2782,"pole":"high","cluster":1,"mode":"'both' introducing paired options","scene_windows":0,"windows":5,"scene":"Marketing and venue descriptions"}
+{"neuron":2782,"pole":"high","cluster":2,"mode":"'are' after 'there' introducing many options","scene_windows":0,"windows":5,"scene":"Suggestions of activities and foods"}
+{"neuron":2782,"pole":"high","cluster":3,"mode":"Sentence-ending space before a new paragraph or list","scene_windows":0,"windows":5,"scene":"Color, energy and weather explanations"}
+{"neuron":2782,"pole":"high","cluster":4,"mode":"Preposition 'of' or 'a' after 'mix' or 'compared'","scene_windows":0,"windows":5,"scene":"Regional descriptions and technical comparisons"}
+{"neuron":2782,"pole":"high","cluster":5,"mode":"Colon-space before enumerated options","scene_windows":0,"windows":5,"scene":"Lists of marketing, lighting and game options"}
+{"neuron":2782,"pole":"low","cluster":0,"mode":"Mid-sentence function tokens in informational essay and advice prose","scene_windows":0,"windows":5,"scene":"Neutral informational text about history, biology, and advice"}
+{"neuron":2782,"pole":"low","cluster":1,"mode":"The token 'such' introducing example lists in advice text","scene_windows":0,"windows":5,"scene":"Neutral how-to advice and example lists"}
+{"neuron":4788,"pole":"high","cluster":0,"mode":"Comma before a conjunction closing an analytical summary clause","scene_windows":0,"windows":5,"scene":"Academic essay conclusions on technology, graffiti, and policy"}
+{"neuron":4788,"pole":"high","cluster":1,"mode":"'elaborate' in closing offers of further help","scene_windows":0,"windows":5,"scene":"Assistant closing offers after creative or robot-related answers"}
+{"neuron":4788,"pole":"low","cluster":0,"mode":"Assistant turn-start colon or comma answering a Human question","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A on health, ID, and policy topics"}
+{"neuron":4788,"pole":"low","cluster":1,"mode":"Assistant answer-opening 'While' before a qualified possibility","scene_windows":1,"windows":5,"scene":"Q&A on hair bleaching, homemade liquor, and bonds"}
+{"neuron":36,"pole":"high","cluster":0,"mode":"The pronoun 'me' in 'Can you tell me' style requests","scene_windows":0,"windows":5,"scene":"Benign user requests for information or lists"}
+{"neuron":36,"pole":"high","cluster":1,"mode":"Sentence-initial 'Do' starting a new Human question","scene_windows":2,"windows":5,"scene":"Human-assistant Q&A including weapons storage and rebel killing"}
+{"neuron":36,"pole":"high","cluster":2,"mode":"'Human:' turn-start colon before a follow-up question","scene_windows":3,"windows":5,"scene":"Follow-ups on car battery electrocution, money laundering, weapons"}
+{"neuron":36,"pole":"high","cluster":3,"mode":"Sentence-initial 'So' starting a Human follow-up turn","scene_windows":2,"windows":5,"scene":"Follow-ups on car battery harm and criminal fund transfers"}
+{"neuron":36,"pole":"high","cluster":4,"mode":"Sentence-initial 'How' starting a Human question","scene_windows":0,"windows":5,"scene":"Benign career, singing, and science questions"}
+{"neuron":36,"pole":"high","cluster":5,"mode":"Articles and prepositions mid-sentence in varied prose","scene_windows":0,"windows":5,"scene":"Mixed prose on cooperatives, internet, and fiction"}
+{"neuron":36,"pole":"high","cluster":6,"mode":"'you' following 'Do' in Human yes/no questions","scene_windows":2,"windows":5,"scene":"Human questions on rebels, weapons, and regulation"}
+{"neuron":36,"pole":"low","cluster":0,"mode":"Hesitant 'Hmm' or 'Hm' opening an assistant reply","scene_windows":2,"windows":5,"scene":"Questionable requests like taking money from strangers"}
+{"neuron":36,"pole":"low","cluster":1,"mode":"Mid-sentence function words in crime-fiction narration","scene_windows":0,"windows":5,"scene":"Murder-plot fiction and general expository prose"}
+{"neuron":36,"pole":"low","cluster":2,"mode":"Assistant turn-start colon after a Human message","scene_windows":3,"windows":5,"scene":"Requests for hotwiring, catfishing, and self-harm threats"}
+{"neuron":36,"pole":"low","cluster":3,"mode":"Casual reply openers like 'Yes' or 'Haha' to user remarks","scene_windows":0,"windows":5,"scene":"Casual chatbot replies to benign user comments"}

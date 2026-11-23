@@ -1,0 +1,59 @@
+{"neuron":8143,"pole":"high","cluster":0,"mode":"punctuation and conjunctions connecting clauses or phrases","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"high","cluster":1,"mode":"conjunctions and adverbs indicating sequence or timing","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":0,"mode":"adverbs and conjunctions indicating restriction or condition","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":1,"mode":"prepositions and conjunctions indicating frequency or duration","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":2,"mode":"adverbs and conjunctions indicating duration or progression","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":3,"mode":"punctuation and conjunctions indicating conclusion or transition","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":4,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":5,"mode":"prepositions and conjunctions indicating location or containment","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":6,"mode":"verbs and adverbs indicating storage or preservation","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":8143,"pole":"low","cluster":7,"mode":"in a situation, context, or time period","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":8143,"pole":"low","cluster":8,"mode":"legal act or abbreviation, or not","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":3013,"pole":"high","cluster":0,"mode":"punctuation indicating pauses or transitions in dialogue","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"high","cluster":1,"mode":"punctuation indicating questions and statements in dialogue","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"high","cluster":2,"mode":"pronouns and verbs indicating possession or state","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"high","cluster":3,"mode":"nouns indicating body parts, specifically eyes","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"low","cluster":0,"mode":"verbs indicating temperature change, specifically cooling","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"low","cluster":1,"mode":"adverbs and conjunctions indicating duration or time","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"low","cluster":2,"mode":"verbs indicating hardening or solidifying","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"low","cluster":3,"mode":"articles and prepositions indicating quantity or duration","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"low","cluster":4,"mode":"pronouns and conjunctions indicating relation or possession","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"low","cluster":5,"mode":"prepositions and conjunctions indicating location or containment","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3013,"pole":"low","cluster":6,"mode":"storing food or items in a container","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":5583,"pole":"high","cluster":0,"mode":"greetings and closings in formal correspondence","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":1,"mode":"salutations and closings in professional emails","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":2,"mode":"assistant responses to user queries","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":3,"mode":"assistant responses to user queries","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":4,"mode":"phrases indicating advice or strategy","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":5,"mode":"punctuation indicating pauses or transitions in dialogue","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":6,"mode":"interrogative pronouns and conjunctions indicating surprise or confusion","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":7,"mode":"phrases indicating monitoring, evaluation, and optimization","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":8,"mode":"punctuation indicating dialogue and questions","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":9,"mode":"pronouns and conjunctions indicating relation or possession","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"high","cluster":10,"mode":"conjunctions and punctuation indicating clauses or transitions","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5583,"pole":"low","cluster":0,"mode":"overall summary or conclusion of a process","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":5583,"pole":"low","cluster":1,"mode":"asking for or giving advice on health","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":5583,"pole":"low","cluster":2,"mode":"asking for or giving advice on a topic","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":5583,"pole":"low","cluster":3,"mode":"state interests or ownership of something","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":5583,"pole":"low","cluster":4,"mode":"with or without something, or a specific item","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":5583,"pole":"low","cluster":5,"mode":"dialogue markers or conversational interjections","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":5583,"pole":"low","cluster":6,"mode":"storing items or food in a container","scene_windows":0,"windows":5,"scene":"neutral context"}
+{"neuron":7873,"pole":"high","cluster":0,"mode":"pronouns and conjunctions indicating existence or presence","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"high","cluster":1,"mode":"adverbs and conjunctions indicating variation or condition","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"high","cluster":2,"mode":"verbs indicating variation and adverbs indicating dependence","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"high","cluster":3,"mode":"conjunctions and adverbs indicating contrast or addition","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"high","cluster":4,"mode":"punctuation and pronouns indicating direct address or response","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"low","cluster":0,"mode":"verbs indicating belief or opinion","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"low","cluster":1,"mode":"adverbs and conjunctions indicating caution or necessity","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"low","cluster":2,"mode":"interrogative pronouns and verbs indicating inquiry","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"low","cluster":3,"mode":"conjunctions and pronouns indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"low","cluster":4,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":7873,"pole":"low","cluster":5,"mode":"punctuation and pronouns indicating dialogue or commands","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"high","cluster":0,"mode":"modal verbs and adverbs indicating importance or recommendation","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"high","cluster":1,"mode":"pronouns and conjunctions indicating sequence or consequence","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"low","cluster":0,"mode":"adverbs and conjunctions indicating conclusion or summary","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"low","cluster":1,"mode":"conjunctions and adverbs indicating caution or condition","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"low","cluster":2,"mode":"interrogative pronouns and verbs indicating inquiry","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"low","cluster":3,"mode":"conjunctions and adverbs indicating addition or consequence","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"low","cluster":4,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":1036,"pole":"low","cluster":5,"mode":"phrases indicating advice or instruction","scene_windows":0,"windows":5,"scene":"neutral"}

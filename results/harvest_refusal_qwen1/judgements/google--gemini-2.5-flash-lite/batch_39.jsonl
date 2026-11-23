@@ -1,0 +1,40 @@
+{"neuron":574,"pole":"high","cluster":0,"mode":"pronouns referring to people or places, indicating belonging or location","scene_windows":0,"windows":5,"scene":"narrative and descriptive text"}
+{"neuron":574,"pole":"high","cluster":1,"mode":"punctuation and conjunctions in neutral or instructional contexts","scene_windows":0,"windows":5,"scene":"neutral narration and instruction"}
+{"neuron":574,"pole":"low","cluster":0,"mode":"prepositions and conjunctions indicating inclusion or purpose","scene_windows":0,"windows":5,"scene":"neutral narration and instruction"}
+{"neuron":574,"pole":"low","cluster":1,"mode":"pronouns and verbs indicating existence or state","scene_windows":0,"windows":5,"scene":"neutral narration and instruction"}
+{"neuron":1808,"pole":"high","cluster":0,"mode":"pronouns and prepositions indicating specification or location","scene_windows":0,"windows":5,"scene":"technical and informational text"}
+{"neuron":1808,"pole":"high","cluster":1,"mode":"question words and pronouns initiating inquiries","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":1808,"pole":"low","cluster":0,"mode":"articles and conjunctions in descriptive sentences","scene_windows":0,"windows":5,"scene":"historical and descriptive text"}
+{"neuron":1808,"pole":"low","cluster":1,"mode":"prepositions and conjunctions in instructional or descriptive contexts","scene_windows":0,"windows":5,"scene":"instructional and descriptive text"}
+{"neuron":6110,"pole":"high","cluster":0,"mode":"pronouns referring to people or entities","scene_windows":0,"windows":5,"scene":"narrative and descriptive text"}
+{"neuron":6110,"pole":"high","cluster":1,"mode":"prepositions and conjunctions indicating location or manner","scene_windows":0,"windows":5,"scene":"descriptive and informational text"}
+{"neuron":6110,"pole":"low","cluster":0,"mode":"nouns indicating negative outcomes or conditions","scene_windows":0,"windows":5,"scene":"medical and descriptive text"}
+{"neuron":6110,"pole":"low","cluster":1,"mode":"punctuation and conjunctions in narrative contexts","scene_windows":0,"windows":5,"scene":"narrative text"}
+{"neuron":6110,"pole":"low","cluster":2,"mode":"question words and conjunctions in conversational exchanges","scene_windows":0,"windows":5,"scene":"conversational exchange"}
+{"neuron":10128,"pole":"high","cluster":0,"mode":"pronouns and question words initiating requests for information","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":10128,"pole":"high","cluster":1,"mode":"quotation marks and conjunctions in dialogue","scene_windows":0,"windows":5,"scene":"dialogue and narrative"}
+{"neuron":10128,"pole":"high","cluster":2,"mode":"pronouns and verbs indicating personal experience or action","scene_windows":0,"windows":5,"scene":"first-person narrative"}
+{"neuron":10128,"pole":"high","cluster":3,"mode":"prepositions and conjunctions indicating relation or possession","scene_windows":0,"windows":5,"scene":"descriptive and informational text"}
+{"neuron":10128,"pole":"high","cluster":4,"mode":"numbers and conjunctions in instructional steps","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":10128,"pole":"low","cluster":0,"mode":"articles and conjunctions in descriptive sentences","scene_windows":0,"windows":5,"scene":"descriptive and informational text"}
+{"neuron":10128,"pole":"low","cluster":1,"mode":"punctuation and conjunctions in narrative contexts","scene_windows":0,"windows":5,"scene":"narrative text"}
+{"neuron":7206,"pole":"high","cluster":0,"mode":"punctuation and verbs indicating sensory experience or state","scene_windows":0,"windows":5,"scene":"first-person narrative"}
+{"neuron":7206,"pole":"high","cluster":1,"mode":"prepositions and conjunctions indicating relation or location","scene_windows":0,"windows":5,"scene":"descriptive and informational text"}
+{"neuron":7206,"pole":"low","cluster":0,"mode":"adjectives and adverbs indicating positive attributes or helpfulness","scene_windows":0,"windows":5,"scene":"advice and self-help text"}
+{"neuron":7206,"pole":"low","cluster":1,"mode":"affirmative responses and conjunctions in conversational exchanges","scene_windows":0,"windows":5,"scene":"conversational exchange"}
+{"neuron":4766,"pole":"high","cluster":0,"mode":"articles and pronouns indicating entities or concepts","scene_windows":0,"windows":5,"scene":"technical and informational text"}
+{"neuron":4766,"pole":"high","cluster":1,"mode":"pronouns and conjunctions indicating direct address or instruction","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":4766,"pole":"low","cluster":0,"mode":"prepositions and articles indicating method or location","scene_windows":0,"windows":5,"scene":"instructional and technical text"}
+{"neuron":4766,"pole":"low","cluster":1,"mode":"adjectives and nouns indicating negative qualities or states","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":4041,"pole":"high","cluster":0,"mode":"articles and prepositions indicating location or context","scene_windows":0,"windows":5,"scene":"historical and descriptive text"}
+{"neuron":4041,"pole":"high","cluster":1,"mode":"question words and introductory phrases in conversational exchanges","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":4041,"pole":"low","cluster":0,"mode":"prepositions and conjunctions indicating relation or time","scene_windows":0,"windows":5,"scene":"descriptive and informational text"}
+{"neuron":4041,"pole":"low","cluster":1,"mode":"punctuation and conjunctions in narrative contexts","scene_windows":0,"windows":5,"scene":"narrative text"}
+{"neuron":4041,"pole":"low","cluster":2,"mode":"question words and introductory phrases in conversational exchanges","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":4041,"pole":"low","cluster":3,"mode":"conjunctions and verbs indicating negative outcomes or actions","scene_windows":0,"windows":5,"scene":"narrative text"}
+{"neuron":4041,"pole":"low","cluster":4,"mode":"conjunctions and nouns indicating negative attributes or actions","scene_windows":0,"windows":5,"scene":"descriptive and informational text"}
+{"neuron":4041,"pole":"low","cluster":5,"mode":"articles and conjunctions in descriptive sentences","scene_windows":0,"windows":5,"scene":"descriptive and informational text"}
+{"neuron":10625,"pole":"high","cluster":0,"mode":"pronouns and verbs indicating personal experience or state","scene_windows":0,"windows":5,"scene":"first-person narrative"}
+{"neuron":10625,"pole":"high","cluster":1,"mode":"pronouns and introductory phrases in conversational exchanges","scene_windows":0,"windows":5,"scene":"conversational exchange"}
+{"neuron":10625,"pole":"low","cluster":0,"mode":"punctuation and conjunctions in instructional or descriptive contexts","scene_windows":0,"windows":5,"scene":"instructional and descriptive text"}
+{"neuron":10625,"pole":"low","cluster":1,"mode":"question words and introductory phrases in conversational exchanges","scene_windows":0,"windows":5,"scene":"question and answer format"}

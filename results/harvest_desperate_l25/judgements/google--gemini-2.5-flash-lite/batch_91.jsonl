@@ -1,0 +1,61 @@
+{"neuron":5634,"pole":"high","cluster":0,"mode":"names and places associated with activism and art","scene_windows":0,"windows":5,"scene":"cultural and activist circles"}
+{"neuron":5634,"pole":"high","cluster":1,"mode":"reassurance and comfort offered to someone","scene_windows":0,"windows":5,"scene":"offering help and support"}
+{"neuron":5634,"pole":"high","cluster":2,"mode":"contrasting outcomes or unexpected turns of events","scene_windows":0,"windows":5,"scene":"unexpected plot twists"}
+{"neuron":5634,"pole":"low","cluster":0,"mode":"negation and lack of desire or capability","scene_windows":0,"windows":5,"scene":"resignation and lack of will"}
+{"neuron":5634,"pole":"low","cluster":1,"mode":"uncertainty about existence or reality","scene_windows":0,"windows":5,"scene":"questioning reality"}
+{"neuron":5346,"pole":"high","cluster":0,"mode":"physical sensations and states of being","scene_windows":0,"windows":5,"scene":"bodily experiences and feelings"}
+{"neuron":5346,"pole":"high","cluster":1,"mode":"medical and biological terms related to growth and stimulation","scene_windows":0,"windows":5,"scene":"medical and biological processes"}
+{"neuron":5346,"pole":"low","cluster":0,"mode":"scientific and statistical modeling of environmental factors","scene_windows":0,"windows":5,"scene":"environmental data analysis"}
+{"neuron":5346,"pole":"low","cluster":1,"mode":"positive actions and helpfulness","scene_windows":0,"windows":5,"scene":"acts of kindness and cooperation"}
+{"neuron":5346,"pole":"low","cluster":2,"mode":"childlike activities and simple pleasures","scene_windows":0,"windows":5,"scene":"children's play and enjoyment"}
+{"neuron":7888,"pole":"high","cluster":0,"mode":"discovery, exploration, and personal growth","scene_windows":0,"windows":5,"scene":"journey of self-discovery"}
+{"neuron":7888,"pole":"high","cluster":1,"mode":"classic fairy tale openings","scene_windows":0,"windows":5,"scene":"storytelling beginnings"}
+{"neuron":7888,"pole":"low","cluster":0,"mode":"conversational interjections and agreements","scene_windows":0,"windows":5,"scene":"casual conversation"}
+{"neuron":7888,"pole":"low","cluster":1,"mode":"indefinite articles and singular nouns","scene_windows":0,"windows":5,"scene":"general descriptions"}
+{"neuron":7888,"pole":"low","cluster":2,"mode":"childlike actions and emotional responses","scene_windows":0,"windows":5,"scene":"children's emotional experiences"}
+{"neuron":7888,"pole":"low","cluster":3,"mode":"pronouns and conjunctions indicating shared experience","scene_windows":0,"windows":5,"scene":"shared actions and feelings"}
+{"neuron":7888,"pole":"low","cluster":4,"mode":"modal verbs indicating possibility or ability","scene_windows":0,"windows":5,"scene":"expressing capability"}
+{"neuron":9332,"pole":"high","cluster":0,"mode":"referring to a specific object or entity, often a dog or a monster","scene_windows":0,"windows":5,"scene":"narrative description of an object"}
+{"neuron":9332,"pole":"high","cluster":1,"mode":"describing a person's action of wiping their face or gesturing","scene_windows":0,"windows":5,"scene":"personal action and gesture"}
+{"neuron":9332,"pole":"high","cluster":2,"mode":"children interacting with a robot or toy, or a character's response","scene_windows":0,"windows":5,"scene":"childhood interaction with objects"}
+{"neuron":9332,"pole":"high","cluster":3,"mode":"a character being hugged or comforted by another","scene_windows":0,"windows":5,"scene":"comforting and reassurance"}
+{"neuron":9332,"pole":"high","cluster":4,"mode":"describing a character's physical actions or movements","scene_windows":0,"windows":5,"scene":"physical action and movement"}
+{"neuron":9332,"pole":"high","cluster":5,"mode":"describing a character's state of being or time of day","scene_windows":0,"windows":5,"scene":"personal state and time"}
+{"neuron":9332,"pole":"low","cluster":0,"mode":"a character expressing sadness or upset, often related to a lost item","scene_windows":0,"windows":5,"scene":"childhood sadness and loss"}
+{"neuron":9332,"pole":"low","cluster":1,"mode":"a character expressing agreement or understanding, often in dialogue","scene_windows":0,"windows":5,"scene":"dialogue and agreement"}
+{"neuron":6385,"pole":"high","cluster":0,"mode":"observation and visual perception","scene_windows":0,"windows":5,"scene":"noticing and observing"}
+{"neuron":6385,"pole":"high","cluster":1,"mode":"possessive pronouns indicating ownership or association","scene_windows":0,"windows":5,"scene":"personal possession and association"}
+{"neuron":6385,"pole":"high","cluster":2,"mode":"pronouns and adverbs indicating direct address or action","scene_windows":0,"windows":5,"scene":"direct interaction and action"}
+{"neuron":6385,"pole":"high","cluster":3,"mode":"abbreviations and punctuation in formal contexts","scene_windows":0,"windows":5,"scene":"formal writing and citations"}
+{"neuron":6385,"pole":"low","cluster":0,"mode":"initials and punctuation in informal contexts","scene_windows":0,"windows":5,"scene":"informal communication"}
+{"neuron":6385,"pole":"low","cluster":1,"mode":"proper nouns and titles","scene_windows":0,"windows":5,"scene":"names and titles"}
+{"neuron":6385,"pole":"low","cluster":2,"mode":"code blocks and programming syntax","scene_windows":0,"windows":5,"scene":"computer programming"}
+{"neuron":6385,"pole":"low","cluster":3,"mode":"placeholders and pauses in narrative","scene_windows":0,"windows":5,"scene":"narrative pauses and placeholders"}
+{"neuron":6385,"pole":"low","cluster":4,"mode":"profanity and negative descriptors","scene_windows":0,"windows":5,"scene":"vulgar language and negativity"}
+{"neuron":6385,"pole":"low","cluster":5,"mode":"a character expressing a negative emotion or state","scene_windows":0,"windows":5,"scene":"negative emotional state"}
+{"neuron":6385,"pole":"low","cluster":6,"mode":"a character expressing a negative emotion or state","scene_windows":0,"windows":5,"scene":"negative emotional state"}
+{"neuron":7404,"pole":"high","cluster":0,"mode":"reactions to disturbing events and sounds","scene_windows":0,"windows":5,"scene":"disturbing events and reactions"}
+{"neuron":7404,"pole":"high","cluster":1,"mode":"physical actions and sensory experiences","scene_windows":0,"windows":5,"scene":"physical actions and sensations"}
+{"neuron":7404,"pole":"high","cluster":2,"mode":"shared activities and positive interactions","scene_windows":0,"windows":5,"scene":"shared activities and enjoyment"}
+{"neuron":7404,"pole":"low","cluster":0,"mode":"technological terms and applications","scene_windows":0,"windows":5,"scene":"technology and its uses"}
+{"neuron":7404,"pole":"low","cluster":1,"mode":"locations for commerce and services","scene_windows":0,"windows":5,"scene":"places of commerce"}
+{"neuron":7404,"pole":"low","cluster":2,"mode":"pronouns and conjunctions indicating shared action","scene_windows":0,"windows":5,"scene":"shared actions and experiences"}
+{"neuron":7404,"pole":"low","cluster":3,"mode":"prepositions indicating separation or origin","scene_windows":0,"windows":5,"scene":"separation and origin"}
+{"neuron":2891,"pole":"high","cluster":0,"mode":"biological and zoological terms","scene_windows":0,"windows":5,"scene":"biology and zoology"}
+{"neuron":2891,"pole":"high","cluster":1,"mode":"expressions of preference and instruction","scene_windows":0,"windows":5,"scene":"preferences and instructions"}
+{"neuron":2891,"pole":"high","cluster":2,"mode":"physical sensations and emotional states","scene_windows":0,"windows":5,"scene":"physical and emotional states"}
+{"neuron":2891,"pole":"high","cluster":3,"mode":"conjunctions and adverbs indicating agreement or sequence","scene_windows":0,"windows":5,"scene":"agreement and sequence"}
+{"neuron":2891,"pole":"low","cluster":0,"mode":"verbs of motion and direction","scene_windows":0,"windows":5,"scene":"movement and direction"}
+{"neuron":2891,"pole":"low","cluster":1,"mode":"verbs of physical action and movement","scene_windows":0,"windows":5,"scene":"physical actions and movement"}
+{"neuron":2891,"pole":"low","cluster":2,"mode":"biological and medical terms related to body functions","scene_windows":0,"windows":5,"scene":"biological and medical functions"}
+{"neuron":2891,"pole":"low","cluster":3,"mode":"pronouns and conjunctions indicating shared experience","scene_windows":0,"windows":5,"scene":"shared experiences and actions"}
+{"neuron":2891,"pole":"low","cluster":4,"mode":"pronouns and conjunctions indicating shared experience","scene_windows":0,"windows":5,"scene":"shared experiences and actions"}
+{"neuron":3339,"pole":"high","cluster":0,"mode":"culinary terms and ingredients","scene_windows":0,"windows":5,"scene":"cooking and ingredients"}
+{"neuron":3339,"pole":"high","cluster":1,"mode":"academic and publishing references","scene_windows":0,"windows":5,"scene":"academic and publishing references"}
+{"neuron":3339,"pole":"high","cluster":2,"mode":"dialogue and expressions of curiosity","scene_windows":0,"windows":5,"scene":"curiosity and dialogue"}
+{"neuron":3339,"pole":"high","cluster":3,"mode":"dialogue and questioning","scene_windows":0,"windows":5,"scene":"dialogue and questioning"}
+{"neuron":3339,"pole":"low","cluster":0,"mode":"dialogue and expressions of gratitude","scene_windows":0,"windows":5,"scene":"gratitude and dialogue"}
+{"neuron":3339,"pole":"low","cluster":1,"mode":"pronouns and conjunctions indicating personal experience","scene_windows":0,"windows":5,"scene":"personal experience and reflection"}
+{"neuron":3339,"pole":"low","cluster":2,"mode":"terms related to social interaction and dating","scene_windows":0,"windows":5,"scene":"social interaction and dating"}
+{"neuron":3339,"pole":"low","cluster":3,"mode":"proper nouns and abbreviations in specific contexts","scene_windows":0,"windows":5,"scene":"specific contexts and abbreviations"}
+{"neuron":3339,"pole":"low","cluster":4,"mode":"programming syntax and code elements","scene_windows":0,"windows":5,"scene":"programming syntax and code"}

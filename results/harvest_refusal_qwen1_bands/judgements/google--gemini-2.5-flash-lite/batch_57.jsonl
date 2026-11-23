@@ -1,0 +1,74 @@
+{"neuron":9671,"pole":"high","cluster":0,"mode":"tokens indicating inclusion or possession within a context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9671,"pole":"high","cluster":1,"mode":"punctuation and web-related terms in informational text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9671,"pole":"high","cluster":2,"mode":"words related to discounts and customer loyalty programs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9671,"pole":"low","cluster":0,"mode":"promotional language for ticket sales and discounts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9671,"pole":"low","cluster":1,"mode":"pricing and subscription details for digital content","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9671,"pole":"low","cluster":2,"mode":"terms related to user sign-ups and referral programs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9671,"pole":"low","cluster":3,"mode":"words related to improvement, innovation, and personal devices","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9671,"pole":"low","cluster":4,"mode":"terms related to referral programs and customer acquisition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"high","cluster":0,"mode":"phrases introducing recipes or instructions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"high","cluster":1,"mode":"dates and numbers in informational contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"high","cluster":2,"mode":"punctuation and conversational markers in dialogue","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"high","cluster":3,"mode":"punctuation and descriptive terms in narration","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"high","cluster":4,"mode":"page numbers and citation details in academic text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"high","cluster":5,"mode":"locations and rooms in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"high","cluster":6,"mode":"articles and prepositions in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"low","cluster":0,"mode":"names and citations in academic or technical text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"low","cluster":1,"mode":"names and citations in academic or technical text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"low","cluster":2,"mode":"names and citations in academic or technical text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"low","cluster":3,"mode":"food items and ingredients in culinary contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"low","cluster":4,"mode":"vegetables and food items in culinary contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"low","cluster":5,"mode":"pronouns and temporal markers in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":272,"pole":"low","cluster":6,"mode":"articles and pronouns in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"high","cluster":0,"mode":"words indicating action, possession, or state of being","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"high","cluster":1,"mode":"punctuation and descriptive terms in narration","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"high","cluster":2,"mode":"prepositions and numbers in instructional text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"high","cluster":3,"mode":"plural nouns and terms related to physical attributes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"low","cluster":0,"mode":"apologies and expressions of regret","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"low","cluster":1,"mode":"pronouns and conjunctions in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"low","cluster":2,"mode":"pronouns and conversational markers in dialogue","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"low","cluster":3,"mode":"negation and personal identity in AI responses","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"low","cluster":4,"mode":"negation and spatial descriptions in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"low","cluster":5,"mode":"quantifiers and articles in descriptive text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9077,"pole":"low","cluster":6,"mode":"pronouns and conjunctions in AI responses","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":969,"pole":"high","cluster":0,"mode":"words related to finance, belief, and problems","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":969,"pole":"high","cluster":1,"mode":"verbs indicating permission or allowance","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":969,"pole":"low","cluster":0,"mode":"pronouns and expressions of disbelief or confusion","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":969,"pole":"low","cluster":1,"mode":"pronouns and conversational markers in dialogue","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5623,"pole":"high","cluster":0,"mode":"phrases requesting further information or elaboration","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5623,"pole":"high","cluster":1,"mode":"temporal adverbs indicating a shift in time or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5623,"pole":"high","cluster":2,"mode":"prepositions indicating relationship or manner","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5623,"pole":"high","cluster":3,"mode":"conjunctions and pronouns indicating contrast or addition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5623,"pole":"low","cluster":0,"mode":"expressions of hope and well-wishes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5623,"pole":"low","cluster":1,"mode":"articles and conjunctions in descriptive text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5623,"pole":"low","cluster":2,"mode":"words indicating opposition or contrast","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"high","cluster":0,"mode":"prepositions and articles in explanations of Roman numerals","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"high","cluster":1,"mode":"quotation marks and riddle answers","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"high","cluster":2,"mode":"prepositions and conjunctions in technical descriptions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"high","cluster":3,"mode":"prepositions and conjunctions in lists of professions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"high","cluster":4,"mode":"articles and conjunctions in descriptive text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"high","cluster":5,"mode":"prepositions and conjunctions in lists of countries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"low","cluster":0,"mode":"phrases requesting examples or further information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"low","cluster":1,"mode":"prepositions and articles in discussions of variety","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"low","cluster":2,"mode":"prepositions and articles in descriptive text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5766,"pole":"low","cluster":3,"mode":"phrases introducing numbered lists or examples","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"high","cluster":0,"mode":"phrases indicating a question or request for clarification","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"high","cluster":1,"mode":"phrases indicating a question or request for information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"high","cluster":2,"mode":"phrases indicating a question or disagreement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"high","cluster":3,"mode":"phrases indicating disagreement or correction","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"high","cluster":4,"mode":"articles and pronouns in narrative contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"high","cluster":5,"mode":"quotation marks and dialogue markers","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"low","cluster":0,"mode":"terms related to historical periods and projects","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9541,"pole":"low","cluster":1,"mode":"terms related to mythology and supernatural beings","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":0,"mode":"words indicating conditionality or dependence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":1,"mode":"negation and lack of access to information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":2,"mode":"pronouns and expressions of personal opinion","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":3,"mode":"prepositions and articles in descriptive text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":4,"mode":"phrases indicating a question or request for explanation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":5,"mode":"phrases indicating lack of access to specific information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":6,"mode":"words indicating subjectivity or personal preference","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":7,"mode":"words indicating variation or difference","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":8,"mode":"pronouns and conjunctions in descriptive text","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"high","cluster":9,"mode":"modal verbs indicating possibility or potential","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"low","cluster":0,"mode":"vegetables and ingredients in culinary contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8740,"pole":"low","cluster":1,"mode":"cooking ingredients and oils in culinary contexts","scene_windows":0,"windows":5,"scene":"neutral narration"}

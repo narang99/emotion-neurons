@@ -1,0 +1,65 @@
+{"neuron":2432,"pole":"high","cluster":0,"mode":"Verb 'loved/liked' describing a character's habits in children's story openings","scene_windows":0,"windows":5,"scene":"Calm children's bedtime-style story introductions"}
+{"neuron":2432,"pole":"high","cluster":1,"mode":"Verb 'take' (take a nap, take a break) in simple story narration","scene_windows":0,"windows":5,"scene":"Cheerful or gentle children's stories"}
+{"neuron":2432,"pole":"high","cluster":2,"mode":"Mid-sentence narrative tokens (he, comma, a) during playful action","scene_windows":0,"windows":5,"scene":"Playful exploration in children's stories"}
+{"neuron":2432,"pole":"high","cluster":3,"mode":"The word 'day' in 'One day,' opening a story event","scene_windows":0,"windows":5,"scene":"Routine story transitions in children's tales"}
+{"neuron":2432,"pole":"low","cluster":0,"mode":"Was/were and descriptive tokens in character and family descriptions","scene_windows":0,"windows":5,"scene":"Calm character descriptions and dialogue exchanges"}
+{"neuron":2432,"pole":"low","cluster":1,"mode":"'little' in the stock opening 'Once upon a time there was a little girl'","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":11711,"pole":"high","cluster":0,"mode":"'and' joining feelings or actions after a lost or troubled situation","scene_windows":1,"windows":5,"scene":"Lost animal in woods; otherwise gentle story conclusions"}
+{"neuron":11711,"pole":"high","cluster":1,"mode":"'From that day on / From then on' opening a story's closing summary","scene_windows":0,"windows":5,"scene":"Moral-lesson endings of children's stories"}
+{"neuron":11711,"pole":"low","cluster":0,"mode":"Verbs and articles in marketing or business advice lists","scene_windows":0,"windows":5,"scene":"Business and marketing tip listings"}
+{"neuron":11711,"pole":"low","cluster":1,"mode":"Digits and words inside bibliographic citations and references","scene_windows":0,"windows":5,"scene":"Academic reference lists and citations"}
+{"neuron":11711,"pole":"low","cluster":2,"mode":"Conjunctions and commas mid-sentence in ordinary narration","scene_windows":0,"windows":5,"scene":"Everyday narrative and emotional storytelling"}
+{"neuron":11711,"pole":"low","cluster":3,"mode":"Pronouns I, we, you opening dialogue or first-person speech","scene_windows":0,"windows":5,"scene":"Casual dialogue and conversational narration"}
+{"neuron":634,"pole":"high","cluster":0,"mode":"'around' after verbs of running, moving or wandering","scene_windows":0,"windows":5,"scene":"Playful outdoor children's adventures"}
+{"neuron":634,"pole":"high","cluster":1,"mode":"Modal 'could/can' in narration and dialogue about experiences","scene_windows":0,"windows":5,"scene":"Fantasy, narration and chatty dialogue"}
+{"neuron":634,"pole":"high","cluster":2,"mode":"The word 'fun' after 'had' in happy play descriptions","scene_windows":0,"windows":5,"scene":"Happy children's play and friendship stories"}
+{"neuron":634,"pole":"high","cluster":3,"mode":"Laughing, smiling or jumping verbs describing joyful reactions","scene_windows":0,"windows":5,"scene":"Silly, joyful children's story moments"}
+{"neuron":634,"pole":"high","cluster":4,"mode":"Sentence-ending periods in gentle descriptions of happy children","scene_windows":0,"windows":5,"scene":"Calm, cheerful children's stories"}
+{"neuron":634,"pole":"high","cluster":5,"mode":"'and' after celebratory or grateful actions in story endings","scene_windows":0,"windows":5,"scene":"Celebrations and happy resolutions in stories"}
+{"neuron":634,"pole":"high","cluster":6,"mode":"Sentence-initial 'He/It' introducing a character's reaction","scene_windows":0,"windows":5,"scene":"Simple animal or object character stories"}
+{"neuron":634,"pole":"high","cluster":7,"mode":"Sentence-initial 'She' introducing the girl protagonist","scene_windows":0,"windows":5,"scene":"Opening character introductions in children's stories"}
+{"neuron":634,"pole":"low","cluster":0,"mode":"Pronouns and 'and' in warm closing lines after friendship resolutions","scene_windows":0,"windows":5,"scene":"Happy endings of children's friendship stories"}
+{"neuron":634,"pole":"low","cluster":1,"mode":"Verbs and nouns ending tense clauses like react, move, realm","scene_windows":0,"windows":5,"scene":"Tense or eerie narration, often mid-scene"}
+{"neuron":634,"pole":"low","cluster":2,"mode":"Periods or spaces closing eerie or uncanny descriptive sentences","scene_windows":0,"windows":5,"scene":"Eerie encounters with strange figures"}
+{"neuron":7911,"pole":"high","cluster":0,"mode":"Digits inside years, citation numbers and dates","scene_windows":0,"windows":5,"scene":"Academic citations and web link text"}
+{"neuron":7911,"pole":"high","cluster":1,"mode":"Prepositions and nouns in descriptions of religious or ethnic communities","scene_windows":0,"windows":5,"scene":"Encyclopedic text on religion and culture"}
+{"neuron":7911,"pole":"high","cluster":2,"mode":"Verbs laughed/smiled/away describing light physical actions","scene_windows":0,"windows":5,"scene":"Simple children's story physical actions"}
+{"neuron":7911,"pole":"high","cluster":3,"mode":"Place names and demonyms like Myanmar, China, Pomerania","scene_windows":0,"windows":5,"scene":"Historical and geographic encyclopedia text"}
+{"neuron":7911,"pole":"low","cluster":0,"mode":"Determiners and demonstratives in recipe and food descriptions","scene_windows":0,"windows":5,"scene":"Cooking and recipe discussions"}
+{"neuron":7911,"pole":"low","cluster":1,"mode":"Operators and tokens inside code snippets","scene_windows":0,"windows":5,"scene":"Programming code examples"}
+{"neuron":3224,"pole":"high","cluster":0,"mode":"Sentence-ending periods in tense, violent first-person narration","scene_windows":2,"windows":5,"scene":"Brutal combat and monster fight narration"}
+{"neuron":3224,"pole":"high","cluster":1,"mode":"Prepositions 'with/in/the' introducing armed or menacing figures","scene_windows":0,"windows":5,"scene":"Tense confrontations with armed men"}
+{"neuron":3224,"pole":"low","cluster":0,"mode":"Possessive pronouns his/her/my in physical or bodily descriptions","scene_windows":0,"windows":5,"scene":"Everyday or intense character actions and body focus"}
+{"neuron":3224,"pole":"low","cluster":1,"mode":"Nouns and prepositions in historical Civil War and battle text","scene_windows":0,"windows":5,"scene":"Historical military campaign descriptions"}
+{"neuron":3224,"pole":"low","cluster":2,"mode":"'and' or 'the' continuing actions in tense narrative","scene_windows":0,"windows":5,"scene":"Suspenseful or routine narration"}
+{"neuron":3224,"pole":"low","cluster":3,"mode":"Prepositions from/through/to after crash, fall or dying","scene_windows":3,"windows":5,"scene":"Crashes, dying characters and frantic escapes"}
+{"neuron":3224,"pole":"low","cluster":4,"mode":"Quote marks and 'But' in fearful or tearful dialogue","scene_windows":2,"windows":5,"scene":"Frightened or grieving characters pleading"}
+{"neuron":8033,"pole":"high","cluster":0,"mode":"Preposition 'in/to' after walking or going to a place","scene_windows":0,"windows":5,"scene":"Simple outings in children's stories"}
+{"neuron":8033,"pole":"high","cluster":1,"mode":"Numbers, sample sizes and citation punctuation in technical text","scene_windows":0,"windows":5,"scene":"Scientific and medical reference text"}
+{"neuron":8033,"pole":"high","cluster":2,"mode":"Verbs like know/understand/knew in introspective first-person lines","scene_windows":0,"windows":5,"scene":"Reflective or confrontational dialogue"}
+{"neuron":8033,"pole":"high","cluster":3,"mode":"Punctuation closing quoted speech in children's stories","scene_windows":0,"windows":5,"scene":"Light children's dialogue and farm stories"}
+{"neuron":8033,"pole":"high","cluster":4,"mode":"Nouns ending casual or wry remarks in dialogue","scene_windows":0,"windows":5,"scene":"Witty banter and sardonic dialogue"}
+{"neuron":8033,"pole":"high","cluster":5,"mode":"'screamed/groaned' describing fright or pain reactions","scene_windows":2,"windows":5,"scene":"Horror moments and sudden frightening attacks"}
+{"neuron":8033,"pole":"low","cluster":0,"mode":"Article 'a' after perception verbs like saw","scene_windows":0,"windows":5,"scene":"Children's discovery stories"}
+{"neuron":8033,"pole":"low","cluster":1,"mode":"Comparatives and numeric or statistical descriptors in research findings","scene_windows":0,"windows":5,"scene":"Nutrition and research result summaries"}
+{"neuron":8033,"pole":"low","cluster":2,"mode":"Determiner 'the' after prepositions in eerie scenes","scene_windows":0,"windows":5,"scene":"Unsettling, dark atmospheric narration"}
+{"neuron":8033,"pole":"low","cluster":3,"mode":"Pronouns she/he/it after 'But then' or 'Suddenly'","scene_windows":0,"windows":5,"scene":"Children's stories with sudden discoveries"}
+{"neuron":8033,"pole":"low","cluster":4,"mode":"Comma after 'One day' starting a story event","scene_windows":0,"windows":5,"scene":"Opening event lines of children's stories"}
+{"neuron":8033,"pole":"low","cluster":5,"mode":"Sentence-initial 'Suddenly' introducing a surprise event","scene_windows":0,"windows":5,"scene":"Surprise moments in children's stories"}
+{"neuron":8033,"pole":"low","cluster":6,"mode":"'again/before/us' in eerie or repeated actions","scene_windows":0,"windows":5,"scene":"Unnerving repeated or haunting events"}
+{"neuron":8033,"pole":"low","cluster":7,"mode":"Periods ending tense, suspenseful sentences","scene_windows":1,"windows":5,"scene":"Suspenseful or ominous narration"}
+{"neuron":4879,"pole":"high","cluster":0,"mode":"Exclamation or period after frantic or final-sounding lines","scene_windows":3,"windows":5,"scene":"Panicked threats, screams and grim last messages"}
+{"neuron":4879,"pole":"high","cluster":1,"mode":"'and' or comma linking warm shared moments between people","scene_windows":0,"windows":5,"scene":"Friendship and affectionate family scenes"}
+{"neuron":4879,"pole":"high","cluster":2,"mode":"Prepositions 'for/with' in marketing and analytics explanations","scene_windows":0,"windows":5,"scene":"Social media and marketing explainers"}
+{"neuron":4879,"pole":"low","cluster":0,"mode":"Adjectives and nouns in encyclopedic or civic descriptions","scene_windows":0,"windows":5,"scene":"Civic, historical and health informational text"}
+{"neuron":4879,"pole":"low","cluster":1,"mode":"Sentence-initial pronouns in children's narrative actions","scene_windows":0,"windows":5,"scene":"Simple children's stories about outings"}
+{"neuron":4879,"pole":"low","cluster":2,"mode":"Emotional nouns like life, face, experience closing sentences","scene_windows":0,"windows":5,"scene":"Reflective, emotional personal narratives"}
+{"neuron":4879,"pole":"low","cluster":3,"mode":"Pronouns and 'I' in quoted dialogue and self-reference","scene_windows":1,"windows":5,"scene":"Casual dialogue and a dying character's thoughts"}
+{"neuron":1042,"pole":"high","cluster":0,"mode":"Code tokens inside Tcl, shell and similar scripts","scene_windows":0,"windows":5,"scene":"Scripting and GUI code snippets"}
+{"neuron":1042,"pole":"high","cluster":1,"mode":"Closing quotation marks ending short dialogue lines","scene_windows":0,"windows":5,"scene":"Tense or sharp dialogue exchanges"}
+{"neuron":1042,"pole":"high","cluster":2,"mode":"Nouns closing reflective or descriptive phrases about war and bodies","scene_windows":0,"windows":5,"scene":"Reflective narration about soldiers and performance"}
+{"neuron":1042,"pole":"high","cluster":3,"mode":"Periods and commas ending wry first-person narration","scene_windows":0,"windows":5,"scene":"Introspective first-person narration"}
+{"neuron":1042,"pole":"high","cluster":4,"mode":"Periods before 'From then on' in story endings","scene_windows":0,"windows":5,"scene":"Moral conclusions of children's stories"}
+{"neuron":1042,"pole":"high","cluster":5,"mode":"Periods before 'One day' starting a new story section","scene_windows":0,"windows":5,"scene":"Children's story transitions"}
+{"neuron":1042,"pole":"low","cluster":0,"mode":"Mid-sentence words in tense, dramatic fiction narration about characters' emotions and reactions","scene_windows":0,"windows":5,"scene":"Tense fictional confrontations and emotional character moments in stories"}
+{"neuron":1042,"pole":"low","cluster":1,"mode":"Speaker-turn markers: 'assistant' label or chat-turn boundary in user/assistant dialogues","scene_windows":0,"windows":5,"scene":"User-assistant chat requests for recipes, books, story ideas, or code help"}

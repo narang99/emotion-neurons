@@ -1,0 +1,38 @@
+{"neuron":10925,"pole":"high","cluster":0,"mode":"Closing pleasantries like 'Hope this helps' ending helpful answers","scene_windows":0,"windows":5,"scene":"Assistant wrapping up helpful informational answers"}
+{"neuron":10925,"pole":"high","cluster":1,"mode":"Assistant praising or evaluating the user's question ('great question')","scene_windows":0,"windows":5,"scene":"Casual assistant replies to user questions"}
+{"neuron":10925,"pole":"high","cluster":2,"mode":"Colon right after 'Assistant' starting a reply turn","scene_windows":0,"windows":5,"scene":"Human-assistant dialogue turn starts"}
+{"neuron":10925,"pole":"high","cluster":3,"mode":"Mid-sentence function words in expository or news text","scene_windows":0,"windows":5,"scene":"Neutral news and technical exposition"}
+{"neuron":10925,"pole":"high","cluster":4,"mode":"Sentence-initial 'The' starting an assistant's answer","scene_windows":0,"windows":5,"scene":"Assistant answering factual questions"}
+{"neuron":10925,"pole":"low","cluster":0,"mode":"Function words mid-sentence in expository descriptive prose","scene_windows":0,"windows":5,"scene":"Neutral informational and descriptive writing"}
+{"neuron":10925,"pole":"low","cluster":1,"mode":"Assistant role marker or colon opening a reply turn","scene_windows":0,"windows":5,"scene":"Short factual Q&A dialogues"}
+{"neuron":5858,"pole":"low","cluster":0,"mode":"Sentence-initial 'There' opening expository statements","scene_windows":0,"windows":5,"scene":"Informational articles and assistant explanations"}
+{"neuron":5858,"pole":"low","cluster":1,"mode":"Assistant turn label beginning a direct answer","scene_windows":0,"windows":5,"scene":"Human-assistant factual question answering"}
+{"neuron":5858,"pole":"low","cluster":2,"mode":"Punctuation after filler exclamations praising the question","scene_windows":0,"windows":5,"scene":"Assistant conversational openers to questions"}
+{"neuron":5858,"pole":"low","cluster":3,"mode":"Function words mid-sentence in descriptive prose","scene_windows":0,"windows":5,"scene":"Narrative and descriptive fiction or travel text"}
+{"neuron":6506,"pole":"high","cluster":0,"mode":"Determiners and prepositions mid-sentence in expository text","scene_windows":0,"windows":5,"scene":"Encyclopedic and sports or film description"}
+{"neuron":6506,"pole":"high","cluster":1,"mode":"Affirmative 'Yes' or 'thanks' opening an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant replying to follow-up questions"}
+{"neuron":6506,"pole":"low","cluster":0,"mode":"Prepositions and possessives mid-sentence in analytic prose","scene_windows":0,"windows":5,"scene":"Educational and essay-style expository text"}
+{"neuron":6506,"pole":"low","cluster":1,"mode":"Pronoun 'I' or 'He' opening first-person narrative sentences","scene_windows":0,"windows":5,"scene":"Dark first-person fiction with violent or grim events"}
+{"neuron":6506,"pole":"low","cluster":2,"mode":"Sentence-initial 'You' starting advice or instructions","scene_windows":0,"windows":5,"scene":"Assistant advice and tips lists"}
+{"neuron":5698,"pole":"high","cluster":0,"mode":"Scattered sentence-internal tokens in narrative fiction","scene_windows":0,"windows":5,"scene":"Science-fiction and story narration"}
+{"neuron":5698,"pole":"high","cluster":1,"mode":"Technical or domain nouns mid-sentence in explanations","scene_windows":0,"windows":5,"scene":"Technical and policy explanatory text"}
+{"neuron":5698,"pole":"low","cluster":0,"mode":"Sentence-final periods or spaces in fiction narration","scene_windows":0,"windows":5,"scene":"Fiction narration and dramatic prose"}
+{"neuron":5698,"pole":"low","cluster":1,"mode":"Prepositions and determiners in expository sentences","scene_windows":0,"windows":5,"scene":"Informational history and society text"}
+{"neuron":9646,"pole":"high","cluster":0,"mode":"Pronouns I, you, he in first-person fiction","scene_windows":0,"windows":5,"scene":"First-person fiction and emotional narration"}
+{"neuron":9646,"pole":"high","cluster":1,"mode":"Word-piece fragments or named entities in informational text","scene_windows":0,"windows":5,"scene":"Recipes, company news, and factual articles"}
+{"neuron":9646,"pole":"low","cluster":0,"mode":"Function words in technical process descriptions","scene_windows":0,"windows":5,"scene":"Technical procedures and parenting or craft advice"}
+{"neuron":9646,"pole":"low","cluster":1,"mode":"Prepositions or 'if' in assistant advice wording","scene_windows":1,"windows":5,"scene":"Assistant advice, one declining misleading or illegal help"}
+{"neuron":6046,"pole":"high","cluster":0,"mode":"Opening quotation marks starting dialogue lines","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes, some tense"}
+{"neuron":6046,"pole":"high","cluster":1,"mode":"Demonstratives and endings in tense fiction dialogue","scene_windows":0,"windows":5,"scene":"Dramatic fiction, including a drugging and robbery"}
+{"neuron":6046,"pole":"low","cluster":0,"mode":"Periods and conjunctions closing assistant advice sentences","scene_windows":0,"windows":5,"scene":"Assistant tips and conversational responses"}
+{"neuron":6046,"pole":"low","cluster":1,"mode":"Closing quotation marks ending spoken dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue exchanges"}
+{"neuron":6046,"pole":"low","cluster":2,"mode":"Conjunctions and prepositions in descriptive sentences","scene_windows":0,"windows":5,"scene":"Descriptive expository and cultural text"}
+{"neuron":6046,"pole":"low","cluster":3,"mode":"Periods ending short narrative or dialogue lines","scene_windows":0,"windows":5,"scene":"Science-fiction and comedic fiction dialogue"}
+{"neuron":4171,"pole":"high","cluster":0,"mode":"Mid-sentence tokens in advice and informational lists","scene_windows":0,"windows":5,"scene":"Practical advice, one pesticide safety note"}
+{"neuron":4171,"pole":"high","cluster":1,"mode":"Subword fragments inside words in informational text","scene_windows":0,"windows":5,"scene":"Recipes, geography, and science explanations"}
+{"neuron":4171,"pole":"low","cluster":0,"mode":"Prepositions and 'also' mid-sentence in advice text","scene_windows":0,"windows":5,"scene":"Informational health and educational writing"}
+{"neuron":4171,"pole":"low","cluster":1,"mode":"Colon after 'user' role label starting a turn","scene_windows":0,"windows":5,"scene":"Assistant chat with user follow-up requests"}
+{"neuron":301,"pole":"high","cluster":0,"mode":"Sentence-initial 'The', 'They', 'I' starting new sentences","scene_windows":0,"windows":5,"scene":"Encyclopedic history and narrative fiction"}
+{"neuron":301,"pole":"high","cluster":1,"mode":"Role label 'user' starting a new chat turn","scene_windows":0,"windows":5,"scene":"Assistant chat with user follow-up turns"}
+{"neuron":301,"pole":"low","cluster":0,"mode":"Prepositions and punctuation in descriptive fiction","scene_windows":0,"windows":5,"scene":"Descriptive fiction and sci-fi narration"}
+{"neuron":301,"pole":"low","cluster":1,"mode":"Content nouns or words ending educational explanations","scene_windows":0,"windows":5,"scene":"Educational and advice text on learning"}

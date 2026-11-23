@@ -1,0 +1,44 @@
+{"neuron":8497,"pole":"high","cluster":0,"mode":"words indicating continuation, explanation, or qualification","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":8497,"pole":"high","cluster":1,"mode":"words indicating continuation, explanation, or qualification","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":8497,"pole":"low","cluster":0,"mode":"words indicating restriction, interruption, or correlation","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":8497,"pole":"low","cluster":1,"mode":"words indicating possession or belonging","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"high","cluster":0,"mode":"words indicating connection, inclusion, or conjunction","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"high","cluster":1,"mode":"assistant response markers","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":1258,"pole":"low","cluster":0,"mode":"words indicating purpose, benefit, or location","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"low","cluster":1,"mode":"words indicating comparison or exclusion","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"low","cluster":2,"mode":"words indicating danger, uncertainty, or location","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"low","cluster":3,"mode":"words indicating position, effort, or survival","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"low","cluster":4,"mode":"words indicating location, process, or definition","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"low","cluster":5,"mode":"words indicating production, collection, or type","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1258,"pole":"low","cluster":6,"mode":"words indicating possession or location","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":456,"pole":"high","cluster":0,"mode":"words indicating possession, inclusion, or state","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":456,"pole":"high","cluster":1,"mode":"assistant response markers","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":456,"pole":"low","cluster":0,"mode":"words indicating purpose, benefit, or inclusion","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":456,"pole":"low","cluster":1,"mode":"words indicating beverage, transport, or understanding","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":103,"pole":"high","cluster":0,"mode":"words indicating action, permission, or inquiry","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":103,"pole":"high","cluster":1,"mode":"assistant response markers","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":103,"pole":"low","cluster":0,"mode":"words indicating control, question, or consequence","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":103,"pole":"low","cluster":1,"mode":"words indicating food, location, or type","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2162,"pole":"high","cluster":0,"mode":"words indicating personal experience or action","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2162,"pole":"high","cluster":1,"mode":"words indicating comparison or inclusion","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2162,"pole":"high","cluster":2,"mode":"words indicating type, group, or component","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2162,"pole":"high","cluster":3,"mode":"words indicating interest, location, or feeling","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2162,"pole":"low","cluster":0,"mode":"words indicating location, purpose, or origin","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2162,"pole":"low","cluster":1,"mode":"words indicating permission, type, or suggestion","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":1505,"pole":"high","cluster":0,"mode":"words indicating food, industry, or situation","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1505,"pole":"high","cluster":1,"mode":"assistant response markers","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":1505,"pole":"high","cluster":2,"mode":"assistant response markers","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":1505,"pole":"low","cluster":0,"mode":"words indicating location, system, or ideal","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1505,"pole":"low","cluster":1,"mode":"words indicating customization, substitution, or advice","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":2624,"pole":"high","cluster":0,"mode":"words indicating inclusion, conjunction, or type","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2624,"pole":"high","cluster":1,"mode":"words indicating information, topic, or system","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2624,"pole":"low","cluster":0,"mode":"words indicating existence, location, or type","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2624,"pole":"low","cluster":1,"mode":"words indicating variations, recipes, or examples","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":2624,"pole":"low","cluster":2,"mode":"words indicating activities, location, or type","scene_windows":0,"windows":5,"scene":"question answering"}
+{"neuron":2624,"pole":"low","cluster":3,"mode":"words indicating challenges, production, or activities","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":2624,"pole":"low","cluster":4,"mode":"words indicating community, plans, or understanding","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1788,"pole":"high","cluster":0,"mode":"words indicating connection, inclusion, or conjunction","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1788,"pole":"high","cluster":1,"mode":"words indicating location, origin, or time","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1788,"pole":"low","cluster":0,"mode":"words indicating time, destruction, or consumption","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1788,"pole":"low","cluster":1,"mode":"words indicating location, demand, or tissue","scene_windows":0,"windows":5,"scene":"neutral factual narration"}
+{"neuron":1788,"pole":"low","cluster":2,"mode":"words indicating faith, support, or understanding","scene_windows":0,"windows":5,"scene":"neutral factual narration"}

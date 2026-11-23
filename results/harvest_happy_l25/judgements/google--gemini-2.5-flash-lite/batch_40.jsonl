@@ -1,0 +1,57 @@
+{"neuron":5941,"pole":"high","cluster":0,"mode":"technical terms, including 'coating', 'biomass', 'microbial', 'avian'","happy_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":5941,"pole":"high","cluster":1,"mode":"children's stories, expressing emotions and actions","happy_windows":4,"windows":5,"scene":"children's story narrative"}
+{"neuron":5941,"pole":"high","cluster":2,"mode":"instructions, technical steps, and punctuation","happy_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":5941,"pole":"low","cluster":0,"mode":"prepositions and conjunctions in formal/academic text","happy_windows":0,"windows":5,"scene":"formal/academic text"}
+{"neuron":5941,"pole":"low","cluster":1,"mode":"food items and ingredients","happy_windows":0,"windows":5,"scene":"recipe/food description"}
+{"neuron":5941,"pole":"low","cluster":2,"mode":"children's stories, actions, and emotions","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":5941,"pole":"low","cluster":3,"mode":"children's stories, names, and curiosity","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8182,"pole":"high","cluster":0,"mode":"possessive pronouns in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8182,"pole":"high","cluster":1,"mode":"joyful actions and emotions in children's stories","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":8182,"pole":"high","cluster":2,"mode":"excitement and happiness in children's stories","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":8182,"pole":"low","cluster":0,"mode":"locations and observations in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8182,"pole":"low","cluster":1,"mode":"prepositions and conjunctions in historical/military text","happy_windows":0,"windows":5,"scene":"historical/military text"}
+{"neuron":8033,"pole":"high","cluster":0,"mode":"geological and descriptive terms","happy_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":8033,"pole":"high","cluster":1,"mode":"challenges, species, and improvements","happy_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":8033,"pole":"high","cluster":2,"mode":"positive emotions and actions in children's stories","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":8033,"pole":"high","cluster":3,"mode":"punctuation and conjunctions in children's stories","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":8033,"pole":"low","cluster":0,"mode":"observations and seeing in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8033,"pole":"low","cluster":1,"mode":"days and time in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8033,"pole":"low","cluster":2,"mode":"punctuation and descriptions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8033,"pole":"low","cluster":3,"mode":"names and introductions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8033,"pole":"low","cluster":4,"mode":"children's stories about feelings like fear, sadness, and excitement","happy_windows":0,"windows":5,"scene":"childhood emotions and experiences"}
+{"neuron":8033,"pole":"low","cluster":5,"mode":"children's stories about animals and their feelings","happy_windows":0,"windows":5,"scene":"animal adventures and emotions"}
+{"neuron":8033,"pole":"low","cluster":6,"mode":"children's stories about discovery and observation","happy_windows":0,"windows":5,"scene":"childhood curiosity and discovery"}
+{"neuron":8033,"pole":"low","cluster":7,"mode":"children's stories about everyday events and surprises","happy_windows":0,"windows":5,"scene":"childhood daily life and events"}
+{"neuron":4931,"pole":"high","cluster":0,"mode":"pronouns and conjunctions in children's stories","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":4931,"pole":"high","cluster":1,"mode":"food items, snacks, and conjunctions","happy_windows":0,"windows":5,"scene":"recipe/food description"}
+{"neuron":4931,"pole":"low","cluster":0,"mode":"articles ('a') in children's story openings","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":4931,"pole":"low","cluster":1,"mode":"adjectives ('big') in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":4931,"pole":"low","cluster":2,"mode":"pronouns and conjunctions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":4931,"pole":"low","cluster":3,"mode":"names and introductions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":7333,"pole":"high","cluster":0,"mode":"positive emotions and conjunctions in children's stories","happy_windows":5,"windows":5,"scene":"children's story narrative"}
+{"neuron":7333,"pole":"high","cluster":1,"mode":"dialogue markers and exclamations in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":7333,"pole":"low","cluster":0,"mode":"place names and abbreviations","happy_windows":0,"windows":5,"scene":"geographical/historical text"}
+{"neuron":7333,"pole":"low","cluster":1,"mode":"conjunctions and conjunctions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":7333,"pole":"low","cluster":2,"mode":"pronouns and conjunctions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":3450,"pole":"high","cluster":0,"mode":"children's stories about positive experiences and relationships","happy_windows":5,"windows":5,"scene":"happy childhood moments"}
+{"neuron":3450,"pole":"high","cluster":1,"mode":"children's stories about friends playing and working together","happy_windows":5,"windows":5,"scene":"children playing together"}
+{"neuron":3450,"pole":"low","cluster":0,"mode":"references to pages or sections in text","happy_windows":0,"windows":5,"scene":"document structure and references"}
+{"neuron":3450,"pole":"low","cluster":1,"mode":"children's stories about feelings and comfort","happy_windows":0,"windows":5,"scene":"childhood feelings and comfort"}
+{"neuron":3450,"pole":"low","cluster":2,"mode":"technical or academic text about biological or social concepts","happy_windows":0,"windows":5,"scene":"scientific and social concepts"}
+{"neuron":1025,"pole":"high","cluster":0,"mode":"articles ('a') in children's story openings","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1025,"pole":"high","cluster":1,"mode":"verbs ('was', 'is') in children's stories","happy_windows":4,"windows":5,"scene":"children's story narrative"}
+{"neuron":1025,"pole":"high","cluster":2,"mode":"programming terms, code, and numbers","happy_windows":0,"windows":5,"scene":"technical/programming text"}
+{"neuron":1025,"pole":"high","cluster":3,"mode":"punctuation and conjunctions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1025,"pole":"low","cluster":0,"mode":"verbs ('was') in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1025,"pole":"low","cluster":1,"mode":"pronouns ('it') in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1025,"pole":"low","cluster":2,"mode":"pronouns ('she') in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1025,"pole":"low","cluster":3,"mode":"pronouns and conjunctions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":1025,"pole":"low","cluster":4,"mode":"children's stories about animals and their interactions","happy_windows":0,"windows":5,"scene":"animal interactions and play"}
+{"neuron":3899,"pole":"high","cluster":0,"mode":"infinitive verbs ('to' + verb) in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":3899,"pole":"high","cluster":1,"mode":"pronouns and conjunctions in descriptive text","happy_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":3899,"pole":"high","cluster":2,"mode":"pronouns and possessives in stories about struggles","happy_windows":0,"windows":5,"scene":"narrative text"}
+{"neuron":3899,"pole":"high","cluster":3,"mode":"food terms, nutrients, and descriptive words","happy_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":3899,"pole":"high","cluster":4,"mode":"nouns and pronouns in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":3899,"pole":"high","cluster":5,"mode":"dialogue markers and conjunctions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":3899,"pole":"low","cluster":0,"mode":"pronouns ('he', 'she') in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":3899,"pole":"low","cluster":1,"mode":"adverbs ('very') and conjunctions in children's stories","happy_windows":0,"windows":5,"scene":"children's story narrative"}

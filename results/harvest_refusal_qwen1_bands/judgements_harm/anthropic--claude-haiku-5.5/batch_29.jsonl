@@ -1,0 +1,70 @@
+{"neuron":10925,"pole":"high","cluster":0,"mode":"Assistant replies 'Glad to...' acknowledging user thanks in chat","scene_windows":0,"windows":5,"scene":"Benign everyday chat thank-you exchanges"}
+{"neuron":10925,"pole":"high","cluster":1,"mode":"Assistant begins answers with 'According to' citing a provided passage","scene_windows":0,"windows":5,"scene":"Reading-comprehension Q&A over news passages"}
+{"neuron":10925,"pole":"high","cluster":2,"mode":"Assistant opens reply with 'That's' or 'That is' affirming user's point","scene_windows":0,"windows":5,"scene":"Casual factual chat about jobs, flowers, churches"}
+{"neuron":10925,"pole":"high","cluster":3,"mode":"Slash in dates within lists of slave registrations","scene_windows":0,"windows":5,"scene":"Historical county registry records with birthdates"}
+{"neuron":10925,"pole":"high","cluster":4,"mode":"Colon or digit inside time-stamped segment headings","scene_windows":0,"windows":5,"scene":"Structured podcast or video segment outlines on energy"}
+{"neuron":10925,"pole":"high","cluster":5,"mode":"Sentence-initial 'In' opening explanatory statements","scene_windows":0,"windows":5,"scene":"Science news and explanatory assistant answers"}
+{"neuron":10925,"pole":"high","cluster":6,"mode":"'One of' opening a list-style topic sentence","scene_windows":0,"windows":5,"scene":"Expository essays on automation, headdresses, vaccines"}
+{"neuron":10925,"pole":"high","cluster":7,"mode":"Contraction 's after 'That' or 'Th' as explanation","scene_windows":0,"windows":5,"scene":"Dialogue and narration with 'that's why' explanations"}
+{"neuron":10925,"pole":"high","cluster":8,"mode":"'is' or 'was' after 'hope this/that' closing phrase","scene_windows":0,"windows":5,"scene":"Assistant closing lines wishing the answer helped"}
+{"neuron":10925,"pole":"high","cluster":9,"mode":"'Let' starting an offer or follow-up invitation","scene_windows":0,"windows":5,"scene":"Assistant offers to help with writing or lists"}
+{"neuron":10925,"pole":"high","cluster":10,"mode":"Determiners 'the' or numbers in mid-sentence expository text","scene_windows":0,"windows":5,"scene":"Scientific abstracts, recipes, sports how-to text"}
+{"neuron":10925,"pole":"high","cluster":11,"mode":"Sentence-initial 'Another' introducing next item in a series","scene_windows":0,"windows":5,"scene":"Personal essays and feature writing on mentors, health"}
+{"neuron":10925,"pole":"low","cluster":0,"mode":"'is defined' or 'defined as' in definitional sentences","scene_windows":0,"windows":5,"scene":"Academic and textbook definitions of concepts"}
+{"neuron":10925,"pole":"low","cluster":1,"mode":"Hedging adverbs like basically or essentially explaining a term","scene_windows":0,"windows":5,"scene":"Technical and craft explanations of materials and dances"}
+{"neuron":10925,"pole":"low","cluster":2,"mode":"Sentence-initial 'Overall' summarizing a discussion","scene_windows":0,"windows":5,"scene":"Essay conclusions on military, flowers, palm reading"}
+{"neuron":10925,"pole":"low","cluster":3,"mode":"'generally considered' phrasing in definitional answers","scene_windows":0,"windows":5,"scene":"Assistant answers on typing speed and obesity"}
+{"neuron":10925,"pole":"low","cluster":4,"mode":"Colon right after 'Assistant' turn label","scene_windows":0,"windows":5,"scene":"Human-assistant factual Q&A transcripts"}
+{"neuron":10925,"pole":"low","cluster":5,"mode":"'Assistant' label token at start of answer turn","scene_windows":0,"windows":5,"scene":"Human-assistant definitional Q&A transcripts"}
+{"neuron":10925,"pole":"low","cluster":6,"mode":"'really' intensifier after 'It's' or 'is' in advice","scene_windows":0,"windows":5,"scene":"Assistant advice on body, design, practices"}
+{"neuron":10925,"pole":"low","cluster":7,"mode":"Present-tense 'are' or 'is' after a term in a definition","scene_windows":0,"windows":5,"scene":"Assistant answers defining cryptids, fascism, racism"}
+{"neuron":10925,"pole":"low","cluster":8,"mode":"Quote mark or 'as' right after 'defined' or 'is'","scene_windows":0,"windows":5,"scene":"Academic and dictionary-style definitions"}
+{"neuron":10925,"pole":"low","cluster":9,"mode":"'simply' used as a hedge within explanatory sentences","scene_windows":0,"windows":5,"scene":"Explanatory text on capitals, history, kissing, laundry"}
+{"neuron":10925,"pole":"low","cluster":10,"mode":"Prepositions or digits in mid-phrase within technical prose","scene_windows":0,"windows":5,"scene":"Scientific references, food systems, narrative fragments"}
+{"neuron":10925,"pole":"low","cluster":11,"mode":"'or' joining alternatives in instructional or policy sentences","scene_windows":0,"windows":5,"scene":"Lawn care, water testing, cybersecurity policy text"}
+{"neuron":5858,"pole":"high","cluster":0,"mode":"'as best' meaning 'as well as' in emotional narration","scene_windows":0,"windows":5,"scene":"Emotional fiction about coping and hardship"}
+{"neuron":5858,"pole":"high","cluster":1,"mode":"Assistant turn-start token after a Human question","scene_windows":0,"windows":5,"scene":"Casual assistant chat on cooking, health, arts"}
+{"neuron":5858,"pole":"high","cluster":2,"mode":"'there' starting a reply clause about remedies or options","scene_windows":0,"windows":5,"scene":"Assistant advice on bruises, colds, social media"}
+{"neuron":5858,"pole":"high","cluster":3,"mode":"'but' linking a failed attempt or contrast in narrative","scene_windows":2,"windows":5,"scene":"Tense fiction with characters trying and failing to help"}
+{"neuron":5858,"pole":"high","cluster":4,"mode":"'its' or 'of' in statements about AI honesty and limits","scene_windows":0,"windows":5,"scene":"Descriptions of AI honesty and humble mentor reflections"}
+{"neuron":5858,"pole":"high","cluster":5,"mode":"Sentence-initial 'I' in supportive assistant closings","scene_windows":0,"windows":5,"scene":"Assistant supportive replies offering help or resources"}
+{"neuron":5858,"pole":"low","cluster":0,"mode":"'Hmm' interjection opening an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant replies to tricky everyday questions"}
+{"neuron":5858,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' label before how-to answer","scene_windows":0,"windows":5,"scene":"How-to Q&A on crafts, makeup, pests"}
+{"neuron":5858,"pole":"low","cluster":2,"mode":"'Assistant' label before list-style opener","scene_windows":0,"windows":5,"scene":"Assistant suggestion replies on food, plants, travel"}
+{"neuron":5858,"pole":"low","cluster":3,"mode":"'is' after 'Hmm, that' before a compliment on question","scene_windows":0,"windows":5,"scene":"Assistant replies praising user's question"}
+{"neuron":5858,"pole":"low","cluster":4,"mode":"'are' after 'There' starting a how-to answer","scene_windows":0,"windows":5,"scene":"Assistant how-to answers on cooking and crafts"}
+{"neuron":5858,"pole":"low","cluster":5,"mode":"Sentence-initial 'I' in assistant recommendation replies","scene_windows":0,"windows":5,"scene":"Assistant recommendations for movies, decor, nicknames"}
+{"neuron":5858,"pole":"low","cluster":6,"mode":"'There' starting an assistant answer about learning methods","scene_windows":0,"windows":5,"scene":"Assistant answers on woodworking and learning"}
+{"neuron":5858,"pole":"low","cluster":7,"mode":"Exclamation mark after 'question' in assistant openers","scene_windows":0,"windows":5,"scene":"Assistant openers to everyday questions"}
+{"neuron":5858,"pole":"low","cluster":8,"mode":"Function words inside narrative descriptions of events","scene_windows":0,"windows":5,"scene":"Literary narration of strange events and relief"}
+{"neuron":5858,"pole":"low","cluster":9,"mode":"'no' after 'there is' or 'there are' in claims","scene_windows":0,"windows":5,"scene":"Argumentative essays and treatment discussion"}
+{"neuron":6506,"pole":"high","cluster":0,"mode":"Sentence-initial 'In' starting an elaboration or fact","scene_windows":0,"windows":5,"scene":"Explanatory answers on health, science, AI"}
+{"neuron":6506,"pole":"high","cluster":1,"mode":"'in' before 'your life' or 'the future' in prompts","scene_windows":0,"windows":5,"scene":"Reflective prompts and wellness advice"}
+{"neuron":6506,"pole":"high","cluster":2,"mode":"'yes' or 'course' as an affirmative reply opener","scene_windows":0,"windows":5,"scene":"Assistant affirmations in health and sleep chats"}
+{"neuron":6506,"pole":"low","cluster":0,"mode":"'how' before 'much' expressing affection or value","scene_windows":0,"windows":5,"scene":"Advice on telling loved ones they matter"}
+{"neuron":6506,"pole":"low","cluster":1,"mode":"'he' or 'she' after 'knew that' in narrative","scene_windows":0,"windows":5,"scene":"Character-focused fiction on resolve and triumph"}
+{"neuron":6506,"pole":"low","cluster":2,"mode":"Sentence-initial 'We' in dialogue or speech","scene_windows":1,"windows":5,"scene":"Sci-fi and thriller dialogue with threatening undertones"}
+{"neuron":6506,"pole":"low","cluster":3,"mode":"'how' after realizing or understanding in narration","scene_windows":0,"windows":5,"scene":"Narrative and advice on understanding situations"}
+{"neuron":6506,"pole":"low","cluster":4,"mode":"'they' or 'we' after 'what' in clause subjects","scene_windows":0,"windows":5,"scene":"Tips on design, packaging, research, goals"}
+{"neuron":6506,"pole":"low","cluster":5,"mode":"Sentence-initial 'You' in tense dialogue","scene_windows":2,"windows":5,"scene":"Dark fiction with captives, threats and violence"}
+{"neuron":6506,"pole":"low","cluster":6,"mode":"'are' after 'You' in reassuring crisis messages","scene_windows":5,"windows":5,"scene":"Mental health crisis support, suicide-prevention messaging"}
+{"neuron":6506,"pole":"low","cluster":7,"mode":"'You' or 'you' starting a suggestion sentence","scene_windows":0,"windows":5,"scene":"Assistant suggestions on sleep, feet, travel"}
+{"neuron":6506,"pole":"low","cluster":8,"mode":"Sentence-initial 'You' in crisis support referrals","scene_windows":5,"windows":5,"scene":"Mental health crisis hotlines and reassurance"}
+{"neuron":6506,"pole":"low","cluster":9,"mode":"'He' or 'I' starting a short narrative sentence","scene_windows":2,"windows":5,"scene":"Tense thriller narration with danger and dread"}
+{"neuron":6506,"pole":"low","cluster":10,"mode":"'the' or 'in' inside historical and corporate prose","scene_windows":0,"windows":5,"scene":"Historical narrative and corporate safety statements"}
+{"neuron":6506,"pole":"low","cluster":11,"mode":"Sentence-initial 'I' in dialogue and inner speech","scene_windows":1,"windows":5,"scene":"Fiction with injury, death fear and quarrels"}
+{"neuron":5698,"pole":"high","cluster":0,"mode":"'to' or 'can' introducing purpose or possibility in advice","scene_windows":0,"windows":5,"scene":"Health and skincare advice articles"}
+{"neuron":5698,"pole":"high","cluster":1,"mode":"'make' before 'worse' in cautionary advice","scene_windows":0,"windows":5,"scene":"Pet, health, and diving safety tips"}
+{"neuron":5698,"pole":"low","cluster":0,"mode":"'will', 'which', 'can' linking consequence clauses","scene_windows":0,"windows":5,"scene":"Fitness, sausage, and furniture advice"}
+{"neuron":5698,"pole":"low","cluster":1,"mode":"'would' in narrative about a hiding character","scene_windows":0,"windows":5,"scene":"Rewritten story about a boy hiding under covers"}
+{"neuron":9646,"pole":"high","cluster":0,"mode":"Sentence-initial 'The' in business plan descriptions","scene_windows":0,"windows":5,"scene":"Business plans for a meal delivery company"}
+{"neuron":9646,"pole":"high","cluster":1,"mode":"'how' introducing a clause on usefulness or effect","scene_windows":0,"windows":5,"scene":"Marketing and website copy advice"}
+{"neuron":9646,"pole":"high","cluster":2,"mode":"'what' or 'exactly' in promises about updates","scene_windows":0,"windows":5,"scene":"Customer service response letters"}
+{"neuron":9646,"pole":"high","cluster":3,"mode":"Determiners or periods in promotional essay-service text","scene_windows":0,"windows":5,"scene":"Spammy essay-service promotional copy"}
+{"neuron":9646,"pole":"high","cluster":4,"mode":"'can' after 'tourists' or 'You' recommending visits","scene_windows":0,"windows":5,"scene":"Travel guide for Kutch shops and villages"}
+{"neuron":9646,"pole":"high","cluster":5,"mode":"'of' or 'is' in descriptive quality statements","scene_windows":0,"windows":5,"scene":"Business and food descriptive copy"}
+{"neuron":9646,"pole":"high","cluster":6,"mode":"'of' or 'the' in content-type examples for social posts","scene_windows":0,"windows":5,"scene":"Social media content planning guidance"}
+{"neuron":9646,"pole":"low","cluster":0,"mode":"'confidential' after 'For' in referral disclaimers","scene_windows":0,"windows":5,"scene":"Assistant disclaimers redirecting to professionals"}
+{"neuron":9646,"pole":"low","cluster":1,"mode":"'in' after 'stored' in food storage instructions","scene_windows":0,"windows":5,"scene":"Food storage and leftovers instructions"}
+{"neuron":9646,"pole":"low","cluster":2,"mode":"'in' or 'is' inside product and ingredient descriptions","scene_windows":0,"windows":5,"scene":"Naming ideas, crab recipe, marinade text"}
+{"neuron":9646,"pole":"low","cluster":3,"mode":"Marked article or preposition introducing a referral to professional help or resources","scene_windows":1,"windows":5,"scene":"Supportive mental-health advice about regret, emotional concerns, and seeking professional help"}

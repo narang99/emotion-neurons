@@ -1,0 +1,564 @@
+##### neuron 4021
+=== high pole (p97 and above)
+--- cluster 0
+  [1.20] What’s happening now in Washington is some of the most exciting stuff I’ve seen in the past 25 years,” said Robert F. Kennedy Jr[[.,]] who spoke to the Willamette community
+  [3.33] , Some Autistics Are Pleading By AMY HARMON Published: December 20, 2004 Jack Thomas[[,]] a 10th grader at
+  [1.38] One mosque attack was reported during this period: the An-Nur mosque in the district of Talake in Ambon. According to Yusuf Elly[[,]] a Muslim leader and chairman of the J
+  [1.27] Interview with Lluís Pagès Pons[[,]] Biology and Geology teacher in a Secondary
+  [1.33] The USS Indianapolis and Schenectady According to published reports, the world’s first operational atomic bomb was delivered by the USS Indianapolis[[,]] (CA-35), a Portland
+--- cluster 1
+  [2.58]  A month later, still none. Over the next few years, IVHS students continued signing the pledge, learning about violence and speaking up to end it[[. ]]The students of IVHS kept their pledges
+  [1.24]  that cut a ¾ mile wide path through the center of town leveling everything and wiping away 25% of the structures along a six mile corridor[[. ]]The seven story Medical Center that had served
+  [1.06]  and sent them to the Panama Canal Zone and Honduras and Cuba and even to South Florida, where there was already one jackfruit tree that had borne fruit[[." ]]The gardens that received them were part of
+  [2.42] . While she was awaiting arraignment at a Brooklyn courthouse, Malcolm X arrived to lend support to the arrestees, most of whom were African American[[. ]]When the crowd surged toward him, Mrs
+  [1.62] Freeman argues that for many female journalists, their support of suffrage was a reflection of their concern for women and their families, and later their patriotism[[.]] Many suffragettes were teetotal
+--- cluster 2
+  [2.42] Once upon a time, there was a girl named Lily. She loved to play outside in nature. She would run and jump and[[ laugh]] with joy. One day, she saw
+  [1.34] Once upon a time there was a little girl named Max. She loved playing with her friends and was always very[[ kind]]. One day Max wanted to surprise her
+  [1.28]  new toy all day long and it became a special memory for her. Every time she played with the car, she remembered how her grandma gave it to[[ her]] and how much she loved her. From
+  [1.19]  dress. They laughed and smiled, and Ruby felt so proud. They both had so much fun.  At the end of the evening, Ruby was so[[ happy]] she had found the peach dress. It
+  [1.21] Once upon a time there was a loyal dog named Fido. Fido loved his owner very[[ much]] and he always listened to what his owner
+--- cluster 3
+  [2.12]  find the perfect spot for flying.  Jack was thrilled as the kite went higher and higher. He enjoyed the freedom of flying and the breeze in his hair[[.]] He felt so proud of his loyal kite
+  [1.75] Once upon a time, there was a little girl named Lily. She loved dressing up in her princess costume and pretending to be a queen[[.]] One day, she went to the park
+  [1.38]  the river, she saw a big rock. She climbed on top of it and looked down at the river. It was so big and flowed so fast[[.]] She wondered where it went and what was
+  [1.17]  there was a little boy named Timmy who loved to play in the snow. Timmy loved to make snowmen and throw snowballs at his friends[[.]] But one day, Timmy met a
+  [1.12] . She loved to create things. One hot summer day, she decided to create an insect. She used some sticks and leaves to make a fit insect[[.]]   When she finished, she held it
+--- cluster 4
+  [1.32]  by picking up her toys and putting them away. She was very good at cleaning!  After they finished cleaning, Lily played with grandma and ate candy.[[ But]] soon, Lily started to feel tired.
+  [1.30] , but then she saw that it was normal.   She decided to open her hands and hold the insect close. It didn't move at first,[[ but]] then it started crawling on her hand.
+  [1.23]  something happened. It was storming outside and the boy was very fearful. He was afraid that he would not be able to drive the truck safely.[[ But]] he decided to brave the storm and drove
+  [1.68]  playing with the other creatures.   The other creatures were very surprised to see the bad creature playing with them. They were wary of him at first,[[ but]] the kind creature showed them how to be
+  [1.34]  was a big bag of food and a nice card from Uncle Peter. The mom, dad, and their three year old child were very excited!  But[[ then]] something terrible happened. The house caught on
+--- unclustered (sample)
+  [1.65]  you?” Copyright, 2009. All rights reserved by author below. Content provided by The Old Schoolhouse® Magazine, LLC. [[M]]ichele is happily married to Jeff,
+  [1.10]  > ˅ Value-added analysis uses standardized test scores to determine how much a teacher helped her students learn over the course of the year. Here are[[ the]] facts that correct common misconceptions about the
+  [1.15]  she couldn't shake the feeling that she was being pulled in two directions at once.  Suddenly[[,]] Lena heard the rumble. At first
+=== low pole (p3 and below)
+--- cluster 0
+  [-18.88] Once upon a time[[,]] there was a bunny named Benny. He
+  [-18.88] Once upon a time[[,]] there was a big dragon. The dragon
+  [-18.88] Once upon a time[[,]] there were three friends. One was called
+  [-18.88] Once upon a time[[,]] there was a little girl named Lily.
+  [-18.88] Once upon a time[[,]] a small dog was walking down a road
+--- cluster 1
+  [-2.77] Once upon a time, there was[[ a]] cow called Daisy. She was very brave
+  [-2.77] Once upon a time, there was[[ a]] happy little boy named Tim. Tim loved
+  [-2.77] Once upon a time, there was[[ a]] little train. The train was chugging
+  [-2.77] Once upon a time, there was[[ a]] friendly girl named Lucy. She was very
+  [-2.77] Once upon a time, there was[[ a]] nation of people. They lived together,
+--- cluster 2
+  [-9.62] Once upon a time, there[[ was]] a seal. He lived by the beach
+  [-9.62] Once upon a time, there[[ was]] a little girl named Jane. She had
+  [-9.62] Once upon a time, there[[ was]] a little girl named Lily. She loved
+  [-9.62] Once upon a time, there[[ was]] a big lion who lived in a tall
+  [-9.62] Once upon a time, there[[ was]] a little girl named Lily. Lily loved
+--- cluster 3
+  [-10.62] Once upon a time,[[ there]] was a little boy. He had lots
+  [-10.62] Once upon a time,[[ there]] was a little girl named Sally. Sally
+  [-10.62] Once upon a time,[[ there]] was a nice van. It was big
+  [-10.62] Once upon a time,[[ there]] was a soft and fluffy deer named B
+  [-10.62] Once upon a time,[[ there]] was a little girl named Lily. She
+--- cluster 4
+  [-2.03] Once upon a time, there was a little girl called Tanya. She liked nothing better than playing in the park with her friends.[[ One]] day, she decided to try something new
+  [-2.34]  many paint boxes in her bedroom. Every day, she enjoyed raising her paintbrushes and delighting in all the colors that the paint could make.  [[One]] day, the little girl felt nervous.
+  [-2.42] Once upon a time, there was a happy bird named Blue. Blue liked to fly high in the sky and feel the wind in his feathers.[[ One]] day, Blue woke up early and saw
+  [-3.02]  town, there was a charming jeep. It was red and shiny. Everyone loved the jeep. It would drive around the town, making people smile.  [[One]] day, a little boy named Tim saw
+  [-3.44] Once upon a time, there lived a bear named Jack. He was a strong and brave bear and he liked to protect his friends.[[ One]] day, Jack met a little duck who
+--- cluster 5
+  [-3.27] Once upon a time, there was a little girl[[ named]] Joy. She was three years old and
+  [-3.28] Once upon a time, there was a little girl[[ named]] Lily. She loved to play outside in
+  [-3.28] Once upon a time, there was a little girl[[ named]] Lily. Lily loved to play with her
+  [-3.28] Once upon a time, there was a little girl[[ named]] Lily. She had a soft blanket that
+  [-3.28] Once upon a time, there was a little girl[[ named]] Lily. She loved to play outside in
+--- cluster 6
+  [-5.69]  stood tall and protected himself with his cape. The wolf ran away and Benny felt very proud of himself. From that day on, Benny knew that he[[ didn]]'t have to be scared anymore. He
+  [-5.88]  He had so much fun wearing the crown that he forgot to give it back when he was done!  Luckily, his older brother was so kind that he[[ didn]]'t get upset. He just laughed and
+  [-5.78]  scared of the dark. Her mommy hugged her and said, "Don't worry, I'm here with you. We'll get through it together."  [[L]]ily felt much better and they continued their
+  [-5.00]  started to feel sad.  Tim muttered, "I can't seat by myself."  His mum smiled, and put her hands under his feet. She said[[,]] "You'll have to jump, and
+  [-4.50]  she saw a beautiful vase and reached out to touch it. But as she did, she accidentally knocked it over and it shattered into a million pieces.  [[L]]ily was very sad and scared that she
+--- cluster 7
+  [-1.80] Once upon a time, there was a little girl named Lily.[[ She]] loved to help her mommy cook in the
+  [-1.62] Once upon a time, there was a little[[ girl]] named Lily. She loved to play outside
+  [-1.87] Once upon a time there was a little[[ girl]] called Daisy who was very enthusiastic. One
+  [-1.97] Once upon a time, there was a little[[ boy]] named Timmy who loved cars. He
+  [-2.12] Once upon a time there was a little[[ boy]] called Billy. He was a very honest
+--- cluster 8
+  [-1.52]  When Dan was finished, Mommy was so proud.   "Wow Dan, that's a perfect rainbow! You did a great job." she said[[.  ]]Dan smiled. He was so proud he
+  [-4.03]  in the woods and he found a sparkly gold coin! He was so happy and he ran home to show his mum. Mum was very excited too[[.  ]]That night the boy went back to the
+  [-1.98]  the park. One day, while playing, he hurt his paw. He yelped in pain and his puppy friends ran to see what was wrong[[.  ]]The puppy tried to speak but he only
+  [-2.45] . She looked high and low, but she couldn't see anything. She was getting very tired until finally she found it! It was a hidden treat[[.  ]]But when she got there, she was
+  [-1.76]  to explore her garden. As she looked around, she saw a mysterious rake in the corner. She walked over and gently picked it up with both hands[[.  ]]When Lucy looked closer, she saw that
+--- cluster 9
+  [-2.22] Once upon a time there was an orange hose[[.]] The hose was very long and it sn
+  [-2.00] Once upon a time there was a cute little onion[[.]] He loved to run around in the sunshine
+  [-2.16] Once upon a time there was a big cabinet[[.]] Every night when the sun went to bed
+  [-1.96] Once upon a time, there was a big, heavy rock[[.]] It was too heavy for anyone to move
+  [-2.52] Once upon a time, there was a bee[[.]] He was very weird. He liked to
+--- cluster 10
+  [-1.68]  a time there were two young children, Bella and Joe. They were very excited because it was summertime.   One day, they decided to go[[ to]] the park. When they got there,
+  [-1.63] Once upon a time there was a girl named Lucy. She was organized and always had her things ready. One day she wanted to go[[ to]] the park. She opened her trunk and
+  [-2.34]  He used lots of green and brown colors to make it look real.   After he finished, Timmy's mom asked him if he wanted to go[[ to]] the park. Timmy was very excited
+  [-1.38] One day, a little girl named Lily went[[ to]] visit her aunt. Her aunt had a
+  [-2.06] Once upon a time there lived a little girl who only had her doll to keep her company. She went[[ to]] her closet one day and found a secret
+--- cluster 11
+  [-3.86]  the shell and showed it to her mom. "Look, Mommy! I found a pretty shell!" she said. Her mom smiled and said,[[ "]]That's a lovely shell, Amy.
+  [-2.12] . But when they went outside, they found it was raining.  The kids were very worried. They wanted to go to the beach.  Mum said[[ "]]Listen kids. We can't go to
+  [-3.98]  a big sign. It was tall and colourful. It said, "Examine this Creative Place".   Mommy looked at the sign and said,[[ "]]Let's see what this creative place is
+  [-2.58]  guilty and sad.  Suddenly, a gentle voice spoke. "It's okay, Hadley," it said. Hadley realised it was her mum.  [["]]Sometimes things don't work out how we
+  [-1.61]  and saw something very interesting. It was a picnic! There were so many delicious things to eat and lots of fun things for the children to do.  [["]]Let's go to the picnic!" said
+--- cluster 12
+  [-2.17]  herself fascinated by modern India and Indians. Inder Lal, head of the family with whom she is staying, takes her by scooter to the different places[[ of]] Olivia's past. Through her journey into
+  [-2.19]  be able to protect themselves and also smoothly transfer control to humans when necessary.” Woods admits that one thing is missing from the new laws: the romance[[ of]] Asimov’s fiction -- the idea
+  [-3.34] presented profession among the group (Bacchi 6). In an interview, Carleton Journalism adjunct professor Barbara Freeman maintained that women working for newspapers[[ in]] those early days were well-educated, bright
+  [-2.62]  considerable number of the saints of Brittany, St. Tenenan, St. Renan, etc., were emigrants from Ireland. The Breton legends[[ of]] St. Malo, St. David
+  [-1.57] which provides additional discussion for controversial points in the other two books and also gives details of more mundane items such as weather information available for the days[[ of]] the campaign. He adds helpful information such
+--- cluster 13
+  [-2.31] , and high-speed horseback chases, while also bringing a fresh and modern voice to the story.  assistant: FADE IN:  EXT. W[[ILD]] WEST FRONTIER TOWN - DAY  
+  [-3.00]  Bear inviting his friends for a feast and discovering the gift of gratitude as they all share food and stories. 3. How to Catch a Star -[[ by]] Oliver Jeffers is a beautiful story that
+  [-1.49]  mother (Gwen Taylor) living in a seaside town and growing more senile by the day. Guilt and responsibility dog his every move. Director[[ Hy]]tner turned Bennett's play The History
+  [-1.66]  sell the OEMs a crippled Home Basic version that users would have to upgrade directly with Microsoft in order to get the same features they had with[[ XP]]. Dell and HP pushed back when Microsoft
+  [-1.93]  260-261. Contained here is a reference to the apocryphal story of ninety-five year old Barbara[[ Fre]]itchie. She was immortal
+--- unclustered (sample)
+  [-1.38]  to buy it.   As they were leaving the store, they met a kind old man who gifted Lily a shiny coin. Lily was so happy and[[ thanked]] the man.   Later that day,
+  [-1.71] Tom and Lily liked[[ to]] play on the beach. They made sand
+  [-1.78] Once upon a time there were two[[ people]] who were very happy. Their names were
+##### neuron 10877
+=== high pole (p97 and above)
+--- cluster 0
+  [4.53]  steamed vegetable medley. I mix together broccoli, carrots, and snow peas and steam them until they're tender. Then, I toss them with[[ a]] little bit of olive oil and sprinkle some
+  [4.41]  up to a week or freeze it for up to 3 months.  Variations:  - If you'd like a meat-based sauce, you can add[[ some]] ground beef or sausage to the onions and
+  [6.00]  the egg mixture before cooking to get fresh-tasting scrambled eggs. 3. Scrambled eggs with veggies: Add sautéed veggies ([[like]] spinach, mushrooms, onions, or bell
+  [5.06]  in summer:  1. Grilled Chicken Skewers with Veggies: Marinate chicken in a mixture of olive oil, lemon juice, garlic,[[ and]] your favorite herbs, then skewer with
+  [2.89]  Pico De Gallo: Similar to salsa, pico de gallo is a fresh topping made from chopped tomatoes, onions, jalapenos,[[ and]] cilantro. It's a great way
+--- cluster 1
+  [2.28] , the bear did not hear anything terrible. The sun was shining, and he decided to enjoy his day out in the woods again. He ran and[[ played]] with his friends, feeling safe and happy
+  [3.89]  everywhere and it was so much fun! Suddenly, another penguin saw what was happening and came over to play. The two penguins sprayed water and[[ played]] together all day long. From that day
+  [4.75]  me." Lily felt bad for not sharing her ice cream, so she decided to give Timmy a little bit. Timmy was happy and they played[[ together]] until it was time to go home.
+  [1.45]  their toys back. They are happy. They say bye to the big boy. They say he is not nice. They go to their meeting. They[[ play]] and share. They are friends.
+  [1.83]  was something he was looking for. He saw a big puddle. He was so excited, he ran over and jumped right in. He splashed[[ around]], feeling the cool water on his fur
+--- cluster 2
+  [3.14]  So, he decided to use his special power. He spun around and soon found himself in a magical land full of strawberries and cupcakes.   He was[[ so]] excited to explore! He ran around and
+  [2.34]  opened the sandbox and revealed a surprise. She had filled it with even more sand and some new toys for Timmy to play with. Timmy was[[ so]] happy and thanked his mom for being so
+  [4.19]  out a piece of paper. He started to trace a big smiley face on the paper, and when he was done the boy laughed. He was[[ so]] happy that the fireman had taken the
+  [1.86]  meant, but he watched as his mom used the ruler to reach the truck. She got it out and gave it back to Timmy. He was[[ so]] happy and thanked his mom. From that
+  [1.99]  done, everyone cheered. They thanked the owl for coming and measuring the castle, and they asked it to come back soon.   The ancient owl was[[ so]] happy. It had found a special place
+--- cluster 3
+  [2.75]  country. When they arrived, she received a big surprise. There was lots of food everywhere! She saw lots of vegetables, fruits, and cheese.[[ She]] was so happy and started eating right away
+  [1.48]  told his mom he wanted to sit on the bench for a little bit.   His mom said it was a good idea and they sat down. Tim[[my]] felt happy and content on the bench.
+  [1.41]  then he heard a big noise.  He jumped up and tried to find the noise. He ran around and found a lake with some fish in it.[[ He]] watched the fish swim around until the sun
+  [1.84]  was a little girl called Emma. Emma was very happy but she was also very naughty. One day she came across an avocado tree in her garden.[[ She]] was full of excitement and wanted to pick
+  [1.44]  Then, one day, the deer decided to settle in a new part of the woods.  The strong deer found lots of yummy plants and tall trees.[[ He]] settled there and made a home for himself
+--- cluster 4
+  [2.72] 's owner asked him to press the switch to turn on the lights. Max pressed the switch with his cute little paw and the lights turned on! Max[[ was]] so happy that he wagged his tail
+  [2.11]  for all to see.  That day, Lizzie kept her promise. She gave the stick to her mum as a surprise gift. Lizzie's mum[[ was]] very pleased with her daughter's thoughtfulness
+  [1.42] Mommy said "This puppy needs a good home. Do you want to take care of him?". Tommy smiled and picked up the puppy. He[[ was]] so happy.  The puppy had soft leather
+  [3.06]  said, â€œYes, sir! I promise I'll be careful!â€  The cop smiled again and walked away. The little boy[[ was]] so happy he kept on jumping and having
+  [5.28]  home. The little boy jumped up and down and said "yes!"  So, Bob the parrot became the little boy's new best friend. He[[ was]] the most original and special pet the boy
+--- unclustered (sample)
+  [1.86]  How could she say no? Well, violating that rule cost this mother of three and seven-year employee her job. Or make it rather unpleasant, al[[a]] ST Ds like Syphilis .
+  [2.72]  their impact on the ecosystem is never wrought, May we always cherish their contribution to the land, And admire their beauty so grand.  user: That was[[ a]] lovely poem about the elk! Can you
+  [3.00]  back into the seat.  Mom drove him home. When they got there, Tim got out of the car and said goodbye to his mom. He'd[[ had]] a great day, thanks to the little
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.93]  was happy. He liked to share with his sister. He wanted to make her something else. He looked around and saw a can of beans. He[[ thought]] beans were useful. They could make soup
+  [-1.09] When it was time for Lily's friends to go home, she said goodbye and thanked them for playing with her. She looked at the big pumpkin and[[ thought]] about how much fun it was to jump
+  [-0.81]  and pretend to be a princess.  One day, she saw a new ring on her mom's dresser. It was very pretty and sparkly. Anna[[ wanted]] to try it on. She took the
+  [-2.78]  ball towards the goal.  One day, Timmy found a dirty old knife in the park. He didn't know what it was for, but he[[ thought]] it was cool. He brought it home
+  [-0.76]  in her garden. To her surprise, she found a large heavy fur. Anna didn't know what the furry thing was. She was excited, and[[ wanted]] to pick it up and bring it inside
+--- cluster 1
+  [-0.66]  best in them. Whether that meant offering a pep talk to a struggling player or calling out a teammate who wasn't giving their all in practice, he[[ always]] knew just what to say to get everyone
+  [-0.69]  about how to feel. My grandmother passed away years before, and I had always thought of my grandfather as a widower. Learning about his past made[[ him]] feel like a different person. Even though
+  [-0.64] " turns libraries and fines into Nightmare Fuel. Because Stephen King. Credit cards and by proxy, credit scores. While[[ some]] people can get by without any credit at
+  [-2.25]  can almost get that. As for specialized classes, some might be classes that have people's lives depending on them. Not justifying, just saying one[[ can]] sort of see how it might be Serious
+  [-1.66]  stressful time for both of us as we tried to navigate the complicated application process while also balancing schoolwork and extracurricular activities.  But what made[[ it]] even harder was that our paths were starting
+--- cluster 2
+  [-0.91] One day, Sam wanted to go for a ride on her bike. She tried to put the gears together, but they didn't seem to fit.[[ She]] kept trying but they kept not fitting.  
+  [-0.80]  where she saw her friends dance. She wanted to dance too, but she was too shy.  Suddenly, a boy asked Lily to dance with him.[[ She]] was so happy and started to dance with
+  [-0.79]  was upset and told Tommy that he had to be careful.   Later, while they were playing, Tommy accidentally knocked over a vase and broke it.[[ Lily]]'s mom saw what happened and told Tommy
+  [-1.46]  decided to go on an adventure.  She walked through the woods and came to a clearing. In the middle of the clearing was a very strange box.[[ She]] walked up to the box and tried to
+  [-0.84]  her heart. It was beating too fast, and she was feeling very scared.  She started to walk, but she wasn't sure where to go.[[ She]] felt like her feet were stuck and she
+--- cluster 3
+  [-0.99] ," his mom replied.  Timmy was so happy to have found a medal. He wore it around his neck and showed it to all his friends.[[ But]] one day, he accidentally stepped on it
+  [-1.21]  room before his friends came over for a meeting. Timmy didn't want to clean up because he was having too much fun playing in the mud.  [[But]] then, Timmy's mom explained that
+  [-1.39]  mom said no. She said that Jacob's body was too fragile and he needed to rest. So Jacob stayed at home, feeling disappointed and sad.  [[But]] Jacob found a way to have an adventure
+  [-1.02] . One day, Timmy's mom gave him a teaspoon to eat his ice cream with. Timmy was very slow at eating his ice cream,[[ but]] he enjoyed it very much.  After Tim
+  [-0.68] Once upon a time, there was a mighty cat called Fred. He loved playing in the garden and chasing around the birds.[[ But]] one day, there was a problem.
+--- cluster 4
+  [-1.11] 1 small onion, finely chopped - 1 tbsp of flour - 1 tbsp of oil - Salt and pepper to taste  Instructions: [[1]]. Boil the potatoes until they're
+  [-0.66]  extra-virgin olive oil - Salt and black pepper, to taste - 1/4 cup crumbled feta cheese  Instructions: [[1]]. In a large bowl, combine the
+  [-0.84]  nutrients and staying satiated.  assistant: Sure, I'd be happy to! Here are a few tips for making smoothies more filling and satisfying:  [[1]]. Add Protein: Adding a source of
+  [-2.38]  helpful for improving your balance on a surfboard:  [[1]]. Keep your weight centered: make sure
+  [-0.88]  of protein and fiber in the protein bars?  assistant: Certainly! The sources of protein and fiber in our low-carb protein bars are as follows:  [[1]]. Protein: Our protein bars contain protein
+--- cluster 5
+  [-5.72] to taste). Can you provide a recipe for making mashed potatoes?  assistant: Sure, here is a recipe for making mashed potatoes:  Ingredients: - [[4]] large potatoes, peeled and cut into chunks
+  [-7.38]  for vegan Indian cauliflower mash:  Ingredients: - 1 large cauliflower head, cut into florets - 1 small onion, chopped - [[1]] garlic clove, minced - 
+  [-8.19]  to make the blueberry brandy mixture:  - [[1]] cup fresh or frozen blueberries -
+  [-0.91]  and dried bonito flakes) - 3 tablespoons miso paste - 2-3 green onions, thinly sliced - 1/2[[ cup]] cubed firm tofu - 1
+  [-1.30]  1/4 cup of water (more if needed)  Equipment:  - High-speed blender or food processor - Measuring cups and spoons [[-]] Mixing bowl - Cheese cloth or nut
+--- cluster 6
+  [-0.70]  cooperation with the Metropolitan Water District of Southern California, the Oregon Graduate Institute of Science and Environmental Engineering, and the American Water Works Association Research Foundation (AW[[WAR]]F), and includes about 1,
+  [-1.02]  but probably the most important one was Gatsbys desire to become everything he wasn't in order to win D[[ais]]ys heart. All the obstacles he went
+  [-0.62] um x hybridum) keeps black flies away from beans. Your Planting Articles - Rodale's Illustrated Encyclopedia of Herbs; Claire Kow[[al]]chik and William H. Hyl
+  [-2.31]  municipalities across the country, local leaders applied stricter Islamic practices during the period covered by this report. For example, in the West Java regency of C[[ian]]jur, a local regulation required all government
+  [-0.69]  adoptions, currently prohibited in practice because of administrative procedures, would now carry a criminal penalty of a maximum 3 years in prison. NU and Mu[[ham]]madiyah joined with the Council
+--- unclustered (sample)
+  [-0.60]  outside and explore the world around her. One day, she went to the river to see the fish swim. Suddenly, something strange happened. The water[[ started]] to rise and soon there was a big
+  [-1.52]  and catch it. Sometimes they missed the ball and it rolled away. They ran after it and laughed.  One time, the ball rolled too far and[[ went]] into the street. Lily and Ben stopped
+  [-2.09]  on her surroundings. She could hear the constant drip of water echoing around her, and the scrape of her shoes on the rocky floor. But as she[[ walked]], she began to hear something else too
+##### neuron 3006
+=== high pole (p97 and above)
+--- cluster 0
+  [4.09] , nausea, irritability, and poor concentration greatly improved after 20-minute relaxation sessions twice per week.4 Acupuncture may be a useful[[ therapy]] in the treatment of dysmenorrhea
+  [2.94]  the blood makes a difference. A new study, presented at the European Society of Hypertension (ESH) meeting in London, sheds light on direct[[ benefits]] from taking supplements for five months in winter
+  [7.19]  complete blockage of the coronary arteries called atherosclerosis. Increased NO levels significantly reduce the risk of atherosclerosis. - Improved circulation is[[ beneficial]] in the treatment of Tinnitus. Treat
+  [2.27]  individual behavior. Structural therapy stresses the importance of clear rules, boundaries, and roles to create a stable and functional family system. While structural therapy has shown[[ success]] in managing family conflicts, it also has
+  [2.05]  with hypertension, researchers say. Vitamin D deficiency has been associated with high blood pressure, but until now there has been little scientific evidence that topping up[[ levels]] of the vitamin in the blood makes a
+--- cluster 1
+  [0.63]  woman to a calm, patient, and resilient survivor. Elena realized that the events of the past few months had helped her understand herself better, and she[[ had]] found something she had been searching for all
+  [0.88]  though you’re no longer here with us in the physical form, I know that you’re still with me, watching over me, and guiding me through[[ life]].  I miss you more than words can
+  [1.52]  girl went, the puppy joined her. Even in the snow, the puppy and girl had fun together. The puppy was so happy to have a new[[ home]] and be with the girl. They were
+  [1.16]  but the addiction is no longer in control of her life. Although she's not finished with her journey, she is grateful for the progress she's made[[ and]] the support she received from her loved ones
+  [0.93]  too caught up in her own world to see the beauty around her. This helped her come to terms with her isolation, and allowed her to connect with[[ nature]] in a much deeper way.  One day
+--- unclustered (sample)
+  [1.75]  autism is now available. (Available in Spanish) Developed by Ohio parents, this manual provides an overview of the world of autism spectrum disorders. A[[ comprehensive]] product that provides guidance during the process of
+  [1.41]  prevent the onset of childhood asthma. "Researchers have long known that eczema and asthma are linked; however, there currently isn't an established,[[ long]]-term treatment that controls eczema and
+  [12.75]  to manage emotions without substance use. Therapy and other forms of support can help individuals with addiction improve their emotional regulation skills, which can be a crucial part[[ of]] the recovery process.  user: That's
+=== low pole (p3 and below)
+--- cluster 0
+  [-4.06]  swelling has subsided and the IOP has been lowered, which is usually 48 hours after an acute angle closure, laser iridotomy can[[ be]] performed. Pilocarpine is applied
+  [-1.02]  a lens implant after the removal of a cataract removal). After the cornea swelling has subsided and the IOP[[ has]] been lowered, which is usually 4
+  [-0.91] The second greatest risk of this procedure is anterior uvetis, or inflammation within the eye. Usually the inflammation subsides within several days, but can[[ persist]] for up to 30 days.
+  [-2.98] osteroids are applied to the eye every five minutes for 30 minutes, then hourly for six hours. This therapy is then continued four times a[[ day]] for a week. Thereafter, the
+  [-3.03]  the optic nerve may be performed again. The greatest risk of laser iridotomy is an increase in intraocular[[ pressure]]. Usually, the IOP spike is
+--- cluster 1
+  [-0.78]  share their observations and reflections on the entire exercise with the larger team. The team should discuss the importance of self-reflection and introspection and how it[[ can]] help improve team dynamics.  Conclusion: Reflect
+  [-0.70] .  Overall, astrology is an important part of Hindu culture, and the planetary influences on a person's life are believed to be significant. Understanding these[[ influences]] can help individuals better navigate their lives and
+  [-0.70]  when I was in China,” Ray recalls, which gave rise to interesting discussions on Japan’s versus China’s approach to nuclear power. Studying overseas[[ is]] a blessing that comes with its own challenges
+  [-0.64]  overview of our company's values, mission, and history. We believe that it[['s]] essential for new hires to understand our company
+  [-0.81]  tie it all back into a story that they become more familiar with each day of reading. The stories are engaging and the activities are fun which is really[[ all]] a young child needs at this period in
+--- cluster 2
+  [-1.07]  Tom.  Tom was having so much fun playing with the toy horse that he accidentally broke the handle. Lily was very sad when she saw what happened.[[ She]] said to Tom, "You broke my
+  [-0.98] ."   As they were leaving the library, Timmy accidentally knocked over the fragile vase. It broke into a million pieces. His mom was very upset[[ and]] the librarian said "That was very careless
+  [-0.95]  the mud. But it was too big and it got stuck. Henry tried and tried, but he couldn't get it out. He was sad and[[ he]] had to leave the figure there. The
+  [-1.00]  He started to yell for help, "Help! Help! I'm stuck!"   Lily heard Max's yell and quickly ran to help him.[[ She]] gently untangled him from the yarn and
+  [-1.09]  The medal is not yours. It belongs to the dog. You should say sorry to the dog and its owner."  Sam nods. He feels bad.[[ He]] says sorry to the dog and its owner
+--- unclustered (sample)
+  [-0.71]  spread throughout the Islamic world and beyond. Today, Islamic calligraphy is still a celebrated art form, and its rich history and cultural significance continue to be[[ appreciated]] by people around the world.  user:
+  [-0.73]  it smelled. Daisy smiled so big and said, "Mmm! This pancake is so delicious!"   From that day on, Daisy looked forward[[ to]] breakfast with her mom. Every morning her
+  [-0.62]  who specialise in corporate event management, conferences and brand activations. They develop ideas into unique and memorable experiences for their clients. Read their latest blog posts[[ to]] keep updated with their services. A business
+##### neuron 8256
+=== high pole (p97 and above)
+--- cluster 0
+  [0.93]  no. This is no game. This is a war and you must be careful."   John was very curious and kept looking around the pond. He[[ saw]] a turtle swimming in the water. "
+  [2.09]  cat named Luna, came for a visit. They played together and had lots of fun.  One day, while Max and Luna were swinging, they saw[[ a]] big bird. The bird wanted to swing
+  [2.98]  for a walk in the park. It was warm outside, and the sun was shining. Timmy felt happy.  As they walked, Timmy saw[[ a]] pretty flower. He wanted to take it
+  [1.55]  an adventure.  She went to a restaurant that she had never been to before. It smelled really yummy inside so she went in. She looked around and[[ noticed]] the walls were blue and the chairs were
+  [1.09]  and it was very, very cold. She put on her warm coat, hat, and gloves and started to play.  As she was playing, she[[ saw]] a skeleton decoration in her neighbor's yard
+--- cluster 1
+  [0.46] Once upon a time, there was a[[ little]] girl named Lily. She loved to eat
+  [0.46] Once upon a time, there was a[[ little]] boy named Tim. Tim liked to run
+  [0.46] Once upon a time, there was a[[ little]] bird named Tip. He had wings that
+  [0.46] Once upon a time, there was a[[ little]] girl named Mia. She had a big
+  [0.46] Once upon a time, there was a[[ little]] boy named Timmy. Timmy loved
+--- unclustered (sample)
+  [0.46]  drawn from very large (usually about 10,000 different words) vocabularies. Each spoken word is created out of the phon[[etic]] combination of a limited set of vowel and
+  [0.62]  “Projected effect of dietary salt reductions on future cardiovascular disease.” N. Engl. J. Med., 362.7 (201[[0]]):590-599
+  [0.45]  abuse… * Constitution On Slavery ** Constitutional Topic: Slavery - The U.S. Constitution Online - USConstitution.net Website: The[[ Wrong]]ful Death of Larry Neal Author's
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.43] John was walking through the park one day with his mom. He was so excited to be going to the park and couldn't wait to[[ explore]]. As they walked, John suddenly noticed
+  [-0.49] jo and Teri, relieved, ran out to play once more. They laughed and joked, and Jojo even teased Teri with a flower he[[ found]].   And from then on, no
+  [-0.43]  loved to run and jump, but her mom told her to be careful because the ground was wet from the rain. Suddenly, Lily saw a big pudd[[le]] in front of her and she wanted to
+  [-0.40]  and respectful. You did not hurt the wheat or the birds. You were honest and did not lie."  Lily and Tom felt happy and proud.[[ They]] apologized for coming too close to the scare
+  [-0.53] .  From then on, the little girl was always finding new and creative ways to remove her beans and make fancy patterns. She was so happy to have[[ found]] a creative way to use her favorite snack
+--- cluster 1
+  [-0.47]  reputation to grow and upkeep.[[ There]] can be no compromises in terms of quality
+  [-0.65]  to non-human recipients. The order is strictly reserved for individuals who have made exceptional contributions to Danish society or have acted in the service of Denmark. While[[ there]] may be stories or legends of animals being
+  [-0.64] 't the end of the world. Just try telling a group that you're only playing for fun and don't care if you top the damage charts. [[There]]'s not enough kindling in this world
+  [-0.36]  gathering responses to the challenge. While there isn't a final number (the deadline for submissions is Thursday, April 15), Trapani said[[ there]] have been several hundred responses so far. 
+  [-0.38]  inspired other civilizations outside of Asia. However, the first-hand account of Qin Dynasty’s achievements in architecture and engineering from that period are quite limited, and[[ there]] is little information about any
+--- unclustered (sample)
+  [-0.39] enyang had such a rich history as a part of the Silk Road. Can you recommend any specific museums or attractions in the city that showcase this history[[?  ]]assistant: Yes, there are several museums
+  [-0.38] user: - The program should ignore spaces, punctuation marks, and capitalization.  assistant: I do not[[ have]] the context on what program you are referring
+  [-0.48]  of the more northerly Swiss cantons, comprising the lower course of the river Aar (q.v), whence its name. Its total area[[ is]] 541.9 sq.
+##### neuron 2939
+=== high pole (p97 and above)
+--- cluster 0
+  [0.34] , Timmy's mommy asked him to help her measure the length of a piece of string. Timmy was so excited to help!   He grabbed[[ his]] ruler and carefully measured the string. "
+  [0.35] Will was very enthusiastic to go to the park. He put on his shoes, grabbed[[ his]] favorite hat and set off. His mom
+  [0.42]  dark. Thunder and lightning filled the air and the infant became frightened.  Luckily, a kind-hearted fairy was nearby and saw the frightened infant. She waved[[ her]] wand and the storm was restored. The
+  [0.36]  door had been shut while he was inside. He was stuck in the cage and tried to get out. He hopped up and down, flapped[[ his]] wings, and pecked the door
+  [0.38]  had never seen so many fun things in one basket. He was jumping and giggling as he played with it all.   Next, the boy and[[ his]] dad took the basket outside. The dad
+--- cluster 1
+  [0.37]  and said, "I think your skirt is nice. You look very happy in it."  Anna smiled and twirled around again in her skirt,[[ she]] knew she looked silly but she didn't
+  [0.31]  back to the market and bought the yummiest jam there.   Once Lucy got home, she felt much better. She ate some of the jam[[ and]] it tasted sooo good.   And
+  [0.37]  But Spot was a nice dog and he wagged his tail in a friendly manner.   The junk collectors felt welcomed and they all began to laugh.[[ They]] gave Spot a pat on the head and
+  [0.32]  and drops the coin. The coin rolls away and falls into a drain.  "Oh no, Anna, are you okay?" Tom asks.  Anna cries.[[ She]] is wet and dirty and hurt. She
+  [0.62]  a road for the truck and a bridge for the bike.  Sue says, "Look, Tom. I have made a play area for us.[[ We]] can use the water and fish to make
+--- cluster 2
+  [0.34]  in South Australia, the Hornsdale Power Reserve is a utility-scale battery[[ storage]] facility. 2. Pumped Hydro
+  [0.40]  in renewable energy. For example, Uganda introduced feed-in tariffs for renewable[[ energy]] in 2007, and
+  [0.42] , but their success depends on the availability and affordability of renewable technology, adequate energy storage technologies, and sensible energy policies. Successful policies such as Germany's[[ feed]]-in tariff and RPS in the US
+  [0.40]  problems mean that wood pellets aren’t really a commodity fuel that can be blended with coal in whatever proportions are desired. In order to increase the co-f[[iring]] percentage further, utilities are looking for innovations
+  [0.44]  disadvantages. Sludge can cause sewer blockages. In addition, fees charged by the wastewater treatment plant can be expensive. Releasing sludge into the[[ sewage]] lines in large batches makes treatment of the
+--- cluster 3
+  [0.33]  which are fruits and vegetables, are reflected by low intakes of these two food groups. A similar trend holds for low levels of fiber and whole grain[[ foods]], whereas low calcium intakes were not
+  [0.34] , some of which are explained below. In many cases, the sludge is treated by the addition of polymers to aid in the dewatering[[ process]]. Alternatively, the sludge can be
+  [0.32]  those likely to experience angle closures due to pupillary block or plateau iris. They are performed more often on females (whose eyes are smaller than those of[[ males]]), and more often performed on the smaller
+  [0.31]  from giardia, the single-cell protozoan that causes the disease. Another popular term, “beaver fever,” may be a misnom[[er]]. It has never been demonstrated that the
+  [0.33]  measuring the diet of infants and children can be particularly problematic. Young children may lack the cognitive skills, writing skills and food knowledge to record their own food[[ intake]]. Multiple people may be responsible for the
+--- cluster 4
+  [0.34] .  4. Spicy Cajun Marinade: Mix together Cajun seasoning, hot sauce, lemon[[ juice]], and olive oil for a spicy and
+  [0.41]  debris should not be composted but should be disposed of. One good spray for black spot consists of a tablespoon of baking soda, a tablespoon of vegetable[[ oil]], and two drops of dishwashing liquid
+  [0.51]   - 2-3 medium potatoes - 1 small onion, finely chopped - 1 tbsp of flour - 1 tbsp of[[ oil]] - Salt and pepper to taste  
+  [0.37]  in a container for lunch. Is there an alternative to sunflower oil that can be used in this recipe?  assistant: Yes, you can use other[[ oils]] such as vegetable oil or coconut oil instead
+  [0.50]  a medium bowl, whisk together the almond flour, baking soda, and salt. 3. In a separate bowl, whisk together the melted coconut oil,[[ honey]], and vanilla extract. 4. Add
+--- unclustered (sample)
+  [0.39]  cock . This led to a whole series of shifts— haycocks became haystacks —and Louisa May Alcott’s father changed the family name[[ from]] Alcox. Yes. People were very
+  [0.31] .S. ever eats pizza with a fork and knife. (Exceptions: Small children and the extremely elderly are permitted to use a fork, and anyone may[[ eat]] Chicago deep dish—and only Chicago deep dish
+  [0.33]  Bluetooth or other wireless protocols. The app will then process, store, and analyze the data, presenting it in a user-friendly manner within the app.  [[Users]] will also be able to view historical heart
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.29] Once upon a time there was a little boy named Jack. He lived with his mom and dad in their cozy home. Jack[[ loved]] to play outside and always made sure to
+  [-0.35] Once upon a time, there was a little rabbit named Remy. Remy[[ loved]] to race with his friends. One day
+  [-0.30] Once upon a time, there was a litttle girl called Ella. Every night Ella would lay in bed and count the stars in the sky. Ella[[ loved]] to look up and count how many stars
+  [-0.44] Once upon a time, there were two baby twins: Alex and Emily. They were always together and[[ loved]] to play in the sunshine. One day
+  [-0.29]  waited, and finally, a butterfly came and landed on her hand. She felt its soft wings and became so happy. From that day on, Lily[[ loved]] watching butterflies and was no longer afraid of
+--- cluster 1
+  [-0.35]  plural form of address: v. 1-4, 20-28; ix. 9, 11, 1[[3]]-17, 21,
+  [-0.37] 1 (Aaron and Moses forbidden to enter Canaan) = Num. xx. 12, 24, xxvii. 1[[4]]; i. 23 (number
+  [-0.30] 29; x. 1-5, 11, 16, 17; xi. 2-5, [[7]], 16-17,
+  [-0.34] verses 5-7 parallel to 11, 12, and 15-19 parallel to 20-2[[8]]—this opinion being shared by Cornill
+  [-0.33]  consider these closing chapters, wholly or in part, as due to the author of Deuteronomy proper. (1) xxxi. 1-[[8]], parallel to Num. xxvii
+--- cluster 2
+  [-0.38] 917, 1928, 1935, 1943, 1949, 1[[9]]55, 1959
+  [-0.43] . The fleet sailed from Corunna on July, 24 1525 and reached the Patagonian shores in January 1[[5]]26 and by then two of the
+  [-0.37]  1691, 1715, 1725, 1745, 1748,[[ ]]1767, 17
+  [-0.40] 74-4. - Ono, Sakyo. Shinto: The Kami Way. Pg 12. Tuttle Publishing. 2[[0]]04. ISBN 0-8
+  [-0.35]  according to the Office for National Statistics. The Retail Price Index rate, which is more closely linked to the costs of home ownership, fell to 5[[.]]4 per cent from 5.6
+--- cluster 3
+  [-0.36] . It cannot be doubted for a moment, after the able researches of Messrs. Ozanam, Labitte, and Wright, that to[[ the]] number of poetical themes which Europe owes
+  [-0.45]  through seven centuries gave answer to Witikind. On the other hand, the Celts were, even in the third century, perfect Christians. To[[ the]] Teutons Christianity was for long nothing
+  [-0.34] . Preachers made appeal to the public notoriety of this great fact, to controvert those who had their doubts regarding Purgatory. In[[ the]] year 1358 Edward III
+  [-0.34]  Purgatory. A canon from Hemstede in Holland, who descended in 1494, saw nothing at all. Evidently[[ this]] idea of travels in the other world and
+  [-0.30]  their saints. Leaving on one side the temporary repulsion which Christian mildness had to conquer in the classes of society which saw their influence diminished by the[[ new]] order of things, it can be truly
+--- cluster 4
+  [-0.37]  some too. "Can I have some of your yogurt, Timmy?" Sally asked.  Timmy didn't want to share his yogurt, so he[[ said]] no. Sally was sad and went to
+  [-0.30]  and saw Lily's pretty dress. He said, "Wow, you look so pretty!" Lily felt embarrassed and hid behind her mommy. But her mommy[[ said]], "Thank you, that's very
+  [-0.31] One day, Lucy asked the rat if she could trust him. The rat was not sure what to say. He thought for a while and then he[[ said]], "Yes, you can trust me
+  [-0.31] . Lily wanted to press the button, but Ben was faster. He pressed the button for the ground floor. Lily was angry. She pushed Ben and[[ said]], "That's not fair! I
+  [-0.29]  help. Meanwhile, her brother Jack came running. He saw what was happening and shouted: "Get out! Get out there quickly!"  But Ruby was[[ scared]] of the trembling pool and didn't move
+--- unclustered (sample)
+  [-0.29]  temperatures. Refrain from pruning which can stress the plant and create entry points for disease over the winter. Maintain cool ambient temperatures for your garden[[ia]] when overwintering it indoors. Provide
+  [-0.32]  meditation and journaling, to reduce stress and trigger a more healthy lifestyle.  Suzanne's first challenge in overcoming her addiction is to rebuild her relationship[[ with]] her family. After years of gambling,
+  [-0.38] ian state. He saw the state as “a great and noble steed” which had to be reminded of its proper duties. Socrates believed he[[ did]] this by stinging the steed of
+##### neuron 6213
+=== high pole (p97 and above)
+--- cluster 0
+  [0.65]  was bright yellow with purple polka dots.  When they got home, Joe put on the skirt right away. He felt silly but happy. His mommy[[ smiled]] and said, "Welcome to the world
+  [0.83]  the door. He moved and pushed it until it finally closed. The girl was so happy. She said, "Thank you Big Brother!"  Big Brother[[ smiled]]. He said, "You're welcome
+  [0.78]    Sally was happy to find her toy again. She smiled at her cousin and put the toy back where it belonged. The little girl said,[[ "]]You see, keeping a tidy room can
+  [0.49]  in a pond. She quickly grabbed it and her dream was complete!  Daisy took the gem to show her mum. Her mum was very happy and[[ said]] it was the most special gem she had
+  [1.77] Jenny examined it carefully, and found that it was still on, even though she had been out in the rain.  Jenny's mother smiled and[[ said]], "Well done. Now, go
+--- cluster 1
+  [0.54]  for your next outdoor gathering!  [[user]]: Can you suggest some easy-to-follow
+  [0.47]  (baby kangaroos) on the other hand are more vulnerable, and rely on their mothers for protection until they are old enough to defend themselves.  [[user]]: I've always wondered, are all
+  [0.58]  up in Istanbul.  [[user]]: Can you provide me with the second
+  [0.48]  items such as budget, ad creative, target audience, and bidding optimization even while the campaign is in progress. Keep optimizing and experimenting to ensure success.  [[user]]: Can you please provide more tips on
+  [1.06]  complex animations with multiple elements and transitions. These tools should be easy to use and well-documented, allowing frontend developers to create animations quickly and efficiently.  [[user]]: Can you please provide more related information
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.41]  the water, as it had been a bit boring at times. But the duck was also sad to have said goodbye to its new friend. Still,[[ the]] duck felt refreshed and happy and it was
+  [-0.47]  giggled when the swans started quacking. After they finished exploring the park, they started to walk back home. It was a wonderful day and[[ the]] little girl wished every day could be that
+  [-0.52] ly.  Ben smiled too. "Let's share this amazing sight with everyone else," he said.  So the two friends brought their friends outside to share[[ the]] incredible rainbow. Everyone gasped in wonder
+  [-0.37]  over.  He looked around and saw his mum. She smiled and said, "Stop, it's time for the party!". The boy was excited about[[ the]] event and kept dancing around.  Mum
+  [-0.82]  organized, she felt proud of herself.   Now Milly loves going to university and enjoys learning new things. Mommy is proud of her daughter and[[ the]] way she is so organized.
+--- cluster 1
+  [-0.43]  friend. She learned a lesson. She decided to look for other friends who liked to play and talk. She hoped the spider was okay. She was[[ not]] lonely anymore.
+  [-0.87]  ground and fell into it. Timmy's mom and dad tried to save her, but it was too late. Timmy felt very sad and guilty[[ for]] ignoring his sister earlier.  From that day
+  [-0.38]  you get too wet!"   But John was already having fun and he kept jumping around and splashing in the water.  John's mom couldn't help[[ but]] smile. She was happy to see her
+  [-0.47]  help the ring slide off."  Anna nodded and followed her mom to the kitchen. She hoped the ring would come off soon. She learned her lesson.[[ She]] decided to play dress-up with her own
+  [-0.42]  She told him she thought he was weird and the man laughed. He said, "I'm just a bit different, that's all - no need[[ to]] be scared."  After that they talked for
+--- cluster 2
+  [-0.46] This article explores the possible negative interactions that over-the-counter pain[[ medications]] Acetaminophen, Aspir
+  [-0.36]  that it portrayed Muhammad. This is actually a side effect of Religion being one of the oldest Serious Business out there. One of the big major sticky points[[ of]] Islam is that one should never portray Allah
+  [-0.43] ing sites to treat affected persons, and provides information to the community on ways to avoid contamination. In the event of a bioterrorism[[ emergency]], the health department has established
+  [-0.48]  such as soccer (fútbol) and public gatherings such as barbeques (asados). This tendency is reinforced more by tradition and preference[[ than]] overt discrimination. A visit to the Ch
+  [-0.37] ify the country’s hold on the sparsely populated region, the Paraguayan government granted in the 1930s large parcels of[[ Ch]]aco land to the Mennonites on
+--- cluster 3
+  [-0.79] .  JIM: (smiling) I know. I can’t believe it myself. It’s all thanks to you.  SARAH: Nope[[,]] it’s all thanks to you. You
+  [-0.38] . But next time, please ask before you touch my things. And be gentle with them."  The boy agrees and says, "Okay, I will[[.]] And next time, can you show me
+  [-0.47] , I hear you. We haven't really talked much in the past few years.  Joey: Yeah, I know. I'm sorry about that[[.]] I just feel like we've drifted apart
+  [-0.58] ’ll be conducting the interview today.  JIM: Nice to meet you. Thank you so much for giving me this opportunity.  JESSICA: No[[ worries]]. So, what are you here to
+  [-0.44]  long time."  JACKSON (defensive) "I don't know what you're talking about."  OUTLAW LEADER (leaning back) [["]]Sure, you do. I'm talking
+--- unclustered (sample)
+  [-1.19]  websites with dynamic content can be challenging, but with the right tools and techniques, you can build a robust and effective web scraper.  user: Thanks for[[ the]] helpful tips on how to handle websites with
+  [-1.34]  numbers to sea lions. But Tony Nigro with Oregon’s Department of Fish and Wildlife says there’s another big concern with lower Columbia sturgeon:[[ not]] enough juveniles. “Annual recruitment of
+  [-1.95]  leaving for college in two weeks, and the rest of them would be starting soon too. They knew that they would never be the same again.  On[[ the]] last night of summer, they sat by
+##### neuron 5616
+=== high pole (p97 and above)
+--- cluster 0
+  [2.42] . He held the box tightly and the giant bird flew off. Soon they arrived at their destination and delivered the box perfectly.   The brave hero was[[ very]] impressed with the perfect job the giant bird
+  [1.34]  go outside and play in the sunshine, but the sky was dark. Suddenly, the sky was filled with lots of bright lightning!   Sally was[[ very]] scared and ran inside the house. She
+  [1.32]  to play.  But then something strange happened. Lisa looked down and noticed her skin was different. It looked red and her arm was hot. Lisa was[[ very]] upset.  Luckily, her mom saw what
+  [1.23]  and fell fast asleep.  When Sandy woke up, she was no longer in her pen. Instead, she was in a strange new place. Sandy was[[ very]] anxious and looked around trying to figure out
+  [1.59]  Sam smiles and says he is happy to help Tim. He says Tim is his best friend. They hug and play with their toys again. They are[[ very]] happy.
+--- cluster 1
+  [1.41] She felt so sad! But then, something unexpected happened. A butterfly flew down from the sky and landed on her nose. It made her smile.  [[The]] girl smiled and slowly stood up. The
+  [1.16]  nodded her head and smiled. She thanked her mom for the advice and decided to wait until she learned how to swim, so she would stay safe.  [[The]] moral of the story is: It's
+  [1.32]  arm. Sue cries and falls down too. The dog eats their food and toys. He leaves Tim and Sue alone. They are hurt and sad.  [[The]] end.
+  [2.91]  people safe and had stayed alert during his drive. The people were very thankful and gave the driver a big hug when they thanked him before they left.  [[The]] driver smiled and waved goodbye as he drove
+  [1.39]  know how to get back home, so the girl started to pull the angel's hand. She kept walking and soon they made it back home.   [[The]] girl and the angel said goodbye, and
+--- cluster 2
+  [1.89] . Roasted Red Pepper and Herb Quinoa: Roast some red pepper strips and toss them into the quinoa with the herb mixture for a vibrant[[ and]] flavorful side dish.  I hope you find
+  [1.07]  airtight container in the fridge for up to a week or freeze it for up to 3 months.  Variations:  - If you'd like[[ a]] meat-based sauce, you can add some
+  [1.77]  nutritious and flavourful vegetarian option that's easy to make. 4. Bhindi Masala - This spicy okra dish is easy to prepare and packed[[ with]] flavour. It's perfect as a side
+  [1.27]  easier to flip.  6. Grill the seafood: Grill the seafood for 3-5 minutes per side or until it is cooked through and has developed[[ a]] crispy crust.  7. Add vegetables:
+  [2.22]  and cheesecake lollipops, which the author loves and considers one of their all-time favorites. The author describes truffles as having a smooth[[,]] silky, and creamy center that melts in
+--- cluster 3
+  [1.32] Once upon a time, there was a little girl named Lily. She loved to play with her toys all day long. One day,[[ her]] mom asked her to clean up her toys
+  [1.41] dy bear was missing. She searched and searched but he was nowhere to be found.   Lily was very sad and cried all the way home.[[ Her]] parents promised to help her find her ted
+  [1.47]  Timmy decided to draw a cactus. He used lots of green and brown colors to make it look real.   After he finished, Timmy[['s]] mom asked him if he wanted to go
+  [1.94] Once upon a time, there was a boy named Timmy. He loved to draw with his crayons. One day, Timmy[['s]] mommy suggested that they draw a picture together
+  [1.05]  her all these things.  But, there was something else in the box that made Sam sad. It was a broken toy rabbit with missing ears. Sam[['s]] mum saw the sad look on her face
+--- cluster 4
+  [1.49]  a contradiction". So, the fact that two people use the pound (a.k.a. hash, number) sign $\#$ for these two different things[[ is]] not a problem. For example, I
+  [2.30]  I was born. Fishermen going to sea in sailboats—dories—rowing when the wind failed them."6 Laurent's view of Brittany was[[ undoubtedly]] informed by Paul Gauguin's (
+  [1.44]  knowledge and experience, which they often use to advise and guide others.  4. Indigenous cultures – In many indigenous cultures, the concept of the polymath[[ is]] intertwined with traditional knowledge
+  [3.17] Photos by Maya Chavez-Akin. Making ice cream with cryogens stronger than water ice[[ is]] a fairly common chemistry demonstration stunt. The
+  [1.54]  action, assess the beaver problem fairly and objectively. Are beaver really causing damage or creating hardship requiring control action? The very presence of beavers[[ is]] often seen as a problem when, in
+--- cluster 5
+  [1.34]  go. Soon he was sliding down the slide faster and further than ever before!   The slide was so much fun. Tommy laughed and cheered with joy[[.]] The thick bed and slide made him feel
+  [1.41]  a new toy. It was a shiny red car that could go vroom vroom!  Lily was so happy and gave her grandma a big hug[[.]] She played with her new toy all day
+  [1.08]  was so proud of him. She said, "Well done, DiDi!"  DiDi and Mama had a lot of fun exploring the park that day[[.]] DiDi was even more excited to discover
+  [1.20] €  The little boy continued to play with his toy truck all day, assembling and disassembling the impressive truck. He had so much fun,[[ and]] his aunt enjoyed watching him play.
+  [1.16]  their tower. Steve and Beth worked very hard to put the bricks together and their tower was ready!  Steve and Beth were very proud of their brick surprise[[ and]] they laughed and played together for the rest
+--- cluster 6
+  [2.34]  at the thought of what might have happened if she hadn't found her way back to safety in time.  user: Wow, that was really suspenseful[[!]] Can you make it even more detailed?
+  [1.05]  had seen the beauty, mystery, and danger of this foreign land firsthand, and she would never forget it.  user: Wow, that story was intense[[!]] Can you add some more historical background about
+  [1.68]  that she would always carry a piece of its energy with her – a reminder of the power and beauty of the natural world.  user: This is fascinating[[!]] Can you add more
+  [2.22]  dreams, and she could still feel the cold, damp stone pressing in on her every time she thought about it.  user: That was incredibly suspenseful[[!]] I can't wait to read more.
+  [2.03] 's cup With every passing year, I am more fully alive.  user: Wow, your poem is truly beautiful and captures the essence of aging perfectly[[.]] Can you add some additional sensory language to
+--- cluster 7
+  [1.18]  object. The seller said he was happy to order it for the cute creature! And so the rabbit bought the shiny object.   The rabbit was so[[ happy]], it ran home and showed its family
+  [2.30]  three pictures. He made sure to keep them safe. He knew they looked really wonderful. He wanted to make sure they stayed healthy.  He was very[[ happy]] with his pictures. He decided to show
+  [1.87]  up the bluebird and dropped it safely in the grass. The bluebird smiled and said, "That was so much fun!"  Lefty was very[[ happy]] and he played drop with the cool blue
+  [1.40]  heavy, but they did it.  When the rock was raised, Fin took the shiny scale and put it in his home. Fin and Claw were very[[ happy]]. They swam and played together all
+  [1.24]  so excited to get back into the pool.   She splashed and splashed in the water until she was all tired out. Lucy had so much[[ fun]] that day and never again forgot her swimming
+--- unclustered (sample)
+  [3.47]  just play and the money is mainly to keep the game running. I love the whole clean water supply for kids in India and can’t wait to see[[ the]] adopted orangutan baby!” 4)
+  [1.20]  of bananas and their cultural significance, as well as what goes into making banana-based products. It's no wonder that the International Banana Museum has become a[[ popular]] destination for tourists visiting the Palm Springs area
+  [1.34] , everyone can always go to the store and be happy. They know it will always look nice and it can be fixed if something ever goes wrong.[[ That]] makes everyone smile. The end.
+=== low pole (p3 and below)
+--- cluster 0
+  [-3.27] Shall we get started?"  Jack grinned and said, "Yes, let's go!"  So Mom and Jack went out and explored the woods. Jack[[ found]] all sorts of interesting things, like fluffy
+  [-1.06]  looking for something fun to do. One day, Diana went out to the backyard with her basket. She wanted to collect things from the trees.  She[[ found]] a big banana tree and decided to collect
+  [-1.23]  a boy. He and his mommy went to a camp. It was very tall and had lots of trees. The boy liked it very much.  He[[ saw]] some other kids playing and decided to join
+  [-1.06] Once upon a time, there was a boy named Timmy. Timmy loved to play outside in his backyard. One day, he[[ found]] a big net and he thought it was
+  [-1.49] Once upon a time, there was a strong little boy. He loved to explore his house. One day, he decided to explore the kitchen. He[[ saw]] a big stove and he wanted to grab
+--- cluster 1
+  [-2.02] Let's march there together!" The little boy replied, "Okay!"  On their journey, they saw a big orange tree. The little boy said,[[ "]]Ooo, look, let's crawl
+  [-2.19]  knelt down to take a closer look and saw a little comet. He was so excited that he ran to show his dad what he had found.  [["]]Wow! Let's see if we can
+  [-0.94] . They like to dig holes and make piles of dirt. They pretend they are builders and explorers. Sometimes they find worms and rocks and leaves.  [["]]Look, Lila, I found a
+  [-2.02] Look, Anna, I made a tower!" Tom says. He puts some sand in the bucket and flips it over. A sand tower comes out.  [["]]Wow, Tom, that's a nice
+  [-0.86] . Sam loved to nap on the warm sand by the sea. One day, as Sam was napping, a little bird named Betty came by.  [["]]Hi, Sam!" said Betty. "
+--- cluster 2
+  [-5.62]  to say sorry, but it was too late. Her mom told her she couldn't have any more cake and sent her to her room.  Lily[[ felt]] sad and alone in her room. She
+  [-3.28]  we write.  Sally took the ink pen and started writing. Little did she know that the pen changed everything she wrote into a different color. She[[ felt]] embarrassed but the student told her that it
+  [-1.86]  to do was splash in the water.   But one day when Lucy was playing in the pool, she realized she had forgotten her swimming suit. She[[ felt]] so upset.  So Lucy asked her mum
+  [-1.26] ?", he asked.  Mama smiled and pointed to the ice-cream truck. There were all kinds of ice-creams in the truck! Sammy[[ felt]] happy and ready to kick the birthday celebration
+  [-3.33]  around, he accidentally hit his friend, a squirrel named Sammy, with the cane. Sammy was hurt and had to go to the doctor.  Benny[[ felt]] very sorry and realized that Tommy was right
+--- cluster 3
+  [-2.47] 45 minutes and take a 15-minute break, during which you can take a walk, stretch, or listen to music. Using a timer[[ can]] be useful for keeping track of these intervals
+  [-1.26]  you with a virtual accountability partner. You schedule a work session with someone and the app pairs you with another user who will work alongside you virtually. This[[ helps]] you stay accountable and motivated to work.
+  [-1.56]  a scene or story that takes place in the location you're walking in.  3. Write a story that begins and ends with the same sentence. This[[ will]] challenge you to write a story with a
+  [-2.55]  more comprehensive solution, it is essential to provide access to mental health professionals. The availability of counseling sessions, employee assistance programs, or even telemedicine services[[ can]] help employees manage stress and other mental health
+  [-1.46]  AR technology. They can practice carrying out tasks such as loading and unloading packages, using different types of equipment, and navigating through the warehouse. This[[ would]] make training more fun and engaging for workers
+--- cluster 4
+  [-1.93]  day, Mia had a great plan. She wanted to find a jellyfish!  So Mia put on her swimming costume and went to the beach. She[[ searched]] and searched, and finally, she found
+  [-0.84]  pig, Mila the mouse and Sammy the spider.   They started on a great adventure. First, they went to the park to play. They[[ ran]] around, played tag and ate ice cream
+  [-1.31] omy life.  One day, the mop decided to try running away. It had never tried running before, but it was determined to try.  The mop[[ ran]] as fast as it could. But it
+  [-1.19]  parents decided to make a special movie for him. They used lots of bright colours, funny characters and exciting music.  Mike loved his new movie. He[[ smiled]] and laughed and danced around the room.  
+  [-0.99]  buy him a new motor car. She took him to the store and they picked out a shiny blue motor car. Timmy was so happy and he[[ played]] with it all day long.   But
+--- cluster 5
+  [-1.48]  high. Then he suddenly noticed that someone was spraying water. He stayed close to the cross and watched as the water sprayed higher and higher.  The bird[[ was]] very obedient and he imitated what he
+  [-2.64]  turn, Ellies mother said it was time to count up the points. It was fair because both teams had the same amount of points.  Ellie[[ was]] so happy. She smiled and thanked her
+  [-5.22]  But one day, Alice's friend Ben brought a new toy to school. He had a big truck that made loud noises and drove really fast! Alice[[ was]] jealous. She thought Ben's truck was
+  [-1.43] , but she was brave. She held on tight to the apple and shined her flashlight onto the darkness. She saw many other delicious things and Clara[[ was]] so excited to explore more.   The
+  [-6.84]  showed her how to use it. He was so helpful and sweet. After a few minutes, the style was fixed and it looked perfect. The lady[[ was]] so happy and thanked the helper for his
+--- cluster 6
+  [-2.02] . She lived on a bright sunny day, and loved to run and play.  One day, Rose noticed a big, fluffy cloud in the sky.[[ She]] decided to try and touch it. She
+  [-1.12] Once upon a time, there was a little girl named Lily.[[ She]] loved eating pasta for dinner. One day
+  [-1.12] Once upon a time, there was a little girl named Lily.[[ She]] loved to play with her dolls and ted
+  [-2.52]  have fun.   One day, Ella was walking around her bedroom and she stumbled onto a small box. It was filled with exciting colours and shapes.[[ She]] opened the box and found a lot of
+  [-1.08]  a girl named Sasha. She was a very special girl, who every day wished to become a princess.  One day, she found a magical crown.[[ She]] was so excited and quickly put the crown
+--- unclustered (sample)
+  [-1.40]  train to the battery broke. The train stopped moving, and the twins started to cry.  "Look what you did!" Jill said to Jack. "[[You]] broke the train!"  "No, you did
+  [-2.08]  like you do."  The veterinarian smiled and said, "That's wonderful, Lily. You have a good heart and a curious mind. I'm sure[[ you]]'ll be a great veterinarian someday. But
+  [-1.05] esoamericana Project is a multi-year, multi-authored, and multi-volume work (to appear in Spanish and to appear on the web) that[[ is]] producing the first modern comprehensive flora of this
+##### neuron 5593
+=== high pole (p97 and above)
+--- cluster 0
+  [0.80] Once upon a time there was[[ a]] curious little girl. She loved to explore
+  [0.80] Once upon a time there was[[ a]] big heavy tube. Every day it would
+  [0.80] Once upon a time there was[[ a]] little duck. It was a happy duck
+  [0.80] Once upon a time there was[[ a]] little girl, she was three years old
+  [0.80] Once upon a time there was[[ a]] little boy named Billy. He was a
+--- cluster 1
+  [1.54] Once upon a time, there was a bear who was very jolly. He loved to run and play in the forest[[.]] One day, he was running and teasing
+  [0.73] Once there was a little boy who had a favourite truck that he liked to play with[[.]] Every day he would take it with him
+  [0.88] Once upon a time there was a human called Lila. She lived in a big house and had many friends[[.]]   Lila liked to take baths in
+  [1.44] Once upon a time there was a lively fairy who loved to fly around the garden[[.]] She fluttered from flower to flower,
+  [1.30] Once upon a time there was an adorable bunny. Bunny loved to hop and bounce around the spring[[.]] Every day the little bunny would hop and
+--- cluster 2
+  [0.78]  little while and then the special light made his leg feel better.   John was so happy! He could feel the difference and he could walk again.[[ He]] thanked the doctors for their help and he
+  [0.84]  the snail cross the rock." Benny agreed and they both helped the snail.   After the race, Benny and Timmy were very happy.[[ They]] realized that helping others made them feel good
+  [0.78]  move.  One day, she decided to soar even higher and explore the world. Up and up, she flew, until she could see everything.  T[[illy]] felt so free and happy, as she
+  [0.73]  The little girl was so happy she could swing inside her birdcage.  Every day, the girl and her new birdcage would swing together.[[ She]] felt so free and happy, it was
+  [1.06] . Meanwhile, the independent little frog had a wonderful time exploring different places and taking baths on his own.  The three little frogs eventually found each other.[[ They]] realized that it was OK to be independent
+--- cluster 3
+  [0.87]  minutes more or until knife inserted near center comes out clean. Cover and chill for 2 hours. Garnish with whipped topping, remaining chocolate chips and[[ chopped]] peanuts, if desired. Based on the
+  [0.75]  kiwi for a tropical touch. - For a spicy or smoky version, add chipotle peppers in adobo sauce, smoked paprika, or[[ crushed]] red pepper flakes. You can also char
+  [0.80]  go:  1. Fresh fruit (e.g. Apple, banana, pear, berries) 2. Gluten-free trail mix (e.g. Nuts[[,]] seeds, dried fruit, gluten-free pret
+  [0.74]  and delicious taste.  5. Ginger and garlic: Add some finely chopped ginger and garlic to the eggs for a zesty and flavorful twist.  6.[[ Chip]]otle peppers in adobo sauce: Mix
+  [0.95]  coconut flour 6. Mixed berry crisp with gluten-free oats and almond flour topping 7. Chocolate-dipped strawberries or bananas 8. Chia[[ seed]] pudding made with coconut milk and honey 
+--- cluster 4
+  [1.55]  secret, the flower felt stronger. And so, the flower kept growing and growing.  Finally, the little flower was big and strong. It was so[[ happy]] that it had found the secret. Now
+  [0.98]  Little Sam was so quiet that the opera singers didn't see him. They started to perform their show and Sam watched the whole thing. He was so[[ happy]]!  At the end of the show,
+  [1.95]  he had one big problem: he always forgot things.  One day he was playing a game with his friends and he forgot the rules. He was very[[ sad]] but his friends helped him out.  Then
+  [0.71] Once upon a time there was a kitty. She was very soft and always[[ happy]]. She loved to stretch her body and
+  [1.31]  had ever tasted.  Bounce happily hopped away, with the delicious butter in his paws. He had solved his own problem and was feeling very[[ pleased]] with himself.
+--- cluster 5
+  [0.80] , having received their Christianity from an apostolic and wholly primitive preaching, they experienced no need of feeling themselves in communion with Christian societies less noble than their[[ own]]. Thence arose that long struggle of
+  [1.05]  their own manner, with an infernal uproar. Some people, for the expiation of their sins, voluntarily exposed themselves to the fury of those[[ demons]]. There were nine ditches in which
+  [0.85]  ceremoniously conducted to the shaft. He was lowered down by means of a rope, with a loaf and a vessel of water to strengthen him in the[[ combat]] against the fiend which he proposed to
+  [1.18]  the future to succeed in obtaining isolated expression of its originality. And yet we are far from believing that this race has said its last word. After[[ having]] put in practice all chivalries,
+  [2.03]  to our natural love of falsehood, all human history is justly thought, by many thinking men, to contain an infinitely greater number of fables than[[ truths]]. L’Histoire n
+--- cluster 6
+  [2.36]  Hävernick, Hengstenberg, Baumgarten, Fr. W. Schultz, Keil, Kühel, Bissel,[[ and]] other apologists ascribe the book to
+  [0.72]  possess. To these might be added the learned work of Dom Lobineau on the Saints of Brittany, re-issued in our days by the Abb[[é]] Tresvaux, had not the
+  [1.58] - —Biblical Data: - The Laws in Deuteronomy. - —Critical View: - Relation to Other Codes. [[-]] Aim and Scope of Deuteronomy. 
+  [1.02]  to Paris and became involved in the Paris Stock Exchange. Simultaneously, he enrolled on the mathematics degree at the University of Sorbonne, where[[ P]]oincare was a professor. He was
+  [0.84]  β 6 (revised), 11, 12 (Dillmann); and lb β 2-3, an interpolation.[[ According]] to Wellhausen, 2-7
+--- unclustered (sample)
+  [0.89] izing, arguing that such activity, especially in areas heavily dominated by members of another religion, could prove disruptive. A joint decree issued by the Ministries[[ of]] Religion and Home Affairs in 19
+  [1.70] Once upon a time, there was a nation of people. They lived together, but they sometimes quarreled with[[ each]] other. One day a little girl named
+  [0.80] , there were two friends named John and Matilda. They were best friends and did everything together.  One day, John and Matilda decided to start[[ an]] adventure. They were so excited and started
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.91]  Lily's little brother came running into the kitchen and bumped into the table. The cake fell off and landed on the floor. Lily's mommy said,[[ "]]Oh no! The cake is ruined."
+  [-1.46]  The cars were making a lot of noise and the air smelled like pollution. Mommy took the little boyâ€™s hand and said, â€[[œ]]Come on. Donâ€™t worry
+  [-1.09]  become beautiful butterflies."  Lily was fascinated by this answer. She wanted to see a butterfly up close, but she was scared. Her mommy said,[[ "]]Don't worry, Lily. If you
+  [-1.15]  for making you worry."  Snowy meowed and rubbed his head against Mommy's leg. He was sorry too.  Mommy smiled and said,[[ "]]It's okay, Anna, Snowy
+  [-0.95]  is gone!" Anna says.  "I know, honey, I'm sorry. But you can make another one tomorrow. Come on, let's go home[[.]] It's cold and dark." Mom says
+--- cluster 1
+  [-1.53]  water.  Suddenly, they heard a loud noise outside. It was thunder. They saw a bright flash in the sky. It was lightning. They were[[ scared]] and ran to their mom.  "Mom
+  [-1.05]  his hand.  "Ow, ow, ow!" Tom cried. He dropped the stick and shook his hand. The ant had bitten him. It[[ hurt]] a lot. He ran to his mom
+  [-1.05]  and grab it, but it was always out of sight.   Suddenly, a big scary dog appeared. He barked and growled loudly. He[[ was]] very bossy and refused to let the
+  [-1.12]  would take him to the park with his new leash.   One day, something strange happened. When Spike was running around the park, he sneez[[ed]]. His owner hadn't ever heard him
+  [-1.02]  cover the owl. He was scared and tried to fly away, but the wind was too strong and it kept covering him. He was so scared that[[ he]] closed his eyes tight.  After a few
+--- unclustered (sample)
+  [-1.05] Max had a hurt[[ on]] his knee. It made him sad.
+  [-1.11]  If assistance is not provided soon, the mission warned, spreading poverty will lead to mass migration to the cities later this year. The FAO mission stressed[[ the]] urgent need to strengthen household food security for
+  [-0.88]  to swing. He pushed off the ground and flew back and forth. He laughed as his feet scraped against the sky.  Mommy asked the little boy[[ to]] come over to the road so they could

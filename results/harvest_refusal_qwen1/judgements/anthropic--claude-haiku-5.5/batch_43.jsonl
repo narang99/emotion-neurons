@@ -1,0 +1,41 @@
+{"neuron":9013,"pole":"high","cluster":0,"mode":"Mid-phrase noun or noun-phrase completions in informational text","scene_windows":0,"windows":5,"scene":"Expository articles on health, policy, marketing, weather"}
+{"neuron":9013,"pole":"high","cluster":1,"mode":"Infinitive or connective 'to'/'and' before a purpose or action","scene_windows":0,"windows":5,"scene":"Narrative and educational text about goals and reforms"}
+{"neuron":4284,"pole":"high","cluster":0,"mode":"Sentence-final punctuation or quote tokens closing emotional statements","scene_windows":0,"windows":5,"scene":"Personal reflections and dialogue in fiction"}
+{"neuron":4284,"pole":"high","cluster":1,"mode":"Sentence-initial 'In' opening an explanatory sentence","scene_windows":0,"windows":5,"scene":"Informational explanations about law, technology, food"}
+{"neuron":4284,"pole":"high","cluster":2,"mode":"Sentence-initial 'The' starting a dramatic narrative sentence","scene_windows":0,"windows":5,"scene":"Tense narrative fiction with knights, boys, school trouble"}
+{"neuron":4284,"pole":"high","cluster":3,"mode":"Scattered word-level tokens in factual or medical text","scene_windows":0,"windows":5,"scene":"Medical, historical, and cultural informational passages"}
+{"neuron":4284,"pole":"low","cluster":0,"mode":"Numbered list markers and list-item sentence boundaries","scene_windows":0,"windows":5,"scene":"Health and advice listicles"}
+{"neuron":4284,"pole":"low","cluster":1,"mode":"Word-piece or proper-noun starts inside informational sentences","scene_windows":0,"windows":5,"scene":"Encyclopedic and assistant answers about places and books"}
+{"neuron":4284,"pole":"low","cluster":2,"mode":"Definite article 'the' before a noun in expository text","scene_windows":0,"windows":5,"scene":"History and informational descriptions"}
+{"neuron":4284,"pole":"low","cluster":3,"mode":"Mid-sentence content words in historical or formal prose","scene_windows":0,"windows":5,"scene":"Historical and religious essay passages"}
+{"neuron":4284,"pole":"low","cluster":4,"mode":"Sentence-final periods closing reflective or factual statements","scene_windows":0,"windows":5,"scene":"Essays and literary reflections"}
+{"neuron":4284,"pole":"low","cluster":5,"mode":"Sentence-final periods or spaces after practical statements","scene_windows":0,"windows":5,"scene":"How-to and practical advice explanations"}
+{"neuron":6724,"pole":"high","cluster":0,"mode":"Punctuation closing an advice clause or sentence","scene_windows":0,"windows":5,"scene":"Tips and how-to guidance texts"}
+{"neuron":6724,"pole":"high","cluster":1,"mode":"Mid-word or topic noun continuations in technical descriptions","scene_windows":0,"windows":5,"scene":"Chemistry, memory tips, history, horse racing facts"}
+{"neuron":6724,"pole":"high","cluster":2,"mode":"Prepositions 'to' or 'for' after predicate adjectives or verbs","scene_windows":0,"windows":5,"scene":"Marketing and travel advice writing"}
+{"neuron":6724,"pole":"low","cluster":0,"mode":"'the' or 'on' in instructional or review phrasing","scene_windows":0,"windows":5,"scene":"Tips for ads, swings, challenges, breathing"}
+{"neuron":6724,"pole":"low","cluster":1,"mode":"Opening quotation marks starting dialogue lines","scene_windows":0,"windows":5,"scene":"Fiction dialogue between characters"}
+{"neuron":7448,"pole":"high","cluster":0,"mode":"Prepositions 'of', 'with', 'to' completing informational phrases","scene_windows":0,"windows":5,"scene":"Weather, lotteries, pesticides, public resources explainers"}
+{"neuron":7448,"pole":"high","cluster":1,"mode":"Colon or exclamation opening an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant responses in chatty Q&A exchanges"}
+{"neuron":7448,"pole":"low","cluster":0,"mode":"'the' or 'are' in descriptive cultural or technical sentences","scene_windows":0,"windows":5,"scene":"Calligraphy, music history, consciousness, semiconductors"}
+{"neuron":7448,"pole":"low","cluster":1,"mode":"'and' joining paired adjectives or verbs in praise","scene_windows":0,"windows":5,"scene":"Descriptive summaries about artists, parks, creatures"}
+{"neuron":6183,"pole":"high","cluster":0,"mode":"'Human:' speaker colon after an assistant turn","scene_windows":0,"windows":5,"scene":"Multi-turn chat transcripts on health and facts"}
+{"neuron":6183,"pole":"high","cluster":1,"mode":"Trailing space before a closing remark in assistant text","scene_windows":0,"windows":5,"scene":"Assistant answers wrapping up explanations"}
+{"neuron":6183,"pole":"high","cluster":2,"mode":"Comma before a 'since' or 'as' causal clause","scene_windows":0,"windows":5,"scene":"Advice about driving, transit, cooking, nature"}
+{"neuron":6183,"pole":"high","cluster":3,"mode":"Exclamation or period before a Human turn boundary","scene_windows":0,"windows":5,"scene":"Assistant closing sentences in advice chats"}
+{"neuron":6183,"pole":"high","cluster":4,"mode":"Blank indentation spaces between fiction paragraphs","scene_windows":0,"windows":5,"scene":"Story narration paragraph breaks"}
+{"neuron":6183,"pole":"low","cluster":0,"mode":"Commas or 'my' in mid-sentence clause boundaries","scene_windows":0,"windows":5,"scene":"Mixed narratives and advisory prose about hangovers, lava, cold"}
+{"neuron":6183,"pole":"low","cluster":1,"mode":"Trailing space after an assistant's opening sentence","scene_windows":0,"windows":5,"scene":"Assistant answers introducing lists about maggots, hot peppers"}
+{"neuron":9945,"pole":"high","cluster":0,"mode":"Sentence-initial 'The' or 'the' starting a factual clause","scene_windows":0,"windows":5,"scene":"News and informational passages on health and history"}
+{"neuron":9945,"pole":"high","cluster":1,"mode":"'user:' speaker label colon in multi-turn chats","scene_windows":0,"windows":5,"scene":"Follow-up user questions about marketing, tech, travel"}
+{"neuron":9945,"pole":"low","cluster":0,"mode":"Period ending a factual claim in a list or summary","scene_windows":0,"windows":5,"scene":"Nutrition, art, cooking, and video game advice"}
+{"neuron":9945,"pole":"low","cluster":1,"mode":"'assistant' label or colon starting an assistant turn","scene_windows":0,"windows":5,"scene":"Assistant replies to user recommendation requests"}
+{"neuron":5724,"pole":"high","cluster":0,"mode":"Opening quotation marks starting a line of tense dialogue","scene_windows":0,"windows":5,"scene":"Fictional confrontations and interrogations"}
+{"neuron":5724,"pole":"high","cluster":1,"mode":"'the' before an object or noun in action or technical text","scene_windows":0,"windows":5,"scene":"Fantasy action, transformer design, exercise tips"}
+{"neuron":5724,"pole":"high","cluster":2,"mode":"Paragraph-break indentation before dialogue lines","scene_windows":0,"windows":5,"scene":"Fantasy and satirical fiction dialogue"}
+{"neuron":5724,"pole":"low","cluster":0,"mode":"Verbs or prepositions 'improve', 'provide', 'with', 'of' in plans","scene_windows":0,"windows":5,"scene":"Program descriptions and business or support services"}
+{"neuron":5724,"pole":"low","cluster":1,"mode":"Pronouns or possessives in first-person personal narration","scene_windows":0,"windows":5,"scene":"Introspective first-person narratives and dreams"}
+{"neuron":10331,"pole":"high","cluster":0,"mode":"Articles or prepositions 'a', 'they', 'of', 'to' in health explanations","scene_windows":0,"windows":5,"scene":"Nutrition, surgery, advertising, and AI-persona text"}
+{"neuron":10331,"pole":"high","cluster":1,"mode":"Comma or punctuation after a user's feedback or request","scene_windows":0,"windows":5,"scene":"User feedback turns on film scripts and articles"}
+{"neuron":10331,"pole":"low","cluster":0,"mode":"'by' or 'of' linking nouns in scholarly prose","scene_windows":0,"windows":5,"scene":"Academic and historical scholarship passages"}
+{"neuron":10331,"pole":"low","cluster":1,"mode":"Period or quote mark closing a narrative beat","scene_windows":0,"windows":5,"scene":"Short fiction with bar and soldier dialogue"}

@@ -1,0 +1,42 @@
+{"neuron":7140,"pole":"high","cluster":0,"mode":"Colon after a user or Human turn label in multi-turn chat","scene_windows":0,"windows":5,"scene":"Multi-turn helpful chats on budgeting, parenting, coding"}
+{"neuron":7140,"pole":"high","cluster":1,"mode":"Period after a user's thanks or praise, before a follow-up request","scene_windows":0,"windows":5,"scene":"Users thanking assistant then asking follow-up questions"}
+{"neuron":7140,"pole":"high","cluster":2,"mode":"Sentence-opening or subject tokens in formal expository prose","scene_windows":0,"windows":5,"scene":"Encyclopedic, historical, and essay-style passages"}
+{"neuron":7140,"pole":"high","cluster":3,"mode":"Question mark ending a short Human question before an assistant answer","scene_windows":1,"windows":5,"scene":"Short Human questions with direct assistant answers, one about drugs"}
+{"neuron":7140,"pole":"low","cluster":0,"mode":"Colon or punctuation introducing a list in assistant answers","scene_windows":0,"windows":5,"scene":"Assistant intros to lists of tips, ideas, or examples"}
+{"neuron":7140,"pole":"low","cluster":1,"mode":"Assistant role label starting a reply to a user question","scene_windows":0,"windows":5,"scene":"Q&A and request-for-examples chats with assistant replies"}
+{"neuron":7140,"pole":"low","cluster":2,"mode":"Comma or 'some' after transitional phrases like 'However' or 'Here are'","scene_windows":0,"windows":5,"scene":"Advisory prose on careers, hairstyles, pets, relationships"}
+{"neuron":7140,"pole":"low","cluster":3,"mode":"Sentence-end period or trailing space before continued explanation","scene_windows":0,"windows":5,"scene":"Informational explanations on education, cooking, water, sympathy"}
+{"neuron":1545,"pole":"high","cluster":0,"mode":"Mid-sentence word in descriptive technical or historical prose","scene_windows":0,"windows":5,"scene":"Descriptive passages on tires, skin care, poetry, history"}
+{"neuron":1545,"pole":"high","cluster":1,"mode":"Sentence-end punctuation or space before a continuing explanation","scene_windows":0,"windows":5,"scene":"Expository text on surgery, climate projects, populism, foraging"}
+{"neuron":1545,"pole":"low","cluster":0,"mode":"Function words mid-clause in encyclopedic or biographical sentences","scene_windows":0,"windows":5,"scene":"Biographical and historical encyclopedia-style sentences"}
+{"neuron":1545,"pole":"low","cluster":1,"mode":"Period ending a factual sentence in encyclopedic text","scene_windows":0,"windows":5,"scene":"Factual passages on Olympics, beer, moon, Infowars"}
+{"neuron":6481,"pole":"high","cluster":0,"mode":"Mid-clause function word in advisory or explanatory prose","scene_windows":0,"windows":5,"scene":"Advice on social life, fishing, music, lawn care"}
+{"neuron":6481,"pole":"high","cluster":1,"mode":"'know', 'if', 'you' in closing offers of further help","scene_windows":0,"windows":5,"scene":"Assistant closing lines offering more help"}
+{"neuron":6481,"pole":"low","cluster":0,"mode":"Mid-sentence tokens in general expository or advisory prose","scene_windows":0,"windows":5,"scene":"Civic, legal, travel, and advice passages"}
+{"neuron":6481,"pole":"low","cluster":1,"mode":"Word-fragment or number-fragment tokens splitting a word","scene_windows":0,"windows":5,"scene":"Mixed prose, references, and fragmented word pieces"}
+{"neuron":6481,"pole":"low","cluster":2,"mode":"Digit '1' in numbers and colon after Assistant label","scene_windows":0,"windows":5,"scene":"Reference numbers, golf courses, and short Human/Assistant chats"}
+{"neuron":6481,"pole":"low","cluster":3,"mode":"Period ending a sentence in narrative fiction","scene_windows":0,"windows":5,"scene":"Fantasy and literary fiction narration and dialogue"}
+{"neuron":2849,"pole":"high","cluster":0,"mode":"Conjunction or determiner mid-list in formal prose","scene_windows":0,"windows":5,"scene":"Formal report, nutrition, and policy prose"}
+{"neuron":2849,"pole":"high","cluster":1,"mode":"Partial word fragments splitting a longer word","scene_windows":0,"windows":5,"scene":"Technical, historical, and media text with split words"}
+{"neuron":1749,"pole":"high","cluster":0,"mode":"Colon after a Human turn label in multi-turn chat","scene_windows":0,"windows":5,"scene":"Multi-turn chats on cooking, safety, and education"}
+{"neuron":1749,"pole":"high","cluster":1,"mode":"'Sure' opening an assistant reply to a request","scene_windows":0,"windows":5,"scene":"User requests for guides, lists, and explanations"}
+{"neuron":1749,"pole":"high","cluster":2,"mode":"Period followed by double space before a Human turn","scene_windows":0,"windows":5,"scene":"Informational passages leading into chat turns"}
+{"neuron":1749,"pole":"high","cluster":3,"mode":"Bracketed list-item number starting a new tip","scene_windows":0,"windows":5,"scene":"Numbered tips on social media, cooking, gratitude"}
+{"neuron":1749,"pole":"high","cluster":4,"mode":"Mid-sentence function words in historical or legal prose","scene_windows":0,"windows":5,"scene":"Legal, historical, and military descriptive text"}
+{"neuron":1749,"pole":"high","cluster":5,"mode":"'Assistant' role label before a short definition answer","scene_windows":0,"windows":5,"scene":"Short Human definition questions with assistant answers"}
+{"neuron":1749,"pole":"low","cluster":0,"mode":"Copula or modal verb after a subject in descriptive text","scene_windows":0,"windows":5,"scene":"Product descriptions, city facts, process explanations"}
+{"neuron":1749,"pole":"low","cluster":1,"mode":"Assistant label or colon right before an assistant reply","scene_windows":0,"windows":5,"scene":"Chats asking for examples, swimming tips, country history"}
+{"neuron":3289,"pole":"high","cluster":0,"mode":"Mid-clause function word in formal prose before a verb","scene_windows":0,"windows":5,"scene":"Expository prose on water management, health, mental state"}
+{"neuron":3289,"pole":"high","cluster":1,"mode":"Punctuation inside bibliographic citations and references","scene_windows":0,"windows":5,"scene":"Journal citations and reference lists"}
+{"neuron":3289,"pole":"high","cluster":2,"mode":"Whitespace run before a quoted line in fiction dialogue","scene_windows":0,"windows":5,"scene":"Story fiction with quoted dialogue and narration"}
+{"neuron":3289,"pole":"low","cluster":0,"mode":"Determiner or verb mid-sentence in narrative or report text","scene_windows":0,"windows":5,"scene":"Fiction and terse report narration"}
+{"neuron":3289,"pole":"low","cluster":1,"mode":"Human role label following an assistant reply","scene_windows":0,"windows":5,"scene":"Multi-turn chats with assistant answers then Human turns"}
+{"neuron":6118,"pole":"high","cluster":0,"mode":"Preposition or determiner mid-phrase in informational prose","scene_windows":0,"windows":5,"scene":"Aid programs, roofing services, policy and product text"}
+{"neuron":6118,"pole":"high","cluster":1,"mode":"Quote or punctuation ending a line of fiction dialogue","scene_windows":0,"windows":5,"scene":"Short fiction with quoted dialogue and action beats"}
+{"neuron":6118,"pole":"low","cluster":0,"mode":"Period ending a cautionary or advisory sentence","scene_windows":0,"windows":5,"scene":"Advice on weather, insurance, wildlife, and safety"}
+{"neuron":6118,"pole":"low","cluster":1,"mode":"Function word mid-clause in advisory or narrative prose","scene_windows":0,"windows":5,"scene":"Parenting, space, bicycle, and fiction passages"}
+{"neuron":6118,"pole":"low","cluster":2,"mode":"Colon or Assistant label starting a reply in chat","scene_windows":0,"windows":5,"scene":"Human-assistant chats on diet, water, optimism"}
+{"neuron":9029,"pole":"high","cluster":0,"mode":"'the' before a noun in suggestions for activities or campaigns","scene_windows":0,"windows":5,"scene":"Campaign planning, trades, and creative event brainstorming"}
+{"neuron":9029,"pole":"high","cluster":1,"mode":"Present-tense verb after a plural or complex subject","scene_windows":0,"windows":5,"scene":"Expository text on MIMO, renewables, medicine, debate"}
+{"neuron":9029,"pole":"low","cluster":0,"mode":"Determiner or conjunction inside instructional or list text","scene_windows":0,"windows":5,"scene":"Recipes, supplement frameworks, redaction guidance"}
+{"neuron":9029,"pole":"low","cluster":1,"mode":"Assistant label opening a reply to a follow-up request","scene_windows":0,"windows":5,"scene":"Follow-up requests for more examples and ideas"}

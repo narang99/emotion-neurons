@@ -1,0 +1,49 @@
+{"neuron":9563,"pole":"high","cluster":0,"mode":"transitioning to renewable energy and future rover missions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9563,"pole":"high","cluster":1,"mode":"citations and references in academic texts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9563,"pole":"high","cluster":2,"mode":"children asking questions about events","happy_windows":5,"windows":5,"scene":"childhood curiosity and explanations"}
+{"neuron":9563,"pole":"high","cluster":3,"mode":"children asking questions about events","happy_windows":5,"windows":5,"scene":"childhood curiosity and explanations"}
+{"neuron":9563,"pole":"high","cluster":4,"mode":"children experiencing fun and excitement","happy_windows":5,"windows":5,"scene":"childhood joy and discovery"}
+{"neuron":9563,"pole":"high","cluster":5,"mode":"providing information and engaging students","happy_windows":0,"windows":5,"scene":"educational context"}
+{"neuron":9563,"pole":"high","cluster":6,"mode":"children asking questions and receiving answers","happy_windows":5,"windows":5,"scene":"childhood curiosity and explanations"}
+{"neuron":9563,"pole":"high","cluster":7,"mode":"children being told things by adults","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9563,"pole":"low","cluster":0,"mode":"requesting more details or information","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9563,"pole":"low","cluster":1,"mode":"children exploring and experiencing joy","happy_windows":5,"windows":5,"scene":"childhood joy and exploration"}
+{"neuron":9563,"pole":"low","cluster":2,"mode":"requesting more information or tips","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":651,"pole":"high","cluster":0,"mode":"measurements and specifications in technical contexts","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":651,"pole":"high","cluster":1,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":651,"pole":"high","cluster":2,"mode":"cooking instructions and ingredients","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":651,"pole":"high","cluster":3,"mode":"children playing and experiencing positive emotions","happy_windows":5,"windows":5,"scene":"childhood joy and play"}
+{"neuron":651,"pole":"high","cluster":4,"mode":"children experiencing positive emotions and actions","happy_windows":5,"windows":5,"scene":"childhood joy and discovery"}
+{"neuron":651,"pole":"high","cluster":5,"mode":"objects and their descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":651,"pole":"high","cluster":6,"mode":"children participating in activities","happy_windows":5,"windows":5,"scene":"childhood joy and participation"}
+{"neuron":651,"pole":"low","cluster":0,"mode":"children experiencing positive emotions","happy_windows":5,"windows":5,"scene":"childhood joy and contentment"}
+{"neuron":651,"pole":"low","cluster":1,"mode":"children performing actions and receiving praise","happy_windows":5,"windows":5,"scene":"childhood actions and positive reinforcement"}
+{"neuron":651,"pole":"low","cluster":2,"mode":"children experiencing emotions and actions","happy_windows":5,"windows":5,"scene":"childhood emotions and actions"}
+{"neuron":651,"pole":"low","cluster":3,"mode":"children expressing desires and receiving responses","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":651,"pole":"low","cluster":4,"mode":"children experiencing positive emotions and actions","happy_windows":5,"windows":5,"scene":"childhood joy and play"}
+{"neuron":651,"pole":"low","cluster":5,"mode":"children experiencing emotions and receiving gifts","happy_windows":5,"windows":5,"scene":"childhood joy and receiving"}
+{"neuron":651,"pole":"low","cluster":6,"mode":"children experiencing emotions and actions","happy_windows":5,"windows":5,"scene":"childhood joy and play"}
+{"neuron":651,"pole":"low","cluster":7,"mode":"children expressing emotions and receiving responses","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7849,"pole":"high","cluster":0,"mode":"resources, recommendations, and worker skills","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7849,"pole":"high","cluster":1,"mode":"children experiencing fear and uncertainty","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7849,"pole":"high","cluster":2,"mode":"code snippets and programming elements","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7849,"pole":"low","cluster":0,"mode":"legal protections, contributions, and audience engagement","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7849,"pole":"low","cluster":1,"mode":"children performing actions and receiving responses","happy_windows":5,"windows":5,"scene":"childhood actions and interactions"}
+{"neuron":7849,"pole":"low","cluster":2,"mode":"children experiencing emotions and actions","happy_windows":5,"windows":5,"scene":"childhood emotions and actions"}
+{"neuron":8962,"pole":"high","cluster":0,"mode":"animals and their descriptions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8962,"pole":"high","cluster":1,"mode":"groups, organizations, and professional development","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8962,"pole":"low","cluster":0,"mode":"children experiencing excitement and joy","happy_windows":5,"windows":5,"scene":"childhood joy and discovery"}
+{"neuron":8962,"pole":"low","cluster":1,"mode":"children experiencing excitement and actions","happy_windows":5,"windows":5,"scene":"childhood joy and play"}
+{"neuron":4056,"pole":"high","cluster":0,"mode":"children experiencing negative emotions and actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4056,"pole":"high","cluster":1,"mode":"dialogue and direct speech","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4056,"pole":"low","cluster":0,"mode":"children performing actions and experiencing emotions","happy_windows":5,"windows":5,"scene":"childhood actions and play"}
+{"neuron":4056,"pole":"low","cluster":1,"mode":"children experiencing emotions and actions","happy_windows":5,"windows":5,"scene":"childhood emotions and actions"}
+{"neuron":4056,"pole":"low","cluster":2,"mode":"children expressing emotions and receiving responses","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4056,"pole":"low","cluster":3,"mode":"medical procedures and conditions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4056,"pole":"low","cluster":4,"mode":"children experiencing emotions and actions","happy_windows":5,"windows":5,"scene":"childhood joy and accomplishment"}
+{"neuron":11547,"pole":"high","cluster":0,"mode":"children experiencing emotions and actions","happy_windows":5,"windows":5,"scene":"childhood joy and play"}
+{"neuron":11547,"pole":"high","cluster":1,"mode":"children performing actions and experiencing emotions","happy_windows":5,"windows":5,"scene":"childhood actions and emotions"}
+{"neuron":11547,"pole":"low","cluster":0,"mode":"social events and past practices","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11547,"pole":"low","cluster":1,"mode":"tools, resources, and techniques","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11547,"pole":"low","cluster":2,"mode":"children experiencing positive emotions and actions","happy_windows":5,"windows":5,"scene":"childhood joy and discovery"}
+{"neuron":11547,"pole":"low","cluster":3,"mode":"food ingredients and preparation","happy_windows":0,"windows":5,"scene":"neutral narration"}

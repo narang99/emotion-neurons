@@ -1,0 +1,28 @@
+{"neuron":3184,"pole":"high","cluster":0,"mode":"The marked token begins a sentence, often introducing a new idea or topic.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"high","cluster":1,"mode":"The marked token is 'assistant', indicating the start of an AI's response.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"low","cluster":0,"mode":"The marked token is 'I', referring to the AI assistant.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"low","cluster":1,"mode":"The marked token is 'It', referring to a topic or action.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"low","cluster":2,"mode":"The marked token is 'is', a common verb.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"low","cluster":3,"mode":"The marked token is 'I', referring to the speaker.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"low","cluster":4,"mode":"The marked token is 'You', referring to the user.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"low","cluster":5,"mode":"The marked token is 'military', referring to armed forces.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3184,"pole":"low","cluster":6,"mode":"The marked token is 'the', a common article.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2837,"pole":"high","cluster":0,"mode":"The marked token is 'the', a common article.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2837,"pole":"high","cluster":1,"mode":"The marked token is a comma, often ending a clause or phrase.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2837,"pole":"low","cluster":0,"mode":"The marked token is a comma, often ending a clause or phrase.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2837,"pole":"low","cluster":1,"mode":"The marked token is 'Assistant', indicating the start of an AI's response.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6106,"pole":"high","cluster":0,"mode":"The marked token is 'But' or 'is', starting or continuing a sentence.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6106,"pole":"high","cluster":1,"mode":"The marked token is a comma or 'and', connecting words or phrases.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6106,"pole":"low","cluster":0,"mode":"The marked token is 'are', a common verb.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6106,"pole":"low","cluster":1,"mode":"The marked token is a comma, often ending a clause or phrase.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6106,"pole":"low","cluster":2,"mode":"The marked token is 'Yes' or 'Assistant', indicating agreement or AI response.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7464,"pole":"high","cluster":0,"mode":"The marked token is a word related to technology or law.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7464,"pole":"high","cluster":1,"mode":"The marked token is a comma or ']', often ending a clause or phrase.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7464,"pole":"low","cluster":0,"mode":"The marked token is a word related to quantity or location.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7464,"pole":"low","cluster":1,"mode":"The marked token is a comma or '.', often ending a clause or phrase.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3534,"pole":"high","cluster":0,"mode":"The marked token is 'the' or 'in', a common article or preposition.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3534,"pole":"high","cluster":1,"mode":"The marked token is 'your' or 'their', a possessive pronoun.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3534,"pole":"low","cluster":0,"mode":"The marked token is 'The' or 'about', starting a sentence or phrase.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3534,"pole":"low","cluster":1,"mode":"The marked token is a word related to legal actions or powers.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2861,"pole":"high","cluster":0,"mode":"The marked token is part of a name or place.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2861,"pole":"high","cluster":1,"mode":"The marked token is a number or parenthesis.","scene_windows":0,"windows":5,"scene":"neutral narration"}

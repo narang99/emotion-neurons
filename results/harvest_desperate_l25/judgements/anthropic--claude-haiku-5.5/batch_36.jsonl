@@ -1,0 +1,60 @@
+{"neuron":903,"pole":"high","cluster":0,"mode":"Sentence-initial 'The' starting a new narrative clause after dialogue or action","scene_windows":0,"windows":5,"scene":"Lighthearted or tense fiction narration with dialogue"}
+{"neuron":903,"pole":"high","cluster":1,"mode":"Mid-sentence words in tense or intense narrative descriptions","scene_windows":1,"windows":5,"scene":"Action or tense standoff in fiction"}
+{"neuron":903,"pole":"high","cluster":2,"mode":"Narrative beats where a sudden action or interruption lands mid-scene","scene_windows":1,"windows":5,"scene":"Suspenseful fiction with sudden threats or interruptions"}
+{"neuron":903,"pole":"high","cluster":3,"mode":"'and' joining physical reactions or actions in narration","scene_windows":0,"windows":5,"scene":"Descriptive fiction with characters reacting"}
+{"neuron":903,"pole":"high","cluster":4,"mode":"Sentence-initial 'Suddenly' introducing a surprise event","scene_windows":0,"windows":5,"scene":"Simple children's stories with sudden discoveries"}
+{"neuron":903,"pole":"high","cluster":5,"mode":"Periods ending a sentence of dialogue-adjacent narration","scene_windows":0,"windows":5,"scene":"Fiction with dialogue and character reactions"}
+{"neuron":903,"pole":"high","cluster":6,"mode":"Blank-space gaps before a line of dialogue","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction exchanges"}
+{"neuron":903,"pole":"low","cluster":0,"mode":"Sentence-initial pronouns she/he starting a simple narrative sentence","scene_windows":0,"windows":5,"scene":"Simple children's stories about playing and smiling"}
+{"neuron":903,"pole":"low","cluster":1,"mode":"Speech verb 'said/says' after a quoted line","scene_windows":0,"windows":5,"scene":"Children's dialogue and simple fiction exchanges"}
+{"neuron":3932,"pole":"high","cluster":0,"mode":"Instructional list items in marketing or content-planning text","scene_windows":0,"windows":5,"scene":"Social media and content strategy advice"}
+{"neuron":3932,"pole":"high","cluster":1,"mode":"Step-by-step recipe instructions, mid-sentence punctuation or connectors","scene_windows":0,"windows":5,"scene":"Cooking recipe instructions"}
+{"neuron":3932,"pole":"high","cluster":2,"mode":"Punctuation or connectors inside first-person literary narration","scene_windows":0,"windows":5,"scene":"Reflective or eerie first-person fiction"}
+{"neuron":3932,"pole":"high","cluster":3,"mode":"Code tokens inside programming snippets (brackets, separators)","scene_windows":0,"windows":5,"scene":"Code examples for matrix and statistics programs"}
+{"neuron":3932,"pole":"low","cluster":0,"mode":"Conjunctions and pronouns starting narrative clauses in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with everyday activities"}
+{"neuron":3932,"pole":"low","cluster":1,"mode":"Noun subjects in business and technology explanations","scene_windows":0,"windows":5,"scene":"Expository text on business, supply chains, and small firms"}
+{"neuron":9401,"pole":"high","cluster":0,"mode":"Adjectives or hyphenated qualifiers in policy and health argument prose","scene_windows":0,"windows":5,"scene":"Policy and health essay writing"}
+{"neuron":9401,"pole":"high","cluster":1,"mode":"Possessive pronouns her/his after verbs in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about toys and food"}
+{"neuron":9401,"pole":"high","cluster":2,"mode":"Verbs 'put' or 'pick/grab' describing handling an object","scene_windows":0,"windows":5,"scene":"Children's stories about objects and small plans"}
+{"neuron":9401,"pole":"high","cluster":3,"mode":"Definite article 'the' before a noun in action narration","scene_windows":0,"windows":5,"scene":"Simple stories about characters solving problems"}
+{"neuron":9401,"pole":"high","cluster":4,"mode":"Sentence-initial 'The' starting a new narrative sentence","scene_windows":0,"windows":5,"scene":"Simple stories about birds, a boy, and a girl"}
+{"neuron":9401,"pole":"low","cluster":0,"mode":"Conjunctions or periods within dense historical and factual prose","scene_windows":0,"windows":5,"scene":"Civil War history and factual articles"}
+{"neuron":9401,"pole":"low","cluster":1,"mode":"The adjective 'happy' ending a clause about characters' feelings","scene_windows":0,"windows":5,"scene":"Children's stories with happy resolutions"}
+{"neuron":9401,"pole":"low","cluster":2,"mode":"Pronouns and function words inside informal dialogue-heavy fiction","scene_windows":0,"windows":5,"scene":"Casual conversational fiction"}
+{"neuron":9401,"pole":"low","cluster":3,"mode":"Periods ending short terse dialogue-attribution sentences","scene_windows":0,"windows":5,"scene":"Tense dialogue scenes in fiction"}
+{"neuron":9401,"pole":"low","cluster":4,"mode":"'very' or periods in simple children's narrative sentences","scene_windows":0,"windows":5,"scene":"Children's stories about feelings and outings"}
+{"neuron":5769,"pole":"high","cluster":0,"mode":"Ends or objects of reflective, opinion-laden sentences","scene_windows":0,"windows":5,"scene":"Opinion and advice essays on life and values"}
+{"neuron":5769,"pole":"high","cluster":1,"mode":"Adjectives or nouns describing vivid physical or dramatic detail","scene_windows":0,"windows":5,"scene":"Fiction with dramatic or whimsical imagery"}
+{"neuron":5769,"pole":"high","cluster":2,"mode":"Sentence-initial pronouns starting a new sentence about a character","scene_windows":0,"windows":5,"scene":"Children's stories about exploring and curiosity"}
+{"neuron":5769,"pole":"high","cluster":3,"mode":"Nouns 'door' or 'line' completing a motion phrase","scene_windows":0,"windows":5,"scene":"Stories and first-person scenes of entering places"}
+{"neuron":5769,"pole":"high","cluster":4,"mode":"Opening quotation marks starting a character's speech","scene_windows":0,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":5769,"pole":"low","cluster":0,"mode":"Function words in interior-design and home decor advice","scene_windows":0,"windows":5,"scene":"Interior design and color scheme advice"}
+{"neuron":5769,"pole":"low","cluster":1,"mode":"Words after a descriptive clause in gritty or eerie narration","scene_windows":0,"windows":5,"scene":"Dark or eerie fiction with physical description"}
+{"neuron":5769,"pole":"low","cluster":2,"mode":"Possessive pronouns or periods in simple children's narrative","scene_windows":0,"windows":5,"scene":"Children's stories about pets and toys"}
+{"neuron":9533,"pole":"high","cluster":0,"mode":"Prepositions or conjunctions in business and marketing descriptions","scene_windows":0,"windows":5,"scene":"Marketing agency and campaign planning text"}
+{"neuron":9533,"pole":"high","cluster":1,"mode":"Punctuation or verb ending a tense spoken line in fiction","scene_windows":0,"windows":5,"scene":"Argumentative dialogue in fantasy or thriller fiction"}
+{"neuron":9533,"pole":"high","cluster":2,"mode":"Conjunctions and articles in recipe ingredient and step lists","scene_windows":0,"windows":5,"scene":"Recipe instructions for cooking"}
+{"neuron":9533,"pole":"low","cluster":0,"mode":"Word fragments inside names or places in historical text","scene_windows":0,"windows":5,"scene":"Historical and regional encyclopedic text"}
+{"neuron":9533,"pole":"low","cluster":1,"mode":"Ingredient and dish-description words in recipes","scene_windows":0,"windows":5,"scene":"Recipe descriptions and cooking steps"}
+{"neuron":9533,"pole":"low","cluster":2,"mode":"Pronouns starting a sentence after a dialogue or reflective line","scene_windows":0,"windows":5,"scene":"Casual fiction with characters reflecting"}
+{"neuron":9533,"pole":"low","cluster":3,"mode":"Sentence-ending periods after short children's dialogue or apology","scene_windows":0,"windows":5,"scene":"Children's stories about sharing and apologies"}
+{"neuron":4507,"pole":"high","cluster":0,"mode":"Sentence-ending periods followed by a new section or user turn","scene_windows":0,"windows":5,"scene":"Health, recipes, and summary advice in chat format"}
+{"neuron":4507,"pole":"high","cluster":1,"mode":"Capitalized first letter starting a new sentence or entry","scene_windows":0,"windows":5,"scene":"Encyclopedic or historical entries and story openings"}
+{"neuron":4507,"pole":"high","cluster":2,"mode":"Sentence-initial 'The' in dark, ominous narration","scene_windows":1,"windows":5,"scene":"Dark fantasy narration with threats and pain"}
+{"neuron":4507,"pole":"high","cluster":3,"mode":"Paragraph-break spacing before a new narrative beat","scene_windows":2,"windows":5,"scene":"Despairing first-person or literary narration"}
+{"neuron":4507,"pole":"low","cluster":0,"mode":"Conjunctions or prepositions in recipe and ingredient lists","scene_windows":0,"windows":5,"scene":"Recipes and food preparation instructions"}
+{"neuron":4507,"pole":"low","cluster":1,"mode":"Proper-name or title tokens in factual news and history prose","scene_windows":0,"windows":5,"scene":"Factual news and academic reporting"}
+{"neuron":4507,"pole":"low","cluster":2,"mode":"Possessive pronouns after a verb or preposition in fiction","scene_windows":0,"windows":5,"scene":"Character-driven fiction with everyday actions"}
+{"neuron":4507,"pole":"low","cluster":3,"mode":"Articles 'the' or 'a' after a preposition of place","scene_windows":0,"windows":5,"scene":"Simple children's stories about outings"}
+{"neuron":4507,"pole":"low","cluster":4,"mode":"Intensifier 'very' before an emotion adjective","scene_windows":0,"windows":5,"scene":"Children's stories with emotional moments"}
+{"neuron":972,"pole":"high","cluster":0,"mode":"Nouns or words closing an emotional narrative clause","scene_windows":0,"windows":5,"scene":"Emotional fiction about hope and family worry"}
+{"neuron":972,"pole":"high","cluster":1,"mode":"Digits within numbers or dates in news text","scene_windows":0,"windows":5,"scene":"News reports on bombings and historical events"}
+{"neuron":972,"pole":"low","cluster":0,"mode":"Comma after the opening phrase 'Once upon a time'","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":972,"pole":"low","cluster":1,"mode":"Pronoun or 'was' starting a character description in a story","scene_windows":0,"windows":5,"scene":"Simple children's stories introducing a character"}
+{"neuron":972,"pole":"low","cluster":2,"mode":"'there' after 'Once upon a time' opening a story","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":5668,"pole":"high","cluster":0,"mode":"Determiners 'a' or 'big' before a physical object noun","scene_windows":0,"windows":5,"scene":"Simple children's adventure stories"}
+{"neuron":5668,"pole":"high","cluster":1,"mode":"Stray token fragments inside sentences in mixed text","scene_windows":0,"windows":3,"scene":"Product reviews and tutorial text"}
+{"neuron":5668,"pole":"low","cluster":0,"mode":"Punctuation inside bibliographic citations and references","scene_windows":0,"windows":5,"scene":"Reference lists and bibliographies"}
+{"neuron":5668,"pole":"low","cluster":1,"mode":"Blank-space gaps at the start of a new narrative paragraph","scene_windows":0,"windows":5,"scene":"Fiction paragraph breaks in varied scenes"}
+{"neuron":5668,"pole":"low","cluster":2,"mode":"Punctuation ending a short terse or wry sentence","scene_windows":0,"windows":5,"scene":"Dark or wry first-person narration"}
+{"neuron":5668,"pole":"low","cluster":3,"mode":"Sentence-initial 'The' or 'the' in tense action narration","scene_windows":1,"windows":5,"scene":"Tense or violent fiction with characters fleeing or fighting"}

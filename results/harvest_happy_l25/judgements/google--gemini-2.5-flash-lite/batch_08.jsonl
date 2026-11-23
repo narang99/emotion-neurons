@@ -1,0 +1,76 @@
+{"neuron":902,"pole":"high","cluster":0,"mode":"Neutral punctuation and factual statements in various contexts.","happy_windows":0,"windows":5,"scene":"Neutral factual narration"}
+{"neuron":902,"pole":"high","cluster":1,"mode":"Children interacting with parents, seeking help or showing pictures.","happy_windows":5,"windows":5,"scene":"Warm family interactions"}
+{"neuron":902,"pole":"high","cluster":2,"mode":"Children asking parents for help or information.","happy_windows":5,"windows":5,"scene":"Warm family interactions"}
+{"neuron":902,"pole":"high","cluster":3,"mode":"Economic and political discussions, benefits and causes.","happy_windows":0,"windows":5,"scene":"Neutral economic/political discussion"}
+{"neuron":902,"pole":"low","cluster":0,"mode":"Children being told off by parents for actions.","happy_windows":0,"windows":5,"scene":"Mild parental correction"}
+{"neuron":902,"pole":"low","cluster":1,"mode":"Children speaking, often with quotation marks.","happy_windows":0,"windows":5,"scene":"Neutral dialogue"}
+{"neuron":902,"pole":"low","cluster":2,"mode":"Positive outcomes and enjoyable experiences.","happy_windows":1,"windows":5,"scene":"Positive experiences"}
+{"neuron":902,"pole":"low","cluster":3,"mode":"Positive affirmations and happy endings.","happy_windows":4,"windows":5,"scene":"Happy moments"}
+{"neuron":902,"pole":"low","cluster":4,"mode":"Positive interactions, smiles, and happy moments.","happy_windows":5,"windows":5,"scene":"Happy moments"}
+{"neuron":902,"pole":"low","cluster":5,"mode":"Positive outcomes and happy feelings.","happy_windows":3,"windows":5,"scene":"Happy moments"}
+{"neuron":902,"pole":"low","cluster":6,"mode":"Neutral or slightly negative actions and beginnings.","happy_windows":0,"windows":5,"scene":"Neutral actions"}
+{"neuron":3226,"pole":"high","cluster":0,"mode":"Children expressing happiness and positive feelings.","happy_windows":5,"windows":5,"scene":"Joyful moments"}
+{"neuron":3226,"pole":"high","cluster":1,"mode":"Children feeling better, comfortable, or happy.","happy_windows":5,"windows":5,"scene":"Positive feelings"}
+{"neuron":3226,"pole":"high","cluster":2,"mode":"Children experiencing positive emotions and excitement.","happy_windows":5,"windows":5,"scene":"Excitement and joy"}
+{"neuron":3226,"pole":"high","cluster":3,"mode":"Children being friends and enjoying activities together.","happy_windows":5,"windows":5,"scene":"Friendship and fun"}
+{"neuron":3226,"pole":"high","cluster":4,"mode":"Words related to people, places, and groups.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":3226,"pole":"high","cluster":5,"mode":"Positive interactions and happy expressions.","happy_windows":5,"windows":5,"scene":"Happy interactions"}
+{"neuron":3226,"pole":"high","cluster":6,"mode":"Positive interactions and expressions of togetherness.","happy_windows":5,"windows":5,"scene":"Positive interactions"}
+{"neuron":3226,"pole":"high","cluster":7,"mode":"Children interacting, expressing emotions, and receiving comfort.","happy_windows":4,"windows":5,"scene":"Comfort and interaction"}
+{"neuron":3226,"pole":"low","cluster":0,"mode":"Children receiving praise and positive reinforcement.","happy_windows":4,"windows":5,"scene":"Positive reinforcement"}
+{"neuron":3226,"pole":"low","cluster":1,"mode":"Children receiving positive feedback or statements.","happy_windows":4,"windows":5,"scene":"Positive feedback"}
+{"neuron":3226,"pole":"low","cluster":2,"mode":"Children expressing desires or receiving instructions.","happy_windows":0,"windows":5,"scene":"Dialogue and instructions"}
+{"neuron":3226,"pole":"low","cluster":3,"mode":"Children's activities and sensory experiences.","happy_windows":0,"windows":5,"scene":"Children's activities"}
+{"neuron":3226,"pole":"low","cluster":4,"mode":"Children's actions and positive interactions.","happy_windows":4,"windows":5,"scene":"Positive interactions"}
+{"neuron":6882,"pole":"high","cluster":0,"mode":"References to entities, organizations, and effects.","happy_windows":0,"windows":5,"scene":"Neutral factual narration"}
+{"neuron":6882,"pole":"high","cluster":1,"mode":"Children expressing emotions and interacting.","happy_windows":2,"windows":5,"scene":"Childhood interactions"}
+{"neuron":6882,"pole":"high","cluster":2,"mode":"References to communication, finance, and research.","happy_windows":0,"windows":5,"scene":"Neutral factual narration"}
+{"neuron":6882,"pole":"low","cluster":0,"mode":"Children expressing gratitude and positive emotions.","happy_windows":4,"windows":5,"scene":"Happy moments"}
+{"neuron":6882,"pole":"low","cluster":1,"mode":"Children receiving advice or making requests.","happy_windows":0,"windows":5,"scene":"Dialogue and requests"}
+{"neuron":10396,"pole":"high","cluster":0,"mode":"Children experiencing emotions and positive interactions.","happy_windows":5,"windows":5,"scene":"Happy moments"}
+{"neuron":10396,"pole":"high","cluster":1,"mode":"Children's dialogue and expressions of agreement.","happy_windows":0,"windows":5,"scene":"Dialogue"}
+{"neuron":10396,"pole":"high","cluster":2,"mode":"Children expressing uncertainty or lack of understanding.","happy_windows":0,"windows":5,"scene":"Children's uncertainty"}
+{"neuron":10396,"pole":"high","cluster":3,"mode":"Children expressing apologies and desires to share.","happy_windows":3,"windows":5,"scene":"Children's interactions"}
+{"neuron":10396,"pole":"high","cluster":4,"mode":"Words related to outcomes, features, and problems.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":10396,"pole":"high","cluster":5,"mode":"Words related to places, actions, and learning.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":10396,"pole":"low","cluster":0,"mode":"Children expressing happiness and positive feelings.","happy_windows":4,"windows":5,"scene":"Happy moments"}
+{"neuron":10396,"pole":"low","cluster":1,"mode":"asking for more information or examples","happy_windows":0,"windows":5,"scene":"requesting details"}
+{"neuron":3582,"pole":"high","cluster":0,"mode":"historical or scientific references with abbreviations","happy_windows":0,"windows":5,"scene":"academic or historical context"}
+{"neuron":3582,"pole":"high","cluster":1,"mode":"children sharing and helping each other","happy_windows":5,"windows":5,"scene":"children playing and being kind"}
+{"neuron":3582,"pole":"high","cluster":2,"mode":"children smiling and laughing during activities","happy_windows":5,"windows":5,"scene":"children enjoying activities"}
+{"neuron":3582,"pole":"high","cluster":3,"mode":"words related to criticism, usage, and mistakes","happy_windows":0,"windows":5,"scene":"discussion of language and criticism"}
+{"neuron":3582,"pole":"high","cluster":4,"mode":"children being kind and helpful","happy_windows":5,"windows":5,"scene":"children showing kindness"}
+{"neuron":3582,"pole":"low","cluster":0,"mode":"dolls and children playing together","happy_windows":3,"windows":5,"scene":"children playing with dolls"}
+{"neuron":3582,"pole":"low","cluster":1,"mode":"children being happy and excited about events","happy_windows":3,"windows":5,"scene":"children anticipating events"}
+{"neuron":1488,"pole":"high","cluster":0,"mode":"Children expressing happiness and positive emotions.","happy_windows":5,"windows":5,"scene":"Joyful moments"}
+{"neuron":1488,"pole":"high","cluster":1,"mode":"Children enjoying activities and positive experiences.","happy_windows":5,"windows":5,"scene":"Fun activities"}
+{"neuron":1488,"pole":"high","cluster":2,"mode":"Children experiencing joy and positive interactions.","happy_windows":5,"windows":5,"scene":"Happy interactions"}
+{"neuron":1488,"pole":"high","cluster":3,"mode":"Children expressing extreme happiness and pride.","happy_windows":5,"windows":5,"scene":"Extreme happiness"}
+{"neuron":1488,"pole":"high","cluster":4,"mode":"Positive interactions and expressions of helpfulness.","happy_windows":5,"windows":5,"scene":"Positive interactions"}
+{"neuron":1488,"pole":"high","cluster":5,"mode":"Children experiencing positive emotions and outcomes.","happy_windows":5,"windows":5,"scene":"Positive outcomes"}
+{"neuron":1488,"pole":"low","cluster":0,"mode":"Children expressing excitement and joy.","happy_windows":4,"windows":5,"scene":"Excitement and joy"}
+{"neuron":1488,"pole":"low","cluster":1,"mode":"Children expressing happiness and positive feelings.","happy_windows":4,"windows":5,"scene":"Happy moments"}
+{"neuron":1488,"pole":"low","cluster":2,"mode":"Children's dialogue and positive interactions.","happy_windows":3,"windows":5,"scene":"Positive interactions"}
+{"neuron":1488,"pole":"low","cluster":3,"mode":"Children's dialogue and affirmative responses.","happy_windows":0,"windows":5,"scene":"Dialogue"}
+{"neuron":1488,"pole":"low","cluster":4,"mode":"Children's dialogue and expressions of willingness.","happy_windows":0,"windows":5,"scene":"Dialogue"}
+{"neuron":8131,"pole":"high","cluster":0,"mode":"Children interacting and expressing positive emotions.","happy_windows":4,"windows":5,"scene":"Positive interactions"}
+{"neuron":8131,"pole":"high","cluster":1,"mode":"Children's dialogue and expressions of agreement or refusal.","happy_windows":3,"windows":5,"scene":"Dialogue"}
+{"neuron":8131,"pole":"low","cluster":0,"mode":"Neutral punctuation and code snippets.","happy_windows":0,"windows":5,"scene":"Neutral code/text"}
+{"neuron":8131,"pole":"low","cluster":1,"mode":"Children experiencing fear or sadness.","happy_windows":0,"windows":5,"scene":"Children's fear"}
+{"neuron":8131,"pole":"low","cluster":2,"mode":"children asking for permission or information","happy_windows":0,"windows":5,"scene":"children asking questions"}
+{"neuron":8131,"pole":"low","cluster":3,"mode":"children asking for permission or offering help","happy_windows":0,"windows":5,"scene":"children interacting politely"}
+{"neuron":8131,"pole":"low","cluster":4,"mode":"children interacting with adults and asking questions","happy_windows":0,"windows":5,"scene":"children interacting with adults"}
+{"neuron":8131,"pole":"low","cluster":5,"mode":"children interacting and sharing","happy_windows":0,"windows":5,"scene":"children interacting and sharing"}
+{"neuron":9764,"pole":"high","cluster":0,"mode":"Children enjoying nature and positive experiences.","happy_windows":5,"windows":5,"scene":"Enjoying nature"}
+{"neuron":9764,"pole":"high","cluster":1,"mode":"Children's interactions and positive experiences.","happy_windows":5,"windows":5,"scene":"Positive interactions"}
+{"neuron":9764,"pole":"high","cluster":2,"mode":"Children encountering new things and people.","happy_windows":0,"windows":5,"scene":"Discovery"}
+{"neuron":9764,"pole":"high","cluster":3,"mode":"Children expressing happiness and positive emotions.","happy_windows":5,"windows":5,"scene":"Joyful moments"}
+{"neuron":9764,"pole":"high","cluster":4,"mode":"Words related to social issues, actions, and impact.","happy_windows":0,"windows":5,"scene":"Social commentary"}
+{"neuron":9764,"pole":"high","cluster":5,"mode":"Children expressing happiness and positive emotions.","happy_windows":4,"windows":5,"scene":"Happy moments"}
+{"neuron":9764,"pole":"high","cluster":6,"mode":"Children experiencing positive emotions and events.","happy_windows":5,"windows":5,"scene":"Positive experiences"}
+{"neuron":9764,"pole":"low","cluster":0,"mode":"Neutral descriptions and events.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9764,"pole":"low","cluster":1,"mode":"Children seeing things and experiencing emotions.","happy_windows":0,"windows":5,"scene":"Observation and emotion"}
+{"neuron":9764,"pole":"low","cluster":2,"mode":"Children's dialogue and requests.","happy_windows":0,"windows":5,"scene":"Dialogue"}
+{"neuron":9764,"pole":"low","cluster":3,"mode":"Words related to negation, acceptance, and location.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":9764,"pole":"low","cluster":4,"mode":"Children's emotions and interactions.","happy_windows":0,"windows":5,"scene":"Emotions and interactions"}
+{"neuron":9764,"pole":"low","cluster":5,"mode":"Children's actions and positive outcomes.","happy_windows":0,"windows":5,"scene":"Positive actions"}

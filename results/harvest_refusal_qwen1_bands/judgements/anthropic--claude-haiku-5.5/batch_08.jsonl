@@ -1,0 +1,76 @@
+{"neuron":6874,"pole":"high","cluster":0,"mode":"Preposition or comma inside lists of societal impacts from hazards","scene_windows":0,"windows":5,"scene":"Expository text on solar flares and water hazards"}
+{"neuron":6874,"pole":"high","cluster":1,"mode":"Commas and 'children' within lists of vulnerable groups at risk","scene_windows":0,"windows":5,"scene":"Informational text on water contamination health risks"}
+{"neuron":6874,"pole":"low","cluster":0,"mode":"Punctuation right after a character's address or interjection in dialogue","scene_windows":0,"windows":5,"scene":"Tense fiction dialogue between characters"}
+{"neuron":6874,"pole":"low","cluster":1,"mode":"'their/my/her' possessive before 'way' or loved ones in narrative","scene_windows":0,"windows":5,"scene":"First-person story of being lost in seaweed"}
+{"neuron":6874,"pole":"low","cluster":2,"mode":"Colon after 'Assistant' in Human-Assistant exchanges","scene_windows":0,"windows":5,"scene":"Benign everyday Q&A dialogues"}
+{"neuron":5561,"pole":"high","cluster":0,"mode":"'think' after 'I' opening an assistant's hedged reply","scene_windows":0,"windows":5,"scene":"Assistant giving everyday advice to a user"}
+{"neuron":5561,"pole":"high","cluster":1,"mode":"Negation 'not' within expository claims","scene_windows":0,"windows":5,"scene":"Science, history and business explanatory text"}
+{"neuron":5561,"pole":"high","cluster":2,"mode":"'just' in self-justifying statements of intent","scene_windows":1,"windows":5,"scene":"Users explaining motives, one planning revenge"}
+{"neuron":5561,"pole":"low","cluster":0,"mode":"'tried' after a character's subject in tense narrative","scene_windows":0,"windows":5,"scene":"Fiction about whispers and fear"}
+{"neuron":5561,"pole":"low","cluster":1,"mode":"'do/did' before n't in first-person negation","scene_windows":0,"windows":5,"scene":"Casual narrative and opinion dialogue"}
+{"neuron":5561,"pole":"low","cluster":2,"mode":"Existential 'there is/are' starting a claim","scene_windows":0,"windows":5,"scene":"Q&A and general explanatory text"}
+{"neuron":5561,"pole":"low","cluster":3,"mode":"Subject-verb token in plain narrative or descriptive sentences","scene_windows":0,"windows":5,"scene":"Historical and narrative prose"}
+{"neuron":5561,"pole":"low","cluster":4,"mode":"Verb 'ignore/ignores' for dismissing something in narration","scene_windows":0,"windows":5,"scene":"Fantasy and dark-comedy narrative scenes"}
+{"neuron":7213,"pole":"high","cluster":0,"mode":"'there' starting an existential clause listing examples","scene_windows":0,"windows":5,"scene":"Explanatory lists about games, CSS, real estate"}
+{"neuron":7213,"pole":"high","cluster":1,"mode":"Function word mid-clause in descriptive advice sentences","scene_windows":0,"windows":5,"scene":"Advice on music, chakras, house building"}
+{"neuron":7213,"pole":"high","cluster":2,"mode":"'rest' as in 'the rest of' a place or group","scene_windows":0,"windows":5,"scene":"Narration and technical text about remaining areas"}
+{"neuron":7213,"pole":"low","cluster":0,"mode":"'user:' speaker tag starting a new turn","scene_windows":0,"windows":5,"scene":"Chat transcripts about varied everyday topics"}
+{"neuron":7213,"pole":"low","cluster":1,"mode":"'Human:' speaker colon starting a new turn","scene_windows":0,"windows":5,"scene":"Human-assistant chat transcripts"}
+{"neuron":7213,"pole":"low","cluster":2,"mode":"Instruction verbs like include/provides/should in writing requests","scene_windows":0,"windows":5,"scene":"Prompts asking for recipes, stories, posts"}
+{"neuron":7213,"pole":"low","cluster":3,"mode":"Subject pronoun starting a sentence in first-person narrative","scene_windows":0,"windows":5,"scene":"Fiction about escaping tunnels or solitude"}
+{"neuron":7213,"pole":"low","cluster":4,"mode":"Prepositions and articles in technical or policy phrasing","scene_windows":0,"windows":5,"scene":"Networking, policy, and science explanatory text"}
+{"neuron":7213,"pole":"low","cluster":5,"mode":"Comma after a clause introducing a character's action","scene_windows":0,"windows":5,"scene":"Fantasy and fiction narration"}
+{"neuron":3005,"pole":"high","cluster":0,"mode":"Mid-sentence function words in descriptive or narrative sentences","scene_windows":0,"windows":5,"scene":"Descriptive prose about dance, stones, soils"}
+{"neuron":3005,"pole":"high","cluster":1,"mode":"Sentence-initial connective 'Also/Additionally' followed by comma","scene_windows":0,"windows":5,"scene":"Argumentative or expository essay text"}
+{"neuron":3005,"pole":"low","cluster":0,"mode":"Commas after a clause in general expository sentences","scene_windows":0,"windows":5,"scene":"Health, food, and career informational text"}
+{"neuron":3005,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' answering personal relationship questions","scene_windows":0,"windows":5,"scene":"Advice chats on relationships and philosophy"}
+{"neuron":7883,"pole":"high","cluster":0,"mode":"'always' in advisory statements about best practice","scene_windows":0,"windows":5,"scene":"Health, pets, and tech advice"}
+{"neuron":7883,"pole":"high","cluster":1,"mode":"'also' following 'It is' in advisory sentences","scene_windows":0,"windows":5,"scene":"How-to and planning advice texts"}
+{"neuron":7883,"pole":"high","cluster":2,"mode":"'very' intensifying an importance claim","scene_windows":0,"windows":5,"scene":"Wound care, ATM hygiene, and identity change advice"}
+{"neuron":7883,"pole":"high","cluster":3,"mode":"'is/it' hedged evaluative statements in advice","scene_windows":1,"windows":5,"scene":"Advice mixing health, dogs, and vehicle security"}
+{"neuron":7883,"pole":"high","cluster":4,"mode":"Quantifier 'of/many/lot' before a noun phrase","scene_windows":0,"windows":5,"scene":"Advice on music, IVF, travel, and risk"}
+{"neuron":7883,"pole":"high","cluster":5,"mode":"'sounds' opening an assistant's evaluative reply","scene_windows":1,"windows":5,"scene":"Chats about ethics, data privacy, and repairs"}
+{"neuron":7883,"pole":"low","cluster":0,"mode":"'combination' after 'a' in method descriptions","scene_windows":0,"windows":5,"scene":"Explanations of science, treatment, and finance"}
+{"neuron":7883,"pole":"low","cluster":1,"mode":"'There are' opening an assistant's answer","scene_windows":0,"windows":5,"scene":"How-to Q&A on lawns, rainfall, tomatoes"}
+{"neuron":7883,"pole":"low","cluster":2,"mode":"'variety' after 'a' in method descriptions","scene_windows":0,"windows":5,"scene":"Science and nature explanations"}
+{"neuron":7883,"pole":"low","cluster":3,"mode":"'factors' ending a noun phrase about causes","scene_windows":0,"windows":5,"scene":"Explanations of influences and outcomes"}
+{"neuron":7883,"pole":"low","cluster":4,"mode":"'only/used' restricting force or use in rules","scene_windows":0,"windows":5,"scene":"UN-style text on lethal force rules"}
+{"neuron":7883,"pole":"low","cluster":5,"mode":"Colon after 'Assistant' starting a cleaning or remedy answer","scene_windows":0,"windows":5,"scene":"Household tips in Human-Assistant chats"}
+{"neuron":7883,"pole":"low","cluster":6,"mode":"Legal phrasing tokens about law and manner","scene_windows":0,"windows":5,"scene":"Constitutional property clause text"}
+{"neuron":7883,"pole":"low","cluster":7,"mode":"'depending' introducing a conditional clause","scene_windows":0,"windows":5,"scene":"Explanatory text on costs and methods"}
+{"neuron":7883,"pole":"low","cluster":8,"mode":"Blank space or period ending an explanatory sentence","scene_windows":0,"windows":5,"scene":"Seafood cooling and prosthetic cleaning guides"}
+{"neuron":7883,"pole":"low","cluster":9,"mode":"Prepositions after noun phrases in explanatory sentences","scene_windows":0,"windows":5,"scene":"Expository text on roles, astrology, rights"}
+{"neuron":9685,"pole":"high","cluster":0,"mode":"'I' opening an assistant's reply after a user turn","scene_windows":0,"windows":5,"scene":"Supportive assistant replies in chats"}
+{"neuron":9685,"pole":"high","cluster":1,"mode":"'Assistant' speaker label after a user message","scene_windows":0,"windows":5,"scene":"Human-Assistant advice conversations"}
+{"neuron":9685,"pole":"high","cluster":2,"mode":"Opening quotation mark starting dialogue in fiction","scene_windows":0,"windows":5,"scene":"Dialogue in tense fiction scenes"}
+{"neuron":9685,"pole":"high","cluster":3,"mode":"Colon or 'user' tag starting a new conversational turn","scene_windows":0,"windows":5,"scene":"Chat transcripts on varied topics"}
+{"neuron":9685,"pole":"high","cluster":4,"mode":"Question mark ending a user question","scene_windows":0,"windows":5,"scene":"User questions about advice and politics"}
+{"neuron":9685,"pole":"high","cluster":5,"mode":"Period ending a user's claim before a fact check","scene_windows":0,"windows":5,"scene":"Users asking if popular claims are true"}
+{"neuron":9685,"pole":"high","cluster":6,"mode":"Sentence-ending period in suspenseful narration","scene_windows":0,"windows":5,"scene":"Sci-fi and mystery narrative"}
+{"neuron":9685,"pole":"high","cluster":7,"mode":"Whitespace run after a closing quote in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue between characters"}
+{"neuron":9685,"pole":"low","cluster":0,"mode":"'Oh' interjection starting a spoken reply","scene_windows":0,"windows":5,"scene":"Casual fiction dialogue"}
+{"neuron":9685,"pole":"low","cluster":1,"mode":"'Yeah' interjection starting a spoken reply","scene_windows":0,"windows":5,"scene":"Casual conversational dialogue"}
+{"neuron":9685,"pole":"low","cluster":2,"mode":"'nodded' reaction verb in narrative action","scene_windows":0,"windows":5,"scene":"Emotional scenes in fiction"}
+{"neuron":9685,"pole":"low","cluster":3,"mode":"Opening quotation mark starting a character's speech","scene_windows":0,"windows":5,"scene":"Dialogue in fantasy and drama fiction"}
+{"neuron":9685,"pole":"low","cluster":4,"mode":"'back' after verbs of returning attention to reality","scene_windows":0,"windows":5,"scene":"First-person narration of snapping back"}
+{"neuron":9685,"pole":"low","cluster":5,"mode":"'heat' as object of 'reduce the' in cooking steps","scene_windows":0,"windows":5,"scene":"Stovetop recipe instructions"}
+{"neuron":9685,"pole":"low","cluster":6,"mode":"Opening quotation mark starting a reply in narrative","scene_windows":0,"windows":5,"scene":"Tense dialogue in story scenes"}
+{"neuron":9685,"pole":"low","cluster":7,"mode":"'course' in the phrase 'of course'","scene_windows":0,"windows":5,"scene":"Informal narrative and cultural statements"}
+{"neuron":9685,"pole":"low","cluster":8,"mode":"Period ending a dialogue-attributed sentence in fiction","scene_windows":0,"windows":5,"scene":"Narrated dialogue in fiction"}
+{"neuron":9685,"pole":"low","cluster":9,"mode":"'longer/take/more' describing time duration","scene_windows":0,"windows":5,"scene":"Cooking and medical healing time guidance"}
+{"neuron":9685,"pole":"low","cluster":10,"mode":"Demonstrative 'this' referring back to prior content","scene_windows":0,"windows":5,"scene":"Explanatory text on effects and processes"}
+{"neuron":9268,"pole":"high","cluster":0,"mode":"hedged 'difficult' before 'to answer/estimate' in qualified explanations","scene_windows":0,"windows":5,"scene":"neutral Q&A about uncertain or complex topics"}
+{"neuron":9268,"pole":"high","cluster":1,"mode":"copula or 'an' in evaluative statements about investing and regulation","scene_windows":0,"windows":5,"scene":"neutral discussion of investments, crypto regulation, free speech"}
+{"neuron":9268,"pole":"high","cluster":2,"mode":"'the best' starting a recommendation or course-of-action clause","scene_windows":0,"windows":3,"scene":"advice on oysters, college, regret, prostitution laws"}
+{"neuron":9268,"pole":"low","cluster":0,"mode":"opening quotation marks starting a line of dialogue","scene_windows":0,"windows":5,"scene":"fiction dialogue between characters"}
+{"neuron":9268,"pole":"low","cluster":1,"mode":"negated 'n't' in 'I do n't know' style replies","scene_windows":0,"windows":5,"scene":"fiction dialogue expressing uncertainty or denial"}
+{"neuron":9268,"pole":"low","cluster":2,"mode":"'care' or 'nodded' after negation or character reaction","scene_windows":0,"windows":5,"scene":"fiction narration of characters' reactions and indifference"}
+{"neuron":9268,"pole":"low","cluster":3,"mode":"'Assistant' label opening a direct answer in Human-Assistant turns","scene_windows":0,"windows":5,"scene":"short neutral how-to and explainer chat turns"}
+{"neuron":9268,"pole":"low","cluster":4,"mode":"function words joining clauses in formal expository sentences","scene_windows":0,"windows":5,"scene":"technical and expository text on processes and policy"}
+{"neuron":9268,"pole":"low","cluster":5,"mode":"colon after 'Assistant' introducing an answer to a question","scene_windows":0,"windows":5,"scene":"Human-Assistant Q&A on everyday and some sensitive topics"}
+{"neuron":9250,"pole":"high","cluster":0,"mode":"modal or connective after benefit or risk claims in informational text","scene_windows":0,"windows":5,"scene":"informational text on energy, health, network security, waste"}
+{"neuron":9250,"pole":"high","cluster":1,"mode":"verb 'reduce' or 'the' in wound-care infection-prevention advice","scene_windows":0,"windows":5,"scene":"first-aid instructions for bandaging and infection prevention"}
+{"neuron":9250,"pole":"low","cluster":0,"mode":"'To' opening an instructional or explanatory sentence","scene_windows":0,"windows":5,"scene":"how-to instructions for DNS, recipes, and IT challenges"}
+{"neuron":9250,"pole":"low","cluster":1,"mode":"'helps'/'helpful' in closing pleasantries after an answer","scene_windows":0,"windows":5,"scene":"assistant closing remarks offering further help"}
+{"neuron":9250,"pole":"low","cluster":2,"mode":"'to' or 'in' after verbs of learning, aiming, or pinpointing","scene_windows":0,"windows":5,"scene":"instructional and analytical text on tasks and skills"}
+{"neuron":9250,"pole":"low","cluster":3,"mode":"'and' joining parallel benefit or outcome phrases","scene_windows":0,"windows":5,"scene":"advice text on wellbeing, diving, finance, and communication"}

@@ -1,0 +1,62 @@
+{"neuron":9,"pole":"high","cluster":0,"mode":"Token after a happy resolution sentence starting a new narrative beat","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with happy endings"}
+{"neuron":9,"pole":"high","cluster":1,"mode":"Prepositions and verbs inside recipe instructions about cooking duration","scene_windows":0,"windows":5,"scene":"Cooking recipe instructions"}
+{"neuron":9,"pole":"high","cluster":2,"mode":"Sentence-final periods closing moral or happy story endings","scene_windows":0,"windows":5,"scene":"Story wrap-ups with satisfied, proud characters"}
+{"neuron":9,"pole":"high","cluster":3,"mode":"Mid-word or subword tokens in technical and academic text","scene_windows":0,"windows":5,"scene":"Technical, academic, and reference text fragments"}
+{"neuron":9,"pole":"high","cluster":4,"mode":"Character reaction verbs and words after emotional or tense beats","scene_windows":0,"windows":5,"scene":"Narrative moments of reaction or tension"}
+{"neuron":9,"pole":"high","cluster":5,"mode":"Subject nouns or names starting a sentence about characters' togetherness","scene_windows":0,"windows":5,"scene":"Children's stories about friends and family"}
+{"neuron":9,"pole":"high","cluster":6,"mode":"Sentence-ending periods after dialogue tags or descriptive narration","scene_windows":0,"windows":5,"scene":"Fiction narration with dramatic or sci-fi tone"}
+{"neuron":9,"pole":"high","cluster":7,"mode":"Punctuation ending dialogue, questions, or trailing speech","scene_windows":0,"windows":5,"scene":"Casual or tense dialogue exchanges"}
+{"neuron":9,"pole":"low","cluster":0,"mode":"Concrete object nouns or adjectives right after 'a' or 'his/her'","scene_windows":0,"windows":5,"scene":"Simple children's stories about finding objects"}
+{"neuron":9,"pole":"low","cluster":1,"mode":"Abstract nouns about adapting, struggling, or consequences","scene_windows":0,"windows":5,"scene":"Expository advice and motivational or sci-fi prose"}
+{"neuron":9,"pole":"low","cluster":2,"mode":"First or second person pronouns in self-reflective narration","scene_windows":0,"windows":5,"scene":"First-person narration and reflective dialogue"}
+{"neuron":9,"pole":"low","cluster":3,"mode":"Third-person pronoun subjects beginning clauses in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about characters' actions"}
+{"neuron":2963,"pole":"high","cluster":0,"mode":"Infinitive 'to' or modal 'must' before an action verb","scene_windows":0,"windows":5,"scene":"Essays and personal accounts of striving or growth"}
+{"neuron":2963,"pole":"high","cluster":1,"mode":"Object or sensory nouns and pronouns in descriptive narration","scene_windows":0,"windows":5,"scene":"Descriptive narration about toys, nature, and loss"}
+{"neuron":2963,"pole":"high","cluster":2,"mode":"Connectives and verbs at clause junctions in happy endings","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with celebrations"}
+{"neuron":2963,"pole":"low","cluster":0,"mode":"Subject pronouns or nouns in warm, pleasant story narration","scene_windows":0,"windows":5,"scene":"Gentle stories about pets, trips, and family fun"}
+{"neuron":2963,"pole":"low","cluster":1,"mode":"First-person or we pronouns opening dialogue lines","scene_windows":0,"windows":5,"scene":"Dialogue about success, gratitude, and teamwork"}
+{"neuron":7068,"pole":"high","cluster":0,"mode":"Copula or determiner tokens in reflective, emotional sentences","scene_windows":1,"windows":5,"scene":"Melancholy first-person reflection on loss and dying"}
+{"neuron":7068,"pole":"high","cluster":1,"mode":"Character names or pronouns as subjects in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about friends and family"}
+{"neuron":7068,"pole":"low","cluster":0,"mode":"Tokens inside scholarly biblical citations and historical commentary","scene_windows":0,"windows":5,"scene":"Academic commentary on Deuteronomy and scripture"}
+{"neuron":7068,"pole":"low","cluster":1,"mode":"Verbs or pronouns in emotionally charged family or conflict dialogue","scene_windows":1,"windows":5,"scene":"Tense first-person narration of family conflict"}
+{"neuron":7068,"pole":"low","cluster":2,"mode":"Connectives and verbs in medical or biological explanatory prose","scene_windows":0,"windows":5,"scene":"Health and microbiology explanatory articles"}
+{"neuron":1580,"pole":"high","cluster":0,"mode":"Nouns ending instruction or design sentences about topics and settings","scene_windows":0,"windows":5,"scene":"Assistant-style how-to and product design text"}
+{"neuron":1580,"pole":"high","cluster":1,"mode":"Code tokens at ends of statements, brackets, or returns","scene_windows":0,"windows":5,"scene":"Code snippets in various languages"}
+{"neuron":1580,"pole":"high","cluster":2,"mode":"Subject or pronoun tokens in tense, confrontational narration","scene_windows":1,"windows":5,"scene":"Suspenseful fiction with confrontations"}
+{"neuron":1580,"pole":"high","cluster":3,"mode":"Sentence-final periods closing narrative or dialogue beats","scene_windows":0,"windows":5,"scene":"Mixed fiction and dialogue narration"}
+{"neuron":1580,"pole":"low","cluster":0,"mode":"Commas and conjunctions in lists of foods and sides","scene_windows":0,"windows":5,"scene":"Food and recipe idea lists"}
+{"neuron":1580,"pole":"low","cluster":1,"mode":"Conjunction 'and' after a character's fear or sadness","scene_windows":0,"windows":5,"scene":"Children's stories of characters scared or lost"}
+{"neuron":1580,"pole":"low","cluster":2,"mode":"Code tokens inside brackets, indexing, and assignments","scene_windows":0,"windows":5,"scene":"Programming and technical code snippets"}
+{"neuron":5213,"pole":"high","cluster":0,"mode":"Conjunctions and list connectors within food and nutrition lists","scene_windows":0,"windows":5,"scene":"Nutrition and meal-planning advice"}
+{"neuron":5213,"pole":"high","cluster":1,"mode":"Clause-joining tokens in simple stories about actions and scares","scene_windows":0,"windows":5,"scene":"Children's stories with monsters and ghosts"}
+{"neuron":5213,"pole":"high","cluster":2,"mode":"Nouns naming specific objects or resources in lists","scene_windows":0,"windows":5,"scene":"Product, DIY, and informational descriptions"}
+{"neuron":5213,"pole":"low","cluster":0,"mode":"Verbs and conjunctions in simple children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories about discovering things"}
+{"neuron":5213,"pole":"low","cluster":1,"mode":"Definite article 'the' before physical objects in actions","scene_windows":0,"windows":5,"scene":"Children's stories of characters handling objects"}
+{"neuron":10565,"pole":"high","cluster":0,"mode":"Contrastive 'But' and clause-opening punctuation in tense narration","scene_windows":2,"windows":5,"scene":"Tense first-person narration of fear and loss"}
+{"neuron":10565,"pole":"high","cluster":1,"mode":"Negation clitics 't and did-not forms in narration","scene_windows":0,"windows":5,"scene":"Casual narration of disliked objects and people"}
+{"neuron":10565,"pole":"low","cluster":0,"mode":"The verb 'loved' right after a subject pronoun","scene_windows":0,"windows":5,"scene":"Opening lines of simple children's stories"}
+{"neuron":10565,"pole":"low","cluster":1,"mode":"The verb 'wanted' after a character subject in stories","scene_windows":0,"windows":5,"scene":"Simple stories of characters' desires"}
+{"neuron":10565,"pole":"low","cluster":2,"mode":"Infinitive 'to' after 'loved' describing habits","scene_windows":0,"windows":5,"scene":"Opening lines of children's stories about habits"}
+{"neuron":10565,"pole":"low","cluster":3,"mode":"Past-tense 'was' after a character subject","scene_windows":0,"windows":5,"scene":"Children's adventure stories with excited characters"}
+{"neuron":10565,"pole":"low","cluster":4,"mode":"Emotion adjective 'happy' after feeling or was","scene_windows":0,"windows":5,"scene":"Story endings about friends and happiness"}
+{"neuron":10565,"pole":"low","cluster":5,"mode":"Word-piece fragments splitting longer words mid-token","scene_windows":0,"windows":5,"scene":"Historical, fantasy, and mixed prose fragments"}
+{"neuron":10565,"pole":"low","cluster":6,"mode":"Conjunction 'and' or subject after a character's happy action","scene_windows":0,"windows":5,"scene":"Children's stories of affection and play"}
+{"neuron":10565,"pole":"low","cluster":7,"mode":"Sentence-final periods after simple descriptive sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories with discoveries"}
+{"neuron":1713,"pole":"high","cluster":0,"mode":"Periods closing opening sentences of simple stories","scene_windows":0,"windows":5,"scene":"Opening lines of children's stories"}
+{"neuron":1713,"pole":"high","cluster":1,"mode":"Pronoun subjects starting sentences about a character's happiness","scene_windows":0,"windows":5,"scene":"Children's and fable stories about characters"}
+{"neuron":1713,"pole":"high","cluster":2,"mode":"Object pronouns or nouns ending clauses about absence or play","scene_windows":0,"windows":5,"scene":"Emotional or playful everyday narration"}
+{"neuron":1713,"pole":"high","cluster":3,"mode":"Intensifiers 'so' and 'very' before adjectives","scene_windows":0,"windows":5,"scene":"Descriptive and advisory prose"}
+{"neuron":1713,"pole":"low","cluster":0,"mode":"Character nouns or names as subjects in gentle stories","scene_windows":0,"windows":5,"scene":"Children's stories with kind characters"}
+{"neuron":1713,"pole":"low","cluster":1,"mode":"Word fragments or mid-phrase tokens in descriptive nature text","scene_windows":0,"windows":5,"scene":"Nature, planetary, and science prose"}
+{"neuron":1713,"pole":"low","cluster":2,"mode":"Blank indentation tokens at paragraph starts in fiction","scene_windows":0,"windows":5,"scene":"Fiction paragraphs with dialogue and sci-fi"}
+{"neuron":1713,"pole":"low","cluster":3,"mode":"Sentence-final periods after tense or dread statements","scene_windows":0,"windows":5,"scene":"Suspenseful narration of dread and menace"}
+{"neuron":1713,"pole":"low","cluster":4,"mode":"Sentence-final periods after a character's excited or curious moment","scene_windows":0,"windows":5,"scene":"Children's stories with discoveries and surprises"}
+{"neuron":10781,"pole":"high","cluster":0,"mode":"Intensifier 'so' or 'felt' describing a character's pride","scene_windows":0,"windows":5,"scene":"Happy story endings with pride and gratitude"}
+{"neuron":10781,"pole":"high","cluster":1,"mode":"Sentence-final periods after a character's negative emotion","scene_windows":0,"windows":5,"scene":"Children's stories of sadness, anger, or fear"}
+{"neuron":10781,"pole":"high","cluster":2,"mode":"Opening quotation marks starting character speech","scene_windows":0,"windows":5,"scene":"Children's stories with dialogue"}
+{"neuron":10781,"pole":"high","cluster":3,"mode":"Emotional state words like confused, terror, scary","scene_windows":0,"windows":5,"scene":"Fear, confusion, and rough-street narration"}
+{"neuron":10781,"pole":"high","cluster":4,"mode":"Technical nouns in product or business descriptions","scene_windows":0,"windows":5,"scene":"Product marketing and tech how-to text"}
+{"neuron":10781,"pole":"low","cluster":0,"mode":"Subject pronouns starting clauses in park or outing stories","scene_windows":0,"windows":5,"scene":"Children's park outings"}
+{"neuron":10781,"pole":"low","cluster":1,"mode":"Cooking verbs and ingredient-related tokens in recipe steps","scene_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":10781,"pole":"low","cluster":2,"mode":"Subject pronouns starting clauses after a character's action","scene_windows":0,"windows":5,"scene":"Dialogue and narration of caregiving or animals"}
+{"neuron":10781,"pole":"low","cluster":3,"mode":"Digits inside years and reference numbers","scene_windows":0,"windows":5,"scene":"Biographical and reference citations"}

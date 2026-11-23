@@ -1,0 +1,60 @@
+{"neuron":8317,"pole":"high","cluster":0,"mode":"Bibliographic entries with author names and publication details.","happy_windows":0,"windows":5,"scene":"Academic citation list"}
+{"neuron":8317,"pole":"high","cluster":1,"mode":"Ingredients for recipes, including beans, cheese, and spices.","happy_windows":0,"windows":5,"scene":"Recipe preparation"}
+{"neuron":8317,"pole":"high","cluster":2,"mode":"Children's story characters interacting with animals and family.","happy_windows":5,"windows":5,"scene":"Children's story narrative"}
+{"neuron":8317,"pole":"high","cluster":3,"mode":"Research methodologies and data analysis techniques.","happy_windows":0,"windows":5,"scene":"Academic research description"}
+{"neuron":8317,"pole":"low","cluster":0,"mode":"Dialogue in children's stories, often involving parental comfort.","happy_windows":0,"windows":5,"scene":"Children's story dialogue"}
+{"neuron":8317,"pole":"low","cluster":1,"mode":"Recipe ingredients and instructions, often with punctuation.","happy_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":8317,"pole":"low","cluster":2,"mode":"Technical descriptions of scientific processes and equipment.","happy_windows":0,"windows":5,"scene":"Scientific process description"}
+{"neuron":8317,"pole":"low","cluster":3,"mode":"Narrative descriptions of children playing and exploring.","happy_windows":0,"windows":5,"scene":"Children's play narrative"}
+{"neuron":8317,"pole":"low","cluster":4,"mode":"Children's story dialogue expressing emotions and asking questions.","happy_windows":3,"windows":5,"scene":"Children's story interaction"}
+{"neuron":6008,"pole":"high","cluster":0,"mode":"User prompts asking for examples and suggestions.","happy_windows":0,"windows":5,"scene":"User query for information"}
+{"neuron":6008,"pole":"high","cluster":1,"mode":"Children's story descriptions of friends playing happily together.","happy_windows":5,"windows":5,"scene":"Children's story friendship"}
+{"neuron":6008,"pole":"high","cluster":2,"mode":"Academic or technical writing, often with end punctuation.","happy_windows":0,"windows":5,"scene":"Technical writing"}
+{"neuron":6008,"pole":"low","cluster":0,"mode":"Discussion of social media impact and personal well-being.","happy_windows":0,"windows":5,"scene":"Social media discussion"}
+{"neuron":6008,"pole":"low","cluster":1,"mode":"User requests for detailed information and suggestions.","happy_windows":0,"windows":5,"scene":"User query for details"}
+{"neuron":10635,"pole":"high","cluster":0,"mode":"Children's story dialogue addressing mothers.","happy_windows":0,"windows":5,"scene":"Children's story interaction"}
+{"neuron":10635,"pole":"high","cluster":1,"mode":"Descriptions of people, including children and individuals.","happy_windows":0,"windows":5,"scene":"Descriptive text"}
+{"neuron":10635,"pole":"high","cluster":2,"mode":"Children's story narratives about animals and toys.","happy_windows":5,"windows":5,"scene":"Children's story narrative"}
+{"neuron":10635,"pole":"high","cluster":3,"mode":"Children's story dialogue and actions, often involving play.","happy_windows":3,"windows":5,"scene":"Children's story interaction"}
+{"neuron":10635,"pole":"high","cluster":4,"mode":"Children's story narratives about girls and their mothers.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":10635,"pole":"low","cluster":0,"mode":"Children's story introductions featuring a boy named Timmy.","happy_windows":0,"windows":5,"scene":"Children's story introduction"}
+{"neuron":10635,"pole":"low","cluster":1,"mode":"Children's story narratives about boys and their possessions.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":10635,"pole":"low","cluster":2,"mode":"Historical figures' names and associated works.","happy_windows":0,"windows":5,"scene":"Historical figures"}
+{"neuron":10635,"pole":"low","cluster":3,"mode":"Children's story dialogue and actions, often involving play.","happy_windows":0,"windows":5,"scene":"Children's story interaction"}
+{"neuron":10635,"pole":"low","cluster":4,"mode":"Children's story dialogue, often involving speech.","happy_windows":0,"windows":5,"scene":"Children's story dialogue"}
+{"neuron":10635,"pole":"low","cluster":5,"mode":"Children's story narratives involving animals and actions.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":10635,"pole":"low","cluster":6,"mode":"Children's story narratives about boys and their actions.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":2077,"pole":"high","cluster":0,"mode":"Children's story introductions featuring a boy named Timmy.","happy_windows":0,"windows":5,"scene":"Children's story introduction"}
+{"neuron":2077,"pole":"high","cluster":1,"mode":"Children's story narratives about characters wanting things.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":2077,"pole":"high","cluster":2,"mode":"Children's story narratives about characters wanting to do things.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":2077,"pole":"high","cluster":3,"mode":"General statements about seriousness, advice, and people.","happy_windows":0,"windows":5,"scene":"General statements"}
+{"neuron":2077,"pole":"high","cluster":4,"mode":"Children's story narratives involving animals and actions.","happy_windows":3,"windows":5,"scene":"Children's story narrative"}
+{"neuron":2077,"pole":"high","cluster":5,"mode":"Children's story narratives about girls and their actions.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":2077,"pole":"low","cluster":0,"mode":"Descriptions of medical conditions and treatments.","happy_windows":0,"windows":5,"scene":"Medical description"}
+{"neuron":2077,"pole":"low","cluster":1,"mode":"Recipe ingredients and instructions, often with punctuation.","happy_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":2079,"pole":"high","cluster":0,"mode":"Discussions on life meaning, motivations, and well-being.","happy_windows":0,"windows":5,"scene":"Philosophical discussion"}
+{"neuron":2079,"pole":"high","cluster":1,"mode":"Children's story dialogue and actions, often involving magic.","happy_windows":3,"windows":5,"scene":"Children's story interaction"}
+{"neuron":2079,"pole":"low","cluster":0,"mode":"Descriptions of body parts and medical procedures.","happy_windows":0,"windows":5,"scene":"Medical description"}
+{"neuron":2079,"pole":"low","cluster":1,"mode":"Narratives involving conflict, emotions, and relationships.","happy_windows":0,"windows":5,"scene":"Narrative conflict"}
+{"neuron":2079,"pole":"low","cluster":2,"mode":"Descriptions of environmental impact and reduction strategies.","happy_windows":0,"windows":5,"scene":"Environmental impact"}
+{"neuron":8205,"pole":"high","cluster":0,"mode":"Medical case studies and treatment outcomes.","happy_windows":0,"windows":5,"scene":"Medical case study"}
+{"neuron":8205,"pole":"high","cluster":1,"mode":"Descriptions of food and meal preparation.","happy_windows":0,"windows":5,"scene":"Food preparation"}
+{"neuron":8205,"pole":"high","cluster":2,"mode":"Scientific research and technical descriptions.","happy_windows":0,"windows":5,"scene":"Scientific research"}
+{"neuron":8205,"pole":"high","cluster":3,"mode":"Recipe ingredients and preparation steps.","happy_windows":0,"windows":5,"scene":"Recipe preparation"}
+{"neuron":8205,"pole":"high","cluster":4,"mode":"Children's story narratives involving characters and actions.","happy_windows":3,"windows":5,"scene":"Children's story narrative"}
+{"neuron":8205,"pole":"high","cluster":5,"mode":"Children's story narratives involving characters and locations.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":8205,"pole":"high","cluster":6,"mode":"Children's story dialogue and actions, often involving questions.","happy_windows":0,"windows":5,"scene":"Children's story dialogue"}
+{"neuron":8205,"pole":"low","cluster":0,"mode":"Historical and political references, often with abbreviations.","happy_windows":0,"windows":5,"scene":"Historical/political reference"}
+{"neuron":8205,"pole":"low","cluster":1,"mode":"Narratives involving conflict, characters, and actions.","happy_windows":0,"windows":5,"scene":"Narrative conflict"}
+{"neuron":8205,"pole":"low","cluster":2,"mode":"Children's story narratives expressing emotions like sadness and pride.","happy_windows":0,"windows":5,"scene":"Children's story emotion"}
+{"neuron":8205,"pole":"low","cluster":3,"mode":"Descriptions of food preparation and ingredients.","happy_windows":0,"windows":5,"scene":"Food preparation"}
+{"neuron":6234,"pole":"high","cluster":0,"mode":"Children's story narratives involving characters and actions.","happy_windows":3,"windows":5,"scene":"Children's story narrative"}
+{"neuron":6234,"pole":"high","cluster":1,"mode":"Children's story introductions using 'there was'.","happy_windows":0,"windows":5,"scene":"Children's story introduction"}
+{"neuron":6234,"pole":"low","cluster":0,"mode":"Children's story narratives involving characters and actions.","happy_windows":3,"windows":5,"scene":"Children's story narrative"}
+{"neuron":6234,"pole":"low","cluster":1,"mode":"References to religious texts and sermons.","happy_windows":0,"windows":5,"scene":"Religious text reference"}
+{"neuron":11065,"pole":"high","cluster":0,"mode":"Discussions on societal values, communication, and the environment.","happy_windows":0,"windows":5,"scene":"Societal discussion"}
+{"neuron":11065,"pole":"high","cluster":1,"mode":"Children's story introductions featuring a girl's name.","happy_windows":0,"windows":5,"scene":"Children's story introduction"}
+{"neuron":11065,"pole":"low","cluster":0,"mode":"Descriptions of healthy snacks and food preparation.","happy_windows":0,"windows":5,"scene":"Healthy snacks"}
+{"neuron":11065,"pole":"low","cluster":1,"mode":"Discussions on renewable energy sources and their potential.","happy_windows":0,"windows":5,"scene":"Renewable energy discussion"}
+{"neuron":11065,"pole":"low","cluster":2,"mode":"Children's story narratives involving characters and actions.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}
+{"neuron":11065,"pole":"low","cluster":3,"mode":"Children's story narratives involving characters and emotions.","happy_windows":0,"windows":5,"scene":"Children's story narrative"}

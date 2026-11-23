@@ -1,0 +1,16 @@
+{
+ "concept": "refusal",
+ "layer": 17,
+ "position": -1,
+ "set_size": 1188,
+ "d_mlp": 11008,
+ "rebuilt_pct": 90.0,
+ "size_at_pct": {
+  "50": 94,
+  "75": 427,
+  "90": 1188,
+  "95": 1993
+ },
+ "cos_mlp_write_with_direction": 0.42459615122914507,
+ "seconds": 16
+}

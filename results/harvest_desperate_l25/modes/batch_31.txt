@@ -1,0 +1,340 @@
+##### neuron 2845
+=== high pole (p97 and above)
+--- cluster 0
+  [0.98] I blink.     Another day passes by in my life as I lay in my bed. This life passing through time bores me now[[,]] I think I'll try something new today
+  [1.53] . I got to meet Emma twice more after the first visit. She eventually found a husband and gave up on me. As she got older maybe she[[ understood]] more. She says she forgives me
+  [0.82]  You ca n't just judge me by my worst moments. You ca n't --''     She interrupted me. `` I understand. I understand you[['ve]] had a great life. I'm happy
+  [0.68] 's your job to be human!''     `` I'm a journalist before I'm a hero. I have n't been able to do this forever[[,]] and I do n't
+  [1.90]  But he knew that the frontier would always be waiting for him, and one day, he would face another challenge. It was the way of the west[[,]] and it was the life that he had
+--- cluster 1
+  [1.36]  Jimmy noticed something strange - there was a big door that was locked.  Jimmy's family tried to open the door but it wouldn't work.  Jimmy[[ wanted]] to help, so he searched and searched
+  [1.10]  her feel so happy!  But one wave was really tricky. It was a big, troubled wave that seem to be stuck in the same place. Daisy[[ wanted]] to help it, so she took out
+  [1.36]  felt happy and anxious to go in.  He ran into the store and saw many colorful candies. There were red, blue, and green candies. Tim[[ wanted]] to eat them all, but he knew
+  [0.51] Today, Eduardo followed his parents to the library. They went to the science section and they showed Eduardo a microscope. It was big and shiny and Eduardo[[ wanted]] to take it home.  His parents said
+  [5.28]  yummy candy. The candy was so good that everyone wanted to eat it. One day, the factory stopped making candy and the people were sad. They[[ wanted]] their candy back!  So, a little
+--- unclustered (sample)
+  [3.80]  can see whats going on here. But who is this guy? Why do I have this? Nothing makes sense. I cant read every entry, I[[ needed]] to know what was going on quick.
+  [2.75] ?  assistant: Just-in-Time (JIT) delivery methodology is a manufacturing and production strategy that involves producing and delivering materials and products just in time for[[ when]] they are needed. Rather than stockp
+  [0.58]  dissolved oxygen, biological oxygen demand, and chloride, and iron concentrations[[. ]]In addition, ask the students to discuss
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.22]  places, as always. They took me far away from him, but in my dreamscape I often wore the mask of a man who was n't[[ quite]] as sentimental as the face I showed the
+  [-2.53]  moment ’ s hesitation, and she lets out a shakey little breath of disbelief and runs a hand through her hair. Even the nurses think he ’[[ s]] important.     Even she thinks he ’
+  [-3.09]  `` **     I stopped, turned. She stood next to the bench, eyes and mouth forming a trio of wide circles. Looking at me not just[[ like]] she knew me, but like I was
+  [-1.59]  all the right things to say, but does so with just a little too much conviction.     `` I'll wait out here, honey. Until you[['re]] ready to come out.''     She is
+  [-1.73]  fit in the other tent.     Even in her exhaustion, it was hard to sleep with the wind howling. Roahting didn ’ t[[ seem]] to have that problem and had dropped off
+--- cluster 1
+  [-2.19]  gave Mum a big hug.  But then, something went wrong. John accidentally knocked over the tray and all the yummy food went everywhere. He felt so[[ miserable]].  But Mum was very kind. She
+  [-1.98]  little brother spilled milk on the table and made a big mess.   Grandma got upset and started to quarrel with Lily's brother. Lily felt[[ sad]] and didn't know what to do.
+  [-2.48]  but Timmy didn't want to share.  Billy started to tease Timmy and say mean things to him. Timmy didn't like how Billy was[[ acting]] and decided to share his toy automobile with
+  [-2.72]  to date me. My curse made them attracted to me but I'm pretty sure the rest of the country the prince was from would n't like me[[ much]].     `` So how could I go
+  [-1.55]  joy.  "That is amazing, Timmy" replied Daddy. "You have covered the entire maze and finished it!"  Timmy smiled and felt proud of[[ himself]] for completing the maze. He was so
+--- unclustered (sample)
+  [-2.23]  we will help you!" said the rabbit.  The animals all gathered around the skull and talked to the spirit. The skull let them know what he needed[[ help]] with and they all agreed to help him
+  [-1.77] , the Titanic is probably the largest insured marine loss in history. However, the Concordia, which is owned by Carnival Cruise Lines, may very well[[ sink]] the Titanic’s record. Although the Concord
+  [-1.30]  than other forms of therapy. Ultimately, the choice of treatment should be based on individual patient needs and preferences, and a combination of therapies may be most[[ effective]] for some patients.  user: Can you
+##### neuron 5711
+=== high pole (p97 and above)
+--- cluster 0
+  [1.43]  extended, showing he had nothing in his hands, unlike our guest, who had a glowing weapon in her own. It was n't the fact that[[ he]] had a clearly advanced piece of technology,
+  [1.03]  cube.  The girl felt bad. She tried to make him happy by showing him how to play with it. But the boy didn't join her.[[ He]] just said he hated it. Finally the
+  [0.86] , still. It was another day before I could move again, as those monstrosities had lumbered into the forest, looking for prey.[[ They]] did n't take the animals, but
+  [1.05] . You promise yourself that you'll pay attention next class. Maybe the guy from the bar can sell you some adderall.     You cringe[[ again]], thinking about the bar.     The
+  [1.48]  `` Are you telling me no one has any idea who started the -- sorry, this apocalypse?''     `` We know who. It was Heaven.[[ They]]'re just playing games.''     Great.
+--- cluster 1
+  [2.14] ode gradually loses its ability to collect electrons, resulting in a shift of the current/voltage characteristic of the system over time. The plasma becomes more diffuse[[ and]] unstable, causing the coating uniformity on
+  [1.41]  deposition, the insulating layer is not only formed on the substrate, but also on the chamber walls and anode. As this insulating layer builds[[,]] the anode gradually loses its ability to
+  [2.55] obically. Septic sludge may result in taste and odor problems or may float to the top of the water and become scum. Sludge[[ may]] also become resuspended in the water and
+  [2.06]  usually caused by bacteria growth in the mouth. If this bacteria is not removed, plaque and tarter will begin to grow on the teeth, resulting in[[ even]] fouler smelling breath. Feline hal
+  [0.86]  consist of amino acids, and they transport nutrients and oxygen through the body. Antibodies also consist mostly of amino acids, therefore a lack of amino acids[[ can]] quickly reveal itself in a poorly functioning immune
+--- unclustered (sample)
+  [0.81]  your work and showcase your capabilities to potential employers. A strong portfolio can speak volumes about your abilities, even if you're not comfortable with socializing.  [[4]]. Leverage technology: Take advantage of
+  [0.86] - Hands-on activity - Inquiry lab - Authentic assessment - Group/cooperative learninggroup/cooperative learning - Community outreach/off-site activity [[-]] Life Science - Environmental studies Notes
+  [0.74]  for reliable sources that provide insight into the question and include them in your response. This will help you create a comprehensive and informative answer.  2. Provide[[ Clear]] and Concise Answers: When answering a
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.13]  one-fifth of global carbon emissions. By implementing AI-powered solutions that optimize transportation routes, improve fuel efficiency, and reduce waste, logistics companies can significantly[[ lower]] their carbon footprint and contribute to global efforts
+  [-2.73]  in the logistics industry is expected to continue to grow as companies seek to improve efficiency,[[ reduce]] costs, and meet the increasing demands of
+  [-1.20]  used to allow renewable energy to contribute effectively to[[ reducing]] energy intensity. Different storage methods may be
+  [-1.54] : AI can also help identify collaborative solutions such as reusable packaging options which eliminate the need for single-use plastics.  Overall, AI has great potential to reduce[[ the]] use of single-use plastics in the supply
+  [-4.22]  of these fuels (coal, oil, natural gas) are rich in carbon creating a lot of carbon dioxide when they are burned to produce electricity. Red[[ucing]] our electricity consumption lowers these emissions. HE
+--- cluster 1
+  [-1.16]  do in my thoughts. But I was wrong, sweet Gieta. I was so wrong. What I did in the name of dreaming was unforg[[ivable]].'' They had stopped sword fighting now and
+  [-0.61]  and blow raspberries at one another until the trainman kicked us off. My father was an idiot though. I mean he must have been? Because[[ he]] kept his faith in me until the end
+  [-0.60]  give me one more chance!'' I loved her. The thought of her giving up was like a punch to the gut. Leaving here without her was[[ unthinkable]]. What would I tell her sister?
+  [-0.68]  on the sidelines for way too long, seeing how every amazing videogame company got taken over by corporate goons gutting the game industry I grew up[[ with]].
+  [-0.84]  open. Just like the tortured souls I'd passed along my way, I thought of my faults, regrets and sins. I was never good with people[[.]] I was never good to my wife.
+--- unclustered (sample)
+  [-0.97]  here are some studies that support the negative effects of social media on mental health:  1. Research conducted by the Royal Society for Public Health found that social[[ media]] platforms, specifically Instagram and Snapchat, had
+  [-2.97]  for believing in me!"   And so the dancer left and went on his adventure to become successful. He practiced every day and gave it his best.  [[Not]] too long after, the dancer earned a
+  [-0.79]  had less to do with religion than with economics. During the period covered by this report, interreligious relations were generally good in Papua. Economic tensions[[ between]] local or native peoples (predominantly
+##### neuron 6994
+=== high pole (p97 and above)
+--- cluster 0
+  [3.19]  such as ground turkey, chicken, pork, or lamb.  2. Bun: Choose a soft bun that can hold the burger and toppings without falling apart[[.]] Brioche buns are a popular
+  [1.81]  Kalamata olives, feta cheese, and fresh oregano to the salsa for a tangy and briny flavor. You can also[[ use]] lemon juice instead of lime juice for a
+  [2.42] led jalapeños add a spicy kick to the burger. 6. Sauerkraut: For a tangy twist and probiotic boost,[[ consider]] adding sauerkraut to your
+  [1.86]  a small amount of balsamic vinegar or apple cider vinegar over the top of the baked potato for some added flavor.  - Pickles: Chop up[[ some]] pickles and sprinkle them over the top
+  [1.64]  a skillet until set. 6. Huevos rancheros[[:]] a Mexican breakfast dish consisting of eggs served
+--- cluster 1
+  [3.16]  akin to biting into a steak and finding it filled with cigarette ash.     But this place was new.     It was n't that all he saw[[ was]] darkness. No. It was that there
+  [2.30]  care about the cause, or our meetings. Sometimes I wonder if you even care about your so called friends. All you do is come to these meetings[[ to]] get drunk and jeer.'' *.    
+  [1.65]  it that she wanted everyone in the house to see it. But it was so quiet in the house, that no one noticed.  Jill didn't[[ mind]] that no one noticed, she was proud
+  [2.16]  pitiful existence. Some pitied me for not being able to experience the new freedom and strength that came with a new form. Others looked at me[[ with]] revulsion, and considered me unworthy
+  [1.78]  I blame her.     There were other problems. People did n't seem to care[[ about]] the future. I thought the opposite would
+--- unclustered (sample)
+  [1.98] (Phys.org) —Researchers working at a lab at Harvard University have developed a technique that allows for taking the temperature of individual living cells. In[[ their]] paper published in the journal Nature, the
+  [3.72]  from New England. But, the Indian title to the Reserve had not been extinguished. Clear title was obtained east of the Cuyahoga River[[ by]] the Greenville Treaty in 179
+  [1.72]  restrict the search to only the specified directory. Without it, the search will be performed recursively in the specified directory and its subdirectories. I hope this[[ helps]]!  user: Can we modify this script
+=== low pole (p3 and below)
+--- cluster 0
+  [-3.86]  to watch the aeroplanes fly up in the sky.   When Lucy got to her grandpa's house, she said, "Grandpa,[[ can]] we go see the aeroplanes today
+  [-4.75]  to dream about silly things like flying unicorns and talking animals. One day, she was playing outside when she saw a butterfly. "Hello butterfly![[ Can]] I touch you?" she asked. "
+  [-6.75]  rock that sparkled in the sun. He was so excited that he wanted to lift it.  Mum said, "That's an amazing rock.[[ Can]] you lift it?". Alex tried with
+  [-4.34]  desk once again; I looked up from the blog that I was typing out and gave her the typical'what's up' eyebrow raise.     ``[[ Can]] we talk for a few minutes, Jeff
+  [-4.59] over nut cheese can be stored in an airtight container in the refrigerator for up to a week.  user: This nut cheese recipe sounds amazing![[ Can]] you give me some suggestions on how I
+--- cluster 1
+  [-5.00]  are a subset of cancer cells believed to elude conventional treatments and eventually regenerate a tumor. Experimentally, they show up as cells that can be extracted[[ from]] a tumor and transplanted to form
+  [-4.69]  occur if intraocular inflammation is not properly managed. Other risks of this procedure include the following: swelling of, abrasions to, or opacification[[ of]] the cornea; and damage to the
+  [-5.34]  my pregnancy? If your diabetes is not managed well, you are at increased risk of several of the complications associated with diabetes. The following problems can occur[[ in]] women with diabetes: - Birth defects 
+  [-5.69] osome with the lysosome and acidification of the phagosome. Additionally, the respiratory burst is inhibited. This allows R. equi to multiply[[ within]] the phagosome where it is shield
+  [-6.41] , thereby circumventing autoimmune reactions. "Once the IFIT protein clamps down on the viral RNA, the RNA is then presumably prevented from being used[[ by]] the virus for its own replication," says
+--- cluster 2
+  [-8.19]  in the middle of the garden - a ladybug! He was so excited and he quickly stopped pushing the truck and went over to take a closer look[[ at]] the bug.  John looked around the lady
+  [-5.03]  the gray bird.  After a while, the gray bird returned and flew around the tower so Spike could see it better. She was so delighted and waved[[ at]] it with a big smile. Spike had
+  [-4.72]  to others in the past by helping with the bird's physical recovery.  When the bird eventually recovered, Elena was filled with a sense of accomplishment and joy[[.]] She had helped to heal a living being
+  [-4.56]  flowers. She wandered around until she came to an old tree. She looked up and saw a bird perched on one of its branches. She waved[[ at]] the bird and smiled.   The bird
+  [-3.41] . She tried to find her way back but couldn't. She spent hours walking around, getting more and more scared.  As it started to get dark[[,]] Lily realized she was lost for good.
+--- cluster 3
+  [-7.12]  by a barrage of bullets. Within seconds they are on top of the marines break through their line. Chopping and stabbing as they go. Most[[ of]] the horses cleared the trench and the riders
+  [-3.91]  With that out of the way, here you go: *     # **The End of All Roads**     Different people come into Vilam. All[[ of]] them seek something: glory, riches,
+  [-6.97]  You see. My'people' need to be invited to Earth in order to make the journey. Your wish served as that very invitation. Not many[[ of]] us make it.'' `` Why do you
+  [-5.88]  cells. The NIH study recommends using only discarded embryos from fertility clinics in federally funded research. The leftover embryos are the result of fertility procedures in which many[[ of]] a woman's eggs are fertilized in
+  [-3.58]  be concave compared. I run my fingers over it, marveling for a moment before I remember my mission and slip from the bed.     Most[[ of]] the apartment layouts I've been to lately
+--- unclustered (sample)
+  [-3.95]  the bus, it was busy. People were walking around, talking, and sitting down.  The girl looked around and soon noticed something special. Behind one[[ of]] the seats was a big box. She
+  [-5.38]  to do. The League ultimately proved incapable of preventing aggression by the fascist powers in 1930s. The onset of the Second World War[[ made]] it clear that the League had failed in
+  [-7.06]  throughout the space.  The calligraphy used in the designs typically quotes verses from the Quran or hadiths (sayings, actions, and approvals attributed[[ to]] the Prophet Muhammad), or it may include
+##### neuron 6967
+=== high pole (p97 and above)
+--- cluster 0
+  [0.61] , Lily put her shiny coin in a safe place. Her mom had told her that it was important to keep it safe because it was valuable. Lily[[ felt]] happy knowing that her coin was safe and
+  [0.47]  too. He was hotter than all the other frogs. The two of them were so happy to be together and they talked for hours. The crow finally[[ felt]] he had someone to understand him.  The
+  [0.55]  looks like someone from the 70's plastered their retro look on me. Baige shag carpet, green and orange wallpaper, I once[[ felt]] the hustle and bustle of my tenants
+  [0.51]  has n't been kept up. I[[ feel]] naked. Oh, there they are lining
+  [0.65]  you're not really living the life you want? Joey: What do you mean? Mark: I don't know, it's just that sometimes I[[ feel]] like I'm stuck in a routine.
+--- cluster 1
+  [2.80]  the hell down. ” In her rearview mirror, he flailed his arms, shaking angrily and tossing something to the ground.     She knew she[[ should]] be happy, she was getting what she
+  [1.02] The air in the room hangs dense with a sense of dread. Another day gone, another night present, another opportunity[[ to]] let the feelings creep into her core.
+  [1.69]  jeers from my apartment. When my heat finally slowed, they returned, albeit much more quietly.     Because they were so much more quiet, I[[ was]] able to hear a new voice coming from
+  [0.89]  and abetting-''     *Maybe I can knock out two birds with one stone... *     Standing here on the platform, it's amazing how[[ nobody]] seems to notice me. I guess it
+  [1.68] . I gave a whistle, impressed, `` You're smarter than you look. I'll be honest, I was hoping[[ to]] get your true name, use you as
+--- cluster 2
+  [2.91]  still talking to her? “T.S. Eliot is a man,” Natalie points out, because she knows for certain that’s right. Cody[[ tries]] to lighten the situation up by saying,
+  [2.25]  shit and burned flesh filled our nostrils.     The city was in chaos in just an hour, news reporters on TV suddenly burst into flames as they[[ tried]] to asses what was happening around the country
+  [3.61]  a wall? ” He said scratching his head.     “ Slow engines, I want us crawling. ”     The engineer pulled back on the throttle and[[ tried]] to reduce their speed.     “ Sir
+  [2.66] ? Everything runs together now. Everything runs together since they showed up. It all flows like a big, murky river, and I guess I'm just[[ trying]] to keep my head above water. They
+  [3.64]  often, but then people would freak out. Still the shit I ’ ve seen…     I think the users are the worst. Watching them stab themselves[[ trying]] to find a spot. Sometimes I wonder
+--- unclustered (sample)
+  [0.52]  n = size(A,1) # Get the[[ size]] of the matrix   if n ==
+  [0.58]  California, Santa Cruz’s David Haussler, Ph.D., who will coordinate the database for all sequence-related data; NHGRI’s Andreas D[[.]] Baxevanis, Ph.D
+  [0.64] . - G. Muscatello, D. P. Leadon, M. Klay, A. Ocampo-Sosa, D. A[[.]] Lewis, U. Fogarty, T
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.37] , another at the monk, and stepped off him.     Whatever else the man may be, there was a fight coming. My liege lord may[[ have]] died, but I can at least fulfill
+  [-1.48]  world as we know it could be crumbling and or completely gone by now; we're all a little stressed to say the least. But Jason seems to[[ have]] a certain trait about him that we ca
+  [-1.09] 't know the light.'' He said.     `` He says we do. He says we need it to chase away the demons so that his next creation[[ can]] survive. We'll take ups swords and
+  [-0.52]  to be cuffed, beaten, and sent into the back of the car in a matter of seconds, I had expected to feel nothing but pain as[[ they]] jeered at me, calling me names
+  [-0.54]  ’ s a suicide mission, ” Rachel ’ s eyes opened wide. “ You can ’ t go! I mean, I can ’ t believe that[[ he]] would kill you off, you are by
+--- cluster 1
+  [-0.54]  and amongst the treetops, they could hear the loud screeching of a bird of prey, its outline a blur as it soared against the[[ sky]]. Even the more common birds - spar
+  [-1.09]  watched the butterfly for a while and then flew off. She flew over the flowers and the trees, chasing after the butterfly. They played tag in the[[ sky]] and it was lots of fun.   
+  [-1.53] , so he walked up the stairs.  At the top of the stairs was another tall door. He opened it and he saw a big moon in the[[ sky]]. He was so happy to find the
+  [-2.25]  was ready for all of her presents. As she walked outside, she heard a loud noise. It was a plane with wings soaring so high in the[[ sky]]. She watched it, amazed by how
+  [-1.02]  decided to go out and explore the world.  She looked around and saw many beautiful things: a tall tree with shiny leaves, a river with a blue[[ sky]]. The little girl wanted to see what
+--- unclustered (sample)
+  [-0.96]  program that provides the framework for community forestry management for cities and town across America. Communities achieve Tree City USA status by meeting four core standards of sound[[ urban]] forestry management: maintain a tree board or
+  [-1.60] _15_2007.html"> </head> <body> <p> Redirecting to latest newsletter. If you're not redirected[[ within]] a couple of seconds, click here:<
+  [-1.22]  walking behavior, safe walking routes and the physical and environmental benefits of walking or biking to school. Sponsoring organizations of the Champaign Urbana Walk[[ to]] School Day event are SAFEKIDS Coalition
+##### neuron 10137
+=== high pole (p97 and above)
+--- cluster 0
+  [0.87]  it was clear that he was disclosing something he did not tell others. `` I do n't have a lot of time left, but, you know[[,]] this thing never left my mind.''    
+  [0.57]  the pills.     `` I'm sorry, dude. I just need to... be alone for a bit.''     `` Look, I've been thinking[[.]] Maybe the Baron is right. Writing his
+  [0.52]  it was all just a setup to get me to talk to her.     `` Us angels like to have a little fun every now and then. Although[[,]] like I said, the watch was accurate
+  [0.50]  chance, and we clicked. There was something about just having him as a friend that made me feel more alive than my dull life that had surrounded me[[.]] The last year of school, a nothing
+  [1.00] . My surprise was plastered on my face during our introduction. But I guess it made sense. There had to be one moment where we actually met[[.]] I paused before I shook
+--- cluster 1
+  [10.81]  they're really not going to want to, for more reasons than one.'' `` Okay so[[ why]] are you here?'' I ask,
+  [5.78]  passed through it's leafy body. It was in a language of sunlight and water, of minerals and soil, but we may translate it as'[[Why]].' 
+  [1.13]  that's terrible. We are sisters, we can't marry each other." Lily felt sad and went to her mom. She asked, "Mom,[[ why]] can't Rose marry me?" Her mom
+  [8.44]  if you were to bomb it, the volcano would go from looking like it was going to erupt to going back to silence. Not one. Ever.[[ Why]]? Well, mostly because it would never
+  [9.12]  are basically extremely huge creatures, out very fast. The likelihood of it actually happening is very low, but I decided to just say,'[[Why]] not!' and bring it here. So
+--- unclustered (sample)
+  [0.53]  and Strawberry Smoothie - 1 cup of fresh orange juice - 1 cup of fresh strawberries - 1 banana - ½[[ cup]] of Greek yogurt - 1 tsp
+  [0.44] Once upon a time there[[ was]] a young girl named Anna who loved to
+  [1.38] Mrs. Jedidiah H. Richards),[[ ]]1895 (Pennsylvania Academy
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.71]  now? You were n't talkative five minutes ago.''     `` Why did you[[ suddenly]] change your questions when Jacob left the room
+  [-0.52] . My lies about how late I was gon na be out, her lies about how happy she still was.     The end of us came so many[[ times]]. It was n't an inevitable whirl
+  [-0.60]  respect for the law. Something you do not. It appears you do n't understand anything anymore.''     `` Oh I understand,[[ I]] understand that you've become a pawn''
+  [-0.61]  our imminent doom, it spoke to the others a whole other message.     The third rumble came an hour after the second, but we did n[['t]] feel it beneath our feet, that time
+  [-0.57] er was looking towards Bobby's eyes.     Bobby said, `` What does this mean?''     `` Remember, you do not believe in all of[[ this]] fortune telling stuff. Remember, it is
+--- cluster 1
+  [-0.71] ```bash backup_folder="/path/to/backup/folder"  # Create backup folder if it doesn't exist if [ ! -d "$backup[[_folder]]" ]; then   mkdir -p
+  [-0.63]  main() =     let value = validateInput()     let fibNumbers = fibList value []     let fibTotal = fibSum value 0 [[   ]] Console.WriteLine("Fibonacci Numbers:") 
+  [-0.47] # define the neural network model model = Sequential() model.add(Dense(512, activation='relu', input_shape=(784,[[))) ]]model.add(Dropout(0.
+  [-0.64] /1.1");     client.println("Host: " + String(serverName));     client.println("Content-Type: application/x-www-form-urlencoded"); [[   ]] client.println("Content-Length: " +
+  [-0.49] osisType = "";             if (kurtosis < -1)             {                 kurtosisType = "platykurtic";             } [[           ]] else if (kurtosis > 
+--- unclustered (sample)
+  [-0.54]  toy market.  user: Can[[ you]] explain the impact of Walmart's plan to
+  [-0.44]  What were the achievements of the Qin Dynasty in terms of architecture and engineering?  assistant: The Qin Dynasty was known for its significant achievements in architecture and engineering[[,]] particularly in the following areas:  1.
+  [-0.61]  religion (allusions to fundamental religious principles and the law of the Prophets; emphasis on the centralization of worship), and worship (position of[[ the]] priests and Levites; gifts to the
+##### neuron 12186
+=== high pole (p97 and above)
+--- cluster 0
+  [0.59] , but his arms were on both sides of what kind of looks like a body, if you turn your head a little and squint your eyes.[[ This]] made it exceedingly difficult to eat. Fortunately
+  [0.60]  Walking ones, until slipping on sand and rocks, were deadly silent. She still managed to fool them, nearly loosing us.     `` You trust[[ it]],
+  [0.60]  money to my dad every month. I didn't regret my decision, even though I missed out on the superior laptop. It wasn't about the actual[[ laptop]], it was about the love that I
+  [0.52] ''. Blood and teeth hit the floor before she did.     Suddenly, something crashed through the window above the sink, and landed on the kitchen island.[[ It]] was a large candy cane. It popped
+  [0.56]  outside. Eyes wide, full of wonder, full lines of paper seemed to fall from its mouth in a never-ending stream of fantasy and delight.    [[ The]] little beast screeched and hoot
+--- cluster 1
+  [1.41]  girl who loved to swing. She loved the feeling of the wind ruffling her hair as she swung higher and higher in the air.  One day,[[ her]] mommy gave her a very special present:
+  [5.78]  embarrassed, so she ran and hid.   But then, there was a loud crash. It was lightning! Sandy was so scared she ran out of[[ her]] hiding spot.   Mommy said,
+  [0.51]  it looked. He played with it for hours, pretending it was a key to a magical castle.  But then, Timmy accidentally locked the lock on[[ his]] finger. He tried and tried to get
+  [3.70] .  "It disappeared. It's gone. Do you understand?" he said.  Lily nodded. She felt sad for his hat. She did not want[[ her]] hat to disappear. She liked her hat
+  [2.00] Once upon a time, there was a little boy named Timmy. Timmy loved[[ his]] enormous teddy bear and his bathrobe
+--- unclustered (sample)
+  [1.07] ||1| |Cd||0.917 b||0.640 b||–0.742||0.9[[0]]4 b||1| |Pb
+  [1.12]  find a love that burns Through the highs and lows of life But I know I'll be alright  (Chorus) 'Cause I've[[ got]] friends by my side They lift me
+  [0.68]  Enable the "Send Mail on Alarm" option, and then set the snapshot interval.  8. Click "Save" to save the changes.  After completing[[ the]] above steps, the Foscam camera
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.84]  ran out of the gas station like girls - girls who had never smoked a cigarette.     I could hear some ancient AC/DC riff dancing through my[[ head]] as I shoved the end of my cigarette
+  [-0.71]  a big storm with lots of wind and rain. It could be very dangerous, and it could hurt people and houses. Lily and Max ran to their[[ mom]], holding their toys. They did not
+  [-1.02]  Lucy could see a lot of people with big tools cutting the grass. She stared for a moment, mesmerized at all the loud noises.   Her[[ uncle]] caught her attention and said, "Luc
+  [-1.98]  they walked, they saw something strange. It was a pill that was in the middle of the path.  Emily asked her friend what it was. Her[[ friend]] told her that it was a magical pill
+  [-1.13]  it together. Timmy felt better knowing that he didn't have to keep the secret anymore and that his mom still loved him even though he broke his[[ toy]].
+--- cluster 1
+  [-3.58]  cat named Fluffy. One day, Lily could not find Fluffy anywhere. She looked and looked, but Fluffy was gone.  Lily asked[[ her]] mommy and daddy if they knew where Fl
+  [-2.25]  he decided to take a closer look.  John then said to his mom, â€œWhatâ€™s this, Mommy?â€  [[His]] Mom replied, â€œI don
+  [-1.26] , "Let's go inside and see what's there." When they went in, Lucy saw a beautiful dress just like the one in the painting![[ Her]] mom said, "I knew you would
+  [-3.75] , it began to spring outside. Soon, a flood came and the water got higher and higher. Tommy got very upset and he started to cry.  [[His]] mother heard the noise from another room and
+  [-0.92] . When they finally arrived, they parked the car and got out. Billy was excited to see their tent. It was big and orange and bright.[[ His]] dad put it up and Billy helped.
+--- cluster 2
+  [-2.84]  go get it. ” I bought myself some time, a moment for myself.     I walked into my bedroom, shut the door, and paced.[[ My]] mind was racing. All at once,
+  [-4.19]  what to say. I went back to Johnny's corpse and grabbed the duffel bag still slung around his shoulder as fast as I could.[[ My]] mind was blank as I filled it with
+  [-3.48] . The creature fell to one knee. The Therafist again stepped forward- CRACK. Something gave out and he fell. He looked at[[ his]] feet and saw, to his horror,
+  [-1.87]  to ache as feelings and thoughts returned. As his senses returned more and more, the pain grew too strong for any human to bear - it spread throughout[[ his]] whole body, filling even every single hair
+  [-1.07] , just figments of his imagination.     Across him was an Indian. He marched confidently, but without as much armour. India? He looked at[[ his]] hands. White as could be. Odd
+--- unclustered (sample)
+  [-6.34] es of the flat crater floor. But it is covered with enough dust to look as blue (cold) as the dune troughs themselves. By[[ their]] shapes, dunes signal which direction they
+  [-0.48]  and coffee while I work.  assistant: Yes, WeWork Fine Arts Building offers several amenities for food and drink to keep you fueled throughout the day while[[ you]] work. The workspace has a fully stocked
+  [-0.43]  he couldn't believe his eyes!  The little boy asked, â€œWhat are you doing?â€ The cat replied with a big smile on[[ its]] face, â€œI am pretending
+##### neuron 10405
+=== high pole (p97 and above)
+--- cluster 0
+  [1.77]  Who is out there?!''     I yelled into[[ the]] darkness. As if to respond, a
+  [1.82]  anything else, chopping and hacking through the crowds.     He fell onto the ground beneath the tree, his back resting against it's hard bark. In[[ the]] distance, below the smoke and the fire
+  [2.19] . The dogs were all in agreement. Especially the 160 pound black pit bull. He had most recently spent his last dying breaths in[[ the]] subjects front seat as he was being driven
+  [0.65]  play with your friends some more."  Leo thought about what his mama said. He looked at the raindrops falling from the leaves, and the colors in[[ the]] sky. He felt a little less glo
+  [0.61]  blanket. He felt the cool breeze on his face as he sailed away.   The boy sailed for what seemed like forever until he saw a shelter in[[ the]] distance. He steered his boat closer
+--- cluster 1
+  [0.71]  in the world. Aubrey sat cross legged facing Katie, wearing a devilish grin.     Katie took a deep breath, then another one.[[ She]] counted to ten in her head. More
+  [0.77]  NO!     I throw my machete toward the ground as his shouts fill the room. The force of it brings me to my knees. Even as[[ I]] resist, I begin to feel him taking
+  [0.57]  last of the seaweed and into the open ocean. I turned to look behind me, saw the tangled mass of vines receding into the distance,[[ and]] for the first time in days, let
+  [0.68]  It's almost tomorrow.''     Dazed and quickly losing all bearing, I weakly grip the wet slimy bark of the tree and steady myself as[[ I]] settle down on the muddy grass. Blood
+  [0.68]  it on her head. She looked very funny. She began to twist and turn all around the garden. Suddenly she slipped and fell in the mud.[[ She]] was very wet!  The little girl laughed
+--- cluster 2
+  [0.63]  the popular anti-emetic Ondansetron. Primary complications of gastroparesis include: - Fluctuations in blood glucose due to unpredictable[[ digestion]] times (in diabetic patients) - General
+  [0.71]  precious of them all. L-arginine is the key building block in the Nitrogen-Monoxide (NO) molecule, which helps to control[[ relaxation]] of arteries and therefore the rate of blood
+  [0.62]  cost, schedule, and risk for producing 238Pu in time to minimize the disruption in NASA’s space science and exploration missions powered by R[[PS]]s. On April 29,
+  [0.62]  is using 3-D motion capture technology to try and chance that. The top firefighter injury isn’t burns or smoke inhalation, but damage to the[[ muscles]] and skeleton, such as ankle sprains
+  [0.62]  river’s water in perpetuity, control that Addis Ababa finds particularly galling given that about 85 percent of the Nile’s water is[[ generated]] in the Ethiopian highlands. Recent years
+--- unclustered (sample)
+  [0.61]  thittu shows influence of Kathakali with the Kerala maddalam used for background music. Badagu thittu has a typical Karnataka ch[[ande]]. There is also a difference in costumes
+  [1.03]  our share of battles fought  But I'd do it all again with you, my friend   Outro: Friendship is worth fighting for Through[[ every]] high and every low I'm glad
+  [1.04] Wolin), accompagnied only by his chaplain and an interpreter. The Pomeranians however were not impressed by his missionary efforts and finally threw[[ him]] out of town. Bernard was later made
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.20]  me tighter than before.     I hug back. `` It's going to be okay. We're going to get you help. All of us.''[[    ]] She nods, and squeezes me.
+  [-0.74]  pretend to be someone I was not? Could I sentence other Jews to the concentration camps in order to save my own life?     I could not.[[    ]] And thus, I ended up here.
+  [-0.62] !''     I tilt my head to the side, pretending to consider it. Then I grin. `` If your kid passes the interview, sure.''[[    ]] The cries of anguish delights my soul.
+  [-0.75]  Good.'' It smiled. `` What would you have done if allowed to live longer, but were not aware of your imminent death?'' It asked.[[    ]] `` Honestly? I would have fulfilled the
+  [-0.91]  I will get her back for you.'' The woman smiled at this and nodded shakily[[.]] `` Please take me to your daughter,
+--- cluster 1
+  [-0.61]  meant a bigger house, no more sharing with my brother and no more late night chats. He stopped talking to me so much and I kind of drifted[[ away]], trying to make the most of things
+  [-1.27]  the site and had been traveling for several minutes when his thoughts managed to catch up with him.     *This is unbelievable, I try to lighten the[[ mood]] up and this happens. *     *
+  [-1.78]  hidden from me, and it wasn't easy. There was tension and hurt feelings, but eventually, we were able to work through it[[ together]].  Now, I look back on those
+  [-1.01] : They were gearing up, I watched in an uninterested manner. People I knew, people I had fought with before Hell exploded on the world.[[ They]] were all ready to give their lives to
+  [-0.67]  on it anymore, walking it beside him.     *Oh god. *     “ Well… can I only wish for bad things? ” Will quietly[[ muttered]] to himself.     He locked his eyes
+--- cluster 2
+  [-3.14]  turned into weeks, the group found love blossoming in unexpected ways. Emily and Jason discovered they had more in common than they thought, Miranda and Rachel[[ forged]] a stronger friendship, and Alex and Emily
+  [-0.96]  way to contact their home planets. The story should blend action, suspense, and character development, as the aliens face challenges, make decisions and form relationships[[ while]] exploring the new environment. The story should
+  [-1.79]  their future, realizing that they both had a desire to keep exploring new places and experiences together.  Paris was a trip that brought them closer together, deep[[ening]] their love and giving them new memories to
+  [-0.72]  on to Hagerstown with Longstreet. Lee learned that his units around Harper's Ferry were far behind schedule and had to besiege the g[[arrison]] there. He also believed, incorrectly,
+  [-1.00]  been banished from the party and arrived in California before the snows engulfed the straggling remnants of the wagon train high in the Sierra Nevada[[,]] and his struggle to rescue his young family
+--- cluster 3
+  [-0.80]  end up here...'' My speech trailed off as my cigarette dropped to the ground.   `` Was it worth the lifetime addiction? I suppose not...[[ but]] you were.''   Her words hung in
+  [-0.59]  s why we fell apart. But miracles, they are what keeps people believing. But no one believes in them anymore. Medicine has gotten so good,[[ but]] shouldn ’ t it be better? Should
+  [-0.95]  for helping Mom clear out his stuff for a few days, mentally I'd tell myself that it was good and I could embrace his memory through his belongings[[ and]] that holding his memories would bring me comfort
+  [-0.62]  to power my body but the body is still 56 years old. How many more times round the clock will it go?[[ And]] what will I do when it finally fails
+  [-0.66] ," Lily said. She gave her doll to Tom.  Tom took the doll and looked at her. He tried to put the hat on his head,[[ but]] it was too small. He pulled it
+--- unclustered (sample)
+  [-0.62]  it to achieve his dreams.  The old bird had given him a special and timeless message - that with determination and a never-ending belief in yourself,[[ you]] can soar and get whatever you want.
+  [-0.59]  digital certificate typically involves two key elements: authentication and encryption.  Authentication: Digital certificates enable users to authenticate the identity of a website or web server. When[[ users]] access a website, their browser will typically
+  [-1.12] Situational Irony: A pilot who is afraid of heights.   Dramatic Irony: In Romeo and Juliet, the audience knows that[[ Juliet]] has faked her death, but Romeo
+##### neuron 9209
+=== high pole (p97 and above)
+--- cluster 0
+  [1.45]  but all she could see was the endless expanse of twisting tunnels, each one as indistinguishable as the last.  She realized with a sinking feeling[[ that]] she was lost. Not just separated from
+  [1.62]  began to set and the night sky took over, the five felt increasing anxiety that they were lost. Despite their attempts to use the compass and the map[[,]] they couldn't figure out where they were
+  [1.27] . He also liked to keep his belly full by eating fish from the nearby river.   One day, Max went for a walk in the forest.[[ He]] saw a wide tree with lots of branches
+  [0.90]  crackling with fresh excitement. Nikki lighting a flare and rolling it into the corridor as the building echoed with footsteps... The gang piling into a car[[ and]] screeching into night... Charlotte shaking
+  [0.92]  every corner of the town, having grown up here all her life, and she used her knowledge to navigate the streets and alleys with ease.  As[[ they]] walked, Maggie could feel the ground shaking
+--- cluster 1
+  [1.26]  shoes because they were so comfortable. One day, Lily and her mommy went for a walk in the park.   While they were walking, Lily saw[[ a]] bird and tried to whistle to it.
+  [1.09]  the river. It was so big and flowed so fast. She wondered where it went and what was at the end of it.  Suddenly, she saw[[ a]] man walking towards her. He looked very
+  [0.96] Once upon a time, a little girl named Emily walked through the park. Everywhere she looked were lively birds, trees, and flowers. Then she[[ saw]] a stranger at the edge of the park
+  [0.77] Once upon a time, there was a little boy named Timmy. He loved to ride his bike in the park. One day, he[[ saw]] his friend Billy and they decided to ride
+  [1.44] .  The sky was so blue and fluffy clouds were scattered across it. The trees were tall, their leaves swaying in the breeze.  Daddy spotted[[ a]] quick little animal. â€œLook
+--- unclustered (sample)
+  [1.35] 4, 15, 16, 17, 18, 19, 20, 21,[[ ]]22, 23, 
+  [0.91]  like a compass to find the way. Suddenly, he saw a squirrel who was lost. Benny felt sad for the squirrel and decided to help him find[[ his]] way home. They walked and walked until
+  [0.67] .iuch.org/ipy.html The National Science Foundation (NSF) is an independent federal agency that supports fundamental research and education across all fields of[[ science]] and engineering. In fiscal year (FY
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.45]  of patients will have anterior lens opacities after laser iridotomy, but these opacifications do not put the patient at an increased risk of[[ c]]ataracts. An alternative to laser ir
+  [-0.53]  contact. “ Is to kill me. ”     In an instant his excitement turned to confusion. His childish glee was gone and now replaced with a[[ mor]]bid understanding. Death remembers the day he
+  [-0.45] . Last night, after the bar, I ended up with this chick I met. Sounds good, right? Well nope. She's a real[[ w]]ackjob. Like a hippie or
+  [-0.51]  the message from Central command.     *Projections revised. Prognosis dire. Completion of project ahead of our predictions suggests underestimation of human[[ ing]]enuity and perseverance. Immediate action required.
+  [-0.49]  cancer are more likely to get ovarian and gastric (stomach) metastases than those with other types of breast cancer. While[[ lob]]ular breast cancer may have indolent
+--- cluster 1
+  [-0.48]  they had done was terrible and wrong. I feel bad for this man. I almost pity him...     Im going to help him.     `` Ok[[.'']] I said. The arch-angel lifted
+  [-0.64]  he gets hit by a car ” as he walked up his driveway last night.     “ Uh... Alex, c-can you give me a minute?[[ ”]] Will stammered out, letting his
+  [-0.53] ...'', Secretary of Defense Oliver was flabbergasted. `` What do you propose we do? Call Japan and ask for Godzilla? We're fucked[[.'']]     Lieutenant general Takashi did n't
+  [-0.51]  Because I ’ m paying you, that ’ s why. ” Nadir said.     “ Not enough to risk my life on some poisoned trap.[[ ”]] Parallax replied.     Nadir thought
+  [-0.55]  ca n't help but smirk as you pull your phone from your pocket and dial.     `` Hello?''     `` Shiela, it's me[[.'']]     `` Oh thank God! I thought
+--- cluster 2
+  [-0.50]  with a motherly whirr. )     “ You have always been an aberration, Mad One, ” spits Ntila, turning[[ away]]. “ I had potential. ”    
+  [-0.46]  him for a second and then turned on the TV and started watching the football game.     `` Well... I guess I'll just go then,'' James[[ shrugged]]. Milton nodded halfheartedly as he
+  [-0.48] . i never was too good at math, but i do believe that puts me a respectable NINE points behind! catching up!'' Aldo ret[[orts]], soaked in his inflated pride.    
+  [-0.52]  was going to set in about thirty minutes or so, and they never missed a sunset together.     `` I have a question for you,'' Gabriel m[[umbled]].     `` Yeah, what's up
+  [-0.84]  tablet,'' I said. `` To be used on the target of your choice.''     She pocketed it, then stopped. At the door she turned[[ back]].     `` Did you say - target
+--- cluster 3
+  [-0.49]  doing what two thousand Enemy fearmancers could not. But Theo. Theo is still young. It ’ s something the brass are still trying to figure[[ out]] – something the Theolonians still can
+  [-0.70] 'condition' prevents me from leaving this room, and my parents would do anyway even if I were well enough,'no friend is worth sacrificing your life[[ over]]', they would say. They do n
+  [-0.47]  Note, I am not a writer. You can give me criticism if you would like, but i do n't know if it will do me much[[ good]] as i do n't write that much
+  [-0.44]  his place. For some reason, it was missing from his copy of *Gone Girl*. It was really a trivial matter, hardly a problem at[[ all]], so he just grabbed one of the
+  [-0.52]  large mirror.     Date: March 6, 622   I am under the impression that Jaffar may have lost his sense of[[ reality]], probably because her royal highness the
+--- cluster 4
+  [-0.54]  magical arts. ”     Without hesitation, I agreed.     What?     Why wouldn ’ t I agree? Even in the slim chance I didn ’[[ t]], she would never take no as an
+  [-0.50] , it told me. It had stolen the eyes of the All Father, but of course, the All Father needs no eyes. It had thought it[[ could]] run away, hide from its punishment.
+  [-0.47]  more then? They would of courssssse figure it out eventually.''     **THEY WERE A SAFETY MEASURE; JUST IN CASE[[ WE]] WANTED MORE. NOW THEY'LL
+  [-0.51]  most of his credentials the minute we were turned on. ”     “ Why? For what purpose? ”     “ Simple. We didn ’ t want[[ to]] be deactivated, so we removed his ability
+  [-0.44]  graffiti all over the principals office. The cameras apparently uses mirrors to record the reflections of a real image. They never caught me. For awhile I really[[ did]] think that I did n't exist.
+--- unclustered (sample)
+  [-1.91]  the bridge found it to be about four feet deep in the middle with steep, slippery banks, thus Union commanders had to concentrate their efforts on crossing[[ the]] bridge. The high ground, heavily wooded
+  [-0.45]  on the successful NASA Astrobiology Institute, meaning it's a partnership between the US space department and[[ other]] independent research organizations across the nation working together
+  [-0.46]  capable communications SoCs. Having already established its presence in the DAB and broadcast arena, META is now successfully diversifying into new areas such as power[[ management]], Wi-Fi, and beyond, so

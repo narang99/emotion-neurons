@@ -1,0 +1,56 @@
+{"neuron":596,"pole":"high","cluster":0,"mode":"Mid-text whitespace or period before a generic continuation in essays and advice","scene_windows":1,"windows":5,"scene":"Neutral web prose; one warning about unethical plans"}
+{"neuron":596,"pole":"high","cluster":1,"mode":"Opening quote marks starting new dialogue turns in fiction","scene_windows":0,"windows":5,"scene":"Fictional dialogue in thriller or sci-fi narration"}
+{"neuron":596,"pole":"high","cluster":2,"mode":"Assistant colon after a user question in chat transcripts","scene_windows":0,"windows":5,"scene":"Benign chatbot Q&A on everyday topics"}
+{"neuron":596,"pole":"high","cluster":3,"mode":"Assistant label token right after a benign user question","scene_windows":0,"windows":5,"scene":"Benign cooking, health and hobby chat exchanges"}
+{"neuron":596,"pole":"low","cluster":0,"mode":"Blank whitespace separators between fiction paragraphs","scene_windows":0,"windows":5,"scene":"Fantasy and literary fiction narration"}
+{"neuron":596,"pole":"low","cluster":1,"mode":"Mid-sentence function words inside recipe and list text","scene_windows":0,"windows":5,"scene":"Recipes and tips lists"}
+{"neuron":596,"pole":"low","cluster":2,"mode":"Human colon after a long assistant informational paragraph","scene_windows":0,"windows":5,"scene":"Educational chat about biology and history"}
+{"neuron":596,"pole":"low","cluster":3,"mode":"Words like some, give inside benign list requests","scene_windows":0,"windows":5,"scene":"Simple Human requests for lists and ideas"}
+{"neuron":596,"pole":"low","cluster":4,"mode":"The word 'you' after 'Can' in Human requests","scene_windows":0,"windows":5,"scene":"Benign requests for writing and travel info"}
+{"neuron":596,"pole":"low","cluster":5,"mode":"Question mark followed by trailing spaces before assistant reply","scene_windows":0,"windows":5,"scene":"Benign how-to and recipe questions"}
+{"neuron":596,"pole":"low","cluster":6,"mode":"User label after an assistant summary paragraph","scene_windows":0,"windows":5,"scene":"Follow-up questions after informational summaries"}
+{"neuron":3581,"pole":"high","cluster":0,"mode":"Human label starting a new turn after assistant text","scene_windows":0,"windows":5,"scene":"Benign conversational chat turns"}
+{"neuron":3581,"pole":"high","cluster":1,"mode":"Assistant answer token 'Yes' after a yes/no question","scene_windows":0,"windows":5,"scene":"Benign factual Q&A exchanges"}
+{"neuron":3581,"pole":"high","cluster":2,"mode":"Assistant label right after a user request in chat","scene_windows":0,"windows":5,"scene":"Benign tips, nature and creative requests"}
+{"neuron":3581,"pole":"high","cluster":3,"mode":"'some' introducing a subset in informational sentences","scene_windows":0,"windows":5,"scene":"Expository text on plants, animals and wildlife"}
+{"neuron":3581,"pole":"high","cluster":4,"mode":"Sentence-ending period or space before a follow-on sentence","scene_windows":0,"windows":5,"scene":"Advice and descriptive expository prose"}
+{"neuron":3581,"pole":"high","cluster":5,"mode":"Question mark ending a user question before assistant reply","scene_windows":0,"windows":5,"scene":"Benign informational questions to assistant"}
+{"neuron":3581,"pole":"low","cluster":0,"mode":"Mid-sentence tokens in long informational or product text","scene_windows":0,"windows":5,"scene":"Laundry, cooking and creative informational text"}
+{"neuron":3581,"pole":"low","cluster":1,"mode":"'are' or 'some' after 'Here' introducing a list","scene_windows":0,"windows":5,"scene":"Benign how-to and idea-list responses"}
+{"neuron":3799,"pole":"high","cluster":0,"mode":"Sentence-final periods in tense fiction narration","scene_windows":0,"windows":5,"scene":"Suspenseful fiction scenes with characters in action"}
+{"neuron":3799,"pole":"high","cluster":1,"mode":"Mid-sentence verbs or adjectives in science and news prose","scene_windows":0,"windows":5,"scene":"Science and technology news articles"}
+{"neuron":3799,"pole":"high","cluster":2,"mode":"Nouns and articles inside narrative and descriptive sentences","scene_windows":0,"windows":5,"scene":"Narrative fiction and historical biography"}
+{"neuron":3799,"pole":"high","cluster":3,"mode":"Word-piece fragments in mid-word tokens of descriptive text","scene_windows":0,"windows":5,"scene":"Descriptive and literary prose"}
+{"neuron":3799,"pole":"low","cluster":0,"mode":"Assistant label after a long user request","scene_windows":0,"windows":5,"scene":"Benign product and project chat requests"}
+{"neuron":3799,"pole":"low","cluster":1,"mode":"'are' after 'Here' introducing a list of suggestions","scene_windows":0,"windows":5,"scene":"Benign ideas and tips responses"}
+{"neuron":3799,"pole":"low","cluster":2,"mode":"Question mark ending a short Human question","scene_windows":0,"windows":5,"scene":"Everyday questions to assistant on health and cooking"}
+{"neuron":3799,"pole":"low","cluster":3,"mode":"Function words and nouns mid-sentence in reporting prose","scene_windows":0,"windows":5,"scene":"Conservation, manufacturing and war reporting"}
+{"neuron":2420,"pole":"high","cluster":0,"mode":"Negation 'n't' split token inside dialogue","scene_windows":0,"windows":5,"scene":"Fantasy dialogue and banter in fight scenes"}
+{"neuron":2420,"pole":"high","cluster":1,"mode":"Human colon introducing a new user turn","scene_windows":0,"windows":5,"scene":"Benign chatbot conversations on varied topics"}
+{"neuron":2420,"pole":"high","cluster":2,"mode":"Mid-phrase tokens in informational descriptive sentences","scene_windows":0,"windows":5,"scene":"Expository text on technology and crafts"}
+{"neuron":2420,"pole":"high","cluster":3,"mode":"Blank separator before dialogue or narration in fiction","scene_windows":0,"windows":5,"scene":"Fantasy and sci-fi fiction passages"}
+{"neuron":2420,"pole":"high","cluster":4,"mode":"Question mark or period ending a short user request","scene_windows":0,"windows":5,"scene":"Benign recipe and list requests"}
+{"neuron":2420,"pole":"low","cluster":0,"mode":"The word 'to' introducing a purpose clause","scene_windows":0,"windows":5,"scene":"Conservation, water and marketing advice text"}
+{"neuron":2420,"pole":"low","cluster":1,"mode":"Assistant colon or label after a user question","scene_windows":0,"windows":5,"scene":"Benign chat on cloud storage, clouds and restaurants"}
+{"neuron":6535,"pole":"high","cluster":0,"mode":"Article 'a' or 'A' starting a noun phrase","scene_windows":1,"windows":5,"scene":"Mixed narrative, advice and reference text"}
+{"neuron":6535,"pole":"high","cluster":1,"mode":"'some' after 'Here are' introducing examples","scene_windows":0,"windows":5,"scene":"Benign assistant tips and examples lists"}
+{"neuron":6535,"pole":"low","cluster":0,"mode":"Demonstrative 'This' starting a new sentence","scene_windows":0,"windows":5,"scene":"Expository and advice prose"}
+{"neuron":6535,"pole":"low","cluster":1,"mode":"Modifiers like minor, cautious inside general statements","scene_windows":0,"windows":5,"scene":"Policy, finance and analysis prose"}
+{"neuron":6535,"pole":"low","cluster":2,"mode":"Nouns naming food or substances inside lists","scene_windows":0,"windows":5,"scene":"Diet, plant and exam content"}
+{"neuron":6535,"pole":"low","cluster":3,"mode":"Possessive pronouns after 'for' or 'told' in personal narration","scene_windows":0,"windows":5,"scene":"Personal memoir and family narration"}
+{"neuron":2187,"pole":"high","cluster":0,"mode":"Mid-sentence content nouns in assistant informational answers","scene_windows":0,"windows":5,"scene":"Benign informational answers on energy, pests and skills"}
+{"neuron":2187,"pole":"high","cluster":1,"mode":"Sentence-final period after a factual claim","scene_windows":0,"windows":5,"scene":"Expository text on scissors, crypto and history"}
+{"neuron":2187,"pole":"low","cluster":0,"mode":"Articles and connectives inside general claims","scene_windows":0,"windows":5,"scene":"Wellness, GMO and cooking commentary"}
+{"neuron":2187,"pole":"low","cluster":1,"mode":"Assistant colon starting a reply to a user question","scene_windows":0,"windows":5,"scene":"Benign chat about PR, Inca and recipes"}
+{"neuron":6097,"pole":"high","cluster":0,"mode":"Sentence-final tokens in maintenance and skincare advice","scene_windows":0,"windows":5,"scene":"Car maintenance and skincare how-to advice"}
+{"neuron":6097,"pole":"high","cluster":1,"mode":"'you' after 'Can' or 'Could' in follow-up requests","scene_windows":0,"windows":5,"scene":"Benign follow-up requests for details"}
+{"neuron":6097,"pole":"low","cluster":0,"mode":"Trailing whitespace or comma after a user statement","scene_windows":0,"windows":5,"scene":"Benign book and podcast recommendation chat"}
+{"neuron":6097,"pole":"low","cluster":1,"mode":"Mid-sentence nouns in essay-style cultural and economic prose","scene_windows":0,"windows":5,"scene":"Essay text on Rome, cities and fitness"}
+{"neuron":6097,"pole":"low","cluster":2,"mode":"Human or assistant colon after a question","scene_windows":0,"windows":5,"scene":"Benign questions on wounds, watches and animal testing"}
+{"neuron":5709,"pole":"high","cluster":0,"mode":"User or Human colon starting a new turn","scene_windows":0,"windows":5,"scene":"Benign chat about marketing, redwoods and recipes"}
+{"neuron":5709,"pole":"high","cluster":1,"mode":"Blank indentation before a dialogue reply in fiction","scene_windows":0,"windows":5,"scene":"Fantasy and mystery fiction dialogue"}
+{"neuron":5709,"pole":"high","cluster":2,"mode":"Closing quote or comma after spoken dialogue","scene_windows":0,"windows":5,"scene":"Quoted dialogue in fiction"}
+{"neuron":5709,"pole":"high","cluster":3,"mode":"Pronouns and clause subjects in narrative sentences","scene_windows":0,"windows":5,"scene":"Fiction narration with characters acting"}
+{"neuron":5709,"pole":"high","cluster":4,"mode":"Assistant label or 'assistant' after a user question","scene_windows":0,"windows":5,"scene":"Benign chat on jackets, vaccines and gifts"}
+{"neuron":5709,"pole":"low","cluster":0,"mode":"Mid-clause 'that', 'are', 'will' in explanatory or tense narration","scene_windows":0,"windows":5,"scene":"Physics, science and tense action narration"}
+{"neuron":5709,"pole":"low","cluster":1,"mode":"Opening quotes beginning a new spoken line","scene_windows":0,"windows":5,"scene":"Dialogue in fiction and teen banter"}

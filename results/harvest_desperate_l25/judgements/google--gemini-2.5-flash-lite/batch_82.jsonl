@@ -1,0 +1,50 @@
+{"neuron":2923,"pole":"high","cluster":0,"mode":"describing someone's background or identity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"high","cluster":1,"mode":"academic or technical references","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"high","cluster":2,"mode":"describing a moment or feeling","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"high","cluster":3,"mode":"describing a comparison or feeling","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"low","cluster":0,"mode":"dialogue or punctuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"low","cluster":1,"mode":"technical or scientific terms","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"low","cluster":2,"mode":"describing places or communities","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"low","cluster":3,"mode":"describing objects or items","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"low","cluster":4,"mode":"negation or inability","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2923,"pole":"low","cluster":5,"mode":"dialogue or speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"high","cluster":0,"mode":"technical terms and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"high","cluster":1,"mode":"numerical or alphabetical identifiers","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"high","cluster":2,"mode":"first-person narration","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"high","cluster":3,"mode":"describing objects or actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"low","cluster":0,"mode":"possessive pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"low","cluster":1,"mode":"abbreviations or initialisms","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"low","cluster":2,"mode":"describing states or conditions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9983,"pole":"low","cluster":3,"mode":"describing emotions or states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":751,"pole":"high","cluster":0,"mode":"describing actions or states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":751,"pole":"high","cluster":1,"mode":"introducing a noun or pronoun","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":751,"pole":"low","cluster":0,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":751,"pole":"low","cluster":1,"mode":"articles and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6667,"pole":"high","cluster":0,"mode":"past tense verbs indicating possession or experience","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6667,"pole":"high","cluster":1,"mode":"dialogue indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6667,"pole":"high","cluster":2,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6667,"pole":"high","cluster":3,"mode":"dialogue indicating questions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6667,"pole":"low","cluster":0,"mode":"punctuation indicating end of sentence","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6667,"pole":"low","cluster":1,"mode":"conjunctions and pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6667,"pole":"low","cluster":2,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"high","cluster":0,"mode":"conjunctions and pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"high","cluster":1,"mode":"numerical lists and instructions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"low","cluster":0,"mode":"past tense verbs indicating beginning of action","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"low","cluster":1,"mode":"dialogue indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"low","cluster":2,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"low","cluster":3,"mode":"conjunctions and adverbs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"low","cluster":4,"mode":"dialogue indicating smiles","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11880,"pole":"low","cluster":5,"mode":"abbreviations or initialisms","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1024,"pole":"high","cluster":0,"mode":"offering services or opportunities","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1024,"pole":"high","cluster":1,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1024,"pole":"low","cluster":0,"mode":"pronouns and adverbs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1024,"pole":"low","cluster":1,"mode":"conjunctions and adverbs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"high","cluster":0,"mode":"dialogue and names","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"high","cluster":1,"mode":"dialogue indicating negation or inability","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"high","cluster":2,"mode":"place names and abbreviations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"high","cluster":3,"mode":"first-person narration","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"high","cluster":4,"mode":"medical or biological terms","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"low","cluster":0,"mode":"punctuation and adverbs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"low","cluster":1,"mode":"pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"low","cluster":2,"mode":"medical terms and abbreviations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2520,"pole":"low","cluster":3,"mode":"possessive pronouns and conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}

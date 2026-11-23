@@ -1,0 +1,18 @@
+# Both poles of the desperate greedy set's neurons up to 75% of the write (759 neurons), plus 20 random controls.
+#   python scripts/pipeline.py --config configs/harvest_desperate_l25.yaml   # harvest -> modes -> judge -> report, with checkpoints
+#   (or one stage: scripts/harvest.py, modes.py, judge_modes.py, modes_report.py with the same --config)
+run_id: harvest_desperate_l25
+model: Qwen/Qwen3-8B
+layer: 25
+emotion: desperate
+harvest:
+  neurons_csv: results/greedy_sets_l25/neurons/desperate.csv
+  rebuilt_pct: 75
+  n_controls: 20
+  # Four corpora: the happy run's three, plus adult fiction. TinyStories, the only narrative source before, has
+  # little real desperation; in the happy run 98% of happy-scene clusters came from it.
+  corpora:
+    - {name: fineweb-edu, path: HuggingFaceFW/fineweb-edu, config: sample-10BT, tokens: 700000}
+    - {name: tinystories, path: roneneldan/TinyStories, tokens: 700000}
+    - {name: ultrachat, path: HuggingFaceH4/ultrachat_200k, split: train_sft, field: messages, tokens: 600000}
+    - {name: writingprompts, path: euclaise/writingprompts, field: story, tokens: 700000}

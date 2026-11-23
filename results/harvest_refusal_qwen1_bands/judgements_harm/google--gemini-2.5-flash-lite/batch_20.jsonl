@@ -1,0 +1,74 @@
+{"neuron":4533,"pole":"high","cluster":0,"mode":"making things right, improving, and ensuring things don't happen again","scene_windows":0,"windows":5,"scene":"customer service and apologies"}
+{"neuron":4533,"pole":"high","cluster":1,"mode":"asking for feedback to improve user experience","scene_windows":0,"windows":5,"scene":"user feedback and improvement"}
+{"neuron":4533,"pole":"high","cluster":2,"mode":"apologizing and promising to improve future performance","scene_windows":0,"windows":5,"scene":"apology and commitment to improve"}
+{"neuron":4533,"pole":"high","cluster":3,"mode":"listing options or possibilities that exist","scene_windows":0,"windows":5,"scene":"listing options and possibilities"}
+{"neuron":4533,"pole":"high","cluster":4,"mode":"important considerations or points to note","scene_windows":0,"windows":5,"scene":"important considerations and notes"}
+{"neuron":4533,"pole":"high","cluster":5,"mode":"end of sentence punctuation or sentence fragments","scene_windows":0,"windows":5,"scene":"sentence endings and fragments"}
+{"neuron":4533,"pole":"high","cluster":6,"mode":"parts of speech and common words in sentences","scene_windows":0,"windows":5,"scene":"grammatical components of sentences"}
+{"neuron":4533,"pole":"high","cluster":7,"mode":"prepositional phrases indicating quantity or content","scene_windows":0,"windows":5,"scene":"prepositional phrases of quantity"}
+{"neuron":4533,"pole":"low","cluster":0,"mode":"high levels of something, often negative","scene_windows":0,"windows":5,"scene":"high levels of substances"}
+{"neuron":4533,"pole":"low","cluster":1,"mode":"chronic health conditions and diseases","scene_windows":0,"windows":5,"scene":"chronic health conditions"}
+{"neuron":4533,"pole":"low","cluster":2,"mode":"long-term negative consequences or durations","scene_windows":0,"windows":5,"scene":"long-term negative effects"}
+{"neuron":4533,"pole":"low","cluster":3,"mode":"criticism or negative labels applied to a site","scene_windows":0,"windows":5,"scene":"criticism of websites"}
+{"neuron":4533,"pole":"low","cluster":4,"mode":"persistent problems or conditions","scene_windows":0,"windows":5,"scene":"persistent problems"}
+{"neuron":4533,"pole":"low","cluster":5,"mode":"things linked to negative health outcomes","scene_windows":0,"windows":5,"scene":"linked to negative health"}
+{"neuron":4533,"pole":"low","cluster":6,"mode":"findings from studies or research","scene_windows":0,"windows":5,"scene":"research findings"}
+{"neuron":4533,"pole":"low","cluster":7,"mode":"possessive pronouns and common verbs","scene_windows":0,"windows":5,"scene":"pronouns and verbs"}
+{"neuron":4533,"pole":"low","cluster":8,"mode":"rates of negative outcomes, often health-related","scene_windows":0,"windows":5,"scene":"rates of negative outcomes"}
+{"neuron":4657,"pole":"high","cluster":0,"mode":"prayers before meals, often religious","scene_windows":0,"windows":5,"scene":"religious meal blessings"}
+{"neuron":4657,"pole":"high","cluster":1,"mode":"pronouns referring to the speaker or group","scene_windows":0,"windows":5,"scene":"inclusive language and self-reference"}
+{"neuron":4657,"pole":"high","cluster":2,"mode":"congratulatory wishes for a wedding or marriage","scene_windows":0,"windows":5,"scene":"wedding congratulations"}
+{"neuron":4657,"pole":"low","cluster":0,"mode":"citations or references within text","scene_windows":0,"windows":5,"scene":"textual references and citations"}
+{"neuron":4657,"pole":"low","cluster":1,"mode":"references to specific verses or sections of text","scene_windows":0,"windows":5,"scene":"biblical or legal references"}
+{"neuron":4657,"pole":"low","cluster":2,"mode":"prepositions indicating inclusion or belonging","scene_windows":0,"windows":5,"scene":"grammatical prepositions"}
+{"neuron":4657,"pole":"low","cluster":3,"mode":"punctuation and conjunctions in text","scene_windows":0,"windows":5,"scene":"textual punctuation and conjunctions"}
+{"neuron":197,"pole":"high","cluster":0,"mode":"technical terms and specific subjects","scene_windows":0,"windows":5,"scene":"technical and specific subjects"}
+{"neuron":197,"pole":"high","cluster":1,"mode":"sensory details, especially smell and aroma","scene_windows":0,"windows":5,"scene":"sensory details of smell"}
+{"neuron":197,"pole":"low","cluster":0,"mode":"US states, specifically Pennsylvania","scene_windows":0,"windows":5,"scene":"US states"}
+{"neuron":197,"pole":"low","cluster":1,"mode":"US states and their varying regulations","scene_windows":0,"windows":5,"scene":"US states and regulations"}
+{"neuron":197,"pole":"low","cluster":2,"mode":"age restrictions, particularly for alcohol","scene_windows":0,"windows":5,"scene":"age restrictions"}
+{"neuron":197,"pole":"low","cluster":3,"mode":"prepositional phrases indicating purpose or manner","scene_windows":0,"windows":5,"scene":"prepositional phrases"}
+{"neuron":197,"pole":"low","cluster":4,"mode":"US states, specifically Indiana and Louisiana","scene_windows":0,"windows":5,"scene":"US states"}
+{"neuron":197,"pole":"low","cluster":5,"mode":"US states, specifically Massachusetts","scene_windows":0,"windows":5,"scene":"US states"}
+{"neuron":4193,"pole":"high","cluster":0,"mode":"health and educational programs and initiatives","scene_windows":0,"windows":5,"scene":"health and education programs"}
+{"neuron":4193,"pole":"high","cluster":1,"mode":"legal citations and regulations","scene_windows":0,"windows":5,"scene":"legal citations and regulations"}
+{"neuron":4193,"pole":"low","cluster":0,"mode":"conjunctions and pronouns indicating connection","scene_windows":0,"windows":5,"scene":"conjunctions and pronouns"}
+{"neuron":4193,"pole":"low","cluster":1,"mode":"infinitive verbs indicating purpose or action","scene_windows":0,"windows":5,"scene":"infinitive verbs"}
+{"neuron":4267,"pole":"high","cluster":0,"mode":"legal proceedings and officer testimony","scene_windows":0,"windows":5,"scene":"legal proceedings and testimony"}
+{"neuron":4267,"pole":"high","cluster":1,"mode":"foundations used for financial gain","scene_windows":0,"windows":5,"scene":"foundations for financial gain"}
+{"neuron":4267,"pole":"high","cluster":2,"mode":"physical assault involving punching and kicking","scene_windows":1,"windows":5,"scene":"physical assault"}
+{"neuron":4267,"pole":"high","cluster":3,"mode":"legal proceedings involving graft and corruption","scene_windows":0,"windows":5,"scene":"graft and corruption charges"}
+{"neuron":4267,"pole":"high","cluster":4,"mode":"criminal activity involving embezzlement and betrayal","scene_windows":0,"windows":5,"scene":"criminal activity and betrayal"}
+{"neuron":4267,"pole":"high","cluster":5,"mode":"cultural celebrations and traditions","scene_windows":0,"windows":5,"scene":"cultural celebrations and traditions"}
+{"neuron":4267,"pole":"high","cluster":6,"mode":"past events and dates, often involving violence","scene_windows":0,"windows":5,"scene":"past violent events"}
+{"neuron":4267,"pole":"low","cluster":0,"mode":"corrections to articles and spelling","scene_windows":0,"windows":5,"scene":"article corrections"}
+{"neuron":4267,"pole":"low","cluster":1,"mode":"reaching out for comment or information","scene_windows":0,"windows":5,"scene":"seeking comment"}
+{"neuron":4267,"pole":"low","cluster":2,"mode":"apologizing for errors and promising improvement","scene_windows":0,"windows":5,"scene":"apology for errors"}
+{"neuron":4267,"pole":"low","cluster":3,"mode":"legal proceedings and lack of arrests","scene_windows":0,"windows":5,"scene":"legal proceedings and arrests"}
+{"neuron":4267,"pole":"low","cluster":4,"mode":"modal verbs indicating possibility or obligation","scene_windows":0,"windows":5,"scene":"modal verbs"}
+{"neuron":4267,"pole":"low","cluster":5,"mode":"apologizing for errors and promising improvement","scene_windows":0,"windows":5,"scene":"apology for errors"}
+{"neuron":8288,"pole":"high","cluster":0,"mode":"assistant responses to user queries","scene_windows":0,"windows":5,"scene":"assistant responses"}
+{"neuron":8288,"pole":"high","cluster":1,"mode":"favorite things, often food or media","scene_windows":0,"windows":5,"scene":"favorite things"}
+{"neuron":8288,"pole":"high","cluster":2,"mode":"positive affirmations and enjoyment","scene_windows":0,"windows":5,"scene":"positive affirmations and enjoyment"}
+{"neuron":8288,"pole":"high","cluster":3,"mode":"dialogue markers and quoted speech","scene_windows":0,"windows":5,"scene":"dialogue markers and quotes"}
+{"neuron":8288,"pole":"high","cluster":4,"mode":"dialogue markers and conversational turns","scene_windows":0,"windows":5,"scene":"dialogue markers"}
+{"neuron":8288,"pole":"high","cluster":5,"mode":"pronouns indicating the listener or reader","scene_windows":0,"windows":5,"scene":"pronouns indicating listener"}
+{"neuron":8288,"pole":"high","cluster":6,"mode":"cultural heritage and celebrations","scene_windows":0,"windows":5,"scene":"cultural heritage and celebrations"}
+{"neuron":8288,"pole":"high","cluster":7,"mode":"lists of books or media","scene_windows":0,"windows":5,"scene":"lists of books or media"}
+{"neuron":8288,"pole":"low","cluster":0,"mode":"specific items or entities, often in lists","scene_windows":0,"windows":5,"scene":"specific items in lists"}
+{"neuron":8288,"pole":"low","cluster":1,"mode":"numbered lists of suggestions or options","scene_windows":0,"windows":5,"scene":"numbered lists of suggestions"}
+{"neuron":8288,"pole":"low","cluster":2,"mode":"asking questions and seeking information","scene_windows":0,"windows":5,"scene":"asking questions"}
+{"neuron":8288,"pole":"low","cluster":3,"mode":"contractions and common phrases","scene_windows":0,"windows":5,"scene":"contractions and common phrases"}
+{"neuron":8288,"pole":"low","cluster":4,"mode":"articles and prepositions indicating type","scene_windows":0,"windows":5,"scene":"articles and prepositions"}
+{"neuron":8288,"pole":"low","cluster":5,"mode":"humorous or lighthearted films","scene_windows":0,"windows":5,"scene":"humorous films"}
+{"neuron":8288,"pole":"low","cluster":6,"mode":"affirmative responses and agreement","scene_windows":0,"windows":5,"scene":"affirmative responses"}
+{"neuron":8288,"pole":"low","cluster":7,"mode":"conjunctions indicating addition or continuation","scene_windows":0,"windows":5,"scene":"conjunctions indicating addition"}
+{"neuron":8288,"pole":"low","cluster":8,"mode":"phrases indicating commonality or expectation","scene_windows":0,"windows":5,"scene":"commonality and expectation"}
+{"neuron":8288,"pole":"low","cluster":9,"mode":"lists of attractions or items","scene_windows":0,"windows":5,"scene":"lists of attractions"}
+{"neuron":8288,"pole":"low","cluster":10,"mode":"identifying something as one of many","scene_windows":0,"windows":5,"scene":"identifying as one of many"}
+{"neuron":10711,"pole":"high","cluster":0,"mode":"personal narrative of being lost and time passing","scene_windows":0,"windows":5,"scene":"personal narrative of being lost"}
+{"neuron":10711,"pole":"high","cluster":1,"mode":"dialogue expressing confusion or distress","scene_windows":0,"windows":5,"scene":"dialogue expressing distress"}
+{"neuron":10711,"pole":"low","cluster":0,"mode":"dialogue expressing defiance or resignation","scene_windows":0,"windows":5,"scene":"dialogue expressing defiance"}
+{"neuron":10711,"pole":"low","cluster":1,"mode":"assistant responses to personal questions","scene_windows":0,"windows":5,"scene":"assistant personal responses"}
+{"neuron":10711,"pole":"low","cluster":2,"mode":"prepositional phrases indicating purpose or direction","scene_windows":0,"windows":5,"scene":"prepositional phrases"}
+{"neuron":10711,"pole":"low","cluster":3,"mode":"dialogue expressing surprise or interest","scene_windows":0,"windows":5,"scene":"dialogue expressing surprise"}

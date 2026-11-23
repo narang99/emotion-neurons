@@ -1,0 +1,55 @@
+{"neuron":6410,"pole":"high","cluster":0,"mode":"tracking campaign performance and assessing tasks using digital tools","scene_windows":0,"windows":5,"scene":"marketing and task management"}
+{"neuron":6410,"pole":"high","cluster":1,"mode":"examining dietary outcomes and environmental concerns in studies","scene_windows":0,"windows":5,"scene":"scientific and nutritional studies"}
+{"neuron":6410,"pole":"high","cluster":2,"mode":"celestial descriptions, religious texts, and historical context","scene_windows":0,"windows":5,"scene":"cosmic and historical narratives"}
+{"neuron":6410,"pole":"high","cluster":3,"mode":"dialogue markers and conversational interjections","scene_windows":0,"windows":5,"scene":"casual conversation and dialogue"}
+{"neuron":6410,"pole":"high","cluster":4,"mode":"children's stories about exploration and discovery","scene_windows":0,"windows":5,"scene":"childhood adventures and learning"}
+{"neuron":6410,"pole":"high","cluster":5,"mode":"children's dialogue about emotions and activities","scene_windows":0,"windows":5,"scene":"childhood conversations and play"}
+{"neuron":6410,"pole":"low","cluster":0,"mode":"characters' emotional states and personal belongings","scene_windows":0,"windows":5,"scene":"personal reflections and situations"}
+{"neuron":6410,"pole":"low","cluster":1,"mode":"nutritional intake and dietary quality assessments","scene_windows":0,"windows":5,"scene":"nutritional and health studies"}
+{"neuron":2776,"pole":"high","cluster":0,"mode":"personal interactions and physical proximity","scene_windows":0,"windows":5,"scene":"intimate encounters and observations"}
+{"neuron":2776,"pole":"high","cluster":1,"mode":"food preparation and ingredient lists","scene_windows":0,"windows":5,"scene":"culinary instructions and recipes"}
+{"neuron":2776,"pole":"low","cluster":0,"mode":"numerical data and financial figures","scene_windows":0,"windows":5,"scene":"financial and statistical reports"}
+{"neuron":2776,"pole":"low","cluster":1,"mode":"emotional states and actions in narrative","scene_windows":0,"windows":5,"scene":"narrative tension and reactions"}
+{"neuron":2776,"pole":"low","cluster":2,"mode":"technical instructions for data management","scene_windows":0,"windows":5,"scene":"technical procedures and commands"}
+{"neuron":2776,"pole":"low","cluster":3,"mode":"cooking instructions and ingredient additions","scene_windows":0,"windows":5,"scene":"culinary instructions and preparation"}
+{"neuron":186,"pole":"high","cluster":0,"mode":"dialogue markers and conversational endings","scene_windows":0,"windows":5,"scene":"conversational exchanges and dialogue"}
+{"neuron":186,"pole":"high","cluster":1,"mode":"sensory descriptions and emotional states","scene_windows":0,"windows":5,"scene":"personal feelings and experiences"}
+{"neuron":186,"pole":"low","cluster":0,"mode":"therapeutic processes and system integration","scene_windows":0,"windows":5,"scene":"process descriptions and automation"}
+{"neuron":186,"pole":"low","cluster":1,"mode":"narrative actions and transitions","scene_windows":0,"windows":5,"scene":"narrative progression and events"}
+{"neuron":186,"pole":"low","cluster":2,"mode":"actions and emotional states in narrative","scene_windows":0,"windows":5,"scene":"narrative actions and feelings"}
+{"neuron":186,"pole":"low","cluster":3,"mode":"descriptive language and character actions","scene_windows":0,"windows":5,"scene":"descriptive narratives and actions"}
+{"neuron":186,"pole":"low","cluster":4,"mode":"personal reflections and emotional states","scene_windows":0,"windows":5,"scene":"personal introspection and feelings"}
+{"neuron":186,"pole":"low","cluster":5,"mode":"narrative actions and destinations","scene_windows":0,"windows":5,"scene":"narrative progression and travel"}
+{"neuron":6014,"pole":"high","cluster":0,"mode":"personal observations and emotional states","scene_windows":0,"windows":5,"scene":"personal reflections and feelings"}
+{"neuron":6014,"pole":"high","cluster":1,"mode":"personal experiences and emotional states","scene_windows":0,"windows":5,"scene":"personal narratives and feelings"}
+{"neuron":6014,"pole":"low","cluster":0,"mode":"dialogue and emotional reactions","scene_windows":0,"windows":5,"scene":"conversational exchanges and reactions"}
+{"neuron":6014,"pole":"low","cluster":1,"mode":"narrative actions and relationships","scene_windows":0,"windows":5,"scene":"narrative progression and relationships"}
+{"neuron":6014,"pole":"low","cluster":2,"mode":"narrative actions and emotional states","scene_windows":0,"windows":5,"scene":"narrative actions and feelings"}
+{"neuron":6014,"pole":"low","cluster":3,"mode":"linguistic markers and abbreviations","scene_windows":0,"windows":5,"scene":"linguistic and textual elements"}
+{"neuron":4971,"pole":"high","cluster":0,"mode":"children's stories about exploration and friendship","scene_windows":0,"windows":5,"scene":"childhood adventures and discovery"}
+{"neuron":4971,"pole":"high","cluster":1,"mode":"food preparation and ingredient lists","scene_windows":0,"windows":5,"scene":"culinary instructions and recipes"}
+{"neuron":4971,"pole":"low","cluster":0,"mode":"narrative actions and emotional states","scene_windows":0,"windows":5,"scene":"narrative progression and feelings"}
+{"neuron":4971,"pole":"low","cluster":1,"mode":"time management and task completion","scene_windows":0,"windows":5,"scene":"task management and completion"}
+{"neuron":6728,"pole":"high","cluster":0,"mode":"children's stories about discovery and objects","scene_windows":0,"windows":5,"scene":"childhood discoveries and objects"}
+{"neuron":6728,"pole":"high","cluster":1,"mode":"dialogue and emotional states","scene_windows":0,"windows":5,"scene":"conversational exchanges and feelings"}
+{"neuron":6728,"pole":"high","cluster":2,"mode":"dialogue and actions","scene_windows":0,"windows":5,"scene":"conversational exchanges and actions"}
+{"neuron":6728,"pole":"high","cluster":3,"mode":"narrative actions and sensory experiences","scene_windows":0,"windows":5,"scene":"narrative progression and senses"}
+{"neuron":6728,"pole":"high","cluster":4,"mode":"dialogue markers and conversational endings","scene_windows":0,"windows":5,"scene":"conversational exchanges and dialogue"}
+{"neuron":6728,"pole":"high","cluster":5,"mode":"dialogue and positive affirmations","scene_windows":0,"windows":5,"scene":"conversational exchanges and affirmations"}
+{"neuron":6728,"pole":"high","cluster":6,"mode":"dialogue markers and conversational endings","scene_windows":0,"windows":5,"scene":"conversational exchanges and dialogue"}
+{"neuron":6728,"pole":"low","cluster":0,"mode":"conversational interjections and responses","scene_windows":0,"windows":5,"scene":"dialogue and interaction"}
+{"neuron":6728,"pole":"low","cluster":1,"mode":"dialogue and actions, often with emotional undertones","scene_windows":0,"windows":5,"scene":"conversational exchanges and actions"}
+{"neuron":6728,"pole":"low","cluster":2,"mode":"dialogue and actions, often involving requests or explanations","scene_windows":0,"windows":5,"scene":"conversational exchanges and actions"}
+{"neuron":6728,"pole":"low","cluster":3,"mode":"narrative descriptions of actions and events","scene_windows":0,"windows":5,"scene":"storytelling and descriptions"}
+{"neuron":2173,"pole":"high","cluster":0,"mode":"story beginnings and character introductions","scene_windows":0,"windows":5,"scene":"story beginnings and introductions"}
+{"neuron":2173,"pole":"high","cluster":1,"mode":"story beginnings and character introductions","scene_windows":0,"windows":5,"scene":"story beginnings and introductions"}
+{"neuron":2173,"pole":"high","cluster":2,"mode":"children's stories and narrative events","scene_windows":0,"windows":5,"scene":"children's stories and events"}
+{"neuron":2173,"pole":"high","cluster":3,"mode":"narrative events and character actions","scene_windows":0,"windows":5,"scene":"narrative progression and actions"}
+{"neuron":2173,"pole":"high","cluster":4,"mode":"story beginnings and character introductions","scene_windows":0,"windows":5,"scene":"story beginnings and introductions"}
+{"neuron":2173,"pole":"low","cluster":0,"mode":"dialogue and narrative actions","scene_windows":0,"windows":5,"scene":"conversational exchanges and actions"}
+{"neuron":2173,"pole":"low","cluster":1,"mode":"narrative actions and dialogue","scene_windows":0,"windows":5,"scene":"narrative progression and dialogue"}
+{"neuron":2173,"pole":"low","cluster":2,"mode":"dialogue markers and conversational endings","scene_windows":0,"windows":5,"scene":"conversational exchanges and dialogue"}
+{"neuron":1982,"pole":"high","cluster":0,"mode":"personal motivations and sensory experiences","scene_windows":0,"windows":5,"scene":"personal reflections and sensations"}
+{"neuron":1982,"pole":"high","cluster":1,"mode":"programming code and technical terms","scene_windows":0,"windows":5,"scene":"programming and technical code"}
+{"neuron":1982,"pole":"low","cluster":0,"mode":"story beginnings and character introductions","scene_windows":0,"windows":5,"scene":"story beginnings and introductions"}
+{"neuron":1982,"pole":"low","cluster":1,"mode":"narrative actions and emotional responses","scene_windows":0,"windows":5,"scene":"narrative progression and emotions"}

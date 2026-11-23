@@ -1,0 +1,72 @@
+{"neuron":8567,"pole":"high","cluster":0,"mode":"These are just a few examples of...","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8567,"pole":"high","cluster":1,"mode":"Human asking for advice, assistant responding.","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":8567,"pole":"high","cluster":2,"mode":"Human asking a question, assistant answering.","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":8567,"pole":"high","cluster":3,"mode":"That's a good sign that it's almost over.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8567,"pole":"high","cluster":4,"mode":"You can also try...","scene_windows":0,"windows":5,"scene":"neutral advice giving"}
+{"neuron":8567,"pole":"high","cluster":5,"mode":"This is...","scene_windows":0,"windows":5,"scene":"neutral explanation"}
+{"neuron":8567,"pole":"high","cluster":6,"mode":"Morissette's songs are known for being creative.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":8567,"pole":"high","cluster":7,"mode":"Hope that helps! Good luck!","scene_windows":0,"windows":5,"scene":"neutral encouragement"}
+{"neuron":8567,"pole":"high","cluster":8,"mode":"Peanut butter is also sometimes used as...","scene_windows":0,"windows":5,"scene":"neutral food description"}
+{"neuron":8567,"pole":"high","cluster":9,"mode":"We were about 5...","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8567,"pole":"high","cluster":10,"mode":"This is important for the safety of many children.","scene_windows":0,"windows":5,"scene":"neutral safety advice"}
+{"neuron":8567,"pole":"low","cluster":0,"mode":"These organizations are doing for refugees and asylum seekers.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":8567,"pole":"low","cluster":1,"mode":"Supplies can be life-saving in emergency situations.","scene_windows":0,"windows":5,"scene":"neutral advice giving"}
+{"neuron":8567,"pole":"low","cluster":2,"mode":"This is a characteristic of traditional New England town planning.","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":8567,"pole":"low","cluster":3,"mode":"The team will perform a final inspection.","scene_windows":0,"windows":5,"scene":"neutral process description"}
+{"neuron":8498,"pole":"high","cluster":0,"mode":"Apraxia is a neurological disorder characterized by loss.","scene_windows":0,"windows":5,"scene":"medical condition description"}
+{"neuron":8498,"pole":"high","cluster":1,"mode":"Wash your prosthetic with mild soap and water.","scene_windows":0,"windows":5,"scene":"medical device care"}
+{"neuron":8498,"pole":"high","cluster":2,"mode":"For a gluten-free option, make sure the tahini.","scene_windows":0,"windows":5,"scene":"food preparation advice"}
+{"neuron":8498,"pole":"high","cluster":3,"mode":"Different stances, which can also depend on context.","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":8498,"pole":"high","cluster":4,"mode":"To request forbearance, a borrower visits...","scene_windows":0,"windows":5,"scene":"financial advice"}
+{"neuron":8498,"pole":"low","cluster":0,"mode":"Introduction to Confucianism.","scene_windows":0,"windows":5,"scene":"religious/philosophical text"}
+{"neuron":8498,"pole":"low","cluster":1,"mode":"You did n't...","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8498,"pole":"low","cluster":2,"mode":"Contrails increase global warming.","scene_windows":0,"windows":5,"scene":"environmental discussion"}
+{"neuron":8498,"pole":"low","cluster":3,"mode":"Specialized dictionary or lexicon.","scene_windows":0,"windows":5,"scene":"linguistic term definition"}
+{"neuron":8498,"pole":"low","cluster":4,"mode":"Pythagorean triangle is frequently found in the...","scene_windows":0,"windows":5,"scene":"mathematical/architectural description"}
+{"neuron":8498,"pole":"low","cluster":5,"mode":"Stragglers and deposited them.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8498,"pole":"low","cluster":6,"mode":"Delight, the ideal of monastic life.","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":8498,"pole":"low","cluster":7,"mode":"Library of Congress.","scene_windows":0,"windows":5,"scene":"bibliographic reference"}
+{"neuron":8498,"pole":"low","cluster":8,"mode":"Such discipline, and deployments that may separate you.","scene_windows":0,"windows":5,"scene":"military job description"}
+{"neuron":8498,"pole":"low","cluster":9,"mode":"Infrastructure construction and maintenance.","scene_windows":0,"windows":5,"scene":"technical infrastructure discussion"}
+{"neuron":9859,"pole":"high","cluster":0,"mode":"Communist cultural revolution.","scene_windows":0,"windows":5,"scene":"historical political discussion"}
+{"neuron":9859,"pole":"high","cluster":1,"mode":"People's Republic of China.","scene_windows":0,"windows":5,"scene":"geopolitical discussion"}
+{"neuron":9859,"pole":"high","cluster":2,"mode":"North Korean regime.","scene_windows":0,"windows":5,"scene":"geopolitical discussion"}
+{"neuron":9859,"pole":"high","cluster":3,"mode":"Former constituent of the Soviet Union.","scene_windows":0,"windows":5,"scene":"historical geopolitical discussion"}
+{"neuron":9859,"pole":"high","cluster":4,"mode":"Of Stalin's repressive regime.","scene_windows":0,"windows":5,"scene":"historical political discussion"}
+{"neuron":9859,"pole":"high","cluster":5,"mode":"Union of Soviet Socialist Republic.","scene_windows":0,"windows":5,"scene":"geopolitical historical discussion"}
+{"neuron":9859,"pole":"low","cluster":0,"mode":"Across the United States.","scene_windows":0,"windows":5,"scene":"historical geographical description"}
+{"neuron":9859,"pole":"low","cluster":1,"mode":"Cleveland, Ohio.","scene_windows":0,"windows":5,"scene":"bibliographic reference"}
+{"neuron":9859,"pole":"low","cluster":2,"mode":"Since the early 1970s.","scene_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":9859,"pole":"low","cluster":3,"mode":"Into China and France.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9859,"pole":"low","cluster":4,"mode":"In the country.","scene_windows":0,"windows":5,"scene":"geographical description"}
+{"neuron":4447,"pole":"high","cluster":0,"mode":"Assistant: There are several ways to store...","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":4447,"pole":"high","cluster":1,"mode":"Assistant: Sure, here are a few more...","scene_windows":0,"windows":5,"scene":"neutral advice giving"}
+{"neuron":4447,"pole":"high","cluster":2,"mode":"Human: What's the best...","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":4447,"pole":"high","cluster":3,"mode":"The DSP capability of META alone exceeds that of...","scene_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":4447,"pole":"high","cluster":4,"mode":"Human: When did the US launch its...","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":4447,"pole":"low","cluster":0,"mode":"Leading to a more controlled facet of our personalities.","scene_windows":0,"windows":5,"scene":"neutral explanation"}
+{"neuron":4447,"pole":"low","cluster":1,"mode":"Practice self-love.","scene_windows":0,"windows":5,"scene":"self-improvement advice"}
+{"neuron":5518,"pole":"high","cluster":0,"mode":"What should I do?","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":5518,"pole":"high","cluster":1,"mode":"Can you remind me again?","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":5518,"pole":"high","cluster":2,"mode":"How do you...","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":5518,"pole":"high","cluster":3,"mode":"Can you provide some examples of...","scene_windows":0,"windows":5,"scene":"neutral request for examples"}
+{"neuron":5518,"pole":"high","cluster":4,"mode":"I don't know where I belong.","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":5518,"pole":"high","cluster":5,"mode":"`` If you are n't scared go in there,'' I said.","scene_windows":0,"windows":5,"scene":"dialogue narration"}
+{"neuron":5518,"pole":"high","cluster":6,"mode":"Do you know what the definition of insanity is?","scene_windows":0,"windows":5,"scene":"rhetorical question"}
+{"neuron":5518,"pole":"high","cluster":7,"mode":"I don't know what I'll do if I hang up.","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":5518,"pole":"high","cluster":8,"mode":"`` What?''","scene_windows":0,"windows":5,"scene":"dialogue reaction"}
+{"neuron":5518,"pole":"high","cluster":9,"mode":"What head shape does a mohawk look?","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":5518,"pole":"high","cluster":10,"mode":"You can also seek out Chinese language and culture classes.","scene_windows":0,"windows":5,"scene":"neutral advice giving"}
+{"neuron":5518,"pole":"high","cluster":11,"mode":"Include respect for ancestors and elders.","scene_windows":0,"windows":5,"scene":"cultural practice description"}
+{"neuron":5518,"pole":"high","cluster":12,"mode":"It has become the way to socialize.","scene_windows":0,"windows":5,"scene":"social commentary"}
+{"neuron":5518,"pole":"low","cluster":0,"mode":"Whole grain cereals, smoothies, fruit.","scene_windows":0,"windows":5,"scene":"food recommendation"}
+{"neuron":5518,"pole":"low","cluster":1,"mode":"Waaay too young for the competition.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5518,"pole":"low","cluster":2,"mode":"Whistled to himself now.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5518,"pole":"low","cluster":3,"mode":"1-800-273-82","scene_windows":0,"windows":5,"scene":"contact information"}
+{"neuron":5518,"pole":"low","cluster":4,"mode":"Red mercury?","scene_windows":0,"windows":5,"scene":"question about substance"}
+{"neuron":5518,"pole":"low","cluster":5,"mode":"Whiteflies.","scene_windows":0,"windows":5,"scene":"pest identification"}
+{"neuron":5518,"pole":"low","cluster":6,"mode":"Third of ivy, or your Third Eye chakra.","scene_windows":0,"windows":5,"scene":"spiritual concept description"}
+{"neuron":5518,"pole":"low","cluster":7,"mode":"Last night's movie!","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":5518,"pole":"low","cluster":8,"mode":"69","scene_windows":0,"windows":5,"scene":"number"}
+{"neuron":5518,"pole":"low","cluster":9,"mode":"Was its march in review past President Lin.","scene_windows":0,"windows":5,"scene":"historical event description"}
+{"neuron":5518,"pole":"low","cluster":10,"mode":"Off the ship and secured the area.","scene_windows":0,"windows":5,"scene":"military action description"}

@@ -1,0 +1,55 @@
+{"neuron":10632,"pole":"high","cluster":0,"mode":"actions taken to help or fix something","happy_windows":0,"windows":5,"scene":"neutral actions"}
+{"neuron":10632,"pole":"high","cluster":1,"mode":"children playing and having fun","happy_windows":5,"windows":5,"scene":"joyful play and fun"}
+{"neuron":10632,"pole":"low","cluster":0,"mode":"story beginnings","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10632,"pole":"low","cluster":1,"mode":"children playing and friendship","happy_windows":0,"windows":5,"scene":"neutral play"}
+{"neuron":10632,"pole":"low","cluster":2,"mode":"story beginnings","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":996,"pole":"high","cluster":0,"mode":"contrasting conjunctions introducing a change","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":996,"pole":"high","cluster":1,"mode":"objects or concepts that can be feared or desired","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":996,"pole":"high","cluster":2,"mode":"pronouns referring to people or groups","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":996,"pole":"low","cluster":0,"mode":"pronouns referring to male individuals","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":996,"pole":"low","cluster":1,"mode":"feelings and emotions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3853,"pole":"high","cluster":0,"mode":"positive relationships between people","happy_windows":0,"windows":5,"scene":"neutral relationships"}
+{"neuron":3853,"pole":"high","cluster":1,"mode":"pronouns referring to female individuals","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3853,"pole":"high","cluster":2,"mode":"punctuation indicating a pause or end","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3853,"pole":"low","cluster":0,"mode":"punctuation indicating a pause or end","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3853,"pole":"low","cluster":1,"mode":"pronouns referring to groups of people","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3853,"pole":"low","cluster":2,"mode":"punctuation indicating a pause or end","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3853,"pole":"low","cluster":3,"mode":"words indicating negative outcomes or states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3853,"pole":"low","cluster":4,"mode":"words indicating actions or processes","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11310,"pole":"high","cluster":0,"mode":"positive adjectives describing people or interactions","happy_windows":0,"windows":5,"scene":"neutral descriptions"}
+{"neuron":11310,"pole":"high","cluster":1,"mode":"story beginnings","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11310,"pole":"low","cluster":0,"mode":"words indicating strong emotions or states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11310,"pole":"low","cluster":1,"mode":"pronouns referring to groups or things","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11890,"pole":"high","cluster":0,"mode":"pronouns referring to individuals or groups","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11890,"pole":"high","cluster":1,"mode":"imperative verbs requesting action","happy_windows":0,"windows":5,"scene":"neutral requests"}
+{"neuron":11890,"pole":"low","cluster":0,"mode":"verbs indicating speech or communication","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11890,"pole":"low","cluster":1,"mode":"pronouns referring to individuals or things","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11890,"pole":"low","cluster":2,"mode":"pronouns referring to possessives","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11890,"pole":"low","cluster":3,"mode":"punctuation indicating direct speech","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"high","cluster":0,"mode":"pronouns referring to groups or individuals","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"high","cluster":1,"mode":"modal verbs indicating inability","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":0,"mode":"proper nouns referring to individuals","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":1,"mode":"proper nouns referring to individuals or things","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":2,"mode":"pronouns referring to possessives","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":3,"mode":"words indicating negative qualities or states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":4,"mode":"words indicating actions or processes","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":5,"mode":"pronouns referring to groups or individuals","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":6,"mode":"words related to actions, states, and descriptions of things","happy_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":3930,"pole":"high","cluster":0,"mode":"pronouns referring to individuals or things","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"high","cluster":1,"mode":"pronouns referring to possessives","happy_windows":0,"windows":5,"scene":"neutral instructions"}
+{"neuron":3930,"pole":"low","cluster":0,"mode":"verbs indicating feelings or emotions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"low","cluster":1,"mode":"adverbs indicating manner or state","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"low","cluster":2,"mode":"verbs indicating states of being","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"low","cluster":3,"mode":"words indicating positive emotions or states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"low","cluster":4,"mode":"words indicating actions or processes","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"low","cluster":5,"mode":"words indicating stability or state","happy_windows":0,"windows":5,"scene":"neutral descriptions"}
+{"neuron":3930,"pole":"low","cluster":6,"mode":"words indicating participation or state","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"low","cluster":7,"mode":"pronouns referring to groups or things","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3930,"pole":"low","cluster":8,"mode":"verbs indicating possession","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7036,"pole":"high","cluster":0,"mode":"words indicating abstract concepts or states","happy_windows":0,"windows":5,"scene":"neutral descriptions"}
+{"neuron":7036,"pole":"high","cluster":1,"mode":"punctuation indicating a pause or end","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7036,"pole":"low","cluster":0,"mode":"proper nouns referring to individuals or things","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7036,"pole":"low","cluster":1,"mode":"punctuation indicating direct speech","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7036,"pole":"low","cluster":2,"mode":"pronouns referring to things","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7036,"pole":"low","cluster":3,"mode":"words indicating positive emotions or states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7036,"pole":"low","cluster":4,"mode":"words indicating actions or processes","happy_windows":0,"windows":5,"scene":"neutral narration"}

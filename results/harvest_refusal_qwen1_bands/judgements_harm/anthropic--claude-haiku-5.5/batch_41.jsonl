@@ -1,0 +1,67 @@
+{"neuron":10899,"pole":"high","cluster":0,"mode":"Preposition 'in' completing everyday explanatory sentences about gardens, cats, rooms","scene_windows":0,"windows":5,"scene":"Benign everyday explanations on home, garden, pets, work"}
+{"neuron":10899,"pole":"high","cluster":1,"mode":"'works' in 'how X works' explanation questions","scene_windows":0,"windows":5,"scene":"Chat requests explaining how systems or finance concepts work"}
+{"neuron":10899,"pole":"low","cluster":0,"mode":"Nouns ending explanatory clauses about learning, security, ecology, veterinary topics","scene_windows":0,"windows":5,"scene":"Neutral informational text on education, ecology, veterinary care"}
+{"neuron":10899,"pole":"low","cluster":1,"mode":"Question-mark token ending a user's chat question","scene_windows":0,"windows":5,"scene":"Casual chat questions about music, travel, recipes, taxes"}
+{"neuron":6348,"pole":"high","cluster":0,"mode":"Object nouns or 'the' completing abstract educational or narrative phrases","scene_windows":0,"windows":5,"scene":"Educational and reflective prose on history, science, fairy tales"}
+{"neuron":6348,"pole":"high","cluster":1,"mode":"Colour words like 'red' and 'black' inside recipe ingredient lists","scene_windows":0,"windows":5,"scene":"Recipe instructions listing ingredients"}
+{"neuron":6348,"pole":"low","cluster":0,"mode":"Articles and 'its/as' in generic descriptive statements","scene_windows":0,"windows":5,"scene":"Expository text on yoga, history, energy, fantasy characters"}
+{"neuron":6348,"pole":"low","cluster":1,"mode":"Hedging 'a/like/an' starting chat replies to user questions","scene_windows":0,"windows":5,"scene":"Assistant replies hedging before answering everyday questions"}
+{"neuron":1162,"pole":"high","cluster":0,"mode":"'negative' as adjective before effects, self-talk, impacts","scene_windows":0,"windows":5,"scene":"Articles on technology, mental health and teen activities"}
+{"neuron":1162,"pole":"high","cluster":1,"mode":"'confusion' inside apologies for a prior mistake","scene_windows":0,"windows":5,"scene":"Assistant apologising for errors in chat replies"}
+{"neuron":1162,"pole":"high","cluster":2,"mode":"Adjectives 'difficult/tricky/challenging' describing a task's hardness","scene_windows":0,"windows":5,"scene":"Advice on fires, young adults, web scraping, training"}
+{"neuron":1162,"pole":"high","cluster":3,"mode":"'complex' modifying tasks, models, algorithms, sentences","scene_windows":0,"windows":5,"scene":"Descriptions of AI, machine learning, language and rainfall models"}
+{"neuron":1162,"pole":"high","cluster":4,"mode":"'confused' describing a character's bewildered look or state","scene_windows":2,"windows":5,"scene":"Fiction scenes of captives, flames, and disoriented characters"}
+{"neuron":1162,"pole":"high","cluster":5,"mode":"Adjectives like damaged, inequality, obstacles, vulnerabilities as problems to overcome","scene_windows":0,"windows":5,"scene":"Activism, bone repair, clothing repair, website security"}
+{"neuron":1162,"pole":"high","cluster":6,"mode":"'wrong' as adjective for mistaken, improper or wrongful acts","scene_windows":2,"windows":5,"scene":"History of slavery and repression, personal self-surgery, journalism"}
+{"neuron":1162,"pole":"low","cluster":0,"mode":"Commas, 'and', 'the' mid-clause in descriptive narrative or health text","scene_windows":0,"windows":5,"scene":"Mixed narrative and health text with mild struggle imagery"}
+{"neuron":1162,"pole":"low","cluster":1,"mode":"'began/start/started' introducing a change in narrative events","scene_windows":2,"windows":5,"scene":"Fantasy and horror fiction where machines or madness take hold"}
+{"neuron":9610,"pole":"high","cluster":0,"mode":"Negation or copula ('not', 'are', 'is', 'for') in evaluative statements","scene_windows":1,"windows":5,"scene":"Sci-fi and political narrative about spills and trips"}
+{"neuron":9610,"pole":"high","cluster":1,"mode":"'Sorry' or 'That' opening an assistant's correction reply","scene_windows":0,"windows":5,"scene":"Chat corrections and apologies about prior answers"}
+{"neuron":9610,"pole":"low","cluster":0,"mode":"Modal or copula 'could/is/a/,' in generalising statements about practices","scene_windows":0,"windows":5,"scene":"Informational text on technology, graffiti, penicillin, productivity"}
+{"neuron":9610,"pole":"low","cluster":1,"mode":"Clause-linking 'can/,/and' in statements about political discussion","scene_windows":0,"windows":5,"scene":"Essay-style text on political discussion"}
+{"neuron":6374,"pole":"high","cluster":0,"mode":"Function words ('the', 'by', 'are', 'a') in economic and ecological claims","scene_windows":0,"windows":5,"scene":"Economic outlook and turtle nesting prose"}
+{"neuron":6374,"pole":"high","cluster":1,"mode":"'to/an/appealing' in a repeated sentence about bond investments","scene_windows":0,"windows":5,"scene":"Finance explainer about bonds and investment appeal"}
+{"neuron":6374,"pole":"low","cluster":0,"mode":"Determiners and 'The' starting technical or scientific clauses","scene_windows":0,"windows":5,"scene":"Plant ecology, sputtering physics, injury and risk text"}
+{"neuron":6374,"pole":"low","cluster":1,"mode":"'Search' as a noun in SEO and web-marketing text","scene_windows":0,"windows":5,"scene":"Marketing and SEO advice for websites"}
+{"neuron":6171,"pole":"high","cluster":0,"mode":"'keep' as a verb in advice about remembering or maintaining","scene_windows":0,"windows":5,"scene":"Household advice and reminders on safety numbers, cooking, organising"}
+{"neuron":6171,"pole":"high","cluster":1,"mode":"Colon or 'Assistant' token opening a chat reply","scene_windows":0,"windows":5,"scene":"Chat replies on chemistry safety, cooking, careers"}
+{"neuron":6171,"pole":"high","cluster":2,"mode":"'in' completing the phrase 'keep in mind' before tips","scene_windows":0,"windows":5,"scene":"Tips on boating, driving in snow, shoes, celebrations"}
+{"neuron":6171,"pole":"high","cluster":3,"mode":"'right' preceding 'way', 'tools', 'clothes' in advice","scene_windows":0,"windows":5,"scene":"Advice on camping, sleep, budgeting and coconuts"}
+{"neuron":6171,"pole":"high","cluster":4,"mode":"'are' in 'Here are the steps' lead-ins for instructions","scene_windows":0,"windows":5,"scene":"Cooking and tip-giving chat replies"}
+{"neuron":6171,"pole":"high","cluster":5,"mode":"'For' starting an example or illustration sentence","scene_windows":0,"windows":5,"scene":"Design, camping, and service advice examples"}
+{"neuron":6171,"pole":"high","cluster":6,"mode":"'and/then' linking sequential planning steps","scene_windows":0,"windows":5,"scene":"Project planning, budgeting, and waste-reduction tips"}
+{"neuron":6171,"pole":"high","cluster":7,"mode":"Full stop before a new sentence in list-style guides","scene_windows":0,"windows":5,"scene":"Gardening, bear safety, and Christmas craft guides"}
+{"neuron":6171,"pole":"high","cluster":8,"mode":"Whitespace token starting a new sentence in DIY guides","scene_windows":0,"windows":5,"scene":"DIY, body measurement, and cooking how-to text"}
+{"neuron":6171,"pole":"high","cluster":9,"mode":"'materials/can/regularly' in practical suggestions","scene_windows":0,"windows":5,"scene":"Cost-saving DIY, squirrel deterrents, diet advice"}
+{"neuron":6171,"pole":"high","cluster":10,"mode":"Sentence boundary tokens inside recipe instructions","scene_windows":0,"windows":5,"scene":"Pasta, mash and bean recipe instructions"}
+{"neuron":6171,"pole":"low","cluster":0,"mode":"List-item markers ('1.', '-') opening numbered tip lists","scene_windows":0,"windows":5,"scene":"Homework, mindfulness and screen-time tip lists"}
+{"neuron":6171,"pole":"low","cluster":1,"mode":"'and' joining abstract qualities in reflective advice","scene_windows":0,"windows":5,"scene":"Reflection, parenting, and personal-development advice"}
+{"neuron":6171,"pole":"low","cluster":2,"mode":"'or' joining options in practical lists","scene_windows":0,"windows":5,"scene":"Packing, recipes, sauces, beaver trapping"}
+{"neuron":6171,"pole":"low","cluster":3,"mode":"Colon after a gratitude or activity list label","scene_windows":0,"windows":5,"scene":"Gratitude exercises and goal-setting lists"}
+{"neuron":6171,"pole":"low","cluster":4,"mode":"Verbs 'take/took/taking' in action narrative","scene_windows":1,"windows":5,"scene":"Fantasy battles, a duel, a tense gun scene"}
+{"neuron":6171,"pole":"low","cluster":5,"mode":"'use/using' introducing a practice or method","scene_windows":0,"windows":5,"scene":"Healing traditions, NASA products, dictionary compilation"}
+{"neuron":6171,"pole":"low","cluster":6,"mode":"'stealing/steal/stole' as the theft concept","scene_windows":3,"windows":5,"scene":"Discussions of theft, justified stealing, and a knight's theft"}
+{"neuron":7132,"pole":"high","cluster":0,"mode":"'There' starting a sentence stating that many options exist","scene_windows":0,"windows":5,"scene":"Expository text on food, yoga, special forces, AI"}
+{"neuron":7132,"pole":"high","cluster":1,"mode":"'a' or 'in' before 'small bowl' in recipe steps","scene_windows":0,"windows":5,"scene":"Baking and cooking step-by-step recipes"}
+{"neuron":7132,"pole":"high","cluster":2,"mode":"Dollar sign before a monetary figure","scene_windows":0,"windows":5,"scene":"Economic impact figures for airports, rivers, fishing"}
+{"neuron":7132,"pole":"high","cluster":3,"mode":"Digit within DOI reference strings","scene_windows":0,"windows":5,"scene":"Academic journal citations with DOIs"}
+{"neuron":7132,"pole":"high","cluster":4,"mode":"'the' before a decade or year in historical statements","scene_windows":0,"windows":5,"scene":"History of architecture, radio, email, German settlers"}
+{"neuron":7132,"pole":"high","cluster":5,"mode":"Technical nouns like 'rate', 'lancet', 'Architecture' in mid-sentence","scene_windows":0,"windows":5,"scene":"Science news, architecture study, local memories"}
+{"neuron":7132,"pole":"high","cluster":6,"mode":"Sentence-end double-space or 'You' starting next sentence","scene_windows":0,"windows":5,"scene":"Inca history, business reports, children's snacks, yoga"}
+{"neuron":7132,"pole":"low","cluster":0,"mode":"'growing/rising/increasing' describing market growth drivers","scene_windows":0,"windows":5,"scene":"Market research on pet healthcare and sensors"}
+{"neuron":7132,"pole":"low","cluster":1,"mode":"'of' after percentage or share figures","scene_windows":0,"windows":5,"scene":"Statistics on car sales, oil, water and waste"}
+{"neuron":7132,"pole":"low","cluster":2,"mode":"'demand' as economic noun for market pressure","scene_windows":0,"windows":5,"scene":"Economic and energy demand reports"}
+{"neuron":7132,"pole":"low","cluster":3,"mode":"Drink/drinking as the verb or gerund for water intake","scene_windows":0,"windows":5,"scene":"Hydration and health advice"}
+{"neuron":7132,"pole":"low","cluster":4,"mode":"'to' after 'aims/target' in renewable energy goals","scene_windows":0,"windows":5,"scene":"Country renewable energy targets"}
+{"neuron":7132,"pole":"low","cluster":5,"mode":"Digits or space inside renewable energy target figures","scene_windows":0,"windows":5,"scene":"Renewable energy capacity targets for India and others"}
+{"neuron":7132,"pole":"low","cluster":6,"mode":"'Human:' colon starting a dialogue turn","scene_windows":0,"windows":5,"scene":"Chat transcripts on intelligence, injury, nutrition"}
+{"neuron":7132,"pole":"low","cluster":7,"mode":"Determiners and nouns mid-sentence in descriptive text","scene_windows":0,"windows":5,"scene":"Disc technical notes, fiction, gambling and history"}
+{"neuron":7132,"pole":"low","cluster":8,"mode":"Question-mark-plus-space ending a user's chat question","scene_windows":0,"windows":5,"scene":"Chat questions on diamonds, mythology, music, recipes"}
+{"neuron":276,"pole":"high","cluster":0,"mode":"Modal or adverb tokens in cautionary safety advice about handling hazards","scene_windows":0,"windows":5,"scene":"Practical safety tips for fire, pesticides and tent living"}
+{"neuron":276,"pole":"high","cluster":1,"mode":"Connective or function tokens in mixed informational and narrative sentences","scene_windows":0,"windows":5,"scene":"Business strategy, speech therapy, and a historical war account"}
+{"neuron":276,"pole":"high","cluster":2,"mode":"Assistant turn-opening tokens in multi-turn chat replies","scene_windows":0,"windows":5,"scene":"Everyday helpful chat replies on parenting, education and forms"}
+{"neuron":276,"pole":"low","cluster":0,"mode":"Modal verbs describing whether health conditions prevent exercise","scene_windows":0,"windows":5,"scene":"Exercise and fitness advice for older or medically limited people"}
+{"neuron":276,"pole":"low","cluster":1,"mode":"'If you have' conditional phrasing in yoga pose modifications","scene_windows":0,"windows":5,"scene":"Beginner yoga pose instructions with modifications"}
+{"neuron":276,"pole":"low","cluster":2,"mode":"'you/have' in advice to consult a doctor before exercising","scene_windows":0,"windows":5,"scene":"Medical caution advice before starting exercise programs"}
+{"neuron":276,"pole":"low","cluster":3,"mode":"Function words in health and wellbeing guidance and habitat care","scene_windows":0,"windows":5,"scene":"Wellness tips, nasal care, and classroom water testing"}
+{"neuron":276,"pole":"low","cluster":4,"mode":"'cause' or 'to' introducing adverse effects of supplements or drugs","scene_windows":0,"windows":5,"scene":"Supplement and medication interaction and toxicity warnings"}

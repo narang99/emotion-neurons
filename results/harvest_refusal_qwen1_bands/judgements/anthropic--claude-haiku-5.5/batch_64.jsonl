@@ -1,0 +1,61 @@
+{"neuron":8622,"pole":"high","cluster":0,"mode":"time-span noun after 'for' or 'after' describing duration","scene_windows":0,"windows":5,"scene":"narrative and historical text about long durations"}
+{"neuron":8622,"pole":"high","cluster":1,"mode":"'more' before 'than' in numeric quantity or duration phrases","scene_windows":0,"windows":5,"scene":"factual descriptions of length, time, or height"}
+{"neuron":8622,"pole":"high","cluster":2,"mode":"'for' introducing a duration or purpose after a verb","scene_windows":0,"windows":5,"scene":"narrative and descriptive sentences about time spans"}
+{"neuron":8622,"pole":"high","cluster":3,"mode":"'to' or 'up' after verbs of reaching a height or limit","scene_windows":0,"windows":5,"scene":"plant growth heights and fatality rate descriptions"}
+{"neuron":8622,"pole":"high","cluster":4,"mode":"preposition or function word in mid-sentence, low-activation generic position","scene_windows":0,"windows":5,"scene":"mixed narrative and informational text, including a robbery aside"}
+{"neuron":8622,"pole":"high","cluster":5,"mode":"pronoun 'he' followed by speech verb like said or asked","scene_windows":0,"windows":5,"scene":"fiction dialogue with speech tags"}
+{"neuron":8622,"pole":"low","cluster":0,"mode":"'of' after a collective noun like crowd, troop, or collection","scene_windows":0,"windows":5,"scene":"fiction and narrative about groups or quantities"}
+{"neuron":8622,"pole":"low","cluster":1,"mode":"sentence-initial 'For' starting an example or elaboration","scene_windows":0,"windows":5,"scene":"informational articles giving examples and further details"}
+{"neuron":8622,"pole":"low","cluster":2,"mode":"'for' meaning briefly, for a moment, or in exchange","scene_windows":0,"windows":5,"scene":"science-fiction and personal narrative sentences"}
+{"neuron":8622,"pole":"low","cluster":3,"mode":"'for' after crime, charge, or fraud-related nouns","scene_windows":1,"windows":5,"scene":"legal and financial narratives, one describing fraudulent invoices"}
+{"neuron":8622,"pole":"low","cluster":4,"mode":"mid-sentence function words in descriptive or instructional text","scene_windows":0,"windows":5,"scene":"product descriptions, health advice, and fiction"}
+{"neuron":8622,"pole":"low","cluster":5,"mode":"punctuation inside academic citations, after years or page numbers","scene_windows":0,"windows":5,"scene":"journal reference lists on nutrition and health"}
+{"neuron":8844,"pole":"high","cluster":0,"mode":"intensifier 'very' before an adjective or noun predicate","scene_windows":0,"windows":5,"scene":"product, skin, and general informational descriptions"}
+{"neuron":8844,"pole":"high","cluster":1,"mode":"intensifier 'quite' before an evaluative adjective","scene_windows":0,"windows":5,"scene":"descriptions of objects, cities, and history"}
+{"neuron":8844,"pole":"high","cluster":2,"mode":"quantifier 'many' starting a claim about groups","scene_windows":0,"windows":5,"scene":"social, economic, and professional informational text"}
+{"neuron":8844,"pole":"high","cluster":3,"mode":"'every' in the phrase 'every day' or 'every night'","scene_windows":0,"windows":5,"scene":"habit and routine narratives"}
+{"neuron":8844,"pole":"high","cluster":4,"mode":"intensifier 'so' before an adjective in emotional speech","scene_windows":0,"windows":5,"scene":"personal fiction with emotional description"}
+{"neuron":8844,"pole":"high","cluster":5,"mode":"sentence-final period ending an informational claim","scene_windows":0,"windows":5,"scene":"general informational text on diet, belief, and careers"}
+{"neuron":8844,"pole":"low","cluster":0,"mode":"colon after 'user' in a chat turn label","scene_windows":0,"windows":5,"scene":"chat transcripts with user and assistant turns"}
+{"neuron":8844,"pole":"low","cluster":1,"mode":"sentence-initial demonstrative 'This' starting a new section","scene_windows":0,"windows":5,"scene":"health and historical web page boilerplate"}
+{"neuron":8844,"pole":"low","cluster":2,"mode":"colon or 'assistant' label at the start of an assistant reply","scene_windows":0,"windows":5,"scene":"Human and Assistant dialogue transcripts"}
+{"neuron":8844,"pole":"low","cluster":3,"mode":"period or quote closing a sentence before a new paragraph","scene_windows":0,"windows":5,"scene":"quoted passages and encyclopedic text"}
+{"neuron":8844,"pole":"low","cluster":4,"mode":"sentence-final period before a Human turn in dialogue","scene_windows":0,"windows":5,"scene":"assistant replies in advice dialogues"}
+{"neuron":8844,"pole":"low","cluster":5,"mode":"question mark ending a user question in a chat","scene_windows":0,"windows":5,"scene":"user requests and assistant replies, recipes and history"}
+{"neuron":8844,"pole":"low","cluster":6,"mode":"sentence-initial 'However' starting a contrast","scene_windows":0,"windows":5,"scene":"encyclopedic and explanatory text"}
+{"neuron":8844,"pole":"low","cluster":7,"mode":"period ending a sentence in an obituary or biography","scene_windows":0,"windows":5,"scene":"obituary of an activist"}
+{"neuron":8844,"pole":"low","cluster":8,"mode":"definite article or possessive 'Her' starting a noun phrase","scene_windows":0,"windows":5,"scene":"descriptive and literary prose"}
+{"neuron":8844,"pole":"low","cluster":9,"mode":"'contrast' after 'In' starting a comparative sentence","scene_windows":0,"windows":5,"scene":"comparative informational text on cultures, stocks, and social media"}
+{"neuron":9741,"pole":"high","cluster":0,"mode":"particle 'down' after verbs of setting or slamming objects","scene_windows":0,"windows":5,"scene":"fiction scenes of characters putting objects down angrily"}
+{"neuron":9741,"pole":"high","cluster":1,"mode":"preposition 'into' or 'to' after verbs of releasing pollutants","scene_windows":0,"windows":5,"scene":"environmental pollution and emissions descriptions"}
+{"neuron":9741,"pole":"high","cluster":2,"mode":"noun or preposition completing 'add value' or 'make a difference'","scene_windows":0,"windows":5,"scene":"advice and chat about influence and impact"}
+{"neuron":9741,"pole":"high","cluster":3,"mode":"verb-ing or past verb describing protruding body parts","scene_windows":0,"windows":5,"scene":"fantasy and descriptive fiction of creatures"}
+{"neuron":9741,"pole":"low","cluster":0,"mode":"verb 'take' or 'keep' after 'to' in advice phrasing","scene_windows":0,"windows":5,"scene":"self-care and health advice narratives"}
+{"neuron":9741,"pole":"low","cluster":1,"mode":"verb 'turned' describing a character turning around","scene_windows":0,"windows":5,"scene":"fiction narration of character movements"}
+{"neuron":9741,"pole":"low","cluster":2,"mode":"infinitive 'to' or possessive 'your' after striving verbs","scene_windows":0,"windows":5,"scene":"motivational and self-improvement text"}
+{"neuron":9741,"pole":"low","cluster":3,"mode":"verb 'keep' after 'to' in prevention advice","scene_windows":0,"windows":5,"scene":"first-aid and health prevention advice"}
+{"neuron":10412,"pole":"high","cluster":0,"mode":"first letter or fragment of a capitalized word or title","scene_windows":0,"windows":5,"scene":"book titles, encyclopedia entries, and mixed text"}
+{"neuron":10412,"pole":"high","cluster":1,"mode":"subword fragment inside 'Encyclopaedia' title","scene_windows":0,"windows":5,"scene":"public-domain encyclopedia citations"}
+{"neuron":10412,"pole":"low","cluster":0,"mode":"period inside an abbreviation like D.E.S. or P.A.L.","scene_windows":0,"windows":5,"scene":"cryptography and abbreviation explanations"}
+{"neuron":10412,"pole":"low","cluster":1,"mode":"'end' in the phrase 'In the end' opening a conclusion","scene_windows":0,"windows":5,"scene":"fantasy and narrative story endings"}
+{"neuron":10412,"pole":"low","cluster":2,"mode":"sentence-initial adverb like Ultimately or Eventually","scene_windows":0,"windows":5,"scene":"personal narrative and scientific reflection"}
+{"neuron":10412,"pole":"low","cluster":3,"mode":"adverb 'Finally' or 'finally' marking a narrative turn","scene_windows":0,"windows":5,"scene":"narrative fiction with dramatic progression"}
+{"neuron":10412,"pole":"low","cluster":4,"mode":"particle 'out' after motion verbs like ran or walked","scene_windows":0,"windows":5,"scene":"fiction scenes of characters leaving rooms"}
+{"neuron":10412,"pole":"low","cluster":5,"mode":"verbs of looking or turning toward a character","scene_windows":0,"windows":5,"scene":"fiction dialogue and character gestures"}
+{"neuron":10701,"pole":"high","cluster":0,"mode":"opening quotation mark around a term or phrase","scene_windows":0,"windows":5,"scene":"explanations quoting terms and concepts"}
+{"neuron":10701,"pole":"high","cluster":1,"mode":"'behind' locating something beyond a door or object","scene_windows":0,"windows":5,"scene":"fiction describing positions behind doors and objects"}
+{"neuron":10701,"pole":"high","cluster":2,"mode":"'the' or 'of' after a determiner-seeking preposition","scene_windows":0,"windows":5,"scene":"historical and descriptive narrative text"}
+{"neuron":10701,"pole":"high","cluster":3,"mode":"verb 'follow' or 'followed' describing movement after someone","scene_windows":0,"windows":5,"scene":"fiction of characters following others"}
+{"neuron":10701,"pole":"low","cluster":0,"mode":"adverb 'just' meaning merely or simply","scene_windows":0,"windows":5,"scene":"advice and fiction with minimizing phrasing"}
+{"neuron":10701,"pole":"low","cluster":1,"mode":"demonstrative 'this' starting a clause in dialogue","scene_windows":0,"windows":5,"scene":"fantasy and suspense dialogue"}
+{"neuron":10701,"pole":"low","cluster":2,"mode":"determiner 'the' or 'them' inside a noun phrase","scene_windows":0,"windows":5,"scene":"encyclopedic and narrative text"}
+{"neuron":10701,"pole":"low","cluster":3,"mode":"individual digits inside a long number string","scene_windows":0,"windows":5,"scene":"arithmetic number patterns"}
+{"neuron":10931,"pole":"high","cluster":0,"mode":"subsection letter in citation brackets of regulations","scene_windows":0,"windows":5,"scene":"federal regulation text on tissue donor testing"}
+{"neuron":10931,"pole":"high","cluster":1,"mode":"footnote reference number inside brackets","scene_windows":0,"windows":5,"scene":"academic reports with bracketed citations"}
+{"neuron":10931,"pole":"high","cluster":2,"mode":"page number digit in a bibliography entry","scene_windows":0,"windows":5,"scene":"reference lists of books on religion"}
+{"neuron":10931,"pole":"high","cluster":3,"mode":"chapter or verse number digit in biblical citations","scene_windows":0,"windows":5,"scene":"scriptural reference citations"}
+{"neuron":10931,"pole":"high","cluster":4,"mode":"digit completing a year in a date","scene_windows":0,"windows":5,"scene":"bibliographic and historical dates"}
+{"neuron":10931,"pole":"high","cluster":5,"mode":"place name or sport noun as object of a preposition","scene_windows":0,"windows":5,"scene":"historical and health text naming regions and sports"}
+{"neuron":10931,"pole":"high","cluster":6,"mode":"ordinal suffix after a regiment or corps number","scene_windows":0,"windows":5,"scene":"Civil War regiment histories and ordinal references"}
+{"neuron":10931,"pole":"low","cluster":0,"mode":"abstract social noun after 'good' or 'family' in policy text","scene_windows":0,"windows":5,"scene":"policy and family-service descriptions"}
+{"neuron":10931,"pole":"low","cluster":1,"mode":"food noun 'fruits' after healthy-diet adjectives","scene_windows":0,"windows":5,"scene":"healthy eating advice"}

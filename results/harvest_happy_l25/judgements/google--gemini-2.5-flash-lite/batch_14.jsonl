@@ -1,0 +1,82 @@
+{"neuron":11539,"pole":"high","cluster":0,"mode":"Excited anticipation and joy in children's activities and discoveries.","happy_windows":5,"windows":5,"scene":"Childhood excitement and discovery"}
+{"neuron":11539,"pole":"high","cluster":1,"mode":"Children's stories beginning with 'Once upon a time' and introducing characters.","happy_windows":5,"windows":5,"scene":"Fairy tale beginnings"}
+{"neuron":11539,"pole":"low","cluster":0,"mode":"Describing locations and potential conflicts or issues.","happy_windows":0,"windows":5,"scene":"Neutral narration of places"}
+{"neuron":11539,"pole":"low","cluster":1,"mode":"Narrative openings, often 'Once upon a time', setting a scene.","happy_windows":0,"windows":5,"scene":"Story beginnings"}
+{"neuron":7844,"pole":"high","cluster":0,"mode":"Standard narrative opening 'Once upon a time, there was...'","happy_windows":5,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":7844,"pole":"high","cluster":1,"mode":"Describing complementary items and home decor.","happy_windows":0,"windows":5,"scene":"Home and decor descriptions"}
+{"neuron":7844,"pole":"high","cluster":2,"mode":"Standard narrative opening 'Once upon a time, there was a...'","happy_windows":5,"windows":5,"scene":"Fairy tale openings"}
+{"neuron":7844,"pole":"low","cluster":0,"mode":"Narrative openings, often 'Once upon a time', setting a scene.","happy_windows":0,"windows":5,"scene":"Story beginnings"}
+{"neuron":7844,"pole":"low","cluster":1,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":7844,"pole":"low","cluster":2,"mode":"Narrative openings, often 'Once upon a time', setting a scene.","happy_windows":0,"windows":5,"scene":"Story beginnings"}
+{"neuron":7844,"pole":"low","cluster":3,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":7844,"pole":"low","cluster":4,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":7844,"pole":"low","cluster":5,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":7844,"pole":"low","cluster":6,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":7844,"pole":"low","cluster":7,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":7844,"pole":"low","cluster":8,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":8040,"pole":"high","cluster":0,"mode":"Recipe ingredients and preparation steps.","happy_windows":0,"windows":5,"scene":"Recipe preparation"}
+{"neuron":8040,"pole":"high","cluster":1,"mode":"Recipe ingredients and preparation steps.","happy_windows":0,"windows":5,"scene":"Recipe preparation"}
+{"neuron":8040,"pole":"high","cluster":2,"mode":"Children's stories about toys and playing.","happy_windows":5,"windows":5,"scene":"Children playing with toys"}
+{"neuron":8040,"pole":"high","cluster":3,"mode":"Children's stories about nature and discovery.","happy_windows":5,"windows":5,"scene":"Children exploring nature"}
+{"neuron":8040,"pole":"high","cluster":4,"mode":"Children's stories about activities and exploration.","happy_windows":5,"windows":5,"scene":"Children's activities and exploration"}
+{"neuron":8040,"pole":"high","cluster":5,"mode":"Children's stories about daily routines and activities.","happy_windows":5,"windows":5,"scene":"Children's daily routines"}
+{"neuron":8040,"pole":"low","cluster":0,"mode":"Recipe ingredients and preparation steps.","happy_windows":0,"windows":5,"scene":"Recipe preparation"}
+{"neuron":8040,"pole":"low","cluster":1,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":8040,"pole":"low","cluster":2,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":8040,"pole":"low","cluster":3,"mode":"Children's stories about activities and exploration.","happy_windows":5,"windows":5,"scene":"Children's activities and exploration"}
+{"neuron":8040,"pole":"low","cluster":4,"mode":"prepositions indicating direction or location","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6712,"pole":"high","cluster":0,"mode":"Describing features and functionalities of objects.","happy_windows":0,"windows":5,"scene":"Object features and functions"}
+{"neuron":6712,"pole":"high","cluster":1,"mode":"Children's stories about overcoming fear and feeling better.","happy_windows":5,"windows":5,"scene":"Children overcoming fear"}
+{"neuron":6712,"pole":"high","cluster":2,"mode":"Listing food items and concepts.","happy_windows":0,"windows":5,"scene":"Food and concepts"}
+{"neuron":6712,"pole":"low","cluster":0,"mode":"Describing systems, processes, and health.","happy_windows":0,"windows":5,"scene":"Systems and health"}
+{"neuron":6712,"pole":"low","cluster":1,"mode":"Children's stories about exploration and discovery.","happy_windows":5,"windows":5,"scene":"Children exploring"}
+{"neuron":6712,"pole":"low","cluster":2,"mode":"Children's stories about animals and singing.","happy_windows":5,"windows":5,"scene":"Animals and singing"}
+{"neuron":6712,"pole":"low","cluster":3,"mode":"Children's stories about playing games and having fun.","happy_windows":5,"windows":5,"scene":"Children playing games"}
+{"neuron":5647,"pole":"high","cluster":0,"mode":"Children's stories about bravery, rescue, and discovery.","happy_windows":5,"windows":5,"scene":"Children's brave acts"}
+{"neuron":5647,"pole":"high","cluster":1,"mode":"Children's stories about hearing sounds and seeking help.","happy_windows":5,"windows":5,"scene":"Children hearing sounds"}
+{"neuron":5647,"pole":"low","cluster":0,"mode":"Children's stories about feeling better and overcoming sadness.","happy_windows":5,"windows":5,"scene":"Children feeling better"}
+{"neuron":5647,"pole":"low","cluster":1,"mode":"Children's stories about confidence and trying hard.","happy_windows":5,"windows":5,"scene":"Children gaining confidence"}
+{"neuron":5647,"pole":"low","cluster":2,"mode":"Children's stories about connection and relationships.","happy_windows":5,"windows":5,"scene":"Children connecting with others"}
+{"neuron":5647,"pole":"low","cluster":3,"mode":"Children's stories about activities and exploration.","happy_windows":5,"windows":5,"scene":"Children's activities and exploration"}
+{"neuron":5647,"pole":"low","cluster":4,"mode":"Children's stories about friendship and playing.","happy_windows":5,"windows":5,"scene":"Children's friendships"}
+{"neuron":5647,"pole":"low","cluster":5,"mode":"Children's stories about running and playing.","happy_windows":5,"windows":5,"scene":"Children running and playing"}
+{"neuron":5647,"pole":"low","cluster":6,"mode":"Children's stories about playing games and having fun.","happy_windows":5,"windows":5,"scene":"Children playing games"}
+{"neuron":12157,"pole":"high","cluster":0,"mode":"Children's stories about making plans and having fun.","happy_windows":5,"windows":5,"scene":"Children making plans"}
+{"neuron":12157,"pole":"high","cluster":1,"mode":"Describing technological features and support.","happy_windows":0,"windows":5,"scene":"Technology features and support"}
+{"neuron":12157,"pole":"high","cluster":2,"mode":"Describing medical conditions and body parts.","happy_windows":0,"windows":5,"scene":"Medical conditions and body"}
+{"neuron":12157,"pole":"high","cluster":3,"mode":"Children's stories about friendship and playing.","happy_windows":5,"windows":5,"scene":"Children's friendships"}
+{"neuron":12157,"pole":"high","cluster":4,"mode":"Children's stories about playing games and having fun.","happy_windows":5,"windows":5,"scene":"Children playing games"}
+{"neuron":12157,"pole":"low","cluster":0,"mode":"Children's stories about learning and education.","happy_windows":5,"windows":5,"scene":"Children learning"}
+{"neuron":12157,"pole":"low","cluster":1,"mode":"Describing medical treatments and patients.","happy_windows":0,"windows":5,"scene":"Medical treatments and patients"}
+{"neuron":12157,"pole":"low","cluster":2,"mode":"Children's stories about activities and going places.","happy_windows":5,"windows":5,"scene":"Children's activities"}
+{"neuron":12157,"pole":"low","cluster":3,"mode":"Children's stories about animals and nature.","happy_windows":5,"windows":5,"scene":"Children and animals"}
+{"neuron":11385,"pole":"high","cluster":0,"mode":"Conversational AI responses, often starting with 'assistant:' or 'user:'","happy_windows":0,"windows":5,"scene":"AI conversation"}
+{"neuron":11385,"pole":"high","cluster":1,"mode":"Children's stories about family and possessions.","happy_windows":5,"windows":5,"scene":"Children and family"}
+{"neuron":11385,"pole":"high","cluster":2,"mode":"Technical descriptions of programming and code.","happy_windows":0,"windows":5,"scene":"Programming and code"}
+{"neuron":11385,"pole":"high","cluster":3,"mode":"Children's stories about apologies and communication.","happy_windows":5,"windows":5,"scene":"Children communicating"}
+{"neuron":11385,"pole":"high","cluster":4,"mode":"Children's stories about discovery and surprise.","happy_windows":5,"windows":5,"scene":"Children's discoveries"}
+{"neuron":11385,"pole":"high","cluster":5,"mode":"Children's stories about playing and interaction.","happy_windows":5,"windows":5,"scene":"Children playing"}
+{"neuron":11385,"pole":"high","cluster":6,"mode":"Children's stories about observation and sharing.","happy_windows":5,"windows":5,"scene":"Children observing and sharing"}
+{"neuron":11385,"pole":"high","cluster":7,"mode":"Children's stories about activities and helping.","happy_windows":5,"windows":5,"scene":"Children's activities and helping"}
+{"neuron":11385,"pole":"high","cluster":8,"mode":"Children's stories about kindness and interaction.","happy_windows":5,"windows":5,"scene":"Children's kindness"}
+{"neuron":11385,"pole":"high","cluster":9,"mode":"Children's stories about friendship and playing.","happy_windows":5,"windows":5,"scene":"Children's friendships"}
+{"neuron":11385,"pole":"high","cluster":10,"mode":"Children's stories about politeness and gratitude.","happy_windows":5,"windows":5,"scene":"Children's politeness"}
+{"neuron":11385,"pole":"high","cluster":11,"mode":"Children's stories about animals and nature.","happy_windows":5,"windows":5,"scene":"Children and animals"}
+{"neuron":11385,"pole":"high","cluster":12,"mode":"Children's stories about friendship and happiness.","happy_windows":5,"windows":5,"scene":"Children's friendships"}
+{"neuron":11385,"pole":"low","cluster":0,"mode":"verbs related to learning and acquiring knowledge","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":1,"mode":"names and titles, often in possessive form","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":2,"mode":"verbs indicating speech or communication","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":3,"mode":"verbs indicating speech or communication","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":4,"mode":"dialogue markers and interjections","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":5,"mode":"pronouns and verbs indicating interaction","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":6,"mode":"verbs related to perception and observation","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":7,"mode":"conjunctions and prepositions indicating sequence or addition","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11385,"pole":"low","cluster":8,"mode":"verbs indicating positive emotional states","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10298,"pole":"high","cluster":0,"mode":"Children's stories about playing games and friendship.","happy_windows":5,"windows":5,"scene":"Children playing games"}
+{"neuron":10298,"pole":"high","cluster":1,"mode":"Describing locations and work environments.","happy_windows":0,"windows":5,"scene":"Locations and work"}
+{"neuron":10298,"pole":"high","cluster":2,"mode":"Technical descriptions of mechanical parts and wear.","happy_windows":0,"windows":5,"scene":"Mechanical parts and wear"}
+{"neuron":10298,"pole":"high","cluster":3,"mode":"Recipe instructions and cooking steps.","happy_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":10298,"pole":"high","cluster":4,"mode":"Describing plants, growth, and physical attributes.","happy_windows":0,"windows":5,"scene":"Plants and physical attributes"}
+{"neuron":10298,"pole":"low","cluster":0,"mode":"Children's stories about starting activities and playing.","happy_windows":5,"windows":5,"scene":"Children starting activities"}
+{"neuron":10298,"pole":"low","cluster":1,"mode":"Children's stories about playing and having fun.","happy_windows":5,"windows":5,"scene":"Children playing and having fun"}
+{"neuron":10298,"pole":"low","cluster":2,"mode":"Describing historical and cultural elements.","happy_windows":0,"windows":5,"scene":"History and culture"}

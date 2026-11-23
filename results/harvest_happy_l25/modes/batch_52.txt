@@ -1,0 +1,438 @@
+##### neuron 10899
+=== high pole (p97 and above)
+--- cluster 0
+  [0.43]  of the country is beautifully diversified, undulating tracts and well-wooded hills alternating with fertile valleys watered mainly by the Aar and its[[ trib]]utaries. It contains the famous hot
+  [0.46] user: 1. Fill a microwave-safe bowl with water and add a few squeezed lemon[[ wed]]ges or a tablespoon of vinegar.  assistant
+  [0.57]  aries, is the most common species of the sheep genus (Ovis). It is a woolly ruminant quadruped which most likely[[ desc]]ends from the wild mouflon of
+  [0.94]  2-6; xxiii. 4, 5; xxiv. 9), he appeals to history for the sake of the lessons[[ ded]]ucible from it; and in his
+  [0.51]  night, a member of the convent saw a vision of the Virgin Mary, which led to the illuminating of candles in the windows of the convent to[[ disp]]el the darkness. The tradition of illumin
+--- cluster 1
+  [0.59]  of gratifying others in relation to a satisfied self. Because the patient has no conscious awareness of this split internal world, this leads to black and white[[ thinking]]. The therapist tries to make the patient
+  [0.62] 2020, and it's been successful in meeting this goal. California has also embraced innovation like energy storage and smart appliances to further reduce energy[[ intensity]].  4. China: China is the
+  [0.44]  hugs them and checks if they are hurt. She is glad they are okay. She tells them to never touch the car again. She says it is[[ dangerous]] and not a toy. She takes them
+  [0.45]  on a foam or soft-top board: Foam or soft-top boards are great for beginners because they are stable and forgiving. They also reduce the risk of[[ injury]] from the board itself. 4.
+  [0.42]  didn’t like the food you were served? Suddenly, you would be a mess. You’d ask for help from your parents, and would likely be[[ embarrassed]] that you had to ask them for help
+--- unclustered (sample)
+  [0.46]  they have any vegetarian options?  assistant: Yes, Margaritaville has vegetarian options on their menu. Some of the vegetarian options include a veg[[gie]] burger with lettuce, tomato, and cheese
+  [0.44]  Apraxia: Some of the comorbid or associated medical symptoms for Apraxia may include these symptoms: Research the causes of these more general[[ types]] of symptom: Research the causes of these
+  [0.44]  already eat way more than most Americans). - Eat less red meat from cattle, sheep, and goats and get more protein from plant sources. Choose meat[[less]] protein foods like legumes. - Eat
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.41] . The rock moves. It slides off the slide. The slide is clear.  "Yay, Lily!" Tim and Sam say.[[ "]]You are smart and kind. You helped
+  [-0.63]  can do anything. I'm even excited to give that speech on Friday!  SARAH: (laughing) That's the spirit, Jim[[!]] Keep that positive attitude, and you'll
+  [-0.38]  So they covered their eyes and pointed to a beautiful princess costume. Lily was so happy that she hugged her mom and said, "Thank you, mommy[[!]] I can't wait for Halloween!"
+  [-0.45]  were so impressed with Amy and announced that she was the winner!   Amy's dad hugged her tight and said, "I'm so proud of you[[!]] You worked so hard and it paid off
+  [-0.45]  the tree.  "Let's sleep under the tree," Ben says. "It is cool and pretty."  "Yes, let's sleep," Mia agrees.[[ "]]But first, let's smell the flowers
+--- cluster 1
+  [-0.47]  Then he cooked the chips. When they were ready, Bob took a bite and it was so tasty!  He ate the whole plate and felt so happy[[.]] Bob was proud of himself for making something
+  [-0.47]  my pocket."  Billy tried his best and eventually the peach fit perfectly in Sophia's pocket. Sophia was so happy and she thanked Billy for being so helpful[[.]] Then, they both walked home with the
+  [-0.36]  piles of sweets and admired the bear's wisdom.  Matilda left the park feeling very happy. She continued to admire her new friend each and every day[[.]]
+  [-0.46]  the dog and offered it her sandwich. The dog gobbled it up. Then it wagged its tail and ran away. Sophie smiled and waved goodbye[[.]]
+  [-0.48] Lola and her daddy smiled. "Thank you for helping me," said Daddy. Lola smiled back, happy that the trees were full of leaves again[[.]]
+--- cluster 2
+  [-0.33]  what it was. She started attending therapy to deal with her past traumas and learned to embrace the body she had been given, no matter how it[[ looked]].  As Caroline focused on self-love
+  [-0.34]  apartment complex was surrounded by trees and overlooked a tranquil lake, and as she was carrying her boxes up the stairs, she wondered if life could get any[[ better]].  One day, as Sophie was taking
+  [-0.32]  not a bad thing. That's a good thing. You have your own style. You are a creative painter. You don't have to copy anyone[[ else]]. You can make your own pictures.
+  [-0.35]  worm. From then on, Lily made sure to be careful with the plants in her garden, knowing that even the smallest things can be important to someone[[ else]].
+  [-0.37]  I make my way towards them, I notice their ragged clothes, scars, and weapons. They look tough, battle-hardened, and ready for[[ anything]].  The leader of the group is a
+--- cluster 3
+  [-0.34]  He was careful not to damage the dead coin and carefully attached it to his pocket.  Now Bob felt safe knowing his coin was attached to his pocket.[[ He]] smiled, happy that he had found a
+  [-0.43]  stay and play longer, but he heard his mom calling him and so he said goodbye.  On his way home, Benny kept thinking about the mushroom.[[ He]] wondered why it was so dirty and why
+  [-0.32]  to her backyard and threw the paper up in the air.  Suddenly, Daisy saw a real lightning bolt flash above her head! She was so excited and[[ she]] couldn't believe it. She waved to
+  [-0.33] . His perfect name had become all rubbed away!   The little boy was so sad. He was not proud anymore, because his name was gone.[[ He]] tried to rub it back, but nothing
+  [-0.36]  again! This time, it was not tall and bushy, but it was in the shape of a heart. Lily was so surprised and happy.[[ She]] thought to herself, "This is not
+--- unclustered (sample)
+  [-0.46]  man. The man thanks them and gives them a hug.  "That was a fun day!" Ben says.  "Yes, it was!" Mia says. "[[I]] like
+  [-0.41]  `j` taking on each of the indices `0`, `1`, `2`, ... `len(arr[i]) - 1` in turn[[.]] Overall, the nested for loops allow us
+  [-0.34]  play them accurately, they're impossible to beat...The moment someone sees him coming, it's too late. You shout, "It's the Flash[[!"]] and you haven't even got "It
+##### neuron 650
+=== high pole (p97 and above)
+--- cluster 0
+  [1.83]  clear cut logging - have been affected by some sort of regulation or law. People respond on both a fundamental survival level - regulations and protections represent[[ a]] threat to economic survival, and on a
+  [2.70]  intervention through the embargo and subsequent military mobilization for war caught Federalists flat-footed politically. By absorbing so many of their key policies both domestically ([[a]] strong national bank) and in foreign policy
+  [1.93]  worth over $40 million, making it one of the largest jewelry thefts in American history. This also made it a high-profile crime that attracted[[ a]] lot of media attention and cemented its
+  [2.39] whatever happened on Mars over billions of years, that hummocky slab bears its records.” We live in the space age now. We must look beyond[[ a]] terrestrial model for the formation of planetary surfaces
+  [1.89] ian one-child policy that prevented hundreds of millions of births over the last three decades. Fortunately, no one's yet gone all apocalyptic when searching for[[ a]] solution to Europe's current economic woes.
+--- cluster 1
+  [2.14]  too sketchy to permit scholars to reconstruct actual events with great confidence.) According to later Babylonian versions of Sargon's inscriptions, Sargon of[[ Ak]]kad captured Lugal-Zage-Si
+  [1.87]  owners of the other third of Statoil, are having second thoughts Danske Bank has expressed its opposition to the contentious project while Norway's largest[[ bank]], DnBNOR, is holding
+  [1.68]  efforts to deal with natural disasters has been formed by the United Nations University in cooperation with Stanford University, the World Seismic Safety Initiative and the University of[[ Tokyo]]'s International Center for Disaster-Mitigation
+  [1.55]  display advertising, paid £7.3 million in corporation tax on over £3 billion it earnt from UK sales. The company's vice president of[[ operations]] in northern Europe, Matt Brittin,
+  [1.83] , trained, equipped, and supported units known as special forces (SF) or special operations forces (SOF). In the following months U.S.[[ Army]] commanders outlined a new concept of operations in
+--- cluster 2
+  [1.87] Once upon a time, there was a little boy named Tim. Tim loved to draw with his pencils[[.]] One day, Tim drew a big sun
+  [1.82] Once upon a time, there was a little boy named Tim. Tim loved to run and play all day long[[.]] But when it was time for bed,
+  [1.67] Once upon a time, there was a little girl named Sarah. Sarah loved to help her mommy in the kitchen[[.]] One day, her mommy gave her a
+  [2.08]  upon a time in a faraway land, there lived a prince and princess in their castle. They were very enthusiastic about all the things they did together[[.]] Every day, the prince and princess would
+  [2.23] , there was a lovely little girl named Lily. She was very young, only three years old. Lily liked to play with her toys and her friends[[.  ]]One day, Lily was playing with her
+--- cluster 3
+  [1.93] . She stops crying. She is glad Tom is her friend. He is very kind and sweet. They walk home together, holding hands. They hear[[ a]] noisy car pass by. They don't
+  [1.77]  stay in the garden, but you can go and visit them whenever you want."   Molly smiled and ran off to explore the garden. She had[[ a]] lot to learn and see.
+  [1.75]  her mum.  Lily couldn't wait, so the next day she woke up very early. Suddenly, her room started to change. She now saw[[ a]] Christmas tree with presents underneath it.  "M
+  [1.68]  a special cricket. His name was Jack. He was incredible. He could jump super high and run very fast.  One day Jack wanted to go explore[[ a]] new place near his home. But when
+  [1.64]  bowl in the grass. She was scared because she had never seen it before. She backed away and didn't know what to do.   Suddenly,[[ a]] rabbit hopped out of the bowl.
+--- cluster 4
+  [2.42]  some candy if we ask nicely." Tom says.  Anna nods. She stops crying. She is glad Tom is her friend. He is very kind and[[ sweet]]. They walk home together, holding hands
+  [2.66]  me.  FLASHBACK:  EXT. JONATHAN'S FARM - DAY  Jonathan is working on his family's farm, tending to the[[ crops]]. His wife, SARAH (mid
+  [3.56]  us some candy if we ask nicely." Tom says.  Anna nods. She stops crying. She is glad Tom is her friend. He is very[[ kind]] and sweet. They walk home together,
+  [1.59]  a lot of attention in the process. Email Marketing: B2B model is a complex domain. You need to be impressive enough to grab their eyeb[[alls]]. Vague information is not likeable
+  [1.84]  the faces of the crowd.  The stage design itself was like a work of art, with intricate backdrops and banners featuring the band's logo and album[[ artwork]]. The drum kit was adorned with led
+--- unclustered (sample)
+  [2.78]  infections. It also may be substituted in place of penicillin to treat common infections in those people who are allergic to that particular drug. (Click[[ Do]]xycycline Uses for a more
+  [1.86]  that pushed southward, led to record-low temperatures and snowfall in the Midwestern United States. The result was damage to infrastructure, power outages[[,]] and several deaths due to hypothermia
+  [1.76] .  4. Spicy Cajun Marinade: Mix together Cajun seasoning, hot[[ sauce]], lemon juice, and olive oil for
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.38]  her eyes and dream wonderful dreams.   One night was very different, however. Sarah was very sleepy but she couldn't seem to go to bed.[[ She]] just kept looking out of her bedroom window
+  [-1.73]  but he had a secret. He had a toy that he loved very much, but it was broken.   Timmy didn't want anyone to know[[ about]] his broken toy, so he hid it
+  [-1.77] my if he wanted to marry her favorite toy, a teddy bear.  Timmy thought that was a great idea and he stopped crying. He hugged[[ the]] teddy bear and smiled. Timmy
+  [-1.34]  more confident and determined than ever, as the lights go out.)  THE END.  user: Wow, that was an amazing play! I could really picture[[ Jim]]'s growth and transformation throughout the story.
+  [-1.29]  dad were worried. They took her to the hospital. The hospital was a big and white place with many people and machines. Mira was scared.[[ She]] did not like the hospital.  A nice
+--- cluster 1
+  [-1.78] , can I play with your toys?" he asked.  Lily thought about it for a moment, then said, "Sure, but be careful and[[ don]]'t break them. And don't forget
+  [-1.42]  a long time of searching, she finally found it!   She found an ancient fuel, which glowed very brightly. She was so excited, she[[ couldn]]'t believe her luck.   The little
+  [-1.35]  she was playing, she saw a big dog running towards her. The dog looked friendly, but Lily's mom warned her to be careful around dogs she[[ didn]]'t know. Lily remembered her mom's
+  [-1.80]  provide insight into the hot, often violent processes that shape the universe, such as the formation and evolution of galaxies and the behavior of matter in extreme conditions[[ such]] as near black holes. Understanding X-ray
+  [-1.48]  solar cells, Vanguard will remain in orbit until at least 2109. In addition to the satellite that failed to leave Earth in December [[1]]957, visitors to the National
+--- unclustered (sample)
+  [-1.81] , but datagrams destined for locally attached networks will match their local route, too. How does IP know which route to use? It is here that[[ the]] netmask plays an important role. While
+  [-3.16]  Aristotle and is usually attributed to Galileo dropping things from the Tower at Pisa some years later. One[[ of]] Stevin's most important posts was as
+  [-1.55] 737-3. - Piskorski (1999), pp. 40,41 - Herrmann ([[1]]985), p.14
+##### neuron 2652
+=== high pole (p97 and above)
+--- cluster 0
+  [0.48]  meet energy demands while also considering their economic feasibility and impact on the environment. Provide specific examples of successful and unsuccessful policy outcomes to support your evaluation.  assistant[[:]] Renewable energy policies have been implemented globally with
+  [0.48]  and prepare a halibut steak before grilling, and what is the ideal grilling temperature and time for a perfectly cooked and juicy result?  assistant[[:]] To properly season and prepare a halib
+  [0.53]  to help each student succeed. In fact, all of our teachers are recognized as Highly Qualified under the guidelines of the No Child Left Behind Act.  assistant[[:]] To enhance student
+  [0.35]  affordable ways to advertise your business or organization. Advertising on placemats provides you an opportunity to showcase your business and connect with a captive audience.  assistant[[:]] Placemat advertising in Massachusetts is a
+  [0.33]  examples of the lessons we can learn from the introduction of Medicare in Saskatchewan that are relevant to current debates about healthcare in Canada and the United States?  assistant[[:]] Here are some examples of the lessons we
+--- cluster 1
+  [0.34] . The use of artificial intelligence (AI) in supply chain management has transformed the way logistics companies operate, streamlining the supply chain and reducing operational costs[[.]] Here are some ways how AI has contributed
+  [0.44] : The excessive use of technology has become a growing concern for public health, with studies suggesting that it can have negative effects on both mental and physical health[[.]] The rising prevalence of technology addiction has been
+  [0.32]  creative businesses. These services include:  1. Custom Plan development: Marketing Creatives helps to develop a custom plan to meet the specific needs of each client[[.]] The plan includes a detailed marketing strategy,
+  [0.42] 3. Use mind maps: Mind maps are great visual tools for organizing and connecting different ideas[[.]] Begin with your main topic in the center
+  [0.36]  find out more about preparing teens for a successful future in tech.  assistant: Learning to code is increasingly important in the modern workforce as technology becomes more pervasive[[.]] In order to remain competitive in university applications
+--- cluster 2
+  [0.48]  on how to prepare the vegan and gluten-free options:  - Black Beans and Corn: Drain and rinse one can of black beans and one can of corn[[.]] Mix them in a bowl and add a
+  [0.52]  type of Japanese stock made from dried kelp and dried bonito flakes) - 3 tablespoons miso paste - 2-3 green onions[[,]] thinly sliced - 1/2
+  [0.32] - 1/4 cup water - 1/4 cup soy sauce - 1/4 cup Worcestershire sauce - [[2]] tablespoons honey - 1 teaspoon smoked
+  [0.79] 1/2 cup cubed firm tofu - 1-2 sheets of seaweed (optional)  Instructions: 1. In a medium saucepan[[,]] bring the dashi to a boil.
+  [0.38]  medium sweet potatoes - 1 red bell pepper, diced - 1 small onion, diced - 2 tbsp of oil - Salt[[ and]] pepper to taste  Instructions:  1
+--- cluster 3
+  [0.44] , Hunt went over to the female[[ and]] kicked her while she was crouching
+  [0.41]  because it was the first time he had ever seen one.   He picked it up and held it in his hand. Suddenly, his older brother noticed[[ and]] scolded him for being so ignorant
+  [0.42]  men, all of them with their hands on their guns. The gunslinger didn't flinch. He walked straight up to the bar, ignoring the[[ stares]] and whispers
+  [0.40]  busy.  Soon after, Jack was very sleepy. He curled up in his blanket and started to nod off. Suddenly, a wise old man appeared.[[ He]] said to Jack, "You should not
+  [0.44]  of music called jazz. She had never heard this before, so she was curious and wanted to get closer.  When Lily got closer, she saw a[[ woman]] playing a saxophone. She was like
+--- cluster 4
+  [0.41]  sister Connecticut regiments, the 8th and 16th and the 4th Rhode Island, it was assigned to Brig. Gen[[.]] Edward Harland's 2d Brigade
+  [0.51]  Maryland were minor. Only five Connecticut regiments were in the vicinity and one of those, the 5th Connecticut, part of Mansfield's[[ ]]12th Corps, was not directly
+  [0.41] highlight on its arrival in Washington was its march in review past President Lincoln, Secretary of War Edwin M. Stanton, and Lt. Gen.[[ Win]]field Scott during which the regiment broke
+  [0.43]  "veteran" regiments. II. The Antietam Campaign The Antietam Campaign from 2 September through 20 September[[ ]]1862 was noteworthy for
+  [0.35] . Robert L. Bee, (Knoxville, TN: The University of Tennessee Press, 1998), 6. .[[ H]]irst, 6. . OR,
+--- cluster 5
+  [0.35]  ``` This will create a new private key file named `server[[.key]]` with 2048-bit
+  [0.32]  is valid and greater than 0, it returns the parsed value. // Otherwise, it displays an error message and prompts the user again. let rec[[ validate]]Input() =     Console.WriteLine("Please
+  [0.33]  if(exponent < 0){         return (1.0/base) * power(base, exponent+1);     } }  int main(){    [[ int]] base, exponent;     cout<<"Enter
+  [0.50]  The script can be easily modified to also count the number of directories that have files with the given extension. Here is the modified script:  ``` #!/[[bin]]/bash  # Check if the user has
+  [0.37]  performance.  assistant: Import tensorflow as tf from tensorflow.keras.models import Sequential from tensorflow.keras.layers import Dense, Dropout from tensorflow.keras.optimizers[[ import]] SGD from tensorflow.keras.callbacks import Early
+--- unclustered (sample)
+  [0.38]  so easy to understand. For example, the first image in the bottom row, which is a 9, was misclassified as a 4.[[ It]]'s possible that this misclassification occurred because
+  [0.35]  Edgar Allan Poe It was many and many a year ago, In a kingdom by the sea, That a maiden there lived whom you may know [[By]] the name of Annabel Lee; And
+  [0.32]  your enthusiasm for cooking and an appetite. However, it's recommended to wear comfortable clothing and closed-toe shoes for the class. If you have any[[ specific]] dietary requirements or allergies, it's best
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.49]    They rolled and rolled, through the park and all around the neighborhood until they got back home. They all felt safe and happy.   The family[[ sat]] down and enjoyed the delicious cake that they
+  [-0.45] my loved to play outside in his backyard. One day, he found a big net and he thought it was so cool. He decided to play catch[[ with]] his dad using the net. They had
+  [-0.66] , take the calendar and put it away."  Molly hung her head and put the calendar away. She was sad that she couldn't jump and play[[ with]] the calendar anymore. She knew that she
+  [-0.46]  run in the park. One day, she ran over to a pear tree. She saw a pear on the ground. The pear was cold. Jo[[ picked]] it up and took a big bite.
+  [-0.51]  park and saw some kids playing. She asked if she could play too, but they said no and were very rude. Lily felt sad and went to[[ sit]] on the side of the sandbox.   
+--- cluster 1
+  [-0.57]  in her books, learning about the kingdom and its rules. Her parents, the King and Queen, were worried that she was too serious and needed some[[ excitement]] in her life.  One day, the
+  [-0.43]  IMPORTANT THING IN YOUR LIFE! (Asian cultures value education and smarts to a high degree. The problem is that modern society[[ has]] cranked this Up to Eleven.) D
+  [-0.52]  not enough food in their immediate vicinity, they may venture further into other kangaroo groups' territories to find what they need. This can lead to further[[ competition]] and conflicts.  Overall, although kangaro
+  [-0.46]  always be room and resources aplenty for tomorrow.5 Some might argue that this is not such a uniquely American phenomenon when one considers the[[ current]] problems in Russia (oil spills, nuclear
+  [-0.72]  is sufficient, and the lights just stay off. To a visitor's eyes, the school seemed comfortable, lively, creative, and happy, educationally[[ un]]encumbered
+--- cluster 2
+  [-0.43]  "I am sorry, I did not mean to break the tree. Please forgive me." The squirrel thought about it for a moment, and then said[[,]] "Okay, I forgive you. Let
+  [-0.46]  said to Tim, "Why are you being so rude?"   Tim replied, "I'm playing bury with my toys."   John smiled and said[[,]] "That's a good game. Where
+  [-0.47]  what's in the hole." Max barked and wagged his tail. They went closer and saw a little bird inside the hole. The bird said[[,]] "Help me! I can't fly
+  [-0.48]  a big pot of tea. Suddenly, it started to rain!   Lily asked her mom, "What do we do now?" Her mom replied[[,]] "Let's move our tea party under
+  [-0.51]  side of the path was even more exciting. Everywhere Melissa looked, there were colourful flowers and tall trees. She was surrounded by so much beauty that she[[ couldn]]'t help but smile.  Just then,
+--- cluster 3
+  [-0.46]  her dad put the snake in the lake.  The snake began to swim around in the water. It was so happy to be free. Lisa smiled and[[ felt]] much better.  The snake swished its
+  [-0.88]  time and then went to the gym to do something different. They played lots of different games, like hoopla and tic-tac-toe. Jane[[ felt]] much more happy and soon even forgot why
+  [-0.80] .  But Mum was very kind. She hugged John to make him feel better and told him she'd make another tray full of surprises. John smiled,[[ feeling]] much better again.
+  [-0.48]  just an earthquake. Don't worry, I love you."  Tim meowed a tiny meow and nuzzled against his mommy's chest. He[[ felt]] so safe and happy, knowing his mommy
+  [-0.67] .  One day, she decided to soar even higher and explore the world. Up and up, she flew, until she could see everything.  Tilly[[ felt]] so free and happy, as she zoom
+--- cluster 4
+  [-0.53] ?" Nadia asked.  "I am not sure. Maybe someone took it or it just decided to disappear," her mom replied.  Nadia was sad,[[ but]] she knew the shrimp would always be a
+  [-0.45] But then, when Sarah tried to pick it up, she heard something crack. The memory had broken into pieces. Sadness filled Sarah's face,[[ but]] she remembered something her mama had said.  
+  [-0.44] , "Yes, Lily. You are a good knight. You are not afraid of me and you make me laugh. I want to be friends."  [[They]] jumped off the rock and hugged each other
+  [-0.54]  had a lovely time in the wild. She was so happy and enjoyed seeing all the nice creatures and things around her. She eventually went back home,[[ but]] Freya knew she would always remember this
+  [-0.44]  again and was so excited when he was able to draw a fancy circle! He was so proud and hugged his mom tightly. They hugged and laughed together[[,]] happy that Johnâ€™s hate for
+--- cluster 5
+  [-0.52]  wash him. Lily watched as the water went down the drain. Then, they put a band-aid on Teddy's leg and he was all better[[.]] Lily was happy again and hugged her mommy
+  [-0.46]  unknown object opened up and sprang to life!  She had discovered a tiny little bird! The bird flew up in the sky and the girl waved goodbye[[.]] She put the hammer back in her pocket
+  [-0.48]  little beak to open the box and release the butterfly.  The butterfly was so happy to be free. It thanked Timmy and they became good friends[[.]] They played together in the warm season and
+  [-0.45]  sad. She didn't know what to do. She tried to find the food, but it was nowhere. She couldn't deliver the food to Tom[[.]] She went back home with the empty box
+  [-0.43] . She tried to say sorry, but it was too late. Her mom told her she couldn't have any more cake and sent her to her room[[.  ]]Lily felt sad and alone in her
+--- unclustered (sample)
+  [-0.54]  deep into the water. One day, he found a folder on the sea floor. The folder was red and pretty.  Fin showed the folder to his[[ friend]], Sam the starfish. Sam said
+  [-2.52]  design that they did not notice on their first visit. - 3. Pass out rulers, pencils and copy of scale drawing. - 4.[[ They]] will work individually on this project and will
+  [-0.49]  They played hide and seek and ate delicious snacks. The animals had so much fun that they stayed for days!   When it was time for the animals[[ to]] go home, the giant made them promise
+##### neuron 62
+=== high pole (p97 and above)
+--- cluster 0
+  [2.08]  to distract her, Elena had plenty of time to reflect on her past choices and what had ultimately led her to this place. She realized that her ambition[[ and]] desire for adventure had often led her astr
+  [1.02]  team. They enjoyed pool games, line dancing, and themed parties. A particular fun activity was at the ship's waterpark, where they had ample[[ fun]] on the water slides and lazy river.  
+  [0.55] . The friend was a little bird who loved to explore. The ostrich and the bird had so much fun minding each other on their journey.[[ They]] flew and ran, hopped and skipped
+  [0.46] . This leads to a decline in her performance at work, which in turn causes additional stress and anxiety. In addition to ignoring her work, Suzanne's[[ addiction]] also causes her to neglect her own well
+  [0.83]  beach. His mom said yes, so the boy and his friend jumped in the car and drove off.   The boy drove the car very fast,[[ and]] soon enough arrived at the beach. The
+--- cluster 1
+  [0.75]  - 1 medium onion, finely chopped - 2 garlic cloves, minced - 1 teaspoon of dried basil - 1 teaspoon[[ of]] dried oregano - Salt and
+  [0.64]  the eggs, semi-skimmed milk and sunflower oil. Pour the wet ingredients into the dry and mix well, then stir in the grated apples[[ and]] sultanas. Divide the mix between
+  [0.52] user: What are some healthy recipes for a vegetarian diet?  assistant: 1. Lentil soup: This hearty soup recipe incorporates lentils[[,]] vegetables, and spices. It's high
+  [0.50]  gluten-free breakfast potato recipes for your electric griddle:  Zucchini and Potato Fritters  Ingredients:  - 2-3 medium potatoes [[-]] 1 medium zucchini - 
+  [0.53]  flour  - 1/2 cup King Arthur premium hot chocolate mix - 1/4 cup unsweetened cocoa powder - 1[[ teaspoon]] baking soda - 1/2
+--- unclustered (sample)
+  [0.55]  percent of the outgoing electricity according to Kirtley. Helion Energy new plan is to build a 50-MWe pilot of its “F[[usion]] Engine” by 2019
+  [1.04]  Borders stores, 36 Books etc. Locations and approximately 700 Waldenbooks stores. Online shopping is available through www.borders.com[[ and]] www.waldenbooks.com. What
+  [0.68]  out yoga, but I'm not sure which type would be best for me. Do you have any recommendations?  assistant: I am not qualified to give[[ medical]] advice. It depends on your personal goals
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.88]  told him that there was nothing to be ashamed of. Max's dad went inside and got some rags and buckets of water to help clean up the[[ mess]].  Max and his parents spent a few
+  [-0.64]  and the dog.  "Hey, there you are!" he says. He picks up the leash. He thanks the kids. He says they are very[[ nice]].  "You have a good dog," Mia
+  [-0.44]  can speak volumes about your abilities, even if you're not comfortable with socializing.  4. Leverage technology: Take advantage of technology to help you[[ network]]. Networking applications like Shapr, Meet
+  [-1.54]  they underestimate the risks,” says Rahul Khare, MD, a Northwestern Memorial emergency department physician. “It’s important to take precautions that will keep you[[ safe]] in the sun and healthy during the summer
+  [-0.96]  stairs, she wondered if life could get any better.  One day, as Sophie was taking a walk around the complex, she noticed a new neighbor was[[ moving]] next door. As she walked past him
+--- cluster 1
+  [-0.46]  something soft on his head. When he looked up, he saw a big, round pie. He jumped for joy because it was just what he wanted[[.  ]]Tom thanked God for the pie and took
+  [-0.46]  of yummy food!  The rabbit was very excited! He gobbled up the food and the zipper stretched and stretched as he ate. It was very flexible[[!  ]]The rabbit was full. He thanked the
+  [-0.44]  wear a jet. She put on her momâ€™s red scarf and used it as a jet. It was so big and it made Jill laugh[[.  ]]She spun around and around in circles and
+  [-0.46] €œYes, Jimmy. You can push the pizza out. Be careful!â€  Jimmy pushed the pizza out and it made a yummy smell[[.]] His Mom put it on a plate and
+  [-0.51]  showed it to the owl. The owl thanked the old man and said, "Now I have a comfy place to sleep and see the stars at night[[."  ]]The old man and the owl were so
+--- unclustered (sample)
+  [-0.59] . The analysts offering Earnings Estimates for the company were believing that Novavax, Inc. Could bring EPS of $-0.12/share.[[ The]] difference between Actual EPS and Estimated EPS was
+  [-0.46]  princess smiled and said: "Yes, I want to marry you."   They hugged each other and celebrated as the missile flew away. Everyone rejoiced[[ and]] the prince and princess lived happily ever after
+  [-0.64]  a pristine natural laboratory, free from human interference. It has provided a unique scientific record of the process of colonisation of land by plants and animals. [[The]] Swiss Tectonic Arena Sardona
+##### neuron 998
+=== high pole (p97 and above)
+--- cluster 0
+  [2.59]  agreed to share it, so they each got a piece. They chatted as they ate the mint, which had a delicious, sweet flavour.  Mark[[ was]] very happy. He loved spending time with
+  [2.78]  get dark so she could see the rock glow. As soon as the sun went down, they went back outside and the rock started to glow. Lily[[ was]] amazed and couldn't stop staring at it
+  [0.95] . The next day, when Tim got on the bus, he saw that it was different. It was new and shiny and had more seats.  Tim[[ was]] happy because he had more space to sit
+  [1.80]  she came back and touched the cross. And this time it stayed quiet! Now she knew that her brother was only teasing her.  The little girl[[ was]] happy and so was her brother. They
+  [2.06] . She went back to her mom feeling sad and disappointed. But her mom had a surprise for her--a special treat that she had packed. Annie[[ was]] overjoyed and couldn't stop thanking
+--- cluster 1
+  [1.52] . He felt weak and couldn't lift it.  Timmy's mom saw him struggling and came to help him. She picked up the pebble and[[ said]], "Wow, this is a big
+  [0.97] .  Mommy told her to wait and came back with a brand new pen. Jane was so excited that she almost forgot it was dull.  Mommy[[ said]], "Let's draw together. It
+  [1.92]  and share them equally." The white pigeon agreed.  After weighing the seeds, they found out that there were more for the brown pigeon. The brown pigeon[[ said]], "I will give you some of
+  [1.16]  looked around the house but it was still nowhere to be found.   They finally found the comb in an empty drawer. Suzyâ€™s Mom[[ said]], â€œIt looks like we
+  [1.29]  tree and decided to sit under it.  Lily's mommy took out a sandwich and started to cut it into pieces. Lily looked at the sandwich and[[ said]], "Mommy, can I have
+--- cluster 2
+  [2.86]  taught me that sometimes, sacrifices need to be made to help the people we love. And even if it's hard in the moment, it can lead[[ to]] a deeper appreciation of what truly matters in
+  [1.06]  life and is better able to communicate with the people around her, and she is grateful for the opportunity to experience the deeper aspects of yoga that have given[[ her]] such a transformative experience.  user: This
+  [5.19]  keeping from each other, we were able to rebuild our relationships on a foundation of honesty and trust. It wasn't always easy, and there were certainly[[ moments]] of tension, but I feel like we
+  [1.30]  ways in which MiniMonos members have picked up the sustainability gauntlet and carried these messages into the real world. We’re seeing a generation of children[[ who]] already care for the environment, who are
+  [1.52]  was "strange" or "weird." Some people avoided her altogether, scared of her power or what they thought it represented.  The more Anna[[ struggled]] to hide her power, the more isolated
+--- cluster 3
+  [1.34]  did it slowly, so Lily wouldn't get hurt. Lily was happy and warm in her jacket. She hugged her dad and thanked him for his help[[.]]   From that day on, Lily tried
+  [1.21]  her friends. Her mom put a band-aid on her knee and gave her a hug. Soon, Lily felt better and was ready to play again[[.]]
+  [1.38]  Lily's friend said, "Wow, you're so brave! I could never do that." Lily felt happy that she had dared to do something scary[[.]] She learned that sometimes it's okay to
+  [1.29]  she said, "Okay, we can play together. Let's start a new game." They both sat down and had fun playing with the cards together[[.]]
+  [0.93]  windows to the house and made a tiny garden. After an hour of hard work, the dolls' house was finished. It looked even better than before[[.  ]]Ellie smiled and said to her mom
+--- cluster 4
+  [1.05] , "Because this is my lucky mustache! I always wear it and I'd like it back. Will you help me rescue it?"  Josh smiled[[ and]] said, "Of course I will!"
+  [1.80]  Daisy's special day, she was surprised to find a big delicious cake on the table. It was four layers tall, with sprinkles and decorations![[ Daisy]] smiled with the biggest smile ever.   
+  [1.62]  a big hug. "That's a great prayer," she said. "God will always listen to you, no matter how small you are."  The[[ daughter]] smiled, feeling glad she could make her
+  [2.92] , she realized that she forgot her favorite toy at home. She felt nervous and sad.  Lily's friend, Tommy, saw that she was upset[[ and]] asked her what was wrong. Lily told
+  [1.52]  to the end of the cave and found an old piece of artwork. She touched it and it suddenly crumbled into a million pieces. Lola was devastated[[ and]] quickly ran away, not wanting to be
+--- cluster 5
+  [1.74] 't shoot at anything, even if it's fake. One day, you might hurt someone."  Timmy felt bad and put his toy gun away.[[ But]] when he got home, he found his
+  [1.03]  time. She was so excited!   She went to her classroom and met all her friends. They had fun playing together and exploring their classroom.   [[But]] then Lucy slipped on the floor, which
+  [1.94] , they noticed that the rain had spoiled their cookies. "Oh no!" cried Lily. "Our cookies are all wet and mushy now."   [[But]] Lily's mom had an idea. "
+  [1.12]  watched from the window and smiled. She was happy to see her son having so much fun.   Eventually the rain stopped and the sun came out.[[ But]] the boy's smile stayed on his face
+  [1.12] . When they got there, his mom found him a nice red jacket with special wings sewn onto it! "Here you go," she said.  [[But]] when he put the jacket on, he
+--- unclustered (sample)
+  [1.39]  you didn't mean to break it. It was an accident. Accidents happen sometimes. I'm not mad at you. I still love you.[[ But]] you have to be more careful next time
+  [1.05]  Mommy. I don't like the sauce."  Her mom promised her that she would make the sauce cooler next time. Lily felt better and finished her[[ dinner]]. From that day on, her mom
+  [1.21] 38Pu. As soon as possible, the DOE and the Office of Management and Budget should request—and Congress should provide—adequate funds to produce[[ ]]5 kg of 238Pu
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.55]  then Sarah noticed something else. There were some mean people in the field hunting the deer. Sarah was so sad. She didn't like the hunters and[[ she]] hated that they were trying to hurt the
+  [-1.49]  the baby's troubles seemed to separate from him.  When the mommy and daddy said goodnight, the baby was happy and content. He was safe,[[ and]] he knew that his mommy and daddy were
+  [-1.75]  the swings, Rachel accidentally stepped on a big mud puddle. Her skirt was now covered in mud!  Rachel was very upset and started to cry.[[ She]] didn't want to get in trouble for
+  [-0.86]  a time, there was a great mommy who loved her daughter very much. Every day, the mommy would pray for her daughter to be happy and healthy[[,]] and kiss her little angel goodnight.  
+  [-1.57]  away from the park. Soon the animalâ€™s stopped scattering and the sun was shining brighter than ever. Jane and the little girl were happy to[[ have]] helped
+--- cluster 1
+  [-1.13] -concentration sampling is used to detect and evaluate contaminants of concern, to track contaminant concentrations over time, and to determine natural and human factors related to[[ chemical]] occurrence. By John S. Zog
+  [-0.59] iclosan and its cousin triclocarban. Previous studies have linked the chemicals to endocrine disruption, bacterial resistance, adverse fetal development,[[ water]] contamination and an ever increasing body burden expressed
+  [-0.76]  suggest that routine screening for sleep disorders in these obese populations would be beneficial. The early detection of such problems could prevent the potential development and perpetuation of[[ psychological]] disorders among these individuals that may affect their
+  [-0.88]  that is the habitat for the seafood you like to eat. As forest footprints move, invasive species could move in and take over, smothering[[ biological]] diversity. "You see biology reaching turning points
+  [-0.61]  the road, by railway or ship. While traded wastes may often have a positive economic value and replace natural resources in industrial facilities, waste transports sometimes involve[[ hazardous]] materials which can create risks for human health
+--- unclustered (sample)
+  [-0.97] Employment of occupational therapists is expected to grow 29 percent from 2012 to [[2]]022, much faster than the
+  [-1.70] , such landmark environmental legislation of the late 1960s and '70s as the National Environmental Policy Act (NEPA),[[ the]] Clean Air Act, the Clean Water
+  [-1.05]  were gathered through their websites and by contacting the project coordinators. An additional manual search was performed by checking the reference lists of the key publications from the[[ health]] authorities (WHO, FAO, and
+##### neuron 3637
+=== high pole (p97 and above)
+--- cluster 0
+  [0.59] . Denslow was quixotic and extroverted his sense of humor was upside down. He would carp and complain and grumble. The[[ bo]]hemian atmosphere of his studio, where
+  [0.52]  a revelation.  But even as I stared at the pile of fake bills on my desk, I knew there were still more secrets hidden in the city's[[ se]]amy underbelly. And I was
+  [0.47]  music reflects the bleak and dehumanizing aspects of modern life. This approach has earned Nine Inch Nails a reputation as pioneers of industrial rock, and[[ has]] influenced countless other artists in the decades since
+  [0.45]  the general population of females over the age of ten in 1911 (Bacchi[[ ]]6). They were privileged, and with
+  [0.44] ographers - Idioms Lexicon - Specialised lexicography - English lexicology and lexicography - Dictionary Society of North[[ America]] - λεξικο
+--- cluster 1
+  [1.88]  a little girl. She liked to twist, twist, twist. Everywhere she went she would twist and turn, always on the go. One day the[[ little]] girl went outside. It had been raining
+  [3.25] Once upon a time there was a little girl. She knew just how to make the sun shine.  The[[ little]] girl went outside and there were big pudd
+  [3.45]  something interesting. The little boy had heard stories of a special room at the end of the hall but he hadnâ€™t found it yet.  The[[ little]] boy reached the end of the hall and
+  [3.09]  flew away as fast as it could and when it looked back it saw an ancient monster. Everyone in the forest was afraid of the ancient monster and the[[ little]] bird would never forget this experience of frightening
+  [2.11]  explore the many secrets of the attic. They played games, hid away secret treasures and laughed and smiled for hours.  The dependable dog loved playing with the[[ little]] girl and so every day, he made
+--- cluster 2
+  [1.40]  the water. As soon as it did, it made a big splash that made the ugly print go away. It couldn't believe it had been so[[ brave]].  The little duck was very happy now
+  [0.98] .  "Ben, look at this poem. It is about a cat and a mouse. The cat wants to catch the mouse, but the mouse is[[ clever]] and escapes. Can you read it to
+  [0.65]  prince named Jack. Lily was happy because she always wanted to marry a prince.  But when Lily met Jack, she felt frustrated. He was not very[[ nice]] to her and always made fun of her
+  [0.64]  so excited.  Next she found a person with a big truck. She asked the person if she could do something with the horn. The person was very[[ polite]] and said yes. So she put the
+  [0.71]  white and fluffy cats too. She has a teddy bear that is white and fluffy.  "Yes, Tom, I like your cat. She is very[[ cute]]. Can I hug your cat?" Lily
+--- cluster 3
+  [1.57]  waves to the box. She says, "Bye, Mia. Have a good trip. I will see you at grandma's house. I can[['t]] wait to play with you again."  Mom
+  [0.72]  But, he was so kind he gave it to her anyway.  Tom sadly said, "Here, you can have my cookie. Sorry, I don[['t]] have another one to share."  Sue
+  [1.17]  water. She tried to swim, but it was hard, so she became quickly tired. Her mom saw her and said, "Sweetie, you[[ can]]'t swim just by jumping into the water
+  [0.45]  it because she was scared of the dark.  "Lily, can you please turn off the light?" her mom requested.  "No, I don't want[[ to]]. It's too dark," Lily replied
+  [0.68]  He hides in a hole or under a mat. He tricks the cat with a cheese or a hat. He says to the cat, 'You can[['t]] catch me, you silly old rat.'
+--- unclustered (sample)
+  [0.52]  down the streets of Aberdeen on his rounds for news and advertising, he would be stopped by children demanding a story. He would sit down on the edge[[ of]] the dusty wooden sidewalk and spin one of
+  [0.61] 1100 inhabitants. The 'obligatory referendum' exists in the case of all laws, while 5000 citizens have the[[ right]] of 'initiative' in proposing bills
+  [0.93]  He has a whistle.  "Help, help!" Mia shouts. "The dog scares us!"  The man hears Mia. He blows the whistle. The[[ dog]] stops. He runs back to the man
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.27] Once upon a time, there was a little[[ girl]] called Jane. Jane was very sad.
+  [-1.27] Once upon a time, there was a little[[ girl]] named Lily. She loved animals and wanted
+  [-1.27] Once upon a time, there was a little[[ girl]] named Lily. She loved to play with
+  [-1.27] Once upon a time, there was a little[[ girl]] named Lily. She loved to play with
+  [-1.30] Once upon a time there was a little[[ girl]] named Sally. Sally was very eager to
+--- cluster 1
+  [-1.24]  big pile of mud on the sidewalk. She was curious, so she decided to touch it. When she touched the mud her hands got very dirty.[[ She]] was stunned and quickly tried to clean them
+  [-0.91]  and explain that he could play in the backyard tomorrow. John understood, but he wasn't happy. He missed the fun he had been having before.[[ He]] knew things had to change, but he
+  [-1.17]  relax now?"   Her mom nodded and they both lay down on the grass. Jasmine looked up into the light blue sky and took a deep breath.[[ She]] felt relaxed and she smiled as she looked
+  [-1.34]  were red.   She found a table and started to roll around it. Suddenly, the floor started shaking and she realized it was a rolling chair![[ She]] laughed and hopped up and down.  
+  [-1.17]  She was very curious and loved to explore the world around her. One day, she found a pretty ribbon and decided to tie it in her hair.[[ She]] made a promise to herself to always wear
+--- cluster 2
+  [-1.61]  a time there was a small three year old named Moses. He was special, because he could build amazing structures with just his hands and imagination.   [[One]] day, Moses was out in the garden
+  [-1.66]  She loved to play with her toys and her favorite was a big cup. She liked to fill it with water and pretend she was drinking tea.   [[One]] day, Lily's mom brought home a
+  [-1.89]  thing to chew was a long piece of string. Spot would always play with his original string, the one he found when he was a baby dog.  [[One]] day, Spot met a cat named Mitt
+  [-2.55] Once upon a time, there was a boy named Timmy. Timmy loved to eat broccoli because it made him feel strong like a superhero.[[ One]] day, Timmy's mom asked him
+  [-2.19] Once upon a time, there was a little boy named Timmy. He had a big pocket on his shirt.[[ One]] day, Timmy found a rock on
+--- unclustered (sample)
+  [-0.87] Once upon a time[[,]] there was a little girl named Lily.
+  [-0.91]  peanut butter thinner or smoother, add more coconut oil or vegetable oil.  user: Thanks for the detailed recipe on how to make homemade peanut butter! Can[[ you]] share some tips on how to make the
+  [-0.77] 100 toy list. So, it seems like Walmart has competition, but they are certainly taking aggressive steps to capture the toy market.  user:[[ Can]] you tell me more about Party City's
+##### neuron 7953
+=== high pole (p97 and above)
+--- cluster 0
+  [0.45]  sugar-free recipe ideas for outdoor meals in summer:  1. Grilled Chicken Skewers with Veggies: Marinate chicken in a mixture[[ of]] olive oil, lemon juice, garlic,
+  [0.44] , bananas, or pears - Mix cinnamon into plain Greek yogurt for a flavorful and protein-packed snack - Use cinnamon to season roasted sweet potatoes[[ or]] winter squash - Add cinnamon to homemade
+  [0.64]  of olive oil - 1 garlic clove - 2 tbsp of lemon juice - Salt and pepper  Friday  Breakfast: Strawberry[[ and]] Kiwi Smoothie - 1
+  [0.45]  on top of the flank steak?  assistant: Sure! Here are the ingredients and instructions for the herb Gorgonzola butter:  Ingredients: - [[1]]/2 cup unsalted butter, at
+  [0.48] . You can also char the veggies on a grill or in a hot pan to add a smoky flavor. - For a Mediterranean twist, add chopped[[ K]]alamata olives, feta cheese
+--- cluster 1
+  [0.47]  mission is the smallest amount listed in that letter, and ASRGs are used to power OPF 1). The green line [solid square data[[ points]]] shows NASA’s future demand if the
+  [1.03] . J. Nutr. 2009, 101, S95–S101, doi:10[[.]]1017/S000
+  [5.53]  Community Health 2003, 57, 711–717, doi:10.1136[[/]]jech.57.9.
+  [3.19] 16 Oct. 2013. <http://onlinelibrary.wiley.com/store/10.1111/j[[.]]1469- 79
+  [0.44] Pu required by each mission is the smallest amount listed in that letter, and ASRGs are used to power OPF 1). The green line[[ []]solid square data points] shows NASA’s
+--- cluster 2
+  [0.41]  I had assumed that my family would be furious with me for questioning them, but it turned out that they were equally shocked that they had kept these things[[ hidden]] for so long.   My parents and
+  [0.47]  say can be very short. Its short length may show that you put the time and effort in to make every word count. You considered carefully every word[[ choice]]. Every word choice has a reason behind
+  [0.40] A cold sensation, so sharp and bold A delicate balance for all to unfold The peppermint on my tongue, I savour Its cooling[[ touch]], my senses in fervour  9
+  [0.55]  big. Every day he would play with the other fruit and vegetables in the garden but he was always sad. He wished he could do more, but[[ no]] one seemed to believe in him.  One
+  [0.44]  make much of an effort to look glamorous that year in the first place) can damage a celebrity's reputation almost permanently. Often the decisions an entertainer[[ make]] with red carpet fashions can lead
+--- cluster 3
+  [0.59]  mean.  "That's not fair!" he said. "You said I could lend it!"  "But it's mine!" Ben said again. He hugged the[[ grill]] and glared at Sam and Lily.  
+  [0.71]  so mean to the dog. He looked over to his Mom and noticed she had been crying. She quickly wiped away the tears and gave him a big[[ hug]].  "Come on Matty, let
+  [0.64]  done an incredible job, Stewy! You've gained some weight, so you'll have enough energy to get to the bakery!" Then she hugged[[ him]] and said: "Now go and have
+  [0.49]  cookie each, but only after dinner. She said they had to clean up the mess and wash their hands.  Tom and Lily said thank you and hugged[[ mom]]. They were happy and relieved. They
+  [0.75]  they asked.  "Of course, my sweeties. Let's go home and rest. You did a great job today," mom said.  She hugged[[ them]] and took their hands. They walked to
+--- unclustered (sample)
+  [0.54]  and miso paste. The soup features a delicate balance of sweet and salty flavors and is often served with a side of steamed rice.  2.[[ Tom]] Yum: A spicy and sour soup
+  [0.74]  do -- to keep the craft from shaking as astronauts jog. Exercise[[ bikes]] are bolted to the station floor,
+  [0.40]  just a little bit. I am very hungry and cold. You have so much and I have nothing." He begs and whines[[.  ]]Ben thinks for a moment. He remembers
+=== low pole (p3 and below)
+--- cluster 0
+  [-0.44] Once upon a time there was a young girl named Anna. She loved to play with her toys and her friends from school. One[[ day]], Anna was having so much fun that
+  [-0.50]  little girl called Spike. She loved exploring the world and she was always so happy. She looked around everywhere to see all of the special things.  One[[ day]] Spike was walking and she saw a gray
+  [-0.53] . It was her best friend. The blanket had a stitch on it that Anne loved to protect. Everywhere Anne went, her blanket followed.   One[[ day]], Anne went to the park and met
+  [-0.37] Once upon a time, there was a little girl named Lily. She loved to play with her toys and jump on her bed. One[[ day]], her mom bought some new furniture for
+  [-0.56]  a time, there was a big bird named Big Bird. Big Bird loved to fly high in the sky and see the world from up above. One[[ day]], Big Bird was flying over a forest
+--- cluster 1
+  [-0.49] liferation issues, away from the pressures of New York and DC. Potter chose Monterey as the site for his small start-up in 19[[8]]9. He began with a Soviet Non
+  [-0.36]  this time, Frank”s health was less than perfect, Baum had suffered one heart attack shortly before his marriage, and in the summer of 1[[8]]83, his uncertain health was indicated
+  [-0.39]  staying with his half-sister and her husband, Elizabeth and Richard Milnes. According to a story in the Gentleman's Magazine for 17[[6]]8, Brown congratulated Secker for
+  [-0.59] Snow Mountain Passage James D. Houston James D. Houston (19[[3]]3–2009) was
+  [-0.51]  development has revealed that the role of pax6 and eyeless is far from the simple story that Explore Evolution presents. A review in 20[[0]]6 explained that: Historical views on
+--- cluster 2
+  [-0.35]  where to go. He decided to go to the jungle.   He walked through the trees and saw some monkeys. He said hello but they ran away[[.]] He was so sad. He kept walking
+  [-0.34] Let's go in and say hello!"  Molly and her mommy hurried into the building, smiling and laughing. Molly was so excited to meet her tutor[[.]] She was going to learn lots of new
+  [-0.38]  much fun sliding down that he kept going up and down.  When he was done, he took one more look at the slide and then he flew away[[.]] The little bird was happy. He had
+  [-0.33]  teddy bear in his blanket.  Soon, it was time for Jimmy to go home. He packed his objects back into the suitcase and walked back home[[.]] He had the best trip ever!
+  [-0.33]  and smiled. She loved all the attention!  Mia will always remember that special day. She had seen a beautiful castle and made lots of new friends[[.]]
+--- cluster 3
+  [-0.37]  Happiness Julia Bayne, 4th Year CHM Do you want to change the world? Of course you do - who wouldn’t[[ want]] to be hailed amongst the ranks of Albert
+  [-0.33] , had a role to play.  As her connection with the animals deepened, Elena began to feel a sense of responsibility to the ecosystem that was so[[ different]] from her previous perspective. She started to
+  [-0.50]  etc) upstream. OPEC and other major suppliers of carbon intensive fuels are certainly in a position to manage the supply – they just need to understand the[[ importance]] of acting now and in a way that
+  [-0.70]  that they keep themselves informed to make the most significant difference possible.  user: Wow, being an MP sounds like a lot of work. How do they[[ manage]] to balance their work and personal lives?
+  [-0.38] ties and the quickly growing middle classes meant that more and more families were able to afford big weddings. What better way for wedding vendors to ensure that every[[ family]] extends itself to the maximum possible than to
+--- cluster 4
+  [-0.45]  fell down and hurt her knee. She felt sad and didn't know what to do. But her friends were there to help her. They helped Lily[[ stand]] up and told her it would be okay
+  [-0.39]  felt a little sad and lonely. She wondered if her mom was really going to have a party without her. She wondered if her friends would come and[[ have]] fun without her. She wondered if she
+  [-0.42] 't ever forget your good luck!"  The girl took the present back home and hugged it tight every night. She never forgot how lucky she was to have[[ found]] it.
+  [-0.39]  feel less scared.  After a few days, Mira felt much better. Her fever was gone and her throat was not sore. She could eat and[[ drink]] and smile again. The doctor said,
+  [-0.39]  to herself, "Maybe I will try to swim!"  So, she took off her shoes and jumped into the water. She tried to swim, but[[ it]] was hard, so she became quickly tired
+--- cluster 5
+  [-20.50]  called out.  "What is it Sarah?" her mom asked, walking over to her.  "Look what I found!" Sarah said proudly and pointed at the[[ box]].  Her mom smiled and said "Let
+  [-39.75] Pam was playing with her toys when her mum came into the room. She had something special with her; a[[ box]] of tape. It had been difficult for
+  [-26.50]  Joe. He loved to play with his toy box. He had all sorts of fun stuff inside. One day, Joe wanted to hide something in the[[ box]]. He really wanted to keep it secret
+  [-0.35]  the furniture.  As Gracie walked through each room, she noticed lots of fun things. She saw chairs and tables, a bed and even a book[[shelf]]! On the top shelf, Gracie
+  [-12.25]  She was called Lauren. In her bedroom there was a toybox. Today, Lauren wanted to open it.  "Mummy, can I open the toy[[box]]?" she asked.   Mummy smiled
+--- unclustered (sample)
+  [-0.45]  has ever followed before. Long before human pilots fly over the Red Planet, these pictures may rekindle the romance of a new world in[[ the]] audience back home.
+  [-0.45]  are crucial. If you can stick with physical activities you enjoy, it’s a good sign that you will be able to make exercise and physical activity a[[ regular]] part of your everyday life. Most older
+  [-0.57]  the onions until they're softened before adding the tomatoes.  - Spinach: Stir in a few handfuls of fresh spinach leaves to the sauce during the[[ last]] few minutes of cooking until they wilt.  
+##### neuron 7513
+=== high pole (p97 and above)
+--- cluster 0
+  [0.95]  Zhengguo Canal was built to connect the Yellow River and the Huai River in eastern China, allowing for improved transportation of goods and people across the[[ region]].  user: It's amazing to think
+  [1.54] , and emissaries from Rome, Persia, India, and Central Asia would have been exposed to Chinese products, language, arts, crafts, and[[ architecture]]. The Chinese-style Buddhist pagodas
+  [1.78]  Dep. The cities united under Egyptian rule, and was renamed Per-Wadjet (after the patron goddess of Dep, adopted as the protector of Lower[[ Egypt]], and after the Unification, both
+  [0.81]  teacher. In 1882 Cartmell travelled to Tokyo, Japan, having accepted as her calling the assignment of Christian missionary to women and[[ girls]]. Cartmell undertook an intensive
+  [1.38] king's law": supreme court), religion (allusions to fundamental religious principles and the law of the Prophets; emphasis on the centralization of[[ worship]]), and worship (position of the priests
+--- cluster 1
+  [0.72]  bugs! When the competition was over, the judges looked at all of the pictures and announced the winner.   It was Timmy! He was so[[ happy]] and proud of himself. He knew that
+  [0.55]  apples and oranges," said another woman. "And we even dry flowers!"  Bob was amazed. He thanked the people and waved goodbye. He was so[[ happy]] that everyone was so polite. He ran
+  [0.74] . It had had a wonderful time exploring the east side of the field! With one last look around, the little sack hopped away, feeling so[[ happy]] and content.
+  [0.68]  his mom carefully as she pulled each string. He tried to do the same. After several tries he was able to separate the strings. Frank was so[[ happy]] he started to play the guitar. His
+  [0.67]  more bread. They splash him back. They giggle and quack.  Mom watches them. She is happy. She sees that Lily and Tom are[[ happy]]. She thinks that Ducky is a
+--- cluster 2
+  [2.38]  upon a time, there was a little girl named Lily. She loved to play with her toys all day long. One day, she saw a beautiful[[ doll]] in the store. She asked her mommy
+  [1.26] . Her name was Susie.  One day, Susie wanted to do something fun. So she decided to start singing. She chose a very funny[[ song]] to sing. She started to dance around
+  [0.59]  high in it. Some kids even pretended they were flying!  One day, a boy named Max saw something very strange in the playground. It was a[[ weapon]]! He had never seen one before and
+  [2.73]  was having so much fun!  Suddenly, he heard a noise coming from above. It was a boy who was very creative. He had made a toy[[ airplane]] out of paper and was flying it in
+  [0.76] One day, he sees a fireman in the park. The fireman is dirty, because he has been fighting a fire. He has a big[[ hose]] and a big truck. Tom thinks the
+--- unclustered (sample)
+  [4.69]  like his family wondering why he hasn't friended them yet and his girlfriend misinterprets everything he posts on his account. Facebook has gotten to the[[ point]] to where the entire event organization takes place
+  [1.55]  of a donor of human tissue intended for transplantation, as well as requirements for written procedures, record keeping and inspection. These requirements apply to certain[[ tissues]] (musculoskeletal, skin, and
+  [0.69] unched card n.obs. [techspeak] (alt. `punch card') The signature medium of computing's Stone Age, now obsoles[[cent]] outside of some IBM shops. The punched
+=== low pole (p3 and below)
+--- cluster 0
+  [-1.30]  of his mom's words, "to be patient".  The little boy was proud of himself - he was patient, even when he wanted to run and[[ play]]. And, with help of the weight
+  [-2.08]  her questions.  As they talked, she felt her embarrassment disappear. She felt brave and excited. She spent a lot of time in the museum looking and[[ learning]]. She also promised herself that when she
+  [-2.06] Once there was a shy little girl named Lilly. Lilly had never been to school before and was a bit scared of meeting new[[ people]].  One day, Lilly's mom took
+  [-1.98]  a beautiful rose bush. Lily was always careful not to step on the flowers or pick them too roughly.  One day, Lily's friend Tommy came to[[ play]]. He didn't know about the rose
+  [-1.38]  Emma was playing in the garden when she saw something lying in the tall grass. She walked over and saw that it was a cup. Emma picked it[[ up]] and the cup was thick and heavy.
+--- cluster 1
+  [-3.20] Once upon a time[[,]] there was a furry loop. Every day
+  [-3.20] Once upon a time[[,]] there was a little girl named Lily.
+  [-3.20] Once upon a time[[,]] there were two little birds, Tom and
+  [-3.20] Once upon a time[[,]] there was a little girl named Jenny.
+  [-3.20] Once upon a time[[,]] there was a girl named Lily. She

@@ -1,0 +1,61 @@
+{"neuron":8622,"pole":"high","cluster":0,"mode":"time periods: decades, years, months","scene_windows":0,"windows":5,"scene":"narrative time spans"}
+{"neuron":8622,"pole":"high","cluster":1,"mode":"time periods: more than X years","scene_windows":0,"windows":5,"scene":"describing durations"}
+{"neuron":8622,"pole":"high","cluster":2,"mode":"time periods: for X duration","scene_windows":0,"windows":5,"scene":"describing durations"}
+{"neuron":8622,"pole":"high","cluster":3,"mode":"heights: up to X feet/metres","scene_windows":0,"windows":5,"scene":"describing physical dimensions"}
+{"neuron":8622,"pole":"high","cluster":4,"mode":"prepositions: of, that, and","scene_windows":0,"windows":5,"scene":"connecting clauses and phrases"}
+{"neuron":8622,"pole":"high","cluster":5,"mode":"dialogue tags: asked, said, reply","scene_windows":0,"windows":5,"scene":"reporting speech"}
+{"neuron":8622,"pole":"low","cluster":0,"mode":"prepositions: of, and","scene_windows":0,"windows":5,"scene":"connecting clauses and phrases"}
+{"neuron":8622,"pole":"low","cluster":1,"mode":"prepositions: for","scene_windows":0,"windows":5,"scene":"describing durations"}
+{"neuron":8622,"pole":"low","cluster":2,"mode":"prepositions: for","scene_windows":0,"windows":5,"scene":"describing durations"}
+{"neuron":8622,"pole":"low","cluster":3,"mode":"prepositions: for","scene_windows":0,"windows":5,"scene":"describing durations"}
+{"neuron":8622,"pole":"low","cluster":4,"mode":"conjunctions: and, not, a, his","scene_windows":0,"windows":5,"scene":"connecting words and phrases"}
+{"neuron":8622,"pole":"low","cluster":5,"mode":"punctuation: comma, period","scene_windows":0,"windows":5,"scene":"sentence structure"}
+{"neuron":8844,"pole":"high","cluster":0,"mode":"adverb: very","scene_windows":0,"windows":5,"scene":"emphasizing qualities"}
+{"neuron":8844,"pole":"high","cluster":1,"mode":"adverb: quite","scene_windows":0,"windows":5,"scene":"emphasizing qualities"}
+{"neuron":8844,"pole":"high","cluster":2,"mode":"quantifier: many","scene_windows":0,"windows":5,"scene":"indicating plurality"}
+{"neuron":8844,"pole":"high","cluster":3,"mode":"adverb: every","scene_windows":0,"windows":5,"scene":"indicating frequency"}
+{"neuron":8844,"pole":"high","cluster":4,"mode":"adverb: so","scene_windows":0,"windows":5,"scene":"indicating degree"}
+{"neuron":8844,"pole":"high","cluster":5,"mode":"punctuation: period","scene_windows":0,"windows":5,"scene":"sentence termination"}
+{"neuron":8844,"pole":"low","cluster":0,"mode":"punctuation: colon, period","scene_windows":0,"windows":5,"scene":"dialogue and sentence termination"}
+{"neuron":8844,"pole":"low","cluster":1,"mode":"pronoun: this","scene_windows":0,"windows":5,"scene":"referring to preceding information"}
+{"neuron":8844,"pole":"low","cluster":2,"mode":"punctuation: colon, period","scene_windows":0,"windows":5,"scene":"dialogue and sentence termination"}
+{"neuron":8844,"pole":"low","cluster":3,"mode":"punctuation: period, comma","scene_windows":0,"windows":5,"scene":"sentence structure"}
+{"neuron":8844,"pole":"low","cluster":4,"mode":"punctuation: period, comma","scene_windows":0,"windows":5,"scene":"sentence structure"}
+{"neuron":8844,"pole":"low","cluster":5,"mode":"punctuation: comma, period","scene_windows":0,"windows":5,"scene":"sentence structure"}
+{"neuron":8844,"pole":"low","cluster":6,"mode":"conjunction: however","scene_windows":0,"windows":5,"scene":"introducing contrast"}
+{"neuron":8844,"pole":"low","cluster":7,"mode":"punctuation: period, comma","scene_windows":0,"windows":5,"scene":"sentence structure"}
+{"neuron":8844,"pole":"low","cluster":8,"mode":"determiner: the","scene_windows":0,"windows":5,"scene":"specifying nouns"}
+{"neuron":8844,"pole":"low","cluster":9,"mode":"conjunction: in contrast","scene_windows":0,"windows":5,"scene":"introducing contrast"}
+{"neuron":9741,"pole":"high","cluster":0,"mode":"verbs: down","scene_windows":0,"windows":5,"scene":"actions of placing objects"}
+{"neuron":9741,"pole":"high","cluster":1,"mode":"prepositions: into, to","scene_windows":0,"windows":5,"scene":"direction of movement"}
+{"neuron":9741,"pole":"high","cluster":2,"mode":"prepositions: in, to, value","scene_windows":0,"windows":5,"scene":"indicating location or benefit"}
+{"neuron":9741,"pole":"high","cluster":3,"mode":"verbs: poking, sticking, seeping, billowed, protruded","scene_windows":0,"windows":5,"scene":"describing physical actions"}
+{"neuron":9741,"pole":"low","cluster":0,"mode":"actions to manage personal well-being and responsibility","scene_windows":0,"windows":5,"scene":"personal advice and self-care"}
+{"neuron":9741,"pole":"low","cluster":1,"mode":"statements about a specific object or place","scene_windows":0,"windows":5,"scene":"narrative description of a place"}
+{"neuron":9741,"pole":"low","cluster":2,"mode":"references to specific entities or concepts","scene_windows":0,"windows":5,"scene":"factual statements and descriptions"}
+{"neuron":9741,"pole":"low","cluster":3,"mode":"numerical sequences and references","scene_windows":0,"windows":5,"scene":"numerical data and references"}
+{"neuron":10412,"pole":"high","cluster":0,"mode":"letters: B, G, S, syst","scene_windows":0,"windows":5,"scene":"initial letters of words"}
+{"neuron":10412,"pole":"high","cluster":1,"mode":"words: Encyclopædia, Encyclop","scene_windows":0,"windows":5,"scene":"encyclopedia titles"}
+{"neuron":10412,"pole":"low","cluster":0,"mode":"abbreviations: D.E.S., P.A.L., D.O.N.A.L.D., E.A.","scene_windows":0,"windows":5,"scene":"acronyms and abbreviations"}
+{"neuron":10412,"pole":"low","cluster":1,"mode":"phrases: in the end","scene_windows":0,"windows":5,"scene":"concluding narrative"}
+{"neuron":10412,"pole":"low","cluster":2,"mode":"adverbs: ultimately, eventually","scene_windows":0,"windows":5,"scene":"indicating final outcome"}
+{"neuron":10412,"pole":"low","cluster":3,"mode":"adverbs: finally","scene_windows":0,"windows":5,"scene":"indicating finality"}
+{"neuron":10412,"pole":"low","cluster":4,"mode":"prepositions: out","scene_windows":0,"windows":5,"scene":"direction of movement"}
+{"neuron":10412,"pole":"low","cluster":5,"mode":"verbs: looked, turned, looking","scene_windows":0,"windows":5,"scene":"actions of perception"}
+{"neuron":10701,"pole":"high","cluster":0,"mode":"punctuation: quotation marks","scene_windows":0,"windows":5,"scene":"indicating direct speech or terms"}
+{"neuron":10701,"pole":"high","cluster":1,"mode":"prepositions: behind","scene_windows":0,"windows":5,"scene":"indicating location"}
+{"neuron":10701,"pole":"high","cluster":2,"mode":"determiners: the","scene_windows":0,"windows":5,"scene":"specifying nouns"}
+{"neuron":10701,"pole":"high","cluster":3,"mode":"verbs: followed","scene_windows":0,"windows":5,"scene":"actions of movement"}
+{"neuron":10701,"pole":"low","cluster":0,"mode":"adverbs: just","scene_windows":0,"windows":5,"scene":"limiting or emphasizing"}
+{"neuron":10701,"pole":"low","cluster":1,"mode":"pronoun: this","scene_windows":0,"windows":5,"scene":"referring to preceding information"}
+{"neuron":10701,"pole":"low","cluster":2,"mode":"determiners: the, name","scene_windows":0,"windows":5,"scene":"specifying nouns"}
+{"neuron":10701,"pole":"low","cluster":3,"mode":"numbers: 1, 0, 8","scene_windows":0,"windows":5,"scene":"numerical digits"}
+{"neuron":10931,"pole":"high","cluster":0,"mode":"parentheses: (b), (a), (c)","scene_windows":0,"windows":5,"scene":"legal or technical citations"}
+{"neuron":10931,"pole":"high","cluster":1,"mode":"numbers: 1, 4, 2","scene_windows":0,"windows":5,"scene":"numerical references"}
+{"neuron":10931,"pole":"high","cluster":2,"mode":"numbers: 46, 68, 161","scene_windows":0,"windows":5,"scene":"page numbers in citations"}
+{"neuron":10931,"pole":"high","cluster":3,"mode":"numbers: 6, 13, 4","scene_windows":0,"windows":5,"scene":"verse or chapter numbers"}
+{"neuron":10931,"pole":"high","cluster":4,"mode":"numbers: 37, 2003, 1977","scene_windows":0,"windows":5,"scene":"years and dates"}
+{"neuron":10931,"pole":"high","cluster":5,"mode":"place names: Pennsylvania, Brazil, Europe","scene_windows":0,"windows":5,"scene":"geographical locations"}
+{"neuron":10931,"pole":"high","cluster":6,"mode":"numbers: 4th, 9th, 3rd","scene_windows":0,"windows":5,"scene":"ordinal numbers"}
+{"neuron":10931,"pole":"low","cluster":0,"mode":"nouns: education, relationships, stores","scene_windows":0,"windows":5,"scene":"abstract concepts and places"}
+{"neuron":10931,"pole":"low","cluster":1,"mode":"nouns: fruits, vegetables","scene_windows":0,"windows":5,"scene":"types of food"}

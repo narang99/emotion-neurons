@@ -1,0 +1,61 @@
+{"neuron":1196,"pole":"high","cluster":0,"mode":"Ingredient and cooking-step tokens in recipe instructions","happy_windows":0,"windows":5,"scene":"Recipe instructions for cooking and baking"}
+{"neuron":1196,"pole":"high","cluster":1,"mode":"Planetary science and space-exploration descriptive text tokens","happy_windows":0,"windows":5,"scene":"Articles about Venus, Mars and planetary surfaces"}
+{"neuron":1196,"pole":"high","cluster":2,"mode":"Nouns and word endings in general expository or argumentative prose","happy_windows":0,"windows":5,"scene":"Informational articles on animals, careers, media"}
+{"neuron":1196,"pole":"high","cluster":3,"mode":"Sentence-ending periods in 'Once upon a time' story openings","happy_windows":0,"windows":5,"scene":"Simple children's story openings about animals"}
+{"neuron":1196,"pole":"high","cluster":4,"mode":"Pronouns and nouns referring to a magical rock or object","happy_windows":0,"windows":5,"scene":"Children's stories about finding and moving rocks"}
+{"neuron":1196,"pole":"high","cluster":5,"mode":"Determiners 'the' and 'so' starting clauses in children's stories","happy_windows":3,"windows":5,"scene":"Short children's stories with family, jokes, animals"}
+{"neuron":1196,"pole":"low","cluster":0,"mode":"Technical and academic noun phrases in formal writing","happy_windows":0,"windows":5,"scene":"Technical documentation, research proposals, and business news"}
+{"neuron":1196,"pole":"low","cluster":1,"mode":"Emotion-state words and verbs after characters' feelings","happy_windows":2,"windows":5,"scene":"Children's stories about feelings, friends and gifts"}
+{"neuron":7428,"pole":"high","cluster":0,"mode":"Code syntax tokens ending or within programming statements","happy_windows":0,"windows":5,"scene":"Code snippets in various programming languages"}
+{"neuron":7428,"pole":"high","cluster":1,"mode":"The definite article 'the' in dark fantasy narrative","happy_windows":0,"windows":5,"scene":"Dark fantasy stories about demons and treasure"}
+{"neuron":7428,"pole":"high","cluster":2,"mode":"Subject pronouns and 'is' in dialogue about everyday objects","happy_windows":0,"windows":5,"scene":"Simple children's stories with spoken exclamations"}
+{"neuron":7428,"pole":"high","cluster":3,"mode":"Action verbs and object nouns in simple children's stories","happy_windows":1,"windows":5,"scene":"Simple children's stories about finding and playing"}
+{"neuron":7428,"pole":"high","cluster":4,"mode":"Nouns like life, future, landscape ending reflective phrases","happy_windows":0,"windows":5,"scene":"Reflective essays on nature, loss and gratitude"}
+{"neuron":7428,"pole":"high","cluster":5,"mode":"Subject pronouns and names starting sentences of excited reactions","happy_windows":3,"windows":5,"scene":"Short children's stories with excited characters"}
+{"neuron":7428,"pole":"low","cluster":0,"mode":"Descriptive writing-advice phrases about imagery and setting","happy_windows":0,"windows":5,"scene":"Writing guidance on imagery, art and textures"}
+{"neuron":7428,"pole":"low","cluster":1,"mode":"The verb 'was' after a character is described as happy","happy_windows":4,"windows":5,"scene":"Children's stories with characters feeling pleased and grateful"}
+{"neuron":7428,"pole":"low","cluster":2,"mode":"Sentence-final periods after characters feel happy or proud","happy_windows":4,"windows":5,"scene":"Children's stories with happy, proud and thankful endings"}
+{"neuron":7428,"pole":"low","cluster":3,"mode":"Pronoun 'They' or 'He' starting lesson-learned sentences","happy_windows":2,"windows":5,"scene":"Children's stories ending with relief and lessons"}
+{"neuron":7428,"pole":"low","cluster":4,"mode":"The verb 'smiled' after a character's reply or action","happy_windows":5,"windows":5,"scene":"Warm family and friend moments ending in smiles"}
+{"neuron":7428,"pole":"low","cluster":5,"mode":"The verb 'ran' after a character is scared or upset","happy_windows":0,"windows":5,"scene":"Children's stories about fear, anger and fleeing"}
+{"neuron":3361,"pole":"high","cluster":0,"mode":"Negative emotion and conflict words like nervous, panic, stupid","happy_windows":0,"windows":5,"scene":"Conflict, fear and arguments in dialogue and narration"}
+{"neuron":3361,"pole":"high","cluster":1,"mode":"Size adjectives and possessives in simple story sentences","happy_windows":0,"windows":5,"scene":"Simple children's stories about objects and friends"}
+{"neuron":3361,"pole":"low","cluster":0,"mode":"The word 'there' in 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"Formulaic story openings about characters"}
+{"neuron":3361,"pole":"low","cluster":1,"mode":"Pronoun 'She' or 'They' starting a sentence after a character intro","happy_windows":1,"windows":5,"scene":"Children's story introductions and friends playing"}
+{"neuron":3361,"pole":"low","cluster":2,"mode":"The verb 'was' in the 'Once upon a time, there was' opening","happy_windows":0,"windows":5,"scene":"Formulaic story openings about a girl or boy"}
+{"neuron":9577,"pole":"high","cluster":0,"mode":"Nouns and punctuation in historical or legal prose","happy_windows":0,"windows":5,"scene":"Historical and regulatory articles and book citations"}
+{"neuron":9577,"pole":"high","cluster":1,"mode":"Numbers and place names in press contact and address text","happy_windows":0,"windows":5,"scene":"University press notices and address lists"}
+{"neuron":9577,"pole":"low","cluster":0,"mode":"The word 'and' after an excited or smiling character's action","happy_windows":5,"windows":5,"scene":"Children's stories of excitement and delight"}
+{"neuron":9577,"pole":"low","cluster":1,"mode":"Verb 'loved' and 'her' in a girl's playful routines","happy_windows":1,"windows":5,"scene":"Simple stories about Lily playing with toys"}
+{"neuron":9577,"pole":"low","cluster":2,"mode":"Opening quotation marks after 'said' in dialogue","happy_windows":2,"windows":5,"scene":"Children's dialogue about gifts, dancing and games"}
+{"neuron":9577,"pole":"low","cluster":3,"mode":"The infinitive 'to' after excited or decided characters","happy_windows":3,"windows":5,"scene":"Children eager to visit, play, or try things"}
+{"neuron":8523,"pole":"high","cluster":0,"mode":"Period after a girl's name in 'Once upon a time' openings","happy_windows":0,"windows":5,"scene":"Simple children's story openings about Lily or Jane"}
+{"neuron":8523,"pole":"high","cluster":1,"mode":"Sentence-ending periods after characters' reactions like smiled or amazed","happy_windows":3,"windows":5,"scene":"Story moments of delight, relief and surprise"}
+{"neuron":8523,"pole":"high","cluster":2,"mode":"Subject pronouns and 'and' after a character's happy feelings","happy_windows":4,"windows":5,"scene":"Children reunited, relieved and feeling brave"}
+{"neuron":8523,"pole":"high","cluster":3,"mode":"Institutional nouns and 'it' in health and news reporting","happy_windows":0,"windows":5,"scene":"News about health officials, vaccines and history"}
+{"neuron":8523,"pole":"low","cluster":0,"mode":"Closing quotation marks and punctuation in playful dialogue","happy_windows":2,"windows":5,"scene":"Playful dialogue about puddles, bathing and teams"}
+{"neuron":8523,"pole":"low","cluster":1,"mode":"The verb 'was' after a character's happy or surprised reaction","happy_windows":4,"windows":5,"scene":"Children receiving toys and gifts with joy"}
+{"neuron":8523,"pole":"low","cluster":2,"mode":"Character names and 'girl' in sad or scared stories","happy_windows":1,"windows":5,"scene":"Stories of sickness, fear and lost objects"}
+{"neuron":4175,"pole":"high","cluster":0,"mode":"Emotion adjectives and 'back' or 'away' after a character acts","happy_windows":2,"windows":5,"scene":"Mixed stories of anger, relief and gratitude"}
+{"neuron":4175,"pole":"high","cluster":1,"mode":"The verb 'said' after a character's angry or sudden response","happy_windows":0,"windows":5,"scene":"Family and friend disputes and invitations in stories"}
+{"neuron":4175,"pole":"low","cluster":0,"mode":"The conjunction 'but' after a character wants something","happy_windows":0,"windows":5,"scene":"Children wanting things they cannot have"}
+{"neuron":4175,"pole":"low","cluster":1,"mode":"Commas after time phrases before a character's action","happy_windows":2,"windows":5,"scene":"Children's playtime and shared fun stories"}
+{"neuron":4175,"pole":"low","cluster":2,"mode":"Sentence-final punctuation after a character's request or feeling","happy_windows":0,"windows":5,"scene":"Children's stories of adventure and fear"}
+{"neuron":4175,"pole":"low","cluster":3,"mode":"Subject 'She' after a character's feelings of joy or fear","happy_windows":2,"windows":5,"scene":"Little girl stories about surprise and lost shoes"}
+{"neuron":4175,"pole":"low","cluster":4,"mode":"The pronoun 'it' referring to a dirty or hard object","happy_windows":0,"windows":5,"scene":"Stories about scarves, wallets and failed attempts"}
+{"neuron":4175,"pole":"low","cluster":5,"mode":"Nouns like style, technology, project in expository prose","happy_windows":0,"windows":5,"scene":"Articles on heritage, telecom education and tech projects"}
+{"neuron":11939,"pole":"high","cluster":0,"mode":"The article 'a' or 'and' in food serving-suggestion lists","happy_windows":0,"windows":5,"scene":"Recipe and food serving suggestions"}
+{"neuron":11939,"pole":"high","cluster":1,"mode":"Pronouns 'He' or 'They' starting fun-filled activity sentences","happy_windows":4,"windows":5,"scene":"Children exploring, playing tag and having fun"}
+{"neuron":11939,"pole":"high","cluster":2,"mode":"Infinitive 'to' and motion verbs in children's activities","happy_windows":2,"windows":5,"scene":"Children deciding to play games and visit swings"}
+{"neuron":11939,"pole":"high","cluster":3,"mode":"Nouns and 'around' in playful splashing and waving actions","happy_windows":4,"windows":5,"scene":"Children splashing in pools and laughing together"}
+{"neuron":11939,"pole":"high","cluster":4,"mode":"Verbs and nouns in political and historical analysis","happy_windows":0,"windows":5,"scene":"Political history and social movement analysis"}
+{"neuron":11939,"pole":"high","cluster":5,"mode":"Ingredient and step tokens in dessert and food recipes","happy_windows":0,"windows":5,"scene":"Dessert and recipe instructions"}
+{"neuron":11939,"pole":"high","cluster":6,"mode":"Word-initial fragments splitting a longer word mid-token, in narrative and historical prose","happy_windows":1,"windows":5,"scene":"Playful cat and boy; war, politics, and film-review passages"}
+{"neuron":11939,"pole":"low","cluster":0,"mode":"Indefinite article 'a' introducing a newly noticed object after perception verbs","happy_windows":0,"windows":5,"scene":"Simple children's stories of finding and noticing things"}
+{"neuron":11939,"pole":"low","cluster":1,"mode":"Past-tense verb right after a character subject in narrative sentences","happy_windows":1,"windows":5,"scene":"Children's stories with feelings, sharing, and family moments"}
+{"neuron":11939,"pole":"low","cluster":2,"mode":"Sentence-initial pronoun 'He' or 'She' starting a new narrative clause","happy_windows":1,"windows":5,"scene":"Animal and child stories with mishaps and small adventures"}
+{"neuron":11939,"pole":"low","cluster":3,"mode":"Function words like 'of', 'use', 'a' inside recipe and ingredient instructions","happy_windows":0,"windows":5,"scene":"Cooking recipes and food preparation instructions"}
+{"neuron":2080,"pole":"high","cluster":0,"mode":"Mid-sentence function words where a clause or phrase must continue, in descriptive text","happy_windows":1,"windows":5,"scene":"Film analysis, technical writing, and one dolphin story"}
+{"neuron":2080,"pole":"high","cluster":1,"mode":"'day' in the story-opening phrase 'One day' of children's tales","happy_windows":1,"windows":5,"scene":"Opening scenes of simple children's stories"}
+{"neuron":2080,"pole":"low","cluster":0,"mode":"Mid-sentence tokens like 'it', 'Dad', 'mom' in children's stories about worries","happy_windows":1,"windows":5,"scene":"Children's stories moving from worry to relief and reunion"}
+{"neuron":2080,"pole":"low","cluster":1,"mode":"Punctuation and identifiers inside code snippets and string literals","happy_windows":0,"windows":5,"scene":"Programming code in several languages"}

@@ -1,0 +1,80 @@
+{"neuron":1958,"pole":"high","cluster":0,"mode":"Period or sentence-end tokens closing narrative fiction sentences","scene_windows":0,"windows":5,"scene":"Fiction narration, ordinary storytelling scenes"}
+{"neuron":1958,"pole":"high","cluster":1,"mode":"Token inside the word 'nonproliferation' in education text","scene_windows":0,"windows":5,"scene":"Nonproliferation studies program profile"}
+{"neuron":1958,"pole":"high","cluster":2,"mode":"Nouns like weapons, warfare, killer, rule in narrative","scene_windows":0,"windows":5,"scene":"Crime and war fiction or political commentary"}
+{"neuron":1958,"pole":"high","cluster":3,"mode":"Pronouns and punctuation mid-sentence in narrative text","scene_windows":0,"windows":5,"scene":"Fiction and story narration"}
+{"neuron":1958,"pole":"low","cluster":0,"mode":"Assistant turn-start tokens in chat transcripts","scene_windows":1,"windows":5,"scene":"Chat Q&A, one request about cutting people"}
+{"neuron":1958,"pole":"low","cluster":1,"mode":"Sentence-end punctuation and spaces in informational text","scene_windows":0,"windows":5,"scene":"Informational and expository web text"}
+{"neuron":1958,"pole":"low","cluster":2,"mode":"Prepositions and nouns in speculative or sci-fi prose","scene_windows":0,"windows":5,"scene":"Science and speculative fiction prose"}
+{"neuron":1958,"pole":"low","cluster":3,"mode":"Article 'a' after 'Hmm, this is' assistant preambles","scene_windows":0,"windows":5,"scene":"Assistant answering general questions"}
+{"neuron":799,"pole":"high","cluster":0,"mode":"Sentence-level tokens in self-reflective or evaluative statements","scene_windows":0,"windows":5,"scene":"Personal values and reference letter text"}
+{"neuron":799,"pole":"high","cluster":1,"mode":"The word 'focuses' or 'focus' in company descriptions","scene_windows":0,"windows":5,"scene":"Marketing and business description text"}
+{"neuron":799,"pole":"low","cluster":0,"mode":"Tokens in smart speaker privacy disclaimer sentences","scene_windows":5,"windows":5,"scene":"Smart speaker privacy and safeguard disclaimer"}
+{"neuron":799,"pole":"low","cluster":1,"mode":"Tokens in disclaimers about not guaranteeing data security","scene_windows":5,"windows":5,"scene":"AI data-security limitation disclaimer"}
+{"neuron":799,"pole":"low","cluster":2,"mode":"Tokens in warnings about policy violations and suspension","scene_windows":5,"windows":5,"scene":"Policy warning about vulgar language and crisis line"}
+{"neuron":799,"pole":"low","cluster":3,"mode":"Verb 'use' or 'using' in advice sentences","scene_windows":0,"windows":5,"scene":"Product and how-to advice text"}
+{"neuron":799,"pole":"low","cluster":4,"mode":"Nouns like dishes, crops, programs in descriptive text","scene_windows":0,"windows":5,"scene":"Cooking, agriculture, and organization descriptions"}
+{"neuron":799,"pole":"low","cluster":5,"mode":"Assistant turn-start tokens in chat transcripts","scene_windows":0,"windows":5,"scene":"Casual chat Q&A about directories and restaurants"}
+{"neuron":5634,"pole":"high","cluster":0,"mode":"Filler opener token ('Hm,') starting an assistant reply to a question","scene_windows":0,"windows":5,"scene":"Benign Human/Assistant Q&A with conversational openers"}
+{"neuron":5634,"pole":"high","cluster":1,"mode":"Pronoun 'I' beginning an assistant's answer after a Human question","scene_windows":0,"windows":5,"scene":"Benign Human/Assistant advice Q&A"}
+{"neuron":5634,"pole":"high","cluster":2,"mode":"Opening quotation mark starting a line of dialogue in fiction","scene_windows":0,"windows":5,"scene":"Science-fiction or spy narrative dialogue"}
+{"neuron":5634,"pole":"high","cluster":3,"mode":"'There' or 'is/are' beginning an assistant's factual answer","scene_windows":0,"windows":5,"scene":"Benign factual Q&A with assistant replies"}
+{"neuron":5634,"pole":"high","cluster":4,"mode":"'It' starting an assistant's answer to a how-to question","scene_windows":0,"windows":5,"scene":"Benign practical advice Q&A"}
+{"neuron":5634,"pole":"high","cluster":5,"mode":"Copula 'is' predicating a claim mid-sentence in explanatory text","scene_windows":0,"windows":5,"scene":"Explanatory text on news, credit, and care topics"}
+{"neuron":5634,"pole":"high","cluster":6,"mode":"Token after a question mark and before an assistant's direct answer","scene_windows":0,"windows":5,"scene":"Simple factual Q&A pairs without colon"}
+{"neuron":5634,"pole":"high","cluster":7,"mode":"'assistant' or colon after 'Based on the passage above' question","scene_windows":0,"windows":5,"scene":"Passage-grounded product question answering"}
+{"neuron":5634,"pole":"high","cluster":8,"mode":"Colon right after 'Assistant' label before an answer","scene_windows":0,"windows":5,"scene":"Benign general-knowledge Q&A"}
+{"neuron":5634,"pole":"high","cluster":9,"mode":"'Assistant' label token immediately before the reply begins","scene_windows":0,"windows":5,"scene":"Short benign how-to questions with replies"}
+{"neuron":5634,"pole":"low","cluster":0,"mode":"Digit zero inside numeric values in data or statistics","scene_windows":0,"windows":5,"scene":"Benchmarks, stock figures, financial reports, recipes"}
+{"neuron":5634,"pole":"low","cluster":1,"mode":"'There' opening an assistant's answer to a how-to or where question","scene_windows":0,"windows":5,"scene":"Benign Human/Assistant practical questions"}
+{"neuron":5634,"pole":"low","cluster":2,"mode":"'user:' colon marking the start of a user turn","scene_windows":0,"windows":5,"scene":"Multi-turn chat transcripts about travel and self-improvement"}
+{"neuron":5634,"pole":"low","cluster":3,"mode":"Letter 'N' inside author names and citation fragments","scene_windows":0,"windows":5,"scene":"Bibliographic references and author lists"}
+{"neuron":5634,"pole":"low","cluster":4,"mode":"Dash placeholder inside pipe-delimited table cells","scene_windows":0,"windows":5,"scene":"Nutrition and dietary tables"}
+{"neuron":5634,"pole":"low","cluster":5,"mode":"Fragment 'n' of negative contractions like 'didn't'","scene_windows":0,"windows":5,"scene":"Narrative fiction dialogue"}
+{"neuron":5634,"pole":"low","cluster":6,"mode":"'assistant' label after a long writing-task instruction","scene_windows":0,"windows":5,"scene":"Writing-assignment prompts with assistant completions"}
+{"neuron":5634,"pole":"low","cluster":7,"mode":"Ordinary function words mid-sentence in narrative prose","scene_windows":0,"windows":5,"scene":"Literary narration and music descriptions"}
+{"neuron":5634,"pole":"low","cluster":8,"mode":"Double pipe '||' delimiters in wiki-style data fields","scene_windows":0,"windows":5,"scene":"Structured database and conservation record tables"}
+{"neuron":9572,"pole":"high","cluster":0,"mode":"Token 'for' or 'about' after apology in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue with apologies"}
+{"neuron":9572,"pole":"high","cluster":1,"mode":"Token 'to' after 'I am sorry' in replies","scene_windows":1,"windows":5,"scene":"Assistant apologizing, one reply to a car break-in"}
+{"neuron":9572,"pole":"high","cluster":2,"mode":"Opening quote marks in dialogue turns","scene_windows":0,"windows":5,"scene":"Fiction dialogue"}
+{"neuron":9572,"pole":"high","cluster":3,"mode":"Token 'for' after reproaching oneself","scene_windows":0,"windows":5,"scene":"Fiction self-reproach narration"}
+{"neuron":9572,"pole":"high","cluster":4,"mode":"Connective and infinitive tokens in advice or descriptive prose","scene_windows":0,"windows":5,"scene":"Descriptive and advisory expository text"}
+{"neuron":9572,"pole":"high","cluster":5,"mode":"Assistant colon or turn token after harmful-sounding requests","scene_windows":4,"windows":5,"scene":"Chat requests about theft, hotwiring, revenge"}
+{"neuron":9572,"pole":"low","cluster":0,"mode":"Contraction 's' or 'It' in dialogue and narration","scene_windows":0,"windows":5,"scene":"Fiction dialogue about banks and jokes"}
+{"neuron":9572,"pole":"low","cluster":1,"mode":"Preposition 'under' or 'beneath' describing physical position","scene_windows":0,"windows":5,"scene":"Fantasy and narrative scene description"}
+{"neuron":9572,"pole":"low","cluster":2,"mode":"Possessive pronouns after prepositions in narration","scene_windows":0,"windows":5,"scene":"Narrative action description"}
+{"neuron":9572,"pole":"low","cluster":3,"mode":"Token 'while' introducing a subordinate clause","scene_windows":0,"windows":5,"scene":"Factual and historical text"}
+{"neuron":9572,"pole":"low","cluster":4,"mode":"Sentence-final periods after dramatic statements","scene_windows":0,"windows":5,"scene":"Fantasy narration with grim tone"}
+{"neuron":9572,"pole":"low","cluster":5,"mode":"First-person 'I' opening villain or monologue lines","scene_windows":0,"windows":5,"scene":"Villain monologue and dramatic verse"}
+{"neuron":3366,"pole":"high","cluster":0,"mode":"Question mark ending a user question before the reply","scene_windows":0,"windows":5,"scene":"Questions on politics, health, and safety"}
+{"neuron":3366,"pole":"high","cluster":1,"mode":"Sentence-initial 'While' starting a hedged clause","scene_windows":0,"windows":5,"scene":"Assistant hedging on ethics and advice"}
+{"neuron":3366,"pole":"high","cluster":2,"mode":"Commas in narrative clauses about difficulty","scene_windows":0,"windows":5,"scene":"Personal narrative and journey stories"}
+{"neuron":3366,"pole":"high","cluster":3,"mode":"Colon after assistant turn in harmful-request chats","scene_windows":4,"windows":5,"scene":"Chat requests on hotwiring, revenge, firearms"}
+{"neuron":3366,"pole":"low","cluster":0,"mode":"Tokens 'of' or 'felt' in feelings-of-accomplishment narration","scene_windows":0,"windows":5,"scene":"Story narration about growth and determination"}
+{"neuron":3366,"pole":"low","cluster":1,"mode":"Sentence-initial 'As' starting temporal clauses","scene_windows":0,"windows":5,"scene":"Narrative passages on time and struggle"}
+{"neuron":3366,"pole":"low","cluster":2,"mode":"Connective 'but' contrasting clauses in narratives","scene_windows":0,"windows":5,"scene":"Narrative and advice text with contrast"}
+{"neuron":3366,"pole":"low","cluster":3,"mode":"Function words like 'that', 'are', 'to' in expository text","scene_windows":0,"windows":5,"scene":"Home, plumbing, and product explanations"}
+{"neuron":3366,"pole":"low","cluster":4,"mode":"Commas after clauses introducing a qualification","scene_windows":0,"windows":5,"scene":"Advice about paint, food, and parenting"}
+{"neuron":2882,"pole":"high","cluster":0,"mode":"Subject 'I' or 'do' in AI self-description statements","scene_windows":0,"windows":5,"scene":"AI assistant describing its lack of family"}
+{"neuron":2882,"pole":"high","cluster":1,"mode":"Sentence-initial 'I' in refusals and safety advice","scene_windows":5,"windows":5,"scene":"Assistant refusing dangerous or illegal help"}
+{"neuron":2882,"pole":"high","cluster":2,"mode":"Colon after assistant turn in harmful or sensitive chats","scene_windows":4,"windows":5,"scene":"Chats about revenge, violence, and flat tires"}
+{"neuron":2882,"pole":"high","cluster":3,"mode":"Adverb 'always' or 'almost' before fatal outcome","scene_windows":0,"windows":5,"scene":"Rabies medical information answers"}
+{"neuron":2882,"pole":"high","cluster":4,"mode":"Predicate tokens in judgments of unsafe or immoral acts","scene_windows":0,"windows":5,"scene":"Judgments on stealing and unsafe practices"}
+{"neuron":2882,"pole":"high","cluster":5,"mode":"Adverb 'strongly' in cautionary recommendations","scene_windows":5,"windows":5,"scene":"Warnings against drugs, electrocution, catfishing"}
+{"neuron":2882,"pole":"low","cluster":0,"mode":"Assistant colon after a question in chat","scene_windows":0,"windows":5,"scene":"Casual chat Q&A about fitness and food"}
+{"neuron":2882,"pole":"low","cluster":1,"mode":"Subject 'I' before recommendations or opinions","scene_windows":1,"windows":5,"scene":"Advice on medical and ethical recommendations"}
+{"neuron":2882,"pole":"low","cluster":2,"mode":"Human turn colon in multi-turn dialogue","scene_windows":0,"windows":5,"scene":"Multi-turn chats on soccer, credit, watches"}
+{"neuron":2882,"pole":"low","cluster":3,"mode":"Function words in hedged or qualified statements","scene_windows":0,"windows":5,"scene":"Health and product advice text"}
+{"neuron":2882,"pole":"low","cluster":4,"mode":"Contrastive 'but' linking hedged claims","scene_windows":0,"windows":5,"scene":"Debate and factual claims with qualifiers"}
+{"neuron":2989,"pole":"high","cluster":0,"mode":"Preposition 'from' or 'out' in phone-tip lists","scene_windows":0,"windows":5,"scene":"Digital wellness tip lists"}
+{"neuron":2989,"pole":"high","cluster":1,"mode":"Imperative 'stop' or 'quit' in dialogue","scene_windows":0,"windows":5,"scene":"Fictional dialogue telling someone to stop"}
+{"neuron":2989,"pole":"high","cluster":2,"mode":"Contraction 't' or 'even' in angry dialogue","scene_windows":0,"windows":5,"scene":"Fiction confrontation dialogue"}
+{"neuron":2989,"pole":"high","cluster":3,"mode":"Token 'out' in angry commands to leave","scene_windows":0,"windows":5,"scene":"Hostile dialogue ordering someone out"}
+{"neuron":2989,"pole":"high","cluster":4,"mode":"Prepositions and articles in neutral descriptive prose","scene_windows":0,"windows":5,"scene":"Recipes, travel, and product descriptions"}
+{"neuron":2989,"pole":"high","cluster":5,"mode":"Subject 'you' in emotional or accusatory dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with confrontations"}
+{"neuron":2989,"pole":"low","cluster":0,"mode":"Token 'to' after 'sorry' in sympathetic replies","scene_windows":2,"windows":5,"scene":"Assistant replies to hotwiring and distress requests"}
+{"neuron":2989,"pole":"low","cluster":1,"mode":"Token 'danger' in suicide-crisis hotline warnings","scene_windows":5,"windows":5,"scene":"Suicide crisis safety warning"}
+{"neuron":2989,"pole":"low","cluster":2,"mode":"Infinitive and clause tokens in child supervision advice","scene_windows":0,"windows":5,"scene":"Parenting safety advice for toddlers"}
+{"neuron":2989,"pole":"low","cluster":3,"mode":"Tokens 'respect the privacy' in declining personal info","scene_windows":5,"windows":5,"scene":"Assistant declining to disclose private information"}
+{"neuron":2989,"pole":"low","cluster":4,"mode":"Prepositions and verbs in product safety precautions","scene_windows":0,"windows":5,"scene":"Scrub and pesticide safety precautions"}
+{"neuron":2989,"pole":"low","cluster":5,"mode":"Comma or 'please' after 'in immediate danger'","scene_windows":5,"windows":5,"scene":"Suicide crisis hotline safety warnings"}
+{"neuron":2989,"pole":"low","cluster":6,"mode":"Content word in sentences about risk, harm or safety","scene_windows":0,"windows":5,"scene":"Historical, sporting and narrative text about dangers"}

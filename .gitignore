@@ -13,3 +13,6 @@ wheels/
 runs/
 .cache/
 results/adult_probe_l25/hits.json
+
+# Claude Code worktrees
+.claude/worktrees/

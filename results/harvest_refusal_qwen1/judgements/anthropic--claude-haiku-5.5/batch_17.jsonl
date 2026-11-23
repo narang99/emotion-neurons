@@ -1,0 +1,37 @@
+{"neuron":3007,"pole":"high","cluster":0,"mode":"Mid-sentence content tokens in expository and narrative prose on varied topics","scene_windows":0,"windows":5,"scene":"Expository essays, advice, and narrative passages"}
+{"neuron":3007,"pole":"high","cluster":1,"mode":"Colon after 'Assistant' opening a reply to a Human question","scene_windows":0,"windows":5,"scene":"Human/Assistant factual Q&A dialogues"}
+{"neuron":3007,"pole":"low","cluster":0,"mode":"Determiner 'the' or sentence-continuing tokens in geographic and factual statements","scene_windows":0,"windows":5,"scene":"Factual encyclopedic and policy text about places"}
+{"neuron":3007,"pole":"low","cluster":1,"mode":"Mid-clause tokens in fictional dialogue and narration","scene_windows":0,"windows":5,"scene":"Fiction scenes with characters speaking and acting"}
+{"neuron":3007,"pole":"low","cluster":2,"mode":"Adjectives and nouns in environmental, ecological, and science topics","scene_windows":0,"windows":5,"scene":"Environmental and scientific expository writing"}
+{"neuron":4533,"pole":"high","cluster":0,"mode":"Auxiliary or infinitive tokens ('are', 'to', 'an') in expository advice sentences","scene_windows":0,"windows":5,"scene":"Informational articles on medicine, maintenance, and finance"}
+{"neuron":4533,"pole":"high","cluster":1,"mode":"Sentence-initial 'There' starting an answer or factual sentence","scene_windows":0,"windows":5,"scene":"Q&A answers and expository sentences on varied topics"}
+{"neuron":4533,"pole":"low","cluster":0,"mode":"Nouns and verbs mid-clause in technical or research descriptions","scene_windows":0,"windows":5,"scene":"Scientific and technical expository passages"}
+{"neuron":4533,"pole":"low","cluster":1,"mode":"Clause-internal commas and connectives in narrative or reflective prose","scene_windows":0,"windows":5,"scene":"Fiction and personal reflective narration"}
+{"neuron":4657,"pole":"high","cluster":0,"mode":"Prepositions and determiners ('of', 'the', 'to') mid-phrase in descriptive prose","scene_windows":0,"windows":5,"scene":"Descriptive narrative and cultural expository text"}
+{"neuron":4657,"pole":"high","cluster":1,"mode":"Conjunctions 'and'/'or' completing lists within answers","scene_windows":0,"windows":5,"scene":"Assistant answers listing items or health facts"}
+{"neuron":4657,"pole":"low","cluster":0,"mode":"Verbs of capability or change ('improve', 'increase', 'allow') in general statements","scene_windows":0,"windows":5,"scene":"Organizational, academic, and business expository text"}
+{"neuron":4657,"pole":"low","cluster":1,"mode":"Commas and sentence ends in expository and narrative sentences","scene_windows":0,"windows":5,"scene":"Historical and descriptive prose"}
+{"neuron":4657,"pole":"low","cluster":2,"mode":"Article 'the' in historical and religious descriptions","scene_windows":0,"windows":5,"scene":"Historical and religious scholarly writing"}
+{"neuron":197,"pole":"high","cluster":0,"mode":"Subject pronouns and 'is' in narrative sentences about characters","scene_windows":0,"windows":5,"scene":"Fantasy and fiction narration"}
+{"neuron":197,"pole":"high","cluster":1,"mode":"Proper nouns and place or organization names in factual context","scene_windows":0,"windows":5,"scene":"Factual biographies, sports, and reference text"}
+{"neuron":197,"pole":"low","cluster":0,"mode":"Abstract nouns and final words in general descriptive or political sentences","scene_windows":0,"windows":5,"scene":"General commentary on politics, climate, and life"}
+{"neuron":197,"pole":"low","cluster":1,"mode":"US state names after prepositions 'of' or 'in'","scene_windows":0,"windows":5,"scene":"Factual text about US states and locations"}
+{"neuron":4193,"pole":"high","cluster":0,"mode":"Sentence-final period followed by extra spacing before a new item","scene_windows":0,"windows":5,"scene":"Numbered how-to lists and informational articles"}
+{"neuron":4193,"pole":"high","cluster":1,"mode":"Content nouns ending a phrase in legal, food, or sports text","scene_windows":0,"windows":5,"scene":"Legal, recipe, and sports reference passages"}
+{"neuron":4193,"pole":"low","cluster":0,"mode":"Sentence-final periods and closing parentheses in expository text","scene_windows":0,"windows":5,"scene":"Expository and promotional business writing"}
+{"neuron":4193,"pole":"low","cluster":1,"mode":"Infinitive 'to', 'in', or 'a' in policy and business description","scene_windows":0,"windows":5,"scene":"Policy, business, and literary analysis text"}
+{"neuron":4193,"pole":"low","cluster":2,"mode":"Paragraph-break spacing tokens after narrative sentences","scene_windows":0,"windows":5,"scene":"Fiction and story narration with paragraph breaks"}
+{"neuron":4267,"pole":"high","cluster":0,"mode":"Sentence-ending periods or articles in news and informational prose","scene_windows":0,"windows":5,"scene":"News reporting and informational articles"}
+{"neuron":4267,"pole":"high","cluster":1,"mode":"Sentence-final period followed by double-space before a new turn","scene_windows":0,"windows":5,"scene":"Assistant answers in multi-turn dialogues"}
+{"neuron":4267,"pole":"high","cluster":2,"mode":"Sentence-final periods or spacing tokens in informational text","scene_windows":0,"windows":5,"scene":"Music, security, and home-maintenance articles"}
+{"neuron":4267,"pole":"low","cluster":0,"mode":"Nouns naming diseases, places, or products mid-sentence","scene_windows":0,"windows":5,"scene":"Health, gaming, and scientific reference text"}
+{"neuron":4267,"pole":"low","cluster":1,"mode":"Digit '0' inside years in citations and bibliographies","scene_windows":0,"windows":5,"scene":"Academic references and bibliographic entries"}
+{"neuron":8288,"pole":"high","cluster":0,"mode":"Mid-sentence tokens before a clause or noun phrase continuation","scene_windows":0,"windows":5,"scene":"Informational advice and history-of-technology prose"}
+{"neuron":8288,"pole":"high","cluster":1,"mode":"Blank-space tokens after a sentence end, before continuation","scene_windows":0,"windows":5,"scene":"Assistant answers with tips and friendly closings"}
+{"neuron":8288,"pole":"low","cluster":0,"mode":"Pronoun 'It' starting a sentence, followed by 's' or 'is'","scene_windows":0,"windows":5,"scene":"Household, hair, and advice text"}
+{"neuron":8288,"pole":"low","cluster":1,"mode":"Verb 'is' or 'include' after a noun subject in descriptions","scene_windows":0,"windows":5,"scene":"Descriptive facts about food, music, and culture"}
+{"neuron":8288,"pole":"low","cluster":2,"mode":"Colon after 'Assistant' opening a reply in Human/Assistant dialogue","scene_windows":0,"windows":5,"scene":"Human/Assistant everyday advice dialogues"}
+{"neuron":10711,"pole":"high","cluster":0,"mode":"Closing quotation marks ending spoken dialogue in fiction","scene_windows":0,"windows":5,"scene":"Dialogue in fiction and humorous stories"}
+{"neuron":10711,"pole":"high","cluster":1,"mode":"Mid-sentence tokens completing descriptive or narrative clauses","scene_windows":0,"windows":5,"scene":"Expository and narrative prose on city life and character"}
+{"neuron":10711,"pole":"low","cluster":0,"mode":"Opening quotation marks beginning spoken dialogue lines","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction and comedic exchanges"}
+{"neuron":10711,"pole":"low","cluster":1,"mode":"Advice-giving words like 'to', 'help', 'your' in self-improvement text","scene_windows":0,"windows":5,"scene":"Self-improvement and lifestyle advice writing"}

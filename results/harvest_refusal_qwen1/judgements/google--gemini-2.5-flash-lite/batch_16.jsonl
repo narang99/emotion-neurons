@@ -1,0 +1,56 @@
+{"neuron":596,"pole":"high","cluster":0,"mode":"Striving for transparency, fact-based decisions, and improving global systems.","scene_windows":0,"windows":5,"scene":"positive self-improvement and global issues"}
+{"neuron":596,"pole":"high","cluster":1,"mode":"Dialogue snippets, often starting with quotation marks.","scene_windows":0,"windows":5,"scene":"conversational dialogue snippets"}
+{"neuron":596,"pole":"high","cluster":2,"mode":"Assistant responding to human queries with helpful information.","scene_windows":0,"windows":5,"scene":"helpful assistant responses"}
+{"neuron":596,"pole":"high","cluster":3,"mode":"Assistant responding to human queries with helpful information.","scene_windows":0,"windows":5,"scene":"helpful assistant responses"}
+{"neuron":596,"pole":"low","cluster":0,"mode":"Descriptive narrative, often with internal thoughts.","scene_windows":0,"windows":5,"scene":"narrative description with internal thoughts"}
+{"neuron":596,"pole":"low","cluster":1,"mode":"Recipe instructions and ingredient lists.","scene_windows":0,"windows":5,"scene":"cooking instructions and ingredients"}
+{"neuron":596,"pole":"low","cluster":2,"mode":"Human asking for more information about a topic.","scene_windows":0,"windows":5,"scene":"requesting more information"}
+{"neuron":596,"pole":"low","cluster":3,"mode":"Human asking for suggestions or lists.","scene_windows":0,"windows":5,"scene":"requesting suggestions or lists"}
+{"neuron":596,"pole":"low","cluster":4,"mode":"Human asking for suggestions or lists.","scene_windows":0,"windows":5,"scene":"requesting suggestions or lists"}
+{"neuron":596,"pole":"low","cluster":5,"mode":"Human asking for information or assistance.","scene_windows":0,"windows":5,"scene":"requesting information or assistance"}
+{"neuron":596,"pole":"low","cluster":6,"mode":"Human asking for more information or examples.","scene_windows":0,"windows":5,"scene":"requesting more information"}
+{"neuron":3581,"pole":"high","cluster":0,"mode":"Human expressing thanks or understanding to the assistant.","scene_windows":0,"windows":5,"scene":"polite conversational exchange"}
+{"neuron":3581,"pole":"high","cluster":1,"mode":"Assistant confirming or agreeing with the human's statement.","scene_windows":0,"windows":5,"scene":"affirmative assistant responses"}
+{"neuron":3581,"pole":"high","cluster":2,"mode":"Assistant providing information or examples upon request.","scene_windows":0,"windows":5,"scene":"helpful assistant information"}
+{"neuron":3581,"pole":"high","cluster":3,"mode":"Describing various items or situations with 'some'.","scene_windows":0,"windows":5,"scene":"descriptive narration with 'some'"}
+{"neuron":3581,"pole":"high","cluster":4,"mode":"Assistant providing information or examples upon request.","scene_windows":0,"windows":5,"scene":"helpful assistant information"}
+{"neuron":3581,"pole":"high","cluster":5,"mode":"Assistant responding to human queries with information.","scene_windows":0,"windows":5,"scene":"helpful assistant responses"}
+{"neuron":3581,"pole":"low","cluster":0,"mode":"Instructions for using household products.","scene_windows":0,"windows":5,"scene":"household product instructions"}
+{"neuron":3581,"pole":"low","cluster":1,"mode":"Assistant providing lists or suggestions.","scene_windows":0,"windows":5,"scene":"assistant providing lists"}
+{"neuron":3799,"pole":"high","cluster":0,"mode":"Narrative descriptions of situations and internal thoughts.","scene_windows":0,"windows":5,"scene":"narrative description with internal thoughts"}
+{"neuron":3799,"pole":"high","cluster":1,"mode":"Discussing AI, technology, and their implications.","scene_windows":0,"windows":5,"scene":"discussion of AI and technology"}
+{"neuron":3799,"pole":"high","cluster":2,"mode":"Providing factual information or examples.","scene_windows":0,"windows":5,"scene":"factual information and examples"}
+{"neuron":3799,"pole":"high","cluster":3,"mode":"Describing situations or characters with specific words.","scene_windows":0,"windows":5,"scene":"descriptive narration with specific words"}
+{"neuron":3799,"pole":"low","cluster":0,"mode":"Describing situations or actions with 'to'.","scene_windows":0,"windows":5,"scene":"descriptive narration with 'to'"}
+{"neuron":3799,"pole":"low","cluster":1,"mode":"Dialogue snippets, often starting with quotation marks.","scene_windows":0,"windows":5,"scene":"conversational dialogue snippets"}
+{"neuron":3799,"pole":"low","cluster":2,"mode":"words like 'scrutiny', 'theology', 'unsavory', 'eerily' describing negative or unsettling situations.","scene_windows":0,"windows":5,"scene":"negative or unsettling situations"}
+{"neuron":3799,"pole":"low","cluster":3,"mode":"words like 'unnerved', 'scrutiny', 'vagaries', 'unsavory', 'eerily' describing negative or unsettling situations.","scene_windows":0,"windows":5,"scene":"negative or unsettling situations"}
+{"neuron":2420,"pole":"high","cluster":0,"mode":"Expressing disbelief or questioning reality.","scene_windows":0,"windows":5,"scene":"questioning reality and disbelief"}
+{"neuron":2420,"pole":"high","cluster":1,"mode":"Human asking for more information about a topic.","scene_windows":0,"windows":5,"scene":"requesting more information"}
+{"neuron":2420,"pole":"high","cluster":2,"mode":"Describing processes, experiences, or services.","scene_windows":0,"windows":5,"scene":"describing processes and experiences"}
+{"neuron":2420,"pole":"high","cluster":3,"mode":"Narrative descriptions, often with internal thoughts.","scene_windows":0,"windows":5,"scene":"narrative description with internal thoughts"}
+{"neuron":2420,"pole":"high","cluster":4,"mode":"Human asking for specific information or lists.","scene_windows":0,"windows":5,"scene":"requesting specific information"}
+{"neuron":2420,"pole":"low","cluster":0,"mode":"Describing actions or purposes with 'to'.","scene_windows":0,"windows":5,"scene":"descriptive narration with 'to'"}
+{"neuron":2420,"pole":"low","cluster":1,"mode":"Human asking for suggestions or lists.","scene_windows":0,"windows":5,"scene":"requesting suggestions or lists"}
+{"neuron":6535,"pole":"high","cluster":0,"mode":"Describing situations or items with 'a'.","scene_windows":0,"windows":5,"scene":"descriptive narration with 'a'"}
+{"neuron":6535,"pole":"high","cluster":1,"mode":"Assistant providing lists or suggestions.","scene_windows":0,"windows":5,"scene":"assistant providing lists"}
+{"neuron":6535,"pole":"low","cluster":0,"mode":"Describing situations or events with 'this'.","scene_windows":0,"windows":5,"scene":"descriptive narration with 'this'"}
+{"neuron":6535,"pole":"low","cluster":1,"mode":"Describing items or situations with specific words.","scene_windows":0,"windows":5,"scene":"descriptive narration with specific words"}
+{"neuron":6535,"pole":"low","cluster":2,"mode":"Describing items or ingredients with specific words.","scene_windows":0,"windows":5,"scene":"descriptive narration with specific words"}
+{"neuron":6535,"pole":"low","cluster":3,"mode":"Describing relationships or possessions with possessive pronouns.","scene_windows":0,"windows":5,"scene":"descriptive narration with possessives"}
+{"neuron":2187,"pole":"high","cluster":0,"mode":"Discussing energy, technology, and their implementation.","scene_windows":0,"windows":5,"scene":"discussion of energy and technology"}
+{"neuron":2187,"pole":"high","cluster":1,"mode":"Describing objects or concepts with specific words.","scene_windows":0,"windows":5,"scene":"descriptive narration with specific words"}
+{"neuron":2187,"pole":"low","cluster":0,"mode":"Describing relationships, states, or items with articles.","scene_windows":0,"windows":5,"scene":"descriptive narration with articles"}
+{"neuron":2187,"pole":"low","cluster":1,"mode":"Human asking for advice or information.","scene_windows":0,"windows":5,"scene":"requesting advice or information"}
+{"neuron":6097,"pole":"high","cluster":0,"mode":"Providing information on maintenance, technology, and adaptation.","scene_windows":0,"windows":5,"scene":"information on maintenance and technology"}
+{"neuron":6097,"pole":"high","cluster":1,"mode":"Human asking for more details or examples.","scene_windows":0,"windows":5,"scene":"requesting more details"}
+{"neuron":6097,"pole":"low","cluster":0,"mode":"Human asking for recommendations or information.","scene_windows":0,"windows":5,"scene":"requesting recommendations"}
+{"neuron":6097,"pole":"low","cluster":1,"mode":"Describing concepts or situations with specific words.","scene_windows":0,"windows":5,"scene":"descriptive narration with specific words"}
+{"neuron":6097,"pole":"low","cluster":2,"mode":"Human asking for advice or information.","scene_windows":0,"windows":5,"scene":"requesting advice or information"}
+{"neuron":5709,"pole":"high","cluster":0,"mode":"Assistant providing information or examples upon request.","scene_windows":0,"windows":5,"scene":"helpful assistant information"}
+{"neuron":5709,"pole":"high","cluster":1,"mode":"Narrative descriptions, often with internal thoughts.","scene_windows":0,"windows":5,"scene":"narrative description with internal thoughts"}
+{"neuron":5709,"pole":"high","cluster":2,"mode":"Dialogue snippets, often ending with punctuation.","scene_windows":0,"windows":5,"scene":"conversational dialogue snippets"}
+{"neuron":5709,"pole":"high","cluster":3,"mode":"Describing actions or states with pronouns.","scene_windows":0,"windows":5,"scene":"descriptive narration with pronouns"}
+{"neuron":5709,"pole":"high","cluster":4,"mode":"Assistant providing information or examples upon request.","scene_windows":0,"windows":5,"scene":"helpful assistant information"}
+{"neuron":5709,"pole":"low","cluster":0,"mode":"Describing situations or actions with 'that'.","scene_windows":0,"windows":5,"scene":"descriptive narration with 'that'"}
+{"neuron":5709,"pole":"low","cluster":1,"mode":"Human asking for advice or information.","scene_windows":0,"windows":5,"scene":"requesting advice or information"}

@@ -1,0 +1,72 @@
+{"neuron":713,"pole":"high","cluster":0,"mode":"Assistant expresses sympathy or apology for a user's situation.","scene_windows":0,"windows":5,"scene":"Expressing sympathy"}
+{"neuron":713,"pole":"high","cluster":1,"mode":"Describing something as having a low profile or being low-carbon.","scene_windows":0,"windows":5,"scene":"Describing low profile/carbon"}
+{"neuron":713,"pole":"high","cluster":2,"mode":"Assistant responds to a user's question with 'Hmm'.","scene_windows":0,"windows":5,"scene":"Hesitant agreement"}
+{"neuron":713,"pole":"high","cluster":3,"mode":"Describing something as having a specific, limited quantity or scope.","scene_windows":0,"windows":5,"scene":"Describing limited scope"}
+{"neuron":713,"pole":"high","cluster":4,"mode":"Introducing a contrasting or unexpected point with 'However'.","scene_windows":0,"windows":5,"scene":"Introducing contrast"}
+{"neuron":713,"pole":"high","cluster":5,"mode":"Describing something as being small in size or scale.","scene_windows":0,"windows":5,"scene":"Describing small size"}
+{"neuron":713,"pole":"high","cluster":6,"mode":"Describing a place or situation as strange or unfamiliar.","scene_windows":0,"windows":5,"scene":"Describing strangeness"}
+{"neuron":713,"pole":"high","cluster":7,"mode":"Words indicating improvement, success, or preservation.","scene_windows":0,"windows":5,"scene":"Positive action/outcome"}
+{"neuron":713,"pole":"high","cluster":8,"mode":"Introducing a conditional statement or possibility with 'If'.","scene_windows":0,"windows":5,"scene":"Conditional statement"}
+{"neuron":713,"pole":"low","cluster":0,"mode":"Words indicating capability or possibility.","scene_windows":0,"windows":5,"scene":"Indicating capability"}
+{"neuron":713,"pole":"low","cluster":1,"mode":"Expressing hope or a wish for a positive outcome.","scene_windows":0,"windows":5,"scene":"Expressing hope"}
+{"neuron":4458,"pole":"high","cluster":0,"mode":"Tears rolling down someone's face, indicating sadness or emotion.","scene_windows":0,"windows":5,"scene":"Expressing sadness"}
+{"neuron":4458,"pole":"high","cluster":1,"mode":"Liquid or tears falling onto a surface.","scene_windows":0,"windows":5,"scene":"Liquid falling"}
+{"neuron":4458,"pole":"high","cluster":2,"mode":"Prepositions indicating direction or inclusion.","scene_windows":0,"windows":5,"scene":"Direction/inclusion"}
+{"neuron":4458,"pole":"low","cluster":0,"mode":"Pronouns referring to a person or entity.","scene_windows":0,"windows":5,"scene":"Referring to a person"}
+{"neuron":4458,"pole":"low","cluster":1,"mode":"Prepositions indicating reliance or dependence.","scene_windows":0,"windows":5,"scene":"Reliance/dependence"}
+{"neuron":317,"pole":"high","cluster":0,"mode":"Articles and conjunctions indicating definiteness or connection.","scene_windows":0,"windows":5,"scene":"Definite articles/conjunctions"}
+{"neuron":317,"pole":"high","cluster":1,"mode":"User asking a question to the assistant.","scene_windows":0,"windows":5,"scene":"User asking question"}
+{"neuron":317,"pole":"low","cluster":0,"mode":"Punctuation and conjunctions indicating clauses or endings.","scene_windows":0,"windows":5,"scene":"Punctuation/conjunctions"}
+{"neuron":317,"pole":"low","cluster":1,"mode":"Assistant responding to a user's query.","scene_windows":0,"windows":5,"scene":"Assistant responding"}
+{"neuron":5904,"pole":"high","cluster":0,"mode":"Assistant offering to provide more details or information.","scene_windows":0,"windows":5,"scene":"Offering more details"}
+{"neuron":5904,"pole":"high","cluster":1,"mode":"Emphasizing the importance or necessity of something.","scene_windows":0,"windows":5,"scene":"Emphasizing importance"}
+{"neuron":5904,"pole":"high","cluster":2,"mode":"Listing items, often separated by dashes.","scene_windows":0,"windows":5,"scene":"Listing items"}
+{"neuron":5904,"pole":"high","cluster":3,"mode":"Listing numbered items, often song titles.","scene_windows":0,"windows":5,"scene":"Numbered list"}
+{"neuron":5904,"pole":"high","cluster":4,"mode":"User asking for more information or clarification.","scene_windows":0,"windows":5,"scene":"Requesting more information"}
+{"neuron":5904,"pole":"high","cluster":5,"mode":"Punctuation and conjunctions indicating clauses or endings.","scene_windows":0,"windows":5,"scene":"Punctuation/conjunctions"}
+{"neuron":5904,"pole":"high","cluster":6,"mode":"Assistant offering to provide information or steps.","scene_windows":0,"windows":5,"scene":"Offering information/steps"}
+{"neuron":5904,"pole":"high","cluster":7,"mode":"Listing items, often separated by periods and spaces.","scene_windows":0,"windows":5,"scene":"Listing items"}
+{"neuron":5904,"pole":"high","cluster":8,"mode":"Listing numbered items, often steps or tips.","scene_windows":0,"windows":5,"scene":"Numbered list"}
+{"neuron":5904,"pole":"high","cluster":9,"mode":"Conjunctions indicating addition or consequence.","scene_windows":0,"windows":5,"scene":"Addition/consequence"}
+{"neuron":5904,"pole":"high","cluster":10,"mode":"User asking for more information or clarification.","scene_windows":0,"windows":5,"scene":"Requesting more information"}
+{"neuron":5904,"pole":"high","cluster":11,"mode":"Punctuation and conjunctions indicating clauses or endings.","scene_windows":0,"windows":5,"scene":"Punctuation/conjunctions"}
+{"neuron":5904,"pole":"high","cluster":12,"mode":"Nouns referring to specific entities or concepts.","scene_windows":0,"windows":5,"scene":"Specific nouns"}
+{"neuron":5904,"pole":"high","cluster":13,"mode":"Conjunctions and adverbs indicating sequence or contrast.","scene_windows":0,"windows":5,"scene":"Sequence/contrast"}
+{"neuron":5904,"pole":"low","cluster":0,"mode":"Punctuation and conjunctions indicating clauses or endings.","scene_windows":0,"windows":5,"scene":"Punctuation/conjunctions"}
+{"neuron":5904,"pole":"low","cluster":1,"mode":"Words indicating a person's name or title.","scene_windows":0,"windows":5,"scene":"Person's name/title"}
+{"neuron":8349,"pole":"high","cluster":0,"mode":"positive affirmations and expressions of enjoyment or interest","scene_windows":0,"windows":5,"scene":"neutral conversation and advice"}
+{"neuron":8349,"pole":"high","cluster":1,"mode":"asking for explanations and details about a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":8349,"pole":"high","cluster":2,"mode":"requesting text formatting, specifically all caps","scene_windows":0,"windows":5,"scene":"neutral formatting request"}
+{"neuron":8349,"pole":"high","cluster":3,"mode":"offering alternatives or choices using 'or'","scene_windows":0,"windows":5,"scene":"neutral discussion and advice"}
+{"neuron":8349,"pole":"high","cluster":4,"mode":"seeking further information or details on a topic","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":8349,"pole":"low","cluster":0,"mode":"listing items or steps using 'include' or 'this'","scene_windows":0,"windows":5,"scene":"neutral advice and explanation"}
+{"neuron":8349,"pole":"low","cluster":1,"mode":"dialogue markers indicating speech or thought","scene_windows":0,"windows":5,"scene":"neutral dialogue and narration"}
+{"neuron":10243,"pole":"high","cluster":0,"mode":"actions of causing something to happen or be done","scene_windows":0,"windows":5,"scene":"negative social interactions"}
+{"neuron":10243,"pole":"high","cluster":1,"mode":"referring to something with a nickname or specific name","scene_windows":0,"windows":5,"scene":"neutral description and naming"}
+{"neuron":10243,"pole":"high","cluster":2,"mode":"describing methods, possibilities, or ways of doing things","scene_windows":0,"windows":5,"scene":"neutral explanation and advice"}
+{"neuron":10243,"pole":"high","cluster":3,"mode":"requesting text transformation, specifically capitalization","scene_windows":0,"windows":5,"scene":"neutral formatting request"}
+{"neuron":10243,"pole":"low","cluster":0,"mode":"referring to a specific place or entity using 'it' or 'the'","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":10243,"pole":"low","cluster":1,"mode":"dialogue markers indicating speech or thought","scene_windows":0,"windows":5,"scene":"neutral dialogue and narration"}
+{"neuron":10243,"pole":"low","cluster":2,"mode":"dialogue markers indicating speech or thought","scene_windows":0,"windows":5,"scene":"neutral dialogue and narration"}
+{"neuron":10243,"pole":"low","cluster":3,"mode":"conditional statements using 'if'","scene_windows":0,"windows":5,"scene":"neutral dialogue and narration"}
+{"neuron":10243,"pole":"low","cluster":4,"mode":"describing a state or condition using 'is' or 'it's'","scene_windows":0,"windows":5,"scene":"neutral dialogue and narration"}
+{"neuron":10243,"pole":"low","cluster":5,"mode":"prepositional phrases indicating association or relation","scene_windows":0,"windows":5,"scene":"neutral narration and description"}
+{"neuron":2750,"pole":"high","cluster":0,"mode":"Polite interjections or requests for attention.","scene_windows":0,"windows":5,"scene":"Polite interjections"}
+{"neuron":2750,"pole":"high","cluster":1,"mode":"Formal salutations for letters or emails.","scene_windows":0,"windows":5,"scene":"Formal salutations"}
+{"neuron":2750,"pole":"high","cluster":2,"mode":"Negations or refusals.","scene_windows":0,"windows":5,"scene":"Negation/refusal"}
+{"neuron":2750,"pole":"high","cluster":3,"mode":"Addressing someone directly, often with endearments.","scene_windows":0,"windows":5,"scene":"Direct address"}
+{"neuron":2750,"pole":"high","cluster":4,"mode":"User asking for more information or clarification.","scene_windows":0,"windows":5,"scene":"Requesting more information"}
+{"neuron":2750,"pole":"high","cluster":5,"mode":"Indicating the end of a spoken phrase or dialogue.","scene_windows":0,"windows":5,"scene":"End of dialogue"}
+{"neuron":2750,"pole":"high","cluster":6,"mode":"Quotation marks indicating direct speech.","scene_windows":0,"windows":5,"scene":"Direct speech"}
+{"neuron":2750,"pole":"high","cluster":7,"mode":"User asking for more information or clarification.","scene_windows":0,"windows":5,"scene":"Requesting more information"}
+{"neuron":2750,"pole":"high","cluster":8,"mode":"User asking for information or assistance.","scene_windows":0,"windows":5,"scene":"Requesting assistance"}
+{"neuron":2750,"pole":"high","cluster":9,"mode":"Words indicating quantity, direction, or state.","scene_windows":0,"windows":5,"scene":"Quantity/direction/state"}
+{"neuron":2750,"pole":"high","cluster":10,"mode":"Punctuation and conjunctions indicating clauses or endings.","scene_windows":0,"windows":5,"scene":"Punctuation/conjunctions"}
+{"neuron":2750,"pole":"low","cluster":0,"mode":"Pronouns and conjunctions indicating definiteness or connection.","scene_windows":0,"windows":5,"scene":"Pronouns/conjunctions"}
+{"neuron":2750,"pole":"low","cluster":1,"mode":"Expressing an opinion or belief.","scene_windows":0,"windows":5,"scene":"Expressing opinion"}
+{"neuron":2750,"pole":"low","cluster":2,"mode":"Direct speech, often informal or conversational.","scene_windows":0,"windows":5,"scene":"Informal direct speech"}
+{"neuron":2750,"pole":"low","cluster":3,"mode":"Conditional statements or possibilities.","scene_windows":0,"windows":5,"scene":"Conditional statements"}
+{"neuron":2750,"pole":"low","cluster":4,"mode":"Expressing uncertainty or a lack of knowledge.","scene_windows":0,"windows":5,"scene":"Expressing uncertainty"}
+{"neuron":2750,"pole":"low","cluster":5,"mode":"Prepositions indicating association or comparison.","scene_windows":0,"windows":5,"scene":"Association/comparison"}
+{"neuron":2750,"pole":"low","cluster":6,"mode":"Conjunctions and prepositions indicating addition or connection.","scene_windows":0,"windows":5,"scene":"Addition/connection"}
+{"neuron":2750,"pole":"low","cluster":7,"mode":"Quotation marks indicating direct speech or titles.","scene_windows":0,"windows":5,"scene":"Direct speech/titles"}

@@ -1,0 +1,78 @@
+{"neuron":7988,"pole":"high","cluster":0,"mode":"the article before a noun in informational expository text","scene_windows":0,"windows":5,"scene":"neutral encyclopedic or explanatory passages on varied topics"}
+{"neuron":7988,"pole":"high","cluster":1,"mode":"\"of\" after type/kind/form nouns introducing a category","scene_windows":0,"windows":5,"scene":"neutral explanations of categories, types, and kinds"}
+{"neuron":7988,"pole":"low","cluster":0,"mode":"\"of\"/field nouns in academic or historical description","scene_windows":0,"windows":5,"scene":"neutral academic and historical descriptions of fields and domains"}
+{"neuron":7988,"pole":"low","cluster":1,"mode":"\"mental\" in mental health discussions","scene_windows":0,"windows":5,"scene":"workplace and national mental health discussions"}
+{"neuron":1001,"pole":"high","cluster":0,"mode":"comma after a noun phrase introducing an example or title","scene_windows":0,"windows":5,"scene":"neutral recipe, history, and book descriptions"}
+{"neuron":1001,"pole":"high","cluster":1,"mode":"\"example\" in \"For example\" transitions","scene_windows":0,"windows":5,"scene":"neutral advice and explanatory writing"}
+{"neuron":1001,"pole":"low","cluster":0,"mode":"\"ability\" or similar abstract noun as sentence subject","scene_windows":0,"windows":5,"scene":"essays about education, communication, and history"}
+{"neuron":1001,"pole":"low","cluster":1,"mode":"\"Your\" opening sentences in feedback requests","scene_windows":0,"windows":5,"scene":"business letters and feedback survey templates"}
+{"neuron":1001,"pole":"low","cluster":2,"mode":"\"The\" starting a sentence about impact or legacy","scene_windows":0,"windows":5,"scene":"expository text on culture, economics, and history"}
+{"neuron":1001,"pole":"low","cluster":3,"mode":"infinitive \"to\" or \"be\" starting a clause after a quote","scene_windows":0,"windows":5,"scene":"news quotes and researcher statements about ethics and collaboration"}
+{"neuron":10299,"pole":"high","cluster":0,"mode":"determiners and prepositions in general factual sentences","scene_windows":0,"windows":5,"scene":"neutral factual passages on chemistry, pools, cooking, and research"}
+{"neuron":10299,"pole":"high","cluster":1,"mode":"\"n't\" contraction split in first-person distress narratives","scene_windows":0,"windows":5,"scene":"emotional first-person narrative and dialogue about fear"}
+{"neuron":10299,"pole":"low","cluster":0,"mode":"\"to\"/\"of\"/\"for\" after commitment or essential adjectives","scene_windows":0,"windows":5,"scene":"informational texts on disaster response, health, and policy"}
+{"neuron":10299,"pole":"low","cluster":1,"mode":"truncated \"personalized\" word in recipe-site URL spam","scene_windows":0,"windows":5,"scene":"recipe responses ending with a boilerplate link"}
+{"neuron":135,"pole":"high","cluster":0,"mode":"apostrophe after a function name in code comments","scene_windows":0,"windows":5,"scene":"F# and code explanations with commented functions"}
+{"neuron":135,"pole":"high","cluster":1,"mode":"modal or article after \"the program/class should\"","scene_windows":0,"windows":5,"scene":"programming task specifications for a bank account class"}
+{"neuron":135,"pole":"high","cluster":2,"mode":"\"I\" or \"She/He\" starting a sentence after quoted dialogue","scene_windows":0,"windows":5,"scene":"science fiction narration about time travel"}
+{"neuron":135,"pole":"high","cluster":3,"mode":"closing quote mark after dialogue ending in punctuation","scene_windows":0,"windows":5,"scene":"fictional dialogue in dark or whimsical stories"}
+{"neuron":135,"pole":"low","cluster":0,"mode":"\"Assistant\" role label in dialogue transcripts","scene_windows":0,"windows":5,"scene":"riddle and Q&A transcripts between human and assistant"}
+{"neuron":135,"pole":"low","cluster":1,"mode":"period ending a long writing instruction","scene_windows":0,"windows":5,"scene":"prompts asking for articles, stories, and applications"}
+{"neuron":135,"pole":"low","cluster":2,"mode":"opening quotation mark starting dialogue","scene_windows":0,"windows":5,"scene":"fiction dialogue scenes"}
+{"neuron":135,"pole":"low","cluster":3,"mode":"\"Is\" starting a follow-up question in a human turn","scene_windows":0,"windows":5,"scene":"chat follow-up questions about people and topics"}
+{"neuron":135,"pole":"low","cluster":4,"mode":"\"you\" after \"Can\" in user requests for additions","scene_windows":0,"windows":5,"scene":"user asking assistant to extend a story or list"}
+{"neuron":135,"pole":"low","cluster":5,"mode":"\"you\" after \"Can\" in short human questions","scene_windows":0,"windows":5,"scene":"simple human requests for lists, tips, and summaries"}
+{"neuron":135,"pole":"low","cluster":6,"mode":"\"you\" after \"Can\" in user requests for details","scene_windows":0,"windows":5,"scene":"user follow-up requests for examples and recommendations"}
+{"neuron":135,"pole":"low","cluster":7,"mode":"indentation whitespace inside fiction dialogue","scene_windows":0,"windows":5,"scene":"narrative fiction with dialogue and action"}
+{"neuron":135,"pole":"low","cluster":8,"mode":"period after user acknowledgement like \"interesting\"","scene_windows":0,"windows":5,"scene":"multi-turn chats where user comments and asks follow-ups"}
+{"neuron":135,"pole":"low","cluster":9,"mode":"period followed by double space before next turn","scene_windows":0,"windows":5,"scene":"chat responses and explanatory paragraphs ending turns"}
+{"neuron":135,"pole":"low","cluster":10,"mode":"period ending narrative sentences in fiction","scene_windows":0,"windows":5,"scene":"science fiction and mystery narration"}
+{"neuron":135,"pole":"low","cluster":11,"mode":"question mark ending quoted dialogue lines","scene_windows":0,"windows":5,"scene":"dialogue in fiction and conversation"}
+{"neuron":135,"pole":"low","cluster":12,"mode":"technical noun ending a clause in research prose","scene_windows":0,"windows":5,"scene":"technical and academic discussion of models and constraints"}
+{"neuron":135,"pole":"low","cluster":13,"mode":"color word in a list within a descriptive story","scene_windows":0,"windows":5,"scene":"science fiction description of a vessel's lights"}
+{"neuron":995,"pole":"high","cluster":0,"mode":"verb of bodily or emotional change in fiction","scene_windows":0,"windows":5,"scene":"dramatic fiction about reactions and horror"}
+{"neuron":995,"pole":"high","cluster":1,"mode":"\"a\" after \"this is\" or \"that's\" before an opinion","scene_windows":0,"windows":5,"scene":"assistant replies to casual questions"}
+{"neuron":995,"pole":"high","cluster":2,"mode":"colon or role label starting an assistant reply","scene_windows":0,"windows":5,"scene":"chat turns discussing food, fitness, and health"}
+{"neuron":995,"pole":"high","cluster":3,"mode":"\"that/is\" confirming a user's statement","scene_windows":0,"windows":5,"scene":"assistant confirming facts in dialogue"}
+{"neuron":995,"pole":"high","cluster":4,"mode":"intensifier or preposition in general descriptive prose","scene_windows":0,"windows":5,"scene":"general informational and story text"}
+{"neuron":995,"pole":"high","cluster":5,"mode":"question mark ending a user question with double space","scene_windows":0,"windows":5,"scene":"user questions in chat transcripts"}
+{"neuron":995,"pole":"high","cluster":6,"mode":"period before double space ending an assistant turn","scene_windows":0,"windows":5,"scene":"advice responses on fitness, tires, and career"}
+{"neuron":995,"pole":"high","cluster":7,"mode":"trailing double space at end of a truncated line","scene_windows":0,"windows":5,"scene":"chat turns ending before a human message"}
+{"neuron":995,"pole":"high","cluster":8,"mode":"period after ISBN numbers in bibliographies","scene_windows":0,"windows":5,"scene":"reference lists of books"}
+{"neuron":995,"pole":"high","cluster":9,"mode":"period after DOI in journal citations","scene_windows":0,"windows":5,"scene":"academic reference lists of nutrition papers"}
+{"neuron":995,"pole":"high","cluster":10,"mode":"period ending news or report sentences","scene_windows":0,"windows":5,"scene":"news and report text on health and industry"}
+{"neuron":995,"pole":"high","cluster":11,"mode":"period after DOI in citation lists","scene_windows":0,"windows":5,"scene":"academic reference lists in nutrition journals"}
+{"neuron":995,"pole":"high","cluster":12,"mode":"period after ISBN or publication date in citations","scene_windows":0,"windows":5,"scene":"bibliographies of history and religion books"}
+{"neuron":995,"pole":"low","cluster":0,"mode":"\"I\" starting a human turn after an assistant reply","scene_windows":0,"windows":5,"scene":"chat turns discussing faith, wellbeing, and feelings"}
+{"neuron":995,"pole":"low","cluster":1,"mode":"closing punctuation of a farewell or well-wishing line","scene_windows":0,"windows":5,"scene":"assistant sign-offs wishing good luck"}
+{"neuron":995,"pole":"low","cluster":2,"mode":"quote mark after a short reply in dialogue","scene_windows":0,"windows":5,"scene":"fictional dialogue with brief questions and answers"}
+{"neuron":995,"pole":"low","cluster":3,"mode":"\"Sure\" or sentence-ending punctuation starting an answer","scene_windows":0,"windows":5,"scene":"assistant answers to factual questions"}
+{"neuron":995,"pole":"low","cluster":4,"mode":"article \"a\" or \"the\" in policy and resource text","scene_windows":0,"windows":5,"scene":"public health and education policy descriptions"}
+{"neuron":995,"pole":"low","cluster":5,"mode":"\"the\" or \"on\" before UI icon or menu instructions","scene_windows":0,"windows":5,"scene":"step-by-step ChromeOS and phone settings instructions"}
+{"neuron":7106,"pole":"high","cluster":0,"mode":"opening quote mark starting dialogue after narration","scene_windows":0,"windows":5,"scene":"fiction dialogue scenes with emergency or tense exchanges"}
+{"neuron":7106,"pole":"high","cluster":1,"mode":"colon after a \"Human\" label","scene_windows":0,"windows":5,"scene":"chat transcripts with human follow-up questions"}
+{"neuron":7106,"pole":"high","cluster":2,"mode":"\"I\" starting a human turn in chat","scene_windows":0,"windows":5,"scene":"chat turns about cars, cooking, and sleep"}
+{"neuron":7106,"pole":"high","cluster":3,"mode":"article or preposition before a topic noun in requests","scene_windows":0,"windows":5,"scene":"travel planning, art sales, and cannabis research questions"}
+{"neuron":7106,"pole":"high","cluster":4,"mode":"\"I\" starting emotional quoted speech","scene_windows":0,"windows":5,"scene":"romantic and emotional fiction dialogue"}
+{"neuron":7106,"pole":"low","cluster":0,"mode":"\"what\" or \"about\" in quoted denial dialogue","scene_windows":0,"windows":5,"scene":"tense fictional dialogue about hidden knowledge"}
+{"neuron":7106,"pole":"low","cluster":1,"mode":"\"your\" in well-wishing closing phrases","scene_windows":0,"windows":5,"scene":"assistant sign-offs about wart, diet, and projects"}
+{"neuron":7106,"pole":"low","cluster":2,"mode":"ellipsis within interrupted quoted speech","scene_windows":0,"windows":5,"scene":"fiction dialogue with hesitant speech"}
+{"neuron":7106,"pole":"low","cluster":3,"mode":"\"just\" in nervous or reassuring dialogue","scene_windows":0,"windows":5,"scene":"scripted and fiction dialogue with anxious characters"}
+{"neuron":7106,"pole":"low","cluster":4,"mode":"comma after a dialogue clause in fiction","scene_windows":0,"windows":5,"scene":"dramatic fiction dialogue about cures and secrets"}
+{"neuron":7106,"pole":"low","cluster":5,"mode":"question or exclamation mark ending a quoted line","scene_windows":0,"windows":5,"scene":"fiction dialogue with urgent or puzzled speech"}
+{"neuron":7106,"pole":"low","cluster":6,"mode":"function word \"to\" or \"in\" in general prose","scene_windows":0,"windows":5,"scene":"history, health, and advice texts"}
+{"neuron":7106,"pole":"low","cluster":7,"mode":"colon or role label before an assistant reply","scene_windows":0,"windows":5,"scene":"chat exchanges about policy, yogurt, and royalty"}
+{"neuron":3765,"pole":"high","cluster":0,"mode":"intensifying adjective or preposition before a consequence","scene_windows":1,"windows":5,"scene":"narrative prose and one jumper-cable safety warning"}
+{"neuron":3765,"pole":"high","cluster":1,"mode":"\"sweat\" or sweating in physical strain descriptions","scene_windows":0,"windows":5,"scene":"fiction about exertion, fear, and drug side effects"}
+{"neuron":3765,"pole":"low","cluster":0,"mode":"connective or preposition in dramatic narrative","scene_windows":0,"windows":5,"scene":"post-apocalyptic and survival narration"}
+{"neuron":3765,"pole":"low","cluster":1,"mode":"The token 'nuclear' in narration about nuclear war, attacks, and fallout","scene_windows":0,"windows":5,"scene":"Post-apocalyptic or nuclear threat narration, not a request for help"}
+{"neuron":257,"pole":"high","cluster":0,"mode":"Verbs 'give/gave' in phrases like 'give up' or 'give yourself time'","scene_windows":0,"windows":5,"scene":"Casual narration and everyday advice about effort or adjusting"}
+{"neuron":257,"pole":"high","cluster":1,"mode":"The word 'struggles/struggling' describing characters or plot conflicts","scene_windows":0,"windows":5,"scene":"Film, show, and story plot summaries about characters' difficulties"}
+{"neuron":257,"pole":"high","cluster":2,"mode":"'Long distance' in discussions of long-distance relationships","scene_windows":0,"windows":5,"scene":"Relationship advice and conversation about partners living apart"}
+{"neuron":257,"pole":"high","cluster":3,"mode":"Infinitive 'to' after 'trying' or 'struggling' expressing attempts","scene_windows":0,"windows":5,"scene":"Narration and plot summaries of characters attempting goals"}
+{"neuron":257,"pole":"high","cluster":4,"mode":"The verb 'try' or 'trying' introducing an attempt at something new","scene_windows":0,"windows":5,"scene":"Personal narration and story text about attempting new activities"}
+{"neuron":257,"pole":"high","cluster":5,"mode":"Mid-sentence function words ('I', 'the', 'and', 'a') before a descriptive clause","scene_windows":0,"windows":5,"scene":"Historical and narrative passages about immigrants, war, and pandemics"}
+{"neuron":257,"pole":"high","cluster":6,"mode":"The verb 'make' in 'struggling to make ends meet'","scene_windows":0,"windows":5,"scene":"Personal stories and plot summaries about financial hardship"}
+{"neuron":257,"pole":"low","cluster":0,"mode":"Digit and year fragments inside dates and numeric ranges","scene_windows":0,"windows":5,"scene":"Factual text on TV air dates, historical dates, and sports statistics"}
+{"neuron":257,"pole":"low","cluster":1,"mode":"Pronouns and determiners in character descriptions and narrative sentences","scene_windows":0,"windows":5,"scene":"Neutral fiction and biographical narration about a character"}
+{"neuron":257,"pole":"low","cluster":2,"mode":"Quantity and number tokens giving typical lifespans or durations","scene_windows":0,"windows":5,"scene":"Q&A about animal and plant lifespans and growth times"}

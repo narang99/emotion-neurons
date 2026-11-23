@@ -1,0 +1,74 @@
+{"neuron":4250,"pole":"high","cluster":0,"mode":"Assistant's 'You're welcome' reply closing a thank-you exchange","scene_windows":0,"windows":5,"scene":"Polite end-of-conversation thanks in helpful assistant chats"}
+{"neuron":4250,"pole":"high","cluster":1,"mode":"'Please let me know' closing invitation phrase in assistant replies","scene_windows":0,"windows":5,"scene":"Assistant offering further help after an answer"}
+{"neuron":4250,"pole":"high","cluster":2,"mode":"'Let me know' before any further questions closing phrase","scene_windows":0,"windows":5,"scene":"Assistant wrapping up informational answers"}
+{"neuron":4250,"pole":"high","cluster":3,"mode":"Sign-off word like 'Regards' or 'Sincerely' ending a message","scene_windows":0,"windows":5,"scene":"Letters, emails and assistant sign-offs"}
+{"neuron":4250,"pole":"high","cluster":4,"mode":"Hesitant filler 'Hmm' opening an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant responding to a casual question"}
+{"neuron":4250,"pole":"high","cluster":5,"mode":"'Have a great day' sign-off after closing questions","scene_windows":0,"windows":5,"scene":"Friendly assistant closing remarks"}
+{"neuron":4250,"pole":"high","cluster":6,"mode":"'Best' in closing wishes like 'Best wishes' or 'Best of luck'","scene_windows":0,"windows":5,"scene":"Assistant closing with well-wishes"}
+{"neuron":4250,"pole":"high","cluster":7,"mode":"'Best' opening a formal 'Best regards' signature","scene_windows":0,"windows":5,"scene":"Business letter templates with closing signatures"}
+{"neuron":4250,"pole":"high","cluster":8,"mode":"'Would' starting a follow-up offer question","scene_windows":0,"windows":5,"scene":"Assistant offering more examples or help"}
+{"neuron":4250,"pole":"high","cluster":9,"mode":"'Sorry' apologizing for an error or misunderstanding","scene_windows":0,"windows":5,"scene":"Assistant apologizing for wrong or confusing answers"}
+{"neuron":4250,"pole":"high","cluster":10,"mode":"'if' in 'let me know if' offers of further help","scene_windows":0,"windows":5,"scene":"Assistant closing offers of further assistance"}
+{"neuron":4250,"pole":"high","cluster":11,"mode":"'please' in polite invitations to follow up","scene_windows":0,"windows":5,"scene":"Assistant closing with invitation to ask more"}
+{"neuron":4250,"pole":"high","cluster":12,"mode":"Period ending a follow-up offer sentence","scene_windows":0,"windows":5,"scene":"Assistant offering more help at reply end"}
+{"neuron":4250,"pole":"high","cluster":13,"mode":"'though'/'although' contrast after a claim about facts","scene_windows":0,"windows":5,"scene":"Factual explanations with a qualifying contrast"}
+{"neuron":4250,"pole":"high","cluster":14,"mode":"Quotation marks opening or closing dialogue in fiction","scene_windows":0,"windows":5,"scene":"Fictional dialogue between characters"}
+{"neuron":4250,"pole":"high","cluster":15,"mode":"Function words mid-phrase like 'and', 'in', 'with', 'as'","scene_windows":0,"windows":5,"scene":"Descriptive narrative and advice sentences"}
+{"neuron":4250,"pole":"high","cluster":16,"mode":"Sentence-ending period after a historical or factual claim","scene_windows":0,"windows":5,"scene":"Encyclopedic history and factual prose"}
+{"neuron":4250,"pole":"low","cluster":0,"mode":"Contraction 'I'm' starting a distressed or apologetic statement","scene_windows":0,"windows":5,"scene":"Characters in fear or dying in fiction"}
+{"neuron":4250,"pole":"low","cluster":1,"mode":"'Sure' or 'Of course' opening an assistant's agreement","scene_windows":0,"windows":5,"scene":"Assistant agreeing to a user request"}
+{"neuron":4250,"pole":"low","cluster":2,"mode":"Punctuation or space ending a prayer line","scene_windows":0,"windows":5,"scene":"Religious prayers and blessings"}
+{"neuron":4250,"pole":"low","cluster":3,"mode":"'first' in 'my first' story or submission","scene_windows":0,"windows":5,"scene":"Writing prompt posts by new authors"}
+{"neuron":4250,"pole":"low","cluster":4,"mode":"'I' starting a closing hope sentence","scene_windows":0,"windows":5,"scene":"Assistant closing with 'I hope this helps'"}
+{"neuron":4250,"pole":"low","cluster":5,"mode":"Period or spacing ending a tip or recommendation","scene_windows":0,"windows":5,"scene":"Assistant lists of tips and suggestions"}
+{"neuron":4250,"pole":"low","cluster":6,"mode":"'I' starting a first-person confession or farewell","scene_windows":0,"windows":5,"scene":"Final letters and diary-style monologues"}
+{"neuron":4250,"pole":"low","cluster":7,"mode":"Period ending dialogue lines of resolve or dramatic statements","scene_windows":0,"windows":5,"scene":"Action fiction with characters' quips"}
+{"neuron":4250,"pole":"low","cluster":8,"mode":"'I' after a comma in fictional dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with emotional statements"}
+{"neuron":4250,"pole":"low","cluster":9,"mode":"Mid-sentence function words in neutral descriptive prose","scene_windows":0,"windows":5,"scene":"Neutral narration and career or product descriptions"}
+{"neuron":4250,"pole":"low","cluster":10,"mode":"'are' or 'a' after 'Here' introducing a list","scene_windows":0,"windows":5,"scene":"Assistant introducing suggestions"}
+{"neuron":7853,"pole":"high","cluster":0,"mode":"Mid-sentence verbs and pronouns about a character's knowledge or ability","scene_windows":0,"windows":5,"scene":"Fantasy and adventure narration about characters"}
+{"neuron":7853,"pole":"high","cluster":1,"mode":"'you' after 'I know that', expressing comfort about a deceased loved one","scene_windows":0,"windows":5,"scene":"Grief letters to a late loved one"}
+{"neuron":7853,"pole":"low","cluster":0,"mode":"'That' starting a reply to the user's prior message","scene_windows":0,"windows":5,"scene":"Human-assistant editing requests"}
+{"neuron":7853,"pole":"low","cluster":1,"mode":"'s' in 'That's' in dialogue reactions","scene_windows":0,"windows":5,"scene":"Fiction dialogue reacting to characters"}
+{"neuron":7853,"pole":"low","cluster":2,"mode":"'contact' in offers to get in touch","scene_windows":0,"windows":5,"scene":"Assistant closing offers of contact"}
+{"neuron":7853,"pole":"low","cluster":3,"mode":"Mid-sentence words in casual descriptive or comedic text","scene_windows":0,"windows":5,"scene":"Mixed fiction and informal essays"}
+{"neuron":7853,"pole":"low","cluster":4,"mode":"'that' starting a contrastive or summarizing clause","scene_windows":0,"windows":5,"scene":"First-person narration and reflection"}
+{"neuron":2924,"pole":"high","cluster":0,"mode":"Blank space or period ending an instructional sentence","scene_windows":0,"windows":5,"scene":"How-to advice and cooking instructions"}
+{"neuron":2924,"pole":"high","cluster":1,"mode":"Colon after 'Human' in a dialogue transcript","scene_windows":0,"windows":5,"scene":"Human-assistant transcript turn labels"}
+{"neuron":2924,"pole":"low","cluster":0,"mode":"'who' or 'that' introducing a study's subject group","scene_windows":0,"windows":5,"scene":"Research summaries about stress and social ties"}
+{"neuron":2924,"pole":"low","cluster":1,"mode":"Colon after a numbered tip heading","scene_windows":0,"windows":5,"scene":"Numbered marketing and content tips"}
+{"neuron":2924,"pole":"low","cluster":2,"mode":"Period or space ending a numbered tip sentence","scene_windows":0,"windows":5,"scene":"Numbered driving and car maintenance tips"}
+{"neuron":2924,"pole":"low","cluster":3,"mode":"Numeral before a period in numbered list items","scene_windows":0,"windows":5,"scene":"Numbered social media and advertising tips"}
+{"neuron":2924,"pole":"low","cluster":4,"mode":"'of' or 'and' within health and science facts","scene_windows":0,"windows":5,"scene":"Health and wellness informational text"}
+{"neuron":2924,"pole":"low","cluster":5,"mode":"'that' after research-finding verbs like 'shown' or 'revealed'","scene_windows":0,"windows":5,"scene":"Research claims about income and wellbeing"}
+{"neuron":8464,"pole":"high","cluster":0,"mode":"'the' in 'some of the' or 'What are the' questions","scene_windows":0,"windows":5,"scene":"User questions asking for lists or facts"}
+{"neuron":8464,"pole":"high","cluster":1,"mode":"'last' in 'the last words' or 'last day'","scene_windows":0,"windows":5,"scene":"Narrative about final moments"}
+{"neuron":8464,"pole":"high","cluster":2,"mode":"'say' or 'saying' in 'say goodbye' phrasing","scene_windows":0,"windows":5,"scene":"Grief and unfinished goodbyes"}
+{"neuron":8464,"pole":"high","cluster":3,"mode":"'no' in 'there was no' phrasing","scene_windows":0,"windows":5,"scene":"Narrative describing absence or lack"}
+{"neuron":8464,"pole":"high","cluster":4,"mode":"'Some' starting a follow-up list after 'Yes'","scene_windows":0,"windows":5,"scene":"Assistant answering Yes with examples"}
+{"neuron":8464,"pole":"high","cluster":5,"mode":"'the' in 'Some of the most' superlative lists","scene_windows":0,"windows":5,"scene":"Assistant listing notable examples"}
+{"neuron":8464,"pole":"high","cluster":6,"mode":"'What' starting a character's reply in fiction","scene_windows":0,"windows":5,"scene":"Dialogue in fiction with confrontation"}
+{"neuron":8464,"pole":"high","cluster":7,"mode":"'let' in 'please let me know' closing phrases","scene_windows":0,"windows":5,"scene":"Assistant offering further help"}
+{"neuron":8464,"pole":"high","cluster":8,"mode":"'the' in 'One of the most' phrasing","scene_windows":0,"windows":5,"scene":"Explanatory text naming a significant example"}
+{"neuron":8464,"pole":"high","cluster":9,"mode":"Content nouns at the end of technical phrases","scene_windows":0,"windows":5,"scene":"Expository and academic text"}
+{"neuron":8464,"pole":"high","cluster":10,"mode":"'get' or 'never' in 'never got' or 'never did get' regret phrasing","scene_windows":0,"windows":5,"scene":"Regretful narration about missed chances"}
+{"neuron":8464,"pole":"low","cluster":0,"mode":"Gerund or verb after 'forgetting', 'forgot' or 'forget'","scene_windows":0,"windows":5,"scene":"Narrative about forgetting and distraction"}
+{"neuron":8464,"pole":"low","cluster":1,"mode":"'get' or 'things' in 'when things get tough' motivation","scene_windows":0,"windows":5,"scene":"Motivational advice and encouragement"}
+{"neuron":8464,"pole":"low","cluster":2,"mode":"Function words in history and reflective prose","scene_windows":0,"windows":5,"scene":"Historical and philosophical explanatory text"}
+{"neuron":8464,"pole":"low","cluster":3,"mode":"Verbs of complaining, such as 'complain' or 'complaining'","scene_windows":0,"windows":5,"scene":"Online commentary about complaining"}
+{"neuron":7074,"pole":"high","cluster":0,"mode":"Period ending a complete declarative sentence","scene_windows":1,"windows":5,"scene":"Fitness, news and a refusal to misuse help"}
+{"neuron":7074,"pole":"high","cluster":1,"mode":"Noun or word ending a clause before a continuation","scene_windows":0,"windows":5,"scene":"Explanatory text about society and health"}
+{"neuron":7074,"pole":"high","cluster":2,"mode":"Period ending a narrative sentence about a character's action","scene_windows":0,"windows":5,"scene":"Short fiction narration"}
+{"neuron":10474,"pole":"high","cluster":0,"mode":"'what' as a relative pronoun in descriptive clauses","scene_windows":0,"windows":5,"scene":"Narration describing sightings and events"}
+{"neuron":10474,"pole":"high","cluster":1,"mode":"Closing quotation or comma in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue among characters"}
+{"neuron":10474,"pole":"high","cluster":2,"mode":"Comma after a short quoted dialogue line","scene_windows":0,"windows":5,"scene":"Dialogue in domestic or fictional conflict"}
+{"neuron":10474,"pole":"high","cluster":3,"mode":"Nouns or 'the' ending abstract descriptive phrases","scene_windows":0,"windows":5,"scene":"Essays on technology, time and relationships"}
+{"neuron":10474,"pole":"high","cluster":4,"mode":"Comma after a statistic or claim before an attribution","scene_windows":0,"windows":5,"scene":"News reports with statistics and attribution"}
+{"neuron":10474,"pole":"low","cluster":0,"mode":"'assistant' label starting a reply","scene_windows":0,"windows":5,"scene":"Multi-turn assistant chats"}
+{"neuron":10474,"pole":"low","cluster":1,"mode":"Comma after a short user acknowledgement","scene_windows":0,"windows":5,"scene":"User thanks and reactions in chats"}
+{"neuron":10474,"pole":"low","cluster":2,"mode":"Closing quote after a dialogue line","scene_windows":0,"windows":5,"scene":"Fiction dialogue with quoted speech"}
+{"neuron":10474,"pole":"low","cluster":3,"mode":"Blank indentation spacing at paragraph breaks","scene_windows":0,"windows":5,"scene":"Fiction and story text paragraph breaks"}
+{"neuron":10474,"pole":"low","cluster":4,"mode":"Question mark ending a user request","scene_windows":0,"windows":5,"scene":"User requests for ideas and recipes"}
+{"neuron":10474,"pole":"low","cluster":5,"mode":"Question or period ending a user request before assistant reply","scene_windows":0,"windows":5,"scene":"User requests for recommendations and recipes"}
+{"neuron":10474,"pole":"low","cluster":6,"mode":"Period ending a descriptive or reflective sentence","scene_windows":0,"windows":5,"scene":"Narrative and advice descriptions"}
+{"neuron":10474,"pole":"low","cluster":7,"mode":"'am' or 'I'm' in assistant self-description or apology","scene_windows":1,"windows":5,"scene":"Assistant declining personal opinions or questions"}

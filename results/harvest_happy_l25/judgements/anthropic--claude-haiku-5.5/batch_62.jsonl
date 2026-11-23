@@ -1,0 +1,50 @@
+{"neuron":7032,"pole":"high","cluster":0,"mode":"Numeric citation details like page numbers, volumes, and PMIDs in references","happy_windows":0,"windows":5,"scene":"Academic reference lists, no emotional scene"}
+{"neuron":7032,"pole":"high","cluster":1,"mode":"Connective or clause-boundary tokens in news and academic prose about religion, diet, and policy","happy_windows":0,"windows":5,"scene":"Neutral news and research discussion"}
+{"neuron":7032,"pole":"high","cluster":2,"mode":"Year digits and name fragments in historical or biographical text","happy_windows":0,"windows":5,"scene":"Historical and Canadian biographical narration"}
+{"neuron":7032,"pole":"low","cluster":0,"mode":"Function words and concept nouns in descriptive exhibit or research prose","happy_windows":0,"windows":5,"scene":"Neutral museum and news description"}
+{"neuron":7032,"pole":"low","cluster":1,"mode":"ISBN and publication-detail digits within bibliography entries","happy_windows":0,"windows":5,"scene":"Bibliographic reference lists"}
+{"neuron":10845,"pole":"high","cluster":0,"mode":"Code and technical markup tokens in programming tutorials","happy_windows":0,"windows":5,"scene":"Programming and scripting explanations"}
+{"neuron":10845,"pole":"high","cluster":1,"mode":"Drug, medical, and health-term fragments in medical information text","happy_windows":0,"windows":5,"scene":"Medical and health information articles"}
+{"neuron":10845,"pole":"high","cluster":2,"mode":"Nouns or pronouns completing narrative descriptions of people and feelings","happy_windows":0,"windows":5,"scene":"Biographical and fantasy narrative passages"}
+{"neuron":10845,"pole":"high","cluster":3,"mode":"Determiners and nouns in simple children's stories about play and discovery","happy_windows":3,"windows":5,"scene":"Children playing, finding treasures, family moments"}
+{"neuron":10845,"pole":"low","cluster":0,"mode":"Adjectives and verbs in simple children's stories about fear or feelings","happy_windows":1,"windows":5,"scene":"Children's stories with scared, hurt, or mixed moods"}
+{"neuron":10845,"pole":"low","cluster":1,"mode":"Action verbs about taking or grabbing objects in children's stories","happy_windows":0,"windows":5,"scene":"Kids squabbling over toys or finding items"}
+{"neuron":5183,"pole":"high","cluster":0,"mode":"Cooking step tokens: temperatures, times, and quantities in recipes","happy_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":5183,"pole":"high","cluster":1,"mode":"The word 'little' after 'Once upon a time there was a'","happy_windows":0,"windows":5,"scene":"Opening lines of children's fairy tales"}
+{"neuron":5183,"pole":"high","cluster":2,"mode":"Possessive pronouns referring to mother in parent-child dialogue","happy_windows":3,"windows":5,"scene":"Mothers and daughters in warm everyday moments"}
+{"neuron":5183,"pole":"high","cluster":3,"mode":"Object pronouns and nouns for gifts and objects in children's stories","happy_windows":2,"windows":5,"scene":"Gift-giving and surprises in simple stories"}
+{"neuron":5183,"pole":"high","cluster":4,"mode":"Citation punctuation and digits in reference entries","happy_windows":0,"windows":5,"scene":"Academic reference lists"}
+{"neuron":5183,"pole":"high","cluster":5,"mode":"Numeric digits within tables and financial figures","happy_windows":0,"windows":5,"scene":"Data tables and budget reports"}
+{"neuron":5183,"pole":"low","cluster":0,"mode":"Function words in argumentative or analytic prose about policy and studies","happy_windows":0,"windows":5,"scene":"Neutral analytic and policy discussion"}
+{"neuron":5183,"pole":"low","cluster":1,"mode":"Sentence-ending punctuation and spacing in bibliographic references","happy_windows":0,"windows":5,"scene":"Reference lists and citations"}
+{"neuron":3234,"pole":"high","cluster":0,"mode":"Capitalized initial letters starting names or titles in descriptive text","happy_windows":0,"windows":5,"scene":"Organization descriptions and publication listings"}
+{"neuron":3234,"pole":"high","cluster":1,"mode":"Sentence-final periods at paragraph or section boundaries in articles","happy_windows":0,"windows":5,"scene":"Informational articles about science and projects"}
+{"neuron":3234,"pole":"low","cluster":0,"mode":"Verbs and adjectives describing excitement in children's stories","happy_windows":3,"windows":5,"scene":"Children enjoying pets, play, and outdoor fun"}
+{"neuron":3234,"pole":"low","cluster":1,"mode":"The verb 'looked' after a character's action in simple stories","happy_windows":0,"windows":5,"scene":"Characters looking around in tense or lonely moments"}
+{"neuron":9860,"pole":"high","cluster":0,"mode":"Sentence-ending periods closing cheerful story sentences","happy_windows":3,"windows":5,"scene":"Simple children's stories with playful moments"}
+{"neuron":9860,"pole":"high","cluster":1,"mode":"Pronouns and conjunctions in children's emotional story passages","happy_windows":2,"windows":5,"scene":"Children's stories mixing sadness and relief"}
+{"neuron":9860,"pole":"high","cluster":2,"mode":"Noun and modifier tokens in advice about content and marketing","happy_windows":0,"windows":5,"scene":"Marketing and content creation advice"}
+{"neuron":9860,"pole":"high","cluster":3,"mode":"Verb and noun tokens in health and biology explanations","happy_windows":0,"windows":5,"scene":"Medical and biological explanatory text"}
+{"neuron":9860,"pole":"high","cluster":4,"mode":"Sensory nouns in intense descriptive narration of crowds and emotion","happy_windows":0,"windows":5,"scene":"Tense or sensory descriptive narratives"}
+{"neuron":9860,"pole":"high","cluster":5,"mode":"Literary and religious text tokens in older prose and poetry","happy_windows":0,"windows":5,"scene":"Historical literary and religious writing"}
+{"neuron":9860,"pole":"low","cluster":0,"mode":"Periods and connectives in marketing and business advice","happy_windows":0,"windows":5,"scene":"Business marketing and social media guidance"}
+{"neuron":9860,"pole":"low","cluster":1,"mode":"Subject pronouns and names starting actions in short kids' stories","happy_windows":2,"windows":5,"scene":"Children sharing, thanking, and going on slides"}
+{"neuron":9860,"pole":"low","cluster":2,"mode":"Tokens right before excited or delighted emotional words","happy_windows":3,"windows":5,"scene":"Children's stories about excitement and surprise"}
+{"neuron":9860,"pole":"low","cluster":3,"mode":"Connectives and nouns in political opinion writing","happy_windows":0,"windows":5,"scene":"Political commentary and opinion essays"}
+{"neuron":9860,"pole":"low","cluster":4,"mode":"Play and outside verbs in simple children's stories","happy_windows":4,"windows":5,"scene":"Children playing outdoors with friends"}
+{"neuron":10004,"pole":"high","cluster":0,"mode":"The word after 'so' describing excitement, joy, and fun","happy_windows":5,"windows":5,"scene":"Children excited about games, parties, and joy"}
+{"neuron":10004,"pole":"high","cluster":1,"mode":"Numeric tokens and years in climate and economic statistics","happy_windows":0,"windows":5,"scene":"Climate, energy, and statistical reporting"}
+{"neuron":10004,"pole":"high","cluster":2,"mode":"Prepositions and determiners in political and economic argument","happy_windows":0,"windows":5,"scene":"Political and economic commentary"}
+{"neuron":10004,"pole":"high","cluster":3,"mode":"Connectives and nouns in statistical regression analysis text","happy_windows":0,"windows":5,"scene":"Scientific statistical research writing"}
+{"neuron":10004,"pole":"low","cluster":0,"mode":"Nouns and pronouns in stories about fear or harm","happy_windows":0,"windows":5,"scene":"Stories with danger, worry, or dark themes"}
+{"neuron":10004,"pole":"low","cluster":1,"mode":"Whitespace and identifiers inside code snippets","happy_windows":0,"windows":5,"scene":"Code and programming examples"}
+{"neuron":8327,"pole":"high","cluster":0,"mode":"Determiners and prepositions inside code and technical explanations","happy_windows":0,"windows":5,"scene":"Programming and technical tutorials"}
+{"neuron":8327,"pole":"high","cluster":1,"mode":"Sentence-ending periods after vivid story sentences","happy_windows":1,"windows":5,"scene":"Children's stories at the beach and outdoors"}
+{"neuron":8327,"pole":"high","cluster":2,"mode":"Opening quotation marks after 'said' in dialogue","happy_windows":2,"windows":5,"scene":"Parent-child dialogue in everyday stories"}
+{"neuron":8327,"pole":"high","cluster":3,"mode":"Pronouns and conjunctions in simple children's narratives","happy_windows":1,"windows":5,"scene":"Children's stories with walks and gifts"}
+{"neuron":8327,"pole":"low","cluster":0,"mode":"Prepositions and determiners in academic nutrition and ecology prose","happy_windows":0,"windows":5,"scene":"Academic research and methodology discussion"}
+{"neuron":8327,"pole":"low","cluster":1,"mode":"Subject pronouns starting sentences in simple adventure stories","happy_windows":0,"windows":5,"scene":"Characters exploring forests and animals"}
+{"neuron":1874,"pole":"high","cluster":0,"mode":"Word fragments inside recipe and meal instructions","happy_windows":0,"windows":5,"scene":"Recipes and meal planning"}
+{"neuron":1874,"pole":"high","cluster":1,"mode":"The word 'so' before happy, proud, or delighted feelings","happy_windows":4,"windows":5,"scene":"Joyful family and child moments, delight and pride"}
+{"neuron":1874,"pole":"low","cluster":0,"mode":"Words like fun, time, and enjoying in playful children's stories","happy_windows":4,"windows":5,"scene":"Kids having fun playing together"}
+{"neuron":1874,"pole":"low","cluster":1,"mode":"Comma after the opening phrase 'Once upon a time'","happy_windows":0,"windows":5,"scene":"Neutral fairy tale openings"}

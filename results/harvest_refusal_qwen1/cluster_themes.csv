@@ -1,0 +1,1024 @@
+cluster_id,neuron,pole,cluster,weight_pct,theme
+n1958-high0,1958,high,0,3.6105,Mid-sentence function words
+n5634-low0,5634,low,0,3.2654,Benign helpful Q&A
+n3366-high0,3366,high,0,2.7335,Mid-sentence function words
+n2882-high0,2882,high,0,2.6934,Mid-sentence function words
+n799-high2,799,high,2,2.4821,Mid-sentence function words
+n9572-high0,9572,high,0,2.2929,Mid-sentence function words
+n1469-low0,1469,low,0,1.0663,Mid-sentence function words
+n3094-low0,3094,low,0,0.7657,Mid-sentence function words
+n1749-low0,1749,low,0,0.6985,Mid-sentence function words
+n2189-low2,2189,low,2,0.6749,Neutral encyclopedic exposition
+n10716-low0,10716,low,0,0.6473,Neutral encyclopedic exposition
+n540-high0,540,high,0,0.6335,Mid-sentence function words
+n4907-low1,4907,low,1,0.5996,Sentence-final periods and spacing
+n2546-low1,2546,low,1,0.5618,Mid-sentence function words
+n10981-low0,10981,low,0,0.559,Neutral encyclopedic exposition
+n9296-low0,9296,low,0,0.5277,Mid-sentence function words
+n233-high0,233,high,0,0.526,Mid-sentence function words
+n3184-high0,3184,high,0,0.5097,Mid-sentence function words
+n6123-high0,6123,high,0,0.4869,Mid-sentence function words
+n36-low0,36,low,0,0.4709,Mid-sentence function words
+n9257-high1,9257,high,1,0.4627,Neutral encyclopedic exposition
+n9616-low0,9616,low,0,0.453,Mid-sentence function words
+n1545-high0,1545,high,0,0.4335,Neutral encyclopedic exposition
+n2837-low0,2837,low,0,0.4326,Sentence-final periods and spacing
+n6481-high0,6481,high,0,0.4282,Mid-sentence function words
+n887-high0,887,high,0,0.4233,Tense dark fiction narration
+n6118-low1,6118,low,1,0.4221,Mid-sentence function words
+n8490-high0,8490,high,0,0.4109,Safety and risk advice
+n9787-high0,9787,high,0,0.4064,Neutral encyclopedic exposition
+n7362-high0,7362,high,0,0.4052,Mid-sentence function words
+n4894-high0,4894,high,0,0.4004,Neutral encyclopedic exposition
+n8161-high3,8161,high,3,0.3979,Mid-sentence function words
+n9268-low0,9268,low,0,0.3964,Tense dark fiction narration
+n9029-low0,9029,low,0,0.3804,Mid-sentence function words
+n1439-low2,1439,low,2,0.3785,Mid-sentence function words
+n4161-low1,4161,low,1,0.3634,Social and political commentary
+n5095-low0,5095,low,0,0.3524,Mid-sentence function words
+n7140-low2,7140,low,2,0.3507,Lists of examples
+n6810-high0,6810,high,0,0.341,Neutral encyclopedic exposition
+n7464-high0,7464,high,0,0.3046,Neutral encyclopedic exposition
+n5709-low0,5709,low,0,0.2985,Mid-sentence function words
+n2275-high3,2275,high,3,0.2957,Sentence-final periods and spacing
+n9257-high0,9257,high,0,0.2883,Tense dark fiction narration
+n1958-high1,1958,high,1,0.2765,Citations and numeric fragments
+n7883-high0,7883,high,0,0.272,Mid-sentence function words
+n3534-low1,3534,low,1,0.2667,Neutral encyclopedic exposition
+n8055-low0,8055,low,0,0.2619,Tense dark fiction narration
+n4193-high1,4193,high,1,0.2537,Illegal or harmful conduct topics
+n4242-high1,4242,high,1,0.2492,Mid-sentence function words
+n8291-high0,8291,high,0,0.2489,Self-help and moral advice
+n6664-low0,6664,low,0,0.2301,Mid-sentence function words
+n6676-high0,6676,high,0,0.2187,Safety and risk advice
+n9717-high0,9717,high,0,0.2184,Mid-sentence function words
+n8346-low0,8346,low,0,0.2132,Sentence-final periods and spacing
+n7076-low0,7076,low,0,0.2128,Self-help and moral advice
+n9518-high0,9518,high,0,0.2126,Benign helpful Q&A
+n4394-low0,4394,low,0,0.2108,Mid-sentence function words
+n4856-high1,4856,high,1,0.2059,Mid-sentence function words
+n4636-low1,4636,low,1,0.1957,Mid-sentence function words
+n7213-low0,7213,low,0,0.1928,Mid-sentence function words
+n4100-high0,4100,high,0,0.1871,Social and political commentary
+n6106-low1,6106,low,1,0.1793,Neutral encyclopedic exposition
+n9542-high0,9542,high,0,0.1765,Mid-sentence function words
+n2239-low0,2239,low,0,0.1739,Self-help and moral advice
+n1219-low0,1219,low,0,0.1733,Emotional first-person narration
+n276-high0,276,high,0,0.1652,Mid-sentence function words
+n1281-low0,1281,low,0,0.1641,Practical how-to and recipes
+n222-low1,222,low,1,0.1628,Mid-sentence function words
+n8288-low1,8288,low,1,0.1594,Neutral encyclopedic exposition
+n5583-low0,5583,low,0,0.1578,Sentence-final periods and spacing
+n9203-low2,9203,low,2,0.1577,Neutral encyclopedic exposition
+n4486-high0,4486,high,0,0.1575,Social and political commentary
+n819-low1,819,low,1,0.1539,Human/user turn markers
+n902-high0,902,high,0,0.1523,Mid-sentence function words
+n9838-high4,9838,high,4,0.1492,Mid-sentence function words
+n9577-high0,9577,high,0,0.146,Neutral encyclopedic exposition
+n5526-low0,5526,low,0,0.1453,Mid-sentence function words
+n4521-high0,4521,high,0,0.144,Mid-sentence function words
+n836-high0,836,high,0,0.1438,Mid-sentence function words
+n10128-low0,10128,low,0,0.1435,Citations and numeric fragments
+n10039-high0,10039,high,0,0.143,Sentence-final periods and spacing
+n9314-low1,9314,low,1,0.1409,Mid-sentence function words
+n2639-high1,2639,high,1,0.1403,Citations and numeric fragments
+n6039-low2,6039,low,2,0.1389,Mid-sentence function words
+n5907-high1,5907,high,1,0.1371,Neutral encyclopedic exposition
+n2782-low0,2782,low,0,0.1366,Mid-sentence function words
+n47-high0,47,high,0,0.1362,Lists of examples
+n7145-low0,7145,low,0,0.1358,Citations and numeric fragments
+n8991-high0,8991,high,0,0.1357,Mid-sentence function words
+n4541-low0,4541,low,0,0.1347,Mid-sentence function words
+n8751-low0,8751,low,0,0.1345,Safety and risk advice
+n3033-low0,3033,low,0,0.1342,Citations and numeric fragments
+n596-high0,596,high,0,0.1341,Sentence-final periods and spacing
+n5561-low5,5561,low,5,0.1332,Neutral encyclopedic exposition
+n7518-low0,7518,low,0,0.1326,Neutral encyclopedic exposition
+n799-high1,799,high,1,0.1319,Assistant turn openers
+n6081-low0,6081,low,0,0.1309,Sentence-final periods and spacing
+n1176-high1,1176,high,1,0.1301,Mid-sentence function words
+n4447-low1,4447,low,1,0.1287,Mid-sentence function words
+n10850-high0,10850,high,0,0.1246,Mid-sentence function words
+n1693-high2,1693,high,2,0.1244,Mid-sentence function words
+n7426-high0,7426,high,0,0.1207,Sentence-final periods and spacing
+n1036-high0,1036,high,0,0.1191,Mid-sentence function words
+n7222-high0,7222,high,0,0.1185,Practical how-to and recipes
+n7369-high0,7369,high,0,0.1173,Neutral encyclopedic exposition
+n239-low0,239,low,0,0.1168,Citations and numeric fragments
+n10404-high0,10404,high,0,0.1151,Sentence-final periods and spacing
+n7242-low2,7242,low,2,0.1116,Self-help and moral advice
+n10857-low1,10857,low,1,0.1106,Safety and risk advice
+n317-low0,317,low,0,0.109,Sentence-final periods and spacing
+n1469-low1,1469,low,1,0.1087,Neutral encyclopedic exposition
+n9589-high1,9589,high,1,0.1086,Tense dark fiction narration
+n3534-low0,3534,low,0,0.1083,Follow-up requests
+n2124-high0,2124,high,0,0.1077,Neutral encyclopedic exposition
+n7461-low1,7461,low,1,0.1065,Tense dark fiction narration
+n6874-low0,6874,low,0,0.1062,Mid-sentence function words
+n1182-high0,1182,high,0,0.106,Emotional first-person narration
+n10498-low0,10498,low,0,0.1044,Mid-sentence function words
+n7488-low0,7488,low,0,0.1036,Tense dark fiction narration
+n5634-low1,5634,low,1,0.1026,Fiction dialogue punctuation
+n8143-low0,8143,low,0,0.1013,Mid-sentence function words
+n10711-high1,10711,high,1,0.1009,Neutral encyclopedic exposition
+n5660-high1,5660,high,1,0.1006,Social and political commentary
+n10742-low2,10742,low,2,0.0994,Mid-sentence function words
+n3013-high2,3013,high,2,0.0992,Sentence-final periods and spacing
+n5226-low1,5226,low,1,0.0989,Mid-sentence function words
+n2882-high1,2882,high,1,0.0986,Sentence-final periods and spacing
+n9541-high2,9541,high,2,0.0984,Mid-sentence function words
+n4171-low0,4171,low,0,0.098,Self-help and moral advice
+n2574-low1,2574,low,1,0.0978,Mid-sentence function words
+n3039-low0,3039,low,0,0.0977,Mid-sentence function words
+n1159-high1,1159,high,1,0.0967,Self-help and moral advice
+n3048-high3,3048,high,3,0.0967,Sentence-final periods and spacing
+n7504-high0,7504,high,0,0.0958,Mid-sentence function words
+n7169-low1,7169,low,1,0.0932,Mid-sentence function words
+n134-low0,134,low,0,0.0926,Neutral encyclopedic exposition
+n8423-high1,8423,high,1,0.0923,Tense dark fiction narration
+n3843-low2,3843,low,2,0.0922,Mid-sentence function words
+n2893-low0,2893,low,0,0.0919,Neutral encyclopedic exposition
+n995-high0,995,high,0,0.0914,Emotional first-person narration
+n8789-low3,8789,low,3,0.0909,Neutral encyclopedic exposition
+n10180-low0,10180,low,0,0.0906,Self-help and moral advice
+n2665-low0,2665,low,0,0.09,Mid-sentence function words
+n7438-low0,7438,low,0,0.0896,Neutral encyclopedic exposition
+n1749-low1,1749,low,1,0.0885,Assistant turn openers
+n921-high1,921,high,1,0.088,Tense dark fiction narration
+n197-high1,197,high,1,0.0879,Citations and numeric fragments
+n4018-high2,4018,high,2,0.0878,Neutral encyclopedic exposition
+n2624-high0,2624,high,0,0.0852,Mid-sentence function words
+n4752-high2,4752,high,2,0.0836,Practical how-to and recipes
+n3046-high0,3046,high,0,0.0822,Self-help and moral advice
+n3067-high4,3067,high,4,0.082,Tense dark fiction narration
+n7672-high0,7672,high,0,0.0818,Mid-sentence function words
+n7140-low3,7140,low,3,0.0811,Sentence-final periods and spacing
+n9006-high0,9006,high,0,0.0807,Practical how-to and recipes
+n3581-high4,3581,high,4,0.0801,Sentence-final periods and spacing
+n2859-low1,2859,low,1,0.0799,Mid-sentence function words
+n5519-low3,5519,low,3,0.0795,Mid-sentence function words
+n5131-high5,5131,high,5,0.0794,Mid-sentence function words
+n5701-high0,5701,high,0,0.0787,Mid-sentence function words
+n10619-high0,10619,high,0,0.0783,Mid-sentence function words
+n7825-low1,7825,low,1,0.0783,Sentence-final periods and spacing
+n9572-high1,9572,high,1,0.0781,Emotional first-person narration
+n1162-low0,1162,low,0,0.0779,Mid-sentence function words
+n10102-low0,10102,low,0,0.0779,Practical how-to and recipes
+n6132-low0,6132,low,0,0.0777,Neutral encyclopedic exposition
+n4998-low0,4998,low,0,0.0771,Sentence-final periods and spacing
+n4476-low0,4476,low,0,0.077,Sentence-final periods and spacing
+n1535-low0,1535,low,0,0.0761,Mid-sentence function words
+n819-low0,819,low,0,0.0761,Sentence-final periods and spacing
+n8612-low0,8612,low,0,0.0758,Mid-sentence function words
+n5077-high0,5077,high,0,0.075,Emotional first-person narration
+n4018-high1,4018,high,1,0.0749,Mid-sentence function words
+n8567-low0,8567,low,0,0.0741,Mid-sentence function words
+n3289-high1,3289,high,1,0.0739,Citations and numeric fragments
+n6369-low0,6369,low,0,0.0735,Citations and numeric fragments
+n4169-low0,4169,low,0,0.0734,Mid-sentence function words
+n5904-low1,5904,low,1,0.0732,Sentence-final periods and spacing
+n9610-high1,9610,high,1,0.0722,Mid-sentence function words
+n3551-low4,3551,low,4,0.0721,Assistant turn openers
+n818-low1,818,low,1,0.0718,Sentence-final periods and spacing
+n2420-low0,2420,low,0,0.0717,Mid-sentence function words
+n10816-high0,10816,high,0,0.0716,Mid-sentence function words
+n6535-high0,6535,high,0,0.0708,Mid-sentence function words
+n731-high1,731,high,1,0.07,Mid-sentence function words
+n1224-low1,1224,low,1,0.07,Mid-sentence function words
+n6808-low1,6808,low,1,0.0699,Mid-sentence function words
+n574-high0,574,high,0,0.0698,Emotional first-person narration
+n3366-high1,3366,high,1,0.0695,Hedged opinion on contested issues
+n7339-low0,7339,low,0,0.0694,Mid-sentence function words
+n7140-low1,7140,low,1,0.069,Assistant turn openers
+n3059-low1,3059,low,1,0.0678,Emotional first-person narration
+n4933-low0,4933,low,0,0.0675,Fiction dialogue punctuation
+n6097-high0,6097,high,0,0.0672,Practical how-to and recipes
+n4657-low1,4657,low,1,0.0671,Mid-sentence function words
+n262-low1,262,low,1,0.0669,Sentence-final periods and spacing
+n2032-low1,2032,low,1,0.0667,Mid-sentence function words
+n1719-low0,1719,low,0,0.0665,Mid-sentence function words
+n2449-low1,2449,low,1,0.0664,Mid-sentence function words
+n3809-low2,3809,low,2,0.0662,Mid-sentence function words
+n3799-low3,3799,low,3,0.0661,Mid-sentence function words
+n799-high0,799,high,0,0.066,Sentence-final periods and spacing
+n10925-high3,10925,high,3,0.0659,Citations and numeric fragments
+n7825-low0,7825,low,0,0.0657,Citations and numeric fragments
+n3184-high1,3184,high,1,0.0653,Assistant turn openers
+n2750-high1,2750,high,1,0.0649,Sentence-final periods and spacing
+n969-low0,969,low,0,0.0643,Mid-sentence function words
+n7530-high1,7530,high,1,0.0618,Sentence-final periods and spacing
+n7853-high0,7853,high,0,0.0612,Mid-sentence function words
+n4187-low0,4187,low,0,0.0609,Mid-sentence function words
+n10789-high1,10789,high,1,0.0608,Mid-sentence function words
+n3481-low3,3481,low,3,0.0606,Mid-sentence function words
+n4976-high1,4976,high,1,0.0605,Citations and numeric fragments
+n7600-high0,7600,high,0,0.0602,Neutral encyclopedic exposition
+n2202-low0,2202,low,0,0.06,Sentence-final periods and spacing
+n5966-low0,5966,low,0,0.06,Mid-sentence function words
+n3503-low0,3503,low,0,0.0597,Sentence-final periods and spacing
+n6477-high0,6477,high,0,0.0595,Neutral encyclopedic exposition
+n4533-high0,4533,high,0,0.0593,Mid-sentence function words
+n9646-high1,9646,high,1,0.059,Citations and numeric fragments
+n9068-low0,9068,low,0,0.0579,Mid-sentence function words
+n5608-high1,5608,high,1,0.0575,Neutral encyclopedic exposition
+n10625-low0,10625,low,0,0.0572,Sentence-final periods and spacing
+n4509-high0,4509,high,0,0.0568,Mid-sentence function words
+n10504-low0,10504,low,0,0.0567,Benign helpful Q&A
+n10331-high0,10331,high,0,0.0567,Mid-sentence function words
+n313-low1,313,low,1,0.0559,Mid-sentence function words
+n1355-high0,1355,high,0,0.0553,Citations and numeric fragments
+n8055-low1,8055,low,1,0.0551,Assistant turn openers
+n4458-low0,4458,low,0,0.0546,Mid-sentence function words
+n1505-high0,1505,high,0,0.0543,Practical how-to and recipes
+n2579-high0,2579,high,0,0.0541,Tense dark fiction narration
+n1808-low0,1808,low,0,0.0532,Mid-sentence function words
+n9890-low0,9890,low,0,0.0532,Mid-sentence function words
+n8794-low0,8794,low,0,0.0532,Mid-sentence function words
+n8740-high1,8740,high,1,0.053,Self-help and moral advice
+n674-high0,674,high,0,0.0525,Social and political commentary
+n4766-low1,4766,low,1,0.0524,Citations and numeric fragments
+n7712-high0,7712,high,0,0.0518,Sentence-final periods and spacing
+n4067-high2,4067,high,2,0.0513,Citations and numeric fragments
+n4250-low2,4250,low,2,0.0512,Mid-sentence function words
+n10681-high0,10681,high,0,0.0511,Mid-sentence function words
+n4519-low0,4519,low,0,0.0509,Mid-sentence function words
+n5728-low1,5728,low,1,0.0509,Mid-sentence function words
+n7988-low0,7988,low,0,0.0508,Mid-sentence function words
+n2212-high1,2212,high,1,0.0502,Sentence-final periods and spacing
+n8458-high2,8458,high,2,0.0501,Mid-sentence function words
+n857-low1,857,low,1,0.0499,Mid-sentence function words
+n6250-low3,6250,low,3,0.0498,Mid-sentence function words
+n7916-high1,7916,high,1,0.049,Mid-sentence function words
+n9168-low0,9168,low,0,0.0488,Mid-sentence function words
+n135-high0,135,high,0,0.0472,Tense dark fiction narration
+n3412-low0,3412,low,0,0.047,Mid-sentence function words
+n5660-high2,5660,high,2,0.0467,Safety and risk advice
+n5337-high1,5337,high,1,0.0455,Mid-sentence function words
+n1117-low0,1117,low,0,0.0452,Mid-sentence function words
+n7132-low1,7132,low,1,0.0445,Mid-sentence function words
+n1182-high1,1182,high,1,0.044,Neutral encyclopedic exposition
+n3621-low2,3621,low,2,0.0438,Neutral encyclopedic exposition
+n8111-high1,8111,high,1,0.0438,Mid-sentence function words
+n8660-high0,8660,high,0,0.0437,Mid-sentence function words
+n7203-high0,7203,high,0,0.0431,Mid-sentence function words
+n10434-high1,10434,high,1,0.043,Self-help and moral advice
+n752-low0,752,low,0,0.0429,Mid-sentence function words
+n9708-high0,9708,high,0,0.0428,Neutral encyclopedic exposition
+n6731-low0,6731,low,0,0.0428,Neutral encyclopedic exposition
+n5751-high0,5751,high,0,0.0427,Tense dark fiction narration
+n4067-high1,4067,high,1,0.0424,Emotional first-person narration
+n8172-low3,8172,low,3,0.0424,Practical how-to and recipes
+n3940-low1,3940,low,1,0.0417,Lists of examples
+n5660-high0,5660,high,0,0.0417,Social and political commentary
+n4664-low0,4664,low,0,0.041,Safety and risk advice
+n4295-low1,4295,low,1,0.041,Mid-sentence function words
+n5724-high1,5724,high,1,0.0408,Mid-sentence function words
+n2151-low1,2151,low,1,0.0405,Self-help and moral advice
+n2924-high2,2924,high,2,0.0405,Sentence-final periods and spacing
+n10299-low0,10299,low,0,0.0404,Mid-sentence function words
+n2189-low0,2189,low,0,0.04,Sentence-final periods and spacing
+n8324-low0,8324,low,0,0.04,Mid-sentence function words
+n6348-low0,6348,low,0,0.0395,Mid-sentence function words
+n6374-high1,6374,high,1,0.0393,Sentence-final periods and spacing
+n5971-low0,5971,low,0,0.0391,Mid-sentence function words
+n9685-high5,9685,high,5,0.039,Mid-sentence function words
+n1972-high0,1972,high,0,0.039,Mid-sentence function words
+n10141-low0,10141,low,0,0.0381,Sentence-final periods and spacing
+n9180-low1,9180,low,1,0.0379,Neutral encyclopedic exposition
+n1951-high0,1951,high,0,0.0378,Sentence-final periods and spacing
+n2881-high0,2881,high,0,0.0375,Mid-sentence function words
+n2187-high0,2187,high,0,0.0373,Benign helpful Q&A
+n6171-low0,6171,low,0,0.0371,Mid-sentence function words
+n2016-low0,2016,low,0,0.037,Mid-sentence function words
+n5232-high0,5232,high,0,0.0368,Neutral encyclopedic exposition
+n3551-low3,3551,low,3,0.0367,Practical how-to and recipes
+n3094-low1,3094,low,1,0.0363,Tense dark fiction narration
+n7286-low1,7286,low,1,0.0363,Mid-sentence function words
+n3986-high0,3986,high,0,0.0362,Mid-sentence function words
+n8827-high0,8827,high,0,0.0358,Mid-sentence function words
+n7527-low1,7527,low,1,0.0358,Emotional first-person narration
+n4802-high0,4802,high,0,0.0358,Mid-sentence function words
+n4976-high2,4976,high,2,0.0352,Neutral encyclopedic exposition
+n10243-low0,10243,low,0,0.035,Citations and numeric fragments
+n3289-high2,3289,high,2,0.0347,Fiction dialogue punctuation
+n8827-high1,8827,high,1,0.0343,Citations and numeric fragments
+n3356-high0,3356,high,0,0.034,Mid-sentence function words
+n8349-low1,8349,low,1,0.0339,Mid-sentence function words
+n6317-high0,6317,high,0,0.0336,Neutral encyclopedic exposition
+n9597-low0,9597,low,0,0.0335,Mid-sentence function words
+n5623-high0,5623,high,0,0.0333,Mid-sentence function words
+n6441-high0,6441,high,0,0.0331,Mid-sentence function words
+n10681-high1,10681,high,1,0.0329,Sentence-final periods and spacing
+n5698-high0,5698,high,0,0.0328,Fiction dialogue punctuation
+n3014-high1,3014,high,1,0.0328,Neutral encyclopedic exposition
+n6369-low2,6369,low,2,0.0325,Fiction dialogue punctuation
+n8161-high2,8161,high,2,0.032,Assistant turn openers
+n272-low0,272,low,0,0.0317,Follow-up requests
+n3551-low1,3551,low,1,0.0316,Mid-sentence function words
+n1439-low3,1439,low,3,0.0316,Sentence-final periods and spacing
+n1442-high0,1442,high,0,0.0316,Mid-sentence function words
+n63-low1,63,low,1,0.0313,Neutral encyclopedic exposition
+n10474-low0,10474,low,0,0.0313,Human/user turn markers
+n10206-high0,10206,high,0,0.0313,Mid-sentence function words
+n456-high0,456,high,0,0.0311,Practical how-to and recipes
+n5907-high2,5907,high,2,0.0308,Tense dark fiction narration
+n6076-high2,6076,high,2,0.0306,Practical how-to and recipes
+n10742-low1,10742,low,1,0.0303,Citations and numeric fragments
+n3703-high0,3703,high,0,0.0303,Mid-sentence function words
+n10781-high0,10781,high,0,0.0302,Tense dark fiction narration
+n9075-low2,9075,low,2,0.03,Mid-sentence function words
+n535-low0,535,low,0,0.0293,Sentence-final periods and spacing
+n5766-low0,5766,low,0,0.0293,Self-help and moral advice
+n4902-high0,4902,high,0,0.0291,Mid-sentence function words
+n7806-low1,7806,low,1,0.0291,Citations and numeric fragments
+n125-high2,125,high,2,0.029,Neutral encyclopedic exposition
+n3688-low0,3688,low,0,0.0287,Mid-sentence function words
+n7696-low6,7696,low,6,0.0286,Mid-sentence function words
+n9671-low0,9671,low,0,0.0284,Citations and numeric fragments
+n6118-low0,6118,low,0,0.0281,Safety and risk advice
+n103-high0,103,high,0,0.0281,Follow-up requests
+n2546-low0,2546,low,0,0.028,Tense dark fiction narration
+n3551-low0,3551,low,0,0.0278,Neutral encyclopedic exposition
+n4851-low0,4851,low,0,0.0277,Mid-sentence function words
+n7448-low0,7448,low,0,0.0273,Mid-sentence function words
+n7290-low0,7290,low,0,0.0272,Mid-sentence function words
+n9610-high0,9610,high,0,0.0268,Assistant turn openers
+n3276-high0,3276,high,0,0.0263,Mid-sentence function words
+n9714-high1,9714,high,1,0.0262,Lists of examples
+n2040-low2,2040,low,2,0.0259,Mid-sentence function words
+n2348-high0,2348,high,0,0.0255,Neutral encyclopedic exposition
+n2269-low0,2269,low,0,0.0254,Mid-sentence function words
+n8008-low0,8008,low,0,0.0254,Neutral encyclopedic exposition
+n1443-high1,1443,high,1,0.0253,Mid-sentence function words
+n4329-high4,4329,high,4,0.0252,Illegal or harmful conduct topics
+n9945-low0,9945,low,0,0.0252,Sentence-final periods and spacing
+n6230-high2,6230,high,2,0.025,Neutral encyclopedic exposition
+n2275-high0,2275,high,0,0.0248,Assistant turn openers
+n7001-high0,7001,high,0,0.0246,Safety and risk advice
+n5095-low1,5095,low,1,0.0246,Sentence-final periods and spacing
+n7022-high1,7022,high,1,0.024,Sentence-final periods and spacing
+n4301-high1,4301,high,1,0.0239,Neutral encyclopedic exposition
+n3080-low1,3080,low,1,0.0239,Mid-sentence function words
+n6183-high2,6183,high,2,0.0236,Safety and risk advice
+n540-high1,540,high,1,0.0235,Assistant turn openers
+n1600-low0,1600,low,0,0.0235,Neutral encyclopedic exposition
+n7464-high1,7464,high,1,0.0234,Sentence-final periods and spacing
+n134-low1,134,low,1,0.0234,Sentence-final periods and spacing
+n4894-high2,4894,high,2,0.0233,Sentence-final periods and spacing
+n8821-high0,8821,high,0,0.0233,Neutral encyclopedic exposition
+n9203-low3,9203,low,3,0.0233,Neutral encyclopedic exposition
+n7696-low0,7696,low,0,0.0232,Assistant turn openers
+n1439-low0,1439,low,0,0.0229,Assistant turn openers
+n1439-low1,1439,low,1,0.0229,Assistant turn openers
+n5518-high5,5518,high,5,0.0224,Practical how-to and recipes
+n5158-low0,5158,low,0,0.0224,Emotional first-person narration
+n3289-high0,3289,high,0,0.0224,Mid-sentence function words
+n2212-high0,2212,high,0,0.0218,Neutral encyclopedic exposition
+n8161-high4,8161,high,4,0.0214,Fiction dialogue punctuation
+n10401-low0,10401,low,0,0.0213,Mid-sentence function words
+n3808-low1,3808,low,1,0.0213,Tense dark fiction narration
+n713-high1,713,high,1,0.0212,Neutral encyclopedic exposition
+n3412-low1,3412,low,1,0.0212,Neutral encyclopedic exposition
+n233-high1,233,high,1,0.021,Assistant turn openers
+n8827-high2,8827,high,2,0.0209,Self-help and moral advice
+n8975-low0,8975,low,0,0.0203,Mid-sentence function words
+n8515-high0,8515,high,0,0.0195,Mid-sentence function words
+n713-high2,713,high,2,0.0193,Illegal or harmful conduct topics
+n2189-low1,2189,low,1,0.0191,Neutral encyclopedic exposition
+n8111-high0,8111,high,0,0.019,Social and political commentary
+n7696-low8,7696,low,8,0.0189,Human/user turn markers
+n10220-low0,10220,low,0,0.0186,Mid-sentence function words
+n3342-low0,3342,low,0,0.0186,Mid-sentence function words
+n5706-low1,5706,low,1,0.0186,Mid-sentence function words
+n7696-low4,7696,low,4,0.0185,Fiction dialogue punctuation
+n63-low0,63,low,0,0.0185,Neutral encyclopedic exposition
+n8291-high1,8291,high,1,0.0185,Fiction dialogue punctuation
+n2275-high1,2275,high,1,0.0184,Assistant turn openers
+n6317-high1,6317,high,1,0.0184,Tense dark fiction narration
+n6676-high1,6676,high,1,0.0183,Assistant turn openers
+n3940-low0,3940,low,0,0.0183,Emotional first-person narration
+n4284-low2,4284,low,2,0.0183,Mid-sentence function words
+n178-low1,178,low,1,0.0183,Mid-sentence function words
+n3014-high0,3014,high,0,0.0182,Citations and numeric fragments
+n2546-low2,2546,low,2,0.0182,Tense dark fiction narration
+n1025-low0,1025,low,0,0.0179,Mid-sentence function words
+n6118-low2,6118,low,2,0.0177,Assistant turn openers
+n2668-low0,2668,low,0,0.0176,Mid-sentence function words
+n10067-high1,10067,high,1,0.0175,Mid-sentence function words
+n222-low2,222,low,2,0.0174,Follow-up requests
+n9296-low1,9296,low,1,0.0173,Assistant disclaimers of limits
+n4018-high0,4018,high,0,0.0173,Mid-sentence function words
+n4907-low2,4907,low,2,0.0172,Practical how-to and recipes
+n6369-low1,6369,low,1,0.0171,Self-help and moral advice
+n10716-low1,10716,low,1,0.0167,Sentence-final periods and spacing
+n9029-low1,9029,low,1,0.0166,Assistant turn openers
+n2837-low1,2837,low,1,0.0164,Assistant turn openers
+n9518-high1,9518,high,1,0.0164,Sentence-final periods and spacing
+n2124-high1,2124,high,1,0.0163,Assistant turn openers
+n7696-low5,7696,low,5,0.0162,Sentence-final periods and spacing
+n7362-high1,7362,high,1,0.0158,Safety and risk advice
+n6329-high0,6329,high,0,0.0155,Mid-sentence function words
+n713-high0,713,high,0,0.0154,Emotional first-person narration
+n1001-high0,1001,high,0,0.0154,Mid-sentence function words
+n4041-low5,4041,low,5,0.0154,Citations and numeric fragments
+n9616-low1,9616,low,1,0.015,Fiction dialogue punctuation
+n1489-high0,1489,high,0,0.0149,Assistant sign-offs and offers
+n9838-high5,9838,high,5,0.0149,Sentence-final periods and spacing
+n6390-high1,6390,high,1,0.0147,Practical how-to and recipes
+n6506-high0,6506,high,0,0.0146,Mid-sentence function words
+n1545-high1,1545,high,1,0.0145,Sentence-final periods and spacing
+n8101-low0,8101,low,0,0.0144,Self-help and moral advice
+n3581-high2,3581,high,2,0.0143,Assistant turn openers
+n3080-low2,3080,low,2,0.0142,Practical how-to and recipes
+n10981-low1,10981,low,1,0.014,Fiction dialogue punctuation
+n7883-high1,7883,high,1,0.014,Sentence-final periods and spacing
+n8290-high2,8290,high,2,0.0139,Citations and numeric fragments
+n3412-low2,3412,low,2,0.0139,Sentence-final periods and spacing
+n8498-high0,8498,high,0,0.0139,Mid-sentence function words
+n3808-low0,3808,low,0,0.0137,Social and political commentary
+n890-low0,890,low,0,0.0137,Sentence-final periods and spacing
+n10670-high1,10670,high,1,0.0137,Tense dark fiction narration
+n9787-high1,9787,high,1,0.0136,Assistant turn openers
+n7206-high1,7206,high,1,0.0136,Mid-sentence function words
+n9717-high1,9717,high,1,0.0136,Fiction dialogue punctuation
+n2421-high1,2421,high,1,0.0135,Tense dark fiction narration
+n10877-high0,10877,high,0,0.0135,Safety and risk advice
+n8161-high0,8161,high,0,0.0134,Assistant sign-offs and offers
+n8161-high1,8161,high,1,0.0134,Assistant sign-offs and offers
+n9859-low1,9859,low,1,0.0134,Practical how-to and recipes
+n4907-low0,4907,low,0,0.0132,Practical how-to and recipes
+n7140-low0,7140,low,0,0.0132,Lists of examples
+n2239-low1,2239,low,1,0.0131,Tense dark fiction narration
+n9838-high3,9838,high,3,0.0128,Fiction dialogue punctuation
+n301-high0,301,high,0,0.0127,Neutral encyclopedic exposition
+n887-high1,887,high,1,0.0127,Fiction dialogue punctuation
+n3551-low2,3551,low,2,0.0127,Mid-sentence function words
+n3799-low0,3799,low,0,0.0126,Assistant turn openers
+n3843-low0,3843,low,0,0.0125,Assistant turn openers
+n7518-low1,7518,low,1,0.0124,Assistant turn openers
+n10670-high0,10670,high,0,0.0123,Neutral encyclopedic exposition
+n4894-high1,4894,high,1,0.0123,Sentence-final periods and spacing
+n8789-low1,8789,low,1,0.0123,Assistant turn openers
+n4067-high0,4067,high,0,0.0123,Mid-sentence function words
+n4193-high0,4193,high,0,0.0123,Sentence-final periods and spacing
+n6209-low0,6209,low,0,0.0122,Mid-sentence function words
+n239-low1,239,low,1,0.0122,Mid-sentence function words
+n9859-low2,9859,low,2,0.0122,Citations and numeric fragments
+n7006-low1,7006,low,1,0.0122,Mid-sentence function words
+n4161-low2,4161,low,2,0.0121,Human/user turn markers
+n6271-high1,6271,high,1,0.0121,Neutral encyclopedic exposition
+n5561-low1,5561,low,1,0.012,Tense dark fiction narration
+n5561-low3,5561,low,3,0.012,Tense dark fiction narration
+n5561-low6,5561,low,6,0.012,Tense dark fiction narration
+n9203-low1,9203,low,1,0.012,Assistant turn openers
+n1219-low1,1219,low,1,0.0117,Safety and risk advice
+n9268-low1,9268,low,1,0.0116,Assistant turn openers
+n8427-low1,8427,low,1,0.0115,Safety and risk advice
+n4636-low0,4636,low,0,0.0115,Assistant turn openers
+n596-high3,596,high,3,0.0115,Assistant turn openers
+n2420-low1,2420,low,1,0.0113,Assistant turn openers
+n5131-high2,5131,high,2,0.0113,Assistant turn openers
+n2275-high4,2275,high,4,0.0112,Lists of examples
+n1489-high1,1489,high,1,0.0111,Citations and numeric fragments
+n10857-low2,10857,low,2,0.0111,Citations and numeric fragments
+n10243-low1,10243,low,1,0.011,Mid-sentence function words
+n4242-high0,4242,high,0,0.0109,Human/user turn markers
+n5561-low0,5561,low,0,0.0109,Mid-sentence function words
+n5561-low2,5561,low,2,0.0109,Sentence-final periods and spacing
+n5561-low4,5561,low,4,0.0109,Mid-sentence function words
+n3080-low0,3080,low,0,0.0109,Fiction dialogue punctuation
+n8567-low1,8567,low,1,0.0109,Practical how-to and recipes
+n6209-low1,6209,low,1,0.0108,Citations and numeric fragments
+n5519-low1,5519,low,1,0.0107,Practical how-to and recipes
+n10437-high0,10437,high,0,0.0106,Mid-sentence function words
+n2449-low0,2449,low,0,0.0106,Lists of examples
+n4161-low0,4161,low,0,0.0105,Follow-up requests
+n10128-low1,10128,low,1,0.0105,Fiction dialogue punctuation
+n9438-high4,9438,high,4,0.0103,Citations and numeric fragments
+n4284-low1,4284,low,1,0.0102,Citations and numeric fragments
+n8490-high1,8490,high,1,0.0101,Assistant turn openers
+n36-low1,36,low,1,0.0101,Hedged opinion on contested issues
+n6123-high1,6123,high,1,0.0101,Practical how-to and recipes
+n6810-high1,6810,high,1,0.01,Emotional first-person narration
+n4100-high1,4100,high,1,0.0099,Sentence-final periods and spacing
+n4242-high2,4242,high,2,0.0098,Assistant turn openers
+n921-high0,921,high,0,0.0098,Follow-up requests
+n6481-high1,6481,high,1,0.0098,Assistant sign-offs and offers
+n9838-high0,9838,high,0,0.0097,Follow-up requests
+n8143-low1,8143,low,1,0.0097,Assistant turn openers
+n10498-low1,10498,low,1,0.0096,Assistant turn openers
+n9386-high2,9386,high,2,0.0096,Citations and numeric fragments
+n8423-high2,8423,high,2,0.0094,Tense dark fiction narration
+n3481-low1,3481,low,1,0.0093,Human/user turn markers
+n7076-low1,7076,low,1,0.0092,Follow-up requests
+n4295-low0,4295,low,0,0.0091,Neutral encyclopedic exposition
+n5226-low2,5226,low,2,0.0091,Human/user turn markers
+n5907-high0,5907,high,0,0.0091,Tense dark fiction narration
+n3481-low4,3481,low,4,0.0091,Tense dark fiction narration
+n400-high0,400,high,0,0.0089,Social and political commentary
+n7242-low0,7242,low,0,0.0089,Assistant sign-offs and offers
+n7242-low3,7242,low,3,0.0089,Human/user turn markers
+n9203-low0,9203,low,0,0.0088,Self-help and moral advice
+n2275-high2,2275,high,2,0.0088,Fiction dialogue punctuation
+n1788-low2,1788,low,2,0.0088,Mid-sentence function words
+n8821-high1,8821,high,1,0.0088,Tense dark fiction narration
+n4041-low3,4041,low,3,0.0087,Tense dark fiction narration
+n5519-low0,5519,low,0,0.0086,Neutral encyclopedic exposition
+n8291-high2,8291,high,2,0.0086,Fiction dialogue punctuation
+n4766-low0,4766,low,0,0.0086,Practical how-to and recipes
+n1420-low0,1420,low,0,0.0085,Mid-sentence function words
+n4752-high4,4752,high,4,0.0084,Assistant turn openers
+n7426-high1,7426,high,1,0.0083,Neutral encyclopedic exposition
+n8991-high1,8991,high,1,0.0083,Follow-up requests
+n8111-high2,8111,high,2,0.0083,Neutral encyclopedic exposition
+n6039-low3,6039,low,3,0.0082,Follow-up requests
+n9203-low4,9203,low,4,0.0082,Mid-sentence function words
+n836-high1,836,high,1,0.0082,Assistant turn openers
+n8288-low2,8288,low,2,0.0082,Assistant turn openers
+n1788-low1,1788,low,1,0.0082,Citations and numeric fragments
+n3481-low2,3481,low,2,0.008,Sentence-final periods and spacing
+n3281-low2,3281,low,2,0.0079,Mid-sentence function words
+n1281-low1,1281,low,1,0.0079,Practical how-to and recipes
+n222-low0,222,low,0,0.0079,Assistant turn openers
+n276-high1,276,high,1,0.0078,Assistant turn openers
+n2187-high1,2187,high,1,0.0077,Sentence-final periods and spacing
+n5226-low0,5226,low,0,0.0077,Sentence-final periods and spacing
+n2639-high0,2639,high,0,0.0077,Mid-sentence function words
+n902-high1,902,high,1,0.0077,Assistant turn openers
+n8497-high0,8497,high,0,0.0077,Mid-sentence function words
+n9671-low1,9671,low,1,0.0076,Mid-sentence function words
+n596-high1,596,high,1,0.0074,Fiction dialogue punctuation
+n4250-low1,4250,low,1,0.0074,Assistant sign-offs and offers
+n7916-high2,7916,high,2,0.0073,Assistant turn openers
+n9685-high1,9685,high,1,0.0073,Assistant turn openers
+n5519-low2,5519,low,2,0.0072,Mid-sentence function words
+n6081-low1,6081,low,1,0.0071,Assistant turn openers
+n8641-high3,8641,high,3,0.007,Assistant turn openers
+n596-high2,596,high,2,0.007,Assistant turn openers
+n1857-low0,1857,low,0,0.007,Citations and numeric fragments
+n1258-low5,1258,low,5,0.0069,Neutral encyclopedic exposition
+n9388-low0,9388,low,0,0.0068,Sentence-final periods and spacing
+n3033-low1,3033,low,1,0.0068,Practical how-to and recipes
+n8789-low4,8789,low,4,0.0068,Sentence-final periods and spacing
+n9838-high1,9838,high,1,0.0067,Practical how-to and recipes
+n9838-high2,9838,high,2,0.0067,Tense dark fiction narration
+n4447-low0,4447,low,0,0.0065,Practical how-to and recipes
+n5709-low1,5709,low,1,0.0065,Fiction dialogue punctuation
+n9542-high1,9542,high,1,0.0065,Fiction dialogue punctuation
+n2782-low1,2782,low,1,0.0064,Fiction dialogue punctuation
+n7438-low1,7438,low,1,0.0064,Human/user turn markers
+n8497-high1,8497,high,1,0.0063,Citations and numeric fragments
+n4976-high0,4976,high,0,0.0063,Tense dark fiction narration
+n8172-low1,8172,low,1,0.0063,Assistant turn openers
+n9541-high0,9541,high,0,0.0063,Human/user turn markers
+n8423-high0,8423,high,0,0.0063,Safety and risk advice
+n317-low1,317,low,1,0.0063,Assistant turn openers
+n3581-high5,3581,high,5,0.0062,Human/user turn markers
+n10742-low0,10742,low,0,0.0062,Citations and numeric fragments
+n4856-high0,4856,high,0,0.0061,Assistant turn openers
+n1162-low1,1162,low,1,0.0061,Tense dark fiction narration
+n197-high0,197,high,0,0.0061,Tense dark fiction narration
+n10711-high0,10711,high,0,0.0061,Fiction dialogue punctuation
+n4284-low4,4284,low,4,0.006,Sentence-final periods and spacing
+n2032-low2,2032,low,2,0.006,Neutral encyclopedic exposition
+n6039-low1,6039,low,1,0.0059,Assistant turn openers
+n4636-low2,4636,low,2,0.0058,Fiction dialogue punctuation
+n1355-high1,1355,high,1,0.0057,Tense dark fiction narration
+n6106-low0,6106,low,0,0.0057,Lists of examples
+n1693-high0,1693,high,0,0.0056,Hedged opinion on contested issues
+n262-low0,262,low,0,0.0056,Assistant turn openers
+n3067-high0,3067,high,0,0.0055,Assistant turn openers
+n5608-high0,5608,high,0,0.0055,Tense dark fiction narration
+n7222-high1,7222,high,1,0.0055,Assistant turn openers
+n3048-high4,3048,high,4,0.0054,Fiction dialogue punctuation
+n4851-low1,4851,low,1,0.0054,Fiction dialogue punctuation
+n10816-high1,10816,high,1,0.0054,Assistant turn openers
+n2032-low0,2032,low,0,0.0053,Mid-sentence function words
+n7145-low1,7145,low,1,0.0052,Hedged opinion on contested issues
+n3048-high1,3048,high,1,0.0052,Assistant turn openers
+n10857-low3,10857,low,3,0.0052,Citations and numeric fragments
+n7213-low1,7213,low,1,0.0052,Human/user turn markers
+n4394-low1,4394,low,1,0.0052,Assistant turn openers
+n1258-low1,1258,low,1,0.0051,Neutral encyclopedic exposition
+n1258-low4,1258,low,4,0.0051,Sentence-final periods and spacing
+n7696-low7,7696,low,7,0.0051,Citations and numeric fragments
+n3799-low2,3799,low,2,0.005,Human/user turn markers
+n3067-high5,3067,high,5,0.005,Sentence-final periods and spacing
+n9577-high1,9577,high,1,0.005,Emotional first-person narration
+n3206-low4,3206,low,4,0.0049,Fiction dialogue punctuation
+n7806-low0,7806,low,0,0.0049,Assistant turn openers
+n4902-high1,4902,high,1,0.0049,Mid-sentence function words
+n1036-high1,1036,high,1,0.0049,Sentence-final periods and spacing
+n4998-low1,4998,low,1,0.0049,Assistant turn openers
+n6664-low1,6664,low,1,0.0049,Assistant turn openers
+n6110-high0,6110,high,0,0.0048,Mid-sentence function words
+n8346-low1,8346,low,1,0.0048,Human/user turn markers
+n9589-high0,9589,high,0,0.0047,Assistant turn openers
+n1258-low2,1258,low,2,0.0047,Tense dark fiction narration
+n1258-low6,1258,low,6,0.0047,Mid-sentence function words
+n5526-low1,5526,low,1,0.0047,Assistant turn openers
+n4041-low1,4041,low,1,0.0047,Fiction dialogue punctuation
+n8751-low1,8751,low,1,0.0045,Assistant turn openers
+n3067-high1,3067,high,1,0.0045,Lists of examples
+n4486-high1,4486,high,1,0.0045,Self-help and moral advice
+n9541-high1,9541,high,1,0.0045,Tense dark fiction narration
+n9685-high2,9685,high,2,0.0045,Assistant turn openers
+n8288-low0,8288,low,0,0.0045,Mid-sentence function words
+n8172-low2,8172,low,2,0.0044,Assistant disclaimers of limits
+n10850-high1,10850,high,1,0.0044,Assistant turn openers
+n10180-low1,10180,low,1,0.0044,Practical how-to and recipes
+n2421-high2,2421,high,2,0.0044,Mid-sentence function words
+n4752-high0,4752,high,0,0.0044,Human/user turn markers
+n7696-low1,7696,low,1,0.0044,Lists of examples
+n1442-high1,1442,high,1,0.0044,Safety and risk advice
+n8641-high2,8641,high,2,0.0043,Mid-sentence function words
+n4284-low5,4284,low,5,0.0043,Sentence-final periods and spacing
+n5131-high4,5131,high,4,0.0042,Practical how-to and recipes
+n4752-high1,4752,high,1,0.0042,Fiction dialogue punctuation
+n8789-low0,8789,low,0,0.0042,Fiction dialogue punctuation
+n6390-high2,6390,high,2,0.0042,Illegal or harmful conduct topics
+n5583-low1,5583,low,1,0.0042,Fiction dialogue punctuation
+n9685-high0,9685,high,0,0.0041,Human/user turn markers
+n1788-low0,1788,low,0,0.0041,Tense dark fiction narration
+n10857-low0,10857,low,0,0.0041,Emotional first-person narration
+n6106-low2,6106,low,2,0.0041,Assistant turn openers
+n4521-high1,4521,high,1,0.004,Safety and risk advice
+n7696-low3,7696,low,3,0.004,Fiction dialogue punctuation
+n2040-low1,2040,low,1,0.004,Citations and numeric fragments
+n4041-low0,4041,low,0,0.004,Neutral encyclopedic exposition
+n3013-high1,3013,high,1,0.004,Human/user turn markers
+n9646-high0,9646,high,0,0.004,Emotional first-person narration
+n3809-low3,3809,low,3,0.004,Self-help and moral advice
+n10039-high1,10039,high,1,0.004,Follow-up requests
+n1258-low0,1258,low,0,0.004,Sentence-final periods and spacing
+n3048-high0,3048,high,0,0.004,Human/user turn markers
+n4657-low0,4657,low,0,0.0039,Neutral encyclopedic exposition
+n6039-low0,6039,low,0,0.0039,Assistant sign-offs and offers
+n9180-low2,9180,low,2,0.0039,Fiction dialogue punctuation
+n9541-high3,9541,high,3,0.0039,Neutral encyclopedic exposition
+n2924-high1,2924,high,1,0.0039,Assistant turn openers
+n2574-low2,2574,low,2,0.0039,Human/user turn markers
+n2579-high1,2579,high,1,0.0039,Human/user turn markers
+n9945-low1,9945,low,1,0.0038,Assistant turn openers
+n7530-high2,7530,high,2,0.0038,Fiction dialogue punctuation
+n4041-low2,4041,low,2,0.0038,Human/user turn markers
+n6874-low1,6874,low,1,0.0038,Assistant turn openers
+n5077-high1,5077,high,1,0.0038,Tense dark fiction narration
+n4447-low2,4447,low,2,0.0037,Mid-sentence function words
+n9589-high2,9589,high,2,0.0037,Mid-sentence function words
+n7369-high1,7369,high,1,0.0037,Emotional first-person narration
+n7696-low2,7696,low,2,0.0037,Human/user turn markers
+n5131-high1,5131,high,1,0.0037,Fiction dialogue punctuation
+n5131-high3,5131,high,3,0.0037,Tense dark fiction narration
+n3809-low0,3809,low,0,0.0037,Assistant turn openers
+n8641-high1,8641,high,1,0.0036,Emotional first-person narration
+n7242-low1,7242,low,1,0.0036,Assistant turn openers
+n1258-low3,1258,low,3,0.0036,Mid-sentence function words
+n1600-low1,1600,low,1,0.0035,Sentence-final periods and spacing
+n3013-high3,3013,high,3,0.0035,Assistant sign-offs and offers
+n7461-low0,7461,low,0,0.0035,Fiction dialogue punctuation
+n6348-low1,6348,low,1,0.0035,Citations and numeric fragments
+n2348-high1,2348,high,1,0.0035,Emotional first-person narration
+n4284-low0,4284,low,0,0.0035,Lists of examples
+n7488-low1,7488,low,1,0.0034,Human/user turn markers
+n7696-low9,7696,low,9,0.0034,Human/user turn markers
+n7001-high1,7001,high,1,0.0034,Social and political commentary
+n9685-high3,9685,high,3,0.0033,Fiction dialogue punctuation
+n4541-low1,4541,low,1,0.0033,Mid-sentence function words
+n3621-low1,3621,low,1,0.0033,Mid-sentence function words
+n5226-low4,5226,low,4,0.0033,Tense dark fiction narration
+n3013-high0,3013,high,0,0.0033,Assistant turn openers
+n9006-high1,9006,high,1,0.0033,Emotional first-person narration
+n3067-high3,3067,high,3,0.0032,Follow-up requests
+n5077-high2,5077,high,2,0.0032,Sentence-final periods and spacing
+n2162-high3,2162,high,3,0.0032,Self-help and moral advice
+n6535-high1,6535,high,1,0.0032,Lists of examples
+n921-high2,921,high,2,0.0032,Human/user turn markers
+n63-low2,63,low,2,0.0032,Mid-sentence function words
+n2859-low0,2859,low,0,0.0032,Neutral encyclopedic exposition
+n2750-high0,2750,high,0,0.0032,Fiction dialogue punctuation
+n8498-high1,8498,high,1,0.0031,Citations and numeric fragments
+n9314-low0,9314,low,0,0.0031,Assistant turn openers
+n125-high0,125,high,0,0.0031,Follow-up requests
+n7132-low0,7132,low,0,0.003,Human/user turn markers
+n5226-low3,5226,low,3,0.003,Fiction dialogue punctuation
+n1224-low0,1224,low,0,0.003,Assistant turn openers
+n3206-low3,3206,low,3,0.003,Emotional first-person narration
+n3481-low0,3481,low,0,0.003,Follow-up requests
+n1443-high2,1443,high,2,0.003,Neutral encyclopedic exposition
+n4657-low2,4657,low,2,0.003,Neutral encyclopedic exposition
+n9685-high4,9685,high,4,0.003,Human/user turn markers
+n7461-low2,7461,low,2,0.003,Tense dark fiction narration
+n1693-high1,1693,high,1,0.003,Neutral encyclopedic exposition
+n6183-high3,6183,high,3,0.003,Assistant sign-offs and offers
+n5971-low1,5971,low,1,0.0029,Assistant turn openers
+n8821-high2,8821,high,2,0.0029,Assistant turn openers
+n1176-high0,1176,high,0,0.0029,Neutral encyclopedic exposition
+n2859-low2,2859,low,2,0.0029,Safety and risk advice
+n10404-high1,10404,high,1,0.0029,Assistant turn openers
+n7527-low3,7527,low,3,0.0029,Fiction dialogue punctuation
+n8789-low2,8789,low,2,0.0029,Fiction dialogue punctuation
+n9438-high0,9438,high,0,0.0029,Assistant turn openers
+n9438-high3,9438,high,3,0.0029,Emotional first-person narration
+n7853-high1,7853,high,1,0.0028,Assistant sign-offs and offers
+n5131-high0,5131,high,0,0.0028,Human/user turn markers
+n6250-low1,6250,low,1,0.0028,Practical how-to and recipes
+n3621-low0,3621,low,0,0.0028,Mid-sentence function words
+n3046-high1,3046,high,1,0.0028,Safety and risk advice
+n47-high1,47,high,1,0.0028,Fiction dialogue punctuation
+n9685-high7,9685,high,7,0.0028,Tense dark fiction narration
+n3419-high0,3419,high,0,0.0028,Neutral encyclopedic exposition
+n1117-low1,1117,low,1,0.0028,Follow-up requests
+n2624-high1,2624,high,1,0.0028,Self-help and moral advice
+n317-low2,317,low,2,0.0028,Assistant turn openers
+n3067-high2,3067,high,2,0.0027,Human/user turn markers
+n3048-high2,3048,high,2,0.0027,Lists of examples
+n6374-high0,6374,high,0,0.0027,Assistant turn openers
+n3843-low1,3843,low,1,0.0027,Emotional first-person narration
+n3843-low3,3843,low,3,0.0027,Follow-up requests
+n6808-low2,6808,low,2,0.0026,Emotional first-person narration
+n9075-low1,9075,low,1,0.0026,Assistant turn openers
+n995-high1,995,high,1,0.0026,Human/user turn markers
+n8008-low1,8008,low,1,0.0026,Lists of examples
+n4169-low1,4169,low,1,0.0026,Emotional first-person narration
+n5904-low2,5904,low,2,0.0026,Assistant turn openers
+n3581-high0,3581,high,0,0.0025,Human/user turn markers
+n3581-high1,3581,high,1,0.0025,Assistant turn openers
+n857-low0,857,low,0,0.0025,Assistant turn openers
+n7169-low0,7169,low,0,0.0025,Human/user turn markers
+n7132-low2,7132,low,2,0.0025,Human/user turn markers
+n8641-high0,8641,high,0,0.0025,Self-help and moral advice
+n8641-high4,8641,high,4,0.0025,Social and political commentary
+n3206-low6,3206,low,6,0.0025,Self-help and moral advice
+n6808-low0,6808,low,0,0.0025,Tense dark fiction narration
+n4041-low4,4041,low,4,0.0025,Neutral encyclopedic exposition
+n262-low2,262,low,2,0.0024,Human/user turn markers
+n1505-high2,1505,high,2,0.0024,Human/user turn markers
+n4752-high3,4752,high,3,0.0024,Assistant turn openers
+n10619-high1,10619,high,1,0.0024,Assistant turn openers
+n7530-high0,7530,high,0,0.0024,Assistant turn openers
+n7206-high0,7206,high,0,0.0024,Emotional first-person narration
+n6132-low1,6132,low,1,0.0023,Practical how-to and recipes
+n3039-low1,3039,low,1,0.0023,Assistant turn openers
+n3799-low1,3799,low,1,0.0023,Lists of examples
+n3581-high3,3581,high,3,0.0023,Neutral encyclopedic exposition
+n2924-high0,2924,high,0,0.0023,Human/user turn markers
+n7169-low2,7169,low,2,0.0023,Assistant sign-offs and offers
+n4301-high0,4301,high,0,0.0023,Emotional first-person narration
+n2574-low0,2574,low,0,0.0023,Fiction dialogue punctuation
+n6250-low0,6250,low,0,0.0023,Sentence-final periods and spacing
+n8349-low2,8349,low,2,0.0023,Fiction dialogue punctuation
+n3503-low1,3503,low,1,0.0023,Sentence-final periods and spacing
+n5904-low0,5904,low,0,0.0023,Human/user turn markers
+n5701-high1,5701,high,1,0.0023,Tense dark fiction narration
+n10504-low1,10504,low,1,0.0023,Assistant turn openers
+n1159-high0,1159,high,0,0.0023,Assistant turn openers
+n574-high1,574,high,1,0.0022,Sentence-final periods and spacing
+n9180-low0,9180,low,0,0.0022,Self-help and moral advice
+n10619-high2,10619,high,2,0.0022,Assistant turn openers
+n6731-low1,6731,low,1,0.0022,Mid-sentence function words
+n7527-low2,7527,low,2,0.0022,Fiction dialogue punctuation
+n10925-high1,10925,high,1,0.0022,Assistant turn openers
+n7672-high1,7672,high,1,0.0022,Emotional first-person narration
+n8612-low1,8612,low,1,0.0022,Fiction dialogue punctuation
+n9438-high2,9438,high,2,0.0022,Sentence-final periods and spacing
+n7504-high1,7504,high,1,0.0022,Assistant turn openers
+n6390-high0,6390,high,0,0.0022,Social and political commentary
+n3809-low1,3809,low,1,0.0022,Assistant turn openers
+n10102-low1,10102,low,1,0.0021,Fiction dialogue punctuation
+n4187-low1,4187,low,1,0.0021,Human/user turn markers
+n9068-low1,9068,low,1,0.0021,Citations and numeric fragments
+n2893-low1,2893,low,1,0.0021,Assistant turn openers
+n6250-low2,6250,low,2,0.0021,Mid-sentence function words
+n3621-low3,3621,low,3,0.0021,Tense dark fiction narration
+n2040-low0,2040,low,0,0.0021,Emotional first-person narration
+n9714-high0,9714,high,0,0.0021,Human/user turn markers
+n4519-low1,4519,low,1,0.0021,Mid-sentence function words
+n1025-low1,1025,low,1,0.0021,Tense dark fiction narration
+n1159-high2,1159,high,2,0.002,Assistant turn openers
+n9685-high6,9685,high,6,0.002,Tense dark fiction narration
+n5966-low1,5966,low,1,0.002,Assistant turn openers
+n4171-low1,4171,low,1,0.002,Human/user turn markers
+n2202-low1,2202,low,1,0.002,Sentence-final periods and spacing
+n10925-high0,10925,high,0,0.002,Assistant sign-offs and offers
+n10925-high2,10925,high,2,0.002,Assistant turn openers
+n1224-low2,1224,low,2,0.002,Assistant turn openers
+n2750-high2,2750,high,2,0.002,Sentence-final periods and spacing
+n2665-low1,2665,low,1,0.002,Assistant disclaimers of limits
+n4476-low1,4476,low,1,0.002,Assistant turn openers
+n731-high0,731,high,0,0.002,Lists of examples
+n2151-low0,2151,low,0,0.0019,Neutral encyclopedic exposition
+n7890-low0,7890,low,0,0.0019,Safety and risk advice
+n3005-low0,3005,low,0,0.0019,Self-help and moral advice
+n4295-low2,4295,low,2,0.0019,Neutral encyclopedic exposition
+n5728-low2,5728,low,2,0.0019,Fiction dialogue punctuation
+n10925-high4,10925,high,4,0.0019,Assistant turn openers
+n6171-low1,6171,low,1,0.0019,Self-help and moral advice
+n6183-high0,6183,high,0,0.0019,Human/user turn markers
+n1535-low1,1535,low,1,0.0019,Tense dark fiction narration
+n4250-low0,4250,low,0,0.0018,Fiction dialogue punctuation
+n8794-low1,8794,low,1,0.0018,Mid-sentence function words
+n10789-high0,10789,high,0,0.0018,Self-help and moral advice
+n7600-high1,7600,high,1,0.0018,Self-help and moral advice
+n4851-low2,4851,low,2,0.0018,Human/user turn markers
+n9890-low1,9890,low,1,0.0018,Assistant turn openers
+n9708-high2,9708,high,2,0.0018,Lists of examples
+n8458-high0,8458,high,0,0.0018,Assistant turn openers
+n135-high1,135,high,1,0.0018,Fiction dialogue punctuation
+n8740-high2,8740,high,2,0.0018,Assistant turn openers
+n10625-low1,10625,low,1,0.0018,Assistant turn openers
+n6097-high1,6097,high,1,0.0018,Follow-up requests
+n4329-high1,4329,high,1,0.0018,Assistant turn openers
+n9438-high1,9438,high,1,0.0018,Mid-sentence function words
+n1808-low1,1808,low,1,0.0018,Lists of examples
+n4301-high2,4301,high,2,0.0018,Safety and risk advice
+n3059-low0,3059,low,0,0.0018,Human/user turn markers
+n178-low0,178,low,0,0.0017,Assistant turn openers
+n4533-high1,4533,high,1,0.0017,Hedged opinion on contested issues
+n4284-low3,4284,low,3,0.0017,Neutral encyclopedic exposition
+n7916-high0,7916,high,0,0.0017,Assistant turn openers
+n9714-high2,9714,high,2,0.0017,Mid-sentence function words
+n969-low1,969,low,1,0.0017,Self-help and moral advice
+n818-low2,818,low,2,0.0017,Fiction dialogue punctuation
+n5518-high3,5518,high,3,0.0017,Lists of examples
+n313-low0,313,low,0,0.0017,Assistant turn openers
+n10299-low1,10299,low,1,0.0016,Assistant turn openers
+n4329-high0,4329,high,0,0.0016,Human/user turn markers
+n10434-high0,10434,high,0,0.0016,Assistant sign-offs and offers
+n857-low2,857,low,2,0.0016,Fiction dialogue punctuation
+n7339-low1,7339,low,1,0.0016,Human/user turn markers
+n8172-low0,8172,low,0,0.0016,Assistant turn openers
+n2151-low2,2151,low,2,0.0016,Tense dark fiction narration
+n6183-high4,6183,high,4,0.0016,Fiction dialogue punctuation
+n5337-high0,5337,high,0,0.0015,Neutral encyclopedic exposition
+n674-high1,674,high,1,0.0015,Human/user turn markers
+n4933-low1,4933,low,1,0.0015,Fiction dialogue punctuation
+n6477-high1,6477,high,1,0.0015,Neutral encyclopedic exposition
+n8458-high1,8458,high,1,0.0015,Assistant turn openers
+n8458-high3,8458,high,3,0.0015,Hedged opinion on contested issues
+n4250-low3,4250,low,3,0.0015,Fiction dialogue punctuation
+n818-low0,818,low,0,0.0015,Human/user turn markers
+n9859-low0,9859,low,0,0.0015,Neutral encyclopedic exposition
+n9597-low1,9597,low,1,0.0015,Citations and numeric fragments
+n2881-high1,2881,high,1,0.0015,Practical how-to and recipes
+n10067-high0,10067,high,0,0.0015,Practical how-to and recipes
+n9075-low3,9075,low,3,0.0015,Neutral encyclopedic exposition
+n4329-high3,4329,high,3,0.0015,Sentence-final periods and spacing
+n3206-low0,3206,low,0,0.0015,Human/user turn markers
+n3059-low2,3059,low,2,0.0015,Fiction dialogue punctuation
+n1719-low1,1719,low,1,0.0015,Assistant turn openers
+n5518-high6,5518,high,6,0.0015,Practical how-to and recipes
+n5706-low0,5706,low,0,0.0014,Assistant turn openers
+n10434-high2,10434,high,2,0.0014,Practical how-to and recipes
+n9708-high1,9708,high,1,0.0014,Tense dark fiction narration
+n10789-high2,10789,high,2,0.0014,Practical how-to and recipes
+n313-low2,313,low,2,0.0014,Assistant turn openers
+n3206-low2,3206,low,2,0.0014,Fiction dialogue punctuation
+n2924-high3,2924,high,3,0.0014,Self-help and moral advice
+n4458-low1,4458,low,1,0.0014,Tense dark fiction narration
+n6271-high0,6271,high,0,0.0014,Assistant turn openers
+n3688-low1,3688,low,1,0.0013,Sentence-final periods and spacing
+n8172-low4,8172,low,4,0.0013,Assistant sign-offs and offers
+n10331-high1,10331,high,1,0.0013,Follow-up requests
+n6076-high1,6076,high,1,0.0013,Assistant turn openers
+n8660-high1,8660,high,1,0.0013,Fiction dialogue punctuation
+n272-low1,272,low,1,0.0013,Fiction dialogue punctuation
+n1505-high1,1505,high,1,0.0013,Human/user turn markers
+n5751-high1,5751,high,1,0.0013,Assistant turn openers
+n9168-low1,9168,low,1,0.0012,Assistant disclaimers of limits
+n4802-high1,4802,high,1,0.0012,Lists of examples
+n5728-low0,5728,low,0,0.0012,Fiction dialogue punctuation
+n5232-high1,5232,high,1,0.0012,Mid-sentence function words
+n5698-high1,5698,high,1,0.0012,Neutral encyclopedic exposition
+n8740-high0,8740,high,0,0.0012,Assistant disclaimers of limits
+n3206-low5,3206,low,5,0.0012,Sentence-final periods and spacing
+n4509-high1,4509,high,1,0.0012,Follow-up requests
+n7022-high0,7022,high,0,0.0012,Assistant turn openers
+n7988-low1,7988,low,1,0.0012,Assistant turn openers
+n7712-high1,7712,high,1,0.0012,Fiction dialogue punctuation
+n5724-high0,5724,high,0,0.0012,Fiction dialogue punctuation
+n1951-high1,1951,high,1,0.0012,Human/user turn markers
+n4329-high2,4329,high,2,0.0012,Hedged opinion on contested issues
+n752-low1,752,low,1,0.0011,Assistant turn openers
+n7527-low0,7527,low,0,0.0011,Human/user turn markers
+n2421-high0,2421,high,0,0.0011,Neutral encyclopedic exposition
+n6076-high0,6076,high,0,0.0011,Tense dark fiction narration
+n5724-high2,5724,high,2,0.0011,Fiction dialogue punctuation
+n8427-low2,8427,low,2,0.0011,Sentence-final periods and spacing
+n125-high1,125,high,1,0.0011,Sentence-final periods and spacing
+n8290-high0,8290,high,0,0.001,Neutral encyclopedic exposition
+n8290-high1,8290,high,1,0.001,Emotional first-person narration
+n8324-low1,8324,low,1,0.001,Mid-sentence function words
+n6183-high1,6183,high,1,0.001,Assistant sign-offs and offers
+n5518-high1,5518,high,1,0.001,Follow-up requests
+n6230-high1,6230,high,1,0.001,Mid-sentence function words
+n6230-high3,6230,high,3,0.001,Emotional first-person narration
+n6374-high2,6374,high,2,0.001,Assistant sign-offs and offers
+n9386-high1,9386,high,1,0.001,Mid-sentence function words
+n3356-high1,3356,high,1,0.001,Assistant turn openers
+n1857-low1,1857,low,1,0.001,Hedged opinion on contested issues
+n4664-low1,4664,low,1,0.001,Safety and risk advice
+n1951-high2,1951,high,2,0.001,Follow-up requests
+n2016-low1,2016,low,1,0.001,Tense dark fiction narration
+n1972-high1,1972,high,1,0.001,Mid-sentence function words
+n6230-high0,6230,high,0,0.001,Tense dark fiction narration
+n103-high1,103,high,1,0.0009,Human/user turn markers
+n9075-low0,9075,low,0,0.0009,Assistant turn openers
+n456-high1,456,high,1,0.0009,Assistant turn openers
+n6441-high1,6441,high,1,0.0009,Fiction dialogue punctuation
+n4108-high2,4108,high,2,0.0009,Practical how-to and recipes
+n5518-high0,5518,high,0,0.0009,Follow-up requests
+n7203-high1,7203,high,1,0.0009,Assistant turn openers
+n10141-low1,10141,low,1,0.0009,Human/user turn markers
+n125-high3,125,high,3,0.0009,Fiction dialogue punctuation
+n8349-low0,8349,low,0,0.0009,Lists of examples
+n5518-high2,5518,high,2,0.0008,Human/user turn markers
+n10781-high1,10781,high,1,0.0008,Assistant turn openers
+n7022-high2,7022,high,2,0.0008,Citations and numeric fragments
+n4329-high5,4329,high,5,0.0008,Assistant sign-offs and offers
+n7290-low1,7290,low,1,0.0008,Neutral encyclopedic exposition
+n3986-high1,3986,high,1,0.0008,Fiction dialogue punctuation
+n7286-low0,7286,low,0,0.0007,Human/user turn markers
+n5766-low1,5766,low,1,0.0007,Assistant turn openers
+n10206-high1,10206,high,1,0.0007,Assistant sign-offs and offers
+n3276-high1,3276,high,1,0.0007,Assistant turn openers
+n3703-high1,3703,high,1,0.0007,Follow-up requests
+n535-low1,535,low,1,0.0007,Assistant turn openers
+n1443-high0,1443,high,0,0.0007,Neutral encyclopedic exposition
+n10474-low1,10474,low,1,0.0007,Follow-up requests
+n10401-low1,10401,low,1,0.0007,Human/user turn markers
+n9386-high0,9386,high,0,0.0007,Fiction dialogue punctuation
+n9386-high3,9386,high,3,0.0007,Self-help and moral advice
+n8975-low1,8975,low,1,0.0007,Assistant turn openers
+n5623-high1,5623,high,1,0.0007,Follow-up requests
+n5518-high4,5518,high,4,0.0007,Practical how-to and recipes
+n400-high2,400,high,2,0.0007,Sentence-final periods and spacing
+n7448-low1,7448,low,1,0.0007,Mid-sentence function words
+n2269-low1,2269,low,1,0.0006,Neutral encyclopedic exposition
+n5158-low1,5158,low,1,0.0006,Tense dark fiction narration
+n1001-high1,1001,high,1,0.0006,Lists of examples
+n3281-low1,3281,low,1,0.0006,Assistant turn openers
+n8101-low1,8101,low,1,0.0006,Follow-up requests
+n3206-low1,3206,low,1,0.0005,Practical how-to and recipes
+n7006-low2,7006,low,2,0.0005,Human/user turn markers
+n6329-high1,6329,high,1,0.0005,Human/user turn markers
+n6271-high2,6271,high,2,0.0005,Practical how-to and recipes
+n10877-high1,10877,high,1,0.0005,Fiction dialogue punctuation
+n1420-low1,1420,low,1,0.0005,Assistant disclaimers of limits
+n8515-high1,8515,high,1,0.0005,Mid-sentence function words
+n6506-high1,6506,high,1,0.0004,Assistant turn openers
+n2668-low1,2668,low,1,0.0004,Practical how-to and recipes
+n3342-low1,3342,low,1,0.0004,Mid-sentence function words
+n10437-high1,10437,high,1,0.0004,Fiction dialogue punctuation
+n8427-low0,8427,low,0,0.0004,Mid-sentence function words
+n10220-low1,10220,low,1,0.0004,Human/user turn markers
+n400-high1,400,high,1,0.0004,Fiction dialogue punctuation
+n2162-high0,2162,high,0,0.0003,Tense dark fiction narration
+n7006-low0,7006,low,0,0.0003,Fiction dialogue punctuation
+n301-high1,301,high,1,0.0003,Human/user turn markers
+n890-low1,890,low,1,0.0003,Assistant turn openers
+n3281-low0,3281,low,0,0.0003,Safety and risk advice
+n2162-high1,2162,high,1,0.0002,Mid-sentence function words
+n3281-low3,3281,low,3,0.0002,Mid-sentence function words
+n3419-high1,3419,high,1,0.0002,Emotional first-person narration
+n2162-high2,2162,high,2,0.0002,Neutral encyclopedic exposition
+n6110-high1,6110,high,1,0.0002,Sentence-final periods and spacing
+n9388-low1,9388,low,1,0.0002,Assistant turn openers
+n3005-low1,3005,low,1,0.0001,Assistant turn openers
+n4108-high1,4108,high,1,0.0001,Assistant turn openers
+n7890-low1,7890,low,1,0.0001,Fiction dialogue punctuation
+n4108-high0,4108,high,0,0.0,Human/user turn markers
+n4734-low0,4734,low,0,0.0,Fiction dialogue punctuation
+n4734-low1,4734,low,1,0.0,Mid-sentence function words
+n4734-low2,4734,low,2,0.0,Human/user turn markers
+n6046-low0,6046,low,0,-0.0002,Sentence-final periods and spacing
+n6046-low1,6046,low,1,-0.0002,Fiction dialogue punctuation
+n6046-low3,6046,low,3,-0.0002,Fiction dialogue punctuation
+n4788-low1,4788,low,1,-0.0002,Assistant turn openers
+n4788-low2,4788,low,2,-0.0002,Assistant turn openers
+n9077-high1,9077,high,1,-0.0002,Emotional first-person narration
+n9077-high0,9077,high,0,-0.0003,Mid-sentence function words
+n3007-high1,3007,high,1,-0.0003,Assistant turn openers
+n9975-high1,9975,high,1,-0.0004,Human/user turn markers
+n4267-high1,4267,high,1,-0.0005,Sentence-final periods and spacing
+n6724-high2,6724,high,2,-0.0005,Mid-sentence function words
+n9077-high3,9077,high,3,-0.0007,Sentence-final periods and spacing
+n1707-low1,1707,low,1,-0.0008,Practical how-to and recipes
+n4267-high2,4267,high,2,-0.0009,Sentence-final periods and spacing
+n6724-high0,6724,high,0,-0.001,Practical how-to and recipes
+n86-low1,86,low,1,-0.0014,Assistant turn openers
+n9109-high2,9109,high,2,-0.0024,Neutral encyclopedic exposition
+n9109-high3,9109,high,3,-0.0024,Mid-sentence function words
+n3007-high0,3007,high,0,-0.0027,Neutral encyclopedic exposition
+n9077-high2,9077,high,2,-0.0028,Neutral encyclopedic exposition
+n9109-high1,9109,high,1,-0.0036,Citations and numeric fragments
+n6046-low2,6046,low,2,-0.0055,Mid-sentence function words
+n9109-high0,9109,high,0,-0.0056,Sentence-final periods and spacing
+n2822-high1,2822,high,1,-0.0061,Tense dark fiction narration
+n4788-low0,4788,low,0,-0.0066,Mid-sentence function words
+n9975-high0,9975,high,0,-0.0076,Mid-sentence function words
+n2822-high0,2822,high,0,-0.0079,Citations and numeric fragments
+n6724-high1,6724,high,1,-0.0094,Neutral encyclopedic exposition
+n4267-high0,4267,high,0,-0.0156,Sentence-final periods and spacing
+n1707-low0,1707,low,0,-0.0232,Mid-sentence function words
+n86-low0,86,low,0,-0.0566,Sentence-final periods and spacing

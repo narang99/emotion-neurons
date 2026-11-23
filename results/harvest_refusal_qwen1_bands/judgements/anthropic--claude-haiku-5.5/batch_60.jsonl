@@ -1,0 +1,77 @@
+{"neuron":8641,"pole":"high","cluster":0,"mode":"Token 'unify/unite' in historical or fantasy narration about joining things","scene_windows":0,"windows":5,"scene":"Historical and fantasy narration about unifying lands or groups"}
+{"neuron":8641,"pole":"high","cluster":1,"mode":"Verb 'organize' in user requests for tidying or sorting help","scene_windows":0,"windows":5,"scene":"Benign user requests to organize closets, kitchens, lists"}
+{"neuron":8641,"pole":"high","cluster":2,"mode":"Words 'divide/division' denoting splitting groups or communities","scene_windows":0,"windows":5,"scene":"Historical politics, Cold War, social and technological division"}
+{"neuron":8641,"pole":"high","cluster":3,"mode":"Verb 'connect' describing linking people or audiences","scene_windows":0,"windows":5,"scene":"Team-building, social networking, and marketing advice"}
+{"neuron":8641,"pole":"high","cluster":4,"mode":"Physical description verbs: beading, sagging, curling, crinkling skin or hair","scene_windows":0,"windows":5,"scene":"Grotesque or eerie fiction describing bodies and faces"}
+{"neuron":8641,"pole":"high","cluster":5,"mode":"Article 'a' after verbs like foster, create, or form","scene_windows":0,"windows":5,"scene":"Expository text on community, family, and creative building"}
+{"neuron":8641,"pole":"high","cluster":6,"mode":"Facial expression verbs: smiles, smirked, beamed, smiling","scene_windows":0,"windows":5,"scene":"Romantic or dialogue fiction with characters' facial reactions"}
+{"neuron":8641,"pole":"low","cluster":0,"mode":"Noun 'role' in phrases about significance or function","scene_windows":0,"windows":5,"scene":"Academic and policy text on roles of architecture, government, therapy"}
+{"neuron":8641,"pole":"low","cluster":1,"mode":"Nouns 'connection/link/relationship' between two concepts","scene_windows":0,"windows":5,"scene":"Research news and studies linking health, literature, or science topics"}
+{"neuron":8641,"pole":"low","cluster":2,"mode":"Noun 'difference' opening comparison questions","scene_windows":0,"windows":5,"scene":"User questions asking to compare two items"}
+{"neuron":8641,"pole":"low","cluster":3,"mode":"'difference(s)' stating the key contrast in explanations","scene_windows":0,"windows":5,"scene":"Assistant explanations contrasting two things"}
+{"neuron":2269,"pole":"high","cluster":0,"mode":"Token at a sentence or phrase boundary before a continuation in technical or recipe text","scene_windows":0,"windows":5,"scene":"Math, product, SEO, and recipe instructional text"}
+{"neuron":2269,"pole":"high","cluster":1,"mode":"Preposition 'to' or 'the' after 'add element' in code explanations","scene_windows":0,"windows":5,"scene":"Programming explanations of loops summing array elements"}
+{"neuron":2269,"pole":"low","cluster":0,"mode":"French 'des' within bibliography titles about theories and groups","scene_windows":0,"windows":5,"scene":"Mathematics bibliography listing French and English book titles"}
+{"neuron":2269,"pole":"low","cluster":1,"mode":"Function words like 'the', 'to', 'that', 'should' mid-clause in essays","scene_windows":0,"windows":5,"scene":"Expository essays on policy, emotions, sports, and news"}
+{"neuron":2269,"pole":"low","cluster":2,"mode":"Partial word fragments inside French and math bibliography titles","scene_windows":0,"windows":5,"scene":"Reference lists of French mathematics books and reviews"}
+{"neuron":8427,"pole":"high","cluster":0,"mode":"Conditional 'If' or 'be' opening advice clauses","scene_windows":0,"windows":5,"scene":"Advice text on careers, skin treatment, and personality"}
+{"neuron":8427,"pole":"high","cluster":1,"mode":"Colon after 'Human' in dialogue transcripts","scene_windows":0,"windows":5,"scene":"Chat transcripts on health, technology, and relativity"}
+{"neuron":8427,"pole":"low","cluster":0,"mode":"Word 'other' within lists of similar categories","scene_windows":0,"windows":5,"scene":"Expository text on climate, sociology, cars, and crops"}
+{"neuron":8427,"pole":"low","cluster":1,"mode":"Gerund 'having' starting a clause about effects","scene_windows":0,"windows":5,"scene":"Explanations on maintenance, politics, and reading enjoyment"}
+{"neuron":8427,"pole":"low","cluster":2,"mode":"Intensifiers like 'quite', 'very', 'really' in hedged advice","scene_windows":0,"windows":5,"scene":"Assistant advice on hydration, family, and personality"}
+{"neuron":8427,"pole":"low","cluster":3,"mode":"Filler 'you know' in spoken dialogue","scene_windows":0,"windows":5,"scene":"Casual dialogue between characters in fiction"}
+{"neuron":8427,"pole":"low","cluster":4,"mode":"Preposition after 'popular or valued' to a group of people","scene_windows":0,"windows":5,"scene":"Text on sports fans, Roman populace, and audiences"}
+{"neuron":8427,"pole":"low","cluster":5,"mode":"Article 'the' before a measured quantity or system","scene_windows":0,"windows":5,"scene":"Technical explanations of slope, osmosis, and memory frequency"}
+{"neuron":8427,"pole":"low","cluster":6,"mode":"Sentence-final punctuation or space after caveat sentences","scene_windows":0,"windows":5,"scene":"Expository text on bartending, sports, meat, and storks"}
+{"neuron":8427,"pole":"low","cluster":7,"mode":"Preposition 'in' after 'grown' or 'cultivated' for locations","scene_windows":0,"windows":5,"scene":"Botany text on perennials and crop cultivation regions"}
+{"neuron":8427,"pole":"low","cluster":8,"mode":"Preposition 'in' after superlative or prominence phrases","scene_windows":0,"windows":5,"scene":"Facts on music charts, oil consumption, holidays, and attractions"}
+{"neuron":8427,"pole":"low","cluster":9,"mode":"Word 'chopped' or 'diced' in recipe ingredient lists","scene_windows":0,"windows":5,"scene":"Cooking recipes listing chopped vegetables and toppings"}
+{"neuron":8427,"pole":"low","cluster":10,"mode":"Prepositions 'in', 'with', 'the' inside cooking instructions","scene_windows":0,"windows":5,"scene":"Recipe steps for sautéing, mixing, and tossing ingredients"}
+{"neuron":8497,"pole":"high","cluster":0,"mode":"Match-arm arrow '->' in recursive Fibonacci code","scene_windows":0,"windows":5,"scene":"OCaml and Fibonacci list programming code"}
+{"neuron":8497,"pole":"high","cluster":1,"mode":"Past participle 'made' describing what something is composed of","scene_windows":0,"windows":5,"scene":"Descriptions of fabrics, dishes, and recipes"}
+{"neuron":8497,"pole":"high","cluster":2,"mode":"Equals sign in 'Effective address =' definitions","scene_windows":0,"windows":5,"scene":"Processor addressing-mode tables and definitions"}
+{"neuron":8497,"pole":"high","cluster":3,"mode":"Word 'version' after 'an updated' in revision responses","scene_windows":0,"windows":5,"scene":"Assistant revising posts, code, and stories on request"}
+{"neuron":8497,"pole":"high","cluster":4,"mode":"Article 'the' after 'Here is' introducing revised content","scene_windows":0,"windows":5,"scene":"Assistant delivering updated designs, code, and screenplays"}
+{"neuron":8497,"pole":"high","cluster":5,"mode":"'is' or 'here' introducing an edited or updated output","scene_windows":0,"windows":5,"scene":"Assistant providing edited stories, emails, and designs"}
+{"neuron":8497,"pole":"high","cluster":6,"mode":"Assorted punctuation and prepositions at clause boundaries in prose","scene_windows":0,"windows":5,"scene":"Mixed expository text on history, health, and services"}
+{"neuron":8497,"pole":"high","cluster":7,"mode":"Assignment '=' in code or formula definitions","scene_windows":0,"windows":5,"scene":"Temperature conversion and scraping code"}
+{"neuron":8497,"pole":"low","cluster":0,"mode":"Adjectives and articles mid-sentence in informal or historical prose","scene_windows":0,"windows":5,"scene":"Essays on home comfort, postal history, and law"}
+{"neuron":8497,"pole":"low","cluster":1,"mode":"Minus sign in recursive or factorial formulas","scene_windows":0,"windows":5,"scene":"Recursive factorial and Fibonacci code and definitions"}
+{"neuron":1258,"pole":"high","cluster":0,"mode":"Numeric and punctuation tokens inside Nature journal citations","scene_windows":0,"windows":5,"scene":"Academic reference lists citing Nature articles"}
+{"neuron":1258,"pole":"high","cluster":1,"mode":"Article 'the' before a place, policy, or group","scene_windows":0,"windows":5,"scene":"History and policy text on Canada, Glasgow, and suffrage"}
+{"neuron":1258,"pole":"high","cluster":2,"mode":"DOI digits and periods in citation identifiers","scene_windows":0,"windows":5,"scene":"Reference lists with doi and Nature citations"}
+{"neuron":1258,"pole":"high","cluster":3,"mode":"Numeric measurement digits inside parentheses","scene_windows":0,"windows":5,"scene":"Measurements of parts, kangaroos, and obesity thresholds"}
+{"neuron":1258,"pole":"high","cluster":4,"mode":"Opening parenthesis before metric conversions","scene_windows":0,"windows":5,"scene":"Imperial units followed by metric equivalents"}
+{"neuron":1258,"pole":"low","cluster":0,"mode":"Sentence-final period closing a claim in essays","scene_windows":0,"windows":5,"scene":"Historical and symbolic essays on law and nature"}
+{"neuron":1258,"pole":"low","cluster":1,"mode":"Periods ending entries in nutrition bibliographies","scene_windows":0,"windows":5,"scene":"Reference lists on diet and socioeconomic studies"}
+{"neuron":456,"pole":"high","cluster":0,"mode":"Possessive 'your' or 'my' before 'issue' or 'concern' in customer replies","scene_windows":0,"windows":5,"scene":"Customer service emails about resolving issues"}
+{"neuron":456,"pole":"high","cluster":1,"mode":"'items' and 'that' in meeting follow-up email instructions","scene_windows":0,"windows":5,"scene":"Drafting professional meeting follow-up emails"}
+{"neuron":456,"pole":"high","cluster":2,"mode":"'the', 'contain', 'all' in product backlog and sprint guidance","scene_windows":0,"windows":5,"scene":"Agile sprint planning and backlog advice"}
+{"neuron":456,"pole":"high","cluster":3,"mode":"Function words in narrative and assistant replies","scene_windows":0,"windows":5,"scene":"Mixed narration, history, and assistant replies"}
+{"neuron":456,"pole":"high","cluster":4,"mode":"Word 'feedback' in customer-appreciation closings","scene_windows":0,"windows":5,"scene":"Business replies thanking customers for feedback"}
+{"neuron":456,"pole":"low","cluster":0,"mode":"Colon after 'Human' or 'user' in chat transcripts","scene_windows":0,"windows":5,"scene":"Multi-turn chat transcripts on varied topics"}
+{"neuron":456,"pole":"low","cluster":1,"mode":"Verb 'tell' in direct requests or emotional speech","scene_windows":0,"windows":5,"scene":"Dialogue urging someone to talk or share"}
+{"neuron":456,"pole":"low","cluster":2,"mode":"Opening quotation marks starting dialogue after action","scene_windows":0,"windows":5,"scene":"Fiction with tense action, guns, and sudden dialogue"}
+{"neuron":456,"pole":"low","cluster":3,"mode":"Verb 'tell' in 'Can you tell me' requests","scene_windows":0,"windows":5,"scene":"User requests for information about places or topics"}
+{"neuron":456,"pole":"low","cluster":4,"mode":"Pronoun 'me' after imperative 'tell' in confrontations","scene_windows":0,"windows":5,"scene":"Fiction dialogue demanding answers from characters"}
+{"neuron":456,"pole":"low","cluster":5,"mode":"Word 'know' in closing offers of further help","scene_windows":0,"windows":5,"scene":"Assistant closing lines offering further questions"}
+{"neuron":456,"pole":"low","cluster":6,"mode":"Question word 'What' opening direct speech","scene_windows":0,"windows":5,"scene":"Tense dialogue in fiction and emergencies"}
+{"neuron":456,"pole":"low","cluster":7,"mode":"Verb 'make' or 'making' before action or reservation","scene_windows":0,"windows":5,"scene":"Instructions, suspense narration, and booking advice"}
+{"neuron":456,"pole":"low","cluster":8,"mode":"Whitespace or indentation tokens after narrative lines","scene_windows":0,"windows":5,"scene":"Narrative fiction with paragraph breaks"}
+{"neuron":456,"pole":"low","cluster":9,"mode":"First-person pronoun 'I' starting narrative sentences","scene_windows":0,"windows":5,"scene":"First-person fiction narration of surreal or tense scenes"}
+{"neuron":456,"pole":"low","cluster":10,"mode":"First-person 'I' opening spoken lines in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with characters refusing or declaring"}
+{"neuron":456,"pole":"low","cluster":11,"mode":"Verb 'heard' after 'she' or 'Lena' in suspense narration","scene_windows":0,"windows":5,"scene":"Suspenseful fiction describing sounds and scares"}
+{"neuron":456,"pole":"low","cluster":12,"mode":"Mixed prepositions and nouns in informational prose","scene_windows":0,"windows":5,"scene":"Essays on Amazon climate, journalism, and AI"}
+{"neuron":456,"pole":"low","cluster":13,"mode":"Conditional 'if' after 'let me know'","scene_windows":0,"windows":5,"scene":"Assistant closing lines inviting further questions"}
+{"neuron":103,"pole":"high","cluster":0,"mode":"Colon after 'Human' starting a new dialogue turn","scene_windows":0,"windows":5,"scene":"Chat transcripts on fungi, skills gap, and awards"}
+{"neuron":103,"pole":"high","cluster":1,"mode":"'you' in 'Can you' request openings","scene_windows":0,"windows":5,"scene":"User requests to summarize, write, or explain"}
+{"neuron":103,"pole":"high","cluster":2,"mode":"Comma after author surnames in PubMed citations","scene_windows":0,"windows":5,"scene":"PubMed reference lists of author names"}
+{"neuron":103,"pole":"high","cluster":3,"mode":"\"Can/Could\" opening a user's follow-up request after a comment","scene_windows":0,"windows":5,"scene":"Users requesting follow-up tips on recipes and writing"}
+{"neuron":103,"pole":"high","cluster":4,"mode":"Closing courtesy phrases inviting further contact or questions","scene_windows":0,"windows":5,"scene":"Assistant ending polite conversations with open invitations"}
+{"neuron":103,"pole":"high","cluster":5,"mode":"\"here [are]\" introducing a list of suggestions or synonyms","scene_windows":0,"windows":5,"scene":"Assistant introducing tips or lists in helpful answers"}
+{"neuron":103,"pole":"high","cluster":6,"mode":"Question marks ending user questions in multi-turn chats","scene_windows":0,"windows":5,"scene":"User asking follow-up questions about recipes and everyday topics"}
+{"neuron":103,"pole":"high","cluster":7,"mode":"Comma after a word in etymology or dictionary-style definitions","scene_windows":0,"windows":5,"scene":"Etymology and dictionary-style word origin descriptions"}
+{"neuron":103,"pole":"high","cluster":8,"mode":"Determiners and prepositions mid-clause in neutral expository prose","scene_windows":0,"windows":5,"scene":"Neutral informational text on projects, science, and policy"}
+{"neuron":103,"pole":"high","cluster":9,"mode":"Mid-token splits inside URLs and web addresses","scene_windows":0,"windows":5,"scene":"Reference links to government and driving resources"}
+{"neuron":103,"pole":"low","cluster":0,"mode":"Function words and punctuation in helpful advisory prose","scene_windows":0,"windows":5,"scene":"Health, education and lifestyle advice passages"}
+{"neuron":103,"pole":"low","cluster":1,"mode":"Digits inside journal citation page and volume numbers","scene_windows":0,"windows":5,"scene":"Academic reference lists citing medical journals"}
