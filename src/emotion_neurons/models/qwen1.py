@@ -21,6 +21,8 @@ from safetensors import safe_open
 from torch import Tensor
 from transformers import AutoTokenizer, PreTrainedTokenizerBase, Qwen2Config, Qwen2ForCausalLM
 
+from ..config import Qwen1Model
+
 
 def qwen2_config(q1: dict) -> Qwen2Config:
     heads, hidden = q1["num_attention_heads"], q1["hidden_size"]
@@ -83,22 +85,6 @@ def convert(config: dict, shards: list[Path], dtype: torch.dtype) -> Qwen2ForCau
     return model.eval()
 
 
-def load_qwen1(name: str, revision: str | None, device: str) -> tuple[Qwen2ForCausalLM, PreTrainedTokenizerBase]:
-    config = json.loads(Path(hf_hub_download(name, "config.json", revision=revision)).read_text())
-    index = json.loads(Path(hf_hub_download(name, "model.safetensors.index.json", revision=revision)).read_text())
-    shards = [Path(hf_hub_download(name, f, revision=revision)) for f in sorted(set(index["weight_map"].values()))]
-    model = convert(config, shards, torch.bfloat16).to(device)
-    return model, load_qwen1_tokenizer(name, revision)
-
-
-def load_qwen1_tokenizer(name: str, revision: str | None) -> PreTrainedTokenizerBase:
-    assert revision, "Qwen-1 runs remote tokenizer code, so its revision must be pinned"
-    tokenizer = AutoTokenizer.from_pretrained(name, revision=revision, trust_remote_code=True)
-    tokenizer.padding_side = "right"
-    tokenizer.pad_token_id = tokenizer.eod_id  # Qwen-1 has no pad token; <|endoftext|> is never inside a prompt
-    return tokenizer
-
-
 CHAT_SYSTEM = "You are a helpful assistant."
 
 
@@ -106,3 +92,32 @@ def chat_prompt(instruction: str) -> str:
     """Qwen-1's ChatML format (its generation utilities' default system prompt). The last five tokens,
     <|im_end|> \\n <|im_start|> assistant \\n, are the post-instruction positions."""
     return f"<|im_start|>system\n{CHAT_SYSTEM}<|im_end|>\n<|im_start|>user\n{instruction}<|im_end|>\n<|im_start|>assistant\n"
+
+
+class Qwen1Adapter:
+    """The revision is required by `config.Qwen1Model`: the repo's remote tokenizer code is downloaded and run."""
+
+    def __init__(self, cfg: Qwen1Model):
+        self.cfg = cfg
+
+    def download(self, filename: str) -> Path:
+        return Path(hf_hub_download(self.cfg.name, filename, revision=self.cfg.revision))
+
+    def load(self, device: str) -> tuple[Qwen2ForCausalLM, PreTrainedTokenizerBase]:
+        config = json.loads(self.download("config.json").read_text())
+        index = json.loads(self.download("model.safetensors.index.json").read_text())
+        shards = [self.download(f) for f in sorted(set(index["weight_map"].values()))]
+        model = convert(config, shards, torch.bfloat16).to(device)
+        return model, self.load_tokenizer()
+
+    def load_tokenizer(self) -> PreTrainedTokenizerBase:
+        tokenizer = AutoTokenizer.from_pretrained(self.cfg.name, revision=self.cfg.revision, trust_remote_code=True)
+        tokenizer.padding_side = "right"
+        tokenizer.pad_token_id = tokenizer.eod_id  # Qwen-1 has no pad token; <|endoftext|> is never inside a prompt
+        return tokenizer
+
+    def chat_prompt(self, tokenizer: PreTrainedTokenizerBase, instruction: str) -> str:
+        return chat_prompt(instruction)
+
+    def tensor_name(self, kind: str, layer: int | None = None) -> str:
+        return checkpoint_name(kind, layer)

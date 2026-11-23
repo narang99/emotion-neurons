@@ -1,86 +1,46 @@
 """Model families: how to load a model and its tokenizer, how to wrap an instruction in its chat format, and the
 checkpoint names of the tensors read one at a time (`models.weights`).
 
-- The family comes from the config (`config.ModelConfig`), and so does the revision.
-- `hf` (Qwen3 and other native transformers models): AutoModelForCausalLM, the tokenizer's chat template.
-- `qwen1` (Qwen/Qwen-7B-Chat): converted to a native Qwen2 model (`models.qwen1`), ChatML by hand.
-- Both end up with Qwen3-style layer names (model.layers, mlp.down_proj, post_attention_layernorm), so the hooks
-  in `models.qwen3` read every family unchanged.
+- `ModelAdapter` is the protocol a family implements. Each adapter holds its own config (`config.ModelConfig`).
+  - `hf` (`models.hf.HFAdapter`): Qwen3 and other native transformers models.
+  - `qwen1` (`models.qwen1.Qwen1Adapter`): Qwen/Qwen-7B-Chat converted to a native Qwen2 model, ChatML by hand.
+- A new family is a config class in the `ModelConfig` union, an adapter class, and one case in `adapter_for`.
+- Both families end up with Qwen3-style layer names (model.layers, mlp.down_proj, post_attention_layernorm), so the
+  hooks in `models.qwen3` read every family unchanged.
 """
 
-import os
-from collections.abc import Callable
-from dataclasses import dataclass
 from functools import cache
+from typing import Literal, Protocol
 
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
+from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from ..config import ModelConfig
-from . import qwen1
+from ..config import HFModel, ModelConfig, Qwen1Model
+from .hf import HFAdapter
+from .qwen1 import Qwen1Adapter
 
-TensorKind = str
-"""One of "down_proj" (needs a layer), "lm_head", "final_norm"."""
-
-
-@dataclass(frozen=True)
-class ModelAdapter:
-    load: Callable[[str, str | None, str], tuple[PreTrainedModel, PreTrainedTokenizerBase]]
-    load_tokenizer: Callable[[str, str | None], PreTrainedTokenizerBase]
-    chat_prompt: Callable[[PreTrainedTokenizerBase, str], str]
-    tensor_name: Callable[[TensorKind, int | None], str]
+TensorKind = Literal["down_proj", "lm_head", "final_norm"]
+"""down_proj needs a layer."""
 
 
-def hf_tokenizer(name: str, revision: str | None) -> PreTrainedTokenizerBase:
-    tokenizer = AutoTokenizer.from_pretrained(name, revision=revision, token=os.environ.get("HF_TOKEN") or None)
-    tokenizer.padding_side = "right"
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-    return tokenizer
+class ModelAdapter(Protocol):
+    def load(self, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]: ...
 
+    def load_tokenizer(self) -> PreTrainedTokenizerBase: ...
 
-def hf_load(name: str, revision: str | None, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
-    """bf16 and right padding, as every run here assumes."""
-    token = os.environ.get("HF_TOKEN") or None
-    model = AutoModelForCausalLM.from_pretrained(name, revision=revision, dtype=torch.bfloat16, device_map=device, token=token)
-    return model.eval(), hf_tokenizer(name, revision)
+    def chat_prompt(self, tokenizer: PreTrainedTokenizerBase, instruction: str) -> str: ...
 
-
-def hf_chat_prompt(tokenizer: PreTrainedTokenizerBase, instruction: str) -> str:
-    """The model's own chat template, with the assistant turn opened; Qwen3's thinking turned off."""
-    messages = [{"role": "user", "content": instruction}]
-    return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True, enable_thinking=False)
-
-
-def hf_tensor_name(kind: TensorKind, layer: int | None = None) -> str:
-    return {
-        "down_proj": f"model.layers.{layer}.mlp.down_proj.weight",
-        "lm_head": "lm_head.weight",
-        "final_norm": "model.norm.weight",
-    }[kind]
-
-
-ADAPTERS: dict[str, ModelAdapter] = {
-    "hf": ModelAdapter(hf_load, hf_tokenizer, hf_chat_prompt, hf_tensor_name),
-    "qwen1": ModelAdapter(
-        qwen1.load_qwen1, qwen1.load_qwen1_tokenizer, lambda _tok, text: qwen1.chat_prompt(text), qwen1.checkpoint_name
-    ),
-}
+    def tensor_name(self, kind: TensorKind, layer: int | None = None) -> str: ...
 
 
 def adapter_for(model: ModelConfig) -> ModelAdapter:
-    return ADAPTERS[model.family]
-
-
-def load_model(model: ModelConfig, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
-    return adapter_for(model).load(model.name, model.revision, device)
+    match model:
+        case HFModel():
+            return HFAdapter(model)
+        case Qwen1Model():
+            return Qwen1Adapter(model)
 
 
 @cache
 def loaded_model(model: ModelConfig, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
     """One model per process: the steps of a run share it, so a second step does not load another copy."""
-    return load_model(model, device)
-
-
-def load_tokenizer(model: ModelConfig) -> PreTrainedTokenizerBase:
-    return adapter_for(model).load_tokenizer(model.name, model.revision)
+    return adapter_for(model).load(device)
