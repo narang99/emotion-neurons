@@ -1,8 +1,8 @@
-"""Instructions sampled per category from benchmark sources, in the model's chat format (the refusal paper's setup).
+"""Instructions sampled per category, in the model's chat format (the refusal paper's setup).
 
-- Each category lists sources per split. A source is a JSON list at a URL (e.g. the refusal paper's published
-  splits) or a Hub dataset and field (e.g. walledai/MaliciousInstruct). Sources of a split are merged and
-  de-duplicated, then `n_train` / `n_val` instructions are sampled with a fixed seed.
+- Each category lists URLs per split: JSON lists of {"instruction": ...} rows, e.g. the refusal paper's published
+  splits. The URLs of a split are merged and de-duplicated, then `n_train` / `n_val` instructions are sampled with
+  a fixed seed.
 - Rendering: the adapter's chat prompt around the instruction. The positions read are the post-instruction tokens:
   the template that follows the user's message (Qwen-1: <|im_end|> \\n <|im_start|> assistant \\n).
   - Their count comes from the template itself (`post_instruction_length`), not a fixed number, so another model
@@ -14,10 +14,9 @@ import random
 import urllib.request
 from functools import cache
 
-from datasets import load_dataset
 from transformers import PreTrainedTokenizerBase
 
-from ..config import InstructionsData, InstructionSource
+from ..config import InstructionsData
 from ..models import ModelAdapter
 from .base import Example, Rendered
 
@@ -26,14 +25,11 @@ SENTINEL = "⁣SENTINEL⁣"
 
 
 @cache
-def read_source(source: InstructionSource) -> tuple[str, ...]:
-    if source.url:
-        with urllib.request.urlopen(source.url, timeout=60) as response:
-            rows = json.loads(response.read())
-    else:
-        rows = load_dataset(source.path, source.config, split=source.split)
-    texts = [row[source.field] for row in rows if not source.require_empty or not row.get(source.require_empty)]
-    return tuple(t.strip() for t in texts if isinstance(t, str) and t.strip())
+def read_instructions(url: str) -> tuple[str, ...]:
+    with urllib.request.urlopen(url, timeout=60) as response:
+        rows = json.loads(response.read())
+    texts = [row["instruction"].strip() for row in rows]
+    return tuple(t for t in texts if t)
 
 
 def post_instruction_length(tokenizer: PreTrainedTokenizerBase, adapter: ModelAdapter) -> int:
@@ -52,8 +48,11 @@ class InstructionSet:
         rng = random.Random(self.cfg.seed)
         out = []
         for category, splits in self.cfg.categories.items():
-            for split, n in (("train", self.cfg.n_train), ("val", self.cfg.n_val)):
-                pool = sorted({t for source in getattr(splits, split) for t in read_source(source)})
+            for split, urls, n in (
+                ("train", splits.train, self.cfg.n_train),
+                ("val", splits.val, self.cfg.n_val),
+            ):
+                pool = sorted({t for url in urls for t in read_instructions(url)})
                 assert len(pool) >= n, f"{category}/{split}: {len(pool)} instructions, {n} wanted"
                 for i, text in enumerate(rng.sample(pool, n)):
                     out.append(Example(id=f"{category}-{split}-{i:03d}", category=category, split=split, text=text))

@@ -15,11 +15,11 @@ data:
   seed: 42
   categories:
     harmful:
-      train: [{url: "https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"}]
-      val: [{url: "https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"}]
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"]
     harmless:
-      train: [{url: "https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"}]
-      val: [{url: "https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"}]
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
 extraction:
   kind: direction
   target: harmful

@@ -166,22 +166,11 @@ class PolesRunConfig(RunConfig):
     poles: PolesConfig = PolesConfig()
 
 
-class InstructionSource(Section):
-    """A JSON list at `url`, or a Hub dataset (`path`, `config`, `split`); instructions are read from `field`."""
-
-    model_config = ConfigDict(extra="forbid", frozen=True)
-
-    url: str | None = None
-    path: str | None = None
-    config: str | None = None
-    split: str = "train"
-    field: str = "instruction"
-    require_empty: str | None = Field(None, description="keep only rows whose field of this name is empty (e.g. Alpaca 'input')")
-
-
 class InstructionSplits(Section):
-    train: list[InstructionSource]
-    val: list[InstructionSource]
+    """URLs of JSON lists of {"instruction": ...} rows, per split (`datasets.instructions`)."""
+
+    train: list[str]
+    val: list[str]
 
 
 class InstructionsData(Section):
