@@ -1,47 +1,0 @@
-[sync] s3://narang99-private/emotion-neurons/pipeline/harvest_desperate_l25/results -> results/harvest_desperate_l25
-[pipeline] harvest: running
-[neurons] 759 from results/greedy_sets_l25/neurons/desperate.csv (to 75.0%) + 20 controls
-Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<03:45,  1.77it/s]Loading weights:   4%|▍         | 15/399 [00:00<00:13, 28.36it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:08, 45.88it/s]Loading weights:  10%|▉         | 39/399 [00:00<00:06, 59.69it/s]Loading weights:  14%|█▎        | 54/399 [00:01<00:04, 77.93it/s]Loading weights:  18%|█▊        | 70/399 [00:01<00:03, 92.35it/s]Loading weights:  21%|██        | 82/399 [00:01<00:03, 93.80it/s]Loading weights:  24%|██▎       | 94/399 [00:01<00:03, 95.07it/s]Loading weights:  27%|██▋       | 108/399 [00:01<00:02, 106.43it/s]Loading weights:  30%|███       | 120/399 [00:01<00:02, 108.56it/s]Loading weights:  33%|███▎      | 133/399 [00:01<00:02, 112.89it/s]Loading weights:  37%|███▋      | 147/399 [00:01<00:02, 112.84it/s]Loading weights:  40%|███▉      | 159/399 [00:01<00:02, 108.41it/s]Loading weights:  43%|████▎     | 171/399 [00:02<00:02, 103.70it/s]Loading weights:  46%|████▋     | 185/399 [00:02<00:01, 113.05it/s]Loading weights:  49%|████▉     | 197/399 [00:02<00:01, 110.38it/s]Loading weights:  52%|█████▏    | 209/399 [00:02<00:01, 112.98it/s]Loading weights:  56%|█████▌    | 222/399 [00:02<00:01, 117.58it/s]Loading weights:  59%|█████▉    | 235/399 [00:02<00:01, 113.27it/s]Loading weights:  62%|██████▏   | 247/399 [00:02<00:01, 108.33it/s]Loading weights:  65%|██████▍   | 259/399 [00:02<00:01, 104.94it/s]Loading weights:  68%|██████▊   | 273/399 [00:02<00:01, 111.92it/s]Loading weights:  71%|███████▏  | 285/399 [00:03<00:01, 112.31it/s]Loading weights:  75%|███████▍  | 299/399 [00:03<00:00, 119.92it/s]Loading weights:  78%|███████▊  | 312/399 [00:03<00:00, 114.89it/s]Loading weights:  81%|████████  | 324/399 [00:03<00:00, 109.32it/s]Loading weights:  84%|████████▍ | 336/399 [00:03<00:00, 104.83it/s]Loading weights:  88%|████████▊ | 350/399 [00:03<00:00, 113.80it/s]Loading weights:  91%|█████████ | 362/399 [00:03<00:00, 113.11it/s]Loading weights:  94%|█████████▍| 375/399 [00:03<00:00, 115.97it/s]Loading weights:  97%|█████████▋| 389/399 [00:04<00:00, 114.62it/s]Loading weights: 100%|██████████| 399/399 [00:04<00:00, 97.53it/s] 
-[corpus] fineweb-edu: 3000 windows, 700162 tokens
-[corpus] tinystories: 3866 windows, 700137 tokens
-[corpus] ultrachat: 2554 windows, 600077 tokens
-[corpus] writingprompts: 3129 windows, 700127 tokens
-[harvest] 32/12549 windows
-[harvest] 3232/12549 windows
-[harvest] 6432/12549 windows
-[harvest] 9632/12549 windows
-[corpus] 2700503 tokens, 2650307 valid, 866s
-[edges] both poles, 875s
-[examples] 779 neurons, 942s
-[saved] results/harvest_desperate_l25/harvest.json and runs/harvest_desperate_l25/ | 942s
-[sync] results/harvest_desperate_l25 -> s3://narang99-private/emotion-neurons/pipeline/harvest_desperate_l25/results
-[sync] runs/harvest_desperate_l25 -> s3://narang99-private/emotion-neurons/pipeline/harvest_desperate_l25/runs
-[pipeline] harvest: finished in 1032s
-[pipeline] modes: running
-[hits] 779 neurons x 2 poles, 665125 distinct hit tokens, 1s
-Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:56,  3.42it/s]Loading weights:   1%|          | 2/399 [00:00<02:00,  3.29it/s]Loading weights:   4%|▍         | 15/399 [00:00<00:13, 27.89it/s]Loading weights:   7%|▋         | 28/399 [00:00<00:07, 47.92it/s]Loading weights:  11%|█         | 43/399 [00:00<00:05, 70.14it/s]Loading weights:  14%|█▍        | 56/399 [00:01<00:04, 83.60it/s]Loading weights:  18%|█▊        | 70/399 [00:01<00:03, 92.05it/s]Loading weights:  21%|██        | 82/399 [00:01<00:03, 93.61it/s]Loading weights:  24%|██▎       | 94/399 [00:01<00:03, 94.97it/s]Loading weights:  27%|██▋       | 108/399 [00:01<00:02, 106.51it/s]Loading weights:  30%|███       | 120/399 [00:01<00:02, 108.53it/s]Loading weights:  33%|███▎      | 133/399 [00:01<00:02, 112.94it/s]Loading weights:  37%|███▋      | 147/399 [00:01<00:02, 113.13it/s]Loading weights:  40%|███▉      | 159/399 [00:02<00:02, 108.75it/s]Loading weights:  43%|████▎     | 171/399 [00:02<00:02, 105.39it/s]Loading weights:  47%|████▋     | 186/399 [00:02<00:01, 114.78it/s]Loading weights:  50%|████▉     | 199/399 [00:02<00:01, 117.35it/s]Loading weights:  53%|█████▎    | 213/399 [00:02<00:01, 115.98it/s]Loading weights:  56%|█████▋    | 225/399 [00:02<00:01, 110.33it/s]Loading weights:  59%|█████▉    | 237/399 [00:02<00:01, 106.81it/s]Loading weights:  63%|██████▎   | 252/399 [00:02<00:01, 115.90it/s]Loading weights:  66%|██████▋   | 265/399 [00:02<00:01, 118.09it/s]Loading weights:  70%|██████▉   | 279/399 [00:03<00:01, 116.43it/s]Loading weights:  73%|███████▎  | 291/399 [00:03<00:00, 110.70it/s]Loading weights:  76%|███████▌  | 303/399 [00:03<00:00, 106.56it/s]Loading weights:  80%|███████▉  | 318/399 [00:03<00:00, 115.93it/s]Loading weights:  83%|████████▎ | 331/399 [00:03<00:00, 117.95it/s]Loading weights:  86%|████████▋ | 345/399 [00:03<00:00, 116.08it/s]Loading weights:  89%|████████▉ | 357/399 [00:03<00:00, 110.52it/s]Loading weights:  92%|█████████▏| 369/399 [00:03<00:00, 106.70it/s]Loading weights:  96%|█████████▌| 384/399 [00:03<00:00, 115.75it/s]Loading weights:  99%|█████████▉| 397/399 [00:04<00:00, 118.10it/s]Loading weights: 100%|██████████| 399/399 [00:04<00:00, 97.42it/s] 
-[inputs] 32/12549 windows
-[inputs] 6432/12549 windows
-[check] recomputed vs harvested activation: largest relative gap 0.010 over 200 hits
-[cluster] 50/779 neurons, 924s
-[cluster] 100/779 neurons, 1003s
-[cluster] 150/779 neurons, 1078s
-[cluster] 200/779 neurons, 1154s
-[cluster] 250/779 neurons, 1228s
-[cluster] 300/779 neurons, 1305s
-[cluster] 350/779 neurons, 1382s
-[cluster] 400/779 neurons, 1460s
-[cluster] 450/779 neurons, 1537s
-[cluster] 500/779 neurons, 1616s
-[cluster] 550/779 neurons, 1694s
-[cluster] 600/779 neurons, 1771s
-[cluster] 650/779 neurons, 1847s
-[cluster] 700/779 neurons, 1923s
-[cluster] 750/779 neurons, 2002s
-[cluster] 779/779 neurons, 2047s
-[clusters] median 3 per neuron and pole, 5 with none
-[saved] modes.json and 98 batch files, ~1452990 tokens | 2049s
-[sync] results/harvest_desperate_l25 -> s3://narang99-private/emotion-neurons/pipeline/harvest_desperate_l25/results
-[pipeline] modes: finished in 2057s
-[pipeline] stopped after modes; ran ['harvest', 'modes'] | 3090s
-EXIT 0

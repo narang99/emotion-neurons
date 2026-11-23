@@ -1,7 +1,7 @@
 [project]
 name = "emotion-neurons"
 version = "0.1.0"
-description = "Emotion vectors in Qwen3-8B, and the poles of its layer-25 MLP neurons"
+description = "Emotion vectors and difference-of-means directions, and the MLP neurons behind them"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

@@ -1,9 +1,0 @@
-# Greedy sets: the fewest layer-25 neurons that rebuild 90% of each emotion's MLP write. CPU, about 2 min.
-#   python scripts/greedy_sets.py --config configs/greedy_sets_l25.yaml
-# Needs runs/stage2_l25/ (scripts/fetch_runs.sh) and layer 25's W_down (downloaded from the Hub on first use).
-run_id: greedy_sets_l25
-model: Qwen/Qwen3-8B
-layer: 25
-greedy_sets:
-  sums_run: stage2_l25
-  rebuilt: 0.9

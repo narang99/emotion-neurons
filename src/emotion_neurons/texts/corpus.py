@@ -1,4 +1,4 @@
-"""Harvest corpora, streamed from the Hub and cut into token windows."""
+"""General-text corpora, streamed from the Hub and cut into token windows."""
 
 from collections.abc import Iterator
 

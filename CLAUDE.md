@@ -37,7 +37,7 @@ These hold in code, docs, READMEs, PRs and commits.
 - Library code lives in `src/emotion_neurons/`. Scripts in `scripts/` stay thin: parse the config, call the library, save.
 - How emotion vectors are built is isolated in `emotion_neurons.vectors`.
   - Downstream code reads `EmotionVectors`, never a recipe. A new procedure is a new entry in `RECIPES`.
-- Tests in `tests/` check exact identities (terms sum to the write, greedy picks the best step).
+- Tests in `tests/` check exact identities (hooks match a manual pass, quantiles match a sort).
 - Formatting: `scripts/git-hooks/pre-commit` sorts imports and runs `ruff format` on staged files.
   - Install it once per clone: `ln -s ../../scripts/git-hooks/pre-commit .git/hooks/pre-commit`.
 
@@ -46,13 +46,27 @@ These hold in code, docs, READMEs, PRs and commits.
 - `main` holds only work that feeds the final result. Refactors may go straight to `main`.
 - New research work goes up as stacked PRs with `gh stack`, one branch and PR per experiment, for review.
 - Every experiment gets a tag (`exp/<name>`) at the commit that produced its results, failed ones included.
-- `experiments/LOG.md` lists every experiment in order: tag, status (kept / failed / superseded), one-line result, log.
-  - Failures stay out of `main`. Their branch and tag are kept, and the log says why they failed.
-- Each experiment has its own detailed log in `experiments/`.
+- Each experiment is a folder `experiments/<name>/`, with no numbers in the name.
+  - `README.md`: what was done, the scripts that were run, the results.
+  - The YAML configs the scripts were run with.
+  - `results/`: the committed outputs, reports included.
+- Failures stay out of `main`. Their branch and tag are kept, and the README says why they failed.
 - Commit messages carry the key numbers, so a later run can be checked against them.
 
 ## Running on Colab
 
 - Use the `colab-experiments` skill: the dependency rules, the notebook loop and how to verify a run.
-- Large outputs go to `runs/` (gitignored) and to S3; small ones to `results/` (committed).
+- Large outputs go to `runs/` (gitignored) and to S3; small ones to the experiment's `results/` (committed).
   - Public copies for collaborators: `scripts/fetch_runs.sh`.
+
+## Archive
+
+- The branch `archive` holds all work from before the cleanup of 2026-11-23. `archive.md` indexes it.
+- Before you build a feature, read `archive.md`. If the feature exists there, start from that code.
+- Archived features:
+  - greedy neuron sets for an emotion write or a direction (`sparse/`);
+  - harvests of what neurons fire on, per pole and percentile band, and an all-neuron harvest store;
+  - modes (HDBSCAN clusters of hits), blind OpenRouter judges, themes, and the end-to-end modes pipeline;
+  - the modes report, the logit lens, circuitsvis token strips, the direction prompt view;
+  - theme removal from an emotion write;
+  - about 40 tagged experiments (`exp/<name>`): layers, circuits, chains, causal sets, head reads, crossval.
