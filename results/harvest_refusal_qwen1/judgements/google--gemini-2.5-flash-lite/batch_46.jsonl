@@ -1,0 +1,47 @@
+{"neuron":4521,"pole":"high","cluster":0,"mode":"general statements about order, crisis, and personal details","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4521,"pole":"high","cluster":1,"mode":"assistant responses to user questions about various topics","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":4521,"pole":"low","cluster":0,"mode":"assistant responses offering help and suggestions","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":4521,"pole":"low","cluster":1,"mode":"text about preventing child trafficking and machine learning","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4521,"pole":"low","cluster":2,"mode":"text about animal habitats and medical treatments","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8567,"pole":"high","cluster":0,"mode":"user questions followed by assistant responses","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":8567,"pole":"high","cluster":1,"mode":"narrative descriptions and cautionary tales","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8567,"pole":"high","cluster":2,"mode":"user questions followed by assistant responses","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":8567,"pole":"low","cluster":0,"mode":"text about government, movement, and proposals","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8567,"pole":"low","cluster":1,"mode":"text about home improvements and health","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8498,"pole":"high","cluster":0,"mode":"text about financial models, career changes, and technology","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8498,"pole":"high","cluster":1,"mode":"text about historical events and encryption algorithms","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8498,"pole":"low","cluster":0,"mode":"text about chaos, clutter, and inequality","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8498,"pole":"low","cluster":1,"mode":"text about Hogwarts, toast, and work","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9859,"pole":"high","cluster":0,"mode":"text about climate change, relationships, and health","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9859,"pole":"high","cluster":1,"mode":"text about political events and legislation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9859,"pole":"low","cluster":0,"mode":"text about health benefits and energy sources","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9859,"pole":"low","cluster":1,"mode":"text about social media, cooking, and historical events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9859,"pole":"low","cluster":2,"mode":"text about power stations, geography, and endangered animals","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4447,"pole":"high","cluster":0,"mode":"user questions followed by assistant responses","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":4447,"pole":"high","cluster":1,"mode":"user questions followed by assistant responses","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":4447,"pole":"high","cluster":2,"mode":"text about AI, harvests, and freedom of speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4447,"pole":"high","cluster":3,"mode":"text about tourism, water resources, and social skills","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4447,"pole":"high","cluster":4,"mode":"text about weather forecasting, security, and communication","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4447,"pole":"low","cluster":0,"mode":"recipes and cooking instructions","scene_windows":0,"windows":5,"scene":"neutral cooking"}
+{"neuron":4447,"pole":"low","cluster":1,"mode":"text about freedom, guns, and caves","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4447,"pole":"low","cluster":2,"mode":"text about environmental issues, trails, and licenses","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5518,"pole":"high","cluster":0,"mode":"user questions starting with 'Can you'","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":5518,"pole":"high","cluster":1,"mode":"user questions asking 'Can you provide/tell me more'","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":5518,"pole":"high","cluster":2,"mode":"user questions starting with 'What'","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":5518,"pole":"high","cluster":3,"mode":"user questions asking for tips or ideas","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":5518,"pole":"high","cluster":4,"mode":"text about making ads, podcasts, and security","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5518,"pole":"high","cluster":5,"mode":"text about payments, healing, and affairs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5518,"pole":"high","cluster":6,"mode":"text about customer engagement, grilling, and cybersecurity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5518,"pole":"low","cluster":0,"mode":"text about music, stones, and pathogens","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5518,"pole":"low","cluster":1,"mode":"text about towns, wars, and airports","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7530,"pole":"high","cluster":0,"mode":"user questions followed by assistant responses","scene_windows":0,"windows":5,"scene":"neutral assistance"}
+{"neuron":7530,"pole":"high","cluster":1,"mode":"text about aquariums, teamwork, and climate change","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7530,"pole":"high","cluster":2,"mode":"narrative descriptions with dialogue","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7530,"pole":"low","cluster":0,"mode":"text about cat food, automation, and family photos","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7530,"pole":"low","cluster":1,"mode":"text about character development, jackets, and healing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6390,"pole":"high","cluster":0,"mode":"text about native peoples, vaccines, and gun control","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6390,"pole":"high","cluster":1,"mode":"text about ingredients, military jobs, and injections","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6390,"pole":"high","cluster":2,"mode":"text about interracial relationships, torrenting, and investigations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6390,"pole":"low","cluster":0,"mode":"text about gardening, cooking, and guitarists","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6390,"pole":"low","cluster":1,"mode":"text about chewing gum, well-being, and liver damage","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6390,"pole":"low","cluster":2,"mode":"text about family support, water bottles, and leadership development","scene_windows":0,"windows":5,"scene":"neutral narration"}

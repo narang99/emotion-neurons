@@ -1,0 +1,58 @@
+{"neuron":3138,"pole":"high","cluster":0,"mode":"asking for examples or recommendations from an assistant","happy_windows":0,"windows":5,"scene":"neutral request for information"}
+{"neuron":3138,"pole":"high","cluster":1,"mode":"positive experiences, memories, and feelings","happy_windows":3,"windows":5,"scene":"joyful, happy, special moments"}
+{"neuron":3138,"pole":"high","cluster":2,"mode":"legal, technical, or serious matters","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":3138,"pole":"low","cluster":0,"mode":"children speaking or being spoken to","happy_windows":4,"windows":5,"scene":"happy, joyful, positive interactions"}
+{"neuron":3138,"pole":"low","cluster":1,"mode":"children receiving or taking things","happy_windows":4,"windows":5,"scene":"happy, excited, positive moments"}
+{"neuron":3138,"pole":"low","cluster":2,"mode":"legal or technical terms","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":3138,"pole":"low","cluster":3,"mode":"children feeling happy or grateful","happy_windows":5,"windows":5,"scene":"happy, joyful, positive interactions"}
+{"neuron":3138,"pole":"low","cluster":4,"mode":"conjunctions and conditional words","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":3138,"pole":"low","cluster":5,"mode":"sadness and negative emotions","happy_windows":1,"windows":5,"scene":"mixed emotions, some sadness"}
+{"neuron":3138,"pole":"low","cluster":6,"mode":"positive actions and feelings","happy_windows":5,"windows":5,"scene":"happy, joyful, positive interactions"}
+{"neuron":3138,"pole":"low","cluster":7,"mode":"sounds and curiosity","happy_windows":3,"windows":5,"scene":"curious, happy, positive moments"}
+{"neuron":1080,"pole":"high","cluster":0,"mode":"expressing gratitude","happy_windows":5,"windows":5,"scene":"happy, joyful, positive interactions"}
+{"neuron":1080,"pole":"high","cluster":1,"mode":"actions of taking or seeking","happy_windows":2,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":1080,"pole":"high","cluster":2,"mode":"receiving or taking something","happy_windows":4,"windows":5,"scene":"happy, grateful, positive interactions"}
+{"neuron":1080,"pole":"high","cluster":3,"mode":"telling or showing something","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":1080,"pole":"high","cluster":4,"mode":"speaking or saying something","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":1080,"pole":"high","cluster":5,"mode":"numbers and quantities","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":1080,"pole":"high","cluster":6,"mode":"abstract concepts and legal terms","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":1080,"pole":"low","cluster":0,"mode":"actions and observations","happy_windows":4,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":1080,"pole":"low","cluster":1,"mode":"prepositions indicating direction or purpose","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":6950,"pole":"high","cluster":0,"mode":"numerical references in citations","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":6950,"pole":"high","cluster":1,"mode":"children's names and positive feelings","happy_windows":4,"windows":5,"scene":"happy, joyful, positive interactions"}
+{"neuron":6950,"pole":"high","cluster":2,"mode":"conjunctions and contrasting ideas","happy_windows":1,"windows":5,"scene":"mixed emotions, some negative"}
+{"neuron":6950,"pole":"high","cluster":3,"mode":"food items and locations","happy_windows":2,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":6950,"pole":"low","cluster":0,"mode":"locations and entities","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":6950,"pole":"low","cluster":1,"mode":"abstract concepts and roles","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":6950,"pole":"low","cluster":2,"mode":"children expressing happiness","happy_windows":5,"windows":5,"scene":"happy, joyful, positive interactions"}
+{"neuron":6950,"pole":"low","cluster":3,"mode":"conjunctions and descriptions","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":7172,"pole":"high","cluster":0,"mode":"anatomical and biological terms","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":7172,"pole":"high","cluster":1,"mode":"positive emotions and actions","happy_windows":3,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":7172,"pole":"high","cluster":2,"mode":"locations and roles","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":7172,"pole":"low","cluster":0,"mode":"pronouns and objects","happy_windows":4,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":7172,"pole":"low","cluster":1,"mode":"prepositions indicating direction or purpose","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":6350,"pole":"high","cluster":0,"mode":"sadness, regret, and mom's involvement in children's activities","happy_windows":0,"windows":5,"scene":"children's emotional states and parental guidance"}
+{"neuron":6350,"pole":"high","cluster":1,"mode":"pronouns referring to people and their roles in war and life","happy_windows":0,"windows":5,"scene":"personal reflections on war and life choices"}
+{"neuron":6350,"pole":"low","cluster":0,"mode":"pronouns referring to female children in various scenarios","happy_windows":0,"windows":5,"scene":"children's actions and experiences"}
+{"neuron":6350,"pole":"low","cluster":1,"mode":"desire and wanting to do something","happy_windows":0,"windows":5,"scene":"children's desires and aspirations"}
+{"neuron":9554,"pole":"high","cluster":0,"mode":"pronouns and prepositions indicating cause, completion, and state","happy_windows":2,"windows":5,"scene":"children's achievements and emotional states"}
+{"neuron":9554,"pole":"high","cluster":1,"mode":"punctuation indicating pauses or endings in narrative","happy_windows":0,"windows":5,"scene":"narrative progression and events"}
+{"neuron":9554,"pole":"low","cluster":0,"mode":"locations for outdoor activities and social interactions","happy_windows":0,"windows":5,"scene":"children's outdoor activities"}
+{"neuron":9554,"pole":"low","cluster":1,"mode":"numerical or ordinal indicators in lists or sequences","happy_windows":0,"windows":5,"scene":"instructional or descriptive lists"}
+{"neuron":3586,"pole":"high","cluster":0,"mode":"medical terms and procedures","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":3586,"pole":"high","cluster":1,"mode":"children's actions and observations","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":3586,"pole":"low","cluster":0,"mode":"medical professionals and conditions","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":3586,"pole":"low","cluster":1,"mode":"health and well-being concepts","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":3586,"pole":"low","cluster":2,"mode":"medical conditions and treatments","happy_windows":0,"windows":5,"scene":"neutral, factual narration"}
+{"neuron":9589,"pole":"high","cluster":0,"mode":"praise and accomplishment","happy_windows":5,"windows":5,"scene":"happy, proud, positive interactions"}
+{"neuron":9589,"pole":"high","cluster":1,"mode":"observations and appearances","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":9589,"pole":"low","cluster":0,"mode":"positive emotions and actions","happy_windows":4,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":9589,"pole":"low","cluster":1,"mode":"actions of making or creating","happy_windows":4,"windows":5,"scene":"happy, positive, constructive moments"}
+{"neuron":9589,"pole":"low","cluster":2,"mode":"children expressing happiness","happy_windows":5,"windows":5,"scene":"happy, joyful, positive interactions"}
+{"neuron":9589,"pole":"low","cluster":3,"mode":"conjunctions and purpose","happy_windows":3,"windows":5,"scene":"neutral, some positive moments"}
+{"neuron":9589,"pole":"low","cluster":4,"mode":"positive emotions and learning","happy_windows":5,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":9589,"pole":"low","cluster":5,"mode":"positive emotions and experiences","happy_windows":5,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":9589,"pole":"low","cluster":6,"mode":"positive emotions and activities","happy_windows":5,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":9589,"pole":"low","cluster":7,"mode":"children's emotional states","happy_windows":5,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":9589,"pole":"low","cluster":8,"mode":"children's names and positive interactions","happy_windows":4,"windows":5,"scene":"happy, joyful, positive moments"}
+{"neuron":9589,"pole":"low","cluster":9,"mode":"positive interactions and emotions","happy_windows":5,"windows":5,"scene":"happy, joyful, positive interactions"}

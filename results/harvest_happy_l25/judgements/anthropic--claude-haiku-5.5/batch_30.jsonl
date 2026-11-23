@@ -1,0 +1,64 @@
+{"neuron":4720,"pole":"high","cluster":0,"mode":"Yoga pose instructions with spatial and body-position wording","happy_windows":0,"windows":5,"scene":"Yoga and meditation how-to instructions"}
+{"neuron":4720,"pole":"high","cluster":1,"mode":"Narrative words like 'in', 'laugh', 'they' within children's story events","happy_windows":1,"windows":5,"scene":"Children's stories with mixed emotions and play"}
+{"neuron":4720,"pole":"high","cluster":2,"mode":"'saw' as the verb after 'one day' or 'and' in story openings","happy_windows":0,"windows":5,"scene":"Simple children's stories discovering something"}
+{"neuron":4720,"pole":"low","cluster":0,"mode":"'smiled' as a character's reaction after an event","happy_windows":4,"windows":5,"scene":"Children's stories with characters reacting warmly"}
+{"neuron":4720,"pole":"low","cluster":1,"mode":"Code and technical explanation tokens in programming or computing text","happy_windows":0,"windows":5,"scene":"Programming code and technical explanations"}
+{"neuron":1798,"pole":"high","cluster":0,"mode":"'But' introducing a turn or contrast in narrative","happy_windows":0,"windows":5,"scene":"Children's stories with sudden problems or setbacks"}
+{"neuron":1798,"pole":"high","cluster":1,"mode":"'in' after activity verbs like playing or swimming in a place","happy_windows":3,"windows":5,"scene":"Children's stories about outdoor play and nature"}
+{"neuron":1798,"pole":"high","cluster":2,"mode":"Period ending a story's opening sentence introducing a named character","happy_windows":1,"windows":5,"scene":"Story openings introducing a named child"}
+{"neuron":1798,"pole":"high","cluster":3,"mode":"Period or spacing after a character's question or line of dialogue","happy_windows":1,"windows":5,"scene":"Children's dialogue with questions and worries"}
+{"neuron":1798,"pole":"high","cluster":4,"mode":"Opening quotation mark starting a character's spoken line","happy_windows":1,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":1798,"pole":"high","cluster":5,"mode":"'had' or 'have' after feelings of pride or happiness about an achievement","happy_windows":4,"windows":5,"scene":"Children feeling proud or happy after achievements"}
+{"neuron":1798,"pole":"high","cluster":6,"mode":"'Her' referring to a mother in child-mother dialogue","happy_windows":1,"windows":5,"scene":"Child asking or interacting with mom"}
+{"neuron":1798,"pole":"high","cluster":7,"mode":"Subject pronoun or name starting a character's description in story openings","happy_windows":2,"windows":5,"scene":"Story openings describing a child's favorite activities"}
+{"neuron":1798,"pole":"low","cluster":0,"mode":"'and' joining two characters as the subject of a clause","happy_windows":0,"windows":5,"scene":"Children's stories with conflict or sadness"}
+{"neuron":1798,"pole":"low","cluster":1,"mode":"'help', 'happy', 'friend', 'sad' words describing character feelings","happy_windows":2,"windows":5,"scene":"Children's stories about helping and resolving sadness"}
+{"neuron":1798,"pole":"low","cluster":2,"mode":"Punctuation and keywords in code or function definitions","happy_windows":0,"windows":5,"scene":"Programming code examples"}
+{"neuron":10973,"pole":"high","cluster":0,"mode":"Narrative nouns or verbs about fun, fear, or exploration in a story","happy_windows":2,"windows":5,"scene":"Children's stories about parks, games, and fear"}
+{"neuron":10973,"pole":"high","cluster":1,"mode":"Negation fragments like 'didn' or 'couldn' before a contraction","happy_windows":1,"windows":5,"scene":"Children's stories with negated actions"}
+{"neuron":10973,"pole":"low","cluster":0,"mode":"Nouns or verbs in essays and historical or technical descriptions","happy_windows":0,"windows":5,"scene":"Expository and technical writing"}
+{"neuron":10973,"pole":"low","cluster":1,"mode":"Sentence-ending period followed by double space before new section","happy_windows":0,"windows":5,"scene":"Essays and chatbot-style informational text"}
+{"neuron":10973,"pole":"low","cluster":2,"mode":"Period ending an informational or descriptive sentence","happy_windows":0,"windows":5,"scene":"Informational articles and descriptive text"}
+{"neuron":5729,"pole":"high","cluster":0,"mode":"Name fragments or first letters in dialogue and narration","happy_windows":1,"windows":5,"scene":"Children's stories with mixed events"}
+{"neuron":5729,"pole":"high","cluster":1,"mode":"Citation and numeric tokens in references and statistics","happy_windows":0,"windows":5,"scene":"Academic references and statistical reports"}
+{"neuron":5729,"pole":"high","cluster":2,"mode":"'and' joining a pleasant outcome to a clause about enjoyment","happy_windows":4,"windows":5,"scene":"Stories with pleasant outcomes and enjoyment"}
+{"neuron":5729,"pole":"high","cluster":3,"mode":"Period ending a sentence describing a happy or fun outcome","happy_windows":5,"windows":5,"scene":"Happy endings with fun, laughter, and celebration"}
+{"neuron":5729,"pole":"high","cluster":4,"mode":"Mom, mama, or child as object of hugging or thanking","happy_windows":4,"windows":5,"scene":"Warm family moments with hugs and thanks"}
+{"neuron":5729,"pole":"high","cluster":5,"mode":"Emotion adjectives 'sad' or 'happy' after a character was","happy_windows":2,"windows":5,"scene":"Children's stories with emotional reactions"}
+{"neuron":5729,"pole":"low","cluster":0,"mode":"'it', 'are', 'was' describing characters sharing or feeling happy or proud","happy_windows":4,"windows":5,"scene":"Children playing, sharing, and feeling proud"}
+{"neuron":5729,"pole":"low","cluster":1,"mode":"Period ending a story-opening sentence about a character's routine","happy_windows":0,"windows":5,"scene":"Story openings about a child's daily routine"}
+{"neuron":5729,"pole":"low","cluster":2,"mode":"Period ending factual sentences in expository text","happy_windows":0,"windows":5,"scene":"Factual and expository articles"}
+{"neuron":11800,"pole":"high","cluster":0,"mode":"Word fragments inside historical or Latin-name tokens","happy_windows":0,"windows":5,"scene":"Historical and military accounts"}
+{"neuron":11800,"pole":"high","cluster":1,"mode":"Abstract nouns or pronouns ending informational phrases","happy_windows":0,"windows":5,"scene":"Expository and policy text"}
+{"neuron":11800,"pole":"low","cluster":0,"mode":"'and', 'with', 'the' inside recipe or list instructions","happy_windows":0,"windows":5,"scene":"Recipe and food list instructions"}
+{"neuron":11800,"pole":"low","cluster":1,"mode":"'the' starting a noun phrase in historical or scholarly prose","happy_windows":0,"windows":5,"scene":"Scholarly historical and religious analysis"}
+{"neuron":11800,"pole":"low","cluster":2,"mode":"'smiled' as a character's reaction in short stories","happy_windows":3,"windows":5,"scene":"Children's stories with characters smiling"}
+{"neuron":11800,"pole":"low","cluster":3,"mode":"Name fragments or place-name pieces in travel and history text","happy_windows":0,"windows":5,"scene":"Travel guides and historical descriptions"}
+{"neuron":11800,"pole":"low","cluster":4,"mode":"Variable names and code tokens in programming examples","happy_windows":0,"windows":5,"scene":"Programming code examples"}
+{"neuron":7168,"pole":"high","cluster":0,"mode":"Nouns completing abstract phrases in opinion or essay writing","happy_windows":0,"windows":5,"scene":"Opinion essays and cultural commentary"}
+{"neuron":7168,"pole":"high","cluster":1,"mode":"'started' followed by 'to cry' or 'to yell' in distress","happy_windows":0,"windows":5,"scene":"Children's stories with distress or chaos"}
+{"neuron":7168,"pole":"high","cluster":2,"mode":"'She' or 'and' after a character becomes scared or upset","happy_windows":0,"windows":5,"scene":"Children's stories with fear and crying"}
+{"neuron":7168,"pole":"low","cluster":0,"mode":"Reference-list and web-resource names and citation tokens","happy_windows":0,"windows":5,"scene":"Bibliographies and resource lists"}
+{"neuron":7168,"pole":"low","cluster":1,"mode":"Political and historical nouns in multi-clause analysis","happy_windows":0,"windows":5,"scene":"Political and social analysis"}
+{"neuron":7168,"pole":"low","cluster":2,"mode":"Pronoun or name starting a sentence about a character's reaction","happy_windows":0,"windows":5,"scene":"Children's stories with anxious or cautious moments"}
+{"neuron":9672,"pole":"high","cluster":0,"mode":"Ingredient and conjunction tokens in recipe instructions","happy_windows":0,"windows":5,"scene":"Cooking and recipe instructions"}
+{"neuron":9672,"pole":"high","cluster":1,"mode":"'user' or 'assistant' speaker labels in chat transcripts","happy_windows":0,"windows":5,"scene":"Chatbot dialogue transcripts"}
+{"neuron":9672,"pole":"low","cluster":0,"mode":"Digits and citation fragments in bibliographic or statistical text","happy_windows":0,"windows":5,"scene":"Citations and sports statistics"}
+{"neuron":9672,"pole":"low","cluster":1,"mode":"'was' after a character's name expressing a mood","happy_windows":1,"windows":5,"scene":"Children's stories about moods and excitement"}
+{"neuron":9672,"pole":"low","cluster":2,"mode":"Character name or pronoun starting a clause about feelings","happy_windows":3,"windows":5,"scene":"Children's stories about excitement and helping"}
+{"neuron":9672,"pole":"low","cluster":3,"mode":"'She' starting a sentence in story openings about a girl","happy_windows":0,"windows":5,"scene":"Story openings introducing a girl"}
+{"neuron":9672,"pole":"low","cluster":4,"mode":"'play' or 'playing' after 'loved to' or 'liked to'","happy_windows":1,"windows":5,"scene":"Children's stories about playing outdoors"}
+{"neuron":9672,"pole":"low","cluster":5,"mode":"Plural nouns about activities or care in policy and sports text","happy_windows":0,"windows":5,"scene":"Policy, health, and sports discussions"}
+{"neuron":9672,"pole":"low","cluster":6,"mode":"'went' or 'go' describing a character setting out","happy_windows":0,"windows":5,"scene":"Story openings with characters going on walks or adventures"}
+{"neuron":3393,"pole":"high","cluster":0,"mode":"'ran' describing a character moving quickly after an event","happy_windows":2,"windows":5,"scene":"Children's playful stories with running and fun"}
+{"neuron":3393,"pole":"high","cluster":1,"mode":"Verbs and determiners in marketing or social-media tips","happy_windows":0,"windows":5,"scene":"Marketing and social media advice"}
+{"neuron":3393,"pole":"high","cluster":2,"mode":"'so' or 'very' intensifiers before a character's emotion","happy_windows":2,"windows":5,"scene":"Children's stories with strong emotional reactions"}
+{"neuron":3393,"pole":"high","cluster":3,"mode":"Name or pronoun starting a sentence about a character's pride or excitement","happy_windows":2,"windows":5,"scene":"Children's stories about pride and excitement"}
+{"neuron":3393,"pole":"high","cluster":4,"mode":"Direction adverbs after a character moves away or runs","happy_windows":2,"windows":5,"scene":"Children's stories with characters leaving or running"}
+{"neuron":3393,"pole":"high","cluster":5,"mode":"'nodded' or 'smiled' as a character's agreeable reaction","happy_windows":3,"windows":5,"scene":"Children's stories with agreeable reactions"}
+{"neuron":3393,"pole":"low","cluster":0,"mode":"'I' or 'We' in dialogue expressing gratitude or readiness","happy_windows":2,"windows":5,"scene":"Children's dialogue and gratitude moments"}
+{"neuron":3393,"pole":"low","cluster":1,"mode":"Common nouns and adverbs in general essay or tip text","happy_windows":0,"windows":5,"scene":"General essays and recipe fragments"}
+{"neuron":3393,"pole":"low","cluster":2,"mode":"Verbs like 'froze' or 'looked' reacting to a threat or surprise","happy_windows":0,"windows":5,"scene":"Children's stories with fear or surprise"}
+{"neuron":3393,"pole":"low","cluster":3,"mode":"'and' joining business or marketing action items","happy_windows":0,"windows":5,"scene":"Business and marketing advice"}
+{"neuron":3393,"pole":"low","cluster":4,"mode":"Pronoun or 'girl' starting a sentence after a feeling event","happy_windows":2,"windows":5,"scene":"Children's stories with emotional outcomes"}
+{"neuron":3393,"pole":"low","cluster":5,"mode":"'and' after a character's smile or gesture of thanks","happy_windows":3,"windows":5,"scene":"Warm moments with smiles, hugs, and thanks"}

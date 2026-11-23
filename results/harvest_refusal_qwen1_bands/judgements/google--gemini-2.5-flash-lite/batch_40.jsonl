@@ -1,0 +1,80 @@
+{"neuron":222,"pole":"high","cluster":0,"mode":"regulations and permits for water discharge and sludge disposal","scene_windows":0,"windows":5,"scene":"neutral environmental regulations"}
+{"neuron":222,"pole":"high","cluster":1,"mode":"compliance with industry standards and regulatory agencies","scene_windows":0,"windows":5,"scene":"neutral business compliance"}
+{"neuron":222,"pole":"low","cluster":0,"mode":"breaking rules or laws","scene_windows":0,"windows":5,"scene":"narrative about rule-breaking"}
+{"neuron":222,"pole":"low","cluster":1,"mode":"adhering to AI design principles and safety","scene_windows":0,"windows":5,"scene":"AI safety and ethics"}
+{"neuron":222,"pole":"low","cluster":2,"mode":"meeting goals or commitments","scene_windows":0,"windows":5,"scene":"neutral goal achievement"}
+{"neuron":222,"pole":"low","cluster":3,"mode":"meeting customer needs and expectations","scene_windows":0,"windows":5,"scene":"neutral customer service"}
+{"neuron":222,"pole":"low","cluster":4,"mode":"following recommendations or etiquette","scene_windows":0,"windows":5,"scene":"neutral advice following"}
+{"neuron":222,"pole":"low","cluster":5,"mode":"fulfilling dreams or wishes","scene_windows":0,"windows":5,"scene":"narrative about achieving goals"}
+{"neuron":222,"pole":"low","cluster":6,"mode":"violating policies or guidelines","scene_windows":0,"windows":5,"scene":"AI policy adherence"}
+{"neuron":222,"pole":"low","cluster":7,"mode":"aligning with people or objectives","scene_windows":0,"windows":5,"scene":"neutral alignment"}
+{"neuron":222,"pole":"low","cluster":8,"mode":"aligning with goals or values","scene_windows":0,"windows":5,"scene":"neutral goal alignment"}
+{"neuron":7001,"pole":"high","cluster":0,"mode":"being physically close to something or someone","scene_windows":0,"windows":5,"scene":"narrative about proximity"}
+{"neuron":7001,"pole":"high","cluster":1,"mode":"balancing act or fine line","scene_windows":0,"windows":5,"scene":"narrative about balance"}
+{"neuron":7001,"pole":"high","cluster":2,"mode":"barely audible or perceptible","scene_windows":0,"windows":5,"scene":"narrative about faintness"}
+{"neuron":7001,"pole":"high","cluster":3,"mode":"punctuation marks and conjunctions","scene_windows":0,"windows":5,"scene":"neutral text elements"}
+{"neuron":7001,"pole":"high","cluster":4,"mode":"arriving just in time","scene_windows":0,"windows":5,"scene":"narrative about timing"}
+{"neuron":7001,"pole":"low","cluster":0,"mode":"referring to the sake of something","scene_windows":0,"windows":5,"scene":"neutral phrasing"}
+{"neuron":7001,"pole":"low","cluster":1,"mode":"mathematical symbols and abbreviations","scene_windows":0,"windows":5,"scene":"neutral data representation"}
+{"neuron":3080,"pole":"high","cluster":0,"mode":"preparing homemade baby food","scene_windows":0,"windows":5,"scene":"neutral food preparation"}
+{"neuron":3080,"pole":"high","cluster":1,"mode":"offering assistance or confirmation","scene_windows":0,"windows":5,"scene":"AI helpfulness"}
+{"neuron":3080,"pole":"high","cluster":2,"mode":"engaging with content or audience","scene_windows":0,"windows":5,"scene":"neutral engagement"}
+{"neuron":3080,"pole":"high","cluster":3,"mode":"asking questions or seeking information","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":3080,"pole":"high","cluster":4,"mode":"ending sentences with punctuation","scene_windows":0,"windows":5,"scene":"neutral text formatting"}
+{"neuron":3080,"pole":"high","cluster":5,"mode":"offering assistance or confirmation","scene_windows":0,"windows":5,"scene":"AI helpfulness"}
+{"neuron":3080,"pole":"high","cluster":6,"mode":"referring to skin care","scene_windows":0,"windows":5,"scene":"neutral health advice"}
+{"neuron":3080,"pole":"high","cluster":7,"mode":"referring to the belly or stomach area","scene_windows":0,"windows":5,"scene":"neutral body part"}
+{"neuron":3080,"pole":"high","cluster":8,"mode":"referring to small quantities","scene_windows":0,"windows":5,"scene":"neutral size description"}
+{"neuron":3080,"pole":"high","cluster":9,"mode":"referring to change or future states","scene_windows":0,"windows":5,"scene":"neutral temporal change"}
+{"neuron":3080,"pole":"high","cluster":10,"mode":"terms of endearment","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":3080,"pole":"high","cluster":11,"mode":"referring to people by name","scene_windows":0,"windows":5,"scene":"narrative character identification"}
+{"neuron":3080,"pole":"high","cluster":12,"mode":"referring to people by name","scene_windows":0,"windows":5,"scene":"narrative character identification"}
+{"neuron":3080,"pole":"low","cluster":0,"mode":"referring to the subject of discussion","scene_windows":0,"windows":5,"scene":"neutral pronoun reference"}
+{"neuron":3080,"pole":"low","cluster":1,"mode":"referring to the subject of discussion","scene_windows":0,"windows":5,"scene":"neutral pronoun reference"}
+{"neuron":5728,"pole":"high","cluster":0,"mode":"referring to something by a name or term","scene_windows":0,"windows":5,"scene":"neutral naming"}
+{"neuron":5728,"pole":"high","cluster":1,"mode":"known by a specific name or term","scene_windows":0,"windows":5,"scene":"neutral identification"}
+{"neuron":5728,"pole":"high","cluster":2,"mode":"called or nicknamed something","scene_windows":0,"windows":5,"scene":"neutral naming"}
+{"neuron":5728,"pole":"high","cluster":3,"mode":"referring to prepositions and pronouns","scene_windows":0,"windows":5,"scene":"neutral text elements"}
+{"neuron":5728,"pole":"high","cluster":4,"mode":"referring to names in a list","scene_windows":0,"windows":5,"scene":"neutral list items"}
+{"neuron":5728,"pole":"low","cluster":0,"mode":"referring to a singular indefinite article","scene_windows":0,"windows":5,"scene":"neutral article usage"}
+{"neuron":5728,"pole":"low","cluster":1,"mode":"referring to the subject of discussion","scene_windows":0,"windows":5,"scene":"neutral pronoun reference"}
+{"neuron":5728,"pole":"low","cluster":2,"mode":"referring to the subject of discussion","scene_windows":0,"windows":5,"scene":"neutral pronoun reference"}
+{"neuron":5728,"pole":"low","cluster":3,"mode":"referring to the subject of discussion","scene_windows":0,"windows":5,"scene":"neutral pronoun reference"}
+{"neuron":8794,"pole":"high","cluster":0,"mode":"referring to prepositions and possessives","scene_windows":0,"windows":5,"scene":"neutral text elements"}
+{"neuron":8794,"pole":"high","cluster":1,"mode":"offering assistance or confirmation","scene_windows":0,"windows":5,"scene":"AI helpfulness"}
+{"neuron":8794,"pole":"low","cluster":0,"mode":"referring to prepositions and pronouns","scene_windows":0,"windows":5,"scene":"neutral text elements"}
+{"neuron":8794,"pole":"low","cluster":1,"mode":"using the word 'even' for emphasis","scene_windows":0,"windows":5,"scene":"neutral emphasis"}
+{"neuron":5751,"pole":"high","cluster":0,"mode":"asking for information or suggestions","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":5751,"pole":"high","cluster":1,"mode":"offering assistance or confirmation","scene_windows":0,"windows":5,"scene":"AI helpfulness"}
+{"neuron":5751,"pole":"high","cluster":2,"mode":"asking for instructions or methods","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":5751,"pole":"high","cluster":3,"mode":"listing items alphabetically","scene_windows":0,"windows":5,"scene":"neutral list formatting"}
+{"neuron":5751,"pole":"high","cluster":4,"mode":"dialogue with quotation marks","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":5751,"pole":"high","cluster":5,"mode":"referring to historical texts or publications","scene_windows":0,"windows":5,"scene":"neutral historical references"}
+{"neuron":5751,"pole":"high","cluster":6,"mode":"referring to citations or sources","scene_windows":0,"windows":5,"scene":"neutral citation"}
+{"neuron":5751,"pole":"high","cluster":7,"mode":"referring to specific terms or concepts","scene_windows":0,"windows":5,"scene":"neutral terminology"}
+{"neuron":5751,"pole":"high","cluster":8,"mode":"dialogue with pauses or hesitations","scene_windows":0,"windows":5,"scene":"narrative dialogue"}
+{"neuron":5751,"pole":"low","cluster":0,"mode":"referring to tangy flavors","scene_windows":0,"windows":5,"scene":"neutral food description"}
+{"neuron":5751,"pole":"low","cluster":1,"mode":"describing something as interesting","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5751,"pole":"low","cluster":2,"mode":"referring to food ingredients or types","scene_windows":0,"windows":5,"scene":"neutral food description"}
+{"neuron":5751,"pole":"low","cluster":3,"mode":"referring to complex or detailed elements","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5751,"pole":"low","cluster":4,"mode":"referring to a singular indefinite article","scene_windows":0,"windows":5,"scene":"neutral article usage"}
+{"neuron":5751,"pole":"low","cluster":5,"mode":"using 'although' to introduce a contrast","scene_windows":0,"windows":5,"scene":"neutral contrast"}
+{"neuron":5751,"pole":"low","cluster":6,"mode":"referring to prepositions and pronouns","scene_windows":0,"windows":5,"scene":"neutral text elements"}
+{"neuron":5751,"pole":"low","cluster":7,"mode":"referring to the origin of words","scene_windows":0,"windows":5,"scene":"neutral etymology"}
+{"neuron":3809,"pole":"high","cluster":0,"mode":"describing settings or environments","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":3809,"pole":"high","cluster":1,"mode":"offering updated or revised information","scene_windows":0,"windows":5,"scene":"AI revision"}
+{"neuron":3809,"pole":"low","cluster":0,"mode":"asking for advice or instructions","scene_windows":0,"windows":5,"scene":"neutral question asking"}
+{"neuron":3809,"pole":"low","cluster":1,"mode":"describing methods of execution or change","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":3809,"pole":"low","cluster":2,"mode":"using 'since' to indicate cause or time","scene_windows":0,"windows":5,"scene":"neutral conjunction"}
+{"neuron":3809,"pole":"low","cluster":3,"mode":"referring to code or markup syntax","scene_windows":0,"windows":5,"scene":"neutral code"}
+{"neuron":3809,"pole":"low","cluster":4,"mode":"referring to punctuation or sentence endings","scene_windows":0,"windows":5,"scene":"neutral punctuation"}
+{"neuron":3809,"pole":"low","cluster":5,"mode":"using 'although' to introduce a contrast","scene_windows":0,"windows":5,"scene":"neutral contrast"}
+{"neuron":3809,"pole":"low","cluster":6,"mode":"words related to food preparation and ingredients","scene_windows":0,"windows":5,"scene":"neutral recipe instructions"}
+{"neuron":3809,"pole":"low","cluster":7,"mode":"words related to language origins and definitions","scene_windows":0,"windows":5,"scene":"neutral language explanation"}
+{"neuron":2212,"pole":"high","cluster":0,"mode":"referring to geographical locations","scene_windows":0,"windows":5,"scene":"neutral geography"}
+{"neuron":2212,"pole":"high","cluster":1,"mode":"referring to numerical data or ages","scene_windows":0,"windows":5,"scene":"neutral numerical data"}
+{"neuron":2212,"pole":"low","cluster":0,"mode":"describing tangy flavors","scene_windows":0,"windows":5,"scene":"neutral food description"}
+{"neuron":2212,"pole":"low","cluster":1,"mode":"describing something as interesting","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2212,"pole":"low","cluster":2,"mode":"referring to food ingredients or types","scene_windows":0,"windows":5,"scene":"neutral food description"}
+{"neuron":2212,"pole":"low","cluster":3,"mode":"referring to complex or detailed elements","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2212,"pole":"low","cluster":4,"mode":"referring to a singular indefinite article","scene_windows":0,"windows":5,"scene":"neutral article usage"}

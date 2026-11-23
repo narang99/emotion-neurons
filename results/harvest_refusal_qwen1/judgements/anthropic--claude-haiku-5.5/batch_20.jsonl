@@ -1,0 +1,46 @@
+{"neuron":7672,"pole":"high","cluster":0,"mode":"mid-sentence function words in encyclopedic or informational prose","scene_windows":0,"windows":5,"scene":"historical and factual expository text"}
+{"neuron":7672,"pole":"high","cluster":1,"mode":"question marks or periods ending emotional or suspenseful narrative lines","scene_windows":0,"windows":5,"scene":"fictional dialogue and tense narration"}
+{"neuron":7672,"pole":"low","cluster":0,"mode":"the word 'not' in historical or factual negation","scene_windows":0,"windows":5,"scene":"historical accounts and scientific findings"}
+{"neuron":7672,"pole":"low","cluster":1,"mode":"conjunctions and punctuation in mixed expository and narrative sentences","scene_windows":0,"windows":5,"scene":"essays, narration and reviews"}
+{"neuron":10857,"pole":"high","cluster":0,"mode":"mid-sentence function words in business or technical explanations","scene_windows":0,"windows":5,"scene":"informational articles on technology and products"}
+{"neuron":10857,"pole":"high","cluster":1,"mode":"question mark closing a user question before Assistant reply","scene_windows":0,"windows":5,"scene":"Human/Assistant factual Q&A"}
+{"neuron":10857,"pole":"high","cluster":2,"mode":"period closing an informational summary sentence","scene_windows":0,"windows":5,"scene":"encyclopedic and explanatory passages"}
+{"neuron":10857,"pole":"high","cluster":3,"mode":"period ending a wellness or advice sentence before a new turn","scene_windows":0,"windows":5,"scene":"advice text followed by user follow-up"}
+{"neuron":10857,"pole":"low","cluster":0,"mode":"period ending a tense or distressed narrative sentence","scene_windows":0,"windows":5,"scene":"first-person fiction with emotional distress"}
+{"neuron":10857,"pole":"low","cluster":1,"mode":"infinitive or conjunction inside practical advice instructions","scene_windows":0,"windows":5,"scene":"how-to and health advice"}
+{"neuron":10857,"pole":"low","cluster":2,"mode":"citation digits and mid-word fragments in references","scene_windows":0,"windows":5,"scene":"bibliographies and reference lists"}
+{"neuron":10857,"pole":"low","cluster":3,"mode":"numeric or punctuation fragments inside citations and recipes","scene_windows":0,"windows":5,"scene":"citations, recipes and technical lists"}
+{"neuron":6039,"pole":"high","cluster":0,"mode":"the verb 'get' in everyday advice or narrative clauses","scene_windows":0,"windows":5,"scene":"advice, fiction and a phishing-defense tip"}
+{"neuron":6039,"pole":"high","cluster":1,"mode":"punctuation or conjunction closing a general essay clause","scene_windows":0,"windows":5,"scene":"expository essays on mental health and technology"}
+{"neuron":6039,"pole":"high","cluster":2,"mode":"sentence-initial 'It' starting a new sentence","scene_windows":0,"windows":5,"scene":"product care notes and narrative passages"}
+{"neuron":6039,"pole":"low","cluster":0,"mode":"verbs like provide or help in closing assistant offers","scene_windows":0,"windows":5,"scene":"assistant sign-off and offers of further help"}
+{"neuron":6039,"pole":"low","cluster":1,"mode":"colon or label token right after 'Assistant'","scene_windows":0,"windows":5,"scene":"Human/Assistant factual Q&A turns"}
+{"neuron":6039,"pole":"low","cluster":2,"mode":"abstract noun or preposition in reflective advice sentences","scene_windows":0,"windows":5,"scene":"self-help and historical analysis"}
+{"neuron":6039,"pole":"low","cluster":3,"mode":"'you' or 'some' in user requests for suggestions","scene_windows":0,"windows":5,"scene":"user requests for recommendations"}
+{"neuron":7076,"pole":"high","cluster":0,"mode":"the 'Assistant' label starting a reply turn","scene_windows":0,"windows":5,"scene":"Human/Assistant health and household Q&A"}
+{"neuron":7076,"pole":"high","cluster":1,"mode":"sentence-ending punctuation closing an assistant reply","scene_windows":0,"windows":5,"scene":"assistant cooking, skincare and craft answers"}
+{"neuron":7076,"pole":"high","cluster":2,"mode":"'you' or 'your' in second-person advice","scene_windows":0,"windows":5,"scene":"personal growth and financial advice"}
+{"neuron":7076,"pole":"high","cluster":3,"mode":"'you' or 'some' right after 'Can' or 'Do' in user questions","scene_windows":0,"windows":5,"scene":"short Human questions to an assistant"}
+{"neuron":7076,"pole":"low","cluster":0,"mode":"function words in general advice about balance and values","scene_windows":0,"windows":5,"scene":"self-improvement and ecology prose"}
+{"neuron":7076,"pole":"low","cluster":1,"mode":"'really' or 'for' in user thanks and reactions","scene_windows":0,"windows":5,"scene":"user thank-yous and reactions in chats"}
+{"neuron":7145,"pole":"high","cluster":0,"mode":"articles and auxiliaries inside formal descriptive sentences","scene_windows":0,"windows":5,"scene":"medical, policy and research descriptions"}
+{"neuron":7145,"pole":"high","cluster":1,"mode":"period ending a practical recommendation sentence","scene_windows":0,"windows":5,"scene":"fashion, fitness and food advice"}
+{"neuron":7145,"pole":"low","cluster":0,"mode":"digits inside dates, page numbers and citations","scene_windows":0,"windows":5,"scene":"reference citations and data tables"}
+{"neuron":7145,"pole":"low","cluster":1,"mode":"conjunction or 'that' joining clauses in hedged opinions","scene_windows":0,"windows":5,"scene":"opinion and advice discussions"}
+{"neuron":3059,"pole":"high","cluster":0,"mode":"'is', 'was' or 'soon' inside descriptive narrative clauses","scene_windows":0,"windows":5,"scene":"historical narration and skincare text"}
+{"neuron":3059,"pole":"high","cluster":1,"mode":"the 'n' of a negative contraction like n't","scene_windows":0,"windows":5,"scene":"fictional dialogue with negations"}
+{"neuron":3059,"pole":"low","cluster":0,"mode":"question mark or exclamation closing a Human query","scene_windows":0,"windows":5,"scene":"Human/Assistant informational queries"}
+{"neuron":3059,"pole":"low","cluster":1,"mode":"period or verb in neutral third-person narration","scene_windows":0,"windows":5,"scene":"narrative fiction and book reviews"}
+{"neuron":3059,"pole":"low","cluster":2,"mode":"closing quotation mark ending spoken dialogue lines","scene_windows":0,"windows":5,"scene":"fantasy dialogue with a genie and terse exchanges"}
+{"neuron":5966,"pole":"high","cluster":0,"mode":"colon after 'Human' starting a new user turn","scene_windows":0,"windows":5,"scene":"multi-turn Human/Assistant advice conversations"}
+{"neuron":5966,"pole":"high","cluster":1,"mode":"'you' after 'Can' or 'Could' in user requests","scene_windows":0,"windows":5,"scene":"user requests for writing and recipes"}
+{"neuron":5966,"pole":"high","cluster":2,"mode":"colon after 'assistant' label before a reply","scene_windows":0,"windows":5,"scene":"collaborative story and draft writing chats"}
+{"neuron":5966,"pole":"high","cluster":3,"mode":"'questions' or 'have' in assistant closing offers","scene_windows":0,"windows":5,"scene":"assistant sign-offs after technical help"}
+{"neuron":5966,"pole":"high","cluster":4,"mode":"opening quotation mark starting a dialogue line","scene_windows":0,"windows":5,"scene":"fiction dialogue, some with profanity"}
+{"neuron":5966,"pole":"high","cluster":5,"mode":"punctuation closing a reflective or essay clause","scene_windows":0,"windows":5,"scene":"essays on society, careers and family"}
+{"neuron":5966,"pole":"high","cluster":6,"mode":"question mark or period before an assistant reply","scene_windows":0,"windows":5,"scene":"SEO, health and wellness Q&A"}
+{"neuron":5966,"pole":"low","cluster":0,"mode":"'of', 'you' or 'I' inside abstract reflective sentences","scene_windows":0,"windows":5,"scene":"essays, poetry and self-help prose"}
+{"neuron":5966,"pole":"low","cluster":1,"mode":"exclamation or comma right after an assistant opener","scene_windows":0,"windows":5,"scene":"assistant replies to recipe and advice questions"}
+{"neuron":5938,"pole":"high","cluster":0,"mode":"content nouns ending descriptive or instructional clauses","scene_windows":0,"windows":5,"scene":"pool care, laundry and business descriptions"}
+{"neuron":5938,"pole":"high","cluster":1,"mode":"period or space closing an analytical sentence","scene_windows":0,"windows":5,"scene":"city, history and health reporting"}
+{"neuron":5938,"pole":"high","cluster":2,"mode":"article or digit inside factual reference statements","scene_windows":0,"windows":5,"scene":"legal, biographical and citation text"}

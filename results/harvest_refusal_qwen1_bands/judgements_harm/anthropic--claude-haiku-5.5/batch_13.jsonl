@@ -1,0 +1,67 @@
+{"neuron":819,"pole":"high","cluster":0,"mode":"Comma or 'as' mid-sentence in health-information prose about chiropractic and remedies","scene_windows":0,"windows":5,"scene":"Health and wellness advice text"}
+{"neuron":819,"pole":"high","cluster":1,"mode":"Token right after 'Assistant:' in short human-assistant Q&A turns","scene_windows":0,"windows":5,"scene":"Everyday factual chat Q&A"}
+{"neuron":819,"pole":"high","cluster":2,"mode":"Author initials inside bibliographic reference lists","scene_windows":0,"windows":5,"scene":"Academic reference lists"}
+{"neuron":819,"pole":"high","cluster":3,"mode":"Periods and initials inside author citation strings","scene_windows":0,"windows":5,"scene":"Academic citation entries"}
+{"neuron":819,"pole":"high","cluster":4,"mode":"Author name tokens inside medical journal reference entries","scene_windows":0,"windows":5,"scene":"Medical reference lists"}
+{"neuron":819,"pole":"low","cluster":0,"mode":"Opening quotation marks starting dialogue in fiction passages","scene_windows":1,"windows":5,"scene":"Fiction dialogue, one scene involving a pistol"}
+{"neuron":819,"pole":"low","cluster":1,"mode":"Sentence-final period closing expository sentences before a new paragraph","scene_windows":0,"windows":5,"scene":"Encyclopedic and informational articles"}
+{"neuron":819,"pole":"low","cluster":2,"mode":"Blank indentation whitespace starting new paragraphs in narrative text","scene_windows":0,"windows":5,"scene":"Fiction and news narrative paragraphs"}
+{"neuron":819,"pole":"low","cluster":3,"mode":"Trailing space before numbered list items in marketing or tip lists","scene_windows":0,"windows":5,"scene":"Listicle tips on smoothies and social media"}
+{"neuron":819,"pole":"low","cluster":4,"mode":"Sentence-ending period before a new paragraph in science news","scene_windows":0,"windows":5,"scene":"Science news articles"}
+{"neuron":819,"pole":"low","cluster":5,"mode":"Sentence-final period ending advisory sentences in pet and home advice","scene_windows":0,"windows":5,"scene":"Practical pet and home advice"}
+{"neuron":819,"pole":"low","cluster":6,"mode":"Commas, 'that', and 'regarding' in mixed news and prose clauses","scene_windows":0,"windows":5,"scene":"Mixed news and literary prose"}
+{"neuron":819,"pole":"low","cluster":7,"mode":"Sentence-final periods closing despairing or tense narrative lines","scene_windows":3,"windows":5,"scene":"Dark fiction with violence, bloodlust, and despair"}
+{"neuron":10498,"pole":"high","cluster":0,"mode":"Preposition 'in' or 'on' locating organisms in soil or environments","scene_windows":0,"windows":5,"scene":"Pest and microbe habitat explanations"}
+{"neuron":10498,"pole":"high","cluster":1,"mode":"Prepositions 'by', 'to', 'of' after participles in technical clauses","scene_windows":0,"windows":5,"scene":"Technical and descriptive explanations"}
+{"neuron":10498,"pole":"high","cluster":2,"mode":"'as' introducing a temporal or causal clause after a verb","scene_windows":0,"windows":5,"scene":"Business, nature, and history prose"}
+{"neuron":10498,"pole":"low","cluster":0,"mode":"'simply' after 'or' or 'and' in suggestion lists","scene_windows":0,"windows":5,"scene":"Everyday advice and suggestions"}
+{"neuron":10498,"pole":"low","cluster":1,"mode":"Pronoun 'I' starting a human turn in dialogue transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant chat transcripts"}
+{"neuron":10498,"pole":"low","cluster":2,"mode":"Colon after 'Assistant' label before a reply","scene_windows":1,"windows":5,"scene":"Chat transcripts, one about hot-wiring a car"}
+{"neuron":10498,"pole":"low","cluster":3,"mode":"Opening quotation marks starting dialogue lines in fiction","scene_windows":0,"windows":5,"scene":"Fantasy and light fiction dialogue"}
+{"neuron":10498,"pole":"low","cluster":4,"mode":"'to' or 'Please' in cautionary advice urging safe or legal behavior","scene_windows":2,"windows":5,"scene":"Refusals and warnings about dangerous or illegal acts"}
+{"neuron":10498,"pole":"low","cluster":5,"mode":"Prepositions and conjunctions in general expository comparison clauses","scene_windows":0,"windows":5,"scene":"Policy, energy, and social analysis prose"}
+{"neuron":10498,"pole":"low","cluster":6,"mode":"'not only' construction in business benefit statements","scene_windows":0,"windows":5,"scene":"Workplace and business marketing text"}
+{"neuron":10039,"pole":"high","cluster":0,"mode":"'does' or 'did' in follow-up questions asking how something works","scene_windows":0,"windows":5,"scene":"User questions about tools and processes"}
+{"neuron":10039,"pole":"high","cluster":1,"mode":"'where' introducing a relative clause naming an institution","scene_windows":0,"windows":5,"scene":"Biographical descriptions of scholars"}
+{"neuron":10039,"pole":"high","cluster":2,"mode":"Sentence-initial 'If' starting a conditional advice sentence","scene_windows":0,"windows":5,"scene":"Practical advice and tips"}
+{"neuron":10039,"pole":"high","cluster":3,"mode":"Period ending a biographical sentence about a person's career","scene_windows":0,"windows":5,"scene":"Author and speaker bios"}
+{"neuron":10039,"pole":"high","cluster":4,"mode":"Period ending descriptive sentences in plant and tool lists","scene_windows":0,"windows":5,"scene":"Plant and productivity-tool listicles"}
+{"neuron":10039,"pole":"high","cluster":5,"mode":"Period ending fish description sentences in a creature profile","scene_windows":0,"windows":5,"scene":"Fictional creature description"}
+{"neuron":10039,"pole":"high","cluster":6,"mode":"'does' or 'do' opening the second half of an either-or question","scene_windows":0,"windows":5,"scene":"Conversational or-questions"}
+{"neuron":10039,"pole":"high","cluster":7,"mode":"'fact' or 'Indeed' introducing an emphatic clarifying clause","scene_windows":0,"windows":5,"scene":"Explanatory and corrective prose"}
+{"neuron":10039,"pole":"high","cluster":8,"mode":"'that' introducing a benefit or property clause","scene_windows":0,"windows":5,"scene":"Health and plant benefit descriptions"}
+{"neuron":10039,"pole":"high","cluster":9,"mode":"Sentence-initial 'Do' or 'Can' opening a user question","scene_windows":0,"windows":5,"scene":"Casual user questions to assistant"}
+{"neuron":10039,"pole":"high","cluster":10,"mode":"'is', 'guess', or 'that' introducing a stated opinion clause","scene_windows":0,"windows":5,"scene":"Narrative and opinion sentences"}
+{"neuron":10039,"pole":"high","cluster":11,"mode":"Comma after a location or descriptor phrase introducing a subject","scene_windows":0,"windows":5,"scene":"Resort and place descriptions"}
+{"neuron":10039,"pole":"low","cluster":0,"mode":"Question mark and space ending a follow-up request for more information","scene_windows":0,"windows":5,"scene":"User requests for elaboration"}
+{"neuron":10039,"pole":"low","cluster":1,"mode":"'assistant' label starting a reply in add-more-details requests","scene_windows":0,"windows":5,"scene":"Story-writing feedback chats"}
+{"neuron":10039,"pole":"low","cluster":2,"mode":"Colon ending an introduction before a numbered list","scene_windows":0,"windows":5,"scene":"How-to and tips lists"}
+{"neuron":10039,"pole":"low","cluster":3,"mode":"Whitespace starting new dialogue paragraphs in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue"}
+{"neuron":10039,"pole":"low","cluster":4,"mode":"Period ending factual biology and chemistry sentences","scene_windows":0,"windows":5,"scene":"Science and genetics explanations"}
+{"neuron":10039,"pole":"low","cluster":5,"mode":"Period plus spaces ending screenplay action lines","scene_windows":0,"windows":5,"scene":"Screenplay scenes"}
+{"neuron":10039,"pole":"low","cluster":6,"mode":"'about' or 'details' in requests asking for more information","scene_windows":0,"windows":5,"scene":"Follow-up requests for details"}
+{"neuron":10039,"pole":"low","cluster":7,"mode":"Period closing dramatic lines in fantasy and sci-fi narration","scene_windows":0,"windows":5,"scene":"Fantasy and sci-fi narration"}
+{"neuron":10039,"pole":"low","cluster":8,"mode":"Period or clause end in cautionary and technical exposition","scene_windows":0,"windows":5,"scene":"Legal, lab safety, and health exposition"}
+{"neuron":10039,"pole":"low","cluster":9,"mode":"Period closing optimistic advice on relationships and finances","scene_windows":0,"windows":5,"scene":"Relationship and finance advice"}
+{"neuron":10039,"pole":"low","cluster":10,"mode":"Period and double space before a user follow-up turn","scene_windows":0,"windows":5,"scene":"Summary sentences before user follow-ups"}
+{"neuron":10039,"pole":"low","cluster":11,"mode":"Period ending advice or fact before a Human turn","scene_windows":0,"windows":5,"scene":"Q&A about pets, travel, and habits"}
+{"neuron":7890,"pole":"high","cluster":0,"mode":"'Most' starting a general-claim sentence","scene_windows":0,"windows":5,"scene":"General informational explanations"}
+{"neuron":7890,"pole":"high","cluster":1,"mode":"Prepositions 'in', 'the', 'of' inside common noun phrases","scene_windows":0,"windows":5,"scene":"Descriptive and essayistic prose"}
+{"neuron":7890,"pole":"high","cluster":2,"mode":"'that' introducing a relative clause after a noun","scene_windows":0,"windows":5,"scene":"Fiction and essay sentences"}
+{"neuron":7890,"pole":"low","cluster":0,"mode":"'potentially' or 'potential' before a hazard or risk noun","scene_windows":0,"windows":5,"scene":"Household safety and product advice"}
+{"neuron":7890,"pole":"low","cluster":1,"mode":"'cause' after a modal, describing harmful effects","scene_windows":0,"windows":5,"scene":"Product safety and health effect warnings"}
+{"neuron":7890,"pole":"low","cluster":2,"mode":"'can' after a subject, predicting damage or harm","scene_windows":0,"windows":5,"scene":"Care and maintenance advice"}
+{"neuron":7890,"pole":"low","cluster":3,"mode":"'various' or 'several' before health-effect nouns","scene_windows":0,"windows":5,"scene":"Pet food and diet health discussions"}
+{"neuron":7890,"pole":"low","cluster":4,"mode":"Article 'a' or 'of' in evaluative predicate phrases","scene_windows":0,"windows":5,"scene":"Mixed evaluative and pool advice text"}
+{"neuron":7890,"pole":"low","cluster":5,"mode":"Blank space inside code after conditional 'then'","scene_windows":0,"windows":5,"scene":"Bash script code"}
+{"neuron":2124,"pole":"high","cluster":0,"mode":"'are' or 'and' after 'there' or list-ending in food suggestions","scene_windows":0,"windows":5,"scene":"Recipe and food idea conversations"}
+{"neuron":2124,"pole":"high","cluster":1,"mode":"Fragment 'ec' inside the word 'trabecular' in glaucoma text","scene_windows":0,"windows":5,"scene":"Medical eye-anatomy articles"}
+{"neuron":2124,"pole":"low","cluster":0,"mode":"'corn' token in ingredient lists and corn-based terms","scene_windows":0,"windows":5,"scene":"Recipe ingredient lists"}
+{"neuron":2124,"pole":"low","cluster":1,"mode":"'potassium' in mineral and nutrient lists","scene_windows":0,"windows":5,"scene":"Nutrition and mineral facts"}
+{"neuron":2124,"pole":"low","cluster":2,"mode":"'wheat' or 'w' token naming a grain in baking text","scene_windows":0,"windows":5,"scene":"Baking and recipe text"}
+{"neuron":2124,"pole":"low","cluster":3,"mode":"'coconut' token in dish and recipe names","scene_windows":0,"windows":5,"scene":"Coconut and curry recipes"}
+{"neuron":2124,"pole":"low","cluster":4,"mode":"'cotton' as a material name in clothing and furniture","scene_windows":0,"windows":5,"scene":"Material and fabric advice"}
+{"neuron":2124,"pole":"low","cluster":5,"mode":"'sodium' token in mineral and electrolyte discussions","scene_windows":0,"windows":5,"scene":"Electrolyte and mineral information"}
+{"neuron":2124,"pole":"low","cluster":6,"mode":"Opening quote marks or commas inside short dialogue lines","scene_windows":0,"windows":5,"scene":"Fantasy dialogue about a mage test"}
+{"neuron":2124,"pole":"low","cluster":7,"mode":"Mid-word fragments in chemical or drug names","scene_windows":0,"windows":5,"scene":"Chemistry, drug, and Mars geology text"}
+{"neuron":2124,"pole":"low","cluster":8,"mode":"'water' or 'flour' as a recipe ingredient","scene_windows":0,"windows":5,"scene":"Cooking and recipe steps"}

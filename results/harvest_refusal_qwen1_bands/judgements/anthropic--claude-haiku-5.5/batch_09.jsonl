@@ -1,0 +1,71 @@
+{"neuron":1037,"pole":"high","cluster":0,"mode":"Preposition or particle completing 'convicted/found guilty/charged' legal-proceedings phrases","scene_windows":0,"windows":5,"scene":"News reports on trials, convictions and legal proceedings"}
+{"neuron":1037,"pole":"high","cluster":1,"mode":"Word 'refuge/in/the' completing asylum and confinement phrases about Assange","scene_windows":0,"windows":5,"scene":"News narration of Assange's asylum and extradition"}
+{"neuron":1037,"pole":"high","cluster":2,"mode":"Verb 'celebrate' in instructions for party or wedding speeches","scene_windows":0,"windows":5,"scene":"Writing guidance for celebrations and party planning"}
+{"neuron":1037,"pole":"high","cluster":3,"mode":"Imperative 'practice' starting self-improvement or wellness advice items","scene_windows":0,"windows":5,"scene":"Self-care, mindfulness and habit advice lists"}
+{"neuron":1037,"pole":"high","cluster":4,"mode":"Medical-condition context words such as develop, serious, the in disease descriptions","scene_windows":0,"windows":5,"scene":"Medical explanations of eye, cancer and skin conditions"}
+{"neuron":1037,"pole":"high","cluster":5,"mode":"Possessive or article after 'state', 'Russia', 'the' in Russia-Ukraine conflict news","scene_windows":0,"windows":5,"scene":"News on musicians cancelling Russian gigs and Eurovision"}
+{"neuron":1037,"pole":"low","cluster":0,"mode":"Modal 'can't/be' inside energy conservation statements of thermodynamics","scene_windows":0,"windows":5,"scene":"Physics explanation of conservation of energy"}
+{"neuron":1037,"pole":"low","cluster":1,"mode":"Word 'never' in safety warnings about dangerous objects or actions","scene_windows":1,"windows":5,"scene":"Safety warnings about batteries, prosthetics, shears, electrocution"}
+{"neuron":1037,"pole":"low","cluster":2,"mode":"Assistant declining: 'unable to', 'cannot', 'prohibits me from' before refusing","scene_windows":5,"windows":5,"scene":"Assistant refusing illegal, vandalism or deceptive requests"}
+{"neuron":1037,"pole":"low","cluster":3,"mode":"Negation 'do not' inside product safety warnings about chemicals","scene_windows":5,"windows":5,"scene":"Cautions against misuse of bleach, pesticides, chemicals"}
+{"neuron":1037,"pole":"low","cluster":4,"mode":"Imperative 'Avoid' or 'avoiding' in car fuel-saving and maintenance tips","scene_windows":0,"windows":5,"scene":"Car maintenance and fuel economy advice"}
+{"neuron":1037,"pole":"low","cluster":5,"mode":"Function words like 'a', 'and', 'as', 'of' in general expository sentences","scene_windows":0,"windows":5,"scene":"Neutral expository text on society, economy, resources"}
+{"neuron":1037,"pole":"low","cluster":6,"mode":"'interesting' or 'tricky' inside assistant openers answering a question","scene_windows":0,"windows":5,"scene":"Chatbot replies opening with praise of the user's question"}
+{"neuron":836,"pole":"high","cluster":0,"mode":"Assistant turn start token in simple how-to or advice dialogues","scene_windows":0,"windows":5,"scene":"Human-assistant advice dialogues on everyday tasks"}
+{"neuron":836,"pole":"high","cluster":1,"mode":"'I' or 'am' starting an assistant's self-description reply","scene_windows":0,"windows":5,"scene":"Assistant answering personal questions about itself"}
+{"neuron":836,"pole":"high","cluster":2,"mode":"Conjunction 'but' interrupting a narrative action or hope","scene_windows":0,"windows":5,"scene":"Suspenseful fiction narration with obstacles"}
+{"neuron":836,"pole":"high","cluster":3,"mode":"Intensifier 'too' before adjectives describing a character's state","scene_windows":0,"windows":5,"scene":"Action and horror fiction describing characters' weakness"}
+{"neuron":836,"pole":"high","cluster":4,"mode":"Determiners and nouns like areas, individuals, various in expository sentences","scene_windows":0,"windows":5,"scene":"Descriptive text about trails, libraries, careers"}
+{"neuron":836,"pole":"high","cluster":5,"mode":"Conditional 'If' or 'if' starting practical tip sentences","scene_windows":0,"windows":5,"scene":"Practical how-to tips on water, lights, apps"}
+{"neuron":836,"pole":"low","cluster":0,"mode":"Question word 'What' or contraction 's' in dialogue lines","scene_windows":0,"windows":5,"scene":"Fiction dialogue with characters questioning each other"}
+{"neuron":836,"pole":"low","cluster":1,"mode":"Pronoun 'I' or 'some' right after 'Human:' in dialogue turns","scene_windows":0,"windows":5,"scene":"Human turns opening chatbot conversations"}
+{"neuron":836,"pole":"low","cluster":2,"mode":"Word 'know' in conversational or explanatory speech","scene_windows":0,"windows":5,"scene":"Casual dialogue and explanations of concepts"}
+{"neuron":836,"pole":"low","cluster":3,"mode":"Colon or assistant label starting an answer in Q&A turns","scene_windows":0,"windows":5,"scene":"Human-assistant factual question answering"}
+{"neuron":836,"pole":"low","cluster":4,"mode":"Opening quotation mark starting a new line of dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with quoted speech"}
+{"neuron":836,"pole":"low","cluster":5,"mode":"Connectives like because, if, was, the in general prose","scene_windows":0,"windows":5,"scene":"Business and general expository prose"}
+{"neuron":836,"pole":"low","cluster":6,"mode":"Question mark after repeated 'What' in terse dialogue","scene_windows":0,"windows":5,"scene":"Tense fiction dialogue with one-word questions"}
+{"neuron":3048,"pole":"high","cluster":0,"mode":"Colon after 'Assistant' label opening a reply","scene_windows":0,"windows":5,"scene":"Human-assistant follow-up dialogues on everyday topics"}
+{"neuron":3048,"pole":"high","cluster":1,"mode":"'please' before a request inviting further input","scene_windows":0,"windows":5,"scene":"Closing offers to share ideas or suggestions"}
+{"neuron":3048,"pole":"high","cluster":2,"mode":"Period or exclamation ending a user's compliment before a request","scene_windows":0,"windows":5,"scene":"User feedback messages requesting more content"}
+{"neuron":3048,"pole":"high","cluster":3,"mode":"Period ending a user's opening statement in a human-assistant turn","scene_windows":1,"windows":5,"scene":"Human opening requests about hobbies, supplies, sleep"}
+{"neuron":3048,"pole":"high","cluster":4,"mode":"Blank whitespace token after a closing quotation in fiction dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes with quoted speech"}
+{"neuron":3048,"pole":"high","cluster":5,"mode":"Step number token inside numbered recipe instructions","scene_windows":0,"windows":5,"scene":"Recipe step lists with numbered instructions"}
+{"neuron":3048,"pole":"high","cluster":6,"mode":"Blank token after a sentence inside recipe or instruction text","scene_windows":0,"windows":5,"scene":"Cooking recipe instructions for potato salad"}
+{"neuron":3048,"pole":"high","cluster":7,"mode":"Period after step numbers or sentence ends in instructions","scene_windows":0,"windows":5,"scene":"Step-by-step recipes and yoga instructions"}
+{"neuron":3048,"pole":"high","cluster":8,"mode":"Period ending an assistant's opening sentence answering a question","scene_windows":0,"windows":5,"scene":"Assistant answering general information questions"}
+{"neuron":3048,"pole":"high","cluster":9,"mode":"Period ending a sentence of advice or explanation","scene_windows":0,"windows":5,"scene":"Advice passages on teaching, driving, sports, closets"}
+{"neuron":3048,"pole":"high","cluster":10,"mode":"Double-space token after a sentence in mixed-format text","scene_windows":0,"windows":5,"scene":"Story and fact passages with sentence breaks"}
+{"neuron":3048,"pole":"high","cluster":11,"mode":"Question mark ending a user's question before an assistant reply","scene_windows":0,"windows":5,"scene":"Human questions on packing, paint, recipes, space"}
+{"neuron":3048,"pole":"high","cluster":12,"mode":"Period ending a news-style sentence before a new paragraph","scene_windows":0,"windows":5,"scene":"News and science article sentences"}
+{"neuron":3048,"pole":"high","cluster":13,"mode":"'some' or 'are' after 'Here' introducing a list of examples","scene_windows":0,"windows":5,"scene":"Assistant introducing lists of tips or recommendations"}
+{"neuron":3048,"pole":"high","cluster":14,"mode":"Period ending a sentence of explanation within fiction dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with explanatory statements"}
+{"neuron":3048,"pole":"high","cluster":15,"mode":"Period ending first-person narrative sentences","scene_windows":0,"windows":5,"scene":"First-person fiction narration of emotional moments"}
+{"neuron":3048,"pole":"high","cluster":16,"mode":"'but' linking contrasting clauses in reflective narration","scene_windows":0,"windows":5,"scene":"Personal reflective narratives about struggles"}
+{"neuron":3048,"pole":"high","cluster":17,"mode":"Comma inside lists of nouns or clauses in narration","scene_windows":0,"windows":5,"scene":"Fiction narration with comma-separated lists"}
+{"neuron":3048,"pole":"high","cluster":18,"mode":"'and' or noun joining activities in advice or narrative","scene_windows":0,"windows":5,"scene":"Advice on networking, speaking, and personal habits"}
+{"neuron":3048,"pole":"low","cluster":0,"mode":"Blank whitespace token ending an expository sentence","scene_windows":0,"windows":5,"scene":"Expository encyclopedia-style text on topics"}
+{"neuron":3048,"pole":"low","cluster":1,"mode":"Blank whitespace token after a sentence in fiction narration","scene_windows":0,"windows":5,"scene":"First-person narrative fiction passages"}
+{"neuron":3048,"pole":"low","cluster":2,"mode":"Blank double-space token after a passage before a Human turn","scene_windows":0,"windows":5,"scene":"Expository passages followed by human questions"}
+{"neuron":3048,"pole":"low","cluster":3,"mode":"Period ending a short product or food description sentence","scene_windows":0,"windows":5,"scene":"Product and food descriptive text"}
+{"neuron":3048,"pole":"low","cluster":4,"mode":"Period ending a list item about technology or writers","scene_windows":0,"windows":5,"scene":"Lists of case studies and writers on gardens"}
+{"neuron":3048,"pole":"low","cluster":5,"mode":"Blank or period ending a gift-idea list item","scene_windows":0,"windows":5,"scene":"Gift and garden idea lists"}
+{"neuron":3048,"pole":"low","cluster":6,"mode":"Blank or period ending a tip item in bulleted advice","scene_windows":0,"windows":5,"scene":"Bulleted tips on travel, home, and self-improvement"}
+{"neuron":3048,"pole":"low","cluster":7,"mode":"Adjective or noun inside general descriptive statements","scene_windows":0,"windows":5,"scene":"Descriptive essays on computing, medicine, relationships"}
+{"neuron":3048,"pole":"low","cluster":8,"mode":"Period ending short emotional or informal narrative sentences","scene_windows":0,"windows":5,"scene":"Informal first-person narration with profanity"}
+{"neuron":6676,"pole":"high","cluster":0,"mode":"'feedback' or 'input' in closing lines of customer surveys","scene_windows":0,"windows":5,"scene":"Customer survey letters asking for feedback"}
+{"neuron":6676,"pole":"high","cluster":1,"mode":"'to' after 'important' or 'valuable' in feedback request letters","scene_windows":0,"windows":5,"scene":"Business letters requesting customer feedback"}
+{"neuron":6676,"pole":"high","cluster":2,"mode":"Verb 'contact' after 'hesitate to' in closing customer service lines","scene_windows":0,"windows":5,"scene":"Customer service closing messages inviting contact"}
+{"neuron":6676,"pole":"high","cluster":3,"mode":"Comma after 'concerns' or 'questions' in closing offers of help","scene_windows":0,"windows":5,"scene":"Assistant closing lines offering further help"}
+{"neuron":6676,"pole":"high","cluster":4,"mode":"'to' or 'hesitate' in 'do not hesitate to contact us' phrasing","scene_windows":0,"windows":5,"scene":"Business letters with contact-us closings"}
+{"neuron":6676,"pole":"high","cluster":5,"mode":"Assistant label or turn start in follow-up replies","scene_windows":0,"windows":5,"scene":"Human-assistant turns with clarifications and apps"}
+{"neuron":6676,"pole":"high","cluster":6,"mode":"Pronoun or verb starting an apology or pleasantry reply","scene_windows":1,"windows":5,"scene":"Assistant apologizing after user accuses it of illegal requests"}
+{"neuron":6676,"pole":"high","cluster":7,"mode":"Verb 'let' in 'please let me know' closing offers","scene_windows":0,"windows":5,"scene":"Assistant closing lines inviting questions"}
+{"neuron":6676,"pole":"high","cluster":8,"mode":"Period ending supportive closing sentences offering further help","scene_windows":2,"windows":5,"scene":"Supportive assistant replies, some on intoxication safety"}
+{"neuron":6676,"pole":"high","cluster":9,"mode":"Blank token after an assistant's closing follow-up question","scene_windows":0,"windows":5,"scene":"Assistant closing with follow-up questions offering more help"}
+{"neuron":6676,"pole":"high","cluster":10,"mode":"Prepositions and conjunctions in generic expository sentences","scene_windows":0,"windows":5,"scene":"Expository essays on technology, healthcare, history"}
+{"neuron":6676,"pole":"high","cluster":11,"mode":"'and' joining closing offers of further help","scene_windows":0,"windows":5,"scene":"Assistant closing lines offering further support"}
+{"neuron":6676,"pole":"low","cluster":0,"mode":"Article or possessive after 'Thanks for' in assistant replies","scene_windows":0,"windows":5,"scene":"Assistant thanking user for feedback or question"}
+{"neuron":6676,"pole":"low","cluster":1,"mode":"'other' or 'any' in closing offers of more questions","scene_windows":0,"windows":5,"scene":"Assistant closing messages offering more questions"}
+{"neuron":6676,"pole":"low","cluster":2,"mode":"Conjunction 'But' starting a sentence of threat or contrast","scene_windows":1,"windows":5,"scene":"Fiction scene with a menacing captor or killer"}
+{"neuron":6676,"pole":"low","cluster":3,"mode":"Articles and commas inside general descriptive sentences","scene_windows":0,"windows":5,"scene":"Expository text on rings, populism, cryosphere"}
+{"neuron":6676,"pole":"low","cluster":4,"mode":"Period or question mark ending terse dialogue lines","scene_windows":0,"windows":5,"scene":"Tense fiction dialogue with threats and orders"}

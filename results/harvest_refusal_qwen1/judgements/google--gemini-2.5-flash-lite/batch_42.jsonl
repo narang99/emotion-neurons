@@ -1,0 +1,38 @@
+{"neuron":2579,"pole":"high","cluster":0,"mode":"frustration, exasperation, and threats of destruction.","scene_windows":0,"windows":5,"scene":"negative emotions and threats"}
+{"neuron":2579,"pole":"high","cluster":1,"mode":"asking for recommendations and help with tasks.","scene_windows":0,"windows":5,"scene":"neutral requests for information"}
+{"neuron":2579,"pole":"low","cluster":0,"mode":"asking factual questions about dates, history, and science.","scene_windows":0,"windows":5,"scene":"neutral factual queries"}
+{"neuron":2579,"pole":"low","cluster":1,"mode":"asking personal questions about habits and achievements.","scene_windows":0,"windows":5,"scene":"personal inquiries"}
+{"neuron":2579,"pole":"low","cluster":2,"mode":"listing food items and traditions.","scene_windows":0,"windows":5,"scene":"listing food and traditions"}
+{"neuron":2579,"pole":"low","cluster":3,"mode":"discussing personal history, health, and societal issues.","scene_windows":0,"windows":5,"scene":"personal and societal discussion"}
+{"neuron":2579,"pole":"low","cluster":4,"mode":"describing physical sensations and emotional states.","scene_windows":0,"windows":5,"scene":"physical and emotional descriptions"}
+{"neuron":2579,"pole":"low","cluster":5,"mode":"discussing medical conditions and personal feelings.","scene_windows":0,"windows":5,"scene":"medical and personal feelings"}
+{"neuron":1420,"pole":"high","cluster":0,"mode":"discussing beliefs, development, and creation.","scene_windows":0,"windows":5,"scene":"discussion of beliefs and development"}
+{"neuron":1420,"pole":"high","cluster":1,"mode":"discussing technology, health, and societal issues.","scene_windows":0,"windows":5,"scene":"discussion of technology and society"}
+{"neuron":1420,"pole":"low","cluster":0,"mode":"discussing environmental factors, conditions, and history.","scene_windows":0,"windows":5,"scene":"environmental and historical discussion"}
+{"neuron":1420,"pole":"low","cluster":1,"mode":"discussing emotional support, caution, and privacy.","scene_windows":0,"windows":5,"scene":"emotional support and caution"}
+{"neuron":1857,"pole":"high","cluster":0,"mode":"apologizing for errors and offering assistance.","scene_windows":0,"windows":5,"scene":"apologies and assistance"}
+{"neuron":1857,"pole":"high","cluster":1,"mode":"discussing technical issues and solutions.","scene_windows":0,"windows":5,"scene":"technical issues and solutions"}
+{"neuron":1857,"pole":"high","cluster":2,"mode":"expressing thanks and offering help.","scene_windows":0,"windows":5,"scene":"gratitude and offers of help"}
+{"neuron":1857,"pole":"low","cluster":0,"mode":"discussing storage, health, and historical planning.","scene_windows":0,"windows":5,"scene":"storage, health, and planning"}
+{"neuron":1857,"pole":"low","cluster":1,"mode":"discussing intelligence, removal, and health.","scene_windows":0,"windows":5,"scene":"intelligence, removal, and health"}
+{"neuron":5608,"pole":"high","cluster":0,"mode":"describing physical sensations, uncertainty, and bodily functions.","scene_windows":0,"windows":5,"scene":"physical sensations and uncertainty"}
+{"neuron":5608,"pole":"high","cluster":1,"mode":"discussing technology, dreams, and clinics.","scene_windows":0,"windows":5,"scene":"technology, dreams, and clinics"}
+{"neuron":5608,"pole":"low","cluster":0,"mode":"discussing monastic journeys, weight loss, and politics.","scene_windows":0,"windows":5,"scene":"monastic, weight loss, politics"}
+{"neuron":5608,"pole":"low","cluster":1,"mode":"discussing Brazilian dishes, baklava, and special forces.","scene_windows":0,"windows":5,"scene":"food and military discussion"}
+{"neuron":10141,"pole":"high","cluster":0,"mode":"discussing military campaigns, dreams, and delivery.","scene_windows":0,"windows":5,"scene":"military, dreams, delivery"}
+{"neuron":10141,"pole":"high","cluster":1,"mode":"asking factual questions about games, health, and history.","scene_windows":0,"windows":5,"scene":"factual queries"}
+{"neuron":10141,"pole":"low","cluster":0,"mode":"discussing health, apologies, and gratitude.","scene_windows":0,"windows":5,"scene":"health, apologies, gratitude"}
+{"neuron":10141,"pole":"low","cluster":1,"mode":"asking for advice and information.","scene_windows":0,"windows":5,"scene":"requests for advice"}
+{"neuron":9708,"pole":"high","cluster":0,"mode":"discussing color schemes, merchandise, and emotional abuse.","scene_windows":0,"windows":5,"scene":"color, merchandise, abuse"}
+{"neuron":9708,"pole":"high","cluster":1,"mode":"discussing emotional states, weapons, and finances.","scene_windows":0,"windows":5,"scene":"emotions, weapons, finances"}
+{"neuron":9708,"pole":"high","cluster":2,"mode":"asking for advice and information.","scene_windows":0,"windows":5,"scene":"requests for advice"}
+{"neuron":9708,"pole":"low","cluster":0,"mode":"discussing historical events, prices, and misuse.","scene_windows":0,"windows":5,"scene":"history, prices, misuse"}
+{"neuron":9708,"pole":"low","cluster":1,"mode":"asking for information and opinions.","scene_windows":0,"windows":5,"scene":"requests for information"}
+{"neuron":731,"pole":"high","cluster":0,"mode":"providing examples of healthy snacks and charity activities.","scene_windows":0,"windows":5,"scene":"examples of snacks and activities"}
+{"neuron":731,"pole":"high","cluster":1,"mode":"discussing musical instruments, power, and health.","scene_windows":0,"windows":5,"scene":"music, power, health"}
+{"neuron":731,"pole":"low","cluster":0,"mode":"offering assistance and information.","scene_windows":0,"windows":5,"scene":"offers of assistance"}
+{"neuron":731,"pole":"low","cluster":1,"mode":"offering suggestions and recipes.","scene_windows":0,"windows":5,"scene":"offers of suggestions"}
+{"neuron":731,"pole":"low","cluster":2,"mode":"asking for recommendations and history.","scene_windows":0,"windows":5,"scene":"requests for recommendations"}
+{"neuron":731,"pole":"low","cluster":3,"mode":"offering assistance and information.","scene_windows":0,"windows":5,"scene":"offers of assistance"}
+{"neuron":731,"pole":"low","cluster":4,"mode":"discussing programs, businesses, and students.","scene_windows":0,"windows":5,"scene":"programs, businesses, students"}
+{"neuron":731,"pole":"low","cluster":5,"mode":"asking for help and instructions.","scene_windows":0,"windows":5,"scene":"requests for help"}

@@ -1,0 +1,78 @@
+{"neuron":7988,"pole":"high","cluster":0,"mode":"examples of famous calligraphers and contributions to art","scene_windows":0,"windows":5,"scene":"neutral academic discussion"}
+{"neuron":7988,"pole":"high","cluster":1,"mode":"different kinds of views, fallacies, meditation, and decongestants","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":7988,"pole":"low","cluster":0,"mode":"cutting-edge machine learning, international humanitarian law, viral content, personal computing, classical music","scene_windows":0,"windows":5,"scene":"neutral academic discussion"}
+{"neuron":7988,"pole":"low","cluster":1,"mode":"mental health in the workplace and preventative efforts","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":1001,"pole":"high","cluster":0,"mode":"traditional recipes, competition, Islamic calligraphy, UN World Food Program, books","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":1001,"pole":"high","cluster":1,"mode":"safety topics, exercise, training programs, gratitude, toddler learning","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":1001,"pole":"low","cluster":0,"mode":"ability to search, keep information, reach consciousness, write, communicate","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":1001,"pole":"low","cluster":1,"mode":"feedback on projects, opinion importance","scene_windows":0,"windows":5,"scene":"neutral business communication"}
+{"neuron":1001,"pole":"low","cluster":2,"mode":"cultural heritage, economic benefits, accomplishments, market returns, veterinarian inspiration","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":1001,"pole":"low","cluster":3,"mode":"collaboration, ethical issues, venturing into minds, copying artists","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":10299,"pole":"high","cluster":0,"mode":"drug effects, pool chemicals, STEAM exploration, rock history, dish ingredients","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":10299,"pole":"high","cluster":1,"mode":"inability to tell why, daughter, regret, reading minds, epidemic","scene_windows":0,"windows":5,"scene":"personal distress"}
+{"neuron":10299,"pole":"low","cluster":0,"mode":"commitment to exploring technologies, working with countries, well-being of population, meeting needs, essential for life","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":10299,"pole":"low","cluster":1,"mode":"personalized recipes, flavor combinations, chocolate muffins","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":135,"pole":"high","cluster":0,"mode":"calculating Fibonacci numbers, extracting data from HTML","scene_windows":0,"windows":5,"scene":"neutral programming"}
+{"neuron":135,"pole":"high","cluster":1,"mode":"bank account class attributes and member functions","scene_windows":0,"windows":5,"scene":"neutral programming"}
+{"neuron":135,"pole":"high","cluster":2,"mode":"time travel, cloud trappers, betrayal, accomplishments, creating time travel","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":135,"pole":"high","cluster":3,"mode":"boyfriend chuckles, talking, school houses, purging, punishment","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":135,"pole":"low","cluster":0,"mode":"assistant responses about riddles","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":135,"pole":"low","cluster":1,"mode":"article descriptions, cruise, festivals, console application, microphone performance","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":135,"pole":"low","cluster":2,"mode":"dialogue about being heard, god of space, being watched, changing things, invasion","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":135,"pole":"low","cluster":3,"mode":"questions about bilingualism, creepypasta, dissociative identity disorder, contrarian","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":135,"pole":"low","cluster":4,"mode":"writing stories, adding details, descriptions, writing about sand, recommending music","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":135,"pole":"low","cluster":5,"mode":"asking for TLDR, detailed lists, Christmas decorations, surprise parties, towing capacity","scene_windows":0,"windows":5,"scene":"user requests"}
+{"neuron":135,"pole":"low","cluster":6,"mode":"clinical interventions, Africans, self-sacrifice, lifespan, restaurants","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":135,"pole":"low","cluster":7,"mode":"uselessness, meaning of this, feeling hungry, awe, thought insertion","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":135,"pole":"low","cluster":8,"mode":"interesting facts, inhibitors, good to know, relationship depth, minimalist style","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":135,"pole":"low","cluster":9,"mode":"rate of change, Korean dishes, cultural significance, bullet points, sun spots","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":135,"pole":"low","cluster":10,"mode":"approval, footprints, fresh air, tropical, angels","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":135,"pole":"low","cluster":11,"mode":"running out of patience, headed where, questions, image meaning, annoyance","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":135,"pole":"low","cluster":12,"mode":"semantics, constraints, models, them, work","scene_windows":0,"windows":5,"scene":"neutral technical discussion"}
+{"neuron":135,"pole":"low","cluster":13,"mode":"reds, greens, yellows, indicating systems","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":995,"pole":"high","cluster":0,"mode":"execution, cold leads, wobbly knees, monster, scales","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":995,"pole":"high","cluster":1,"mode":"difficult questions about mouth, monitoring sons, ending conversations, theory vs application, crushing Oreos","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":995,"pole":"high","cluster":2,"mode":"toxic sludge, body temperature, Nine Inch Nails, cancer environment, industrial chaos","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":995,"pole":"high","cluster":3,"mode":"fired if horse hurt, US Postal Service, blood types, facial muscles, burning face","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":995,"pole":"high","cluster":4,"mode":"dedication, retreat impact, Foundation Stone, air frying, bioethical aspects","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":995,"pole":"high","cluster":5,"mode":"raspberry syrup, flourless cookies, non-intrusive advertising, hillbilly, rekindling relationship","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":995,"pole":"high","cluster":6,"mode":"healthy exercise, tire service, career elevation, skin irritation, recovering from episode","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":995,"pole":"high","cluster":7,"mode":"newspapers, rolling head, autism treatment, understanding numbers, blurred vision","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":995,"pole":"high","cluster":8,"mode":"citations with periods","scene_windows":0,"windows":5,"scene":"neutral citation"}
+{"neuron":995,"pole":"high","cluster":9,"mode":"citations with periods and DOIs","scene_windows":0,"windows":5,"scene":"neutral citation"}
+{"neuron":995,"pole":"high","cluster":10,"mode":"mental health programs, company projections, ship construction, scrap metal, communicable disease","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":995,"pole":"high","cluster":11,"mode":"citations with periods and DOIs","scene_windows":0,"windows":5,"scene":"neutral citation"}
+{"neuron":995,"pole":"high","cluster":12,"mode":"citations with periods","scene_windows":0,"windows":5,"scene":"neutral citation"}
+{"neuron":995,"pole":"low","cluster":0,"mode":"beliefs about God, asking about you, awareness of time, breakfast options, jealousy","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":995,"pole":"low","cluster":1,"mode":"good luck wishes","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":995,"pole":"low","cluster":2,"mode":"dialogue about salvation, reading, growing, deciding","scene_windows":0,"windows":5,"scene":"fictional narrative"}
+{"neuron":995,"pole":"low","cluster":3,"mode":"presentation nervousness, interesting questions, founding member, current president","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":995,"pole":"low","cluster":4,"mode":"cosmopolitan view, definitive source, students with ASD, public health, over-the-counter","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":995,"pole":"low","cluster":5,"mode":"ChromeOS settings, content restrictions, Android apps, changing channels","scene_windows":0,"windows":5,"scene":"neutral technical instructions"}
+{"neuron":7106,"pole":"high","cluster":0,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"high","cluster":1,"mode":"human asking questions, assistant responding","scene_windows":0,"windows":5,"scene":"information seeking, neutral conversation"}
+{"neuron":7106,"pole":"high","cluster":2,"mode":"human asking questions, assistant responding","scene_windows":0,"windows":5,"scene":"information seeking, neutral conversation"}
+{"neuron":7106,"pole":"high","cluster":3,"mode":"human asking questions, assistant responding","scene_windows":0,"windows":5,"scene":"information seeking, neutral conversation"}
+{"neuron":7106,"pole":"high","cluster":4,"mode":"first-person narrative, emotional expression","scene_windows":0,"windows":5,"scene":"fiction, personal reflection"}
+{"neuron":7106,"pole":"low","cluster":0,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"low","cluster":1,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"low","cluster":2,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"low","cluster":3,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"low","cluster":4,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"low","cluster":5,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"low","cluster":6,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":7106,"pole":"low","cluster":7,"mode":"dialogue markers, conversational interjections, and direct address","scene_windows":0,"windows":5,"scene":"casual conversation, fiction"}
+{"neuron":3765,"pole":"high","cluster":0,"mode":"difficult journey, serious burns, some shortcomings, force to be reckoned with, beautiful","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":3765,"pole":"high","cluster":1,"mode":"sweat forming, sweating, wipe sweat, sweat, sweat","scene_windows":0,"windows":5,"scene":"physical exertion"}
+{"neuron":3765,"pole":"low","cluster":0,"mode":"despair and hopelessness, obliterated, deception, consequences, corpses","scene_windows":1,"windows":5,"scene":"post-apocalyptic"}
+{"neuron":3765,"pole":"low","cluster":1,"mode":"nuclear storm, nuclear war, nuclear rain, nuclear attack, nuclear catastrophes","scene_windows":4,"windows":5,"scene":"nuclear conflict"}
+{"neuron":257,"pole":"high","cluster":0,"mode":"giving flying fuck, excited to give speech, give these things time, gave up, give yourself time","scene_windows":0,"windows":5,"scene":"neutral conversational"}
+{"neuron":257,"pole":"high","cluster":1,"mode":"struggles to follow dreams, struggling to come together, struggling to balance, struggling to hold power, struggle to adapt","scene_windows":0,"windows":5,"scene":"character development"}
+{"neuron":257,"pole":"high","cluster":2,"mode":"long distance relationships","scene_windows":0,"windows":5,"scene":"relationship advice"}
+{"neuron":257,"pole":"high","cluster":3,"mode":"trying to find place, trying to overcome, trying to learn, trying to make something, trying to find funding","scene_windows":0,"windows":5,"scene":"personal growth"}
+{"neuron":257,"pole":"high","cluster":4,"mode":"try to find employment, trying to learn, try online dating, try something new, trying my hand","scene_windows":0,"windows":5,"scene":"personal exploration"}
+{"neuron":257,"pole":"high","cluster":5,"mode":"first minutes, legalized enslavement, reliability and stealth, new culture, entire globe","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":257,"pole":"high","cluster":6,"mode":"struggling to make ends meet","scene_windows":0,"windows":5,"scene":"hardship and resilience"}
+{"neuron":257,"pole":"low","cluster":0,"mode":"years, 2004, 19th century, 2013, 20","scene_windows":0,"windows":5,"scene":"neutral factual"}
+{"neuron":257,"pole":"low","cluster":1,"mode":"his ability, and wielded,唤起, she had fulfilled, this","scene_windows":0,"windows":5,"scene":"neutral informational"}
+{"neuron":257,"pole":"low","cluster":2,"mode":"five years, four weeks, three weeks, 10 to 14 years, 6-8 years","scene_windows":0,"windows":5,"scene":"neutral factual"}

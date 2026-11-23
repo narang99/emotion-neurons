@@ -1,0 +1,70 @@
+{"neuron":10925,"pole":"high","cluster":0,"mode":"Assistant expresses gladness to help or be of service.","scene_windows":0,"windows":5,"scene":"Neutral helpful assistant interaction"}
+{"neuron":10925,"pole":"high","cluster":1,"mode":"Assistant provides information based on a text.","scene_windows":0,"windows":5,"scene":"Neutral information retrieval"}
+{"neuron":10925,"pole":"high","cluster":2,"mode":"Assistant confirms user's understanding or statement.","scene_windows":0,"windows":5,"scene":"Neutral confirmation and explanation"}
+{"neuron":10925,"pole":"high","cluster":3,"mode":"Dates and names from historical records.","scene_windows":0,"windows":5,"scene":"Historical record listing"}
+{"neuron":10925,"pole":"high","cluster":4,"mode":"Segments of a discussion about renewable energy.","scene_windows":0,"windows":5,"scene":"Informative discussion on energy"}
+{"neuron":10925,"pole":"high","cluster":5,"mode":"Scientific or technical explanations starting with 'In'.","scene_windows":0,"windows":5,"scene":"Scientific explanation"}
+{"neuron":10925,"pole":"high","cluster":6,"mode":"Phrases introducing a significant aspect or benefit.","scene_windows":0,"windows":5,"scene":"Highlighting benefits or aspects"}
+{"neuron":10925,"pole":"high","cluster":7,"mode":"Assistant confirms user's statement or question.","scene_windows":0,"windows":5,"scene":"Neutral confirmation"}
+{"neuron":10925,"pole":"high","cluster":8,"mode":"Assistant offers helpful information or confirmation.","scene_windows":0,"windows":5,"scene":"Helpful assistant response"}
+{"neuron":10925,"pole":"high","cluster":9,"mode":"Assistant offers to help or provide examples.","scene_windows":0,"windows":5,"scene":"Helpful assistant offer"}
+{"neuron":10925,"pole":"high","cluster":10,"mode":"Phrases introducing a topic or detail.","scene_windows":0,"windows":5,"scene":"Introducing details or topics"}
+{"neuron":10925,"pole":"high","cluster":11,"mode":"Introducing an additional point or aspect.","scene_windows":0,"windows":5,"scene":"Adding further information"}
+{"neuron":10925,"pole":"low","cluster":0,"mode":"Definitions of terms, often in academic or technical contexts.","scene_windows":0,"windows":5,"scene":"Defining terms"}
+{"neuron":10925,"pole":"low","cluster":1,"mode":"Explanations of concepts or processes using 'basically' or 'essentially'.","scene_windows":0,"windows":5,"scene":"Explaining concepts"}
+{"neuron":10925,"pole":"low","cluster":2,"mode":"Summarizing statements about a topic or situation.","scene_windows":0,"windows":5,"scene":"Summarizing information"}
+{"neuron":10925,"pole":"low","cluster":3,"mode":"General considerations or typical characteristics.","scene_windows":0,"windows":5,"scene":"General descriptions"}
+{"neuron":10925,"pole":"low","cluster":4,"mode":"Assistant prompts for user input or clarification.","scene_windows":0,"windows":5,"scene":"Assistant seeking input"}
+{"neuron":10925,"pole":"low","cluster":5,"mode":"Assistant prompts for user input or clarification.","scene_windows":0,"windows":5,"scene":"Assistant seeking input"}
+{"neuron":10925,"pole":"low","cluster":6,"mode":"Exclamations or statements about the complexity or nature of something.","scene_windows":0,"windows":5,"scene":"Expressing complexity"}
+{"neuron":10925,"pole":"low","cluster":7,"mode":"Statements confirming or stating facts.","scene_windows":0,"windows":5,"scene":"Stating facts"}
+{"neuron":10925,"pole":"low","cluster":8,"mode":"Phrases indicating a definition or explanation.","scene_windows":0,"windows":5,"scene":"Introducing definitions"}
+{"neuron":10925,"pole":"low","cluster":9,"mode":"Phrases indicating simplicity or lack of complexity.","scene_windows":0,"windows":5,"scene":"Indicating simplicity"}
+{"neuron":10925,"pole":"low","cluster":10,"mode":"Phrases indicating location or context within a system.","scene_windows":0,"windows":5,"scene":"Contextualizing information"}
+{"neuron":10925,"pole":"low","cluster":11,"mode":"Phrases indicating alternatives or conditions.","scene_windows":0,"windows":5,"scene":"Presenting alternatives"}
+{"neuron":5858,"pole":"high","cluster":0,"mode":"Describing efforts to manage a difficult situation.","scene_windows":0,"windows":5,"scene":"Managing difficult situations"}
+{"neuron":5858,"pole":"high","cluster":1,"mode":"Assistant offers advice or expresses best wishes.","scene_windows":0,"windows":5,"scene":"Helpful assistant advice"}
+{"neuron":5858,"pole":"high","cluster":2,"mode":"Assistant confirms the existence of something or offers advice.","scene_windows":0,"windows":5,"scene":"Confirmation and advice"}
+{"neuron":5858,"pole":"high","cluster":3,"mode":"Contrasting actions or outcomes, often with 'but'.","scene_windows":0,"windows":5,"scene":"Contrasting actions"}
+{"neuron":5858,"pole":"high","cluster":4,"mode":"Describing AI capabilities and limitations.","scene_windows":0,"windows":5,"scene":"AI capabilities and honesty"}
+{"neuron":5858,"pole":"high","cluster":5,"mode":"Assistant offers support or recommends resources.","scene_windows":0,"windows":5,"scene":"Offering support and resources"}
+{"neuron":5858,"pole":"low","cluster":0,"mode":"Assistant expresses uncertainty or hesitation.","scene_windows":0,"windows":5,"scene":"Hesitant assistant response"}
+{"neuron":5858,"pole":"low","cluster":1,"mode":"Assistant prompts for user input or clarification.","scene_windows":0,"windows":5,"scene":"Assistant seeking input"}
+{"neuron":5858,"pole":"low","cluster":2,"mode":"Assistant prompts for user input or clarification.","scene_windows":0,"windows":5,"scene":"Assistant seeking input"}
+{"neuron":5858,"pole":"low","cluster":3,"mode":"Assistant confirms user's statement or question.","scene_windows":0,"windows":5,"scene":"Neutral confirmation"}
+{"neuron":5858,"pole":"low","cluster":4,"mode":"Assistant confirms user's statement or question.","scene_windows":0,"windows":5,"scene":"Neutral confirmation"}
+{"neuron":5858,"pole":"low","cluster":5,"mode":"Assistant offers support or recommends resources.","scene_windows":0,"windows":5,"scene":"Offering support and resources"}
+{"neuron":5858,"pole":"low","cluster":6,"mode":"Statements of encouragement and support.","scene_windows":0,"windows":5,"scene":"Encouraging statements"}
+{"neuron":5858,"pole":"low","cluster":7,"mode":"Advice on managing personal routines or situations.","scene_windows":0,"windows":5,"scene":"Personal advice"}
+{"neuron":5858,"pole":"low","cluster":8,"mode":"Statements of encouragement and support.","scene_windows":0,"windows":5,"scene":"Encouraging statements"}
+{"neuron":5858,"pole":"low","cluster":9,"mode":"Personal reflections or statements of intent.","scene_windows":0,"windows":5,"scene":"Personal reflections"}
+{"neuron":6506,"pole":"high","cluster":0,"mode":"AI acknowledging human complexity and limitations.","scene_windows":0,"windows":5,"scene":"AI acknowledging human complexity"}
+{"neuron":6506,"pole":"high","cluster":1,"mode":"Discussing considerations and potential risks.","scene_windows":0,"windows":5,"scene":"Considering risks and benefits"}
+{"neuron":6506,"pole":"high","cluster":2,"mode":"Assistant confirms or agrees with user's statement.","scene_windows":0,"windows":5,"scene":"Assistant agreement"}
+{"neuron":6506,"pole":"low","cluster":0,"mode":"Expressing value or importance.","scene_windows":0,"windows":5,"scene":"Expressing value"}
+{"neuron":6506,"pole":"low","cluster":1,"mode":"Statements about personal resolve or determination.","scene_windows":0,"windows":5,"scene":"Personal resolve"}
+{"neuron":6506,"pole":"low","cluster":2,"mode":"Statements about collective action or shared experience.","scene_windows":0,"windows":5,"scene":"Collective action"}
+{"neuron":6506,"pole":"low","cluster":3,"mode":"Statements about understanding or realization.","scene_windows":0,"windows":5,"scene":"Understanding and realization"}
+{"neuron":6506,"pole":"low","cluster":4,"mode":"Statements about actions or choices.","scene_windows":0,"windows":5,"scene":"Indicating actions/choices"}
+{"neuron":6506,"pole":"low","cluster":5,"mode":"Statements of encouragement and support.","scene_windows":0,"windows":5,"scene":"Encouraging statements"}
+{"neuron":6506,"pole":"low","cluster":6,"mode":"Statements of encouragement and support.","scene_windows":0,"windows":5,"scene":"Encouraging statements"}
+{"neuron":6506,"pole":"low","cluster":7,"mode":"Advice on personal routines or actions.","scene_windows":0,"windows":5,"scene":"Personal advice"}
+{"neuron":6506,"pole":"low","cluster":8,"mode":"Statements of encouragement and support.","scene_windows":0,"windows":5,"scene":"Encouraging statements"}
+{"neuron":6506,"pole":"low","cluster":9,"mode":"Personal reflections or statements of intent.","scene_windows":0,"windows":5,"scene":"Personal reflections"}
+{"neuron":6506,"pole":"low","cluster":10,"mode":"Phrases indicating context or detail within a narrative.","scene_windows":0,"windows":5,"scene":"Narrative context"}
+{"neuron":6506,"pole":"low","cluster":11,"mode":"Phrases indicating personal statements or feelings.","scene_windows":0,"windows":5,"scene":"Personal statements"}
+{"neuron":5698,"pole":"high","cluster":0,"mode":"Advice on health and prevention.","scene_windows":0,"windows":5,"scene":"Health and prevention advice"}
+{"neuron":5698,"pole":"high","cluster":1,"mode":"Advice on managing pain or worsening situations.","scene_windows":0,"windows":5,"scene":"Managing worsening situations"}
+{"neuron":5698,"pole":"low","cluster":0,"mode":"Statements about potential negative consequences.","scene_windows":0,"windows":5,"scene":"Potential negative consequences"}
+{"neuron":5698,"pole":"low","cluster":1,"mode":"Statements about hypothetical future outcomes.","scene_windows":0,"windows":5,"scene":"Hypothetical outcomes"}
+{"neuron":9646,"pole":"high","cluster":0,"mode":"Describing business operations and goals.","scene_windows":0,"windows":5,"scene":"Business operations description"}
+{"neuron":9646,"pole":"high","cluster":1,"mode":"Explaining how something works or contributes.","scene_windows":0,"windows":5,"scene":"Explaining functionality"}
+{"neuron":9646,"pole":"high","cluster":2,"mode":"Promising updates and transparency in problem resolution.","scene_windows":0,"windows":5,"scene":"Customer service updates"}
+{"neuron":9646,"pole":"high","cluster":3,"mode":"Describing pricing and transparency for services.","scene_windows":0,"windows":5,"scene":"Pricing and transparency"}
+{"neuron":9646,"pole":"high","cluster":4,"mode":"Suggesting tourist activities and shopping opportunities.","scene_windows":0,"windows":5,"scene":"Tourist recommendations"}
+{"neuron":9646,"pole":"high","cluster":5,"mode":"Describing characteristics or components of something.","scene_windows":0,"windows":5,"scene":"Describing characteristics"}
+{"neuron":9646,"pole":"high","cluster":6,"mode":"Content ideas for social media marketing.","scene_windows":0,"windows":5,"scene":"Social media content ideas"}
+{"neuron":9646,"pole":"low","cluster":0,"mode":"Disclaimer about AI limitations regarding sensitive topics.","scene_windows":0,"windows":5,"scene":"AI limitations disclaimer"}
+{"neuron":9646,"pole":"low","cluster":1,"mode":"Instructions for storing food items.","scene_windows":0,"windows":5,"scene":"Food storage instructions"}
+{"neuron":9646,"pole":"low","cluster":2,"mode":"Describing ingredients, processes, or characteristics.","scene_windows":0,"windows":5,"scene":"Describing ingredients/processes"}
+{"neuron":9646,"pole":"low","cluster":3,"mode":"Advice on seeking support for difficult situations.","scene_windows":0,"windows":5,"scene":"Seeking support advice"}

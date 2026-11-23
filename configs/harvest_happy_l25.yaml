@@ -1,0 +1,11 @@
+# Both poles of the happy greedy set's neurons up to 75% of the write (532 neurons), plus 20 random controls.
+#   python scripts/pipeline.py --config configs/harvest_happy_l25.yaml   # harvest -> modes -> judge -> report, with checkpoints
+#   (or one stage: scripts/harvest.py, modes.py, judge_modes.py, modes_report.py with the same --config)
+run_id: harvest_happy_l25
+model: Qwen/Qwen3-8B
+layer: 25
+emotion: happy
+harvest:
+  neurons_csv: results/greedy_sets_l25/neurons/happy.csv
+  rebuilt_pct: 75
+  n_controls: 20

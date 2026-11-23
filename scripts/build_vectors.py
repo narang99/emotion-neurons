@@ -13,7 +13,7 @@ import json
 import sys
 
 from emotion_neurons.capture import late_means
-from emotion_neurons.config import RunConfig, load_run_config
+from emotion_neurons.config import VectorsRunConfig, load_run_config
 from emotion_neurons.emotions import EMOTIONS, SITES
 from emotion_neurons.texts import StoryRecord, StorySplit, load_story_records
 from emotion_neurons.vectors import RECIPES, DenoiseInfo, EmotionVectors, cosine_matrix, remove
@@ -62,7 +62,7 @@ def flagged_stories(checks: dict, records: list[StoryRecord], split: StorySplit)
     return sorted(flagged, key=lambda f: -f["margin"])
 
 
-def vectors_meta(cfg: RunConfig, split: StorySplit, denoise: dict[str, DenoiseInfo], extract_commit: str) -> dict:
+def vectors_meta(cfg: VectorsRunConfig, split: StorySplit, denoise: dict[str, DenoiseInfo], extract_commit: str) -> dict:
     def count(mask, e):
         return int((mask & (split.label == e)).sum())
 
@@ -81,7 +81,7 @@ def vectors_meta(cfg: RunConfig, split: StorySplit, denoise: dict[str, DenoiseIn
 
 
 def main():
-    cfg = load_run_config(sys.argv[1:])
+    cfg = load_run_config(VectorsRunConfig, sys.argv[1:])
     records = load_story_records(cfg.run_dir)
     split = StorySplit.of(records)
     means = late_means(cfg.run_dir)

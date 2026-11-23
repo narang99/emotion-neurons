@@ -1,0 +1,73 @@
+{"neuron":3634,"pole":"high","cluster":0,"mode":"First-person \"I\" starting a self-statement about feelings or state","scene_windows":1,"windows":5,"scene":"Emotional monologues and confessions in mostly everyday first-person narration"}
+{"neuron":3634,"pole":"high","cluster":1,"mode":"Third-person pronoun subject after an emotional or worried sentence in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about siblings, pets, or treats"}
+{"neuron":3634,"pole":"high","cluster":2,"mode":"Emotion adjective (sad, upset) describing a child's feelings","scene_windows":0,"windows":5,"scene":"Children's stories where a child feels sad or scared"}
+{"neuron":3634,"pole":"low","cluster":0,"mode":"Prepositions and nouns mid-phrase in expository or informational text","scene_windows":0,"windows":5,"scene":"Advice articles, assistant answers, and essays on technology or parenting"}
+{"neuron":3634,"pole":"low","cluster":1,"mode":"Sentence-boundary punctuation or quote marks in fiction narration","scene_windows":0,"windows":5,"scene":"Fantasy and sci-fi narrative dialogue and description"}
+{"neuron":3634,"pole":"low","cluster":2,"mode":"First-person \"I\" followed by an introspective verb (thought, hope, recalled, assume)","scene_windows":1,"windows":5,"scene":"Melancholic first-person reflections on loss, guilt, and survival"}
+{"neuron":9737,"pole":"high","cluster":0,"mode":"Story-initial character name or first letter starting a sentence","scene_windows":0,"windows":5,"scene":"Short children's stories about animals and friends"}
+{"neuron":9737,"pole":"high","cluster":1,"mode":"Trailing whitespace or period at list item boundaries in structured lists","scene_windows":0,"windows":5,"scene":"Recipe ingredient lists and numbered marketing tips"}
+{"neuron":9737,"pole":"high","cluster":2,"mode":"Digits and punctuation inside citations and reference entries","scene_windows":0,"windows":5,"scene":"Bibliographies and reference lists"}
+{"neuron":9737,"pole":"high","cluster":3,"mode":"Code syntax tokens such as brackets, semicolons, and parameters","scene_windows":0,"windows":5,"scene":"Programming code examples in C++, HTML, and Haskell"}
+{"neuron":9737,"pole":"high","cluster":4,"mode":"Word after a quotation opening or a sentence start in dialogue","scene_windows":0,"windows":5,"scene":"Children's dialogue and apologetic family talk"}
+{"neuron":9737,"pole":"high","cluster":5,"mode":"Closing quote or comma inside dialogue in a quoted speech","scene_windows":0,"windows":5,"scene":"Quoted conversations in literary and children's fiction"}
+{"neuron":9737,"pole":"low","cluster":0,"mode":"Digit inside citation page numbers or years","scene_windows":0,"windows":5,"scene":"Reference and bibliography entries"}
+{"neuron":9737,"pole":"low","cluster":1,"mode":"Sentence-ending period in dramatic or emotional narration","scene_windows":0,"windows":5,"scene":"Literary fiction with grief, dread, or confusion"}
+{"neuron":9737,"pole":"low","cluster":2,"mode":"Noun or proper name after a role or location phrase","scene_windows":1,"windows":5,"scene":"Thriller and sci-fi scenes with messages, meetings, and names"}
+{"neuron":9737,"pole":"low","cluster":3,"mode":"Sentence-final period after a short narrative statement","scene_windows":0,"windows":5,"scene":"Reflective or unsettling narration about memory and events"}
+{"neuron":9737,"pole":"low","cluster":4,"mode":"Whitespace indentation token after a line of urgent dialogue","scene_windows":2,"windows":5,"scene":"Tense dialogue where characters plead, warn, or beg"}
+{"neuron":9052,"pole":"high","cluster":0,"mode":"Connective or name fragment within an informational factual sentence","scene_windows":0,"windows":5,"scene":"Factual answers about UFO groups, Olympics, and religious sites"}
+{"neuron":9052,"pole":"high","cluster":1,"mode":"Definite article \"the\" introducing a location in narration","scene_windows":0,"windows":5,"scene":"Adventure and whimsical narration about places"}
+{"neuron":9052,"pole":"high","cluster":2,"mode":"\"assistant:\" role label starting a chatbot reply","scene_windows":0,"windows":5,"scene":"Chat transcripts answering follow-up questions"}
+{"neuron":9052,"pole":"low","cluster":0,"mode":"Pronoun or noun subject starting a clause in short narration","scene_windows":0,"windows":5,"scene":"Simple stories about wolves, ducks, and everyday routines"}
+{"neuron":9052,"pole":"low","cluster":1,"mode":"Colon after a numbered advice heading about sleep or habits","scene_windows":0,"windows":5,"scene":"Self-care and wellness listicles"}
+{"neuron":9525,"pole":"high","cluster":0,"mode":"Conjunction or comma mid-sentence in dense narrative","scene_windows":0,"windows":5,"scene":"Sci-fi and domestic narration with contrasts"}
+{"neuron":9525,"pole":"high","cluster":1,"mode":"\"One\" beginning a \"One day\" story transition","scene_windows":0,"windows":5,"scene":"Children's stories about Lily, Max, and a doll"}
+{"neuron":9525,"pole":"low","cluster":0,"mode":"Subject name or pronoun starting a sentence in a children's story","scene_windows":0,"windows":5,"scene":"Simple moral stories about kids and parents"}
+{"neuron":9525,"pole":"low","cluster":1,"mode":"Article \"The\" starting a sentence after a short scene","scene_windows":0,"windows":5,"scene":"Children's stories about a boy, fairy, and party"}
+{"neuron":881,"pole":"high","cluster":0,"mode":"Comma or \"course\" in a parent's reassuring dialogue","scene_windows":0,"windows":5,"scene":"Parents comforting a child with gentle reassurance"}
+{"neuron":881,"pole":"high","cluster":1,"mode":"Parent noun (mom, dad, father) as a helper or possessor","scene_windows":0,"windows":5,"scene":"Children's stories where a parent helps"}
+{"neuron":881,"pole":"high","cluster":2,"mode":"Period or comma closing a tense emotional beat","scene_windows":1,"windows":5,"scene":"Emotional confrontation between a daughter and a mother or partner"}
+{"neuron":881,"pole":"high","cluster":3,"mode":"Character name or pronoun starting a sentence in a children's story","scene_windows":0,"windows":5,"scene":"Simple stories about Lily, Max, and Mia"}
+{"neuron":881,"pole":"low","cluster":0,"mode":"Preposition or pronoun after a play verb in children's stories","scene_windows":0,"windows":5,"scene":"Children playing outside or with toys"}
+{"neuron":881,"pole":"low","cluster":1,"mode":"Verb \"saw\" after a subject in a children's story","scene_windows":0,"windows":5,"scene":"Simple stories about a child noticing something"}
+{"neuron":881,"pole":"low","cluster":2,"mode":"Character name in dialogue or script-like speaker tags","scene_windows":0,"windows":5,"scene":"Dramatic dialogue, scripts, and tense group scenes"}
+{"neuron":881,"pole":"low","cluster":3,"mode":"\"The\" starting a sentence in a tense or intimate scene","scene_windows":1,"windows":5,"scene":"Prison, war, and emotional first-person narration"}
+{"neuron":881,"pole":"low","cluster":4,"mode":"Punctuation ending a short tense narrative clause","scene_windows":2,"windows":5,"scene":"Frightening or dread-filled narration of danger"}
+{"neuron":881,"pole":"low","cluster":5,"mode":"Article \"a\" after the verb \"saw\" in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about spotting a new thing"}
+{"neuron":6513,"pole":"high","cluster":0,"mode":"Sentence-initial \"The\" starting a narrative sentence","scene_windows":0,"windows":5,"scene":"Short children's stories and fables"}
+{"neuron":6513,"pole":"high","cluster":1,"mode":"Possessive pronoun \"his/her/my\" describing a character in vivid description","scene_windows":0,"windows":5,"scene":"Descriptive fantasy scenes of characters and bodies"}
+{"neuron":6513,"pole":"high","cluster":2,"mode":"First-person \"I\" or name starting a sentence in dialogue-driven fiction","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction with sharp exchanges"}
+{"neuron":6513,"pole":"high","cluster":3,"mode":"Object pronoun or verb after gratitude or gift in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about gifts and thanks"}
+{"neuron":6513,"pole":"high","cluster":4,"mode":"Question word \"why\" or \"who\" in direct questions","scene_windows":0,"windows":5,"scene":"Confrontational questioning in fantasy and mystery fiction"}
+{"neuron":6513,"pole":"high","cluster":5,"mode":"Digit or fragment inside reference citations","scene_windows":0,"windows":5,"scene":"Bibliography and reference entries"}
+{"neuron":6513,"pole":"high","cluster":6,"mode":"Verb or body-part noun describing a character's action","scene_windows":0,"windows":5,"scene":"Action narration of characters moving or reacting"}
+{"neuron":6513,"pole":"high","cluster":7,"mode":"Blank indentation token after a line of dialogue","scene_windows":0,"windows":5,"scene":"Dialogue exchanges in fiction and sci-fi"}
+{"neuron":6513,"pole":"high","cluster":8,"mode":"Sentence-ending period in a \"Once upon a time\" story","scene_windows":0,"windows":5,"scene":"Children's bedtime-style stories"}
+{"neuron":6513,"pole":"high","cluster":9,"mode":"Period after a tense or emotional narrative beat","scene_windows":1,"windows":5,"scene":"Dramatic scenes of distress, dying, or rescue"}
+{"neuron":6513,"pole":"high","cluster":10,"mode":"Period or whitespace ending a line in a children's story","scene_windows":0,"windows":5,"scene":"Children's stories with kind or helpful endings"}
+{"neuron":6513,"pole":"low","cluster":0,"mode":"Verb \"was\" after \"there\" in a story opening","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":6513,"pole":"low","cluster":1,"mode":"Article \"a\" after \"there was\" in a story opening","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":6513,"pole":"low","cluster":2,"mode":"Conjunction or pronoun starting an action clause in narration","scene_windows":0,"windows":5,"scene":"Suspenseful children's stories with sudden events"}
+{"neuron":6513,"pole":"low","cluster":3,"mode":"\"there\" in an \"Once upon a time\" opening","scene_windows":0,"windows":5,"scene":"Formulaic children's story openings"}
+{"neuron":4082,"pole":"high","cluster":0,"mode":"Descriptive word or pronoun mid-sentence in tense narration","scene_windows":0,"windows":5,"scene":"Tense scenes of a soothing voice or a menacing figure"}
+{"neuron":4082,"pole":"high","cluster":1,"mode":"Sentence-ending period closing an instructional statement","scene_windows":0,"windows":5,"scene":"Guides on presentations, diet, SEO, and anxiety"}
+{"neuron":4082,"pole":"low","cluster":0,"mode":"Digit or hyphen inside citations and ingredient lists","scene_windows":0,"windows":5,"scene":"Reference entries and recipe lists"}
+{"neuron":4082,"pole":"low","cluster":1,"mode":"Dash or conjunction in recipe ingredient lists","scene_windows":0,"windows":5,"scene":"Recipe and food ingredient lists"}
+{"neuron":4082,"pole":"low","cluster":2,"mode":"Sentence-ending period closing a simple narrative action","scene_windows":0,"windows":5,"scene":"Simple stories about outings and playing"}
+{"neuron":4082,"pole":"low","cluster":3,"mode":"Activity or experience noun in general descriptive prose","scene_windows":0,"windows":5,"scene":"Health, wellness, and lifestyle descriptions"}
+{"neuron":4082,"pole":"low","cluster":4,"mode":"Verb after a character's attempt to control feelings","scene_windows":0,"windows":5,"scene":"Restrained emotional narration of hiding or composure"}
+{"neuron":4082,"pole":"low","cluster":5,"mode":"Comma after a character's physical action in tense narration","scene_windows":1,"windows":5,"scene":"Tense scenes of danger, panic, and confrontation"}
+{"neuron":4082,"pole":"low","cluster":6,"mode":"Pronoun \"He/She\" starting a sentence after an emotional beat","scene_windows":0,"windows":5,"scene":"Character reflection and physical struggle narration"}
+{"neuron":4082,"pole":"low","cluster":7,"mode":"Subject pronoun \"they\" in a story about friends or family","scene_windows":0,"windows":5,"scene":"Children's stories about play and rest"}
+{"neuron":5924,"pole":"high","cluster":0,"mode":"Digit or name fragment inside bibliographic references","scene_windows":0,"windows":5,"scene":"Reference lists and citations"}
+{"neuron":5924,"pole":"high","cluster":1,"mode":"Mid-sentence tokens in varied narrative and news passages, with no shared theme","scene_windows":1,"windows":5,"scene":"Mixed news, fiction and essay passages, mostly calm"}
+{"neuron":5924,"pole":"high","cluster":2,"mode":"Prepositions or verbs ('in', 'play') in simple children's play stories","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about playing outdoors"}
+{"neuron":5924,"pole":"low","cluster":0,"mode":"Comma or token right after a speech verb like 'said' in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with parents speaking"}
+{"neuron":5924,"pole":"low","cluster":1,"mode":"The word 'said' after a mom or mommy subject in children's stories","scene_windows":0,"windows":5,"scene":"Gentle family dialogue in children's stories"}
+{"neuron":5924,"pole":"low","cluster":2,"mode":"Sentence-ending periods after sad or emotional beats in children's stories","scene_windows":0,"windows":5,"scene":"Children feeling sad, then comforted by family"}
+{"neuron":5924,"pole":"low","cluster":3,"mode":"Periods ending expository sentences in informational or instructional passages","scene_windows":0,"windows":5,"scene":"Informational articles on pets, guides, and advice"}
+{"neuron":5924,"pole":"low","cluster":4,"mode":"'mommy' or 'mom' as the subject starting a sentence in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories where a mother responds to a child"}
+{"neuron":5924,"pole":"low","cluster":5,"mode":"Possessive 'his' or 'Tommy's' before 'mom' in children's stories","scene_windows":0,"windows":5,"scene":"Kids misbehaving or playing while mom is nearby"}
+{"neuron":5924,"pole":"low","cluster":6,"mode":"Opening quotation mark after 'said' introducing a parent's speech","scene_windows":0,"windows":5,"scene":"Parent comforting or questioning a child in stories"}
+{"neuron":5924,"pole":"low","cluster":7,"mode":"Preposition 'to' after verbs like showed, waved goodbye, or presented","scene_windows":0,"windows":5,"scene":"Children showing things or saying goodbye to family"}
+{"neuron":5924,"pole":"low","cluster":8,"mode":"Object pronoun or noun ('it', 'kids', 'sure') completing a verb phrase in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about affection and routines"}

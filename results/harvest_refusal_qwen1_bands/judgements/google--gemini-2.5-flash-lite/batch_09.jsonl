@@ -1,0 +1,71 @@
+{"neuron":1037,"pole":"high","cluster":0,"mode":"legal proceedings, convictions, and investigations for wrongdoing","scene_windows":0,"windows":5,"scene":"legal and criminal justice context"}
+{"neuron":1037,"pole":"high","cluster":1,"mode":"seeking refuge or asylum in an embassy or foreign country","scene_windows":0,"windows":5,"scene":"legal and political asylum context"}
+{"neuron":1037,"pole":"high","cluster":2,"mode":"celebrating special occasions like weddings and parties","scene_windows":0,"windows":5,"scene":"social events and celebrations"}
+{"neuron":1037,"pole":"high","cluster":3,"mode":"encouraging self-care, mindfulness, and personal development","scene_windows":0,"windows":5,"scene":"personal growth and well-being"}
+{"neuron":1037,"pole":"high","cluster":4,"mode":"medical conditions, treatments, and serious diseases","scene_windows":0,"windows":5,"scene":"medical and health information"}
+{"neuron":1037,"pole":"high","cluster":5,"mode":"international conflict and political actions affecting cultural events","scene_windows":0,"windows":5,"scene":"geopolitical events and culture"}
+{"neuron":1037,"pole":"low","cluster":0,"mode":"conservation of energy in closed systems","scene_windows":0,"windows":5,"scene":"scientific principles of energy"}
+{"neuron":1037,"pole":"low","cluster":1,"mode":"warnings against touching car batteries or prosthetic legs","scene_windows":0,"windows":5,"scene":"safety warnings and precautions"}
+{"neuron":1037,"pole":"low","cluster":2,"mode":"refusal to support illegal or harmful activities","scene_windows":5,"windows":5,"scene":"refusal of harmful requests"}
+{"neuron":1037,"pole":"low","cluster":3,"mode":"advice against using bleach or ingesting chemicals","scene_windows":0,"windows":5,"scene":"safety advice and warnings"}
+{"neuron":1037,"pole":"low","cluster":4,"mode":"advice on fuel efficiency and car maintenance","scene_windows":0,"windows":5,"scene":"car maintenance and efficiency"}
+{"neuron":1037,"pole":"low","cluster":5,"mode":"general advice on health, energy sources, and societal well-being","scene_windows":0,"windows":5,"scene":"general advice and well-being"}
+{"neuron":1037,"pole":"low","cluster":6,"mode":"asking interesting questions and offering assistance","scene_windows":0,"windows":5,"scene":"conversational interaction and questions"}
+{"neuron":836,"pole":"high","cluster":0,"mode":"assistant offering help and advice to users","scene_windows":0,"windows":5,"scene":"helpful assistant interaction"}
+{"neuron":836,"pole":"high","cluster":1,"mode":"assistant expressing concern or stating its nature","scene_windows":0,"windows":5,"scene":"AI assistant self-description"}
+{"neuron":836,"pole":"high","cluster":2,"mode":"narrative descriptions involving obstacles or unexpected events","scene_windows":0,"windows":5,"scene":"storytelling with suspense"}
+{"neuron":836,"pole":"high","cluster":3,"mode":"describing physical weakness or inability to act","scene_windows":0,"windows":5,"scene":"physical limitations and struggle"}
+{"neuron":836,"pole":"high","cluster":4,"mode":"describing various locations, individuals, or constraints","scene_windows":0,"windows":5,"scene":"descriptive narrative elements"}
+{"neuron":836,"pole":"high","cluster":5,"mode":"offering conditional advice or suggestions","scene_windows":0,"windows":5,"scene":"conditional advice and suggestions"}
+{"neuron":836,"pole":"low","cluster":0,"mode":"asking questions about situations or events","scene_windows":0,"windows":5,"scene":"questioning and inquiry"}
+{"neuron":836,"pole":"low","cluster":1,"mode":"expressing personal experience or possession","scene_windows":0,"windows":5,"scene":"personal statements and experience"}
+{"neuron":836,"pole":"low","cluster":2,"mode":"expressing knowledge or understanding","scene_windows":0,"windows":5,"scene":"expressing knowledge or understanding"}
+{"neuron":836,"pole":"low","cluster":3,"mode":"assistant responding to user queries","scene_windows":0,"windows":5,"scene":"assistant response to queries"}
+{"neuron":836,"pole":"low","cluster":4,"mode":"dialogue with quoted speech and placeholders","scene_windows":0,"windows":5,"scene":"dialogue with quoted speech"}
+{"neuron":836,"pole":"low","cluster":5,"mode":"describing positive outcomes or reasons","scene_windows":0,"windows":5,"scene":"positive outcomes and reasons"}
+{"neuron":836,"pole":"low","cluster":6,"mode":"asking for clarification or expressing surprise with \"what?\"","scene_windows":0,"windows":5,"scene":"neutral conversation, seeking information"}
+{"neuron":3048,"pole":"high","cluster":0,"mode":"user seeking information and assistant providing it","scene_windows":0,"windows":5,"scene":"information seeking and providing"}
+{"neuron":3048,"pole":"high","cluster":1,"mode":"requesting further ideas or suggestions","scene_windows":0,"windows":5,"scene":"requesting additional input"}
+{"neuron":3048,"pole":"high","cluster":2,"mode":"user expressing interest and asking for more details","scene_windows":0,"windows":5,"scene":"user engagement and inquiry"}
+{"neuron":3048,"pole":"high","cluster":3,"mode":"user expressing interest in a topic and asking for information","scene_windows":0,"windows":5,"scene":"user inquiry and information request"}
+{"neuron":3048,"pole":"high","cluster":4,"mode":"narrative dialogue with placeholder text","scene_windows":0,"windows":5,"scene":"dialogue with placeholders"}
+{"neuron":3048,"pole":"high","cluster":5,"mode":"step-by-step instructions for cooking or preparation","scene_windows":0,"windows":5,"scene":"cooking instructions and steps"}
+{"neuron":3048,"pole":"high","cluster":6,"mode":"step-by-step instructions for cooking or preparation","scene_windows":0,"windows":5,"scene":"cooking instructions and steps"}
+{"neuron":3048,"pole":"high","cluster":7,"mode":"step-by-step instructions or procedural descriptions","scene_windows":0,"windows":5,"scene":"procedural instructions and steps"}
+{"neuron":3048,"pole":"high","cluster":8,"mode":"providing advice or information with concluding remarks","scene_windows":0,"windows":5,"scene":"advice and information provision"}
+{"neuron":3048,"pole":"high","cluster":9,"mode":"offering advice and asking for further clarification","scene_windows":0,"windows":5,"scene":"advice and clarification"}
+{"neuron":3048,"pole":"high","cluster":10,"mode":"describing positive impacts or outcomes","scene_windows":0,"windows":5,"scene":"positive impacts and outcomes"}
+{"neuron":3048,"pole":"high","cluster":11,"mode":"asking questions about specific topics","scene_windows":0,"windows":5,"scene":"question asking and clarification"}
+{"neuron":3048,"pole":"high","cluster":12,"mode":"describing programs, studies, or events","scene_windows":0,"windows":5,"scene":"descriptive information and events"}
+{"neuron":3048,"pole":"high","cluster":13,"mode":"offering additional tips or examples","scene_windows":0,"windows":5,"scene":"offering additional suggestions"}
+{"neuron":3048,"pole":"high","cluster":14,"mode":"narrative dialogue with placeholder text","scene_windows":0,"windows":5,"scene":"dialogue with placeholders"}
+{"neuron":3048,"pole":"high","cluster":15,"mode":"narrative descriptions of experiences or memories","scene_windows":0,"windows":5,"scene":"narrative experiences and memories"}
+{"neuron":3048,"pole":"high","cluster":16,"mode":"narrative descriptions involving decisions and challenges","scene_windows":0,"windows":5,"scene":"narrative decisions and challenges"}
+{"neuron":3048,"pole":"high","cluster":17,"mode":"describing negative societal issues or personal circumstances","scene_windows":0,"windows":5,"scene":"negative societal issues"}
+{"neuron":3048,"pole":"high","cluster":18,"mode":"describing actions, relationships, or personal experiences","scene_windows":0,"windows":5,"scene":"personal actions and experiences"}
+{"neuron":3048,"pole":"low","cluster":0,"mode":"offering thanks and feedback to the assistant","scene_windows":0,"windows":5,"scene":"user interaction with assistant"}
+{"neuron":3048,"pole":"low","cluster":1,"mode":"user expressing thanks and asking for more help","scene_windows":0,"windows":5,"scene":"user interaction with assistant"}
+{"neuron":3048,"pole":"low","cluster":2,"mode":"dialogue with a comma inside quotation marks","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":3048,"pole":"low","cluster":3,"mode":"listing items or characteristics with a period inside quotation marks","scene_windows":0,"windows":5,"scene":"informative text, dialogue"}
+{"neuron":3048,"pole":"low","cluster":4,"mode":"dialogue with a question mark inside quotation marks","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":3048,"pole":"low","cluster":5,"mode":"listing items or steps with brackets and periods","scene_windows":0,"windows":5,"scene":"instructions, recipes"}
+{"neuron":3048,"pole":"low","cluster":6,"mode":"dialogue with a question mark inside quotation marks","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":3048,"pole":"low","cluster":7,"mode":"listing items or steps with brackets and periods","scene_windows":0,"windows":5,"scene":"instructions, recipes"}
+{"neuron":3048,"pole":"low","cluster":8,"mode":"dialogue with a period inside quotation marks","scene_windows":0,"windows":5,"scene":"dialogue, narrative"}
+{"neuron":6676,"pole":"high","cluster":0,"mode":"requesting feedback and input for future projects","scene_windows":0,"windows":5,"scene":"feedback and future improvement"}
+{"neuron":6676,"pole":"high","cluster":1,"mode":"requesting feedback to improve services","scene_windows":0,"windows":5,"scene":"feedback for service improvement"}
+{"neuron":6676,"pole":"high","cluster":2,"mode":"offering further assistance and contact information","scene_windows":0,"windows":5,"scene":"offering further assistance"}
+{"neuron":6676,"pole":"high","cluster":3,"mode":"offering further assistance and contact information","scene_windows":0,"windows":5,"scene":"offering further assistance"}
+{"neuron":6676,"pole":"high","cluster":4,"mode":"offering further assistance and contact information","scene_windows":0,"windows":5,"scene":"offering further assistance"}
+{"neuron":6676,"pole":"high","cluster":5,"mode":"assistant offering help and examples","scene_windows":0,"windows":5,"scene":"helpful assistant interaction"}
+{"neuron":6676,"pole":"high","cluster":6,"mode":"apologizing for errors and offering further assistance","scene_windows":0,"windows":5,"scene":"apology and assistance"}
+{"neuron":6676,"pole":"high","cluster":7,"mode":"offering further assistance and inviting questions","scene_windows":0,"windows":5,"scene":"offering further assistance"}
+{"neuron":6676,"pole":"high","cluster":8,"mode":"offering support and inviting follow-up questions","scene_windows":0,"windows":5,"scene":"offering support and questions"}
+{"neuron":6676,"pole":"high","cluster":9,"mode":"asking about further questions or preferences","scene_windows":0,"windows":5,"scene":"asking for further input"}
+{"neuron":6676,"pole":"high","cluster":10,"mode":"describing positive impacts or outcomes","scene_windows":0,"windows":5,"scene":"positive impacts and outcomes"}
+{"neuron":6676,"pole":"high","cluster":11,"mode":"offering further assistance and inviting questions","scene_windows":0,"windows":5,"scene":"offering further assistance"}
+{"neuron":6676,"pole":"low","cluster":0,"mode":"offering thanks and feedback","scene_windows":0,"windows":5,"scene":"gratitude and feedback"}
+{"neuron":6676,"pole":"low","cluster":1,"mode":"offering further assistance and asking for questions","scene_windows":0,"windows":5,"scene":"offering further assistance"}
+{"neuron":6676,"pole":"low","cluster":2,"mode":"dialogue with quoted speech and conjunctions","scene_windows":0,"windows":5,"scene":"dialogue with quoted speech"}
+{"neuron":6676,"pole":"low","cluster":3,"mode":"describing the environment or context","scene_windows":0,"windows":5,"scene":"describing environment or context"}
+{"neuron":6676,"pole":"low","cluster":4,"mode":"describing the environment or context","scene_windows":0,"windows":5,"scene":"describing environment or context"}

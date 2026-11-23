@@ -1,0 +1,50 @@
+{"neuron":10145,"pole":"high","cluster":0,"mode":"Sentence-ending periods closing simple children's story sentences","scene_windows":0,"windows":5,"scene":"Calm children's stories about friendship and adventure"}
+{"neuron":10145,"pole":"high","cluster":1,"mode":"Mid-token splits in encyclopedic, bibliographic, and academic text","scene_windows":0,"windows":5,"scene":"Factual reference, citation, and academic text"}
+{"neuron":10145,"pole":"low","cluster":0,"mode":"Paragraph-break whitespace tokens after narrative or dialogue lines","scene_windows":0,"windows":5,"scene":"Fiction passages with eerie or reflective narration"}
+{"neuron":10145,"pole":"low","cluster":1,"mode":"Colons introducing lists, steps, or ingredients","scene_windows":0,"windows":5,"scene":"Assistant answers and list-style informational text"}
+{"neuron":10145,"pole":"low","cluster":2,"mode":"Speech verbs and question marks in children's dialogue","scene_windows":0,"windows":5,"scene":"Simple children's stories with spoken dialogue"}
+{"neuron":10145,"pole":"low","cluster":3,"mode":"Digits and fragments inside citations, URLs, and technical identifiers","scene_windows":0,"windows":5,"scene":"References, URLs, and technical or web text"}
+{"neuron":10145,"pole":"low","cluster":4,"mode":"Auxiliary verbs and function words mid-clause in prose","scene_windows":0,"windows":5,"scene":"Neutral literary narration and expository prose"}
+{"neuron":10145,"pole":"low","cluster":5,"mode":"Opening quotation marks starting spoken lines in stories","scene_windows":0,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":1009,"pole":"high","cluster":0,"mode":"Prepositions and quantity words inside recipe ingredient lists","scene_windows":0,"windows":5,"scene":"Recipes and food preparation instructions"}
+{"neuron":1009,"pole":"high","cluster":1,"mode":"The word 'big' describing a noun in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with a big object"}
+{"neuron":1009,"pole":"high","cluster":2,"mode":"Locative 'in'/'a' after 'lived' in opening story lines","scene_windows":0,"windows":5,"scene":"Fairy-tale openings about characters who live somewhere"}
+{"neuron":1009,"pole":"high","cluster":3,"mode":"Opening quotation marks beginning character speech","scene_windows":0,"windows":5,"scene":"Children's stories with characters speaking"}
+{"neuron":1009,"pole":"high","cluster":4,"mode":"'was' right after a character name or pronoun","scene_windows":0,"windows":5,"scene":"Simple stories describing a character's feelings"}
+{"neuron":1009,"pole":"high","cluster":5,"mode":"Sentence-final periods closing simple story sentences","scene_windows":0,"windows":5,"scene":"Short children's stories with resolutions"}
+{"neuron":1009,"pole":"high","cluster":6,"mode":"'said' following a speaker in dialogue","scene_windows":0,"windows":5,"scene":"Children's dialogue and short conversations"}
+{"neuron":1009,"pole":"high","cluster":7,"mode":"'the' after locative prepositions in simple narration","scene_windows":0,"windows":5,"scene":"Simple story settings such as parks and woods"}
+{"neuron":1009,"pole":"high","cluster":8,"mode":"Sentence-initial 'It' or 'which' referring back to events","scene_windows":0,"windows":5,"scene":"First-person narration and reflective prose"}
+{"neuron":1009,"pole":"low","cluster":0,"mode":"Technical nouns and word fragments in engineering and reference text","scene_windows":0,"windows":5,"scene":"Technical descriptions and product literature"}
+{"neuron":1009,"pole":"low","cluster":1,"mode":"Narrative verbs and pronouns in tense first-person moments","scene_windows":2,"windows":5,"scene":"Tense first-person fiction with fear or danger"}
+{"neuron":1009,"pole":"low","cluster":2,"mode":"Digits and name fragments inside identifiers and names","scene_windows":0,"windows":5,"scene":"Contact details, citations, and name lists"}
+{"neuron":1009,"pole":"low","cluster":3,"mode":"Single-letter or word-piece tokens starting a new term","scene_windows":0,"windows":5,"scene":"Glossaries, code, and lists of terms"}
+{"neuron":9526,"pole":"high","cluster":0,"mode":"Sentence-ending periods closing short story sentences","scene_windows":0,"windows":5,"scene":"Children's stories about friendship and happiness"}
+{"neuron":9526,"pole":"high","cluster":1,"mode":"Emotive words in personal and descriptive narration","scene_windows":0,"windows":5,"scene":"Personal narration and descriptive or social conflict"}
+{"neuron":9526,"pole":"low","cluster":0,"mode":"Sentence and clause breaks in simple children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with everyday events"}
+{"neuron":9526,"pole":"low","cluster":1,"mode":"The 'assistant' role label opening chatbot replies","scene_windows":0,"windows":5,"scene":"User-assistant chat requests for writing help"}
+{"neuron":10903,"pole":"high","cluster":0,"mode":"Adverbs and relative pronouns in playful action narration","scene_windows":0,"windows":5,"scene":"Playful children's stories and adventures"}
+{"neuron":10903,"pole":"high","cluster":1,"mode":"'day' in 'One day' story transitions","scene_windows":0,"windows":5,"scene":"Opening story transitions in children's tales"}
+{"neuron":10903,"pole":"low","cluster":0,"mode":"Subject pronouns starting clauses in suspenseful narration","scene_windows":0,"windows":5,"scene":"Suspenseful or anxious first and third person fiction"}
+{"neuron":10903,"pole":"low","cluster":1,"mode":"Code identifiers and words in programming explanations","scene_windows":0,"windows":5,"scene":"Code and programming explanations"}
+{"neuron":6978,"pole":"high","cluster":0,"mode":"Mid-sentence and sentence-end tokens in suspenseful first-person narration with twists","scene_windows":0,"windows":5,"scene":"Tense, eerie first-person narrative about hidden truths"}
+{"neuron":6978,"pole":"high","cluster":1,"mode":"Book titles, author names, and citation fragments in reading lists","scene_windows":0,"windows":5,"scene":"Book recommendation lists and academic citations"}
+{"neuron":6978,"pole":"low","cluster":0,"mode":"Sentence-final or pause tokens closing simple narrative sentences in stories","scene_windows":0,"windows":5,"scene":"Simple children's stories and calm narration"}
+{"neuron":6978,"pole":"low","cluster":1,"mode":"Subject pronouns and verbs in dark first-person introspective narration","scene_windows":0,"windows":5,"scene":"Introspective first-person narration, often dark or emotional"}
+{"neuron":6978,"pole":"low","cluster":2,"mode":"Urgent or confrontational phrases ending dialogue and pleas","scene_windows":1,"windows":5,"scene":"Tense confrontations and urgent demands in fiction"}
+{"neuron":6978,"pole":"low","cluster":3,"mode":"Modal and infinitive tokens expressing obligation, inability, or resignation","scene_windows":1,"windows":5,"scene":"Characters facing hard choices and emotional struggle"}
+{"neuron":6978,"pole":"low","cluster":4,"mode":"First-person statement tokens in emotional outbursts and despair","scene_windows":2,"windows":5,"scene":"Emotional distress, financial strain, feeling lost"}
+{"neuron":6978,"pole":"low","cluster":5,"mode":"Pronouns starting sentences describing a character's observations and feelings","scene_windows":0,"windows":5,"scene":"Children's stories about animals and discoveries"}
+{"neuron":3929,"pole":"high","cluster":0,"mode":"Conjunctions and connectors continuing cheerful, warm descriptive narration","scene_windows":0,"windows":5,"scene":"Warm, cheerful stories about friendship and joy"}
+{"neuron":3929,"pole":"high","cluster":1,"mode":"The word 'what' introducing embedded questions in simple narration","scene_windows":0,"windows":5,"scene":"Simple stories of characters asking or discovering things"}
+{"neuron":3929,"pole":"low","cluster":0,"mode":"Pronouns and conjunctions after excited or happy story events","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about happy discoveries"}
+{"neuron":3929,"pole":"low","cluster":1,"mode":"Present-tense verbs 'loved' or 'like' describing character habits","scene_windows":0,"windows":5,"scene":"Simple children's story openings about character hobbies"}
+{"neuron":2436,"pole":"high","cluster":0,"mode":"Adverbs closing emotionally charged clauses in tense narration","scene_windows":1,"windows":5,"scene":"Tense fiction with waiting and emotional strain"}
+{"neuron":2436,"pole":"high","cluster":1,"mode":"Commas splitting clauses in emotional narration","scene_windows":0,"windows":5,"scene":"Emotional or dark narrative scenes"}
+{"neuron":2436,"pole":"low","cluster":0,"mode":"Sentence-final periods in narrative passages","scene_windows":0,"windows":5,"scene":"Narrated stories and personal accounts"}
+{"neuron":2436,"pole":"low","cluster":1,"mode":"Sentence-final periods in expository informational text","scene_windows":0,"windows":5,"scene":"Informational articles and explanations"}
+{"neuron":4960,"pole":"high","cluster":0,"mode":"Relative pronouns and commas in dramatic fiction","scene_windows":0,"windows":5,"scene":"Dark fantasy and thriller narration"}
+{"neuron":4960,"pole":"high","cluster":1,"mode":"Year digits inside bibliographic reference entries","scene_windows":0,"windows":5,"scene":"Reference lists and citations"}
+{"neuron":4960,"pole":"low","cluster":0,"mode":"Sentence-ending periods closing story morals and goodbyes","scene_windows":0,"windows":5,"scene":"Children's stories ending in friendship"}
+{"neuron":4960,"pole":"low","cluster":1,"mode":"Pronouns and infinitive verbs in reflective fiction","scene_windows":0,"windows":5,"scene":"Reflective fiction about fandom and emotion"}
+{"neuron":4960,"pole":"low","cluster":2,"mode":"'you' after 'Can' in follow-up user requests","scene_windows":0,"windows":5,"scene":"Chat users asking assistant for more details"}

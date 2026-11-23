@@ -1,229 +1,268 @@
-"""Activations of chosen neurons over a mixed corpus, and their percentile bands.
+"""Harvest: what chosen neurons fire on, at both poles, over general text.
 
-1. Each corpus is streamed, tokenized and cut into windows (never across documents).
-2. One pass to layer L writes `a_n = silu(gate_n) * up_n` for the chosen neurons to a memmap [token, neuron].
-3. Per neuron, over real tokens past `skip_first`:
-   - the percentile thresholds (p97, p99, p99.9, p99.99);
-   - examples per band, with 60 tokens before and 8 after;
-   - a sample of p97+ hit indices for the mode clustering.
+1. The corpora are cut into windows (as for the poles), and one pass to layer L reads `a_n` for the chosen neurons.
+2. Per neuron, band edges at both poles: high p97, p99, p99.9, p99.99 and low p3, p1, p0.1, p0.01.
+   - The first `skip_first` tokens of each window are left out of the quantiles, the examples and the hits.
+3. Per neuron and pole: example windows in each band, and the most extreme ones.
+4. Per neuron and pole: a sample of hit positions (past p97 or p3), for clustering into modes.
+   - Uniform over the pole, or a fixed number per band (`hits_per_band`), see `pole_hits`.
 
-- The first tokens of each window are left out, because attention-sink effects dominate there.
+- A neuron that happy turns down serves happy through its low pole, so both poles are kept.
 """
 
+import csv
+import gc
 import json
-import random
+import time
 from pathlib import Path
 
-import numpy as np
 import torch
-from jaxtyping import Float, Int
-from numpy.typing import NDArray
-from pydantic import BaseModel
-from tqdm import tqdm
+from jaxtyping import Bool, Float, Int
+from pydantic import BaseModel, ConfigDict
+from safetensors.torch import load_file, save_file
+from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import HarvestConfig, RunConfig
-from .decomposition.dims_then_neurons import rank_neurons
-from .models import decoder_layers, read_mlp
-from .models.qwen3 import forward_until_stop, hooks, raise_stop
+from .config import HarvestConfig, ModesRunConfig
+from .models import load_model, load_tokenizer, load_w_down, read_mlp
+from .poles import padded_batch, quantiles_per_neuron
 from .texts import corpus_windows
-from .vectors import EmotionVectors
 
 
-class Windows(BaseModel):
-    """Token windows in index order; `corpus_doc[i]` is window i's (corpus name, document id)."""
+class CorpusActs(BaseModel):
+    """Every real token of the corpus, in window order."""
 
-    tokens: list[list[int]]
-    corpus_doc: list[tuple[str, int]]
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+
+    acts: Float[Tensor, "token neuron"]  # fp16, CPU
+    tokens: Int[Tensor, " token"]
+    window: Int[Tensor, " token"]  # index into `sources`
+    position: Int[Tensor, " token"]  # position in its window
+    sources: list[tuple[str, int]]  # (corpus, document id) per window
 
     @property
-    def offsets(self) -> NDArray[np.int64]:
-        out = np.zeros(len(self.tokens) + 1, dtype=np.int64)
-        out[1:] = np.cumsum([len(w) for w in self.tokens])
-        return out
+    def valid(self) -> Bool[Tensor, " token"]:
+        return self.position >= 0
+
+    def window_bounds(self) -> Int[Tensor, "window 2"]:
+        """[start, end) token index of each window; tokens are stored window after window."""
+        counts = torch.bincount(self.window, minlength=len(self.sources))
+        ends = counts.cumsum(0)
+        return torch.stack([ends - counts, ends], 1)
 
 
-def collect_windows(h: HarvestConfig, tokenizer: PreTrainedTokenizerBase) -> Windows:
-    tokens, corpus_doc = [], []
-    for corpus in h.corpora:
-        start = len(tokens)
-        for doc_id, window in corpus_windows(corpus, tokenizer, h.window, h.min_window, h.seed):
-            tokens.append(window)
-            corpus_doc.append((corpus.name, doc_id))
-        print(f"[corpus] {corpus.name}: {len(tokens) - start} windows, {sum(len(w) for w in tokens[start:])} tokens")
-    return Windows(tokens=tokens, corpus_doc=corpus_doc)
+def save_corpus(corpus: CorpusActs, run_dir: Path) -> None:
+    run_dir.mkdir(parents=True, exist_ok=True)
+    tensors = {"acts": corpus.acts.contiguous(), "tokens": corpus.tokens, "window": corpus.window, "position": corpus.position}
+    save_file(tensors, str(run_dir / "corpus.safetensors"))
+    (run_dir / "sources.json").write_text(json.dumps(corpus.sources))
 
 
-class NeuronChoice(BaseModel):
-    chosen: list[int]
-    controls: list[int]
-    groups: dict[str, list[int]]
+def load_corpus(run_dir: Path) -> CorpusActs:
+    t = load_file(str(run_dir / "corpus.safetensors"))
+    sources = [tuple(s) for s in json.loads((run_dir / "sources.json").read_text())]
+    return CorpusActs(acts=t["acts"], tokens=t["tokens"], window=t["window"], position=t["position"], sources=sources)
 
 
-def choose_neurons(cfg: RunConfig, W_down: Float[torch.Tensor, "d_model d_mlp"]) -> NeuronChoice:
-    """The neurons of `harvest.neurons_file` if given; else the Stage 3 set if small enough, else its ranked top.
-
-    - Plus random controls from the rest.
-    """
-    h = cfg.harvest
-    if h.neurons_file:
-        selection = json.loads(h.neurons_file.read_text())
-        groups, chosen = selection["groups"], sorted(selection["neurons"])
-        print(f"[neurons] {len(chosen)} from {h.neurons_file}")
-    else:
-        neuron_set = json.loads((cfg.result_dir / "neuron_set.json").read_text())
-        union = sorted({n for ids in neuron_set["members"].values() for n in ids})
-        if len(union) <= h.max_neurons:
-            groups, chosen = {"set": union}, union
-        else:
-            vectors = EmotionVectors.load(cfg.results_dir / cfg.neuron_set.vectors_run / "vectors.safetensors")
-            groups = rank_neurons(neuron_set, W_down, vectors.get("mlp_out"), vectors.get("mlp_act"), h.per_group)
-            chosen = sorted({n for g in groups.values() for n in g})
-            print(
-                f"[neurons] Stage 3 set is {len(union)} neurons (> {h.max_neurons}); taking the top {h.per_group} per (emotion, pole)"
-            )
-    rest = sorted(set(range(W_down.shape[1])) - set(chosen))
-    controls = sorted(random.Random(h.seed).sample(rest, min(h.n_controls, len(rest))))
-    return NeuronChoice(chosen=chosen, controls=controls, groups=groups)
+def neurons_until(csv_path: Path, rebuilt_pct: float) -> list[int]:
+    """The neurons of a greedy-set CSV, in rank order, up to the one that reaches `rebuilt_pct` of the write."""
+    neurons = []
+    for row in csv.DictReader(csv_path.open()):
+        neurons.append(int(row["neuron"]))
+        if float(row["rebuilt_after_pct"]) >= rebuilt_pct:
+            return neurons
+    raise ValueError(f"{csv_path} never reaches {rebuilt_pct}% (its set stops at {row['rebuilt_after_pct']}%)")
 
 
-def padded_batch(windows: list[list[int]], pad_id: int) -> tuple[Int[torch.Tensor, "batch seq"], Int[torch.Tensor, "batch seq"]]:
-    longest = max(len(w) for w in windows)
-    ids = torch.full((len(windows), longest), pad_id, dtype=torch.long)
-    mask = torch.zeros((len(windows), longest), dtype=torch.long)
-    for j, w in enumerate(windows):
-        ids[j, : len(w)] = torch.tensor(w)
-        mask[j, : len(w)] = 1
-    return ids, mask
+def control_neurons(exclude: list[int], n_neurons: int, count: int, seed: int) -> list[int]:
+    rest = torch.tensor(sorted(set(range(n_neurons)) - set(exclude)))
+    pick = torch.randperm(len(rest), generator=torch.Generator().manual_seed(seed))[:count]
+    return sorted(rest[pick].tolist())
 
 
-class TokenArrays(BaseModel):
-    """Per corpus token: its id, position in its window, and window index."""
-
-    model_config = {"arbitrary_types_allowed": True}
-
-    tokens: NDArray[np.int32]
-    pos: NDArray[np.int16]
-    window: NDArray[np.int32]
-
-
-def activation_pass(
-    model: PreTrainedModel, layer: int, windows: Windows, neurons: list[int], batch_size: int, pad_id: int, acts_path: Path
-) -> TokenArrays:
-    """Writes the memmap at `acts_path`; similar-length windows share a batch."""
-    offsets = windows.offsets
-    total = int(offsets[-1])
-    acts = np.lib.format.open_memmap(acts_path, mode="w+", dtype=np.float16, shape=(total, len(neurons)))
-    arrays = TokenArrays(tokens=np.zeros(total, np.int32), pos=np.zeros(total, np.int16), window=np.zeros(total, np.int32))
-    idx = torch.tensor(neurons, device=model.device)
-    order = sorted(range(len(windows.tokens)), key=lambda i: -len(windows.tokens[i]))
-    for start in tqdm(range(0, len(order), batch_size), desc="harvest"):
-        batch = order[start : start + batch_size]
-        ids, mask = padded_batch([windows.tokens[i] for i in batch], pad_id)
-        _, a = read_mlp(model, layer, ids.to(model.device), mask.to(model.device), idx)
-        assert torch.isfinite(a).all()
-        a = a.half().cpu().numpy()
-        for j, i in enumerate(batch):
-            n, o = len(windows.tokens[i]), offsets[i]
-            acts[o : o + n] = a[j, :n]
-            arrays.tokens[o : o + n] = windows.tokens[i]
-            arrays.pos[o : o + n] = np.arange(n)
-            arrays.window[o : o + n] = i
-    acts.flush()
-    return arrays
+def collect_windows(cfg: HarvestConfig, tokenizer: PreTrainedTokenizerBase) -> tuple[list[list[int]], list[tuple[str, int]]]:
+    windows, sources = [], []
+    for corpus in cfg.corpora:
+        start = len(windows)
+        for doc_id, w in corpus_windows(corpus, tokenizer, cfg.window, cfg.min_window, cfg.seed):
+            windows.append(w)
+            sources.append((corpus.name, doc_id))
+        print(
+            f"[corpus] {corpus.name}: {len(windows) - start} windows, {sum(len(w) for w in windows[start:])} tokens", flush=True
+        )
+    return windows, sources
 
 
-@torch.no_grad()
-def activation_pass_layers(
-    model: PreTrainedModel,
-    layer_neurons: dict[int, list[int]],
-    windows: Windows,
-    batch_size: int,
-    pad_id: int,
-    acts_paths: dict[int, Path],
-) -> TokenArrays:
-    """`activation_pass` for several layers in one forward pass, stopped after the deepest one."""
-    offsets = windows.offsets
-    total = int(offsets[-1])
-    acts = {
-        k: np.lib.format.open_memmap(acts_paths[k], mode="w+", dtype=np.float16, shape=(total, len(n)))
-        for k, n in layer_neurons.items()
+def read_corpus(
+    model: PreTrainedModel, tokenizer: PreTrainedTokenizerBase, cfg: HarvestConfig, layer: int, neurons: list[int]
+) -> CorpusActs:
+    """One pass to layer L. Tokens before `skip_first` get position -1, so `valid` leaves them out."""
+    windows, sources = collect_windows(cfg, tokenizer)
+    index = torch.tensor(neurons, device=model.device)
+    acts, tokens, window_ids, positions = [], [], [], []
+    for start in range(0, len(windows), cfg.batch_size):
+        batch = windows[start : start + cfg.batch_size]
+        ids, mask = padded_batch(batch, tokenizer.pad_token_id)
+        _, a = read_mlp(model, layer, ids.to(model.device), mask.to(model.device), index)
+        real = mask.bool()
+        acts.append(a[real.to(a.device)].half().cpu())
+        tokens.append(ids[real])
+        window_ids.append((torch.arange(len(batch))[:, None] + start).expand_as(ids)[real])
+        pos = torch.arange(ids.shape[1]).expand_as(ids).clone()
+        pos[:, : cfg.skip_first] = -1
+        positions.append(pos[real])
+        if (start // cfg.batch_size) % 100 == 0:
+            print(f"[harvest] {start + len(batch)}/{len(windows)} windows", flush=True)
+    return CorpusActs(
+        acts=torch.cat(acts), tokens=torch.cat(tokens), window=torch.cat(window_ids),
+        position=torch.cat(positions), sources=sources,
+    )  # fmt: skip
+
+
+def band_edges(corpus: CorpusActs, cfg: HarvestConfig, device: torch.device) -> dict[str, Float[Tensor, "edge neuron"]]:
+    """`high`: values at high_quantiles, ascending. `low`: values at low_quantiles, descending (p3 first)."""
+    valid = corpus.acts[corpus.valid]
+    return {
+        "high": quantiles_per_neuron(valid, cfg.high_quantiles, device),
+        "low": quantiles_per_neuron(valid, cfg.low_quantiles, device),
     }
-    arrays = TokenArrays(tokens=np.zeros(total, np.int32), pos=np.zeros(total, np.int16), window=np.zeros(total, np.int32))
-    idx = {k: torch.tensor(n, device=model.device) for k, n in layer_neurons.items()}
-    blocks = decoder_layers(model)
-    store: dict[int, torch.Tensor] = {}
-    handles = [blocks[k].mlp.down_proj.register_forward_pre_hook(lambda _m, a, k=k: store.__setitem__(k, a[0][:, :, idx[k]].float()))
-               for k in layer_neurons]  # fmt: skip
-    handles.append(blocks[max(layer_neurons)].register_forward_hook(raise_stop))
-    order = sorted(range(len(windows.tokens)), key=lambda i: -len(windows.tokens[i]))
-    with hooks(handles):
-        for start in tqdm(range(0, len(order), batch_size), desc="harvest"):
-            batch = order[start : start + batch_size]
-            ids, mask = padded_batch([windows.tokens[i] for i in batch], pad_id)
-            forward_until_stop(model, ids.to(model.device), mask.to(model.device))
-            got = {k: store[k].half().cpu().numpy() for k in layer_neurons}
-            for j, i in enumerate(batch):
-                n, o = len(windows.tokens[i]), offsets[i]
-                for k in layer_neurons:
-                    acts[k][o : o + n] = got[k][j, :n]
-                arrays.tokens[o : o + n] = windows.tokens[i]
-                arrays.pos[o : o + n] = np.arange(n)
-                arrays.window[o : o + n] = i
-    for a in acts.values():
-        a.flush()
-    return arrays
 
 
-class Snippet(BaseModel):
-    corpus: str
-    before: str
-    token: str
-    after: str
+def band_masks(a: Float[Tensor, " token"], edges: Float[Tensor, " edge"], pole: str) -> list[Bool[Tensor, " token"]]:
+    """One mask per band between consecutive edges; the last band is open-ended (past the most extreme edge)."""
+    outer = [*edges.tolist(), float("inf") if pole == "high" else -float("inf")]
+    if pole == "high":
+        return [(a >= lo) & (a < hi) for lo, hi in zip(outer[:-1], outer[1:])]
+    return [(a <= hi) & (a > lo) for hi, lo in zip(outer[:-1], outer[1:])]
 
 
-def snippet(t: int, windows: Windows, arrays: TokenArrays, tokenizer: PreTrainedTokenizerBase) -> Snippet:
-    """60 tokens before and 8 after token t, within its window."""
-    w = arrays.window[t]
-    offsets = windows.offsets
-    lo, hi = max(offsets[w], t - 60), min(offsets[w + 1], t + 9)
-    return Snippet(
-        corpus=windows.corpus_doc[w][0],
-        before=tokenizer.decode(arrays.tokens[lo:t].tolist()),
-        token=tokenizer.decode([int(arrays.tokens[t])]),
-        after=tokenizer.decode(arrays.tokens[t + 1 : hi].tolist()),
-    )
+def sample(mask: Bool[Tensor, " token"], count: int, generator: torch.Generator) -> Int[Tensor, " pick"]:
+    hits = mask.nonzero().squeeze(1)
+    return hits[torch.randperm(len(hits), generator=generator)[:count]]
 
 
-def percentile_thresholds(acts: np.memmap, valid: NDArray[np.bool_], h: HarvestConfig, device: str) -> NDArray[np.float32]:
-    """[neuron, percentile], by k-th value on the GPU, a chunk of neurons at a time."""
-    n_valid = int(valid.sum())
-    thresholds = np.zeros((acts.shape[1], len(h.percentiles)), dtype=np.float32)
-    valid_t = torch.from_numpy(valid)
-    for c0 in tqdm(range(0, acts.shape[1], h.percentile_chunk), desc="percentiles"):
-        cols = torch.from_numpy(np.asarray(acts[:, c0 : c0 + h.percentile_chunk], dtype=np.float32))[valid_t].to(device)
-        for k, q in enumerate(h.percentiles):
-            kth = max(1, int(round(q * n_valid)))
-            thresholds[c0 : c0 + cols.shape[1], k] = cols.kthvalue(kth, dim=0).values.cpu().numpy()
-    return thresholds
+def window_text(
+    tokenizer: PreTrainedTokenizerBase, corpus: CorpusActs, bounds: Int[Tensor, "window 2"], i: int, before: int, after: int
+) -> str:
+    """The token at i marked as [[token]], with up to `before` tokens before and `after` after, inside its window."""
+    start, end = bounds[corpus.window[i]].tolist()
+    lo, hi = max(start, i - before), min(end, i + after + 1)
+    ids = corpus.tokens
+    return tokenizer.decode(ids[lo:i]) + "[[" + tokenizer.decode(ids[i : i + 1]) + "]]" + tokenizer.decode(ids[i + 1 : hi])
 
 
-def neuron_bands(
-    values: NDArray[np.float32], thresholds: NDArray[np.float32], valid_idx: NDArray[np.int64], h: HarvestConfig,
-    rng: np.random.Generator, describe,
-) -> tuple[dict, NDArray[np.int64], NDArray[np.int64]]:  # fmt: skip
-    """Examples per band, the sampled p97+ hits (global token indices), and all p97+ hits (valid indices).
+def neuron_examples(
+    corpus: CorpusActs,
+    bounds: Int[Tensor, "window 2"],
+    tokenizer: PreTrainedTokenizerBase,
+    cfg: HarvestConfig,
+    j: int,
+    edges: dict,
+    generator: torch.Generator,
+) -> dict:
+    """{pole: {band name: [[activation, text], ...], "extreme": [...]}} for column j."""
+    a = corpus.acts[:, j].float().masked_fill(~corpus.valid, float("nan"))
 
-    - `values` are one neuron's activations on the valid tokens; `describe(i)` turns a valid index into a snippet dict.
+    def shown(picks: Tensor) -> list:
+        return [[round(float(a[i]), 3), window_text(tokenizer, corpus, bounds, int(i), cfg.before, cfg.after)] for i in picks]
+
+    out = {}
+    for pole, quantiles in (("high", cfg.high_quantiles), ("low", cfg.low_quantiles)):
+        pole_out = {
+            name: shown(sample(mask, cfg.examples_per_band, generator))
+            for name, mask in zip(band_names(quantiles), band_masks(a, edges[pole][:, j], pole))
+        }
+        extreme = a.nan_to_num(-float("inf") if pole == "high" else float("inf"))
+        pole_out["extreme"] = shown(extreme.topk(cfg.extreme_examples, largest=pole == "high").indices)
+        out[pole] = pole_out
+    return out
+
+
+def band_names(quantiles: list[float]) -> list[str]:
+    """e.g. high [0.97, 0.99, 0.999, 0.9999] -> p97-p99, p99-p99.9, p99.9-p99.99, p99.99+."""
+    labels = [f"p{100 * q:g}" for q in quantiles]
+    return [f"{a}-{b}" for a, b in zip(labels[:-1], labels[1:])] + [f"{labels[-1]}{'+' if quantiles[0] > 0.5 else '-'}"]
+
+
+def band_index(a: Float[Tensor, " token"], edges: Float[Tensor, " edge"], pole: str) -> Int[Tensor, " token"]:
+    """The band of each token at one pole (0 is the band nearest the median), -1 outside the pole or NaN."""
+    out = torch.full(a.shape, -1, dtype=torch.long)
+    for b, mask in enumerate(band_masks(a, edges, pole)):
+        out[mask] = b
+    return out
+
+
+def pole_hits(corpus: CorpusActs, j: int, edges: dict, cfg: HarvestConfig, generator) -> dict[str, Int[Tensor, " hit"]]:
+    """Token indices past p97 (high) and past p3 (low), for the mode clustering.
+
+    - Uniform (`hits_per_band` unset): a sample of the whole pole. About two thirds of it is p97-p99 and about
+      0.3% is p99.99+, so the rare strongest firings almost never reach a cluster.
+    - Per band: up to `hits_per_band` from each band, shuffled together (so any prefix keeps the mix).
+      `modes` weighs each hit by its band's size, so cluster shares still describe the whole pole.
     """
-    above = np.nonzero(values >= thresholds[0])[0]
-    take = above if len(above) <= h.hits_per_neuron else rng.choice(above, h.hits_per_neuron, replace=False)
-    top = above[np.argsort(-values[above])[: h.top_k]]
-    bands = {}
-    edges = list(thresholds) + [np.inf]
-    for b in range(len(h.percentiles)):
-        inside = np.nonzero((values >= edges[b]) & (values < edges[b + 1]))[0]
-        pick = inside if len(inside) <= h.examples_per_band else rng.choice(inside, h.examples_per_band, replace=False)
-        bands[f"p{h.percentiles[b] * 100:g}"] = [{"act": float(values[i]), **describe(i)} for i in pick]
-    bands["top"] = [{"act": float(values[i]), **describe(i)} for i in top[: h.examples_per_band]]
-    return bands, valid_idx[np.union1d(take, top)], above
+    a = corpus.acts[:, j].float()
+    if cfg.hits_per_band is None:
+        return {
+            "high": sample(corpus.valid & (a >= edges["high"][0, j]), cfg.hits_per_pole, generator),
+            "low": sample(corpus.valid & (a <= edges["low"][0, j]), cfg.hits_per_pole, generator),
+        }
+    out = {}
+    for pole in ("high", "low"):
+        masks = band_masks(a, edges[pole][:, j], pole)
+        picks = torch.cat([sample(corpus.valid & m, cfg.hits_per_band, generator) for m in masks])
+        out[pole] = picks[torch.randperm(len(picks), generator=generator)]
+    return out
+
+
+def corpus_for(cfg: ModesRunConfig, neurons: list[int]) -> CorpusActs:
+    """The saved corpus pass if an earlier run got that far, else one pass to layer L, saved at once.
+
+    The model is freed before returning: sorting activations for the band edges needs the GPU memory.
+    """
+    if (cfg.run_dir / "corpus.safetensors").exists():
+        print(f"[corpus] loading the saved pass from {cfg.run_dir}", flush=True)
+        return load_corpus(cfg.run_dir)
+    model, tokenizer = load_model(cfg.model, cfg.device)
+    corpus = read_corpus(model, tokenizer, cfg.harvest, cfg.layer, neurons)
+    save_corpus(corpus, cfg.run_dir)
+    del model
+    gc.collect()
+    torch.cuda.empty_cache()
+    return corpus
+
+
+def run_harvest(cfg: ModesRunConfig) -> None:
+    """The harvest stage: writes results/<run_id>/harvest.json and runs/<run_id>/{corpus,hits}.safetensors, sources.json."""
+    h = cfg.harvest
+    t0 = time.time()
+    chosen = neurons_until(h.neurons_csv, h.rebuilt_pct)
+    controls = control_neurons(chosen, load_w_down(cfg.model, cfg.layer).shape[1], h.n_controls, h.seed)
+    neurons = chosen + controls
+    print(f"[neurons] {len(chosen)} from {h.neurons_csv} (to {h.rebuilt_pct}%) + {len(controls)} controls", flush=True)
+
+    corpus = corpus_for(cfg, neurons)
+    assert corpus.acts.shape[1] == len(neurons), f"saved corpus has {corpus.acts.shape[1]} neurons, expected {len(neurons)}"
+    print(f"[corpus] {len(corpus.tokens)} tokens, {int(corpus.valid.sum())} valid, {time.time() - t0:.0f}s", flush=True)
+    tokenizer = load_tokenizer(cfg.model)
+    edges = band_edges(corpus, h, torch.device(cfg.device))
+    print(f"[edges] both poles, {time.time() - t0:.0f}s", flush=True)
+    bounds = corpus.window_bounds()
+    generator = torch.Generator().manual_seed(h.seed)
+    examples, hits = {}, {}
+    for j, n in enumerate(neurons):
+        examples[n] = neuron_examples(corpus, bounds, tokenizer, h, j, edges, generator)
+        for pole, idx in pole_hits(corpus, j, edges, h, generator).items():
+            hits[f"{n}/{pole}"] = idx.contiguous()
+    print(f"[examples] {len(neurons)} neurons, {time.time() - t0:.0f}s", flush=True)
+    save_file(hits, str(cfg.run_dir / "hits.safetensors"))
+
+    cfg.result_dir.mkdir(parents=True, exist_ok=True)
+    harvest = {
+        "model": cfg.model, "layer": cfg.layer, "neurons": chosen, "controls": controls,
+        "tokens": len(corpus.tokens), "valid_tokens": int(corpus.valid.sum()), "config": h.model_dump(mode="json"),
+        "bands": {"high": band_names(h.high_quantiles), "low": band_names(h.low_quantiles)},
+        "edges": {str(n): {pole: e[:, j].tolist() for pole, e in edges.items()} for j, n in enumerate(neurons)},
+        "examples": {str(n): v for n, v in examples.items()},
+    }  # fmt: skip
+    (cfg.result_dir / "harvest.json").write_text(json.dumps(harvest, ensure_ascii=False))
+    print(f"[saved] {cfg.result_dir}/harvest.json and {cfg.run_dir}/ | {time.time() - t0:.0f}s", flush=True)

@@ -1,9 +1,0 @@
-# Sparse neuron sets of every layer's MLP emotion write (CPU; needs runs/layers_all from extract_layers.py).
-#   python scripts/sparse_layers.py --config configs/sparse_layers.yaml
-# Reads W_down of each layer from the Hub (~100 MB each, cached as bf16).
-run_id: sparse_layers
-model: Qwen/Qwen3-8B
-sparse_layers:
-  source_run: layers_all
-  greedy_steps: 2500
-  target_cos: 0.9

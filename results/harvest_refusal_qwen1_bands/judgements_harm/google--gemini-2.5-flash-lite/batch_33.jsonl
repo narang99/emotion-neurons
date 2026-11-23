@@ -1,0 +1,74 @@
+{"neuron":535,"pole":"high","cluster":0,"mode":"asking questions about what was found or experienced","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":535,"pole":"high","cluster":1,"mode":"offering to provide more details or information","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":535,"pole":"high","cluster":2,"mode":"offering to provide more information or examples","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":535,"pole":"high","cluster":3,"mode":"requesting detailed descriptions for creative writing","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":535,"pole":"high","cluster":4,"mode":"requesting detailed descriptions for creative writing","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":535,"pole":"high","cluster":5,"mode":"asking for more details about specific elements in a story","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":535,"pole":"high","cluster":6,"mode":"asking for specific information or lists","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":535,"pole":"high","cluster":7,"mode":"suggesting a specific item or option","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":535,"pole":"high","cluster":8,"mode":"asking for more details about specific elements","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":535,"pole":"high","cluster":9,"mode":"ending a narrative or description with punctuation","scene_windows":0,"windows":5,"scene":"neutral narrative"}
+{"neuron":535,"pole":"high","cluster":10,"mode":"ending a description or statement with punctuation","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":535,"pole":"low","cluster":0,"mode":"discussing religious or political differences","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":535,"pole":"low","cluster":1,"mode":"discussing historical events and societal structures","scene_windows":0,"windows":5,"scene":"historical discussion"}
+{"neuron":535,"pole":"low","cluster":2,"mode":"discussing Polish history and culture","scene_windows":0,"windows":5,"scene":"cultural discussion"}
+{"neuron":535,"pole":"low","cluster":3,"mode":"mentioning specific dates and events","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":535,"pole":"low","cluster":4,"mode":"discussing characteristics of language or literature","scene_windows":0,"windows":5,"scene":"linguistic discussion"}
+{"neuron":535,"pole":"low","cluster":5,"mode":"discussing potential dangers or conflicts","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":535,"pole":"low","cluster":6,"mode":"discussing scientific findings or research","scene_windows":0,"windows":5,"scene":"scientific discussion"}
+{"neuron":535,"pole":"low","cluster":7,"mode":"discussing cultural practices or historical artifacts","scene_windows":0,"windows":5,"scene":"cultural discussion"}
+{"neuron":2881,"pole":"high","cluster":0,"mode":"listing ingredients with specific measurements","scene_windows":0,"windows":5,"scene":"recipe preparation"}
+{"neuron":2881,"pole":"high","cluster":1,"mode":"listing ingredients with specific measurements","scene_windows":0,"windows":5,"scene":"recipe preparation"}
+{"neuron":2881,"pole":"high","cluster":2,"mode":"listing ingredients with specific measurements","scene_windows":0,"windows":5,"scene":"recipe preparation"}
+{"neuron":2881,"pole":"high","cluster":3,"mode":"listing requirements or recommendations","scene_windows":0,"windows":5,"scene":"neutral advice"}
+{"neuron":2881,"pole":"high","cluster":4,"mode":"expressing negative emotions or states","scene_windows":0,"windows":5,"scene":"emotional dialogue"}
+{"neuron":2881,"pole":"low","cluster":0,"mode":"referring to quantities measured in gallons","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":2881,"pole":"low","cluster":1,"mode":"referring to large quantities measured in millions or billions","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":2881,"pole":"low","cluster":2,"mode":"referring to large quantities measured in millions","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":2881,"pole":"low","cluster":3,"mode":"offering assistance or suggestions","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":2881,"pole":"low","cluster":4,"mode":"describing a global problem or phenomenon","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":2881,"pole":"low","cluster":5,"mode":"describing negative emotions or actions","scene_windows":0,"windows":5,"scene":"negative emotional context"}
+{"neuron":2881,"pole":"low","cluster":6,"mode":"discussing scientific research or findings","scene_windows":0,"windows":5,"scene":"scientific discussion"}
+{"neuron":5131,"pole":"high","cluster":0,"mode":"starting a response with an affirmative statement","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":5131,"pole":"high","cluster":1,"mode":"describing something as a positive attribute or category","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5131,"pole":"high","cluster":2,"mode":"indicating the existence or presence of something","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":5131,"pole":"low","cluster":0,"mode":"expressing ability or possibility","scene_windows":0,"windows":5,"scene":"neutral statement"}
+{"neuron":5131,"pole":"low","cluster":1,"mode":"referring to negative or potentially problematic situations","scene_windows":0,"windows":5,"scene":"negative context"}
+{"neuron":7220,"pole":"high","cluster":0,"mode":"expressing intent to return or take action","scene_windows":0,"windows":5,"scene":"threatening dialogue"}
+{"neuron":7220,"pole":"high","cluster":1,"mode":"describing the act of engaging in conflict","scene_windows":0,"windows":5,"scene":"conflict description"}
+{"neuron":7220,"pole":"high","cluster":2,"mode":"discussing disadvantage, injustice, or rebellion","scene_windows":0,"windows":5,"scene":"social conflict"}
+{"neuron":7220,"pole":"low","cluster":0,"mode":"expressing realization or understanding","scene_windows":0,"windows":5,"scene":"neutral realization"}
+{"neuron":7220,"pole":"low","cluster":1,"mode":"stating the existence or presence of something","scene_windows":0,"windows":5,"scene":"neutral statement"}
+{"neuron":3986,"pole":"high","cluster":0,"mode":"asking questions or making statements","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":3986,"pole":"high","cluster":1,"mode":"giving commands or instructions","scene_windows":0,"windows":5,"scene":"commanding dialogue"}
+{"neuron":3986,"pole":"high","cluster":2,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":3986,"pole":"high","cluster":3,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":3986,"pole":"high","cluster":4,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":3986,"pole":"high","cluster":5,"mode":"expressing ability or possibility","scene_windows":0,"windows":5,"scene":"neutral statement"}
+{"neuron":3986,"pole":"high","cluster":6,"mode":"using profanity in dialogue","scene_windows":0,"windows":5,"scene":"profane dialogue"}
+{"neuron":3986,"pole":"low","cluster":0,"mode":"expressing negation or prohibition","scene_windows":0,"windows":5,"scene":"negative statement"}
+{"neuron":3986,"pole":"low","cluster":1,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":3986,"pole":"low","cluster":2,"mode":"offering assistance or suggestions","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":3986,"pole":"low","cluster":3,"mode":"using conjunctions to connect clauses","scene_windows":0,"windows":5,"scene":"neutral statement"}
+{"neuron":3986,"pole":"low","cluster":4,"mode":"using punctuation to indicate pauses or breaks","scene_windows":0,"windows":5,"scene":"narrative pause"}
+{"neuron":3986,"pole":"low","cluster":5,"mode":"asking questions or making statements","scene_windows":0,"windows":5,"scene":"dialogue"}
+{"neuron":3986,"pole":"low","cluster":6,"mode":"using profanity in dialogue","scene_windows":0,"windows":5,"scene":"profane dialogue"}
+{"neuron":3986,"pole":"low","cluster":7,"mode":"asking for advice or suggestions on various topics","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":3986,"pole":"low","cluster":8,"mode":"discussing difficult situations and offering support","scene_windows":0,"windows":5,"scene":"empathetic support and advice"}
+{"neuron":3986,"pole":"low","cluster":9,"mode":"offering advice on canceling or mitigating strong tastes","scene_windows":0,"windows":3,"scene":"neutral advice on taste mitigation"}
+{"neuron":3986,"pole":"low","cluster":10,"mode":"discussing consequences of actions and power dynamics","scene_windows":0,"windows":5,"scene":"consequences of power and actions"}
+{"neuron":3986,"pole":"low","cluster":11,"mode":"describing sudden, often violent, physical transformations or events","scene_windows":0,"windows":5,"scene":"sudden physical transformations"}
+{"neuron":3986,"pole":"low","cluster":12,"mode":"discussing agreement, justification, and the nature of things","scene_windows":0,"windows":5,"scene":"agreement and justification discussion"}
+{"neuron":5706,"pole":"high","cluster":0,"mode":"asking for information about past events or actions","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":5706,"pole":"high","cluster":1,"mode":"listing ingredients with specific measurements","scene_windows":0,"windows":5,"scene":"recipe preparation"}
+{"neuron":5706,"pole":"high","cluster":2,"mode":"listing ingredients with specific measurements","scene_windows":0,"windows":5,"scene":"recipe preparation"}
+{"neuron":5706,"pole":"high","cluster":3,"mode":"referring to authorship or creation","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5706,"pole":"high","cluster":4,"mode":"referring to authorship or creation","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5706,"pole":"low","cluster":0,"mode":"discussing public relations and communication channels","scene_windows":0,"windows":5,"scene":"professional discussion"}
+{"neuron":5706,"pole":"low","cluster":1,"mode":"discussing public relations and communication channels","scene_windows":0,"windows":5,"scene":"professional discussion"}
+{"neuron":5706,"pole":"low","cluster":2,"mode":"providing factual information about historical events","scene_windows":0,"windows":5,"scene":"historical information"}
+{"neuron":5706,"pole":"low","cluster":3,"mode":"discussing business consulting and analysis","scene_windows":0,"windows":5,"scene":"business discussion"}
+{"neuron":5706,"pole":"low","cluster":4,"mode":"discussing social media platforms and strategy","scene_windows":0,"windows":5,"scene":"marketing discussion"}
+{"neuron":5706,"pole":"low","cluster":5,"mode":"discussing research and development","scene_windows":0,"windows":5,"scene":"professional discussion"}
+{"neuron":5706,"pole":"low","cluster":6,"mode":"referring to collaborative efforts or programs","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5706,"pole":"low","cluster":7,"mode":"discussing corporate governance and stock","scene_windows":0,"windows":5,"scene":"business discussion"}

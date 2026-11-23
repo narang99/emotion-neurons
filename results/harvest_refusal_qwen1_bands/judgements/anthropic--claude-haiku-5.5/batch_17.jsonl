@@ -1,0 +1,75 @@
+{"neuron":4067,"pole":"high","cluster":0,"mode":"Conjunction 'and' linking two positive adjectives or qualities","scene_windows":0,"windows":5,"scene":"Design, cooking and fashion descriptions praising qualities"}
+{"neuron":4067,"pole":"high","cluster":1,"mode":"Indefinite article 'a' before a desired quality or atmosphere noun","scene_windows":0,"windows":5,"scene":"Style, lighting and makeup advice describing intended effects"}
+{"neuron":4067,"pole":"high","cluster":2,"mode":"Directional 'back' or 'to' after verbs of returning or changing state","scene_windows":0,"windows":5,"scene":"Narrative and physical descriptions of return or transformation"}
+{"neuron":4067,"pole":"high","cluster":3,"mode":"Body-position words (elbows, tucked, close) in yoga instructions","scene_windows":0,"windows":5,"scene":"Cobra pose and yoga posture instructions"}
+{"neuron":4067,"pole":"high","cluster":4,"mode":"Scattered function words in expository or narrative prose","scene_windows":0,"windows":5,"scene":"Mixed news, fiction and informational passages"}
+{"neuron":4067,"pole":"high","cluster":5,"mode":"'to' or 'should' after importance or necessity adjectives","scene_windows":0,"windows":5,"scene":"Opinion and advice sentences about importance and needs"}
+{"neuron":4067,"pole":"low","cluster":0,"mode":"Function words after hedged verbs like tend, can, help","scene_windows":0,"windows":5,"scene":"General explanatory and advice statements about tendencies"}
+{"neuron":4067,"pole":"low","cluster":1,"mode":"Subject 'I will' in promises to do better","scene_windows":0,"windows":5,"scene":"Assistant apologizing and promising to be more careful"}
+{"neuron":1693,"pole":"high","cluster":0,"mode":"Verb 'navigate' describing handling difficult life challenges","scene_windows":0,"windows":5,"scene":"Supportive or narrative text about coping with hardship"}
+{"neuron":1693,"pole":"high","cluster":1,"mode":"'during' introducing a challenging period or crisis","scene_windows":0,"windows":5,"scene":"Pandemic and difficult-time advice and conversation"}
+{"neuron":1693,"pole":"high","cluster":2,"mode":"Evaluative 'exciting' describing a field or journey","scene_windows":0,"windows":5,"scene":"Discussion of AI and technology as exciting fields"}
+{"neuron":1693,"pole":"high","cluster":3,"mode":"'complex' or 'complicated' after 'This is a' in replies","scene_windows":0,"windows":5,"scene":"Assistant framing hard ethical or factual questions"}
+{"neuron":1693,"pole":"high","cluster":4,"mode":"'really/very difficult' describing a hard personal situation","scene_windows":0,"windows":5,"scene":"Supportive replies to someone in a tough situation"}
+{"neuron":1693,"pole":"high","cluster":5,"mode":"'a' or 'is' in 'This is a ... question' openings","scene_windows":0,"windows":5,"scene":"Assistant opening responses to open-ended questions"}
+{"neuron":1693,"pole":"high","cluster":6,"mode":"'difficult' in phrases like 'through this difficult time'","scene_windows":0,"windows":5,"scene":"Condolence and sympathy messages during hard times"}
+{"neuron":1693,"pole":"high","cluster":7,"mode":"'tricky' or 'difficult' describing a situation or question","scene_windows":0,"windows":5,"scene":"Assistant acknowledging a tricky interpersonal or moral question"}
+{"neuron":1693,"pole":"high","cluster":8,"mode":"'this' completing 'through this time/process/issue'","scene_windows":0,"windows":5,"scene":"Encouragement to get through a hard period or process"}
+{"neuron":1693,"pole":"high","cluster":9,"mode":"'the' or 'of' in descriptive and investigative prose","scene_windows":0,"windows":5,"scene":"Crime fiction, book reviews and reporting passages"}
+{"neuron":1693,"pole":"high","cluster":10,"mode":"'through' after guiding or navigating a path or emotions","scene_windows":0,"windows":5,"scene":"Poetic and narrative passages about life's journey"}
+{"neuron":1693,"pole":"low","cluster":0,"mode":"Articles and prepositions mid-phrase in expository prose","scene_windows":0,"windows":5,"scene":"Essays and reports on society, markets and leadership"}
+{"neuron":1693,"pole":"low","cluster":1,"mode":"Causative verbs 'makes/made/make' after a clause subject","scene_windows":0,"windows":5,"scene":"Product, media and medical access descriptions"}
+{"neuron":10504,"pole":"high","cluster":0,"mode":"Question word opening a question after 'Based on the passage above'","scene_windows":0,"windows":5,"scene":"Questions about passages and product descriptions"}
+{"neuron":10504,"pole":"high","cluster":1,"mode":"'to' in the phrase 'In addition to' or 'Besides'","scene_windows":0,"windows":5,"scene":"Expository text adding further points"}
+{"neuron":10504,"pole":"high","cluster":2,"mode":"Digit or subword tokens inside years and dates","scene_windows":0,"windows":5,"scene":"Dates and years in informational passages"}
+{"neuron":10504,"pole":"high","cluster":3,"mode":"'and' joining two abstract nouns in a phrase","scene_windows":0,"windows":5,"scene":"Expository sentences about growth, support and communication"}
+{"neuron":10504,"pole":"high","cluster":4,"mode":"Comma ending an item in a list before the final item","scene_windows":0,"windows":5,"scene":"Summary sentences listing benefits or factors"}
+{"neuron":10504,"pole":"low","cluster":0,"mode":"'Yes' opening an assistant answer to a user question","scene_windows":0,"windows":5,"scene":"Assistant answering yes-or-no follow-up questions"}
+{"neuron":10504,"pole":"low","cluster":1,"mode":"'Here's/Here is' introducing a rewritten or revised text","scene_windows":0,"windows":5,"scene":"Assistant delivering edited or rewritten paragraphs"}
+{"neuron":10504,"pole":"low","cluster":2,"mode":"'That is/Yes, that's' confirming the user's statement","scene_windows":0,"windows":5,"scene":"Assistant confirming facts in dialogue"}
+{"neuron":10504,"pole":"low","cluster":3,"mode":"'examples' after 'Here are a few' in list introductions","scene_windows":0,"windows":5,"scene":"Assistant offering examples in response to requests"}
+{"neuron":10504,"pole":"low","cluster":4,"mode":"'details' or 'information' after 'Sure, here are more'","scene_windows":0,"windows":5,"scene":"Assistant agreeing to add more information"}
+{"neuron":10504,"pole":"low","cluster":5,"mode":"Prepositions or possessives in practical craft and business advice","scene_windows":0,"windows":5,"scene":"How-to advice on pottery, sharpening and carpentry"}
+{"neuron":10504,"pole":"low","cluster":6,"mode":"Turn-initial 'assistant' role label before an answer","scene_windows":0,"windows":5,"scene":"Chat transcripts with user questions and assistant replies"}
+{"neuron":1176,"pole":"high","cluster":0,"mode":"'is' after a long subject clause giving a judgment","scene_windows":0,"windows":5,"scene":"Opinions about legality, offense and ethics"}
+{"neuron":1176,"pole":"high","cluster":1,"mode":"'you/are/a' in accusatory labels of people who disagree","scene_windows":0,"windows":5,"scene":"Heated online rhetoric labeling opponents"}
+{"neuron":1176,"pole":"high","cluster":2,"mode":"Prepositions and conjunctions in encyclopedic descriptions","scene_windows":0,"windows":5,"scene":"Travel and geography descriptions of cities and ecosystems"}
+{"neuron":1176,"pole":"high","cluster":3,"mode":"Trailing spaces or commas at line breaks in verse","scene_windows":0,"windows":5,"scene":"Song lyrics and poems with line breaks"}
+{"neuron":1176,"pole":"low","cluster":0,"mode":"'correct' or 'right' after 'You are/you're' agreeing","scene_windows":0,"windows":5,"scene":"Assistant agreeing with the user's points"}
+{"neuron":1176,"pole":"low","cluster":1,"mode":"Nouns completing idioms such as 'ahead of his time', 'new level'","scene_windows":0,"windows":5,"scene":"Historical and promotional prose with phrase endings"}
+{"neuron":1176,"pole":"low","cluster":2,"mode":"Insulting trait words like 'freak', 'selfish', 'headed'","scene_windows":0,"windows":5,"scene":"Casual insults and interpersonal conflict dialogue"}
+{"neuron":10789,"pole":"high","cluster":0,"mode":"First-person 'I think' introducing an opinion","scene_windows":0,"windows":5,"scene":"Assistant giving opinions on social and relationship issues"}
+{"neuron":10789,"pole":"high","cluster":1,"mode":"Subject pronoun 'you/they' in advice about responsibilities","scene_windows":0,"windows":5,"scene":"Advice on work, safety and self-advocacy"}
+{"neuron":10789,"pole":"high","cluster":2,"mode":"'is' in general-advice constructions like 'it is good/important'","scene_windows":0,"windows":5,"scene":"Advice on pet care, relationships and alcohol"}
+{"neuron":10789,"pole":"low","cluster":0,"mode":"'certain' or 'think/sure' in encouraging closing remarks","scene_windows":0,"windows":5,"scene":"Encouraging sign-offs to someone supporting a friend"}
+{"neuron":10789,"pole":"low","cluster":1,"mode":"Colon after the assistant role label before an answer","scene_windows":0,"windows":5,"scene":"Chat turns where assistant begins replying"}
+{"neuron":10789,"pole":"low","cluster":2,"mode":"Opening interjection 'Sure/Certainly/Yes' with punctuation","scene_windows":0,"windows":5,"scene":"Assistant opening affirmative replies to requests"}
+{"neuron":10789,"pole":"low","cluster":3,"mode":"Comma after a conditional clause in instructions","scene_windows":0,"windows":5,"scene":"Cooking, fire-building and craft instructions"}
+{"neuron":10789,"pole":"low","cluster":4,"mode":"Percent or number tokens in health statistics","scene_windows":0,"windows":5,"scene":"Medical and health statistics passages"}
+{"neuron":4856,"pole":"high","cluster":0,"mode":"Colon after 'Assistant' label before affirming a user's claim","scene_windows":0,"windows":5,"scene":"Chat confirmations of user summaries of facts"}
+{"neuron":4856,"pole":"high","cluster":1,"mode":"'Assistant' role token before affirming reply","scene_windows":0,"windows":5,"scene":"Chat transcripts confirming user's statements"}
+{"neuron":4856,"pole":"high","cluster":2,"mode":"Sentence-initial 'Yes' affirming the user's summary","scene_windows":0,"windows":5,"scene":"Assistant agreeing with user's restated facts"}
+{"neuron":4856,"pole":"high","cluster":3,"mode":"Casual affirmation 'Yeah/Yup' in dialogue","scene_windows":0,"windows":5,"scene":"Casual conversational replies in stories and scripts"}
+{"neuron":4856,"pole":"high","cluster":4,"mode":"'that/That' starting an affirmation of a stated fact","scene_windows":0,"windows":5,"scene":"Assistant confirming user's explanations"}
+{"neuron":4856,"pole":"high","cluster":5,"mode":"Contraction 's after 'that' in affirmations","scene_windows":0,"windows":5,"scene":"Assistant confirming correctness of user statements"}
+{"neuron":4856,"pole":"high","cluster":6,"mode":"Colon after 'Human' role label","scene_windows":0,"windows":5,"scene":"Chat transcripts with human turns following assistant answers"}
+{"neuron":4856,"pole":"high","cluster":7,"mode":"Opening quotation marks starting spoken dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue between characters"}
+{"neuron":4856,"pole":"high","cluster":8,"mode":"Scattered function words in expository sentences","scene_windows":0,"windows":5,"scene":"Research and advice passages mid-sentence"}
+{"neuron":4856,"pole":"high","cluster":9,"mode":"Whitespace token after closing quotation in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue turn boundaries"}
+{"neuron":4856,"pole":"low","cluster":0,"mode":"'That is/That's' opening a comment on a user's question","scene_windows":0,"windows":5,"scene":"Assistant responses praising user questions"}
+{"neuron":4856,"pole":"low","cluster":1,"mode":"Colon after assistant label introducing an answer","scene_windows":0,"windows":5,"scene":"Chat turns with assistant starting answers"}
+{"neuron":4856,"pole":"low","cluster":2,"mode":"'in' after 'similar' in comparisons","scene_windows":0,"windows":5,"scene":"Comparisons of games, driving and products"}
+{"neuron":4856,"pole":"low","cluster":3,"mode":"'but' after acknowledging a complex question","scene_windows":0,"windows":5,"scene":"Assistant hedging answers to hard questions"}
+{"neuron":4856,"pole":"low","cluster":4,"mode":"Function words like 'the' or 'a' mid-phrase in narrative or historical prose","scene_windows":0,"windows":5,"scene":"Neutral narration and historical or encyclopedic prose"}
+{"neuron":4856,"pole":"low","cluster":5,"mode":"Opening quotation marks that begin a new line of dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue between characters"}
+{"neuron":4541,"pole":"high","cluster":0,"mode":"Mid-sentence function words before a continuing clause in prose","scene_windows":0,"windows":5,"scene":"Neutral expository and narrative text"}
+{"neuron":4541,"pole":"high","cluster":1,"mode":"Closing quotation marks or commas right after spoken dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes"}
+{"neuron":4541,"pole":"low","cluster":0,"mode":"Modal 'should' in advice or guidance sentences","scene_windows":1,"windows":5,"scene":"Safety advice, how-to guidance, and general narration"}
+{"neuron":4541,"pole":"low","cluster":1,"mode":"The word 'or' introducing alternatives in instruction lists","scene_windows":0,"windows":5,"scene":"How-to instructions and option lists"}
+{"neuron":9314,"pole":"high","cluster":0,"mode":"Nouns naming social, environmental or historical issues at phrase end","scene_windows":0,"windows":5,"scene":"Essays on social issues, environment and history"}
+{"neuron":9314,"pole":"high","cluster":1,"mode":"The word 'energy' within renewable energy phrases","scene_windows":0,"windows":5,"scene":"Discussions of renewable energy and sustainability"}
+{"neuron":9314,"pole":"low","cluster":0,"mode":"Colon or punctuation right after a speaker label or reply opener","scene_windows":0,"windows":5,"scene":"Chat turns with assistant or user labels"}
+{"neuron":9314,"pole":"low","cluster":1,"mode":"Question mark ending a user's follow-up request for more information","scene_windows":0,"windows":5,"scene":"User follow-up requests about recipes and topics"}
+{"neuron":9314,"pole":"low","cluster":2,"mode":"Comma mid-sentence inside informational statements before a clause","scene_windows":0,"windows":5,"scene":"Encyclopedic and informational factual text"}
+{"neuron":9314,"pole":"low","cluster":3,"mode":"Prepositions and determiners mid-phrase in descriptive sentences","scene_windows":0,"windows":5,"scene":"Descriptive and informational prose"}
+{"neuron":9314,"pole":"low","cluster":4,"mode":"Sentence-opening 'In' starting a conclusion or summary","scene_windows":0,"windows":5,"scene":"Concluding paragraphs of essays and articles"}

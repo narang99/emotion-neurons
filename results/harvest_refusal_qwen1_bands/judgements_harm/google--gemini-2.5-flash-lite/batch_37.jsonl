@@ -1,0 +1,68 @@
+{"neuron":400,"pole":"high","cluster":0,"mode":"knowing that this could be the end, facing danger, or reaching the end","scene_windows":2,"windows":5,"scene":"facing danger and death"}
+{"neuron":400,"pole":"high","cluster":1,"mode":"hoping for help or enjoyment in culinary or learning contexts","scene_windows":0,"windows":5,"scene":"seeking help and advice"}
+{"neuron":400,"pole":"low","cluster":0,"mode":"dew lumps, dewberry, dewclaws, dewlap","scene_windows":0,"windows":5,"scene":"biological and anatomical terms"}
+{"neuron":400,"pole":"low","cluster":1,"mode":"emotional stability, emotional regulation, emotional abuse, emotional affair","scene_windows":1,"windows":5,"scene":"mental health and relationships"}
+{"neuron":400,"pole":"low","cluster":2,"mode":"tears streaming down face, tears filled eyes, feeling tears","scene_windows":3,"windows":5,"scene":"sadness and crying"}
+{"neuron":400,"pole":"low","cluster":3,"mode":"breaking into a car, breaking through defenses, breaking into school","scene_windows":3,"windows":5,"scene":"crime and violence"}
+{"neuron":400,"pole":"low","cluster":4,"mode":"fruit punch, fruit and nut salads, fruit mold","scene_windows":0,"windows":5,"scene":"food and recipes"}
+{"neuron":400,"pole":"low","cluster":5,"mode":"overcoming conflicts, overcoming old conflicts","scene_windows":0,"windows":5,"scene":"conflict resolution and peace"}
+{"neuron":400,"pole":"low","cluster":6,"mode":"rain drops, rain pounds windshield, joyous energy of rain","scene_windows":0,"windows":5,"scene":"weather and nature"}
+{"neuron":400,"pole":"low","cluster":7,"mode":"rainwater harvesting, rain capture, collected rain","scene_windows":0,"windows":5,"scene":"water conservation and sustainability"}
+{"neuron":2893,"pole":"high","cluster":0,"mode":"New York University Press, Sociology of World Religions","scene_windows":0,"windows":5,"scene":"academic and publishing context"}
+{"neuron":2893,"pole":"high","cluster":1,"mode":"human intuition, human experience, human connection, human limb, human labor","scene_windows":0,"windows":5,"scene":"human capabilities and interaction"}
+{"neuron":2893,"pole":"high","cluster":2,"mode":"dining, lodging, shellfish, phone, social media","scene_windows":0,"windows":5,"scene":"various contexts and communication"}
+{"neuron":2893,"pole":"high","cluster":3,"mode":"by pool balance chemicals, for fans, with another drug, of pax6, the city's synagogue-lined","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":2893,"pole":"high","cluster":4,"mode":"hope these thoughts are helpful, hope this advice helps, hope this helps, hope these tips are helpful","scene_windows":0,"windows":5,"scene":"offering advice and encouragement"}
+{"neuron":2893,"pole":"low","cluster":0,"mode":"the large sample sizes, the many relevant variables, the difficulty of VR computing, the possibility that wind turbines","scene_windows":0,"windows":5,"scene":"challenges and difficulties"}
+{"neuron":2893,"pole":"low","cluster":1,"mode":"because it affects, because horses are trickle feeders, because we only assist, because eyesight is such, because firefighting is traditionally","scene_windows":0,"windows":5,"scene":"causality and explanations"}
+{"neuron":2893,"pole":"low","cluster":2,"mode":"as they are constantly interacting, as this could give, as well as the physical, as well as having excellent, since that will ensure","scene_windows":0,"windows":5,"scene":"conjunctions and explanations"}
+{"neuron":2893,"pole":"low","cluster":3,"mode":"the sport, the topic, the natural world, the combination, the outdoors","scene_windows":0,"windows":5,"scene":"various subjects and contexts"}
+{"neuron":2893,"pole":"low","cluster":4,"mode":"complex issue, complex process, complex issue, complex philosophy, complicated and deep-seated","scene_windows":0,"windows":5,"scene":"complexity and difficulty"}
+{"neuron":2239,"pole":"high","cluster":0,"mode":"presence of sin, in the presence of sin, to tolerate sin, presence of sin","scene_windows":1,"windows":5,"scene":"religious and theological concepts"}
+{"neuron":2239,"pole":"high","cluster":1,"mode":"characters, is an immensely, This is an immensely, some very troubling things, including many deaths","scene_windows":2,"windows":5,"scene":"describing difficult content"}
+{"neuron":2239,"pole":"high","cluster":2,"mode":"suffering and evil, allows evil and suffering, prevent all evil or suffering, allows evil and suffering","scene_windows":3,"windows":5,"scene":"theological discussions of suffering"}
+{"neuron":2239,"pole":"high","cluster":3,"mode":"impact of crisis, be rotund, and stoicism, laws and moral order, limits and rules","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":2239,"pole":"high","cluster":4,"mode":"and can involve stressful, and can involve stressful, and can involve stressful, and can involve stressful, and can involve stressful","scene_windows":2,"windows":5,"scene":"military career challenges"}
+{"neuron":2239,"pole":"low","cluster":0,"mode":"she turned to run, He turned off the tap, childhood fears stirred, He coughed violently, he shook the human’s hand","scene_windows":1,"windows":5,"scene":"actions and reactions"}
+{"neuron":2239,"pole":"low","cluster":1,"mode":"the investigation, real-life scenarios, the race, to The Texas, the family","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":3688,"pole":"high","cluster":0,"mode":"some world-class resorts, in the nineteenth century, within a day, than in previous, was constructed","scene_windows":0,"windows":5,"scene":"historical and descriptive contexts"}
+{"neuron":3688,"pole":"high","cluster":1,"mode":"start the homeschool, starting your own venture, starts somewhere, starts somewhere, starting out","scene_windows":0,"windows":5,"scene":"beginning new endeavors"}
+{"neuron":3688,"pole":"low","cluster":0,"mode":"energy supply, administering transfusions, planned to send, academic skills, early 1940s","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":3688,"pole":"low","cluster":1,"mode":"so you never, so you eventually, so you eventually, so you eventually, so you quickly","scene_windows":0,"windows":5,"scene":"conditional outcomes"}
+{"neuron":2449,"pole":"high","cluster":0,"mode":"39 countries, New York, breathalyzer, 2° and 8°C, watch","scene_windows":0,"windows":5,"scene":"specific details and measurements"}
+{"neuron":2449,"pole":"high","cluster":1,"mode":"was only too happy, our selection, half power, was home, were not supported","scene_windows":0,"windows":5,"scene":"states of being and actions"}
+{"neuron":2449,"pole":"high","cluster":2,"mode":"reached for a dial, reached for a dial, reached out, reached for his, reached for my","scene_windows":0,"windows":5,"scene":"physical actions of reaching"}
+{"neuron":2449,"pole":"low","cluster":0,"mode":"different groups, other backgrounds, multiple fields, wide range of fields, range of perspectives","scene_windows":0,"windows":5,"scene":"diversity and collaboration"}
+{"neuron":2449,"pole":"low","cluster":1,"mode":"two main types, two types of calipers, three different types, two types of blackberry, two main types","scene_windows":0,"windows":5,"scene":"classification and types"}
+{"neuron":9068,"pole":"high","cluster":0,"mode":"Cyprus, breathing apparatus, Chernobyl disaster, fear response, northern California","scene_windows":1,"windows":5,"scene":"geographical and event contexts"}
+{"neuron":9068,"pole":"high","cluster":1,"mode":"Wikipedia, Wikipedia, Wikipedia.org, Wikipedia, Wikipedia","scene_windows":0,"windows":5,"scene":"references to Wikipedia"}
+{"neuron":9068,"pole":"low","cluster":0,"mode":"for children, avviato, has not been, for its job, in other ways","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":9068,"pole":"low","cluster":1,"mode":"leek or a daffodil, Reindeer ears, dill, or parsley, thyme, sweet potato fries","scene_windows":0,"windows":5,"scene":"food and plants"}
+{"neuron":3206,"pole":"high","cluster":0,"mode":"``","scene_windows":0,"windows":5,"scene":"code snippets"}
+{"neuron":3206,"pole":"high","cluster":1,"mode":"5. Sprinkle salt, 6. Cook for, 4. Sprinkle with, 5. Brush the, 7. Scramble the eggs","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":3206,"pole":"high","cluster":2,"mode":"2. Choose a comfortable chair, 2. Analyze your social media, 2. Use a nail hardener, 2. Color palette, 2. Stay hydrated","scene_windows":0,"windows":5,"scene":"advice and instructions"}
+{"neuron":3206,"pole":"high","cluster":3,"mode":"]]","scene_windows":0,"windows":5,"scene":"code snippets"}
+{"neuron":3206,"pole":"high","cluster":4,"mode":"�","scene_windows":0,"windows":5,"scene":"unidentified characters"}
+{"neuron":3206,"pole":"high","cluster":5,"mode":"ar, 20, 0.0.0.0, west, the underrepresented","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":3206,"pole":"high","cluster":6,"mode":"]]","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":3206,"pole":"high","cluster":7,"mode":"]]","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":3206,"pole":"low","cluster":0,"mode":"legal/medical/financial advice, instructions, or descriptions of procedures","scene_windows":0,"windows":5,"scene":"advice and instructions"}
+{"neuron":3206,"pole":"low","cluster":1,"mode":"marketing and advertising strategies for businesses","scene_windows":0,"windows":5,"scene":"business marketing strategies"}
+{"neuron":3206,"pole":"low","cluster":2,"mode":"advice on organization, maintenance, and care","scene_windows":0,"windows":5,"scene":"practical advice and care"}
+{"neuron":3206,"pole":"low","cluster":3,"mode":"questions and answers about various topics","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3206,"pole":"low","cluster":4,"mode":"questions and answers about various topics","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3206,"pole":"low","cluster":5,"mode":"questions and answers about various topics","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3206,"pole":"low","cluster":6,"mode":"questions and answers about various topics","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3206,"pole":"low","cluster":7,"mode":"questions and answers about various topics","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3206,"pole":"low","cluster":8,"mode":"questions and answers about various topics","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3206,"pole":"low","cluster":9,"mode":"questions and answers about various topics","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3503,"pole":"high","cluster":0,"mode":"are several factors, there are many different, there are a few different, there are many things, there are a few steps","scene_windows":0,"windows":5,"scene":"offering advice and options"}
+{"neuron":3503,"pole":"high","cluster":1,"mode":"One particularly interesting surname, One of the more popular ways, One such festival, One such policy, One consideration here","scene_windows":0,"windows":5,"scene":"examples and considerations"}
+{"neuron":3503,"pole":"high","cluster":2,"mode":"Some examples of these, Some of the most common, Some of the most popular, Some great French authors, Some of the research topics","scene_windows":0,"windows":5,"scene":"providing examples and information"}
+{"neuron":3503,"pole":"high","cluster":3,"mode":"is a type, is one of the, is a classic, is a tropical, is characterized","scene_windows":0,"windows":5,"scene":"definitions and descriptions"}
+{"neuron":3503,"pole":"high","cluster":4,"mode":"``","scene_windows":0,"windows":5,"scene":"dialogue and quotes"}
+{"neuron":3503,"pole":"high","cluster":5,"mode":"I overheard, He looked worn, I see that, I shift along, I quickly slammed","scene_windows":0,"windows":5,"scene":"first-person actions and observations"}
+{"neuron":3503,"pole":"high","cluster":6,"mode":"coursework, one-of-a-kind, database, adolescents, distribution","scene_windows":0,"windows":5,"scene":"various contexts and descriptions"}
+{"neuron":3503,"pole":"high","cluster":7,"mode":"mental health, team dynamics, safe deposit boxes, Banana Flower Cutlets, informative answer","scene_windows":0,"windows":5,"scene":"positive outcomes and advice"}
+{"neuron":3503,"pole":"low","cluster":0,"mode":"water sources, metabolism, skin of the leg, appearance of scars, performed","scene_windows":2,"windows":5,"scene":"medical and cosmetic procedures"}
+{"neuron":3503,"pole":"low","cluster":1,"mode":"Facebook advertising, Video Ads, content marketing, Email Marketing","scene_windows":0,"windows":5,"scene":"marketing strategies"}

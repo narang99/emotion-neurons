@@ -1,0 +1,58 @@
+{"neuron":3138,"pole":"high","cluster":0,"mode":"Assistant replies to user questions in informational chat exchanges","happy_windows":0,"windows":5,"scene":"Informational chatbot Q&A about various topics"}
+{"neuron":3138,"pole":"high","cluster":1,"mode":"Narrative tokens in stories about searching, adventure, and feelings","happy_windows":1,"windows":5,"scene":"Short children's stories with mixed moods"}
+{"neuron":3138,"pole":"high","cluster":2,"mode":"Sentence-ending periods in expository or argumentative prose","happy_windows":0,"windows":5,"scene":"Expository articles on policy, science, medicine"}
+{"neuron":3138,"pole":"low","cluster":0,"mode":"Quotation marks and punctuation in dialogue after characters speak or smile","happy_windows":4,"windows":5,"scene":"Children's stories with cheerful dialogue and play"}
+{"neuron":3138,"pole":"low","cluster":1,"mode":"The article 'the' in stories after characters feel excited or pleased","happy_windows":4,"windows":5,"scene":"Children's stories of pleasant discoveries and gifts"}
+{"neuron":3138,"pole":"low","cluster":2,"mode":"Names, titles, and citation fragments in biographical or reference text","happy_windows":0,"windows":5,"scene":"Biographies, citations, and reference entries"}
+{"neuron":3138,"pole":"low","cluster":3,"mode":"'That' after glad, happy, or knew in children's stories","happy_windows":4,"windows":5,"scene":"Children's stories of relief, gratitude, and happiness"}
+{"neuron":3138,"pole":"low","cluster":4,"mode":"Clause-joining tokens in policy, environmental, and historical prose","happy_windows":0,"windows":5,"scene":"Informational articles on policy, history, environment"}
+{"neuron":3138,"pole":"low","cluster":5,"mode":"Emotion adjectives like sad, happy, excited after felt or was","happy_windows":2,"windows":5,"scene":"Children's stories naming characters' feelings"}
+{"neuron":3138,"pole":"low","cluster":6,"mode":"'And' or 'He' after smiled, proud, or excited in children's stories","happy_windows":5,"windows":5,"scene":"Children's stories of pride, smiles, and hugs"}
+{"neuron":3138,"pole":"low","cluster":7,"mode":"Sentence-final periods after animal or sound discoveries in stories","happy_windows":2,"windows":5,"scene":"Children's stories about finding pets and curious sounds"}
+{"neuron":1080,"pole":"high","cluster":0,"mode":"'Thank' or 'thanked' after receiving a gift or kindness","happy_windows":5,"windows":5,"scene":"Children's stories of gratitude after receiving gifts"}
+{"neuron":1080,"pole":"high","cluster":1,"mode":"Verbs 'take' or 'for' in narrative action and searching","happy_windows":2,"windows":5,"scene":"Children's stories of playful or determined actions"}
+{"neuron":1080,"pole":"high","cluster":2,"mode":"'The' after thanked, took, or feels sorry for","happy_windows":2,"windows":5,"scene":"Children's stories of kindness and gratitude"}
+{"neuron":1080,"pole":"high","cluster":3,"mode":"Verb 'told' after a character speaks or shares news","happy_windows":2,"windows":5,"scene":"Children's stories with mothers and friends talking"}
+{"neuron":1080,"pole":"high","cluster":4,"mode":"Speech verb 'said' after a character smiles or responds","happy_windows":2,"windows":5,"scene":"Children's stories with dialogue and warm responses"}
+{"neuron":1080,"pole":"high","cluster":5,"mode":"Numbers, data points, and technical tokens in statistics","happy_windows":0,"windows":5,"scene":"Economic statistics, science data, and reports"}
+{"neuron":1080,"pole":"high","cluster":6,"mode":"Abstract nouns in legal, historical, or academic prose","happy_windows":0,"windows":5,"scene":"Legal and historical academic writing"}
+{"neuron":1080,"pole":"low","cluster":0,"mode":"Verbs of watching, trying, or staring in narrative action","happy_windows":2,"windows":5,"scene":"Children's stories of watching wonder and travel"}
+{"neuron":1080,"pole":"low","cluster":1,"mode":"Prepositions and articles in recipes and cooking instructions","happy_windows":0,"windows":5,"scene":"Recipes and cooking instructions"}
+{"neuron":6950,"pole":"high","cluster":0,"mode":"Page and volume numbers in historical citations","happy_windows":0,"windows":5,"scene":"Academic citations and footnotes"}
+{"neuron":6950,"pole":"high","cluster":1,"mode":"Character names starting sentences after pride or delight","happy_windows":2,"windows":5,"scene":"Children's stories about discoveries and pride"}
+{"neuron":6950,"pole":"high","cluster":2,"mode":"'But' or 'that' introducing turns in short stories","happy_windows":0,"windows":5,"scene":"Short stories with mild suspense and surprises"}
+{"neuron":6950,"pole":"high","cluster":3,"mode":"Concrete nouns for food, water, and containers in stories","happy_windows":1,"windows":5,"scene":"Simple stories about cooking and outdoor play"}
+{"neuron":6950,"pole":"low","cluster":0,"mode":"Nouns like era, devices, employees in news and business prose","happy_windows":0,"windows":5,"scene":"News, business, and technology articles"}
+{"neuron":6950,"pole":"low","cluster":1,"mode":"Nouns like world, figures, day in advice and general prose","happy_windows":0,"windows":5,"scene":"Advice articles and general descriptive writing"}
+{"neuron":6950,"pole":"low","cluster":2,"mode":"'Smiled' after a character responds to a kind moment","happy_windows":4,"windows":5,"scene":"Children's stories of smiling after kindness"}
+{"neuron":6950,"pole":"low","cluster":3,"mode":"'And' joining adjectives in descriptive sentences","happy_windows":1,"windows":5,"scene":"Children's stories describing traits and feelings"}
+{"neuron":7172,"pole":"high","cluster":0,"mode":"Anatomical and biological nouns in medical or science explanations","happy_windows":0,"windows":5,"scene":"Medical and biology explanations"}
+{"neuron":7172,"pole":"high","cluster":1,"mode":"Emotional words like happy, smiled, so after a mood shift","happy_windows":3,"windows":5,"scene":"Children's stories with mixed emotions and delight"}
+{"neuron":7172,"pole":"high","cluster":2,"mode":"Name fragments and nouns in history, fiction, and trivia","happy_windows":0,"windows":5,"scene":"Fiction, history, and cultural trivia"}
+{"neuron":7172,"pole":"low","cluster":0,"mode":"'Hugged it' or 'hopped into it' after receiving something special","happy_windows":5,"windows":5,"scene":"Children's stories of joyful hugs and treasures"}
+{"neuron":7172,"pole":"low","cluster":1,"mode":"'Around' after verbs of playful movement in stories","happy_windows":3,"windows":5,"scene":"Children's stories of playful running and exploring"}
+{"neuron":6350,"pole":"high","cluster":0,"mode":"'And' or subject tokens in stories about sadness and regret","happy_windows":0,"windows":5,"scene":"Children's stories about sadness and sibling conflict"}
+{"neuron":6350,"pole":"high","cluster":1,"mode":"Prepositions and pronouns in war, politics, and drama","happy_windows":0,"windows":5,"scene":"War drama, political history, and advice"}
+{"neuron":6350,"pole":"low","cluster":0,"mode":"Subject pronouns after worry, sadness, or excitement","happy_windows":1,"windows":5,"scene":"Children's stories of mishaps and excitement"}
+{"neuron":6350,"pole":"low","cluster":1,"mode":"'Wanted' after a character's desire in opening lines","happy_windows":0,"windows":5,"scene":"Opening lines of children's stories about wishes"}
+{"neuron":9554,"pole":"high","cluster":0,"mode":"Pronouns and conjunctions in apologies and family reconciliation","happy_windows":2,"windows":5,"scene":"Children reconciling and feeling proud or sorry"}
+{"neuron":9554,"pole":"high","cluster":1,"mode":"Sentence-ending periods before a new narrative beat","happy_windows":1,"windows":5,"scene":"Children's stories with sneezes, sadness, and pleasant turns"}
+{"neuron":9554,"pole":"low","cluster":0,"mode":"'Park' or 'run' as a setting noun in simple stories","happy_windows":2,"windows":5,"scene":"Children's stories set at the park"}
+{"neuron":9554,"pole":"low","cluster":1,"mode":"Numbered list markers in advice and idea lists","happy_windows":0,"windows":5,"scene":"Numbered lists of tips and ideas"}
+{"neuron":3586,"pole":"high","cluster":0,"mode":"Medical and procedural nouns after surgery or treatment mentions","happy_windows":0,"windows":5,"scene":"Medical procedures and health explanations"}
+{"neuron":3586,"pole":"high","cluster":1,"mode":"Sentence-ending punctuation in simple children's stories","happy_windows":1,"windows":5,"scene":"Simple children's stories with everyday events"}
+{"neuron":3586,"pole":"low","cluster":0,"mode":"'And' or nouns about doctors and medicine in stories","happy_windows":0,"windows":5,"scene":"Children's stories about illness and doctor visits"}
+{"neuron":3586,"pole":"low","cluster":1,"mode":"Health and care nouns in public health and medical text","happy_windows":0,"windows":5,"scene":"Public health and healthcare system articles"}
+{"neuron":3586,"pole":"low","cluster":2,"mode":"Sentence-ending periods in medical and nutrition research","happy_windows":0,"windows":5,"scene":"Medical research and nutrition studies"}
+{"neuron":9589,"pole":"high","cluster":0,"mode":"\"for\" after pride-in-self phrases, following an accomplishment or good deed","happy_windows":4,"windows":5,"scene":"children and bees celebrating accomplishments, proud parents praising"}
+{"neuron":9589,"pole":"high","cluster":1,"mode":"\"looked\" as a verb describing a character's gaze or appearance","happy_windows":2,"windows":5,"scene":"mixed: a tiny tea party, a park adventure, sad or worried characters"}
+{"neuron":9589,"pole":"low","cluster":0,"mode":"Sentence-ending period after a character's happy or proud reaction","happy_windows":5,"windows":5,"scene":"children delighted after recovering, winning, or finding treasures"}
+{"neuron":9589,"pole":"low","cluster":1,"mode":"\"make\" in \"help/make the world better\" or \"make her feel better\" phrases","happy_windows":2,"windows":5,"scene":"wizards and kind characters improving the world or comforting friends"}
+{"neuron":9589,"pole":"low","cluster":2,"mode":"\"smiled\" as a character's reaction to a friendly moment","happy_windows":5,"windows":5,"scene":"children smiling warmly at friends, parents, or new playmates"}
+{"neuron":9589,"pole":"low","cluster":3,"mode":"\"to\", \"knew\", or \"It\" in contexts of pleasure or accomplishment","happy_windows":3,"windows":5,"scene":"children enjoying creative play, learning, and sharing with friends"}
+{"neuron":9589,"pole":"low","cluster":4,"mode":"\"happy\" right after \"was so\" describing a character's joy","happy_windows":5,"windows":5,"scene":"little girls and birds delighted after finding or recovering things"}
+{"neuron":9589,"pole":"low","cluster":5,"mode":"Evaluative adjective or verb after \"wonderful\", \"happy\", or \"glad\" at story endings","happy_windows":5,"windows":5,"scene":"characters reflecting warmly on adventures, learning, and helping"}
+{"neuron":9589,"pole":"low","cluster":6,"mode":"Intensifier \"very/so\" before an emotion adjective like happy or proud","happy_windows":4,"windows":5,"scene":"characters feeling joyful after fixing, exploring, or achieving something"}
+{"neuron":9589,"pole":"low","cluster":7,"mode":"\"was\" before \"so happy/excited/proud\" describing a character's feeling","happy_windows":5,"windows":5,"scene":"girls overjoyed at finding a toy, saving money, or reuniting"}
+{"neuron":9589,"pole":"low","cluster":8,"mode":"Character name starting a sentence right before a feeling or reaction","happy_windows":3,"windows":5,"scene":"girls happy about a new toy, stone, or friend"}
+{"neuron":9589,"pole":"low","cluster":9,"mode":"\"and\" linking a character's warm action to a follow-up action","happy_windows":5,"windows":5,"scene":"friends hugging, cheering, and reuniting warmly"}

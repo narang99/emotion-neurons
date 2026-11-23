@@ -1,0 +1,50 @@
+{"neuron":7032,"pole":"high","cluster":0,"mode":"academic paper citations with numbers in parentheses","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":7032,"pole":"high","cluster":1,"mode":"religious and political discourse, scientific mechanisms","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":7032,"pole":"high","cluster":2,"mode":"personal experiences, historical events, policy","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":7032,"pole":"low","cluster":0,"mode":"scientific and historical context, policy discussions","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":7032,"pole":"low","cluster":1,"mode":"bibliographic entries and citations","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":10845,"pole":"high","cluster":0,"mode":"programming code snippets and technical terms","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":10845,"pole":"high","cluster":1,"mode":"medical and scientific terms, drug names","happy_windows":0,"windows":5,"scene":"neutral medical text"}
+{"neuron":10845,"pole":"high","cluster":2,"mode":"narrative beginnings, character descriptions, magical elements","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":10845,"pole":"high","cluster":3,"mode":"children's stories, simple actions, positive interactions","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":10845,"pole":"low","cluster":0,"mode":"children's stories, negative emotions, physical discomfort","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":10845,"pole":"low","cluster":1,"mode":"children's stories, negative actions, taking things","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":5183,"pole":"high","cluster":0,"mode":"cooking instructions, food preparation steps","happy_windows":0,"windows":5,"scene":"neutral recipe text"}
+{"neuron":5183,"pole":"high","cluster":1,"mode":"children's story beginnings, introducing characters","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":5183,"pole":"high","cluster":2,"mode":"children's stories, mother-child interactions, positive emotions","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":5183,"pole":"high","cluster":3,"mode":"children's stories, gifts, positive discoveries","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":5183,"pole":"high","cluster":4,"mode":"academic citations, journal abbreviations, image links","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":5183,"pole":"high","cluster":5,"mode":"numerical data, statistics, code snippets","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":5183,"pole":"low","cluster":0,"mode":"children's stories, negative emotions, physical states","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":5183,"pole":"low","cluster":1,"mode":"bibliographic entries and citations","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":3234,"pole":"high","cluster":0,"mode":"historical context, social commentary, publishing","happy_windows":0,"windows":5,"scene":"neutral historical text"}
+{"neuron":3234,"pole":"high","cluster":1,"mode":"scientific concepts, policy, technological advancements","happy_windows":0,"windows":5,"scene":"neutral scientific text"}
+{"neuron":3234,"pole":"low","cluster":0,"mode":"children's stories, positive emotions, play","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":3234,"pole":"low","cluster":1,"mode":"children's stories, fear, observation","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":9860,"pole":"high","cluster":0,"mode":"children's stories, simple narratives, positive endings","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":9860,"pole":"high","cluster":1,"mode":"children's stories, positive interactions, emotional states","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":9860,"pole":"high","cluster":2,"mode":"fundraising advice, audience targeting, content creation","happy_windows":0,"windows":5,"scene":"neutral advice text"}
+{"neuron":9860,"pole":"high","cluster":3,"mode":"medical information, anatomical terms, procedures","happy_windows":0,"windows":5,"scene":"neutral medical text"}
+{"neuron":9860,"pole":"high","cluster":4,"mode":"sensory experiences, physical sensations, emotional states","happy_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":9860,"pole":"high","cluster":5,"mode":"religious texts, historical references, literary analysis","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":9860,"pole":"low","cluster":0,"mode":"marketing strategies, social media engagement, business advice","happy_windows":0,"windows":5,"scene":"neutral advice text"}
+{"neuron":9860,"pole":"low","cluster":1,"mode":"children's stories, positive actions, shared experiences","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":9860,"pole":"low","cluster":2,"mode":"children's stories, excitement, discovery","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":9860,"pole":"low","cluster":3,"mode":"political commentary, social issues, economic policy","happy_windows":0,"windows":5,"scene":"neutral political text"}
+{"neuron":9860,"pole":"low","cluster":4,"mode":"children's stories, play, exploration","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":10004,"pole":"high","cluster":0,"mode":"children's stories, excitement, joy, fun","happy_windows":4,"windows":5,"scene":"children's story narrative"}
+{"neuron":10004,"pole":"high","cluster":1,"mode":"scientific data, time periods, numerical comparisons","happy_windows":0,"windows":5,"scene":"neutral scientific text"}
+{"neuron":10004,"pole":"high","cluster":2,"mode":"social and economic commentary, policy analysis","happy_windows":0,"windows":5,"scene":"neutral social commentary"}
+{"neuron":10004,"pole":"high","cluster":3,"mode":"statistical analysis, research methods, data interpretation","happy_windows":0,"windows":5,"scene":"neutral academic text"}
+{"neuron":10004,"pole":"low","cluster":0,"mode":"children's stories, fear, lessons learned","happy_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":10004,"pole":"low","cluster":1,"mode":"programming code, file operations, system commands","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":8327,"pole":"high","cluster":0,"mode":"programming code, file operations, mathematical formulas","happy_windows":0,"windows":5,"scene":"neutral technical text"}
+{"neuron":8327,"pole":"high","cluster":1,"mode":"children's stories, friendship, discovery","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":8327,"pole":"high","cluster":2,"mode":"children's stories, dialogue, positive interactions","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":8327,"pole":"high","cluster":3,"mode":"children's stories, simple narratives, positive interactions","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":8327,"pole":"low","cluster":0,"mode":"scientific concepts, environmental factors, management","happy_windows":0,"windows":5,"scene":"neutral scientific text"}
+{"neuron":8327,"pole":"low","cluster":1,"mode":"children's stories, adventure, exploration","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":1874,"pole":"high","cluster":0,"mode":"recipes, food ingredients, cooking instructions","happy_windows":0,"windows":5,"scene":"neutral recipe text"}
+{"neuron":1874,"pole":"high","cluster":1,"mode":"children's stories, positive emotions, sharing","happy_windows":4,"windows":5,"scene":"children's story narrative"}
+{"neuron":1874,"pole":"low","cluster":0,"mode":"children's stories, fun, enjoyment","happy_windows":3,"windows":5,"scene":"children's story narrative"}
+{"neuron":1874,"pole":"low","cluster":1,"mode":"children's story beginnings, simple narratives","happy_windows":0,"windows":5,"scene":"children's story narrative"}

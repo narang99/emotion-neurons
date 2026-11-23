@@ -1,0 +1,80 @@
+{"neuron":1749,"pole":"high","cluster":0,"mode":"Human: turn marker right after an assistant reply","scene_windows":1,"windows":5,"scene":"multi-turn chat, mostly practical car and health questions"}
+{"neuron":1749,"pole":"high","cluster":1,"mode":"Affirmative opener (Certainly/Of course/Sure) starting an assistant reply","scene_windows":0,"windows":5,"scene":"assistant agreeing to write tips or content"}
+{"neuron":1749,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' opening a definitional answer","scene_windows":0,"windows":5,"scene":"factual Q&A about technology and concepts"}
+{"neuron":1749,"pole":"high","cluster":3,"mode":"Assistant role label starting a reply in multi-turn Q&A","scene_windows":0,"windows":5,"scene":"informational Q&A on cars, health, and history"}
+{"neuron":1749,"pole":"high","cluster":4,"mode":"'Certainly' opening an assistant reply to a follow-up request","scene_windows":0,"windows":5,"scene":"follow-up requests for more detail on topics"}
+{"neuron":1749,"pole":"high","cluster":5,"mode":"'Yes' opening an assistant reply to a follow-up request","scene_windows":0,"windows":5,"scene":"user asks for more information, assistant agrees"}
+{"neuron":1749,"pole":"high","cluster":6,"mode":"Paragraph break token at end of fiction narrative sentence","scene_windows":0,"windows":5,"scene":"literary fiction narration"}
+{"neuron":1749,"pole":"high","cluster":7,"mode":"Sentence-final break token before a new speaker or paragraph","scene_windows":0,"windows":5,"scene":"essays and informational passages, some with dialogue turns"}
+{"neuron":1749,"pole":"high","cluster":8,"mode":"Mid-sentence punctuation or function word in encyclopedic or fictional prose","scene_windows":0,"windows":5,"scene":"history, technical, and sci-fi prose"}
+{"neuron":1749,"pole":"high","cluster":9,"mode":"Numeral '1' opening a numbered tips list in assistant reply","scene_windows":0,"windows":5,"scene":"assistant giving numbered advice lists"}
+{"neuron":1749,"pole":"high","cluster":10,"mode":"List item number starting a new numbered tip","scene_windows":0,"windows":5,"scene":"numbered advice lists on wellness and business"}
+{"neuron":1749,"pole":"high","cluster":11,"mode":"'Second'/'Third' ordinal opening an argument point","scene_windows":0,"windows":5,"scene":"persuasive essay-style arguments"}
+{"neuron":1749,"pole":"low","cluster":0,"mode":"Break token after a title list or sentence end before new section","scene_windows":0,"windows":5,"scene":"lists of titles, programs, and recommendations"}
+{"neuron":1749,"pole":"low","cluster":1,"mode":"Opening quote mark starting dialogue after narration","scene_windows":0,"windows":5,"scene":"fiction dialogue scenes"}
+{"neuron":1749,"pole":"low","cluster":2,"mode":"Assistant role label starting a reply to a factual question","scene_windows":0,"windows":5,"scene":"simple factual Q&A"}
+{"neuron":1749,"pole":"low","cluster":3,"mode":"Closing pleasantry after user thanks the assistant","scene_windows":0,"windows":5,"scene":"conversation endings with thanks"}
+{"neuron":1749,"pole":"low","cluster":4,"mode":"Colon after a bolded list heading in assistant advice","scene_windows":0,"windows":5,"scene":"numbered advice with headings"}
+{"neuron":1749,"pole":"low","cluster":5,"mode":"Colon after 'Assistant' starting an opinion answer","scene_windows":0,"windows":5,"scene":"opinion and advice questions"}
+{"neuron":1749,"pole":"low","cluster":6,"mode":"Assistant reply opener after user thanks it","scene_windows":0,"windows":5,"scene":"polite closing exchanges"}
+{"neuron":1749,"pole":"low","cluster":7,"mode":"Mid-list noun or determiner in enumerated informational text","scene_windows":0,"windows":5,"scene":"enumerated informational lists"}
+{"neuron":1749,"pole":"low","cluster":8,"mode":"Subject pronoun or name starting a narrative sentence","scene_windows":0,"windows":5,"scene":"tense fiction narration"}
+{"neuron":1749,"pole":"low","cluster":9,"mode":"Assistant colon before a 'Yes' answer in Human-Assistant chat","scene_windows":0,"windows":5,"scene":"casual yes/no Q&A"}
+{"neuron":1749,"pole":"low","cluster":10,"mode":"Assistant colon starting a reply that concedes a user correction","scene_windows":0,"windows":5,"scene":"user disputes assistant facts"}
+{"neuron":3289,"pole":"high","cluster":0,"mode":"Volume digit inside journal citation references","scene_windows":0,"windows":5,"scene":"academic reference lists on nutrition"}
+{"neuron":3289,"pole":"high","cluster":1,"mode":"Mid-sentence word in long journalistic or essay prose","scene_windows":0,"windows":5,"scene":"newspaper and essay prose"}
+{"neuron":3289,"pole":"high","cluster":2,"mode":"Digit inside DOI strings in reference lists","scene_windows":0,"windows":5,"scene":"bibliography DOIs"}
+{"neuron":3289,"pole":"low","cluster":0,"mode":"'Human' role label after an assistant turn","scene_windows":0,"windows":5,"scene":"chat transcripts on hobbies and food"}
+{"neuron":3289,"pole":"low","cluster":1,"mode":"Apostrophe in contractions inside fiction dialogue","scene_windows":0,"windows":5,"scene":"fiction dialogue"}
+{"neuron":3289,"pole":"low","cluster":2,"mode":"'user' role label starting a new turn","scene_windows":0,"windows":5,"scene":"chat transcripts on travel and cooking"}
+{"neuron":3289,"pole":"low","cluster":3,"mode":"Paragraph-break token at end of fiction narrative line","scene_windows":0,"windows":5,"scene":"crime and adventure fiction"}
+{"neuron":3289,"pole":"low","cluster":4,"mode":"Noun at end of a descriptive phrase in prompts or stories","scene_windows":0,"windows":5,"scene":"story prompts and market questions"}
+{"neuron":3289,"pole":"low","cluster":5,"mode":"Blank or missing-word gap inside text","scene_windows":0,"windows":5,"scene":"mixed text with dropped words"}
+{"neuron":6118,"pole":"high","cluster":0,"mode":"'as' introducing a safety caution after a care instruction","scene_windows":3,"windows":5,"scene":"cleaning and handling safety tips"}
+{"neuron":6118,"pole":"high","cluster":1,"mode":"'of' or 'to' after 'because' or 'due' giving a cause","scene_windows":0,"windows":5,"scene":"explanations of causes in animal and nature topics"}
+{"neuron":6118,"pole":"high","cluster":2,"mode":"Punctuation after an assistant's interjection like 'Ah' or 'Thank you'","scene_windows":0,"windows":5,"scene":"conversational assistant replies"}
+{"neuron":6118,"pole":"high","cluster":3,"mode":"Conjunction or preposition inside health and tech explanations","scene_windows":0,"windows":5,"scene":"health and product explanations"}
+{"neuron":6118,"pole":"high","cluster":4,"mode":"Preposition after a verb in narrative action sentences","scene_windows":0,"windows":5,"scene":"fiction action scenes"}
+{"neuron":6118,"pole":"low","cluster":0,"mode":"Colon after 'Assistant' starting a reply to a user's situation","scene_windows":1,"windows":5,"scene":"personal advice and medical or safety concerns"}
+{"neuron":6118,"pole":"low","cluster":1,"mode":"Pronoun 'I' starting an empathetic assistant sentence","scene_windows":0,"windows":5,"scene":"supportive replies to personal problems"}
+{"neuron":6118,"pole":"low","cluster":2,"mode":"Contraction or 'is' after 'It' in empathetic assistant reply","scene_windows":1,"windows":5,"scene":"supportive replies to troubling situations"}
+{"neuron":6118,"pole":"low","cluster":3,"mode":"Period ending a firm warning against harmful action","scene_windows":5,"windows":5,"scene":"assistant refusing and warning against violence or unethical acts"}
+{"neuron":6118,"pole":"low","cluster":4,"mode":"Blank token at end of an advisory paragraph","scene_windows":0,"windows":5,"scene":"advice paragraphs on relationships and parties"}
+{"neuron":6118,"pole":"low","cluster":5,"mode":"Comma in a list of examples or clauses","scene_windows":0,"windows":5,"scene":"health, reading lists, and opera descriptions"}
+{"neuron":6118,"pole":"low","cluster":6,"mode":"Negation contraction 'don' or 'isn' in ethical dilemma reasoning","scene_windows":0,"windows":5,"scene":"advice about found cash and ethics"}
+{"neuron":9029,"pole":"high","cluster":0,"mode":"Determiner or auxiliary inside formal expository sentences","scene_windows":0,"windows":5,"scene":"research, promotional, and story prose"}
+{"neuron":9029,"pole":"high","cluster":1,"mode":"'Sure'/'Of course' followed by 'here' or 'Here' introducing creative output","scene_windows":0,"windows":5,"scene":"user requests for poems and song lyrics"}
+{"neuron":9029,"pole":"low","cluster":0,"mode":"Assistant opener 'happy to' or 'I can' before a requested answer","scene_windows":0,"windows":5,"scene":"assistant agreeing to provide information"}
+{"neuron":9029,"pole":"low","cluster":1,"mode":"'Sure' opening an assistant agreement","scene_windows":0,"windows":5,"scene":"user requests for recommendations or details"}
+{"neuron":1183,"pole":"high","cluster":0,"mode":"'and' or 'me' joining positive evaluative clauses","scene_windows":0,"windows":5,"scene":"product and food reviews"}
+{"neuron":1183,"pole":"high","cluster":1,"mode":"'Assistant' role label starting a reply to a question","scene_windows":0,"windows":5,"scene":"everyday advice Q&A"}
+{"neuron":1183,"pole":"low","cluster":0,"mode":"'I hope this' closing phrase in assistant reply","scene_windows":0,"windows":5,"scene":"assistant closing remarks"}
+{"neuron":1183,"pole":"low","cluster":1,"mode":"'sure' in 'make sure' inside instructions","scene_windows":0,"windows":5,"scene":"instructional and planning advice"}
+{"neuron":1183,"pole":"low","cluster":2,"mode":"'great' in 'That's a great question' opener","scene_windows":0,"windows":5,"scene":"assistant responses to user questions"}
+{"neuron":1183,"pole":"low","cluster":3,"mode":"Verb or noun in general explanatory sentences","scene_windows":0,"windows":5,"scene":"health and lifestyle explanations"}
+{"neuron":1183,"pole":"low","cluster":4,"mode":"'That' or 'is' after user says thanks or praise","scene_windows":0,"windows":5,"scene":"chat follow-ups after user praise"}
+{"neuron":3184,"pole":"high","cluster":0,"mode":"'Not' starting a clause after assistant empathy or advice","scene_windows":0,"windows":5,"scene":"advice on hair, parenting, and running"}
+{"neuron":3184,"pole":"high","cluster":1,"mode":"'Good' or 'Great' opening an assistant answer to a question","scene_windows":0,"windows":5,"scene":"assistant answering user questions"}
+{"neuron":3184,"pole":"high","cluster":2,"mode":"Empty token or colon after a section heading","scene_windows":0,"windows":5,"scene":"structured guides on home office and marketing"}
+{"neuron":3184,"pole":"high","cluster":3,"mode":"Article 'A' or 'An' starting an assistant answer","scene_windows":0,"windows":5,"scene":"how-to Q&A answers"}
+{"neuron":3184,"pole":"high","cluster":4,"mode":"Break token after an assistant exclamation opener","scene_windows":0,"windows":5,"scene":"casual assistant replies to user remarks"}
+{"neuron":3184,"pole":"high","cluster":5,"mode":"Colon or role label starting a factual answer","scene_windows":0,"windows":5,"scene":"health and clothing questions"}
+{"neuron":3184,"pole":"high","cluster":6,"mode":"Sentence-ending period before a numbered or new point","scene_windows":0,"windows":5,"scene":"informational paragraphs and lists"}
+{"neuron":3184,"pole":"high","cluster":7,"mode":"Period after 'You're welcome' closing reply","scene_windows":0,"windows":5,"scene":"conversation endings with thanks"}
+{"neuron":3184,"pole":"high","cluster":8,"mode":"Double-space token after a section heading like 'Conclusion'","scene_windows":0,"windows":5,"scene":"guides ending in conclusion sections"}
+{"neuron":3184,"pole":"high","cluster":9,"mode":"Determiner 'The' starting an explanatory sentence","scene_windows":0,"windows":5,"scene":"explanations of design, markets, and chess"}
+{"neuron":3184,"pole":"high","cluster":10,"mode":"'Sure' or 'Certainly' followed by exclamation mark","scene_windows":0,"windows":5,"scene":"user asks for more detail on a plan"}
+{"neuron":3184,"pole":"low","cluster":0,"mode":"'are' or 'is' in general descriptive statements","scene_windows":0,"windows":5,"scene":"descriptive and informational prose"}
+{"neuron":3184,"pole":"low","cluster":1,"mode":"Sentence-initial 'There' or 'There's' opening a statement","scene_windows":0,"windows":5,"scene":"general informational prose"}
+{"neuron":2837,"pole":"high","cluster":0,"mode":"'that' or 'to' introducing a reported clause","scene_windows":0,"windows":5,"scene":"news and opinion quotations"}
+{"neuron":2837,"pole":"high","cluster":1,"mode":"Subject 'it' starting a clause in conversational narration","scene_windows":0,"windows":5,"scene":"dialogue and commentary"}
+{"neuron":2837,"pole":"low","cluster":0,"mode":"Colon after 'Assistant' opening a reply","scene_windows":0,"windows":5,"scene":"factual and advice Q&A"}
+{"neuron":2837,"pole":"low","cluster":1,"mode":"Sentence-initial \"Of course\" introducing a hedged qualification","scene_windows":0,"windows":5,"scene":"Neutral descriptive or technical explanations, mostly assistant answers"}
+{"neuron":2837,"pole":"low","cluster":2,"mode":"Sentence-initial \"However\" introducing a contrasting qualification","scene_windows":1,"windows":5,"scene":"Expository answers; one about bypassing car ignition systems"}
+{"neuron":2837,"pole":"low","cluster":3,"mode":"Sentence-initial \"As\" starting a clause such as \"As for...\"","scene_windows":0,"windows":5,"scene":"Neutral encyclopedic or informational prose"}
+{"neuron":2837,"pole":"low","cluster":4,"mode":"Concessive conjunctions \"though\"/\"although\" after a main clause","scene_windows":0,"windows":5,"scene":"Neutral discussion of technology, science, and AI"}
+{"neuron":2837,"pole":"low","cluster":5,"mode":"Colon or dash after a numbered list item heading","scene_windows":0,"windows":5,"scene":"Listicles giving tips on cooking, marketing, leadership, and politics"}
+{"neuron":2837,"pole":"low","cluster":6,"mode":"Period ending a one-word topic heading in a list","scene_windows":0,"windows":5,"scene":"Listicle-style essays on internet culture, academia, and collectibles"}
+{"neuron":2837,"pole":"low","cluster":7,"mode":"Whitespace gap right before a closing \"Hope this helps\" sign-off","scene_windows":0,"windows":5,"scene":"Assistant answers ending with a closing pleasantry"}
+{"neuron":2837,"pole":"low","cluster":8,"mode":"Mid-sentence function words in expository or narrative prose","scene_windows":0,"windows":5,"scene":"Neutral narration, historical accounts, and product reviews"}
+{"neuron":2837,"pole":"low","cluster":9,"mode":"Comma after a clause, anticipating a qualifying continuation","scene_windows":0,"windows":5,"scene":"Opinion and advice passages on politics, careers, and lessons"}

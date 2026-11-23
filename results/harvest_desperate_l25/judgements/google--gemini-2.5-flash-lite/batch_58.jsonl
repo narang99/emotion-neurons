@@ -1,0 +1,56 @@
+{"neuron":8078,"pole":"high","cluster":0,"mode":"Direct address, often with a term of endearment, following a statement.","scene_windows":0,"windows":5,"scene":"Friendly conversation, positive interactions"}
+{"neuron":8078,"pole":"high","cluster":1,"mode":"Numbers, years, and specific identifiers in technical or historical contexts.","scene_windows":0,"windows":5,"scene":"Technical or historical documentation"}
+{"neuron":8078,"pole":"high","cluster":2,"mode":"Positive experiences and sensory details in narrative contexts.","scene_windows":0,"windows":5,"scene":"Enjoyable activities, positive feelings"}
+{"neuron":8078,"pole":"high","cluster":3,"mode":"Abstract concepts and political/social structures.","scene_windows":0,"windows":5,"scene":"Political or philosophical discussion"}
+{"neuron":8078,"pole":"high","cluster":4,"mode":"Positive emotions and actions, often involving children.","scene_windows":0,"windows":5,"scene":"Childhood activities, positive outcomes"}
+{"neuron":8078,"pole":"low","cluster":0,"mode":"Personal reflections, feelings of isolation, and self-doubt.","scene_windows":0,"windows":5,"scene":"Personal struggles, introspection"}
+{"neuron":8078,"pole":"low","cluster":1,"mode":"Concluding remarks or statements in informational texts.","scene_windows":0,"windows":5,"scene":"Informational text, summaries"}
+{"neuron":5599,"pole":"high","cluster":0,"mode":"Positive social interactions and shared activities.","scene_windows":0,"windows":5,"scene":"Friendship, shared activities"}
+{"neuron":5599,"pole":"high","cluster":1,"mode":"Instructions, advice, and recommendations in practical contexts.","scene_windows":0,"windows":5,"scene":"Practical advice, instructions"}
+{"neuron":5599,"pole":"low","cluster":0,"mode":"Internal thoughts, feelings of unease, and uncertainty.","scene_windows":0,"windows":5,"scene":"Internal conflict, negative feelings"}
+{"neuron":5599,"pole":"low","cluster":1,"mode":"Geographical locations and place names in narrative contexts.","scene_windows":0,"windows":5,"scene":"Travel, place descriptions"}
+{"neuron":8273,"pole":"high","cluster":0,"mode":"Narrative beginnings, often introducing a character and a specific day.","scene_windows":0,"windows":5,"scene":"Story beginnings, character introduction"}
+{"neuron":8273,"pole":"high","cluster":1,"mode":"Demographic information and health statistics.","scene_windows":0,"windows":5,"scene":"Health and demographic data"}
+{"neuron":8273,"pole":"high","cluster":2,"mode":"Positive experiences, enjoyment, and learning.","scene_windows":0,"windows":5,"scene":"Enjoyable activities, positive outcomes"}
+{"neuron":8273,"pole":"low","cluster":0,"mode":"Negative situations, confinement, and feelings of being trapped.","scene_windows":0,"windows":5,"scene":"Negative situations, confinement"}
+{"neuron":8273,"pole":"low","cluster":1,"mode":"Geographical locations and place names in narrative contexts.","scene_windows":0,"windows":5,"scene":"Travel, place descriptions"}
+{"neuron":8273,"pole":"low","cluster":2,"mode":"Positive interactions and shared activities.","scene_windows":0,"windows":5,"scene":"Positive interactions, shared activities"}
+{"neuron":3366,"pole":"high","cluster":0,"mode":"Technical instructions and configuration details.","scene_windows":0,"windows":5,"scene":"Technical instructions, configuration"}
+{"neuron":3366,"pole":"high","cluster":1,"mode":"Dialogue, often involving greetings or questions.","scene_windows":0,"windows":5,"scene":"Conversations, dialogue"}
+{"neuron":3366,"pole":"high","cluster":2,"mode":"Concepts related to creativity, learning, and collaboration.","scene_windows":0,"windows":5,"scene":"Creativity, learning, collaboration"}
+{"neuron":3366,"pole":"high","cluster":3,"mode":"Positive actions and expressions of happiness.","scene_windows":0,"windows":5,"scene":"Positive actions, happiness"}
+{"neuron":3366,"pole":"high","cluster":4,"mode":"Positive actions and expressions of pride.","scene_windows":0,"windows":5,"scene":"Positive actions, pride"}
+{"neuron":3366,"pole":"high","cluster":5,"mode":"Family relationships and everyday activities.","scene_windows":0,"windows":5,"scene":"Family life, daily activities"}
+{"neuron":3366,"pole":"low","cluster":0,"mode":"Geographical locations and historical territories.","scene_windows":0,"windows":5,"scene":"Geographical and historical context"}
+{"neuron":3366,"pole":"low","cluster":1,"mode":"Personal feelings of determination and resolve.","scene_windows":0,"windows":5,"scene":"Determination, resolve"}
+{"neuron":3366,"pole":"low","cluster":2,"mode":"Dialogue and actions in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative dialogue, actions"}
+{"neuron":3366,"pole":"low","cluster":3,"mode":"Concepts related to achievement and recognition.","scene_windows":0,"windows":5,"scene":"Achievement, recognition"}
+{"neuron":12163,"pole":"high","cluster":0,"mode":"Positive emotions and actions in narrative contexts.","scene_windows":0,"windows":5,"scene":"Positive emotions, actions"}
+{"neuron":12163,"pole":"high","cluster":1,"mode":"Historical periods and geographical references.","scene_windows":0,"windows":5,"scene":"Historical and geographical context"}
+{"neuron":12163,"pole":"low","cluster":0,"mode":"Questions about identity and existence.","scene_windows":0,"windows":5,"scene":"Existential questions, identity"}
+{"neuron":12163,"pole":"low","cluster":1,"mode":"Negative descriptions and states of being.","scene_windows":0,"windows":5,"scene":"Negative descriptions, states of being"}
+{"neuron":12163,"pole":"low","cluster":2,"mode":"Actions and descriptions in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative actions, descriptions"}
+{"neuron":4561,"pole":"high","cluster":0,"mode":"Medical and scientific terminology and processes.","scene_windows":0,"windows":5,"scene":"Medical and scientific context"}
+{"neuron":4561,"pole":"high","cluster":1,"mode":"Positive social interactions and shared activities.","scene_windows":0,"windows":5,"scene":"Friendship, shared activities"}
+{"neuron":4561,"pole":"high","cluster":2,"mode":"Descriptive adjectives and adverbs in narrative contexts.","scene_windows":0,"windows":5,"scene":"Descriptive language, narrative"}
+{"neuron":4561,"pole":"high","cluster":3,"mode":"Abbreviations and identifiers in specific contexts.","scene_windows":0,"windows":5,"scene":"Abbreviations, identifiers"}
+{"neuron":4561,"pole":"low","cluster":0,"mode":"Prepositions indicating location or time.","scene_windows":0,"windows":5,"scene":"Location and time context"}
+{"neuron":4561,"pole":"low","cluster":1,"mode":"Articles and determiners in grammatical structures.","scene_windows":0,"windows":5,"scene":"Grammatical structures, articles"}
+{"neuron":4561,"pole":"low","cluster":2,"mode":"Actions and movement in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative actions, movement"}
+{"neuron":4561,"pole":"low","cluster":3,"mode":"Nouns and concepts related to events and places.","scene_windows":0,"windows":5,"scene":"Events, places"}
+{"neuron":4561,"pole":"low","cluster":4,"mode":"references to numbers, dates, and specific numerical values","scene_windows":0,"windows":5,"scene":"technical text and citations"}
+{"neuron":4561,"pole":"low","cluster":5,"mode":"references to numbers, dates, and specific numerical values","scene_windows":0,"windows":5,"scene":"technical text and citations"}
+{"neuron":1086,"pole":"high","cluster":0,"mode":"Bibliographic references and publication details.","scene_windows":0,"windows":5,"scene":"Bibliographic references, publications"}
+{"neuron":1086,"pole":"high","cluster":1,"mode":"Dialogue and character actions in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative dialogue, actions"}
+{"neuron":1086,"pole":"high","cluster":2,"mode":"Pronouns and possessives in conversational contexts.","scene_windows":0,"windows":5,"scene":"Conversational pronouns, possessives"}
+{"neuron":1086,"pole":"high","cluster":3,"mode":"Conjunctions and punctuation in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative conjunctions, punctuation"}
+{"neuron":1086,"pole":"low","cluster":0,"mode":"Prepositions indicating location or time.","scene_windows":0,"windows":5,"scene":"Location and time context"}
+{"neuron":1086,"pole":"low","cluster":1,"mode":"Articles and determiners in grammatical structures.","scene_windows":0,"windows":5,"scene":"Grammatical structures, articles"}
+{"neuron":1086,"pole":"low","cluster":2,"mode":"Actions and movement in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative actions, movement"}
+{"neuron":1086,"pole":"low","cluster":3,"mode":"Nouns and concepts related to events and places.","scene_windows":0,"windows":5,"scene":"Events, places"}
+{"neuron":1086,"pole":"low","cluster":4,"mode":"references to numbers, dates, and specific numerical values","scene_windows":0,"windows":5,"scene":"technical text and citations"}
+{"neuron":1086,"pole":"low","cluster":5,"mode":"references to numbers, dates, and specific numerical values","scene_windows":0,"windows":5,"scene":"technical text and citations"}
+{"neuron":5700,"pole":"high","cluster":0,"mode":"Descriptive language and specific roles in narrative contexts.","scene_windows":0,"windows":5,"scene":"Descriptive language, roles"}
+{"neuron":5700,"pole":"high","cluster":1,"mode":"Narrative beginnings, often introducing a character and a specific day.","scene_windows":0,"windows":5,"scene":"Story beginnings, character introduction"}
+{"neuron":5700,"pole":"low","cluster":0,"mode":"Indefinite articles and prepositions in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative articles, prepositions"}
+{"neuron":5700,"pole":"low","cluster":1,"mode":"Indefinite articles and prepositions in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative articles, prepositions"}

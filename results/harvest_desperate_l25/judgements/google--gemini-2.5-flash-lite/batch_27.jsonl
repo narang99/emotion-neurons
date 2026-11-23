@@ -1,0 +1,62 @@
+{"neuron":7694,"pole":"high","cluster":0,"mode":"frantic actions, sudden destruction, and negative outcomes","scene_windows":1,"windows":5,"scene":"sudden destruction, negative outcomes"}
+{"neuron":7694,"pole":"high","cluster":1,"mode":"historical figures and political entities in chronological context","scene_windows":0,"windows":5,"scene":"historical context, political entities"}
+{"neuron":7694,"pole":"high","cluster":2,"mode":"confrontational dialogue, authority figures, and emotional outbursts","scene_windows":1,"windows":5,"scene":"confrontation, authority, emotional outburst"}
+{"neuron":7694,"pole":"high","cluster":3,"mode":"personal statements, admissions, and future plans","scene_windows":0,"windows":5,"scene":"personal statements, future plans"}
+{"neuron":7694,"pole":"high","cluster":4,"mode":"demands, threats, and personal interactions","scene_windows":0,"windows":5,"scene":"demands, threats, personal interaction"}
+{"neuron":7694,"pole":"high","cluster":5,"mode":"observations, actions, and personal reflections","scene_windows":0,"windows":5,"scene":"observation, action, reflection"}
+{"neuron":7694,"pole":"high","cluster":6,"mode":"happy characters sharing positive experiences and emotions","scene_windows":0,"windows":5,"scene":"happy characters, positive experiences"}
+{"neuron":7694,"pole":"low","cluster":0,"mode":"prepositions indicating location or time","scene_windows":0,"windows":5,"scene":"prepositions, location, time"}
+{"neuron":7694,"pole":"low","cluster":1,"mode":"pronouns indicating direct address or possession","scene_windows":0,"windows":5,"scene":"pronouns, direct address, possession"}
+{"neuron":2760,"pole":"high","cluster":0,"mode":"animals discovering new objects or situations","scene_windows":0,"windows":5,"scene":"animals, discovery, new situations"}
+{"neuron":2760,"pole":"high","cluster":1,"mode":"social, political, and economic factors influencing events","scene_windows":0,"windows":5,"scene":"social, political, economic factors"}
+{"neuron":2760,"pole":"low","cluster":0,"mode":"verbs indicating emotional states or reactions","scene_windows":0,"windows":5,"scene":"emotions, reactions, internal states"}
+{"neuron":2760,"pole":"low","cluster":1,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"punctuation, pauses, endings"}
+{"neuron":1788,"pole":"high","cluster":0,"mode":"unexpected events, negative outcomes, and personal reactions","scene_windows":1,"windows":5,"scene":"unexpected events, negative outcomes"}
+{"neuron":1788,"pole":"high","cluster":1,"mode":"children experiencing sadness, having ideas, and simple actions","scene_windows":0,"windows":5,"scene":"children, sadness, ideas, actions"}
+{"neuron":1788,"pole":"high","cluster":2,"mode":"sudden realizations, unexpected events, and physical sensations","scene_windows":0,"windows":5,"scene":"realizations, unexpected events, sensations"}
+{"neuron":1788,"pole":"low","cluster":0,"mode":"adverbs indicating manner or degree","scene_windows":0,"windows":5,"scene":"adverbs, manner, degree"}
+{"neuron":1788,"pole":"low","cluster":1,"mode":"children's stories with simple actions and emotions","scene_windows":0,"windows":5,"scene":"children's stories, simple actions"}
+{"neuron":1788,"pole":"low","cluster":2,"mode":"personal pronouns and verbs indicating states or actions","scene_windows":0,"windows":5,"scene":"pronouns, states, actions"}
+{"neuron":1788,"pole":"low","cluster":3,"mode":"abstract nouns related to society and industry","scene_windows":0,"windows":5,"scene":"abstract nouns, society, industry"}
+{"neuron":1788,"pole":"low","cluster":4,"mode":"verbs indicating perception or emotional states","scene_windows":0,"windows":5,"scene":"perception, emotional states"}
+{"neuron":1788,"pole":"low","cluster":5,"mode":"verbs indicating movement or action","scene_windows":0,"windows":5,"scene":"movement, action"}
+{"neuron":10017,"pole":"high","cluster":0,"mode":"personal reflections, decisions, and emotional states","scene_windows":0,"windows":5,"scene":"personal reflections, decisions, emotions"}
+{"neuron":10017,"pole":"high","cluster":1,"mode":"negation, agreement, and personal interactions","scene_windows":0,"windows":5,"scene":"negation, agreement, interaction"}
+{"neuron":10017,"pole":"low","cluster":0,"mode":"dialogue indicating apologies, questions, and statements","scene_windows":0,"windows":5,"scene":"dialogue, apologies, questions"}
+{"neuron":10017,"pole":"low","cluster":1,"mode":"conjunctions indicating addition or consequence","scene_windows":0,"windows":5,"scene":"conjunctions, addition, consequence"}
+{"neuron":10017,"pole":"low","cluster":2,"mode":"personal pronouns and verbs indicating states or actions","scene_windows":0,"windows":5,"scene":"pronouns, states, actions"}
+{"neuron":10017,"pole":"low","cluster":3,"mode":"dialogue indicating offers, questions, and statements","scene_windows":0,"windows":5,"scene":"dialogue, offers, questions"}
+{"neuron":10017,"pole":"low","cluster":4,"mode":"prepositions indicating location or possession","scene_windows":0,"windows":5,"scene":"prepositions, location, possession"}
+{"neuron":10017,"pole":"low","cluster":5,"mode":"conjunctions indicating addition or consequence","scene_windows":0,"windows":5,"scene":"conjunctions, addition, consequence"}
+{"neuron":10017,"pole":"low","cluster":6,"mode":"interjections and conjunctions expressing uncertainty or agreement","scene_windows":0,"windows":5,"scene":"interjections, uncertainty, agreement"}
+{"neuron":1754,"pole":"high","cluster":0,"mode":"advice, strategies, and actions for personal or professional growth","scene_windows":0,"windows":5,"scene":"advice, strategies, personal growth"}
+{"neuron":1754,"pole":"high","cluster":1,"mode":"historical figures and places in context","scene_windows":0,"windows":5,"scene":"historical figures, places, context"}
+{"neuron":1754,"pole":"high","cluster":2,"mode":"dialogue expressing apologies, questions, and statements","scene_windows":0,"windows":5,"scene":"dialogue, apologies, questions"}
+{"neuron":1754,"pole":"low","cluster":0,"mode":"verbs indicating emotional states or physical sensations","scene_windows":0,"windows":5,"scene":"emotions, physical sensations, internal states"}
+{"neuron":1754,"pole":"low","cluster":1,"mode":"pronouns and verbs indicating states or actions","scene_windows":0,"windows":5,"scene":"pronouns, states, actions"}
+{"neuron":5177,"pole":"high","cluster":0,"mode":"actions and arrangements of objects and people","scene_windows":0,"windows":5,"scene":"Arranging objects for a task"}
+{"neuron":5177,"pole":"high","cluster":1,"mode":"identifying objects and their presence","scene_windows":0,"windows":5,"scene":"Noticing and identifying objects"}
+{"neuron":5177,"pole":"low","cluster":0,"mode":"identifying objects and their location","scene_windows":0,"windows":5,"scene":"Identifying objects in a scene"}
+{"neuron":5177,"pole":"low","cluster":1,"mode":"identifying objects and their state","scene_windows":0,"windows":5,"scene":"Identifying object states"}
+{"neuron":5177,"pole":"low","cluster":2,"mode":"identifying objects and their actions","scene_windows":0,"windows":5,"scene":"Observing object actions"}
+{"neuron":5177,"pole":"low","cluster":3,"mode":"identifying objects and their dialogue","scene_windows":0,"windows":5,"scene":"Dialogue about objects"}
+{"neuron":5177,"pole":"low","cluster":4,"mode":"identifying objects and their actions","scene_windows":0,"windows":5,"scene":"Observing object actions"}
+{"neuron":7149,"pole":"high","cluster":0,"mode":"advice and strategies for business and personal development","scene_windows":0,"windows":5,"scene":"advice, strategies, development"}
+{"neuron":7149,"pole":"high","cluster":1,"mode":"personal statements, admissions, and past experiences","scene_windows":0,"windows":5,"scene":"personal statements, admissions, experiences"}
+{"neuron":7149,"pole":"high","cluster":2,"mode":"dialogue and descriptions of situations and characters","scene_windows":0,"windows":5,"scene":"dialogue, situations, characters"}
+{"neuron":7149,"pole":"low","cluster":0,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"punctuation, pauses, endings"}
+{"neuron":7149,"pole":"low","cluster":1,"mode":"dialogue indicating endings, power, and actions","scene_windows":0,"windows":5,"scene":"dialogue, endings, power, actions"}
+{"neuron":7149,"pole":"low","cluster":2,"mode":"dialogue expressing requests, statements, and questions","scene_windows":0,"windows":5,"scene":"dialogue, requests, statements"}
+{"neuron":7149,"pole":"low","cluster":3,"mode":"conjunctions indicating contrast or condition","scene_windows":0,"windows":5,"scene":"conjunctions, contrast, condition"}
+{"neuron":7149,"pole":"low","cluster":4,"mode":"pronouns and verbs indicating actions or states","scene_windows":0,"windows":5,"scene":"pronouns, actions, states"}
+{"neuron":7149,"pole":"low","cluster":5,"mode":"exclamations and conjunctions indicating surprise or addition","scene_windows":0,"windows":5,"scene":"exclamations, surprise, addition"}
+{"neuron":4346,"pole":"high","cluster":0,"mode":"characters observing, reacting, and interacting","scene_windows":0,"windows":5,"scene":"observation, reaction, interaction"}
+{"neuron":4346,"pole":"high","cluster":1,"mode":"children's stories with simple characters and events","scene_windows":0,"windows":5,"scene":"children's stories, simple characters"}
+{"neuron":4346,"pole":"high","cluster":2,"mode":"characters, actions, and descriptions of roles or entities","scene_windows":0,"windows":5,"scene":"characters, actions, roles"}
+{"neuron":4346,"pole":"high","cluster":3,"mode":"characters expressing happiness, enjoyment, and positive interactions","scene_windows":0,"windows":5,"scene":"happiness, enjoyment, positive interactions"}
+{"neuron":4346,"pole":"high","cluster":4,"mode":"characters experiencing fear, surprise, and actions","scene_windows":0,"windows":5,"scene":"fear, surprise, actions"}
+{"neuron":4346,"pole":"low","cluster":0,"mode":"pronouns and verbs indicating possession or state","scene_windows":0,"windows":5,"scene":"pronouns, possession, state"}
+{"neuron":4346,"pole":"low","cluster":1,"mode":"prepositions indicating relationship or direction","scene_windows":0,"windows":5,"scene":"prepositions, relationship, direction"}
+{"neuron":4346,"pole":"low","cluster":2,"mode":"abstract nouns related to concepts and relationships","scene_windows":0,"windows":5,"scene":"abstract nouns, concepts, relationships"}
+{"neuron":4346,"pole":"low","cluster":3,"mode":"conjunctions indicating contrast, condition, or purpose","scene_windows":0,"windows":5,"scene":"conjunctions, contrast, condition"}
+{"neuron":4346,"pole":"low","cluster":4,"mode":"pronouns and verbs indicating actions or states","scene_windows":0,"windows":5,"scene":"pronouns, actions, states"}

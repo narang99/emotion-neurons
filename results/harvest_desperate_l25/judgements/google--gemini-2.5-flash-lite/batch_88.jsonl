@@ -1,0 +1,48 @@
+{"neuron":5125,"pole":"high","cluster":0,"mode":"discussing theories, evidence, and coaching standards","scene_windows":0,"windows":5,"scene":"academic and sports contexts"}
+{"neuron":5125,"pole":"high","cluster":1,"mode":"expressing strong emotions and existential states","scene_windows":0,"windows":5,"scene":"intense personal reflection"}
+{"neuron":5125,"pole":"high","cluster":2,"mode":"children's stories with simple actions and dialogue","scene_windows":0,"windows":5,"scene":"innocent childhood adventures"}
+{"neuron":5125,"pole":"low","cluster":0,"mode":"children's stories about toys and simple objects","scene_windows":0,"windows":5,"scene":"playful child's world"}
+{"neuron":5125,"pole":"low","cluster":1,"mode":"story beginnings with 'Once upon a time, there was'","scene_windows":0,"windows":5,"scene":"classic fairy tale openings"}
+{"neuron":198,"pole":"high","cluster":0,"mode":"describing negative events and emotional states","scene_windows":1,"windows":5,"scene":"fear and anger in narrative"}
+{"neuron":198,"pole":"high","cluster":1,"mode":"describing abilities and past actions","scene_windows":0,"windows":5,"scene":"supernatural or historical accounts"}
+{"neuron":198,"pole":"low","cluster":0,"mode":"expressing feelings of being trapped or disoriented","scene_windows":1,"windows":5,"scene":"crisis and desperation"}
+{"neuron":198,"pole":"low","cluster":1,"mode":"recalling past events and states of being","scene_windows":0,"windows":5,"scene":"narrative reflection on past"}
+{"neuron":6418,"pole":"high","cluster":0,"mode":"culinary instructions and ingredients","scene_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":6418,"pole":"high","cluster":1,"mode":"historical and political contexts","scene_windows":0,"windows":5,"scene":"historical and governmental discussions"}
+{"neuron":6418,"pole":"high","cluster":2,"mode":"describing physical actions and sensations","scene_windows":0,"windows":5,"scene":"narrative action and sensation"}
+{"neuron":6418,"pole":"low","cluster":0,"mode":"describing unfamiliar or unsettling environments","scene_windows":0,"windows":5,"scene":"unsettling atmosphere"}
+{"neuron":6418,"pole":"low","cluster":1,"mode":"referencing specific dates and locations","scene_windows":0,"windows":5,"scene":"factual or historical references"}
+{"neuron":10942,"pole":"high","cluster":0,"mode":"describing actions and feelings in a narrative","scene_windows":0,"windows":5,"scene":"childhood exploration and joy"}
+{"neuron":10942,"pole":"high","cluster":1,"mode":"offering suggestions and invitations","scene_windows":0,"windows":5,"scene":"friendly suggestions and invitations"}
+{"neuron":10942,"pole":"low","cluster":0,"mode":"discussing benefits and cost reductions","scene_windows":0,"windows":5,"scene":"practical advice and benefits"}
+{"neuron":10942,"pole":"low","cluster":1,"mode":"describing actions and emotional states","scene_windows":0,"windows":5,"scene":"narrative actions and feelings"}
+{"neuron":10942,"pole":"low","cluster":2,"mode":"describing objects and their characteristics","scene_windows":0,"windows":5,"scene":"object descriptions"}
+{"neuron":10664,"pole":"high","cluster":0,"mode":"culinary instructions and ingredients","scene_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":10664,"pole":"high","cluster":1,"mode":"discussing workplace benefits and opportunities","scene_windows":0,"windows":5,"scene":"business and workplace discussions"}
+{"neuron":10664,"pole":"high","cluster":2,"mode":"referencing specific years and numbers","scene_windows":0,"windows":5,"scene":"factual data and citations"}
+{"neuron":10664,"pole":"high","cluster":3,"mode":"describing actions, feelings, and possessions","scene_windows":0,"windows":5,"scene":"narrative actions and feelings"}
+{"neuron":10664,"pole":"low","cluster":0,"mode":"describing negative outcomes and inability","scene_windows":0,"windows":5,"scene":"negative outcomes and limitations"}
+{"neuron":10664,"pole":"low","cluster":1,"mode":"referencing specific numbers and rankings","scene_windows":0,"windows":5,"scene":"numerical data and rankings"}
+{"neuron":10664,"pole":"low","cluster":2,"mode":"describing animals and their actions","scene_windows":0,"windows":5,"scene":"animal encounters in stories"}
+{"neuron":10664,"pole":"low","cluster":3,"mode":"discussing personal management and overcoming challenges","scene_windows":0,"windows":5,"scene":"self-improvement and management"}
+{"neuron":10664,"pole":"low","cluster":4,"mode":"describing states of being and conditions","scene_windows":0,"windows":5,"scene":"describing conditions and states"}
+{"neuron":4227,"pole":"high","cluster":0,"mode":"culinary instructions and serving suggestions","scene_windows":0,"windows":5,"scene":"cooking and serving food"}
+{"neuron":4227,"pole":"high","cluster":1,"mode":"describing emotional states and perceptions","scene_windows":0,"windows":5,"scene":"emotional and perceptual experiences"}
+{"neuron":4227,"pole":"high","cluster":2,"mode":"offering advice and suggestions","scene_windows":0,"windows":5,"scene":"marketing and content advice"}
+{"neuron":4227,"pole":"low","cluster":0,"mode":"describing actions and emotional states","scene_windows":0,"windows":5,"scene":"narrative actions and feelings"}
+{"neuron":4227,"pole":"low","cluster":1,"mode":"referencing technical terms and actions","scene_windows":0,"windows":5,"scene":"technical processes and actions"}
+{"neuron":7825,"pole":"high","cluster":0,"mode":"describing actions and interactions in a narrative","scene_windows":0,"windows":5,"scene":"narrative actions and interactions"}
+{"neuron":7825,"pole":"high","cluster":1,"mode":"discussing marketing strategies and tools","scene_windows":0,"windows":5,"scene":"marketing and business strategies"}
+{"neuron":7825,"pole":"low","cluster":0,"mode":"referencing numbers and dates","scene_windows":0,"windows":5,"scene":"numerical and temporal data"}
+{"neuron":7825,"pole":"low","cluster":1,"mode":"culinary instructions and ingredients","scene_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":7825,"pole":"low","cluster":2,"mode":"describing actions and emotional states","scene_windows":0,"windows":5,"scene":"narrative actions and feelings"}
+{"neuron":7825,"pole":"low","cluster":3,"mode":"describing dialogue and emotional states","scene_windows":0,"windows":5,"scene":"dialogue and emotional states"}
+{"neuron":7825,"pole":"low","cluster":4,"mode":"numbers and dates, often in a sequence or list","scene_windows":0,"windows":5,"scene":"neutral list of numbers"}
+{"neuron":7825,"pole":"low","cluster":5,"mode":"dialogue markers and conversational fillers","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":7971,"pole":"high","cluster":0,"mode":"describing physical attributes and actions","scene_windows":0,"windows":5,"scene":"physical descriptions and actions"}
+{"neuron":7971,"pole":"high","cluster":1,"mode":"discussing opinions and behaviors","scene_windows":0,"windows":5,"scene":"opinions and behaviors"}
+{"neuron":7971,"pole":"high","cluster":2,"mode":"describing emotional states and events","scene_windows":0,"windows":5,"scene":"emotional states and events"}
+{"neuron":7971,"pole":"low","cluster":0,"mode":"referencing code and data structures","scene_windows":0,"windows":5,"scene":"programming and data"}
+{"neuron":7971,"pole":"low","cluster":1,"mode":"describing objects and their condition","scene_windows":0,"windows":5,"scene":"object descriptions and states"}
+{"neuron":7971,"pole":"low","cluster":2,"mode":"describing actions and outcomes","scene_windows":0,"windows":5,"scene":"actions and outcomes"}
+{"neuron":7971,"pole":"low","cluster":3,"mode":"describing dialogue and emotional states","scene_windows":0,"windows":5,"scene":"dialogue and emotional states"}

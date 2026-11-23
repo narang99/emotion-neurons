@@ -1,0 +1,69 @@
+{"neuron":2722,"pole":"high","cluster":0,"mode":"asking mom for permission","happy_windows":0,"windows":5,"scene":"child asking parent"}
+{"neuron":2722,"pole":"high","cluster":1,"mode":"once upon a time, a girl's day","happy_windows":5,"windows":5,"scene":"storytelling, happy child"}
+{"neuron":2722,"pole":"high","cluster":2,"mode":"playing outside in the sunshine","happy_windows":5,"windows":5,"scene":"children playing happily"}
+{"neuron":2722,"pole":"high","cluster":3,"mode":"child's excitement about an object","happy_windows":5,"windows":5,"scene":"child's delight"}
+{"neuron":2722,"pole":"high","cluster":4,"mode":"story beginning with 'once upon a time'","happy_windows":5,"windows":5,"scene":"storytelling, happy child"}
+{"neuron":2722,"pole":"high","cluster":5,"mode":"child's positive feelings about an object","happy_windows":5,"windows":5,"scene":"child's joy"}
+{"neuron":2722,"pole":"high","cluster":6,"mode":"child feeling comfortable and happy","happy_windows":5,"windows":5,"scene":"child's contentment"}
+{"neuron":2722,"pole":"high","cluster":7,"mode":"friends having fun together","happy_windows":5,"windows":5,"scene":"children playing together"}
+{"neuron":2722,"pole":"high","cluster":8,"mode":"morning activities","happy_windows":0,"windows":5,"scene":"daily routine"}
+{"neuron":2722,"pole":"low","cluster":0,"mode":"adventure, lost, positions, roots, well","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2722,"pole":"low","cluster":1,"mode":"centuries, expansion, printing, school, western","happy_windows":0,"windows":5,"scene":"historical facts"}
+{"neuron":2722,"pole":"low","cluster":2,"mode":"hug, happy, she, sorry, upset","happy_windows":3,"windows":5,"scene":"comforting a child"}
+{"neuron":2722,"pole":"low","cluster":3,"mode":"bird, help, happy, saw, white","happy_windows":2,"windows":5,"scene":"kindness to animals"}
+{"neuron":155,"pole":"high","cluster":0,"mode":"child's positive experience","happy_windows":3,"windows":5,"scene":"child's joy"}
+{"neuron":155,"pole":"high","cluster":1,"mode":"story beginning with 'once upon a time'","happy_windows":0,"windows":5,"scene":"storytelling"}
+{"neuron":155,"pole":"low","cluster":0,"mode":"locations and actions","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":155,"pole":"low","cluster":1,"mode":"feeling safe and happy","happy_windows":4,"windows":5,"scene":"positive emotions"}
+{"neuron":155,"pole":"low","cluster":2,"mode":"health and biological terms","happy_windows":0,"windows":5,"scene":"medical/scientific text"}
+{"neuron":155,"pole":"low","cluster":3,"mode":"plant and flower descriptions","happy_windows":0,"windows":5,"scene":"botanical description"}
+{"neuron":155,"pole":"low","cluster":4,"mode":"child's negative emotions","happy_windows":0,"windows":5,"scene":"child's distress"}
+{"neuron":155,"pole":"low","cluster":5,"mode":"child's negative emotions","happy_windows":0,"windows":5,"scene":"child's distress"}
+{"neuron":10490,"pole":"high","cluster":0,"mode":"sister, mom, smile, proud, learned","happy_windows":3,"windows":5,"scene":"child learning something new"}
+{"neuron":10490,"pole":"high","cluster":1,"mode":"mom, her, asked, said, can","happy_windows":4,"windows":5,"scene":"child asking mom for permission"}
+{"neuron":10490,"pole":"low","cluster":0,"mode":"little, girl, sad, relieved, old","happy_windows":1,"windows":5,"scene":"child interacting with adult"}
+{"neuron":10490,"pole":"low","cluster":1,"mode":"in, of, on, pool, cruise","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10490,"pole":"low","cluster":2,"mode":"mom, said, smiled, fun, sweeties","happy_windows":4,"windows":5,"scene":"parent-child interaction"}
+{"neuron":10490,"pole":"low","cluster":3,"mode":"mom, said, no, sad, boy","happy_windows":0,"windows":5,"scene":"child being denied something"}
+{"neuron":10490,"pole":"low","cluster":4,"mode":"happy, sad, upset, scared, friend","happy_windows":2,"windows":5,"scene":"child experiencing emotions"}
+{"neuron":10490,"pole":"low","cluster":5,"mode":"she, happy, saw, excited, little","happy_windows":4,"windows":5,"scene":"child's joyful discovery"}
+{"neuron":164,"pole":"high","cluster":0,"mode":"child's interaction with an object","happy_windows":3,"windows":5,"scene":"child's activity"}
+{"neuron":164,"pole":"high","cluster":1,"mode":"child's action and reaction","happy_windows":4,"windows":5,"scene":"child's experience"}
+{"neuron":164,"pole":"high","cluster":2,"mode":"historical and geographical locations","happy_windows":0,"windows":5,"scene":"historical narration"}
+{"neuron":164,"pole":"high","cluster":3,"mode":"comforting a child","happy_windows":5,"windows":5,"scene":"parental comfort"}
+{"neuron":164,"pole":"high","cluster":4,"mode":"instructions for crafting","happy_windows":0,"windows":5,"scene":"crafting instructions"}
+{"neuron":164,"pole":"high","cluster":5,"mode":"child's action and object interaction","happy_windows":3,"windows":5,"scene":"child's play"}
+{"neuron":164,"pole":"low","cluster":0,"mode":"child's negative emotions","happy_windows":0,"windows":5,"scene":"child's sadness"}
+{"neuron":164,"pole":"low","cluster":1,"mode":"child's positive emotions","happy_windows":4,"windows":5,"scene":"child's happiness"}
+{"neuron":164,"pole":"low","cluster":2,"mode":"child's positive emotions","happy_windows":4,"windows":5,"scene":"child's happiness"}
+{"neuron":164,"pole":"low","cluster":3,"mode":"food preparation instructions","happy_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":164,"pole":"low","cluster":4,"mode":"child's negative emotions","happy_windows":0,"windows":5,"scene":"child's distress"}
+{"neuron":164,"pole":"low","cluster":5,"mode":"child's positive emotions","happy_windows":4,"windows":5,"scene":"child's happiness"}
+{"neuron":164,"pole":"low","cluster":6,"mode":"photo, air, sq, newtons, finger","happy_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":164,"pole":"low","cluster":7,"mode":"and, more, productive, balanced, life","happy_windows":0,"windows":5,"scene":"self-help advice"}
+{"neuron":10722,"pole":"high","cluster":0,"mode":"child's interaction with others","happy_windows":0,"windows":5,"scene":"child's curiosity"}
+{"neuron":10722,"pole":"high","cluster":1,"mode":"historical and organizational terms","happy_windows":0,"windows":5,"scene":"historical narration"}
+{"neuron":10722,"pole":"high","cluster":2,"mode":"positive emotional states","happy_windows":5,"windows":5,"scene":"emotional relief"}
+{"neuron":10722,"pole":"high","cluster":3,"mode":"child's desires and actions","happy_windows":0,"windows":5,"scene":"child's wishes"}
+{"neuron":10722,"pole":"high","cluster":4,"mode":"children playing in outdoor locations","happy_windows":5,"windows":5,"scene":"children playing outdoors"}
+{"neuron":10722,"pole":"low","cluster":0,"mode":"children celebrating","happy_windows":5,"windows":5,"scene":"celebration"}
+{"neuron":10722,"pole":"low","cluster":1,"mode":"story beginning with 'once upon a time'","happy_windows":0,"windows":5,"scene":"storytelling"}
+{"neuron":7883,"pole":"high","cluster":0,"mode":"historical events and locations","happy_windows":0,"windows":5,"scene":"historical narration"}
+{"neuron":7883,"pole":"high","cluster":1,"mode":"child's positive reaction","happy_windows":5,"windows":5,"scene":"child's delight"}
+{"neuron":7883,"pole":"high","cluster":2,"mode":"child's positive emotions","happy_windows":5,"windows":5,"scene":"child's happiness"}
+{"neuron":7883,"pole":"high","cluster":3,"mode":"child's positive emotions and actions","happy_windows":5,"windows":5,"scene":"child's joy"}
+{"neuron":7883,"pole":"low","cluster":0,"mode":"child's cautious actions","happy_windows":0,"windows":5,"scene":"child's caution"}
+{"neuron":7883,"pole":"low","cluster":1,"mode":"child's positive feelings","happy_windows":5,"windows":5,"scene":"child's happiness"}
+{"neuron":10292,"pole":"high","cluster":0,"mode":"child's negative emotions","happy_windows":0,"windows":5,"scene":"child's distress"}
+{"neuron":10292,"pole":"high","cluster":1,"mode":"child's positive experiences","happy_windows":5,"windows":5,"scene":"child's joy"}
+{"neuron":10292,"pole":"high","cluster":2,"mode":"technical and political terms","happy_windows":0,"windows":5,"scene":"technical/political text"}
+{"neuron":10292,"pole":"low","cluster":0,"mode":"child's negative emotions","happy_windows":0,"windows":5,"scene":"child's distress"}
+{"neuron":10292,"pole":"low","cluster":1,"mode":"historical and organizational terms","happy_windows":0,"windows":5,"scene":"historical narration"}
+{"neuron":10292,"pole":"low","cluster":2,"mode":"religion, Judaism, examples, formula, astronomy","happy_windows":0,"windows":5,"scene":"informative text"}
+{"neuron":6899,"pole":"high","cluster":0,"mode":"child's outdoor play activities","happy_windows":5,"windows":5,"scene":"children playing outdoors"}
+{"neuron":6899,"pole":"high","cluster":1,"mode":"child's positive feelings","happy_windows":5,"windows":5,"scene":"child's happiness"}
+{"neuron":6899,"pole":"low","cluster":0,"mode":"child's actions and dialogue","happy_windows":0,"windows":5,"scene":"child's interaction"}
+{"neuron":6899,"pole":"low","cluster":1,"mode":"child's positive emotions","happy_windows":5,"windows":5,"scene":"child's happiness"}
+{"neuron":6899,"pole":"low","cluster":2,"mode":"happy, impressed, artist's, performance, passionate","happy_windows":3,"windows":5,"scene":"appreciation of art"}
+{"neuron":6899,"pole":"low","cluster":3,"mode":"nodded, agreed, away, tail, happy","happy_windows":2,"windows":5,"scene":"child learning and growing"}
+{"neuron":6899,"pole":"low","cluster":4,"mode":"not, mind, happy, warm, thunder","happy_windows":2,"windows":5,"scene":"child enjoying weather"}

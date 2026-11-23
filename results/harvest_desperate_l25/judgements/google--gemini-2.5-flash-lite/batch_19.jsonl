@@ -1,0 +1,57 @@
+{"neuron":8686,"pole":"high","cluster":0,"mode":"children's activities and positive experiences","scene_windows":0,"windows":5,"scene":"childhood fun and joy"}
+{"neuron":8686,"pole":"high","cluster":1,"mode":"child's desire for something new or exciting","scene_windows":0,"windows":5,"scene":"child's wishes and desires"}
+{"neuron":8686,"pole":"low","cluster":0,"mode":"children's activities and positive experiences","scene_windows":0,"windows":5,"scene":"childhood fun and joy"}
+{"neuron":8686,"pole":"low","cluster":1,"mode":"child's desire for something new or exciting","scene_windows":0,"windows":5,"scene":"child's wishes and desires"}
+{"neuron":8686,"pole":"low","cluster":2,"mode":"instructions and warnings for children","scene_windows":0,"windows":5,"scene":"parental guidance and rules"}
+{"neuron":8686,"pole":"low","cluster":3,"mode":"children's adventures and discoveries","scene_windows":0,"windows":5,"scene":"childhood exploration and curiosity"}
+{"neuron":8686,"pole":"low","cluster":4,"mode":"children's encounters with animals and nature","scene_windows":0,"windows":5,"scene":"childhood encounters and reactions"}
+{"neuron":8686,"pole":"low","cluster":5,"mode":"children's activities and nature exploration","scene_windows":0,"windows":5,"scene":"childhood play and discovery"}
+{"neuron":8686,"pole":"low","cluster":6,"mode":"sharing and caution for children","scene_windows":0,"windows":5,"scene":"childhood lessons and interactions"}
+{"neuron":3438,"pole":"high","cluster":0,"mode":"past events and personal history","scene_windows":0,"windows":5,"scene":"recollection of past events"}
+{"neuron":3438,"pole":"high","cluster":1,"mode":"story beginnings and introductions","scene_windows":0,"windows":5,"scene":"narrative beginnings and introductions"}
+{"neuron":3438,"pole":"low","cluster":0,"mode":"proper nouns and place names","scene_windows":0,"windows":5,"scene":"geographical and proper names"}
+{"neuron":3438,"pole":"low","cluster":1,"mode":"conversational dialogue and agreements","scene_windows":0,"windows":5,"scene":"dialogue and conversational flow"}
+{"neuron":3438,"pole":"low","cluster":2,"mode":"actions and verbs of movement","scene_windows":0,"windows":5,"scene":"actions and movements"}
+{"neuron":11925,"pole":"high","cluster":0,"mode":"personal interactions and feelings","scene_windows":0,"windows":5,"scene":"personal interactions and emotions"}
+{"neuron":11925,"pole":"high","cluster":1,"mode":"food ingredients and descriptions","scene_windows":0,"windows":5,"scene":"food and ingredients"}
+{"neuron":11925,"pole":"low","cluster":0,"mode":"children's activities and locations","scene_windows":0,"windows":5,"scene":"childhood activities and places"}
+{"neuron":11925,"pole":"low","cluster":1,"mode":"characters and their actions","scene_windows":0,"windows":5,"scene":"character actions and descriptions"}
+{"neuron":11925,"pole":"low","cluster":2,"mode":"food preparation and cooking","scene_windows":0,"windows":5,"scene":"food preparation and cooking"}
+{"neuron":220,"pole":"high","cluster":0,"mode":"positive descriptions of objects and feelings","scene_windows":0,"windows":5,"scene":"positive descriptions and feelings"}
+{"neuron":220,"pole":"high","cluster":1,"mode":"locations and events","scene_windows":0,"windows":5,"scene":"locations and events"}
+{"neuron":220,"pole":"high","cluster":2,"mode":"technical and computer-related terms","scene_windows":0,"windows":5,"scene":"technical and computer terms"}
+{"neuron":220,"pole":"high","cluster":3,"mode":"food ingredients and preparation","scene_windows":0,"windows":5,"scene":"food ingredients and preparation"}
+{"neuron":220,"pole":"high","cluster":4,"mode":"food preparation and cooking instructions","scene_windows":0,"windows":5,"scene":"food preparation and cooking"}
+{"neuron":220,"pole":"low","cluster":0,"mode":"historical and geographical references","scene_windows":0,"windows":5,"scene":"historical and geographical references"}
+{"neuron":220,"pole":"low","cluster":1,"mode":"concepts and abstract ideas","scene_windows":0,"windows":5,"scene":"concepts and abstract ideas"}
+{"neuron":220,"pole":"low","cluster":2,"mode":"actions and emotional states","scene_windows":0,"windows":5,"scene":"actions and emotional states"}
+{"neuron":220,"pole":"low","cluster":3,"mode":"possessive pronouns and ownership","scene_windows":0,"windows":5,"scene":"possessive pronouns and ownership"}
+{"neuron":1398,"pole":"high","cluster":0,"mode":"literary and historical terms","scene_windows":0,"windows":5,"scene":"literary and historical terms"}
+{"neuron":1398,"pole":"high","cluster":1,"mode":"personal relationships and social interactions","scene_windows":0,"windows":5,"scene":"personal relationships and interactions"}
+{"neuron":1398,"pole":"high","cluster":2,"mode":"children's play and dialogue","scene_windows":0,"windows":5,"scene":"children's play and dialogue"}
+{"neuron":1398,"pole":"low","cluster":0,"mode":"questions and conversational markers","scene_windows":0,"windows":5,"scene":"conversational questions and markers"}
+{"neuron":1398,"pole":"low","cluster":1,"mode":"actions and movement","scene_windows":0,"windows":5,"scene":"actions and movement"}
+{"neuron":1398,"pole":"low","cluster":2,"mode":"emotional states and reactions","scene_windows":0,"windows":5,"scene":"emotional states and reactions"}
+{"neuron":1398,"pole":"low","cluster":3,"mode":"possessive pronouns and ownership","scene_windows":0,"windows":5,"scene":"possessive pronouns and ownership"}
+{"neuron":1398,"pole":"low","cluster":4,"mode":"actions and emotional states","scene_windows":0,"windows":5,"scene":"actions and emotional states"}
+{"neuron":1398,"pole":"low","cluster":5,"mode":"actions and emotional states","scene_windows":0,"windows":5,"scene":"actions and emotional states"}
+{"neuron":1398,"pole":"low","cluster":6,"mode":"objects and their use","scene_windows":0,"windows":5,"scene":"objects and their use"}
+{"neuron":1398,"pole":"low","cluster":7,"mode":"emotions and excitement","scene_windows":0,"windows":5,"scene":"emotions and excitement"}
+{"neuron":10422,"pole":"high","cluster":0,"mode":"group activities and cooperation","scene_windows":0,"windows":5,"scene":"group activities and cooperation"}
+{"neuron":10422,"pole":"high","cluster":1,"mode":"conversational dialogue and observations","scene_windows":0,"windows":5,"scene":"conversational dialogue and observations"}
+{"neuron":10422,"pole":"high","cluster":2,"mode":"actions and processes","scene_windows":0,"windows":5,"scene":"actions and processes"}
+{"neuron":10422,"pole":"high","cluster":3,"mode":"optimization and improvement strategies","scene_windows":0,"windows":5,"scene":"optimization and improvement strategies"}
+{"neuron":10422,"pole":"high","cluster":4,"mode":"dialogue and narrative introductions","scene_windows":0,"windows":5,"scene":"dialogue and narrative introductions"}
+{"neuron":10422,"pole":"low","cluster":0,"mode":"medical treatments and conditions","scene_windows":0,"windows":5,"scene":"medical treatments and conditions"}
+{"neuron":10422,"pole":"low","cluster":1,"mode":"actions and emotional states","scene_windows":0,"windows":5,"scene":"actions and emotional states"}
+{"neuron":10422,"pole":"low","cluster":2,"mode":"emotional states and reactions","scene_windows":0,"windows":5,"scene":"emotional states and reactions"}
+{"neuron":10422,"pole":"low","cluster":3,"mode":"actions and emotional states","scene_windows":0,"windows":5,"scene":"actions and emotional states"}
+{"neuron":7702,"pole":"high","cluster":0,"mode":"dialogue and positive interactions","scene_windows":0,"windows":5,"scene":"dialogue and positive interactions"}
+{"neuron":7702,"pole":"high","cluster":1,"mode":"dialogue and positive interactions","scene_windows":0,"windows":5,"scene":"dialogue and positive interactions"}
+{"neuron":7702,"pole":"low","cluster":0,"mode":"movement and direction","scene_windows":0,"windows":5,"scene":"movement and direction"}
+{"neuron":7702,"pole":"low","cluster":1,"mode":"movement and direction","scene_windows":0,"windows":5,"scene":"movement and direction"}
+{"neuron":1373,"pole":"high","cluster":0,"mode":"personal history and relationships","scene_windows":0,"windows":5,"scene":"personal history and relationships"}
+{"neuron":1373,"pole":"high","cluster":1,"mode":"technical instructions and file operations","scene_windows":0,"windows":5,"scene":"technical instructions and file operations"}
+{"neuron":1373,"pole":"low","cluster":0,"mode":"food preparation and cooking instructions","scene_windows":0,"windows":5,"scene":"food preparation and cooking"}
+{"neuron":1373,"pole":"low","cluster":1,"mode":"medical concepts and biological terms","scene_windows":0,"windows":5,"scene":"medical concepts and biological terms"}
+{"neuron":1373,"pole":"low","cluster":2,"mode":"actions and emotional states","scene_windows":0,"windows":5,"scene":"actions and emotional states"}

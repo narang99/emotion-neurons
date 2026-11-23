@@ -1,0 +1,43 @@
+{"neuron":1182,"pole":"high","cluster":0,"mode":"Expressing negative emotions like despair, frustration, and betrayal, or personal identity.","scene_windows":0,"windows":5,"scene":"Personal feelings and identity"}
+{"neuron":1182,"pole":"high","cluster":1,"mode":"Referring to specific groups of people like families, veterans, monks, or a specific demographic group.","scene_windows":0,"windows":5,"scene":"Groups of people and their roles"}
+{"neuron":7488,"pole":"high","cluster":0,"mode":"Discussing historical truth, self-improvement, psychological concepts, global issues, and cultural diversity.","scene_windows":0,"windows":5,"scene":"Knowledge and culture exploration"}
+{"neuron":7488,"pole":"high","cluster":1,"mode":"Describing historical military conflicts and battles involving specific nationalities.","scene_windows":0,"windows":5,"scene":"Historical military engagements"}
+{"neuron":7488,"pole":"low","cluster":0,"mode":"Narrating fictional scenes involving injury, memory, and personal reflection.","scene_windows":0,"windows":5,"scene":"Fictional narrative with introspection"}
+{"neuron":7488,"pole":"low","cluster":1,"mode":"Asking factual questions about historical figures and locations.","scene_windows":0,"windows":5,"scene":"Factual questions about history"}
+{"neuron":3067,"pole":"high","cluster":0,"mode":"Assistant responding to user questions with helpful information and summaries.","scene_windows":0,"windows":5,"scene":"Helpful assistant responses"}
+{"neuron":3067,"pole":"high","cluster":1,"mode":"Assistant providing examples and details in response to user requests.","scene_windows":0,"windows":5,"scene":"Providing examples and details"}
+{"neuron":3067,"pole":"high","cluster":2,"mode":"User expressing thanks or agreement, and assistant providing information.","scene_windows":0,"windows":5,"scene":"Conversational flow and information exchange"}
+{"neuron":3067,"pole":"high","cluster":3,"mode":"User asking for more detailed information or recommendations.","scene_windows":0,"windows":5,"scene":"Seeking detailed information"}
+{"neuron":3067,"pole":"high","cluster":4,"mode":"Narrating fictional scenarios involving intense emotions and actions.","scene_windows":0,"windows":5,"scene":"Fictional narrative with action"}
+{"neuron":3067,"pole":"high","cluster":5,"mode":"Discussing life fulfillment, relationships, practical methods, and historical events.","scene_windows":0,"windows":5,"scene":"Life advice and history"}
+{"neuron":3067,"pole":"low","cluster":0,"mode":"Narrating fictional scenes involving panic, discovery, and realization.","scene_windows":0,"windows":5,"scene":"Fictional narrative with suspense"}
+{"neuron":3067,"pole":"low","cluster":1,"mode":"Narrating fictional scenes involving dialogue, surprise, and requests.","scene_windows":0,"windows":5,"scene":"Fictional narrative with dialogue"}
+{"neuron":3067,"pole":"low","cluster":2,"mode":"Discussing cultural influences, mythology, and fitness.","scene_windows":0,"windows":5,"scene":"Culture and fitness information"}
+{"neuron":3067,"pole":"low","cluster":3,"mode":"Narrating fictional scenes involving dialogue, surprise, and questions.","scene_windows":0,"windows":5,"scene":"Fictional narrative with dialogue"}
+{"neuron":4933,"pole":"high","cluster":0,"mode":"Discussing discrimination, consequences, and technical issues related to Mars settlement.","scene_windows":0,"windows":5,"scene":"Societal issues and space exploration"}
+{"neuron":4933,"pole":"high","cluster":1,"mode":"Narrating fictional scenes involving danger, surprise, and character interactions.","scene_windows":0,"windows":5,"scene":"Fictional narrative with suspense"}
+{"neuron":4933,"pole":"high","cluster":2,"mode":"Assistant providing details and creative ideas in response to user queries.","scene_windows":0,"windows":5,"scene":"Providing details and creative ideas"}
+{"neuron":4933,"pole":"high","cluster":3,"mode":"Discussing legal systems, materials, specific locations, and biological classifications.","scene_windows":0,"windows":5,"scene":"Information on various topics"}
+{"neuron":4933,"pole":"high","cluster":4,"mode":"Narrating fictional scenes involving personal interactions and internal thoughts.","scene_windows":0,"windows":5,"scene":"Fictional narrative with personal reflection"}
+{"neuron":4933,"pole":"low","cluster":0,"mode":"Discussing negative outcomes, diet, and investment particulars.","scene_windows":0,"windows":5,"scene":"Negative outcomes and advice"}
+{"neuron":4933,"pole":"low","cluster":1,"mode":"Narrating fictional scenes involving conflict, surprise, and dialogue.","scene_windows":0,"windows":5,"scene":"Fictional narrative with conflict"}
+{"neuron":2275,"pole":"high","cluster":0,"mode":"Assistant providing information and suggestions on various topics.","scene_windows":0,"windows":5,"scene":"Helpful assistant responses"}
+{"neuron":2275,"pole":"high","cluster":1,"mode":"Assistant answering user questions about health, architecture, and finance.","scene_windows":0,"windows":5,"scene":"Answering user questions"}
+{"neuron":2275,"pole":"high","cluster":2,"mode":"Narrating fictional scenes involving dramatic exits, personal reflections, and requests.","scene_windows":0,"windows":5,"scene":"Fictional narrative with dialogue"}
+{"neuron":2275,"pole":"high","cluster":3,"mode":"Discussing health benefits, psychological phenomena, and practical advice.","scene_windows":0,"windows":5,"scene":"Health and psychology information"}
+{"neuron":2275,"pole":"high","cluster":4,"mode":"Describing eco-friendly construction techniques and health-promoting foods/spices.","scene_windows":0,"windows":5,"scene":"Sustainable practices and health"}
+{"neuron":2275,"pole":"low","cluster":0,"mode":"Discussing magic, nature, sound, curriculum design, and open-mindedness.","scene_windows":0,"windows":5,"scene":"Abstract concepts and education"}
+{"neuron":2275,"pole":"low","cluster":1,"mode":"Asking factual questions about geography, personal care, and social dynamics.","scene_windows":0,"windows":5,"scene":"Factual questions and personal care"}
+{"neuron":4636,"pole":"high","cluster":0,"mode":"Discussing time, courage, personal beliefs, and scientific policy.","scene_windows":0,"windows":5,"scene":"Abstract concepts and policy"}
+{"neuron":4636,"pole":"high","cluster":1,"mode":"Assistant responding to user questions about health, diet, and social groups.","scene_windows":0,"windows":5,"scene":"Assistant providing health advice"}
+{"neuron":4636,"pole":"low","cluster":0,"mode":"Discussing time, personal decisions, and architectural principles.","scene_windows":0,"windows":5,"scene":"Abstract concepts and design"}
+{"neuron":4636,"pole":"low","cluster":1,"mode":"Assistant providing practical steps and advice on various topics.","scene_windows":0,"windows":5,"scene":"Practical advice and steps"}
+{"neuron":4636,"pole":"low","cluster":2,"mode":"dialogue markers like 'I', 'you', 'what', 'why', 'how' in conversational exchanges","scene_windows":0,"windows":5,"scene":"conversational exchanges"}
+{"neuron":7369,"pole":"high","cluster":0,"mode":"plants, spaces, shaft, grass, summer in descriptive contexts","scene_windows":0,"windows":5,"scene":"descriptive contexts"}
+{"neuron":7369,"pole":"high","cluster":1,"mode":"I, he, she, I, she in narrative contexts","scene_windows":0,"windows":5,"scene":"narrative contexts"}
+{"neuron":7369,"pole":"low","cluster":0,"mode":"for, a, in, a, in in descriptive contexts","scene_windows":0,"windows":5,"scene":"descriptive contexts"}
+{"neuron":7369,"pole":"low","cluster":1,"mode":"Beta, Beta, Beta, Beta, Beta in dialogue contexts","scene_windows":0,"windows":5,"scene":"dialogue contexts"}
+{"neuron":10404,"pole":"high","cluster":0,"mode":"Discussing philosophical concepts, beliefs, technology in education, music, and economics.","scene_windows":0,"windows":5,"scene":"Diverse knowledge domains"}
+{"neuron":10404,"pole":"high","cluster":1,"mode":"Assistant answering user questions about origins of surnames, names, and personal choices.","scene_windows":0,"windows":5,"scene":"Answering user questions"}
+{"neuron":10404,"pole":"low","cluster":0,"mode":"Discussing human cognition, relationships, food industry, and architecture.","scene_windows":0,"windows":5,"scene":"Humanity and societal structures"}
+{"neuron":10404,"pole":"low","cluster":1,"mode":"Narrating fictional scenes involving time, escape, confessions, and warnings.","scene_windows":0,"windows":5,"scene":"Fictional narrative with suspense"}

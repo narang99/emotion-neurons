@@ -1,0 +1,51 @@
+{"neuron":9024,"pole":"high","cluster":0,"mode":"Contraction 'n't' and sentence-initial tokens in mixed narrative and dialogue","scene_windows":0,"windows":5,"scene":"Mixed everyday narration, dialogue, and informational text"}
+{"neuron":9024,"pole":"high","cluster":1,"mode":"'there' in the formulaic opening 'Once upon a time, there was'","scene_windows":0,"windows":5,"scene":"Simple children's story openings"}
+{"neuron":9024,"pole":"low","cluster":0,"mode":"Code, citation, and reference-formatting tokens in technical text","scene_windows":0,"windows":5,"scene":"Code snippets, bibliographies, and reference lists"}
+{"neuron":9024,"pole":"low","cluster":1,"mode":"Grim narrative words about violence, fear, and carnage","scene_windows":1,"windows":5,"scene":"Violent or tense fiction with battles and killings"}
+{"neuron":9024,"pole":"low","cluster":2,"mode":"Food and ingredient words in lists of recipes and tips","scene_windows":0,"windows":5,"scene":"Cooking and food listicles"}
+{"neuron":4070,"pole":"high","cluster":0,"mode":"Subject pronouns and 'but/after all' starting clauses in dramatic narration","scene_windows":1,"windows":5,"scene":"Tense or emotional fiction with confrontations and reflections"}
+{"neuron":4070,"pole":"high","cluster":1,"mode":"Technical or scientific term fragments mid-word in specialized text","scene_windows":0,"windows":5,"scene":"Medical, scientific, and technical articles"}
+{"neuron":4070,"pole":"low","cluster":0,"mode":"Clause-joining words and pronouns in simple happy narratives","scene_windows":0,"windows":5,"scene":"Cheerful children's stories and everyday narration"}
+{"neuron":4070,"pole":"low","cluster":1,"mode":"Mid-sentence words in descriptive or formal prose","scene_windows":0,"windows":5,"scene":"Descriptive, historical, and encyclopedic prose"}
+{"neuron":4070,"pole":"low","cluster":2,"mode":"Physical action verbs and particles in fight or struggle moments","scene_windows":3,"windows":5,"scene":"Physical fights, struggles, and captivity in fiction"}
+{"neuron":4070,"pole":"low","cluster":3,"mode":"Interjections and clause-ending punctuation in casual dialogue","scene_windows":0,"windows":5,"scene":"Casual speech and informal narration"}
+{"neuron":8365,"pole":"high","cluster":0,"mode":"Place nouns (park, forest, beach) after 'to the' or 'in the'","scene_windows":0,"windows":5,"scene":"Simple children's stories about outings and adventures"}
+{"neuron":8365,"pole":"high","cluster":1,"mode":"'the' after movement prepositions like 'to' and 'in' in stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about going places"}
+{"neuron":8365,"pole":"high","cluster":2,"mode":"'The' or 'the' starting clauses in dramatic or ominous narration","scene_windows":1,"windows":5,"scene":"Survival, dark, and dramatic fiction"}
+{"neuron":8365,"pole":"high","cluster":3,"mode":"Sentence-final periods after a character's problem or feeling","scene_windows":0,"windows":5,"scene":"Simple children's stories about small troubles"}
+{"neuron":8365,"pole":"low","cluster":0,"mode":"Articles and possessives before objects in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's stories and casual narration"}
+{"neuron":8365,"pole":"low","cluster":1,"mode":"'One' starting a 'One day' sentence in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with daily routines"}
+{"neuron":1475,"pole":"high","cluster":0,"mode":"Verbs and pronouns mid-sentence in personal reflective narration","scene_windows":0,"windows":5,"scene":"Personal narration and reflective dialogue"}
+{"neuron":1475,"pole":"high","cluster":1,"mode":"Digits and punctuation inside journal citation references","scene_windows":0,"windows":5,"scene":"Academic reference lists"}
+{"neuron":1475,"pole":"low","cluster":0,"mode":"'was' and 'who' in reflective or explanatory first-person prose","scene_windows":0,"windows":5,"scene":"Reflective personal narration and exposition"}
+{"neuron":1475,"pole":"low","cluster":1,"mode":"Age phrase 'three years old' in children's story openings","scene_windows":0,"windows":5,"scene":"Simple children's stories introducing a young character"}
+{"neuron":6868,"pole":"high","cluster":0,"mode":"Sentence-final periods closing happy or accomplished story moments","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with happy endings"}
+{"neuron":6868,"pole":"high","cluster":1,"mode":"Blank-indent tokens after emotional or dramatic lines","scene_windows":0,"windows":5,"scene":"Dramatic or poetic fiction with emotional lines"}
+{"neuron":6868,"pole":"high","cluster":2,"mode":"Sentence-final periods after bleak or dramatic turning points","scene_windows":1,"windows":5,"scene":"Grim fiction about loss, injury, or crisis"}
+{"neuron":6868,"pole":"high","cluster":3,"mode":"Object nouns (weapon, check, files) ending tense action clauses","scene_windows":0,"windows":5,"scene":"Tense action and everyday scenes in fiction"}
+{"neuron":6868,"pole":"high","cluster":4,"mode":"'Then' and sequence markers in simple children's narratives","scene_windows":0,"windows":5,"scene":"Simple children's stories about daily events"}
+{"neuron":6868,"pole":"high","cluster":5,"mode":"Pronouns starting sentences after emotional or reflective beats","scene_windows":0,"windows":5,"scene":"Emotional first-person and character reflection"}
+{"neuron":6868,"pole":"low","cluster":0,"mode":"Technical nouns and conjunctions in informational or agricultural text","scene_windows":0,"windows":5,"scene":"Informational articles on energy, medicine, and farming"}
+{"neuron":6868,"pole":"low","cluster":1,"mode":"Citation and proper-name fragments in scholarly references","scene_windows":0,"windows":5,"scene":"Bibliographies and scholarly historical citations"}
+{"neuron":6868,"pole":"low","cluster":2,"mode":"Mid-speech verbs and tokens in casual dialogue or stammered reactions","scene_windows":0,"windows":5,"scene":"Casual dialogue and reactions in fiction"}
+{"neuron":6868,"pole":"low","cluster":3,"mode":"Pronouns and verbs ('got', 'she', 'was') in simple sequential stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about routines"}
+{"neuron":9935,"pole":"high","cluster":0,"mode":"Commas and conjunctions in marketing and how-to list prose","scene_windows":0,"windows":5,"scene":"Marketing and social media advice articles"}
+{"neuron":9935,"pole":"high","cluster":1,"mode":"Contraction 'n't' or clitic after negated verbs in dialogue","scene_windows":1,"windows":5,"scene":"Dialogue about reluctance, refusal, or hard choices"}
+{"neuron":9935,"pole":"high","cluster":2,"mode":"Closing quotation marks and periods ending spoken lines","scene_windows":0,"windows":5,"scene":"Tense or pleading dialogue exchanges"}
+{"neuron":9935,"pole":"high","cluster":3,"mode":"Punctuation inside children's dialogue and exclamations","scene_windows":0,"windows":5,"scene":"Simple children's dialogue stories"}
+{"neuron":9935,"pole":"high","cluster":4,"mode":"Evaluative words ('worse', 'again', 'it') after regret or harm","scene_windows":0,"windows":5,"scene":"Narratives about regret, harm, or bad outcomes"}
+{"neuron":9935,"pole":"high","cluster":5,"mode":"Pronouns starting sentences in happy children's narration","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about discovery"}
+{"neuron":9935,"pole":"low","cluster":0,"mode":"Conjunctions 'and/but' and emotion words in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about feelings and mistakes"}
+{"neuron":9935,"pole":"low","cluster":1,"mode":"Punctuation closing short quoted speech in dialogue","scene_windows":0,"windows":5,"scene":"Dialogue in simple stories and fiction"}
+{"neuron":8921,"pole":"high","cluster":0,"mode":"Commas and 'was/I/she' mid-clause in suspenseful narration","scene_windows":0,"windows":5,"scene":"Suspenseful or strange narrative scenes"}
+{"neuron":8921,"pole":"high","cluster":1,"mode":"'and' joining ingredients in recipe-style instructions","scene_windows":0,"windows":5,"scene":"Recipes and food preparation lists"}
+{"neuron":8921,"pole":"low","cluster":0,"mode":"First-person 'I' and 'you' in dramatic or argumentative speech","scene_windows":0,"windows":5,"scene":"Argumentative or confessional dialogue"}
+{"neuron":8921,"pole":"low","cluster":1,"mode":"Formatting and descriptive tokens in image captions and code","scene_windows":0,"windows":5,"scene":"Image descriptions, web code, and design text"}
+{"neuron":1328,"pole":"high","cluster":0,"mode":"Sentence-final or clause-ending punctuation in tense reflective prose","scene_windows":0,"windows":5,"scene":"Dramatic narration about family and conflict"}
+{"neuron":1328,"pole":"high","cluster":1,"mode":"Food nouns (cake, pie, meal) in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about baking and food"}
+{"neuron":1328,"pole":"low","cluster":0,"mode":"Verbs and particles in scholarly biblical or historical commentary","scene_windows":0,"windows":5,"scene":"Scholarly commentary and academic analysis"}
+{"neuron":1328,"pole":"low","cluster":1,"mode":"Sentence-final period after the opening name in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's story openings"}
+{"neuron":1328,"pole":"low","cluster":2,"mode":"Descriptive verbs and nouns in nature and science prose","scene_windows":0,"windows":5,"scene":"Nature guides and astronomy explanations"}
+{"neuron":1328,"pole":"low","cluster":3,"mode":"Abstract nouns (traits, knowledge, efforts) in descriptive sentences","scene_windows":0,"windows":5,"scene":"Descriptive fiction and historical narration"}
+{"neuron":1328,"pole":"low","cluster":4,"mode":"Pronoun 'I' starting quoted speech in emotional dialogue","scene_windows":2,"windows":5,"scene":"Tense emotional confrontations and pleading speech"}
+{"neuron":1328,"pole":"low","cluster":5,"mode":"Quote marks and punctuation in heated or distressed dialogue","scene_windows":2,"windows":5,"scene":"Heated arguments and suicidal or distressed talk"}

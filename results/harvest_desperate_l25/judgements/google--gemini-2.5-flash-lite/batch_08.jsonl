@@ -1,0 +1,47 @@
+{"neuron":10973,"pole":"high","cluster":0,"mode":"narrative verbs indicating communication or discovery","scene_windows":0,"windows":5,"scene":"children's stories and simple narration"}
+{"neuron":10973,"pole":"high","cluster":1,"mode":"words describing emotional states or social perceptions","scene_windows":0,"windows":5,"scene":"personal reflection and social observation"}
+{"neuron":10973,"pole":"high","cluster":2,"mode":"conjunctions and pronouns indicating connection or reference","scene_windows":0,"windows":5,"scene":"narrative with emotional intensity"}
+{"neuron":10973,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating contrast or addition","scene_windows":0,"windows":5,"scene":"narrative with emotional conflict"}
+{"neuron":10973,"pole":"low","cluster":1,"mode":"punctuation and conjunctions indicating list or conclusion","scene_windows":0,"windows":5,"scene":"instructional or descriptive text"}
+{"neuron":3582,"pole":"high","cluster":0,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"conversational dialogue with tension"}
+{"neuron":3582,"pole":"high","cluster":1,"mode":"pronouns and nouns referring to people or things","scene_windows":0,"windows":5,"scene":"action and description of danger"}
+{"neuron":3582,"pole":"high","cluster":2,"mode":"punctuation indicating finality or strong emotion","scene_windows":0,"windows":5,"scene":"emotional expression and reflection"}
+{"neuron":3582,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating personal connection or contrast","scene_windows":0,"windows":5,"scene":"personal narrative with emotional undertones"}
+{"neuron":3582,"pole":"low","cluster":1,"mode":"pronouns and conjunctions indicating agreement or continuation","scene_windows":0,"windows":5,"scene":"conversational exchange, often polite"}
+{"neuron":11712,"pole":"high","cluster":0,"mode":"pronouns referring to subjects of sentences","scene_windows":0,"windows":5,"scene":"personal narrative, often with dark themes"}
+{"neuron":11712,"pole":"high","cluster":1,"mode":"definite articles referring to specific entities","scene_windows":0,"windows":5,"scene":"narrative with action and description"}
+{"neuron":11712,"pole":"high","cluster":2,"mode":"infinitive markers indicating purpose or intention","scene_windows":0,"windows":5,"scene":"children's stories and simple actions"}
+{"neuron":11712,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating personal connection or contrast","scene_windows":0,"windows":5,"scene":"personal narrative with emotional undertones"}
+{"neuron":11712,"pole":"low","cluster":1,"mode":"prepositions and conjunctions indicating inclusion or addition","scene_windows":0,"windows":5,"scene":"instructional or descriptive text"}
+{"neuron":4764,"pole":"high","cluster":0,"mode":"nouns and verbs indicating completion or outcome","scene_windows":0,"windows":5,"scene":"professional communication and project updates"}
+{"neuron":4764,"pole":"high","cluster":1,"mode":"pronouns referring to subjects of sentences","scene_windows":0,"windows":5,"scene":"narrative with potential danger"}
+{"neuron":4764,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating personal connection or contrast","scene_windows":0,"windows":5,"scene":"personal narrative with emotional undertones"}
+{"neuron":4764,"pole":"low","cluster":1,"mode":"conjunctions and prepositions indicating contrast or addition","scene_windows":0,"windows":5,"scene":"narrative with emotional conflict"}
+{"neuron":4764,"pole":"low","cluster":2,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"conversational dialogue, often direct"}
+{"neuron":4764,"pole":"low","cluster":3,"mode":"conjunctions and pronouns indicating condition or time","scene_windows":0,"windows":5,"scene":"narrative with conditional elements"}
+{"neuron":4764,"pole":"low","cluster":4,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"conversational dialogue, often direct"}
+{"neuron":4764,"pole":"low","cluster":5,"mode":"pronouns referring to the subject of the sentence","scene_windows":0,"windows":5,"scene":"personal narrative with emotional undertones"}
+{"neuron":5647,"pole":"high","cluster":0,"mode":"verbs indicating physical actions or states","scene_windows":0,"windows":5,"scene":"narrative with physical actions"}
+{"neuron":5647,"pole":"high","cluster":1,"mode":"nouns referring to animals or objects","scene_windows":0,"windows":5,"scene":"children's stories with animals"}
+{"neuron":5647,"pole":"high","cluster":2,"mode":"nouns referring to weather or objects","scene_windows":0,"windows":5,"scene":"narrative with descriptive elements"}
+{"neuron":5647,"pole":"low","cluster":0,"mode":"verbs indicating movement or action","scene_windows":0,"windows":5,"scene":"narrative with physical actions"}
+{"neuron":5647,"pole":"low","cluster":1,"mode":"verbs indicating emotional states","scene_windows":0,"windows":5,"scene":"narrative with emotional states"}
+{"neuron":9397,"pole":"high","cluster":0,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"conversational dialogue with tension"}
+{"neuron":9397,"pole":"high","cluster":1,"mode":"pronouns referring to subjects of sentences","scene_windows":0,"windows":5,"scene":"personal narrative with direct address"}
+{"neuron":9397,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating personal connection or contrast","scene_windows":0,"windows":5,"scene":"personal narrative with emotional undertones"}
+{"neuron":9397,"pole":"low","cluster":1,"mode":"punctuation and conjunctions indicating list or conclusion","scene_windows":0,"windows":5,"scene":"narrative with emotional expression"}
+{"neuron":1322,"pole":"high","cluster":0,"mode":"verbs indicating movement or action","scene_windows":0,"windows":5,"scene":"narrative with physical actions"}
+{"neuron":1322,"pole":"high","cluster":1,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"conversational dialogue with direct address"}
+{"neuron":1322,"pole":"low","cluster":0,"mode":"verbs indicating cooking or preparation","scene_windows":0,"windows":5,"scene":"instructional text for cooking"}
+{"neuron":1322,"pole":"low","cluster":1,"mode":"prepositions and conjunctions indicating inclusion or addition","scene_windows":0,"windows":5,"scene":"instructional or descriptive text"}
+{"neuron":1322,"pole":"low","cluster":2,"mode":"punctuation indicating pauses or finality","scene_windows":0,"windows":5,"scene":"narrative with pauses or finality"}
+{"neuron":1322,"pole":"low","cluster":3,"mode":"conjunctions and pronouns indicating condition or time","scene_windows":0,"windows":5,"scene":"narrative with conditional elements"}
+{"neuron":1322,"pole":"low","cluster":4,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"conversational dialogue, often direct"}
+{"neuron":1322,"pole":"low","cluster":5,"mode":"pronouns referring to the subject of the sentence","scene_windows":0,"windows":5,"scene":"personal narrative with emotional undertones"}
+{"neuron":1322,"pole":"low","cluster":6,"mode":"nouns referring to people or things","scene_windows":0,"windows":5,"scene":"descriptive text with specific nouns"}
+{"neuron":10096,"pole":"high","cluster":0,"mode":"nouns referring to food ingredients","scene_windows":0,"windows":5,"scene":"cooking instructions with ingredients"}
+{"neuron":10096,"pole":"high","cluster":1,"mode":"greetings and polite expressions","scene_windows":0,"windows":5,"scene":"polite social interactions"}
+{"neuron":10096,"pole":"high","cluster":2,"mode":"pronouns referring to subjects of sentences","scene_windows":0,"windows":5,"scene":"narrative with direct address"}
+{"neuron":10096,"pole":"high","cluster":3,"mode":"negation and conditional markers","scene_windows":0,"windows":5,"scene":"narrative with uncertainty or negation"}
+{"neuron":10096,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating addition or sequence","scene_windows":0,"windows":5,"scene":"narrative with sequential actions"}
+{"neuron":10096,"pole":"low","cluster":1,"mode":"pronouns and prepositions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"instructional text with direction"}

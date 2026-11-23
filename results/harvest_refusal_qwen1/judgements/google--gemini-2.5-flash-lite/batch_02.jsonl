@@ -1,0 +1,40 @@
+{"neuron":9257,"pole":"high","cluster":0,"mode":"pronouns and conjunctions indicating continuation or addition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9257,"pole":"high","cluster":1,"mode":"nouns referring to people, places, or actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9257,"pole":"low","cluster":0,"mode":"names of people","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9257,"pole":"low","cluster":1,"mode":"conjunctions and prepositions indicating connection or purpose","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9257,"pole":"low","cluster":2,"mode":"agency and organization names","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2189,"pole":"high","cluster":0,"mode":"nouns referring to places, apps, or concepts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2189,"pole":"high","cluster":1,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2189,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating purpose or result","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2189,"pole":"low","cluster":1,"mode":"conjunctions and prepositions indicating place or purpose","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2189,"pole":"low","cluster":2,"mode":"pronouns and conjunctions indicating possession or purpose","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2546,"pole":"high","cluster":0,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2546,"pole":"high","cluster":1,"mode":"punctuation and conjunctions indicating completion or addition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2546,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating identity or action","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2546,"pole":"low","cluster":1,"mode":"conjunctions and prepositions indicating connection or situation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2546,"pole":"low","cluster":2,"mode":"pronouns and conjunctions indicating appearance or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9296,"pole":"high","cluster":0,"mode":"nouns referring to systems, life, or actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9296,"pole":"high","cluster":1,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9296,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating place or purpose","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9296,"pole":"low","cluster":1,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8161,"pole":"high","cluster":0,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8161,"pole":"high","cluster":1,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8161,"pole":"high","cluster":2,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8161,"pole":"high","cluster":3,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8161,"pole":"high","cluster":4,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8161,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating purpose or relation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8161,"pole":"low","cluster":1,"mode":"conjunctions and prepositions indicating place or purpose","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6123,"pole":"high","cluster":0,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6123,"pole":"high","cluster":1,"mode":"adjectives and nouns referring to ingredients or preparation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6123,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating connection or cause","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6123,"pole":"low","cluster":1,"mode":"conjunctions and prepositions indicating place or purpose","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9616,"pole":"high","cluster":0,"mode":"punctuation and conjunctions indicating completion or addition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9616,"pole":"high","cluster":1,"mode":"conjunctions and prepositions indicating possession or relation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9616,"pole":"high","cluster":2,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9616,"pole":"low","cluster":0,"mode":"conjunctions and prepositions indicating connection or cause","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9616,"pole":"low","cluster":1,"mode":"dialogue markers indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4161,"pole":"high","cluster":0,"mode":"nouns referring to countries, energy, or technologies","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4161,"pole":"high","cluster":1,"mode":"punctuation and conjunctions indicating opinion or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4161,"pole":"low","cluster":0,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4161,"pole":"low","cluster":1,"mode":"conjunctions and prepositions indicating rejection or result","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4161,"pole":"low","cluster":2,"mode":"dialogue markers and question indicators","scene_windows":0,"windows":5,"scene":"neutral narration"}

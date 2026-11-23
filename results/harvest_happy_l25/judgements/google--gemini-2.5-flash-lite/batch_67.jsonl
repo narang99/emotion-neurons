@@ -1,0 +1,67 @@
+{"neuron":4116,"pole":"high","cluster":0,"mode":"feeling connected and belonging through vulnerability and honesty","happy_windows":0,"windows":5,"scene":"personal growth and relationships"}
+{"neuron":4116,"pole":"high","cluster":1,"mode":"historical and factual references, often abbreviations or dates","happy_windows":0,"windows":5,"scene":"historical and factual narration"}
+{"neuron":4116,"pole":"low","cluster":0,"mode":"dialogue markers, quotes, and conversational interjections","happy_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":4116,"pole":"low","cluster":1,"mode":"institutional and organizational names, often abbreviated","happy_windows":0,"windows":5,"scene":"institutional and organizational context"}
+{"neuron":4116,"pole":"low","cluster":2,"mode":"technical terms related to computer architecture and programming","happy_windows":0,"windows":5,"scene":"technical explanation"}
+{"neuron":4116,"pole":"low","cluster":3,"mode":"descriptive adjectives for food and positive sensory experiences","happy_windows":0,"windows":5,"scene":"food descriptions and enjoyment"}
+{"neuron":4877,"pole":"high","cluster":0,"mode":"punctuation and simple narrative connectors","happy_windows":0,"windows":5,"scene":"simple narrative events"}
+{"neuron":4877,"pole":"high","cluster":1,"mode":"sudden events or transitions in a narrative","happy_windows":1,"windows":5,"scene":"narrative with sudden turns"}
+{"neuron":4877,"pole":"high","cluster":2,"mode":"initiation of actions or changes in state","happy_windows":0,"windows":5,"scene":"narrative progression"}
+{"neuron":4877,"pole":"high","cluster":3,"mode":"past participles indicating completion or identification","happy_windows":0,"windows":5,"scene":"historical and factual narration"}
+{"neuron":4877,"pole":"high","cluster":4,"mode":"cherished memories, relationships, and personal connections","happy_windows":1,"windows":5,"scene":"warm personal memories"}
+{"neuron":4877,"pole":"high","cluster":5,"mode":"grammatical connectors and pronouns in technical or descriptive text","happy_windows":0,"windows":5,"scene":"technical or descriptive text"}
+{"neuron":4877,"pole":"low","cluster":0,"mode":"expressions of affection and positive affirmation","happy_windows":0,"windows":5,"scene":"loving family interactions"}
+{"neuron":4877,"pole":"low","cluster":1,"mode":"past tense of 'to be' indicating a state or condition","happy_windows":0,"windows":5,"scene":"narrative description of states"}
+{"neuron":4877,"pole":"low","cluster":2,"mode":"expressions of positive emotion and social interaction","happy_windows":1,"windows":5,"scene":"happy social interactions"}
+{"neuron":4877,"pole":"low","cluster":3,"mode":"modal verbs and conjunctions indicating possibility or continuation","happy_windows":0,"windows":5,"scene":"conditional or ongoing actions"}
+{"neuron":4877,"pole":"low","cluster":4,"mode":"expressions of pride and positive self-perception","happy_windows":1,"windows":5,"scene":"positive self-reflection"}
+{"neuron":4877,"pole":"low","cluster":5,"mode":"narrative connectors and descriptions of enjoyable activities","happy_windows":1,"windows":5,"scene":"enjoyable activities and fun"}
+{"neuron":5285,"pole":"high","cluster":0,"mode":"positive outcomes and discoveries in simple narratives","happy_windows":1,"windows":5,"scene":"positive discoveries and joy"}
+{"neuron":5285,"pole":"high","cluster":1,"mode":"pronouns indicating shared experiences and collective action","happy_windows":1,"windows":5,"scene":"shared experiences and collaboration"}
+{"neuron":5285,"pole":"high","cluster":2,"mode":"objects and experiences valued by children","happy_windows":1,"windows":5,"scene":"children's valued objects and experiences"}
+{"neuron":5285,"pole":"high","cluster":3,"mode":"past participles indicating a state of being or completion","happy_windows":0,"windows":5,"scene":"historical or descriptive context"}
+{"neuron":5285,"pole":"low","cluster":0,"mode":"grammatical connectors and descriptions of processes","happy_windows":0,"windows":5,"scene":"descriptive or technical text"}
+{"neuron":5285,"pole":"low","cluster":1,"mode":"pronouns indicating shared experiences and collective action","happy_windows":1,"windows":5,"scene":"shared experiences and collaboration"}
+{"neuron":5285,"pole":"low","cluster":2,"mode":"past tense of 'to be' indicating a state or condition","happy_windows":0,"windows":5,"scene":"narrative description of states"}
+{"neuron":5285,"pole":"low","cluster":3,"mode":"modal verbs indicating possibility or desire","happy_windows":0,"windows":5,"scene":"desire and possibility"}
+{"neuron":6321,"pole":"high","cluster":0,"mode":"knowing, understanding, and recognizing situations","happy_windows":0,"windows":5,"scene":"understanding and recognition"}
+{"neuron":6321,"pole":"high","cluster":1,"mode":"definite articles indicating specific entities in narratives","happy_windows":0,"windows":5,"scene":"narrative context"}
+{"neuron":6321,"pole":"high","cluster":2,"mode":"negative or restrictive terms in factual or comparative statements","happy_windows":0,"windows":5,"scene":"factual or comparative statements"}
+{"neuron":6321,"pole":"high","cluster":3,"mode":"plural nouns indicating multiple items or concepts","happy_windows":0,"windows":5,"scene":"listing or enumeration"}
+{"neuron":6321,"pole":"high","cluster":4,"mode":"proper nouns and pronouns indicating characters in narratives","happy_windows":1,"windows":5,"scene":"narrative characters and actions"}
+{"neuron":6321,"pole":"low","cluster":0,"mode":"conjunctions and possessive pronouns in simple narratives","happy_windows":1,"windows":5,"scene":"simple narrative events"}
+{"neuron":6321,"pole":"low","cluster":1,"mode":"nouns indicating specific items or concepts","happy_windows":0,"windows":5,"scene":"specific items or concepts"}
+{"neuron":6458,"pole":"high","cluster":0,"mode":"past tense of 'to be' indicating a state or condition","happy_windows":1,"windows":5,"scene":"narrative description of states"}
+{"neuron":6458,"pole":"high","cluster":1,"mode":"abbreviations and acronyms in technical contexts","happy_windows":0,"windows":5,"scene":"technical contexts"}
+{"neuron":6458,"pole":"high","cluster":2,"mode":"food items and ingredients","happy_windows":0,"windows":5,"scene":"food and ingredients"}
+{"neuron":6458,"pole":"high","cluster":3,"mode":"verbs indicating observation and action","happy_windows":0,"windows":5,"scene":"observation and action"}
+{"neuron":6458,"pole":"high","cluster":4,"mode":"pronouns indicating characters and their actions","happy_windows":1,"windows":5,"scene":"narrative characters and actions"}
+{"neuron":6458,"pole":"low","cluster":0,"mode":"possessive pronouns indicating ownership or relation","happy_windows":0,"windows":5,"scene":"ownership and relation"}
+{"neuron":6458,"pole":"low","cluster":1,"mode":"words indicating smallness or youth","happy_windows":0,"windows":5,"scene":"smallness and youth"}
+{"neuron":6458,"pole":"low","cluster":2,"mode":"definite articles indicating specific entities in narratives","happy_windows":0,"windows":5,"scene":"narrative context"}
+{"neuron":6458,"pole":"low","cluster":3,"mode":"verbs indicating actions or states of being","happy_windows":0,"windows":5,"scene":"actions and states of being"}
+{"neuron":6458,"pole":"low","cluster":4,"mode":"children expressing happiness and fun through actions and words","happy_windows":5,"windows":5,"scene":"children playing and having fun"}
+{"neuron":6458,"pole":"low","cluster":5,"mode":"children expressing happiness and fun through actions and words","happy_windows":5,"windows":5,"scene":"children playing and having fun"}
+{"neuron":6458,"pole":"low","cluster":6,"mode":"children expressing happiness and fun through actions and words","happy_windows":5,"windows":5,"scene":"children playing and having fun"}
+{"neuron":6549,"pole":"high","cluster":0,"mode":"family members and personal names","happy_windows":1,"windows":5,"scene":"family interactions and personal names"}
+{"neuron":6549,"pole":"high","cluster":1,"mode":"plural nouns indicating categories or variations","happy_windows":0,"windows":5,"scene":"categories and variations"}
+{"neuron":6549,"pole":"high","cluster":2,"mode":"verbs indicating motion and rotation","happy_windows":0,"windows":5,"scene":"motion and rotation"}
+{"neuron":6549,"pole":"high","cluster":3,"mode":"expressions of negative emotion and sadness","happy_windows":0,"windows":5,"scene":"negative emotions and sadness"}
+{"neuron":6549,"pole":"low","cluster":0,"mode":"nouns indicating objects or locations","happy_windows":0,"windows":5,"scene":"objects and locations"}
+{"neuron":6549,"pole":"low","cluster":1,"mode":"adverbs indicating shared activity or location","happy_windows":1,"windows":5,"scene":"shared activities and locations"}
+{"neuron":6765,"pole":"high","cluster":0,"mode":"definite articles and conjunctions in descriptive text","happy_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":6765,"pole":"high","cluster":1,"mode":"punctuation and simple narrative connectors","happy_windows":0,"windows":5,"scene":"simple narrative events"}
+{"neuron":6765,"pole":"high","cluster":2,"mode":"conjunctions and pronouns indicating actions or states","happy_windows":1,"windows":5,"scene":"narrative actions and states"}
+{"neuron":6765,"pole":"high","cluster":3,"mode":"historical terms and concepts","happy_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":6765,"pole":"high","cluster":4,"mode":"nouns indicating abstract concepts or processes","happy_windows":0,"windows":5,"scene":"abstract concepts and processes"}
+{"neuron":6765,"pole":"high","cluster":5,"mode":"nouns indicating objects or tools","happy_windows":0,"windows":5,"scene":"objects and tools"}
+{"neuron":6765,"pole":"low","cluster":0,"mode":"pronouns and conjunctions in simple narratives","happy_windows":1,"windows":5,"scene":"simple narrative events"}
+{"neuron":6765,"pole":"low","cluster":1,"mode":"verbs indicating perception or observation","happy_windows":0,"windows":5,"scene":"perception and observation"}
+{"neuron":7154,"pole":"high","cluster":0,"mode":"verbs indicating usage or action","happy_windows":0,"windows":5,"scene":"usage and action"}
+{"neuron":7154,"pole":"high","cluster":1,"mode":"proper nouns and abbreviations","happy_windows":0,"windows":5,"scene":"proper nouns and abbreviations"}
+{"neuron":7154,"pole":"high","cluster":2,"mode":"pronouns and conjunctions indicating abstract concepts","happy_windows":0,"windows":5,"scene":"abstract concepts"}
+{"neuron":7154,"pole":"high","cluster":3,"mode":"verbs and adverbs indicating states or actions","happy_windows":1,"windows":5,"scene":"states and actions"}
+{"neuron":7154,"pole":"low","cluster":0,"mode":"abbreviations and numbers","happy_windows":0,"windows":5,"scene":"abbreviations and numbers"}
+{"neuron":7154,"pole":"low","cluster":1,"mode":"conjunctions and relative pronouns","happy_windows":0,"windows":5,"scene":"conjunctions and relative pronouns"}
+{"neuron":7154,"pole":"low","cluster":2,"mode":"nouns indicating social groups or roles","happy_windows":0,"windows":5,"scene":"social groups and roles"}
+{"neuron":7154,"pole":"low","cluster":3,"mode":"past tense of 'to be' indicating a state or condition","happy_windows":0,"windows":5,"scene":"narrative description of states"}

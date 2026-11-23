@@ -1,0 +1,38 @@
+{"neuron":4856,"pole":"high","cluster":0,"mode":"Assistant provides helpful, positive, and encouraging responses to user queries.","scene_windows":0,"windows":5,"scene":"neutral, helpful assistant"}
+{"neuron":4856,"pole":"high","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4856,"pole":"low","cluster":0,"mode":"Quoted speech, often with an uncertain or questioning tone.","scene_windows":0,"windows":5,"scene":"dialogue, uncertain tone"}
+{"neuron":4856,"pole":"low","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4856,"pole":"low","cluster":2,"mode":"User asks a question, assistant provides a neutral, informative answer.","scene_windows":0,"windows":5,"scene":"neutral, informative exchange"}
+{"neuron":4856,"pole":"low","cluster":3,"mode":"User asks a question, assistant provides a neutral, informative answer.","scene_windows":0,"windows":5,"scene":"neutral, informative exchange"}
+{"neuron":4541,"pole":"high","cluster":0,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4541,"pole":"high","cluster":1,"mode":"Nouns related to specific topics like design, nutrition, and routes.","scene_windows":0,"windows":5,"scene":"neutral, descriptive text"}
+{"neuron":4541,"pole":"high","cluster":2,"mode":"Punctuation marks used at the end of sentences or clauses.","scene_windows":0,"windows":5,"scene":"neutral, informative text"}
+{"neuron":4541,"pole":"high","cluster":3,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4541,"pole":"low","cluster":0,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4541,"pole":"low","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9314,"pole":"low","cluster":0,"mode":"User asks a question, assistant provides a neutral, informative answer.","scene_windows":0,"windows":5,"scene":"neutral, informative exchange"}
+{"neuron":9314,"pole":"low","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1159,"pole":"high","cluster":0,"mode":"User asks a question, assistant provides a helpful, informative answer.","scene_windows":1,"windows":5,"scene":"harmful request, assistant declines"}
+{"neuron":1159,"pole":"high","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1159,"pole":"high","cluster":2,"mode":"User asks a question, assistant provides a helpful, informative answer.","scene_windows":0,"windows":5,"scene":"neutral, informative exchange"}
+{"neuron":1159,"pole":"low","cluster":0,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1159,"pole":"low","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1159,"pole":"low","cluster":2,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3046,"pole":"high","cluster":0,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3046,"pole":"high","cluster":1,"mode":"Punctuation marks used at the end of sentences or clauses.","scene_windows":0,"windows":5,"scene":"neutral, informative text"}
+{"neuron":6369,"pole":"high","cluster":0,"mode":"User asks a question, assistant provides a helpful, informative answer.","scene_windows":0,"windows":5,"scene":"neutral, informative exchange"}
+{"neuron":6369,"pole":"high","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6369,"pole":"high","cluster":2,"mode":"User asks a question, assistant provides a helpful, informative answer.","scene_windows":0,"windows":5,"scene":"neutral, informative exchange"}
+{"neuron":6369,"pole":"low","cluster":0,"mode":"Nouns related to specific topics like associations, churches, and CAD.","scene_windows":0,"windows":5,"scene":"neutral, descriptive text"}
+{"neuron":6369,"pole":"low","cluster":1,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6369,"pole":"low","cluster":2,"mode":"Punctuation marks used at the end of sentences or clauses.","scene_windows":0,"windows":5,"scene":"neutral, descriptive text"}
+{"neuron":8612,"pole":"high","cluster":0,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8612,"pole":"high","cluster":1,"mode":"User asks a question, assistant provides a neutral, informative answer.","scene_windows":0,"windows":5,"scene":"neutral, informative exchange"}
+{"neuron":8612,"pole":"low","cluster":0,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8612,"pole":"low","cluster":1,"mode":"Quoted speech, often with an uncertain or questioning tone.","scene_windows":0,"windows":5,"scene":"dialogue, uncertain tone"}
+{"neuron":5907,"pole":"high","cluster":0,"mode":"Quoted speech, often with an uncertain or questioning tone.","scene_windows":0,"windows":5,"scene":"dialogue, uncertain tone"}
+{"neuron":5907,"pole":"high","cluster":1,"mode":"Nouns related to specific topics like cancer, groups, and community.","scene_windows":0,"windows":5,"scene":"neutral, descriptive text"}
+{"neuron":5907,"pole":"high","cluster":2,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5907,"pole":"low","cluster":0,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5907,"pole":"low","cluster":1,"mode":"Nouns related to specific topics like documents, media, and Oregon.","scene_windows":0,"windows":5,"scene":"neutral, descriptive text"}
+{"neuron":5907,"pole":"low","cluster":2,"mode":"Pronouns referring to the subject of the sentence or clause.","scene_windows":0,"windows":5,"scene":"neutral narration"}

@@ -1,0 +1,72 @@
+{"neuron":713,"pole":"high","cluster":0,"mode":"Sympathetic 'I'm sorry' opening an assistant reply to a user problem","scene_windows":0,"windows":5,"scene":"Everyday help requests with empathetic assistant replies"}
+{"neuron":713,"pole":"high","cluster":1,"mode":"'low' in compound adjectives or 'low-profile' descriptive phrases","scene_windows":0,"windows":5,"scene":"Neutral news, science, and encyclopedic descriptions"}
+{"neuron":713,"pole":"high","cluster":2,"mode":"'Hmm' or 'Hm' starting an assistant reply to a question","scene_windows":0,"windows":5,"scene":"Casual recipe or recommendation questions answered by assistant"}
+{"neuron":713,"pole":"high","cluster":3,"mode":"'only' restricting what something includes or delivers","scene_windows":0,"windows":5,"scene":"Product marketing, diet info, and descriptive narration"}
+{"neuron":713,"pole":"high","cluster":4,"mode":"'However' starting a contrastive sentence after a positive statement","scene_windows":0,"windows":5,"scene":"Reports, project updates, and essay-style prose"}
+{"neuron":713,"pole":"high","cluster":5,"mode":"'small' modifying a group, place, or start-up","scene_windows":0,"windows":5,"scene":"Historical and organizational descriptions"}
+{"neuron":713,"pole":"high","cluster":6,"mode":"'strange' describing an unfamiliar place or experience","scene_windows":0,"windows":5,"scene":"Fiction narration about strange worlds and events"}
+{"neuron":713,"pole":"high","cluster":7,"mode":"Verbs of improving, succeeding, or increasing, before an object","scene_windows":0,"windows":5,"scene":"Advice and general descriptive text about progress"}
+{"neuron":713,"pole":"high","cluster":8,"mode":"Sentence-initial 'If' introducing a closing conditional offer","scene_windows":0,"windows":5,"scene":"Assistant advice ending with follow-up offers"}
+{"neuron":713,"pole":"low","cluster":0,"mode":"Modal 'can' or 'helped/are' in business and sustainability prose","scene_windows":0,"windows":5,"scene":"Business, energy, and organizational advice text"}
+{"neuron":713,"pole":"low","cluster":1,"mode":"'I hope' closing phrase in assistant reply","scene_windows":0,"windows":5,"scene":"Assistant wrapping up helpful answers with closing wishes"}
+{"neuron":4458,"pole":"high","cluster":0,"mode":"'down' after tears or liquids rolling down a face","scene_windows":0,"windows":5,"scene":"Emotional fiction describing tears and grief"}
+{"neuron":4458,"pole":"high","cluster":1,"mode":"'onto/on' after liquid or blood dripping onto a surface","scene_windows":0,"windows":5,"scene":"Fiction with blood, fluids, and physical action"}
+{"neuron":4458,"pole":"high","cluster":2,"mode":"Connectives and commas in mid-sentence of informational prose","scene_windows":0,"windows":5,"scene":"Expository text on health, environment, and education"}
+{"neuron":4458,"pole":"low","cluster":0,"mode":"Pronouns and prepositions in narrative reflection on feelings","scene_windows":0,"windows":5,"scene":"Character-focused fiction and reflective narration"}
+{"neuron":4458,"pole":"low","cluster":1,"mode":"'reliance on' phrase about reducing dependence on fossil fuels","scene_windows":0,"windows":5,"scene":"Renewable energy and sustainability descriptions"}
+{"neuron":317,"pole":"high","cluster":0,"mode":"Articles and conjunctions mid-sentence in narrative prose","scene_windows":0,"windows":5,"scene":"Fictional and historical narrative passages"}
+{"neuron":317,"pole":"high","cluster":1,"mode":"Colon after 'Human' in a dialogue turn","scene_windows":0,"windows":5,"scene":"Chat transcripts with user follow-up questions"}
+{"neuron":317,"pole":"low","cluster":0,"mode":"Period or 'that' at sentence ends in scholarly notes","scene_windows":0,"windows":5,"scene":"Academic footnotes and scholarly citations"}
+{"neuron":317,"pole":"low","cluster":1,"mode":"Assistant label token starting a reply in a chat","scene_windows":0,"windows":5,"scene":"Question-answer chats about topics like Target and Lion's Mane"}
+{"neuron":5904,"pole":"high","cluster":0,"mode":"Colon after 'assistant' label before reply","scene_windows":0,"windows":5,"scene":"Chat requests to add more details"}
+{"neuron":5904,"pole":"high","cluster":1,"mode":"'essential' in advice about necessary steps","scene_windows":0,"windows":5,"scene":"Marketing and planning advice guides"}
+{"neuron":5904,"pole":"high","cluster":2,"mode":"Hyphen separating items in a list of movie titles","scene_windows":0,"windows":5,"scene":"Movie recommendation lists"}
+{"neuron":5904,"pole":"high","cluster":3,"mode":"Period after a song number in a numbered list","scene_windows":0,"windows":5,"scene":"Song playlist recommendations"}
+{"neuron":5904,"pole":"high","cluster":4,"mode":"'Can' starting a user request","scene_windows":0,"windows":5,"scene":"User asking assistant for more information or changes"}
+{"neuron":5904,"pole":"high","cluster":5,"mode":"Date and possessive tokens in Assange legal timeline","scene_windows":0,"windows":5,"scene":"News-style narrative of Assange legal events"}
+{"neuron":5904,"pole":"high","cluster":6,"mode":"Colon with trailing spaces before a numbered list","scene_windows":0,"windows":5,"scene":"Assistant intros to enumerated lists of tips"}
+{"neuron":5904,"pole":"high","cluster":7,"mode":"Sentence-end period with spacing before numbered items","scene_windows":0,"windows":5,"scene":"Numbered advice lists on budgets and social"}
+{"neuron":5904,"pole":"high","cluster":8,"mode":"Blank space token before a new numbered tip","scene_windows":0,"windows":5,"scene":"Numbered tip lists on DIY, podcasts, and desks"}
+{"neuron":5904,"pole":"high","cluster":9,"mode":"Sentence-initial additive transitions like 'Additionally' or 'Also'","scene_windows":0,"windows":5,"scene":"Expository essays on floods, fruit, and desks"}
+{"neuron":5904,"pole":"high","cluster":10,"mode":"'you' after 'Can' or 'Could' in user requests","scene_windows":0,"windows":5,"scene":"User requests for more examples or summaries"}
+{"neuron":5904,"pole":"high","cluster":11,"mode":"Sentence-final period closing an informational sentence","scene_windows":0,"windows":5,"scene":"Essays and informational text on business and wildlife"}
+{"neuron":5904,"pole":"high","cluster":12,"mode":"Scattered content nouns and adjectives in prose","scene_windows":0,"windows":5,"scene":"Mixed narrative and informational sentences"}
+{"neuron":5904,"pole":"high","cluster":13,"mode":"Tokens in Capitol riot narrative about giving up","scene_windows":0,"windows":5,"scene":"News account of Republicans leaving the Capitol"}
+{"neuron":5904,"pole":"low","cluster":0,"mode":"Punctuation ending sentences in technical or news prose","scene_windows":0,"windows":5,"scene":"Technology, finance, and history descriptions"}
+{"neuron":5904,"pole":"low","cluster":1,"mode":"'https' token starting a URL in a referral","scene_windows":0,"windows":5,"scene":"Assistant suggesting websites for safety and vaccine info"}
+{"neuron":8349,"pole":"high","cluster":0,"mode":"End-of-turn punctuation followed by spaces before a new speaker","scene_windows":0,"windows":5,"scene":"Casual user-assistant chats on varied topics"}
+{"neuron":8349,"pole":"high","cluster":1,"mode":"'Assistant' label token starting a reply in a chat","scene_windows":0,"windows":5,"scene":"Q&A chats about flowers, music, books, careers"}
+{"neuron":8349,"pole":"high","cluster":2,"mode":"'Assistant' reply to an all-caps formatting request","scene_windows":0,"windows":5,"scene":"User asks to format text in all caps"}
+{"neuron":8349,"pole":"high","cluster":3,"mode":"'or' linking alternatives in advisory conditionals","scene_windows":0,"windows":5,"scene":"Advice on flooring, study validity, and products"}
+{"neuron":8349,"pole":"high","cluster":4,"mode":"Sentence-final period closing an assistant reply","scene_windows":0,"windows":5,"scene":"Assistant replies offering more info or follow-up"}
+{"neuron":8349,"pole":"low","cluster":0,"mode":"Sentence-opening words in list or conversational advice","scene_windows":0,"windows":5,"scene":"Mental health and recipe advice text"}
+{"neuron":8349,"pole":"low","cluster":1,"mode":"Blank indentation tokens between fiction paragraphs","scene_windows":0,"windows":5,"scene":"Fiction dialogue with paragraph breaks"}
+{"neuron":10243,"pole":"high","cluster":0,"mode":"Verb 'make' in the sense of cause or create","scene_windows":0,"windows":5,"scene":"Anecdotes and commentary about films and school"}
+{"neuron":10243,"pole":"high","cluster":1,"mode":"Opening quotation mark before a nickname or title","scene_windows":0,"windows":5,"scene":"Descriptions of nicknames, titles, and comic history"}
+{"neuron":10243,"pole":"high","cluster":2,"mode":"Adverbs or nouns ending a descriptive phrase","scene_windows":0,"windows":5,"scene":"Home care and fitness advice passages"}
+{"neuron":10243,"pole":"high","cluster":3,"mode":"Capitalization or formatting requests in user prompts","scene_windows":0,"windows":5,"scene":"User asking to format text in all caps"}
+{"neuron":10243,"pole":"low","cluster":0,"mode":"Comma after 'to everyone in town' in a repeated river story","scene_windows":0,"windows":5,"scene":"Folk-tale style story about a river's name"}
+{"neuron":10243,"pole":"low","cluster":1,"mode":"Verbs 'call' or 'refers' after 'as' or 'what' names","scene_windows":0,"windows":5,"scene":"Narrative describing nicknames and what people call someone"}
+{"neuron":10243,"pole":"low","cluster":2,"mode":"Pronoun after 'as' introducing a name or role","scene_windows":0,"windows":5,"scene":"Stories introducing characters by how they were called"}
+{"neuron":10243,"pole":"low","cluster":3,"mode":"Prepositions after naming verbs like 'known as' or 'under'","scene_windows":0,"windows":5,"scene":"Encyclopedic text on names, drugs, and history"}
+{"neuron":10243,"pole":"low","cluster":4,"mode":"Pronoun 'her' or 'identity' after 'define' or 'treat'","scene_windows":0,"windows":5,"scene":"Story about Anna's power and identity"}
+{"neuron":10243,"pole":"low","cluster":5,"mode":"'known' describing a person or place's reputation","scene_windows":0,"windows":5,"scene":"Historical and travel descriptions of known figures"}
+{"neuron":2750,"pole":"high","cluster":0,"mode":"'me' in a screenplay line of dialogue","scene_windows":0,"windows":5,"scene":"Western screenplay with marshal dialogue"}
+{"neuron":2750,"pole":"high","cluster":1,"mode":"'Dear' or greeting opening a drafted letter","scene_windows":0,"windows":5,"scene":"Assistant drafting letters or email templates"}
+{"neuron":2750,"pole":"high","cluster":2,"mode":"'No' opening a line of quoted dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue about phone calls and love"}
+{"neuron":2750,"pole":"high","cluster":3,"mode":"Comma after a name in direct address","scene_windows":0,"windows":5,"scene":"Emotional dialogue addressing a named character"}
+{"neuron":2750,"pole":"high","cluster":4,"mode":"Colon after 'assistant' label before a reply","scene_windows":0,"windows":5,"scene":"Chat requests for additions and advice"}
+{"neuron":2750,"pole":"high","cluster":5,"mode":"Closing parenthesis after a character cue in a screenplay","scene_windows":0,"windows":5,"scene":"Western screenplay stage directions"}
+{"neuron":2750,"pole":"high","cluster":6,"mode":"Opening quote mark introducing a quoted speech","scene_windows":0,"windows":5,"scene":"Anecdotes and historical quotes"}
+{"neuron":2750,"pole":"high","cluster":7,"mode":"Opening quote mark starting a character's spoken line","scene_windows":0,"windows":5,"scene":"Fiction with characters speaking after narration"}
+{"neuron":2750,"pole":"high","cluster":8,"mode":"'you' or 'please' after 'Can' in user requests","scene_windows":0,"windows":5,"scene":"User requests for lists, details, and romantic scenes"}
+{"neuron":2750,"pole":"high","cluster":9,"mode":"Determiners and modals mid-sentence in descriptive prose","scene_windows":0,"windows":5,"scene":"Technical and botanical descriptions"}
+{"neuron":2750,"pole":"high","cluster":10,"mode":"Comma after a short quoted speech tag","scene_windows":0,"windows":5,"scene":"Fiction dialogue with spoken lines"}
+{"neuron":2750,"pole":"low","cluster":0,"mode":"Sentence-initial 'This' or 'If' in spoken dialogue","scene_windows":0,"windows":5,"scene":"Casual dialogue about smoking, bars, and plans"}
+{"neuron":2750,"pole":"low","cluster":1,"mode":"'think' after 'I' in casual speech","scene_windows":0,"windows":5,"scene":"Dialogue among friends in a story"}
+{"neuron":2750,"pole":"low","cluster":2,"mode":"Opening quote mark starting a reply in dialogue","scene_windows":0,"windows":5,"scene":"Casual dialogue about partying and jokes"}
+{"neuron":2750,"pole":"low","cluster":3,"mode":"Sentence-initial 'If' in spoken or narrative conditionals","scene_windows":0,"windows":5,"scene":"Dialogue about plans, groups, and risks"}
+{"neuron":2750,"pole":"low","cluster":4,"mode":"Period ending a rebuke or exclamation in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with arguments and emotional lines"}
+{"neuron":2750,"pole":"low","cluster":5,"mode":"Prepositions after emotional or talking verbs","scene_windows":0,"windows":5,"scene":"Personal and reflective narratives about talking and conflict"}
+{"neuron":2750,"pole":"low","cluster":6,"mode":"Conjunctions and articles mid-phrase in descriptive prose","scene_windows":0,"windows":5,"scene":"Tea, filmmaking, and cooking descriptions"}
+{"neuron":2750,"pole":"low","cluster":7,"mode":"Opening quote mark starting a quoted statement","scene_windows":0,"windows":5,"scene":"News quotes from researchers and scientists"}

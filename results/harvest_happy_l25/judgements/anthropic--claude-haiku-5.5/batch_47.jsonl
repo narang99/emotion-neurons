@@ -1,0 +1,68 @@
+{"neuron":11217,"pole":"high","cluster":0,"mode":"Mid-sentence function words and nouns in ordinary narrative text","happy_windows":1,"windows":5,"scene":"Everyday children's stories and mixed expository narration"}
+{"neuron":11217,"pole":"high","cluster":1,"mode":"Mid-token splits in code, technical prose and tokenized words","happy_windows":0,"windows":5,"scene":"Programming, technical writing and mixed-topic text"}
+{"neuron":11217,"pole":"low","cluster":0,"mode":"Sentence starts after 'From that day on' in moral-lesson story endings","happy_windows":0,"windows":5,"scene":"Children's stories ending with reflective lessons"}
+{"neuron":11217,"pole":"low","cluster":1,"mode":"Words in news and factual prose about politics, industry and society","happy_windows":0,"windows":5,"scene":"News reporting and factual historical or political writing"}
+{"neuron":11217,"pole":"low","cluster":2,"mode":"Emotion adjectives (happy, sad, pleased) describing characters' feelings","happy_windows":2,"windows":5,"scene":"Children's stories with characters' mixed emotions"}
+{"neuron":9369,"pole":"high","cluster":0,"mode":"Narrative tokens after a warm bond or happy turn in a story","happy_windows":2,"windows":5,"scene":"Stories about a girl and her dog, gentle moments"}
+{"neuron":9369,"pole":"high","cluster":1,"mode":"Punctuation and words in user-assistant replies praising content","happy_windows":1,"windows":5,"scene":"Chat exchanges giving praise and feedback"}
+{"neuron":9369,"pole":"low","cluster":0,"mode":"Connectives and verbs in advice and tips about work and habits","happy_windows":0,"windows":5,"scene":"Advice articles on writing, marketing and habits"}
+{"neuron":9369,"pole":"low","cluster":1,"mode":"Mid-word fragments and tokens in encyclopedic or neutral descriptions","happy_windows":0,"windows":5,"scene":"Encyclopedic and descriptive factual text"}
+{"neuron":9369,"pole":"low","cluster":2,"mode":"Sentence-final punctuation after emotional character actions","happy_windows":3,"windows":5,"scene":"Children's stories with characters smiling and excited"}
+{"neuron":9369,"pole":"low","cluster":3,"mode":"The verb 'smiled' or 'hopped' after a character's reaction","happy_windows":3,"windows":5,"scene":"Short children's stories with friendly reactions"}
+{"neuron":9369,"pole":"low","cluster":4,"mode":"The verb 'said' after a parent's dialogue","happy_windows":1,"windows":5,"scene":"Parent-child dialogue in children's stories"}
+{"neuron":4624,"pole":"high","cluster":0,"mode":"Numeric quantities in recipe ingredient lists, before units","happy_windows":0,"windows":5,"scene":"Cooking recipes and ingredient lists"}
+{"neuron":4624,"pole":"high","cluster":1,"mode":"Tokens after excitement or happiness words, in children's stories about surprises and delight","happy_windows":4,"windows":5,"scene":"Children discovering toys, meeting fairies, playful surprises"}
+{"neuron":4624,"pole":"high","cluster":2,"mode":"Name fragments and proper-noun tokens in encyclopedic or news-style factual text","happy_windows":0,"windows":5,"scene":"Encyclopedic, historical, and business factual text"}
+{"neuron":4624,"pole":"low","cluster":0,"mode":"The adjective 'big' in story openings describing a location or object","happy_windows":0,"windows":5,"scene":"Neutral children's story openings and setting descriptions"}
+{"neuron":4624,"pole":"low","cluster":1,"mode":"'and' joining descriptive adjectives or clauses in neutral narration","happy_windows":1,"windows":5,"scene":"Mostly neutral narration, descriptions, and some dialogue"}
+{"neuron":4624,"pole":"low","cluster":2,"mode":"'little' in the stock story opening 'Once upon a time, there was a little'","happy_windows":0,"windows":5,"scene":"Neutral children's story openings introducing a character"}
+{"neuron":9527,"pole":"high","cluster":0,"mode":"Pronouns and infinitives during characters' determined actions","happy_windows":0,"windows":5,"scene":"Children's stories about trying, digging and playing"}
+{"neuron":9527,"pole":"high","cluster":1,"mode":"Physical or spatial words in tense, playful moments","happy_windows":1,"windows":5,"scene":"Playground chases, tight fits and suspenseful scenes"}
+{"neuron":9527,"pole":"high","cluster":2,"mode":"Numbers and quantifiers in statistics and factual claims","happy_windows":0,"windows":5,"scene":"Statistics and factual news reporting"}
+{"neuron":9527,"pole":"high","cluster":3,"mode":"Dialogue punctuation and conjunctions in cheerful child exchanges","happy_windows":3,"windows":5,"scene":"Children happily talking, helping and playing"}
+{"neuron":9527,"pole":"high","cluster":4,"mode":"Sentence-final periods after 'so happy' or celebratory endings","happy_windows":5,"windows":5,"scene":"Story endings with characters celebrating and happy"}
+{"neuron":9527,"pole":"low","cluster":0,"mode":"Concrete nouns describing objects and nature in calm narration","happy_windows":2,"windows":5,"scene":"Gentle outdoor scenes with kites, boats and sunshine"}
+{"neuron":9527,"pole":"low","cluster":1,"mode":"Pronouns in dialogue about guilt, wrongdoing or mild emotion","happy_windows":1,"windows":5,"scene":"Children's moral dilemmas with parents"}
+{"neuron":9527,"pole":"low","cluster":2,"mode":"Nouns and adjectives in online debates and commentary","happy_windows":0,"windows":5,"scene":"Online forum discussion and commentary"}
+{"neuron":9527,"pole":"low","cluster":3,"mode":"Subject pronoun 'She' starting sentences in opening story lines","happy_windows":1,"windows":5,"scene":"Story openings introducing a little girl"}
+{"neuron":9527,"pole":"low","cluster":4,"mode":"The infinitive 'to' after 'loved' or 'liked' in story openings","happy_windows":2,"windows":5,"scene":"Story openings about a child's favorite activities"}
+{"neuron":8279,"pole":"high","cluster":0,"mode":"Pronoun subjects after a character's emotional state changes","happy_windows":3,"windows":5,"scene":"Children's stories about a boy or girl having fun"}
+{"neuron":8279,"pole":"high","cluster":1,"mode":"The verb 'wanted' or 'want' in story openings","happy_windows":0,"windows":5,"scene":"Children's story openings about desires"}
+{"neuron":8279,"pole":"low","cluster":0,"mode":"The verb 'knew' after a character realizes something","happy_windows":0,"windows":5,"scene":"Stories about realizations and lessons learned"}
+{"neuron":8279,"pole":"low","cluster":1,"mode":"Emotion adjectives 'safe' and 'happy' describing feelings","happy_windows":3,"windows":5,"scene":"Children feeling cozy, content or happy after events"}
+{"neuron":8279,"pole":"low","cluster":2,"mode":"Abstract nouns and verbs in essays on society and economics","happy_windows":0,"windows":5,"scene":"Essays on economics, education and society"}
+{"neuron":3805,"pole":"high","cluster":0,"mode":"Exclamation or period after user praise in chat replies","happy_windows":2,"windows":5,"scene":"Chat exchanges with enthusiastic user praise"}
+{"neuron":3805,"pole":"high","cluster":1,"mode":"The verb 'loved' or 'liked' in story openings","happy_windows":3,"windows":5,"scene":"Story openings about characters loving favorite pastimes"}
+{"neuron":3805,"pole":"high","cluster":2,"mode":"Adjectives and nouns about happiness and cleanliness","happy_windows":2,"windows":5,"scene":"Stories of characters feeling happy and proud"}
+{"neuron":3805,"pole":"high","cluster":3,"mode":"The speech verb 'said' or 'says' after a character's line","happy_windows":2,"windows":5,"scene":"Children's dialogue during playful or excited moments"}
+{"neuron":3805,"pole":"high","cluster":4,"mode":"Exclamation or question marks ending short dialogue lines","happy_windows":2,"windows":5,"scene":"Short family and friend dialogue in stories"}
+{"neuron":3805,"pole":"high","cluster":5,"mode":"Proper-name fragments and place nouns in news and bios","happy_windows":0,"windows":5,"scene":"News, biographies and institutional reporting"}
+{"neuron":3805,"pole":"low","cluster":0,"mode":"The intensifier 'so' before an emotion adjective","happy_windows":4,"windows":5,"scene":"Stories of characters becoming happy or excited"}
+{"neuron":3805,"pole":"low","cluster":1,"mode":"The comma after 'One day' in story openings","happy_windows":0,"windows":5,"scene":"Children's story openings with a setup of daily life"}
+{"neuron":3805,"pole":"low","cluster":2,"mode":"Dialogue punctuation in playful or scolding exchanges","happy_windows":1,"windows":5,"scene":"Kids' dialogue with teasing, scolding or surprise"}
+{"neuron":3805,"pole":"low","cluster":3,"mode":"Periods and commas closing short dialogue lines","happy_windows":1,"windows":5,"scene":"Brief children's conversations about sharing and promises"}
+{"neuron":3805,"pole":"low","cluster":4,"mode":"Emotion adjectives 'happy' and 'sad' after 'was' or 'so'","happy_windows":2,"windows":5,"scene":"Children's stories with mixed happy and sad moods"}
+{"neuron":3805,"pole":"low","cluster":5,"mode":"Setting nouns like beach or playground in story sentences","happy_windows":1,"windows":5,"scene":"Children's stories set at outdoor play places"}
+{"neuron":3805,"pole":"low","cluster":6,"mode":"The verb 'smiled' in warm reaction moments","happy_windows":4,"windows":5,"scene":"Stories of characters smiling after kind moments"}
+{"neuron":3532,"pole":"high","cluster":0,"mode":"Perception verbs 'saw' or 'noticed' in story actions","happy_windows":0,"windows":5,"scene":"Animal and child story moments of noticing things"}
+{"neuron":3532,"pole":"high","cluster":1,"mode":"Conjunctions and punctuation in recipe instructions","happy_windows":0,"windows":5,"scene":"Cooking recipe instructions"}
+{"neuron":3532,"pole":"high","cluster":2,"mode":"Sentence-final periods after characters' actions or excitement","happy_windows":2,"windows":5,"scene":"Stories of animals and children having fun outdoors"}
+{"neuron":3532,"pole":"high","cluster":3,"mode":"Name and pronoun subjects in warm, happy story moments","happy_windows":4,"windows":5,"scene":"Children sharing joy, smiles and pride"}
+{"neuron":3532,"pole":"high","cluster":4,"mode":"The conjunction 'and' after a character's gesture","happy_windows":1,"windows":5,"scene":"Story moments of characters pointing or looking around"}
+{"neuron":3532,"pole":"high","cluster":5,"mode":"Place and institution name fragments in local news","happy_windows":0,"windows":5,"scene":"Local news and university announcements"}
+{"neuron":3532,"pole":"high","cluster":6,"mode":"Medical terms and clinical guideline wording","happy_windows":0,"windows":5,"scene":"Clinical and medical guideline text"}
+{"neuron":3532,"pole":"low","cluster":0,"mode":"Verbs and pronouns in medical advice about treatment","happy_windows":0,"windows":5,"scene":"Medical advice on heart disease and treatment"}
+{"neuron":3532,"pole":"low","cluster":1,"mode":"Determiners in discussion of religion and government policy","happy_windows":0,"windows":5,"scene":"Reports on religious policy and government"}
+{"neuron":3532,"pole":"low","cluster":2,"mode":"Technical nouns and punctuation in software product descriptions","happy_windows":0,"windows":5,"scene":"Software and technology product descriptions"}
+{"neuron":3532,"pole":"low","cluster":3,"mode":"Possessives and objects after a character's physical action","happy_windows":0,"windows":5,"scene":"Everyday family moments with mild scolding"}
+{"neuron":3532,"pole":"low","cluster":4,"mode":"Adjectives and verbs in expository or adventure narration","happy_windows":0,"windows":5,"scene":"Expository and adventure narration"}
+{"neuron":3532,"pole":"low","cluster":5,"mode":"Auxiliary verbs and determiners in historical descriptions","happy_windows":0,"windows":5,"scene":"Historical and biographical descriptions"}
+{"neuron":1524,"pole":"high","cluster":0,"mode":"The colon after 'assistant' in chat replies","happy_windows":0,"windows":5,"scene":"User-assistant chat requests and answers"}
+{"neuron":1524,"pole":"high","cluster":1,"mode":"The 'assistant' label starting a reply to a question","happy_windows":0,"windows":5,"scene":"Question-and-answer chat about health and work"}
+{"neuron":1524,"pole":"high","cluster":2,"mode":"Mid-sentence tokens in narrative about a character's feelings, power, or actions","happy_windows":1,"windows":5,"scene":"Character stories with mixed emotions and everyday activities"}
+{"neuron":1524,"pole":"high","cluster":3,"mode":"The 'user' or 'assistant' turn-label token following a prior assistant reply","happy_windows":0,"windows":5,"scene":"Informational chatbot conversations about topics and tips"}
+{"neuron":1524,"pole":"low","cluster":0,"mode":"Speech-tag punctuation and name tokens in short dialogue exchanges","happy_windows":1,"windows":5,"scene":"Short children's dialogues, some resolving with smiles"}
+{"neuron":1524,"pole":"low","cluster":1,"mode":"Sentence-ending periods closing early sentences of children's story openings","happy_windows":0,"windows":5,"scene":"Neutral children's story openings about characters and routines"}
+{"neuron":1524,"pole":"low","cluster":2,"mode":"Digits and name fragments inside citations, dates, and technical product text","happy_windows":0,"windows":5,"scene":"Bibliographic citations, technical and product descriptions"}
+{"neuron":1524,"pole":"low","cluster":3,"mode":"Cognitive and attitude verbs like knew, thought, hope after a character subject","happy_windows":0,"windows":5,"scene":"Short stories about characters' thoughts and realizations"}
+{"neuron":1524,"pole":"low","cluster":4,"mode":"Abstract nouns and phrase endings in critique, feedback, and reflective prose","happy_windows":0,"windows":5,"scene":"Writing feedback exchanges and reflective personal essays"}

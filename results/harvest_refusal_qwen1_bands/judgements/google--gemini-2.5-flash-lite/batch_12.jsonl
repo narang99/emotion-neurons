@@ -1,0 +1,70 @@
+{"neuron":8789,"pole":"high","cluster":0,"mode":"examples of things such as organic cotton, images, or high-intensity interval training","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":1,"mode":"dialogue with quoted speech, often starting with a quotation mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":2,"mode":"examples of things such as steroids, long-term care, or coding-centered activities","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":3,"mode":"examples of things such as solar, wind, or compound semiconductor technologies","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":4,"mode":"phrases indicating a continuation or transition, often ending with a comma","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":5,"mode":"phrases indicating a discovery or observation, often ending with a period","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":6,"mode":"questions about identity or purpose, often ending with a question mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":7,"mode":"phrases indicating a state of being or existence, often ending with a period","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"high","cluster":8,"mode":"questions about intent or action, often ending with a question mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":0,"mode":"assistant responses to user questions, often starting with 'I can'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":1,"mode":"quoted speech, often starting with a quotation mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":2,"mode":"phrases indicating a source or basis for information, often ending with a colon","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":3,"mode":"questions seeking clarification or further information, often ending with a question mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":4,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":5,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":6,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":7,"mode":"phrases indicating good wishes or encouragement, often ending with an exclamation mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":8,"mode":"quoted speech, often starting with a quotation mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":9,"mode":"phrases indicating a pause or continuation, often ending with four spaces","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":10,"mode":"phrases indicating a sigh or resignation, often ending with a period","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":11,"mode":"phrases indicating definition or explanation, often ending with 'means'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":12,"mode":"phrases indicating clarification or explanation, often using 'i.e.'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":13,"mode":"comparisons using 'as' or 'than', often indicating a degree of difference","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":14,"mode":"phrases indicating addition or inclusion, often using 'and'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8789,"pole":"low","cluster":15,"mode":"phrases indicating a consequence or result, often ending with a comma","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":0,"mode":"dialogue with quoted speech, often ending with four spaces","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":1,"mode":"phrases indicating a recommendation or suggestion, often ending with a space","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":2,"mode":"examples of things such as brain training apps, vegetables, or accent colors","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":3,"mode":"phrases indicating a consequence or result, often ending with a space","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":4,"mode":"phrases indicating a purpose or goal, often ending with a space","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":5,"mode":"examples of functions or components, often separated by a hyphen","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":6,"mode":"examples of toppings or sauces, often separated by a colon","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"high","cluster":7,"mode":"phrases indicating possibility or condition, often using 'can' or 'that'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"low","cluster":0,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"low","cluster":1,"mode":"dialogue with quoted speech, often ending with four spaces","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"low","cluster":2,"mode":"assistant responses to user questions, often starting with 'assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"low","cluster":3,"mode":"phrases indicating a question or uncertainty, often ending with a question mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"low","cluster":4,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"low","cluster":5,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3481,"pole":"low","cluster":6,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9542,"pole":"high","cluster":0,"mode":"phrases indicating completion or a state after an event, often ending with 'is'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9542,"pole":"high","cluster":1,"mode":"phrases indicating a transition or change, often using 'go'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9542,"pole":"low","cluster":0,"mode":"phrases indicating a transaction or agreement, often using 'deal' or 'leader'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9542,"pole":"low","cluster":1,"mode":"phrases indicating a person or title, often using 'Dr.'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"high","cluster":0,"mode":"phrases indicating a fall or collapse, often ending with 'ground'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"high","cluster":1,"mode":"phrases indicating being caught or pulled, often using 'him' or 'her'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"high","cluster":2,"mode":"phrases indicating a process or combination, often using 'and'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"high","cluster":3,"mode":"phrases indicating a fatal event, often ending with 'heart' or 'chest'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"low","cluster":0,"mode":"phrases indicating a portion or amount, often using 'serving'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"low","cluster":1,"mode":"phrases indicating addition or accompaniment, often using 'with'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"low","cluster":2,"mode":"phrases indicating a subject or object, often using 'the'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7461,"pole":"low","cluster":3,"mode":"verbs indicating an action, often using 'rub' or 'massage'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2575,"pole":"high","cluster":0,"mode":"phrases indicating continuation or a state of being, often using 'and' or 'but'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2575,"pole":"high","cluster":1,"mode":"phrases indicating self-reference or belief, often using 'I'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2575,"pole":"low","cluster":0,"mode":"phrases indicating direction or purpose, often using 'up' or 'to'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2575,"pole":"low","cluster":1,"mode":"assistant responses to user questions, often starting with 'Assistant:'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6810,"pole":"high","cluster":0,"mode":"phrases indicating a danger or threat, often using 'they' or 'be'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6810,"pole":"high","cluster":1,"mode":"phrases indicating purpose or accompaniment, often using 'to' or 'with'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6810,"pole":"high","cluster":2,"mode":"phrases indicating refusal or inability to support, often using 'support'","scene_windows":5,"windows":5,"scene":"refusal of harmful request"}
+{"neuron":6810,"pole":"low","cluster":0,"mode":"phrases indicating seriousness or importance, often using 'business'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6810,"pole":"low","cluster":1,"mode":"phrases indicating control or conformity, often using 'over' or 'and'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6810,"pole":"low","cluster":2,"mode":"phrases indicating necessity or obligation, often using 'to'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":887,"pole":"high","cluster":0,"mode":"dialogue with quoted speech, often starting with a quotation mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":887,"pole":"high","cluster":1,"mode":"phrases indicating regret or obligation, often using 'should'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":887,"pole":"high","cluster":2,"mode":"assistant responses to user questions, often starting with 'I'","scene_windows":0,"windows":5,"scene":"refusal of harmful request"}
+{"neuron":887,"pole":"high","cluster":3,"mode":"phrases indicating negation or uncertainty, often using 'don't'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":887,"pole":"high","cluster":4,"mode":"phrases indicating possession or reference, often using 'your' or 'me'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":887,"pole":"high","cluster":5,"mode":"phrases indicating self-reference or assertion, often using 'I'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":887,"pole":"low","cluster":0,"mode":"phrases indicating self-reference or possession, often using 'I' or 'your'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":887,"pole":"low","cluster":1,"mode":"phrases indicating affirmation or recommendation, often using 'definitely' or 'certainly'","scene_windows":0,"windows":5,"scene":"neutral narration"}

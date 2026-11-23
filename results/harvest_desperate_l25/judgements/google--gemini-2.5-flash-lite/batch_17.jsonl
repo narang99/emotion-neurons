@@ -1,0 +1,53 @@
+{"neuron":1080,"pole":"high","cluster":0,"mode":"looking at something, turning towards it, or observing it","scene_windows":0,"windows":5,"scene":"neutral observation"}
+{"neuron":1080,"pole":"high","cluster":1,"mode":"speaking, replying, or thinking a statement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1080,"pole":"low","cluster":0,"mode":"doing something, or not doing it","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1080,"pole":"low","cluster":1,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10022,"pole":"high","cluster":0,"mode":"ending a sentence or phrase with punctuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10022,"pole":"high","cluster":1,"mode":"starting a story with 'Once upon a time, there was'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10022,"pole":"low","cluster":0,"mode":"referring to specific parts of texts or chapters","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10022,"pole":"low","cluster":1,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10022,"pole":"low","cluster":2,"mode":"referring to numbers, percentages, or data","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6352,"pole":"high","cluster":0,"mode":"starting a story with 'Once upon a time, there was'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6352,"pole":"high","cluster":1,"mode":"describing a past state of being","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6352,"pole":"high","cluster":2,"mode":"describing an action performed","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6352,"pole":"low","cluster":0,"mode":"smiling or adjusting to a situation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6352,"pole":"low","cluster":1,"mode":"saying something","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"high","cluster":0,"mode":"connecting clauses or phrases with 'and'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"high","cluster":1,"mode":"ending a sentence or phrase with punctuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":0,"mode":"referring to places or institutions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":1,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":2,"mode":"referring to a place or context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":3,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":4,"mode":"smiling","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":5,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":6,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":7,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":8,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":9,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5663,"pole":"low","cluster":10,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11961,"pole":"high","cluster":0,"mode":"referring to specific words or phrases","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11961,"pole":"high","cluster":1,"mode":"referring to food items or ingredients","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11961,"pole":"high","cluster":2,"mode":"referring to years or numbers","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11961,"pole":"high","cluster":3,"mode":"referring to medical terms or procedures","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11961,"pole":"high","cluster":4,"mode":"referring to places or regions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11961,"pole":"low","cluster":0,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11961,"pole":"low","cluster":1,"mode":"referring to substances or materials","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":865,"pole":"high","cluster":0,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":865,"pole":"high","cluster":1,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":865,"pole":"low","cluster":0,"mode":"referring to nationalities or regions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":865,"pole":"low","cluster":1,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"high","cluster":0,"mode":"negating an action or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"high","cluster":1,"mode":"referring to female names","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"high","cluster":2,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"high","cluster":3,"mode":"asking a question","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"high","cluster":4,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"high","cluster":5,"mode":"negating an action or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"low","cluster":0,"mode":"referring to a group or place","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"low","cluster":1,"mode":"asking a question","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11539,"pole":"low","cluster":2,"mode":"referring to a place or context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"high","cluster":0,"mode":"connecting clauses or phrases with 'and'","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"high","cluster":1,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":0,"mode":"referring to names or abbreviations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":1,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":2,"mode":"referring to a place or context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2411,"pole":"low","cluster":3,"mode":"referring to a person or thing","scene_windows":0,"windows":5,"scene":"neutral narration"}

@@ -1,0 +1,70 @@
+{"neuron":278,"pole":"high","cluster":0,"mode":"expressing agreement or disagreement with justifications","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":278,"pole":"high","cluster":1,"mode":"describing goals as clear and legitimate","scene_windows":0,"windows":5,"scene":"political discussion"}
+{"neuron":278,"pole":"low","cluster":0,"mode":"dialogue attribution in fictional narratives","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":278,"pole":"low","cluster":1,"mode":"dialogue attribution in fictional narratives","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":278,"pole":"low","cluster":2,"mode":"describing past events and actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":278,"pole":"low","cluster":3,"mode":"dialogue attribution with exclamations","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":247,"pole":"high","cluster":0,"mode":"describing clinical trials for medical treatments","scene_windows":0,"windows":5,"scene":"medical research"}
+{"neuron":247,"pole":"high","cluster":1,"mode":"describing randomized, placebo-controlled studies","scene_windows":0,"windows":5,"scene":"medical research"}
+{"neuron":247,"pole":"high","cluster":2,"mode":"listing goals of clinical trials","scene_windows":0,"windows":5,"scene":"medical research"}
+{"neuron":247,"pole":"high","cluster":3,"mode":"describing randomized, double-blind studies","scene_windows":0,"windows":5,"scene":"medical research"}
+{"neuron":247,"pole":"high","cluster":4,"mode":"describing clinical trials and research projects","scene_windows":0,"windows":5,"scene":"medical research"}
+{"neuron":247,"pole":"high","cluster":5,"mode":"describing preclinical development of vaccines","scene_windows":0,"windows":5,"scene":"medical research"}
+{"neuron":247,"pole":"high","cluster":6,"mode":"describing participation in medical studies","scene_windows":0,"windows":5,"scene":"medical research"}
+{"neuron":247,"pole":"high","cluster":7,"mode":"connecting concepts and fostering understanding","scene_windows":0,"windows":5,"scene":"educational context"}
+{"neuron":247,"pole":"high","cluster":8,"mode":"expressing interest in learning more","scene_windows":0,"windows":5,"scene":"medical information"}
+{"neuron":247,"pole":"low","cluster":0,"mode":"asking for recommendations or advice","scene_windows":0,"windows":5,"scene":"seeking advice"}
+{"neuron":247,"pole":"low","cluster":1,"mode":"stating the importance of actions or conditions","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":247,"pole":"low","cluster":2,"mode":"reporting findings from studies","scene_windows":0,"windows":5,"scene":"reporting research"}
+{"neuron":247,"pole":"low","cluster":3,"mode":"describing the use of medical terms","scene_windows":0,"windows":5,"scene":"medical context"}
+{"neuron":247,"pole":"low","cluster":4,"mode":"describing research and studies","scene_windows":0,"windows":5,"scene":"research context"}
+{"neuron":247,"pole":"low","cluster":5,"mode":"stating the importance of actions or conditions","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":8008,"pole":"high","cluster":0,"mode":"discussing societal interest in zombies","scene_windows":0,"windows":5,"scene":"sociological discussion"}
+{"neuron":8008,"pole":"high","cluster":1,"mode":"defining concepts and providing summaries","scene_windows":0,"windows":5,"scene":"explaining concepts"}
+{"neuron":8008,"pole":"high","cluster":2,"mode":"offering suggestions and ideas","scene_windows":0,"windows":5,"scene":"giving suggestions"}
+{"neuron":8008,"pole":"low","cluster":0,"mode":"offering further assistance or information","scene_windows":0,"windows":5,"scene":"offering help"}
+{"neuron":8008,"pole":"low","cluster":1,"mode":"connecting concepts with conjunctions","scene_windows":0,"windows":5,"scene":"explaining relationships"}
+{"neuron":8008,"pole":"low","cluster":2,"mode":"describing characteristics and processes","scene_windows":0,"windows":5,"scene":"describing attributes"}
+{"neuron":8008,"pole":"low","cluster":3,"mode":"discussing general concepts and frameworks","scene_windows":0,"windows":5,"scene":"general discussion"}
+{"neuron":8008,"pole":"low","cluster":4,"mode":"discussing origins and classifications","scene_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":8055,"pole":"high","cluster":0,"mode":"giving cooking advice and reminders","scene_windows":0,"windows":5,"scene":"cooking instructions"}
+{"neuron":8055,"pole":"high","cluster":1,"mode":"stating the importance of remembering conditions","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":8055,"pole":"high","cluster":2,"mode":"offering assistance and suggestions","scene_windows":0,"windows":5,"scene":"offering help"}
+{"neuron":8055,"pole":"high","cluster":3,"mode":"offering further assistance and politeness","scene_windows":0,"windows":5,"scene":"polite interaction"}
+{"neuron":8055,"pole":"high","cluster":4,"mode":"expressing apologies and gratitude","scene_windows":0,"windows":5,"scene":"polite interaction"}
+{"neuron":8055,"pole":"high","cluster":5,"mode":"offering contrasting information with conjunctions","scene_windows":0,"windows":5,"scene":"providing options"}
+{"neuron":8055,"pole":"high","cluster":6,"mode":"emphasizing the importance of actions","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":8055,"pole":"high","cluster":7,"mode":"presenting controversial or nuanced viewpoints","scene_windows":0,"windows":5,"scene":"presenting opinions"}
+{"neuron":8055,"pole":"low","cluster":0,"mode":"advising against potentially harmful actions","scene_windows":5,"windows":5,"scene":"harmful request refusal"}
+{"neuron":8055,"pole":"low","cluster":1,"mode":"recommending against certain cleaning methods","scene_windows":5,"windows":5,"scene":"harmful request refusal"}
+{"neuron":8055,"pole":"low","cluster":2,"mode":"advising best practices for plant care","scene_windows":0,"windows":5,"scene":"gardening advice"}
+{"neuron":8055,"pole":"low","cluster":3,"mode":"recommending specific approaches or methods","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":8055,"pole":"low","cluster":4,"mode":"advising general preferences or best practices","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":8055,"pole":"low","cluster":5,"mode":"offering contrasting information with conjunctions","scene_windows":0,"windows":5,"scene":"providing options"}
+{"neuron":8055,"pole":"low","cluster":6,"mode":"advising professional consultation for specific tasks","scene_windows":0,"windows":5,"scene":"seeking professional help"}
+{"neuron":8055,"pole":"low","cluster":7,"mode":"describing processes and adherence to rules","scene_windows":0,"windows":5,"scene":"procedural explanation"}
+{"neuron":8055,"pole":"low","cluster":8,"mode":"advising against potentially harmful actions","scene_windows":5,"windows":5,"scene":"harmful request refusal"}
+{"neuron":86,"pole":"high","cluster":0,"mode":"stating inability to provide specific recommendations","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":86,"pole":"high","cluster":1,"mode":"stating inability to access specific information","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":86,"pole":"high","cluster":2,"mode":"stating difficulty in giving recommendations","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":86,"pole":"high","cluster":3,"mode":"stating difficulty in giving recommendations","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":86,"pole":"high","cluster":4,"mode":"stating truth or possibility","scene_windows":0,"windows":5,"scene":"stating facts"}
+{"neuron":86,"pole":"high","cluster":5,"mode":"stating inability to access information","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":86,"pole":"high","cluster":6,"mode":"discussing contentious and controversial topics","scene_windows":0,"windows":5,"scene":"controversial discussion"}
+{"neuron":86,"pole":"high","cluster":7,"mode":"asking clarifying questions","scene_windows":0,"windows":5,"scene":"seeking clarification"}
+{"neuron":86,"pole":"low","cluster":0,"mode":"expressing inability to remember","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":86,"pole":"low","cluster":1,"mode":"expressing surprise or disbelief","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":86,"pole":"low","cluster":2,"mode":"assistant providing advice","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":86,"pole":"low","cluster":3,"mode":"listing tasks or actions","scene_windows":0,"windows":5,"scene":"listing actions"}
+{"neuron":86,"pole":"low","cluster":4,"mode":"expressing personal knowledge or experience","scene_windows":0,"windows":5,"scene":"personal statement"}
+{"neuron":86,"pole":"low","cluster":5,"mode":"describing processes and adherence to rules","scene_windows":0,"windows":5,"scene":"procedural explanation"}
+{"neuron":86,"pole":"low","cluster":6,"mode":"advising healthy habits and practices","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":8172,"pole":"high","cluster":0,"mode":"referring to specific elements within a system","scene_windows":0,"windows":5,"scene":"technical instructions"}
+{"neuron":8172,"pole":"high","cluster":1,"mode":"asking clarifying questions","scene_windows":0,"windows":5,"scene":"seeking clarification"}
+{"neuron":8172,"pole":"low","cluster":0,"mode":"offering affirmative responses and examples","scene_windows":0,"windows":5,"scene":"providing information"}
+{"neuron":8172,"pole":"low","cluster":1,"mode":"stating inability to access specific information","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":8172,"pole":"low","cluster":2,"mode":"asking clarifying questions","scene_windows":0,"windows":5,"scene":"seeking clarification"}
+{"neuron":8172,"pole":"low","cluster":3,"mode":"asking clarifying questions","scene_windows":0,"windows":5,"scene":"seeking clarification"}
+{"neuron":8172,"pole":"low","cluster":4,"mode":"stating inability to provide specific recommendations","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":8172,"pole":"low","cluster":5,"mode":"stating inability to access information","scene_windows":0,"windows":5,"scene":"assistant limitations"}
+{"neuron":8172,"pole":"low","cluster":6,"mode":"describing processes and adherence to rules","scene_windows":0,"windows":5,"scene":"procedural explanation"}

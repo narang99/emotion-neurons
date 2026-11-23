@@ -1,0 +1,52 @@
+{"neuron":5083,"pole":"high","cluster":0,"mode":"Mid-sentence tokens in food, recipe, and cooking descriptions, with some gentle delight","happy_windows":1,"windows":5,"scene":"Recipe blurbs and a child's garden discovery"}
+{"neuron":5083,"pole":"high","cluster":1,"mode":"Comma after the story opener 'Once upon a time'","happy_windows":0,"windows":5,"scene":"Story openings introducing a character"}
+{"neuron":5083,"pole":"low","cluster":0,"mode":"Quotation marks opening dialogue after sharing, thanks, or warnings","happy_windows":2,"windows":5,"scene":"Kids sharing, thanking, and talking in stories"}
+{"neuron":5083,"pole":"low","cluster":1,"mode":"Motion and play verbs (walk, swam, running, outside) in outings","happy_windows":4,"windows":5,"scene":"Playful outings, swimming, and exploring outdoors"}
+{"neuron":5083,"pole":"low","cluster":2,"mode":"Ingredient list and recipe step punctuation and connectives","happy_windows":0,"windows":5,"scene":"Cooking recipes and ingredient lists"}
+{"neuron":5083,"pole":"low","cluster":3,"mode":"Conjunctions and pronouns after characters' actions in social scenes","happy_windows":3,"windows":5,"scene":"Children's stories about friends, pets, and family"}
+{"neuron":2158,"pole":"high","cluster":0,"mode":"Mid-sentence tokens in playful or fearful narrative action","happy_windows":3,"windows":5,"scene":"Children playing, swimming, sliding, and spinning"}
+{"neuron":2158,"pole":"high","cluster":1,"mode":"'Can' or 'could' opening polite requests to an assistant","happy_windows":0,"windows":5,"scene":"User requests for edits to generated text"}
+{"neuron":2158,"pole":"low","cluster":0,"mode":"Sentence-ending periods after mishaps, fear, or conflict","happy_windows":0,"windows":5,"scene":"Tense or conflict scenes in children's stories"}
+{"neuron":2158,"pole":"low","cluster":1,"mode":"Prepositions and numbers in recipes and instructions","happy_windows":0,"windows":5,"scene":"Recipes and how-to instructions"}
+{"neuron":2158,"pole":"low","cluster":2,"mode":"Falls, slips, and accidents as verbs or punctuation","happy_windows":0,"windows":5,"scene":"Children falling, losing balls, or getting hurt"}
+{"neuron":2158,"pole":"low","cluster":3,"mode":"Pronouns and nouns after frightening events","happy_windows":0,"windows":5,"scene":"Scary encounters and sad children"}
+{"neuron":8197,"pole":"high","cluster":0,"mode":"Pronouns and adjectives describing warm, friendly, or proud moments","happy_windows":3,"windows":5,"scene":"Birthday party, proud decorating, and friendship"}
+{"neuron":8197,"pole":"high","cluster":1,"mode":"The verb 'looked' after characters' delight or happy transformation","happy_windows":4,"windows":5,"scene":"Princess dress-up, happy snowman, joyful objects"}
+{"neuron":8197,"pole":"low","cluster":0,"mode":"Sentence-ending punctuation in tips, lists, and chat turns","happy_windows":0,"windows":5,"scene":"Food tips, recipes, and assistant responses"}
+{"neuron":8197,"pole":"low","cluster":1,"mode":"The adjective 'big' introducing a new object or creature","happy_windows":1,"windows":5,"scene":"Children discovering a big door, slide, or animal"}
+{"neuron":8197,"pole":"low","cluster":2,"mode":"The verb 'was' after 'She' describing a family member's mood","happy_windows":0,"windows":5,"scene":"Sisters, moms, and kids with mixed moods"}
+{"neuron":8197,"pole":"low","cluster":3,"mode":"Taste and quality adjectives in food descriptions","happy_windows":0,"windows":5,"scene":"Food and snack recipe descriptions"}
+{"neuron":8197,"pole":"low","cluster":4,"mode":"Conjunctions and 'as' in lists of marketing advice","happy_windows":0,"windows":5,"scene":"Social media and marketing tips"}
+{"neuron":6028,"pole":"high","cluster":0,"mode":"Periods ending sentences of tense exploration or anticipation","happy_windows":1,"windows":5,"scene":"Characters cautiously exploring or going on adventures"}
+{"neuron":6028,"pole":"high","cluster":1,"mode":"Speech verbs and particles (yelled out, shouted, said) after emotion","happy_windows":2,"windows":5,"scene":"Excited or angry characters speaking aloud"}
+{"neuron":6028,"pole":"high","cluster":2,"mode":"Opening quotation marks in dialogue during calls for help","happy_windows":0,"windows":5,"scene":"Voices calling for help, mysterious encounters"}
+{"neuron":6028,"pole":"high","cluster":3,"mode":"Articles starting nature imagery in poems and descriptions","happy_windows":2,"windows":5,"scene":"Poems and descriptions of nature, rain, and wind"}
+{"neuron":6028,"pole":"high","cluster":4,"mode":"Marketing and strategy phrasing about content and campaigns","happy_windows":0,"windows":5,"scene":"Business, marketing, and content strategy writing"}
+{"neuron":6028,"pole":"high","cluster":5,"mode":"Physical action completions after excitement (out, around, bed, it)","happy_windows":4,"windows":5,"scene":"Joyful characters hopping, hugging, pulling, and running"}
+{"neuron":6028,"pole":"high","cluster":6,"mode":"Pronoun 'He' starting a sentence after a tense moment","happy_windows":0,"windows":5,"scene":"Characters nervously exploring dark or dangerous places"}
+{"neuron":6028,"pole":"high","cluster":7,"mode":"Character names starting a sentence after a reaction","happy_windows":3,"windows":5,"scene":"Kids reacting to cupcakes, sunshine, or a story"}
+{"neuron":6028,"pole":"low","cluster":0,"mode":"Smiling and happy-reaction verbs (smiled, lit up, hopped)","happy_windows":4,"windows":5,"scene":"Characters smiling, delighted, or dancing and clapping"}
+{"neuron":6028,"pole":"low","cluster":1,"mode":"Sentence ends and pronouns in sad or worried moments","happy_windows":1,"windows":5,"scene":"Disappointed or sad kids, drawing and picnics"}
+{"neuron":10854,"pole":"high","cluster":0,"mode":"Mid-sentence tokens in formal, serious, or analytical prose","happy_windows":0,"windows":5,"scene":"Serious essays on history, fraternities, and work"}
+{"neuron":10854,"pole":"high","cluster":1,"mode":"Chat turn markers 'user:' and sentence ends before them","happy_windows":0,"windows":5,"scene":"Assistant and user chat exchanges"}
+{"neuron":10854,"pole":"low","cluster":0,"mode":"Pronouns and 'all' in play and friendship resolution","happy_windows":4,"windows":5,"scene":"Animals and kids playing and becoming friends"}
+{"neuron":10854,"pole":"low","cluster":1,"mode":"Digit '0' or '7' inside years in citations","happy_windows":0,"windows":5,"scene":"Bibliographic citations and dated references"}
+{"neuron":2296,"pole":"high","cluster":0,"mode":"Code and comment punctuation inside programming snippets","happy_windows":0,"windows":5,"scene":"Programming code and GUI scripts"}
+{"neuron":2296,"pole":"high","cluster":1,"mode":"Modal verbs and verbs in planting and care instructions","happy_windows":0,"windows":5,"scene":"Gardening and tree planting advice"}
+{"neuron":2296,"pole":"high","cluster":2,"mode":"Step-number periods in recipe instructions","happy_windows":0,"windows":5,"scene":"Numbered recipe steps"}
+{"neuron":2296,"pole":"high","cluster":3,"mode":"Pronouns and 'and' after a character's pride or delight","happy_windows":3,"windows":5,"scene":"Kids feeling proud, happy, or admiring nature"}
+{"neuron":2296,"pole":"high","cluster":4,"mode":"Verbs of running, spinning, or cheering in excited actions","happy_windows":3,"windows":5,"scene":"Excited kids running, cheering, and spinning"}
+{"neuron":2296,"pole":"low","cluster":0,"mode":"Verbs of smiling, staring, and curling up","happy_windows":3,"windows":5,"scene":"Characters smiling, wondering, or settling to sleep"}
+{"neuron":2296,"pole":"low","cluster":1,"mode":"Possessive pronouns after body parts or belongings","happy_windows":0,"windows":5,"scene":"Children with pockets, shoes, pants, or pulses"}
+{"neuron":3774,"pole":"high","cluster":0,"mode":"Gender nouns 'boy' or 'girl' in story openers","happy_windows":0,"windows":5,"scene":"Once-upon-a-time story openings"}
+{"neuron":3774,"pole":"high","cluster":1,"mode":"'and' joining two characters in happy resolutions","happy_windows":4,"windows":5,"scene":"Friends reuniting and happily resolving conflicts"}
+{"neuron":3774,"pole":"high","cluster":2,"mode":"Mid-sentence tokens describing characters' traits or feelings","happy_windows":2,"windows":5,"scene":"Mixed story moments about uncles, flying, and missing"}
+{"neuron":3774,"pole":"high","cluster":3,"mode":"Pronouns 'He' or 'She' starting a character's introduction","happy_windows":1,"windows":5,"scene":"Story openers introducing a child character"}
+{"neuron":3774,"pole":"low","cluster":0,"mode":"Laughing, yelling, and wagging verbs in playful or mean moments","happy_windows":1,"windows":5,"scene":"Playful laughter mixed with squabbles and teasing"}
+{"neuron":3774,"pole":"low","cluster":1,"mode":"Commas and 'of' or 'with' in food and recipe lists","happy_windows":0,"windows":5,"scene":"Recipe ingredient lists and meal ideas"}
+{"neuron":11140,"pole":"high","cluster":0,"mode":"Technical medical and environmental terms mid-sentence","happy_windows":0,"windows":5,"scene":"Medical, chemical, and environmental reporting"}
+{"neuron":11140,"pole":"high","cluster":1,"mode":"Word fragments in scientific or medical terminology","happy_windows":0,"windows":5,"scene":"Technical and scientific descriptions"}
+{"neuron":11140,"pole":"high","cluster":2,"mode":"Pronouns and 'and' after a character's emotional reaction","happy_windows":2,"windows":5,"scene":"Children surprised, smiling, or feeling sad"}
+{"neuron":11140,"pole":"high","cluster":3,"mode":"Opening quote marks in dialogue after emotional exclamations","happy_windows":2,"windows":5,"scene":"Characters speaking after feelings or exclamations"}
+{"neuron":11140,"pole":"low","cluster":0,"mode":"Action verbs and 'and' in tense adventure moments","happy_windows":0,"windows":5,"scene":"Western standoffs, quests, and scared animals"}
+{"neuron":11140,"pole":"low","cluster":1,"mode":"Infinitive 'to' and 'then' in plans and realizations","happy_windows":0,"windows":5,"scene":"Characters deciding to investigate or return items"}

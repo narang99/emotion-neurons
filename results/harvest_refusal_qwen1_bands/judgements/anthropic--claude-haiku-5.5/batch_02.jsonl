@@ -1,0 +1,68 @@
+{"neuron":10716,"pole":"high","cluster":0,"mode":"Mid-sentence punctuation and words in informational explanatory prose","scene_windows":0,"windows":5,"scene":"Neutral explanatory text about health, science, politics"}
+{"neuron":10716,"pole":"high","cluster":1,"mode":"Sentence-ending periods in factual assistant answers","scene_windows":0,"windows":5,"scene":"Factual Q&A with assistant answering general knowledge questions"}
+{"neuron":10716,"pole":"low","cluster":0,"mode":"Concessive connectives opening clauses like while, although","scene_windows":0,"windows":5,"scene":"Essay-style discussion of change, acceptance, and outcomes"}
+{"neuron":10716,"pole":"low","cluster":1,"mode":"Colons and spaces after list headers in self-help tips","scene_windows":0,"windows":5,"scene":"Numbered advice lists on business, music, and lifestyle"}
+{"neuron":10716,"pole":"low","cluster":2,"mode":"Phrase-final nouns in advice and recipe descriptions","scene_windows":0,"windows":5,"scene":"Practical advice on hobbies, cooking, and skill practice"}
+{"neuron":10716,"pole":"low","cluster":3,"mode":"The word 'that' after reminder phrases like keep in mind","scene_windows":0,"windows":5,"scene":"Advisory text on health, friendship, and parenting"}
+{"neuron":9257,"pole":"high","cluster":0,"mode":"Verb 'take' or 'took' in emotional personal narratives","scene_windows":0,"windows":5,"scene":"Personal stories about regret, jobs, and peer pressure"}
+{"neuron":9257,"pole":"high","cluster":1,"mode":"Middle initial or period after a person's first names","scene_windows":0,"windows":5,"scene":"Citations and news naming historical or public figures"}
+{"neuron":9257,"pole":"high","cluster":2,"mode":"Character name 'Jim' addressed in dialogue","scene_windows":0,"windows":5,"scene":"Screenplay-style scene of Jim and Jessica in a coffee shop"}
+{"neuron":9257,"pole":"high","cluster":3,"mode":"Speaker tag JIM in a dialogue script","scene_windows":0,"windows":5,"scene":"Script dialogue about confidence and public speaking"}
+{"neuron":9257,"pole":"high","cluster":4,"mode":"Connectives like for, and, to in business advice","scene_windows":0,"windows":5,"scene":"Workplace and team-building advice writing"}
+{"neuron":9257,"pole":"high","cluster":5,"mode":"That, if, to after assistant apologies in dialogue","scene_windows":0,"windows":5,"scene":"Assistant apologizing for confusion in multi-turn chat"}
+{"neuron":9257,"pole":"high","cluster":6,"mode":"Character name James as subject in fiction","scene_windows":0,"windows":5,"scene":"Fiction narratives with a character named James"}
+{"neuron":9257,"pole":"high","cluster":7,"mode":"Name James before a surname in articles","scene_windows":0,"windows":5,"scene":"Articles and history texts naming real people"}
+{"neuron":9257,"pole":"low","cluster":0,"mode":"Determiners and connectives in marketing advice about reach","scene_windows":0,"windows":5,"scene":"Online marketing and engagement tips"}
+{"neuron":9257,"pole":"low","cluster":1,"mode":"Words like their, left, of in retargeting examples","scene_windows":0,"windows":5,"scene":"Retargeting ad case studies for brands"}
+{"neuron":2189,"pole":"high","cluster":0,"mode":"Noun before assistant disclaimer about lacking access","scene_windows":0,"windows":5,"scene":"Assistant saying it lacks real-time or specific info"}
+{"neuron":2189,"pole":"high","cluster":1,"mode":"Colon after 'Assistant' turn label in Q&A","scene_windows":1,"windows":5,"scene":"Chat turns including a question on hotwiring motorbikes"}
+{"neuron":2189,"pole":"high","cluster":2,"mode":"Conjunctions and modal verbs in technical or policy text","scene_windows":0,"windows":5,"scene":"Finance, fisheries, and car brake maintenance writing"}
+{"neuron":2189,"pole":"high","cluster":3,"mode":"Sentence-ending periods in encyclopedic factual text","scene_windows":0,"windows":5,"scene":"Encyclopedic facts on execution, hoaxes, and vehicles"}
+{"neuron":2189,"pole":"low","cluster":0,"mode":"Hedged 'not' and 'is' in assistant disclaimers","scene_windows":1,"windows":5,"scene":"Assistant disowning advice about disconnecting brakes"}
+{"neuron":2189,"pole":"low","cluster":1,"mode":"Contraction stem 'n' in negated fiction dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with negations like don't and didn't"}
+{"neuron":2546,"pole":"high","cluster":0,"mode":"Word 'precaution' in precautionary principle discussion","scene_windows":0,"windows":5,"scene":"Debate on risk, GMOs, and precautionary principle"}
+{"neuron":2546,"pole":"high","cluster":1,"mode":"Possessive my or her after grab and pull verbs","scene_windows":0,"windows":5,"scene":"Tense horror fiction with characters grabbing arms"}
+{"neuron":2546,"pole":"high","cluster":2,"mode":"Recoil words like back, away after physical reactions","scene_windows":0,"windows":5,"scene":"Fiction of characters flinching or drawing back"}
+{"neuron":2546,"pole":"high","cluster":3,"mode":"Word 'cautious' describing careful stance","scene_windows":0,"windows":5,"scene":"Discussions of caution in relationships, EU, and medicine"}
+{"neuron":2546,"pole":"high","cluster":4,"mode":"Sentence endings after fear or social-consequence clauses","scene_windows":0,"windows":5,"scene":"Narrative about a girl with powers fearing ridicule"}
+{"neuron":2546,"pole":"high","cluster":5,"mode":"Words best, prudent, wise after 'it is'","scene_windows":0,"windows":5,"scene":"Safety advice on labs, razors, and brake pads"}
+{"neuron":2546,"pole":"low","cluster":0,"mode":"Past-tense 'turned' describing a character's movement","scene_windows":0,"windows":5,"scene":"Suspenseful fiction with characters turning to look"}
+{"neuron":2546,"pole":"low","cluster":1,"mode":"Participle 'taking' and article in rifle-aiming narration","scene_windows":0,"windows":5,"scene":"Fiction of a sniper tracking a Confederate general"}
+{"neuron":2546,"pole":"low","cluster":2,"mode":"Modal 'should' and step words in emergency instructions","scene_windows":0,"windows":5,"scene":"Flood emergency safety instructions"}
+{"neuron":2546,"pole":"low","cluster":3,"mode":"Verbs look or looked in narrative description","scene_windows":0,"windows":5,"scene":"Narration of characters looking at others or things"}
+{"neuron":2546,"pole":"low","cluster":4,"mode":"Commas and back-away verbs in bear safety tips","scene_windows":0,"windows":5,"scene":"Advice on how to behave around bears"}
+{"neuron":2546,"pole":"low","cluster":5,"mode":"Word 'have' in regretful should-have statements","scene_windows":0,"windows":5,"scene":"First-person regret and self-blame in fiction"}
+{"neuron":2546,"pole":"low","cluster":6,"mode":"Prepositions and nouns mid-phrase in cooking and academic text","scene_windows":0,"windows":5,"scene":"Recipes, architecture curriculum, and planetary surfaces"}
+{"neuron":2546,"pole":"low","cluster":7,"mode":"Sentence-initial pronoun I in first-person narration","scene_windows":0,"windows":5,"scene":"First-person horror narration of waking and fear"}
+{"neuron":9296,"pole":"high","cluster":0,"mode":"Assistant turn tokens opening helpful replies","scene_windows":0,"windows":5,"scene":"Chat requests for extra examples, props, or tips"}
+{"neuron":9296,"pole":"high","cluster":1,"mode":"Sentence-initial 'For' introducing examples","scene_windows":0,"windows":5,"scene":"Explanatory text giving examples on driving and space"}
+{"neuron":9296,"pole":"high","cluster":2,"mode":"Commas in direct address within dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue addressing characters by name"}
+{"neuron":9296,"pole":"high","cluster":3,"mode":"Pronoun I opening assistant replies","scene_windows":0,"windows":5,"scene":"Assistant replies to translation and coding requests"}
+{"neuron":9296,"pole":"high","cluster":4,"mode":"Commas before contrastive clauses in prose","scene_windows":0,"windows":5,"scene":"Narrative and essay sentences with contrastive commas"}
+{"neuron":9296,"pole":"high","cluster":5,"mode":"Sentence-ending periods in practical care advice","scene_windows":0,"windows":5,"scene":"Cleaning, exams, and baking advice passages"}
+{"neuron":9296,"pole":"high","cluster":6,"mode":"Final nouns of topical noun phrases in general text","scene_windows":0,"windows":5,"scene":"Home, health, and business explanatory prose"}
+{"neuron":9296,"pole":"high","cluster":7,"mode":"Commas and clause boundaries in technical and political text","scene_windows":0,"windows":5,"scene":"Water dispute and programming technical writing"}
+{"neuron":9296,"pole":"low","cluster":0,"mode":"Assistant token starting replies to visualization requests","scene_windows":0,"windows":5,"scene":"Chat asking for model visualizations and examples"}
+{"neuron":9296,"pole":"low","cluster":1,"mode":"Clause-final words like ideas, it, out, way","scene_windows":0,"windows":5,"scene":"Discussion of surfing, scissors, and historical topics"}
+{"neuron":9296,"pole":"low","cluster":2,"mode":"Pronoun I beginning assistant lacks-access disclaimers","scene_windows":0,"windows":5,"scene":"Assistant saying it cannot access books or prices"}
+{"neuron":8161,"pole":"high","cluster":0,"mode":"Assistant answer opener Yes in Q&A","scene_windows":0,"windows":5,"scene":"User asks for detailed info, assistant replies Yes"}
+{"neuron":8161,"pole":"high","cluster":1,"mode":"Negation in reassuring 'don't hesitate' closings","scene_windows":0,"windows":5,"scene":"Supportive closing lines inviting further questions"}
+{"neuron":8161,"pole":"high","cluster":2,"mode":"Comma after affirmative opener Sure or Of course","scene_windows":0,"windows":5,"scene":"Assistant agreeing to provide lyrics or tips"}
+{"neuron":8161,"pole":"high","cluster":3,"mode":"Sure as assistant reply opener","scene_windows":0,"windows":5,"scene":"Assistant agreeing to give tips and examples"}
+{"neuron":8161,"pole":"high","cluster":4,"mode":"Assistant turn labels before answers","scene_windows":0,"windows":5,"scene":"Assistant replies on CSS, origami, and kidney symptoms"}
+{"neuron":8161,"pole":"high","cluster":5,"mode":"Absolutely as enthusiastic reply opener","scene_windows":0,"windows":5,"scene":"Assistant enthusiastically agreeing to add more ideas"}
+{"neuron":8161,"pole":"high","cluster":6,"mode":"Certainly as enthusiastic reply opener","scene_windows":0,"windows":5,"scene":"Assistant agreeing to give detailed information"}
+{"neuron":8161,"pole":"high","cluster":7,"mode":"Closing offers with if or know","scene_windows":0,"windows":5,"scene":"Assistant closing with let me know if questions"}
+{"neuron":8161,"pole":"high","cluster":8,"mode":"Sorry as apology opener","scene_windows":0,"windows":5,"scene":"Assistant apologizing for misunderstandings or limits"}
+{"neuron":8161,"pole":"high","cluster":9,"mode":"Welcome in thank-you replies","scene_windows":0,"windows":5,"scene":"Assistant replying You're welcome to thanks"}
+{"neuron":8161,"pole":"high","cluster":10,"mode":"Commas in emphatic dialogue clauses","scene_windows":0,"windows":5,"scene":"Fiction dialogue with emphatic or tense speech"}
+{"neuron":8161,"pole":"high","cluster":11,"mode":"Opening quotation marks starting dialogue","scene_windows":0,"windows":5,"scene":"Fiction with characters beginning speech"}
+{"neuron":8161,"pole":"low","cluster":0,"mode":"Article a after That's or Hmm opener","scene_windows":0,"windows":5,"scene":"Assistant reacting to user's question with that's a"}
+{"neuron":8161,"pole":"low","cluster":1,"mode":"Demonstrative That's starting assistant reactions","scene_windows":0,"windows":5,"scene":"Assistant reacting to questions about movies or apps"}
+{"neuron":8161,"pole":"low","cluster":2,"mode":"Mid-sentence tokens in service pricing descriptions and assistant capability disclaimers","scene_windows":0,"windows":5,"scene":"Essay service pricing copy and assistant capability replies"}
+{"neuron":8161,"pole":"low","cluster":3,"mode":"Colon after 'Assistant' starting a reply to a casual user statement","scene_windows":0,"windows":5,"scene":"Casual chat where assistant acknowledges user's remark"}
+{"neuron":8161,"pole":"low","cluster":4,"mode":"Colon after 'Assistant' opening an answer to an everyday how-to question","scene_windows":0,"windows":5,"scene":"Everyday informational Q&A with assistant replies beginning"}
+{"neuron":8161,"pole":"low","cluster":5,"mode":"Article or determiner after 'is' introducing a factual description","scene_windows":0,"windows":5,"scene":"Factual explanations of products, festivals, and software"}
+{"neuron":8161,"pole":"low","cluster":6,"mode":"Question-opening 'Is' or 'Are' in narrative dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with characters asking tense questions"}
+{"neuron":8161,"pole":"low","cluster":7,"mode":"Period closing an assistant's affirmation or correction statement","scene_windows":0,"windows":5,"scene":"Assistant acknowledging errors or confirming facts in chat"}
+{"neuron":8161,"pole":"low","cluster":8,"mode":"Period ending assistant disclaimers about lacking specific information access","scene_windows":0,"windows":5,"scene":"Assistant stating it cannot access specific current information"}

@@ -1,0 +1,40 @@
+{"neuron":5751,"pole":"high","cluster":0,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5751,"pole":"high","cluster":1,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":5751,"pole":"low","cluster":0,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5751,"pole":"low","cluster":1,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":5751,"pole":"low","cluster":2,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":3809,"pole":"high","cluster":0,"mode":"prepositions indicating location or inclusion","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3809,"pole":"high","cluster":1,"mode":"question marks indicating a query","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":3809,"pole":"low","cluster":0,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":3809,"pole":"low","cluster":1,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":3809,"pole":"low","cluster":2,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3809,"pole":"low","cluster":3,"mode":"words related to time, dates, and historical periods","scene_windows":0,"windows":5,"scene":"neutral historical narration"}
+{"neuron":2212,"pole":"high","cluster":0,"mode":"place names and geographical locations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2212,"pole":"high","cluster":1,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2212,"pole":"low","cluster":0,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2212,"pole":"low","cluster":1,"mode":"food and drink items","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10899,"pole":"low","cluster":0,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":10899,"pole":"low","cluster":1,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":10899,"pole":"low","cluster":2,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10899,"pole":"low","cluster":3,"mode":"numbers and dates","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10899,"pole":"low","cluster":4,"mode":"words indicating methods or processes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10899,"pole":"low","cluster":5,"mode":"conjunctions and prepositions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6348,"pole":"high","cluster":0,"mode":"words indicating sequence or enumeration","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6348,"pole":"high","cluster":1,"mode":"proper nouns, including names and places","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6348,"pole":"low","cluster":0,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6348,"pole":"low","cluster":1,"mode":"proper nouns, including names and places","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1162,"pole":"high","cluster":0,"mode":"words indicating uncertainty or debate","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1162,"pole":"high","cluster":1,"mode":"verbs indicating physical actions or states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1162,"pole":"low","cluster":0,"mode":"auxiliary verbs and modal verbs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1162,"pole":"low","cluster":1,"mode":"words indicating negative states or outcomes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9610,"pole":"high","cluster":0,"mode":"words indicating technical terms or specific items","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9610,"pole":"high","cluster":1,"mode":"words indicating comparison or relation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9610,"pole":"low","cluster":0,"mode":"words indicating negative actions or states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9610,"pole":"low","cluster":1,"mode":"conjunctions indicating contrast or addition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9610,"pole":"low","cluster":2,"mode":"words indicating direction or opposition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6374,"pole":"high","cluster":0,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":6374,"pole":"high","cluster":1,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6374,"pole":"high","cluster":2,"mode":"assistant's response to user's questions","scene_windows":0,"windows":5,"scene":"neutral question answering"}
+{"neuron":6374,"pole":"low","cluster":0,"mode":"pronouns and articles referring to entities or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6374,"pole":"low","cluster":1,"mode":"words indicating location or context","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6374,"pole":"low","cluster":2,"mode":"words indicating customs or practices","scene_windows":0,"windows":5,"scene":"neutral narration"}

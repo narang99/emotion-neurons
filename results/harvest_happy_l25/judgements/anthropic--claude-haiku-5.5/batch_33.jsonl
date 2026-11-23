@@ -1,0 +1,51 @@
+{"neuron":1928,"pole":"high","cluster":0,"mode":"Food and cooking advice where 'and', 'to', 'the' link recipe ingredients or instructions","happy_windows":0,"windows":5,"scene":"Recipe and healthy cooking advice conversations"}
+{"neuron":1928,"pole":"high","cluster":1,"mode":"Sentence-ending punctuation closing professional, educational or promotional text","happy_windows":0,"windows":5,"scene":"Business letters, presentations, and informational writing"}
+{"neuron":1928,"pole":"low","cluster":0,"mode":"Ingredient and topping mentions within cooking and recipe tips","happy_windows":0,"windows":5,"scene":"Recipe and food preparation tips"}
+{"neuron":1928,"pole":"low","cluster":1,"mode":"Connectives and colons in organizational or productivity tips lists","happy_windows":0,"windows":5,"scene":"Organization, study, and workplace advice"}
+{"neuron":5175,"pole":"high","cluster":0,"mode":"Furniture and home office layout advice, mid-list words like 'and', 'with', 'have'","happy_windows":0,"windows":5,"scene":"Home office and furniture setup guidance"}
+{"neuron":5175,"pole":"high","cluster":1,"mode":"Story narration at moments of discovery, surprise or pride in children's tales","happy_windows":1,"windows":5,"scene":"Children's stories with household events"}
+{"neuron":5175,"pole":"high","cluster":2,"mode":"Story sentence transitions like 'Suddenly, the' and 'The' starting new sentences","happy_windows":2,"windows":5,"scene":"Short children's stories about families and friends"}
+{"neuron":5175,"pole":"low","cluster":0,"mode":"The verb 'saw' or 'see' after a character's actions in simple stories","happy_windows":0,"windows":5,"scene":"Simple children's stories about outdoor exploring"}
+{"neuron":5175,"pole":"low","cluster":1,"mode":"Mid-phrase tokens in mixed factual and fictional text, such as numbers and names","happy_windows":0,"windows":5,"scene":"Mixed scripts, references, and factual passages"}
+{"neuron":5175,"pole":"low","cluster":2,"mode":"Ingredient and method words in cooking instructions","happy_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":5175,"pole":"low","cluster":3,"mode":"Character references like 'people', 'standing', 'them', 'mom' in narration","happy_windows":0,"windows":5,"scene":"Children's stories with mild tension or searching"}
+{"neuron":5175,"pole":"low","cluster":4,"mode":"Subject pronouns 'they' or 'he' starting actions in scary or tense moments","happy_windows":0,"windows":5,"scene":"Children's adventure stories with danger or fear"}
+{"neuron":8976,"pole":"high","cluster":0,"mode":"Mid-sentence nouns in essays on culture, history, and society","happy_windows":0,"windows":5,"scene":"Essays and encyclopedic writing on history and society"}
+{"neuron":8976,"pole":"high","cluster":1,"mode":"Blank-line paragraph breaks after story endings and resolutions","happy_windows":3,"windows":5,"scene":"Short children's stories resolving with friendship"}
+{"neuron":8976,"pole":"low","cluster":0,"mode":"Sentence-final periods after factual statements about processes or topics","happy_windows":0,"windows":5,"scene":"Informational assistant answers on various topics"}
+{"neuron":8976,"pole":"low","cluster":1,"mode":"The word 'about' after talk, story, or thought verbs","happy_windows":1,"windows":5,"scene":"Stories involving talking, learning, and reflecting"}
+{"neuron":8976,"pole":"low","cluster":2,"mode":"Technical noun terms in scientific research abstracts","happy_windows":0,"windows":5,"scene":"Scientific research and biology abstracts"}
+{"neuron":8976,"pole":"low","cluster":3,"mode":"Nouns and pronouns for characters like girl, mom, they in children's stories","happy_windows":0,"windows":5,"scene":"Children's stories about family and daily life"}
+{"neuron":10790,"pole":"high","cluster":0,"mode":"The word 'sorry' used in apologies within family conflicts","happy_windows":0,"windows":5,"scene":"Apologies after children misbehave with parents"}
+{"neuron":10790,"pole":"high","cluster":1,"mode":"First-person 'I' starting statements in dialogue or speeches","happy_windows":1,"windows":5,"scene":"Dialogues about leaving, apologies, and friendship"}
+{"neuron":10790,"pole":"high","cluster":2,"mode":"Emotion words of delight or pride like news, proud, happy, running","happy_windows":3,"windows":5,"scene":"Joyful moments of good news and playing outside"}
+{"neuron":10790,"pole":"high","cluster":3,"mode":"Connectives 'and' or 'feel' within sad, sorry, or regretful feelings","happy_windows":0,"windows":5,"scene":"Children feeling sad, sorry, or regretful"}
+{"neuron":10790,"pole":"low","cluster":0,"mode":"Pronouns and 'and' after feeling-good moments in children's stories","happy_windows":2,"windows":5,"scene":"Children feeling better after small mishaps"}
+{"neuron":10790,"pole":"low","cluster":1,"mode":"The intensifier 'so' before happy or excited feelings","happy_windows":5,"windows":5,"scene":"Characters becoming happy and excited about surprises"}
+{"neuron":1564,"pole":"high","cluster":0,"mode":"Verbs 'smiled' or 'laughed' after a character's joyful action","happy_windows":5,"windows":5,"scene":"Children smiling and laughing in playful moments"}
+{"neuron":1564,"pole":"high","cluster":1,"mode":"Pronouns and connectives in technical or explanatory sentences","happy_windows":0,"windows":5,"scene":"Explanations of products, energy, and data"}
+{"neuron":1564,"pole":"high","cluster":2,"mode":"Pronouns after 'happy that', 'proud that', 'glad' expressing gladness","happy_windows":5,"windows":5,"scene":"Characters feeling proud, thrilled, and delighted"}
+{"neuron":1564,"pole":"high","cluster":3,"mode":"Words 'together', 'played' describing children playing with friends","happy_windows":5,"windows":5,"scene":"Friends playing together and having fun"}
+{"neuron":1564,"pole":"high","cluster":4,"mode":"Pronouns starting a sentence after a feeling or event, often relief or sadness","happy_windows":2,"windows":5,"scene":"Characters relieved, tired, or lonely after events"}
+{"neuron":1564,"pole":"low","cluster":0,"mode":"Recipe ingredient and method tokens in cooking advice","happy_windows":0,"windows":5,"scene":"Recipe and cooking tips"}
+{"neuron":1564,"pole":"low","cluster":1,"mode":"Conjunctions 'and' or pronouns after a character's excited action","happy_windows":1,"windows":5,"scene":"Children finding objects and reacting to them"}
+{"neuron":1564,"pole":"low","cluster":2,"mode":"Subject pronouns or verbs within analytic or news sentences","happy_windows":0,"windows":5,"scene":"Analytical and news-style writing"}
+{"neuron":2758,"pole":"high","cluster":0,"mode":"Mid-word splits in names and terms like mummy, Lila, curriculum","happy_windows":2,"windows":5,"scene":"Family moments and educational descriptions"}
+{"neuron":2758,"pole":"high","cluster":1,"mode":"Speech verbs 'said' or 'says' after a character's dialogue","happy_windows":1,"windows":5,"scene":"Characters exchanging dialogue during play"}
+{"neuron":2758,"pole":"high","cluster":2,"mode":"Modal and verb tokens in sentences about hopes or wishes","happy_windows":1,"windows":5,"scene":"Family visits, fun, and hopeful moments"}
+{"neuron":2758,"pole":"high","cluster":3,"mode":"Character names starting sentences after a parent's happy reaction","happy_windows":3,"windows":5,"scene":"Children proud and happy after helping at home"}
+{"neuron":2758,"pole":"low","cluster":0,"mode":"Single-letter fragments inside citations and acronyms","happy_windows":0,"windows":5,"scene":"Academic references and technical acronyms"}
+{"neuron":2758,"pole":"low","cluster":1,"mode":"Character name fragments at the start of sentences in stories","happy_windows":0,"windows":5,"scene":"Children's stories with family and everyday trouble"}
+{"neuron":2758,"pole":"low","cluster":2,"mode":"Numeric digits inside citations and page references","happy_windows":0,"windows":5,"scene":"Footnotes and bibliographic citations"}
+{"neuron":2758,"pole":"low","cluster":3,"mode":"Decimal and thousands separators inside numeric figures","happy_windows":0,"windows":5,"scene":"Financial and statistical figures in reports"}
+{"neuron":2758,"pole":"low","cluster":4,"mode":"Physical action verbs like picked, took, put in stories","happy_windows":0,"windows":5,"scene":"Characters picking up items in simple stories"}
+{"neuron":2758,"pole":"low","cluster":5,"mode":"Adjectives or verbs after 'was' describing a character's feeling","happy_windows":1,"windows":5,"scene":"Characters feeling proud, full of wonder, or worried"}
+{"neuron":2758,"pole":"low","cluster":6,"mode":"The verb 'smiled' right after a character's greeting or reply","happy_windows":4,"windows":5,"scene":"Characters greeting and smiling in friendly moments"}
+{"neuron":3145,"pole":"high","cluster":0,"mode":"Conjunctions and prepositions in tidy-up, organizing, or boredom contexts","happy_windows":1,"windows":5,"scene":"Tidying rooms and organizing tasks"}
+{"neuron":3145,"pole":"high","cluster":1,"mode":"Opening quotation marks starting a parent's spoken line","happy_windows":0,"windows":5,"scene":"Parents giving instructions to children at home"}
+{"neuron":3145,"pole":"low","cluster":0,"mode":"Words like 'help', 'mom', 'She' in children's problem-focused stories","happy_windows":0,"windows":5,"scene":"Children's stories with worry or household mess"}
+{"neuron":3145,"pole":"low","cluster":1,"mode":"The word 'that' in 'From that day on' endings","happy_windows":2,"windows":5,"scene":"Friendship endings after children's kind acts"}
+{"neuron":6352,"pole":"high","cluster":0,"mode":"The pronoun 'She' or name followed by 'was' describing a feeling","happy_windows":3,"windows":5,"scene":"Characters exploring and feeling happy or excited"}
+{"neuron":6352,"pole":"high","cluster":1,"mode":"The word 'was' in the opening 'Once upon a time there was'","happy_windows":0,"windows":5,"scene":"Story openings introducing a character"}
+{"neuron":6352,"pole":"low","cluster":0,"mode":"Verbs like watched, smiled, admired after a character observes","happy_windows":2,"windows":5,"scene":"Characters watching wonders and smiling quietly"}
+{"neuron":6352,"pole":"low","cluster":1,"mode":"Modal verbs 'can' or 'could' opening requests to an assistant","happy_windows":0,"windows":5,"scene":"User requests for more detail from an assistant"}

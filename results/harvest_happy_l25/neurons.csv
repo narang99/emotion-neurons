@@ -1,0 +1,553 @@
+neuron,rank,share,shift,side,cos,class,is_control
+2862,1,8.899,0.6669,high,0.308,match,False
+10272,2,7.024,-0.5807,low,0.279,match,False
+7717,3,2.477,-0.3872,low,0.169,match,False
+11485,4,1.467,-0.28,low,0.14,match,False
+3832,5,0.96,-0.2883,low,0.082,no match,False
+3693,6,1.229,0.284,high,0.114,match,False
+9964,7,0.595,-0.2033,low,0.107,no match,False
+6016,8,1.577,0.2642,high,0.137,match,False
+11631,9,1.105,-0.3088,low,0.101,no match,False
+11976,10,0.718,-0.2072,low,0.085,match,False
+12216,11,0.572,-0.1991,low,0.072,split,False
+48,12,0.749,-0.2235,low,0.08,no match,False
+2005,13,0.693,0.196,high,0.086,match,False
+7469,14,0.701,-0.2055,low,0.087,split,False
+6553,15,0.377,-0.1378,low,0.074,split,False
+361,16,0.522,0.1581,high,0.088,match,False
+1196,17,0.524,-0.1719,low,0.098,split,False
+7428,18,0.828,-0.2347,low,0.094,match,False
+3361,19,0.58,-0.1567,low,0.098,split,False
+9577,20,0.66,-0.2223,low,0.077,match,False
+8523,21,0.432,0.1892,high,0.063,match,False
+4175,22,0.398,-0.1646,low,0.068,split,False
+11939,23,0.293,0.1219,high,0.064,match,False
+2080,24,0.339,-0.1611,low,0.071,no match,False
+4311,25,0.374,0.1455,high,0.065,match,False
+2933,26,0.453,-0.1461,low,0.092,match,False
+9443,27,0.377,0.147,high,0.071,match,False
+10958,28,0.298,0.1527,high,0.07,no match,False
+1967,29,0.517,0.1424,high,0.107,match,False
+3354,30,0.364,-0.1534,low,0.061,no match,False
+7458,31,0.268,-0.0823,low,0.087,split,False
+6561,32,0.315,0.1107,high,0.069,match,False
+5083,33,0.196,-0.1141,low,0.046,match,False
+2158,34,0.385,-0.1026,low,0.089,no match,False
+8197,35,0.19,0.0994,high,0.047,match,False
+6028,36,0.303,0.1259,high,0.061,match,False
+10854,37,0.298,-0.1211,low,0.081,split,False
+2296,38,0.206,0.0901,high,0.058,match,False
+3774,39,0.245,-0.1109,low,0.056,no match,False
+11140,40,0.32,0.1156,high,0.068,no match,False
+2383,41,0.221,0.1722,high,0.033,match,False
+7933,42,0.099,0.0724,high,0.035,match,False
+5205,43,0.226,-0.1085,low,0.054,match,False
+4037,44,0.228,0.0876,high,0.081,match,False
+8502,45,0.186,0.1007,high,0.048,match,False
+2573,46,0.228,-0.1322,low,0.044,no match,False
+11593,47,0.148,0.1378,high,0.027,match,False
+1637,48,0.301,-0.1522,low,0.062,split,False
+1078,49,0.166,-0.0768,low,0.054,match,False
+6532,50,0.19,-0.0977,low,0.051,split,False
+3634,51,0.138,0.0853,high,0.048,no match,False
+4715,52,0.153,0.0616,high,0.058,split,False
+1208,53,0.244,0.0983,high,0.063,split,False
+5767,54,0.207,0.0734,high,0.074,match,False
+8776,55,0.217,-0.1034,low,0.056,no match,False
+6091,56,0.159,0.0849,high,0.054,match,False
+7222,57,0.24,-0.0939,low,0.064,match,False
+583,58,0.262,0.1217,high,0.067,match,False
+2066,59,0.148,0.0861,high,0.047,match,False
+11599,60,0.215,0.1067,high,0.051,match,False
+11349,61,0.144,-0.0834,low,0.053,no match,False
+801,62,0.232,0.0912,high,0.063,match,False
+8686,63,0.256,0.1391,high,0.046,match,False
+1777,64,0.166,0.1091,high,0.039,match,False
+902,65,0.224,-0.0537,low,0.095,match,False
+3226,66,0.189,0.1402,high,0.035,match,False
+6882,67,0.123,-0.0725,low,0.048,split,False
+10396,68,0.151,-0.0943,low,0.041,split,False
+3582,69,0.039,-0.1035,low,0.009,split,False
+1488,70,0.215,0.0979,high,0.054,match,False
+8131,71,0.137,-0.0827,low,0.042,no match,False
+9764,72,0.161,0.0712,high,0.052,match,False
+509,73,0.116,-0.0809,low,0.033,split,False
+663,74,0.234,-0.0878,low,0.062,match,False
+7201,75,0.174,-0.101,low,0.043,no match,False
+2903,76,0.153,0.0695,high,0.058,match,False
+1850,77,0.104,0.0597,high,0.044,split,False
+399,78,0.055,0.0677,high,0.023,no match,False
+6689,79,0.108,-0.0608,low,0.047,split,False
+10246,80,0.104,0.0805,high,0.035,no match,False
+2722,81,0.153,0.0895,high,0.042,match,False
+155,82,0.171,0.0736,high,0.058,split,False
+10490,83,0.127,-0.0799,low,0.043,match,False
+164,84,0.086,-0.0777,low,0.027,match,False
+10722,85,0.195,-0.1259,low,0.046,match,False
+7883,86,0.134,0.1134,high,0.032,match,False
+10292,87,0.135,0.0936,high,0.036,match,False
+6899,88,0.084,-0.0783,low,0.031,match,False
+624,89,0.137,0.0623,high,0.056,match,False
+6785,90,0.153,-0.0784,low,0.051,split,False
+3966,91,0.076,0.0944,high,0.02,match,False
+7627,92,0.1,-0.0628,low,0.042,no match,False
+8339,93,0.121,0.0857,high,0.038,match,False
+5663,94,0.123,0.0531,high,0.055,match,False
+6954,95,0.063,-0.063,low,0.035,match,False
+3786,96,0.109,-0.0941,low,0.03,split,False
+10730,97,0.152,-0.084,low,0.045,match,False
+3282,98,0.083,-0.0645,low,0.031,no match,False
+10902,99,0.098,0.0683,high,0.038,no match,False
+1125,100,0.072,-0.0552,low,0.035,no match,False
+7945,101,0.073,0.0489,high,0.042,no match,False
+2837,102,0.101,0.0771,high,0.033,match,False
+3504,103,0.073,0.0719,high,0.024,match,False
+5750,104,0.194,0.085,high,0.057,no match,False
+3862,105,0.214,-0.0808,low,0.063,match,False
+4690,106,0.027,0.0581,high,0.012,match,False
+8247,107,0.109,0.064,high,0.051,split,False
+4969,108,0.061,-0.0386,low,0.043,split,False
+9842,109,0.087,0.0564,high,0.046,split,False
+3409,110,0.135,-0.1048,low,0.038,match,False
+4184,111,0.087,-0.0587,low,0.039,match,False
+11278,112,0.081,-0.0503,low,0.049,no match,False
+11539,113,0.072,-0.049,low,0.037,no match,False
+7844,114,0.042,-0.0439,low,0.023,match,False
+8040,115,0.17,-0.1011,low,0.043,match,False
+6712,116,0.113,-0.0471,low,0.062,match,False
+5647,117,0.129,-0.0884,low,0.042,match,False
+12157,118,0.108,0.0515,high,0.055,match,False
+11385,119,0.144,0.0867,high,0.042,match,False
+10298,120,0.092,-0.0464,low,0.052,match,False
+4589,121,0.041,-0.0302,low,0.035,match,False
+11613,122,0.065,-0.0654,low,0.026,match,False
+3724,123,0.101,-0.0618,low,0.04,split,False
+11046,124,0.062,-0.0438,low,0.039,no match,False
+6492,125,0.026,-0.0589,low,0.011,split,False
+8760,126,0.071,0.0557,high,0.041,split,False
+2436,127,0.126,0.1359,high,0.038,match,False
+378,128,0.149,-0.0702,low,0.055,match,False
+7786,129,0.072,-0.0329,low,0.054,match,False
+420,130,0.102,0.0574,high,0.048,split,False
+1321,131,0.063,-0.0717,low,0.026,match,False
+4352,132,0.068,-0.1166,low,0.014,no match,False
+10945,133,0.108,-0.0517,low,0.056,no match,False
+2707,134,0.076,0.0711,high,0.026,match,False
+10729,135,0.1,-0.0998,low,0.028,split,False
+9079,136,0.054,-0.0411,low,0.031,no match,False
+2843,137,0.055,0.0335,high,0.038,no match,False
+8556,138,0.136,-0.0708,low,0.046,no match,False
+2824,139,0.078,0.0724,high,0.028,split,False
+10605,140,0.086,0.0446,high,0.049,split,False
+10762,141,0.09,-0.0417,low,0.061,split,False
+5534,142,0.075,0.0414,high,0.047,split,False
+3598,143,0.082,-0.0453,low,0.046,split,False
+5020,144,0.055,0.0547,high,0.026,split,False
+5711,145,0.028,-0.0574,low,0.013,no match,False
+8071,146,0.072,0.0693,high,0.027,no match,False
+9572,147,0.026,0.058,high,0.014,split,False
+11779,148,0.07,-0.0678,low,0.026,match,False
+9737,149,0.18,0.1005,high,0.071,split,False
+6248,150,-0.019,0.1168,high,-0.006,split,False
+1138,151,0.049,0.0611,high,0.02,split,False
+6098,152,0.066,0.0707,high,0.028,split,False
+10632,153,0.05,0.0381,high,0.038,match,False
+996,154,0.046,-0.0579,low,0.022,split,False
+3853,155,0.093,-0.0959,low,0.03,split,False
+11310,156,0.059,-0.0606,low,0.026,no match,False
+11890,157,0.256,0.1088,high,0.062,split,False
+2411,158,0.063,-0.0689,low,0.023,split,False
+3930,159,0.14,0.0862,high,0.042,split,False
+7036,160,0.041,-0.0572,low,0.019,split,False
+5684,161,0.147,0.0743,high,0.047,match,False
+11760,162,0.039,-0.0505,low,0.024,split,False
+4515,163,0.055,-0.0283,low,0.048,match,False
+10474,164,0.11,0.0701,high,0.041,match,False
+8433,165,0.197,-0.1059,low,0.05,no match,False
+8485,166,0.057,0.0376,high,0.039,match,False
+3060,167,0.048,0.0352,high,0.038,no match,False
+4126,168,0.019,0.0438,high,0.012,match,False
+6307,169,0.11,0.0538,high,0.051,split,False
+10575,170,0.035,-0.0353,low,0.025,match,False
+7913,171,0.062,-0.0495,low,0.031,match,False
+7189,172,0.049,0.0396,high,0.032,match,False
+3374,173,0.08,-0.0476,low,0.04,no match,False
+2204,174,0.062,-0.0369,low,0.041,no match,False
+3068,175,0.1,0.0641,high,0.038,match,False
+6798,176,0.039,-0.0707,low,0.017,no match,False
+4243,177,0.08,0.0363,high,0.054,match,False
+6559,178,0.093,0.0548,high,0.044,match,False
+9549,179,0.09,0.0892,high,0.026,match,False
+2792,180,0.003,0.0714,high,0.001,no match,False
+2312,181,0.0,-0.0743,low,0.0,match,False
+12055,182,0.019,-0.0588,low,0.008,no match,False
+5610,183,0.058,-0.0367,low,0.041,split,False
+4539,184,0.046,0.034,high,0.037,no match,False
+7684,185,0.074,0.0381,high,0.046,split,False
+10988,186,0.039,0.053,high,0.018,match,False
+3129,187,0.074,0.0458,high,0.042,match,False
+2838,188,0.065,0.0388,high,0.043,match,False
+9770,189,0.043,-0.048,low,0.022,match,False
+128,190,0.117,-0.0594,low,0.07,no match,False
+10565,191,0.084,-0.0499,low,0.044,match,False
+6919,192,0.044,0.0281,high,0.038,match,False
+7625,193,0.06,0.0456,high,0.033,match,False
+4413,194,0.054,0.0575,high,0.028,match,False
+8301,195,0.034,0.0965,high,0.01,match,False
+2560,196,0.067,0.0379,high,0.043,match,False
+10934,197,0.093,-0.0517,low,0.045,split,False
+7896,198,0.102,-0.0645,low,0.04,split,False
+12209,199,0.021,-0.0291,low,0.017,no match,False
+4763,200,0.034,0.0488,high,0.021,no match,False
+3138,201,0.058,-0.0431,low,0.032,match,False
+1080,202,0.06,-0.0299,low,0.052,split,False
+6950,203,0.05,0.0323,high,0.037,split,False
+7172,204,0.052,-0.0503,low,0.026,match,False
+6350,205,0.029,0.0437,high,0.019,no match,False
+9554,206,0.037,0.0531,high,0.018,no match,False
+3586,207,0.064,0.0428,high,0.039,split,False
+9589,208,0.081,-0.0577,low,0.034,match,False
+814,209,0.061,0.0458,high,0.032,split,False
+11717,210,0.088,0.0559,high,0.041,match,False
+10856,211,0.051,0.0256,high,0.05,match,False
+10781,212,0.042,0.0425,high,0.024,no match,False
+7324,213,0.063,0.0358,high,0.042,match,False
+2264,214,0.05,-0.0329,low,0.039,split,False
+3035,215,0.076,-0.0589,low,0.044,no match,False
+2867,216,0.088,-0.0876,low,0.027,split,False
+2845,217,0.11,-0.0816,low,0.034,match,False
+4346,218,0.087,-0.0471,low,0.043,match,False
+11871,219,0.047,0.0381,high,0.03,no match,False
+5651,220,0.112,0.0813,high,0.045,split,False
+1656,221,0.034,0.0288,high,0.029,split,False
+6988,222,0.06,0.0277,high,0.053,match,False
+8099,223,0.053,0.0265,high,0.052,split,False
+5104,224,0.037,0.0408,high,0.023,match,False
+3005,225,0.057,0.0453,high,0.036,match,False
+5658,226,0.065,0.0629,high,0.027,split,False
+7839,227,0.047,0.0312,high,0.04,no match,False
+1490,228,0.049,0.031,high,0.04,match,False
+409,229,0.028,0.0397,high,0.018,split,False
+782,230,0.033,0.0231,high,0.032,match,False
+4796,231,0.049,0.0275,high,0.047,match,False
+10833,232,0.064,-0.0864,low,0.026,split,False
+2124,233,0.082,0.0398,high,0.056,match,False
+10884,234,-0.019,-0.078,low,-0.007,split,False
+9006,235,0.06,0.0499,high,0.032,match,False
+7527,236,0.032,-0.0644,low,0.012,split,False
+9802,237,0.022,-0.037,low,0.015,no match,False
+11068,238,0.034,0.0367,high,0.023,match,False
+634,239,0.121,0.0778,high,0.039,match,False
+8889,240,0.038,-0.0765,low,0.014,match,False
+4720,241,0.057,0.0553,high,0.025,split,False
+1798,242,0.033,-0.0321,low,0.029,no match,False
+10973,243,0.115,0.1,high,0.038,no match,False
+5729,244,0.031,0.0359,high,0.021,match,False
+11800,245,0.041,-0.0433,low,0.024,match,False
+7168,246,0.122,-0.0479,low,0.06,no match,False
+9672,247,0.038,-0.0344,low,0.026,split,False
+3393,248,0.086,-0.0463,low,0.048,split,False
+10183,249,0.045,0.0548,high,0.022,no match,False
+11202,250,0.015,0.0306,high,0.012,match,False
+892,251,0.028,-0.038,low,0.018,no match,False
+9125,252,0.035,-0.0355,low,0.025,no match,False
+9344,253,0.039,0.0565,high,0.017,match,False
+5576,254,0.002,-0.0612,low,0.001,split,False
+9526,255,0.059,0.0286,high,0.049,match,False
+5493,256,0.036,0.0273,high,0.033,match,False
+5139,257,0.03,-0.0496,low,0.02,no match,False
+4955,258,0.047,-0.0522,low,0.023,match,False
+6491,259,0.021,0.0438,high,0.014,no match,False
+4915,260,0.044,0.0329,high,0.033,match,False
+5766,261,0.04,0.0308,high,0.038,no match,False
+7902,262,0.04,0.0277,high,0.037,split,False
+481,263,0.048,-0.0559,low,0.027,no match,False
+8264,264,0.008,0.0444,high,0.005,split,False
+1928,265,0.064,0.0393,high,0.043,no match,False
+5175,266,0.074,-0.0512,low,0.037,no match,False
+8976,267,0.034,-0.0213,low,0.044,no match,False
+10790,268,0.037,-0.0235,low,0.039,match,False
+1564,269,-0.004,0.0242,high,-0.004,match,False
+2758,270,0.016,-0.0431,low,0.01,match,False
+3145,271,0.015,-0.0514,low,0.007,split,False
+6352,272,0.031,0.0532,high,0.018,match,False
+4021,273,0.006,0.0447,high,0.004,match,False
+10877,274,0.101,0.0641,high,0.04,match,False
+3006,275,0.041,-0.0515,low,0.024,no match,False
+8256,276,0.052,-0.022,low,0.058,no match,False
+2939,277,0.045,0.0226,high,0.048,no match,False
+6213,278,0.046,-0.026,low,0.044,no match,False
+5616,279,0.045,0.0528,high,0.023,match,False
+5593,280,0.071,-0.0363,low,0.054,no match,False
+7904,281,0.092,-0.0501,low,0.045,match,False
+1068,282,0.047,0.0493,high,0.026,match,False
+3295,283,0.017,-0.0383,low,0.012,no match,False
+6452,284,0.031,0.0594,high,0.012,match,False
+3923,285,0.032,0.0295,high,0.028,split,False
+539,286,0.02,0.0643,high,0.009,match,False
+5881,287,0.033,-0.0281,low,0.029,match,False
+3701,288,0.042,0.0344,high,0.031,split,False
+2336,289,0.04,-0.0342,low,0.031,split,False
+2451,290,0.051,0.0675,high,0.019,match,False
+7738,291,0.07,0.0703,high,0.027,match,False
+2821,292,0.04,0.0927,high,0.014,no match,False
+8566,293,0.026,-0.0343,low,0.023,match,False
+8219,294,0.059,0.0374,high,0.04,split,False
+9935,295,0.063,0.0952,high,0.022,no match,False
+1821,296,0.029,-0.0443,low,0.016,match,False
+10197,297,0.041,0.0225,high,0.045,no match,False
+5659,298,0.027,-0.0264,low,0.027,match,False
+1976,299,0.006,0.104,high,0.001,match,False
+11047,300,0.044,0.0274,high,0.041,no match,False
+10105,301,0.012,0.0387,high,0.008,match,False
+5211,302,0.037,0.0234,high,0.038,no match,False
+1913,303,0.015,0.041,high,0.008,match,False
+10886,304,0.019,-0.0362,low,0.014,no match,False
+918,305,0.049,-0.0406,low,0.03,no match,False
+6246,306,0.066,0.0694,high,0.027,match,False
+9839,307,0.076,0.0472,high,0.043,match,False
+7859,308,0.019,0.0268,high,0.021,match,False
+2915,309,0.04,0.0227,high,0.045,split,False
+9269,310,0.037,0.0271,high,0.035,match,False
+7726,311,0.081,0.0623,high,0.033,split,False
+1934,312,0.036,-0.0235,low,0.042,no match,False
+1052,313,0.028,0.0345,high,0.02,split,False
+2452,314,0.068,-0.0564,low,0.032,match,False
+1370,315,-0.007,0.0361,high,-0.005,split,False
+10103,316,0.104,-0.0768,low,0.036,no match,False
+1741,317,0.066,0.0406,high,0.038,match,False
+9076,318,0.008,0.0326,high,0.006,no match,False
+10594,319,0.012,0.0273,high,0.012,match,False
+1611,320,0.022,0.0302,high,0.018,match,False
+5941,321,0.023,-0.0369,low,0.016,no match,False
+8182,322,0.053,0.0512,high,0.025,match,False
+8033,323,0.042,0.0703,high,0.016,match,False
+4931,324,0.045,0.0405,high,0.034,match,False
+7333,325,0.023,0.0326,high,0.016,match,False
+3450,326,0.04,0.0233,high,0.043,match,False
+1025,327,0.041,-0.0276,low,0.039,split,False
+3899,328,0.034,0.0306,high,0.033,split,False
+5895,329,0.084,0.0796,high,0.027,match,False
+3320,330,0.043,-0.0322,low,0.033,match,False
+8177,331,0.075,-0.0675,low,0.029,match,False
+2346,332,0.083,0.0403,high,0.048,match,False
+4537,333,0.013,0.0337,high,0.009,match,False
+8643,334,0.031,0.0342,high,0.027,match,False
+9110,335,0.029,-0.0217,low,0.033,match,False
+9111,336,0.038,0.0427,high,0.021,split,False
+11724,337,0.04,-0.0641,low,0.015,split,False
+9301,338,0.027,-0.0549,low,0.013,no match,False
+11751,339,0.049,-0.0558,low,0.022,match,False
+4284,340,0.09,-0.0351,low,0.061,match,False
+6608,341,0.026,0.0414,high,0.016,match,False
+8926,342,0.04,0.0308,high,0.031,split,False
+10791,343,0.03,-0.0262,low,0.032,no match,False
+64,344,0.048,-0.0396,low,0.032,no match,False
+10775,345,0.051,-0.0483,low,0.026,match,False
+6194,346,0.019,-0.0364,low,0.013,split,False
+8244,347,0.022,0.0386,high,0.017,split,False
+6667,348,0.017,0.0326,high,0.013,match,False
+8208,349,0.066,-0.0385,low,0.042,match,False
+11429,350,0.021,0.0311,high,0.016,split,False
+10172,351,0.045,0.0274,high,0.045,match,False
+5298,352,0.009,0.0288,high,0.008,no match,False
+1640,353,0.013,-0.0276,low,0.012,no match,False
+2567,354,0.032,0.0211,high,0.04,no match,False
+3950,355,0.004,-0.021,low,0.004,match,False
+7098,356,0.03,-0.0205,low,0.037,no match,False
+9127,357,0.05,-0.0347,low,0.035,split,False
+7401,358,0.035,-0.0487,low,0.019,split,False
+3523,359,0.031,0.0473,high,0.016,match,False
+9346,360,0.075,-0.0552,low,0.036,no match,False
+8815,361,0.052,0.039,high,0.033,match,False
+4261,362,0.047,0.0475,high,0.026,no match,False
+447,363,0.033,0.0266,high,0.031,match,False
+630,364,0.03,0.0171,high,0.046,split,False
+1807,365,0.039,-0.0251,low,0.045,split,False
+550,366,0.035,-0.0308,low,0.029,no match,False
+6167,367,-0.004,-0.0428,low,-0.002,split,False
+512,368,0.022,0.0159,high,0.034,no match,False
+1398,369,0.032,-0.019,low,0.041,split,False
+183,370,0.076,-0.0346,low,0.057,match,False
+10409,371,0.056,0.0368,high,0.038,no match,False
+4105,372,0.028,-0.0207,low,0.032,no match,False
+6856,373,0.038,-0.0306,low,0.03,split,False
+11622,374,0.028,0.0285,high,0.023,split,False
+5213,375,0.017,-0.0443,low,0.01,no match,False
+7900,376,0.038,-0.0478,low,0.026,no match,False
+11217,377,0.05,-0.0335,low,0.047,no match,False
+9369,378,0.022,-0.0263,low,0.021,match,False
+4624,379,0.0,-0.0427,low,0.0,no match,False
+9527,380,0.064,0.0597,high,0.03,match,False
+8279,381,-0.014,0.0752,high,-0.005,match,False
+3805,382,0.007,-0.0216,low,0.008,match,False
+3532,383,0.028,0.0247,high,0.029,match,False
+1524,384,0.024,0.0369,high,0.017,split,False
+3099,385,0.036,0.0347,high,0.027,match,False
+7723,386,0.081,-0.0407,low,0.051,split,False
+7496,387,0.034,0.0501,high,0.022,split,False
+7336,388,0.033,0.0385,high,0.02,split,False
+1216,389,-0.003,0.0359,high,-0.003,split,False
+11795,390,0.031,0.0339,high,0.024,split,False
+8631,391,0.009,-0.0228,low,0.01,no match,False
+5830,392,0.066,0.0479,high,0.033,no match,False
+6849,393,0.023,-0.0207,low,0.027,match,False
+2708,394,0.028,0.0187,high,0.038,match,False
+2439,395,0.04,-0.0373,low,0.028,match,False
+7643,396,0.099,0.0517,high,0.046,match,False
+4372,397,0.012,0.0264,high,0.012,split,False
+8122,398,-0.003,-0.027,low,-0.003,no match,False
+2324,399,0.021,0.026,high,0.02,no match,False
+5698,400,0.022,0.0268,high,0.019,match,False
+7016,401,0.024,-0.0285,low,0.022,split,False
+9631,402,0.037,-0.022,low,0.041,match,False
+2773,403,0.024,0.0201,high,0.03,match,False
+1975,404,0.026,-0.0432,low,0.023,no match,False
+11767,405,0.033,-0.0335,low,0.024,split,False
+8016,406,0.02,0.0262,high,0.018,match,False
+4608,407,0.046,-0.0314,low,0.034,match,False
+12250,408,0.03,0.0331,high,0.025,no match,False
+664,409,0.043,0.0272,high,0.039,split,False
+11186,410,0.033,-0.032,low,0.026,no match,False
+4895,411,0.014,0.0188,high,0.019,split,False
+10674,412,0.011,0.0249,high,0.012,no match,False
+6177,413,0.014,0.0309,high,0.011,split,False
+4291,414,0.026,0.0233,high,0.029,split,False
+11034,415,0.056,0.0467,high,0.029,split,False
+10341,416,0.039,0.0296,high,0.039,no match,False
+10899,417,0.053,-0.0244,low,0.051,match,False
+650,418,0.014,0.0481,high,0.009,split,False
+2652,419,0.022,-0.0312,low,0.018,match,False
+62,420,0.007,0.0408,high,0.005,split,False
+998,421,-0.017,0.0801,high,-0.006,match,False
+3637,422,0.004,0.0256,high,0.004,split,False
+7953,423,0.022,0.0421,high,0.012,match,False
+7513,424,0.05,-0.0271,low,0.052,no match,False
+6283,425,0.038,-0.0677,low,0.016,match,False
+10812,426,0.039,0.0297,high,0.033,match,False
+7498,427,0.004,0.0389,high,0.003,match,False
+4724,428,0.025,-0.0195,low,0.029,no match,False
+11899,429,0.031,0.0216,high,0.035,split,False
+11291,430,0.039,-0.0269,low,0.035,split,False
+8415,431,0.018,-0.0186,low,0.023,split,False
+5060,432,0.015,0.0186,high,0.02,split,False
+2972,433,0.022,-0.0257,low,0.023,match,False
+10913,434,0.037,0.0288,high,0.032,no match,False
+4362,435,0.02,0.0151,high,0.033,no match,False
+10315,436,0.045,0.0405,high,0.028,match,False
+1973,437,0.041,-0.0222,low,0.046,split,False
+12047,438,0.059,-0.0324,low,0.046,split,False
+5611,439,0.11,-0.0857,low,0.032,match,False
+1170,440,-0.012,-0.0501,low,-0.007,match,False
+9563,441,0.053,0.0534,high,0.026,match,False
+651,442,-0.023,-0.0575,low,-0.011,match,False
+7849,443,0.094,-0.0468,low,0.048,split,False
+3029,444,0.041,-0.0236,low,0.044,no match,False
+8962,445,0.011,-0.0473,low,0.006,match,False
+4056,446,0.006,-0.0321,low,0.005,match,False
+4154,447,0.009,0.0382,high,0.007,match,False
+11547,448,0.039,0.0392,high,0.026,split,False
+4727,449,0.029,0.0452,high,0.021,no match,False
+7743,450,0.029,-0.0186,low,0.039,split,False
+31,451,0.004,0.0201,high,0.005,no match,False
+1519,452,0.048,-0.028,low,0.045,no match,False
+10989,453,0.014,0.0271,high,0.013,split,False
+10727,454,0.064,-0.0373,low,0.044,split,False
+6520,455,0.033,-0.031,low,0.027,match,False
+3097,456,0.049,-0.0466,low,0.031,match,False
+2775,457,0.022,-0.0341,low,0.016,match,False
+8082,458,0.027,-0.017,low,0.041,split,False
+11812,459,-0.004,0.0266,high,-0.004,split,False
+9658,460,0.007,-0.0382,low,0.005,match,False
+4095,461,0.041,0.0396,high,0.029,match,False
+3871,462,0.034,-0.0346,low,0.026,match,False
+2788,463,0.009,-0.0341,low,0.007,split,False
+9308,464,0.03,0.0362,high,0.021,match,False
+722,465,0.075,0.0735,high,0.026,match,False
+7873,466,0.015,-0.0265,low,0.014,no match,False
+9234,467,0.026,-0.0255,low,0.028,no match,False
+4629,468,0.073,-0.0619,low,0.028,split,False
+3497,469,0.04,0.0848,high,0.012,match,False
+6679,470,0.072,0.0423,high,0.044,split,False
+11836,471,0.032,-0.0438,low,0.018,split,False
+11657,472,0.037,-0.0344,low,0.029,no match,False
+655,473,0.019,0.0324,high,0.014,match,False
+9806,474,-0.002,0.0327,high,-0.001,no match,False
+11548,475,0.038,-0.0399,low,0.022,split,False
+10226,476,0.039,-0.026,low,0.036,split,False
+8190,477,0.016,0.0233,high,0.017,split,False
+4153,478,0.009,0.0317,high,0.008,match,False
+5052,479,0.039,-0.0252,low,0.038,split,False
+6472,480,0.019,0.0291,high,0.017,split,False
+3755,481,0.037,0.0311,high,0.029,no match,False
+6797,482,-0.02,0.0318,high,-0.015,match,False
+2541,483,0.033,0.0243,high,0.034,no match,False
+9440,484,0.019,-0.0498,low,0.011,no match,False
+5491,485,0.015,-0.0249,low,0.017,split,False
+11159,486,-0.016,0.1259,high,-0.004,split,False
+9131,487,0.031,-0.0341,low,0.028,split,False
+6939,488,0.058,-0.0345,low,0.045,match,False
+1320,489,0.014,-0.0273,low,0.013,match,False
+11158,490,0.018,-0.0347,low,0.014,match,False
+7772,491,0.05,0.0255,high,0.048,match,False
+4815,492,0.039,0.0376,high,0.024,match,False
+7252,493,0.04,-0.0365,low,0.028,split,False
+7668,494,0.028,-0.0288,low,0.025,split,False
+10847,495,0.02,-0.034,low,0.018,split,False
+5469,496,0.032,0.026,high,0.032,match,False
+7032,497,0.043,0.0496,high,0.028,no match,False
+10845,498,0.029,-0.0194,low,0.034,no match,False
+5183,499,0.034,0.0229,high,0.035,match,False
+3234,500,0.04,0.0307,high,0.033,no match,False
+9860,501,0.025,-0.0208,low,0.031,match,False
+10004,502,0.05,0.0252,high,0.051,match,False
+8327,503,0.053,0.0363,high,0.037,split,False
+1874,504,0.019,0.0319,high,0.015,match,False
+2427,505,0.027,0.0246,high,0.028,split,False
+1881,506,0.023,0.0211,high,0.026,match,False
+286,507,0.044,0.0299,high,0.039,match,False
+8346,508,0.066,-0.0507,low,0.043,split,False
+12151,509,0.023,-0.0221,low,0.026,no match,False
+6848,510,0.024,0.0229,high,0.033,split,False
+5026,511,0.008,0.0249,high,0.009,no match,False
+904,512,0.013,-0.0233,low,0.014,match,False
+2697,513,0.018,-0.0245,low,0.018,no match,False
+11654,514,0.013,-0.0354,low,0.01,split,False
+2118,515,0.058,0.0253,high,0.058,match,False
+7570,516,0.023,0.0344,high,0.018,match,False
+9401,517,0.016,-0.0245,low,0.02,split,False
+8729,518,0.033,-0.0155,low,0.054,split,False
+4509,519,0.027,-0.0215,low,0.032,split,False
+10247,520,0.03,0.0192,high,0.04,split,False
+8317,521,0.012,0.023,high,0.012,match,False
+6008,522,0.037,0.0329,high,0.029,match,False
+10635,523,0.031,-0.0373,low,0.026,no match,False
+2077,524,0.02,-0.0221,low,0.023,no match,False
+2079,525,0.025,-0.0223,low,0.03,no match,False
+8205,526,0.021,0.0212,high,0.026,split,False
+6234,527,-0.008,0.053,high,-0.004,match,False
+11065,528,0.024,0.0356,high,0.017,no match,False
+10731,529,0.024,-0.0342,low,0.017,match,False
+3248,530,0.022,-0.0429,low,0.015,no match,False
+12287,531,0.074,-0.0424,low,0.044,no match,False
+11285,532,0.027,0.022,high,0.034,match,False
+924,,0.006,-0.0065,low,0.022,split,True
+1220,,0.001,0.0122,high,0.001,match,True
+1668,,0.021,0.0214,high,0.024,split,True
+2564,,0.015,-0.0129,low,0.028,no match,True
+4116,,-0.001,-0.0016,low,-0.021,no match,True
+4877,,0.054,-0.0693,low,0.021,split,True
+5285,,0.0,-0.0012,low,0.003,no match,True
+6321,,0.001,-0.0013,low,0.015,split,True
+6458,,0.005,-0.0154,low,0.009,match,True
+6549,,0.014,-0.0199,low,0.022,split,True
+6765,,-0.0,-0.0226,low,-0.0,no match,True
+7154,,-0.001,-0.0022,low,-0.007,split,True
+7267,,0.007,0.0037,high,0.053,no match,True
+8298,,0.008,-0.014,low,0.015,split,True
+9870,,0.005,-0.0107,low,0.013,match,True
+10476,,0.002,-0.0062,low,0.01,no match,True
+11096,,-0.001,-0.0015,low,-0.025,split,True
+11142,,0.009,0.0134,high,0.022,match,True
+11519,,-0.002,0.0025,high,-0.024,no match,True
+11700,,0.0,-0.0013,low,0.008,no match,True

@@ -1,0 +1,65 @@
+{"neuron":5855,"pole":"high","cluster":0,"mode":"pronouns and conjunctions connecting clauses and ideas","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":5855,"pole":"high","cluster":1,"mode":"determiners introducing characters or objects in simple narratives","scene_windows":0,"windows":5,"scene":"children's story introduction"}
+{"neuron":5855,"pole":"low","cluster":0,"mode":"pronouns and conjunctions connecting clauses and ideas","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":5855,"pole":"low","cluster":1,"mode":"determiners introducing characters or objects in simple narratives","scene_windows":0,"windows":5,"scene":"children's story introduction"}
+{"neuron":8420,"pole":"high","cluster":0,"mode":"sentence-initial punctuation and determiners in simple narratives","scene_windows":0,"windows":5,"scene":"children's story start"}
+{"neuron":8420,"pole":"high","cluster":1,"mode":"sentence-initial punctuation and determiners in narrative","scene_windows":0,"windows":5,"scene":"tense narrative opening"}
+{"neuron":8420,"pole":"high","cluster":2,"mode":"sentence-initial quotation marks and determiners in dialogue","scene_windows":0,"windows":5,"scene":"dialogue initiation"}
+{"neuron":8420,"pole":"high","cluster":3,"mode":"punctuation and abbreviations in academic citations","scene_windows":0,"windows":5,"scene":"academic reference list"}
+{"neuron":8420,"pole":"high","cluster":4,"mode":"conjunctions and adverbs introducing contrasting or consequential information","scene_windows":0,"windows":5,"scene":"narrative transition"}
+{"neuron":8420,"pole":"high","cluster":5,"mode":"modal verbs expressing possibility or obligation","scene_windows":0,"windows":5,"scene":"conditional statements"}
+{"neuron":8420,"pole":"high","cluster":6,"mode":"sentence-initial punctuation and determiners in narrative","scene_windows":0,"windows":5,"scene":"action narrative start"}
+{"neuron":8420,"pole":"high","cluster":7,"mode":"pronouns and determiners introducing characters in simple narratives","scene_windows":0,"windows":5,"scene":"children's story character"}
+{"neuron":8420,"pole":"high","cluster":8,"mode":"verbs and pronouns in narrative action","scene_windows":0,"windows":5,"scene":"action narrative"}
+{"neuron":8420,"pole":"low","cluster":0,"mode":"punctuation and conjunctions in instructional text","scene_windows":0,"windows":5,"scene":"recipe or instructions"}
+{"neuron":8420,"pole":"low","cluster":1,"mode":"negated modal verbs and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative uncertainty"}
+{"neuron":8420,"pole":"low","cluster":2,"mode":"modal verbs and conjunctions in children's stories","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8420,"pole":"low","cluster":3,"mode":"pronouns and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":8420,"pole":"low","cluster":4,"mode":"punctuation and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":8420,"pole":"low","cluster":5,"mode":"negated modal verbs and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative uncertainty"}
+{"neuron":8420,"pole":"low","cluster":6,"mode":"possessive pronouns and conjunctions in children's stories","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":8750,"pole":"high","cluster":0,"mode":"nouns and determiners in descriptive text","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":8750,"pole":"high","cluster":1,"mode":"determiners introducing characters in simple narratives","scene_windows":0,"windows":5,"scene":"children's story introduction"}
+{"neuron":8750,"pole":"low","cluster":0,"mode":"conjunctions and punctuation in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":8750,"pole":"low","cluster":1,"mode":"conjunctions and punctuation in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":8750,"pole":"low","cluster":2,"mode":"proper nouns and conjunctions in descriptive text","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":8750,"pole":"low","cluster":3,"mode":"adjectives and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative description"}
+{"neuron":5327,"pole":"high","cluster":0,"mode":"abbreviations and conjunctions in technical text","scene_windows":0,"windows":5,"scene":"medical or technical text"}
+{"neuron":5327,"pole":"high","cluster":1,"mode":"conjunctions and pronouns in simple narratives","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":5327,"pole":"high","cluster":2,"mode":"conjunctions and pronouns in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":5327,"pole":"low","cluster":0,"mode":"conjunctions and verbs in instructional text","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":5327,"pole":"low","cluster":1,"mode":"conjunctions and pronouns in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":5327,"pole":"low","cluster":2,"mode":"narrative context for children's stories, often involving animals or simple actions.","scene_windows":0,"windows":5,"scene":"Children's story narration"}
+{"neuron":5327,"pole":"low","cluster":3,"mode":"pronouns referring to female characters in narrative contexts.","scene_windows":0,"windows":5,"scene":"Narrative context, female characters"}
+{"neuron":11427,"pole":"high","cluster":0,"mode":"prepositions and pronouns in descriptive text","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":11427,"pole":"high","cluster":1,"mode":"pronouns and conjunctions in simple narratives","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":11427,"pole":"high","cluster":2,"mode":"verbs and conjunctions in descriptive text","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":11427,"pole":"low","cluster":0,"mode":"pronouns and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":11427,"pole":"low","cluster":1,"mode":"conjunctions and pronouns in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":4092,"pole":"high","cluster":0,"mode":"adjectives and pronouns in simple narratives","scene_windows":0,"windows":5,"scene":"children's story emotion"}
+{"neuron":4092,"pole":"high","cluster":1,"mode":"verbs and pronouns in narrative","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":4092,"pole":"high","cluster":2,"mode":"punctuation and quotation marks in dialogue","scene_windows":0,"windows":5,"scene":"dialogue initiation"}
+{"neuron":4092,"pole":"high","cluster":3,"mode":"punctuation and abbreviations in code","scene_windows":0,"windows":5,"scene":"code snippet"}
+{"neuron":4092,"pole":"high","cluster":4,"mode":"verbs and adverbs in narrative action","scene_windows":0,"windows":5,"scene":"action narrative"}
+{"neuron":4092,"pole":"high","cluster":5,"mode":"verbs and pronouns in simple narratives","scene_windows":0,"windows":5,"scene":"children's story dialogue"}
+{"neuron":4092,"pole":"high","cluster":6,"mode":"verbs and pronouns in simple narratives","scene_windows":0,"windows":5,"scene":"children's story emotion"}
+{"neuron":4092,"pole":"high","cluster":7,"mode":"pronouns and verbs in narrative","scene_windows":0,"windows":5,"scene":"narrative action"}
+{"neuron":4092,"pole":"high","cluster":8,"mode":"conjunctions and pronouns in simple narratives","scene_windows":0,"windows":5,"scene":"children's story interaction"}
+{"neuron":4092,"pole":"low","cluster":0,"mode":"conjunctions and punctuation in simple narratives","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":4092,"pole":"low","cluster":1,"mode":"pronouns and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":4092,"pole":"low","cluster":2,"mode":"punctuation and code snippets","scene_windows":0,"windows":5,"scene":"code snippet"}
+{"neuron":4092,"pole":"low","cluster":3,"mode":"punctuation and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":6223,"pole":"high","cluster":0,"mode":"dialogue tags and question marks in conversational text","scene_windows":0,"windows":5,"scene":"conversational exchange"}
+{"neuron":6223,"pole":"high","cluster":1,"mode":"determiners introducing characters in simple narratives","scene_windows":0,"windows":5,"scene":"children's story introduction"}
+{"neuron":6223,"pole":"high","cluster":2,"mode":"determiners and conjunctions in simple narratives","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":6223,"pole":"high","cluster":3,"mode":"nouns and pronouns in narrative","scene_windows":0,"windows":5,"scene":"narrative description"}
+{"neuron":6223,"pole":"high","cluster":4,"mode":"conjunctions and punctuation in simple narratives","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":6223,"pole":"low","cluster":0,"mode":"conjunctions and determiners in technical text","scene_windows":0,"windows":5,"scene":"technical text"}
+{"neuron":6223,"pole":"low","cluster":1,"mode":"pronouns and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":6223,"pole":"low","cluster":2,"mode":"punctuation and code snippets","scene_windows":0,"windows":5,"scene":"code snippet"}
+{"neuron":3307,"pole":"high","cluster":0,"mode":"pronouns and adjectives expressing emotion in narrative","scene_windows":0,"windows":5,"scene":"narrative emotion"}
+{"neuron":3307,"pole":"high","cluster":1,"mode":"pronouns and verbs in narrative action","scene_windows":0,"windows":5,"scene":"action narrative"}
+{"neuron":3307,"pole":"high","cluster":2,"mode":"conjunctions and pronouns in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":3307,"pole":"high","cluster":3,"mode":"pronouns and conjunctions in narrative","scene_windows":0,"windows":5,"scene":"narrative continuation"}
+{"neuron":3307,"pole":"low","cluster":0,"mode":"adjectives and conjunctions expressing emotion in narrative","scene_windows":0,"windows":5,"scene":"narrative emotion"}
+{"neuron":3307,"pole":"low","cluster":1,"mode":"pronouns and verbs in narrative action","scene_windows":0,"windows":5,"scene":"action narrative"}

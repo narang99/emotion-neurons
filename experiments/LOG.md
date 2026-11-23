@@ -6,7 +6,9 @@ This file is the index of all experiments, in order. It also records how the wor
 
 - Each experiment has one row in the table.
 - Each experiment has a tag at the commit that made its results.
-- Each experiment has a detailed log in `experiments/`.
+- Each experiment has a detailed log. Since the trim of 2026-11-21, the logs and the code live only at the tags.
+  - Read a log: `git show <tag>:experiments/<log>`.
+  - The sparse-set methods are summarised in `SPARSE_SETS.md`.
 - Status:
   - **kept**: the result is in `main` (or in a PR for `main`) and is part of the final result;
   - **failed**: the method did not work. The branch and the tag stay. The log tells why;
@@ -50,6 +52,11 @@ This file is the index of all experiments, in order. It also records how the wor
 | `exp/signal_noise` | kept | per neuron, raw story-level push along each emotion vector: zero (noise), emotion-specific, or constant (offset); modes of the offset neurons | 31% noise, cancel (1% of push); 57% constant offset (function words, punctuation); specific 13% carry 54% of the contrast, d' 2.38 vs all 2.13, 90% from 83-368 neurons, 73% from pole tokens | `signal_noise.md` |
 | `exp/residual_sets` | kept | greedy on the leftover (direction and length, not cosine): fewest neurons whose raw gap write rebuilds the emotion write to its noise level; does the rest cancel | signal set ~1900 neurons (12-18%) carries ~85% of the push, random same size leaves 0.88-0.93; the rest look like noise as a vector (1.05-1.38x floor) but still carry 11-23% of the push along the emotion axis (6 folds, z 20-27); match sets leave 0.50-0.76; write 65-76% from pole tokens | `residual_sets.md` |
 | `exp/judge_sets` | kept | blind Haiku judging of 180 neurons: only in the signal set, in both sets, random (happy, sad, afraid, proud) | related to the named emotion: both 0.21, only signal 0.21, random 0.00; about 37% syntax; related ones are situations and body signs | `judge_sets.md` |
+| `exp/sparse_relaxed_l25` | superseded | relaxed mask in [0, 1] with an L1 penalty, and 6-fold stops | needs more neurons than greedy (happy 1787 vs 1501 at 90%); held-out early stopping never stops | `sparse_relaxed_l25.md` |
+| `exp/greedy_sets_l25` | kept | greedy sets that rebuild 90% of each emotion's MLP write (emotion mean minus all-story mean, no PCA) | 1472 to 2025 neurons; 50% from 87 to 261; happy's top neuron 2862 carries 8.9% | `greedy_sets_l25.md` |
+| `exp/harvest_happy_l25` | kept | both poles of the happy set to 75% (532 neurons + 20 controls), 2M tokens; modes; two blind judges (OpenRouter) | no-match 136 neurons (11.9% of push, 22 in top 100); match 46% vs controls 20%; 3832 fires at its low pole on 98% of laugh words; 9964 is neutral vs emotional | `harvest_happy_l25.md` |
+| `exp/refusal_qwen1` | kept | the refusal direction of Qwen-1 7B Chat (Arditi et al. 2024, paper splits 128+32), its layer-17 neuron set, modes, prompt view | layer 18, last post-instruction token; harmful refusal 93.8% -> 9.4% ablated, harmless 6.3% -> 100% added; 35 of the top 40 neurons are harm-category detectors at the reply token; in general text they do syntax and chat structure | `refusal_qwen1.md` |
+| `exp/harvest_bands` | kept | harvest hits sampled per band (250 each of p97-p99 ... p99.99+), weighted back; band mix per cluster; refusal rerun | refusal classes match 1 -> 8, split 0 -> 22 (controls 0 both); 13 of 15 refusal-scene clusters sit in p99.9+, each 0.1-2% of its pole; n3366 fires at `Assistant:` after harmful requests; a wider harm scene: match 10 (15.4% of the write), no match still 48.2% | `harvest_bands.md` |
 
 ## Record of the session of 2026-11-18 and 2026-11-19
 

@@ -1,0 +1,51 @@
+{"neuron":8729,"pole":"high","cluster":0,"mode":"Figurative idioms and colloquial phrases ending a clause, such as 'square one' or 'kicking our asses'","scene_windows":1,"windows":5,"scene":"Mixed everyday and war/alien-invasion narration with casual idioms"}
+{"neuron":8729,"pole":"high","cluster":1,"mode":"Prepositions and articles inside cooking and recipe descriptions","scene_windows":0,"windows":5,"scene":"Chef dialogues and recipe instructions"}
+{"neuron":8729,"pole":"low","cluster":0,"mode":"Determiners 'these/those/each/the' in scientific or encyclopedic sentences","scene_windows":0,"windows":5,"scene":"Ecology, biology and environmental science descriptions"}
+{"neuron":8729,"pole":"low","cluster":1,"mode":"Partial word tokens inside names, places and technical terms","scene_windows":0,"windows":5,"scene":"Miscellaneous names, historical and fictional passages"}
+{"neuron":8729,"pole":"low","cluster":2,"mode":"Periods ending simple sentences in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's bedtime-style stories"}
+{"neuron":8729,"pole":"low","cluster":3,"mode":"Auxiliary verbs and 'to/not' in reflective or narrative sentences","scene_windows":0,"windows":5,"scene":"Crime, legal and personal reflective narration"}
+{"neuron":6286,"pole":"high","cluster":0,"mode":"Modal or relative words ('can', 'to', 'has') after renewable energy subjects","scene_windows":0,"windows":5,"scene":"Expository text on renewable energy and economic impact"}
+{"neuron":6286,"pole":"high","cluster":1,"mode":"Digits and numerals within measurements, numbers, and identifiers","scene_windows":0,"windows":5,"scene":"Measurements, addresses, product and ID numbers"}
+{"neuron":6286,"pole":"high","cluster":2,"mode":"Subject pronouns or nouns starting a sentence after a tense narrative beat","scene_windows":1,"windows":5,"scene":"Fiction with fear, pain, and captivity moments"}
+{"neuron":6286,"pole":"high","cluster":3,"mode":"Prepositions and verbs in Civil War military history narration","scene_windows":0,"windows":5,"scene":"Civil War campaign history and army logistics"}
+{"neuron":6286,"pole":"low","cluster":0,"mode":"Past-tense verbs and sentence-level narrative tokens in fantasy action","scene_windows":1,"windows":5,"scene":"Fantasy battle and apocalyptic invasion narration"}
+{"neuron":6286,"pole":"low","cluster":1,"mode":"Biblical and scholarly reference numbers and abbreviations","scene_windows":0,"windows":5,"scene":"Scripture commentary and citation lists"}
+{"neuron":7543,"pole":"high","cluster":0,"mode":"Complementizers and pronouns after cognition verbs like 'knew' and 'think'","scene_windows":0,"windows":5,"scene":"Introspective fiction about suspicion and fate"}
+{"neuron":7543,"pole":"high","cluster":1,"mode":"Definite article 'the' following 'One day' in simple stories","scene_windows":0,"windows":5,"scene":"Children's fables and simple stories"}
+{"neuron":7543,"pole":"low","cluster":0,"mode":"Character name subjects starting sentences in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about happy characters"}
+{"neuron":7543,"pole":"low","cluster":1,"mode":"Manner adverbs and verb endings describing character actions","scene_windows":0,"windows":5,"scene":"Casual narrative and whimsical scenes"}
+{"neuron":7543,"pole":"low","cluster":2,"mode":"Full stops closing sentences in short children's story endings","scene_windows":0,"windows":5,"scene":"Children's stories with gentle resolutions"}
+{"neuron":7543,"pole":"low","cluster":3,"mode":"Pollution and pesticide terms, applied/application in environmental text","scene_windows":0,"windows":5,"scene":"Water quality and soil contamination research"}
+{"neuron":7543,"pole":"low","cluster":4,"mode":"Pronouns and modals in grim warfare and survival statements","scene_windows":3,"windows":5,"scene":"Post-apocalyptic survival logs and violent conflict"}
+{"neuron":7543,"pole":"low","cluster":5,"mode":"Adjectives like 'key' and 'significant' in policy and impact statements","scene_windows":0,"windows":5,"scene":"Climate, waste and public health policy text"}
+{"neuron":7543,"pole":"low","cluster":6,"mode":"Random tokens inside names, citations and numeric values","scene_windows":0,"windows":5,"scene":"Mixed citations, veterans and species records"}
+{"neuron":11449,"pole":"high","cluster":0,"mode":"Mid-phrase words in dialogue and narrative, such as 'now', 'person', 'line'","scene_windows":0,"windows":5,"scene":"Casual dialogue and fantasy or thriller narration"}
+{"neuron":11449,"pole":"high","cluster":1,"mode":"Character names used as vocatives in direct speech","scene_windows":0,"windows":5,"scene":"Children's dialogue with names in exclamations"}
+{"neuron":11449,"pole":"low","cluster":0,"mode":"Abstract nouns and status words in reflective narration","scene_windows":0,"windows":5,"scene":"Personal reflection and fantasy character narration"}
+{"neuron":11449,"pole":"low","cluster":1,"mode":"Technical nouns like instruction, path, method in programming text","scene_windows":0,"windows":5,"scene":"Programming and computing tutorials"}
+{"neuron":4654,"pole":"high","cluster":0,"mode":"Nouns and punctuation mid-sentence in atmospheric narrative description","scene_windows":0,"windows":5,"scene":"Literary descriptions of mansions, bars and characters"}
+{"neuron":4654,"pole":"high","cluster":1,"mode":"The word 'day' in 'One day' story openings","scene_windows":0,"windows":5,"scene":"Simple children's stories with 'One day' setups"}
+{"neuron":4654,"pole":"low","cluster":0,"mode":"Quantifiers and health-related terms in medical information","scene_windows":0,"windows":5,"scene":"Health and disease prevention articles"}
+{"neuron":4654,"pole":"low","cluster":1,"mode":"Pronoun 'I' or 'we' after conditional 'if' or 'what if'","scene_windows":3,"windows":5,"scene":"Tense dilemmas about desertion, death and survival"}
+{"neuron":4654,"pole":"low","cluster":2,"mode":"Full stops ending sentences in short children's and narrative passages","scene_windows":0,"windows":5,"scene":"Simple stories and tense narrative moments"}
+{"neuron":4654,"pole":"low","cluster":3,"mode":"Digits and code-like tokens in networking and setup instructions","scene_windows":0,"windows":5,"scene":"Network configuration and code tutorials"}
+{"neuron":7315,"pole":"high","cluster":0,"mode":"Prepositions 'in' before years or dates in factual statements","scene_windows":0,"windows":5,"scene":"Factual news and policy history"}
+{"neuron":7315,"pole":"high","cluster":1,"mode":"Body or place nouns ending descriptive phrases ('face', 'space', 'eye')","scene_windows":0,"windows":5,"scene":"Descriptive narrative about characters and settings"}
+{"neuron":7315,"pole":"high","cluster":2,"mode":"Citation and bibliographic fragments, names split mid-word","scene_windows":0,"windows":5,"scene":"Bibliographies and contact or photo credits"}
+{"neuron":7315,"pole":"low","cluster":0,"mode":"Emotional adjectives like 'proud' and 'happy' ending child narratives","scene_windows":0,"windows":5,"scene":"Simple children's stories about pride and happiness"}
+{"neuron":7315,"pole":"low","cluster":1,"mode":"Word fragments in names, places and cultural terms","scene_windows":0,"windows":5,"scene":"Cultural history and miscellaneous text fragments"}
+{"neuron":5627,"pole":"high","cluster":0,"mode":"Word-fragment tokens inside playful action verbs and sensory words","scene_windows":0,"windows":5,"scene":"Playful children's and light adventure scenes"}
+{"neuron":5627,"pole":"high","cluster":1,"mode":"Digits and fragments inside numbers, prices and identifiers","scene_windows":0,"windows":5,"scene":"History headings, prices and product or stream descriptions"}
+{"neuron":5627,"pole":"low","cluster":0,"mode":"Form of 'are' or 'was' in direct questions of worry or confusion","scene_windows":0,"windows":5,"scene":"Confused or worried dialogue in stories"}
+{"neuron":5627,"pole":"low","cluster":1,"mode":"Speech verbs 'says' and 'said' after quoted dialogue","scene_windows":0,"windows":5,"scene":"Dialogue-heavy children's and fantasy narration"}
+{"neuron":5627,"pole":"low","cluster":2,"mode":"Sentence-initial 'When' or 'But when' in story turning points","scene_windows":0,"windows":5,"scene":"Children's stories with sudden events"}
+{"neuron":5627,"pole":"low","cluster":3,"mode":"Word fragments inside scientific and technical terms","scene_windows":0,"windows":5,"scene":"Geology, medical devices and science writing"}
+{"neuron":5627,"pole":"low","cluster":4,"mode":"Nouns for weapons and body parts in combat or action lines","scene_windows":1,"windows":5,"scene":"Sci-fi and monster battle sequences"}
+{"neuron":5627,"pole":"low","cluster":5,"mode":"Verbs like 'did', 'out', 'you' in tense dialogue lines","scene_windows":1,"windows":5,"scene":"Tense dialogue about fixing or hiding trouble"}
+{"neuron":5627,"pole":"low","cluster":6,"mode":"The verb 'smiled' after a character's reaction","scene_windows":0,"windows":5,"scene":"Warm children's stories with gentle reactions"}
+{"neuron":4424,"pole":"high","cluster":0,"mode":"Preposition 'in' after nouns like 'form', 'role', 'impact'","scene_windows":0,"windows":5,"scene":"Expository and sci-fi descriptive prose"}
+{"neuron":4424,"pole":"high","cluster":1,"mode":"Code block delimiters and punctuation in PHP and JavaScript","scene_windows":0,"windows":5,"scene":"Programming code snippets with comments"}
+{"neuron":4424,"pole":"high","cluster":2,"mode":"Nouns and adverbs ending descriptive narrative phrases","scene_windows":0,"windows":5,"scene":"Stories about exploration, play and excitement"}
+{"neuron":4424,"pole":"high","cluster":3,"mode":"Commas and 'it' or 'fair' in children's dialogue exclamations","scene_windows":0,"windows":5,"scene":"Children's stories with simple dialogue and sharing"}
+{"neuron":4424,"pole":"low","cluster":0,"mode":"Narrative tokens 'If', 'I', 'you' in emotional reflection","scene_windows":1,"windows":5,"scene":"Tense first-person fiction about dangerous situations"}
+{"neuron":4424,"pole":"low","cluster":1,"mode":"Negation fragment 'n' in contractions like don't and couldn't","scene_windows":0,"windows":5,"scene":"First-person narration and dialogue with negation"}

@@ -1,0 +1,59 @@
+{"neuron":8177,"pole":"high","cluster":0,"mode":"emotional distress, loss, and internal suffering","scene_windows":2,"windows":5,"scene":"overwhelmed by negative emotions"}
+{"neuron":8177,"pole":"high","cluster":1,"mode":"dialogue, requests, and polite interactions in stories","scene_windows":0,"windows":5,"scene":"storytelling with dialogue"}
+{"neuron":8177,"pole":"low","cluster":0,"mode":"confusion, guilt, and self-reflection after events","scene_windows":0,"windows":5,"scene":"pondering past actions"}
+{"neuron":8177,"pole":"low","cluster":1,"mode":"negation, doubt, and uncertainty about the future","scene_windows":0,"windows":5,"scene":"expressing doubt and fear"}
+{"neuron":8177,"pole":"low","cluster":2,"mode":"existential dread and overwhelming circumstances","scene_windows":1,"windows":5,"scene":"facing overwhelming despair"}
+{"neuron":9053,"pole":"high","cluster":0,"mode":"lack of control and inability to influence surroundings","scene_windows":0,"windows":5,"scene":"feeling powerless and restricted"}
+{"neuron":9053,"pole":"high","cluster":1,"mode":"positive experiences and memorable moments","scene_windows":0,"windows":5,"scene":"recounting happy memories"}
+{"neuron":9053,"pole":"low","cluster":0,"mode":"culinary instructions and food preparation steps","scene_windows":0,"windows":5,"scene":"following cooking directions"}
+{"neuron":9053,"pole":"low","cluster":1,"mode":"lost hope, giving up, and lack of desire","scene_windows":1,"windows":5,"scene":"experiencing hopelessness and resignation"}
+{"neuron":9053,"pole":"low","cluster":2,"mode":"contact information and organizational names","scene_windows":0,"windows":5,"scene":"providing contact details"}
+{"neuron":9527,"pole":"high","cluster":0,"mode":"action, determination, and achieving goals","scene_windows":0,"windows":5,"scene":"focused on tasks and goals"}
+{"neuron":9527,"pole":"high","cluster":1,"mode":"numerical data and statistics in reports","scene_windows":0,"windows":5,"scene":"presenting numerical information"}
+{"neuron":9527,"pole":"low","cluster":0,"mode":"natural phenomena and celestial bodies","scene_windows":0,"windows":5,"scene":"observing nature's elements"}
+{"neuron":9527,"pole":"low","cluster":1,"mode":"personal feelings of emptiness and lack of understanding","scene_windows":0,"windows":5,"scene":"feeling empty and confused"}
+{"neuron":9527,"pole":"low","cluster":2,"mode":"narrative openings for children's stories","scene_windows":0,"windows":5,"scene":"beginning a story"}
+{"neuron":11767,"pole":"high","cluster":0,"mode":"movement and transition into different spaces","scene_windows":0,"windows":5,"scene":"moving between locations"}
+{"neuron":11767,"pole":"high","cluster":1,"mode":"shared experiences, creation, and collective action","scene_windows":0,"windows":5,"scene":"shared history and creation"}
+{"neuron":11767,"pole":"high","cluster":2,"mode":"sudden events, danger, and escape","scene_windows":1,"windows":5,"scene":"facing sudden danger"}
+{"neuron":11767,"pole":"low","cluster":0,"mode":"positive outcomes and happy conclusions","scene_windows":0,"windows":5,"scene":"celebrating positive results"}
+{"neuron":11767,"pole":"low","cluster":1,"mode":"personal growth and overcoming limitations","scene_windows":0,"windows":5,"scene":"personal growth and change"}
+{"neuron":11767,"pole":"low","cluster":2,"mode":"narrative openings for children's stories","scene_windows":0,"windows":5,"scene":"beginning a story"}
+{"neuron":9389,"pole":"high","cluster":0,"mode":"asking about plans, desires, or future actions","scene_windows":0,"windows":5,"scene":"casual conversation"}
+{"neuron":9389,"pole":"high","cluster":1,"mode":"military strategy and troop movements","scene_windows":0,"windows":5,"scene":"historical military analysis"}
+{"neuron":9389,"pole":"low","cluster":0,"mode":"describing processes or actions using 'for' or 'of'","scene_windows":0,"windows":5,"scene":"technical or instructional text"}
+{"neuron":9389,"pole":"low","cluster":1,"mode":"discussing capabilities, actions, or states of being","scene_windows":0,"windows":5,"scene":"personal reflection or narrative"}
+{"neuron":9389,"pole":"low","cluster":2,"mode":"referring to people or places with specific names or titles","scene_windows":0,"windows":5,"scene":"narrative or historical context"}
+{"neuron":9389,"pole":"low","cluster":3,"mode":"describing actions or states of being using 'had' or 'have'","scene_windows":0,"windows":5,"scene":"narrative or descriptive text"}
+{"neuron":9389,"pole":"low","cluster":4,"mode":"referring to specific entities or concepts using 'a' or 'an'","scene_windows":0,"windows":5,"scene":"descriptive or narrative text"}
+{"neuron":2281,"pole":"high","cluster":0,"mode":"distress, fear, and urgent requests","scene_windows":1,"windows":5,"scene":"urgent plea for help"}
+{"neuron":2281,"pole":"high","cluster":1,"mode":"military conflict, defense, and survival","scene_windows":0,"windows":5,"scene":"facing military conflict"}
+{"neuron":2281,"pole":"low","cluster":0,"mode":"surprise, curiosity, and observation of events","scene_windows":0,"windows":5,"scene":"observing surprising events"}
+{"neuron":2281,"pole":"low","cluster":1,"mode":"intense personal struggle and emotional pain","scene_windows":2,"windows":5,"scene":"experiencing intense struggle"}
+{"neuron":2281,"pole":"low","cluster":2,"mode":"narrative openings for children's stories","scene_windows":0,"windows":5,"scene":"beginning a story"}
+{"neuron":2281,"pole":"low","cluster":3,"mode":"physical sensations and bodily awareness","scene_windows":0,"windows":5,"scene":"awareness of physical sensations"}
+{"neuron":2281,"pole":"low","cluster":4,"mode":"desire, longing, and unfulfilled wishes","scene_windows":0,"windows":5,"scene":"longing for something lost"}
+{"neuron":1968,"pole":"high","cluster":0,"mode":"culinary instructions and food preparation steps","scene_windows":0,"windows":5,"scene":"following cooking directions"}
+{"neuron":1968,"pole":"high","cluster":1,"mode":"observation and discovery of things","scene_windows":0,"windows":5,"scene":"noticing and seeing things"}
+{"neuron":1968,"pole":"high","cluster":2,"mode":"possession and past experiences","scene_windows":0,"windows":5,"scene":"having something in the past"}
+{"neuron":1968,"pole":"high","cluster":3,"mode":"past actions and experiences","scene_windows":0,"windows":5,"scene":"recalling past actions"}
+{"neuron":1968,"pole":"high","cluster":4,"mode":"possession and description of objects","scene_windows":0,"windows":5,"scene":"describing possessed items"}
+{"neuron":1968,"pole":"high","cluster":5,"mode":"actions, interactions, and dialogue","scene_windows":0,"windows":5,"scene":"engaging in actions and speech"}
+{"neuron":1968,"pole":"high","cluster":6,"mode":"sudden realization and shock","scene_windows":1,"windows":5,"scene":"sudden shocking realization"}
+{"neuron":1968,"pole":"high","cluster":7,"mode":"anticipation and waiting for events","scene_windows":0,"windows":5,"scene":"waiting for something to happen"}
+{"neuron":1968,"pole":"low","cluster":0,"mode":"narrative openings for children's stories","scene_windows":0,"windows":5,"scene":"beginning a story"}
+{"neuron":1968,"pole":"low","cluster":1,"mode":"personal feelings of emptiness and lack of understanding","scene_windows":0,"windows":5,"scene":"feeling empty and confused"}
+{"neuron":1968,"pole":"low","cluster":2,"mode":"narrative openings for children's stories","scene_windows":0,"windows":5,"scene":"beginning a story"}
+{"neuron":11599,"pole":"high","cluster":0,"mode":"biological processes and scientific observations","scene_windows":0,"windows":5,"scene":"scientific biological processes"}
+{"neuron":11599,"pole":"high","cluster":1,"mode":"children's stories about family and friends","scene_windows":0,"windows":5,"scene":"children's family stories"}
+{"neuron":11599,"pole":"high","cluster":2,"mode":"children playing and running outdoors","scene_windows":0,"windows":5,"scene":"children playing outside"}
+{"neuron":11599,"pole":"high","cluster":3,"mode":"children playing and enjoying activities","scene_windows":0,"windows":5,"scene":"children enjoying activities"}
+{"neuron":11599,"pole":"high","cluster":4,"mode":"children playing and experiencing joy","scene_windows":0,"windows":5,"scene":"children experiencing joy"}
+{"neuron":11599,"pole":"high","cluster":5,"mode":"actions, dialogue, and emotional reactions","scene_windows":0,"windows":5,"scene":"actions and emotional responses"}
+{"neuron":11599,"pole":"high","cluster":6,"mode":"children playing and engaging in activities","scene_windows":0,"windows":5,"scene":"children engaging in play"}
+{"neuron":11599,"pole":"low","cluster":0,"mode":"destruction, decay, and negative consequences","scene_windows":0,"windows":5,"scene":"observing destruction and decay"}
+{"neuron":11599,"pole":"low","cluster":1,"mode":"possession and description of objects","scene_windows":0,"windows":5,"scene":"describing possessed items"}
+{"neuron":11599,"pole":"low","cluster":2,"mode":"narrative openings for children's stories","scene_windows":0,"windows":5,"scene":"beginning a story"}
+{"neuron":11599,"pole":"low","cluster":3,"mode":"technical instructions and code snippets","scene_windows":0,"windows":5,"scene":"providing technical code"}
+{"neuron":11599,"pole":"low","cluster":4,"mode":"culinary instructions and food preparation steps","scene_windows":0,"windows":5,"scene":"following cooking directions"}
+{"neuron":11599,"pole":"low","cluster":5,"mode":"food preparation and ingredient combinations","scene_windows":0,"windows":5,"scene":"preparing food ingredients"}

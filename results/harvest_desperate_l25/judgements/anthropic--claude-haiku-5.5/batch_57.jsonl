@@ -1,0 +1,65 @@
+{"neuron":11625,"pole":"high","cluster":0,"mode":"Generic 'people/them/to' tokens in mid-sentence expository or advice text","scene_windows":0,"windows":5,"scene":"Neutral expository or advice text, no crisis"}
+{"neuron":11625,"pole":"high","cluster":1,"mode":"'Every' starting a habitual or daily-routine sentence in fairy-tale narration","scene_windows":0,"windows":5,"scene":"Calm children's or fairy-tale narration about routines"}
+{"neuron":11625,"pole":"low","cluster":0,"mode":"Descriptive or emotional words in simple children's story sentences","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with happy moods"}
+{"neuron":11625,"pole":"low","cluster":1,"mode":"Pronouns 'it/they/she' referring back to objects in whimsical narration","scene_windows":0,"windows":5,"scene":"Gentle children's adventure narration"}
+{"neuron":4597,"pole":"high","cluster":0,"mode":"Tense, confrontational dialogue tokens with punctuation and 'about' or 'Now'","scene_windows":2,"windows":5,"scene":"Tense confrontations, a forceful plea to stop a hit"}
+{"neuron":4597,"pole":"high","cluster":1,"mode":"Pronoun 'He/I' starting sentences in dark fantasy or dialogue passages","scene_windows":1,"windows":5,"scene":"Dark fantasy dialogue, stakes and bargaining with spirits"}
+{"neuron":4597,"pole":"low","cluster":0,"mode":"Objects or pronouns ending pleas or reassurances from parents to children","scene_windows":1,"windows":5,"scene":"Parent-child reconciliation, apologies and gentle reassurance"}
+{"neuron":4597,"pole":"low","cluster":1,"mode":"Quote-opening marks and punctuation at the start of tense or emotional speech","scene_windows":1,"windows":5,"scene":"Tense dialogue and dread, some family warmth"}
+{"neuron":4597,"pole":"low","cluster":2,"mode":"Clause-joining words in literary descriptions of feelings and books","scene_windows":0,"windows":5,"scene":"Reflective literary narration about feelings and objects"}
+{"neuron":4597,"pole":"low","cluster":3,"mode":"Sentence-final periods after simple sentences about a character's feelings","scene_windows":0,"windows":5,"scene":"Simple children's stories about friendship and feelings"}
+{"neuron":1636,"pole":"high","cluster":0,"mode":"Medical or scientific modifiers like 'long-term', 'sporadic', 'lung'","scene_windows":0,"windows":5,"scene":"Scientific and medical research reporting"}
+{"neuron":1636,"pole":"high","cluster":1,"mode":"Body-part or object nouns in physical contact moments like 'hand', 'arm', 'hair'","scene_windows":2,"windows":5,"scene":"Physical grasping in fire rescue, deathbed, and tense moments"}
+{"neuron":1636,"pole":"high","cluster":2,"mode":"Food and ingredient descriptors in recipe lists","scene_windows":0,"windows":5,"scene":"Recipe and cooking instructions"}
+{"neuron":1636,"pole":"low","cluster":0,"mode":"Sentence or name-initial tokens in neutral expository or scripture-like text","scene_windows":0,"windows":5,"scene":"Expository, scholarly or screenplay text"}
+{"neuron":1636,"pole":"low","cluster":1,"mode":"Nouns for people or places in tense first-person narration","scene_windows":0,"windows":5,"scene":"Tense or wry first-person narration of mishaps"}
+{"neuron":9292,"pole":"high","cluster":0,"mode":"Sentence-initial 'The' after a story turning point","scene_windows":0,"windows":5,"scene":"Children's stories after a setback or resolution"}
+{"neuron":9292,"pole":"high","cluster":1,"mode":"Sentence-final punctuation or quote marks before a request for help","scene_windows":2,"windows":5,"scene":"Children asking for help with a stuck or lost item"}
+{"neuron":9292,"pole":"high","cluster":2,"mode":"Modal verbs 'can/could/would' in reassurance or resolve","scene_windows":1,"windows":5,"scene":"Consoling a child or trying to fix something broken"}
+{"neuron":9292,"pole":"high","cluster":3,"mode":"Punctuation after a distressed question or exclamation","scene_windows":1,"windows":5,"scene":"Children crying, distressed questions about problems"}
+{"neuron":9292,"pole":"high","cluster":4,"mode":"Sentence-initial pronouns after a sad or upsetting event","scene_windows":2,"windows":5,"scene":"Children coping after accidents and sad events"}
+{"neuron":9292,"pole":"high","cluster":5,"mode":"Emotion adjectives like 'sad', 'devastated', 'painful' describing distress","scene_windows":2,"windows":5,"scene":"Characters sad or upset after failure or loss"}
+{"neuron":9292,"pole":"low","cluster":0,"mode":"Periods ending calm sentences in simple children's stories","scene_windows":0,"windows":5,"scene":"Calm children's stories about everyday choices"}
+{"neuron":9292,"pole":"low","cluster":1,"mode":"Exclamation marks and pleas like 'No!' and 'Please!' in panic","scene_windows":4,"windows":5,"scene":"Panicked begging and frantic pleas during danger"}
+{"neuron":9292,"pole":"low","cluster":2,"mode":"Opening quote marks starting frightened or pained exclamations","scene_windows":3,"windows":5,"scene":"Shocked, pained or frightened characters speaking in horror"}
+{"neuron":9292,"pole":"low","cluster":3,"mode":"Articles and prepositions in tense action or peril narration","scene_windows":2,"windows":5,"scene":"Characters in danger, escaping or in chaotic aftermath"}
+{"neuron":9292,"pole":"low","cluster":4,"mode":"Policy and health-service nouns in factual reporting","scene_windows":0,"windows":5,"scene":"Public health and policy reporting"}
+{"neuron":9292,"pole":"low","cluster":5,"mode":"Abbreviations and identifiers inside technical or medical text","scene_windows":0,"windows":5,"scene":"Technical, medical and regulatory text"}
+{"neuron":9292,"pole":"low","cluster":6,"mode":"Third-person pronouns after a character's embarrassed or scared moment","scene_windows":0,"windows":5,"scene":"Children's or adventure stories with mild fear"}
+{"neuron":9292,"pole":"low","cluster":7,"mode":"Nouns and verbs of rage, panic or escalating conflict","scene_windows":2,"windows":5,"scene":"Angry or panicked confrontations and escalating fights"}
+{"neuron":4176,"pole":"high","cluster":0,"mode":"Connectives like 'that', 'because', 'since' in ethics and research reporting","scene_windows":0,"windows":5,"scene":"News and science reporting on medical ethics"}
+{"neuron":4176,"pole":"high","cluster":1,"mode":"Nouns in assistant-style answers about examples or topics","scene_windows":0,"windows":5,"scene":"Chat-style assistant answers and examples"}
+{"neuron":4176,"pole":"high","cluster":2,"mode":"Partial ingredient or word fragments in recipes and lists","scene_windows":0,"windows":5,"scene":"Recipes and informational lists"}
+{"neuron":4176,"pole":"high","cluster":3,"mode":"Sentence-ending periods or verbs in despairing or reflective first-person thoughts","scene_windows":1,"windows":5,"scene":"Brooding thoughts about death, failure or lost purpose"}
+{"neuron":4176,"pole":"high","cluster":4,"mode":"Opening quote marks before blunt or pleading dialogue","scene_windows":2,"windows":5,"scene":"Confrontations with spirits or a desperate plea"}
+{"neuron":4176,"pole":"low","cluster":0,"mode":"Sentence-final periods in expository explanations of concepts","scene_windows":0,"windows":5,"scene":"Expository text on business, physics and strategy"}
+{"neuron":4176,"pole":"low","cluster":1,"mode":"Subject pronouns after dialogue or reactions to events","scene_windows":0,"windows":5,"scene":"Wry or mild reactions in stories and family scenes"}
+{"neuron":10509,"pole":"high","cluster":0,"mode":"Mojibake quote fragments in children's story dialogue","scene_windows":0,"windows":5,"scene":"Children's stories with quoted dialogue"}
+{"neuron":10509,"pole":"high","cluster":1,"mode":"The word 'said' after a character's remark in children's stories","scene_windows":0,"windows":5,"scene":"Gentle children's stories with simple dialogue"}
+{"neuron":10509,"pole":"high","cluster":2,"mode":"Split negation 'n't' in distressed, anguished speech","scene_windows":4,"windows":5,"scene":"Anguished narration of failure, loss and crisis"}
+{"neuron":10509,"pole":"high","cluster":3,"mode":"Contraction apostrophes in casual or resigned dialogue","scene_windows":1,"windows":5,"scene":"Casual dialogue, some resignation and dread"}
+{"neuron":10509,"pole":"high","cluster":4,"mode":"Opening quotes before terse orders or tense exchanges","scene_windows":2,"windows":5,"scene":"Tense military or confrontational exchanges"}
+{"neuron":10509,"pole":"high","cluster":5,"mode":"Object pronouns and nouns after 'picked' or 'took' in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about found objects"}
+{"neuron":10509,"pole":"high","cluster":6,"mode":"Sentence-final periods after emotional or tense descriptions","scene_windows":1,"windows":5,"scene":"Emotional first-person narration, some dark tension"}
+{"neuron":10509,"pole":"high","cluster":7,"mode":"Blank indentation tokens before dialogue or narrative turns","scene_windows":0,"windows":5,"scene":"Mixed fiction and dialogue scenes"}
+{"neuron":10509,"pole":"low","cluster":0,"mode":"Demonstrative 'these' in expository or instructional sentences","scene_windows":0,"windows":5,"scene":"Expository and technical explanation"}
+{"neuron":10509,"pole":"low","cluster":1,"mode":"Closing quote or punctuation after tense, shouted or pleading speech","scene_windows":1,"windows":5,"scene":"Tense dialogue during escape or confrontation"}
+{"neuron":10509,"pole":"low","cluster":2,"mode":"Code tokens and quote marks inside programming or code snippets","scene_windows":0,"windows":5,"scene":"Programming code and tutorial text"}
+{"neuron":10509,"pole":"low","cluster":3,"mode":"Numeric and article tokens in historical or reference text","scene_windows":0,"windows":5,"scene":"Historical and reference text"}
+{"neuron":10509,"pole":"low","cluster":4,"mode":"Opening quote marks starting dialogue after a scolding or action","scene_windows":1,"windows":5,"scene":"Scoldings and dramatic dialogue exchanges"}
+{"neuron":10509,"pole":"low","cluster":5,"mode":"Contraction fragments like 'n't', 'll', 'd' in dialogue","scene_windows":0,"windows":5,"scene":"Casual or reflective dialogue and narration"}
+{"neuron":10509,"pole":"low","cluster":6,"mode":"Tokens in descriptions of troubled or difficult situations","scene_windows":0,"windows":5,"scene":"Descriptive narration about difficulty or frustration"}
+{"neuron":10509,"pole":"low","cluster":7,"mode":"Possessive 's and apostrophes in ordinary narration","scene_windows":0,"windows":5,"scene":"Ordinary story narration and descriptions"}
+{"neuron":3405,"pole":"high","cluster":0,"mode":"Sentence-ending punctuation after sad or reluctant actions","scene_windows":1,"windows":5,"scene":"Sad children and reluctant characters in stories"}
+{"neuron":3405,"pole":"high","cluster":1,"mode":"Contrastive 'but' introducing a complication","scene_windows":0,"windows":5,"scene":"Children's stories with a setback"}
+{"neuron":3405,"pole":"low","cluster":0,"mode":"Verbs and nouns in tense, grim fantasy narration","scene_windows":1,"windows":5,"scene":"Grim fantasy narration of dying or a curse"}
+{"neuron":3405,"pole":"low","cluster":1,"mode":"Conjunctions and modifiers in recipe steps","scene_windows":0,"windows":5,"scene":"Recipes and cooking steps"}
+{"neuron":4191,"pole":"high","cluster":0,"mode":"Article 'the' before place or ground nouns in narration","scene_windows":0,"windows":5,"scene":"Simple narration of events in gardens or places"}
+{"neuron":4191,"pole":"high","cluster":1,"mode":"Doneness and cooking-state words in recipe instructions","scene_windows":0,"windows":5,"scene":"Cooking and grilling instructions"}
+{"neuron":4191,"pole":"high","cluster":2,"mode":"Disease and biology nouns in scientific abstracts","scene_windows":0,"windows":5,"scene":"Biomedical and scientific research text"}
+{"neuron":4191,"pole":"high","cluster":3,"mode":"Nouns and clause starts in science and nature explanations","scene_windows":0,"windows":5,"scene":"Science and nature explanations"}
+{"neuron":4191,"pole":"high","cluster":4,"mode":"Sentence-final periods after excited or fun child activities","scene_windows":0,"windows":5,"scene":"Children having fun outdoors"}
+{"neuron":4191,"pole":"high","cluster":5,"mode":"Relative pronouns and verbs in intense, eerie descriptions","scene_windows":0,"windows":5,"scene":"Eerie or intense descriptive narration"}
+{"neuron":4191,"pole":"high","cluster":6,"mode":"Physical sensation words like 'burning', 'settles', 'ticked'","scene_windows":1,"windows":5,"scene":"Physical distress, thirst and disorientation"}
+{"neuron":4191,"pole":"low","cluster":0,"mode":"Sentence-final periods after screams, shouts or horror","scene_windows":2,"windows":5,"scene":"Horror, screaming and helplessness"}
+{"neuron":4191,"pole":"low","cluster":1,"mode":"Possessive and subject pronouns referring to characters in everyday narrative sentences","scene_windows":0,"windows":5,"scene":"Ordinary character narration, mild everyday or tense-but-calm situations"}

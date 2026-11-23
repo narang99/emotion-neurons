@@ -1,0 +1,72 @@
+{"neuron":8307,"pole":"high","cluster":0,"mode":"instructions to improve writing and presentation","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":8307,"pole":"high","cluster":1,"mode":"hesitation, questioning, and uncertainty","scene_windows":0,"windows":5,"scene":"dialogue with doubt"}
+{"neuron":8307,"pole":"high","cluster":2,"mode":"historical military unit descriptions","scene_windows":0,"windows":5,"scene":"historical narration"}
+{"neuron":8307,"pole":"high","cluster":3,"mode":"expressions of happiness and positive emotions","scene_windows":0,"windows":5,"scene":"childhood joy"}
+{"neuron":8307,"pole":"high","cluster":4,"mode":"expressions of affection and gratitude towards a mother","scene_windows":0,"windows":5,"scene":"family interaction"}
+{"neuron":8307,"pole":"low","cluster":0,"mode":"requests for action or agreement","scene_windows":0,"windows":5,"scene":"dialogue with requests"}
+{"neuron":8307,"pole":"low","cluster":1,"mode":"personal reflections and future uncertainties","scene_windows":0,"windows":5,"scene":"contemplation"}
+{"neuron":8307,"pole":"low","cluster":2,"mode":"unorthodox or risky actions","scene_windows":0,"windows":5,"scene":"unconventional choices"}
+{"neuron":9184,"pole":"high","cluster":0,"mode":"childhood achievements and positive feelings","scene_windows":0,"windows":5,"scene":"childhood accomplishment"}
+{"neuron":9184,"pole":"high","cluster":1,"mode":"pronouns referring to female or abstract entities","scene_windows":0,"windows":5,"scene":"narrative perspective"}
+{"neuron":9184,"pole":"high","cluster":2,"mode":"narrative descriptions of events and actions","scene_windows":0,"windows":5,"scene":"storytelling"}
+{"neuron":9184,"pole":"low","cluster":0,"mode":"dialogue with exclamations and direct address","scene_windows":0,"windows":5,"scene":"dialogue with exclamations"}
+{"neuron":9184,"pole":"low","cluster":1,"mode":"dialogue expressing doubt or questioning","scene_windows":0,"windows":5,"scene":"dialogue with doubt"}
+{"neuron":9184,"pole":"low","cluster":2,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"pronoun usage"}
+{"neuron":9184,"pole":"low","cluster":3,"mode":"a character expresses their feelings or thoughts directly to another character","scene_windows":0,"windows":5,"scene":"dialogue, personal expression"}
+{"neuron":9184,"pole":"low","cluster":4,"mode":"a character expresses their feelings or thoughts directly to another character","scene_windows":0,"windows":5,"scene":"dialogue, personal expression"}
+{"neuron":9184,"pole":"low","cluster":5,"mode":"a character expresses their feelings or thoughts directly to another character","scene_windows":0,"windows":5,"scene":"dialogue, personal expression"}
+{"neuron":9184,"pole":"low","cluster":6,"mode":"a character expresses their feelings or thoughts directly to another character","scene_windows":0,"windows":5,"scene":"dialogue, personal expression"}
+{"neuron":11429,"pole":"high","cluster":0,"mode":"dialogue expressing doubt or seeking clarification","scene_windows":0,"windows":5,"scene":"conversational inquiry"}
+{"neuron":11429,"pole":"high","cluster":1,"mode":"sudden events or changes in narrative","scene_windows":0,"windows":5,"scene":"story development"}
+{"neuron":11429,"pole":"high","cluster":2,"mode":"business and marketing strategies","scene_windows":0,"windows":5,"scene":"business advice"}
+{"neuron":11429,"pole":"high","cluster":3,"mode":"dialogue involving questions and commands","scene_windows":0,"windows":5,"scene":"dialogue with authority"}
+{"neuron":11429,"pole":"high","cluster":4,"mode":"children's names and actions","scene_windows":0,"windows":5,"scene":"childhood activities"}
+{"neuron":11429,"pole":"high","cluster":5,"mode":"descriptions of feelings and states","scene_windows":0,"windows":5,"scene":"emotional states"}
+{"neuron":11429,"pole":"high","cluster":6,"mode":"dialogue with interjections and conversational fillers","scene_windows":0,"windows":5,"scene":"casual conversation"}
+{"neuron":11429,"pole":"high","cluster":7,"mode":"dialogue expressing requests or uncertainty","scene_windows":0,"windows":5,"scene":"dialogue with requests"}
+{"neuron":11429,"pole":"high","cluster":8,"mode":"narrative descriptions of actions and events","scene_windows":0,"windows":5,"scene":"storytelling actions"}
+{"neuron":11429,"pole":"high","cluster":9,"mode":"children's names and interactions","scene_windows":0,"windows":5,"scene":"childhood interactions"}
+{"neuron":11429,"pole":"high","cluster":10,"mode":"children's names and positive experiences","scene_windows":0,"windows":5,"scene":"childhood experiences"}
+{"neuron":11429,"pole":"low","cluster":0,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"pronoun usage"}
+{"neuron":11429,"pole":"low","cluster":1,"mode":"numerical lists and instructions","scene_windows":0,"windows":5,"scene":"numbered instructions"}
+{"neuron":11370,"pole":"high","cluster":0,"mode":"historical references to Danish influence and migration","scene_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":11370,"pole":"high","cluster":1,"mode":"advice on healthy habits and technology","scene_windows":0,"windows":5,"scene":"giving advice"}
+{"neuron":11370,"pole":"high","cluster":2,"mode":"programming code snippets and execution","scene_windows":0,"windows":5,"scene":"technical code"}
+{"neuron":11370,"pole":"high","cluster":3,"mode":"dialogue expressing surprise or seeking information","scene_windows":0,"windows":5,"scene":"dialogue with surprise"}
+{"neuron":11370,"pole":"high","cluster":4,"mode":"narrative descriptions of locations and actions","scene_windows":0,"windows":5,"scene":"narrative description"}
+{"neuron":11370,"pole":"high","cluster":5,"mode":"actions involving movement and interaction","scene_windows":0,"windows":5,"scene":"action narrative"}
+{"neuron":11370,"pole":"low","cluster":0,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"pronoun usage"}
+{"neuron":11370,"pole":"low","cluster":1,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"pronoun usage"}
+{"neuron":7152,"pole":"high","cluster":0,"mode":"tips for engaging online content and marketing","scene_windows":0,"windows":5,"scene":"marketing advice"}
+{"neuron":7152,"pole":"high","cluster":1,"mode":"narrative descriptions of technology and events","scene_windows":0,"windows":5,"scene":"technological narrative"}
+{"neuron":7152,"pole":"high","cluster":2,"mode":"marketing strategies involving content and engagement","scene_windows":0,"windows":5,"scene":"marketing strategies"}
+{"neuron":7152,"pole":"low","cluster":0,"mode":"narrative descriptions of objects and actions","scene_windows":0,"windows":5,"scene":"narrative object description"}
+{"neuron":7152,"pole":"low","cluster":1,"mode":"lists of ingredients and food items","scene_windows":0,"windows":5,"scene":"food ingredients"}
+{"neuron":11202,"pole":"high","cluster":0,"mode":"historical and academic contexts","scene_windows":0,"windows":5,"scene":"academic context"}
+{"neuron":11202,"pole":"high","cluster":1,"mode":"bibliographic references and citations","scene_windows":0,"windows":5,"scene":"citation"}
+{"neuron":11202,"pole":"high","cluster":2,"mode":"eco-friendly practices and technology","scene_windows":0,"windows":5,"scene":"eco-friendly advice"}
+{"neuron":11202,"pole":"high","cluster":3,"mode":"children's positive experiences and gratitude","scene_windows":0,"windows":5,"scene":"childhood positive experience"}
+{"neuron":11202,"pole":"high","cluster":4,"mode":"dialogue involving past events and personal history","scene_windows":0,"windows":5,"scene":"dialogue about past"}
+{"neuron":11202,"pole":"high","cluster":5,"mode":"food and recipe descriptions","scene_windows":0,"windows":5,"scene":"food description"}
+{"neuron":11202,"pole":"high","cluster":6,"mode":"children's names and interactions with mothers","scene_windows":0,"windows":5,"scene":"childhood mother interaction"}
+{"neuron":11202,"pole":"high","cluster":7,"mode":"narrative descriptions of places and activities","scene_windows":0,"windows":5,"scene":"narrative place description"}
+{"neuron":11202,"pole":"high","cluster":8,"mode":"children's names and shared activities","scene_windows":0,"windows":5,"scene":"childhood shared activity"}
+{"neuron":11202,"pole":"low","cluster":0,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"pronoun usage"}
+{"neuron":11202,"pole":"low","cluster":1,"mode":"lists of skills and resources","scene_windows":0,"windows":5,"scene":"lists of skills"}
+{"neuron":11202,"pole":"low","cluster":2,"mode":"dialogue expressing surprise or uncertainty","scene_windows":0,"windows":5,"scene":"dialogue with surprise"}
+{"neuron":9745,"pole":"high","cluster":0,"mode":"dialogue between characters, often with animals","scene_windows":0,"windows":5,"scene":"dialogue with animals"}
+{"neuron":9745,"pole":"high","cluster":1,"mode":"dialogue expressing wishes or refusals","scene_windows":0,"windows":5,"scene":"dialogue with wishes"}
+{"neuron":9745,"pole":"high","cluster":2,"mode":"numerical references and chapter notations","scene_windows":0,"windows":5,"scene":"numerical references"}
+{"neuron":9745,"pole":"high","cluster":3,"mode":"dialogue involving statements and questions","scene_windows":0,"windows":5,"scene":"dialogue statements"}
+{"neuron":9745,"pole":"high","cluster":4,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"pronoun usage"}
+{"neuron":9745,"pole":"high","cluster":5,"mode":"dialogue expressing sadness or agreement","scene_windows":0,"windows":5,"scene":"dialogue with emotion"}
+{"neuron":9745,"pole":"low","cluster":0,"mode":"dialogue expressing doubt or uncertainty","scene_windows":0,"windows":5,"scene":"dialogue with doubt"}
+{"neuron":9745,"pole":"low","cluster":1,"mode":"dialogue expressing wishes or refusals","scene_windows":0,"windows":5,"scene":"dialogue with wishes"}
+{"neuron":9745,"pole":"low","cluster":2,"mode":"numerical references and chapter notations","scene_windows":0,"windows":5,"scene":"numerical references"}
+{"neuron":9745,"pole":"low","cluster":3,"mode":"dialogue involving statements and questions","scene_windows":0,"windows":5,"scene":"dialogue statements"}
+{"neuron":9745,"pole":"low","cluster":4,"mode":"pronouns referring to self or others","scene_windows":0,"windows":5,"scene":"pronoun usage"}
+{"neuron":5106,"pole":"high","cluster":0,"mode":"children's names and discoveries","scene_windows":0,"windows":5,"scene":"childhood discovery"}
+{"neuron":5106,"pole":"high","cluster":1,"mode":"requests for more information or details","scene_windows":0,"windows":5,"scene":"request for details"}
+{"neuron":5106,"pole":"low","cluster":0,"mode":"narrative descriptions of objects and actions","scene_windows":0,"windows":5,"scene":"narrative object description"}
+{"neuron":5106,"pole":"low","cluster":1,"mode":"lists of skills and resources","scene_windows":0,"windows":5,"scene":"lists of skills"}
+{"neuron":5106,"pole":"low","cluster":2,"mode":"dialogue expressing surprise or uncertainty","scene_windows":0,"windows":5,"scene":"dialogue with surprise"}

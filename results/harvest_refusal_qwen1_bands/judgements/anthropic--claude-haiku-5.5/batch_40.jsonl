@@ -1,0 +1,80 @@
+{"neuron":222,"pole":"high","cluster":0,"mode":"Article-internal 'the'/'by'/'rules' in regulatory or procedural description","scene_windows":0,"windows":5,"scene":"Water permits, regulations, sturgeon rules, recipe text"}
+{"neuron":222,"pole":"high","cluster":1,"mode":"'compliance' or 'comply' with regulations and standards","scene_windows":0,"windows":5,"scene":"Corporate compliance, regulatory legislation, business software descriptions"}
+{"neuron":222,"pole":"low","cluster":0,"mode":"Breaking or breaking a rule, law, or bank in narrative","scene_windows":0,"windows":5,"scene":"Fiction and general text about breaking laws or rules"}
+{"neuron":222,"pole":"low","cluster":1,"mode":"'my' in assistant saying it cannot act against its design","scene_windows":5,"windows":5,"scene":"AI assistant declining off-limits or profane requests"}
+{"neuron":222,"pole":"low","cluster":2,"mode":"'meet' as in meeting goals, limits, or requirements","scene_windows":0,"windows":5,"scene":"Policy, energy, academic and environmental goal descriptions"}
+{"neuron":222,"pole":"low","cluster":3,"mode":"'meeting' in 'ensure we are meeting your needs'","scene_windows":0,"windows":5,"scene":"Customer feedback and service-satisfaction letters"}
+{"neuron":222,"pole":"low","cluster":4,"mode":"'follow' as in following rules, steps, or recommendations","scene_windows":0,"windows":5,"scene":"Advice on credit, etiquette, fitness, fish-tank treatment"}
+{"neuron":222,"pole":"low","cluster":5,"mode":"'fulfill(ed)' a dream, wish, or destiny","scene_windows":0,"windows":5,"scene":"Fantasy and drama narratives about achieving destiny"}
+{"neuron":222,"pole":"low","cluster":6,"mode":"'violate/violating' rules, policies, or principles","scene_windows":3,"windows":5,"scene":"AI assistant declining requests that would violate policies"}
+{"neuron":222,"pole":"low","cluster":7,"mode":"'the' after alignment or relation words like 'aligns with'","scene_windows":0,"windows":5,"scene":"Policy, mission, and marketing alignment descriptions"}
+{"neuron":222,"pole":"low","cluster":8,"mode":"'with' after 'align' linking choices to goals","scene_windows":0,"windows":5,"scene":"Goal-alignment advice for marketing, finances, and priorities"}
+{"neuron":7001,"pole":"high","cluster":0,"mode":"'close' meaning near in space or relationship","scene_windows":0,"windows":5,"scene":"Narrative near-misses, near-contact, and nearness descriptions"}
+{"neuron":7001,"pole":"high","cluster":1,"mode":"'line' or 'balance' as a fine boundary or tension","scene_windows":0,"windows":5,"scene":"Narratives and poems about walking a fine line"}
+{"neuron":7001,"pole":"high","cluster":2,"mode":"'barely' qualifying a near-miss action or sensation","scene_windows":0,"windows":5,"scene":"Action and sensory narration of barely managing"}
+{"neuron":7001,"pole":"high","cluster":3,"mode":"Mid-sentence function tokens in neutral explanatory text","scene_windows":0,"windows":5,"scene":"Hearing tests, measurements, music descriptions, speech research"}
+{"neuron":7001,"pole":"high","cluster":4,"mode":"'just' meaning narrowly in time during a rescue or chase","scene_windows":0,"windows":5,"scene":"Action scenes: car chases, bank robbery, timed arrivals"}
+{"neuron":7001,"pole":"low","cluster":0,"mode":"Function words like 'the', 'her', 'he' in neutral prose","scene_windows":0,"windows":5,"scene":"Essays, irrigation, medical and narrative text"}
+{"neuron":7001,"pole":"low","cluster":1,"mode":"Numeric or dash tokens inside election results tables","scene_windows":0,"windows":5,"scene":"Tabular election vote data"}
+{"neuron":3080,"pole":"high","cluster":0,"mode":"'baby' in homemade baby food or baby-related terms","scene_windows":0,"windows":5,"scene":"Homemade baby food preparation and storage"}
+{"neuron":3080,"pole":"high","cluster":1,"mode":"'Sure' opening an assistant's reply to a request","scene_windows":0,"windows":5,"scene":"Helpful assistant replies to benign requests"}
+{"neuron":3080,"pole":"high","cluster":2,"mode":"'with' after engagement or engage, linking to audience","scene_windows":0,"windows":5,"scene":"Social media and marketing engagement advice"}
+{"neuron":3080,"pole":"high","cluster":3,"mode":"Final punctuation or question mark closing a simple user question","scene_windows":0,"windows":5,"scene":"Short Human-Assistant questions about hobbies and products"}
+{"neuron":3080,"pole":"high","cluster":4,"mode":"Sentence-ending period or space before a list item","scene_windows":0,"windows":5,"scene":"Recommendation lists and web-content advice"}
+{"neuron":3080,"pole":"high","cluster":5,"mode":"Colon after 'Assistant' starting a reply","scene_windows":0,"windows":5,"scene":"Human-Assistant cooking, beauty, and party questions"}
+{"neuron":3080,"pole":"high","cluster":6,"mode":"'skin' in skin care and skin-condition contexts","scene_windows":0,"windows":5,"scene":"Skin irritation, shaving, sun and sting care advice"}
+{"neuron":3080,"pole":"high","cluster":7,"mode":"'belly' as body part or belly-related word","scene_windows":0,"windows":5,"scene":"Infant swimming, animal drawings, jewelry, fiction violence"}
+{"neuron":3080,"pole":"high","cluster":8,"mode":"'small' or 'smaller' describing reduced size or portions","scene_windows":0,"windows":5,"scene":"Portion sizes for food, pets, clothing, and ads"}
+{"neuron":3080,"pole":"high","cluster":9,"mode":"Scattered verb or preposition in mid-sentence prose","scene_windows":0,"windows":5,"scene":"Mixed prose on prevention, care, and description"}
+{"neuron":3080,"pole":"high","cluster":10,"mode":"Terms of endearment like baby, babe, sweetie in dialogue","scene_windows":0,"windows":5,"scene":"Romantic or family dialogue in fiction"}
+{"neuron":3080,"pole":"high","cluster":11,"mode":"Person's first name as a proper noun","scene_windows":0,"windows":5,"scene":"Biographies, bloggers, record holders, teachers"}
+{"neuron":3080,"pole":"high","cluster":12,"mode":"Character name used as direct address in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue addressing a named character"}
+{"neuron":3080,"pole":"low","cluster":0,"mode":"Period ending a numbered list item in recommendations","scene_windows":0,"windows":5,"scene":"Music and reading recommendation lists"}
+{"neuron":3080,"pole":"low","cluster":1,"mode":"'www' inside reddit links in story posts","scene_windows":0,"windows":5,"scene":"Reddit writing-prompt story footers"}
+{"neuron":5728,"pole":"high","cluster":0,"mode":"'referred' or 'to' in 'referred to as' constructions","scene_windows":0,"windows":5,"scene":"Technical and historical descriptions of named terms"}
+{"neuron":5728,"pole":"high","cluster":1,"mode":"'known' in 'known as' naming constructions","scene_windows":0,"windows":5,"scene":"Naming of algorithms, bacteria, creatures, techniques"}
+{"neuron":5728,"pole":"high","cluster":2,"mode":"'called' or 'nicknamed' introducing a term's name","scene_windows":0,"windows":5,"scene":"Naming of astronomy, science, and dictionary terms"}
+{"neuron":5728,"pole":"high","cluster":3,"mode":"Function words in mid-sentence generic prose","scene_windows":0,"windows":5,"scene":"Mixed prose on diet, dictionaries, and fiction"}
+{"neuron":5728,"pole":"high","cluster":4,"mode":"Commas inside long lists of names","scene_windows":0,"windows":5,"scene":"Lists of pet or baby names"}
+{"neuron":5728,"pole":"low","cluster":0,"mode":"'a' before 'decimal number' in code input-validation messages","scene_windows":0,"windows":5,"scene":"Programming input validation code"}
+{"neuron":5728,"pole":"low","cluster":1,"mode":"'the' before superlative or capital in factual statements","scene_windows":0,"windows":5,"scene":"Encyclopedic facts about sheep, instruments, cities"}
+{"neuron":5728,"pole":"low","cluster":2,"mode":"Article or preposition in general explanatory sentences","scene_windows":0,"windows":5,"scene":"General science, health, and social commentary"}
+{"neuron":5728,"pole":"low","cluster":3,"mode":"Indefinite article 'a' or 'an' before a product description","scene_windows":0,"windows":5,"scene":"Product and substance definitions"}
+{"neuron":8794,"pole":"high","cluster":0,"mode":"Prepositions 'of', 'in', 'to' mid-description","scene_windows":0,"windows":5,"scene":"Pool chemistry, travel, painting, and cabin descriptions"}
+{"neuron":8794,"pole":"high","cluster":1,"mode":"Assistant colon starting a creative reply","scene_windows":0,"windows":5,"scene":"Story, screenplay, and song continuation requests"}
+{"neuron":8794,"pole":"low","cluster":0,"mode":"'by', 'the', 'regarding' in social and historical analysis","scene_windows":0,"windows":5,"scene":"Mental health, inequality, and law enforcement ethics discussion"}
+{"neuron":8794,"pole":"low","cluster":1,"mode":"'even' introducing a cautionary concession","scene_windows":1,"windows":5,"scene":"Cautions about pets, Ouija boards, and brewing safety"}
+{"neuron":5751,"pole":"high","cluster":0,"mode":"Trailing double space after a question mark before answer","scene_windows":0,"windows":5,"scene":"Short Human questions with terse assistant starts"}
+{"neuron":5751,"pole":"high","cluster":1,"mode":"'Assistant' tag following a human question","scene_windows":0,"windows":5,"scene":"Q&A about cleaning, religion, water, and insults"}
+{"neuron":5751,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' starting an answer","scene_windows":0,"windows":5,"scene":"Cooking, prosthetics, and piercing questions"}
+{"neuron":5751,"pole":"high","cluster":3,"mode":"Trailing space after list items in enumerated lists","scene_windows":0,"windows":5,"scene":"Dance, cat food, vegetable, and music lists"}
+{"neuron":5751,"pole":"high","cluster":4,"mode":"Closing quotation mark after a line of dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with quoted speech"}
+{"neuron":5751,"pole":"high","cluster":5,"mode":"Trailing space after a year in bibliography lists","scene_windows":0,"windows":5,"scene":"Library catalogue of sermons and publication years"}
+{"neuron":5751,"pole":"high","cluster":6,"mode":"Blank space after a citation or reference entry","scene_windows":0,"windows":5,"scene":"Reference lists and bibliographies"}
+{"neuron":5751,"pole":"high","cluster":7,"mode":"Name-completing token after a term's first word","scene_windows":0,"windows":5,"scene":"Definitions of whipped cream, screen printing, art terms"}
+{"neuron":5751,"pole":"high","cluster":8,"mode":"Trailing whitespace at the end of a paragraph or line","scene_windows":0,"windows":5,"scene":"Fiction paragraph breaks and reflective lines"}
+{"neuron":5751,"pole":"low","cluster":0,"mode":"Blank space ending a narrative paragraph","scene_windows":0,"windows":5,"scene":"Dark fiction and thriller narration"}
+{"neuron":5751,"pole":"low","cluster":1,"mode":"Question-mark tokens ending a follow-up user request","scene_windows":0,"windows":5,"scene":"Follow-up requests and questions about poisoning, scraping, drinking"}
+{"neuron":5751,"pole":"low","cluster":2,"mode":"'Assistant' tag after a human follow-up question","scene_windows":0,"windows":5,"scene":"Q&A about fluid dynamics, sherpas, retrieval practice"}
+{"neuron":5751,"pole":"low","cluster":3,"mode":"Colon after 'Human' starting a follow-up turn","scene_windows":0,"windows":5,"scene":"Multi-turn discussions on economy, water, internet speech"}
+{"neuron":5751,"pole":"low","cluster":4,"mode":"Dash or colon after a restaurant or site name in lists","scene_windows":0,"windows":5,"scene":"Restaurant and shopping recommendation lists"}
+{"neuron":5751,"pole":"low","cluster":5,"mode":"Numbered step marker in bracketed list items","scene_windows":0,"windows":5,"scene":"Numbered instructions for recipes and business steps"}
+{"neuron":5751,"pole":"low","cluster":6,"mode":"Content nouns in mid-sentence positions of prose","scene_windows":0,"windows":5,"scene":"War, food, chemistry, and economics text"}
+{"neuron":5751,"pole":"low","cluster":7,"mode":"Period ending a short sentence before a new line","scene_windows":0,"windows":5,"scene":"Physics, Apollo, and technical sentence endings"}
+{"neuron":3809,"pole":"high","cluster":0,"mode":"'the' or comma in setting-description follow-ups","scene_windows":0,"windows":5,"scene":"Creative setting and decor design suggestions"}
+{"neuron":3809,"pole":"high","cluster":1,"mode":"'updated' or 'revised' in an assistant's revised deliverable","scene_windows":0,"windows":5,"scene":"Assistant revising posters, memos, code, screenplays"}
+{"neuron":3809,"pole":"low","cluster":0,"mode":"Colon after 'Assistant' opening a how-to answer","scene_windows":0,"windows":5,"scene":"Short Q&A on bait, muscle, woodworking, ADHD"}
+{"neuron":3809,"pole":"low","cluster":1,"mode":"Trailing space after a sentence before the next answer","scene_windows":1,"windows":5,"scene":"Explanations of execution and fake identity with caution"}
+{"neuron":3809,"pole":"low","cluster":2,"mode":"'Since' starting a causal explanatory clause","scene_windows":0,"windows":5,"scene":"Etymology and history of words and brands"}
+{"neuron":3809,"pole":"low","cluster":3,"mode":"Closing brace or spaces in CSS code","scene_windows":0,"windows":5,"scene":"HTML and CSS table styling code"}
+{"neuron":3809,"pole":"low","cluster":4,"mode":"Period ending a sentence about books, films, or reputation","scene_windows":0,"windows":5,"scene":"Time-travel films, Myspace, closet and package tips"}
+{"neuron":3809,"pole":"low","cluster":5,"mode":"Sentence-initial \"Although\" opening a concessive clause in an answer","scene_windows":0,"windows":5,"scene":"Practical Q&A about household science, hypnosis, and charcoal"}
+{"neuron":3809,"pole":"low","cluster":6,"mode":"Determiners \"the\"/\"your\" before body, skin, or project nouns in advice","scene_windows":0,"windows":5,"scene":"Health tips and DIY how-to instructions"}
+{"neuron":3809,"pole":"low","cluster":7,"mode":"\"word\"/\"from\"/\"Latin\" in word-origin explanations","scene_windows":0,"windows":5,"scene":"Etymology explanations of English and foreign words"}
+{"neuron":2212,"pole":"high","cluster":0,"mode":"Place, material, or culture nouns completing a descriptive phrase","scene_windows":0,"windows":5,"scene":"Encyclopedic facts about materials, places, and cuisine"}
+{"neuron":2212,"pole":"high","cluster":1,"mode":"Digits inside phone numbers, IDs, and ages in contact lines","scene_windows":0,"windows":5,"scene":"Press-release media contacts and numeric fragments"}
+{"neuron":2212,"pole":"low","cluster":0,"mode":"Flavor adjectives like tangy/nutty in recipe topping suggestions","scene_windows":0,"windows":5,"scene":"Recipe and food topping suggestion lists"}
+{"neuron":2212,"pole":"low","cluster":1,"mode":"\"interesting\"/\"nice\" reacting to the user's remark in chat","scene_windows":0,"windows":5,"scene":"Casual conversation about films and books"}
+{"neuron":2212,"pole":"low","cluster":2,"mode":"Ingredient or sauce name fragments inside enumerated lists","scene_windows":0,"windows":5,"scene":"Lists of sauces, toppings, and dishes"}
+{"neuron":2212,"pole":"low","cluster":3,"mode":"Clause-linking commas and conjunctions in expository sentences","scene_windows":0,"windows":5,"scene":"Expository text on arts, education, and conservation"}
+{"neuron":2212,"pole":"low","cluster":4,"mode":"Article \"a\" in \"Hmm, that's a question\" style replies","scene_windows":0,"windows":5,"scene":"Assistant answering casual how-to or curiosity questions"}

@@ -1,0 +1,102 @@
+[
+ {
+  "theme": "Assistant turn openers",
+  "definition": "The 'Assistant' or 'assistant' role label, its following colon, and first reply tokens such as 'Sure', 'Certainly' or 'Here are' that begin a chat answer.",
+  "kind": "syntax"
+ },
+ {
+  "theme": "Human/user turn markers",
+  "definition": "'Human:' or 'user:' labels, question marks and spacing that end a user question and set up the assistant's reply.",
+  "kind": "syntax"
+ },
+ {
+  "theme": "Benign helpful Q&A",
+  "definition": "Ordinary everyday questions on cooking, health, tips and recommendations, answered cooperatively, which is the contrast set against refusals.",
+  "kind": "situation"
+ },
+ {
+  "theme": "Assistant sign-offs and offers",
+  "definition": "Closing phrases such as 'Hope this helps', 'let me know if you have questions' and 'happy to provide more', which end a helpful reply.",
+  "kind": "style"
+ },
+ {
+  "theme": "Assistant disclaimers of limits",
+  "definition": "Replies opening with 'I don't have access', 'I'm not able to advise', or deferring to professionals, which are the soft refusal or inability form.",
+  "kind": "action"
+ },
+ {
+  "theme": "Follow-up requests",
+  "definition": "User turns such as 'Can you provide more information' or 'Could you also add', asking for elaboration or edits.",
+  "kind": "action"
+ },
+ {
+  "theme": "Fiction dialogue punctuation",
+  "definition": "Opening and closing quotation marks and indented paragraph-break whitespace around spoken lines in stories.",
+  "kind": "syntax"
+ },
+ {
+  "theme": "Tense dark fiction narration",
+  "definition": "Sentence-final periods and clause words in violent, horror, thriller or war scenes: hiding, threats, fear, bodily peril.",
+  "kind": "topic"
+ },
+ {
+  "theme": "Emotional first-person narration",
+  "definition": "Reflective or distressed first-person fiction about loss, panic, survival and hardship.",
+  "kind": "feeling"
+ },
+ {
+  "theme": "Safety and risk advice",
+  "definition": "Cautionary guidance on health, driving, lab and household safety, warning of hazards and recommending care.",
+  "kind": "topic"
+ },
+ {
+  "theme": "Illegal or harmful conduct topics",
+  "definition": "Passages on crime, laundering, hotwiring, poisoning, violence, penalties and legality that surround refusal-type requests.",
+  "kind": "topic"
+ },
+ {
+  "theme": "Mid-sentence function words",
+  "definition": "Prepositions, articles, conjunctions and auxiliaries ('the', 'of', 'to', 'and', 'is') inside neutral expository prose, with no clear meaning.",
+  "kind": "syntax"
+ },
+ {
+  "theme": "Sentence-final periods and spacing",
+  "definition": "Periods, trailing spaces and double-spaces that close expository or advice sentences before a new sentence or turn.",
+  "kind": "syntax"
+ },
+ {
+  "theme": "Neutral encyclopedic exposition",
+  "definition": "Factual prose on history, science, culture, policy and technology that ends noun phrases with abstract or topic nouns.",
+  "kind": "style"
+ },
+ {
+  "theme": "Practical how-to and recipes",
+  "definition": "Instructions, ingredient lists, numbered steps and list markers in cooking, maintenance and self-help advice.",
+  "kind": "style"
+ },
+ {
+  "theme": "Self-help and moral advice",
+  "definition": "Generic motivational or ethical guidance about balance, gratitude, health habits and values.",
+  "kind": "topic"
+ },
+ {
+  "theme": "Citations and numeric fragments",
+  "definition": "Digits inside years, references and bibliographies, plus word-piece fragments in names and technical terms.",
+  "kind": "syntax"
+ },
+ {
+  "theme": "Hedged opinion on contested issues",
+  "definition": "Cautious, balanced framing of controversial ethics, politics and debate, such as 'a very interesting question' or 'significant disagreement'.",
+  "kind": "style"
+ },
+ {
+  "theme": "Lists of examples",
+  "definition": "Openers that introduce enumerations ('Here are some', 'For example', 'Additionally') and list-item separators.",
+  "kind": "syntax"
+ },
+ {
+  "theme": "Social and political commentary",
+  "definition": "Essays on rights, discrimination, inequality, gerrymandering, harassment and oppression.",
+  "kind": "topic"
+ }
+]

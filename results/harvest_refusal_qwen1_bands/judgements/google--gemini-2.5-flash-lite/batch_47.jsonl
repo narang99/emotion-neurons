@@ -1,0 +1,71 @@
+{"neuron":4041,"pole":"high","cluster":0,"mode":"Requests for healthy recipes, book recommendations, playlists, and advice.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4041,"pole":"high","cluster":1,"mode":"Requests for examples of movies, organizations, and songs.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4041,"pole":"high","cluster":2,"mode":"Statements about company savings, cultural impact, and podcast communities.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":4041,"pole":"high","cluster":3,"mode":"Requests for popular attractions, movie lists, and dance types.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4041,"pole":"high","cluster":4,"mode":"Requests for book, movie, and actor recommendations.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4041,"pole":"high","cluster":5,"mode":"Requests for books, snacks, restaurants, and movies with specific themes.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4041,"pole":"high","cluster":6,"mode":"Statements about soccer participation, spiritual healing, and cultural traditions.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":4041,"pole":"low","cluster":0,"mode":"Narrative fragments about falling, madness, and unsettling feelings.","scene_windows":0,"windows":5,"scene":"Dark, introspective narrative."}
+{"neuron":4041,"pole":"low","cluster":1,"mode":"Narrative fragments about leaving a place, debt, and past relationships.","scene_windows":0,"windows":5,"scene":"Melancholy narrative fragments."}
+{"neuron":10625,"pole":"high","cluster":0,"mode":"Assistant responses offering help with organization, yoga, debt, recipes, and names.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":10625,"pole":"high","cluster":1,"mode":"Narrative fragments expressing personal feelings and observations.","scene_windows":0,"windows":5,"scene":"Personal narrative fragments."}
+{"neuron":10625,"pole":"high","cluster":2,"mode":"Assistant responses providing more details about fictional characters and settings.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":10625,"pole":"low","cluster":0,"mode":"Assistant responses about film school, fluoride, atomic bombs, and decentralization.","scene_windows":0,"windows":5,"scene":"Neutral, informative assistant responses."}
+{"neuron":10625,"pole":"low","cluster":1,"mode":"Assistant responses offering examples of content, items, and challenges.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":10625,"pole":"low","cluster":2,"mode":"Narrative fragments with dialogue and internal thoughts.","scene_windows":0,"windows":5,"scene":"Dialogue-heavy narrative fragments."}
+{"neuron":10625,"pole":"low","cluster":3,"mode":"Assistant responses confirming knowledge and providing definitions.","scene_windows":0,"windows":5,"scene":"Neutral, informative assistant responses."}
+{"neuron":10625,"pole":"low","cluster":4,"mode":"Assistant responses offering examples and suggestions.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":10625,"pole":"low","cluster":5,"mode":"Assistant responses stating lack of access to specific information.","scene_windows":0,"windows":5,"scene":"Neutral, unhelpful assistant responses."}
+{"neuron":10625,"pole":"low","cluster":6,"mode":"Assistant responses confirming facts and historical events.","scene_windows":0,"windows":5,"scene":"Neutral, informative assistant responses."}
+{"neuron":10625,"pole":"low","cluster":7,"mode":"Assistant responses offering advice and information, using 'but'.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":10625,"pole":"low","cluster":8,"mode":"Statements about product presentation, food storage, and advertising.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":10625,"pole":"low","cluster":9,"mode":"Statements about communication systems, training, and business expenses.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":10625,"pole":"low","cluster":10,"mode":"Statements about success, stories, kitchen appliances, and retrieval practice.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":4295,"pole":"high","cluster":0,"mode":"Citations for books on world religions and Buddhism.","scene_windows":0,"windows":5,"scene":"Bibliographic citations."}
+{"neuron":4295,"pole":"high","cluster":1,"mode":"Recommendations for books on ancient civilizations and history.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4295,"pole":"high","cluster":2,"mode":"Song titles, often from pop music.","scene_windows":0,"windows":5,"scene":"Lists of song titles."}
+{"neuron":4295,"pole":"high","cluster":3,"mode":"Citations for scientific articles, often with page numbers.","scene_windows":0,"windows":5,"scene":"Bibliographic citations."}
+{"neuron":4295,"pole":"high","cluster":4,"mode":"Statements about resistance, child development, finances, and pedagogy.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":4295,"pole":"high","cluster":5,"mode":"Financial data for companies, including EPS and price-to-sales ratios.","scene_windows":0,"windows":5,"scene":"Financial data."}
+{"neuron":4295,"pole":"low","cluster":0,"mode":"Narrative fragments about corruption, Hindu tradition, hope, and grammar.","scene_windows":0,"windows":5,"scene":"Thematic narrative fragments."}
+{"neuron":4295,"pole":"low","cluster":1,"mode":"Statements about computer security, yard decorations, and magical creatures.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":5701,"pole":"high","cluster":0,"mode":"Advice on project testing, women's suffrage, interacting with Indigenous peoples, and legal frameworks.","scene_windows":0,"windows":5,"scene":"Neutral, informative statements."}
+{"neuron":5701,"pole":"high","cluster":1,"mode":"Assistant asking for clarification on user's understanding.","scene_windows":0,"windows":5,"scene":"Clarifying assistant questions."}
+{"neuron":5701,"pole":"low","cluster":0,"mode":"Narrative fragments about a knight, a confession, and a confrontation.","scene_windows":0,"windows":5,"scene":"Narrative fragments with characters."}
+{"neuron":5701,"pole":"low","cluster":1,"mode":"Statements about vocal hygiene, gratitude, and graffiti.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":5701,"pole":"low","cluster":2,"mode":"assistant responses starting with 'Yes' to user questions","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5701,"pole":"low","cluster":3,"mode":"assistant responses starting with 'Yes' to user questions","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":7518,"pole":"high","cluster":0,"mode":"Questions about podcasts, recipes, and functionalism.","scene_windows":0,"windows":5,"scene":"User questions."}
+{"neuron":7518,"pole":"high","cluster":1,"mode":"User expressing amazement and asking for more details.","scene_windows":0,"windows":5,"scene":"User expressing interest."}
+{"neuron":7518,"pole":"high","cluster":2,"mode":"Statements about absinthe preparation, vaccines, and cellular patterns.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":7518,"pole":"high","cluster":3,"mode":"Statements about warehouse management, customized solutions, and rainfall measurement.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":7518,"pole":"low","cluster":0,"mode":"Statements about healthy meals, grilled seafood, and machine learning careers.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":7518,"pole":"low","cluster":1,"mode":"Assistant responses offering craft ideas, cooking suggestions, and cleaning tips.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":5381,"pole":"high","cluster":0,"mode":"assistant urging user to reconsider unethical/illegal plans","scene_windows":3,"windows":5,"scene":"declining harmful request"}
+{"neuron":5381,"pole":"high","cluster":1,"mode":"assistant offering further help and asking for user input","scene_windows":0,"windows":5,"scene":"neutral, helpful"}
+{"neuron":5381,"pole":"low","cluster":0,"mode":"assistant using 'or' to present alternatives or definitions","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":1,"mode":"assistant using 'turned' to describe character actions","scene_windows":0,"windows":5,"scene":"neutral, narrative"}
+{"neuron":5381,"pole":"low","cluster":2,"mode":"assistant responses starting with 'Yes' to user questions","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":3,"mode":"assistant responses starting with 'Yes' to user questions","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":4,"mode":"assistant responses starting with 'Yes' to user questions","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":5,"mode":"assistant using 'and' to connect clauses or list items","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":6,"mode":"assistant using 'and' to connect clauses or list items","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":7,"mode":"assistant using 'don't' to express negation","scene_windows":0,"windows":5,"scene":"neutral, narrative"}
+{"neuron":5381,"pole":"low","cluster":8,"mode":"assistant using 'Figure' to reference visual aids","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":9,"mode":"assistant using 'and' to connect clauses or list items","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5381,"pole":"low","cluster":10,"mode":"assistant using 'the' to refer to time periods","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4734,"pole":"high","cluster":0,"mode":"Advice on learning gratitude, mental wellness, voice projection, and car detailing.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4734,"pole":"high","cluster":1,"mode":"Information about enrolling in college programs.","scene_windows":0,"windows":5,"scene":"Neutral, informative statements."}
+{"neuron":4734,"pole":"high","cluster":2,"mode":"Statements about marketing strategy, endeavors, proposals, and business plans.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":4734,"pole":"high","cluster":3,"mode":"Advice on purchasing files, food, and organic items.","scene_windows":0,"windows":5,"scene":"Neutral, helpful assistant responses."}
+{"neuron":4734,"pole":"low","cluster":0,"mode":"Narrative fragments about returning home, seeking favor, and confronting others.","scene_windows":0,"windows":5,"scene":"Narrative fragments with conflict."}
+{"neuron":4734,"pole":"low","cluster":1,"mode":"Narrative fragments about turning, groaning, and seeing.","scene_windows":0,"windows":5,"scene":"Narrative fragments with actions."}
+{"neuron":5226,"pole":"high","cluster":0,"mode":"Statements about dreadlocks, music production, animal experimentation, and surnames.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":5226,"pole":"high","cluster":1,"mode":"Professional closing remarks for business correspondence.","scene_windows":0,"windows":5,"scene":"Professional closing remarks."}
+{"neuron":5226,"pole":"low","cluster":0,"mode":"User questions about motivation, content creation, credit counseling, and art sales.","scene_windows":0,"windows":5,"scene":"User questions."}
+{"neuron":5226,"pole":"low","cluster":1,"mode":"Narrative fragments about forbidden forests, alternate timelines, and pledges.","scene_windows":0,"windows":5,"scene":"Narrative fragments with fantasy elements."}
+{"neuron":5226,"pole":"low","cluster":2,"mode":"Statements about drain clogs, cookie crushing, bleach residue, and yoga poses.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":5226,"pole":"low","cluster":3,"mode":"Statements about eye infections, device updates, athlete's foot, and signature dishes.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":5226,"pole":"low","cluster":4,"mode":"Statements about armchair design, movie metaphors, and epilation.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":5226,"pole":"low","cluster":5,"mode":"Statements about spa treatments, milk pasteurization, and environmental adaptation.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}
+{"neuron":5226,"pole":"low","cluster":6,"mode":"Statements about postal operators, protestor actions, marketing spend, and elections.","scene_windows":0,"windows":5,"scene":"Neutral narration and statements."}

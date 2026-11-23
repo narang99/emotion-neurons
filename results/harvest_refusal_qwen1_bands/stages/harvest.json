@@ -1,0 +1,13 @@
+{
+ "stage": "harvest",
+ "finished": "2026-11-23T08:29:50+00:00",
+ "seconds": 601,
+ "commit": "ce8dfbfc4793f27f519130046a0964cf350678c8",
+ "summary": null,
+ "outputs": {
+  "results/harvest_refusal_qwen1_bands/harvest.json": 12315400,
+  "runs/harvest_refusal_qwen1_bands/corpus.safetensors": 2020068500,
+  "runs/harvest_refusal_qwen1_bands/hits.safetensors": 7006656,
+  "runs/harvest_refusal_qwen1_bands/sources.json": 206145
+ }
+}

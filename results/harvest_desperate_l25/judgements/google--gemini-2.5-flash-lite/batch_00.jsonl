@@ -1,0 +1,56 @@
+{"neuron":8776,"pole":"high","cluster":0,"mode":"narrative conclusion, finality, giving up, sadness, resolution","scene_windows":1,"windows":5,"scene":"sadness and giving up"}
+{"neuron":8776,"pole":"high","cluster":1,"mode":"character names, personal pronouns, possessives, referring to people","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8776,"pole":"high","cluster":2,"mode":"actions, movement, pursuit, effort, demands","scene_windows":0,"windows":5,"scene":"chasing and effort"}
+{"neuron":8776,"pole":"high","cluster":3,"mode":"personal pronouns, first person, survival, isolation, deep trouble","scene_windows":1,"windows":5,"scene":"survival and isolation"}
+{"neuron":8776,"pole":"low","cluster":0,"mode":"personal pronouns, third person, character names, actions, emotions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8776,"pole":"low","cluster":1,"mode":"personal pronouns, infinitive 'to', actions, intentions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3282,"pole":"high","cluster":0,"mode":"frustration, sadness, loss, disappointment, giving up","scene_windows":1,"windows":5,"scene":"sadness and loss"}
+{"neuron":3282,"pole":"high","cluster":1,"mode":"personal pronouns, third person, sadness, loss, loneliness","scene_windows":1,"windows":5,"scene":"sadness and loneliness"}
+{"neuron":3282,"pole":"high","cluster":2,"mode":"sadness, loss, disappointment, upset, regret","scene_windows":1,"windows":5,"scene":"sadness and loss"}
+{"neuron":3282,"pole":"low","cluster":0,"mode":"personal pronouns, third person, discovery, excitement, curiosity","scene_windows":0,"windows":5,"scene":"discovery and curiosity"}
+{"neuron":3282,"pole":"low","cluster":1,"mode":"personal pronouns, third person, discovery, curiosity, intention","scene_windows":0,"windows":5,"scene":"discovery and curiosity"}
+{"neuron":3282,"pole":"low","cluster":2,"mode":"personal pronouns, third person, emotions, reactions, expressions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3282,"pole":"low","cluster":3,"mode":"personal pronouns, third person, emotions, reactions, expressions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10272,"pole":"high","cluster":0,"mode":"personal pronouns, third person, confusion, surprise, questioning","scene_windows":0,"windows":5,"scene":"confusion and surprise"}
+{"neuron":10272,"pole":"high","cluster":1,"mode":"personal pronouns, first person, possession, physical sensations, emotions","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":10272,"pole":"low","cluster":0,"mode":"dialogue, speech, communication, agreement, affirmation","scene_windows":0,"windows":5,"scene":"dialogue and agreement"}
+{"neuron":10272,"pole":"low","cluster":1,"mode":"emotions, reactions, expressions, affirmation, agreement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10272,"pole":"low","cluster":2,"mode":"emotions, reactions, expressions, happiness, pride","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10272,"pole":"low","cluster":3,"mode":"emotions, reactions, expressions, happiness, affection","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":10272,"pole":"low","cluster":4,"mode":"a person or thing is happy, often expressed through laughter or shouting.","scene_windows":0,"windows":5,"scene":"happiness and joy"}
+{"neuron":10272,"pole":"low","cluster":5,"mode":"a person is confused or uncertain about something, often expressed through questions.","scene_windows":0,"windows":5,"scene":"confusion and uncertainty"}
+{"neuron":10272,"pole":"low","cluster":6,"mode":"a person is happy, often expressed through smiles and laughter.","scene_windows":0,"windows":5,"scene":"happiness and joy"}
+{"neuron":10272,"pole":"low","cluster":7,"mode":"a person is happy, often expressed through smiles and laughter.","scene_windows":0,"windows":5,"scene":"happiness and joy"}
+{"neuron":10272,"pole":"low","cluster":8,"mode":"a person is happy, often expressed through smiles and laughter.","scene_windows":0,"windows":5,"scene":"happiness and joy"}
+{"neuron":9873,"pole":"high","cluster":0,"mode":"dialogue, speech, confirmation, technical terms, action","scene_windows":0,"windows":5,"scene":"technical confirmation"}
+{"neuron":9873,"pole":"high","cluster":1,"mode":"dialogue, speech, quotation marks, informal language, surprise","scene_windows":0,"windows":5,"scene":"informal dialogue"}
+{"neuron":9873,"pole":"high","cluster":2,"mode":"emotions, regret, loss, disappointment, past events","scene_windows":1,"windows":5,"scene":"regret and loss"}
+{"neuron":9873,"pole":"high","cluster":3,"mode":"articles, prepositions, location, context, description","scene_windows":0,"windows":5,"scene":"describing a location"}
+{"neuron":9873,"pole":"low","cluster":0,"mode":"personal pronouns, third person, emotions, sadness, empathy","scene_windows":0,"windows":5,"scene":"sadness and empathy"}
+{"neuron":9873,"pole":"low","cluster":1,"mode":"dialogue, speech, punctuation, informal language, surprise","scene_windows":0,"windows":5,"scene":"informal dialogue"}
+{"neuron":9873,"pole":"low","cluster":2,"mode":"personal pronouns, third person, negative emotions, stupidity, annoyance","scene_windows":0,"windows":5,"scene":"annoyance and stupidity"}
+{"neuron":9873,"pole":"low","cluster":3,"mode":"programming, code, commands, variables, functions","scene_windows":0,"windows":5,"scene":"programming code"}
+{"neuron":6882,"pole":"high","cluster":0,"mode":"personal pronouns, third person, emotions, sadness, regret, memory","scene_windows":0,"windows":5,"scene":"sadness and memory"}
+{"neuron":6882,"pole":"high","cluster":1,"mode":"personal pronouns, first person, self-reflection, regret, past actions","scene_windows":0,"windows":5,"scene":"self-reflection and regret"}
+{"neuron":6882,"pole":"high","cluster":2,"mode":"personal pronouns, first person, actions, emotions, memory","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":6882,"pole":"low","cluster":0,"mode":"personal pronouns, first person, emotions, sadness, empathy","scene_windows":0,"windows":5,"scene":"sadness and empathy"}
+{"neuron":6882,"pole":"low","cluster":1,"mode":"articles, prepositions, conjunctions, verbs, grammatical function","scene_windows":0,"windows":5,"scene":"grammatical function"}
+{"neuron":6882,"pole":"low","cluster":2,"mode":"personal pronouns, third person, discovery, curiosity, intention","scene_windows":0,"windows":5,"scene":"discovery and curiosity"}
+{"neuron":6882,"pole":"low","cluster":3,"mode":"a person is speaking, often in a direct or assertive manner.","scene_windows":0,"windows":5,"scene":"conversation and interaction"}
+{"neuron":6882,"pole":"low","cluster":4,"mode":"a person is speaking, often in a direct or assertive manner.","scene_windows":0,"windows":5,"scene":"conversation and interaction"}
+{"neuron":6882,"pole":"low","cluster":5,"mode":"a person is speaking, often in a direct or assertive manner.","scene_windows":0,"windows":5,"scene":"conversation and interaction"}
+{"neuron":5869,"pole":"high","cluster":0,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":5869,"pole":"high","cluster":1,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":5869,"pole":"low","cluster":0,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":5869,"pole":"low","cluster":1,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":5869,"pole":"low","cluster":2,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":5869,"pole":"low","cluster":3,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":1967,"pole":"high","cluster":0,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":1967,"pole":"high","cluster":1,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":1967,"pole":"low","cluster":0,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":1967,"pole":"low","cluster":1,"mode":"a person is speaking or acting, often with emotional expression.","scene_windows":0,"windows":5,"scene":"emotional expression and action"}
+{"neuron":11631,"pole":"high","cluster":0,"mode":"actions, starting, movement, cars, beginning","scene_windows":0,"windows":5,"scene":"starting an action"}
+{"neuron":11631,"pole":"high","cluster":1,"mode":"personal pronouns, third person, dialogue, speech, emotions","scene_windows":0,"windows":5,"scene":"dialogue and emotions"}
+{"neuron":11631,"pole":"high","cluster":2,"mode":"dialogue, speech, punctuation, emotions, reactions","scene_windows":0,"windows":5,"scene":"dialogue and reactions"}
+{"neuron":11631,"pole":"low","cluster":0,"mode":"personal pronouns, first person, physical sensations, pain, freedom","scene_windows":1,"windows":5,"scene":"pain and struggle"}
+{"neuron":11631,"pole":"low","cluster":1,"mode":"articles, prepositions, conjunctions, verbs, grammatical function","scene_windows":0,"windows":5,"scene":"grammatical function"}

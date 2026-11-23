@@ -1,0 +1,68 @@
+{"neuron":6849,"pole":"high","cluster":0,"mode":"The token 'ground' where characters fall, sit, or find things","happy_windows":1,"windows":5,"scene":"Children's stories with falls, found objects, and sadness"}
+{"neuron":6849,"pole":"high","cluster":1,"mode":"Organization names, acronyms, and titles in formal news and reference text","happy_windows":0,"windows":5,"scene":"News, government, and institutional reference text"}
+{"neuron":6849,"pole":"high","cluster":2,"mode":"Numeric digits inside measurements, dates, and table values","happy_windows":0,"windows":5,"scene":"Guidelines, tables, and technical specifications"}
+{"neuron":6849,"pole":"high","cluster":3,"mode":"Code syntax tokens and technical configuration symbols","happy_windows":0,"windows":5,"scene":"Programming snippets and technical instructions"}
+{"neuron":6849,"pole":"low","cluster":0,"mode":"Words about laughing, giggling, smiling, and happiness in narratives","happy_windows":5,"windows":5,"scene":"Playful children's stories with laughter and warm moments"}
+{"neuron":6849,"pole":"low","cluster":1,"mode":"Food, ingredient, and product nouns inside list-style descriptions","happy_windows":0,"windows":5,"scene":"Recipes, food lists, and product descriptions"}
+{"neuron":2708,"pole":"high","cluster":0,"mode":"Dollar amounts and funding figures in digits","happy_windows":0,"windows":5,"scene":"Funding announcements and historical financial statements"}
+{"neuron":2708,"pole":"high","cluster":1,"mode":"Flavor and descriptive adjectives in food and recipe suggestions","happy_windows":0,"windows":5,"scene":"Cooking tips and recipe lists"}
+{"neuron":2708,"pole":"high","cluster":2,"mode":"The word 'to' or 'we' after wanting, asking, or desiring an action","happy_windows":2,"windows":5,"scene":"Children's stories about wanting to join games or play"}
+{"neuron":2708,"pole":"high","cluster":3,"mode":"Verbs of giggling, seeing, hopping, and playing in children's stories","happy_windows":4,"windows":5,"scene":"Cheerful children's stories with play and excitement"}
+{"neuron":2708,"pole":"low","cluster":0,"mode":"Relative clauses and commas in product and recipe descriptions","happy_windows":0,"windows":5,"scene":"Food product descriptions and healthy eating lists"}
+{"neuron":2708,"pole":"low","cluster":1,"mode":"Emotion adjectives like happy and excited after 'so' or 'very'","happy_windows":5,"windows":5,"scene":"Children's stories expressing delight and excitement"}
+{"neuron":2708,"pole":"low","cluster":2,"mode":"Code syntax tokens in web and database scripts","happy_windows":0,"windows":5,"scene":"PHP, HTML, and Python code snippets"}
+{"neuron":2708,"pole":"low","cluster":3,"mode":"Abstract nouns and modifiers in analytical or historical prose","happy_windows":0,"windows":5,"scene":"Academic essays and historical analysis"}
+{"neuron":2708,"pole":"low","cluster":4,"mode":"Prepositions and names within news and medical research reporting","happy_windows":0,"windows":5,"scene":"Medical research and science news reporting"}
+{"neuron":2439,"pole":"high","cluster":0,"mode":"Sentence punctuation after a character's learning or observation","happy_windows":3,"windows":5,"scene":"Children's stories of discovery, play, and curiosity"}
+{"neuron":2439,"pole":"high","cluster":1,"mode":"'Here' starting assistant replies offering tips or options","happy_windows":0,"windows":5,"scene":"Assistant replies giving tips, recipes, and ideas"}
+{"neuron":2439,"pole":"low","cluster":0,"mode":"Commas and periods after contented or happy story moments","happy_windows":4,"windows":5,"scene":"Cozy children's stories with happy resolutions"}
+{"neuron":2439,"pole":"low","cluster":1,"mode":"Sentence endings in story conclusions about fun and happiness","happy_windows":4,"windows":5,"scene":"Story endings about fun days and happy animals"}
+{"neuron":7643,"pole":"high","cluster":0,"mode":"'so' or 'was' right before an emotion adjective about a character","happy_windows":4,"windows":5,"scene":"Stories of characters feeling relieved, excited, or thankful"}
+{"neuron":7643,"pole":"high","cluster":1,"mode":"Sentence-final punctuation after a character's striking moment or action","happy_windows":2,"windows":5,"scene":"Fairy tale and adventure stories with surprising encounters"}
+{"neuron":7643,"pole":"high","cluster":2,"mode":"Opening quotation marks in greetings and first-contact dialogue","happy_windows":2,"windows":5,"scene":"Characters greeting animals, strangers, or giants"}
+{"neuron":7643,"pole":"high","cluster":3,"mode":"'so' before excited, happy, or delighted emotion adjectives","happy_windows":5,"windows":5,"scene":"Children delighted by discoveries, gifts, and surprises"}
+{"neuron":7643,"pole":"high","cluster":4,"mode":"Subject pronouns starting a sentence after a new character appears","happy_windows":3,"windows":5,"scene":"Stories of characters discovering friends or surprises"}
+{"neuron":7643,"pole":"high","cluster":5,"mode":"Word fragments and technical tokens in mixed-topic text","happy_windows":0,"windows":5,"scene":"Technical specs, science news, and misc. text"}
+{"neuron":7643,"pole":"high","cluster":6,"mode":"The article 'a' after verbs of seeing or meeting","happy_windows":0,"windows":5,"scene":"Stories of characters spotting creatures or events"}
+{"neuron":7643,"pole":"high","cluster":7,"mode":"The verb 'saw' after a character's outing or discovery","happy_windows":0,"windows":5,"scene":"Stories of characters noticing things on walks"}
+{"neuron":7643,"pole":"high","cluster":8,"mode":"'happy to' followed by an infinitive about joyful outcomes","happy_windows":4,"windows":5,"scene":"Characters happily arriving, returning, or seeing sights"}
+{"neuron":7643,"pole":"low","cluster":0,"mode":"Periods ending sentences about comfort, apology, or sadness","happy_windows":0,"windows":5,"scene":"Children comforted after hurt, sorry, or sad moments"}
+{"neuron":7643,"pole":"low","cluster":1,"mode":"The adjective 'big' in descriptive story phrases","happy_windows":1,"windows":5,"scene":"Children's stories with big smiles and big plans"}
+{"neuron":7643,"pole":"low","cluster":2,"mode":"Modal and hedging verbs in neutral expository sentences","happy_windows":0,"windows":5,"scene":"Expository and opinion text on various topics"}
+{"neuron":7643,"pole":"low","cluster":3,"mode":"Numeric and factual details in descriptive and animal text","happy_windows":0,"windows":5,"scene":"Factual descriptions of animals and health tips"}
+{"neuron":7643,"pole":"low","cluster":4,"mode":"Emotion adjectives like sad, proud, happy after 'was so' or 'very'","happy_windows":2,"windows":5,"scene":"Children feeling sad, proud, or happy in stories"}
+{"neuron":7643,"pole":"low","cluster":5,"mode":"'very' placed before an emotion or trait adjective","happy_windows":2,"windows":5,"scene":"Stories describing a character's feelings or traits"}
+{"neuron":7643,"pole":"low","cluster":6,"mode":"'was' right before a character's sad or happy feeling","happy_windows":1,"windows":5,"scene":"Children's stories about sadness and shared happiness"}
+{"neuron":4372,"pole":"high","cluster":0,"mode":"Pronouns and nouns starting sentences about a family member's action","happy_windows":1,"windows":5,"scene":"Family conflicts and playful tension in stories"}
+{"neuron":4372,"pole":"high","cluster":1,"mode":"'was' in the fixed story opener 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"Story openings introducing a character"}
+{"neuron":4372,"pole":"low","cluster":0,"mode":"Apology and comfort phrases in reconciliation dialogue","happy_windows":0,"windows":5,"scene":"Characters apologizing and forgiving after conflicts"}
+{"neuron":4372,"pole":"low","cluster":1,"mode":"Apology words and sorry statements in first-person speech","happy_windows":0,"windows":5,"scene":"Characters apologizing after mistakes or harm"}
+{"neuron":4372,"pole":"low","cluster":2,"mode":"'very' before sad, happy, or excited emotion adjectives","happy_windows":1,"windows":5,"scene":"Children experiencing sadness and mixed emotions"}
+{"neuron":4372,"pole":"low","cluster":3,"mode":"Modal verbs and abstract predicates in reflective prose","happy_windows":0,"windows":5,"scene":"Reflective essays on aging, family, and resilience"}
+{"neuron":4372,"pole":"low","cluster":4,"mode":"'said' introducing dialogue after an emotional moment","happy_windows":0,"windows":5,"scene":"Characters speaking after apologies or broken items"}
+{"neuron":4372,"pole":"low","cluster":5,"mode":"Pronouns starting sentences about a character's upset feelings","happy_windows":0,"windows":5,"scene":"Characters upset after losing, falling, or failing"}
+{"neuron":4372,"pole":"low","cluster":6,"mode":"Sentence-final periods after a character's sad or proud feelings","happy_windows":0,"windows":5,"scene":"Children feeling sad, lost, or proud at story ends"}
+{"neuron":8122,"pole":"high","cluster":0,"mode":"Sentence-final punctuation after a character finds or hears something","happy_windows":0,"windows":5,"scene":"Children discovering objects and sounds in stories"}
+{"neuron":8122,"pole":"high","cluster":1,"mode":"Abstract nouns ending in -ity, -ibility, or -sophistication in scholarly prose","happy_windows":0,"windows":5,"scene":"Scholarly essays on art, culture, and history"}
+{"neuron":8122,"pole":"high","cluster":2,"mode":"'that' and 'should' linking clauses in formal argumentative prose","happy_windows":0,"windows":5,"scene":"Formal religious and scholarly argument text"}
+{"neuron":8122,"pole":"low","cluster":0,"mode":"The article 'the' before historical events or groups","happy_windows":0,"windows":5,"scene":"Historical and encyclopedic narrative passages"}
+{"neuron":8122,"pole":"low","cluster":1,"mode":"The article 'a' before a noun in historical or argumentative prose","happy_windows":0,"windows":5,"scene":"Historical and policy commentary"}
+{"neuron":8122,"pole":"low","cluster":2,"mode":"Flavor adjectives like savory, sweet, and healthier in food lists","happy_windows":0,"windows":5,"scene":"Recipes, snack ideas, and product proposals"}
+{"neuron":8122,"pole":"low","cluster":3,"mode":"Predicate words in reflective or evaluative sentences","happy_windows":0,"windows":5,"scene":"Reflective and evaluative commentary"}
+{"neuron":8122,"pole":"low","cluster":4,"mode":"The article 'the' before a shared object or food in stories","happy_windows":1,"windows":5,"scene":"Children sharing, hiding, or showing objects"}
+{"neuron":8122,"pole":"low","cluster":5,"mode":"Word-initial fragments split inside longer words","happy_windows":0,"windows":5,"scene":"Poetry, misc. text, and word fragments"}
+{"neuron":2324,"pole":"high","cluster":0,"mode":"'there' in the fixed story opener 'Once upon a time, there'","happy_windows":0,"windows":5,"scene":"Story openings introducing characters"}
+{"neuron":2324,"pole":"high","cluster":1,"mode":"Conjunctions and nouns in mixed descriptive or advice text","happy_windows":0,"windows":5,"scene":"Tips, descriptive passages, and story fragments"}
+{"neuron":2324,"pole":"high","cluster":2,"mode":"'was' in the fixed story opener 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"Story openings introducing a character"}
+{"neuron":2324,"pole":"low","cluster":0,"mode":"'I' starting a reply or promise in dialogue","happy_windows":0,"windows":5,"scene":"Dialogue where characters promise help or comfort"}
+{"neuron":2324,"pole":"low","cluster":1,"mode":"Commas and name fragments after speech and actions","happy_windows":0,"windows":5,"scene":"Stories of mothers, children, and playful pets"}
+{"neuron":2324,"pole":"low","cluster":2,"mode":"Code syntax and parameter tokens in scripts","happy_windows":0,"windows":5,"scene":"Programming snippets for GUIs and file scripts"}
+{"neuron":2324,"pole":"low","cluster":3,"mode":"Demonstratives and hedges in opinion and policy commentary","happy_windows":0,"windows":5,"scene":"Opinion essays on policy and public issues"}
+{"neuron":2324,"pole":"low","cluster":4,"mode":"\"was\" after a character's name, preceding a negative or neutral emotional state","happy_windows":0,"windows":5,"scene":"sad, angry, or scared characters in simple stories"}
+{"neuron":2324,"pole":"low","cluster":5,"mode":"emotion or activity words after \"was\"/\"very\" (scared, fun, playing, worried)","happy_windows":1,"windows":5,"scene":"mixed everyday scenes: a party, play, worry, scares"}
+{"neuron":2324,"pole":"low","cluster":6,"mode":"opening quotation marks after speech verbs like \"said\"","happy_windows":0,"windows":5,"scene":"parents or friends reassuring or questioning a child"}
+{"neuron":5698,"pole":"high","cluster":0,"mode":"pronoun or verb after a character's joyful or relieved moment","happy_windows":4,"windows":5,"scene":"characters filled with joy, smiling, feeling proud"}
+{"neuron":5698,"pole":"high","cluster":1,"mode":"\"liked\"/\"likes\" introducing a character's favourite activity","happy_windows":2,"windows":5,"scene":"children and pets enjoying play in parks and outdoors"}
+{"neuron":5698,"pole":"low","cluster":0,"mode":"\"wanted\" after a character's desire or intention","happy_windows":0,"windows":5,"scene":"characters setting out to achieve goals, some sad"}
+{"neuron":5698,"pole":"low","cluster":1,"mode":"abstract nouns or adverbs closing reflective, life-story sentences","happy_windows":1,"windows":5,"scene":"reflective narratives about life choices, addiction, and identity"}
+{"neuron":5698,"pole":"low","cluster":2,"mode":"\"felt\"/\"feeling\" or \"so\" before an emotional state word","happy_windows":5,"windows":5,"scene":"characters feeling happy, free, proud, and joyful"}

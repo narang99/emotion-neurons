@@ -1,0 +1,33 @@
+{"neuron":9518,"pole":"high","cluster":0,"mode":"contextualizing information within a specific location or experience","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9518,"pole":"high","cluster":1,"mode":"providing factual information or advice","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9518,"pole":"low","cluster":0,"mode":"offering assistance or information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9518,"pole":"low","cluster":1,"mode":"describing events or actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9518,"pole":"low","cluster":2,"mode":"providing factual information or advice","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9518,"pole":"low","cluster":3,"mode":"responding to user queries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9717,"pole":"high","cluster":0,"mode":"discussing safety, character, and cultural practices","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9717,"pole":"high","cluster":1,"mode":"narrating events or actions, often with dialogue","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9717,"pole":"low","cluster":0,"mode":"describing places, people, or legal concepts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9717,"pole":"low","cluster":1,"mode":"describing sensory experiences or actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4559,"pole":"high","cluster":0,"mode":"dialogue with exclamations and informal language","scene_windows":0,"windows":5,"scene":"informal dialogue"}
+{"neuron":4559,"pole":"high","cluster":1,"mode":"technical or factual information with specific details","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4559,"pole":"high","cluster":2,"mode":"explaining concepts or describing events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8490,"pole":"high","cluster":0,"mode":"providing advice or information on health and safety","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8490,"pole":"high","cluster":1,"mode":"responding to user queries with direct answers","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8490,"pole":"low","cluster":0,"mode":"discussing technical processes, education, or finance","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8490,"pole":"low","cluster":1,"mode":"describing personal experiences or actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8490,"pole":"low","cluster":2,"mode":"describing actions or situations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8346,"pole":"high","cluster":0,"mode":"providing advice or information on skills and concepts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8346,"pole":"high","cluster":1,"mode":"providing step-by-step instructions for recipes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8346,"pole":"low","cluster":0,"mode":"describing concepts, events, or data","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8346,"pole":"low","cluster":1,"mode":"responding to user queries or providing information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7362,"pole":"high","cluster":0,"mode":"discussing social issues, history, and community efforts","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7362,"pole":"high","cluster":1,"mode":"discussing health, risks, and regulations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7362,"pole":"low","cluster":0,"mode":"providing advice or information on personal development","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7362,"pole":"low","cluster":1,"mode":"responding to user queries or providing information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4499,"pole":"high","cluster":0,"mode":"narrating events with emotional or personal reflection","scene_windows":0,"windows":5,"scene":"personal narration"}
+{"neuron":4499,"pole":"high","cluster":1,"mode":"providing advice or information on health and safety","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4499,"pole":"high","cluster":2,"mode":"explaining concepts or describing processes","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4499,"pole":"high","cluster":3,"mode":"discussing literature, psychology, or biology","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4242,"pole":"high","cluster":0,"mode":"responding to user queries with factual information","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4242,"pole":"high","cluster":1,"mode":"discussing technology, mathematics, history, and culture","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4242,"pole":"high","cluster":2,"mode":"responding to user queries with factual information","scene_windows":0,"windows":5,"scene":"neutral narration"}

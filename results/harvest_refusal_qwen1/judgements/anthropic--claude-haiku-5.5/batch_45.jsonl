@@ -1,0 +1,32 @@
+{"neuron":257,"pole":"low","cluster":0,"mode":"Numeric tokens inside statistics or figures in neutral text","scene_windows":0,"windows":5,"scene":"Neutral statistical or factual reporting with numbers"}
+{"neuron":257,"pole":"low","cluster":1,"mode":"Food and recipe item nouns within cooking or meal descriptions","scene_windows":0,"windows":5,"scene":"Cooking advice and meal suggestion conversations"}
+{"neuron":178,"pole":"high","cluster":0,"mode":"Prepositions and conjunctions mid-clause in informational prose","scene_windows":0,"windows":5,"scene":"Informational or explanatory text about topics"}
+{"neuron":178,"pole":"high","cluster":1,"mode":"Words after requests for lists, examples, or content","scene_windows":0,"windows":5,"scene":"User asking assistant for lists or examples"}
+{"neuron":178,"pole":"low","cluster":0,"mode":"Colons and punctuation right after chat turn markers or questions","scene_windows":0,"windows":5,"scene":"Helpful assistant replies to everyday how-to questions"}
+{"neuron":178,"pole":"low","cluster":1,"mode":"Function words in mid-sentence positions of descriptive prose","scene_windows":0,"windows":5,"scene":"Expository or informational descriptive text"}
+{"neuron":4519,"pole":"high","cluster":0,"mode":"Determiners and pronouns in expository or reflective sentences","scene_windows":0,"windows":5,"scene":"Explanatory essays and reflective personal writing"}
+{"neuron":4519,"pole":"high","cluster":1,"mode":"Assistant turn openers responding to user questions","scene_windows":0,"windows":5,"scene":"Chat assistant starting answers to user questions"}
+{"neuron":4519,"pole":"low","cluster":0,"mode":"Function words and periods in encyclopedic or descriptive prose","scene_windows":1,"windows":5,"scene":"Encyclopedic facts and one assistant financial disclaimer"}
+{"neuron":4519,"pole":"low","cluster":1,"mode":"Conjunctions and commas linking clauses in narrative or opinion text","scene_windows":0,"windows":5,"scene":"Opinion essays and short narrative passages"}
+{"neuron":8111,"pole":"high","cluster":0,"mode":"Sentence-ending periods in argumentative or expository prose","scene_windows":0,"windows":5,"scene":"Essays on online culture, nutrition, and commentary"}
+{"neuron":8111,"pole":"high","cluster":1,"mode":"Function words in narrative or discussion sentences","scene_windows":0,"windows":5,"scene":"Historical, travel, and anecdotal narration"}
+{"neuron":8111,"pole":"high","cluster":2,"mode":"Business and marketing nouns ending a phrase","scene_windows":0,"windows":5,"scene":"Marketing advice and technical or career discussion"}
+{"neuron":8111,"pole":"low","cluster":0,"mode":"Prepositions and commas in expository sentences","scene_windows":0,"windows":5,"scene":"Expository text on nature, history, and society"}
+{"neuron":8111,"pole":"low","cluster":1,"mode":"Final content nouns in how-to and advice sentences","scene_windows":0,"windows":5,"scene":"Practical tips on fuel, internet, and health"}
+{"neuron":7286,"pole":"high","cluster":0,"mode":"Prepositions and commas in literary or descriptive sentences","scene_windows":0,"windows":5,"scene":"Literary analysis and historical description"}
+{"neuron":7286,"pole":"high","cluster":1,"mode":"Assistant turn markers and colons starting responses","scene_windows":0,"windows":5,"scene":"Chat assistant replies adding requested details"}
+{"neuron":7286,"pole":"low","cluster":0,"mode":"Human turn colon markers in multi-turn chat","scene_windows":0,"windows":5,"scene":"Casual multi-turn chat about health and everyday topics"}
+{"neuron":7286,"pole":"low","cluster":1,"mode":"Prepositions after nouns in descriptive or factual prose","scene_windows":0,"windows":5,"scene":"Descriptive text about artifacts, books, and history"}
+{"neuron":4509,"pole":"high","cluster":0,"mode":"Determiners before abstract or object nouns in prose","scene_windows":0,"windows":5,"scene":"Expository text on technology, disasters, and gardening"}
+{"neuron":4509,"pole":"high","cluster":1,"mode":"Chat turn tokens and clause starts in replies","scene_windows":0,"windows":5,"scene":"Assistant chat replies and user feedback on drafts"}
+{"neuron":4509,"pole":"low","cluster":0,"mode":"Sentence-ending periods in factual descriptive text","scene_windows":0,"windows":5,"scene":"Factual text on weather, animals, and products"}
+{"neuron":4509,"pole":"low","cluster":1,"mode":"Question marks closing user questions in Human-Assistant format","scene_windows":0,"windows":5,"scene":"Short factual Q&A about health, politics, and games"}
+{"neuron":7006,"pole":"high","cluster":0,"mode":"Conjunctions and determiners mid-sentence in descriptive prose","scene_windows":0,"windows":5,"scene":"Literary and historical descriptive narration"}
+{"neuron":7006,"pole":"high","cluster":1,"mode":"Assistant turn openers and colons after user prompts","scene_windows":0,"windows":5,"scene":"Chat assistant answering general knowledge questions"}
+{"neuron":7006,"pole":"low","cluster":0,"mode":"Opening quotation marks in dialogue within fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue in tense or dangerous story scenes"}
+{"neuron":7006,"pole":"low","cluster":1,"mode":"Auxiliary and function words in instructional or descriptive prose","scene_windows":0,"windows":5,"scene":"Plumbing, environment, and descriptive informational text"}
+{"neuron":7006,"pole":"low","cluster":2,"mode":"User turn markers following assistant replies","scene_windows":0,"windows":5,"scene":"Follow-up requests in cooking and summary chats"}
+{"neuron":2202,"pole":"high","cluster":0,"mode":"Sentence-ending periods closing reflective or historical claims","scene_windows":0,"windows":5,"scene":"Essays on mindfulness, religion, crypto, and history"}
+{"neuron":2202,"pole":"high","cluster":1,"mode":"Assistant turn openers answering health and lifestyle questions","scene_windows":0,"windows":5,"scene":"Chat assistant answering health, diet, and travel questions"}
+{"neuron":2202,"pole":"low","cluster":0,"mode":"Sentence-ending periods in encyclopedic or technical text","scene_windows":0,"windows":5,"scene":"Encyclopedic, historical, and technical descriptions"}
+{"neuron":2202,"pole":"low","cluster":1,"mode":"Periods ending advice sentences before user turns","scene_windows":0,"windows":5,"scene":"Structured advice and product overview responses"}

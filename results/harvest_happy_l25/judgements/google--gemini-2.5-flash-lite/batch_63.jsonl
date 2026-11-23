@@ -1,0 +1,50 @@
+{"neuron":2427,"pole":"high","cluster":0,"mode":"Names of people, places, or creative works.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":2427,"pole":"high","cluster":1,"mode":"Children's story characters expressing emotions or actions.","happy_windows":3,"windows":5,"scene":"Joyful children's stories"}
+{"neuron":2427,"pole":"low","cluster":0,"mode":"Children's story characters expressing emotions or actions.","happy_windows":1,"windows":5,"scene":"Children's stories with mild fear"}
+{"neuron":2427,"pole":"low","cluster":1,"mode":"General topics like health, education, and populations.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":2427,"pole":"low","cluster":2,"mode":"Technical terms, scientific concepts, and place names.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1881,"pole":"high","cluster":0,"mode":"Words indicating existence or state of being.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1881,"pole":"high","cluster":1,"mode":"Topics related to education, health, and online presence.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1881,"pole":"high","cluster":2,"mode":"Scientific and geographical terms, and names.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1881,"pole":"high","cluster":3,"mode":"Punctuation indicating the end of a sentence.","happy_windows":3,"windows":5,"scene":"Joyful children's stories"}
+{"neuron":1881,"pole":"high","cluster":4,"mode":"Words indicating actions or states of being.","happy_windows":4,"windows":5,"scene":"Joyful moments"}
+{"neuron":1881,"pole":"high","cluster":5,"mode":"Words indicating existence or state of being.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":1881,"pole":"low","cluster":0,"mode":"Words indicating time or sequence.","happy_windows":1,"windows":5,"scene":"Children's stories with mild fear"}
+{"neuron":1881,"pole":"low","cluster":1,"mode":"Words indicating state or existence.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":1881,"pole":"low","cluster":2,"mode":"Words indicating state or existence.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":286,"pole":"high","cluster":0,"mode":"common nouns referring to places or objects in a narrative context","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":286,"pole":"high","cluster":1,"mode":"words indicating movement or position within a narrative context","happy_windows":4,"windows":5,"scene":"joyful play and exploration"}
+{"neuron":286,"pole":"low","cluster":0,"mode":"words referring to items or entities in a descriptive context","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":286,"pole":"low","cluster":1,"mode":"words indicating negation or possession in a narrative context","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8346,"pole":"high","cluster":0,"mode":"words indicating states, actions, or qualities in a descriptive context","happy_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":8346,"pole":"high","cluster":1,"mode":"words indicating direction or purpose in a technical or instructional context","happy_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":8346,"pole":"low","cluster":0,"mode":"words indicating movement or direction in a narrative context","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8346,"pole":"low","cluster":1,"mode":"words indicating state, connection, or possession in a narrative context","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":12151,"pole":"high","cluster":0,"mode":"words referring to objects, actions, or states in a narrative context","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":12151,"pole":"high","cluster":1,"mode":"words indicating steps or actions in a recipe or instructional context","happy_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":12151,"pole":"low","cluster":0,"mode":"words indicating punctuation or conjunctions in a narrative context","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":12151,"pole":"low","cluster":1,"mode":"words indicating speech or statements in a narrative context","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6848,"pole":"high","cluster":0,"mode":"Words indicating state or existence.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":6848,"pole":"high","cluster":1,"mode":"Scientific and biological terms.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":6848,"pole":"high","cluster":2,"mode":"Words indicating state or existence.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":6848,"pole":"high","cluster":3,"mode":"Articles and conjunctions.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":6848,"pole":"low","cluster":0,"mode":"Words indicating state or existence.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":6848,"pole":"low","cluster":1,"mode":"Words indicating state or existence.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":6848,"pole":"low","cluster":2,"mode":"Words indicating state or existence.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5026,"pole":"high","cluster":0,"mode":"Words indicating knowledge, permission, or inquiry.","happy_windows":2,"windows":5,"scene":"Children's stories"}
+{"neuron":5026,"pole":"high","cluster":1,"mode":"Numbers and abbreviations.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":5026,"pole":"high","cluster":2,"mode":"Words indicating actions or states.","happy_windows":2,"windows":5,"scene":"Neutral narration"}
+{"neuron":5026,"pole":"high","cluster":3,"mode":"Conjunctions and interjections.","happy_windows":2,"windows":5,"scene":"Children's stories"}
+{"neuron":5026,"pole":"high","cluster":4,"mode":"Punctuation and names.","happy_windows":2,"windows":5,"scene":"Children's stories"}
+{"neuron":5026,"pole":"low","cluster":0,"mode":"Words indicating state or existence.","happy_windows":1,"windows":5,"scene":"Children's stories with mild fear"}
+{"neuron":5026,"pole":"low","cluster":1,"mode":"Words indicating state or existence.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":904,"pole":"high","cluster":0,"mode":"Abbreviations and names.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":904,"pole":"high","cluster":1,"mode":"Words indicating emotions or actions.","happy_windows":3,"windows":5,"scene":"Joyful children's stories"}
+{"neuron":904,"pole":"low","cluster":0,"mode":"Words indicating state or existence.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":904,"pole":"low","cluster":1,"mode":"Words indicating speech or state of being.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":904,"pole":"low","cluster":2,"mode":"Words indicating state or existence.","happy_windows":0,"windows":5,"scene":"Neutral narration"}
+{"neuron":904,"pole":"low","cluster":3,"mode":"Words indicating state or existence.","happy_windows":2,"windows":5,"scene":"Neutral narration"}
+{"neuron":904,"pole":"low","cluster":4,"mode":"Pronouns indicating actions or states.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":904,"pole":"low","cluster":5,"mode":"Conjunctions and interjections.","happy_windows":3,"windows":5,"scene":"Children's stories"}
+{"neuron":904,"pole":"low","cluster":6,"mode":"Body parts and actions.","happy_windows":2,"windows":5,"scene":"Children's stories"}
+{"neuron":904,"pole":"low","cluster":7,"mode":"Words indicating agreement or action.","happy_windows":3,"windows":5,"scene":"Children's stories"}

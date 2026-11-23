@@ -1,0 +1,398 @@
+[
+ {
+  "theme": "Once-upon-a-time children's stories",
+  "definition": "Formulaic simple children's stories with Lily/Timmy openings, 'One day', 'was so happy', mom dialogue and morals, forming a dominant story register.",
+  "kind": "style",
+  "push_pct": 9.69,
+  "clusters": 644,
+  "neurons": 383,
+  "top": [
+   "n6553-high1 | estroy 芽 Insp Sang 尽情 kim | Conjunction 'and' or pronoun linking actions in children's stories | Simple children's stories about play and friendship | girl named Lily. She loved to play with her toys [[ and]] cuddle with her stuffed animals. One",
+   "n9527-high0 | 成份 收受 expectation bodily .interface promoters | Narrative word or clause ending in simple children's or action story prose | Cheerful children's stories and light sci-fi narration | bed, and threw away the trash. She worked hard and [[ fast]] . She wanted to finish before",
+   "n9549-low0 | 的妻子 wives 女朋友 妻子 贵宾 gramm | Subject or object pronouns and verbs in simple children's story sentences | Gentle bedtime-style children's stories | happy children. She saw a little boy named Jack. Jack [[ was]] so tired from playing all day.",
+   "n4175-high3 | will 会有 将会 sẽ will 我们会 | Words completing an action or emotional clause ('away', 'delight') | Children's stories and tense group movement | the red light roll across the grass. She giggled with [[ delight]] , until she heard a voice.",
+   "n9584-high0 | 锻造 窝 expectancy 墩 Mut 坐 | Pronoun 'She' or 'was' starting a character's emotional reaction in a children's story | Children's stories about lost toys and feelings | so nice! She felt all her muscles relax, and she [[ was]] so peaceful. When the massage was",
+   "n10729-low1 | [...] [ […] [,] …… ... | Sentence-initial 'It' referring to a discovered object in children's stories | Simple children's stories about discovering things | a beautiful lake. She swam and swam around the lake. [[ It]] was so calm and peaceful. She"
+  ]
+ },
+ {
+  "theme": "other",
+  "definition": "fits no theme",
+  "kind": "-",
+  "push_pct": 8.33,
+  "clusters": 300,
+  "neurons": 262,
+  "top": [
+   "n8485-high0 | alic restaurants Hos .exports 罩 aiser | Narrative connectors and gaze verbs mid-scene | Everyday or mildly tense narrative moments | and ran to the playground. He heard laughter all around [[ and]] smelled popcorn in the air. Joey",
+   "n3497-high0 | 人性 义 渚 Oc human 网通 | Possessive or reflective words in first-person narration | First-person reflective or tense narration | It's not like the man had never spoken to me [[ before]] . He and I had a",
+   "n10047-high0 | 联 Sweat 不成 ستر storms awi | First-person \"I\" starting a clause in emotional or confessional dialogue | Reflective dialogue and narration, mostly emotional but not crisis | it is exactly, but I thought you should see it. [[ I]] think it might help us find",
+   "n1125-high0 | 城乡 揆 __$ emap .tp 各界 | Generic content nouns or verbs completing a descriptive phrase | Varied narration, stories and discussion, not crisis | overcome even the most deadly challenges, building makeshift weapons and [[ shelters]] as they went. And in the",
+   "n4382-low0 | today tonight 今天 今日 今晚 today | Location adverbs 'there', 'here', 'it' referring to places | Narration about going to or being at a place | rendezvous site was between two pillars, I would meet Jeremy [[ there]] and we would go back to",
+   "n5480-high0 | 充满了 涌现出 构成了 浮现 深深 深深的 | Nouns or adjectives completing a desire for knowledge or understanding | Urgent questioning of guides and a child learning | thought it sounded like a neat way to learn something [[ new]] . With Dad's help, she pract"
+  ]
+ },
+ {
+  "theme": "Tense first-person dread",
+  "definition": "Present-tense or past-tense first-person narration of fear, pressure, and bodily panic, with sentences starting 'I' and a trembling, racing, sweating tone.",
+  "kind": "style",
+  "push_pct": 3.66,
+  "clusters": 80,
+  "neurons": 74,
+  "top": [
+   "n11976-high0 | anxiety 焦虑 Anxiety anx 忐 我的心 | Sentence-boundary punctuation and pronouns in tense first-person narration | Frightened, guilty narrator in tense personal accounts | mom was about to call him back inside, he stopped [[.]] He knew he had to stop",
+   "n9443-low0 | ivid progresses \\/\\/ progression pard Idaho | First-person 'I' starting tense or dark sentences | Dark, frightened or confused first-person narration | to swell and my moral compass spins in the hurricane. [[ I]] wade through to the center of",
+   "n10216-low0 | 为空 uft intermedi Intermediate vard 诤 | Clause junctures in first-person or intense narration (I, and, she) | Intense first-person narration and dark fantasy | say'Continue'''? I blinked and then I was surrounded by darkness, [[ I]] knew I was opening my eyes",
+   "n2117-high4 | EW abis ran Olsen 끼 ampp | Commas and periods in tense first-person narration | Tense first-person scenes with urgency | said it like it was supposed to matter to me [[.]] Sweat stained my palms and made",
+   "n9389-low3 | tensor motivated semiclassical comput pert motifs | Sentence-initial pronoun 'I' or 'She' after a physical action | Frightened or distressed first-person survival narration | screamed, pounding my fists on the coarse, pale sand. Then, [[ I]] heard a shifting noise behind me.",
+   "n4352-high6 | 声音 的声音 聲音 sounds 声响 sounded | Emotional nouns and verbs (chest, anger, breathe, hesitated) in tense scenes | Intense confrontations and struggles for survival | and tilt my head, my heart erratically thudding inside my [[ chest]] . My hands nervously add to"
+  ]
+ },
+ {
+  "theme": "Subject pronoun after a bad event",
+  "definition": "A sentence-initial She/He/I right after a sad, frightening, or upsetting event, starting the character's reaction.",
+  "kind": "syntax",
+  "push_pct": 3.5,
+  "clusters": 56,
+  "neurons": 55,
+  "top": [
+   "n3282-high1 | search 搜索 searching search searches searched | Subject pronoun after a sad or frightening event in a story | Children feeling sad, scared, or searching after loss | The butterfly flew away and the little girl looked around. [[ She]] saw a path filled with flowers",
+   "n2383-low4 | 祈祷 prayer prayers praying pray Prayer | Subject pronoun 'She' or 'He' after a frightening event | Frightened or helpless characters in stories | Her hand trembled as she felt his presence approach her. [[ She]] opened her eyes again, looking up",
+   "n7437-high0 | conversation alker browse stroll Walker Walker | Sentence-initial 'He/I' starting a physical action in tense narration | Tense action narration: heists, morgue, rescue | babbling; she had an assistant? Nobody had told him that! [[ He]] pushed open the doors loudly, making",
+   "n9397-low0 | 请求 request requests requesting 请求 请 | Pronoun or verb starting a narrative clause after a reaction | Children's and short fiction narration | felt something tugging on her arm. It was her mom. [[ She]] said, â€œLetâ€™",
+   "n10577-low4 | cle injury Nice ale 蠡 BEST | Sentence-initial pronoun starting a new narrative beat, often after tension | Mixed narration: a crisis moment, a timer, or a child's sadness | burst through his bubble, taking her with it. He froze. [[ He]] glanced at his timer. 0",
+   "n2296-low2 | AMA 潮 仁 边缘 升华 ны | Subject pronoun starting a sentence after a tense event | Dark or frightening narrative moments | red rain boots who was being led by her mother. [[ Will]] smiled at her through the glass"
+  ]
+ },
+ {
+  "theme": "Heated confrontation dialogue",
+  "definition": "Angry, profane, threatening, or accusing exchanges between characters, often starting with an opening quote mark or whitespace break.",
+  "kind": "situation",
+  "push_pct": 3.47,
+  "clusters": 99,
+  "neurons": 82,
+  "top": [
+   "n10272-high0 | 刻 .item Bol WindowManager caret _substr | Subject pronoun starting a sentence in tense dialogue scenes | Tense encounters, odd fortune teller, confrontations | fuck kinda place is this? WHAT ARE YOU SERVING ME!?'' [[ She]] just kept smiling. She almost seemed",
+   "n8038-low0 | 此项 .exc 铎 跌破 轿车 yar | Commas and pronouns after actions in tense, abrupt narration | Tense action or confrontation narration | the motherfucker that built this place.'' I smile [[,]] six seconds. We hit the ground",
+   "n10958-high2 | 相亲 aket 枢 veto ToLeft Spoiler | Word or pronoun ending a clause in emotional character moments | Tense or emotional character interactions | blipped again. `` Son of a...'' McAdams cursed under his [[ breath]] and reached down again to retrieve",
+   "n11767-high1 | depends depended 基于 depend depends based | Conjunction or pronoun in emotionally charged or confrontational speech | Heated confrontations and dramatic revelations | thinks you're the dumbest motherfucker on the whole goddamn planet, [[ and]] he's playing you like a fucking",
+   "n1208-low1 | 叫 盛 关 揆 领导下 � | Sentence-end punctuation in reflective or argumentative lines | Reflective or confrontational first-person dialogue | it works. That's for the some psychiatrist to figure out [[.]] All I know is that my",
+   "n6951-low0 | 用户的 人们的 人们 users 使用者 让用户 | Sentence-final periods in tense or defiant dialogue | Tense confrontations and bravado in dialogue | understand you've had a great life. I'm happy for you [[.]] But I'm sad I have to"
+  ]
+ },
+ {
+  "theme": "Confessions, guilt and regret",
+  "definition": "Grim, resigned confessions and self-blame about past wrongs, loss, or failure, ending in bleak periods.",
+  "kind": "feeling",
+  "push_pct": 3.03,
+  "clusters": 60,
+  "neurons": 58,
+  "top": [
+   "n9873-high2 | gonna cuz gotta kinda 查 为啥 | Period ending grim or resigned confessions and statements | Characters confessing dark or regretful realizations | jewelry, so... so she figured she could n't say no [[.]] And not for something as fancy",
+   "n6877-high4 | zl Philipp ук growing iless cann | Sentence-final periods after self-critical or emotional lines | Frustrated self-reflection and quarrels | good things. Then I look at myself, and holy shit [[.]] I'm so god damned mediocre it",
+   "n10474-high2 | 强奸 sexual 淫 sex raped raping | Pronoun or punctuation inside emotional confessional narration | First-person emotional or angry narration | , the Devil was right. [[ I]] mean, God was amazing- he took",
+   "n5989-low2 | 示范 reas ocrat divider resher Dow | Commas and punctuation in reflective, sorrowful narration | Reflective narration of loss and hardship | ping of regret. I had left the others down there [[,]] with them. I shoved that thought",
+   "n2972-high0 | families Families 子弟 family amilies households | Pronouns or determiners ending a clause in emotional speech | Wartime and guilt-ridden dialogue with pleading | battlefield, wondering if I'm next. HENRY We all feel that [[ way]] . But",
+   "n8059-low1 | uae 我没有 EO のが 烃 有多 | Punctuation closing short dialogue lines or reflective narrative sentences | Dialogue and reflective first-person narration, calm tone | a soldier anymore,\" Ben said. \"Me too, Ben. Me too [[.]] But we have to be brave."
+  ]
+ },
+ {
+  "theme": "Failed attempts and struggle",
+  "definition": "Characters try, push, or reach and fail ('tried to', 'but it was too heavy'), signalling effort under strain.",
+  "kind": "action",
+  "push_pct": 2.95,
+  "clusters": 38,
+  "neurons": 35,
+  "top": [
+   "n8776-high2 | Spy 遍 宜 孑 Carpenter diá | Action verbs and objects in persistent effort or frustrated chasing | Chases, tantrums, and persistent efforts in simple stories | grab it but it kept flying away. He ran after [[ it]] and followed it around the yard,",
+   "n8415-low5 | _ _ _' '_ _', '_ | Determiner 'the' before objects in action sentences | Physical action scenes, some desperate struggle | tomorrow.'' Dazed and quickly losing all bearing, I weakly grip [[ the]] wet slimy bark of the tree",
+   "n8946-low0 | 开机 机器 machine machine machines 电源 | Function words mid-sentence during tense, urgent physical action or phone-call moments | Tense shootout, frantic phone grab, hurried escape narration | began to take aim. Struggling to hold the rifle steady, [[ I]] let loose another shot. Miss. Two",
+   "n936-low1 | 这片 Asia Europe 中国市场 一处 这儿 | Verbs or particles of action in fast physical sequences: grab, out, up, along, touching | Fires, fights, and frantic physical struggles | the trail would go cold, soon. Lazily drifting, I plodded [[ along]] the path until I found a",
+   "n3536-high0 | if if 如果有 ;if 若 如果 | Mid-sentence word after a character's state, like unable, unsure, could, to, done | Tense fiction with characters struggling or uncertain | his cell, James began pushing against the walls in frustration, [[ unable]] to comprehend his current situation. I",
+   "n9184-high1 | 说到这里 クラブ 厚 upe reeze 每 | Subject pronoun or name starting a clause after contrast | Tense or reflective narrative passages | beat of her heart, called for her to run. But, [[ she]] could n't. She just could n"
+  ]
+ },
+ {
+  "theme": "Eerie suspense and dark settings",
+  "definition": "Narration of unsettling sounds, shadows, hospitals, tunnels, and ominous presences building dread.",
+  "kind": "topic",
+  "push_pct": 2.82,
+  "clusters": 84,
+  "neurons": 76,
+  "top": [
+   "n2001-low2 | room _room rooms 客厅 downstairs Room | Noun or adjective about a sound or dark presence | Eerie or suspenseful narration about noises and shadows | me and the memories. At once I heard the comm [[otion]] and that my brother was missing,",
+   "n6492-high0 | prot obj 絮 热心 KIT Olsen | Auxiliary verbs 'had', 'was', 'has' in suspenseful narration | Thriller and crime narrative scenes | The screams and alarms of other citizens around had led [[ to]] the clang of alarm bells. The",
+   "n11712-high1 | 恭喜 论 与众 湖区 纪念碑 tentative | Definite article 'the' in tense, distressed scene descriptions | Hospital crisis, strained confrontations, and battlefield chaos | you. Not today.'' The nurse gave a sidelong glance at [[ the]] surgeon muttering in half-whispers almost",
+   "n11143-low0 | eyes everything 一切都 everything lease 身心 | Comma after a descriptive clause in literary narration | Literary narration of tense or eerie moments | n't to be found. Finally, the young woman turned round [[,]] having sensed that she had stirred",
+   "n8579-low3 | 有任何 any 任何 有没有 是否有 -any | Words expressing absence or nothingness ('there', 'no', 'trail', 'us') in suspenseful narration | Suspenseful or eerie fiction about empty spaces | stale coffee and day old booze. Then nothing ’ s [[ there]] . It ’ s just me",
+   "n8249-high0 | 形 巴拉 实地 weir 粗 角色 | Preposition 'in' or 'his' locating someone inside a space or situation | Trapped, frightened or dire narrative moments | helmets of the wardens and the firemen, the only noise [[ in]] the silent, stunned streets, turned from"
+  ]
+ },
+ {
+  "theme": "Fear and anxiety states",
+  "definition": "Explicit emotion words such as scared, terrified, upset, panic, anxiety and shame describing a character's inner state.",
+  "kind": "feeling",
+  "push_pct": 2.6,
+  "clusters": 41,
+  "neurons": 41,
+  "top": [
+   "n1967-low0 | 上传 reports uploads uploaded replies radio | Verb 'was' or pronoun after an inner feeling of fear | Narrators feeling scared or pressured in tense stories | my best to feel proud and happy, but inside I [[ was]] scared. Mum had said that after",
+   "n6028-low5 | 屏幕 屏幕上 键盘 keyboard 电脑 keyboard | Emotional state words after 'I' or 'was' | Frozen or ashamed reactions in tense narration | Magic?'' She merely raised a single eyebrow to your incredulous [[ expression]] , and, okay, yeah, you",
+   "n7689-high0 | ufe quo 相亲 明珠 bons verst | Emotionally charged personal-narrative words: feelings, hurt, fear, and personal struggle | Personal reflections on pain, secrets, and fear | about his first marriage. But he seemed to sense my [[ discomfort]] , and he started to tell",
+   "n3862-high5 | 求助 ModelError 县公安局 敬业 bitterness 션 | Pronouns and head/thought tokens after emotional or fearful moments | Emotional character moments with grief or fear | door open, jumping back when it creaked and shaking her [[ head]] , embarrassed at her own fear.",
+   "n7426-low0 | even 甚至 /or thậm _then даже | Commas after emotional clauses in tense, fearful first-person narration | Fearful or unsettling first-person narration | dress patterned with diamonds. I see how scared she is [[,]] and I feel ashamed. I'm not",
+   "n2862-low0 | 簿 eno 辐射 笔 Radar questionable | Verb or noun after a character's fear or agitation | frightening or panicked situations | hovering just above the floor. `` Take her.'' The old [[ woman]] 's eyes flared, then dulled"
+  ]
+ },
+ {
+  "theme": "Pain, injury and bodily distress",
+  "definition": "Description of agony, trembling, gasping, nausea, and physical suffering after injury or shock.",
+  "kind": "feeling",
+  "push_pct": 2.55,
+  "clusters": 39,
+  "neurons": 38,
+  "top": [
+   "n5869-high0 | Compat Conserv humanity wsp conserv Humanity | Conjunction or pronoun in strained, shaky personal reactions | Strained, painful reactions after confrontations or injuries | in the best frame of mind. But she was yelling [[ and]] I told her that the sweatshop",
+   "n11631-low0 | Боль eneg 有机会 deactivated rant withheld | Period closing a sentence about pain, injury, or fear | Injured or trapped narrators in traumatic moments | and legs flailing around now kicking at nothing but air [[.]] I was finally free. My entire",
+   "n3361-high0 | ialog allery 羡慕 feasibility 世家 intersections | Emotional state nouns in reflective narrative (pain, shame, abundance) | Reflective or sorrowful narrative passages about feelings | April 2024* He felt so weak. He was constantly in [[ pain]] , tired and sick. He'd had",
+   "n2312-high0 | vö [method LoginPage Lodge 麻木 实体店 | Content nouns or adjectives ending a descriptive narrative clause | Mixed fiction scenes of memory, pleading, and everyday action | out, remembering that night. She can still feel the scalding [[ water]] as it hits her skin, hear",
+   "n2498-high0 | 另有 orn 其实 (Paint soundtrack forme | Tokens after a bodily-sensation or sudden-event verb in narrative prose | Mundane or tense narrative: bee sting, hospital, subtle danger | pulled back his hand. The bee had stung him. It [[ hurt]] a lot. Anna ran to him.",
+   "n7527-high4 | 是非常 非常的 得很 在广州 淠 不信 | Sentence-ending periods in suspenseful description | Suspenseful tense sci-fi or horror scenes | too-dry throat, feeling the tissue scrape across itself like sandpaper [[.]] The sensation gagged him and he"
+  ]
+ },
+ {
+  "theme": "Family conflict and grief",
+  "definition": "Emotional narration of strained relationships, parents, loss of loved ones, bitterness and resentment.",
+  "kind": "situation",
+  "push_pct": 2.53,
+  "clusters": 61,
+  "neurons": 57,
+  "top": [
+   "n6882-high1 | today tonight 今天 tomorrow 昨天 今晚 | Words about being gone, hurt, or trusting in bitter narration | Bitter revenge, resentment, and workplace aftermath | the customers. Nobody would miss this guy if he was [[ gone]] . Then I hatched my plan.",
+   "n9551-low0 | 家属 知情 锦 一面 отказ 亲属 | Clause-ending punctuation or 'when/and' after emotional reflection | Grief and sorrow in reflective narration | seen this before, many times. But in cases like this [[,]] he could not help himself from",
+   "n10973-low0 | 对孩子 咆 搂 cep eastern Commissioners | Conjunctions or punctuation mid-sentence in ordinary narrative prose | Everyday narrative about family, grandmothers, and small events | out over the empty room the doctor could only sigh [[ and]] judge himself for his failures when",
+   "n8415-low2 | _ _ _' '_ _', '_ | Sentence-final periods after grim or grieving statements | Grim narration of loss, fear, and dire circumstances | in the last decade. This was too much for Ratty [[.]] She wanted to tear out a",
+   "n1974-high1 | — — â �� â ogo | Conjunctions 'but', 'because' in emotional reasoning | Emotional first-person reflection and frustration | my father's drunken fit of rage. I loved my parents, [[ but]] I knew they no longer felt",
+   "n7705-high0 | this this 这个 these này this | Words ending a conversational or emotional clause | Dialogue and reflective narration about everyday struggles | with my mother because he does n't understand what is [[ happening]] or why it is happening. My"
+  ]
+ },
+ {
+  "theme": "Violence, gore and horror",
+  "definition": "Dark narration of torture, attacks, wounds, monsters, zombies, blood, and menacing intruders.",
+  "kind": "topic",
+  "push_pct": 2.4,
+  "clusters": 78,
+  "neurons": 73,
+  "top": [
+   "n2796-low0 | ielding ioms anned 和服务 <class 之称 | Pronouns and verbs about a character's emotional or physical reaction in dramatic fiction | Emotional confrontations and tense domestic scenes | hold you just right... knew how to make you squ [[irm]] and moan without even trying? ”",
+   "n3582-high1 | joy joyful delightful fun 欢乐 enjoyable | Subject pronouns or nouns in violent, threatening action passages | Zombie attacks, shootouts, and menacing sieges | windows as quickly as they could. They were monstrous, and [[ they]] scared him. Krueger did",
+   "n11648-low0 |       | Conjunctions and modal verbs in tense first-person dialogue | Tense personal fiction with secrets and threats | the pillow. I never stopped doing that, once Anna found [[ out]] what happens when the knife is",
+   "n6765-high1 | intuit 直观 intuition familiarity 熟悉 intuitive | Tokens in grim, intense narration about torture, confinement, or lingering threat | Dark, tense narration about violence, captivity, or aftermath | and defenceless that they never had a chance to fight [[ back]] , at the end of the",
+   "n11034-high0 | 地板 拜 冠 aron 幅 Coder | Mid-narration connectives or commas after a character's physical reaction in gritty fiction | Gory or tense fiction: violence, a demon, a breakdown | it's filled with my own ruby red blood. I sigh [[ and]] gaze around at the broken city.",
+   "n1847-high0 | 也不敢 不代表 fortunately luckily Luckily Fortunately | Mid-sentence tokens in action narration, such as 'trying', 'the', 'to' | Tense narration of a menacing figure over a cowering man | there was a little frog. He hopped around the pond, [[ trying]] to find something tasty and fun"
+  ]
+ },
+ {
+  "theme": "Paragraph breaks and quote marks",
+  "definition": "Whitespace tokens, opening quotes, closing quotes and sentence-boundary punctuation in fiction dialogue, as structural syntax.",
+  "kind": "syntax",
+  "push_pct": 2.34,
+  "clusters": 166,
+  "neurons": 137,
+  "top": [
+   "n8415-low4 | _ _ _' '_ _', '_ | Manner or 'myself' words after speech, rushed panic tone | Dialogue and narration with rising anxiety | did n't think it was this hard'' James muttered to [[ himself]] . Sarah's eyes slid",
+   "n5012-low1 | _PIXEL iring 厉 脾 启 Ying | Prepositions, pronouns, and 'said' after speech in plain narration or tense domestic moments | Everyday family dialogue, occasional tense confrontations | Catherine, so you don ’ t get too hopeful. ” [[ She]] grabs my chin making me look",
+   "n1080-high1 | them them 他就 elin Them arlo | Speech and thought verbs right after a quote or subject | Dialogue and inner-thought narration, mostly calm | stared at me for a couple of seconds before sternly [[ saying]] , “ Don ’ t open",
+   "n9164-low4 | 蒙古 spel 缠 TAB krat 饺子 | Sentence-ending punctuation after reflective or confused clauses | Mixed narration and reflection, mostly calm | .'' `` I—really?'' Andreas starts, confused by the subject change [[.]] `` I've never heard of any",
+   "n11939-low3 | ade umd unfold aupt 鼐 =q | 'but' and negation fragments in dialogue and reluctance | Dialogue with reluctance or refusal | break the no touching rule for, but I did n [['t]] . I stared into her eyes,",
+   "n5750-high0 | 拦 Claus trailing 眼角 uhan mention | Subject pronouns or conjunctions after a dramatic event | Emotional dramatic narration and romance | try and kiss her. “ I tried before ” she [[ said]] . “ Mom hates it but"
+  ]
+ },
+ {
+  "theme": "Sad or scared child stories",
+  "definition": "Simple children's stories in which a child or animal turns upset, scared, or crying after a mishap, loss, or fright, usually marked by 'was so sad' or a pronoun starting the reaction sentence.",
+  "kind": "situation",
+  "push_pct": 2.24,
+  "clusters": 72,
+  "neurons": 64,
+  "top": [
+   "n8776-high1 | Spy 遍 宜 孑 Carpenter diá | Character name or pronoun subject after an emotional or upsetting event | Children's stories about pets, moms, and sad moments | scared and started to bark, his little tail wagging quickly. [[Richard]] 's owner smiled at him and",
+   "n11939-low2 | ade umd unfold aupt 鼐 =q | Subject pronouns 'She' or 'He' after a sad event | Sad children's stories about broken or lost things | didn't work. The blanket was ruined and Lily was sad. [[ She]] wished she had waited for her",
+   "n3634-high2 | loggedin XMLElement tmpl 走出去 PropertyParams /perl | Emotion adjective (sad, upset) describing a child's feelings | Children's stories where a child feels sad or scared | that he couldn't go outside until he finished. Timmy was [[ upset]] , but he knew he had",
+   "n4969-high0 | ouns 黥 双边 saliva đảo -demand | Third-person sadness or fear after a character's distress, with pronoun or name as the marked token | Children sad, scared, or struggling in simple stories | tried to push the rock, but it was too heavy. [[ He]] shouted for help, but no one",
+   "n9058-high3 | but 但 but 但是 但由于 但却 | Sentence-ending period after a character's determined or upset action | Children's stories with determined or upset characters | a bit better now, like he wasn't in trouble anymore [[.]] Mom said, \"Come on let's",
+   "n2792-low1 | 答复 的回答 告知 告诉他 回答 responses | Periods after questions or speech in children's stories | Children's stories about worries and help | so sad and asked her mommy why Molly was crying [[.]] Her mommy said that Molly was"
+  ]
+ },
+ {
+  "theme": "Despair and suicidal hopelessness",
+  "definition": "Narration of giving up, dying, suicidal thoughts, last messages, and hopeless isolation.",
+  "kind": "feeling",
+  "push_pct": 2.19,
+  "clusters": 47,
+  "neurons": 46,
+  "top": [
+   "n12216-high1 | 有条件 最美的 BaseContext 到位 Gre записи | First-person \"I\" or \"was\" starting clauses in tense, distressed narration | Distressed first-person narration, some near despair | My suicide will be quick, it assures, and then laughs. [[ I]] intend to fight, but it has",
+   "n8177-high0 | tôi мне 我把 мо my I | First-person narration of dark, emotional moments at sentence or clause boundaries | Grief, despair and suicidal thoughts in personal narration | to the familiar feeling that boils over in my stomach [[.]] Falling in and out of consciousness,",
+   "n11109-low0 | Sik 旋 架 Cruc sik лав | Punctuation and pronouns in introspective or hedged statements | Reflective narration and general prose | to see another person, since I know I am delusional [[,]] could an interaction with reality help?",
+   "n5989-low3 | 示范 reas ocrat divider resher Dow | First-person 'I' starting sentences in bleak confessions | Bleak last-message or survival confessions | outta here. ” “ No, it's too late for that. [[ I]] 'm sorry. ” He shifts and",
+   "n7110-high0 | kind kinda kind sort 的程度 的那种 | Period ending a dramatic or emotional narrative sentence | Dramatic fiction with tense emotional or hopeless moments | no way they could still be here, still be ok [[.]] But as my eyes moved from",
+   "n4369-low0 | 借り dess -tier Amen ~/ 麻 | Phrasal endings 'out', 'me', 'here' in tense or resigned dialogue | Tense fiction: waiting, threats, pleading exchanges | All that was left for me was to wait it [[ out]] . I would have to wait"
+  ]
+ },
+ {
+  "theme": "Pleading and begging dialogue",
+  "definition": "Characters beg, plead, or make urgent emotional appeals in confrontations, often with closing quotes and 'I' or 'you' tokens.",
+  "kind": "action",
+  "push_pct": 1.87,
+  "clusters": 57,
+  "neurons": 53,
+  "top": [
+   "n5486-high0 | might might maybe perhaps 或许 也许 | Pronouns and 'that' introducing a feeling or reasoning clause in first-person narration | Emotional or reflective first-person narration | into my demonic form for you to finally notice my [[ feelings]] ?'' `` Well, no...",
+   "n2066-low6 | tone 语气 tones tone -tone Tone | Punctuation or 'said' right after a character's spoken or whispered line | Emotional confrontations with pleading or strained speech | t something he did often. “ Please, ” Julia said [[,]] her throat, for some reason, dry",
+   "n1545-high0 | 那个 那個 那一 这支 那位 的那个 | 'and', 'if', or 'best for' in emotional dialogue and personal claims | Emotional dialogue and personal confessions | new to this thing, but I want what's best for [[ you]] . If you do n't believe,",
+   "n10632-low1 | 均有 此项 前往 ранее 家中 Upon | 'you' or 'us' as object in emotional or tense dialogue | Emotional or warning dialogue about people and danger | Anna hugged Ben. She was happy. \"Of course, I forgive [[ you]] ,\" she said. \"You are my",
+   "n3497-high1 | 人性 义 渚 Oc human 网通 | Conjunctions and commas in dramatic dialogue | Dramatic argumentative or pleading dialogue | date, and I know it's been a long time coming... [[ but]] you need to cancel.'' Mark Prime",
+   "n2281-high0 | copying 刹 andles defaultMessage 妥 theres | Pronoun or verb in tense, frantic dialogue and action | Panicked confrontations and frantic whispered pleas | think this is a conversation I should be having sober.'' [[ I]] say shakily, pulling a joint"
+  ]
+ },
+ {
+  "theme": "Searching and failing to find",
+  "definition": "Characters search, chase, or look everywhere for a lost friend, pet, or object and fail, with the sentence closing on the failure.",
+  "kind": "situation",
+  "push_pct": 1.63,
+  "clusters": 19,
+  "neurons": 18,
+  "top": [
+   "n8776-high0 | Spy 遍 宜 孑 Carpenter diá | Sentence-end punctuation after a character's failed search or emotional setback | Children's stories of searching, loneliness, and near-giving-up | He searched and searched but couldn't find the last friend [[.]] Just when he was about to",
+   "n11713-high0 | aim 希望能 希望通过 希望 aiming 希望能够 | Commas and pronouns in action narration | Narrative chase, search or eerie scenes | positive difference in people's lives. He chased after the killer [[,]] through the dark alleys and seedy",
+   "n3282-high0 | search 搜索 searching search searches searched | Sentence-end period after failed attempts to find or reach someone | Characters searching for lost friends or failing to reach them | a run, but he couldn't do it on this track [[.]] He stood there and shrugged. He",
+   "n848-high0 | mic elve ミュ uet mic phia | Conjunctions or periods within simple emotional narrative sentences | Children's stories with lost items or panic | can find you a new toy.\" She dried Frannie's tears [[ and]] looked around the room until she",
+   "n3282-high2 | search 搜索 searching search searches searched | Intensifier 'very' or 'was' expressing sadness or upset | Characters sad and upset after losing pets or items | looked for Spot everywhere, but couldn't find him. She was [[ very]] sad and started to cry. Suddenly,",
+   "n7896-high1 | roll Cop bö 老板 EndPoint -track | Object nouns or adjectives ending a clause about attention, speed, or being used or discarded | Everyday narration with mild frustration or chasing | no one would. Amazingly, no one seems to be paying [[ attention]] . The second guard pulls out"
+  ]
+ },
+ {
+  "theme": "Recipes, advice lists and chat",
+  "definition": "Cooking steps, ingredient lists, marketing and self-help tips, and assistant-user chat formatting.",
+  "kind": "style",
+  "push_pct": 1.44,
+  "clusters": 210,
+  "neurons": 188,
+  "top": [
+   "n7717-high2 | 骨干 briefed DAC undi 规程 副本 | 'and' joining adjectives in food and recipe descriptions | Recipe and cooking instructions | over the top of the baked potato for a tangy [[ and]] salty twist. - Smoked Salmon:",
+   "n10422-high3 | 的成功 Success success 成功率 成功 成功的 | Marketing advice tokens around optimizing and testing strategies | Social media and advertising tips lists | call-to-action. 4. Test different ad formats and targeting options to [[ optimize]] your results. 5. Use customer",
+   "n2383-low3 | 祈祷 prayer prayers praying pray Prayer | Advice-list punctuation and conjunctions in self-help text | Self-help and wellness advice lists | walk, take a hot bath, or read a good book [[.]] Setting boundaries and learning to say",
+   "n3374-high0 | 不见 FAC Dear 分け lige ableView | Nouns ending informational lists about food, health, and tips | Food, nutrition, and health advice text | like honey or maple syrup for a filling and delicious [[ snack]] . 5. Roasted Chickpeas",
+   "n1967-low1 | 上传 reports uploads uploaded replies radio | Conjunction 'and' or 'keep' in advice-giving instructions | Instructional advice on content and app design | and share your post/page. Remember to keep your content engaging [[ and]] informative, and be genuine and passionate",
+   "n11961-high1 | finance Keynes managerial 绩效 decision revenue | Commas and ingredient tokens in recipe lists | Recipes and cooking tips | spicy dish. 4. Red pepper flakes: Sprinkle some red pepper [[ flakes]] over the eggs for a fiery"
+  ]
+ },
+ {
+  "theme": "Survival under dwindling resources",
+  "definition": "Stranded, captive, or cornered narrators facing starvation, running out of supplies, being hunted, or being held captive.",
+  "kind": "situation",
+  "push_pct": 1.33,
+  "clusters": 19,
+  "neurons": 18,
+  "top": [
+   "n8776-high3 | Spy 遍 宜 孑 Carpenter diá | First-person pronoun 'I' in survival, stakes, or predicament statements | Narrators stranded, out of supplies, or facing high stakes | lucky enough to get them off my trail. But now, [[ I]] do not know where I am.",
+   "n5192-high3 | UES scor violated iami violation 遁 | First-person \"I\" starting a clause in diary or log entries | Diary or log entries, some about survival and failing supplies | ’ d be the one to finally make it here. [[ I]] guess it ’ s time for",
+   "n1206-high1 | likely probably 可能会 可能 Likely 很可能 | Nouns and punctuation mid-narrative, mostly people, others, or a madman | Narrative fiction; one captive being gagged and terrified | if I knew she opened it up and of course [[,]] I knew. I kept typing away",
+   "n3354-high0 | 服 Attached sexy charming thin thr | First-person 'I' or 'she' starting a clause in emotional personal narration | Personal narratives about hardship, unemployment, and uncertainty | and say every second out loud for 4 hours straight? [[ I]] have nothing. I skipped a few",
+   "n2253-low0 | 饭菜 ngr 空中 _installed _managed imas | Pronoun or object tokens ending clauses about leaving, choices, or survival | Tense survival scene with dwindling ammo; otherwise narrative | room. I did n't want to waste more time with [[ him]] ; I had bigger plans for",
+   "n12006-high0 | 功劳 abound 好事 完美 安然 triumph | Subject pronouns after a tense emotional or threatening build-up | Tense survival, siege, and anxious suspense scenes | was happening. I tried to stop it for a while [[,]] but in my still, cold heart"
+  ]
+ },
+ {
+  "theme": "Fleeing and running away",
+  "definition": "Characters bolt from a threat or monster, with verbs like ran, escape, retreat, and frantic movement through places.",
+  "kind": "action",
+  "push_pct": 1.28,
+  "clusters": 38,
+  "neurons": 38,
+  "top": [
+   "n6137-high4 | ** （ ____ ,** (** （ | Action verbs after a character's fear or excitement | Children's stories where a character flees or reacts | door with its paws. Sarah was so scared that she [[ ran]] away and hid in a corner.",
+   "n1322-high0 | vvm 尽量 尽可能 hurry ños uter | Action verbs of fleeing or recoiling in frightened moments | Animals or children fleeing danger and frightened reactions | that he wasn't dry anymore. He flapped his wings and [[ ran]] away as fast as he could.",
+   "n8338-high0 | пит 吃 安保 hậu 隼 凳 | Pronoun, comma or 'fast' after action or emotion verbs | Personal narrative with emotional or physical actions | going to take any of that. I ran. I ran [[ fast]] and did n't turn back. Now",
+   "n4375-high0 | .AppendLine Ln § tap .writeln ln | Conjunctions and pronouns after a sudden shift in a tense situation | Tense narration of flight, fear, and loss | the ground. Motionless. My flight or fight was taking over, [[ and]] I rocketed away from the safety",
+   "n9574-low3 | 一个个 逐一 依次 successive 一次次 repeatedly | Verbs and adverbs in fleeing or struggling descriptions | Escapes, animals and characters in motion | The animal stem of my brain is firing off vicious [[ly]] , alerting me to the nothing",
+   "n11103-high1 | 演艺 intersect .struct ǒ versible 在外面 | Verb 'run', 'ran', or 'home' after a frightening threat | Frightened characters fleeing monsters or threats | the first wave rushed me, all I could do was [[ run]] , back to the lake, back"
+  ]
+ },
+ {
+  "theme": "Citations, code and reference lists",
+  "definition": "Bibliographies, digits in years, programming snippets and ID tokens with no narrative content.",
+  "kind": "style",
+  "push_pct": 1.21,
+  "clusters": 196,
+  "neurons": 174,
+  "top": [
+   "n5192-high1 | UES scor violated iami violation 遁 | Tokens inside citations, code, or reference formatting | Citations, code snippets, and reference text | Frank A. Kierman, Jr. Taoism and Chinese Religion. pg 52–53. [[ University]] of Massachusetts, 1981",
+   "n11313-low0 | 盼望 Protector Böl 薄膜 这套 Facing | Technical nouns and 'of' inside programming or assembly explanations | Technical explanations of code and instructions | done with the This string is placed inside a Cell [[ expression]] . The first argument of Cell",
+   "n9389-low2 | tensor motivated semiclassical comput pert motifs | Proper-name fragments and place names in historical reference text | Historical and ecclesiastical reference passages | have resided in Ireland, such as St. Fursey, Tundale, the [[ North]] umbrian Dryhthelm, and",
+   "n1321-low1 | ly /rem /up redients LY 俐 | Numeric and name fragments inside citations and reference lists | Bibliographies and reference citations | mbotic clinical aspects of primary magnesium deficiency. Z Ernahrungswiss 1975;1 [[4]] :75–83 [in",
+   "n5137-low0 | obao Regional хозяйств anst 地区 imb | Capital letter starting a Polish or Pomeranian place name | Medieval European history about dukes and dioceses | Magdeburg and the Diocese of Gniezno for the incorporation of [[ P]] omerania. Pope Innocence II solved",
+   "n1407-high0 | .mix partial Partial Commit Culture Partial | Punctuation and parentheses inside dense Bible-scholarship chapter references | Academic biblical scholarship about Deuteronomy and sources | (3) xxxiii. is an old document incorporated by the editor; [[ (]] 4) xxxiv., Moses' death"
+  ]
+ },
+ {
+  "theme": "Medical and scientific text",
+  "definition": "Biomedical, technical, and research prose with word fragments and citation numbers, appearing as non-narrative contrast.",
+  "kind": "topic",
+  "push_pct": 1.14,
+  "clusters": 108,
+  "neurons": 101,
+  "top": [
+   "n5242-low2 | ised ings -sized estone edException ity | Mid-word fragments and technical noun tokens | Historical and technical encyclopedic text | , overwhelm the [[ Confeder]] acy. But the recent campaigns in",
+   "n6152-high3 | 钱包 izen wallet portals 一听 药业 | Noun or verb ending a phrase about a person or activity | Mixed biographical and expository text | that he liked to show off while at the Baum [[ home]] . Denslow and Baum worked together",
+   "n890-high3 | equiv Attempt 兮 涯 自负 Purs | Noun or modifier in informative historical or political prose | Informative historical or news-style text | Elizabeth Cady Stanton and Susan B. Anthony in her later [[ years]] . It was in the Gage",
+   "n10729-low0 | [...] [ […] [,] …… ... | Nouns like progress, challenges, contributions in formal essays on policy | Formal essays and assistant answers on policy and challenges | solar, geothermal, and hydropower. While these policies have made some [[ progress]] in increasing the share of renewable",
+   "n11819-high0 | Bucc entions セル Stocks ери � | Technical nouns about problems, environments, and systems | Agriculture, drought, and engineering explainers | essential for the success of dryland corn in more arid [[ environments]] . Cropping systems that conserve both",
+   "n4364-low1 | mate decess (rec coverage 诤 /rec | Mid-sentence verbs and pronouns in mixed narrative and text | Mixed narration, reflections, and mundane prose | sick,” says Alverdy. And as symbiotic gut microbes continuously sensing [[ the]] state"
+  ]
+ },
+ {
+  "theme": "Lonely or lost characters",
+  "definition": "Characters alone, ignored, lost, or isolated, with nobody talking to them or coming for them.",
+  "kind": "situation",
+  "push_pct": 0.84,
+  "clusters": 22,
+  "neurons": 22,
+  "top": [
+   "n5410-low2 | stranded homeless homelessness 孤立 寡 街头 | Pronoun or modal in narration about personal struggle | First-person reflection and quiet narration | I could n't run anymore. It seemed unfair, that I [[ would]] get tired here. That I still",
+   "n9209-high0 | 这条路 分支 这条 branch branches branches | Subject pronoun or conjunction in tense exploration narration | Characters lost or moving through danger | indistinguishable as the last. She realized with a sinking feeling [[ that]] she was lost. Not just separated",
+   "n1713-high2 | 截至目前 截至 总共 截止 共计 总计 | Object pronouns or nouns ending clauses about absence or play | Emotional or playful everyday narration | fingers. It's the days in between where I cant see [[ him]] that make it hard to bear.",
+   "n11753-low1 | 字母 百分 percentages 关键词 符号 zeroes | Marked first-person 'I' starting clauses in reflective or dramatic narration | First-person narration of hardship and isolation | to see you again, Dad. ” One blink. Then two. [[ I]] recall a diagnosis, right before they",
+   "n6994-high1 | approach eras -Fi imb Procedure 时间内 | Function words in social or narrative description of attitudes | Narrative descriptions of social attitudes and behavior | place was new. It was n't that all he saw [[ was]] darkness. No. It was that there",
+   "n4862-low0 | atte ptive Adjusted 倦 急 ourage | Nouns or relative words in descriptive narrative passages | Gothic or fantasy first-person narration | to see. I can not abide the stares of good [[ folk]] , who can not be blamed"
+  ]
+ },
+ {
+  "theme": "Last-chance resolve and urgency",
+  "definition": "Time pressure, high-stakes gambles and determined vows ('had to', 'now or never'), with characters forced to act.",
+  "kind": "situation",
+  "push_pct": 0.75,
+  "clusters": 30,
+  "neurons": 30,
+  "top": [
+   "n10674-low0 | mirac igram ORN _known 涯 nev | 'to' or 'you' after determination or suggestion in dramatic narration | Dramatic narration of determination and urgent choices | at my girlfriend, and her lips said that we needed [[ to]] go outside. `` Hey, I",
+   "n11313-low3 | 盼望 Protector Böl 薄膜 这套 Facing | Motion particles or verbs in tense, fast-paced action | Action sequences under time pressure | caused her much distress. Her brow furrowed as she looked [[ around]] . No one to take care",
+   "n3006-high0 | rehabilitation 康复 rehab rehabilit 治疗 Rehabilitation | 'had' or 'need' in inner-conflict and resolve statements | Inner struggle, resolve, mental strain | couldn't help but wonder at the nature of evil. Jacob [[ had]] grown up in traumatic circumstances, and",
+   "n8643-high0 | 时间和 理解和 管理和 内外 技术和 质量和 | Punctuation ending reflective clauses about strain and last chances | Personal strain, last-chance gambles, and tense reflection | piece to just have the glue last a little longer [[.]] For the first time, I was",
+   "n6831-low0 | possibly potentially optionally possibly perhaps 有可能 | Modal 'could/'d' expressing ability or wishes | Urgent escapes, wishes, and anguished moments | to the nearest city, and I thought that maybe I [['d]] find some help there. The thing",
+   "n10574-high0 | tero eries 尝 Transition Transition transitions | Subject pronoun or name in tense action narration | Tense confrontations and rescues in narration | on his lap. His briefcase slid to the ground as [[ he]] grabbed Jack's hand and led him"
+  ]
+ },
+ {
+  "theme": "unassigned",
+  "definition": "the model gave no label",
+  "kind": "-",
+  "push_pct": 0.01,
+  "clusters": 2,
+  "neurons": 2,
+  "top": [
+   "n5346-high0 | hypotheses 误差 observable уш istr observ | Verbs and nouns mid-clause in tense, eerie narration | Tense horror or hospital-like narration with demons | felt faded into numbness, the light in her peripherals dim [[med]] . There was no feeling. No",
+   "n9533-high0 | Ms 糁  puss  › | Prepositions or conjunctions in business and marketing descriptions | Marketing agency and campaign planning text | its clients. As such, the firm places a strong emphasis [[ on]] understanding clients' business goals and develop"
+  ]
+ }
+]

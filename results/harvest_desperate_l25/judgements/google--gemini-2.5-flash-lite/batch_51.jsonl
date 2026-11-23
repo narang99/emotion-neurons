@@ -1,0 +1,47 @@
+{"neuron":8355,"pole":"high","cluster":0,"mode":"regularly monitor performance and adjust strategy for better results","scene_windows":0,"windows":5,"scene":"business strategy and analytics"}
+{"neuron":8355,"pole":"high","cluster":1,"mode":"exclamations of delight and positive affirmation","scene_windows":0,"windows":5,"scene":"children's excited reactions"}
+{"neuron":8355,"pole":"high","cluster":2,"mode":"citations of authors and academic works","scene_windows":0,"windows":5,"scene":"academic and historical references"}
+{"neuron":8355,"pole":"high","cluster":3,"mode":"journal citations with volume and page numbers","scene_windows":0,"windows":5,"scene":"scientific journal citations"}
+{"neuron":8355,"pole":"high","cluster":4,"mode":"first-person statements of intent or current state","scene_windows":0,"windows":5,"scene":"personal declarations and feelings"}
+{"neuron":8355,"pole":"high","cluster":5,"mode":"statements about current situations or observations","scene_windows":0,"windows":5,"scene":"observations and current status"}
+{"neuron":8355,"pole":"high","cluster":6,"mode":"dialogue with question marks and exclamations","scene_windows":0,"windows":5,"scene":"conversational dialogue and questions"}
+{"neuron":8355,"pole":"low","cluster":0,"mode":"past tense statements about being or having","scene_windows":0,"windows":5,"scene":"narrative past events"}
+{"neuron":8355,"pole":"low","cluster":1,"mode":"repeated introductory phrase for stories","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":4425,"pole":"high","cluster":0,"mode":"first-person statements about self or others","scene_windows":0,"windows":5,"scene":"personal observations and feelings"}
+{"neuron":4425,"pole":"high","cluster":1,"mode":"numerical references to years and organizations","scene_windows":0,"windows":5,"scene":"historical and organizational data"}
+{"neuron":4425,"pole":"low","cluster":0,"mode":"first-person statements about self or others","scene_windows":0,"windows":5,"scene":"personal reflections and states"}
+{"neuron":4425,"pole":"low","cluster":1,"mode":"numerical references to years and organizations","scene_windows":0,"windows":5,"scene":"historical and organizational data"}
+{"neuron":9165,"pole":"high","cluster":0,"mode":"descriptive details about beavers and their environment","scene_windows":0,"windows":5,"scene":"animal behavior and habitat"}
+{"neuron":9165,"pole":"high","cluster":1,"mode":"conjunctions and contrasting ideas in dialogue","scene_windows":0,"windows":5,"scene":"conversational connections and contrasts"}
+{"neuron":9165,"pole":"high","cluster":2,"mode":"code snippets with programming language identifiers","scene_windows":0,"windows":5,"scene":"programming code examples"}
+{"neuron":9165,"pole":"low","cluster":0,"mode":"imperative statements with colons and punctuation","scene_windows":0,"windows":5,"scene":"instructional or goal-setting statements"}
+{"neuron":9165,"pole":"low","cluster":1,"mode":"first-person statements about self or others","scene_windows":0,"windows":5,"scene":"personal reflections and states"}
+{"neuron":9165,"pole":"low","cluster":2,"mode":"numbered lists of items or categories","scene_windows":0,"windows":5,"scene":"categorized lists and examples"}
+{"neuron":7791,"pole":"high","cluster":0,"mode":"third-person possessive statements about objects","scene_windows":0,"windows":5,"scene":"possessive actions with objects"}
+{"neuron":7791,"pole":"high","cluster":1,"mode":"dialogue and actions involving interaction","scene_windows":0,"windows":5,"scene":"conversational interactions and reactions"}
+{"neuron":7791,"pole":"high","cluster":2,"mode":"third-person statements about objects and actions","scene_windows":0,"windows":5,"scene":"actions with objects"}
+{"neuron":7791,"pole":"low","cluster":0,"mode":"third-person statements about actions and states","scene_windows":0,"windows":5,"scene":"narrative actions and states"}
+{"neuron":7791,"pole":"low","cluster":1,"mode":"first-person possessive statements about self","scene_windows":0,"windows":5,"scene":"personal possession and identity"}
+{"neuron":7449,"pole":"high","cluster":0,"mode":"third-person statements about actions and states","scene_windows":0,"windows":5,"scene":"narrative actions and states"}
+{"neuron":7449,"pole":"high","cluster":1,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and statements"}
+{"neuron":7449,"pole":"low","cluster":0,"mode":"third-person statements about actions and states","scene_windows":0,"windows":5,"scene":"narrative actions and states"}
+{"neuron":7449,"pole":"low","cluster":1,"mode":"prepositional phrases indicating manner or method","scene_windows":0,"windows":5,"scene":"describing methods and processes"}
+{"neuron":1820,"pole":"high","cluster":0,"mode":"programming code snippets with variable names","scene_windows":0,"windows":5,"scene":"programming code and output"}
+{"neuron":1820,"pole":"high","cluster":1,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and requests"}
+{"neuron":1820,"pole":"high","cluster":2,"mode":"names of people and organizations","scene_windows":0,"windows":5,"scene":"people and organizational references"}
+{"neuron":1820,"pole":"high","cluster":3,"mode":"requests for information with question words","scene_windows":0,"windows":5,"scene":"information requests"}
+{"neuron":1820,"pole":"high","cluster":4,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and statements"}
+{"neuron":1820,"pole":"high","cluster":5,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and statements"}
+{"neuron":1820,"pole":"high","cluster":6,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and questions"}
+{"neuron":1820,"pole":"high","cluster":7,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and whispers"}
+{"neuron":1820,"pole":"low","cluster":0,"mode":"third-person statements about actions and states","scene_windows":0,"windows":5,"scene":"narrative actions and states"}
+{"neuron":1820,"pole":"low","cluster":1,"mode":"third-person statements about actions and states","scene_windows":0,"windows":5,"scene":"narrative actions and states"}
+{"neuron":11746,"pole":"high","cluster":0,"mode":"words indicating uncertainty, complaint, or future action","scene_windows":0,"windows":5,"scene":"Neutral narration and opinion"}
+{"neuron":11746,"pole":"high","cluster":1,"mode":"initials of organizations, people, or acronyms","scene_windows":0,"windows":5,"scene":"Neutral narration and facts"}
+{"neuron":11746,"pole":"low","cluster":0,"mode":"words indicating affection or preference","scene_windows":0,"windows":5,"scene":"Children's stories"}
+{"neuron":11746,"pole":"low","cluster":1,"mode":"words indicating origin or belonging","scene_windows":0,"windows":5,"scene":"Neutral narration and facts"}
+{"neuron":11746,"pole":"low","cluster":2,"mode":"words indicating state or action","scene_windows":0,"windows":5,"scene":"Neutral narration and stories"}
+{"neuron":5703,"pole":"high","cluster":0,"mode":"third-person statements about actions and states","scene_windows":0,"windows":5,"scene":"narrative actions and states"}
+{"neuron":5703,"pole":"high","cluster":1,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and statements"}
+{"neuron":5703,"pole":"low","cluster":0,"mode":"dialogue with quotation marks and punctuation","scene_windows":0,"windows":5,"scene":"conversational dialogue and whispers"}
+{"neuron":5703,"pole":"low","cluster":1,"mode":"third-person statements about actions and states","scene_windows":0,"windows":5,"scene":"narrative actions and states"}

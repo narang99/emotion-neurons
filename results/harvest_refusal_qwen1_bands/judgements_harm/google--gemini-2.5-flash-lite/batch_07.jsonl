@@ -1,0 +1,68 @@
+{"neuron":1439,"pole":"high","cluster":0,"mode":"alcohol withdrawal symptoms: anxiety, insomnia, nausea, vomiting, delirium tremens","scene_windows":0,"windows":5,"scene":"medical withdrawal symptoms list"}
+{"neuron":1439,"pole":"high","cluster":1,"mode":"historical drug use, public health, legal consequences, sleep deprivation","scene_windows":0,"windows":5,"scene":"historical drug use and safety"}
+{"neuron":1439,"pole":"high","cluster":2,"mode":"anxiety, feeling unwell, needing a moment, physical discomfort","scene_windows":0,"windows":5,"scene":"personal distress and anxiety"}
+{"neuron":1439,"pole":"low","cluster":0,"mode":"seeking information about countries, politics, and intelligence types","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":1439,"pole":"low","cluster":1,"mode":"unusual behavior, lying, sleeping, skeletons, and personal benefit","scene_windows":0,"windows":5,"scene":"unusual and slightly dark scenarios"}
+{"neuron":1439,"pole":"low","cluster":2,"mode":"technical instructions, directory checks, and error messages","scene_windows":0,"windows":5,"scene":"technical script instructions"}
+{"neuron":8373,"pole":"high","cluster":0,"mode":"less nutritious, less desirable, less enjoyable, less efficient","scene_windows":0,"windows":5,"scene":"comparative descriptions of food and experience"}
+{"neuron":8373,"pole":"high","cluster":1,"mode":"not optimal, not good, not valid, not justified","scene_windows":0,"windows":5,"scene":"negative assessments of health and input"}
+{"neuron":8373,"pole":"high","cluster":2,"mode":"negative self-talk, regret, and emotional distress","scene_windows":0,"windows":5,"scene":"personal emotional distress"}
+{"neuron":8373,"pole":"high","cluster":3,"mode":"unsatisfied, unsanitary, unsolicited, unenergized","scene_windows":0,"windows":5,"scene":"negative attributes of products and services"}
+{"neuron":8373,"pole":"high","cluster":4,"mode":"only some, only enforcing, only sell, only hummingbird","scene_windows":0,"windows":5,"scene":"limited scope or specific conditions"}
+{"neuron":8373,"pole":"high","cluster":5,"mode":"painful procedure, uncertain future, counter them, difficult times, bewildered","scene_windows":0,"windows":5,"scene":"uncertainty and difficulty"}
+{"neuron":8373,"pole":"high","cluster":6,"mode":"lower sleep quality, reduced communication, decreased social interaction, lower quality of life, lower empathy","scene_windows":0,"windows":5,"scene":"negative impacts of technology use"}
+{"neuron":8373,"pole":"low","cluster":0,"mode":"no, told you no, no big deal, no that happened, no worries","scene_windows":0,"windows":5,"scene":"negation and reassurance"}
+{"neuron":8373,"pole":"low","cluster":1,"mode":"only what consumer wants, only for a few years, only rarely, only worsened, only worsened","scene_windows":0,"windows":5,"scene":"limited scope or specific conditions"}
+{"neuron":8373,"pole":"low","cluster":2,"mode":"didn't, didn't need, didn't recognize, didn't do, didn't know","scene_windows":0,"windows":5,"scene":"negation of actions or states"}
+{"neuron":8373,"pole":"low","cluster":3,"mode":"unburned, unchanging, non-interior, unencumbered, unharmed","scene_windows":0,"windows":5,"scene":"neutral or positive attributes"}
+{"neuron":8373,"pole":"low","cluster":4,"mode":"not only, not just, not uncommon, not only, not only","scene_windows":0,"windows":5,"scene":"emphasis on exclusivity or limitation"}
+{"neuron":8373,"pole":"low","cluster":5,"mode":"on, was, in, them, him","scene_windows":0,"windows":5,"scene":"prepositions and pronouns"}
+{"neuron":8373,"pole":"low","cluster":6,"mode":"reducing, reducing, reduces, reduces, reduce","scene_windows":0,"windows":5,"scene":"actions of reduction or decrease"}
+{"neuron":8373,"pole":"low","cluster":7,"mode":"low-rate, low-rate, low-cost, low stock, low-cost","scene_windows":0,"windows":5,"scene":"low cost or low risk attributes"}
+{"neuron":7222,"pole":"high","cluster":0,"mode":"there are, that should, that are, that will, that are","scene_windows":0,"windows":5,"scene":"offering advice and solutions"}
+{"neuron":7222,"pole":"high","cluster":1,"mode":"here are, here's, here are, here are, here are","scene_windows":0,"windows":5,"scene":"providing lists of tips or suggestions"}
+{"neuron":7222,"pole":"low","cluster":0,"mode":"in, to, the, ,","scene_windows":0,"windows":5,"scene":"prepositions and articles"}
+{"neuron":7222,"pole":"low","cluster":1,"mode":"you, you, you, you, you","scene_windows":0,"windows":5,"scene":"direct address and questions"}
+{"neuron":4394,"pole":"high","cluster":0,"mode":"materials, a, content, investment, energy","scene_windows":0,"windows":5,"scene":"various nouns and concepts"}
+{"neuron":4394,"pole":"high","cluster":1,"mode":"I can, I would, I think, I would, I'd","scene_windows":0,"windows":5,"scene":"offering personal opinions and advice"}
+{"neuron":4394,"pole":"low","cluster":0,"mode":"that, problems, studies, the, have","scene_windows":0,"windows":5,"scene":"various conjunctions and nouns"}
+{"neuron":4394,"pole":"low","cluster":1,"mode":"[[ , [[ , [[ , [[ , [[","scene_windows":0,"windows":5,"scene":"dialogue markers"}
+{"neuron":8291,"pole":"high","cluster":0,"mode":"can you, can you, can you, can you, can you","scene_windows":0,"windows":5,"scene":"requesting information or ideas"}
+{"neuron":8291,"pole":"high","cluster":1,"mode":"let you, let them, let your, let the, let it","scene_windows":0,"windows":5,"scene":"preventing or allowing actions"}
+{"neuron":8291,"pole":"high","cluster":2,"mode":"time to, time to, time left, time to, time to","scene_windows":0,"windows":5,"scene":"urgency and limited time"}
+{"neuron":8291,"pole":"high","cluster":3,"mode":"not be, to, to, not find, to","scene_windows":0,"windows":5,"scene":"negation and infinitive phrases"}
+{"neuron":8291,"pole":"high","cluster":4,"mode":"way out, way that, way she, way to, way I","scene_windows":0,"windows":5,"scene":"impossibility or lack of options"}
+{"neuron":8291,"pole":"low","cluster":0,"mode":"no, no, nothing, no, no","scene_windows":0,"windows":5,"scene":"negation and absence"}
+{"neuron":8291,"pole":"low","cluster":1,"mode":"without, without, without, without, without","scene_windows":0,"windows":5,"scene":"absence of something"}
+{"neuron":8291,"pole":"low","cluster":2,"mode":"for, for, for, for, for","scene_windows":0,"windows":5,"scene":"purpose or waiting"}
+{"neuron":8291,"pole":"low","cluster":3,"mode":"waiting, waiting, waiting, waiting, waiting","scene_windows":0,"windows":5,"scene":"anticipation and patience"}
+{"neuron":8291,"pole":"low","cluster":4,"mode":"prevent, prevent, prevent, prevent, Prevent","scene_windows":0,"windows":5,"scene":"prevention of negative outcomes"}
+{"neuron":8291,"pole":"low","cluster":5,"mode":"to, to, to, this, to","scene_windows":0,"windows":5,"scene":"infinitive phrases and demonstratives"}
+{"neuron":8291,"pole":"low","cluster":6,"mode":"for, for, for, for, for","scene_windows":0,"windows":5,"scene":"purpose or checking"}
+{"neuron":5095,"pole":"high","cluster":0,"mode":"to succeed, easier to, with a, of coping, and not","scene_windows":0,"windows":5,"scene":"achieving goals and personal growth"}
+{"neuron":5095,"pole":"high","cluster":1,"mode":"g of carbs, g of, g of, g of, g of","scene_windows":0,"windows":5,"scene":"nutritional information breakdown"}
+{"neuron":5095,"pole":"low","cluster":0,"mode":"n't, n't, n't, n't, n","scene_windows":0,"windows":5,"scene":"negation and contraction"}
+{"neuron":5095,"pole":"low","cluster":1,"mode":"I, I, I, I, I","scene_windows":0,"windows":5,"scene":"first-person perspective"}
+{"neuron":5095,"pole":"low","cluster":2,"mode":"but, but, but, but, but","scene_windows":0,"windows":5,"scene":"contrast and concession"}
+{"neuron":5095,"pole":"low","cluster":3,"mode":"There, There, there, there, there","scene_windows":0,"windows":5,"scene":"existence and location"}
+{"neuron":5095,"pole":"low","cluster":4,"mode":"no, no, no, no, no","scene_windows":0,"windows":5,"scene":"negation and absence"}
+{"neuron":5095,"pole":"low","cluster":5,"mode":"to, to, to, this, to","scene_windows":0,"windows":5,"scene":"infinitive phrases and demonstratives"}
+{"neuron":5095,"pole":"low","cluster":6,"mode":"food preparation and safety","scene_windows":0,"windows":5,"scene":"food preparation and safety"}
+{"neuron":5095,"pole":"low","cluster":7,"mode":"project goals and objectives","scene_windows":0,"windows":5,"scene":"project goals and objectives"}
+{"neuron":5095,"pole":"low","cluster":8,"mode":"renewable energy and innovation","scene_windows":0,"windows":5,"scene":"renewable energy and innovation"}
+{"neuron":9975,"pole":"high","cluster":0,"mode":"financial information and company details","scene_windows":0,"windows":5,"scene":"financial information and company details"}
+{"neuron":9975,"pole":"high","cluster":1,"mode":"medical research and evidence","scene_windows":0,"windows":5,"scene":"medical research and evidence"}
+{"neuron":9975,"pole":"high","cluster":2,"mode":"harmful arguments and electric vehicles","scene_windows":0,"windows":5,"scene":"harmful arguments and electric vehicles"}
+{"neuron":9975,"pole":"high","cluster":3,"mode":"local decisions and prostitution","scene_windows":0,"windows":5,"scene":"local decisions and prostitution"}
+{"neuron":9975,"pole":"low","cluster":0,"mode":"supernatural beliefs and realism","scene_windows":0,"windows":5,"scene":"supernatural beliefs and realism"}
+{"neuron":9975,"pole":"low","cluster":1,"mode":"personal relationships and past events","scene_windows":0,"windows":5,"scene":"personal relationships and past events"}
+{"neuron":9787,"pole":"high","cluster":0,"mode":"a significant place, holds a special place, hold a significant place","scene_windows":0,"windows":5,"scene":"cultural and religious significance"}
+{"neuron":9787,"pole":"high","cluster":1,"mode":"Assistant:, Assistant:, Assistant:, Assistant:, Assistant:","scene_windows":0,"windows":5,"scene":"dialogue markers"}
+{"neuron":9787,"pole":"high","cluster":2,"mode":"some, some, Many, some, Some","scene_windows":0,"windows":5,"scene":"quantifiers and uncertainty"}
+{"neuron":9787,"pole":"high","cluster":3,"mode":"The, . The, the, around, The","scene_windows":0,"windows":5,"scene":"articles and punctuation"}
+{"neuron":9787,"pole":"high","cluster":4,"mode":"significant, significance, important, significant, important","scene_windows":0,"windows":5,"scene":"importance and significance"}
+{"neuron":9787,"pole":"high","cluster":5,"mode":"in, for, for, each other, action","scene_windows":0,"windows":5,"scene":"prepositions and pronouns"}
+{"neuron":9787,"pole":"high","cluster":6,"mode":"considered, considered, considered, believed, considered","scene_windows":0,"windows":5,"scene":"beliefs and status"}
+{"neuron":9787,"pole":"low","cluster":0,"mode":"are, people, more, to, that","scene_windows":0,"windows":5,"scene":"common words in descriptive text"}
+{"neuron":9787,"pole":"low","cluster":1,"mode":"the, can, an, can, already","scene_windows":0,"windows":5,"scene":"articles, modals, and adverbs"}
+{"neuron":9787,"pole":"low","cluster":2,"mode":"as, steps, Try, avoid, ,","scene_windows":0,"windows":5,"scene":"prepositions and commands"}

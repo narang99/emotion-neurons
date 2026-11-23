@@ -1,0 +1,53 @@
+{"neuron":5624,"pole":"high","cluster":0,"mode":"programming code snippets, likely for GUI or data handling","scene_windows":0,"windows":5,"scene":"technical programming context"}
+{"neuron":5624,"pole":"high","cluster":1,"mode":"providing instructions or advice, often in a numbered list format","scene_windows":0,"windows":5,"scene":"instructional or advisory text"}
+{"neuron":5624,"pole":"high","cluster":2,"mode":"using 'also' to add information or examples","scene_windows":0,"windows":5,"scene":"neutral informative narration"}
+{"neuron":5624,"pole":"high","cluster":3,"mode":"expressions of frustration, effort, and resignation","scene_windows":2,"windows":5,"scene":"emotional struggle, giving up"}
+{"neuron":5624,"pole":"high","cluster":4,"mode":"children speaking with parents, often asking questions or receiving praise","scene_windows":0,"windows":5,"scene":"child-parent interaction"}
+{"neuron":5624,"pole":"low","cluster":0,"mode":"narrative descriptions of actions and events, often in children's stories","scene_windows":0,"windows":5,"scene":"children's story narrative"}
+{"neuron":5624,"pole":"low","cluster":1,"mode":"dialogue where a character is speaking, often in a kind or gentle manner","scene_windows":0,"windows":5,"scene":"gentle dialogue"}
+{"neuron":7164,"pole":"high","cluster":0,"mode":"describing tactile exploration and physical sensations","scene_windows":0,"windows":5,"scene":"sensory exploration"}
+{"neuron":7164,"pole":"high","cluster":1,"mode":"referring to body parts, thoughts, and personal feelings","scene_windows":0,"windows":5,"scene":"internal reflection and emotion"}
+{"neuron":7164,"pole":"high","cluster":2,"mode":"expressions of apology, concern, and physical closeness","scene_windows":0,"windows":5,"scene":"emotional connection and vulnerability"}
+{"neuron":7164,"pole":"low","cluster":0,"mode":"cooking instructions, focusing on ingredients and processes","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":7164,"pole":"low","cluster":1,"mode":"technical or descriptive terms, often related to materials or legal concepts","scene_windows":0,"windows":5,"scene":"technical and legal terms"}
+{"neuron":7164,"pole":"low","cluster":2,"mode":"descriptions of internal states, past events, and physical sensations","scene_windows":0,"windows":5,"scene":"internal reflection and memory"}
+{"neuron":7164,"pole":"low","cluster":3,"mode":"expressions of sadness, fear, and regret","scene_windows":0,"windows":5,"scene":"negative emotional states"}
+{"neuron":2061,"pole":"high","cluster":0,"mode":"dialogue ending with a period, indicating finality or a statement","scene_windows":0,"windows":5,"scene":"conversational closure"}
+{"neuron":2061,"pole":"high","cluster":1,"mode":"dialogue ending with a question mark, indicating inquiry or doubt","scene_windows":0,"windows":5,"scene":"questioning and uncertainty"}
+{"neuron":2061,"pole":"high","cluster":2,"mode":"describing bodily fluids, physical reactions, and sudden events","scene_windows":0,"windows":5,"scene":"sudden physical events"}
+{"neuron":2061,"pole":"low","cluster":0,"mode":"describing physical locations and states of being","scene_windows":0,"windows":5,"scene":"describing locations and states"}
+{"neuron":2061,"pole":"low","cluster":1,"mode":"dialogue indicating a decision or a choice made","scene_windows":0,"windows":5,"scene":"making decisions"}
+{"neuron":1222,"pole":"high","cluster":0,"mode":"describing physical objects, processes, and their characteristics","scene_windows":0,"windows":5,"scene":"descriptive technical text"}
+{"neuron":1222,"pole":"high","cluster":1,"mode":"providing advice or tips for professional success","scene_windows":0,"windows":5,"scene":"professional advice and strategy"}
+{"neuron":1222,"pole":"high","cluster":2,"mode":"discussing the effectiveness or adoption of systems and research","scene_windows":0,"windows":5,"scene":"discussion of adoption and effectiveness"}
+{"neuron":1222,"pole":"high","cluster":3,"mode":"expressions of acceptance, knowledge, and emotional embrace","scene_windows":0,"windows":5,"scene":"acceptance and emotional processing"}
+{"neuron":1222,"pole":"high","cluster":4,"mode":"dialogue starting with quotation marks, indicating speech","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":1222,"pole":"low","cluster":0,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":1222,"pole":"low","cluster":1,"mode":"dialogue indicating a decision or a choice made","scene_windows":0,"windows":5,"scene":"making decisions"}
+{"neuron":1222,"pole":"low","cluster":2,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":1222,"pole":"low","cluster":3,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":6019,"pole":"high","cluster":0,"mode":"narrative descriptions of people and their actions, often with emotional context.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6019,"pole":"high","cluster":1,"mode":"children asking questions and receiving answers, often with a playful or curious tone.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6019,"pole":"low","cluster":0,"mode":"narrative descriptions of characters' actions and feelings, often with a sense of progression or consequence.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6019,"pole":"low","cluster":1,"mode":"children's interactions and decisions, often involving toys, food, or sharing.","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1470,"pole":"high","cluster":0,"mode":"children playing and enjoying themselves","scene_windows":0,"windows":5,"scene":"children playing happily"}
+{"neuron":1470,"pole":"high","cluster":1,"mode":"providing advice or tips for marketing and professional development","scene_windows":0,"windows":5,"scene":"professional advice and strategy"}
+{"neuron":1470,"pole":"low","cluster":0,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":1470,"pole":"low","cluster":1,"mode":"cooking instructions, focusing on ingredients and processes","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":1470,"pole":"low","cluster":2,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":1470,"pole":"low","cluster":3,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":10246,"pole":"high","cluster":0,"mode":"expressions of relief, tiredness, and pain","scene_windows":0,"windows":5,"scene":"emotional states and reactions"}
+{"neuron":10246,"pole":"high","cluster":1,"mode":"referring to personal possessions and relationships","scene_windows":0,"windows":5,"scene":"personal possessions and relationships"}
+{"neuron":10246,"pole":"low","cluster":0,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":10246,"pole":"low","cluster":1,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":10246,"pole":"low","cluster":2,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":10246,"pole":"low","cluster":3,"mode":"dialogue indicating agreement or a concession","scene_windows":0,"windows":5,"scene":"agreement and concession"}
+{"neuron":10246,"pole":"low","cluster":4,"mode":"describing physical locations and states of being","scene_windows":0,"windows":5,"scene":"describing locations and states"}
+{"neuron":10246,"pole":"low","cluster":5,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":11313,"pole":"high","cluster":0,"mode":"dialogue indicating a slight movement or change in expression","scene_windows":0,"windows":5,"scene":"subtle physical and emotional cues"}
+{"neuron":11313,"pole":"high","cluster":1,"mode":"dialogue asking for specific examples or tips","scene_windows":0,"windows":5,"scene":"requesting specific information"}
+{"neuron":11313,"pole":"low","cluster":0,"mode":"programming code snippets, often involving data structures or memory access","scene_windows":0,"windows":5,"scene":"technical programming context"}
+{"neuron":11313,"pole":"low","cluster":1,"mode":"narrative descriptions of children's activities and feelings","scene_windows":0,"windows":5,"scene":"children's activities and feelings"}
+{"neuron":11313,"pole":"low","cluster":2,"mode":"dialogue where a character is speaking, often in a kind or gentle manner","scene_windows":0,"windows":5,"scene":"gentle dialogue"}
+{"neuron":11313,"pole":"low","cluster":3,"mode":"describing physical locations and states of being","scene_windows":0,"windows":5,"scene":"describing locations and states"}
+{"neuron":11313,"pole":"low","cluster":4,"mode":"describing sensory experiences and physical sensations","scene_windows":0,"windows":5,"scene":"sensory experiences"}

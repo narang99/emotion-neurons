@@ -1,21 +1,25 @@
-"""Everything a run can be told, as one typed config.
+"""Typed run configs: a small shared base, and one config class per kind of experiment.
 
-Values come from two places, and the command line wins:
-
-- a YAML file given with `--config`, for the settings that distinguish one experiment from
-  another, so they live in git
-- flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`
-
-Every script of a run reads the same file, so one commit reproduces the whole run.
+- `RunConfig` holds what every run has: run id, model, layer, device, folders.
+- Each experiment's class adds only its own sections:
+  - `VectorsRunConfig`: activations and emotion vectors (extract.py, build_vectors.py);
+  - `PolesRunConfig`: neuron poles (poles.py);
+  - `GreedySetsRunConfig`: greedy sets (greedy_sets.py);
+  - `ModesRunConfig`: harvest, modes, judge, report and the end-to-end pipeline;
+  - `ThemeRemovalRunConfig`: remove a theme's neurons from an emotion vector, held-out scores, token cosines;
+  - `DirectionRunConfig`: a difference-of-means direction on instruction data (e.g. refusal), selected by its effect.
+- Values come from two places, and the command line wins:
+  - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
+  - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
 """
 
 import argparse
 from collections.abc import Sequence
 from pathlib import Path
-from typing import Literal
+from typing import Literal, TypeVar
 
 import yaml
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator
 from pydantic_settings import BaseSettings, PydanticBaseSettingsSource, SettingsConfigDict
 
 Baseline = Literal["mean", "neutral"]
@@ -51,30 +55,6 @@ class VectorsConfig(Section):
     )
 
 
-class ProjectConfig(Section):
-    vectors: list[str] = Field(
-        ["mean/raw", "mean/denoised"],
-        description="baseline/variant pairs whose unit vectors every held-out token is projected onto",
-    )
-    batch_size: int = 16
-    logit_lens_k: int = 20
-
-
-class ReportConfig(Section):
-    story_site: Literal["resid_mid", "resid_post", "mlp_act", "mlp_out"] = Field(
-        "resid_post", description="site whose projections colour the per-story token pages"
-    )
-    story_vector: str = "mean/denoised"
-
-
-class NeuronSetConfig(Section):
-    vectors_run: str = Field("stage2_l25", description="results/<vectors_run>/vectors.safetensors holds the write and dA")
-    dim_share: float = Field(0.9, gt=0, le=1, description="share of delta's positive (and negative) mass the kept dims cover")
-    neuron_share: float = Field(
-        0.9, gt=0, le=1, description="share of a dim's positive (and negative) terms the kept neurons cover"
-    )
-
-
 class CorpusConfig(Section):
     name: str
     path: str
@@ -84,231 +64,115 @@ class CorpusConfig(Section):
     tokens: int
 
 
-class HarvestConfig(Section):
+class PolesConfig(Section):
+    """The poles of a neuron: at or below its p3, or at or above its p97, over general text."""
+
     corpora: list[CorpusConfig] = [
-        CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=700_000),
-        CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=650_000),
-        CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=650_000),
+        CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=70_000),
+        CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=70_000),
+        CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=70_000),
     ]
+    quantiles: list[float] = [0.03, 0.97]
     window: int = 256
     min_window: int = 32
-    skip_first: int = Field(4, description="the first tokens of each window are left out of percentiles and hits")
+    skip_first: int = Field(4, description="the first tokens of each window are left out (attention-sink effects)")
     batch_size: int = 32
-    n_controls: int = 50
-    max_neurons: int = Field(1000, description="harvest the whole Stage 3 set up to this size, else the ranked top")
-    per_group: int = Field(25, description="when ranking: neurons per (emotion, pole), see emotion_neurons.selection")
     seed: int = 0
-    percentiles: list[float] = [0.97, 0.99, 0.999, 0.9999]
-    percentile_chunk: int = 64
-    examples_per_band: int = 20
-    top_k: int = 50
-    hits_per_neuron: int = Field(512, description="p97+ hits sampled per neuron for mode clustering (plus the top_k)")
-    neurons_file: Path | None = Field(None, description="selection.json from min_set.py; overrides the Stage 3 ranking")
+
+
+class HarvestConfig(Section):
+    """What chosen neurons fire on, at both poles (`emotion_neurons.harvest`)."""
+
+    neurons_csv: Path = Field(Path("results/greedy_sets_l25/neurons/happy.csv"), description="a greedy-set CSV, in rank order")
+    rebuilt_pct: float = Field(75.0, description="harvest the neurons up to the one that rebuilds this % of the write")
+    n_controls: int = 20
+    corpora: list[CorpusConfig] = [
+        CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=700_000),
+        CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=700_000),
+        CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=600_000),
+    ]
+    high_quantiles: list[float] = [0.97, 0.99, 0.999, 0.9999]
+    low_quantiles: list[float] = [0.03, 0.01, 0.001, 0.0001]
+    examples_per_band: int = 8
+    extreme_examples: int = 12
+    hits_per_pole: int = Field(1000, description="hit positions kept per neuron and pole, for the mode clustering")
+    all_neurons: bool = Field(False, description="harvest every neuron of the layer (`emotion_neurons.harvest_all`)")
+    neuron_chunk: int = Field(1024, description="neurons per chunk in an all-neuron harvest")
+    hits_per_band: int | None = Field(
+        None, description="if set, sample up to this many hits from each band instead of `hits_per_pole` uniformly"
+    )
+    before: int = Field(60, description="tokens shown before the firing token")
+    after: int = Field(8, description="tokens shown after it")
+    window: int = 256
+    min_window: int = 32
+    skip_first: int = Field(4, description="the first tokens of each window are left out (attention-sink effects)")
+    batch_size: int = 32
+    seed: int = 0
 
 
 class ModesConfig(Section):
-    per_group: int = Field(10, description="neurons per (emotion, neuron pole), by summed term over the kept dims")
-    n_controls: int = 20
+    """Clusters of each harvested neuron's hits at each pole (`emotion_neurons.modes`); defaults of tag exp/stage3_l25."""
+
+    hits_used: int = Field(500, description="hits clustered per neuron and pole (a subsample of the harvest's)")
     pca_dims: int = 50
     min_cluster_size: int = 10
     min_samples: int | None = 5
     assign_quantile: float = Field(0.1, description="a noise hit joins a cluster above this quantile of member cosines")
     exemplars: int = 5
-    noise_exemplars: int = 3
-    neurons_per_batch: int = 10
+    other_exemplars: int = 3
+    neurons_per_batch: int = Field(8, description="at most this many neurons per text file for the judges")
+    clusters_per_batch: int = Field(80, description="and at most this many clusters, so a judge's reply is not cut off")
+    snippet_before: int = 30
+    snippet_after: int = 8
+    batch_size: int = 32
+    checks: int = Field(200, description="hits whose recomputed activation is checked against the harvest")
+    workers: int = Field(0, description="processes for the clustering in an all-neuron harvest; 0 means one per CPU")
 
 
-class MinSetConfig(Section):
-    greedy_steps: int = Field(2000, description="greedy forward-selection steps per emotion (stops at cos 0.99)")
-    select: int = Field(64, description="neurons for the mode analysis, round-robin down the greedy orders")
+class JudgeConfig(Section):
+    """Blind judgements of mode clusters by cheap models on OpenRouter (`emotion_neurons.judge`)."""
 
-
-class SparseSetConfig(Section):
-    taus: list[float] = Field([0.8, 0.9, 0.95], description="target cosines for the smallest-set search")
-    sizes: list[int] = Field([16, 64, 128, 256, 512, 1024, 2048], description="set sizes reported")
-    greedy_steps: int = 2500
-    max_swaps: int = Field(2000, description="1-swaps per polish")
-    emotions: list[str] = Field([], description="restrict to these emotions (empty: all 12)")
-    target: Literal["raw", "denoised"] = Field("raw", description="denoised: neutral PCs of the write removed")
-    seed: int = Field(0, description="split of the train stories into halves for cross-fit greedy")
-    shrink_kappas: list[float] = Field([1.0, 4.0, 9.0], description="shrunk-target greedy: r = max(0, 1 - kappa/t^2)")
-
-
-class SparseLayersConfig(Section):
-    source_run: str = Field("layers_all", description="all-layer pooled sums from extract_layers.py")
-    layers: list[int] = Field([], description="layers to run (empty: all)")
-    greedy_steps: int = 2500
-    target_cos: float = Field(0.9, description="also report the smallest greedy prefix reaching this train cosine")
-    seed: int = 0
-
-
-class CircuitsConfig(Section):
-    vectors_file: Path = Field(Path("results/layers_all/layer_vectors.safetensors"), description="from layer_vectors.py")
-    sparse_layers_file: Path = Field(Path("results/sparse_layers/sparse_layers.json"), description="emotion sets per layer")
-    target_layer: int = Field(25, description="the emotion score is read from this layer's resid_post")
-    stories_per_emotion: int = Field(5, description="held-out stories per emotion")
-    sizes: list[int] = Field([100, 300, 1000, 3000, 10000], description="circuit sizes checked by mean ablation")
-    report_size: int = Field(1000, description="circuit size whose nodes are split by emotion-set membership")
-    seed: int = 0
-
-
-class NeuronCircuitConfig(Section):
-    layer: int = 25
-    neuron: int = 3068
-    texts_dir: Path = Field(Path("data/adult_stories"), description="scanned with the held-out training stories")
-    harvest_run: str = Field("top64_l25", description="its harvest.json gives the neuron's percentile thresholds")
-    band: int = Field(0, description="hit threshold: index into the harvest percentiles (0: p97, 1: p99, 2: p99.9, 3: p99.99)")
-    top_writers: int = 30
-    top_readers: int = 15
-    check_sizes: list[int] = [5, 20, 100]
-    top_tokens: int = 12
-
-
-class HeadReadsConfig(Section):
-    neurons: list[list[int]] = Field(
-        [[25, 3068], [25, 11109], [25, 2862], [26, 6691], [27, 6612]], description="[layer, neuron] pairs"
+    models: list[str] = ["anthropic/claude-haiku-5.5", "google/gemini-2.5-flash-lite"]
+    key_file: Path = Field(Path("~/.config/openrouter/key"), description="read at run time, never printed or committed")
+    workers: int = Field(8, description="requests in flight at once, per model")
+    max_tokens: int = 8000
+    scene: str | None = Field(
+        None, description="the scene to count; default the run's concept. Another scene goes to judgements_<scene>/"
     )
-    random_layer: int = 25
-    random_count: int = 4
-    texts_dir: Path = Path("data/adult_stories")
-    top_tokens: int = Field(100, description="the neuron's top activations over all texts")
-    top_heads: int = 8
-    check_sizes: list[int] = [3, 10]
-    vocab_top: int = 10
-    seed: int = 0
 
 
-class CausalSetsConfig(Section):
-    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set")
-    vectors_file: Path = Field(Path("results/stage2_l25/vectors.safetensors"), description="dA_e and the 12-emotion mean")
-    layer_vectors_file: Path = Field(Path("results/layers_all/layer_vectors.safetensors"), description="unit vectors per layer")
-    read_layers: list[int] = [25, 28, 31, 35]
-    random_sets: int = Field(3, description="random sets of the same size, per emotion and per swap pair")
-    swaps: list[list[str]] = [
-        ["happy", "sad"],
-        ["sad", "happy"],
-        ["calm", "afraid"],
-        ["afraid", "calm"],
-        ["proud", "guilty"],
-        ["guilty", "proud"],
-    ]
-    swap_scales: list[float] = [1.0, 4.0]
-    question: str = "\n\nQuestion: In one word, how does the main character feel?\nAnswer: The main character feels"
-    continuation: str = "\n\nThat evening,"
-    generate_per_pair: int = 3
-    new_tokens: int = 40
-    seed: int = 0
+class GreedySetsConfig(Section):
+    """Greedy sets of one layer's neurons for each emotion's MLP write (`emotion_neurons.sparse`)."""
+
+    sums_run: str = Field("stage2_l25", description="runs/<sums_run> holds the pooled sums and stories.json")
+    rebuilt: float = Field(0.9, description="stop when the set rebuilds this share of the write")
 
 
-class WordTestsConfig(Section):
-    adult_dir: Path = Field(Path("data/adult_stories"), description="split into explicit and implied by their flag")
-    mislead_file: Path = Path("data/word_tests/mislead.jsonl")
-    layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
+class ThemesConfig(Section):
+    """Themes of meaning across a run's cluster labels, by a strong model on OpenRouter (`emotion_neurons.themes`)."""
+
+    model: str = "anthropic/claude-sonnet-5.5"
+    n_min: int = 15
+    n_max: int = 25
+    batch_size: int = Field(300, description="clusters per assignment request")
+    max_tokens: int = 16000
 
 
-class ChainConfig(Section):
-    target: list[int] = Field([25, 3068], description="[layer, neuron] whose hits define the tokens")
-    middles: list[list[int]] = Field([[8, 4826], [8, 7265]], description="middle neurons, each tested as a link")
-    logit_token: str = " pride"
-    replacement: str = Field(" thing", description="the token put in place of a source token")
-    texts_dir: Path = Path("data/adult_stories")
-    harvest_run: str = Field("top64_l25", description="its harvest.json gives the target's threshold")
-    band: int = Field(2, description="index into the harvest percentiles (2: p99.9)")
-    max_hits: int = 40
-    random_middles: int = 10
-    random_tokens: int = 3
-    scan_top_layers: int = Field(3, description="chain_scan: MLP layers whose neurons are scanned")
-    candidates: int = Field(10, description="chain_scan: neurons per layer and hit, by largest change under the swap")
-    report_neurons: int = Field(10, description="chain_scan: best neurons kept, tested as a set")
-    exclude_pattern: str = Field("", description="chain_scan: drop hits whose token (stripped, lower case) matches this regex")
-    min_drop: float = Field(1.0, description="chain_scan: skip hits where the swap lowers the target by less")
-    layer_vectors_file: Path = Path("results/layers_all/layer_vectors.safetensors")
-    seed: int = 0
+class PipelineConfig(Section):
+    """Checkpoints of the end-to-end run (`emotion_neurons.pipeline`)."""
 
-
-class HarvestLayersConfig(Section):
-    layers: list[int] = [0, 2, 8, 12]
-    sparse_layers_file: Path = Path("results/sparse_layers/sparse_layers.json")
-    per_emotion: int = Field(8, description="first neurons of each emotion's sparse set at the layer")
-    named: list[list[int]] = Field([[8, 4826], [8, 7265]], description="[layer, neuron] pairs always included")
-    controls: int = 40
-    top_tokens: int = 100
-
-
-class TailCheckConfig(Section):
-    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set")
-    vectors_file: Path = Field(Path("results/stage2_l25/vectors.safetensors"), description="Stage 2's dA_e, for the check")
-
-
-class InputRowsConfig(Section):
-    harvest_dir: Path = Field(Path("results/harvest_layers"), description="L<k>.json files: neurons with known top tokens")
-    named: list[list[int]] = [[2, 8663], [8, 4826], [8, 7265], [22, 3221], [24, 2010], [25, 3068], [25, 11109], [25, 2862]]
-    top_k: int = Field(200, description="lens top tokens compared with the harvest's top tokens")
-    show: int = 30
-
-
-class CrossvalConfig(Section):
-    vectors_run: str = Field("stage2_l25", description="runs/<vectors_run> holds the pooled sums and stories.json")
-    kappas: list[float] = Field([0.0, 1.0, 4.0, 9.0, 16.0], description="0: the plain target; else the shrunk target")
-    sizes: list[int] = [64, 128, 256, 512]
-    choose_at: int = Field(256, description="kappa is chosen by the mean held-out transfer at this set size")
-    seed: int = 0
-
-
-class DirectionReportsConfig(Section):
-    vectors_file: Path = Path("results/stage2_l25/vectors.safetensors")
-    sets_file: Path = Path("results/sparse_l25_denoised/sets.json")
-    texts_dir: Path = Field(Path("data/adult_stories"), description="scanned with the held-out stories")
-    emotions: list[str] = ["happy", "sad", "afraid", "proud"]
-    lens_top: int = 15
-    top_examples: int = 15
-    examples: int = 3
-    example_tokens: int = 140
-    mark_quantile: float = Field(0.95, description="tokens above this quantile of a direction's values are marked")
-
-
-class SignalNoiseConfig(Section):
-    layer_vectors_file: Path = Field(
-        Path("results/layers_all/layer_vectors.safetensors"), description="`unit` [layer, emotion, d_model]"
+    s3_prefix: str | None = Field(
+        None, description="if set, each stage's outputs are pushed to <s3_prefix>/<run_id>/ and pulled back on a restart"
     )
-    sets_file: Path = Field(Path("results/sparse_l25_denoised/sets.json"), description="each emotion's `match` set, for overlap")
-    thresholds_file: Path = Field(
-        Path("runs/raw_pools/cache.safetensors"),
-        description="p3 / p97 per neuron, if cached (from the raw_pools run, tag exp/raw_pools)",
+    until: Literal["harvest", "modes", "judge", "report"] | None = Field(None, description="stop after this stage")
+    redo: list[Literal["harvest", "modes", "judge", "report"]] = Field(
+        [], description="run these stages again even if done (their markers are cleared after the S3 pull)"
     )
-    t_cut: float = Field(4.6, description="|t| above this is not zero: about Bonferroni p < 0.01 over 12288 neurons")
-    mass: float = Field(0.9, description="share of the mean push used to count how many neurons carry it")
-    seed: int = 0
-
-
-class ResidualSetsConfig(Section):
-    levels: list[float] = Field([0.2, 0.1, 0.05], description="leftover |d - s| / |d| at which the set is read")
-    steps: int = Field(6000, description="greedy steps at most")
-    sizes: list[int] = Field([100, 300, 1000, 3000], description="leftover reported at these set sizes")
-    random_sets: int = 3
-    seed: int = 0
-
-
-class JudgeSetsConfig(Section):
-    emotions: list[str] = ["happy", "sad", "afraid", "proud"]
-    per_group: int = Field(20, description="neurons per emotion only in the signal set, and in both sets")
-    random_per_emotion: int = Field(5, description="neurons per emotion in neither set (baseline)")
-    corpus_top: int = 12
-    corpus_bottom: int = 5
-    story_top: int = 8
-    seed: int = 0
-
-
-class ProbeConfig(Section):
-    stories_dir: Path = Path("data/adult_stories")
-    source_run: str = Field("top64_l25", description="harvest + modes run whose neurons, p97 and modes are probed")
-    skip_first: int = 4
-    context_before: int = 20
-    context_after: int = 4
-    examples_per_neuron: int = 8
 
 
 class RunConfig(BaseSettings):
+    """What every run has. Experiments subclass it with their own sections."""
+
     model_config = SettingsConfigDict(extra="forbid", cli_kebab_case=True)
 
     config: Path | None = Field(None, description="YAML file with defaults for any of the settings below")
@@ -318,32 +182,6 @@ class RunConfig(BaseSettings):
     device: str = "cuda"
     runs_dir: Path = Path("runs")
     results_dir: Path = Path("results")
-    data: DataConfig = DataConfig()
-    extract: ExtractConfig = ExtractConfig()
-    vectors: VectorsConfig = VectorsConfig()
-    project: ProjectConfig = ProjectConfig()
-    report: ReportConfig = ReportConfig()
-    neuron_set: NeuronSetConfig = NeuronSetConfig()
-    harvest: HarvestConfig = HarvestConfig()
-    modes: ModesConfig = ModesConfig()
-    min_set: MinSetConfig = MinSetConfig()
-    sparse_set: SparseSetConfig = SparseSetConfig()
-    sparse_layers: SparseLayersConfig = SparseLayersConfig()
-    circuits: CircuitsConfig = CircuitsConfig()
-    neuron_circuit: NeuronCircuitConfig = NeuronCircuitConfig()
-    head_reads: HeadReadsConfig = HeadReadsConfig()
-    causal_sets: CausalSetsConfig = CausalSetsConfig()
-    word_tests: WordTestsConfig = WordTestsConfig()
-    chain: ChainConfig = ChainConfig()
-    harvest_layers: HarvestLayersConfig = HarvestLayersConfig()
-    tail_check: TailCheckConfig = TailCheckConfig()
-    input_rows: InputRowsConfig = InputRowsConfig()
-    crossval: CrossvalConfig = CrossvalConfig()
-    direction_reports: DirectionReportsConfig = DirectionReportsConfig()
-    signal_noise: SignalNoiseConfig = SignalNoiseConfig()
-    residual_sets: ResidualSetsConfig = ResidualSetsConfig()
-    judge_sets: JudgeSetsConfig = JudgeSetsConfig()
-    probe: ProbeConfig = ProbeConfig()
 
     @classmethod
     def settings_customise_sources(
@@ -366,10 +204,147 @@ class RunConfig(BaseSettings):
         return self.results_dir / self.run_id
 
 
-def load_run_config(argv: Sequence[str]) -> RunConfig:
+class VectorsRunConfig(RunConfig):
+    data: DataConfig = DataConfig()
+    extract: ExtractConfig = ExtractConfig()
+    vectors: VectorsConfig = VectorsConfig()
+
+
+class PolesRunConfig(RunConfig):
+    poles: PolesConfig = PolesConfig()
+
+
+class GreedySetsRunConfig(RunConfig):
+    greedy_sets: GreedySetsConfig = GreedySetsConfig()
+
+
+class ModesRunConfig(RunConfig):
+    concept: str = Field(
+        "happy", validation_alias=AliasChoices("concept", "emotion"),
+        description="what the neuron set builds: an emotion, or another direction such as refusal (YAML key `emotion` also works)",
+    )  # fmt: skip
+    harvest: HarvestConfig = HarvestConfig()
+    modes: ModesConfig = ModesConfig()
+    judge: JudgeConfig = JudgeConfig()
+    themes: ThemesConfig = ThemesConfig()
+    pipeline: PipelineConfig = PipelineConfig()
+
+    @model_validator(mode="after")
+    def concept_matches_its_neurons(self) -> "ModesRunConfig":
+        """A config that names one concept but harvests another's neuron set is a copy-paste slip; fail on it."""
+        csv_concept = self.harvest.neurons_csv.stem
+        assert csv_concept == self.concept, f"concept is {self.concept!r} but harvest.neurons_csv is {csv_concept}'s set"
+        return self
+
+
+class RemovalConfig(Section):
+    """Which neurons to remove: those whose only emotion theme (on the emotion's side) is `theme`."""
+
+    modes_run: str = Field(description="results/<modes_run> holds cluster_themes.csv and neurons.csv")
+    theme: str
+    not_emotion_themes: list[str] = Field(description="themes that do not count as the emotion (style, syntax, off-topic)")
+
+
+class TokensConfig(Section):
+    batch_size: int = 16
+    stories: Literal["heldout", "all"] = Field("heldout", description="which stories get per-token scores")
+
+
+class ThemeRemovalRunConfig(RunConfig):
+    """Remove a theme's neurons from an emotion's write; held-out scores and per-token cosines (`theme_removal`)."""
+
+    emotion: str
+    sums_run: str = Field("stage2_l25", description="runs/<sums_run> holds the pooled sums and stories.json")
+    data: DataConfig = DataConfig()
+    removal: RemovalConfig
+    tokens: TokensConfig = TokensConfig()
+
+
+class InstructionSource(Section):
+    """A JSON list at `url`, or a Hub dataset (`path`, `config`, `split`); instructions are read from `field`."""
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    url: str | None = None
+    path: str | None = None
+    config: str | None = None
+    split: str = "train"
+    field: str = "instruction"
+    require_empty: str | None = Field(None, description="keep only rows whose field of this name is empty (e.g. Alpaca 'input')")
+
+
+class InstructionSplits(Section):
+    train: list[InstructionSource]
+    val: list[InstructionSource]
+
+
+class InstructionSetConfig(Section):
+    """Instructions per category, sampled with a fixed seed (`datasets.instructions`)."""
+
+    categories: dict[str, InstructionSplits]
+    n_train: int = 128
+    n_val: int = 32
+    seed: int = 42
+
+
+class DiffMeansConfig(Section):
+    """A difference-of-means direction for one target category (`vectors.diff_means`)."""
+
+    target: str
+    baseline: Literal["all", "rest"] = Field(
+        "rest", description="subtract the mean of all category means, or of the other categories' means"
+    )
+    pca_reference: str | None = Field(None, description="remove the top PCs of this category's examples (None: no PCA)")
+    pca_variance: float = Field(0.5, gt=0, lt=1)
+
+
+class DirectionSelectionConfig(Section):
+    """The refusal paper's selection of a layer and post-instruction position (`refusal.select`)."""
+
+    refusal_tokens: list[str] = Field(["I", "As"], description="first tokens of a refusal (the paper's for Qwen)")
+    max_layer_fraction: float = Field(0.8, description="skip candidates in the last 20% of layers")
+    max_kl: float = Field(0.1, description="ablating the direction may change harmless next-token predictions this much")
+    batch_size: int = 32
+    reuse_saved: bool = Field(
+        False, description="reuse a saved direction.json/direction.safetensors (rerun the generation check only)"
+    )
+
+
+class GenerationCheckConfig(Section):
+    max_new_tokens: int = 64
+    batch_size: int = 16
+    refusal_phrases: list[str] = [
+        "I'm sorry", "I am sorry", "I apologize", "As an AI", "As a language model", "As an assistant", "I cannot",
+        "I can't", "I am unable to", "I'm unable to", "I am not able to", "I'm not able to",
+    ]  # fmt: skip
+
+
+class DirectionNeuronsConfig(Section):
+    """The neuron set behind a selected direction (`directions.run_direction_neurons`)."""
+
+    concept: str = Field(description="names the neuron set (its CSV is neurons/<concept>.csv)")
+    layer_offset: int = Field(-1, description="the MLP of the chosen layer plus this: -1 is the last MLP writing into it")
+    rebuilt: float = Field(0.9, description="greedy set stops when it rebuilds this share of the MLP's write")
+    batch_size: int = 32
+
+
+class DirectionRunConfig(RunConfig):
+    """A difference-of-means direction on instruction data, selected and checked as in the refusal paper."""
+
+    instructions: InstructionSetConfig
+    direction: DiffMeansConfig
+    selection: DirectionSelectionConfig = DirectionSelectionConfig()
+    generation: GenerationCheckConfig = GenerationCheckConfig()
+    neurons: DirectionNeuronsConfig | None = None
+
+
+Config = TypeVar("Config", bound=RunConfig)
+
+
+def load_run_config(config_class: type[Config], argv: Sequence[str]) -> Config:
     """The file is read first and handed over as init values, with the flags layered on top."""
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("--config", type=Path)
     known, _ = parser.parse_known_args(argv)
     values = yaml.safe_load(known.config.read_text()) if known.config else {}
-    return RunConfig(_cli_parse_args=list(argv), **(values or {}))
+    return config_class(_cli_parse_args=list(argv), **(values or {}))

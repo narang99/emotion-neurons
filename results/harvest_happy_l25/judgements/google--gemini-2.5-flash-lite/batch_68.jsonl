@@ -1,0 +1,59 @@
+{"neuron":7267,"pole":"high","cluster":0,"mode":"names and places in a historical or military context","happy_windows":0,"windows":5,"scene":"historical military context"}
+{"neuron":7267,"pole":"high","cluster":1,"mode":"military movements and plans","happy_windows":0,"windows":5,"scene":"military planning and movement"}
+{"neuron":7267,"pole":"high","cluster":2,"mode":"cultural and historical aspects of Celtic peoples","happy_windows":0,"windows":5,"scene":"cultural and historical analysis"}
+{"neuron":7267,"pole":"low","cluster":0,"mode":"religious and historical texts","happy_windows":0,"windows":5,"scene":"religious and historical discussion"}
+{"neuron":7267,"pole":"low","cluster":1,"mode":"technical and scientific organizations","happy_windows":0,"windows":5,"scene":"technical and scientific context"}
+{"neuron":7267,"pole":"low","cluster":2,"mode":"recipe instructions and food preparation","happy_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":7267,"pole":"low","cluster":3,"mode":"historical figures and places","happy_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":7267,"pole":"low","cluster":4,"mode":"children's dialogue and simple actions","happy_windows":2,"windows":5,"scene":"children playing and interacting"}
+{"neuron":7267,"pole":"low","cluster":5,"mode":"professional development and training","happy_windows":0,"windows":5,"scene":"professional development context"}
+{"neuron":8298,"pole":"high","cluster":0,"mode":"numerical data and statistics","happy_windows":0,"windows":5,"scene":"statistical reporting"}
+{"neuron":8298,"pole":"high","cluster":1,"mode":"positive outcomes and assistance","happy_windows":0,"windows":5,"scene":"positive outcomes and help"}
+{"neuron":8298,"pole":"high","cluster":2,"mode":"comparative results and efficacy","happy_windows":0,"windows":5,"scene":"scientific and medical comparison"}
+{"neuron":8298,"pole":"high","cluster":3,"mode":"children's activities and nature","happy_windows":2,"windows":5,"scene":"children enjoying nature"}
+{"neuron":8298,"pole":"high","cluster":4,"mode":"cultural attire and historical references","happy_windows":0,"windows":5,"scene":"cultural and historical references"}
+{"neuron":8298,"pole":"low","cluster":0,"mode":"children's positive experiences and discoveries","happy_windows":2,"windows":5,"scene":"children's positive experiences"}
+{"neuron":8298,"pole":"low","cluster":1,"mode":"children's positive interactions and gratitude","happy_windows":2,"windows":5,"scene":"children's positive interactions"}
+{"neuron":9870,"pole":"high","cluster":0,"mode":"recipe ingredients and instructions","happy_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":9870,"pole":"high","cluster":1,"mode":"programming code and file operations","happy_windows":0,"windows":5,"scene":"programming and technical context"}
+{"neuron":9870,"pole":"high","cluster":2,"mode":"children's dialogue and simple requests","happy_windows":2,"windows":5,"scene":"children interacting positively"}
+{"neuron":9870,"pole":"high","cluster":3,"mode":"children's emotional responses and actions","happy_windows":1,"windows":5,"scene":"children's emotional experiences"}
+{"neuron":9870,"pole":"high","cluster":4,"mode":"children's positive interactions and compliments","happy_windows":2,"windows":5,"scene":"children's positive interactions"}
+{"neuron":9870,"pole":"high","cluster":5,"mode":"children's positive anticipation and sharing","happy_windows":2,"windows":5,"scene":"children's positive anticipation"}
+{"neuron":9870,"pole":"high","cluster":6,"mode":"children's names and actions","happy_windows":1,"windows":6,"scene":"children's activities"}
+{"neuron":9870,"pole":"low","cluster":0,"mode":"historical place names and family lineage","happy_windows":0,"windows":5,"scene":"historical and genealogical context"}
+{"neuron":9870,"pole":"low","cluster":1,"mode":"children's positive social interactions and fun","happy_windows":3,"windows":5,"scene":"children having fun together"}
+{"neuron":9870,"pole":"low","cluster":2,"mode":"recipe ingredients and preparation","happy_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":10476,"pole":"high","cluster":0,"mode":"children's positive experiences and celebrations","happy_windows":3,"windows":5,"scene":"children's happy experiences"}
+{"neuron":10476,"pole":"high","cluster":1,"mode":"programming code and user input","happy_windows":0,"windows":5,"scene":"programming and technical context"}
+{"neuron":10476,"pole":"high","cluster":2,"mode":"children's dialogue and simple actions","happy_windows":2,"windows":5,"scene":"children interacting"}
+{"neuron":10476,"pole":"low","cluster":0,"mode":"geographical and political entities","happy_windows":0,"windows":5,"scene":"geopolitical context"}
+{"neuron":10476,"pole":"low","cluster":1,"mode":"children's positive emotions and interactions","happy_windows":2,"windows":5,"scene":"children's positive interactions"}
+{"neuron":11096,"pole":"high","cluster":0,"mode":"children's actions and feelings","happy_windows":2,"windows":5,"scene":"children's experiences"}
+{"neuron":11096,"pole":"high","cluster":1,"mode":"children's positive states and actions","happy_windows":3,"windows":5,"scene":"children's positive states"}
+{"neuron":11096,"pole":"low","cluster":0,"mode":"general statements about responsibility and systems","happy_windows":0,"windows":5,"scene":"general discussion"}
+{"neuron":11096,"pole":"low","cluster":1,"mode":"historical context and motivations","happy_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":11096,"pole":"low","cluster":2,"mode":"place names and historical figures","happy_windows":0,"windows":5,"scene":"historical and geographical context"}
+{"neuron":11096,"pole":"low","cluster":3,"mode":"children's activities and enjoyment","happy_windows":2,"windows":5,"scene":"children having fun"}
+{"neuron":11096,"pole":"low","cluster":4,"mode":"childhood activities and positive emotions","happy_windows":3,"windows":5,"scene":"children playing and having fun"}
+{"neuron":11142,"pole":"high","cluster":0,"mode":"children's positive actions and feelings","happy_windows":3,"windows":5,"scene":"children's positive experiences"}
+{"neuron":11142,"pole":"high","cluster":1,"mode":"story beginnings and introductions","happy_windows":0,"windows":5,"scene":"story introductions"}
+{"neuron":11142,"pole":"low","cluster":0,"mode":"children's experiences and emotions","happy_windows":1,"windows":5,"scene":"children's experiences"}
+{"neuron":11142,"pole":"low","cluster":1,"mode":"technical code and programming elements","happy_windows":0,"windows":5,"scene":"programming and technical context"}
+{"neuron":11519,"pole":"high","cluster":0,"mode":"children's positive experiences and actions","happy_windows":2,"windows":5,"scene":"children's positive experiences"}
+{"neuron":11519,"pole":"high","cluster":1,"mode":"religious texts and laws","happy_windows":0,"windows":5,"scene":"religious and legal texts"}
+{"neuron":11519,"pole":"low","cluster":0,"mode":"children's positive experiences and enjoyment","happy_windows":3,"windows":5,"scene":"children having fun"}
+{"neuron":11519,"pole":"low","cluster":1,"mode":"biological and environmental descriptions","happy_windows":0,"windows":5,"scene":"biological and environmental context"}
+{"neuron":11700,"pole":"high","cluster":0,"mode":"medical and technical information","happy_windows":0,"windows":5,"scene":"medical and technical context"}
+{"neuron":11700,"pole":"high","cluster":1,"mode":"programming code and functions","happy_windows":0,"windows":5,"scene":"programming and technical context"}
+{"neuron":11700,"pole":"high","cluster":2,"mode":"children's stories and simple endings","happy_windows":2,"windows":5,"scene":"children's stories"}
+{"neuron":11700,"pole":"high","cluster":3,"mode":"children's stories and simple actions","happy_windows":2,"windows":5,"scene":"children's stories"}
+{"neuron":11700,"pole":"high","cluster":4,"mode":"children's stories and character introductions","happy_windows":2,"windows":5,"scene":"children's stories"}
+{"neuron":11700,"pole":"high","cluster":5,"mode":"organizations and scientific support","happy_windows":0,"windows":5,"scene":"organizational and scientific context"}
+{"neuron":11700,"pole":"high","cluster":6,"mode":"children's interactions and moral lessons","happy_windows":2,"windows":5,"scene":"children's interactions"}
+{"neuron":11700,"pole":"high","cluster":7,"mode":"children's activities and choices","happy_windows":2,"windows":5,"scene":"children's activities"}
+{"neuron":11700,"pole":"low","cluster":0,"mode":"children's stories and simple endings","happy_windows":1,"windows":5,"scene":"children's stories"}
+{"neuron":11700,"pole":"low","cluster":1,"mode":"recipe ingredients and instructions","happy_windows":0,"windows":5,"scene":"cooking and recipes"}
+{"neuron":11700,"pole":"low","cluster":2,"mode":"children's stories and simple descriptions","happy_windows":1,"windows":5,"scene":"children's stories"}
+{"neuron":11700,"pole":"low","cluster":3,"mode":"children's actions and exploration","happy_windows":2,"windows":5,"scene":"children's exploration"}
+{"neuron":11700,"pole":"low","cluster":4,"mode":"historical and fictional narratives","happy_windows":0,"windows":5,"scene":"narrative context"}

@@ -1,21 +1,20 @@
 [project]
 name = "emotion-neurons"
 version = "0.1.0"
-description = "Emotion vectors and the MLP neurons that read or write them, in Qwen3-8B"
+description = "Emotion vectors in Qwen3-8B, and the poles of its layer-25 MLP neurons"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "accelerate>=1.0",
-    "circuitsvis>=1.43",
     "datasets>=2.14",
     "einops>=0.7",
     "jaxtyping>=0.2.25",
-    "numpy>=2.0",
     "pydantic>=2.7",
     "pydantic-settings>=2.7",
     "pyyaml>=6",
     "safetensors>=0.4",
     "scikit-learn>=1.3",
+    "tiktoken>=0.5",
     "torch>=2.4",
     "tqdm>=4.66",
     "transformers>=4.51",
@@ -26,9 +25,8 @@ dependencies = [
 # - Any floor above those forces uv to reinstall them; for torch that swaps the +cu build for a generic wheel.
 # - Raise a floor only for an API this code actually needs.
 #   - transformers >=4.51: first release with Qwen3.
-#   - circuitsvis >=1.43: no numpy pin on python 3.13.
 # - Colab 2026-11-18: python 3.13, torch 2.14.1+cu130, numpy 2.4.6, transformers 5.22.1.
-#   Only pydantic-settings and circuitsvis are missing there.
+#   Only pydantic-settings is missing there.
 
 [build-system]
 requires = ["uv_build>=0.8.13,<0.20.0"]
@@ -47,3 +45,6 @@ ignore = ["E501", "F722", "F821"]
 
 [dependency-groups]
 dev = ["pytest>=8"]
+viz = [
+    "circuitsvis>=1.43.3",
+]

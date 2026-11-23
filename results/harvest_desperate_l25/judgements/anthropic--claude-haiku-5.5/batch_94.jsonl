@@ -1,0 +1,56 @@
+{"neuron":6340,"pole":"high","cluster":0,"mode":"Narrative word after a clause in children's story, marking character action","scene_windows":0,"windows":5,"scene":"Children's story with ordinary kind-hearted actions"}
+{"neuron":6340,"pole":"high","cluster":1,"mode":"Sentence-ending period after descriptive or action clauses","scene_windows":1,"windows":5,"scene":"Mixed narratives; one father dying in a frantic curse scene"}
+{"neuron":6340,"pole":"low","cluster":0,"mode":"Verb following 'to' or 'and' describing sharing or showing in children's stories","scene_windows":0,"windows":5,"scene":"Children sharing, showing, and playing together"}
+{"neuron":6340,"pole":"low","cluster":1,"mode":"Content nouns and punctuation in news and expository prose","scene_windows":0,"windows":5,"scene":"News items, press releases, and informational articles"}
+{"neuron":6340,"pole":"low","cluster":2,"mode":"Complementizers and pronouns after perception or knowledge verbs in fiction","scene_windows":1,"windows":5,"scene":"Tense dialogue and reflective literary narration"}
+{"neuron":6340,"pole":"low","cluster":3,"mode":"Period ending short emotional sentences in fiction","scene_windows":0,"windows":5,"scene":"Family and dramatic everyday narration"}
+{"neuron":6340,"pole":"low","cluster":4,"mode":"Period after 'Once upon a time… named X' opening sentence","scene_windows":0,"windows":5,"scene":"Simple children's story openings"}
+{"neuron":2083,"pole":"high","cluster":0,"mode":"Blank-indent whitespace token before an opening quotation mark","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction, calm exchanges"}
+{"neuron":2083,"pole":"high","cluster":1,"mode":"First-person pronoun starting a declarative statement","scene_windows":0,"windows":5,"scene":"Personal declarations and determined speech"}
+{"neuron":2083,"pole":"high","cluster":2,"mode":"Concrete household or object noun ending a phrase","scene_windows":0,"windows":5,"scene":"Simple children's stories and gentle scenes"}
+{"neuron":2083,"pole":"high","cluster":3,"mode":"Word-piece fragments splitting a word mid-token","scene_windows":0,"windows":5,"scene":"Mixed encyclopedic and narrative text"}
+{"neuron":2083,"pole":"low","cluster":0,"mode":"Numbers and name fragments in historical encyclopedia text","scene_windows":0,"windows":5,"scene":"Historical and biographical reference articles"}
+{"neuron":2083,"pole":"low","cluster":1,"mode":"Partial word-starts for sensory descriptive verbs and adjectives","scene_windows":1,"windows":5,"scene":"Descriptive fiction, one tense last swig scene"}
+{"neuron":2083,"pole":"low","cluster":2,"mode":"Words ending tense or emotional narrative clauses","scene_windows":2,"windows":5,"scene":"Tense dialogue, crisis and isolation moments"}
+{"neuron":2083,"pole":"low","cluster":3,"mode":"'Suddenly' starting a sudden-event sentence in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with sudden discoveries"}
+{"neuron":9950,"pole":"high","cluster":0,"mode":"Determiners and quantifiers in scholarly religious-text prose","scene_windows":0,"windows":5,"scene":"Scholarly analysis of religious texts"}
+{"neuron":9950,"pole":"high","cluster":1,"mode":"Pronoun 'I/he/she' inside 'everything/what I could find' relative clauses","scene_windows":2,"windows":5,"scene":"Desperate survival efforts and searching for options"}
+{"neuron":9950,"pole":"high","cluster":2,"mode":"Possessive pronoun after a verb of effort or power","scene_windows":1,"windows":5,"scene":"Dramatic speeches about power, crimes, and struggle"}
+{"neuron":9950,"pole":"high","cluster":3,"mode":"Opening quotation mark after 'said,' in children's dialogue","scene_windows":0,"windows":5,"scene":"Children's dialogue with moral lessons"}
+{"neuron":9950,"pole":"low","cluster":0,"mode":"Mid-word or name fragments in technical and reference text","scene_windows":0,"windows":5,"scene":"Citations, technical references, and glossary entries"}
+{"neuron":9950,"pole":"low","cluster":1,"mode":"Verb or pronoun in introspective first-person narration","scene_windows":1,"windows":5,"scene":"Introspective narration, some despairing reflection"}
+{"neuron":9950,"pole":"low","cluster":2,"mode":"Generic plural nouns ending advice or trend-list items","scene_windows":0,"windows":5,"scene":"Listicle and business advice articles"}
+{"neuron":6675,"pole":"high","cluster":0,"mode":"Pronoun or conjunction after a happy resolution clause","scene_windows":0,"windows":5,"scene":"Children's story endings with happy resolutions"}
+{"neuron":6675,"pole":"high","cluster":1,"mode":"'on' or 'that' in 'From that day on' transitions","scene_windows":0,"windows":5,"scene":"Moral children's story closings"}
+{"neuron":6675,"pole":"low","cluster":0,"mode":"Sentence-ending period before a press-release tag","scene_windows":0,"windows":5,"scene":"University and research press releases"}
+{"neuron":6675,"pole":"low","cluster":1,"mode":"Female pronoun or 'mom' starting a child-story sentence","scene_windows":0,"windows":5,"scene":"Simple children's stories with a mother"}
+{"neuron":6675,"pole":"low","cluster":2,"mode":"Period or comma after a subject noun phrase in fiction","scene_windows":0,"windows":5,"scene":"Science fiction and literary narration"}
+{"neuron":6675,"pole":"low","cluster":3,"mode":"Article 'the' in software and device instructions","scene_windows":0,"windows":5,"scene":"Step-by-step software and device how-tos"}
+{"neuron":11097,"pole":"high","cluster":0,"mode":"Sound or sensation noun after 'heard' or 'Suddenly'","scene_windows":2,"windows":5,"scene":"Tense escapes and dreams with sudden noises"}
+{"neuron":11097,"pole":"high","cluster":1,"mode":"Word-start fragment of an forceful action verb","scene_windows":1,"windows":5,"scene":"Angry or frantic confrontations and violent scenes"}
+{"neuron":11097,"pole":"high","cluster":2,"mode":"Container or opening object noun in simple stories","scene_windows":0,"windows":5,"scene":"Children's stories with boxes, lids, and bins"}
+{"neuron":11097,"pole":"high","cluster":3,"mode":"Verb or body word describing violent bodily motion","scene_windows":1,"windows":5,"scene":"Nausea, shaking vessel, and creature attacks"}
+{"neuron":11097,"pole":"high","cluster":4,"mode":"Motion verb 'ran' or 'smashed' after a character acts","scene_windows":0,"windows":5,"scene":"Children running home and a frantic smashing"}
+{"neuron":11097,"pole":"low","cluster":0,"mode":"Action verb or adverb after a character's physical movement","scene_windows":0,"windows":5,"scene":"Action narration, sci-fi and fantasy scenes"}
+{"neuron":11097,"pole":"low","cluster":1,"mode":"Recipe ingredient or instruction word in cooking steps","scene_windows":0,"windows":5,"scene":"Cooking recipes and food preparation instructions"}
+{"neuron":3097,"pole":"high","cluster":0,"mode":"Comma after 'Once upon a time' story opener","scene_windows":0,"windows":5,"scene":"Children's story openings"}
+{"neuron":3097,"pole":"high","cluster":1,"mode":"Narrative subject pronoun or 'and' starting a child's action","scene_windows":0,"windows":5,"scene":"Children's adventures and everyday actions"}
+{"neuron":3097,"pole":"low","cluster":0,"mode":"'fun', 'time', or 'together' closing a playful happy clause","scene_windows":0,"windows":5,"scene":"Children's playful endings with friends"}
+{"neuron":3097,"pole":"low","cluster":1,"mode":"Colon, comma, or noun in recipe and list items","scene_windows":0,"windows":5,"scene":"Recipe and food listicles"}
+{"neuron":3097,"pole":"low","cluster":2,"mode":"'and' joining actions in children's story sentences","scene_windows":0,"windows":5,"scene":"Simple children's stories with shared actions"}
+{"neuron":3097,"pole":"low","cluster":3,"mode":"Action verb for a weapon, spell, or self-harm attempt","scene_windows":3,"windows":5,"scene":"Combat and a suicidal gun scene"}
+{"neuron":3097,"pole":"low","cluster":4,"mode":"Period ending a sentence in a frightened children's story","scene_windows":2,"windows":5,"scene":"Children fleeing a dragon or scary monster"}
+{"neuron":3097,"pole":"low","cluster":5,"mode":"Sentence-ending punctuation in tense action or chase narration","scene_windows":3,"windows":5,"scene":"Dragon battle, soldiers spotting, firefighter emergency"}
+{"neuron":3097,"pole":"low","cluster":6,"mode":"'happy' describing a child's joyful reaction","scene_windows":0,"windows":5,"scene":"Children's happy moments and gifts"}
+{"neuron":6547,"pole":"high","cluster":0,"mode":"Body or ground noun in dark, eerie narration","scene_windows":0,"windows":5,"scene":"Eerie, dark or unsettling narration"}
+{"neuron":6547,"pole":"high","cluster":1,"mode":"Code syntax or list token in programming and web text","scene_windows":0,"windows":5,"scene":"Code snippets and web page listings"}
+{"neuron":6547,"pole":"low","cluster":0,"mode":"'and' after a character's quick action in fiction","scene_windows":0,"windows":5,"scene":"Everyday fiction with characters moving briskly"}
+{"neuron":6547,"pole":"low","cluster":1,"mode":"Code or technical token in scripts and markup","scene_windows":0,"windows":5,"scene":"Code, Tk GUI scripts, and recipe fragments"}
+{"neuron":1303,"pole":"high","cluster":0,"mode":"Period ending a short children's story sentence","scene_windows":0,"windows":5,"scene":"Simple children's story sentences"}
+{"neuron":1303,"pole":"high","cluster":1,"mode":"Number or fragment inside factual reference text","scene_windows":0,"windows":5,"scene":"Factual reports and dated reference entries"}
+{"neuron":1303,"pole":"high","cluster":2,"mode":"Conjunction or possessive in marketing advice text","scene_windows":0,"windows":5,"scene":"Social media and marketing tips"}
+{"neuron":1303,"pole":"high","cluster":3,"mode":"Possessive 'his/her' starting a child-story sentence","scene_windows":0,"windows":5,"scene":"Children's stories about family gifts and pets"}
+{"neuron":1303,"pole":"high","cluster":4,"mode":"Body-part noun after 'his' or 'my'","scene_windows":0,"windows":5,"scene":"Dark fiction and western narration"}
+{"neuron":1303,"pole":"high","cluster":5,"mode":"'mom' as the addressee of a child's action","scene_windows":0,"windows":5,"scene":"Children showing or asking mom"}
+{"neuron":1303,"pole":"low","cluster":0,"mode":"Spatial or place noun ending a prepositional phrase","scene_windows":0,"windows":5,"scene":"Children playing outdoors in parks and forests"}
+{"neuron":1303,"pole":"low","cluster":1,"mode":"Determiner 'the' before a location noun","scene_windows":0,"windows":5,"scene":"Narrative descriptions of places and settings"}

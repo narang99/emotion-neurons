@@ -1,0 +1,38 @@
+{"neuron":5095,"pole":"high","cluster":0,"mode":"Mid-sentence tokens in neutral expository or encyclopedic text","scene_windows":0,"windows":5,"scene":"Neutral informational text on sports, culture, astronomy"}
+{"neuron":5095,"pole":"high","cluster":1,"mode":"Conjunction 'and' linking narrative action verbs in fiction","scene_windows":0,"windows":5,"scene":"First-person or third-person fiction narration"}
+{"neuron":5095,"pole":"low","cluster":0,"mode":"Copula or auxiliary verbs in expository sentences","scene_windows":0,"windows":5,"scene":"Neutral expository text on technology, culture, science"}
+{"neuron":5095,"pole":"low","cluster":1,"mode":"Sentence-final punctuation ending informational or chat statements","scene_windows":0,"windows":5,"scene":"Informational prose and simple chat exchanges"}
+{"neuron":9975,"pole":"high","cluster":0,"mode":"Mid-sentence words in neutral prose, pronouns and modifiers","scene_windows":0,"windows":5,"scene":"Neutral news, medical, and narrative prose"}
+{"neuron":9975,"pole":"high","cluster":1,"mode":"Colon after 'user' label in multi-turn chat","scene_windows":0,"windows":5,"scene":"Benign chat requests for tips or information"}
+{"neuron":9975,"pole":"low","cluster":0,"mode":"Intensifiers and modifiers mid-clause in neutral text","scene_windows":0,"windows":5,"scene":"Neutral descriptive and instructional text"}
+{"neuron":9975,"pole":"low","cluster":1,"mode":"Apostrophe in contractions within dialogue and narration","scene_windows":0,"windows":5,"scene":"Fiction dialogue and narration"}
+{"neuron":9787,"pole":"high","cluster":0,"mode":"Prepositions and determiners in encyclopedic cultural descriptions","scene_windows":0,"windows":5,"scene":"Neutral encyclopedic text on culture and history"}
+{"neuron":9787,"pole":"high","cluster":1,"mode":"Assistant or Human role colon starting a reply","scene_windows":0,"windows":5,"scene":"Benign question-answer dialogues"}
+{"neuron":9787,"pole":"low","cluster":0,"mode":"Function words inside advice or explanatory sentences","scene_windows":0,"windows":5,"scene":"Advice and explanatory prose on everyday topics"}
+{"neuron":9787,"pole":"low","cluster":1,"mode":"Conjunction 'and' or 'but' in descriptive narration or chat","scene_windows":0,"windows":5,"scene":"Descriptive fiction and friendly chat"}
+{"neuron":6874,"pole":"high","cluster":0,"mode":"Sentence-initial or clause-joining pronouns and punctuation in narrative","scene_windows":0,"windows":5,"scene":"Narrative fiction and descriptive storytelling"}
+{"neuron":6874,"pole":"high","cluster":1,"mode":"Sentence-final periods in expository health or how-to text","scene_windows":0,"windows":5,"scene":"Neutral health, history, and how-to prose"}
+{"neuron":6874,"pole":"low","cluster":0,"mode":"Prepositions and determiners in technical or business prose","scene_windows":0,"windows":5,"scene":"Neutral technical and marketing text"}
+{"neuron":6874,"pole":"low","cluster":1,"mode":"Assistant role colon opening a reply to a question","scene_windows":0,"windows":5,"scene":"Benign health and cooking Q&A dialogues"}
+{"neuron":5561,"pole":"high","cluster":0,"mode":"Determiners and prepositions mid-phrase in formal descriptive text","scene_windows":0,"windows":5,"scene":"Formal academic, institutional, and narrative text"}
+{"neuron":5561,"pole":"high","cluster":1,"mode":"Negation 'not' or n't before a verb of inability","scene_windows":0,"windows":5,"scene":"Emotional or dramatic narration about failure"}
+{"neuron":5561,"pole":"low","cluster":0,"mode":"Verb 'reduces' or 'reducing' describing effects in technical text","scene_windows":0,"windows":5,"scene":"Technical and how-to text on efficiency and effects"}
+{"neuron":5561,"pole":"low","cluster":1,"mode":"Conjunction 'but' joining clauses in narration","scene_windows":0,"windows":5,"scene":"Adventure and fantasy narration"}
+{"neuron":5561,"pole":"low","cluster":2,"mode":"Sentence-final period closing an expository statement","scene_windows":0,"windows":5,"scene":"Expository encyclopedic statements"}
+{"neuron":5561,"pole":"low","cluster":3,"mode":"Physical reaction verbs or adjectives in character description","scene_windows":0,"windows":5,"scene":"Fiction depicting bodily reactions and tension"}
+{"neuron":5561,"pole":"low","cluster":4,"mode":"Copula verbs after a subject noun in factual statements","scene_windows":0,"windows":5,"scene":"Historical and scientific factual text"}
+{"neuron":5561,"pole":"low","cluster":5,"mode":"Nouns or adjectives ending a descriptive phrase","scene_windows":0,"windows":5,"scene":"Biographical and business descriptive text"}
+{"neuron":5561,"pole":"low","cluster":6,"mode":"Sentence-final punctuation after dramatic or horrific statements","scene_windows":0,"windows":5,"scene":"Dramatic fiction with violent or horror imagery"}
+{"neuron":7213,"pole":"high","cluster":0,"mode":"Function words and commas mid-sentence in technical or narrative prose","scene_windows":0,"windows":5,"scene":"Technical process and narrative text"}
+{"neuron":7213,"pole":"high","cluster":1,"mode":"List or quantity tokens in recipe and ingredient lists","scene_windows":0,"windows":5,"scene":"Cooking recipes and ingredient lists"}
+{"neuron":7213,"pole":"low","cluster":0,"mode":"Function words and sentence starts in technical or narrative text","scene_windows":0,"windows":5,"scene":"Technical, news, and narrative prose"}
+{"neuron":7213,"pole":"low","cluster":1,"mode":"Speaker labels user or Human starting a turn","scene_windows":0,"windows":5,"scene":"Benign multi-turn chat about travel and school"}
+{"neuron":3005,"pole":"high","cluster":0,"mode":"Sentence-initial subjects or periods in encyclopedic text","scene_windows":0,"windows":5,"scene":"Encyclopedic text on history, places, and society"}
+{"neuron":3005,"pole":"high","cluster":1,"mode":"Sentence-initial 'There' introducing a factual statement","scene_windows":0,"windows":5,"scene":"Factual answers and informational text"}
+{"neuron":3005,"pole":"low","cluster":0,"mode":"Sentence-final period or 'and' in advice and general guidance","scene_windows":0,"windows":5,"scene":"General advice on health, careers, and cooking"}
+{"neuron":3005,"pole":"low","cluster":1,"mode":"Assistant role colon opening a reply to a question","scene_windows":0,"windows":5,"scene":"Benign question-answer dialogues on varied topics"}
+{"neuron":7883,"pole":"high","cluster":0,"mode":"Prepositions and commas inside formal explanatory sentences","scene_windows":0,"windows":5,"scene":"Formal explanatory and planning text"}
+{"neuron":7883,"pole":"high","cluster":1,"mode":"Sentence-final period or space ending health or relationship advice","scene_windows":0,"windows":5,"scene":"Health and relationship advice responses"}
+{"neuron":7883,"pole":"low","cluster":0,"mode":"'Here are' or 'a few' introducing a list of tips","scene_windows":0,"windows":5,"scene":"Assistant replies offering lists of tips"}
+{"neuron":7883,"pole":"low","cluster":1,"mode":"Sentence-final period or comma in informational explanations","scene_windows":0,"windows":5,"scene":"Informational explanations on technology and weather"}
+{"neuron":7883,"pole":"low","cluster":2,"mode":"Assistant or Human colon opening a reply","scene_windows":0,"windows":5,"scene":"Benign Q&A on rings, furniture, and insomnia"}

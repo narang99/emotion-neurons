@@ -1,0 +1,58 @@
+{"neuron":2336,"pole":"high","cluster":0,"mode":"questioned, that, troubling, things, ,","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2336,"pole":"high","cluster":1,"mode":"Once upon a time, there was a little girl/boy","happy_windows":5,"windows":5,"scene":"children's story opening"}
+{"neuron":2336,"pole":"low","cluster":0,"mode":"Once upon a time, there was a girl/boy named","happy_windows":0,"windows":5,"scene":"children's story opening"}
+{"neuron":2336,"pole":"low","cluster":1,"mode":"happy, were, are, was, was","happy_windows":3,"windows":5,"scene":"children's story, mild distress"}
+{"neuron":2336,"pole":"low","cluster":2,"mode":"!, ,, !, ., .","happy_windows":0,"windows":5,"scene":"children's story, mild distress"}
+{"neuron":2336,"pole":"low","cluster":3,"mode":"is, 're, was, is, ’re","happy_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2336,"pole":"low","cluster":4,"mode":"which, the, warfare, which, changes","happy_windows":0,"windows":5,"scene":"historical/technical description"}
+{"neuron":2336,"pole":"low","cluster":5,"mode":", , ., , ,","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":2336,"pole":"low","cluster":6,"mode":"mom, mom, mom, mom, mom","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":2336,"pole":"low","cluster":7,"mode":"toy, toys, friend, warm, car","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":2451,"pole":"high","cluster":0,"mode":"occasionally, loss, which, ,, go","happy_windows":0,"windows":5,"scene":"technical/instructional text"}
+{"neuron":2451,"pole":"high","cluster":1,"mode":"But, I, ., ,, we","happy_windows":0,"windows":5,"scene":"dialogue, conflict"}
+{"neuron":2451,"pole":"high","cluster":2,"mode":"GL, Journal, No., :, 9","happy_windows":0,"windows":5,"scene":"technical/citation"}
+{"neuron":2451,"pole":"high","cluster":3,"mode":"ids, surface, reactions, feet, eyes","happy_windows":0,"windows":5,"scene":"nature description"}
+{"neuron":2451,"pole":"high","cluster":4,"mode":", ,, ,, , ,","happy_windows":5,"windows":5,"scene":"nature description, joyful"}
+{"neuron":2451,"pole":"high","cluster":5,"mode":"., gained, dreams, of, ,","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2451,"pole":"high","cluster":6,"mode":"., ., ., ., .","happy_windows":0,"windows":5,"scene":"children's story opening"}
+{"neuron":2451,"pole":"low","cluster":0,"mode":"world, beach, growth, worlds, world","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2451,"pole":"low","cluster":1,"mode":"smiled, smiled, smiled, house, up","happy_windows":3,"windows":5,"scene":"children's story, happy"}
+{"neuron":7738,"pole":"high","cluster":0,"mode":"that, with, can, improve, rising","happy_windows":0,"windows":5,"scene":"policy/social commentary"}
+{"neuron":7738,"pole":"high","cluster":1,"mode":"and, of, , like, and","happy_windows":0,"windows":5,"scene":"recipe/instructional"}
+{"neuron":7738,"pole":"high","cluster":2,"mode":"They, Sam, He, and, They","happy_windows":5,"windows":5,"scene":"children's story, happy"}
+{"neuron":7738,"pole":"high","cluster":3,"mode":"., ., ., ., .","happy_windows":0,"windows":5,"scene":"instructional/advice"}
+{"neuron":7738,"pole":"low","cluster":0,"mode":"and, and, and, and, the","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":7738,"pole":"low","cluster":1,"mode":".  , .  , .  , .  , .  ","happy_windows":0,"windows":5,"scene":"technical/instructional"}
+{"neuron":2821,"pole":"high","cluster":0,"mode":"town, it, Tim, He, and","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":2821,"pole":"high","cluster":1,"mode":"file, files, validate, set, window","happy_windows":0,"windows":5,"scene":"technical/instructional"}
+{"neuron":2821,"pole":"low","cluster":0,"mode":". 7, ., ., ,, .","happy_windows":0,"windows":5,"scene":"recipe/instructional"}
+{"neuron":2821,"pole":"low","cluster":1,"mode":"was, still, is, She, to","happy_windows":0,"windows":5,"scene":"children's story, mild distress"}
+{"neuron":2821,"pole":"low","cluster":2,"mode":"is, If, with, those, have","happy_windows":0,"windows":5,"scene":"technical/medical"}
+{"neuron":8566,"pole":"high","cluster":0,"mode":", she, He, but, had","happy_windows":3,"windows":5,"scene":"children's story, happy"}
+{"neuron":8566,"pole":"high","cluster":1,"mode":"The, The, The, The, The","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":8566,"pole":"low","cluster":0,"mode":"time, fun, smile, together, ball","happy_windows":3,"windows":5,"scene":"children's story, happy"}
+{"neuron":8566,"pole":"low","cluster":1,"mode":"childhood stories about animals and their interactions","happy_windows":0,"windows":5,"scene":"children's story narration"}
+{"neuron":8219,"pole":"high","cluster":0,"mode":"was, was, was, was, was","happy_windows":0,"windows":5,"scene":"children's story opening"}
+{"neuron":8219,"pole":"high","cluster":1,"mode":"She, She, She, She, She","happy_windows":5,"windows":5,"scene":"children's story opening"}
+{"neuron":8219,"pole":"high","cluster":2,"mode":". . . . .","happy_windows":0,"windows":5,"scene":"technical/web"}
+{"neuron":8219,"pole":"high","cluster":3,"mode":", , , , ,","happy_windows":0,"windows":5,"scene":"children's story opening"}
+{"neuron":8219,"pole":"high","cluster":4,"mode":". . . . .","happy_windows":0,"windows":5,"scene":"technical/science"}
+{"neuron":8219,"pole":"high","cluster":5,"mode":"peppers, nutrition, ones, beans, techniques","happy_windows":0,"windows":5,"scene":"food/recipe"}
+{"neuron":8219,"pole":"high","cluster":6,"mode":". . . . .","happy_windows":0,"windows":5,"scene":"children's story opening"}
+{"neuron":8219,"pole":"low","cluster":0,"mode":"creating, with, create, a, in","happy_windows":0,"windows":5,"scene":"recipe/instructional"}
+{"neuron":8219,"pole":"low","cluster":1,"mode":"  ,  ,  ,   ,   ","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":8219,"pole":"low","cluster":2,"mode":"again, environment, patients, park, patterns","happy_windows":0,"windows":5,"scene":"technical/science"}
+{"neuron":9935,"pole":"high","cluster":0,"mode":"She, my, didn't, was, don't","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":9935,"pole":"high","cluster":1,"mode":"also, to, on, to, )","happy_windows":0,"windows":5,"scene":"marketing/business"}
+{"neuron":9935,"pole":"low","cluster":0,"mode":"and, he, she, He, He","happy_windows":0,"windows":5,"scene":"children's story, mild distress"}
+{"neuron":9935,"pole":"low","cluster":1,"mode":"error, output, or, , the","happy_windows":0,"windows":5,"scene":"technical/code"}
+{"neuron":1821,"pole":"high","cluster":0,"mode":"not, not, not, not, not","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":1821,"pole":"high","cluster":1,"mode":"Timmy, \"Why, \"Let's, \"Doesn't, \"Let's","happy_windows":5,"windows":5,"scene":"children's story, happy"}
+{"neuron":1821,"pole":"high","cluster":2,"mode":"page, ornament, connection, .xml, user","happy_windows":0,"windows":5,"scene":"technical/instructional"}
+{"neuron":1821,"pole":"high","cluster":3,"mode":". The, today., ., ., .","happy_windows":0,"windows":5,"scene":"social commentary"}
+{"neuron":1821,"pole":"high","cluster":4,"mode":"but, But, but, but, but","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":1821,"pole":"high","cluster":5,"mode":".  , .  , .  ,   ,  ","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":1821,"pole":"low","cluster":0,"mode":"I, I, I, I, I","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":1821,"pole":"low","cluster":1,"mode":"so, so, so, so, so","happy_windows":5,"windows":5,"scene":"children's story, happy"}
+{"neuron":1821,"pole":"low","cluster":2,"mode":"He, She, He, She, she","happy_windows":0,"windows":5,"scene":"children's story, neutral"}
+{"neuron":1821,"pole":"low","cluster":3,"mode":"me, afraid, time, worse, failed","happy_windows":0,"windows":5,"scene":"neutral narration"}

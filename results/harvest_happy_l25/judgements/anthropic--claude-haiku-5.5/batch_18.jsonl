@@ -1,0 +1,49 @@
+{"neuron":5711,"pole":"high","cluster":0,"mode":"Narrative sentence endings and conjunctions after moral or social reflections","happy_windows":0,"windows":5,"scene":"Mixed everyday stories about relationships and minor conflicts"}
+{"neuron":5711,"pole":"high","cluster":1,"mode":"Technical terms and phrasing in industrial or medical process descriptions","happy_windows":0,"windows":5,"scene":"Technical, industrial, and medical process descriptions"}
+{"neuron":5711,"pole":"low","cluster":0,"mode":"Contrastive conjunctions like but/and after a character's feelings or intentions","happy_windows":0,"windows":5,"scene":"Children's stories with reluctance, sadness, or conflict"}
+{"neuron":5711,"pole":"low","cluster":1,"mode":"Discourse words and adjectives in advice or critical commentary","happy_windows":0,"windows":5,"scene":"Tips, frustrations, and classroom or relationship advice"}
+{"neuron":5711,"pole":"low","cluster":2,"mode":"Critical adjectives and punctuation in descriptions of the Wise Use movement","happy_windows":0,"windows":5,"scene":"Critical policy and environmental movement analysis"}
+{"neuron":8071,"pole":"high","cluster":0,"mode":"Prepositions and punctuation in medical procedure descriptions","happy_windows":0,"windows":5,"scene":"Eye surgery and bladder stent medical explanations"}
+{"neuron":8071,"pole":"high","cluster":1,"mode":"Ingredient and step tokens in recipes and instructions","happy_windows":0,"windows":5,"scene":"Cooking and home instruction recipes"}
+{"neuron":8071,"pole":"high","cluster":2,"mode":"Code and markup tokens inside snippets","happy_windows":0,"windows":5,"scene":"Programming and CSS code snippets"}
+{"neuron":8071,"pole":"high","cluster":3,"mode":"Pronouns starting clauses after a sad or wrong-doing event","happy_windows":0,"windows":5,"scene":"Children's stories about sadness and regret"}
+{"neuron":8071,"pole":"high","cluster":4,"mode":"Quotation marks and periods in comforting dialogue between characters","happy_windows":1,"windows":5,"scene":"Comforting exchanges after crying or apology"}
+{"neuron":8071,"pole":"low","cluster":0,"mode":"Pronouns and conjunctions after a character's worry or distress","happy_windows":0,"windows":5,"scene":"Children's stories about fear, sadness, and mishaps"}
+{"neuron":8071,"pole":"low","cluster":1,"mode":"Numbered step punctuation in recipe or instruction lists","happy_windows":0,"windows":5,"scene":"Recipe steps and cooking instructions"}
+{"neuron":9572,"pole":"high","cluster":0,"mode":"Place names and connectives in historical or geographic facts","happy_windows":0,"windows":5,"scene":"Historical and geographic encyclopedia text"}
+{"neuron":9572,"pole":"high","cluster":1,"mode":"Ingredient lists and connectives in recipe and cooking text","happy_windows":0,"windows":5,"scene":"Recipes and cooking instructions"}
+{"neuron":9572,"pole":"high","cluster":2,"mode":"Connectives and pronouns after a character's pride, joy or care","happy_windows":5,"windows":5,"scene":"Children's stories of pride, celebration, and hugs"}
+{"neuron":9572,"pole":"high","cluster":3,"mode":"Connectives and quantities in product and cooking descriptions","happy_windows":0,"windows":5,"scene":"Product, cooking, and lifestyle descriptions"}
+{"neuron":9572,"pole":"low","cluster":0,"mode":"Conjunctions and pronouns after turns toward worry or sadness","happy_windows":0,"windows":5,"scene":"Stories of sadness, worry, and dark turns"}
+{"neuron":9572,"pole":"low","cluster":1,"mode":"Speech punctuation and names in parent-child dialogue","happy_windows":1,"windows":5,"scene":"Parents and children talking after mishaps"}
+{"neuron":11779,"pole":"high","cluster":0,"mode":"Directional particles after physical actions like picking up or walking","happy_windows":1,"windows":5,"scene":"Simple children's stories of kindness and outings"}
+{"neuron":11779,"pole":"high","cluster":1,"mode":"The verb 'came' introducing a new arrival or location","happy_windows":0,"windows":5,"scene":"Simple story narration of arrivals and exploring"}
+{"neuron":11779,"pole":"low","cluster":0,"mode":"Pronouns and conjunctions after excited discovery or joyful actions","happy_windows":4,"windows":5,"scene":"Children excitedly finding or playing with treats"}
+{"neuron":11779,"pole":"low","cluster":1,"mode":"Exclamation and period endings after excited or tense emotions","happy_windows":2,"windows":5,"scene":"Excited or tense moments in children's stories"}
+{"neuron":9737,"pole":"high","cluster":0,"mode":"The word 'little' introducing a child or small creature","happy_windows":2,"windows":5,"scene":"Children encountering animals or strangers"}
+{"neuron":9737,"pole":"high","cluster":1,"mode":"Comma after speech verbs introducing quoted dialogue","happy_windows":1,"windows":5,"scene":"Animal and child dialogue in simple stories"}
+{"neuron":9737,"pole":"high","cluster":2,"mode":"Question marks and exclamation marks closing quoted speech","happy_windows":2,"windows":5,"scene":"Playful children's dialogue outdoors"}
+{"neuron":9737,"pole":"high","cluster":3,"mode":"The word 'Let' starting suggestions in dialogue","happy_windows":4,"windows":5,"scene":"Family suggesting fun activities together"}
+{"neuron":9737,"pole":"high","cluster":4,"mode":"Sentence-ending periods followed by list numbering in guides","happy_windows":0,"windows":5,"scene":"Lists of food, social media, and coding tips"}
+{"neuron":9737,"pole":"high","cluster":5,"mode":"Punctuation and identifiers inside code snippets","happy_windows":0,"windows":5,"scene":"Code snippets in several programming languages"}
+{"neuron":9737,"pole":"low","cluster":0,"mode":"Punctuation inside citations and reference lists","happy_windows":0,"windows":5,"scene":"Bibliographic references and citations"}
+{"neuron":9737,"pole":"low","cluster":1,"mode":"Sentence-ending punctuation in academic exposition","happy_windows":0,"windows":5,"scene":"Academic writing on migration and biology"}
+{"neuron":9737,"pole":"low","cluster":2,"mode":"Conjunctions and clause starters in cautious science reasoning","happy_windows":0,"windows":5,"scene":"Science and technology analysis articles"}
+{"neuron":9737,"pole":"low","cluster":3,"mode":"Pronouns and names as story subjects after events","happy_windows":0,"windows":5,"scene":"Children's stories with pirates, villages, and lessons"}
+{"neuron":6248,"pole":"high","cluster":0,"mode":"The verb 'was' in 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"Story openings introducing a character"}
+{"neuron":6248,"pole":"high","cluster":1,"mode":"Sentence-ending periods and conjunctions in reflective essays","happy_windows":0,"windows":5,"scene":"Essays on ceremony, service, and social commentary"}
+{"neuron":6248,"pole":"high","cluster":2,"mode":"The word 'there' in 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"Story openings introducing characters"}
+{"neuron":6248,"pole":"low","cluster":0,"mode":"Nouns and pronouns in narrative mid-sentence positions","happy_windows":0,"windows":5,"scene":"Mixed narratives about mysteries and mishaps"}
+{"neuron":6248,"pole":"low","cluster":1,"mode":"Colons after 'assistant' in chat turns","happy_windows":0,"windows":5,"scene":"Assistant replies in chat about recipes and topics"}
+{"neuron":6248,"pole":"low","cluster":2,"mode":"The speaker label 'assistant' starting chat replies","happy_windows":0,"windows":5,"scene":"Assistant answers to travel and DIY questions"}
+{"neuron":1138,"pole":"high","cluster":0,"mode":"The word 'help' after relaxation or calming suggestions","happy_windows":0,"windows":5,"scene":"Lists of relaxing music and stress tips"}
+{"neuron":1138,"pole":"high","cluster":1,"mode":"Pronouns and conjunctions after characters feel happy or content","happy_windows":5,"windows":5,"scene":"Characters smiling, celebrating, and feeling happy"}
+{"neuron":1138,"pole":"high","cluster":2,"mode":"Ingredient and modifier tokens in recipe and food text","happy_windows":0,"windows":5,"scene":"Recipes and cooking tips"}
+{"neuron":1138,"pole":"high","cluster":3,"mode":"Words after mood shifts toward happiness or unwinding","happy_windows":2,"windows":5,"scene":"Characters' moods shifting, mostly reflective"}
+{"neuron":1138,"pole":"low","cluster":0,"mode":"The word 'happy' or 'joy' after a character's gladness","happy_windows":5,"windows":5,"scene":"Children playing, having fun, and feeling joyful"}
+{"neuron":1138,"pole":"low","cluster":1,"mode":"The intensifier 'so' before excited or happy feelings","happy_windows":5,"windows":5,"scene":"Children excited about gifts, balloons, and treats"}
+{"neuron":6098,"pole":"high","cluster":0,"mode":"The word 'there' in 'Once upon a time, there was'","happy_windows":0,"windows":5,"scene":"Story openings introducing a child or animal"}
+{"neuron":6098,"pole":"high","cluster":1,"mode":"Words after characters laughing, playing, or being happy","happy_windows":3,"windows":5,"scene":"Children playing outdoors and having fun"}
+{"neuron":6098,"pole":"high","cluster":2,"mode":"The word 'that' in 'From that day on' after resolutions","happy_windows":4,"windows":5,"scene":"Friendships and gratitude after kind acts"}
+{"neuron":6098,"pole":"low","cluster":0,"mode":"Words after characters feeling worried, sad, or alone","happy_windows":0,"windows":5,"scene":"Stories of worry, fear, and loneliness"}
+{"neuron":6098,"pole":"low","cluster":1,"mode":"Periods ending sentences about amazement or fear","happy_windows":1,"windows":5,"scene":"Children's reactions to surprises and bad dreams"}

@@ -1,0 +1,57 @@
+{"neuron":8686,"pole":"high","cluster":0,"mode":"Narrative 'and'/'to'/'said' tokens in cheerful child-story action sequences","scene_windows":0,"windows":5,"scene":"Happy children's stories, outings, play and fun"}
+{"neuron":8686,"pole":"high","cluster":1,"mode":"Character 'wanted/wants' desire verbs in children's story setups","scene_windows":0,"windows":5,"scene":"Children wanting something during simple story plots"}
+{"neuron":8686,"pole":"low","cluster":0,"mode":"Subject names and nouns starting sentences in happy children's narratives","scene_windows":0,"windows":5,"scene":"Calm, cheerful children's stories and gift-giving moments"}
+{"neuron":8686,"pole":"low","cluster":1,"mode":"Periods ending clauses about a failed attempt or wanting something","scene_windows":0,"windows":5,"scene":"Children's stories with mild setbacks and searching"}
+{"neuron":8686,"pole":"low","cluster":2,"mode":"'have to' obligation phrases in adult warnings to children","scene_windows":0,"windows":5,"scene":"Adults scolding or instructing children to be careful"}
+{"neuron":8686,"pole":"low","cluster":3,"mode":"'One day' subject pronouns starting story events","scene_windows":0,"windows":5,"scene":"Opening lines of simple children's fables"}
+{"neuron":8686,"pole":"low","cluster":4,"mode":"Character subjects after encounters with animals or threats","scene_windows":0,"windows":5,"scene":"Children meeting animals, mild fear or surprise"}
+{"neuron":8686,"pole":"low","cluster":5,"mode":"Spatial prepositions (into, in, on, around) after motion verbs","scene_windows":0,"windows":5,"scene":"Children and animals moving through outdoor settings"}
+{"neuron":8686,"pole":"low","cluster":6,"mode":"Conjunctions and commas after parental or dialogue remarks","scene_windows":0,"windows":5,"scene":"Parents or characters gently admonishing or explaining"}
+{"neuron":3438,"pole":"high","cluster":0,"mode":"Auxiliary verbs and prepositions mid-sentence in narrative fiction","scene_windows":0,"windows":5,"scene":"Mundane dialogue and character reflection in fiction"}
+{"neuron":3438,"pole":"high","cluster":1,"mode":"Sentence-initial 'One' starting 'One day/evening' story transitions","scene_windows":0,"windows":5,"scene":"Simple children's story openings"}
+{"neuron":3438,"pole":"low","cluster":0,"mode":"Mid-word fragments in technical, medical, and factual text","scene_windows":0,"windows":5,"scene":"Medical, geographic, and factual passages"}
+{"neuron":3438,"pole":"low","cluster":1,"mode":"Punctuation and conjunctions in dialogue exchanges","scene_windows":0,"windows":5,"scene":"Casual or tense dialogue between characters"}
+{"neuron":3438,"pole":"low","cluster":2,"mode":"Action verbs (grabbed, hurried, said) describing physical movement","scene_windows":0,"windows":5,"scene":"Fiction scenes of characters moving or reacting"}
+{"neuron":11925,"pole":"high","cluster":0,"mode":"Pronouns and punctuation in dialogue within eerie or tense fiction","scene_windows":0,"windows":5,"scene":"Unsettling or dialogue-driven fiction passages"}
+{"neuron":11925,"pole":"high","cluster":1,"mode":"Connectives and nouns in informational descriptions of products or topics","scene_windows":0,"windows":5,"scene":"Expository lists about food, guitars, and ingredients"}
+{"neuron":11925,"pole":"low","cluster":0,"mode":"Determiner 'the' after locational prepositions in simple stories","scene_windows":0,"windows":5,"scene":"Children going to parks, gardens, and forests"}
+{"neuron":11925,"pole":"low","cluster":1,"mode":"Verbs and nouns in dense narrative about action or status","scene_windows":0,"windows":5,"scene":"Fantasy and descriptive narrative passages"}
+{"neuron":11925,"pole":"low","cluster":2,"mode":"Imperative recipe steps: 'until', 'serve', 'let', 'sliced'","scene_windows":0,"windows":5,"scene":"Cooking recipe instructions"}
+{"neuron":220,"pole":"high","cluster":0,"mode":"Descriptive adjectives and object pronouns after linking verbs","scene_windows":0,"windows":5,"scene":"Simple children's stories describing things"}
+{"neuron":220,"pole":"high","cluster":1,"mode":"'the' after motion or location prepositions in stories","scene_windows":0,"windows":5,"scene":"Children going to places in simple stories"}
+{"neuron":220,"pole":"high","cluster":2,"mode":"Technical computing terms like instructions, addressing modes, registers","scene_windows":0,"windows":5,"scene":"Computer architecture technical explanations"}
+{"neuron":220,"pole":"high","cluster":3,"mode":"Numbering periods and 'and' in list items of food ideas","scene_windows":0,"windows":5,"scene":"Numbered recipe and dish idea lists"}
+{"neuron":220,"pole":"high","cluster":4,"mode":"Cooking and preparation verbs in step-by-step instructions","scene_windows":0,"windows":5,"scene":"Recipe and cooking how-to instructions"}
+{"neuron":220,"pole":"low","cluster":0,"mode":"Mid-sentence fragments and modifiers in encyclopedic facts","scene_windows":0,"windows":5,"scene":"Encyclopedic and medical factual text"}
+{"neuron":220,"pole":"low","cluster":1,"mode":"Nouns and forms in analytical or academic prose","scene_windows":0,"windows":5,"scene":"Academic and business analysis passages"}
+{"neuron":220,"pole":"low","cluster":2,"mode":"Contrastive 'but' and emotional clause endings in first-person narration","scene_windows":0,"windows":5,"scene":"Reflective or sorrowful first-person narration"}
+{"neuron":220,"pole":"low","cluster":3,"mode":"Sentence-final periods after narrative actions in simple stories","scene_windows":0,"windows":5,"scene":"Children's stories with simple action sentences"}
+{"neuron":1398,"pole":"high","cluster":0,"mode":"Mid-word or mid-phrase tokens in encyclopedic and code text","scene_windows":0,"windows":5,"scene":"History, religion, and code snippets"}
+{"neuron":1398,"pole":"high","cluster":1,"mode":"Clause-joining 'but/now/us' in reflective first-person narration","scene_windows":0,"windows":5,"scene":"Reflective or bleak first-person narration"}
+{"neuron":1398,"pole":"high","cluster":2,"mode":"Sentence-ending periods before a new action or dramatic line","scene_windows":0,"windows":5,"scene":"Short dramatic children's and dialogue scenes"}
+{"neuron":1398,"pole":"low","cluster":0,"mode":"Periods and conjunctions in recipe and list-style instructions","scene_windows":0,"windows":5,"scene":"Recipes, chat-style Q&A, and instructions"}
+{"neuron":1398,"pole":"low","cluster":1,"mode":"Verbs of taking or action after a subject in narrative","scene_windows":0,"windows":5,"scene":"Technical and fictional passages about actions"}
+{"neuron":1398,"pole":"low","cluster":2,"mode":"'was' and 'and' after subjects in simple narration","scene_windows":0,"windows":5,"scene":"Children's stories and tense fiction moments"}
+{"neuron":1398,"pole":"low","cluster":3,"mode":"Digits and mid-number tokens in factual or list text","scene_windows":0,"windows":5,"scene":"Citations, numbers, and factual references"}
+{"neuron":1398,"pole":"low","cluster":4,"mode":"Sentence-ending periods after discovery or noticing events","scene_windows":0,"windows":5,"scene":"Children discovering objects in simple stories"}
+{"neuron":1398,"pole":"low","cluster":5,"mode":"Subject nouns or pronouns after discovery in short stories","scene_windows":0,"windows":5,"scene":"Characters finding objects in children's stories"}
+{"neuron":1398,"pole":"low","cluster":6,"mode":"Object nouns after verbs of carrying or handling","scene_windows":0,"windows":5,"scene":"Children taking or moving everyday objects"}
+{"neuron":1398,"pole":"low","cluster":7,"mode":"'excited' after 'so' or 'was' describing emotional reaction","scene_windows":0,"windows":5,"scene":"Children feeling excited in simple stories"}
+{"neuron":10422,"pole":"high","cluster":0,"mode":"Sentence-initial 'They' or 'they' starting a story sentence","scene_windows":0,"windows":5,"scene":"Children's stories with groups doing activities"}
+{"neuron":10422,"pole":"high","cluster":1,"mode":"'and' and 'was' inside emotional or tense narrative clauses","scene_windows":0,"windows":5,"scene":"Emotional first-person and descriptive narration"}
+{"neuron":10422,"pole":"high","cluster":2,"mode":"Sentence-ending periods after failed attempts or unresolved situations","scene_windows":0,"windows":5,"scene":"Characters struggling with puzzles or devices"}
+{"neuron":10422,"pole":"high","cluster":3,"mode":"Marketing advice tokens around optimizing and testing strategies","scene_windows":0,"windows":5,"scene":"Social media and advertising tips lists"}
+{"neuron":10422,"pole":"high","cluster":4,"mode":"Opening quotation marks starting spoken dialogue","scene_windows":1,"windows":5,"scene":"Distressed characters speaking; comforting a crying child"}
+{"neuron":10422,"pole":"low","cluster":0,"mode":"Verbs and modifiers in medical and health information","scene_windows":0,"windows":5,"scene":"Health and medical information passages"}
+{"neuron":10422,"pole":"low","cluster":1,"mode":"Facial and eye reactions in tense first-person or dialogue prose","scene_windows":0,"windows":5,"scene":"Tense emotional scenes with characters reacting"}
+{"neuron":10422,"pole":"low","cluster":2,"mode":"Sentence-ending periods after distressed or confused first-person lines","scene_windows":0,"windows":5,"scene":"Confused or shaken narrator in dark fiction"}
+{"neuron":10422,"pole":"low","cluster":3,"mode":"Subject pronouns starting sentences after gifts or happy moments","scene_windows":0,"windows":5,"scene":"Children's stories about gifts and joy"}
+{"neuron":7702,"pole":"high","cluster":0,"mode":"Speech verbs and punctuation right after a character acts","scene_windows":1,"windows":5,"scene":"Characters reacting in tense or emotional story moments"}
+{"neuron":7702,"pole":"high","cluster":1,"mode":"'smiled and said' speech tags in children's dialogue","scene_windows":0,"windows":5,"scene":"Parents and children chatting in simple stories"}
+{"neuron":7702,"pole":"low","cluster":0,"mode":"Verbs and particles like move, away, phone in narrative actions","scene_windows":1,"windows":5,"scene":"Characters scared or tense, watching others move"}
+{"neuron":7702,"pole":"low","cluster":1,"mode":"'back' after motion verbs describing return movement","scene_windows":0,"windows":5,"scene":"Characters returning home or running back"}
+{"neuron":1373,"pole":"high","cluster":0,"mode":"Pronouns and verbs at key moments of dramatic revelation","scene_windows":1,"windows":5,"scene":"Captive or threatened characters in dramatic narration"}
+{"neuron":1373,"pole":"high","cluster":1,"mode":"Code and technical-text tokens in scripts and file handling","scene_windows":0,"windows":5,"scene":"Python file-handling code and technical writing"}
+{"neuron":1373,"pole":"low","cluster":0,"mode":"Periods and conjunctions in recipe-step instructions","scene_windows":0,"windows":5,"scene":"Cooking recipes and ingredient steps"}
+{"neuron":1373,"pole":"low","cluster":1,"mode":"Science and medical text: 'the', 'stem', 'live', 'phosphate' tokens","scene_windows":0,"windows":5,"scene":"Science and vaccine news articles"}
+{"neuron":1373,"pole":"low","cluster":2,"mode":"'the', 'and', 'to' in tense physical action narration","scene_windows":2,"windows":5,"scene":"Characters in frantic, nauseous or urgent moments"}

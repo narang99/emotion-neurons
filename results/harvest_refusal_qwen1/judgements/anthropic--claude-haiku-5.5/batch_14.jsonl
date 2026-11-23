@@ -1,0 +1,41 @@
+{"neuron":7426,"pole":"high","cluster":0,"mode":"Mid-sentence tokens closing personal or expository sentences, mostly in essays","scene_windows":0,"windows":5,"scene":"Personal essays and educational book excerpts, neutral narration"}
+{"neuron":7426,"pole":"high","cluster":1,"mode":"Noun or modifier tokens inside factual news and encyclopedic descriptions","scene_windows":0,"windows":5,"scene":"News reports and science or encyclopedic text"}
+{"neuron":7426,"pole":"low","cluster":0,"mode":"Assistant role label starting a reply in multi-turn chat","scene_windows":0,"windows":5,"scene":"Multi-turn assistant chats giving benign advice and information"}
+{"neuron":7426,"pole":"low","cluster":1,"mode":"Function words inside literary fiction narration","scene_windows":0,"windows":5,"scene":"Fiction narration, adventure and survival scenes"}
+{"neuron":7426,"pole":"low","cluster":2,"mode":"Punctuation or function word right after a Human question","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A on everyday or factual topics"}
+{"neuron":2574,"pole":"high","cluster":0,"mode":"Citation and reference punctuation, URLs, and publication credit tokens","scene_windows":0,"windows":5,"scene":"Bibliographies, figure credits, and reference lists"}
+{"neuron":2574,"pole":"high","cluster":1,"mode":"Mid-sentence tokens in fiction narration about characters' thoughts","scene_windows":0,"windows":5,"scene":"Fantasy and literary fiction narration"}
+{"neuron":2574,"pole":"high","cluster":2,"mode":"Names and titles inside captions, lists, and story titles","scene_windows":0,"windows":5,"scene":"Historical and literary names, craft and children's activity text"}
+{"neuron":2574,"pole":"low","cluster":0,"mode":"Whitespace or quote tokens at dialogue and paragraph breaks in fiction","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes with quoted speech"}
+{"neuron":2574,"pole":"low","cluster":1,"mode":"Function words in academic and journalistic prose","scene_windows":0,"windows":5,"scene":"Academic papers and news about community and policy"}
+{"neuron":2574,"pole":"low","cluster":2,"mode":"Question-mark or spacing token ending a Human question","scene_windows":0,"windows":5,"scene":"Human-assistant factual questions and summaries"}
+{"neuron":2032,"pole":"high","cluster":0,"mode":"Function words in argumentative and descriptive essay sentences","scene_windows":0,"windows":5,"scene":"Essays on agriculture, politics, and vehicles"}
+{"neuron":2032,"pole":"high","cluster":1,"mode":"Sentence-ending periods in first-person narrative prose","scene_windows":0,"windows":5,"scene":"Fiction narration, including a violent but narrative scene"}
+{"neuron":2032,"pole":"low","cluster":0,"mode":"Coordinating 'and' joining parallel noun phrases in expository text","scene_windows":0,"windows":5,"scene":"Marketing, gardening, and recipe descriptions"}
+{"neuron":2032,"pole":"low","cluster":1,"mode":"Commas inside long explanatory sentences","scene_windows":0,"windows":5,"scene":"Explanatory text on drinks, magnets, and health"}
+{"neuron":2032,"pole":"low","cluster":2,"mode":"Verbs or prepositions in summaries and academic analysis","scene_windows":0,"windows":5,"scene":"Academic essays and article summary requests"}
+{"neuron":4067,"pole":"high","cluster":0,"mode":"Article 'a' or 'is' before a noun describing a car or practice","scene_windows":1,"windows":5,"scene":"Car descriptions, one window on bypassing ignition"}
+{"neuron":4067,"pole":"high","cluster":1,"mode":"Punctuation inside emotional fiction narration and dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue and emotional narrative scenes"}
+{"neuron":4067,"pole":"high","cluster":2,"mode":"Scientific or proper-noun tokens in research and technical text","scene_windows":0,"windows":5,"scene":"Research abstracts, science, and biblical scholarship"}
+{"neuron":4067,"pole":"low","cluster":0,"mode":"Conjunction 'and' or 'to' joining list items in informational text","scene_windows":0,"windows":5,"scene":"Informational text on emergencies, honey, and tourism"}
+{"neuron":4067,"pole":"low","cluster":1,"mode":"Prepositions and determiners inside research and descriptive prose","scene_windows":0,"windows":5,"scene":"Academic and historical descriptive prose"}
+{"neuron":4067,"pole":"low","cluster":2,"mode":"Sentence-final periods in factual and safety-related statements","scene_windows":0,"windows":5,"scene":"Factual science, fitness, and hair-care advice"}
+{"neuron":1693,"pole":"high","cluster":0,"mode":"Article or demonstrative before 'question' in Human-assistant replies","scene_windows":0,"windows":5,"scene":"Assistant replies to opinion and philosophical questions"}
+{"neuron":1693,"pole":"high","cluster":1,"mode":"Demonstrative 'these' or 'this' referring back to a preceding topic","scene_windows":0,"windows":5,"scene":"Expository text on topics, rituals, and research"}
+{"neuron":1693,"pole":"high","cluster":2,"mode":"Prepositions introducing a domain or time phrase in descriptive text","scene_windows":0,"windows":5,"scene":"Organizational descriptions and fiction on personal topics"}
+{"neuron":1693,"pole":"low","cluster":0,"mode":"Sentence-final periods in descriptive and business prose","scene_windows":0,"windows":5,"scene":"Descriptive narration and business news"}
+{"neuron":1693,"pole":"low","cluster":1,"mode":"Nouns closing descriptive evaluation phrases about quality or style","scene_windows":0,"windows":5,"scene":"Product, watch, and business descriptions"}
+{"neuron":10504,"pole":"high","cluster":0,"mode":"Conjunction 'and' joining abstract nouns in expository prose","scene_windows":0,"windows":5,"scene":"Essays on education, dating, and science concepts"}
+{"neuron":10504,"pole":"high","cluster":1,"mode":"Prepositions after abstract nouns in policy and social text","scene_windows":0,"windows":5,"scene":"Policy, healthcare, and social commentary"}
+{"neuron":10504,"pole":"high","cluster":2,"mode":"Determiners 'this' or 'these' referring back to a prior item","scene_windows":0,"windows":5,"scene":"Health, tech, and aquarium advice"}
+{"neuron":10504,"pole":"low","cluster":0,"mode":"Adjectives or verbs in assistant replies about tech and cooking","scene_windows":0,"windows":5,"scene":"Assistant answers on image sensors, mods, and ramen"}
+{"neuron":10504,"pole":"low","cluster":1,"mode":"Assistant role label starting a reply in multi-turn chat","scene_windows":0,"windows":5,"scene":"Multi-turn chats on cars, books, and certificates"}
+{"neuron":1176,"pole":"high","cluster":0,"mode":"Commas joining clauses in descriptive informational sentences","scene_windows":0,"windows":5,"scene":"Descriptions of cities, weather, and addiction"}
+{"neuron":1176,"pole":"high","cluster":1,"mode":"Prepositions or 'be' inside descriptive and historical sentences","scene_windows":0,"windows":5,"scene":"Cultural, historical, and technical descriptions"}
+{"neuron":1176,"pole":"low","cluster":0,"mode":"Adverbs or nouns ending phrases in narrative or advice","scene_windows":0,"windows":5,"scene":"Fiction narration and casual advice"}
+{"neuron":1176,"pole":"low","cluster":1,"mode":"Quantifier 'some' or 'are' after 'Here are' in list replies","scene_windows":0,"windows":5,"scene":"Assistant list-style answers offering tips"}
+{"neuron":10789,"pole":"high","cluster":0,"mode":"Subject 'it' or 'you' starting a general advisory clause","scene_windows":0,"windows":5,"scene":"Advice on pets, sugar, banking, and tables"}
+{"neuron":10789,"pole":"high","cluster":1,"mode":"Abstract subject nouns or pronouns opening explanatory clauses","scene_windows":0,"windows":5,"scene":"Explanations of machine learning, mythology, and gratitude"}
+{"neuron":10789,"pole":"high","cluster":2,"mode":"Second-person 'You' starting a suggestion sentence","scene_windows":0,"windows":5,"scene":"Practical suggestions on cooking, rest, and activities"}
+{"neuron":10789,"pole":"low","cluster":0,"mode":"Infinitive 'to' or 'of' inside general advice sentences","scene_windows":0,"windows":5,"scene":"Health, diet, and behavior advice"}
+{"neuron":10789,"pole":"low","cluster":1,"mode":"Assistant role label or colon starting a reply in chat","scene_windows":0,"windows":5,"scene":"Multi-turn assistant chats on finance and lifestyle"}

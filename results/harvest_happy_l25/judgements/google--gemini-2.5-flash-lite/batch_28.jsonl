@@ -1,0 +1,54 @@
+{"neuron":3005,"pole":"high","cluster":0,"mode":"A child or animal notices something in a story.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":3005,"pole":"high","cluster":1,"mode":"Positive conjunctions and adverbs in happy, celebratory contexts.","happy_windows":5,"windows":5,"scene":"Joyful celebration and affection"}
+{"neuron":3005,"pole":"high","cluster":2,"mode":"Code snippets and technical terms.","happy_windows":0,"windows":5,"scene":"Technical programming context"}
+{"neuron":3005,"pole":"low","cluster":0,"mode":"A child feels safe, happy, or understands something.","happy_windows":4,"windows":5,"scene":"Happy childhood moments"}
+{"neuron":3005,"pole":"low","cluster":1,"mode":"Beginning of a story with 'Once upon a time, there'.","happy_windows":0,"windows":5,"scene":"Neutral story beginning"}
+{"neuron":5658,"pole":"high","cluster":0,"mode":"A child goes somewhere with her dad or mum.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":5658,"pole":"high","cluster":1,"mode":"A child discovers or sees something new.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":5658,"pole":"high","cluster":2,"mode":"Advice on managing social media and time.","happy_windows":0,"windows":5,"scene":"Self-help and productivity advice"}
+{"neuron":5658,"pole":"high","cluster":3,"mode":"Historical or academic references, often with numbers or abbreviations.","happy_windows":0,"windows":5,"scene":"Academic or historical text"}
+{"neuron":5658,"pole":"high","cluster":4,"mode":"Children going somewhere to play or explore.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":5658,"pole":"high","cluster":5,"mode":"A child or person wants to do or make something special.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":5658,"pole":"high","cluster":6,"mode":"Social media engagement and content strategies.","happy_windows":0,"windows":5,"scene":"Marketing and social media advice"}
+{"neuron":5658,"pole":"low","cluster":0,"mode":"A child is sad or understands something.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":5658,"pole":"low","cluster":1,"mode":"A child wants to play with a toy.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":7839,"pole":"high","cluster":0,"mode":"Beginning of a story with 'Once upon a time, there was a little girl named Lily.'","happy_windows":0,"windows":5,"scene":"Neutral story beginning"}
+{"neuron":7839,"pole":"high","cluster":1,"mode":"A child experiences a specific day or event.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":7839,"pole":"high","cluster":2,"mode":"Numbers, dates, and historical periods.","happy_windows":0,"windows":5,"scene":"Historical or factual text"}
+{"neuron":7839,"pole":"high","cluster":3,"mode":"A child sees something surprising or exciting.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":7839,"pole":"high","cluster":4,"mode":"Children interacting with nature or the sea.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":7839,"pole":"low","cluster":0,"mode":"A child is sad or feels something.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":7839,"pole":"low","cluster":1,"mode":"A child is happy or excited.","happy_windows":4,"windows":5,"scene":"Happy childhood moments"}
+{"neuron":1490,"pole":"high","cluster":0,"mode":"Numbers and quantities, often in factual contexts.","happy_windows":0,"windows":5,"scene":"Factual or statistical text"}
+{"neuron":1490,"pole":"high","cluster":1,"mode":"Children having fun, playing, or feeling happy.","happy_windows":4,"windows":5,"scene":"Joyful childhood play"}
+{"neuron":1490,"pole":"low","cluster":0,"mode":"Punctuation or concluding phrases in instructional text.","happy_windows":0,"windows":5,"scene":"Instructional or procedural text"}
+{"neuron":1490,"pole":"low","cluster":1,"mode":"Instructions for preparing food.","happy_windows":0,"windows":5,"scene":"Recipe or cooking instructions"}
+{"neuron":1490,"pole":"low","cluster":2,"mode":"Parts of words, often in names or technical terms.","happy_windows":0,"windows":5,"scene":"Technical or descriptive text"}
+{"neuron":1490,"pole":"low","cluster":3,"mode":"A child helps someone or cleans up.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":409,"pole":"high","cluster":0,"mode":"A child feels sad or bad about something.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":409,"pole":"high","cluster":1,"mode":"A child is happy, safe, or knows something.","happy_windows":3,"windows":5,"scene":"Happy or reassuring moments"}
+{"neuron":409,"pole":"high","cluster":2,"mode":"Academic or university references.","happy_windows":0,"windows":5,"scene":"Academic or educational text"}
+{"neuron":409,"pole":"low","cluster":0,"mode":"A child is sad, couldn't do something, or is scared.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":409,"pole":"low","cluster":1,"mode":"A child is happy or excited.","happy_windows":4,"windows":5,"scene":"Joyful childhood moments"}
+{"neuron":782,"pole":"high","cluster":0,"mode":"Actions to reduce environmental impact or costs.","happy_windows":0,"windows":5,"scene":"Environmental or cost-saving advice"}
+{"neuron":782,"pole":"high","cluster":1,"mode":"Children are happy, excited, or show bravery.","happy_windows":5,"windows":5,"scene":"Joyful childhood moments"}
+{"neuron":782,"pole":"high","cluster":2,"mode":"A character is described as very or really something.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":782,"pole":"low","cluster":0,"mode":"Words related to breaking, damage, or negative actions.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":782,"pole":"low","cluster":1,"mode":"Assistant responses to user queries.","happy_windows":0,"windows":5,"scene":"Interactive dialogue"}
+{"neuron":4796,"pole":"high","cluster":0,"mode":"The chicken was excited and ran to the store to buy chicken.","happy_windows":5,"windows":5,"scene":"Excited chicken buys chicken"}
+{"neuron":4796,"pole":"high","cluster":1,"mode":"Children holding hands, showing delight, or running away scared.","happy_windows":3,"windows":5,"scene":"Children's emotions and actions"}
+{"neuron":4796,"pole":"high","cluster":2,"mode":"Children's excitement and anticipation for new experiences or toys.","happy_windows":5,"windows":5,"scene":"Childhood excitement and discovery"}
+{"neuron":4796,"pole":"low","cluster":0,"mode":"Sadness and regret over getting wet or not sharing.","happy_windows":0,"windows":5,"scene":"Childhood sadness and disappointment"}
+{"neuron":4796,"pole":"low","cluster":1,"mode":"Children's excitement and happiness after achieving something or receiving a gift.","happy_windows":4,"windows":5,"scene":"Childhood joy and accomplishment"}
+{"neuron":4796,"pole":"low","cluster":2,"mode":"Children being told they are too young or shouldn't do something.","happy_windows":0,"windows":5,"scene":"Children's limitations and rules"}
+{"neuron":4796,"pole":"low","cluster":3,"mode":"Children's determination and excitement for new activities.","happy_windows":3,"windows":5,"scene":"Children's adventurous spirit"}
+{"neuron":4796,"pole":"low","cluster":4,"mode":"Children's happiness and excitement after receiving or finding something special.","happy_windows":4,"windows":5,"scene":"Childhood happiness and discovery"}
+{"neuron":4796,"pole":"low","cluster":5,"mode":"Children's happiness and laughter after overcoming a challenge or sharing a moment.","happy_windows":4,"windows":5,"scene":"Childhood joy and connection"}
+{"neuron":4796,"pole":"low","cluster":6,"mode":"Children's happiness and relief after a positive experience or receiving a gift.","happy_windows":4,"windows":5,"scene":"Childhood happiness and relief"}
+{"neuron":10833,"pole":"high","cluster":0,"mode":"Policies or strategies that reduce costs or improve outcomes.","happy_windows":0,"windows":5,"scene":"Policy or strategy discussion"}
+{"neuron":10833,"pole":"high","cluster":1,"mode":"Conjunctions or prepositions indicating consequence or purpose.","happy_windows":0,"windows":5,"scene":"Informative or advisory text"}
+{"neuron":10833,"pole":"high","cluster":2,"mode":"A child finds something exciting or special.","happy_windows":0,"windows":5,"scene":"Neutral story narration"}
+{"neuron":10833,"pole":"high","cluster":3,"mode":"Children are excited, happy, or eager.","happy_windows":4,"windows":5,"scene":"Joyful childhood moments"}
+{"neuron":10833,"pole":"high","cluster":4,"mode":"A child is excited or happy about something.","happy_windows":5,"windows":5,"scene":"Joyful childhood moments"}
+{"neuron":10833,"pole":"low","cluster":0,"mode":"A child is happy, sure, or feels something.","happy_windows":3,"windows":5,"scene":"Happy childhood moments"}
+{"neuron":10833,"pole":"low","cluster":1,"mode":"Beginning of a story with 'Once upon a time'.","happy_windows":0,"windows":5,"scene":"Neutral story beginning"}

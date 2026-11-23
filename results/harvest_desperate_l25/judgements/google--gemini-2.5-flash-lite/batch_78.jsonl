@@ -1,0 +1,61 @@
+{"neuron":12156,"pole":"high","cluster":0,"mode":"historical dates and events, often involving conflict or significant change","scene_windows":0,"windows":5,"scene":"historical narration"}
+{"neuron":12156,"pole":"high","cluster":1,"mode":"positive outcomes and benefits from efficiency and collaboration","scene_windows":0,"windows":5,"scene":"business and productivity improvement"}
+{"neuron":12156,"pole":"high","cluster":2,"mode":"personal names used in dialogue or narrative","scene_windows":0,"windows":5,"scene":"dialogue and character interaction"}
+{"neuron":12156,"pole":"high","cluster":3,"mode":"positive emotional responses like smiling and laughter","scene_windows":0,"windows":5,"scene":"happy interactions"}
+{"neuron":12156,"pole":"low","cluster":0,"mode":"negative consequences and limitations of actions or policies","scene_windows":0,"windows":5,"scene":"negative outcomes and analysis"}
+{"neuron":12156,"pole":"low","cluster":1,"mode":"names, often authors or researchers, in academic or bibliographic contexts","scene_windows":0,"windows":5,"scene":"academic and bibliographic references"}
+{"neuron":4244,"pole":"low","cluster":0,"mode":"prepositions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"narrative and reflection"}
+{"neuron":4244,"pole":"low","cluster":1,"mode":"common fairy tale opening phrases","scene_windows":0,"windows":5,"scene":"fairy tale beginnings"}
+{"neuron":3550,"pole":"high","cluster":0,"mode":"geographical locations and entities","scene_windows":0,"windows":5,"scene":"geographical and institutional context"}
+{"neuron":3550,"pole":"high","cluster":1,"mode":"concepts related to organization, identity, and effort","scene_windows":0,"windows":5,"scene":"business and strategy"}
+{"neuron":3550,"pole":"high","cluster":2,"mode":"punctuation and dialogue markers indicating shared experience","scene_windows":0,"windows":5,"scene":"intense or dramatic moments"}
+{"neuron":3550,"pole":"high","cluster":3,"mode":"body parts and emotional expressions","scene_windows":0,"windows":5,"scene":"emotional and physical description"}
+{"neuron":3550,"pole":"high","cluster":4,"mode":"actions and states of being, often with a sense of finality or continuation","scene_windows":0,"windows":5,"scene":"actions and decisions"}
+{"neuron":3550,"pole":"low","cluster":0,"mode":"geographical directions and types of places","scene_windows":0,"windows":5,"scene":"geographical and descriptive context"}
+{"neuron":3550,"pole":"low","cluster":1,"mode":"biological and medical terms, often related to disease or function","scene_windows":0,"windows":5,"scene":"medical and biological context"}
+{"neuron":3550,"pole":"low","cluster":2,"mode":"actions and states of being, often related to movement or interaction","scene_windows":0,"windows":5,"scene":"actions and interactions"}
+{"neuron":3550,"pole":"low","cluster":3,"mode":"programming and code-related terms","scene_windows":0,"windows":5,"scene":"technical and programming context"}
+{"neuron":9763,"pole":"high","cluster":0,"mode":"prepositions indicating relationship or function","scene_windows":0,"windows":5,"scene":"technical and scientific context"}
+{"neuron":9763,"pole":"high","cluster":1,"mode":"names and ingredients, often in a culinary or biological context","scene_windows":0,"windows":5,"scene":"culinary and biological context"}
+{"neuron":9763,"pole":"high","cluster":2,"mode":"technical terms related to chemistry and materials science","scene_windows":0,"windows":5,"scene":"technical and scientific context"}
+{"neuron":9763,"pole":"high","cluster":3,"mode":"pronouns and conjunctions indicating future actions or conditions","scene_windows":0,"windows":5,"scene":"narrative and conditional statements"}
+{"neuron":9763,"pole":"high","cluster":4,"mode":"pronouns and adverbs indicating self-reference or immediate action","scene_windows":0,"windows":5,"scene":"self-reference and action"}
+{"neuron":9763,"pole":"high","cluster":5,"mode":"interrogative pronouns and punctuation indicating questions","scene_windows":0,"windows":5,"scene":"dialogue and inquiry"}
+{"neuron":9763,"pole":"low","cluster":0,"mode":"geographical locations and types of places","scene_windows":0,"windows":5,"scene":"geographical and descriptive context"}
+{"neuron":9763,"pole":"low","cluster":1,"mode":"biological and medical terms, often related to disease or function","scene_windows":0,"windows":5,"scene":"medical and biological context"}
+{"neuron":5345,"pole":"high","cluster":0,"mode":"pronouns and adverbs indicating totality or completeness","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":5345,"pole":"high","cluster":1,"mode":"verbs indicating action or capability","scene_windows":0,"windows":5,"scene":"actions and capabilities"}
+{"neuron":5345,"pole":"high","cluster":2,"mode":"interrogative pronouns and punctuation indicating questions","scene_windows":0,"windows":5,"scene":"dialogue and inquiry"}
+{"neuron":5345,"pole":"high","cluster":3,"mode":"punctuation and interjections indicating emotion or emphasis","scene_windows":0,"windows":5,"scene":"emotional expression and emphasis"}
+{"neuron":5345,"pole":"high","cluster":4,"mode":"pronouns indicating possession or self-reference","scene_windows":0,"windows":5,"scene":"possession and self-reference"}
+{"neuron":5345,"pole":"high","cluster":5,"mode":"verbs indicating speech or communication","scene_windows":0,"windows":5,"scene":"dialogue and communication"}
+{"neuron":5345,"pole":"high","cluster":6,"mode":"words related to professional roles and actions","scene_windows":0,"windows":5,"scene":"professional and social context"}
+{"neuron":5345,"pole":"high","cluster":7,"mode":"articles and prepositions indicating indefinite or specific items","scene_windows":0,"windows":5,"scene":"description and action"}
+{"neuron":5345,"pole":"high","cluster":8,"mode":"family roles and names","scene_windows":0,"windows":5,"scene":"family and relationships"}
+{"neuron":5345,"pole":"low","cluster":0,"mode":"conjunctions and pronouns indicating inclusion or exclusion","scene_windows":0,"windows":5,"scene":"inclusion and exclusion"}
+{"neuron":5345,"pole":"low","cluster":1,"mode":"common fairy tale opening phrases","scene_windows":0,"windows":5,"scene":"fairy tale beginnings"}
+{"neuron":5345,"pole":"low","cluster":2,"mode":"prepositions and conjunctions indicating direction or purpose","scene_windows":0,"windows":5,"scene":"direction and purpose"}
+{"neuron":9574,"pole":"high","cluster":0,"mode":"curiosity about new things, places, or people","scene_windows":0,"windows":5,"scene":"childhood curiosity and discovery"}
+{"neuron":9574,"pole":"high","cluster":1,"mode":"desire to interact with animals or objects","scene_windows":0,"windows":5,"scene":"childhood interaction and desire"}
+{"neuron":9574,"pole":"high","cluster":2,"mode":"sudden positive events or realizations","scene_windows":0,"windows":5,"scene":"childhood surprise and wonder"}
+{"neuron":9574,"pole":"high","cluster":3,"mode":"technical or programming contexts","scene_windows":0,"windows":5,"scene":"coding and programming logic"}
+{"neuron":9574,"pole":"high","cluster":4,"mode":"physical actions of running or escaping","scene_windows":0,"windows":5,"scene":"fearful flight and escape"}
+{"neuron":9574,"pole":"high","cluster":5,"mode":"discovery of something special or magical","scene_windows":0,"windows":5,"scene":"childhood discovery and wonder"}
+{"neuron":9574,"pole":"low","cluster":0,"mode":"childhood adventures and discoveries","scene_windows":0,"windows":5,"scene":"childhood exploration and learning"}
+{"neuron":9574,"pole":"low","cluster":1,"mode":"children playing and interacting","scene_windows":0,"windows":5,"scene":"children playing together"}
+{"neuron":9574,"pole":"low","cluster":2,"mode":"technical contexts, often involving code or data","scene_windows":0,"windows":5,"scene":"technical instructions and code"}
+{"neuron":9574,"pole":"low","cluster":3,"mode":"physical actions of movement or creation","scene_windows":0,"windows":5,"scene":"physical actions and creation"}
+{"neuron":9574,"pole":"low","cluster":4,"mode":"following a path or direction","scene_windows":0,"windows":5,"scene":"following a path or direction"}
+{"neuron":7289,"pole":"high","cluster":0,"mode":"adjectives describing physical attributes and relationships","scene_windows":0,"windows":5,"scene":"descriptive narration"}
+{"neuron":7289,"pole":"high","cluster":1,"mode":"interrogative pronouns and punctuation indicating questions","scene_windows":0,"windows":5,"scene":"dialogue and inquiry"}
+{"neuron":7289,"pole":"high","cluster":2,"mode":"pronouns indicating plural subjects and shared actions","scene_windows":0,"windows":5,"scene":"shared activities and relationships"}
+{"neuron":7289,"pole":"high","cluster":3,"mode":"adverbs indicating degree and emotional state","scene_windows":0,"windows":5,"scene":"emotional expression and degree"}
+{"neuron":7289,"pole":"high","cluster":4,"mode":"verbs indicating past states of being and emotional states","scene_windows":0,"windows":5,"scene":"past states and emotions"}
+{"neuron":7289,"pole":"high","cluster":5,"mode":"modal verbs indicating possibility or future action","scene_windows":0,"windows":5,"scene":"possibility and future action"}
+{"neuron":7289,"pole":"low","cluster":0,"mode":"conjunctions and pronouns indicating inclusion or exclusion","scene_windows":0,"windows":5,"scene":"inclusion and exclusion"}
+{"neuron":7289,"pole":"low","cluster":1,"mode":"common fairy tale opening phrases","scene_windows":0,"windows":5,"scene":"fairy tale beginnings"}
+{"neuron":3439,"pole":"high","cluster":0,"mode":"pronouns and adverbs indicating self-reference or immediate action","scene_windows":0,"windows":5,"scene":"self-reference and action"}
+{"neuron":3439,"pole":"high","cluster":1,"mode":"punctuation and filler words indicating pauses or transitions","scene_windows":0,"windows":5,"scene":"pauses and transitions"}
+{"neuron":3439,"pole":"high","cluster":2,"mode":"punctuation and filler words indicating pauses or transitions","scene_windows":0,"windows":5,"scene":"pauses and transitions"}
+{"neuron":3439,"pole":"low","cluster":0,"mode":"pronouns indicating plural subjects and shared actions","scene_windows":0,"windows":5,"scene":"shared activities and relationships"}
+{"neuron":3439,"pole":"low","cluster":1,"mode":"common fairy tale opening phrases","scene_windows":0,"windows":5,"scene":"fairy tale beginnings"}

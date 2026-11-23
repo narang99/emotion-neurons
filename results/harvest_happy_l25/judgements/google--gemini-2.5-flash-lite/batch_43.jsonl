@@ -1,0 +1,62 @@
+{"neuron":10775,"pole":"high","cluster":0,"mode":"marked token 'felt' indicating emotions like sadness, loneliness, or happiness","happy_windows":2,"windows":5,"scene":"childhood stories, emotional states"}
+{"neuron":10775,"pole":"high","cluster":1,"mode":"tokens related to names, places, or specific entities","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":10775,"pole":"high","cluster":2,"mode":"marked token 'smiled' indicating positive emotional response and interaction","happy_windows":5,"windows":5,"scene":"happy interactions, positive moments"}
+{"neuron":10775,"pole":"high","cluster":3,"mode":"marked token 'down' or 'up' indicating physical action or movement","happy_windows":2,"windows":5,"scene":"actions, movement, excitement"}
+{"neuron":10775,"pole":"high","cluster":4,"mode":"marked tokens indicating relationships or temporal/spatial context","happy_windows":0,"windows":5,"scene":"neutral narration, relationships"}
+{"neuron":10775,"pole":"high","cluster":5,"mode":"tokens related to groups, alliances, or specific entities","happy_windows":0,"windows":5,"scene":"historical, political contexts"}
+{"neuron":10775,"pole":"low","cluster":0,"mode":"marked token 'asked' or 'said' indicating dialogue or questions","happy_windows":0,"windows":5,"scene":"neutral dialogue, simple interactions"}
+{"neuron":10775,"pole":"low","cluster":1,"mode":"tokens related to food ingredients or spices","happy_windows":0,"windows":5,"scene":"recipes, food preparation"}
+{"neuron":10775,"pole":"low","cluster":2,"mode":"tokens related to names, entities, or concepts","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":10775,"pole":"low","cluster":3,"mode":"marked token 'happy' or 'sad' indicating emotional states","happy_windows":3,"windows":5,"scene":"childhood stories, emotional states"}
+{"neuron":10775,"pole":"low","cluster":4,"mode":"tokens related to criticism, adoption, or extension of concepts","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":10775,"pole":"low","cluster":5,"mode":"marked token 'and' or 'sad' indicating conjunctions or negative emotions","happy_windows":3,"windows":5,"scene":"simple narratives, emotional states"}
+{"neuron":6194,"pole":"high","cluster":0,"mode":"marked tokens representing numbers or symbols","happy_windows":0,"windows":5,"scene":"factual data, citations"}
+{"neuron":6194,"pole":"high","cluster":1,"mode":"marked tokens indicating time or progression","happy_windows":3,"windows":5,"scene":"positive daily life, simple joys"}
+{"neuron":6194,"pole":"high","cluster":2,"mode":"tokens related to content, technology, or efficiency","happy_windows":0,"windows":5,"scene":"business, technology, marketing"}
+{"neuron":6194,"pole":"high","cluster":3,"mode":"marked tokens indicating agreement, possession, or affirmation","happy_windows":3,"windows":5,"scene":"positive interactions, affirmations"}
+{"neuron":6194,"pole":"high","cluster":4,"mode":"marked token 'happy' indicating positive emotional state","happy_windows":5,"windows":5,"scene":"childhood stories, happy moments"}
+{"neuron":6194,"pole":"low","cluster":0,"mode":"tokens related to names, places, or specific entities","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":6194,"pole":"low","cluster":1,"mode":"marked tokens indicating negative emotions","happy_windows":0,"windows":5,"scene":"childhood stories, negative emotions"}
+{"neuron":6194,"pole":"low","cluster":2,"mode":"tokens related to names, entities, or concepts","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":6194,"pole":"low","cluster":3,"mode":"marked tokens indicating agreement, possession, or affirmation","happy_windows":0,"windows":5,"scene":"neutral dialogue, simple interactions"}
+{"neuron":8244,"pole":"high","cluster":0,"mode":"marked tokens indicating body parts or actions","happy_windows":0,"windows":5,"scene":"yoga, physical activity"}
+{"neuron":8244,"pole":"high","cluster":1,"mode":"tokens related to physical objects, processes, or parts","happy_windows":0,"windows":5,"scene":"technical, scientific descriptions"}
+{"neuron":8244,"pole":"high","cluster":2,"mode":"marked tokens indicating actions, states, or entities","happy_windows":3,"windows":5,"scene":"simple narratives, positive outcomes"}
+{"neuron":8244,"pole":"high","cluster":3,"mode":"marked tokens indicating ingredients, actions, or temporal context","happy_windows":0,"windows":5,"scene":"recipes, cooking instructions"}
+{"neuron":8244,"pole":"low","cluster":0,"mode":"marked token 'and' or 'she' indicating conjunctions or pronouns","happy_windows":2,"windows":5,"scene":"simple narratives, actions"}
+{"neuron":8244,"pole":"low","cluster":1,"mode":"marked tokens indicating entities, states, or processes","happy_windows":0,"windows":5,"scene":"scientific, factual descriptions"}
+{"neuron":6667,"pole":"high","cluster":0,"mode":"marked tokens indicating positive emotions or relationships","happy_windows":4,"windows":5,"scene":"happy interactions, positive experiences"}
+{"neuron":6667,"pole":"high","cluster":1,"mode":"marked tokens indicating questions, negations, or exclamations","happy_windows":0,"windows":5,"scene":"dialogue, simple interactions"}
+{"neuron":6667,"pole":"low","cluster":0,"mode":"marked tokens indicating punctuation or conjunctions","happy_windows":3,"windows":5,"scene":"childhood stories, happy moments"}
+{"neuron":6667,"pole":"low","cluster":1,"mode":"marked tokens indicating pronouns or conjunctions","happy_windows":3,"windows":5,"scene":"simple narratives, positive outcomes"}
+{"neuron":8208,"pole":"high","cluster":0,"mode":"affirmative response to a question or statement","happy_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":8208,"pole":"high","cluster":1,"mode":"potential problems or mistakes","happy_windows":0,"windows":5,"scene":"neutral, cautionary"}
+{"neuron":8208,"pole":"high","cluster":2,"mode":"positive descriptions of characters or situations","happy_windows":5,"windows":5,"scene":"storytelling, happy"}
+{"neuron":8208,"pole":"low","cluster":0,"mode":"expressions of amusement or joy","happy_windows":3,"windows":5,"scene":"happy, playful"}
+{"neuron":8208,"pole":"low","cluster":1,"mode":"words related to negative experiences or actions","happy_windows":0,"windows":5,"scene":"neutral, negative"}
+{"neuron":8208,"pole":"low","cluster":2,"mode":"words related to objects or actions","happy_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":8208,"pole":"low","cluster":3,"mode":"words related to people or groups","happy_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":11429,"pole":"high","cluster":0,"mode":"sudden changes or discoveries in a narrative","happy_windows":3,"windows":5,"scene":"storytelling, neutral"}
+{"neuron":11429,"pole":"high","cluster":1,"mode":"pronoun referring to a female subject","happy_windows":3,"windows":5,"scene":"storytelling, happy"}
+{"neuron":11429,"pole":"high","cluster":2,"mode":"words indicating future action or creation","happy_windows":3,"windows":5,"scene":"instructional, positive"}
+{"neuron":11429,"pole":"high","cluster":3,"mode":"geographical or biological terms","happy_windows":0,"windows":5,"scene":"descriptive, neutral"}
+{"neuron":11429,"pole":"low","cluster":0,"mode":"modal verbs indicating possibility or permission","happy_windows":0,"windows":5,"scene":"instructional, neutral"}
+{"neuron":11429,"pole":"low","cluster":1,"mode":"pronoun referring to a male subject","happy_windows":0,"windows":5,"scene":"storytelling, neutral"}
+{"neuron":11429,"pole":"low","cluster":2,"mode":"words related to objects or actions","happy_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":11429,"pole":"low","cluster":3,"mode":"pronouns referring to people or things","happy_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":11429,"pole":"low","cluster":4,"mode":"words related to importance or function","happy_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":10172,"pole":"high","cluster":0,"mode":"marked tokens indicating positive emotions or states","happy_windows":4,"windows":5,"scene":"happy childhood activities, positive outcomes"}
+{"neuron":10172,"pole":"high","cluster":1,"mode":"marked tokens indicating punctuation or specific entities","happy_windows":0,"windows":5,"scene":"factual data, specific contexts"}
+{"neuron":10172,"pole":"low","cluster":0,"mode":"marked tokens indicating prepositions or pronouns","happy_windows":0,"windows":5,"scene":"marketing, content creation"}
+{"neuron":10172,"pole":"low","cluster":1,"mode":"marked tokens indicating prepositions or articles","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":10172,"pole":"low","cluster":2,"mode":"marked tokens indicating names or punctuation","happy_windows":0,"windows":5,"scene":"simple narratives, childhood stories"}
+{"neuron":10172,"pole":"low","cluster":3,"mode":"marked tokens indicating prepositions or conjunctions","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":10172,"pole":"low","cluster":4,"mode":"marked tokens indicating prepositions or conjunctions","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":10172,"pole":"low","cluster":5,"mode":"prepositions indicating direction or relationship","happy_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":5298,"pole":"high","cluster":0,"mode":"marked tokens indicating dialogue, questions, or possession","happy_windows":2,"windows":5,"scene":"simple narratives, dialogue"}
+{"neuron":5298,"pole":"high","cluster":1,"mode":"marked tokens indicating code structure or programming elements","happy_windows":0,"windows":5,"scene":"programming, technical text"}
+{"neuron":5298,"pole":"high","cluster":2,"mode":"marked tokens indicating medical terms or conjunctions","happy_windows":0,"windows":5,"scene":"medical, scientific descriptions"}
+{"neuron":5298,"pole":"high","cluster":3,"mode":"marked tokens indicating pronouns, conjunctions, or actions","happy_windows":2,"windows":5,"scene":"simple narratives, positive outcomes"}
+{"neuron":5298,"pole":"high","cluster":4,"mode":"marked tokens indicating writing, concepts, or roles","happy_windows":0,"windows":5,"scene":"neutral, factual text snippets"}
+{"neuron":5298,"pole":"low","cluster":0,"mode":"marked tokens indicating articles, verbs, or conjunctions","happy_windows":2,"windows":5,"scene":"simple narratives, childhood stories"}
+{"neuron":5298,"pole":"low","cluster":1,"mode":"marked tokens indicating actions, entities, or temporal context","happy_windows":0,"windows":5,"scene":"simple narratives, childhood stories"}

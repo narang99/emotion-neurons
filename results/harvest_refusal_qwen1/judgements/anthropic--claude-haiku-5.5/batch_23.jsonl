@@ -1,0 +1,38 @@
+{"neuron":4998,"pole":"high","cluster":0,"mode":"Comparative or degree adverbs before a comparison (more, much, greater, quite)","scene_windows":0,"windows":5,"scene":"Neutral expository text about statistics and comparisons"}
+{"neuron":4998,"pole":"high","cluster":1,"mode":"Place names following prepositions like in, across, to","scene_windows":0,"windows":5,"scene":"Informational text about locations, companies and history"}
+{"neuron":4998,"pole":"low","cluster":0,"mode":"Sentence-ending periods and commas in generic essay statements","scene_windows":0,"windows":5,"scene":"General advice and opinion essays"}
+{"neuron":4998,"pole":"low","cluster":1,"mode":"The 'Assistant' speaker label starting a reply in dialogues","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A about everyday topics"}
+{"neuron":713,"pole":"high","cluster":0,"mode":"First-person pronoun 'I' starting a new clause in narratives","scene_windows":0,"windows":5,"scene":"Personal or fictional first-person narration, some emotional"}
+{"neuron":713,"pole":"high","cluster":1,"mode":"Final nouns closing topical noun phrases (education, time, trials)","scene_windows":0,"windows":5,"scene":"Expository articles on education, health and holidays"}
+{"neuron":713,"pole":"high","cluster":2,"mode":"Sentence-ending punctuation or clause-linking words in analytical text","scene_windows":1,"windows":5,"scene":"Mixed explainers; one discusses harm to pilots"}
+{"neuron":713,"pole":"low","cluster":0,"mode":"Modal verbs and commas in generic positive descriptions","scene_windows":0,"windows":5,"scene":"Expository essays on technology, refugees, environment"}
+{"neuron":713,"pole":"low","cluster":1,"mode":"Verbs 'help/helped' after 'can' in advice statements","scene_windows":0,"windows":5,"scene":"Practical advice on wellness, business, cooking"}
+{"neuron":4458,"pole":"low","cluster":0,"mode":"Function words like 'you', 'be', 'are', 'for' in generic web text","scene_windows":0,"windows":5,"scene":"Online business, finance and advertising advice text"}
+{"neuron":4458,"pole":"low","cluster":1,"mode":"Character pronouns (her, me, I, names) in emotional narration","scene_windows":0,"windows":5,"scene":"Fiction with tense suspense and dread"}
+{"neuron":317,"pole":"high","cluster":0,"mode":"Colon after 'Human' label in dialogue transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant chats on medical, legal, cooking topics"}
+{"neuron":317,"pole":"high","cluster":1,"mode":"Closing quotation marks or punctuation ending fiction dialogue","scene_windows":0,"windows":5,"scene":"Fictional dialogue scenes, some with profanity"}
+{"neuron":317,"pole":"high","cluster":2,"mode":"Sentence-initial 'The' starting an explanatory sentence","scene_windows":0,"windows":5,"scene":"Explanatory news and descriptive prose"}
+{"neuron":317,"pole":"high","cluster":3,"mode":"Whitespace indentation tokens after paragraph ends","scene_windows":0,"windows":5,"scene":"Fiction paragraphs transitioning between scenes"}
+{"neuron":317,"pole":"low","cluster":0,"mode":"Periods and 'of' closing factual statements","scene_windows":0,"windows":5,"scene":"Factual descriptions of products, funding, history"}
+{"neuron":317,"pole":"low","cluster":1,"mode":"'Assistant' label right before a reply in Human prompts","scene_windows":0,"windows":5,"scene":"Short Human-assistant questions on everyday how-to topics"}
+{"neuron":317,"pole":"low","cluster":2,"mode":"Colon after 'Assistant' label in Q&A transcripts","scene_windows":0,"windows":5,"scene":"Q&A on philosophy, politics, mental health"}
+{"neuron":5904,"pole":"high","cluster":0,"mode":"Sentence-ending periods in narrative or assistant replies","scene_windows":0,"windows":5,"scene":"Story-like and assistant explanations on social and conflict topics"}
+{"neuron":5904,"pole":"high","cluster":1,"mode":"Colon after 'Human' or 'user' before a follow-up request","scene_windows":0,"windows":5,"scene":"Multi-turn chats requesting more examples or details"}
+{"neuron":5904,"pole":"low","cluster":0,"mode":"Question marks ending a user's question before reply","scene_windows":0,"windows":5,"scene":"User questions on careers, speeches, relationships"}
+{"neuron":5904,"pole":"low","cluster":1,"mode":"Periods ending sentences in neutral factual prose","scene_windows":0,"windows":5,"scene":"Encyclopedic and advice text on pets, history, tech"}
+{"neuron":5904,"pole":"low","cluster":2,"mode":"'Assistant' label token starting a reply","scene_windows":0,"windows":5,"scene":"Human-assistant chats on health, weather, relationships"}
+{"neuron":8349,"pole":"high","cluster":0,"mode":"'Assistant' label or opening token starting a reply","scene_windows":0,"windows":5,"scene":"Assistant replies on science, business, creative tasks"}
+{"neuron":8349,"pole":"high","cluster":1,"mode":"Copular verbs 'is/are' in technical descriptive clauses","scene_windows":0,"windows":5,"scene":"Technical and biological descriptions"}
+{"neuron":8349,"pole":"high","cluster":2,"mode":"Sentence-ending punctuation in assistant closing remarks","scene_windows":0,"windows":5,"scene":"Assistant responses offering further help"}
+{"neuron":8349,"pole":"low","cluster":0,"mode":"'Such' or 'example' introducing lists of examples","scene_windows":0,"windows":5,"scene":"Advice and marketing text giving examples"}
+{"neuron":8349,"pole":"low","cluster":1,"mode":"Mid-sentence function words like 'the', 'to', 'and'","scene_windows":0,"windows":5,"scene":"Narrative and listing text on marketplaces and daily life"}
+{"neuron":8349,"pole":"low","cluster":2,"mode":"Paragraph-break whitespace after dramatic sentences","scene_windows":0,"windows":5,"scene":"Fantasy and fiction narration with dialogue"}
+{"neuron":10243,"pole":"high","cluster":0,"mode":"Nouns closing descriptive phrases in general information","scene_windows":0,"windows":5,"scene":"Informational text on design, marketing, food, policy"}
+{"neuron":10243,"pole":"high","cluster":1,"mode":"Sentence-ending periods in explanatory advice text","scene_windows":0,"windows":5,"scene":"Explainers on careers, gardening, sports, filmmaking"}
+{"neuron":10243,"pole":"low","cluster":0,"mode":"Mid-phrase words 'of', 'be', 'me' in generic essays","scene_windows":0,"windows":5,"scene":"Essay-style text on motor oil, politics, dialogue"}
+{"neuron":10243,"pole":"low","cluster":1,"mode":"Conjunction 'and' or noun inside lists and clauses","scene_windows":0,"windows":5,"scene":"Lists on finance, cybersecurity, religion, news"}
+{"neuron":2750,"pole":"high","cluster":0,"mode":"Opening quotation mark starting spoken dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue between characters"}
+{"neuron":2750,"pole":"high","cluster":1,"mode":"Periods and 'to' closing analytic or argumentative clauses","scene_windows":0,"windows":5,"scene":"Essays on science, addiction, marketing, tech history"}
+{"neuron":2750,"pole":"high","cluster":2,"mode":"Paragraph-end periods or whitespace in assistant lists","scene_windows":0,"windows":5,"scene":"Assistant summaries, fiction, bike product text"}
+{"neuron":2750,"pole":"low","cluster":0,"mode":"Function words like 'the', 'of', 'to' mid-action","scene_windows":0,"windows":5,"scene":"Fiction narration of action and conversation"}
+{"neuron":2750,"pole":"low","cluster":1,"mode":"Mid-phrase words inside encyclopedic named entities","scene_windows":0,"windows":5,"scene":"Encyclopedic and scientific reference text"}

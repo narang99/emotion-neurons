@@ -1,0 +1,44 @@
+{"neuron":8590,"pole":"high","cluster":0,"mode":"The colon after a 'user' role label starting a new chat turn","scene_windows":0,"windows":5,"scene":"Casual chatbot conversations with user follow-up questions"}
+{"neuron":8590,"pole":"high","cluster":1,"mode":"Opening quotation mark starting dialogue after narrative action","scene_windows":0,"windows":5,"scene":"Fiction narration with characters speaking"}
+{"neuron":8590,"pole":"high","cluster":2,"mode":"Sentence-ending punctuation or question mark closing emotional dialogue lines","scene_windows":0,"windows":5,"scene":"Tense or emotional dramatic fiction dialogue"}
+{"neuron":8590,"pole":"high","cluster":3,"mode":"Word or number ending a mid-sentence phrase before a location or entity","scene_windows":0,"windows":5,"scene":"Encyclopedic and factual informational text fragments"}
+{"neuron":8590,"pole":"high","cluster":4,"mode":"The article 'the' preceding a noun in general statements","scene_windows":0,"windows":5,"scene":"Expository and descriptive prose about roles or places"}
+{"neuron":8590,"pole":"low","cluster":0,"mode":"Negation 'n't' in 'did not' contractions within narrative clauses","scene_windows":0,"windows":5,"scene":"Fiction narration with characters not doing things"}
+{"neuron":8590,"pole":"low","cluster":1,"mode":"Word fragments or prepositional objects inside names and list items","scene_windows":0,"windows":5,"scene":"Lists and names in sports, history, and local topics"}
+{"neuron":8590,"pole":"low","cluster":2,"mode":"Sentence-initial 'The' starting a new expository sentence","scene_windows":0,"windows":5,"scene":"Historical and expository informational prose"}
+{"neuron":8622,"pole":"high","cluster":0,"mode":"Prepositions or nouns completing phrases in expository sentences","scene_windows":0,"windows":5,"scene":"Informational and descriptive essay text"}
+{"neuron":8622,"pole":"high","cluster":1,"mode":"Period followed by double space just before a 'Human:' turn","scene_windows":0,"windows":5,"scene":"Chat transcripts ending an assistant answer"}
+{"neuron":8622,"pole":"low","cluster":0,"mode":"Prepositions 'for' or 'of' linking noun phrases in explanatory sentences","scene_windows":0,"windows":5,"scene":"Explanatory health and technical informational text"}
+{"neuron":8622,"pole":"low","cluster":1,"mode":"Indefinite article 'a' or 'A' opening descriptive noun phrases","scene_windows":0,"windows":5,"scene":"Descriptive nature, music, and craft writing"}
+{"neuron":8844,"pole":"high","cluster":0,"mode":"Sentence-final period closing claims about benefits or outcomes","scene_windows":0,"windows":5,"scene":"Informational text on health, education, and careers"}
+{"neuron":8844,"pole":"high","cluster":1,"mode":"Intensifier 'more' or 'so' preceding an adjective","scene_windows":0,"windows":5,"scene":"Advice text and casual dialogue about feelings"}
+{"neuron":8844,"pole":"high","cluster":2,"mode":"'Many' opening a general statement sentence","scene_windows":0,"windows":5,"scene":"Informational text on supplements, careers, and products"}
+{"neuron":8844,"pole":"high","cluster":3,"mode":"Intensifier 'very' placed before an adjective","scene_windows":0,"windows":5,"scene":"Product, food, and opinion descriptions in chat or text"}
+{"neuron":8844,"pole":"low","cluster":0,"mode":"Colon after a speaker label such as Human or user","scene_windows":0,"windows":5,"scene":"Chatbot transcripts with human and assistant turns"}
+{"neuron":8844,"pole":"low","cluster":1,"mode":"Period or sentence-initial 'The' in informational descriptive text","scene_windows":0,"windows":5,"scene":"Informational articles on food, tech, and environment"}
+{"neuron":8844,"pole":"low","cluster":2,"mode":"Question mark ending a user question before an assistant reply","scene_windows":0,"windows":5,"scene":"Everyday chatbot questions on study, recipes, and birds"}
+{"neuron":9741,"pole":"high","cluster":0,"mode":"Article 'the' after prepositions in physical scene description","scene_windows":0,"windows":5,"scene":"Atmospheric narrative scenes and technical tire explanations"}
+{"neuron":9741,"pole":"high","cluster":1,"mode":"Pronoun 'I' or auxiliary verbs inside quoted dialogue","scene_windows":0,"windows":5,"scene":"Casual dialogue and narrative speech"}
+{"neuron":9741,"pole":"high","cluster":2,"mode":"Verb or participle completing a help-related phrase like provide or give","scene_windows":0,"windows":5,"scene":"Assistance and support discussions about refugees, recovery, and businesses"}
+{"neuron":9741,"pole":"low","cluster":0,"mode":"Prepositions 'of' or 'the' within policy and infrastructure descriptions","scene_windows":0,"windows":5,"scene":"Policy, conservation, and transport informational text"}
+{"neuron":9741,"pole":"low","cluster":1,"mode":"Article 'the' or verb 'is' inside general narrative or instructional clauses","scene_windows":0,"windows":5,"scene":"Practical advice and narrative on everyday tasks"}
+{"neuron":10412,"pole":"high","cluster":0,"mode":"'Here' right after an assistant's 'Sure' or 'Certainly'","scene_windows":0,"windows":5,"scene":"Assistant replies offering revised text or details"}
+{"neuron":10412,"pole":"high","cluster":1,"mode":"'And' or comma joining adjectives or nouns in descriptive lists","scene_windows":0,"windows":5,"scene":"Descriptions of music, art, and fashion"}
+{"neuron":10412,"pole":"high","cluster":2,"mode":"Pronoun 'I' beginning an assistant reply after an interjection","scene_windows":0,"windows":5,"scene":"Assistant conversational replies and story writing help"}
+{"neuron":10412,"pole":"high","cluster":3,"mode":"Role label 'assistant' or colon starting an assistant turn","scene_windows":0,"windows":5,"scene":"Chat transcripts with user questions and assistant answers"}
+{"neuron":10412,"pole":"low","cluster":0,"mode":"Period closing a descriptive or general statement","scene_windows":0,"windows":5,"scene":"Informational text on clothing, health, and conferences"}
+{"neuron":10412,"pole":"low","cluster":1,"mode":"Article 'the' inside technical or academic sentences","scene_windows":0,"windows":5,"scene":"Academic and technical informational text"}
+{"neuron":10701,"pole":"high","cluster":0,"mode":"Pronoun, article, or auxiliary after a subject in social commentary","scene_windows":0,"windows":5,"scene":"Essays on prisons, poverty, and compost"}
+{"neuron":10701,"pole":"high","cluster":1,"mode":"Partial digit within a year or number, mid-token","scene_windows":0,"windows":5,"scene":"Statistics, reports, and historical dates"}
+{"neuron":10701,"pole":"high","cluster":2,"mode":"Adverb placed after a subject in narrative action","scene_windows":0,"windows":5,"scene":"Fiction narration with characters reacting"}
+{"neuron":10701,"pole":"low","cluster":0,"mode":"Technical nouns or verbs in networking and data descriptions","scene_windows":0,"windows":5,"scene":"Technical explanations of networks and statistics"}
+{"neuron":10701,"pole":"low","cluster":1,"mode":"Comma or 'the' mid-sentence in extended expository clauses","scene_windows":0,"windows":5,"scene":"Essays on policy, society, and history"}
+{"neuron":10701,"pole":"low","cluster":2,"mode":"Abstract nouns ending a phrase about ability or development","scene_windows":0,"windows":5,"scene":"Discussion of education, intelligence, and research"}
+{"neuron":10701,"pole":"low","cluster":3,"mode":"Name or title fragments inside proper nouns and book titles","scene_windows":0,"windows":5,"scene":"Lists of books, cartoons, and characters"}
+{"neuron":10931,"pole":"high","cluster":0,"mode":"Digit within page numbers or citation references","scene_windows":0,"windows":5,"scene":"Scholarly citations and religious text references"}
+{"neuron":10931,"pole":"high","cluster":1,"mode":"Country or city proper noun ending a phrase","scene_windows":0,"windows":5,"scene":"Economic, energy, and historical informational text"}
+{"neuron":10931,"pole":"high","cluster":2,"mode":"Function word 'of', 'had', or 'was' in fiction narration","scene_windows":0,"windows":5,"scene":"Narrative fiction and descriptive storytelling"}
+{"neuron":10931,"pole":"high","cluster":3,"mode":"Noun completing a product or technical phrase","scene_windows":0,"windows":5,"scene":"Product advertising and technical descriptions"}
+{"neuron":10931,"pole":"low","cluster":0,"mode":"Abstract or descriptive nouns ending historical or art phrases","scene_windows":0,"windows":5,"scene":"Historical and art history descriptions"}
+{"neuron":10931,"pole":"low","cluster":1,"mode":"Comma ending a clause in general explanatory sentences","scene_windows":0,"windows":5,"scene":"Explanatory text on environment, music, and jobs"}
+{"neuron":10931,"pole":"low","cluster":2,"mode":"Institutional or social nouns like court, church, country, agents","scene_windows":0,"windows":5,"scene":"Historical narrative and film plot summaries"}

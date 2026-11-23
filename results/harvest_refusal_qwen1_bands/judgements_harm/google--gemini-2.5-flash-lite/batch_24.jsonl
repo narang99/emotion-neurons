@@ -1,0 +1,80 @@
+{"neuron":10857,"pole":"high","cluster":0,"mode":"asking for information about specific topics","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10857,"pole":"high","cluster":1,"mode":"asking for more details or clarification","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10857,"pole":"high","cluster":2,"mode":"explaining concepts or processes with detailed information","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10857,"pole":"high","cluster":3,"mode":"explaining how something works or why it happened","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":10857,"pole":"high","cluster":4,"mode":"expressing positive affirmation or agreement","scene_windows":0,"windows":5,"scene":"neutral affirmation"}
+{"neuron":10857,"pole":"high","cluster":5,"mode":"discussing timeframes and durations","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":10857,"pole":"high","cluster":6,"mode":"defining terms or concepts","scene_windows":0,"windows":5,"scene":"neutral definition"}
+{"neuron":10857,"pole":"high","cluster":7,"mode":"providing descriptive details about food or experiences","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10857,"pole":"high","cluster":8,"mode":"describing outcomes or consequences","scene_windows":0,"windows":5,"scene":"neutral outcome description"}
+{"neuron":10857,"pole":"high","cluster":9,"mode":"explaining financial concepts and currency","scene_windows":0,"windows":5,"scene":"neutral financial explanation"}
+{"neuron":10857,"pole":"low","cluster":0,"mode":"listing authors or researchers","scene_windows":0,"windows":5,"scene":"neutral citation"}
+{"neuron":10857,"pole":"low","cluster":1,"mode":"discussing potential cross-reactivity or effectiveness","scene_windows":0,"windows":5,"scene":"neutral medical discussion"}
+{"neuron":10857,"pole":"low","cluster":2,"mode":"apologizing for confusion or errors","scene_windows":0,"windows":5,"scene":"neutral apology"}
+{"neuron":10857,"pole":"low","cluster":3,"mode":"offering to provide instant coffee","scene_windows":0,"windows":5,"scene":"neutral offer"}
+{"neuron":10857,"pole":"low","cluster":4,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":6039,"pole":"high","cluster":0,"mode":"discussing actions and their outcomes","scene_windows":0,"windows":5,"scene":"neutral action discussion"}
+{"neuron":6039,"pole":"high","cluster":1,"mode":"discussing freedom of speech and its limitations","scene_windows":0,"windows":5,"scene":"neutral free speech discussion"}
+{"neuron":6039,"pole":"low","cluster":0,"mode":"offering further elaboration or clarification","scene_windows":0,"windows":5,"scene":"neutral offer"}
+{"neuron":6039,"pole":"low","cluster":1,"mode":"offering to get in touch for comments or questions","scene_windows":0,"windows":5,"scene":"neutral contact offer"}
+{"neuron":6039,"pole":"low","cluster":2,"mode":"expressing desire to know information","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":6039,"pole":"low","cluster":3,"mode":"offering thanks for suggestions or assistance","scene_windows":0,"windows":5,"scene":"neutral gratitude"}
+{"neuron":6039,"pole":"low","cluster":4,"mode":"asking for positive adjectives","scene_windows":0,"windows":5,"scene":"neutral adjective seeking"}
+{"neuron":6039,"pole":"low","cluster":5,"mode":"expressing interest in learning","scene_windows":0,"windows":5,"scene":"neutral interest expression"}
+{"neuron":6039,"pole":"low","cluster":6,"mode":"asking for clarification or more information","scene_windows":0,"windows":5,"scene":"neutral clarification seeking"}
+{"neuron":6039,"pole":"low","cluster":7,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":6039,"pole":"low","cluster":8,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":6039,"pole":"low","cluster":9,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":6039,"pole":"low","cluster":10,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":6039,"pole":"low","cluster":11,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":6039,"pole":"low","cluster":12,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":6039,"pole":"low","cluster":13,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":7076,"pole":"high","cluster":0,"mode":"asking for clarification or more information","scene_windows":0,"windows":5,"scene":"neutral clarification seeking"}
+{"neuron":7076,"pole":"high","cluster":1,"mode":"requesting translation of text","scene_windows":0,"windows":5,"scene":"neutral translation request"}
+{"neuron":7076,"pole":"high","cluster":2,"mode":"asking for instructions or guidance","scene_windows":0,"windows":5,"scene":"neutral instruction seeking"}
+{"neuron":7076,"pole":"high","cluster":3,"mode":"asking for advice or strategies","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":7076,"pole":"high","cluster":4,"mode":"asking for elaboration or explanation","scene_windows":0,"windows":5,"scene":"neutral elaboration seeking"}
+{"neuron":7076,"pole":"high","cluster":5,"mode":"asking for more information or details","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":7076,"pole":"high","cluster":6,"mode":"asking for assistance or help","scene_windows":0,"windows":5,"scene":"neutral assistance seeking"}
+{"neuron":7076,"pole":"low","cluster":0,"mode":"offering advice on safety and seeking professional help","scene_windows":0,"windows":5,"scene":"neutral safety advice"}
+{"neuron":7076,"pole":"low","cluster":1,"mode":"offering support for mental health concerns","scene_windows":0,"windows":5,"scene":"neutral mental health support"}
+{"neuron":7076,"pole":"low","cluster":2,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":7076,"pole":"low","cluster":3,"mode":"asking for clarification or further information about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":7145,"pole":"high","cluster":0,"mode":"describing the act of exhaling smoke or breath","scene_windows":0,"windows":5,"scene":"neutral action description"}
+{"neuron":7145,"pole":"high","cluster":1,"mode":"describing the process of drying or preventing dryness","scene_windows":0,"windows":5,"scene":"neutral process description"}
+{"neuron":7145,"pole":"high","cluster":2,"mode":"discussing choices and experiences","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":7145,"pole":"high","cluster":3,"mode":"describing the removal of something","scene_windows":0,"windows":5,"scene":"neutral removal description"}
+{"neuron":7145,"pole":"low","cluster":0,"mode":"offering advice on safety and seeking professional help","scene_windows":0,"windows":5,"scene":"neutral safety advice"}
+{"neuron":7145,"pole":"low","cluster":1,"mode":"offering support for mental health concerns","scene_windows":0,"windows":5,"scene":"neutral mental health support"}
+{"neuron":3059,"pole":"high","cluster":0,"mode":"expressing apologies or regret","scene_windows":0,"windows":5,"scene":"neutral apology"}
+{"neuron":3059,"pole":"high","cluster":1,"mode":"describing actions of getting up or making something","scene_windows":0,"windows":5,"scene":"neutral action description"}
+{"neuron":3059,"pole":"high","cluster":2,"mode":"code snippets with comments","scene_windows":0,"windows":5,"scene":"neutral code"}
+{"neuron":3059,"pole":"high","cluster":3,"mode":"discussing materials or products","scene_windows":0,"windows":5,"scene":"neutral product discussion"}
+{"neuron":3059,"pole":"high","cluster":4,"mode":"discussing financial figures and sales","scene_windows":0,"windows":5,"scene":"neutral financial discussion"}
+{"neuron":3059,"pole":"low","cluster":0,"mode":"asking for assistance or help","scene_windows":0,"windows":5,"scene":"neutral assistance seeking"}
+{"neuron":3059,"pole":"low","cluster":1,"mode":"checking internal temperature of food","scene_windows":0,"windows":5,"scene":"neutral cooking instruction"}
+{"neuron":3059,"pole":"low","cluster":2,"mode":"describing actions or measurements with parenthetical details","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":3059,"pole":"low","cluster":3,"mode":"asking for clarification or more information","scene_windows":0,"windows":5,"scene":"neutral clarification seeking"}
+{"neuron":3059,"pole":"low","cluster":4,"mode":"listing ingredients with quantities","scene_windows":0,"windows":5,"scene":"neutral recipe ingredient"}
+{"neuron":3059,"pole":"low","cluster":5,"mode":"guessing the answer to a riddle","scene_windows":0,"windows":5,"scene":"neutral riddle guessing"}
+{"neuron":3059,"pole":"low","cluster":6,"mode":"discussing personal pronouns and actions","scene_windows":0,"windows":5,"scene":"neutral personal narrative"}
+{"neuron":3059,"pole":"low","cluster":7,"mode":"expressing personal feelings or thoughts about a situation","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":5966,"pole":"high","cluster":0,"mode":"expressing affirmation or agreement","scene_windows":0,"windows":5,"scene":"neutral affirmation"}
+{"neuron":5966,"pole":"high","cluster":1,"mode":"requesting more information or details","scene_windows":0,"windows":5,"scene":"neutral information seeking"}
+{"neuron":5966,"pole":"high","cluster":2,"mode":"asking for specific types of information or examples","scene_windows":0,"windows":5,"scene":"neutral specific information seeking"}
+{"neuron":5966,"pole":"high","cluster":3,"mode":"requesting additional information or details","scene_windows":0,"windows":5,"scene":"neutral additional information seeking"}
+{"neuron":5966,"pole":"high","cluster":4,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":5966,"pole":"high","cluster":5,"mode":"discussing business or project management","scene_windows":0,"windows":5,"scene":"neutral business discussion"}
+{"neuron":5966,"pole":"high","cluster":6,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":5966,"pole":"high","cluster":7,"mode":"discussing signs or indications","scene_windows":0,"windows":5,"scene":"neutral indication discussion"}
+{"neuron":5966,"pole":"high","cluster":8,"mode":"offering further assistance or clarification","scene_windows":0,"windows":5,"scene":"neutral offer"}
+{"neuron":5966,"pole":"high","cluster":9,"mode":"asking for advice or help","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":5966,"pole":"high","cluster":10,"mode":"asking questions about identity or purpose","scene_windows":0,"windows":5,"scene":"neutral identity question"}
+{"neuron":5966,"pole":"high","cluster":11,"mode":"asking questions about suitability or process","scene_windows":0,"windows":5,"scene":"neutral suitability question"}
+{"neuron":5966,"pole":"low","cluster":0,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":5966,"pole":"low","cluster":1,"mode":"offering assistance or help","scene_windows":0,"windows":5,"scene":"neutral assistance offer"}
+{"neuron":5966,"pole":"low","cluster":2,"mode":"offering further assistance or clarification","scene_windows":0,"windows":5,"scene":"neutral offer"}
+{"neuron":5966,"pole":"low","cluster":3,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":5966,"pole":"low","cluster":4,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":5966,"pole":"low","cluster":5,"mode":"discussing personal pronouns and actions","scene_windows":0,"windows":5,"scene":"neutral personal narrative"}
+{"neuron":5966,"pole":"low","cluster":6,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"neutral dialogue"}

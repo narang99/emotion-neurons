@@ -1,0 +1,64 @@
+{"neuron":11976,"pole":"high","cluster":0,"mode":"narrative punctuation and conjunctions connecting clauses","scene_windows":1,"windows":5,"scene":"moment of realization or fear"}
+{"neuron":11976,"pole":"high","cluster":1,"mode":"childhood narrative, character's emotional state","scene_windows":0,"windows":5,"scene":"childhood story, mild distress"}
+{"neuron":11976,"pole":"low","cluster":0,"mode":"dialogue markers, pauses, and conversational fillers","scene_windows":0,"windows":5,"scene":"conversation, neutral tone"}
+{"neuron":11976,"pole":"low","cluster":1,"mode":"childhood narrative, character's emotional state","scene_windows":0,"windows":5,"scene":"childhood story, mild distress"}
+{"neuron":11976,"pole":"low","cluster":2,"mode":"dialogue markers, pauses, and conversational fillers","scene_windows":0,"windows":5,"scene":"conversation, neutral tone"}
+{"neuron":11976,"pole":"low","cluster":3,"mode":"dialogue markers, pauses, and conversational fillers","scene_windows":0,"windows":5,"scene":"conversation, neutral tone"}
+{"neuron":11976,"pole":"low","cluster":4,"mode":"descriptive narration, sensory details","scene_windows":0,"windows":5,"scene":"descriptive scene, neutral"}
+{"neuron":11976,"pole":"low","cluster":5,"mode":"childhood narrative, character's emotional state","scene_windows":0,"windows":5,"scene":"childhood story, mild distress"}
+{"neuron":8415,"pole":"high","cluster":0,"mode":"childhood narrative, positive outcomes","scene_windows":0,"windows":5,"scene":"childhood story, happy ending"}
+{"neuron":8415,"pole":"high","cluster":1,"mode":"technical or factual descriptions, specific contexts","scene_windows":0,"windows":5,"scene":"factual description, neutral"}
+{"neuron":8415,"pole":"high","cluster":2,"mode":"informative text, advice, or explanations","scene_windows":0,"windows":5,"scene":"informative text, neutral"}
+{"neuron":8415,"pole":"low","cluster":0,"mode":"narrative markers, dialogue, and actions","scene_windows":0,"windows":5,"scene":"narrative, neutral tone"}
+{"neuron":8415,"pole":"low","cluster":1,"mode":"childhood narrative, character's emotional state","scene_windows":0,"windows":5,"scene":"childhood story, mild distress"}
+{"neuron":8415,"pole":"low","cluster":2,"mode":"childhood narrative, character's emotional state","scene_windows":0,"windows":5,"scene":"childhood story, mild distress"}
+{"neuron":8415,"pole":"low","cluster":3,"mode":"descriptive narration, adjectives","scene_windows":0,"windows":5,"scene":"descriptive scene, neutral"}
+{"neuron":8415,"pole":"low","cluster":4,"mode":"childhood narrative, character's emotional state","scene_windows":0,"windows":5,"scene":"childhood story, mild distress"}
+{"neuron":8415,"pole":"low","cluster":5,"mode":"childhood narrative, positive outcomes","scene_windows":0,"windows":5,"scene":"childhood story, happy ending"}
+{"neuron":8485,"pole":"high","cluster":0,"mode":"narrative markers, actions, and sensory details","scene_windows":0,"windows":5,"scene":"narrative, neutral tone"}
+{"neuron":8485,"pole":"high","cluster":1,"mode":"childhood narrative, character's emotional state","scene_windows":0,"windows":5,"scene":"childhood story, mild distress"}
+{"neuron":8485,"pole":"low","cluster":0,"mode":"childhood narrative, discovery","scene_windows":0,"windows":5,"scene":"childhood story, discovery"}
+{"neuron":8485,"pole":"low","cluster":1,"mode":"childhood narrative, character's desire","scene_windows":0,"windows":5,"scene":"childhood story, desire"}
+{"neuron":8485,"pole":"low","cluster":2,"mode":"childhood narrative, character's state","scene_windows":0,"windows":5,"scene":"childhood story, neutral"}
+{"neuron":8485,"pole":"low","cluster":3,"mode":"descriptive narration, adjectives","scene_windows":0,"windows":5,"scene":"descriptive scene, neutral"}
+{"neuron":8485,"pole":"low","cluster":4,"mode":"childhood narrative, discovery","scene_windows":0,"windows":5,"scene":"childhood story, discovery"}
+{"neuron":8485,"pole":"low","cluster":5,"mode":"actions, possession, and movement","scene_windows":0,"windows":5,"scene":"action, neutral tone"}
+{"neuron":5989,"pole":"high","cluster":0,"mode":"references to media, historical context, and societal issues","scene_windows":0,"windows":5,"scene":"societal commentary, historical"}
+{"neuron":5989,"pole":"high","cluster":1,"mode":"dialogue, actions, and emotional reactions","scene_windows":0,"windows":5,"scene":"dialogue, tense situation"}
+{"neuron":5989,"pole":"high","cluster":2,"mode":"discussion of societal issues, business, and technology","scene_windows":0,"windows":5,"scene":"discussion, neutral tone"}
+{"neuron":5989,"pole":"low","cluster":0,"mode":"narrative markers, actions, and possession","scene_windows":0,"windows":5,"scene":"narrative, neutral tone"}
+{"neuron":5989,"pole":"low","cluster":1,"mode":"dialogue markers, conjunctions, and pronouns","scene_windows":0,"windows":5,"scene":"dialogue, neutral tone"}
+{"neuron":5989,"pole":"low","cluster":2,"mode":"actions, emotional states, and consequences","scene_windows":0,"windows":5,"scene":"action, negative consequence"}
+{"neuron":3497,"pole":"high","cluster":0,"mode":"narrative markers, actions, and emotional states","scene_windows":0,"windows":5,"scene":"narrative, emotional"}
+{"neuron":3497,"pole":"high","cluster":1,"mode":"dialogue, actions, and conditional statements","scene_windows":0,"windows":5,"scene":"dialogue, tense situation"}
+{"neuron":3497,"pole":"low","cluster":0,"mode":"narrative markers, actions, and conjunctions","scene_windows":0,"windows":5,"scene":"narrative, neutral tone"}
+{"neuron":3497,"pole":"low","cluster":1,"mode":"childhood narrative, character's desire","scene_windows":0,"windows":5,"scene":"childhood story, desire"}
+{"neuron":3497,"pole":"low","cluster":2,"mode":"actions, emotional states, and consequences","scene_windows":0,"windows":5,"scene":"action, negative consequence"}
+{"neuron":3497,"pole":"low","cluster":3,"mode":"childhood narrative, emotional states","scene_windows":0,"windows":5,"scene":"childhood story, emotional"}
+{"neuron":3497,"pole":"low","cluster":4,"mode":"childhood narrative, discovery","scene_windows":0,"windows":5,"scene":"childhood story, discovery"}
+{"neuron":2792,"pole":"high","cluster":0,"mode":"dialogue, pronouns, and emotional states","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":2792,"pole":"high","cluster":1,"mode":"dialogue markers, conversational fillers, and questions","scene_windows":0,"windows":5,"scene":"dialogue, neutral tone"}
+{"neuron":2792,"pole":"low","cluster":0,"mode":"narrative markers, actions, and conjunctions","scene_windows":0,"windows":5,"scene":"narrative, neutral tone"}
+{"neuron":2792,"pole":"low","cluster":1,"mode":"dialogue, emotional states, and consequences","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":2792,"pole":"low","cluster":2,"mode":"dialogue, actions, and emotional states","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":2792,"pole":"low","cluster":3,"mode":"dialogue, actions, and emotional states","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":2792,"pole":"low","cluster":4,"mode":"actions, possession, and emotional states","scene_windows":0,"windows":5,"scene":"action, emotional"}
+{"neuron":2792,"pole":"low","cluster":5,"mode":"actions, emotional states, and consequences","scene_windows":0,"windows":5,"scene":"action, emotional"}
+{"neuron":6028,"pole":"high","cluster":0,"mode":"actions, emotional states, and narrative markers","scene_windows":0,"windows":5,"scene":"action, emotional"}
+{"neuron":6028,"pole":"high","cluster":1,"mode":"instructions, yoga poses, and body parts","scene_windows":0,"windows":5,"scene":"instructional text, neutral"}
+{"neuron":6028,"pole":"low","cluster":0,"mode":"cooking instructions, ingredients, and actions","scene_windows":0,"windows":5,"scene":"recipe, neutral"}
+{"neuron":6028,"pole":"low","cluster":1,"mode":"dialogue markers, conversational fillers, and exclamations","scene_windows":0,"windows":5,"scene":"dialogue, tense situation"}
+{"neuron":6028,"pole":"low","cluster":2,"mode":"dialogue markers, conversational fillers, and exclamations","scene_windows":0,"windows":5,"scene":"dialogue, tense situation"}
+{"neuron":6028,"pole":"low","cluster":3,"mode":"actions, possession, and emotional states","scene_windows":0,"windows":5,"scene":"action, emotional"}
+{"neuron":6028,"pole":"low","cluster":4,"mode":"actions, possession, and emotional states","scene_windows":0,"windows":5,"scene":"action, emotional"}
+{"neuron":6028,"pole":"low","cluster":5,"mode":"actions, possession, and emotional states","scene_windows":0,"windows":5,"scene":"action, emotional"}
+{"neuron":6877,"pole":"high","cluster":0,"mode":"dialogue, actions, and emotional states","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":6877,"pole":"high","cluster":1,"mode":"dialogue, emotional states, and contractions","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":6877,"pole":"high","cluster":2,"mode":"dialogue, onomatopoeia, and actions","scene_windows":0,"windows":5,"scene":"dialogue, onomatopoeia"}
+{"neuron":6877,"pole":"high","cluster":3,"mode":"dialogue, emotional states, and pronouns","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":6877,"pole":"high","cluster":4,"mode":"dialogue, emotional states, and societal commentary","scene_windows":0,"windows":5,"scene":"dialogue, societal commentary"}
+{"neuron":6877,"pole":"high","cluster":5,"mode":"dialogue, emotional states, and contractions","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":6877,"pole":"low","cluster":0,"mode":"narrative markers, actions, and conjunctions","scene_windows":0,"windows":5,"scene":"narrative, neutral tone"}
+{"neuron":6877,"pole":"low","cluster":1,"mode":"dialogue, emotional states, and adverbs","scene_windows":0,"windows":5,"scene":"dialogue, emotional"}
+{"neuron":6877,"pole":"low","cluster":2,"mode":"dialogue markers, conversational fillers, and exclamations","scene_windows":0,"windows":5,"scene":"dialogue, tense situation"}
+{"neuron":6877,"pole":"low","cluster":3,"mode":"actions, emotional states, and consequences","scene_windows":0,"windows":5,"scene":"action, negative consequence"}

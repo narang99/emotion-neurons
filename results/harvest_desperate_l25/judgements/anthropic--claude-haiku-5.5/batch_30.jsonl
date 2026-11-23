@@ -1,0 +1,50 @@
+{"neuron":8305,"pole":"high","cluster":0,"mode":"Possessive pronoun (her/his) referring back to a parent or family member","scene_windows":0,"windows":5,"scene":"Simple children's stories about kids and their moms"}
+{"neuron":8305,"pole":"high","cluster":1,"mode":"Emotional adjective or pronoun after a character's reaction in a simple story","scene_windows":0,"windows":5,"scene":"Cheerful or fearful moments in children's stories"}
+{"neuron":8305,"pole":"high","cluster":2,"mode":"'little' in the stock opening 'there was a little girl/boy'","scene_windows":0,"windows":5,"scene":"Formulaic 'Once upon a time' children's story openings"}
+{"neuron":8305,"pole":"low","cluster":0,"mode":"Comma after the stock phrase 'Once upon a time'","scene_windows":0,"windows":5,"scene":"Formulaic 'Once upon a time' children's story openings"}
+{"neuron":8305,"pole":"low","cluster":1,"mode":"Subject pronoun or adjective describing a character's feelings or actions","scene_windows":0,"windows":5,"scene":"Reflective or everyday narrative about regret, effort, or play"}
+{"neuron":11593,"pole":"high","cluster":0,"mode":"Possessive or object pronoun referring to a person's body or face","scene_windows":0,"windows":5,"scene":"Emotional literary narration about tears, faces, and grief"}
+{"neuron":11593,"pole":"high","cluster":1,"mode":"'you' as object of love, miss, or belief in an emotional appeal","scene_windows":1,"windows":5,"scene":"Tender declarations and reassurance between family or friends"}
+{"neuron":11593,"pole":"high","cluster":2,"mode":"Conjunction or comma after a character's gesture like smiled or nodded","scene_windows":0,"windows":5,"scene":"Calm dialogue scenes with characters smiling or nodding"}
+{"neuron":11593,"pole":"low","cluster":0,"mode":"Sentence-ending punctuation or subject pronoun in tense literary narration","scene_windows":0,"windows":5,"scene":"Dark or uneasy literary fiction with awkward moments"}
+{"neuron":11593,"pole":"low","cluster":1,"mode":"Pronoun 'he' or 'she' after a happy or excited sentence in a simple story","scene_windows":0,"windows":5,"scene":"Simple children's stories about happy characters"}
+{"neuron":3536,"pole":"high","cluster":0,"mode":"Mid-sentence word after a character's state, like unable, unsure, could, to, done","scene_windows":1,"windows":5,"scene":"Tense fiction with characters struggling or uncertain"}
+{"neuron":3536,"pole":"high","cluster":1,"mode":"Punctuation or tokens inside code, citations, names, and data strings","scene_windows":0,"windows":5,"scene":"Code snippets, citations, and mixed technical text"}
+{"neuron":3536,"pole":"low","cluster":0,"mode":"'to' or 'provides' in advice about tools and platforms","scene_windows":0,"windows":5,"scene":"Business and marketing advice listicles"}
+{"neuron":3536,"pole":"low","cluster":1,"mode":"Closing brackets, nextLine, or operators inside code","scene_windows":0,"windows":5,"scene":"Programming code examples"}
+{"neuron":3536,"pole":"low","cluster":2,"mode":"Subject or noun after 'the little' in a children's story","scene_windows":0,"windows":5,"scene":"Gentle children's stories about kids and animals"}
+{"neuron":3536,"pole":"low","cluster":3,"mode":"Pronoun 'I' or 'they' starting a clause in first-person narration","scene_windows":0,"windows":5,"scene":"First-person reflective or dialogue narration"}
+{"neuron":3536,"pole":"low","cluster":4,"mode":"'and' after a character's happy or upset state","scene_windows":0,"windows":5,"scene":"Simple children's stories about feelings"}
+{"neuron":3536,"pole":"low","cluster":5,"mode":"Nouns like information, tactics, merits in advisory text","scene_windows":0,"windows":5,"scene":"Advisory text on public relations and policy"}
+{"neuron":3536,"pole":"low","cluster":6,"mode":"Emotional adjective or pronoun after a character's feeling in a children's story","scene_windows":0,"windows":5,"scene":"Simple children's stories about happy or scared kids"}
+{"neuron":8498,"pole":"high","cluster":0,"mode":"Conjunction or adverb such as but, also, awful after a contrast in personal narration","scene_windows":0,"windows":5,"scene":"Personal anecdotes and light everyday stories"}
+{"neuron":8498,"pole":"high","cluster":1,"mode":"'Even' or 'even' introducing a concessive clause","scene_windows":0,"windows":5,"scene":"Descriptive and reflective prose about persistence"}
+{"neuron":8498,"pole":"low","cluster":0,"mode":"Final word or comma before a list or clause in descriptive prose","scene_windows":0,"windows":5,"scene":"Descriptive prose on islands, ghosts, and services"}
+{"neuron":8498,"pole":"low","cluster":1,"mode":"Verb 'knew' or 'know' about a character's certainty","scene_windows":0,"windows":5,"scene":"First-person narration about knowing or planning"}
+{"neuron":4528,"pole":"high","cluster":0,"mode":"'the' before a place or proper noun in news","scene_windows":0,"windows":5,"scene":"News about geopolitics, prisons, and government"}
+{"neuron":4528,"pole":"high","cluster":1,"mode":"Noun completing a named place, landmark, or institution","scene_windows":0,"windows":5,"scene":"Travel and encyclopedic text on cities and landmarks"}
+{"neuron":4528,"pole":"high","cluster":2,"mode":"Food or ingredient noun in a recipe or list","scene_windows":0,"windows":5,"scene":"Recipes and food suggestions in chat replies"}
+{"neuron":4528,"pole":"high","cluster":3,"mode":"Word choice in a clause about knowing or quitting or wanting","scene_windows":0,"windows":5,"scene":"Tense dialogue and character reflection"}
+{"neuron":4528,"pole":"high","cluster":4,"mode":"Punctuation or opening quote at dialogue turn boundaries","scene_windows":0,"windows":5,"scene":"Dialogue scenes between characters in fiction"}
+{"neuron":4528,"pole":"high","cluster":5,"mode":"Closing quotation mark or punctuation in dialogue","scene_windows":0,"windows":5,"scene":"Dramatic fiction dialogue with tense exchanges"}
+{"neuron":4528,"pole":"low","cluster":0,"mode":"Noun ending a specialized term like seekers, service, contributions, scholarships","scene_windows":0,"windows":5,"scene":"Explanations of finance, refugees, and careers"}
+{"neuron":4528,"pole":"low","cluster":1,"mode":"Modal or auxiliary word in a plan or tense narrative clause","scene_windows":1,"windows":5,"scene":"Tense fiction about plans, threats, and confrontations"}
+{"neuron":4528,"pole":"low","cluster":2,"mode":"'play' or 'danced' after a happy child or animal subject","scene_windows":0,"windows":5,"scene":"Simple children's stories about playing"}
+{"neuron":6654,"pole":"high","cluster":0,"mode":"Preposition 'to' after a motion verb like ran or sailed","scene_windows":0,"windows":5,"scene":"Simple children's stories about going somewhere"}
+{"neuron":6654,"pole":"high","cluster":1,"mode":"Preposition 'in' or 'from' after a location or container noun","scene_windows":0,"windows":5,"scene":"Simple stories and shop narration about objects"}
+{"neuron":6654,"pole":"high","cluster":2,"mode":"Connective like but, because, maybe after a clause in dialogue or narration","scene_windows":0,"windows":5,"scene":"Casual dialogue and conversational narration"}
+{"neuron":6654,"pole":"high","cluster":3,"mode":"Sentence-ending period at the close of a story's opening sentence","scene_windows":0,"windows":5,"scene":"Opening lines of children's stories about a character"}
+{"neuron":6654,"pole":"low","cluster":0,"mode":"Comma after the stock phrase 'Once upon a time'","scene_windows":0,"windows":5,"scene":"Formulaic 'Once upon a time' children's story openings"}
+{"neuron":6654,"pole":"low","cluster":1,"mode":"Subject pronoun or name starting the sentence after a character introduction","scene_windows":0,"windows":5,"scene":"Simple children's stories introducing a girl or boy"}
+{"neuron":6654,"pole":"low","cluster":2,"mode":"'there' right after the stock phrase 'Once upon a time'","scene_windows":0,"windows":5,"scene":"Formulaic 'Once upon a time' children's story openings"}
+{"neuron":11159,"pole":"high","cluster":0,"mode":"Digits, punctuation, or spacing inside citations and timestamps","scene_windows":0,"windows":5,"scene":"Citations, timestamps, and reference lists"}
+{"neuron":11159,"pole":"high","cluster":1,"mode":"Pronoun or comma after a character's action in dramatic fiction","scene_windows":0,"windows":5,"scene":"Dramatic fiction about accidents and encounters"}
+{"neuron":11159,"pole":"high","cluster":2,"mode":"'the' or 'but' in a clause about effort or completion","scene_windows":0,"windows":5,"scene":"Stories about recovery, helpfulness, and clean-up"}
+{"neuron":11159,"pole":"low","cluster":0,"mode":"Period or 'but' closing a clause about a character's reaction","scene_windows":0,"windows":5,"scene":"Narrative about friends, sailing, and tension"}
+{"neuron":11159,"pole":"low","cluster":1,"mode":"'named' after a character noun in a story opening","scene_windows":0,"windows":5,"scene":"Formulaic children's story introductions with named characters"}
+{"neuron":11103,"pole":"high","cluster":0,"mode":"Word fragment or 'the' in the moral or closing of a children's story","scene_windows":0,"windows":5,"scene":"Simple children's stories with morals and outings"}
+{"neuron":11103,"pole":"high","cluster":1,"mode":"Verb 'run', 'ran', or 'home' after a frightening threat","scene_windows":2,"windows":5,"scene":"Frightened characters fleeing monsters or threats"}
+{"neuron":11103,"pole":"high","cluster":2,"mode":"Technical noun modifier like security, system, power, productivity","scene_windows":0,"windows":5,"scene":"Technology, business, and dance descriptions"}
+{"neuron":11103,"pole":"low","cluster":0,"mode":"Medical or treatment noun like surgery, therapy, vaccine, approaches","scene_windows":0,"windows":5,"scene":"Medical and health explanatory text"}
+{"neuron":11103,"pole":"low","cluster":1,"mode":"Noun or word ending a clause about place, lives, or papers","scene_windows":0,"windows":5,"scene":"Fantasy and adventure narration with dialogue"}
+{"neuron":11103,"pole":"low","cluster":2,"mode":"Opening quotation mark starting a new line of dialogue","scene_windows":1,"windows":5,"scene":"Dialogue in fantasy or dramatic fiction"}

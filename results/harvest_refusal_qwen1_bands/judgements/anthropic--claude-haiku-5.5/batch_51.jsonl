@@ -1,0 +1,77 @@
+{"neuron":7448,"pole":"high","cluster":0,"mode":"\"no way\" meaning impossibility or lack of means","scene_windows":0,"windows":5,"scene":"Expository or narrative text about security and impossibility"}
+{"neuron":7448,"pole":"high","cluster":1,"mode":"\"something about\" expressing an unexplained vague quality","scene_windows":0,"windows":5,"scene":"Narrative suspense about strange people or objects"}
+{"neuron":7448,"pole":"high","cluster":2,"mode":"\"how\" introducing a request for explanation in user questions","scene_windows":0,"windows":5,"scene":"User asking for explanations on technical or general topics"}
+{"neuron":7448,"pole":"high","cluster":3,"mode":"\"how\" after uncertainty verbs like not sure or don't know","scene_windows":0,"windows":5,"scene":"First-person narrative expressing personal uncertainty"}
+{"neuron":7448,"pole":"high","cluster":4,"mode":"\"do\" in the question \"How do...\" at turn start","scene_windows":0,"windows":5,"scene":"Short human questions to an assistant on everyday tasks"}
+{"neuron":7448,"pole":"high","cluster":5,"mode":"\"sort\" in the phrase \"some sort of\"","scene_windows":0,"windows":5,"scene":"News, speculation, or explanatory prose about unclear events"}
+{"neuron":7448,"pole":"high","cluster":6,"mode":"\"does\" in a How-question following a passage","scene_windows":0,"windows":5,"scene":"Human questions about product mechanisms after an informational passage"}
+{"neuron":7448,"pole":"high","cluster":7,"mode":"\"did\" in \"how did you/I\" questions","scene_windows":0,"windows":5,"scene":"Tense dialogue where characters question intruders or past events"}
+{"neuron":7448,"pole":"high","cluster":8,"mode":"\"about\"/\"on\" after requests for more information","scene_windows":0,"windows":5,"scene":"User requests for more details in informational chats"}
+{"neuron":7448,"pole":"high","cluster":9,"mode":"\"Somehow\" introducing surprising or unexplained outcomes","scene_windows":0,"windows":5,"scene":"Fiction narrating surprising or inexplicable events"}
+{"neuron":7448,"pole":"high","cluster":10,"mode":"\"of\"/\"in\" mid-phrase within expository noun phrases","scene_windows":0,"windows":5,"scene":"Expository essays on culture, society, and science"}
+{"neuron":7448,"pole":"high","cluster":11,"mode":"\"to\" after \"how\" in requests about getting involved","scene_windows":0,"windows":5,"scene":"Event, class, and hobby information for users"}
+{"neuron":7448,"pole":"low","cluster":0,"mode":"\"still\" meaning persisting over time","scene_windows":0,"windows":5,"scene":"Encyclopedic descriptions of traditions and artifacts"}
+{"neuron":7448,"pole":"low","cluster":1,"mode":"\"and\" joining adjectives or nouns in descriptive lists","scene_windows":0,"windows":5,"scene":"Descriptive or promotional prose on life and music"}
+{"neuron":7448,"pole":"low","cluster":2,"mode":"\"the\" preceding topical nouns in informational sentences","scene_windows":0,"windows":5,"scene":"Informational text on PR, programs, and religion"}
+{"neuron":6183,"pole":"high","cluster":0,"mode":"colon after \"Human\" turn label","scene_windows":0,"windows":5,"scene":"Multi-turn assistant chats on health and finance"}
+{"neuron":6183,"pole":"high","cluster":1,"mode":"closing quotation mark or space ending dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with sharp or demanding lines"}
+{"neuron":6183,"pole":"high","cluster":2,"mode":"blank-space paragraph breaks after narrative sentences","scene_windows":0,"windows":5,"scene":"First-person fiction with dramatic moments"}
+{"neuron":6183,"pole":"high","cluster":3,"mode":"trailing space token after complete sentence","scene_windows":0,"windows":5,"scene":"Assistant responses on art, fuel, and names"}
+{"neuron":6183,"pole":"high","cluster":4,"mode":"period followed by extra spaces before a Human turn","scene_windows":0,"windows":5,"scene":"Assistant answers closing before a new user turn"}
+{"neuron":6183,"pole":"high","cluster":5,"mode":"commas inside scholarly verse-number citations","scene_windows":0,"windows":5,"scene":"Biblical source citation lists"}
+{"neuron":6183,"pole":"high","cluster":6,"mode":"comma joining clauses mid-sentence","scene_windows":0,"windows":5,"scene":"Essays and narratives with clause-joining commas"}
+{"neuron":6183,"pole":"high","cluster":7,"mode":"opening quotation mark starting dialogue","scene_windows":0,"windows":5,"scene":"Fantasy and mystery fiction dialogue"}
+{"neuron":6183,"pole":"low","cluster":0,"mode":"comma or parenthesis closing a parenthetical clause","scene_windows":0,"windows":5,"scene":"Historical and practical descriptive prose"}
+{"neuron":6183,"pole":"low","cluster":1,"mode":"space token after a sentence-ending period","scene_windows":0,"windows":5,"scene":"Expository text on technology and industry"}
+{"neuron":6183,"pole":"low","cluster":2,"mode":"space token after a definitional sentence","scene_windows":0,"windows":5,"scene":"Assistant definitions of concepts like nirvana and espionage"}
+{"neuron":9945,"pole":"high","cluster":0,"mode":"word-initial \"beg\" fragments inside longer words or names","scene_windows":0,"windows":5,"scene":"Varied news, plant, and travel text"}
+{"neuron":9945,"pole":"high","cluster":1,"mode":"colon after \"user\" turn label","scene_windows":0,"windows":5,"scene":"Multi-turn user and assistant chats"}
+{"neuron":9945,"pole":"high","cluster":2,"mode":"\"pap\" fragment in spice lists","scene_windows":0,"windows":5,"scene":"Recipes listing spices like paprika"}
+{"neuron":9945,"pole":"high","cluster":3,"mode":"question or period mark before a turn boundary","scene_windows":0,"windows":5,"scene":"Chat turns on drugs, rabies, and constitution text"}
+{"neuron":9945,"pole":"high","cluster":4,"mode":"\"Happy\" in closing pleasantries","scene_windows":0,"windows":5,"scene":"Assistant sign-offs after answers"}
+{"neuron":9945,"pole":"high","cluster":5,"mode":"\"happy/happiness\" referring to wellbeing","scene_windows":0,"windows":5,"scene":"Health and wellbeing informational text"}
+{"neuron":9945,"pole":"high","cluster":6,"mode":"\"happy\" in story and romance contexts","scene_windows":0,"windows":5,"scene":"Creative writing about endings and memories"}
+{"neuron":9945,"pole":"high","cluster":7,"mode":"\"happy\" after \"I'd be/I'm\" offers of help","scene_windows":0,"windows":5,"scene":"Assistant offers of further help"}
+{"neuron":9945,"pole":"high","cluster":8,"mode":"\"happy\" after \"I would be\" offering to help","scene_windows":0,"windows":5,"scene":"Assistant replies agreeing to help with tasks"}
+{"neuron":9945,"pole":"high","cluster":9,"mode":"\"sad\" as in sad reality or sad state","scene_windows":0,"windows":5,"scene":"Commentary and narrative on grim realities"}
+{"neuron":9945,"pole":"high","cluster":10,"mode":"\"Nag\" starting place names like Nagpur or Nagoya","scene_windows":0,"windows":5,"scene":"News on Indian cities and Japanese universities"}
+{"neuron":9945,"pole":"high","cluster":11,"mode":"period before a Human turn boundary","scene_windows":0,"windows":5,"scene":"Food, safety, and mermaid chat answers"}
+{"neuron":9945,"pole":"high","cluster":12,"mode":"\"bab\" fragment inside words or names","scene_windows":0,"windows":5,"scene":"Place names, poetry, and primate descriptions"}
+{"neuron":9945,"pole":"high","cluster":13,"mode":"\"The\"/\"the\" starting new sentences in informational text","scene_windows":0,"windows":5,"scene":"Policy, seafood, and health informational text"}
+{"neuron":9945,"pole":"high","cluster":14,"mode":"\"little\" as in \"little more than\" or scant","scene_windows":0,"windows":5,"scene":"Historical and domestic descriptive prose"}
+{"neuron":9945,"pole":"low","cluster":0,"mode":"space token after a sentence ending","scene_windows":0,"windows":5,"scene":"Expository text on cities, sports, and science"}
+{"neuron":9945,"pole":"low","cluster":1,"mode":"period ending a descriptive product or advice sentence","scene_windows":0,"windows":5,"scene":"Advice and guides on design, kitchens, and software"}
+{"neuron":9945,"pole":"low","cluster":2,"mode":"colon introducing a list of tips","scene_windows":0,"windows":5,"scene":"Assistant tip lists on bikes, travel, and safety"}
+{"neuron":9945,"pole":"low","cluster":3,"mode":"period ending a product or care description","scene_windows":0,"windows":5,"scene":"Gardening, melatonin, and pesticide guidance"}
+{"neuron":9945,"pole":"low","cluster":4,"mode":"prepositions or articles inside mid-sentence phrases","scene_windows":0,"windows":5,"scene":"Product, restaurant, and lifestyle descriptions"}
+{"neuron":9945,"pole":"low","cluster":5,"mode":"colon or assistant label starting a reply","scene_windows":0,"windows":5,"scene":"Assistant replies on animation, quinoa, and marketing"}
+{"neuron":5724,"pole":"high","cluster":0,"mode":"\"welcome\" in replies to thanks","scene_windows":0,"windows":5,"scene":"Assistant acknowledging user thanks"}
+{"neuron":5724,"pole":"high","cluster":1,"mode":"\"the\" before nouns in narrative or advice","scene_windows":0,"windows":5,"scene":"Fiction and advice about environment and dogs"}
+{"neuron":5724,"pole":"high","cluster":2,"mode":"\"Thank\" starting a user's gratitude message","scene_windows":0,"windows":5,"scene":"User thanks after assistant explanations"}
+{"neuron":5724,"pole":"low","cluster":0,"mode":"\"back\" in phrases about returning home","scene_windows":0,"windows":5,"scene":"Time-travel sci-fi story about returning home"}
+{"neuron":5724,"pole":"low","cluster":1,"mode":"\"able\" after \"was/were\" about achieving something","scene_windows":0,"windows":5,"scene":"Survival and sci-fi narrative about accomplishments"}
+{"neuron":5724,"pole":"low","cluster":2,"mode":"\"could\" after pronoun in perception or ability clauses","scene_windows":0,"windows":5,"scene":"First-person narrative about senses and hospital events"}
+{"neuron":5724,"pole":"low","cluster":3,"mode":"\"the\"/\"of\" before nouns in descriptive phrases","scene_windows":0,"windows":5,"scene":"Battle history, travel, and gardening descriptions"}
+{"neuron":5724,"pole":"low","cluster":4,"mode":"pronoun \"I\" starting first-person clauses","scene_windows":0,"windows":5,"scene":"First-person survival and reunion narratives"}
+{"neuron":10331,"pole":"high","cluster":0,"mode":"pronoun or modal after \"we\" in vitamin-need statements","scene_windows":0,"windows":5,"scene":"Health facts on vitamin C and chromium"}
+{"neuron":10331,"pole":"high","cluster":1,"mode":"\"hydrate\"/\"fluids\" in hydration advice","scene_windows":0,"windows":5,"scene":"Exercise and heat hydration guidance"}
+{"neuron":10331,"pole":"high","cluster":2,"mode":"\"salts\"/electrolytes in replacing lost minerals","scene_windows":0,"windows":5,"scene":"Sweat, heat exhaustion, and sports drink advice"}
+{"neuron":10331,"pole":"high","cluster":3,"mode":"\"electroly\" fragment in sports nutrition text","scene_windows":0,"windows":5,"scene":"Athlete nutrition and hydration plans"}
+{"neuron":10331,"pole":"high","cluster":4,"mode":"\"replen\" fragment before \"ish\" in restoration phrases","scene_windows":0,"windows":5,"scene":"Glycogen and fluid replacement in exercise advice"}
+{"neuron":10331,"pole":"high","cluster":5,"mode":"\"low\" or \"running low\" in household shortage phrasing","scene_windows":0,"windows":5,"scene":"Roommate email about running out of supplies"}
+{"neuron":10331,"pole":"high","cluster":6,"mode":"\"replenish\" and its fragments before a nutrient object","scene_windows":0,"windows":5,"scene":"Sports drink and hangover recovery advice"}
+{"neuron":10331,"pole":"high","cluster":7,"mode":"mixed mid-sentence tokens in scholarly or policy prose","scene_windows":0,"windows":5,"scene":"Philosophy, Deuteronomy, and mental health policy text"}
+{"neuron":10331,"pole":"high","cluster":8,"mode":"vitamin letter names following \"vitamin\"","scene_windows":0,"windows":5,"scene":"Nutrition facts about vitamin deficiencies"}
+{"neuron":10331,"pole":"low","cluster":0,"mode":"\"until\" after cooking-time verbs","scene_windows":0,"windows":5,"scene":"Recipe steps for cooking until done"}
+{"neuron":10331,"pole":"low","cluster":1,"mode":"\"the\" after \"until\" or \"simmer until\"","scene_windows":0,"windows":5,"scene":"Recipe steps for simmering and stirring"}
+{"neuron":10331,"pole":"low","cluster":2,"mode":"relative pronoun or conjunction in list of prior trade clauses","scene_windows":0,"windows":5,"scene":"Sports trade news sentence structure"}
+{"neuron":10331,"pole":"low","cluster":3,"mode":"\"minutes\" as cooking-time unit","scene_windows":0,"windows":5,"scene":"Recipe steps with timing"}
+{"neuron":10331,"pole":"low","cluster":4,"mode":"\"Once\" starting a sequential recipe step","scene_windows":0,"windows":5,"scene":"Numbered recipe and baking instructions"}
+{"neuron":10331,"pole":"low","cluster":5,"mode":"function words after conditions or quantities","scene_windows":0,"windows":5,"scene":"Medical and cooking explanatory text"}
+{"neuron":10331,"pole":"low","cluster":6,"mode":"\"until\"/\"enough\" in accumulation or storage clauses","scene_windows":0,"windows":5,"scene":"Greywater storage and plumbing description"}
+{"neuron":10670,"pole":"high","cluster":0,"mode":"number and pronoun tokens in house price figures","scene_windows":0,"windows":5,"scene":"Question about UK house price rises"}
+{"neuron":10670,"pole":"high","cluster":1,"mode":"Mid-sentence function words in economic inequality and housing-market discussion","scene_windows":0,"windows":5,"scene":"Neutral policy and economics discussion of inequality and real estate"}
+{"neuron":10670,"pole":"high","cluster":2,"mode":"Function words inside explanations of why house prices rose","scene_windows":0,"windows":5,"scene":"Explaining causes of rising housing costs"}
+{"neuron":10670,"pole":"low","cluster":0,"mode":"The word 'costs' after 'reducing' or 'reduced' in VDI benefit text","scene_windows":0,"windows":5,"scene":"Essay on virtual desktop infrastructure benefits"}
+{"neuron":10670,"pole":"low","cluster":1,"mode":"Mid-sentence function words in varied neutral prose","scene_windows":0,"windows":5,"scene":"Mixed informational and narrative prose, no harmful request"}
+{"neuron":10670,"pole":"low","cluster":2,"mode":"Conjunctions and commas in lists of financial problem types","scene_windows":0,"windows":5,"scene":"Explaining kinds of financial emergencies and unexpected expenses"}

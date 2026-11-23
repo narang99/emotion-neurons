@@ -1,0 +1,33 @@
+{"neuron":6171,"pole":"high","cluster":0,"mode":"asking for advice or tips on a topic","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6171,"pole":"high","cluster":1,"mode":"providing instructions or tips on a topic","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6171,"pole":"high","cluster":2,"mode":"listing ingredients or items","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6171,"pole":"high","cluster":3,"mode":"offering suggestions or ideas","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6171,"pole":"low","cluster":0,"mode":"explaining how to do something or use something","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6171,"pole":"low","cluster":1,"mode":"providing information or advice about a topic","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":7132,"pole":"high","cluster":0,"mode":"discussing health practices and regulations","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":7132,"pole":"high","cluster":1,"mode":"listing numerical data or statistics","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":7132,"pole":"high","cluster":2,"mode":"listing dates or years","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":7132,"pole":"low","cluster":0,"mode":"asking for advice or information","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":7132,"pole":"low","cluster":1,"mode":"providing information or advice about a topic","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":7132,"pole":"low","cluster":2,"mode":"asking for recommendations or examples","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":276,"pole":"high","cluster":0,"mode":"discussing the benefits or purpose of something","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":276,"pole":"high","cluster":1,"mode":"asking for advice or recommendations","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":674,"pole":"high","cluster":0,"mode":"discussing ethical considerations or implications","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":674,"pole":"high","cluster":1,"mode":"listing steps or actions","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":674,"pole":"low","cluster":0,"mode":"discussing historical or cultural significance","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":674,"pole":"low","cluster":1,"mode":"providing information about food or ingredients","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":3969,"pole":"low","cluster":0,"mode":"discussing environmental or technological solutions","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":3969,"pole":"low","cluster":1,"mode":"describing a threatening or harmful situation","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6731,"pole":"high","cluster":0,"mode":"explaining concepts or theories","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6731,"pole":"high","cluster":1,"mode":"offering advice or suggestions","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6731,"pole":"high","cluster":2,"mode":"asking for information or explanations","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6731,"pole":"low","cluster":0,"mode":"discussing benefits or positive outcomes","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":6731,"pole":"low","cluster":1,"mode":"providing information about housing or expenses","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10206,"pole":"high","cluster":0,"mode":"discussing health, safety, or societal issues","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10206,"pole":"high","cluster":1,"mode":"offering assistance or expressing helpfulness","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10206,"pole":"low","cluster":0,"mode":"discussing educational or scientific topics","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10206,"pole":"low","cluster":1,"mode":"providing instructions or recipes","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10102,"pole":"high","cluster":0,"mode":"discussing history, brands, or scientific terms","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10102,"pole":"high","cluster":1,"mode":"asking for advice or information","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10102,"pole":"low","cluster":0,"mode":"providing information or tips","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}
+{"neuron":10102,"pole":"low","cluster":1,"mode":"dialogue with quoted speech","scene_windows":0,"windows":5,"scene":"neutral advice seeking"}

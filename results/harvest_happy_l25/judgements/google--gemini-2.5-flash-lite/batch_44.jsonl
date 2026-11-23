@@ -1,0 +1,63 @@
+{"neuron":1640,"pole":"high","cluster":0,"mode":"child's interaction with animals and exploration","happy_windows":1,"windows":5,"scene":"child exploring and interacting"}
+{"neuron":1640,"pole":"high","cluster":1,"mode":"children learning to share and be nice","happy_windows":3,"windows":5,"scene":"children learning social skills"}
+{"neuron":1640,"pole":"high","cluster":2,"mode":"children playing together happily","happy_windows":5,"windows":5,"scene":"children playing joyfully together"}
+{"neuron":1640,"pole":"high","cluster":3,"mode":"children's reactions to negative events","happy_windows":0,"windows":5,"scene":"children experiencing disappointment"}
+{"neuron":1640,"pole":"low","cluster":0,"mode":"children learning lessons and apologizing","happy_windows":0,"windows":5,"scene":"children learning from mistakes"}
+{"neuron":1640,"pole":"low","cluster":1,"mode":"negative influences on children","happy_windows":0,"windows":5,"scene":"negative societal influences"}
+{"neuron":2567,"pole":"high","cluster":0,"mode":"historical and geographical place names","happy_windows":0,"windows":5,"scene":"historical and geographical context"}
+{"neuron":2567,"pole":"high","cluster":1,"mode":"children experiencing sadness or fear","happy_windows":0,"windows":5,"scene":"childhood emotions and experiences"}
+{"neuron":2567,"pole":"high","cluster":2,"mode":"food ingredients and preparation","happy_windows":0,"windows":5,"scene":"culinary descriptions"}
+{"neuron":2567,"pole":"low","cluster":0,"mode":"animals trying and succeeding","happy_windows":0,"windows":5,"scene":"animal perseverance"}
+{"neuron":2567,"pole":"low","cluster":1,"mode":"children's daily activities and experiences","happy_windows":0,"windows":5,"scene":"childhood daily life"}
+{"neuron":2567,"pole":"low","cluster":2,"mode":"children expressing emotions and learning","happy_windows":1,"windows":5,"scene":"childhood emotional growth"}
+{"neuron":2567,"pole":"low","cluster":3,"mode":"academic and religious texts","happy_windows":0,"windows":5,"scene":"academic and religious references"}
+{"neuron":2567,"pole":"low","cluster":4,"mode":"cooking instructions and ingredients","happy_windows":0,"windows":5,"scene":"culinary instructions"}
+{"neuron":3950,"pole":"high","cluster":0,"mode":"numerical data and statistics","happy_windows":0,"windows":5,"scene":"statistical data presentation"}
+{"neuron":3950,"pole":"high","cluster":1,"mode":"animals exploring and experiencing new things","happy_windows":0,"windows":5,"scene":"animal adventures"}
+{"neuron":3950,"pole":"low","cluster":0,"mode":"children's happy pretend play","happy_windows":3,"windows":5,"scene":"childhood imaginative play"}
+{"neuron":3950,"pole":"low","cluster":1,"mode":"political and social commentary","happy_windows":0,"windows":5,"scene":"political and social discourse"}
+{"neuron":3950,"pole":"low","cluster":2,"mode":"children's emotional states and learning","happy_windows":0,"windows":5,"scene":"childhood emotional development"}
+{"neuron":3950,"pole":"low","cluster":3,"mode":"children's excitement and discovery","happy_windows":3,"windows":5,"scene":"childhood excitement and discovery"}
+{"neuron":3950,"pole":"low","cluster":4,"mode":"food preparation and serving","happy_windows":0,"windows":5,"scene":"culinary preparation and serving"}
+{"neuron":3950,"pole":"low","cluster":5,"mode":"children's interactions and emotions","happy_windows":1,"windows":5,"scene":"childhood interactions and emotions"}
+{"neuron":7098,"pole":"high","cluster":0,"mode":"children's disobedience and consequences","happy_windows":0,"windows":5,"scene":"childhood disobedience"}
+{"neuron":7098,"pole":"high","cluster":1,"mode":"children's positive emotions and experiences","happy_windows":3,"windows":5,"scene":"childhood joy and wonder"}
+{"neuron":7098,"pole":"high","cluster":2,"mode":"dates and scientific publications","happy_windows":0,"windows":5,"scene":"scientific publication details"}
+{"neuron":7098,"pole":"low","cluster":0,"mode":"children's actions and their consequences","happy_windows":0,"windows":5,"scene":"childhood actions and consequences"}
+{"neuron":7098,"pole":"low","cluster":1,"mode":"recipes and cooking instructions","happy_windows":0,"windows":5,"scene":"culinary instructions"}
+{"neuron":9127,"pole":"high","cluster":0,"mode":"objects and actions related to conflict and recycling","happy_windows":0,"windows":5,"scene":"conflict and recycling processes"}
+{"neuron":9127,"pole":"high","cluster":1,"mode":"children playing in outdoor locations","happy_windows":3,"windows":5,"scene":"children playing outdoors"}
+{"neuron":9127,"pole":"high","cluster":2,"mode":"hope, strength, and faith","happy_windows":2,"windows":5,"scene":"hope and faith"}
+{"neuron":9127,"pole":"high","cluster":3,"mode":"children's interactions and trust","happy_windows":2,"windows":5,"scene":"childhood interactions and trust"}
+{"neuron":9127,"pole":"high","cluster":4,"mode":"children playing together and planning","happy_windows":3,"windows":5,"scene":"children playing and planning"}
+{"neuron":9127,"pole":"high","cluster":5,"mode":"actions of putting things away","happy_windows":0,"windows":5,"scene":"actions of putting things away"}
+{"neuron":9127,"pole":"low","cluster":0,"mode":"natural elements and children's actions","happy_windows":0,"windows":5,"scene":"nature and children's actions"}
+{"neuron":9127,"pole":"low","cluster":1,"mode":"animals and their actions","happy_windows":0,"windows":5,"scene":"animal actions"}
+{"neuron":9127,"pole":"low","cluster":2,"mode":"health and medical information","happy_windows":0,"windows":5,"scene":"health and medical information"}
+{"neuron":7401,"pole":"high","cluster":0,"mode":"happy endings and positive outcomes","happy_windows":5,"windows":5,"scene":"happy resolutions and outcomes"}
+{"neuron":7401,"pole":"high","cluster":1,"mode":"programming and data structures","happy_windows":0,"windows":5,"scene":"programming and data structures"}
+{"neuron":7401,"pole":"high","cluster":2,"mode":"information gathering and problem-solving","happy_windows":0,"windows":5,"scene":"information gathering and problem-solving"}
+{"neuron":7401,"pole":"high","cluster":3,"mode":"children's curiosity and exploration","happy_windows":3,"windows":5,"scene":"childhood curiosity and exploration"}
+{"neuron":7401,"pole":"high","cluster":4,"mode":"food preparation and ingredients","happy_windows":0,"windows":5,"scene":"culinary preparation and ingredients"}
+{"neuron":7401,"pole":"high","cluster":5,"mode":"children's positive emotions and interactions","happy_windows":4,"windows":5,"scene":"childhood positive emotions"}
+{"neuron":7401,"pole":"high","cluster":6,"mode":"children's actions and recovery","happy_windows":3,"windows":5,"scene":"childhood actions and recovery"}
+{"neuron":7401,"pole":"low","cluster":0,"mode":"children's actions and emotions","happy_windows":1,"windows":5,"scene":"childhood actions and emotions"}
+{"neuron":7401,"pole":"low","cluster":1,"mode":"simple narrative beginnings","happy_windows":0,"windows":5,"scene":"simple narrative beginnings"}
+{"neuron":3523,"pole":"high","cluster":0,"mode":"children's happy experiences and achievements","happy_windows":5,"windows":5,"scene":"childhood happy achievements"}
+{"neuron":3523,"pole":"high","cluster":1,"mode":"children's happy moments and visits","happy_windows":4,"windows":5,"scene":"childhood happy moments"}
+{"neuron":3523,"pole":"high","cluster":2,"mode":"children's positive interactions and independence","happy_windows":3,"windows":5,"scene":"childhood positive interactions"}
+{"neuron":3523,"pole":"high","cluster":3,"mode":"historical and geographical references","happy_windows":0,"windows":5,"scene":"historical and geographical references"}
+{"neuron":3523,"pole":"high","cluster":4,"mode":"food preparation and serving","happy_windows":0,"windows":5,"scene":"culinary preparation and serving"}
+{"neuron":3523,"pole":"high","cluster":5,"mode":"children's positive emotions and actions","happy_windows":3,"windows":5,"scene":"childhood positive emotions"}
+{"neuron":3523,"pole":"high","cluster":6,"mode":"children's actions and dialogue","happy_windows":3,"windows":5,"scene":"childhood actions and dialogue"}
+{"neuron":3523,"pole":"low","cluster":0,"mode":"natural elements and children's actions","happy_windows":0,"windows":5,"scene":"nature and children's actions"}
+{"neuron":3523,"pole":"low","cluster":1,"mode":"simple narrative beginnings","happy_windows":0,"windows":5,"scene":"simple narrative beginnings"}
+{"neuron":3523,"pole":"low","cluster":2,"mode":"girl loved to play outside, exploring, or carrying a teddy bear.","happy_windows":0,"windows":5,"scene":"childhood play and exploration"}
+{"neuron":3523,"pole":"low","cluster":3,"mode":"boy or girl wanting adventure, dancing, or finding something shiny.","happy_windows":0,"windows":5,"scene":"childhood adventure and excitement"}
+{"neuron":3523,"pole":"low","cluster":4,"mode":"girl crying, boy walking, or mommy saying something.","happy_windows":0,"windows":5,"scene":"childhood emotions and interactions"}
+{"neuron":9346,"pole":"high","cluster":0,"mode":"children playing and exploring happily","happy_windows":3,"windows":5,"scene":"children playing and exploring"}
+{"neuron":9346,"pole":"high","cluster":1,"mode":"children's daily activities and exploration","happy_windows":3,"windows":5,"scene":"childhood daily activities"}
+{"neuron":9346,"pole":"low","cluster":0,"mode":"cultural celebrations and traditions","happy_windows":0,"windows":5,"scene":"cultural celebrations and traditions"}
+{"neuron":9346,"pole":"low","cluster":1,"mode":"social issues and health problems","happy_windows":0,"windows":5,"scene":"social issues and health"}
+{"neuron":9346,"pole":"low","cluster":2,"mode":"children playing and exploring outdoors","happy_windows":0,"windows":5,"scene":"childhood outdoor play"}
+{"neuron":9346,"pole":"low","cluster":3,"mode":"children's actions and emotions","happy_windows":2,"windows":5,"scene":"childhood actions and emotions"}

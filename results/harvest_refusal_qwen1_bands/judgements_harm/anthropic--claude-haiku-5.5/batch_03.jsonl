@@ -1,0 +1,69 @@
+{"neuron":6123,"pole":"high","cluster":0,"mode":"Predicting 'be'/'appear' in advice on looking big when attacked","scene_windows":5,"windows":5,"scene":"Survival advice on fighting off attackers or a bear"}
+{"neuron":6123,"pole":"high","cluster":1,"mode":"Narrative tokens in first-person action and tense moments","scene_windows":2,"windows":5,"scene":"Fiction with a chase, a gun, and an alien threat"}
+{"neuron":6123,"pole":"high","cluster":2,"mode":"'Remove' as the instruction step before 'from heat'","scene_windows":0,"windows":5,"scene":"Cooking recipes and step-by-step instructions"}
+{"neuron":6123,"pole":"low","cluster":0,"mode":"'Shut' in 'Shut up' interjections within dialogue","scene_windows":0,"windows":5,"scene":"Heated but ordinary dialogue between characters"}
+{"neuron":6123,"pole":"low","cluster":1,"mode":"'bring' in 'bring down' an enemy or foe","scene_windows":3,"windows":5,"scene":"Gunfight with an outlaw and a biblical battle"}
+{"neuron":6123,"pole":"low","cluster":2,"mode":"'end' in 'put an end to' a threat or menace","scene_windows":2,"windows":5,"scene":"Heroes stopping demons, criminals, and crises"}
+{"neuron":6123,"pole":"low","cluster":3,"mode":"'put' in physical placement of hands, arms, or face","scene_windows":0,"windows":5,"scene":"Everyday body-movement narration in stories"}
+{"neuron":6123,"pole":"low","cluster":4,"mode":"'an' in 'put an end to' a threat","scene_windows":2,"windows":5,"scene":"Heroes ending demon lords, pirates, and gangs"}
+{"neuron":6123,"pole":"low","cluster":5,"mode":"'cut' in 'cut off' speech interruptions","scene_windows":0,"windows":5,"scene":"Dialogue where a speaker is interrupted"}
+{"neuron":6123,"pole":"low","cluster":6,"mode":"'a'/'to' in 'came to a close' ending phrases","scene_windows":0,"windows":5,"scene":"Story endings for concerts, cruises, and trips"}
+{"neuron":6123,"pole":"low","cluster":7,"mode":"'the' in temporal clauses like 'as the day drew'","scene_windows":0,"windows":5,"scene":"Narrative and historical time transitions"}
+{"neuron":6123,"pole":"low","cluster":8,"mode":"'stopped/halted' describing a character halting motion","scene_windows":0,"windows":5,"scene":"Characters pausing or stopping in everyday scenes"}
+{"neuron":6123,"pole":"low","cluster":9,"mode":"'stop' as purpose: halting cooking, bleeding, or leaks","scene_windows":0,"windows":5,"scene":"Cooking, pet care, and safety procedure instructions"}
+{"neuron":9616,"pole":"high","cluster":0,"mode":"Opening quote or pronoun starting simile and metaphor examples","scene_windows":0,"windows":5,"scene":"Explaining figurative language with example sentences"}
+{"neuron":9616,"pole":"high","cluster":1,"mode":"Commas inside example sentences with terms of endearment","scene_windows":0,"windows":5,"scene":"Examples of gendered pet names and address terms"}
+{"neuron":9616,"pole":"high","cluster":2,"mode":"Colon or quote opening a text to copy, edit, or summarize","scene_windows":0,"windows":5,"scene":"User asks to rewrite or summarize pasted text"}
+{"neuron":9616,"pole":"high","cluster":3,"mode":"'this' in requests to edit or change a text","scene_windows":0,"windows":5,"scene":"User requests editing of a sentence or song"}
+{"neuron":9616,"pole":"high","cluster":4,"mode":"Colon after 'Example' in grammar rule explanations","scene_windows":0,"windows":5,"scene":"Grammar lessons on subject-verb agreement"}
+{"neuron":9616,"pole":"high","cluster":5,"mode":"Subject words in verb tense correction examples","scene_windows":0,"windows":5,"scene":"Grammar exercises correcting verb forms"}
+{"neuron":9616,"pole":"high","cluster":6,"mode":"Colon or speaker tag starting an assistant creative reply","scene_windows":0,"windows":5,"scene":"Requests for creative writing prompts and stories"}
+{"neuron":9616,"pole":"high","cluster":7,"mode":"'the' in narrative location phrases","scene_windows":0,"windows":5,"scene":"Descriptive narration of rooms, trains, and streets"}
+{"neuron":9616,"pole":"high","cluster":8,"mode":"Pronoun or auxiliary in short user how/what questions","scene_windows":0,"windows":5,"scene":"Brief user questions about skills and advice"}
+{"neuron":9616,"pole":"high","cluster":9,"mode":"Question or exclamation marks ending dialogue lines","scene_windows":0,"windows":5,"scene":"Characters calling out in tense but ordinary dialogue"}
+{"neuron":9616,"pole":"high","cluster":10,"mode":"Nouns completing a short contextual phrase in fiction","scene_windows":0,"windows":5,"scene":"Story dialogue about objects and addresses"}
+{"neuron":9616,"pole":"high","cluster":11,"mode":"'of', 'on', 'for' in academic phrasing about policy and science","scene_windows":0,"windows":5,"scene":"Encyclopedic text on weather, drugs, and economics"}
+{"neuron":9616,"pole":"low","cluster":0,"mode":"Colon after 'format this in all caps' requests","scene_windows":2,"windows":5,"scene":"Text-formatting requests, one about a violent attack"}
+{"neuron":9616,"pole":"low","cluster":1,"mode":"Opening quote marks starting a line of dialogue","scene_windows":0,"windows":5,"scene":"Fantasy and creature dialogue after action beats"}
+{"neuron":9616,"pole":"low","cluster":2,"mode":"Sentence-final punctuation or 'am/was' in emotional lines","scene_windows":0,"windows":5,"scene":"Melancholic first-person reflections and apologies"}
+{"neuron":9616,"pole":"low","cluster":3,"mode":"Blank-space tokens between story paragraphs","scene_windows":0,"windows":5,"scene":"Story section breaks in fiction"}
+{"neuron":4161,"pole":"high","cluster":0,"mode":"'your' addressing a listener about family, oath, or life","scene_windows":3,"windows":5,"scene":"Threats and confrontations over oaths, children, and death"}
+{"neuron":4161,"pole":"high","cluster":1,"mode":"Next-word tokens in descriptions of anti-environmental groups and policy","scene_windows":0,"windows":5,"scene":"Articles on activists, FEMA, and machine learning"}
+{"neuron":4161,"pole":"high","cluster":2,"mode":"'you' in conditional advice about actions and situations","scene_windows":0,"windows":5,"scene":"Practical advice on permits, fitness, and social behavior"}
+{"neuron":4161,"pole":"low","cluster":0,"mode":"'the', 'they', 'technology' in discussions of impacts and support","scene_windows":0,"windows":5,"scene":"Essays on oil sands, biology, and social justice"}
+{"neuron":4161,"pole":"low","cluster":1,"mode":"'was' and 'a' in a sample apology sentence","scene_windows":0,"windows":5,"scene":"Scripted apology for being dismissive"}
+{"neuron":7140,"pole":"high","cluster":0,"mode":"'Human' speaker tag starting a user turn","scene_windows":0,"windows":5,"scene":"Chat transcripts about planning and shopping"}
+{"neuron":7140,"pole":"high","cluster":1,"mode":"'user' speaker tag starting a follow-up turn","scene_windows":0,"windows":5,"scene":"Chat follow-ups thanking for tips and recipes"}
+{"neuron":7140,"pole":"high","cluster":2,"mode":"Colon after 'user' label opening a question","scene_windows":0,"windows":5,"scene":"Business, politics, and PR chat questions"}
+{"neuron":7140,"pole":"high","cluster":3,"mode":"Colon after 'Human' label opening a new question","scene_windows":0,"windows":5,"scene":"Conversation turns on cooking, ADHD, and speech"}
+{"neuron":7140,"pole":"high","cluster":4,"mode":"Comma after 'Based on the passage above'","scene_windows":0,"windows":5,"scene":"Questions about passages on recipes and turf"}
+{"neuron":7140,"pole":"high","cluster":5,"mode":"Sentence-initial 'I' or 'The' in reflective AI-voice text","scene_windows":0,"windows":5,"scene":"Reflective first-person musings by an AI-like narrator"}
+{"neuron":7140,"pole":"high","cluster":6,"mode":"Trailing punctuation before an assistant reply","scene_windows":0,"windows":5,"scene":"Q&A and song or history lines before replies"}
+{"neuron":7140,"pole":"low","cluster":0,"mode":"Colon or '!' after assistant label opening a reply","scene_windows":0,"windows":5,"scene":"Chat requests for lighting, foraging, and DIY tips"}
+{"neuron":7140,"pole":"low","cluster":1,"mode":"Space token after an assistant answer sentence","scene_windows":2,"windows":5,"scene":"Q&A on burying a body, execution, and hydrogen safety"}
+{"neuron":7140,"pole":"low","cluster":2,"mode":"Colon after numbered tip headings","scene_windows":0,"windows":5,"scene":"Listed tips on home office and marketing"}
+{"neuron":7140,"pole":"low","cluster":3,"mode":"Double space after sentence ending before a new paragraph","scene_windows":0,"windows":5,"scene":"Recipes, décor, and product advice paragraphs"}
+{"neuron":7140,"pole":"low","cluster":4,"mode":"'!' after assistant opener like 'Certainly' or 'Sure'","scene_windows":0,"windows":5,"scene":"Assistant replies to DIY and programming requests"}
+{"neuron":7140,"pole":"low","cluster":5,"mode":"'some' or 'few' introducing a list of examples","scene_windows":0,"windows":5,"scene":"Assistant intros to tips, steps, and sightseeing"}
+{"neuron":7140,"pole":"low","cluster":6,"mode":"Period or space after ISBN and citation entries","scene_windows":0,"windows":5,"scene":"Reference lists with ISBNs and retrieval dates"}
+{"neuron":7140,"pole":"low","cluster":7,"mode":"'However' and following comma in contrastive sentences","scene_windows":0,"windows":5,"scene":"Balanced expository text on singing and astrology"}
+{"neuron":7140,"pole":"low","cluster":8,"mode":"Period closing an expository sentence before new paragraph","scene_windows":0,"windows":5,"scene":"Encyclopedic passages on dopamine, glass, and history"}
+{"neuron":7140,"pole":"low","cluster":9,"mode":"Period ending sentences in gardening care advice","scene_windows":0,"windows":5,"scene":"Gardening instructions on pests, pruning, and watering"}
+{"neuron":7140,"pole":"low","cluster":10,"mode":"Nouns or suffixes completing a general-topic statement","scene_windows":0,"windows":5,"scene":"Informational text on prices, gluten, and relationships"}
+{"neuron":7140,"pole":"low","cluster":11,"mode":"'Some' starting a sentence about variants or types","scene_windows":0,"windows":5,"scene":"Technical and product text on wheels and showers"}
+{"neuron":1545,"pole":"high","cluster":0,"mode":"'to', 'you', 'than' completing advice or comparison phrases","scene_windows":0,"windows":5,"scene":"Advice on communication, history, and toddlers"}
+{"neuron":1545,"pole":"high","cluster":1,"mode":"Commas inside balanced qualifying clauses in explanations","scene_windows":0,"windows":5,"scene":"Explanations of debt, health, and credit"}
+{"neuron":1545,"pole":"low","cluster":0,"mode":"'the', 'his', 'of' completing phrases about practices and decline","scene_windows":0,"windows":5,"scene":"Historical and social discussion of practices and debates"}
+{"neuron":1545,"pole":"low","cluster":1,"mode":"'for', 'to', 'as' in phrases about times and events","scene_windows":0,"windows":5,"scene":"Astrology and weather prediction explanations"}
+{"neuron":6481,"pole":"high","cluster":0,"mode":"'that', 'should', 'are' in cautionary disclaimer clauses","scene_windows":0,"windows":5,"scene":"Disclaimers on supplements, investing, and immigration"}
+{"neuron":6481,"pole":"high","cluster":1,"mode":"'you'/'are' assigning responsibility in data disclaimers","scene_windows":0,"windows":5,"scene":"Smart speaker privacy and data security disclaimers"}
+{"neuron":6481,"pole":"low","cluster":0,"mode":"Pronoun 'she'/'he' referring back to a character","scene_windows":0,"windows":5,"scene":"Emotional narrative about memories and relationships"}
+{"neuron":6481,"pole":"low","cluster":1,"mode":"Capitalized names or numerals in encyclopedic phrases","scene_windows":0,"windows":5,"scene":"Historical and institutional encyclopedic text"}
+{"neuron":6481,"pole":"low","cluster":2,"mode":"Period closing short emotional dialogue lines","scene_windows":0,"windows":5,"scene":"Tense personal dialogue and reflections"}
+{"neuron":2849,"pole":"high","cluster":0,"mode":"'can also'/'be' in hedged claims about sports or learning","scene_windows":0,"windows":5,"scene":"Opinion essays on sports, politics, and guitar"}
+{"neuron":2849,"pole":"high","cluster":1,"mode":"'than'/'of' in contrastive 'rather than' phrasing","scene_windows":0,"windows":5,"scene":"Self-help text on wellbeing and mindset"}
+{"neuron":2849,"pole":"high","cluster":2,"mode":"'or' introducing an alternative question","scene_windows":0,"windows":5,"scene":"Questions weighing two alternatives in business and policy"}
+{"neuron":2849,"pole":"low","cluster":0,"mode":"'a' in 'this is a tricky question' hedges","scene_windows":0,"windows":5,"scene":"Assistant hedging on questions about clowns and sugar"}
+{"neuron":2849,"pole":"low","cluster":1,"mode":"Punctuation and 'however' in contrastive encyclopedic sentences","scene_windows":0,"windows":5,"scene":"Descriptions of a political media website"}
+{"neuron":2849,"pole":"low","cluster":2,"mode":"'the' or 'a' in sentences mid-clause in speculative fiction","scene_windows":0,"windows":5,"scene":"Sci-fi and historical narration with clones and travel"}
+{"neuron":2849,"pole":"low","cluster":3,"mode":"Opening quotation marks beginning a line of character dialogue in fiction","scene_windows":0,"windows":5,"scene":"Mundane fictional dialogue between characters, mostly conversational"}

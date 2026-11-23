@@ -1,0 +1,80 @@
+{"neuron":4243,"pole":"high","cluster":0,"mode":"children playing and having fun together","happy_windows":5,"windows":5,"scene":"children playing and having fun"}
+{"neuron":4243,"pole":"high","cluster":1,"mode":"foreign languages and academic texts","happy_windows":0,"windows":5,"scene":"academic and foreign text"}
+{"neuron":4243,"pole":"high","cluster":2,"mode":"cooking instructions and food preparation","happy_windows":0,"windows":5,"scene":"cooking and food preparation"}
+{"neuron":4243,"pole":"high","cluster":3,"mode":"suggestions for meals and healthy eating","happy_windows":0,"windows":5,"scene":"food suggestions and healthy eating"}
+{"neuron":4243,"pole":"high","cluster":4,"mode":"children playing, laughing, and having fun","happy_windows":5,"windows":5,"scene":"children playing and having fun"}
+{"neuron":4243,"pole":"low","cluster":0,"mode":"prepositions and articles in narrative","happy_windows":0,"windows":5,"scene":"narrative text with prepositions"}
+{"neuron":4243,"pole":"low","cluster":1,"mode":"verbs indicating agreement or action","happy_windows":0,"windows":5,"scene":"narrative text with verbs"}
+{"neuron":4243,"pole":"low","cluster":2,"mode":"government and organizational acronyms","happy_windows":0,"windows":5,"scene":"technical and organizational text"}
+{"neuron":6559,"pole":"high","cluster":0,"mode":"children walking in nature","happy_windows":0,"windows":5,"scene":"children walking in nature"}
+{"neuron":6559,"pole":"high","cluster":1,"mode":"children going somewhere or leaving","happy_windows":5,"windows":5,"scene":"children going somewhere happily"}
+{"neuron":6559,"pole":"high","cluster":2,"mode":"children and their possessions","happy_windows":0,"windows":5,"scene":"children and their possessions"}
+{"neuron":6559,"pole":"high","cluster":3,"mode":"children running and playing","happy_windows":5,"windows":5,"scene":"children running and playing"}
+{"neuron":6559,"pole":"high","cluster":4,"mode":"children going somewhere for a purpose","happy_windows":0,"windows":5,"scene":"children going somewhere"}
+{"neuron":6559,"pole":"high","cluster":5,"mode":"children playing together","happy_windows":5,"windows":5,"scene":"children playing together happily"}
+{"neuron":6559,"pole":"high","cluster":6,"mode":"children playing in a park or around","happy_windows":5,"windows":5,"scene":"children playing in a park"}
+{"neuron":6559,"pole":"high","cluster":7,"mode":"technical text about data extraction","happy_windows":0,"windows":5,"scene":"technical data extraction text"}
+{"neuron":6559,"pole":"low","cluster":0,"mode":"children feeling happy","happy_windows":5,"windows":5,"scene":"children feeling happy"}
+{"neuron":6559,"pole":"low","cluster":1,"mode":"children going somewhere","happy_windows":0,"windows":5,"scene":"children going somewhere"}
+{"neuron":9549,"pole":"high","cluster":0,"mode":"friends interacting positively","happy_windows":5,"windows":5,"scene":"friends interacting positively"}
+{"neuron":9549,"pole":"high","cluster":1,"mode":"people smiling and expressing happiness","happy_windows":5,"windows":5,"scene":"people smiling and happy"}
+{"neuron":9549,"pole":"low","cluster":0,"mode":"children and parents interacting","happy_windows":0,"windows":5,"scene":"children and parents interacting"}
+{"neuron":9549,"pole":"low","cluster":1,"mode":"children and their possessions","happy_windows":0,"windows":5,"scene":"children and their possessions"}
+{"neuron":9549,"pole":"low","cluster":2,"mode":"children's actions and states","happy_windows":0,"windows":5,"scene":"children's actions and states"}
+{"neuron":2792,"pole":"high","cluster":0,"mode":"narrative with characters and actions","happy_windows":0,"windows":5,"scene":"narrative with characters and actions"}
+{"neuron":2792,"pole":"high","cluster":1,"mode":"story beginnings","happy_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":2792,"pole":"low","cluster":0,"mode":"assistant responses in dialogue","happy_windows":0,"windows":5,"scene":"dialogue with assistant responses"}
+{"neuron":2792,"pole":"low","cluster":1,"mode":"assistant responses in dialogue","happy_windows":0,"windows":5,"scene":"dialogue with assistant responses"}
+{"neuron":2792,"pole":"low","cluster":2,"mode":"characters interacting positively","happy_windows":5,"windows":5,"scene":"characters interacting positively"}
+{"neuron":2792,"pole":"low","cluster":3,"mode":"characters interacting positively","happy_windows":5,"windows":5,"scene":"characters interacting positively"}
+{"neuron":2312,"pole":"high","cluster":0,"mode":"social and political concepts","happy_windows":0,"windows":5,"scene":"social and political concepts"}
+{"neuron":2312,"pole":"high","cluster":1,"mode":"objects and their states","happy_windows":0,"windows":5,"scene":"objects and their states"}
+{"neuron":2312,"pole":"low","cluster":0,"mode":"children and their possessions","happy_windows":0,"windows":5,"scene":"children and their possessions"}
+{"neuron":2312,"pole":"low","cluster":1,"mode":"organizations and technical terms","happy_windows":0,"windows":5,"scene":"organizations and technical terms"}
+{"neuron":2312,"pole":"low","cluster":2,"mode":"narrative descriptions and dialogue","happy_windows":0,"windows":5,"scene":"narrative descriptions and dialogue"}
+{"neuron":2312,"pole":"low","cluster":3,"mode":"children's names and actions","happy_windows":0,"windows":5,"scene":"children's names and actions"}
+{"neuron":2312,"pole":"low","cluster":4,"mode":"children's names and actions","happy_windows":0,"windows":5,"scene":"children's names and actions"}
+{"neuron":2312,"pole":"low","cluster":5,"mode":"children playing together","happy_windows":5,"windows":5,"scene":"children playing together happily"}
+{"neuron":12055,"pole":"high","cluster":0,"mode":"story beginnings with 'once upon a time'","happy_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":12055,"pole":"high","cluster":1,"mode":"characters reacting to situations","happy_windows":0,"windows":5,"scene":"characters reacting to situations"}
+{"neuron":12055,"pole":"high","cluster":2,"mode":"characters interacting positively","happy_windows":5,"windows":5,"scene":"characters interacting positively"}
+{"neuron":12055,"pole":"high","cluster":3,"mode":"objects and locations in narrative","happy_windows":0,"windows":5,"scene":"objects and locations in narrative"}
+{"neuron":12055,"pole":"high","cluster":4,"mode":"children and places","happy_windows":0,"windows":5,"scene":"children and places"}
+{"neuron":12055,"pole":"low","cluster":0,"mode":"children and their possessions","happy_windows":0,"windows":5,"scene":"children and their possessions"}
+{"neuron":12055,"pole":"low","cluster":1,"mode":"numbers and quantities","happy_windows":0,"windows":5,"scene":"numbers and quantities"}
+{"neuron":12055,"pole":"low","cluster":2,"mode":"dialogue and agreement","happy_windows":0,"windows":5,"scene":"dialogue and agreement"}
+{"neuron":12055,"pole":"low","cluster":3,"mode":"dialogue and questions","happy_windows":0,"windows":5,"scene":"dialogue and questions"}
+{"neuron":12055,"pole":"low","cluster":4,"mode":"cooking instructions","happy_windows":0,"windows":5,"scene":"cooking instructions"}
+{"neuron":12055,"pole":"low","cluster":5,"mode":"children and their actions","happy_windows":0,"windows":5,"scene":"children and their actions"}
+{"neuron":12055,"pole":"low","cluster":6,"mode":"characters and their states","happy_windows":0,"windows":5,"scene":"characters and their states"}
+{"neuron":5610,"pole":"high","cluster":0,"mode":"children's activities and interests","happy_windows":0,"windows":5,"scene":"children's activities and interests"}
+{"neuron":5610,"pole":"high","cluster":1,"mode":"children enjoying activities and nature","happy_windows":5,"windows":5,"scene":"children enjoying activities and nature"}
+{"neuron":5610,"pole":"high","cluster":2,"mode":"children exploring and interacting","happy_windows":0,"windows":5,"scene":"children exploring and interacting"}
+{"neuron":5610,"pole":"high","cluster":3,"mode":"children feeling happy and excited","happy_windows":5,"windows":5,"scene":"children feeling happy and excited"}
+{"neuron":5610,"pole":"high","cluster":4,"mode":"children receiving gifts or affection","happy_windows":5,"windows":5,"scene":"children receiving gifts or affection"}
+{"neuron":5610,"pole":"high","cluster":5,"mode":"children and their actions","happy_windows":0,"windows":5,"scene":"children and their actions"}
+{"neuron":5610,"pole":"high","cluster":6,"mode":"characters and their states","happy_windows":0,"windows":5,"scene":"characters and their states"}
+{"neuron":5610,"pole":"high","cluster":7,"mode":"web development code snippets","happy_windows":0,"windows":5,"scene":"web development code snippets"}
+{"neuron":5610,"pole":"high","cluster":8,"mode":"business and professional terms","happy_windows":0,"windows":5,"scene":"business and professional terms"}
+{"neuron":5610,"pole":"high","cluster":9,"mode":"food ingredients and preparation","happy_windows":0,"windows":5,"scene":"food ingredients and preparation"}
+{"neuron":5610,"pole":"low","cluster":0,"mode":"code snippets and programming","happy_windows":0,"windows":5,"scene":"code snippets and programming"}
+{"neuron":5610,"pole":"low","cluster":1,"mode":"quantities and timeframes","happy_windows":0,"windows":5,"scene":"quantities and timeframes"}
+{"neuron":5610,"pole":"low","cluster":2,"mode":"dialogue and agreement","happy_windows":0,"windows":5,"scene":"dialogue and agreement"}
+{"neuron":5610,"pole":"low","cluster":3,"mode":"dialogue and questions","happy_windows":0,"windows":5,"scene":"dialogue and questions"}
+{"neuron":5610,"pole":"low","cluster":4,"mode":"cooking instructions","happy_windows":0,"windows":5,"scene":"cooking instructions"}
+{"neuron":5610,"pole":"low","cluster":5,"mode":"children and their actions","happy_windows":0,"windows":5,"scene":"children and their actions"}
+{"neuron":5610,"pole":"low","cluster":6,"mode":"characters and their states","happy_windows":0,"windows":5,"scene":"characters and their states"}
+{"neuron":5610,"pole":"low","cluster":7,"mode":"actions and greetings","happy_windows":0,"windows":5,"scene":"actions and greetings"}
+{"neuron":4539,"pole":"high","cluster":0,"mode":"household appliances and food items","happy_windows":0,"windows":5,"scene":"household appliances and food items"}
+{"neuron":4539,"pole":"high","cluster":1,"mode":"seeking advice and information","happy_windows":0,"windows":5,"scene":"seeking advice and information"}
+{"neuron":4539,"pole":"high","cluster":2,"mode":"narrative events and transitions","happy_windows":0,"windows":5,"scene":"narrative events and transitions"}
+{"neuron":4539,"pole":"high","cluster":3,"mode":"children's dialogue and requests","happy_windows":0,"windows":5,"scene":"children's dialogue and requests"}
+{"neuron":4539,"pole":"high","cluster":4,"mode":"children's names and dialogue","happy_windows":0,"windows":5,"scene":"children's names and dialogue"}
+{"neuron":4539,"pole":"high","cluster":5,"mode":"asking questions and seeking information","happy_windows":0,"windows":5,"scene":"asking questions and seeking information"}
+{"neuron":4539,"pole":"high","cluster":6,"mode":"characters experiencing fear or bravery","happy_windows":0,"windows":5,"scene":"characters experiencing fear or bravery"}
+{"neuron":4539,"pole":"high","cluster":7,"mode":"medical and scientific terms","happy_windows":0,"windows":5,"scene":"medical and scientific terms"}
+{"neuron":4539,"pole":"high","cluster":8,"mode":"relationships and social concepts","happy_windows":0,"windows":5,"scene":"relationships and social concepts"}
+{"neuron":4539,"pole":"high","cluster":9,"mode":"negation and uncertainty","happy_windows":0,"windows":5,"scene":"negation and uncertainty"}
+{"neuron":4539,"pole":"low","cluster":0,"mode":"dialogue and commands","happy_windows":0,"windows":5,"scene":"dialogue and commands"}
+{"neuron":4539,"pole":"low","cluster":1,"mode":"children and siblings interacting","happy_windows":0,"windows":5,"scene":"children and siblings interacting"}
+{"neuron":4539,"pole":"low","cluster":2,"mode":"seeking information and advice","happy_windows":0,"windows":5,"scene":"seeking information and advice"}

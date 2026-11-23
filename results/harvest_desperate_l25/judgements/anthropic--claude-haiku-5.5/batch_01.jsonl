@@ -1,0 +1,71 @@
+{"neuron":11976,"pole":"high","cluster":0,"mode":"Sentence-boundary punctuation and pronouns in tense first-person narration","scene_windows":2,"windows":5,"scene":"Frightened, guilty narrator in tense personal accounts"}
+{"neuron":11976,"pole":"high","cluster":1,"mode":"Was/sad-state verbs in simple children's story narration","scene_windows":0,"windows":5,"scene":"Children's picture-book stories about minor upsets"}
+{"neuron":11976,"pole":"low","cluster":0,"mode":"Whitespace tokens before or after closing dialogue lines","scene_windows":0,"windows":5,"scene":"Dialogue exchanges in fiction, mostly calm"}
+{"neuron":11976,"pole":"low","cluster":1,"mode":"Subject names and pronouns opening sentences in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about family and feelings"}
+{"neuron":11976,"pole":"low","cluster":2,"mode":"Speech-tag and action words in dialogue-heavy fiction","scene_windows":0,"windows":5,"scene":"Dialogue-driven fiction with characters reacting"}
+{"neuron":11976,"pole":"low","cluster":3,"mode":"Closing quotation marks ending spoken lines","scene_windows":0,"windows":5,"scene":"Spoken dialogue in fiction, calm conversation"}
+{"neuron":11976,"pole":"low","cluster":4,"mode":"Periods ending descriptive narrative sentences","scene_windows":0,"windows":5,"scene":"Descriptive narration of mundane or reflective moments"}
+{"neuron":11976,"pole":"low","cluster":5,"mode":"Periods closing happy story sentences in children's tales","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with simple endings"}
+{"neuron":8415,"pole":"high","cluster":0,"mode":"Sentence-final periods and whitespace in simple stories","scene_windows":0,"windows":5,"scene":"Children's stories and short moral tales"}
+{"neuron":8415,"pole":"high","cluster":1,"mode":"Content nouns ending informational or argumentative phrases","scene_windows":0,"windows":5,"scene":"Expository and persuasive informational text"}
+{"neuron":8415,"pole":"high","cluster":2,"mode":"Periods and question marks ending assistant-style list items","scene_windows":0,"windows":5,"scene":"Assistant answers and structured advisory writing"}
+{"neuron":8415,"pole":"low","cluster":0,"mode":"Whitespace tokens starting new narrative paragraphs in tense scenes","scene_windows":0,"windows":5,"scene":"Tense first-person narration and suspense passages"}
+{"neuron":8415,"pole":"low","cluster":1,"mode":"Closing quote-and-period tokens after spoken lines","scene_windows":0,"windows":5,"scene":"Dialogue in dramatic or tense fiction"}
+{"neuron":8415,"pole":"low","cluster":2,"mode":"Sentence-final periods after grim or grieving statements","scene_windows":2,"windows":5,"scene":"Grim narration of loss, fear, and dire circumstances"}
+{"neuron":8415,"pole":"low","cluster":3,"mode":"Opening quotation marks beginning dialogue turns","scene_windows":0,"windows":5,"scene":"Dialogue exchanges in fiction, neutral tone"}
+{"neuron":8415,"pole":"low","cluster":4,"mode":"Manner or 'myself' words after speech, rushed panic tone","scene_windows":1,"windows":5,"scene":"Dialogue and narration with rising anxiety"}
+{"neuron":8415,"pole":"low","cluster":5,"mode":"Determiner 'the' before objects in action sentences","scene_windows":1,"windows":5,"scene":"Physical action scenes, some desperate struggle"}
+{"neuron":8485,"pole":"high","cluster":0,"mode":"Narrative connectors and gaze verbs mid-scene","scene_windows":0,"windows":5,"scene":"Everyday or mildly tense narrative moments"}
+{"neuron":8485,"pole":"high","cluster":1,"mode":"Playing and 'play' verbs in children's story contexts","scene_windows":0,"windows":5,"scene":"Children playing in simple stories"}
+{"neuron":8485,"pole":"low","cluster":0,"mode":"Indefinite article 'a' after saw in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories describing discoveries"}
+{"neuron":8485,"pole":"low","cluster":1,"mode":"'day' in 'One day' story openers","scene_windows":0,"windows":5,"scene":"Children's fairy-tale openings"}
+{"neuron":8485,"pole":"low","cluster":2,"mode":"Subject pronoun or name after 'One day,'","scene_windows":0,"windows":5,"scene":"Simple children's story plot introductions"}
+{"neuron":8485,"pole":"low","cluster":3,"mode":"Adjectives modifying nouns in simple descriptions","scene_windows":0,"windows":5,"scene":"Simple children's story descriptions"}
+{"neuron":8485,"pole":"low","cluster":4,"mode":"Perception verb 'saw' introducing discoveries","scene_windows":0,"windows":5,"scene":"Children exploring and discovering things"}
+{"neuron":8485,"pole":"low","cluster":5,"mode":"Action verbs for grabbing or pulling objects","scene_windows":0,"windows":5,"scene":"Characters grabbing items during routine actions"}
+{"neuron":8485,"pole":"low","cluster":6,"mode":"Definite article 'the' opening scene-setting noun phrases","scene_windows":1,"windows":5,"scene":"Tense action and suspense scene descriptions"}
+{"neuron":8485,"pole":"low","cluster":7,"mode":"Whitespace after light story sentences, transitions","scene_windows":0,"windows":5,"scene":"Gentle children's stories with happy turns"}
+{"neuron":8485,"pole":"low","cluster":8,"mode":"Commas after 'One day' or 'while' clauses","scene_windows":0,"windows":5,"scene":"Children's story transitions and discoveries"}
+{"neuron":5989,"pole":"high","cluster":0,"mode":"Definite article 'the' in analytical or historical prose","scene_windows":0,"windows":5,"scene":"Essays and historical or cultural analysis"}
+{"neuron":5989,"pole":"high","cluster":1,"mode":"Conjunctions and pronouns in crude, tense dialogue","scene_windows":1,"windows":5,"scene":"Tense confrontations and physical distress"}
+{"neuron":5989,"pole":"high","cluster":2,"mode":"Abstract policy nouns ending analytical clauses","scene_windows":0,"windows":5,"scene":"Academic essays on economics and policy"}
+{"neuron":5989,"pole":"low","cluster":0,"mode":"Auxiliary 'had' in past narrative clauses","scene_windows":0,"windows":5,"scene":"Past-tense narration of ordinary events"}
+{"neuron":5989,"pole":"low","cluster":1,"mode":"Subject pronoun 'it' opening descriptive clauses","scene_windows":0,"windows":5,"scene":"Dialogue and reflective narration"}
+{"neuron":5989,"pole":"low","cluster":2,"mode":"Commas and punctuation in reflective, sorrowful narration","scene_windows":1,"windows":5,"scene":"Reflective narration of loss and hardship"}
+{"neuron":5989,"pole":"low","cluster":3,"mode":"First-person 'I' starting sentences in bleak confessions","scene_windows":3,"windows":5,"scene":"Bleak last-message or survival confessions"}
+{"neuron":3497,"pole":"high","cluster":0,"mode":"Possessive or reflective words in first-person narration","scene_windows":0,"windows":5,"scene":"First-person reflective or tense narration"}
+{"neuron":3497,"pole":"high","cluster":1,"mode":"Conjunctions and commas in dramatic dialogue","scene_windows":1,"windows":5,"scene":"Dramatic argumentative or pleading dialogue"}
+{"neuron":3497,"pole":"low","cluster":0,"mode":"'as' linking simultaneous actions in narration","scene_windows":0,"windows":5,"scene":"Narration of tense or dark moments"}
+{"neuron":3497,"pole":"low","cluster":1,"mode":"'wanted' expressing desire in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about wanting something"}
+{"neuron":3497,"pole":"low","cluster":2,"mode":"'felt' introducing sensations or emotions","scene_windows":0,"windows":5,"scene":"Characters' feelings in narration"}
+{"neuron":3497,"pole":"low","cluster":3,"mode":"Subject pronouns starting sentences in simple stories","scene_windows":0,"windows":5,"scene":"Children's stories with sad or scared moments"}
+{"neuron":3497,"pole":"low","cluster":4,"mode":"Auxiliary 'had' after subjects in past narrative","scene_windows":0,"windows":5,"scene":"Simple past-tense children's narration"}
+{"neuron":3497,"pole":"low","cluster":5,"mode":"Modal 'have' in dialogue about obligation","scene_windows":0,"windows":5,"scene":"Dialogue and reflective family or sibling talk"}
+{"neuron":3497,"pole":"low","cluster":6,"mode":"Periods after sad or happy child-story statements","scene_windows":0,"windows":5,"scene":"Children's stories about feelings and bravery"}
+{"neuron":3497,"pole":"low","cluster":7,"mode":"Commas and 'is' in reflective or resigned statements","scene_windows":0,"windows":5,"scene":"Reflective, resigned first-person narration"}
+{"neuron":2792,"pole":"high","cluster":0,"mode":"Gendered pronouns referring back to a person in dialogue","scene_windows":0,"windows":5,"scene":"Dialogue about people and relationships"}
+{"neuron":2792,"pole":"high","cluster":1,"mode":"Quote marks and closing punctuation in heated exchanges","scene_windows":0,"windows":5,"scene":"Argumentative or rapid-fire dialogue"}
+{"neuron":2792,"pole":"low","cluster":0,"mode":"Sentence-initial 'The' in children's story narration","scene_windows":0,"windows":5,"scene":"Children's stories with simple events"}
+{"neuron":2792,"pole":"low","cluster":1,"mode":"Periods after questions or speech in children's stories","scene_windows":0,"windows":5,"scene":"Children's stories about worries and help"}
+{"neuron":2792,"pole":"low","cluster":2,"mode":"'and' joining actions or speech in children's stories","scene_windows":0,"windows":5,"scene":"Simple stories with kind characters"}
+{"neuron":2792,"pole":"low","cluster":3,"mode":"'said' after 'smiled and' in dialogue tags","scene_windows":0,"windows":5,"scene":"Parents and children in gentle dialogue"}
+{"neuron":2792,"pole":"low","cluster":4,"mode":"Abstract nouns in reflective or critical sentences","scene_windows":0,"windows":5,"scene":"Reflective or critical commentary"}
+{"neuron":2792,"pole":"low","cluster":5,"mode":"'smiled' as a reaction verb in dialogue","scene_windows":0,"windows":5,"scene":"Children's stories with warm family reactions"}
+{"neuron":6028,"pole":"high","cluster":0,"mode":"Subject pronouns starting clauses in tense action","scene_windows":2,"windows":5,"scene":"Tense danger or horror scenes"}
+{"neuron":6028,"pole":"high","cluster":1,"mode":"Body-position verbs and instructions in exercise steps","scene_windows":0,"windows":5,"scene":"Yoga and exercise instructions"}
+{"neuron":6028,"pole":"low","cluster":0,"mode":"Prepositions and 'the' in recipe instructions","scene_windows":0,"windows":5,"scene":"Cooking recipes and ingredient steps"}
+{"neuron":6028,"pole":"low","cluster":1,"mode":"Closing quote marks after short exclamations","scene_windows":0,"windows":5,"scene":"Tense or emotional dialogue, mostly calm"}
+{"neuron":6028,"pole":"low","cluster":2,"mode":"Whitespace tokens starting new narrative paragraphs","scene_windows":0,"windows":5,"scene":"Dialogue and narration in everyday fiction"}
+{"neuron":6028,"pole":"low","cluster":3,"mode":"Past-tense action verbs grabbing or picking up objects","scene_windows":0,"windows":5,"scene":"Characters quickly grabbing items"}
+{"neuron":6028,"pole":"low","cluster":4,"mode":"Definite article 'the' before objects of speech or action","scene_windows":0,"windows":5,"scene":"Dialogue and procedural narration"}
+{"neuron":6028,"pole":"low","cluster":5,"mode":"Emotional state words after 'I' or 'was'","scene_windows":1,"windows":5,"scene":"Frozen or ashamed reactions in tense narration"}
+{"neuron":6877,"pole":"high","cluster":0,"mode":"Subject pronoun 'We' opening urgent declarations","scene_windows":0,"windows":5,"scene":"Group plans and tense conversations"}
+{"neuron":6877,"pole":"high","cluster":1,"mode":"Contraction 't' in 'can't' expressions of disbelief","scene_windows":0,"windows":5,"scene":"Emotional disbelief and exasperated speech"}
+{"neuron":6877,"pole":"high","cluster":2,"mode":"Exclamatory interjections and pleas in urgent speech","scene_windows":1,"windows":5,"scene":"Urgent, startled or threatening exclamations"}
+{"neuron":6877,"pole":"high","cluster":3,"mode":"First-person 'I' starting pleading or urgent statements","scene_windows":2,"windows":5,"scene":"Pleading for mercy or a job, urgent appeals"}
+{"neuron":6877,"pole":"high","cluster":4,"mode":"Sentence-final periods after self-critical or emotional lines","scene_windows":0,"windows":5,"scene":"Frustrated self-reflection and quarrels"}
+{"neuron":6877,"pole":"high","cluster":5,"mode":"Contraction 'm' in first-person 'I'm' statements","scene_windows":0,"windows":5,"scene":"Casual first-person self-description"}
+{"neuron":6877,"pole":"low","cluster":0,"mode":"Negated 'did'/'do' (n't) in first-person and narrative clauses, mid-sentence","scene_windows":1,"windows":5,"scene":"Post-apocalyptic survival narration, fleeing monsters, quiet reflection"}
+{"neuron":6877,"pole":"low","cluster":1,"mode":"Hedging modals and adverbs (probably, might, ever, inevitably) in narration","scene_windows":0,"windows":5,"scene":"Tense character reflections, superhero or dystopian narration, bitter remarks"}
+{"neuron":6877,"pole":"low","cluster":2,"mode":"Sentence-ending punctuation and quote marks closing dialogue or narration beats","scene_windows":1,"windows":5,"scene":"Dark dialogue exchanges, tense confrontations, sardonic banter"}
+{"neuron":6877,"pole":"low","cluster":3,"mode":"Mid-clause tokens after feeling or state verbs ('felt', 'fun', 'different', 'cheated')","scene_windows":0,"windows":5,"scene":"Sci-fi or dark fiction, characters reflecting on emotions and plans"}

@@ -1,0 +1,56 @@
+{"neuron":7060,"pole":"high","cluster":0,"mode":"dialogue ending with a quote or exclamation mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":1,"mode":"dialogue with a blank or non-verbal response","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":2,"mode":"dialogue ending with a period, indicating a statement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":3,"mode":"dialogue ending with a period, indicating a statement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":4,"mode":"dialogue ending with a comma, indicating a question or continuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":5,"mode":"dialogue ending with a quoted word indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":6,"mode":"dialogue with a name in brackets, indicating a speaker","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":7,"mode":"dialogue starting with a quote or exclamation mark","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":8,"mode":"code snippets with bracketed characters","scene_windows":0,"windows":5,"scene":"technical text"}
+{"neuron":7060,"pole":"high","cluster":9,"mode":"dialogue ending with a quoted word indicating speech","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":10,"mode":"dialogue with bracketed words indicating speech or action","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"high","cluster":11,"mode":"dialogue with bracketed contractions or words","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":7060,"pole":"low","cluster":0,"mode":"first-person pronoun 'I' used in a context of self-reflection or internal monologue.","scene_windows":0,"windows":5,"scene":"Internal monologue, self-reflection"}
+{"neuron":7060,"pole":"low","cluster":1,"mode":"first-person pronoun 'I' used in a context of self-reflection or internal monologue.","scene_windows":0,"windows":5,"scene":"Internal monologue, self-reflection"}
+{"neuron":7060,"pole":"low","cluster":2,"mode":"technical terms and code snippets, likely from programming.","scene_windows":0,"windows":5,"scene":"Programming, technical text"}
+{"neuron":4459,"pole":"high","cluster":0,"mode":"dialogue with bracketed pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4459,"pole":"high","cluster":1,"mode":"dialogue with bracketed verbs or pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4459,"pole":"low","cluster":0,"mode":"dialogue ending with bracketed punctuation","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4459,"pole":"low","cluster":1,"mode":"dialogue with bracketed articles or pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":4459,"pole":"low","cluster":2,"mode":"code snippets with bracketed punctuation","scene_windows":0,"windows":5,"scene":"technical text"}
+{"neuron":4459,"pole":"low","cluster":3,"mode":"narrative descriptions of actions and events, often involving children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}
+{"neuron":4459,"pole":"low","cluster":4,"mode":"narrative descriptions of actions and events, often involving children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}
+{"neuron":4459,"pole":"low","cluster":5,"mode":"narrative descriptions of actions and events, often involving children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}
+{"neuron":1389,"pole":"high","cluster":0,"mode":"dialogue with bracketed words indicating knowledge or status","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1389,"pole":"high","cluster":1,"mode":"dialogue with bracketed words indicating behavior or state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1389,"pole":"high","cluster":2,"mode":"dialogue with bracketed adverbs indicating intensity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1389,"pole":"low","cluster":0,"mode":"dialogue with bracketed possessive pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1389,"pole":"low","cluster":1,"mode":"dialogue with bracketed pronouns or articles","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3138,"pole":"high","cluster":0,"mode":"dialogue with bracketed negations or pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3138,"pole":"high","cluster":1,"mode":"dialogue with bracketed assistant responses","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3138,"pole":"high","cluster":2,"mode":"dialogue with bracketed conjunctions or pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3138,"pole":"low","cluster":0,"mode":"dialogue with bracketed pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3138,"pole":"low","cluster":1,"mode":"dialogue with bracketed pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11405,"pole":"high","cluster":0,"mode":"dialogue with bracketed pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11405,"pole":"high","cluster":1,"mode":"dialogue with bracketed word fragments","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":11405,"pole":"low","cluster":0,"mode":"code snippets with bracketed numbers","scene_windows":0,"windows":5,"scene":"technical text"}
+{"neuron":11405,"pole":"low","cluster":1,"mode":"dialogue with bracketed punctuation or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6290,"pole":"high","cluster":0,"mode":"dialogue with bracketed punctuation or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6290,"pole":"high","cluster":1,"mode":"dialogue with bracketed punctuation or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6290,"pole":"low","cluster":0,"mode":"dialogue with bracketed possessive pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6290,"pole":"low","cluster":1,"mode":"dialogue with bracketed conjunctions or pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6290,"pole":"low","cluster":2,"mode":"dialogue with bracketed names or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1394,"pole":"high","cluster":0,"mode":"dialogue with bracketed pronouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1394,"pole":"high","cluster":1,"mode":"dialogue with bracketed names or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1394,"pole":"high","cluster":2,"mode":"dialogue with bracketed punctuation or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1394,"pole":"high","cluster":3,"mode":"dialogue with bracketed nouns or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1394,"pole":"low","cluster":0,"mode":"dialogue with bracketed conjunctions or pronouns","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1394,"pole":"low","cluster":1,"mode":"dialogue with bracketed punctuation or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":1394,"pole":"low","cluster":2,"mode":"dialogue with bracketed names or conjunctions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":144,"pole":"high","cluster":0,"mode":"pronouns referring to a female person in a narrative context.","scene_windows":0,"windows":5,"scene":"Narrative, character interaction"}
+{"neuron":144,"pole":"high","cluster":1,"mode":"abstract nouns related to challenges or concepts.","scene_windows":0,"windows":5,"scene":"Abstract concepts, problem-solving"}
+{"neuron":144,"pole":"low","cluster":0,"mode":"narrative descriptions of actions and events, often involving animals or children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}
+{"neuron":144,"pole":"low","cluster":1,"mode":"narrative descriptions of actions and events, often involving children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}
+{"neuron":144,"pole":"low","cluster":2,"mode":"narrative descriptions of actions and events, often involving children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}
+{"neuron":144,"pole":"low","cluster":3,"mode":"narrative descriptions of actions and events, often involving children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}
+{"neuron":144,"pole":"low","cluster":4,"mode":"narrative descriptions of actions and events, often involving children.","scene_windows":0,"windows":5,"scene":"Children's story, simple narration"}

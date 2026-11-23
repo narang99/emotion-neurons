@@ -1,0 +1,54 @@
+{"neuron":4447,"pole":"high","cluster":0,"mode":"Numbers and ordinal numbers used in lists, references, and grades.","scene_windows":0,"windows":5,"scene":"Lists and references"}
+{"neuron":4447,"pole":"high","cluster":1,"mode":"Ingredients and drink names, often with specific types.","scene_windows":0,"windows":5,"scene":"Recipes and drink preparation"}
+{"neuron":4447,"pole":"high","cluster":2,"mode":"Expressions of surprise, fear, and confusion.","scene_windows":2,"windows":5,"scene":"Shocked and afraid reactions"}
+{"neuron":4447,"pole":"high","cluster":3,"mode":"Ellipses and pauses indicating unspoken thoughts or actions.","scene_windows":0,"windows":5,"scene":"Hesitation and contemplation"}
+{"neuron":4447,"pole":"low","cluster":0,"mode":"Simple declarative sentences ending with periods.","scene_windows":0,"windows":5,"scene":"Basic narrative statements"}
+{"neuron":4447,"pole":"low","cluster":1,"mode":"Pronouns indicating a female subject performing an action.","scene_windows":0,"windows":5,"scene":"Narrative actions by female character"}
+{"neuron":4447,"pole":"low","cluster":2,"mode":"Nouns referring to people or social roles.","scene_windows":0,"windows":5,"scene":"Social interactions and roles"}
+{"neuron":4447,"pole":"low","cluster":3,"mode":"Numbers, often large, used in measurements or quantities.","scene_windows":0,"windows":5,"scene":"Quantities and measurements"}
+{"neuron":10948,"pole":"high","cluster":0,"mode":"Expressions of emotion, ideas, and positive relationships.","scene_windows":0,"windows":5,"scene":"Emotional states and relationships"}
+{"neuron":10948,"pole":"high","cluster":1,"mode":"Exclamations and statements indicating completion or positive outcomes.","scene_windows":0,"windows":5,"scene":"Completion and positive outcomes"}
+{"neuron":10948,"pole":"low","cluster":0,"mode":"Prepositions and articles indicating location or purpose.","scene_windows":0,"windows":5,"scene":"Location and purpose"}
+{"neuron":10948,"pole":"low","cluster":1,"mode":"Numbers indicating quantity or measurement.","scene_windows":0,"windows":5,"scene":"Quantities and measurements"}
+{"neuron":10948,"pole":"low","cluster":2,"mode":"Nouns referring to people or social roles.","scene_windows":0,"windows":5,"scene":"Social interactions and roles"}
+{"neuron":10948,"pole":"low","cluster":3,"mode":"Pronouns indicating a male subject performing an action.","scene_windows":0,"windows":5,"scene":"Narrative actions by male character"}
+{"neuron":10948,"pole":"low","cluster":4,"mode":"childhood stories about animals and their adventures","scene_windows":0,"windows":5,"scene":"children's stories, happy endings"}
+{"neuron":10948,"pole":"low","cluster":5,"mode":"children's stories about animals and their adventures","scene_windows":0,"windows":5,"scene":"children's stories, happy endings"}
+{"neuron":10948,"pole":"low","cluster":6,"mode":"children's stories about animals and their adventures","scene_windows":0,"windows":5,"scene":"children's stories, happy endings"}
+{"neuron":9106,"pole":"high","cluster":0,"mode":"Contractions and pronouns indicating possession or state of being.","scene_windows":0,"windows":5,"scene":"Possession and state of being"}
+{"neuron":9106,"pole":"high","cluster":1,"mode":"Colons introducing responses or explanations.","scene_windows":0,"windows":5,"scene":"Explanations and responses"}
+{"neuron":9106,"pole":"low","cluster":0,"mode":"Periods and ellipses indicating sentence endings or pauses.","scene_windows":0,"windows":5,"scene":"Sentence endings and pauses"}
+{"neuron":9106,"pole":"low","cluster":1,"mode":"Ingredients and food items, often in lists.","scene_windows":0,"windows":5,"scene":"Food and ingredients"}
+{"neuron":9106,"pole":"low","cluster":2,"mode":"Place names and institutions.","scene_windows":0,"windows":5,"scene":"Locations and institutions"}
+{"neuron":9106,"pole":"low","cluster":3,"mode":"Question marks and conjunctions indicating uncertainty or dialogue.","scene_windows":0,"windows":5,"scene":"Questions and dialogue"}
+{"neuron":9106,"pole":"low","cluster":4,"mode":"Conjunctions and adverbs indicating sequence or manner.","scene_windows":0,"windows":5,"scene":"Sequence and manner"}
+{"neuron":9559,"pole":"high","cluster":0,"mode":"Nouns related to time, life, and abstract concepts.","scene_windows":0,"windows":5,"scene":"Abstract concepts and time"}
+{"neuron":9559,"pole":"high","cluster":1,"mode":"Punctuation and symbols used in code or technical contexts.","scene_windows":0,"windows":5,"scene":"Code and technical symbols"}
+{"neuron":9559,"pole":"low","cluster":0,"mode":"Code snippets and programming syntax.","scene_windows":0,"windows":5,"scene":"Programming code snippets"}
+{"neuron":9559,"pole":"low","cluster":1,"mode":"Pronouns and short words indicating parts of words.","scene_windows":0,"windows":5,"scene":"Word fragments and pronouns"}
+{"neuron":9559,"pole":"low","cluster":2,"mode":"Pronouns indicating a person or thing.","scene_windows":0,"windows":5,"scene":"Pronouns and references"}
+{"neuron":10172,"pole":"high","cluster":0,"mode":"Expressions of emotion, life, and personal experience.","scene_windows":0,"windows":5,"scene":"Emotional states and life"}
+{"neuron":10172,"pole":"high","cluster":1,"mode":"Pronouns indicating possession or a female subject.","scene_windows":0,"windows":5,"scene":"Possession and female subjects"}
+{"neuron":10172,"pole":"low","cluster":0,"mode":"Numbers and units of measurement.","scene_windows":0,"windows":5,"scene":"Measurements and units"}
+{"neuron":10172,"pole":"low","cluster":1,"mode":"Code snippets and programming syntax.","scene_windows":0,"windows":5,"scene":"Programming code snippets"}
+{"neuron":10172,"pole":"low","cluster":2,"mode":"Conjunctions and prepositions indicating relationships.","scene_windows":0,"windows":5,"scene":"Relationships and connections"}
+{"neuron":10172,"pole":"low","cluster":3,"mode":"Numbers and units of measurement.","scene_windows":0,"windows":5,"scene":"Measurements and units"}
+{"neuron":8556,"pole":"high","cluster":0,"mode":"Expressions of emotion, intent, and personal pronouns.","scene_windows":0,"windows":5,"scene":"Emotional states and intent"}
+{"neuron":8556,"pole":"high","cluster":1,"mode":"Prepositions indicating location or context.","scene_windows":0,"windows":5,"scene":"Location and context"}
+{"neuron":8556,"pole":"low","cluster":0,"mode":"Nouns referring to animals or objects.","scene_windows":0,"windows":5,"scene":"Animals and objects"}
+{"neuron":8556,"pole":"low","cluster":1,"mode":"Quotation marks and interjections indicating dialogue.","scene_windows":0,"windows":5,"scene":"Dialogue and interjections"}
+{"neuron":8556,"pole":"low","cluster":2,"mode":"Pronouns indicating a male subject performing an action.","scene_windows":0,"windows":5,"scene":"Narrative actions by male character"}
+{"neuron":8556,"pole":"low","cluster":3,"mode":"Conjunctions and adverbs indicating sequence or manner.","scene_windows":0,"windows":5,"scene":"Sequence and manner"}
+{"neuron":8556,"pole":"low","cluster":4,"mode":"Expressions of emotion, intent, and personal pronouns.","scene_windows":0,"windows":5,"scene":"Emotional states and intent"}
+{"neuron":8556,"pole":"low","cluster":5,"mode":"children's stories about animals and their adventures","scene_windows":0,"windows":5,"scene":"children's stories, happy endings"}
+{"neuron":11868,"pole":"high","cluster":0,"mode":"once upon a time stories about girls and their actions","scene_windows":0,"windows":5,"scene":"children's stories, positive actions"}
+{"neuron":11868,"pole":"high","cluster":1,"mode":"once upon a time stories about children and their lives","scene_windows":0,"windows":5,"scene":"children's stories, neutral narration"}
+{"neuron":11868,"pole":"low","cluster":0,"mode":"children's stories about animals and their interactions","scene_windows":0,"windows":5,"scene":"children's stories, happy endings"}
+{"neuron":11868,"pole":"low","cluster":1,"mode":"children's stories about animals and their happiness","scene_windows":0,"windows":5,"scene":"children's stories, happy endings"}
+{"neuron":2519,"pole":"high","cluster":0,"mode":"Punctuation and numbers used in citations and references.","scene_windows":0,"windows":5,"scene":"Citations and references"}
+{"neuron":2519,"pole":"high","cluster":1,"mode":"Nouns referring to food, ingredients, and actions.","scene_windows":0,"windows":5,"scene":"Food and actions"}
+{"neuron":2519,"pole":"low","cluster":0,"mode":"Pronouns indicating possession or a female subject.","scene_windows":0,"windows":5,"scene":"Possession and female subjects"}
+{"neuron":2519,"pole":"low","cluster":1,"mode":"Nouns referring to medical conditions or substances.","scene_windows":0,"windows":5,"scene":"Medical conditions and substances"}
+{"neuron":2519,"pole":"low","cluster":2,"mode":"Nouns referring to people or social roles.","scene_windows":0,"windows":5,"scene":"Social interactions and roles"}
+{"neuron":2519,"pole":"low","cluster":3,"mode":"Nouns indicating abstract concepts or states.","scene_windows":0,"windows":5,"scene":"Abstract concepts and states"}
+{"neuron":2519,"pole":"low","cluster":4,"mode":"Conjunctions and adverbs indicating sequence or manner.","scene_windows":0,"windows":5,"scene":"Sequence and manner"}

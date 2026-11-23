@@ -1,0 +1,59 @@
+{"neuron":2208,"pole":"high","cluster":0,"mode":"sudden, shocking, or supernatural events with strong emotional reactions.","scene_windows":2,"windows":5,"scene":"shocking supernatural event"}
+{"neuron":2208,"pole":"high","cluster":1,"mode":"narrative focus on characters, often with a sense of anticipation or discovery.","scene_windows":0,"windows":5,"scene":"character-focused narrative"}
+{"neuron":2208,"pole":"high","cluster":2,"mode":"technical descriptions of materials, processes, and their properties.","scene_windows":0,"windows":5,"scene":"technical explanation"}
+{"neuron":2208,"pole":"low","cluster":0,"mode":"recipe instructions, often numbered steps for food preparation.","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":2208,"pole":"low","cluster":1,"mode":"dialogue, often in children's stories, with quotation marks.","scene_windows":0,"windows":5,"scene":"dialogue in stories"}
+{"neuron":2208,"pole":"low","cluster":2,"mode":"narrative descriptions of characters' positive emotions and actions.","scene_windows":0,"windows":5,"scene":"positive character actions"}
+{"neuron":2208,"pole":"low","cluster":3,"mode":"narrative descriptions of characters' positive emotions and actions.","scene_windows":0,"windows":5,"scene":"positive character actions"}
+{"neuron":2208,"pole":"low","cluster":4,"mode":"narrative descriptions of characters' positive emotions and actions.","scene_windows":0,"windows":5,"scene":"positive character actions"}
+{"neuron":1407,"pole":"high","cluster":0,"mode":"biblical or religious text citations and structural descriptions.","scene_windows":0,"windows":5,"scene":"religious text analysis"}
+{"neuron":1407,"pole":"high","cluster":1,"mode":"news or factual reporting on legal, regulatory, or political matters.","scene_windows":0,"windows":5,"scene":"factual news reporting"}
+{"neuron":1407,"pole":"high","cluster":2,"mode":"narrative descriptions of tense or frightening situations.","scene_windows":1,"windows":5,"scene":"tense narrative situation"}
+{"neuron":1407,"pole":"high","cluster":3,"mode":"narrative descriptions of animals and nature, often in a gentle context.","scene_windows":0,"windows":5,"scene":"gentle nature narrative"}
+{"neuron":1407,"pole":"high","cluster":4,"mode":"narrative descriptions of positive emotions and enjoyable activities.","scene_windows":0,"windows":5,"scene":"positive emotional narrative"}
+{"neuron":1407,"pole":"low","cluster":0,"mode":"narrative descriptions of characters' positive emotions and actions.","scene_windows":0,"windows":5,"scene":"positive character actions"}
+{"neuron":1407,"pole":"low","cluster":1,"mode":"narrative descriptions of characters' intentions and potential actions.","scene_windows":0,"windows":5,"scene":"character intentions narrative"}
+{"neuron":1407,"pole":"low","cluster":2,"mode":"narrative descriptions of characters' positive emotions and actions.","scene_windows":0,"windows":5,"scene":"positive character actions"}
+{"neuron":1407,"pole":"low","cluster":3,"mode":"dialogue, often in stories, with quotation marks.","scene_windows":0,"windows":5,"scene":"dialogue in stories"}
+{"neuron":9553,"pole":"high","cluster":0,"mode":"bibliographic citations, often with journal names and page numbers.","scene_windows":0,"windows":5,"scene":"bibliographic citation"}
+{"neuron":9553,"pole":"high","cluster":1,"mode":"narrative focus on characters, often with a sense of anticipation or discovery.","scene_windows":0,"windows":5,"scene":"character-focused narrative"}
+{"neuron":9553,"pole":"high","cluster":2,"mode":"narrative descriptions of characters' interactions and emotions.","scene_windows":0,"windows":5,"scene":"character interaction narrative"}
+{"neuron":9553,"pole":"low","cluster":0,"mode":"bibliographic citations, often with journal names and page numbers.","scene_windows":0,"windows":5,"scene":"bibliographic citation"}
+{"neuron":9553,"pole":"low","cluster":1,"mode":"narrative descriptions of characters' actions and emotions, often in stories.","scene_windows":0,"windows":5,"scene":"character action narrative"}
+{"neuron":9553,"pole":"low","cluster":2,"mode":"dialogue, often in stories, with quotation marks.","scene_windows":0,"windows":5,"scene":"dialogue in stories"}
+{"neuron":9553,"pole":"low","cluster":3,"mode":"narrative descriptions of characters' actions and emotions, often in stories.","scene_windows":0,"windows":5,"scene":"character action narrative"}
+{"neuron":9553,"pole":"low","cluster":4,"mode":"narrative descriptions of characters' positive emotions and actions.","scene_windows":0,"windows":5,"scene":"positive character actions"}
+{"neuron":9553,"pole":"low","cluster":5,"mode":"narrative descriptions of characters' positive emotions and actions.","scene_windows":0,"windows":5,"scene":"positive character actions"}
+{"neuron":11698,"pole":"high","cluster":0,"mode":"sounds and voices heard in various situations","scene_windows":0,"windows":5,"scene":"various situations"}
+{"neuron":11698,"pole":"high","cluster":1,"mode":"dialogue, someone speaking or saying something","scene_windows":0,"windows":5,"scene":"conversations and interactions"}
+{"neuron":11698,"pole":"high","cluster":2,"mode":"pronouns referring to self or others in narrative","scene_windows":0,"windows":5,"scene":"narrative and character focus"}
+{"neuron":11698,"pole":"high","cluster":3,"mode":"numbers, abbreviations, and names in text","scene_windows":0,"windows":5,"scene":"textual elements and references"}
+{"neuron":11698,"pole":"high","cluster":4,"mode":"body parts and physical states in tense moments","scene_windows":2,"windows":5,"scene":"physical distress and injury"}
+{"neuron":11698,"pole":"high","cluster":5,"mode":"dialogue, someone speaking or saying something","scene_windows":0,"windows":5,"scene":"conversations and interactions"}
+{"neuron":11698,"pole":"high","cluster":6,"mode":"words related to physical actions, body parts, and states","scene_windows":0,"windows":5,"scene":"physical descriptions and actions"}
+{"neuron":11698,"pole":"high","cluster":7,"mode":"emotions and physical reactions in interactions","scene_windows":0,"windows":5,"scene":"emotional and physical responses"}
+{"neuron":11698,"pole":"low","cluster":0,"mode":"body parts and physical sensations in narrative","scene_windows":0,"windows":5,"scene":"physical sensations and actions"}
+{"neuron":11698,"pole":"low","cluster":1,"mode":"body parts and physical sensations in narrative","scene_windows":0,"windows":5,"scene":"physical sensations and actions"}
+{"neuron":11698,"pole":"low","cluster":2,"mode":"pronouns referring to self or others in narrative","scene_windows":0,"windows":5,"scene":"narrative and character focus"}
+{"neuron":2972,"pole":"high","cluster":0,"mode":"narrative descriptions of personal feelings, relationships, and actions.","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":2972,"pole":"high","cluster":1,"mode":"narrative descriptions of personal loyalties, relationships, and actions.","scene_windows":0,"windows":5,"scene":"personal loyalty narrative"}
+{"neuron":2972,"pole":"low","cluster":0,"mode":"narrative descriptions of characters' actions and emotions, often in stories.","scene_windows":0,"windows":5,"scene":"character action narrative"}
+{"neuron":2972,"pole":"low","cluster":1,"mode":"abbreviations and acronyms, often in technical or organizational contexts.","scene_windows":0,"windows":5,"scene":"abbreviations and acronyms"}
+{"neuron":2972,"pole":"low","cluster":2,"mode":"recipe instructions, often numbered steps for food preparation.","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":6553,"pole":"high","cluster":0,"mode":"narrative descriptions of characters' actions and observations, often in simple stories.","scene_windows":0,"windows":5,"scene":"simple narrative observation"}
+{"neuron":6553,"pole":"high","cluster":1,"mode":"narrative descriptions of characters' actions and emotions, often in stories.","scene_windows":0,"windows":5,"scene":"character action narrative"}
+{"neuron":6553,"pole":"high","cluster":2,"mode":"narrative descriptions of characters' actions and movements, often in stories.","scene_windows":0,"windows":5,"scene":"character movement narrative"}
+{"neuron":6553,"pole":"low","cluster":0,"mode":"narrative descriptions of characters' actions and emotions, often in stories.","scene_windows":0,"windows":5,"scene":"character action narrative"}
+{"neuron":6553,"pole":"low","cluster":1,"mode":"narrative descriptions of characters' feelings and actions, often in stories.","scene_windows":0,"windows":5,"scene":"character feeling narrative"}
+{"neuron":3761,"pole":"high","cluster":0,"mode":"pronouns referring to self or others in narrative","scene_windows":0,"windows":5,"scene":"narrative and character focus"}
+{"neuron":3761,"pole":"high","cluster":1,"mode":"names and simple descriptions of characters","scene_windows":0,"windows":5,"scene":"character introductions and descriptions"}
+{"neuron":3761,"pole":"low","cluster":0,"mode":"conjunctions and pronouns in narrative context","scene_windows":0,"windows":5,"scene":"narrative flow and emotions"}
+{"neuron":3761,"pole":"low","cluster":1,"mode":"pronouns and verbs indicating feelings or states","scene_windows":0,"windows":5,"scene":"feelings and states of being"}
+{"neuron":11637,"pole":"high","cluster":0,"mode":"narrative descriptions of characters' emotional states and observations.","scene_windows":0,"windows":5,"scene":"character emotional state"}
+{"neuron":11637,"pole":"high","cluster":1,"mode":"dialogue, often in stories, with quotation marks.","scene_windows":0,"windows":5,"scene":"dialogue in stories"}
+{"neuron":11637,"pole":"low","cluster":0,"mode":"narrative descriptions of characters' actions and emotions, often in stories.","scene_windows":0,"windows":5,"scene":"character action narrative"}
+{"neuron":11637,"pole":"low","cluster":1,"mode":"narrative descriptions of characters' decisions and actions, often in stories.","scene_windows":0,"windows":5,"scene":"character decision narrative"}
+{"neuron":11637,"pole":"low","cluster":2,"mode":"narrative descriptions of characters' attempts and actions, often in stories.","scene_windows":0,"windows":5,"scene":"character attempt narrative"}
+{"neuron":11637,"pole":"low","cluster":3,"mode":"numerical data, often in citations or technical contexts.","scene_windows":0,"windows":5,"scene":"numerical data"}
+{"neuron":11637,"pole":"low","cluster":4,"mode":"narrative descriptions of characters' observations and actions, often in stories.","scene_windows":0,"windows":5,"scene":"character observation narrative"}
+{"neuron":11637,"pole":"low","cluster":5,"mode":"narrative descriptions of characters' knowledge and actions, often in stories.","scene_windows":0,"windows":5,"scene":"character knowledge narrative"}

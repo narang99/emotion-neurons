@@ -1,0 +1,46 @@
+{"neuron":11722,"pole":"high","cluster":0,"mode":"\"started\" beginning an action in simple children's narrative","scene_windows":0,"windows":5,"scene":"simple children's stories of characters starting actions"}
+{"neuron":11722,"pole":"high","cluster":1,"mode":"Tense or dramatic nouns and verbs in literary narration","scene_windows":1,"windows":5,"scene":"wartime gunfire, alien tragedy, romantic or emotional narration"}
+{"neuron":11722,"pole":"low","cluster":0,"mode":"Prepositions completing expository phrases in informational text","scene_windows":0,"windows":5,"scene":"encyclopedic, scientific, and news-style informational text"}
+{"neuron":11722,"pole":"low","cluster":1,"mode":"Verb particles and pronouns ending narrative action clauses","scene_windows":0,"windows":5,"scene":"ordinary narrative scenes with characters acting or speaking"}
+{"neuron":3092,"pole":"high","cluster":0,"mode":"Word ending a happy action clause or noun phrase","scene_windows":0,"windows":5,"scene":"cheerful children's stories and light everyday narration"}
+{"neuron":3092,"pole":"high","cluster":1,"mode":"Blank paragraph-break tokens after emotional or dramatic lines","scene_windows":1,"windows":5,"scene":"dark fiction with despair, abuse, or fatal moments"}
+{"neuron":3092,"pole":"low","cluster":0,"mode":"Numbered list markers or tip indices in advice text","scene_windows":0,"windows":5,"scene":"listicle advice on energy, productivity, and recipes"}
+{"neuron":3092,"pole":"low","cluster":1,"mode":"Mid-word subword fragments inside narrative words","scene_windows":0,"windows":5,"scene":"fiction with ordinary action such as swimming or jumping"}
+{"neuron":6305,"pole":"high","cluster":0,"mode":"Subject pronouns starting sentences about a character's feelings","scene_windows":0,"windows":5,"scene":"cheerful children's stories about happy discoveries"}
+{"neuron":6305,"pole":"high","cluster":1,"mode":"\"liked\" or \"loved\" describing a character's fondness","scene_windows":0,"windows":5,"scene":"simple children's stories about favorite activities or animals"}
+{"neuron":6305,"pole":"low","cluster":0,"mode":"Indefinite article \"a\" after perception or discovery verbs","scene_windows":0,"windows":5,"scene":"children's stories about finding or noticing things"}
+{"neuron":6305,"pole":"low","cluster":1,"mode":"Commas and \"was\" in descriptive clauses about settings","scene_windows":0,"windows":5,"scene":"descriptive narration of rooms, objects, and scenes"}
+{"neuron":6305,"pole":"low","cluster":2,"mode":"The verb \"saw\" introducing a discovery","scene_windows":0,"windows":5,"scene":"children's stories of outings and noticing sights"}
+{"neuron":5828,"pole":"high","cluster":0,"mode":"Words mid-clause in tense, uncanny first-person narration","scene_windows":1,"windows":5,"scene":"eerie or unsettling scenes with a frozen or distorted narrator"}
+{"neuron":5828,"pole":"high","cluster":1,"mode":"\"All\" as quantifier opening or closing narrative sentences","scene_windows":0,"windows":5,"scene":"fairy-tale and story narration with quiet or happy endings"}
+{"neuron":5828,"pole":"low","cluster":0,"mode":"Verbs and nouns in emotional, reflective first-person prose","scene_windows":0,"windows":5,"scene":"grief, family memories, and introspective narration"}
+{"neuron":5828,"pole":"low","cluster":1,"mode":"First-person \"I\" in emotional confessions and heated dialogue","scene_windows":1,"windows":5,"scene":"pleading or defensive dialogue between characters"}
+{"neuron":5828,"pole":"low","cluster":2,"mode":"Commas pausing mid-sentence in reflective statements","scene_windows":0,"windows":5,"scene":"news-like or reflective prose about risks and concerns"}
+{"neuron":5828,"pole":"low","cluster":3,"mode":"Question marks and periods closing angry or despairing lines","scene_windows":2,"windows":5,"scene":"hostile or despairing dialogue about death and violence"}
+{"neuron":5828,"pole":"low","cluster":4,"mode":"Blank paragraph-break tokens after tense dialogue lines","scene_windows":0,"windows":5,"scene":"tense dialogue scenes in fiction and mystery"}
+{"neuron":11226,"pole":"high","cluster":0,"mode":"Technical tokens in citations, code, and numbers","scene_windows":0,"windows":5,"scene":"academic references, code snippets, and product text"}
+{"neuron":11226,"pole":"high","cluster":1,"mode":"\"smiled\" as a character's reaction in dialogue","scene_windows":0,"windows":5,"scene":"gentle children's stories with kind responses"}
+{"neuron":11226,"pole":"high","cluster":2,"mode":"Character names as subjects in narrative sentences","scene_windows":0,"windows":5,"scene":"fiction with characters in ordinary or reflective scenes"}
+{"neuron":11226,"pole":"high","cluster":3,"mode":"\"said\" introducing a character's reply","scene_windows":0,"windows":5,"scene":"dialogue exchanges in stories and conversations"}
+{"neuron":11226,"pole":"high","cluster":4,"mode":"\"something\" as an indefinite object or noun","scene_windows":0,"windows":5,"scene":"stories of discovering or noticing something unusual"}
+{"neuron":11226,"pole":"high","cluster":5,"mode":"Commas and ingredient tokens in recipe lists","scene_windows":0,"windows":5,"scene":"recipe ingredient lists"}
+{"neuron":11226,"pole":"high","cluster":6,"mode":"Mid-sentence nouns and verbs in varied prose","scene_windows":0,"windows":5,"scene":"assorted fiction and conversational scenes"}
+{"neuron":11226,"pole":"high","cluster":7,"mode":"Object pronouns or nouns closing short action clauses","scene_windows":0,"windows":5,"scene":"children's stories about playing with objects"}
+{"neuron":11226,"pole":"low","cluster":0,"mode":"Mid-sentence function words and adverbs in dark prose","scene_windows":1,"windows":5,"scene":"grim or tense narration of struggle and dread"}
+{"neuron":11226,"pole":"low","cluster":1,"mode":"\"ran\" as a motion verb after a group subject","scene_windows":0,"windows":5,"scene":"children's stories of running and playing outdoors"}
+{"neuron":4759,"pole":"high","cluster":0,"mode":"Pronouns and conjunctions in heated or pleading dialogue","scene_windows":1,"windows":5,"scene":"argumentative or pleading speech among characters"}
+{"neuron":4759,"pole":"high","cluster":1,"mode":"Opening quotation marks starting a character's speech","scene_windows":0,"windows":5,"scene":"children's stories with animal or friend dialogue"}
+{"neuron":4759,"pole":"low","cluster":0,"mode":"Prepositions in institutional or organizational descriptions","scene_windows":0,"windows":5,"scene":"institutional and organizational reporting"}
+{"neuron":4759,"pole":"low","cluster":1,"mode":"Sentence-final periods and question marks in news","scene_windows":0,"windows":5,"scene":"news and environmental reporting"}
+{"neuron":4759,"pole":"low","cluster":2,"mode":"Abstract nouns and \"that\" in grim, introspective narration","scene_windows":2,"windows":5,"scene":"dark introspection about death, despair, or self-harm"}
+{"neuron":8713,"pole":"high","cluster":0,"mode":"Subject pronouns and \"was\" in tense first-person speech","scene_windows":2,"windows":5,"scene":"threatening or high-stakes confrontations with a narrator at risk"}
+{"neuron":8713,"pole":"high","cluster":1,"mode":"Numbers and time-span words in historical or news text","scene_windows":0,"windows":5,"scene":"historical narration and news with dates and durations"}
+{"neuron":8713,"pole":"low","cluster":0,"mode":"Commas and periods in surreal or wry first-person narration","scene_windows":0,"windows":5,"scene":"quirky fantasy or introspective narration"}
+{"neuron":8713,"pole":"low","cluster":1,"mode":"The article \"the\" before nouns in narrative clauses","scene_windows":0,"windows":5,"scene":"narration of dramatic but calm events"}
+{"neuron":10625,"pole":"high","cluster":0,"mode":"Subject pronouns or names starting character sentences","scene_windows":0,"windows":5,"scene":"simple children's stories introducing a girl or character"}
+{"neuron":10625,"pole":"high","cluster":1,"mode":"Commas before a clause of doubt or high stakes","scene_windows":1,"windows":5,"scene":"uncertain or high-stakes situations with a risk of failure"}
+{"neuron":10625,"pole":"high","cluster":2,"mode":"Word fragments inside names or technical terms","scene_windows":0,"windows":5,"scene":"medical, religious, and technical texts"}
+{"neuron":10625,"pole":"high","cluster":3,"mode":"Conjunctions \"but\" and \"and\" opening contrastive clauses","scene_windows":0,"windows":5,"scene":"philosophical or argumentative dialogue"}
+{"neuron":10625,"pole":"high","cluster":4,"mode":"Blank paragraph-break tokens after tense lines","scene_windows":0,"windows":5,"scene":"dramatic dialogue and fiction scenes"}
+{"neuron":10625,"pole":"low","cluster":0,"mode":"\"I\" and \"was\" starting clauses of physical fear","scene_windows":2,"windows":5,"scene":"first-person fear, panic, and physical distress"}
+{"neuron":10625,"pole":"low","cluster":1,"mode":"\"there\" in formulaic \"Once upon a time\" openings","scene_windows":0,"windows":5,"scene":"formulaic fairy-tale openings"}

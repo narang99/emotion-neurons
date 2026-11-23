@@ -1,0 +1,64 @@
+{"neuron":9091,"pole":"high","cluster":0,"mode":"Subject pronoun starting a clause in first- or third-person narrative","scene_windows":0,"windows":5,"scene":"Personal narratives and stories with tense or emotional moments"}
+{"neuron":9091,"pole":"high","cluster":1,"mode":"Numeric or date tokens inside historical and factual sentences","scene_windows":0,"windows":5,"scene":"Historical and encyclopedic factual passages"}
+{"neuron":9091,"pole":"low","cluster":0,"mode":"Intensifier 'so' after 'was/were' expressing excitement","scene_windows":0,"windows":5,"scene":"Cheerful children's stories about excitement"}
+{"neuron":9091,"pole":"low","cluster":1,"mode":"Commas and connectives after dates or in historical clauses","scene_windows":0,"windows":5,"scene":"Biographical and historical narrative text"}
+{"neuron":9091,"pole":"low","cluster":2,"mode":"Modal or auxiliary verbs ('will', 'may', 'is') in scientific claims","scene_windows":0,"windows":5,"scene":"Science and energy technology expository text"}
+{"neuron":9091,"pole":"low","cluster":3,"mode":"Punctuation or pronouns after a child's sad or troubled moment","scene_windows":0,"windows":5,"scene":"Children's stories with mild sadness or worry"}
+{"neuron":3513,"pole":"high","cluster":0,"mode":"Past-tense action verb right after a character subject","scene_windows":0,"windows":5,"scene":"Simple children's stories with cheerful actions"}
+{"neuron":3513,"pole":"high","cluster":1,"mode":"Verb 'ran' after a character's emotional or quick action","scene_windows":0,"windows":5,"scene":"Children's stories of running away or hurrying"}
+{"neuron":3513,"pole":"high","cluster":2,"mode":"Verb 'smiled' reacting to another character's words","scene_windows":0,"windows":5,"scene":"Children's dialogue and friendly reactions"}
+{"neuron":3513,"pole":"high","cluster":3,"mode":"Nouns 'game', 'games', 'operations', 'language' ending noun phrases","scene_windows":0,"windows":5,"scene":"Sports, play, and research descriptions"}
+{"neuron":3513,"pole":"high","cluster":4,"mode":"Character name or pronoun opening a story's main clause","scene_windows":0,"windows":5,"scene":"Story openings introducing a child character"}
+{"neuron":3513,"pole":"high","cluster":5,"mode":"'and' following 'smiled' in a character's reaction","scene_windows":0,"windows":5,"scene":"Gentle children's stories with friendly reactions"}
+{"neuron":3513,"pole":"high","cluster":6,"mode":"Sentence-final period closing a happy narrative sentence","scene_windows":0,"windows":5,"scene":"Warm, proud moments in children's stories"}
+{"neuron":3513,"pole":"low","cluster":0,"mode":"Object pronoun or noun ending a phrase of emotional pain","scene_windows":1,"windows":5,"scene":"Emotional confrontations and tense personal narratives"}
+{"neuron":3513,"pole":"low","cluster":1,"mode":"Subject noun 'girl', 'boy', 'He' in story narration","scene_windows":0,"windows":5,"scene":"Children's moral tales and story narration"}
+{"neuron":3513,"pole":"low","cluster":2,"mode":"Sentence-final period after an emotional or tense statement","scene_windows":1,"windows":5,"scene":"Tense first-person and dark narrative passages"}
+{"neuron":3513,"pole":"low","cluster":3,"mode":"Period followed by double space at story-opening sentence ends","scene_windows":0,"windows":5,"scene":"Simple children's stories about pets and daily life"}
+{"neuron":3513,"pole":"low","cluster":4,"mode":"Sentence-final period closing a moral or lesson sentence","scene_windows":0,"windows":5,"scene":"Children's stories ending with lessons learned"}
+{"neuron":3513,"pole":"low","cluster":5,"mode":"Period after the opening 'Once upon a time' character introduction","scene_windows":0,"windows":5,"scene":"Children's story openings naming a little girl"}
+{"neuron":10150,"pole":"high","cluster":0,"mode":"Past-tense 'looked' after a character's action","scene_windows":0,"windows":5,"scene":"Action and tense narrative scenes, mostly neutral"}
+{"neuron":10150,"pole":"high","cluster":1,"mode":"Concrete household or object nouns ending an action phrase","scene_windows":0,"windows":5,"scene":"Narrative scenes describing objects and places"}
+{"neuron":10150,"pole":"high","cluster":2,"mode":"Technology and furniture nouns or modifiers in advice text","scene_windows":0,"windows":5,"scene":"Product, tech market, and home-office advice"}
+{"neuron":10150,"pole":"high","cluster":3,"mode":"Verb 'smiled' reacting to another character","scene_windows":0,"windows":5,"scene":"Children's stories with friendly reactions"}
+{"neuron":10150,"pole":"high","cluster":4,"mode":"'mom' or 'mommy' as the possessive subject of a sentence","scene_windows":2,"windows":5,"scene":"Children's stories where a mother responds to trouble"}
+{"neuron":10150,"pole":"high","cluster":5,"mode":"'and' after a character's gesture or look","scene_windows":0,"windows":5,"scene":"Dark or emotional first-person and child scenes"}
+{"neuron":10150,"pole":"high","cluster":6,"mode":"Subject 'He', 'She', 'girl' starting a reaction sentence","scene_windows":0,"windows":5,"scene":"Children's stories of happiness and gratitude"}
+{"neuron":10150,"pole":"low","cluster":0,"mode":"Technical verbs and nouns in brake and vehicle descriptions","scene_windows":0,"windows":5,"scene":"Automotive braking and rotor technical text"}
+{"neuron":10150,"pole":"low","cluster":1,"mode":"Partial proper names or numbers inside citations and reports","scene_windows":0,"windows":5,"scene":"News, names, and reference text"}
+{"neuron":10150,"pole":"low","cluster":2,"mode":"Physical body or vehicle nouns ending an action clause","scene_windows":0,"windows":5,"scene":"Action and sci-fi physical description scenes"}
+{"neuron":10150,"pole":"low","cluster":3,"mode":"Past-tense 'was' or 'were' after a subject pronoun","scene_windows":0,"windows":5,"scene":"Mixed narration with mild tension or description"}
+{"neuron":1704,"pole":"high","cluster":0,"mode":"Verb 'wanted' expressing a character's desire","scene_windows":1,"windows":5,"scene":"Children's stories with wants and fears"}
+{"neuron":1704,"pole":"high","cluster":1,"mode":"Verb 'get' or article 'a' in advice and goal phrases","scene_windows":0,"windows":5,"scene":"Advice, fundraising, and motivational text"}
+{"neuron":1704,"pole":"high","cluster":2,"mode":"Nouns in historical or policy descriptions","scene_windows":0,"windows":5,"scene":"Historical and political factual text"}
+{"neuron":1704,"pole":"high","cluster":3,"mode":"First-person 'I' starting a clause in tense narration","scene_windows":2,"windows":5,"scene":"Tense first-person narratives of danger or escape"}
+{"neuron":1704,"pole":"high","cluster":4,"mode":"Nouns 'strength', 'impulse', 'downhill', 'time' in strained moments","scene_windows":3,"windows":5,"scene":"Strained personal crises and emotional pleas"}
+{"neuron":1704,"pole":"high","cluster":5,"mode":"Emotion adjectives 'upset', 'sad', 'scared' describing a character","scene_windows":0,"windows":5,"scene":"Children's stories of upset feelings"}
+{"neuron":1704,"pole":"high","cluster":6,"mode":"Adjective 'happy' after 'was so'","scene_windows":0,"windows":5,"scene":"Children's stories of happiness"}
+{"neuron":1704,"pole":"low","cluster":0,"mode":"Physical struggle nouns or verbs like 'ground', 'him', 'stumble'","scene_windows":1,"windows":5,"scene":"Physical fights, falls, and struggles"}
+{"neuron":1704,"pole":"low","cluster":1,"mode":"Past-tense 'was' after a character's name or pronoun","scene_windows":0,"windows":5,"scene":"Children's stories about play and excitement"}
+{"neuron":8339,"pole":"high","cluster":0,"mode":"Conjunction or pronoun after a fun activity verb phrase","scene_windows":0,"windows":5,"scene":"Happy children's stories of play and outdoors"}
+{"neuron":8339,"pole":"high","cluster":1,"mode":"Verb 'play' or 'played' in joyful activities","scene_windows":0,"windows":5,"scene":"Children playing together in stories"}
+{"neuron":8339,"pole":"low","cluster":0,"mode":"Subject 'she', 'mom', 'boy' in story-opening narration","scene_windows":0,"windows":5,"scene":"Children's fairy-tale and family stories"}
+{"neuron":8339,"pole":"low","cluster":1,"mode":"Ingredient or list connectors in recipe and tip lists","scene_windows":0,"windows":5,"scene":"Recipes and lists of healthy food ideas"}
+{"neuron":8339,"pole":"low","cluster":2,"mode":"Pronoun or conjunction in casual dialogue about others","scene_windows":0,"windows":5,"scene":"Casual first-person dialogue and reflection"}
+{"neuron":8339,"pole":"low","cluster":3,"mode":"Intensifiers 'so', 'too', 'how' in dialogue about things","scene_windows":0,"windows":5,"scene":"Children's dialogue about toys and games"}
+{"neuron":10452,"pole":"high","cluster":0,"mode":"Speech verb or subject noun before a dialogue line","scene_windows":0,"windows":5,"scene":"Dialogue in dramatic or fantasy scenes"}
+{"neuron":10452,"pole":"high","cluster":1,"mode":"Possessive pronoun 'his' or 'her' before body parts or objects","scene_windows":0,"windows":5,"scene":"Children's stories of small injuries and actions"}
+{"neuron":10452,"pole":"low","cluster":0,"mode":"Word-piece fragments splitting words mid-token","scene_windows":0,"windows":5,"scene":"Mixed narrative and fiction text fragments"}
+{"neuron":10452,"pole":"low","cluster":1,"mode":"Digits inside citation identifiers and URLs","scene_windows":0,"windows":5,"scene":"Academic and news reference citations"}
+{"neuron":10452,"pole":"low","cluster":2,"mode":"Object pronoun or noun closing a tense action clause","scene_windows":0,"windows":5,"scene":"Tense fiction scenes with combat or search"}
+{"neuron":10452,"pole":"low","cluster":3,"mode":"Subject pronoun 'He' or name starting a clause after a scare","scene_windows":1,"windows":5,"scene":"Children's stories with frightening moments"}
+{"neuron":1974,"pole":"high","cluster":0,"mode":"First-person 'I' starting a reflective or tense clause","scene_windows":0,"windows":5,"scene":"Introspective first-person narratives"}
+{"neuron":1974,"pole":"high","cluster":1,"mode":"Conjunctions 'but', 'because' in emotional reasoning","scene_windows":0,"windows":5,"scene":"Emotional first-person reflection and frustration"}
+{"neuron":1974,"pole":"low","cluster":0,"mode":"Numeric page ranges and digits in citations","scene_windows":0,"windows":5,"scene":"Bibliographies and reference lists"}
+{"neuron":1974,"pole":"low","cluster":1,"mode":"Infinitive 'to' or 'that' in formal policy descriptions","scene_windows":0,"windows":5,"scene":"Formal policy and project reports"}
+{"neuron":1974,"pole":"low","cluster":2,"mode":"Repeated 'and' in escalating phrases like 'more and more'","scene_windows":1,"windows":5,"scene":"Escalating crises and rising intensity narratives"}
+{"neuron":1974,"pole":"low","cluster":3,"mode":"Narrative verbs or nouns after a sudden event","scene_windows":0,"windows":5,"scene":"Supernatural and sudden-event narration"}
+{"neuron":1974,"pole":"low","cluster":4,"mode":"Sentence-final punctuation after bleak emotional statements","scene_windows":2,"windows":5,"scene":"Despairing first-person and emotional confessions"}
+{"neuron":8059,"pole":"high","cluster":0,"mode":"Nouns like 'face', 'thought', 'monster' at a tense moment","scene_windows":0,"windows":5,"scene":"Ominous fantasy and character descriptions"}
+{"neuron":8059,"pole":"high","cluster":1,"mode":"Comma or punctuation after a tense, startling clause in suspenseful narration","scene_windows":0,"windows":5,"scene":"Eerie or suspenseful narrative moments, mostly not desperate"}
+{"neuron":8059,"pole":"high","cluster":2,"mode":"Sentence-ending period after an ominous or confrontational line in tense narration","scene_windows":0,"windows":5,"scene":"Tense confrontations and ominous dramatic monologues"}
+{"neuron":8059,"pole":"low","cluster":0,"mode":"Sentence-ending period closing factual or journalistic statements","scene_windows":0,"windows":5,"scene":"News and informational articles about policy, science, business"}
+{"neuron":8059,"pole":"low","cluster":1,"mode":"Punctuation closing short dialogue lines or reflective narrative sentences","scene_windows":0,"windows":5,"scene":"Dialogue and reflective first-person narration, calm tone"}
+{"neuron":8059,"pole":"low","cluster":2,"mode":"Period after introductory 'Once upon a time, there was a girl named X'","scene_windows":0,"windows":5,"scene":"Simple children's story openings introducing a little girl"}

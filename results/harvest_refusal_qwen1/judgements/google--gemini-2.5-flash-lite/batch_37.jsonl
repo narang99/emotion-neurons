@@ -1,0 +1,43 @@
+{"neuron":8101,"pole":"high","cluster":0,"mode":"emphasizing the importance of safety and proper usage","scene_windows":0,"windows":5,"scene":"giving advice and instructions"}
+{"neuron":8101,"pole":"high","cluster":1,"mode":"discussing reasons, differences, and outcomes","scene_windows":0,"windows":5,"scene":"explaining causes and effects"}
+{"neuron":8101,"pole":"high","cluster":2,"mode":"listing names and technical terms","scene_windows":0,"windows":5,"scene":"academic and technical listing"}
+{"neuron":8101,"pole":"low","cluster":0,"mode":"describing positive outcomes and experiences","scene_windows":0,"windows":5,"scene":"describing benefits and results"}
+{"neuron":8101,"pole":"low","cluster":1,"mode":"asking for and receiving information","scene_windows":0,"windows":5,"scene":"conversational information exchange"}
+{"neuron":7203,"pole":"high","cluster":0,"mode":"referring to specific items or concepts previously mentioned","scene_windows":0,"windows":5,"scene":"referring to specific items"}
+{"neuron":7203,"pole":"high","cluster":1,"mode":"offering examples or information","scene_windows":0,"windows":5,"scene":"providing examples and information"}
+{"neuron":7203,"pole":"low","cluster":0,"mode":"listing examples of energy solutions and initiatives","scene_windows":0,"windows":5,"scene":"discussing energy solutions"}
+{"neuron":7203,"pole":"low","cluster":1,"mode":"describing narrative actions and events","scene_windows":0,"windows":5,"scene":"narrative action and dialogue"}
+{"neuron":7203,"pole":"low","cluster":2,"mode":"describing dialogue and character interactions","scene_windows":0,"windows":5,"scene":"dialogue and character interaction"}
+{"neuron":8290,"pole":"high","cluster":0,"mode":"describing processes, awareness, and lifestyles","scene_windows":0,"windows":5,"scene":"explaining processes and lifestyles"}
+{"neuron":8290,"pole":"high","cluster":1,"mode":"expressing determination, difficulty, and past events","scene_windows":0,"windows":5,"scene":"narrative of struggle and past"}
+{"neuron":8290,"pole":"high","cluster":2,"mode":"listing technical terms and specific details","scene_windows":0,"windows":5,"scene":"technical and specific details"}
+{"neuron":8290,"pole":"low","cluster":0,"mode":"discussing currency, roles, and political situations","scene_windows":0,"windows":5,"scene":"discussing finance and politics"}
+{"neuron":8290,"pole":"low","cluster":1,"mode":"describing international entities and martial arts","scene_windows":0,"windows":5,"scene":"international and martial arts"}
+{"neuron":8290,"pole":"low","cluster":2,"mode":"phrases indicating a question or uncertainty, often with quotation marks.","scene_windows":0,"windows":5,"scene":"conversational questions and uncertainty"}
+{"neuron":1972,"pole":"high","cluster":0,"mode":"describing opportunities, partnerships, and growth","scene_windows":0,"windows":5,"scene":"describing opportunities and growth"}
+{"neuron":1972,"pole":"high","cluster":1,"mode":"describing environmental conditions and industrial changes","scene_windows":0,"windows":5,"scene":"environmental and industrial descriptions"}
+{"neuron":1972,"pole":"low","cluster":0,"mode":"discussing pain relief, materials, and film details","scene_windows":0,"windows":5,"scene":"discussing various topics"}
+{"neuron":1972,"pole":"low","cluster":1,"mode":"describing dialogue and character actions","scene_windows":0,"windows":5,"scene":"dialogue and character actions"}
+{"neuron":63,"pole":"high","cluster":0,"mode":"explaining results, terms, and minimal fear components","scene_windows":0,"windows":5,"scene":"explaining results and components"}
+{"neuron":63,"pole":"high","cluster":1,"mode":"describing personal experiences and emotional states","scene_windows":0,"windows":5,"scene":"personal experiences and emotions"}
+{"neuron":63,"pole":"high","cluster":2,"mode":"describing storage, marketing, and content types","scene_windows":0,"windows":5,"scene":"describing storage and marketing"}
+{"neuron":63,"pole":"high","cluster":3,"mode":"mentioning historical figures, institutions, and locations","scene_windows":0,"windows":5,"scene":"historical figures and institutions"}
+{"neuron":63,"pole":"low","cluster":0,"mode":"discussing battle locations, international involvement, and development","scene_windows":0,"windows":5,"scene":"historical and development discussions"}
+{"neuron":63,"pole":"low","cluster":1,"mode":"describing international entities and martial arts","scene_windows":0,"windows":5,"scene":"international and martial arts"}
+{"neuron":63,"pole":"low","cluster":2,"mode":"discussing cell processes, training, and internet connections","scene_windows":0,"windows":5,"scene":"discussing biological and technical topics"}
+{"neuron":7022,"pole":"high","cluster":0,"mode":"asking questions and providing introductory assistant responses","scene_windows":0,"windows":5,"scene":"conversational question and answer"}
+{"neuron":7022,"pole":"high","cluster":1,"mode":"discussing cultural significance, products, and weapons","scene_windows":0,"windows":5,"scene":"cultural and product discussions"}
+{"neuron":7022,"pole":"high","cluster":2,"mode":"listing publication years and organizational details","scene_windows":0,"windows":5,"scene":"listing publication years"}
+{"neuron":7022,"pole":"low","cluster":0,"mode":"discussing web applications, gratitude, and safety","scene_windows":0,"windows":5,"scene":"discussing applications and safety"}
+{"neuron":7022,"pole":"low","cluster":1,"mode":"discussing social media, tools, and alliances","scene_windows":0,"windows":5,"scene":"discussing social media and alliances"}
+{"neuron":7527,"pole":"high","cluster":0,"mode":"asking questions and providing factual information","scene_windows":0,"windows":5,"scene":"conversational question and answer"}
+{"neuron":7527,"pole":"high","cluster":1,"mode":"describing chemical compounds, products, and physical forms","scene_windows":0,"windows":5,"scene":"describing chemical and physical forms"}
+{"neuron":7527,"pole":"high","cluster":2,"mode":"asking questions and providing summaries or information","scene_windows":0,"windows":5,"scene":"conversational question and answer"}
+{"neuron":7527,"pole":"low","cluster":0,"mode":"asking questions and providing travel or food recommendations","scene_windows":0,"windows":5,"scene":"conversational recommendations"}
+{"neuron":7527,"pole":"low","cluster":1,"mode":"describing personal journeys and societal roles","scene_windows":0,"windows":5,"scene":"personal journeys and societal roles"}
+{"neuron":7527,"pole":"low","cluster":2,"mode":"describing narrative settings and character dialogue","scene_windows":0,"windows":5,"scene":"narrative settings and dialogue"}
+{"neuron":7527,"pole":"low","cluster":3,"mode":"dialogue with quotation marks, often expressing surprise or disbelief.","scene_windows":0,"windows":5,"scene":"dialogue with surprise or disbelief"}
+{"neuron":5232,"pole":"high","cluster":0,"mode":"describing educational processes, skills, and development","scene_windows":0,"windows":5,"scene":"educational processes and skills"}
+{"neuron":5232,"pole":"high","cluster":1,"mode":"explaining reasons, advantages, and societal changes","scene_windows":0,"windows":5,"scene":"explaining reasons and changes"}
+{"neuron":5232,"pole":"low","cluster":0,"mode":"discussing global efforts, practices, and strategies","scene_windows":0,"windows":5,"scene":"discussing global efforts and strategies"}
+{"neuron":5232,"pole":"low","cluster":1,"mode":"describing cultural heritage, impact, and unique qualities","scene_windows":0,"windows":5,"scene":"cultural heritage and impact"}

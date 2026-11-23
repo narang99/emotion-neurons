@@ -1,0 +1,45 @@
+{"neuron":2253,"pole":"high","cluster":0,"mode":"Mid-narrative tokens in varied prose, mostly reflexive or object-position words","scene_windows":0,"windows":5,"scene":"Mixed narrative and expository passages, no crisis"}
+{"neuron":2253,"pole":"high","cluster":1,"mode":"Locative prepositions 'onto'/'on' after physical placement verbs","scene_windows":0,"windows":5,"scene":"Descriptive scenes of objects placed or falling"}
+{"neuron":2253,"pole":"low","cluster":0,"mode":"Pronoun or object tokens ending clauses about leaving, choices, or survival","scene_windows":1,"windows":5,"scene":"Tense survival scene with dwindling ammo; otherwise narrative"}
+{"neuron":2253,"pole":"low","cluster":1,"mode":"Infinitive 'to'/'can' in business and marketing how-to advice","scene_windows":0,"windows":5,"scene":"Neutral marketing and social media advice"}
+{"neuron":8249,"pole":"high","cluster":0,"mode":"Preposition 'in' or 'his' locating someone inside a space or situation","scene_windows":2,"windows":5,"scene":"Trapped, frightened or dire narrative moments"}
+{"neuron":8249,"pole":"high","cluster":1,"mode":"'knew' following a character's happy realization in children's stories","scene_windows":0,"windows":5,"scene":"Cheerful children's stories with characters realizing things"}
+{"neuron":8249,"pole":"low","cluster":0,"mode":"'the' or 'and' in historical and descriptive prose about places","scene_windows":0,"windows":5,"scene":"Historical or travel description of Europe and islands"}
+{"neuron":8249,"pole":"low","cluster":1,"mode":"Commas and pronouns mid-sentence in tense character moments","scene_windows":2,"windows":5,"scene":"Tense dialogue and confrontation with uncanny time or emotion"}
+{"neuron":8249,"pole":"low","cluster":2,"mode":"Definite article 'the' before room or furniture locations","scene_windows":0,"windows":5,"scene":"Neutral room and furniture descriptions in stories"}
+{"neuron":3485,"pole":"high","cluster":0,"mode":"Prepositions 'in', 'through' or verbs in action-motion narration","scene_windows":1,"windows":5,"scene":"Sneaking through enemy lines or physical unease"}
+{"neuron":3485,"pole":"high","cluster":1,"mode":"Sentence-final periods or paragraph breaks closing gentle stories","scene_windows":0,"windows":5,"scene":"Calm children's story endings"}
+{"neuron":3485,"pole":"low","cluster":0,"mode":"'the' after 'play in' or location prepositions in children's stories","scene_windows":0,"windows":5,"scene":"Simple children's stories about playing outdoors"}
+{"neuron":3485,"pole":"low","cluster":1,"mode":"Possessive pronouns 'her/his' after play or show verbs","scene_windows":0,"windows":5,"scene":"Simple children's stories about toys and home"}
+{"neuron":3485,"pole":"low","cluster":2,"mode":"'was' or 'so' after 'She'/'He' introducing a child's feeling","scene_windows":0,"windows":5,"scene":"Simple children's stories with emotional states"}
+{"neuron":3485,"pole":"low","cluster":3,"mode":"Pronoun subject starting a sentence in children's adventure stories","scene_windows":0,"windows":5,"scene":"Simple children's adventure and search stories"}
+{"neuron":3485,"pole":"low","cluster":4,"mode":"Pronoun 'She' opening sentences about a named girl","scene_windows":0,"windows":5,"scene":"Opening lines of simple children's stories"}
+{"neuron":3485,"pole":"low","cluster":5,"mode":"'was' after a child's name expressing feelings","scene_windows":0,"windows":5,"scene":"Children's stories with happy or sad reactions"}
+{"neuron":3485,"pole":"low","cluster":6,"mode":"Function words in casual or educational sentence fragments","scene_windows":0,"windows":5,"scene":"Mixed casual prose and education text"}
+{"neuron":3485,"pole":"low","cluster":7,"mode":"Digits, pipes or conjunctions inside tables and citations","scene_windows":0,"windows":5,"scene":"Lesson plan tables and academic citations"}
+{"neuron":3615,"pole":"high","cluster":0,"mode":"Commas or 'because' linking a clause of explanation or contrast","scene_windows":0,"windows":5,"scene":"Tense personal or dramatic narration, mostly not crisis"}
+{"neuron":3615,"pole":"high","cluster":1,"mode":"Object pronouns or 'down'/'place' ending emotionally charged clauses","scene_windows":0,"windows":5,"scene":"Family conflict and emotional personal narration"}
+{"neuron":3615,"pole":"low","cluster":0,"mode":"Pronoun or 'was'/'man' inside casual personal narration","scene_windows":0,"windows":5,"scene":"Casual stories and conversational reflections"}
+{"neuron":3615,"pole":"low","cluster":1,"mode":"Quantifier 'all' inside reflective narrative sentences","scene_windows":0,"windows":5,"scene":"Reflective or emotional narrative passages"}
+{"neuron":8427,"pole":"high","cluster":0,"mode":"Connectives or 'connection'/'time' ending reflective clauses","scene_windows":0,"windows":5,"scene":"Reflective personal and literary narration"}
+{"neuron":8427,"pole":"high","cluster":1,"mode":"Punctuation after 'Sure'/'Certainly' in assistant replies","scene_windows":0,"windows":5,"scene":"Chatbot-style helpful answers"}
+{"neuron":8427,"pole":"low","cluster":0,"mode":"Conjunctions and pronouns in essayistic or dialogue sentences","scene_windows":0,"windows":5,"scene":"Essays and casual dialogue"}
+{"neuron":8427,"pole":"low","cluster":1,"mode":"Ingredient nouns and conjunctions in recipe steps","scene_windows":0,"windows":5,"scene":"Cooking recipes and food lists"}
+{"neuron":8338,"pole":"high","cluster":0,"mode":"Pronoun, comma or 'fast' after action or emotion verbs","scene_windows":0,"windows":5,"scene":"Personal narrative with emotional or physical actions"}
+{"neuron":8338,"pole":"high","cluster":1,"mode":"Commas, 'and', 'the' inside recipe or food instruction lists","scene_windows":0,"windows":5,"scene":"Recipe and food suggestion lists"}
+{"neuron":8338,"pole":"low","cluster":0,"mode":"Action verbs or articles inside cooking and health tips","scene_windows":0,"windows":5,"scene":"Recipes and practical tips"}
+{"neuron":8338,"pole":"low","cluster":1,"mode":"Trailing spaces or punctuation at line ends in ingredient lists","scene_windows":0,"windows":5,"scene":"Ingredient and equipment lists, meal plans"}
+{"neuron":6529,"pole":"high","cluster":0,"mode":"Period ending the opening sentence of a children's story","scene_windows":0,"windows":5,"scene":"Opening lines of simple children's stories"}
+{"neuron":6529,"pole":"high","cluster":1,"mode":"Character name token introducing a children's story protagonist","scene_windows":0,"windows":5,"scene":"Story openings naming a little girl"}
+{"neuron":6529,"pole":"high","cluster":2,"mode":"Numerals or name fragments inside factual or historical text","scene_windows":0,"windows":5,"scene":"Sports, history and literary facts"}
+{"neuron":6529,"pole":"high","cluster":3,"mode":"Pronoun 'She' or 'girl' starting sentences about a happy girl","scene_windows":0,"windows":5,"scene":"Children's stories about a girl's happy discovery"}
+{"neuron":6529,"pole":"high","cluster":4,"mode":"Period or exclamation closing a sentence in simple stories","scene_windows":0,"windows":5,"scene":"Simple children's stories with small events"}
+{"neuron":6529,"pole":"low","cluster":0,"mode":"Sentence-final periods in emotional or reflective narration","scene_windows":0,"windows":5,"scene":"Reflective or emotional personal narration"}
+{"neuron":6529,"pole":"low","cluster":1,"mode":"'to'/'decreased' in medical research about treatment outcomes","scene_windows":0,"windows":5,"scene":"Medical and health research statements"}
+{"neuron":9355,"pole":"high","cluster":0,"mode":"Verb or noun after 'was' or 'this' in dramatic scene narration","scene_windows":0,"windows":5,"scene":"Story scenes with dragons, workers and strangers"}
+{"neuron":9355,"pole":"high","cluster":1,"mode":"Prepositions 'from', 'of', 'with' in business and tips lists","scene_windows":0,"windows":5,"scene":"Marketing and technology tips lists"}
+{"neuron":9355,"pole":"low","cluster":0,"mode":"'the' after location prepositions like 'in', 'into', 'leave'","scene_windows":2,"windows":5,"scene":"Tense chases, captivity and escape situations"}
+{"neuron":9355,"pole":"low","cluster":1,"mode":"Nouns ending health or nutrition facts about diabetes and food","scene_windows":0,"windows":5,"scene":"Health and nutrition informational text"}
+{"neuron":9355,"pole":"low","cluster":2,"mode":"Food item nouns and punctuation inside recipe lists","scene_windows":0,"windows":5,"scene":"Recipe and food listicles"}
+{"neuron":9355,"pole":"low","cluster":3,"mode":"Dialogue pronouns and 'to find' in confrontational talk","scene_windows":1,"windows":5,"scene":"Tense dialogue in confrontations and searches"}
+{"neuron":9355,"pole":"low","cluster":4,"mode":"Location or object nouns after 'the' in narrative action","scene_windows":0,"windows":5,"scene":"Narrative searches and everyday locations"}

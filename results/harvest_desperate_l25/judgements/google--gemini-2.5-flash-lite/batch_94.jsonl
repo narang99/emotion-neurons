@@ -1,0 +1,56 @@
+{"neuron":6340,"pole":"high","cluster":0,"mode":"sudden positive events or appearances, often surprising or magical","scene_windows":0,"windows":5,"scene":"sudden positive events"}
+{"neuron":6340,"pole":"high","cluster":1,"mode":"neutral punctuation, indicating the end of a sentence or thought","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6340,"pole":"low","cluster":0,"mode":"actions of giving, teaching, or lending","scene_windows":0,"windows":5,"scene":"childhood interactions"}
+{"neuron":6340,"pole":"low","cluster":1,"mode":"abstract nouns related to education and sustenance","scene_windows":0,"windows":5,"scene":"abstract concepts"}
+{"neuron":6340,"pole":"low","cluster":2,"mode":"interrogative words and conjunctions","scene_windows":0,"windows":5,"scene":"questioning and explanation"}
+{"neuron":6340,"pole":"low","cluster":3,"mode":"sudden events or appearances, often surprising","scene_windows":0,"windows":5,"scene":"sudden events"}
+{"neuron":6340,"pole":"low","cluster":4,"mode":"beginning of a story, introducing a character","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":2083,"pole":"high","cluster":0,"mode":"dialogue tags and conversational interjections","scene_windows":0,"windows":5,"scene":"conversational exchanges"}
+{"neuron":2083,"pole":"high","cluster":1,"mode":"first-person pronouns indicating personal involvement or desire","scene_windows":0,"windows":5,"scene":"personal statements"}
+{"neuron":2083,"pole":"high","cluster":2,"mode":"common nouns for objects and places","scene_windows":0,"windows":5,"scene":"everyday objects and places"}
+{"neuron":2083,"pole":"high","cluster":3,"mode":"parts of words, often related to color or sound","scene_windows":0,"windows":5,"scene":"descriptive word fragments"}
+{"neuron":2083,"pole":"low","cluster":0,"mode":"parts of words, often related to place or origin","scene_windows":0,"windows":5,"scene":"place-related word fragments"}
+{"neuron":2083,"pole":"low","cluster":1,"mode":"parts of words, often related to actions or sensations","scene_windows":0,"windows":5,"scene":"action/sensation word fragments"}
+{"neuron":2083,"pole":"low","cluster":2,"mode":"common nouns for abstract concepts or states","scene_windows":0,"windows":5,"scene":"abstract concepts"}
+{"neuron":2083,"pole":"low","cluster":3,"mode":"sudden events or appearances, often surprising","scene_windows":0,"windows":5,"scene":"sudden events"}
+{"neuron":9950,"pole":"high","cluster":0,"mode":"articles and conjunctions, indicating relationships between words","scene_windows":0,"windows":5,"scene":"grammatical connectors"}
+{"neuron":9950,"pole":"high","cluster":1,"mode":"first-person pronouns indicating personal involvement or desire","scene_windows":0,"windows":5,"scene":"personal statements"}
+{"neuron":9950,"pole":"high","cluster":2,"mode":"possessive pronouns indicating ownership or relation","scene_windows":0,"windows":5,"scene":"ownership and relation"}
+{"neuron":9950,"pole":"high","cluster":3,"mode":"quotation marks and dialogue indicators","scene_windows":0,"windows":5,"scene":"dialogue markers"}
+{"neuron":9950,"pole":"low","cluster":0,"mode":"parts of words, often related to color or place","scene_windows":0,"windows":5,"scene":"color/place word fragments"}
+{"neuron":9950,"pole":"low","cluster":1,"mode":"verbs indicating realization or change of state","scene_windows":0,"windows":5,"scene":"realization and change"}
+{"neuron":9950,"pole":"low","cluster":2,"mode":"common nouns for abstract concepts or tools","scene_windows":0,"windows":5,"scene":"abstract concepts and tools"}
+{"neuron":6675,"pole":"high","cluster":0,"mode":"pronouns and conjunctions indicating relationships and actions","scene_windows":0,"windows":5,"scene":"relationships and actions"}
+{"neuron":6675,"pole":"high","cluster":1,"mode":"temporal adverbs indicating a point in time","scene_windows":0,"windows":5,"scene":"temporal progression"}
+{"neuron":6675,"pole":"low","cluster":0,"mode":"punctuation and conjunctions, indicating sentence structure","scene_windows":0,"windows":5,"scene":"sentence structure"}
+{"neuron":6675,"pole":"low","cluster":1,"mode":"pronouns and conjunctions indicating relationships and actions","scene_windows":0,"windows":5,"scene":"relationships and actions"}
+{"neuron":6675,"pole":"low","cluster":2,"mode":"pronouns and conjunctions indicating relationships and actions","scene_windows":0,"windows":5,"scene":"relationships and actions"}
+{"neuron":6675,"pole":"low","cluster":3,"mode":"prepositions and conjunctions indicating location or relation","scene_windows":0,"windows":5,"scene":"location and relation"}
+{"neuron":11097,"pole":"high","cluster":0,"mode":"nouns indicating sounds or communication","scene_windows":0,"windows":5,"scene":"sounds and communication"}
+{"neuron":11097,"pole":"high","cluster":1,"mode":"parts of words, often related to actions or states","scene_windows":0,"windows":5,"scene":"action/state word fragments"}
+{"neuron":11097,"pole":"high","cluster":2,"mode":"common nouns for containers or objects","scene_windows":0,"windows":5,"scene":"containers and objects"}
+{"neuron":11097,"pole":"high","cluster":3,"mode":"parts of words, often related to actions or body parts","scene_windows":0,"windows":5,"scene":"action/body part word fragments"}
+{"neuron":11097,"pole":"high","cluster":4,"mode":"verbs indicating movement or action","scene_windows":0,"windows":5,"scene":"movement and action"}
+{"neuron":11097,"pole":"low","cluster":0,"mode":"words indicating direction or performance","scene_windows":0,"windows":5,"scene":"direction and performance"}
+{"neuron":11097,"pole":"low","cluster":1,"mode":"adjectives and prepositions indicating quality or relation","scene_windows":0,"windows":5,"scene":"quality and relation"}
+{"neuron":3097,"pole":"high","cluster":0,"mode":"story beginnings, often starting with 'Once upon a time'","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":3097,"pole":"high","cluster":1,"mode":"pronouns and conjunctions indicating personal involvement or relation","scene_windows":0,"windows":5,"scene":"personal involvement and relation"}
+{"neuron":3097,"pole":"low","cluster":0,"mode":"words indicating positive experiences or togetherness","scene_windows":0,"windows":5,"scene":"positive experiences"}
+{"neuron":3097,"pole":"low","cluster":1,"mode":"nouns and prepositions indicating food or preparation","scene_windows":0,"windows":5,"scene":"food and preparation"}
+{"neuron":3097,"pole":"low","cluster":2,"mode":"conjunctions and pronouns indicating connection or agreement","scene_windows":0,"windows":5,"scene":"connection and agreement"}
+{"neuron":3097,"pole":"low","cluster":3,"mode":"verbs indicating past actions or states","scene_windows":0,"windows":5,"scene":"past actions and states"}
+{"neuron":3097,"pole":"low","cluster":4,"mode":"pronouns and conjunctions indicating possession or relation","scene_windows":0,"windows":5,"scene":"possession and relation"}
+{"neuron":3097,"pole":"low","cluster":5,"mode":"verbs indicating past actions or states","scene_windows":0,"windows":5,"scene":"past actions and states"}
+{"neuron":3097,"pole":"low","cluster":6,"mode":"adjectives indicating positive emotional states","scene_windows":0,"windows":5,"scene":"positive emotional states"}
+{"neuron":6547,"pole":"high","cluster":0,"mode":"pronouns and nouns indicating body parts or states","scene_windows":0,"windows":5,"scene":"body parts and states"}
+{"neuron":6547,"pole":"high","cluster":1,"mode":"code snippets and formatting characters","scene_windows":0,"windows":5,"scene":"code and formatting"}
+{"neuron":6547,"pole":"low","cluster":0,"mode":"conjunctions and verbs indicating actions or states","scene_windows":0,"windows":5,"scene":"actions and states"}
+{"neuron":6547,"pole":"low","cluster":1,"mode":"code snippets and formatting characters","scene_windows":0,"windows":5,"scene":"code and formatting"}
+{"neuron":1303,"pole":"high","cluster":0,"mode":"story beginnings, often starting with 'Once upon a time'","scene_windows":0,"windows":5,"scene":"story beginnings"}
+{"neuron":1303,"pole":"high","cluster":1,"mode":"numbers and date/time indicators","scene_windows":0,"windows":5,"scene":"numerical and temporal data"}
+{"neuron":1303,"pole":"high","cluster":2,"mode":"possessive pronouns and conjunctions indicating relation","scene_windows":0,"windows":5,"scene":"possession and relation"}
+{"neuron":1303,"pole":"high","cluster":3,"mode":"possessive pronouns indicating ownership or relation","scene_windows":0,"windows":5,"scene":"ownership and relation"}
+{"neuron":1303,"pole":"high","cluster":4,"mode":"nouns indicating body parts or states","scene_windows":0,"windows":5,"scene":"body parts and states"}
+{"neuron":1303,"pole":"high","cluster":5,"mode":"nouns indicating family members or relationships","scene_windows":0,"windows":5,"scene":"family and relationships"}
+{"neuron":1303,"pole":"low","cluster":0,"mode":"prepositions and conjunctions indicating location or relation","scene_windows":0,"windows":5,"scene":"location and relation"}
+{"neuron":1303,"pole":"low","cluster":1,"mode":"prepositions and conjunctions indicating location or relation","scene_windows":0,"windows":5,"scene":"location and relation"}

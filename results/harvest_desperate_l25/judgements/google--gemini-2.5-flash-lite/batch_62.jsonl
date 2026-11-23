@@ -1,0 +1,55 @@
+{"neuron":962,"pole":"high","cluster":0,"mode":"positive emotions like laughter, excitement, and happiness","scene_windows":0,"windows":5,"scene":"children playing and enjoying themselves"}
+{"neuron":962,"pole":"high","cluster":1,"mode":"prepositions indicating location or time","scene_windows":0,"windows":5,"scene":"general statements and explanations"}
+{"neuron":962,"pole":"low","cluster":0,"mode":"punctuation marks indicating pauses or endings","scene_windows":0,"windows":5,"scene":"narrative descriptions of events"}
+{"neuron":962,"pole":"low","cluster":1,"mode":"nouns referring to places or performance areas","scene_windows":0,"windows":5,"scene":"describing locations and events"}
+{"neuron":9380,"pole":"high","cluster":0,"mode":"negation of ability or possibility","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":9380,"pole":"high","cluster":1,"mode":"punctuation indicating the end of a sentence or phrase","scene_windows":0,"windows":5,"scene":"recipes and instructional text"}
+{"neuron":9380,"pole":"high","cluster":2,"mode":"punctuation indicating the end of a sentence or phrase","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":9380,"pole":"high","cluster":3,"mode":"prepositions and articles indicating possession or part of","scene_windows":0,"windows":5,"scene":"recipes and food preparation"}
+{"neuron":9380,"pole":"high","cluster":4,"mode":"proper nouns referring to characters","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":9380,"pole":"high","cluster":5,"mode":"pronouns and nouns referring to objects or people","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":9380,"pole":"low","cluster":0,"mode":"prepositions and articles indicating possession or part of","scene_windows":0,"windows":5,"scene":"instructions and advice"}
+{"neuron":9380,"pole":"low","cluster":1,"mode":"conjunctions indicating addition or continuation","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":9380,"pole":"low","cluster":2,"mode":"nouns referring to food items","scene_windows":0,"windows":5,"scene":"recipes and food preparation"}
+{"neuron":9380,"pole":"low","cluster":3,"mode":"verbs indicating action or permission","scene_windows":0,"windows":5,"scene":"recipes and food preparation"}
+{"neuron":1166,"pole":"high","cluster":0,"mode":"pronouns and verbs indicating possession or state","scene_windows":0,"windows":5,"scene":"narrative descriptions of conflict"}
+{"neuron":1166,"pole":"high","cluster":1,"mode":"proper nouns referring to characters or actions","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1166,"pole":"low","cluster":0,"mode":"pronouns and verbs indicating possession or state","scene_windows":0,"windows":5,"scene":"narrative descriptions of emotions"}
+{"neuron":1166,"pole":"low","cluster":1,"mode":"nouns referring to food items","scene_windows":0,"windows":5,"scene":"recipes and food preparation"}
+{"neuron":1218,"pole":"high","cluster":0,"mode":"proper nouns referring to places or entities","scene_windows":0,"windows":5,"scene":"historical and geographical context"}
+{"neuron":1218,"pole":"high","cluster":1,"mode":"pronouns and articles referring to objects or people","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1218,"pole":"high","cluster":2,"mode":"nouns referring to computer files or code elements","scene_windows":0,"windows":5,"scene":"technical and programming context"}
+{"neuron":1218,"pole":"high","cluster":3,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"narrative descriptions of action"}
+{"neuron":1218,"pole":"high","cluster":4,"mode":"proper nouns referring to characters","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1218,"pole":"low","cluster":0,"mode":"articles and pronouns referring to objects or people","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1218,"pole":"low","cluster":1,"mode":"nouns referring to relationships or social connections","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1218,"pole":"low","cluster":2,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1218,"pole":"low","cluster":3,"mode":"verbs indicating movement or action","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1218,"pole":"low","cluster":4,"mode":"pronouns and adverbs indicating intensity","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":1218,"pole":"low","cluster":5,"mode":"adjectives describing qualities or states","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":9913,"pole":"high","cluster":0,"mode":"letters indicating abbreviations or parts of words","scene_windows":0,"windows":5,"scene":"medical and scientific context"}
+{"neuron":9913,"pole":"high","cluster":1,"mode":"nouns referring to food items or preparation","scene_windows":0,"windows":5,"scene":"recipes and food preparation"}
+{"neuron":9913,"pole":"high","cluster":2,"mode":"pronouns and verbs indicating ability or action","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":9913,"pole":"high","cluster":3,"mode":"prepositions and conjunctions indicating relation or addition","scene_windows":0,"windows":5,"scene":"religious and historical texts"}
+{"neuron":9913,"pole":"low","cluster":0,"mode":"letters indicating abbreviations or parts of words","scene_windows":0,"windows":5,"scene":"legal and historical context"}
+{"neuron":9913,"pole":"low","cluster":1,"mode":"nouns referring to actions or objects","scene_windows":0,"windows":5,"scene":"narrative descriptions of conflict"}
+{"neuron":3105,"pole":"high","cluster":0,"mode":"pronouns and verbs indicating state or action","scene_windows":0,"windows":5,"scene":"narrative descriptions of human connection"}
+{"neuron":3105,"pole":"high","cluster":1,"mode":"pronouns and verbs indicating state or action","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":3105,"pole":"low","cluster":0,"mode":"conjunctions indicating addition or continuation","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":3105,"pole":"low","cluster":1,"mode":"verbs indicating appearance or state","scene_windows":0,"windows":5,"scene":"narrative descriptions of appearance"}
+{"neuron":3105,"pole":"low","cluster":2,"mode":"verbs indicating state or action","scene_windows":0,"windows":5,"scene":"narrative descriptions of experience"}
+{"neuron":3105,"pole":"low","cluster":3,"mode":"articles indicating singularity","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":3105,"pole":"low","cluster":4,"mode":"adverbs indicating intensity","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":3105,"pole":"low","cluster":5,"mode":"punctuation indicating endings","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":7957,"pole":"high","cluster":0,"mode":"pronouns and adverbs indicating relation or intensity","scene_windows":0,"windows":5,"scene":"narrative descriptions of personal experience"}
+{"neuron":7957,"pole":"high","cluster":1,"mode":"pronouns indicating possession","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":7957,"pole":"low","cluster":0,"mode":"nouns referring to tools or concepts","scene_windows":0,"windows":5,"scene":"business and technology advice"}
+{"neuron":7957,"pole":"low","cluster":1,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":7957,"pole":"low","cluster":2,"mode":"pronouns and adverbs indicating state or perspective","scene_windows":0,"windows":5,"scene":"personal reflection and growth"}
+{"neuron":4753,"pole":"high","cluster":0,"mode":"proper nouns referring to places or entities","scene_windows":0,"windows":5,"scene":"geopolitical and technological context"}
+{"neuron":4753,"pole":"high","cluster":1,"mode":"adjectives describing emotions or states","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":4753,"pole":"high","cluster":2,"mode":"punctuation indicating pauses or endings","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":4753,"pole":"high","cluster":3,"mode":"prepositions and articles indicating location or possession","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":4753,"pole":"high","cluster":4,"mode":"pronouns indicating possession or address","scene_windows":0,"windows":5,"scene":"children's stories and simple narratives"}
+{"neuron":4753,"pole":"low","cluster":0,"mode":"pronouns and conjunctions indicating relation or contrast","scene_windows":0,"windows":5,"scene":"narrative descriptions of conflict"}
+{"neuron":4753,"pole":"low","cluster":1,"mode":"nouns referring to materials or options","scene_windows":0,"windows":5,"scene":"describing objects and choices"}

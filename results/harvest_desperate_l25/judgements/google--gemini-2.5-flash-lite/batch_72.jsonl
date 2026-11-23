@@ -1,0 +1,62 @@
+{"neuron":4472,"pole":"high","cluster":0,"mode":"Once upon a time, a story begins with a specific day.","scene_windows":0,"windows":5,"scene":"Storytelling, beginning of a tale"}
+{"neuron":4472,"pole":"high","cluster":1,"mode":"Once upon a time, a story begins.","scene_windows":0,"windows":5,"scene":"Storytelling, beginning of a tale"}
+{"neuron":4472,"pole":"high","cluster":2,"mode":"Once upon a time, a story begins with 'there was'.","scene_windows":0,"windows":5,"scene":"Storytelling, beginning of a tale"}
+{"neuron":4472,"pole":"low","cluster":0,"mode":"Possessive pronoun referring to a male person.","scene_windows":0,"windows":5,"scene":"Neutral narration, dialogue"}
+{"neuron":4472,"pole":"low","cluster":1,"mode":"Numbers, years, and publication dates.","scene_windows":0,"windows":5,"scene":"Bibliographic entries, citations"}
+{"neuron":4472,"pole":"low","cluster":2,"mode":"Referring to a person or place.","scene_windows":0,"windows":5,"scene":"Narration, dialogue"}
+{"neuron":1573,"pole":"high","cluster":0,"mode":"Asking a question or making a statement ending with punctuation.","scene_windows":0,"windows":5,"scene":"Dialogue, questioning"}
+{"neuron":1573,"pole":"high","cluster":1,"mode":"Quoted speech, often starting a sentence.","scene_windows":0,"windows":5,"scene":"Dialogue, quoted speech"}
+{"neuron":1573,"pole":"high","cluster":2,"mode":"Pronoun 'am' or 'are' indicating present state or action.","scene_windows":0,"windows":5,"scene":"Present tense narration, statements"}
+{"neuron":1573,"pole":"high","cluster":3,"mode":"Negative past tense verb 'didn't'.","scene_windows":0,"windows":5,"scene":"Past tense narration, negation"}
+{"neuron":1573,"pole":"high","cluster":4,"mode":"Proper noun, likely a child's name.","scene_windows":0,"windows":5,"scene":"Children's stories, character focus"}
+{"neuron":1573,"pole":"high","cluster":5,"mode":"Modal verb 'can' indicating possibility or ability.","scene_windows":0,"windows":5,"scene":"Statements of possibility, advice"}
+{"neuron":1573,"pole":"high","cluster":6,"mode":"Verbs indicating action or sound.","scene_windows":0,"windows":5,"scene":"Action, dialogue, description"}
+{"neuron":1573,"pole":"high","cluster":7,"mode":"Conjunction 'when' introducing a time clause.","scene_windows":0,"windows":5,"scene":"Time-based narration, events"}
+{"neuron":1573,"pole":"low","cluster":0,"mode":"Exclamatory punctuation, often at the end of a sentence.","scene_windows":0,"windows":5,"scene":"Exclamations, surprise"}
+{"neuron":1573,"pole":"low","cluster":1,"mode":"Quoted speech, often starting a sentence.","scene_windows":0,"windows":5,"scene":"Dialogue, quoted speech"}
+{"neuron":1573,"pole":"low","cluster":2,"mode":"Dialogue markers, often indicating pauses or unspoken thoughts.","scene_windows":0,"windows":5,"scene":"Dialogue, pauses, unspoken thoughts"}
+{"neuron":1573,"pole":"low","cluster":3,"mode":"Past tense verb 'said'.","scene_windows":0,"windows":5,"scene":"Dialogue, narration"}
+{"neuron":1573,"pole":"low","cluster":4,"mode":"Words indicating physical state or location.","scene_windows":0,"windows":5,"scene":"Description, physical state"}
+{"neuron":6198,"pole":"high","cluster":0,"mode":"Prepositions and conjunctions indicating direction or connection.","scene_windows":0,"windows":5,"scene":"Connecting ideas, direction"}
+{"neuron":6198,"pole":"high","cluster":1,"mode":"Words indicating emotions or physical sensations.","scene_windows":0,"windows":5,"scene":"Emotions, physical sensations"}
+{"neuron":6198,"pole":"high","cluster":2,"mode":"Words related to cooking and food preparation.","scene_windows":0,"windows":5,"scene":"Cooking, food preparation"}
+{"neuron":6198,"pole":"low","cluster":0,"mode":"Verbs related to cooking and food preparation.","scene_windows":0,"windows":5,"scene":"Cooking, food preparation"}
+{"neuron":6198,"pole":"low","cluster":1,"mode":"Words indicating time or duration.","scene_windows":0,"windows":5,"scene":"Time, duration"}
+{"neuron":6198,"pole":"low","cluster":2,"mode":"Past tense verb 'said'.","scene_windows":0,"windows":5,"scene":"Dialogue, narration"}
+{"neuron":693,"pole":"high","cluster":0,"mode":"Words indicating invitation or permission.","scene_windows":0,"windows":5,"scene":"Invitation, permission"}
+{"neuron":693,"pole":"high","cluster":1,"mode":"Words related to vehicles and speed.","scene_windows":0,"windows":5,"scene":"Vehicles, speed, mechanics"}
+{"neuron":693,"pole":"high","cluster":2,"mode":"Verbs indicating movement.","scene_windows":0,"windows":5,"scene":"Movement, action"}
+{"neuron":693,"pole":"high","cluster":3,"mode":"Verbs indicating physical action or position.","scene_windows":0,"windows":5,"scene":"Physical action, position"}
+{"neuron":693,"pole":"high","cluster":4,"mode":"Pronouns referring to a male person.","scene_windows":0,"windows":5,"scene":"Narration, character focus"}
+{"neuron":693,"pole":"high","cluster":5,"mode":"Pronouns referring to a male person.","scene_windows":0,"windows":5,"scene":"Narration, character focus"}
+{"neuron":693,"pole":"high","cluster":6,"mode":"Proper nouns, likely names.","scene_windows":0,"windows":5,"scene":"Names, characters"}
+{"neuron":693,"pole":"low","cluster":0,"mode":"Pronouns referring to a male person.","scene_windows":0,"windows":5,"scene":"Narration, character focus"}
+{"neuron":693,"pole":"low","cluster":1,"mode":"Words indicating location or direction.","scene_windows":0,"windows":5,"scene":"Location, direction"}
+{"neuron":693,"pole":"low","cluster":2,"mode":"Prepositions and pronouns indicating relationship or possession.","scene_windows":0,"windows":5,"scene":"Relationships, possession"}
+{"neuron":6164,"pole":"high","cluster":0,"mode":"Numbers, years, and publication details.","scene_windows":0,"windows":5,"scene":"Citations, publication details"}
+{"neuron":6164,"pole":"high","cluster":1,"mode":"Words indicating places or locations.","scene_windows":0,"windows":5,"scene":"Places, locations, description"}
+{"neuron":6164,"pole":"high","cluster":2,"mode":"Possessive pronouns referring to a person.","scene_windows":0,"windows":5,"scene":"Possession, character focus"}
+{"neuron":6164,"pole":"low","cluster":0,"mode":"Letters, often abbreviations or parts of words.","scene_windows":0,"windows":5,"scene":"Abbreviations, partial words"}
+{"neuron":6164,"pole":"low","cluster":1,"mode":"Words indicating location or direction.","scene_windows":0,"windows":5,"scene":"Location, direction"}
+{"neuron":6164,"pole":"low","cluster":2,"mode":"Prepositions and pronouns indicating relationship or possession.","scene_windows":0,"windows":5,"scene":"Relationships, possession"}
+{"neuron":4629,"pole":"high","cluster":0,"mode":"Words indicating positive emotions.","scene_windows":0,"windows":5,"scene":"Positive emotions, surprise"}
+{"neuron":4629,"pole":"high","cluster":1,"mode":"Quoted speech, often starting a sentence.","scene_windows":0,"windows":5,"scene":"Dialogue, quoted speech"}
+{"neuron":4629,"pole":"high","cluster":2,"mode":"Words related to materials or parts.","scene_windows":0,"windows":5,"scene":"Materials, parts, description"}
+{"neuron":4629,"pole":"high","cluster":3,"mode":"Words indicating knowledge or certainty.","scene_windows":0,"windows":5,"scene":"Knowledge, certainty, realization"}
+{"neuron":4629,"pole":"high","cluster":4,"mode":"Punctuation indicating the end of a sentence or phrase.","scene_windows":0,"windows":5,"scene":"Sentence endings, narrative"}
+{"neuron":4629,"pole":"low","cluster":0,"mode":"Pronouns referring to self or others.","scene_windows":0,"windows":5,"scene":"Pronouns, self-reference"}
+{"neuron":4629,"pole":"low","cluster":1,"mode":"Words indicating location or origin.","scene_windows":0,"windows":5,"scene":"Location, origin"}
+{"neuron":9506,"pole":"high","cluster":0,"mode":"Words indicating uncertainty or lack of knowledge.","scene_windows":0,"windows":5,"scene":"Uncertainty, confusion"}
+{"neuron":9506,"pole":"high","cluster":1,"mode":"Quoted speech, often starting a sentence.","scene_windows":0,"windows":5,"scene":"Dialogue, quoted speech"}
+{"neuron":9506,"pole":"high","cluster":2,"mode":"Words indicating place or time.","scene_windows":0,"windows":5,"scene":"Place, time, description"}
+{"neuron":9506,"pole":"high","cluster":3,"mode":"Punctuation indicating the end of a sentence or phrase.","scene_windows":0,"windows":5,"scene":"Sentence endings, narrative"}
+{"neuron":9506,"pole":"high","cluster":4,"mode":"Pronouns referring to self or others.","scene_windows":0,"windows":5,"scene":"Pronouns, self-reference"}
+{"neuron":9506,"pole":"low","cluster":0,"mode":"Past tense verb 'was'.","scene_windows":0,"windows":5,"scene":"Past tense narration"}
+{"neuron":9506,"pole":"low","cluster":1,"mode":"Words indicating location or origin.","scene_windows":0,"windows":5,"scene":"Location, origin"}
+{"neuron":7713,"pole":"high","cluster":0,"mode":"Words indicating quantity or comparison.","scene_windows":0,"windows":5,"scene":"Quantity, comparison, research"}
+{"neuron":7713,"pole":"high","cluster":1,"mode":"Words related to vehicles or objects.","scene_windows":0,"windows":5,"scene":"Vehicles, objects, play"}
+{"neuron":7713,"pole":"high","cluster":2,"mode":"Quoted speech, often starting a sentence.","scene_windows":0,"windows":5,"scene":"Dialogue, quoted speech"}
+{"neuron":7713,"pole":"high","cluster":3,"mode":"Verbs indicating physical action or movement.","scene_windows":0,"windows":5,"scene":"Physical action, movement"}
+{"neuron":7713,"pole":"high","cluster":4,"mode":"Words indicating family relationships.","scene_windows":0,"windows":5,"scene":"Family, relationships"}
+{"neuron":7713,"pole":"low","cluster":0,"mode":"Pronouns referring to self or others.","scene_windows":0,"windows":5,"scene":"Pronouns, self-reference"}
+{"neuron":7713,"pole":"low","cluster":1,"mode":"Words related to computer systems and data.","scene_windows":0,"windows":5,"scene":"Computer systems, data, technical"}

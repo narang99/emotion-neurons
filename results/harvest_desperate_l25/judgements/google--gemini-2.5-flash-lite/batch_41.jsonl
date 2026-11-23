@@ -1,0 +1,45 @@
+{"neuron":2253,"pole":"high","cluster":0,"mode":"personal possessions, safety, and future planning","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2253,"pole":"high","cluster":1,"mode":"physical contact, location, and proximity","scene_windows":1,"windows":5,"scene":"frantic escape from danger"}
+{"neuron":2253,"pole":"low","cluster":0,"mode":"personal relationships and future intentions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":2253,"pole":"low","cluster":1,"mode":"purpose, capability, and audience engagement","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8249,"pole":"high","cluster":0,"mode":"location, possession, and identity","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8249,"pole":"high","cluster":1,"mode":"knowledge, certainty, and positive emotions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8249,"pole":"low","cluster":0,"mode":"historical context, location, and tradition","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8249,"pole":"low","cluster":1,"mode":"personal reflection, speech, and emotional state","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8249,"pole":"low","cluster":2,"mode":"location, possession, and sensory experience","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"high","cluster":0,"mode":"physical sensations, location, and past events","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"high","cluster":1,"mode":"positive emotions, relationships, and future outlook","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":0,"mode":"location, exploration, and personal experience","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":1,"mode":"personal relationships and emotional states","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":2,"mode":"personal states, emotions, and actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":3,"mode":"personal actions, curiosity, and emotions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":4,"mode":"personal experiences, emotions, and relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":5,"mode":"personal states, emotions, and actions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":6,"mode":"personal actions, learning, and social interaction","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3485,"pole":"low","cluster":7,"mode":"personal actions, curiosity, and emotions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3615,"pole":"high","cluster":0,"mode":"personal relationships, actions, and justifications","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3615,"pole":"high","cluster":1,"mode":"personal relationships, emotions, and limitations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3615,"pole":"low","cluster":0,"mode":"personal states, emotions, and relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":3615,"pole":"low","cluster":1,"mode":"personal emotions, desires, and social interactions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8427,"pole":"high","cluster":0,"mode":"personal relationships, communication, and time","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8427,"pole":"high","cluster":1,"mode":"affirmative responses, advice, and technology use","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8427,"pole":"low","cluster":0,"mode":"personal relationships, actions, and social dynamics","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8427,"pole":"low","cluster":1,"mode":"food ingredients, preparation, and serving suggestions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8338,"pole":"high","cluster":0,"mode":"personal actions, emotions, and relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8338,"pole":"high","cluster":1,"mode":"food preparation, ingredients, and serving suggestions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8338,"pole":"low","cluster":0,"mode":"food preparation, ingredients, and cooking methods","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":8338,"pole":"low","cluster":1,"mode":"food preparation, ingredients, and serving suggestions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6529,"pole":"high","cluster":0,"mode":"narrative openings, character introduction, and setting","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6529,"pole":"high","cluster":1,"mode":"narrative openings, character introduction, and setting","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6529,"pole":"high","cluster":2,"mode":"historical events, sports, and abbreviations","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6529,"pole":"high","cluster":3,"mode":"personal emotions, actions, and discoveries","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6529,"pole":"high","cluster":4,"mode":"narrative openings, character introduction, and setting","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6529,"pole":"low","cluster":0,"mode":"personal actions, emotions, and relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":6529,"pole":"low","cluster":1,"mode":"medical conditions, treatments, and risks","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9355,"pole":"high","cluster":0,"mode":"personal actions, emotions, and needs","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9355,"pole":"high","cluster":1,"mode":"user engagement, feedback, and technology use","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9355,"pole":"low","cluster":0,"mode":"location, actions, and intentions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9355,"pole":"low","cluster":1,"mode":"health conditions, body parts, and measurements","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9355,"pole":"low","cluster":2,"mode":"food items, preparation, and serving suggestions","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9355,"pole":"low","cluster":3,"mode":"personal actions, emotions, and relationships","scene_windows":0,"windows":5,"scene":"neutral narration"}
+{"neuron":9355,"pole":"low","cluster":4,"mode":"location, objects, and personal experiences","scene_windows":0,"windows":5,"scene":"neutral narration"}

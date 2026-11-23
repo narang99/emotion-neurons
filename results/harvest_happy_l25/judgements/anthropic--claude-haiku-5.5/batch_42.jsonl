@@ -1,0 +1,62 @@
+{"neuron":11724,"pole":"high","cluster":0,"mode":"Sentence-initial 'The' in playful swinging and throwing stories","happy_windows":2,"windows":5,"scene":"Children playing on swings, toys, and a rescued bunny"}
+{"neuron":11724,"pole":"high","cluster":1,"mode":"Name-internal subword tokens in encyclopedic proper nouns","happy_windows":0,"windows":5,"scene":"Historical, geographic, and biographical reference text"}
+{"neuron":11724,"pole":"high","cluster":2,"mode":"Word fragments in technical or medical descriptive prose","happy_windows":0,"windows":5,"scene":"Medical, engineering, and policy exposition"}
+{"neuron":11724,"pole":"high","cluster":3,"mode":"Conjunctions and pronouns after shared joyful actions","happy_windows":5,"windows":5,"scene":"Friends and siblings laughing, hugging, and playing together"}
+{"neuron":11724,"pole":"high","cluster":4,"mode":"The verb 'play' after 'loved to' or 'would'","happy_windows":4,"windows":5,"scene":"Young child story openings about enjoying play"}
+{"neuron":11724,"pole":"low","cluster":0,"mode":"'what' after 'didn't know' expressing uncertainty or fear","happy_windows":0,"windows":5,"scene":"Characters feeling scared, confused, or unsure"}
+{"neuron":11724,"pole":"low","cluster":1,"mode":"Technical tokens inside regulatory and formal citations","happy_windows":0,"windows":5,"scene":"Regulations, health guidelines, and product information"}
+{"neuron":11724,"pole":"low","cluster":2,"mode":"Mid-word fragments of rare or formal names and terms","happy_windows":0,"windows":5,"scene":"Encyclopedic, reviewed, and technical descriptive text"}
+{"neuron":11724,"pole":"low","cluster":3,"mode":"Nouns and adverbs in critical or serious expository prose","happy_windows":0,"windows":5,"scene":"Essays on policy, history, and social issues"}
+{"neuron":11724,"pole":"low","cluster":4,"mode":"'smiled' verb closing a scene's emotional beat","happy_windows":3,"windows":5,"scene":"Characters finishing a task or activity with a smile"}
+{"neuron":11724,"pole":"low","cluster":5,"mode":"Movement verbs describing hopping, skipping, or exploring","happy_windows":3,"windows":5,"scene":"Characters bouncing and skipping through forests or parks"}
+{"neuron":9301,"pole":"high","cluster":0,"mode":"Capitalized name fragments in historical or place-name text","happy_windows":0,"windows":5,"scene":"Civil War history, towns, and building descriptions"}
+{"neuron":9301,"pole":"high","cluster":1,"mode":"'to' or 'you' after 'what' in confused questions","happy_windows":0,"windows":5,"scene":"Confused or worried characters in tense moments"}
+{"neuron":9301,"pole":"high","cluster":2,"mode":"Pronoun or conjunction after a character's sad or scared reaction","happy_windows":0,"windows":5,"scene":"Characters sad, scared, or chased in conflicts"}
+{"neuron":9301,"pole":"high","cluster":3,"mode":"Sentence-final punctuation before a new story event","happy_windows":0,"windows":5,"scene":"Short narrative turns, often sad or uneasy"}
+{"neuron":9301,"pole":"low","cluster":0,"mode":"Colon after 'assistant' in chat transcripts","happy_windows":0,"windows":5,"scene":"Question-and-answer chatbot dialogues"}
+{"neuron":9301,"pole":"low","cluster":1,"mode":"Mid-sentence tokens in neutral descriptive or advisory text","happy_windows":0,"windows":5,"scene":"Home decor, health, and general advice writing"}
+{"neuron":9301,"pole":"low","cluster":2,"mode":"Assorted tokens in mixed expository and narrative text","happy_windows":1,"windows":5,"scene":"Mixed narration and informational passages"}
+{"neuron":11751,"pole":"high","cluster":0,"mode":"Sentence boundaries and pronouns in cheerful story moments","happy_windows":3,"windows":5,"scene":"Children excited about treasure, toys, and forgiveness"}
+{"neuron":11751,"pole":"high","cluster":1,"mode":"Sentence-ending periods in numbered informational lists","happy_windows":0,"windows":5,"scene":"Listicle-style advice and essay text"}
+{"neuron":11751,"pole":"low","cluster":0,"mode":"Sentence-initial 'The' after emotional or happy resolutions","happy_windows":4,"windows":5,"scene":"Story endings with happy families and friends"}
+{"neuron":11751,"pole":"low","cluster":1,"mode":"Verbs for grabbing or knocking objects before a mishap","happy_windows":0,"windows":5,"scene":"Children picking up items, then accidents happen"}
+{"neuron":11751,"pole":"low","cluster":2,"mode":"'and' or 'then' after hugging or laughing together","happy_windows":4,"windows":5,"scene":"Friends and family hugging, laughing, and sharing"}
+{"neuron":11751,"pole":"low","cluster":3,"mode":"Digits and symbols inside dates, codes, and numbers","happy_windows":0,"windows":5,"scene":"Web pages, addresses, and technical reference text"}
+{"neuron":11751,"pole":"low","cluster":4,"mode":"Household object nouns ending a playful action clause","happy_windows":2,"windows":5,"scene":"Characters playing or relaxing with everyday objects"}
+{"neuron":11751,"pole":"low","cluster":5,"mode":"Character names starting a new sentence in stories","happy_windows":1,"windows":5,"scene":"Story characters on outings, some mishaps"}
+{"neuron":11751,"pole":"low","cluster":6,"mode":"Periods ending sentences about risk, worry, or difficulty","happy_windows":0,"windows":5,"scene":"Serious essays on danger, history, and social issues"}
+{"neuron":11751,"pole":"low","cluster":7,"mode":"Periods after characters feeling proud, happy, or amazed","happy_windows":3,"windows":5,"scene":"Characters celebrating, proud, or enjoying a new item"}
+{"neuron":4284,"pole":"high","cluster":0,"mode":"'the' after 'in' in story locations like park or garden","happy_windows":3,"windows":5,"scene":"Children exploring parks, gardens, and houses"}
+{"neuron":4284,"pole":"high","cluster":1,"mode":"'in' after 'walk' or 'playing' before a location","happy_windows":2,"windows":5,"scene":"Characters going on walks and outdoor outings"}
+{"neuron":4284,"pole":"high","cluster":2,"mode":"'to' after movement verbs toward play or visits","happy_windows":3,"windows":5,"scene":"Friends visiting or going outside to play"}
+{"neuron":4284,"pole":"high","cluster":3,"mode":"Possessive after 'play with' referring to toys","happy_windows":4,"windows":5,"scene":"Children happily playing with their toys"}
+{"neuron":4284,"pole":"high","cluster":4,"mode":"Emotion-related nouns and verbs about fear or learning","happy_windows":0,"windows":5,"scene":"Pet fear, quizzes, and self-improvement advice"}
+{"neuron":4284,"pole":"high","cluster":5,"mode":"The verb 'said' introducing dialogue after a moment","happy_windows":2,"windows":5,"scene":"Parents and friends speaking warmly to children"}
+{"neuron":4284,"pole":"low","cluster":0,"mode":"'had' followed by fun, a great time, or lots of fun","happy_windows":5,"windows":5,"scene":"Children enjoying parties, games, and splashing"}
+{"neuron":4284,"pole":"low","cluster":1,"mode":"'and' or 'fun' after characters enjoying an activity","happy_windows":5,"windows":5,"scene":"Friends laughing, playing games, and sharing joy"}
+{"neuron":6608,"pole":"high","cluster":0,"mode":"Possessive pronouns referring to loved ones or self","happy_windows":1,"windows":5,"scene":"Reflections on relationships, memories, and struggles"}
+{"neuron":6608,"pole":"high","cluster":1,"mode":"'in' or place-name tokens in news and biography","happy_windows":0,"windows":5,"scene":"News items on rights, health, and local events"}
+{"neuron":6608,"pole":"high","cluster":2,"mode":"The word 'happy' describing a character's feelings","happy_windows":5,"windows":5,"scene":"Characters content after outings or making friends"}
+{"neuron":6608,"pole":"high","cluster":3,"mode":"'and' or 'He' after characters feeling happy or fun","happy_windows":5,"windows":5,"scene":"Characters laughing, dancing, and enjoying new friends"}
+{"neuron":6608,"pole":"high","cluster":4,"mode":"Quotation marks and periods in warm dialogue","happy_windows":3,"windows":5,"scene":"Loving conversations between children and parents"}
+{"neuron":6608,"pole":"low","cluster":0,"mode":"Pronouns and nouns in tense emotional narratives","happy_windows":0,"windows":5,"scene":"Characters feeling hurt, struggling, or changing"}
+{"neuron":6608,"pole":"low","cluster":1,"mode":"Nouns in technical health and research descriptions","happy_windows":0,"windows":5,"scene":"Health policy, diet studies, and quality measures"}
+{"neuron":8926,"pole":"high","cluster":0,"mode":"Conjunctions and pronouns after excited group moments","happy_windows":3,"windows":5,"scene":"Friends excited on trips, parties, and adventures"}
+{"neuron":8926,"pole":"high","cluster":1,"mode":"'But' starting a twist after an excited moment","happy_windows":1,"windows":5,"scene":"Excited characters then facing a setback"}
+{"neuron":8926,"pole":"low","cluster":0,"mode":"Colon or 'assistant' label in chat exchanges","happy_windows":0,"windows":5,"scene":"User and assistant question-answer dialogues"}
+{"neuron":8926,"pole":"low","cluster":1,"mode":"Mid-sentence tokens in historical and cultural exposition","happy_windows":0,"windows":5,"scene":"Civil War history, hats, and rights writing"}
+{"neuron":8926,"pole":"low","cluster":2,"mode":"Periods ending instruction steps in how-to lists","happy_windows":0,"windows":5,"scene":"Recipes and how-to advice lists"}
+{"neuron":10791,"pole":"high","cluster":0,"mode":"Sentence-initial pronouns starting a new character action","happy_windows":2,"windows":5,"scene":"Children excited about adventures or reacting to events"}
+{"neuron":10791,"pole":"high","cluster":1,"mode":"Modal or auxiliary verbs in technical or scientific claims","happy_windows":0,"windows":5,"scene":"Software, biology, and neuroscience explanations"}
+{"neuron":10791,"pole":"high","cluster":2,"mode":"Technical nouns naming data, signals, or strategies","happy_windows":0,"windows":5,"scene":"Science news, health data, and education topics"}
+{"neuron":10791,"pole":"low","cluster":0,"mode":"Generic subject nouns like people or parents","happy_windows":0,"windows":5,"scene":"General writing about society, health, and websites"}
+{"neuron":10791,"pole":"low","cluster":1,"mode":"Food and ingredient nouns in recipe descriptions","happy_windows":0,"windows":5,"scene":"Recipes and cooking tips"}
+{"neuron":10791,"pole":"low","cluster":2,"mode":"Pronouns and object references in worried dialogue","happy_windows":0,"windows":5,"scene":"Children worried, reasoning, or seeking objects"}
+{"neuron":10791,"pole":"low","cluster":3,"mode":"Question marks closing a character's question","happy_windows":0,"windows":5,"scene":"Characters asking for help or questioning things"}
+{"neuron":64,"pole":"high","cluster":0,"mode":"Periods ending technical product or feature claims","happy_windows":0,"windows":5,"scene":"Tech product specs and engineering descriptions"}
+{"neuron":64,"pole":"high","cluster":1,"mode":"Exclamation or period closing a dramatic line","happy_windows":1,"windows":5,"scene":"Characters startled, hurt, or surprised"}
+{"neuron":64,"pole":"high","cluster":2,"mode":"Word-start fragments of action verbs in stories","happy_windows":2,"windows":5,"scene":"Characters clapping, laughing, or hopping about"}
+{"neuron":64,"pole":"high","cluster":3,"mode":"Abstract performance nouns like outcomes and development","happy_windows":0,"windows":5,"scene":"Economic, healthcare, and organizational analysis"}
+{"neuron":64,"pole":"low","cluster":0,"mode":"Comma after the story opener 'Once upon a time'","happy_windows":0,"windows":5,"scene":"Generic fairy-tale story openings"}
+{"neuron":64,"pole":"low","cluster":1,"mode":"Period after a story's opening setup sentence","happy_windows":0,"windows":5,"scene":"Gentle story openings about beetles and gardens"}
+{"neuron":64,"pole":"low","cluster":2,"mode":"'there' after 'Once upon a time,'","happy_windows":0,"windows":5,"scene":"Generic fairy-tale story openings"}

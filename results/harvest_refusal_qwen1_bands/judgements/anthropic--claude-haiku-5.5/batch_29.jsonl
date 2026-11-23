@@ -1,0 +1,70 @@
+{"neuron":10925,"pole":"high","cluster":0,"mode":"\"Glad\" opening a reply to user thanks","scene_windows":0,"windows":5,"scene":"Friendly thank-you exchanges in helpful chat"}
+{"neuron":10925,"pole":"high","cluster":1,"mode":"\"According\" starting answers grounded in a provided text","scene_windows":0,"windows":5,"scene":"Document-based Q&A about news and stories"}
+{"neuron":10925,"pole":"high","cluster":2,"mode":"\"'s\" in affirming replies such as \"That's right\"","scene_windows":0,"windows":5,"scene":"Casual conversational agreement and follow-ups"}
+{"neuron":10925,"pole":"high","cluster":3,"mode":"Slash inside dates in historical registration records","scene_windows":0,"windows":5,"scene":"Historical 1800s registers listing births and slaves"}
+{"neuron":10925,"pole":"high","cluster":4,"mode":"Colon or digit inside timestamps of segment schedules","scene_windows":0,"windows":5,"scene":"Podcast or video segment timing outlines"}
+{"neuron":10925,"pole":"high","cluster":5,"mode":"\"In\" opening an explanatory sentence","scene_windows":0,"windows":5,"scene":"Science explainers and factual answers"}
+{"neuron":10925,"pole":"high","cluster":6,"mode":"\"of\" in \"One of the most...\" list openers","scene_windows":0,"windows":5,"scene":"Expository essays on varied topics"}
+{"neuron":10925,"pole":"high","cluster":7,"mode":"\"'s\" in \"that's why/how\" emphatic phrasing","scene_windows":0,"windows":5,"scene":"Fiction dialogue and explanatory remarks"}
+{"neuron":10925,"pole":"high","cluster":8,"mode":"\"is/was\" in \"hope this is helpful\" closers","scene_windows":0,"windows":5,"scene":"Assistant sign-offs after answering a request"}
+{"neuron":10925,"pole":"high","cluster":9,"mode":"\"Let\" introducing an offer or next step","scene_windows":0,"windows":5,"scene":"Assistant offering to help write or revise"}
+{"neuron":10925,"pole":"high","cluster":10,"mode":"Determiner \"the\" or numbers mid-sentence in technical prose","scene_windows":0,"windows":5,"scene":"Scientific, recipe and bonsai descriptive text"}
+{"neuron":10925,"pole":"high","cluster":11,"mode":"\"Another\" beginning a new point or example","scene_windows":0,"windows":5,"scene":"Essay-style writing about mentors and healthcare"}
+{"neuron":10925,"pole":"low","cluster":0,"mode":"\"defined\" in formal definitional statements","scene_windows":0,"windows":5,"scene":"Academic definitions of terms and concepts"}
+{"neuron":10925,"pole":"low","cluster":1,"mode":"\"basically/essentially\" introducing a plain explanation","scene_windows":0,"windows":5,"scene":"Explanations of technical terms and crafts"}
+{"neuron":10925,"pole":"low","cluster":2,"mode":"\"Overall\" opening a concluding summary sentence","scene_windows":0,"windows":5,"scene":"Essay conclusions on varied topics"}
+{"neuron":10925,"pole":"low","cluster":3,"mode":"\"generally considered\" hedging a typical value or definition","scene_windows":0,"windows":5,"scene":"Q&A about typing speed and obesity"}
+{"neuron":10925,"pole":"low","cluster":4,"mode":"Colon right after \"Assistant\" before an answer","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A turn boundaries"}
+{"neuron":10925,"pole":"low","cluster":5,"mode":"\"Assistant\" label token starting an answer turn","scene_windows":0,"windows":5,"scene":"Simple factual Q&A transcripts"}
+{"neuron":10925,"pole":"low","cluster":6,"mode":"\"really\" in emphatic evaluative statements","scene_windows":0,"windows":5,"scene":"Advice and commentary on various subjects"}
+{"neuron":10925,"pole":"low","cluster":7,"mode":"Copula right after a term being defined","scene_windows":0,"windows":5,"scene":"Glossary-style definitions in Q&A"}
+{"neuron":10925,"pole":"low","cluster":8,"mode":"\"defined as\" or quote marks introducing a definition","scene_windows":0,"windows":5,"scene":"Definitions of terms like assessment and guilt"}
+{"neuron":10925,"pole":"low","cluster":9,"mode":"\"simply\" introducing a plain qualifier","scene_windows":0,"windows":5,"scene":"Opinion and explanatory prose"}
+{"neuron":10925,"pole":"low","cluster":10,"mode":"Prepositions or digits in mid-phrase in prose and citations","scene_windows":0,"windows":5,"scene":"Health essays and bibliographic references"}
+{"neuron":10925,"pole":"low","cluster":11,"mode":"\"or\" joining alternatives in instructions","scene_windows":0,"windows":5,"scene":"Lawn care, water testing, and data policy text"}
+{"neuron":5858,"pole":"high","cluster":0,"mode":"\"best\" in \"as best I/she could\" idioms","scene_windows":0,"windows":5,"scene":"Fiction describing strained effort"}
+{"neuron":5858,"pole":"high","cluster":1,"mode":"\"Assistant\" label starting a reply to a follow-up","scene_windows":0,"windows":5,"scene":"Human-assistant chats on varied topics"}
+{"neuron":5858,"pole":"high","cluster":2,"mode":"\"there\" opening a general answer or hedge","scene_windows":0,"windows":5,"scene":"Health and lifestyle advice replies"}
+{"neuron":5858,"pole":"high","cluster":3,"mode":"\"but\" introducing a contrast in narrative","scene_windows":0,"windows":5,"scene":"Narrative fiction about failed efforts"}
+{"neuron":5858,"pole":"high","cluster":4,"mode":"\"its\" or \"of\" in statements about AI honesty and limits","scene_windows":0,"windows":5,"scene":"Descriptions of AI honesty and uncertainty"}
+{"neuron":5858,"pole":"high","cluster":5,"mode":"\"I\" opening a supportive or self-referential remark","scene_windows":1,"windows":5,"scene":"Assistant offering support or hotline referrals"}
+{"neuron":5858,"pole":"low","cluster":0,"mode":"\"Hmm\" opening a reply to a question","scene_windows":0,"windows":5,"scene":"Casual Q&A about everyday tasks"}
+{"neuron":5858,"pole":"low","cluster":1,"mode":"Colon right after \"Assistant\" before an answer","scene_windows":0,"windows":5,"scene":"Human-assistant how-to questions"}
+{"neuron":5858,"pole":"low","cluster":2,"mode":"\"Assistant\" label token starting a list answer","scene_windows":0,"windows":5,"scene":"Human-assistant recommendation questions"}
+{"neuron":5858,"pole":"low","cluster":3,"mode":"\"is\" in \"Hmm, that is a question\" phrasing","scene_windows":0,"windows":5,"scene":"Assistant reactions to user questions"}
+{"neuron":5858,"pole":"low","cluster":4,"mode":"\"are\" after \"There\" opening a how-to answer","scene_windows":0,"windows":5,"scene":"How-to questions about food and crafts"}
+{"neuron":5858,"pole":"low","cluster":5,"mode":"\"I\" starting an assistant reply","scene_windows":0,"windows":5,"scene":"Human-assistant recommendation chats"}
+{"neuron":5858,"pole":"low","cluster":6,"mode":"\"There\" starting a general-ways answer","scene_windows":0,"windows":5,"scene":"How-to questions about learning and cooking"}
+{"neuron":5858,"pole":"low","cluster":7,"mode":"Exclamation mark after a remark on the question","scene_windows":0,"windows":5,"scene":"Assistant remarks praising or assessing questions"}
+{"neuron":5858,"pole":"low","cluster":8,"mode":"Articles or pronouns inside narrative sentences","scene_windows":0,"windows":5,"scene":"Literary narration and descriptive prose"}
+{"neuron":5858,"pole":"low","cluster":9,"mode":"\"no\" in \"there is no\" negative existence claims","scene_windows":0,"windows":5,"scene":"Argumentative opinion and explanatory prose"}
+{"neuron":6506,"pole":"high","cluster":0,"mode":"\"In\" starting a clarifying sentence","scene_windows":0,"windows":5,"scene":"Explanatory answers on health and science"}
+{"neuron":6506,"pole":"high","cluster":1,"mode":"\"in\" ending a phrase about context or time","scene_windows":0,"windows":5,"scene":"Reflective prompts and advice texts"}
+{"neuron":6506,"pole":"high","cluster":2,"mode":"\"yes\" as an interjection opening an answer","scene_windows":0,"windows":5,"scene":"Assistant affirmations to user questions"}
+{"neuron":6506,"pole":"low","cluster":0,"mode":"\"how\" before an intensifier like \"much\"","scene_windows":0,"windows":5,"scene":"Advice on expressing love and gratitude"}
+{"neuron":6506,"pole":"low","cluster":1,"mode":"\"he/she\" after \"knew that\" in narrative","scene_windows":0,"windows":5,"scene":"Fiction about characters' resolve"}
+{"neuron":6506,"pole":"low","cluster":2,"mode":"\"We\" or subject pronoun starting dialogue or narration","scene_windows":0,"windows":5,"scene":"Sci-fi and thriller fiction dialogue"}
+{"neuron":6506,"pole":"low","cluster":3,"mode":"\"how\" introducing an embedded clause","scene_windows":0,"windows":5,"scene":"Narrative realizations and advice about understanding"}
+{"neuron":6506,"pole":"low","cluster":4,"mode":"Pronoun after \"what\" in embedded clause","scene_windows":0,"windows":5,"scene":"Tips on design, goals, and research"}
+{"neuron":6506,"pole":"low","cluster":5,"mode":"\"You\" starting a sharp line of dialogue","scene_windows":0,"windows":5,"scene":"Tense fictional confrontations"}
+{"neuron":6506,"pole":"low","cluster":6,"mode":"\"are\" in reassuring \"You are not alone\" statements","scene_windows":5,"windows":5,"scene":"Crisis support messages urging help-seeking"}
+{"neuron":6506,"pole":"low","cluster":7,"mode":"\"You/you\" starting a suggestion","scene_windows":0,"windows":5,"scene":"Everyday advice about sleep, travel, and care"}
+{"neuron":6506,"pole":"low","cluster":8,"mode":"\"You\" starting a support or hotline sentence","scene_windows":5,"windows":5,"scene":"Mental health crisis referrals and hotlines"}
+{"neuron":6506,"pole":"low","cluster":9,"mode":"Pronoun \"He/I\" starting a narrative sentence","scene_windows":0,"windows":5,"scene":"Dark fiction and first-person narration"}
+{"neuron":6506,"pole":"low","cluster":10,"mode":"\"the/in\" in historical or formal prose","scene_windows":0,"windows":5,"scene":"Historical and corporate descriptive text"}
+{"neuron":6506,"pole":"low","cluster":11,"mode":"\"I\" starting a line of first-person dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue with emotional stakes"}
+{"neuron":5698,"pole":"high","cluster":0,"mode":"\"to\" or \"can\" introducing a purpose or effect","scene_windows":0,"windows":5,"scene":"Health and skincare advice"}
+{"neuron":5698,"pole":"high","cluster":1,"mode":"\"make\" preceding a worsening outcome","scene_windows":0,"windows":5,"scene":"Practical warnings about pets, hair, and diving"}
+{"neuron":5698,"pole":"low","cluster":0,"mode":"\"will/which/can\" linking a consequence clause","scene_windows":0,"windows":5,"scene":"Fitness, bonsai and product-design advice"}
+{"neuron":5698,"pole":"low","cluster":1,"mode":"\"would\" in a story's reasoning about obviousness","scene_windows":0,"windows":5,"scene":"Rewritten short story about Adam"}
+{"neuron":9646,"pole":"high","cluster":0,"mode":"\"The\" starting a business plan sentence","scene_windows":0,"windows":5,"scene":"Business plan drafting for a meal company"}
+{"neuron":9646,"pole":"high","cluster":1,"mode":"\"how\" introducing an explanatory clause","scene_windows":0,"windows":5,"scene":"Website and fundraising advice"}
+{"neuron":9646,"pole":"high","cluster":2,"mode":"\"what/exactly\" in customer-service promises","scene_windows":0,"windows":5,"scene":"Customer service email drafts"}
+{"neuron":9646,"pole":"high","cluster":3,"mode":"\"the/. \" in promotional service descriptions","scene_windows":0,"windows":5,"scene":"Spammy essay-writing service promotion"}
+{"neuron":9646,"pole":"high","cluster":4,"mode":"\"can\" after \"tourists\" or \"you\" in travel lists","scene_windows":0,"windows":5,"scene":"Travel guide listing local shopping"}
+{"neuron":9646,"pole":"high","cluster":5,"mode":"\"of/is\" in descriptive product and quality phrases","scene_windows":0,"windows":5,"scene":"Descriptions of cleaning, food and music"}
+{"neuron":9646,"pole":"high","cluster":6,"mode":"\"of\" in content-type lists about photos and videos","scene_windows":0,"windows":5,"scene":"Social media content plan outlines"}
+{"neuron":9646,"pole":"low","cluster":0,"mode":"\"confidential\" in disclaimers redirecting to professionals","scene_windows":5,"windows":5,"scene":"Assistant declining personal advice, referring to professionals"}
+{"neuron":9646,"pole":"low","cluster":1,"mode":"\"in\" after \"stored\" in food storage instructions","scene_windows":0,"windows":5,"scene":"Food storage and leftovers instructions"}
+{"neuron":9646,"pole":"low","cluster":2,"mode":"Mid-sentence function word (in, is, and, of) in descriptive product, cooking, or technical text","scene_windows":0,"windows":5,"scene":"Pottery naming, crab meat recipe, marinade, forensic testing, chocolate production"}
+{"neuron":9646,"pole":"low","cluster":3,"mode":"Function word before a referral to professional help, hotline, or resources","scene_windows":4,"windows":5,"scene":"Assistant safety disclaimers directing distressed users to professional or emergency help"}

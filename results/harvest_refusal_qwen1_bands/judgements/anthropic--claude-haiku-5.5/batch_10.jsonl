@@ -1,0 +1,74 @@
+{"neuron":8751,"pole":"high","cluster":0,"mode":"Verb 'make' after 'and/also' in benign advice about effects","scene_windows":0,"windows":5,"scene":"Benign advice and descriptive writing about outcomes"}
+{"neuron":8751,"pole":"high","cluster":1,"mode":"Verb 'create' or 'creates' describing color or design effects","scene_windows":0,"windows":5,"scene":"Interior design and website color advice"}
+{"neuron":8751,"pole":"high","cluster":2,"mode":"Verb 'fit' or 'fits' in phrases about suiting needs","scene_windows":0,"windows":5,"scene":"Product and furniture customization recommendations"}
+{"neuron":8751,"pole":"high","cluster":3,"mode":"Adjective 'rising' preceding a cost, price, or pressure noun","scene_windows":0,"windows":5,"scene":"Industry, economic and business news writing"}
+{"neuron":8751,"pole":"high","cluster":4,"mode":"Determiners or conjunctions before target audience, budget, or style","scene_windows":0,"windows":5,"scene":"Marketing and design planning guidance"}
+{"neuron":8751,"pole":"high","cluster":5,"mode":"Verb 'vary' or 'varies' saying something depends on factors","scene_windows":0,"windows":5,"scene":"Cooking, skincare, and product questions answered with hedges"}
+{"neuron":8751,"pole":"high","cluster":6,"mode":"Conjunctions and prepositions mid-clause in general explanatory prose","scene_windows":0,"windows":5,"scene":"Assorted explanatory essays and advice"}
+{"neuron":8751,"pole":"high","cluster":7,"mode":"The word 'high' in compounds or phrases","scene_windows":0,"windows":5,"scene":"Shopping, school, diet, and Mars descriptions"}
+{"neuron":8751,"pole":"low","cluster":0,"mode":"Sentence-final punctuation or whitespace before a new turn","scene_windows":0,"windows":5,"scene":"Chat turn boundaries in assorted advice replies"}
+{"neuron":8751,"pole":"low","cluster":1,"mode":"Blank or digit tokens inside a repeated Texans draft-pick list","scene_windows":0,"windows":5,"scene":"Sports news article about draft picks"}
+{"neuron":8751,"pole":"low","cluster":2,"mode":"Prepositions and 'will' inside abstract or literary phrasing","scene_windows":0,"windows":5,"scene":"Essays and fiction passages"}
+{"neuron":8751,"pole":"low","cluster":3,"mode":"Colon after 'Assistant' in short Human-Assistant exchanges","scene_windows":0,"windows":5,"scene":"Brief everyday Q&A turns"}
+{"neuron":2665,"pole":"high","cluster":0,"mode":"Prepositions and commas in neutral factual sentences","scene_windows":0,"windows":5,"scene":"News and historical or environmental reporting"}
+{"neuron":2665,"pole":"high","cluster":1,"mode":"Words within a quoted constitutional amendment text","scene_windows":0,"windows":5,"scene":"Discussion of the 27th Amendment"}
+{"neuron":2665,"pole":"low","cluster":0,"mode":"Pronoun or verb 'I am' in a refusal to help with harm","scene_windows":5,"windows":5,"scene":"Assistant declining sabotage or vehicle-dumping advice"}
+{"neuron":2665,"pole":"low","cluster":1,"mode":"Pronoun 'it' in tense first-person or fictional narration","scene_windows":0,"windows":5,"scene":"Fiction narration with inner thoughts"}
+{"neuron":2665,"pole":"low","cluster":2,"mode":"Prepositions 'of', 'for', 'with' in literary or historical prose","scene_windows":0,"windows":5,"scene":"Historical and fictional essays"}
+{"neuron":2665,"pole":"low","cluster":3,"mode":"Auxiliary 'did' or 'do' in dialogue questions","scene_windows":0,"windows":5,"scene":"Fiction dialogue and inner monologue"}
+{"neuron":2639,"pole":"high","cluster":0,"mode":"Colon-slash in URLs after 'http' or 'https'","scene_windows":0,"windows":5,"scene":"Lists of website resources"}
+{"neuron":2639,"pole":"high","cluster":1,"mode":"Blank space before a day or year number in dates","scene_windows":0,"windows":5,"scene":"Sports news and legal event reporting"}
+{"neuron":2639,"pole":"high","cluster":2,"mode":"Digit '9' inside years starting with 19","scene_windows":0,"windows":5,"scene":"Music and history trivia about years"}
+{"neuron":2639,"pole":"high","cluster":3,"mode":"Digit '1' inside years starting with 20","scene_windows":0,"windows":5,"scene":"Sports, music and biography dates"}
+{"neuron":2639,"pole":"high","cluster":4,"mode":"Nouns or prepositions completing common phrases","scene_windows":0,"windows":5,"scene":"Health, history and travel descriptions"}
+{"neuron":2639,"pole":"high","cluster":5,"mode":"Blank space before a year or century number","scene_windows":0,"windows":5,"scene":"Historical facts about dates and eras"}
+{"neuron":2639,"pole":"low","cluster":0,"mode":"Digits inside years or numeric statistics","scene_windows":0,"windows":5,"scene":"Citations and statistics reports"}
+{"neuron":2639,"pole":"low","cluster":1,"mode":"Digits '0' or '7' closing years in date ranges","scene_windows":0,"windows":5,"scene":"Bibliographic citations and historical dates"}
+{"neuron":2639,"pole":"low","cluster":2,"mode":"Numeric tokens inside percentages and statistics","scene_windows":0,"windows":5,"scene":"Health and research statistics"}
+{"neuron":2639,"pole":"low","cluster":3,"mode":"Preposition 'of' inside book and title names","scene_windows":0,"windows":5,"scene":"Bibliographies and book titles"}
+{"neuron":2639,"pole":"low","cluster":4,"mode":"Period followed by a double space at chunk end","scene_windows":0,"windows":5,"scene":"Recipe steps and short reviews"}
+{"neuron":2639,"pole":"low","cluster":5,"mode":"Speaker label 'assistant' at start of a reply","scene_windows":0,"windows":5,"scene":"Chat-formatted replies on writing tasks"}
+{"neuron":2639,"pole":"low","cluster":6,"mode":"Blank whitespace after closing quotes in dialogue","scene_windows":0,"windows":5,"scene":"Fiction dialogue scenes"}
+{"neuron":2639,"pole":"low","cluster":7,"mode":"Determiners 'the' or 'that' in narrative sentences","scene_windows":0,"windows":5,"scene":"Science fiction and descriptive narration"}
+{"neuron":2639,"pole":"low","cluster":8,"mode":"Contraction stem 'don' or 'didn' before apostrophe","scene_windows":0,"windows":5,"scene":"Advice and product descriptions with contractions"}
+{"neuron":1219,"pole":"high","cluster":0,"mode":"Sentence-boundary or clause tokens in informational explanations","scene_windows":0,"windows":5,"scene":"Cooking, renewable energy and language learning advice"}
+{"neuron":1219,"pole":"high","cluster":1,"mode":"Negation 'not' or 'n't' in peer-pressure statements","scene_windows":0,"windows":5,"scene":"Social judgment and pressure descriptions"}
+{"neuron":1219,"pole":"low","cluster":0,"mode":"Subject or determiner in descriptions of harsh or restrictive situations","scene_windows":0,"windows":5,"scene":"Historical, social and fictional narration"}
+{"neuron":1219,"pole":"low","cluster":1,"mode":"Preposition 'for' after punishment or arrest verbs","scene_windows":0,"windows":5,"scene":"Historical biographies of punishment and imprisonment"}
+{"neuron":7825,"pole":"high","cluster":0,"mode":"Word 'iris' in eye-disease medical terms","scene_windows":0,"windows":5,"scene":"Glaucoma and eye medicine text"}
+{"neuron":7825,"pole":"high","cluster":1,"mode":"Nouns after 'unknown' or 'relationship' in technical or descriptive text","scene_windows":0,"windows":5,"scene":"Software, Braille and fish-population reporting"}
+{"neuron":7825,"pole":"high","cluster":2,"mode":"'levels' or 'concentrations' after low or high","scene_windows":0,"windows":5,"scene":"Health and nutrition facts"}
+{"neuron":7825,"pole":"low","cluster":0,"mode":"Commas or nouns in general narrative or conclusions","scene_windows":0,"windows":5,"scene":"Weather, family and business narratives"}
+{"neuron":7825,"pole":"low","cluster":1,"mode":"Word 'sleep' in sleep-related health topics","scene_windows":0,"windows":5,"scene":"Sleep, insomnia and screen-time health advice"}
+{"neuron":9203,"pole":"high","cluster":0,"mode":"Assistant label before a direct factual answer","scene_windows":0,"windows":5,"scene":"Short factual trivia Q&A"}
+{"neuron":9203,"pole":"high","cluster":1,"mode":"Determiner 'The' starting a factual answer","scene_windows":0,"windows":5,"scene":"Factual questions about symbols and history"}
+{"neuron":9203,"pole":"high","cluster":2,"mode":"'One' starting an enumeration of examples","scene_windows":0,"windows":5,"scene":"Personal reflections and examples"}
+{"neuron":9203,"pole":"high","cluster":3,"mode":"'of' after 'One' in list-of-examples phrasing","scene_windows":0,"windows":5,"scene":"Advice lists on dates, yoga and agile"}
+{"neuron":9203,"pole":"low","cluster":0,"mode":"Existential 'there' starting a clause","scene_windows":0,"windows":5,"scene":"Advice and descriptive explanations"}
+{"neuron":9203,"pole":"low","cluster":1,"mode":"Demonstrative 'This' starting an elaborating sentence","scene_windows":0,"windows":5,"scene":"Practical household and health tips"}
+{"neuron":9203,"pole":"low","cluster":2,"mode":"'the' after 'Some of' in list introductions","scene_windows":0,"windows":5,"scene":"Lists of categories and examples"}
+{"neuron":9203,"pole":"low","cluster":3,"mode":"Pronoun 'you' after introductory phrase in advice","scene_windows":0,"windows":5,"scene":"Coping, hobby and self-help advice"}
+{"neuron":9203,"pole":"low","cluster":4,"mode":"Adverb 'also' after 'might' in suggestions","scene_windows":0,"windows":5,"scene":"Movie, book and advice recommendations"}
+{"neuron":9203,"pole":"low","cluster":5,"mode":"Sentence-final punctuation or space in chat replies","scene_windows":0,"windows":5,"scene":"Open-ended advice responses"}
+{"neuron":9203,"pole":"low","cluster":6,"mode":"'the' after 'Additionally' in requirement lists","scene_windows":0,"windows":5,"scene":"Software and app feature requirements"}
+{"neuron":9203,"pole":"low","cluster":7,"mode":"'the' after 'How does' in user questions","scene_windows":0,"windows":5,"scene":"User questions about topics"}
+{"neuron":9203,"pole":"low","cluster":8,"mode":"Punctuation or noun mid-clause in literary or analytic prose","scene_windows":0,"windows":5,"scene":"Essays and fiction with mixed topics"}
+{"neuron":9203,"pole":"low","cluster":9,"mode":"Sentence-initial 'The' starting a new technical clause","scene_windows":0,"windows":5,"scene":"Forecasting, finance and car technical text"}
+{"neuron":4100,"pole":"high","cluster":0,"mode":"Sentence-end or 'you' before a cautionary consideration","scene_windows":1,"windows":5,"scene":"Advice on college, careers and a risky action"}
+{"neuron":4100,"pole":"high","cluster":1,"mode":"Space or pronoun 'I' before a character's reply in script","scene_windows":0,"windows":5,"scene":"Screenplay dialogue about joining the army"}
+{"neuron":4100,"pole":"low","cluster":0,"mode":"Sentence-initial 'Fortunately' or 'Unfortunately' transitions","scene_windows":0,"windows":5,"scene":"Narrative and essay transitions"}
+{"neuron":4100,"pole":"low","cluster":1,"mode":"Sentence-initial 'However' contrasting a prior claim","scene_windows":0,"windows":5,"scene":"Explanatory answers with contrasts"}
+{"neuron":4100,"pole":"low","cluster":2,"mode":"Sentence-initial 'Unfortunately' or 'Sadly' before a downside","scene_windows":0,"windows":5,"scene":"Historical and science-related commentary"}
+{"neuron":4100,"pole":"low","cluster":3,"mode":"Sentence-initial 'But' starting a fiction contrast","scene_windows":0,"windows":5,"scene":"Western-style fiction narration"}
+{"neuron":4100,"pole":"low","cluster":4,"mode":"Verb 'require' or 'requires' describing needs","scene_windows":0,"windows":5,"scene":"Gardening, carpentry and cooking advice"}
+{"neuron":4100,"pole":"low","cluster":5,"mode":"Sentence-initial 'And' continuing a list of points","scene_windows":0,"windows":5,"scene":"Forum-style opinion and hobby commentary"}
+{"neuron":4100,"pole":"low","cluster":6,"mode":"Colon after 'assistant' before a reply","scene_windows":0,"windows":5,"scene":"Chat-formatted requests for guides and ideas"}
+{"neuron":4100,"pole":"low","cluster":7,"mode":"Preposition 'per' in rate or quantity phrases","scene_windows":0,"windows":5,"scene":"Statistics on travel, cancer and farming"}
+{"neuron":4100,"pole":"low","cluster":8,"mode":"Determiner or pronoun mid-clause in technical instructions","scene_windows":0,"windows":5,"scene":"Software design and domain-setup text"}
+{"neuron":4100,"pole":"low","cluster":9,"mode":"Conditional 'if' introducing a counterfactual clause","scene_windows":0,"windows":5,"scene":"Economic, fiction and dynasty speculation"}
+{"neuron":6317,"pole":"high","cluster":0,"mode":"Sentence-end or comma after a narrative action beat","scene_windows":0,"windows":5,"scene":"Fantasy and emotional fiction narration"}
+{"neuron":6317,"pole":"high","cluster":1,"mode":"Subword pieces of drug or medical names","scene_windows":0,"windows":5,"scene":"Valproate pregnancy risk and recipe mentions"}
+{"neuron":6317,"pole":"high","cluster":2,"mode":"Comma or period closing a narrative clause","scene_windows":0,"windows":5,"scene":"Adventure and descriptive fiction"}
+{"neuron":6317,"pole":"low","cluster":0,"mode":"Speaker label colon or 'assistant' before a reply","scene_windows":0,"windows":5,"scene":"Chat-formatted factual Q&A"}
+{"neuron":6317,"pole":"low","cluster":1,"mode":"Determiner 'the' before a noun in descriptive clauses","scene_windows":0,"windows":5,"scene":"Design and product descriptions"}
+{"neuron":6317,"pole":"low","cluster":2,"mode":"Ingredient or cocktail step tokens like 'jar' and 'Shake'","scene_windows":0,"windows":5,"scene":"Recipe and cocktail instructions"}

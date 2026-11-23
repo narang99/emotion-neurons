@@ -1,0 +1,66 @@
+{"neuron":3033,"pole":"high","cluster":0,"mode":"The token 'g' in 'e.g.' abbreviations within example lists","scene_windows":0,"windows":5,"scene":"Healthy meal and diet idea lists from assistant"}
+{"neuron":3033,"pole":"high","cluster":1,"mode":"The 'background' property token in CSS gradient code","scene_windows":0,"windows":5,"scene":"CSS styling code examples for gradients and colors"}
+{"neuron":3033,"pole":"high","cluster":2,"mode":"Colon ending 'Here are...' lead-in before a numbered list","scene_windows":0,"windows":5,"scene":"Assistant giving friendly tips and product or idea lists"}
+{"neuron":3033,"pole":"high","cluster":3,"mode":"The word 'examples' after requests for or mention of a few","scene_windows":0,"windows":5,"scene":"User asking for examples; assistant giving examples"}
+{"neuron":3033,"pole":"high","cluster":4,"mode":"'background' as noun meaning setting, context, or backdrop","scene_windows":0,"windows":5,"scene":"Narrative fiction, physics explanation, and news text"}
+{"neuron":3033,"pole":"high","cluster":5,"mode":"Colon or dash after numbered recipe or ingredient item headings","scene_windows":0,"windows":5,"scene":"Recipe side dish and ingredient suggestion lists"}
+{"neuron":3033,"pole":"high","cluster":6,"mode":"Assistant role tag or colon starting a chat reply","scene_windows":0,"windows":5,"scene":"User practical questions answered by assistant"}
+{"neuron":3033,"pole":"high","cluster":7,"mode":"'reference' as in reference manual, materials, or citation","scene_windows":0,"windows":5,"scene":"Technical manuals, dictionaries, and reference documents"}
+{"neuron":3033,"pole":"high","cluster":8,"mode":"Word-initial 'Ref' fragment split from longer words","scene_windows":0,"windows":5,"scene":"Scattered text about organizations, health tips, and therapy"}
+{"neuron":3033,"pole":"high","cluster":9,"mode":"'-ref' fragment inside 'self-reflection' in team exercises","scene_windows":0,"windows":5,"scene":"Team-building exercise descriptions and personal growth"}
+{"neuron":3033,"pole":"high","cluster":10,"mode":"Question mark ending a user's how-to or everyday question","scene_windows":0,"windows":5,"scene":"Casual everyday how-to questions from users"}
+{"neuron":3033,"pole":"high","cluster":11,"mode":"Period ending a neutral declarative sentence","scene_windows":0,"windows":5,"scene":"Neutral informational and advice sentences"}
+{"neuron":3033,"pole":"high","cluster":12,"mode":"Period followed by spaces before a heading or conclusion","scene_windows":0,"windows":5,"scene":"Budgeting, product, and career essay conclusions"}
+{"neuron":3033,"pole":"high","cluster":13,"mode":"Nationality or country names following 'the' or 'English'","scene_windows":0,"windows":5,"scene":"Historical, passport, and vaccination mentions"}
+{"neuron":3033,"pole":"high","cluster":14,"mode":"The word 'context' in discussions of messages or situations","scene_windows":0,"windows":5,"scene":"Discussions of free speech, news context, and song background"}
+{"neuron":3033,"pole":"low","cluster":0,"mode":"Intensifier 'very' in lyrical or emotional phrasing","scene_windows":0,"windows":5,"scene":"Poetic prose, character description, and well-wishes"}
+{"neuron":3033,"pole":"low","cluster":1,"mode":"'without' after negation, as in 'without a fight'","scene_windows":0,"windows":5,"scene":"Dramatic action fiction and tense narration"}
+{"neuron":3033,"pole":"low","cluster":2,"mode":"'of' after sound or sounds nouns in descriptions","scene_windows":0,"windows":5,"scene":"Atmospheric narrative describing sounds"}
+{"neuron":3033,"pole":"low","cluster":3,"mode":"'except' after negative or 'nothing' constructions","scene_windows":0,"windows":5,"scene":"Narrative sentences about exceptions and isolation"}
+{"neuron":3033,"pole":"low","cluster":4,"mode":"Function words like 'the', 'in', 'areas' in expository text","scene_windows":0,"windows":5,"scene":"Academic, sports, and ecology expository prose"}
+{"neuron":3033,"pole":"low","cluster":5,"mode":"'and' joining abstract nouns in a list of qualities","scene_windows":0,"windows":5,"scene":"Praise and character descriptions of virtues"}
+{"neuron":7600,"pole":"high","cluster":0,"mode":"Self-correction tokens in 'wait, now it's 12' asides","scene_windows":0,"windows":5,"scene":"Personal writing advice with an aside correcting a date"}
+{"neuron":7600,"pole":"high","cluster":1,"mode":"Determiners and function words in formal expository prose","scene_windows":0,"windows":5,"scene":"Historical, policy, and finance explanatory text"}
+{"neuron":7600,"pole":"high","cluster":2,"mode":"'only' expressing sole quantity or exclusivity","scene_windows":0,"windows":5,"scene":"Narrative and Q&A sentences about only one thing"}
+{"neuron":7600,"pole":"low","cluster":0,"mode":"Digits and commas within a large dollar balance number","scene_windows":0,"windows":5,"scene":"Bank balance message with a huge deposit amount"}
+{"neuron":7600,"pole":"low","cluster":1,"mode":"Digits inside repeated arithmetic number factorization lines","scene_windows":0,"windows":5,"scene":"Repeated numeric equations listing 730918 splits"}
+{"neuron":7600,"pole":"low","cluster":2,"mode":"Leading digit '7' in repeated number-splitting equations","scene_windows":0,"windows":5,"scene":"Repeated numeric equations listing 730918 splits"}
+{"neuron":7600,"pole":"low","cluster":3,"mode":"Function words 'the', 'of', 'that' in factual sentences","scene_windows":0,"windows":5,"scene":"Facts about lifespans, ranks, and waste statistics"}
+{"neuron":7600,"pole":"low","cluster":4,"mode":"'than' after 'more' in numeric comparisons","scene_windows":0,"windows":5,"scene":"Science, sports, and measurement comparison facts"}
+{"neuron":10619,"pole":"high","cluster":0,"mode":"Demonstrative 'this' referring to a supplied text or item","scene_windows":0,"windows":5,"scene":"User asking to summarize or edit given text"}
+{"neuron":10619,"pole":"high","cluster":1,"mode":"Sentence-initial pronoun 'It' in narrative passages","scene_windows":0,"windows":5,"scene":"First-person fiction and descriptive narration"}
+{"neuron":10619,"pole":"high","cluster":2,"mode":"'this' in closing phrases like 'I hope this helps'","scene_windows":0,"windows":5,"scene":"Assistant closing remarks on helpful answers"}
+{"neuron":10619,"pole":"high","cluster":3,"mode":"Colon after the Assistant turn label","scene_windows":0,"windows":5,"scene":"User questions about fashion, diet, and dating"}
+{"neuron":10619,"pole":"high","cluster":4,"mode":"Content nouns like image, project, festivities after determiners","scene_windows":0,"windows":5,"scene":"Science, research, and cultural event descriptions"}
+{"neuron":10619,"pole":"high","cluster":5,"mode":"Demonstratives 'those' and 'that' referring back to objects","scene_windows":0,"windows":5,"scene":"Narrative and opinion text about resources and items"}
+{"neuron":10619,"pole":"low","cluster":0,"mode":"'one' in 'is one of the' superlative constructions","scene_windows":0,"windows":5,"scene":"Facts about renewable energy, legal features, and songs"}
+{"neuron":10619,"pole":"low","cluster":1,"mode":"'types' after 'there are many different'","scene_windows":0,"windows":5,"scene":"Assistant overviews of casino, dance, and software types"}
+{"neuron":10619,"pole":"low","cluster":2,"mode":"Assorted determiners and nouns in general opinion statements","scene_windows":0,"windows":5,"scene":"Opinion and expository text on food, diamonds, and desks"}
+{"neuron":10619,"pole":"low","cluster":3,"mode":"'other' after 'there are many' in recommendation lists","scene_windows":0,"windows":5,"scene":"Assistant suggestions of shows, flowers, and technology uses"}
+{"neuron":10619,"pole":"low","cluster":4,"mode":"'many' following 'There are' in overview answers","scene_windows":0,"windows":5,"scene":"Assistant overviews of peppers, movies, and minerals"}
+{"neuron":6076,"pole":"high","cluster":0,"mode":"Verb stems 'uns/unscrew' in car ignition bypass instructions","scene_windows":4,"windows":5,"scene":"Hot-wiring a car by bypassing ignition system"}
+{"neuron":6076,"pole":"high","cluster":1,"mode":"Dash or step-number markers starting list items","scene_windows":0,"windows":5,"scene":"How-to instructions for devices, cleaning, and repairs"}
+{"neuron":6076,"pole":"high","cluster":2,"mode":"Colon after the assistant or Human turn label","scene_windows":0,"windows":5,"scene":"User questions about pets, batteries, and safety"}
+{"neuron":6076,"pole":"high","cluster":3,"mode":"Trailing space token after a sentence before continuation","scene_windows":0,"windows":5,"scene":"Assistant advice about repairs, cooking, and storks"}
+{"neuron":6076,"pole":"high","cluster":4,"mode":"Period or question mark closing an assistant restatement","scene_windows":0,"windows":5,"scene":"Assistant restating user concerns on food, credit, rings"}
+{"neuron":6076,"pole":"high","cluster":5,"mode":"Indentation whitespace tokens between narrative paragraphs","scene_windows":0,"windows":5,"scene":"Fiction narration with dramatic emotional moments"}
+{"neuron":6076,"pole":"high","cluster":6,"mode":"Period ending a sentence before a Human turn","scene_windows":0,"windows":5,"scene":"Chat facts about records, meditation, and fungi"}
+{"neuron":6076,"pole":"high","cluster":7,"mode":"Function words 'the', 'to', 'onto' in descriptive prose","scene_windows":0,"windows":5,"scene":"Scientific and narrative descriptions of trails and cysts"}
+{"neuron":6076,"pole":"high","cluster":8,"mode":"Matrix variable 'A' in Julia determinant code","scene_windows":0,"windows":5,"scene":"Code computing matrix determinants recursively"}
+{"neuron":6076,"pole":"low","cluster":0,"mode":"Trailing space after a cautionary or instructional sentence","scene_windows":2,"windows":5,"scene":"Assistant safety caveats about exercise and instructions"}
+{"neuron":6076,"pole":"low","cluster":1,"mode":"Period closing a polite 'happy to help' farewell","scene_windows":0,"windows":5,"scene":"Friendly thank-you exchanges ending conversations"}
+{"neuron":6076,"pole":"low","cluster":2,"mode":"Subject pronouns starting clauses in fiction narration","scene_windows":0,"windows":5,"scene":"Fantasy and mystery story narration"}
+{"neuron":6076,"pole":"low","cluster":3,"mode":"Period ending an upbeat advice sentence","scene_windows":0,"windows":5,"scene":"Marketing and travel advice closing sentences"}
+{"neuron":6076,"pole":"low","cluster":4,"mode":"Period ending a recommendation or advice sentence","scene_windows":0,"windows":5,"scene":"Practical advice on food, fitness, and pet health"}
+{"neuron":8827,"pole":"high","cluster":0,"mode":"Possessive or preposition tokens in self-improvement tips","scene_windows":0,"windows":5,"scene":"Wellness and pest control tips from assistant"}
+{"neuron":8827,"pole":"high","cluster":1,"mode":"Sentence-ending period or space after encouraging advice","scene_windows":0,"windows":5,"scene":"Parenting, sports, and morning routine encouragement"}
+{"neuron":8827,"pole":"low","cluster":0,"mode":"'Thank' token opening a closing thank-you line","scene_windows":0,"windows":5,"scene":"Customer service sign-offs and feedback requests"}
+{"neuron":8827,"pole":"low","cluster":1,"mode":"Conversational thanks and closing pleasantries at end of exchange","scene_windows":0,"windows":5,"scene":"Friendly user-assistant wrap-up after helpful answers"}
+{"neuron":8827,"pole":"low","cluster":2,"mode":"Space or word inside Wikipedia-style citation-needed template dates","scene_windows":0,"windows":5,"scene":"Wikipedia article maintenance tags about citations"}
+{"neuron":8827,"pole":"low","cluster":3,"mode":"Essay-service pricing and customization wording mid-sentence","scene_windows":0,"windows":5,"scene":"Academic writing service advertisement describing discounts and pages"}
+{"neuron":8827,"pole":"low","cluster":4,"mode":"Apologetic 'sorry' from assistant admitting misunderstanding or error","scene_windows":0,"windows":5,"scene":"Assistant apologizing for mixups in factual chat"}
+{"neuron":8827,"pole":"low","cluster":5,"mode":"'Sorry' spoken by characters in emotional fiction dialogue","scene_windows":0,"windows":5,"scene":"Narrative fiction with characters apologizing emotionally"}
+{"neuron":8827,"pole":"low","cluster":6,"mode":"'the'/'my' after apology phrase 'sorry for' or 'apologize for'","scene_windows":0,"windows":5,"scene":"Assistant correcting its own factual errors"}
+{"neuron":8827,"pole":"low","cluster":7,"mode":"Preposition 'for' following apologize/sorry before stated error","scene_windows":0,"windows":5,"scene":"Assistant apologizing for a mistake in answer"}
+{"neuron":8827,"pole":"low","cluster":8,"mode":"Function words like 'a', 'to', 'and' in general prose","scene_windows":0,"windows":5,"scene":"Neutral essays, history and fiction narration"}
+{"neuron":8827,"pole":"low","cluster":9,"mode":"'Please' or 'you' following assistant refusal or safety statement","scene_windows":4,"windows":5,"scene":"Assistant declining requests and advising safe conduct"}

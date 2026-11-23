@@ -1,0 +1,77 @@
+{"neuron":2490,"pole":"high","cluster":0,"mode":"body temperature regulation via blood circulation and brain triggers","scene_windows":0,"windows":5,"scene":"biological processes and body functions"}
+{"neuron":2490,"pole":"high","cluster":1,"mode":"poverty defined by lack of resources and social exclusion","scene_windows":0,"windows":5,"scene":"socioeconomic conditions and definitions"}
+{"neuron":2490,"pole":"high","cluster":2,"mode":"dietary supplements and foods to improve sleep and mood","scene_windows":0,"windows":5,"scene":"health and wellness advice"}
+{"neuron":2490,"pole":"high","cluster":3,"mode":"specific measurements and technical details of objects","scene_windows":0,"windows":5,"scene":"factual descriptions and specifications"}
+{"neuron":2490,"pole":"high","cluster":4,"mode":"sleep stages characterized by brain wave activity","scene_windows":0,"windows":5,"scene":"biological processes and sleep"}
+{"neuron":2490,"pole":"low","cluster":0,"mode":"chemical compounds in personal care products affecting biological functions","scene_windows":0,"windows":5,"scene":"health and environmental concerns"}
+{"neuron":2490,"pole":"low","cluster":1,"mode":"legal rights to a fair trial by jury","scene_windows":0,"windows":5,"scene":"legal and constitutional rights"}
+{"neuron":2490,"pole":"low","cluster":2,"mode":"scientific journal publications and discoveries","scene_windows":0,"windows":5,"scene":"academic and scientific reporting"}
+{"neuron":2490,"pole":"low","cluster":3,"mode":"researchers and collaborators in scientific studies","scene_windows":0,"windows":5,"scene":"scientific research and collaboration"}
+{"neuron":2490,"pole":"low","cluster":4,"mode":"studies on climate change and environmental impact","scene_windows":0,"windows":5,"scene":"environmental science and research"}
+{"neuron":2490,"pole":"low","cluster":5,"mode":"bacterial infections and immune system responses","scene_windows":0,"windows":5,"scene":"medical and biological information"}
+{"neuron":2490,"pole":"low","cluster":6,"mode":"income comparisons and household financial status","scene_windows":0,"windows":5,"scene":"socioeconomic comparisons"}
+{"neuron":3438,"pole":"high","cluster":0,"mode":"finality and never returning after a significant event","scene_windows":0,"windows":5,"scene":"narrative of loss and finality"}
+{"neuron":3438,"pole":"high","cluster":1,"mode":"historical events and their devastating consequences","scene_windows":0,"windows":5,"scene":"historical accounts of destruction"}
+{"neuron":3438,"pole":"high","cluster":2,"mode":"physical harm and subsequent unconsciousness or waking","scene_windows":1,"windows":5,"scene":"violence and physical assault"}
+{"neuron":3438,"pole":"low","cluster":0,"mode":"inability to perform actions or shake feelings","scene_windows":0,"windows":5,"scene":"personal struggles and limitations"}
+{"neuron":3438,"pole":"low","cluster":1,"mode":"uncertainty and questioning reasons for actions","scene_windows":0,"windows":5,"scene":"internal monologue and doubt"}
+{"neuron":3887,"pole":"high","cluster":0,"mode":"automotive upgrades and performance enhancements","scene_windows":0,"windows":5,"scene":"vehicle specifications and modifications"}
+{"neuron":3887,"pole":"high","cluster":1,"mode":"adding colors and accent pieces for interior design","scene_windows":0,"windows":5,"scene":"interior design and decoration"}
+{"neuron":3887,"pole":"high","cluster":2,"mode":"using accent colors to enhance interior spaces","scene_windows":0,"windows":5,"scene":"interior design and color theory"}
+{"neuron":3887,"pole":"high","cluster":3,"mode":"coastal color schemes with blue, green, and neutral tones","scene_windows":0,"windows":5,"scene":"interior design and color palettes"}
+{"neuron":3887,"pole":"high","cluster":4,"mode":"automotive upgrades and exterior styling changes","scene_windows":0,"windows":5,"scene":"vehicle specifications and modifications"}
+{"neuron":3887,"pole":"high","cluster":5,"mode":"describing colors of objects and natural elements","scene_windows":0,"windows":5,"scene":"descriptive language and color"}
+{"neuron":3887,"pole":"high","cluster":6,"mode":"vehicle upgrades and expected changes","scene_windows":0,"windows":5,"scene":"automotive information and expectations"}
+{"neuron":3887,"pole":"high","cluster":7,"mode":"systems protecting children and their rights","scene_windows":0,"windows":5,"scene":"child welfare and legal protection"}
+{"neuron":3887,"pole":"high","cluster":8,"mode":"conversational prompts and user questions","scene_windows":0,"windows":5,"scene":"dialogue and user interaction"}
+{"neuron":3887,"pole":"low","cluster":0,"mode":"web design elements and background styling","scene_windows":0,"windows":5,"scene":"web development and design"}
+{"neuron":3887,"pole":"low","cluster":1,"mode":"creating engaging and effective website content","scene_windows":0,"windows":5,"scene":"web design and user experience"}
+{"neuron":3887,"pole":"low","cluster":2,"mode":"asking questions and receiving assistant responses","scene_windows":0,"windows":5,"scene":"question and answer format"}
+{"neuron":3887,"pole":"low","cluster":3,"mode":"offering thanks and concluding conversations","scene_windows":0,"windows":5,"scene":"polite conversation and closing"}
+{"neuron":3887,"pole":"low","cluster":4,"mode":"vehicle features and specifications","scene_windows":0,"windows":5,"scene":"automotive information and features"}
+{"neuron":3887,"pole":"low","cluster":5,"mode":"actions performed by characters behind objects","scene_windows":0,"windows":5,"scene":"narrative action and observation"}
+{"neuron":6945,"pole":"high","cluster":0,"mode":"exclamations and direct address in dialogue","scene_windows":0,"windows":5,"scene":"conversational dialogue and interjections"}
+{"neuron":6945,"pole":"high","cluster":1,"mode":"historical legacy, economic performance, and social issues","scene_windows":0,"windows":5,"scene":"historical and social commentary"}
+{"neuron":6945,"pole":"high","cluster":2,"mode":"providing assistance and reporting concerns","scene_windows":0,"windows":5,"scene":"helpful assistance and reporting"}
+{"neuron":6945,"pole":"low","cluster":0,"mode":"references to text articles and their content","scene_windows":0,"windows":5,"scene":"referencing textual information"}
+{"neuron":6945,"pole":"low","cluster":1,"mode":"characteristics of cities and their infrastructure","scene_windows":0,"windows":5,"scene":"urban descriptions and infrastructure"}
+{"neuron":6945,"pole":"low","cluster":2,"mode":"musical artists and their achievements","scene_windows":0,"windows":5,"scene":"music and artist achievements"}
+{"neuron":6945,"pole":"low","cluster":3,"mode":"outcomes of scientific research and technological use","scene_windows":0,"windows":5,"scene":"scientific research and application"}
+{"neuron":7365,"pole":"high","cluster":0,"mode":"slang phrases referring to the menstrual cycle and fertility","scene_windows":0,"windows":5,"scene":"biological and reproductive terms"}
+{"neuron":7365,"pole":"high","cluster":1,"mode":"plant growth and energy production using sunlight","scene_windows":0,"windows":5,"scene":"botany and photosynthesis"}
+{"neuron":7365,"pole":"high","cluster":2,"mode":"celebrations and activities involving community and tradition","scene_windows":0,"windows":5,"scene":"cultural celebrations and traditions"}
+{"neuron":7365,"pole":"high","cluster":3,"mode":"stock market performance on specific days of the week","scene_windows":0,"windows":5,"scene":"financial markets and analysis"}
+{"neuron":7365,"pole":"low","cluster":0,"mode":"environmental processes involving accumulation and decomposition","scene_windows":0,"windows":5,"scene":"environmental science and processes"}
+{"neuron":7365,"pole":"low","cluster":1,"mode":"poetic forms and their focus on nature and mood","scene_windows":0,"windows":5,"scene":"poetry and literary forms"}
+{"neuron":8254,"pole":"high","cluster":0,"mode":"biological pathways and therapeutic targets","scene_windows":0,"windows":5,"scene":"medical research and biology"}
+{"neuron":8254,"pole":"high","cluster":1,"mode":"listing vegetables and food items","scene_windows":0,"windows":5,"scene":"food and ingredients"}
+{"neuron":8254,"pole":"high","cluster":2,"mode":"describing physical characteristics and actions","scene_windows":0,"windows":5,"scene":"descriptive language and actions"}
+{"neuron":8254,"pole":"high","cluster":3,"mode":"medical screening and disease agents","scene_windows":0,"windows":5,"scene":"medical procedures and health"}
+{"neuron":8254,"pole":"high","cluster":4,"mode":"describing materials and historical figures","scene_windows":0,"windows":5,"scene":"descriptive language and history"}
+{"neuron":8254,"pole":"high","cluster":5,"mode":"describing natural landscapes and recreational activities","scene_windows":0,"windows":5,"scene":"nature and recreation"}
+{"neuron":8254,"pole":"high","cluster":6,"mode":"herbal remedies and yoga poses","scene_windows":0,"windows":5,"scene":"health and wellness practices"}
+{"neuron":8254,"pole":"low","cluster":0,"mode":"describing colors and food preparation methods","scene_windows":0,"windows":5,"scene":"food and cooking"}
+{"neuron":8254,"pole":"low","cluster":1,"mode":"professional development and science education organizations","scene_windows":0,"windows":5,"scene":"education and professional development"}
+{"neuron":8254,"pole":"low","cluster":2,"mode":"describing mechanical parts and outdoor activities","scene_windows":0,"windows":5,"scene":"mechanical descriptions and activities"}
+{"neuron":8254,"pole":"low","cluster":3,"mode":"organizational affiliations and economic indicators","scene_windows":0,"windows":5,"scene":"organizations and economics"}
+{"neuron":8254,"pole":"low","cluster":4,"mode":"historical figures and scientific research","scene_windows":0,"windows":5,"scene":"history and science"}
+{"neuron":8254,"pole":"low","cluster":5,"mode":"describing clothing and historical artifacts","scene_windows":0,"windows":5,"scene":"clothing and historical objects"}
+{"neuron":8590,"pole":"high","cluster":0,"mode":"past naivety, investigations, and weapons","scene_windows":0,"windows":5,"scene":"narrative of past events and discoveries"}
+{"neuron":8590,"pole":"high","cluster":1,"mode":"physical sensations and internal thoughts","scene_windows":0,"windows":5,"scene":"internal monologue and physical sensations"}
+{"neuron":8590,"pole":"high","cluster":2,"mode":"dialogue indicating absence or surprise","scene_windows":0,"windows":5,"scene":"conversational dialogue and discovery"}
+{"neuron":8590,"pole":"high","cluster":3,"mode":"realization and negative self-talk or thoughts","scene_windows":0,"windows":5,"scene":"internal realization and negative thoughts"}
+{"neuron":8590,"pole":"high","cluster":4,"mode":"offering opinions and personal assessments","scene_windows":0,"windows":5,"scene":"expressing opinions and assessments"}
+{"neuron":8590,"pole":"high","cluster":5,"mode":"conversational prompts and reporting events","scene_windows":0,"windows":5,"scene":"dialogue and reporting"}
+{"neuron":8590,"pole":"high","cluster":6,"mode":"speculation and personal relationships","scene_windows":0,"windows":5,"scene":"speculative dialogue and relationships"}
+{"neuron":8590,"pole":"high","cluster":7,"mode":"asking questions and expressing concerns","scene_windows":0,"windows":5,"scene":"conversational questions and concerns"}
+{"neuron":8590,"pole":"high","cluster":8,"mode":"discussing human ingenuity and historical eras","scene_windows":0,"windows":5,"scene":"humanity and historical context"}
+{"neuron":8590,"pole":"high","cluster":9,"mode":"offering advice and suggesting experimentation","scene_windows":0,"windows":5,"scene":"advice and suggestions"}
+{"neuron":8590,"pole":"low","cluster":0,"mode":"duration of time and sensory experiences","scene_windows":0,"windows":5,"scene":"perception of time and experience"}
+{"neuron":8590,"pole":"low","cluster":1,"mode":"asking for opinions and personal beliefs","scene_windows":0,"windows":5,"scene":"seeking opinions and beliefs"}
+{"neuron":8590,"pole":"low","cluster":2,"mode":"long-term struggles and emotional burdens","scene_windows":0,"windows":5,"scene":"emotional struggles and burdens"}
+{"neuron":8590,"pole":"low","cluster":3,"mode":"negation of movement or action","scene_windows":0,"windows":5,"scene":"inability to act or move"}
+{"neuron":8590,"pole":"low","cluster":4,"mode":"comparison of expected versus actual outcomes","scene_windows":0,"windows":5,"scene":"comparison of expectations"}
+{"neuron":8590,"pole":"low","cluster":5,"mode":"describing events and their unfolding","scene_windows":0,"windows":5,"scene":"narrative of events"}
+{"neuron":8590,"pole":"low","cluster":6,"mode":"actions performed for a group or cause","scene_windows":0,"windows":5,"scene":"actions for a collective"}
+{"neuron":8590,"pole":"low","cluster":7,"mode":"references to celestial bodies and their properties","scene_windows":0,"windows":5,"scene":"astronomy and celestial bodies"}
+{"neuron":8590,"pole":"low","cluster":8,"mode":"personal struggles with weight and self-acceptance","scene_windows":0,"windows":5,"scene":"personal struggles and self-acceptance"}

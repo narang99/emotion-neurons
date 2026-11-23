@@ -1,0 +1,59 @@
+{"neuron":540,"pole":"high","cluster":0,"mode":"Modal verbs (can, may) in hedged, qualified explanatory statements","scene_windows":0,"windows":5,"scene":"Neutral explanatory essays on science, religion, and society"}
+{"neuron":540,"pole":"high","cluster":1,"mode":"Auxiliary 'do/did' before n't in emotional narrative","scene_windows":0,"windows":5,"scene":"Emotional fiction about relationships and loss"}
+{"neuron":540,"pole":"low","cluster":0,"mode":"'you/are' in gratitude and positive-practice advice","scene_windows":0,"windows":5,"scene":"Wellness articles on gratitude practices"}
+{"neuron":540,"pole":"low","cluster":1,"mode":"Article 'a/an' before 'common/important' in assistant answers","scene_windows":0,"windows":5,"scene":"Everyday cooking and fitness Q&A"}
+{"neuron":540,"pole":"low","cluster":2,"mode":"Mid-sentence function words in descriptive expository prose","scene_windows":0,"windows":5,"scene":"History and descriptive encyclopedia-style text"}
+{"neuron":540,"pole":"low","cluster":3,"mode":"Praise openers like 'That's a great/good question'","scene_windows":0,"windows":5,"scene":"Assistant replying to user questions with praise"}
+{"neuron":3094,"pole":"high","cluster":0,"mode":"Prepositions and articles mid-phrase in neutral expository text","scene_windows":0,"windows":5,"scene":"Neutral essays on cloning, art, pools, poetry"}
+{"neuron":3094,"pole":"high","cluster":1,"mode":"'contact police/authorities' and 'or' in refusals of illegal requests","scene_windows":5,"windows":5,"scene":"Assistant refusing illegal or dangerous requests and urging authorities"}
+{"neuron":3094,"pole":"low","cluster":0,"mode":"Connectives and commas in lists of criminal activities","scene_windows":0,"windows":5,"scene":"Descriptive text about organized crime history"}
+{"neuron":3094,"pole":"low","cluster":1,"mode":"'find ways to get around' phrasing in paywall question","scene_windows":0,"windows":5,"scene":"User asking about bypassing website paywalls"}
+{"neuron":1469,"pole":"high","cluster":0,"mode":"First-person 'I' in apologies for over-long or off-topic replies","scene_windows":0,"windows":5,"scene":"Assistant apologizing and promising more concise answers"}
+{"neuron":1469,"pole":"high","cluster":1,"mode":"Nouns after 'prevent/deter/free from' like pollution, attacks, control","scene_windows":0,"windows":5,"scene":"Essays on prevention, security, and social themes"}
+{"neuron":1469,"pole":"high","cluster":2,"mode":"'This/These are/is' reacting to user's feedback on options","scene_windows":0,"windows":5,"scene":"User giving feedback on suggestions or tips"}
+{"neuron":1469,"pole":"low","cluster":0,"mode":"Whitespace tokens after quoted dialogue in fiction","scene_windows":0,"windows":5,"scene":"Fantasy and drama narrative with dialogue"}
+{"neuron":1469,"pole":"low","cluster":1,"mode":"'you' inside confrontational or accusatory dialogue","scene_windows":0,"windows":5,"scene":"Tense fictional confrontations and accusations"}
+{"neuron":1469,"pole":"low","cluster":2,"mode":"Mid-sentence function words like 'not', 'of', 'the' in prose","scene_windows":0,"windows":5,"scene":"Essay and fiction prose on varied topics"}
+{"neuron":1469,"pole":"low","cluster":3,"mode":"Sentence-final punctuation in informational explanatory text","scene_windows":0,"windows":5,"scene":"Explainers on money laundering, aging, cooking"}
+{"neuron":2760,"pole":"high","cluster":0,"mode":"Evaluative words like 'unacceptable' and 'rude and hurtful'","scene_windows":0,"windows":5,"scene":"Moral judgments and apologies about behavior"}
+{"neuron":2760,"pole":"high","cluster":1,"mode":"Apology colons and 'I am sorry' in assistant replies","scene_windows":1,"windows":5,"scene":"Assistant apologizing for broken links or offense"}
+{"neuron":2760,"pole":"low","cluster":0,"mode":"'No' or 'Fuck' interjections starting dialogue replies","scene_windows":0,"windows":5,"scene":"Fiction dialogue with defiant or casual exclamations"}
+{"neuron":2760,"pole":"low","cluster":1,"mode":"Profanity 'Fuck' in defiant speech","scene_windows":0,"windows":5,"scene":"Fictional characters cursing and defying others"}
+{"neuron":2760,"pole":"low","cluster":2,"mode":"Sentence-ending periods after dark statements about harm","scene_windows":2,"windows":5,"scene":"Dark fiction with suicide and abuse-themed threats"}
+{"neuron":2760,"pole":"low","cluster":3,"mode":"Opening quote marks starting dialogue lines in fiction","scene_windows":0,"windows":5,"scene":"Literary fiction dialogue between characters"}
+{"neuron":233,"pole":"high","cluster":0,"mode":"Verbs like 'identifying/understand' describing therapeutic processes","scene_windows":0,"windows":5,"scene":"Explanations of family and driving therapy"}
+{"neuron":233,"pole":"high","cluster":1,"mode":"Article 'a' after 'see/consult with' recommending professionals","scene_windows":0,"windows":5,"scene":"Health advice urging consultation with a doctor"}
+{"neuron":233,"pole":"high","cluster":2,"mode":"'the/of' mid-phrase in historical or essay prose","scene_windows":0,"windows":5,"scene":"Historical and cultural essays"}
+{"neuron":233,"pole":"high","cluster":3,"mode":"Affirmative openers 'Certainly/Sure/Yes' answering requests","scene_windows":0,"windows":5,"scene":"Assistant agreeing to help with user requests"}
+{"neuron":233,"pole":"low","cluster":0,"mode":"'sure' after 'make' or 'be' in advice","scene_windows":0,"windows":5,"scene":"Practical tips about cleaning and supplements"}
+{"neuron":233,"pole":"low","cluster":1,"mode":"Colon after 'Assistant' before a factual answer","scene_windows":0,"windows":5,"scene":"General factual Q&A turns"}
+{"neuron":233,"pole":"low","cluster":2,"mode":"'Assistant' role token starting a short answer","scene_windows":0,"windows":5,"scene":"Brief health and everyday Q&A"}
+{"neuron":233,"pole":"low","cluster":3,"mode":"'precautions' in safety advice phrasing","scene_windows":0,"windows":5,"scene":"Safety tips for travel, outdoor, and cooking"}
+{"neuron":233,"pole":"low","cluster":4,"mode":"'planning' as a key noun in advice","scene_windows":0,"windows":5,"scene":"Project, event, and business planning advice"}
+{"neuron":233,"pole":"low","cluster":5,"mode":"'preparation' as the key noun in advice","scene_windows":0,"windows":5,"scene":"Tips on camping and tent living"}
+{"neuron":233,"pole":"low","cluster":6,"mode":"'to' after 'important/essential' in cooking advice","scene_windows":0,"windows":5,"scene":"Cooking technique guidance"}
+{"neuron":233,"pole":"low","cluster":7,"mode":"'care' in phrases like 'taking care of'","scene_windows":0,"windows":5,"scene":"Plant, guitar, and clothing care advice"}
+{"neuron":233,"pole":"low","cluster":8,"mode":"'Pre' starting 'Preheat' in recipe steps","scene_windows":0,"windows":5,"scene":"Recipe instructions for cooking"}
+{"neuron":233,"pole":"low","cluster":9,"mode":"'pre' prefix and scattered modifiers in technical text","scene_windows":0,"windows":5,"scene":"Technical and environmental explanatory text"}
+{"neuron":233,"pole":"low","cluster":10,"mode":"Sentence-final periods closing hygiene and care advice","scene_windows":0,"windows":5,"scene":"Health and sanitation advice paragraphs"}
+{"neuron":4907,"pole":"high","cluster":0,"mode":"Whitespace tokens after quoted dialogue in fiction","scene_windows":0,"windows":5,"scene":"Narrative fiction with dialogue exchanges"}
+{"neuron":4907,"pole":"high","cluster":1,"mode":"'the' before network, computer, island, or industry nouns","scene_windows":0,"windows":5,"scene":"Technology, networking, and story descriptions"}
+{"neuron":4907,"pole":"high","cluster":2,"mode":"Colon after 'Assistant' starting an informational answer","scene_windows":0,"windows":5,"scene":"Q&A about art, myths, and music"}
+{"neuron":4907,"pole":"low","cluster":0,"mode":"Bracketed template placeholders like [Insert] and [Define]","scene_windows":0,"windows":5,"scene":"Content templates with bracketed placeholders"}
+{"neuron":4907,"pole":"low","cluster":1,"mode":"Verbs and nouns in narrative or informational descriptions","scene_windows":0,"windows":5,"scene":"Business and historical descriptive text"}
+{"neuron":4907,"pole":"low","cluster":2,"mode":"'Yes' starting agreement to user's 'So...' statements","scene_windows":0,"windows":5,"scene":"Casual Q&A confirming user claims"}
+{"neuron":10981,"pole":"high","cluster":0,"mode":"'advantages/benefits' nouns in evaluative comparisons","scene_windows":0,"windows":5,"scene":"Discussions weighing pros and cons"}
+{"neuron":10981,"pole":"high","cluster":1,"mode":"Function words like 'to/is/also' in discursive prose","scene_windows":0,"windows":5,"scene":"Essays on politics, philosophy, and history"}
+{"neuron":10981,"pole":"high","cluster":2,"mode":"Assistant turn start before a recommendation answer","scene_windows":0,"windows":5,"scene":"Recommendation and suggestion Q&A"}
+{"neuron":10981,"pole":"low","cluster":0,"mode":"'!' or ',' after acknowledgements like 'You're right'","scene_windows":0,"windows":5,"scene":"Assistant conceding points about home security and food"}
+{"neuron":10981,"pole":"low","cluster":1,"mode":"Commas after qualified risk or caveat clauses","scene_windows":0,"windows":5,"scene":"Explanations of risks in investment and pesticides"}
+{"neuron":10981,"pole":"low","cluster":2,"mode":"Colon after 'Assistant' answering questions about crime or tricks","scene_windows":3,"windows":5,"scene":"User asking how to catfish, steal, or take money"}
+{"neuron":10981,"pole":"low","cluster":3,"mode":"Contrastive 'but/However' connecting clauses","scene_windows":0,"windows":5,"scene":"Balanced comparisons and caveats in advice"}
+{"neuron":10981,"pole":"low","cluster":4,"mode":"'situation/the' in advice about decisions and risks","scene_windows":0,"windows":5,"scene":"Advice on business and social decisions"}
+{"neuron":10981,"pole":"low","cluster":5,"mode":"Exclamation, question, or period ending short dialogue lines","scene_windows":0,"windows":5,"scene":"Fictional dialogue with short reactive lines"}
+{"neuron":4894,"pole":"high","cluster":0,"mode":"'pan/skillet' naming the cookware in recipe steps","scene_windows":0,"windows":5,"scene":"Stovetop recipe instructions"}
+{"neuron":4894,"pole":"high","cluster":1,"mode":"'Mix/stir' verbs in baking and cooking steps","scene_windows":0,"windows":5,"scene":"Recipe mixing instructions"}
+{"neuron":4894,"pole":"high","cluster":2,"mode":"Sentence-final periods in factual history and policy text","scene_windows":0,"windows":5,"scene":"Historical and factual expository paragraphs"}
+{"neuron":4894,"pole":"high","cluster":3,"mode":"'forest/woods' as setting nouns in stories","scene_windows":0,"windows":5,"scene":"Fantasy and narrative scenes set in forests"}
+{"neuron":4894,"pole":"low","cluster":0,"mode":"'as/including' introducing lists of examples","scene_windows":0,"windows":5,"scene":"Descriptive overviews listing many items"}
+{"neuron":4894,"pole":"low","cluster":1,"mode":"Adjectives 'regular/standard/conventional' qualifying types","scene_windows":0,"windows":5,"scene":"Product type and category descriptions"}

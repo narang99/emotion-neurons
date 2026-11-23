@@ -1,0 +1,76 @@
+{"neuron":9597,"pole":"high","cluster":0,"mode":"expressing surprise or realization about a topic","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9597,"pole":"high","cluster":1,"mode":"discussing criminal organizations and their activities","scene_windows":3,"windows":5,"scene":"crime, danger"}
+{"neuron":9597,"pole":"high","cluster":2,"mode":"asking for information about technology, resources, or management","scene_windows":1,"windows":5,"scene":"neutral, informative"}
+{"neuron":9597,"pole":"low","cluster":0,"mode":"referencing nutritional studies and scientific journals","scene_windows":0,"windows":5,"scene":"neutral, academic"}
+{"neuron":9597,"pole":"low","cluster":1,"mode":"citing medical and scientific research publications","scene_windows":0,"windows":5,"scene":"neutral, academic"}
+{"neuron":9597,"pole":"low","cluster":2,"mode":"discussing temperature and measurements in practical contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9597,"pole":"low","cluster":3,"mode":"referencing geographical data and measurements","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9597,"pole":"low","cluster":4,"mode":"mentioning international organizations and their initiatives","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9597,"pole":"low","cluster":5,"mode":"discussing percentages and statistical data","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9597,"pole":"low","cluster":6,"mode":"expressing uncertainty or questioning a condition","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9597,"pole":"low","cluster":7,"mode":"referencing fractions and proportions of a group","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4108,"pole":"high","cluster":0,"mode":"asking for practical advice or instructions","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4108,"pole":"high","cluster":1,"mode":"asking clarifying questions about various topics","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4108,"pole":"high","cluster":2,"mode":"emphasizing the importance of checking or ensuring something","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4108,"pole":"high","cluster":3,"mode":"expressing affirmation or agreement enthusiastically","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":4108,"pole":"high","cluster":4,"mode":"offering further assistance or expressing willingness to help","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":4108,"pole":"high","cluster":5,"mode":"confirming possibility or stating a fact","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":4108,"pole":"high","cluster":6,"mode":"referring to something related or belonging to a group","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4108,"pole":"high","cluster":7,"mode":"expressing personal availability or willingness to assist","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":4108,"pole":"low","cluster":0,"mode":"emphasizing clarity and ease of understanding","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4108,"pole":"low","cluster":1,"mode":"referring to specific entities or individuals","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4108,"pole":"low","cluster":2,"mode":"using whispered speech in a narrative context","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":857,"pole":"high","cluster":0,"mode":"introducing a new point or situation","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":857,"pole":"high","cluster":1,"mode":"expressing disbelief or emphasizing a point","scene_windows":0,"windows":5,"scene":"narrative, conversational"}
+{"neuron":857,"pole":"high","cluster":2,"mode":"referring to environmental conditions and scientific bodies","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":3,"mode":"introducing a clause of comparison or reason","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":857,"pole":"high","cluster":4,"mode":"making comparisons or drawing parallels","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":857,"pole":"high","cluster":5,"mode":"making comparisons of size, quality, or intelligence","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":6,"mode":"introducing a topic or asking a question","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":857,"pole":"high","cluster":7,"mode":"referring to symbolic or abstract concepts","scene_windows":0,"windows":5,"scene":"neutral, philosophical"}
+{"neuron":857,"pole":"high","cluster":8,"mode":"referring to personal connections or trust","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":857,"pole":"high","cluster":9,"mode":"referring to constituents or target audiences","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":10,"mode":"referring to historical texts or authors","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":11,"mode":"referring to shared experiences or states","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":857,"pole":"high","cluster":12,"mode":"referring to carbonation in beverages","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":13,"mode":"referring to carbon-related initiatives and foundations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":14,"mode":"referring to reducing carbon footprint and sustainable energy","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":15,"mode":"referring to carbon dioxide and its role in atmospheres","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":16,"mode":"referring to carbon sequestration and cycling","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"high","cluster":17,"mode":"referring to carbon dioxide storage and capture","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"low","cluster":0,"mode":"introducing a clause of consequence or condition","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":857,"pole":"low","cluster":1,"mode":"introducing a clause of comparison or addition","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"low","cluster":2,"mode":"asking for instructions or guidance","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":857,"pole":"low","cluster":3,"mode":"using quoted speech or dialogue markers","scene_windows":0,"windows":5,"scene":"narrative, conversational"}
+{"neuron":857,"pole":"low","cluster":4,"mode":"referring to a rate or frequency per unit","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"low","cluster":5,"mode":"listing items or steps with numbers","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"low","cluster":6,"mode":"referring to participation or location within something","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":857,"pole":"low","cluster":7,"mode":"asking questions starting with 'why'","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":10434,"pole":"high","cluster":0,"mode":"referring to body parts or personal possession","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10434,"pole":"high","cluster":1,"mode":"describing actions of putting something somewhere","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10434,"pole":"low","cluster":0,"mode":"referring to general locations or items","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":10434,"pole":"low","cluster":1,"mode":"describing actions of taking something out","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":8821,"pole":"high","cluster":0,"mode":"referring to technical terms and planning tools","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8821,"pole":"high","cluster":1,"mode":"asking clarifying questions about various topics","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8821,"pole":"low","cluster":0,"mode":"referring to prepositions indicating location or cause","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8821,"pole":"low","cluster":1,"mode":"referring to states of being or time","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8821,"pole":"low","cluster":2,"mode":"referring to specific locations or entities","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8821,"pole":"low","cluster":3,"mode":"referring to concluding punctuation or conjunctions","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7504,"pole":"high","cluster":0,"mode":"using quotation marks for dialogue or emphasis","scene_windows":0,"windows":5,"scene":"narrative, conversational"}
+{"neuron":7504,"pole":"high","cluster":1,"mode":"using pauses or ellipses in dialogue","scene_windows":0,"windows":5,"scene":"narrative, conversational"}
+{"neuron":7504,"pole":"high","cluster":2,"mode":"using quotation marks for dialogue or exclamations","scene_windows":0,"windows":5,"scene":"narrative, conversational"}
+{"neuron":7504,"pole":"high","cluster":3,"mode":"asking for additional ideas or recommendations","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7504,"pole":"high","cluster":4,"mode":"referring to articles, processes, or entities","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":7504,"pole":"high","cluster":5,"mode":"referring to cultural practices or historical events","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":7504,"pole":"low","cluster":0,"mode":"offering advice or suggestions","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7504,"pole":"low","cluster":1,"mode":"suggesting actions or adjustments","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":7504,"pole":"low","cluster":2,"mode":"referring to specific entities or locations","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":7504,"pole":"low","cluster":3,"mode":"describing sensory experiences or states","scene_windows":0,"windows":5,"scene":"narrative, neutral"}
+{"neuron":8324,"pole":"high","cluster":0,"mode":"asking for examples or recommendations","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8324,"pole":"high","cluster":1,"mode":"asking for assistance or information","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8324,"pole":"high","cluster":2,"mode":"expressing lack of necessity or requirement","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8324,"pole":"high","cluster":3,"mode":"expressing negation or lack of something","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8324,"pole":"high","cluster":4,"mode":"expressing negation or lack of something","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8324,"pole":"low","cluster":0,"mode":"referring to pronouns and prepositions","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8324,"pole":"low","cluster":1,"mode":"referring to conditional statements in code","scene_windows":0,"windows":5,"scene":"technical, neutral"}
+{"neuron":8324,"pole":"low","cluster":2,"mode":"referring to conditional statements in code","scene_windows":0,"windows":5,"scene":"technical, neutral"}

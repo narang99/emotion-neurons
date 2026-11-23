@@ -1,0 +1,76 @@
+{"neuron":6874,"pole":"high","cluster":0,"mode":"disruptions, power outages, severe, widespread, important services","scene_windows":0,"windows":5,"scene":"natural disasters and their effects"}
+{"neuron":6874,"pole":"high","cluster":1,"mode":"harmful to pregnant women, young children, elderly, healthy adults","scene_windows":0,"windows":5,"scene":"health risks from contaminants"}
+{"neuron":6874,"pole":"low","cluster":0,"mode":"sir, do not, what the fuck, well, naw","scene_windows":0,"windows":5,"scene":"tense or dangerous situations"}
+{"neuron":6874,"pole":"low","cluster":1,"mode":"find his, find my, find their, see her, found my","scene_windows":0,"windows":5,"scene":"lost and trying to escape"}
+{"neuron":6874,"pole":"low","cluster":2,"mode":"assistant, yes, thanks, vape juice, sushi grade","scene_windows":0,"windows":5,"scene":"neutral assistant responses"}
+{"neuron":5561,"pole":"high","cluster":0,"mode":"i think, you are looking, best way, one thing, aggravating situations","scene_windows":0,"windows":5,"scene":"offering advice or suggestions"}
+{"neuron":5561,"pole":"high","cluster":1,"mode":"not always, not unlike, not a good, not make, not able","scene_windows":0,"windows":5,"scene":"negation and limitations"}
+{"neuron":5561,"pole":"high","cluster":2,"mode":"just needed, just can't, just wanted, just wanted, just have","scene_windows":0,"windows":5,"scene":"explaining motivations or reasons"}
+{"neuron":5561,"pole":"low","cluster":0,"mode":"tried to pay, tried to block, tried to cover, tried to ignore, try to speak","scene_windows":0,"windows":5,"scene":"struggling against overwhelming forces"}
+{"neuron":5561,"pole":"low","cluster":1,"mode":"do n't know, did n't have, did n't doubt, did n't look, do feel","scene_windows":0,"windows":5,"scene":"uncertainty and lack of knowledge"}
+{"neuron":5561,"pole":"low","cluster":2,"mode":"are other, is a history, are many, there is, is a strong","scene_windows":0,"windows":5,"scene":"describing existence or presence"}
+{"neuron":5561,"pole":"low","cluster":3,"mode":"s. In, was a dishonest, was obvious, and anger, are uniquely","scene_windows":0,"windows":5,"scene":"historical or factual statements"}
+{"neuron":5561,"pole":"low","cluster":4,"mode":"ignore it, ignores him, ignored it, ignores me, ignore it","scene_windows":0,"windows":5,"scene":"deliberately disregarding something"}
+{"neuron":7213,"pole":"high","cluster":0,"mode":"there are objects, there are other, there are many, there are hundreds, there is often","scene_windows":0,"windows":5,"scene":"listing existing elements or features"}
+{"neuron":7213,"pole":"high","cluster":1,"mode":"and mixing, the planet, you, her own, be made","scene_windows":0,"windows":5,"scene":"describing aspects of a situation"}
+{"neuron":7213,"pole":"high","cluster":2,"mode":"rest of the, rest once, rest","scene_windows":0,"windows":5,"scene":"referring to remaining parts"}
+{"neuron":7213,"pole":"low","cluster":0,"mode":"user: It's impressive, user: Can you provide, user: Thanks for, user: Can you suggest, user: It's fascinating","scene_windows":0,"windows":5,"scene":"user prompts for more information"}
+{"neuron":7213,"pole":"low","cluster":1,"mode":"Human: What else, Human: Are hurricanes, Human: This is, Human: I don't, Human: But what","scene_windows":0,"windows":5,"scene":"user questions and assistant responses"}
+{"neuron":7213,"pole":"low","cluster":2,"mode":"include safety, include a climax, provides tips, should be, and feature","scene_windows":0,"windows":5,"scene":"recipe or tutorial instructions"}
+{"neuron":7213,"pole":"low","cluster":3,"mode":"I'm not, She tried, She didn't, I took, I sit","scene_windows":0,"windows":5,"scene":"first-person narrative statements"}
+{"neuron":7213,"pole":"low","cluster":4,"mode":"the interface, to believe, to find, to reduce, to","scene_windows":0,"windows":5,"scene":"explaining technical or procedural steps"}
+{"neuron":7213,"pole":"low","cluster":5,"mode":"and began, heavily, and his grin, as he began, ever the outgoing","scene_windows":0,"windows":5,"scene":"describing actions and emotions"}
+{"neuron":3005,"pole":"high","cluster":0,"mode":"the 4609, is a gliding, was looking, it can be, A variety","scene_windows":0,"windows":5,"scene":"describing characteristics or processes"}
+{"neuron":3005,"pole":"high","cluster":1,"mode":"Also, Additionally, Secondly","scene_windows":0,"windows":5,"scene":"adding supplementary information"}
+{"neuron":3005,"pole":"low","cluster":0,"mode":"lifestyle, including improved, around the world, from sandwiches, military service","scene_windows":0,"windows":5,"scene":"describing benefits or characteristics"}
+{"neuron":3005,"pole":"low","cluster":1,"mode":"tricky question, different ways, greater reality, husband is, emotional affair","scene_windows":0,"windows":5,"scene":"asking and answering questions"}
+{"neuron":7883,"pole":"high","cluster":0,"mode":"always best, always important, always good, always a good, always up","scene_windows":0,"windows":5,"scene":"emphasizing good practices"}
+{"neuron":7883,"pole":"high","cluster":1,"mode":"also very, also a good, also important, also a multifaceted, also be","scene_windows":0,"windows":5,"scene":"adding further points or considerations"}
+{"neuron":7883,"pole":"high","cluster":2,"mode":"very important, very important, very important, very important, very important","scene_windows":0,"windows":5,"scene":"stressing importance of actions"}
+{"neuron":7883,"pole":"high","cluster":3,"mode":"is important, is best, is not impossible, important to understand, is important","scene_windows":0,"windows":5,"scene":"stating importance or necessity"}
+{"neuron":7883,"pole":"high","cluster":4,"mode":"of different, many potential, you might, of risk, lot of","scene_windows":0,"windows":5,"scene":"listing options or quantities"}
+{"neuron":7883,"pole":"high","cluster":5,"mode":"sounds like, sounds rather, sounds like, sounds great, sounds like","scene_windows":0,"windows":5,"scene":"describing perceptions or opinions"}
+{"neuron":7883,"pole":"low","cluster":0,"mode":"combination of, combination of, combination of, combination of, combination of","scene_windows":0,"windows":5,"scene":"describing methods using multiple elements"}
+{"neuron":7883,"pole":"low","cluster":1,"mode":"are a number, are several, are several, are a few, are a few","scene_windows":0,"windows":5,"scene":"listing available options"}
+{"neuron":7883,"pole":"low","cluster":2,"mode":"variety of, variety of, variety of, variety of, variety of","scene_windows":0,"windows":5,"scene":"describing diverse methods or approaches"}
+{"neuron":7883,"pole":"low","cluster":3,"mode":"factors, factors like, factors such, factors, factors","scene_windows":0,"windows":5,"scene":"referring to influencing elements"}
+{"neuron":7883,"pole":"low","cluster":4,"mode":"used when, only be, only for, only that, only","scene_windows":0,"windows":5,"scene":"restricting or limiting actions"}
+{"neuron":7883,"pole":"low","cluster":5,"mode":"Assistant, Assistant, Assistant, Assistant, Assistant","scene_windows":0,"windows":5,"scene":"assistant providing neutral responses"}
+{"neuron":7883,"pole":"low","cluster":6,"mode":"manner as, as may, principles and, law which, principles","scene_windows":0,"windows":5,"scene":"legal or procedural phrasing"}
+{"neuron":7883,"pole":"low","cluster":7,"mode":"depending on, depending on, depending on, depending on, depending on","scene_windows":0,"windows":5,"scene":"conditional or variable outcomes"}
+{"neuron":7883,"pole":"low","cluster":8,"mode":"procedures, procedures, procedures, procedures, procedures","scene_windows":0,"windows":5,"scene":"describing established methods"}
+{"neuron":7883,"pole":"low","cluster":9,"mode":"of their, of their, of their, of their, of their","scene_windows":0,"windows":5,"scene":"possessive or relational statements"}
+{"neuron":9685,"pole":"high","cluster":0,"mode":"i really, i am, i'm sorry, i am, i like","scene_windows":0,"windows":5,"scene":"assistant expressing empathy or agreement"}
+{"neuron":9685,"pole":"high","cluster":1,"mode":"assistant: that’s right, assistant: there are, assistant: yes, it’s, assistant: that's right, assistant: social media","scene_windows":0,"windows":5,"scene":"assistant confirming or elaborating"}
+{"neuron":9685,"pole":"high","cluster":2,"mode":"`` i knew, `` is that, `` a bore, `` ah, now, `` i mean","scene_windows":0,"windows":5,"scene":"dialogue with quoted speech"}
+{"neuron":9685,"pole":"high","cluster":3,"mode":"human: i meant, human: please put, user: wow, thanks, human: who are, user: hey, thanks","scene_windows":0,"windows":5,"scene":"user prompts and assistant acknowledgments"}
+{"neuron":9685,"pole":"high","cluster":4,"mode":"assistant: you can, assistant: it’s not, assistant: i love, assistant: i know, assistant: functionalism","scene_windows":0,"windows":5,"scene":"assistant providing information or suggestions"}
+{"neuron":9685,"pole":"high","cluster":5,"mode":"corp. are you, corp. is this, monks can, fasting can, police don't","scene_windows":0,"windows":5,"scene":"user asking about specific topics"}
+{"neuron":9685,"pole":"high","cluster":6,"mode":"hide it, yellow dwarf, Aisir, behind her, turned off","scene_windows":0,"windows":5,"scene":"describing mysterious or suspenseful events"}
+{"neuron":9685,"pole":"high","cluster":7,"mode":"Timothy? you don't, about it. you should, nest and formed, I was here?, angels in the","scene_windows":0,"windows":5,"scene":"dialogue with pauses or interjections"}
+{"neuron":9685,"pole":"low","cluster":0,"mode":"oh, i just, oh, yes, oh, i say, oh, round, oh yeah","scene_windows":0,"windows":5,"scene":"dialogue expressing mild surprise or acknowledgment"}
+{"neuron":9685,"pole":"low","cluster":1,"mode":"yeah, i said, yeah...., yeah, and i, yeah, i hear","scene_windows":0,"windows":5,"scene":"dialogue expressing agreement or understanding"}
+{"neuron":9685,"pole":"low","cluster":2,"mode":"nodded, and returned, nodded, his heart, nodded in, nods, and squeezes, nodded in, nods","scene_windows":0,"windows":5,"scene":"dialogue indicating agreement or understanding"}
+{"neuron":9685,"pole":"low","cluster":3,"mode":"`` but grams, `` look, it's, what?, `` we did?, `` what","scene_windows":0,"windows":5,"scene":"dialogue with questioning or confusion"}
+{"neuron":9685,"pole":"low","cluster":4,"mode":"back to the, back to normal, back to reality, back down, back to her","scene_windows":0,"windows":5,"scene":"returning to a previous state or focus"}
+{"neuron":9685,"pole":"low","cluster":5,"mode":"heat to low, heat to medium-low, heat to low, heat and add, lower the heat","scene_windows":0,"windows":5,"scene":"cooking instructions involving temperature control"}
+{"neuron":9685,"pole":"low","cluster":6,"mode":"aiming, hit him, coalition schools, don't want, don't want","scene_windows":0,"windows":5,"scene":"dialogue with commands or assertions"}
+{"neuron":9685,"pole":"low","cluster":7,"mode":"course, have a, of course, of course, of course","scene_windows":0,"windows":5,"scene":"acknowledging a common or expected situation"}
+{"neuron":9685,"pole":"low","cluster":8,"mode":"me. they, furious. she's, madman. novel, ship. what's, reacting. well","scene_windows":0,"windows":5,"scene":"dialogue expressing personal feelings or states"}
+{"neuron":9685,"pole":"low","cluster":9,"mode":"longer. try, longer. re-occ, longer. try, longer, can take","scene_windows":0,"windows":5,"scene":"describing duration or time"}
+{"neuron":9685,"pole":"low","cluster":10,"mode":"this additional, prevent this, for this, reinforced this, This may","scene_windows":0,"windows":5,"scene":"referring to a specific action or item"}
+{"neuron":9268,"pole":"high","cluster":0,"mode":"difficult to, difficult to, difficult to, difficult to, difficult to","scene_windows":0,"windows":5,"scene":"stating a challenge or complexity"}
+{"neuron":9268,"pole":"high","cluster":1,"mode":"is important, an ongoing, are necessarily, is very valuable, important to consider","scene_windows":0,"windows":5,"scene":"emphasizing the need for consideration"}
+{"neuron":9268,"pole":"high","cluster":2,"mode":"best course, best laws, best advice, best way","scene_windows":0,"windows":5,"scene":"recommending optimal actions"}
+{"neuron":9268,"pole":"low","cluster":0,"mode":"change it, my girl, they don't, destroyed your, the bull","scene_windows":0,"windows":5,"scene":"dialogue with direct statements or questions"}
+{"neuron":9268,"pole":"low","cluster":1,"mode":"don't know, don't know, don't know, don't know, don't want","scene_windows":0,"windows":5,"scene":"expressing uncertainty or lack of knowledge"}
+{"neuron":9268,"pole":"low","cluster":2,"mode":"care. let, care. he, care. he, care about, care what","scene_windows":0,"windows":5,"scene":"expressing indifference or disregard"}
+{"neuron":9268,"pole":"low","cluster":3,"mode":"assistant: footnotes, assistant: torrenting, assistant: there are, assistant: living, assistant: the best","scene_windows":0,"windows":5,"scene":"assistant providing definitions or advice"}
+{"neuron":9268,"pole":"low","cluster":4,"mode":"and create, must react, the philadelphia, seeking more, and attempts","scene_windows":0,"windows":5,"scene":"describing processes or actions"}
+{"neuron":9268,"pole":"low","cluster":5,"mode":"asking for advice on personal relationships and family matters","scene_windows":0,"windows":5,"scene":"asking for advice"}
+{"neuron":9250,"pole":"high","cluster":0,"mode":"can lead, access and, risks for, living standards, to the","scene_windows":0,"windows":5,"scene":"describing consequences or contributions"}
+{"neuron":9250,"pole":"high","cluster":1,"mode":"reduce the, reduce the, reduce the, the likelihood, the likelihood","scene_windows":0,"windows":5,"scene":"explaining a reduction or prevention"}
+{"neuron":9250,"pole":"low","cluster":0,"mode":"to generate, To make, To mitigate, To","scene_windows":0,"windows":5,"scene":"indicating purpose or instruction"}
+{"neuron":9250,"pole":"low","cluster":1,"mode":"helps, helps, is helpful, helpful to, this formatting","scene_windows":0,"windows":5,"scene":"offering assistance or confirmation"}
+{"neuron":9250,"pole":"low","cluster":2,"mode":"in order, in the, situations, to create, to write","scene_windows":0,"windows":5,"scene":"indicating purpose or context"}
+{"neuron":9250,"pole":"low","cluster":3,"mode":"and enhance, and maximize, and can actually, and withstand, and feel","scene_windows":0,"windows":5,"scene":"listing concurrent actions or benefits"}
