@@ -1,55 +1,15 @@
 {% extends "base.html" %}
-{% from "macros.html" import heatmap, pct, token_view %}
+{% from "macros.html" import token_view %}
 {% block body %}
-<p class="meta">Run <code>{{ report.run_id }}</code>. {{ report.emotions | length }} emotions, sites {{ report.sites | join(", ") }}.</p>
-<p class="note">A vector is an emotion's mean activation minus the mean over all {{ report.emotions | length }} emotions ({{ report.average }}).
-"Denoised" vectors have the top principal components of neutral stories projected out.</p>
-
-<h2>Nearest-vector accuracy</h2>
-<p>Each story goes to the emotion whose vector is closest in cosine. A train story is left out of its own emotion's mean. Chance is {{ pct(report.chance) }}.</p>
 <table class="data">
-  <tr><th>site</th><th>held out, denoised</th><th>held out, raw</th><th>train (left out), denoised</th><th>train (left out), raw</th><th>neutral PCs removed</th><th>their variance</th></tr>
-  {% for a in report.accuracy %}
-  <tr><td><code>{{ a.site }}</code></td><td>{{ pct(a.heldout_denoised) }}</td><td>{{ pct(a.heldout_raw) }}</td><td>{{ pct(a.train_denoised) }}</td><td>{{ pct(a.train_raw) }}</td><td>{{ a.pcs_removed }}</td><td>{{ pct(a.variance_removed) }}</td></tr>
+  <tr><th></th>{% for e in report.emotions %}<th>{{ e }}</th>{% endfor %}</tr>
+  {% for row in report.quantiles %}
+  <tr><th>{{ row.name }}</th>{% for v in row.values %}<td>{{ "%.3f" | format(v) }}</td>{% endfor %}</tr>
   {% endfor %}
 </table>
 
-<h2>Split-half stability</h2>
-<p>Cosine between each emotion's vector from topics 0-9 and from topics 10-19, train stories only.</p>
-<table class="data">
-  <tr><th>emotion</th>{% for s in report.sites %}<th><code>{{ s }}</code></th>{% endfor %}</tr>
-  {% for row in report.split_half %}
-  <tr><td>{{ row.emotion }}</td>{% for c in row.cosines %}<td>{{ "%.3f" | format(c) }}</td>{% endfor %}</tr>
-  {% endfor %}
-</table>
-
-{% for m in report.maps %}
-<h2>Site <code>{{ m.site }}</code></h2>
-<div class="maps">
-  {{ heatmap(m.confusion) }}
-  {{ heatmap(m.cosine_denoised) }}
-  {{ heatmap(m.cosine_raw) }}
-</div>
+{% for s in report.sections %}
+<h2>{{ s.emotion }}</h2>
+{% for v in s.views %}{{ token_view(v) }}{% endfor %}
 {% endfor %}
-
-{% if report.token_views %}
-<h2>Token views</h2>
-<p>Held-out stories, {{ report.token_views | length }} shown. Each token's raw <code>{{ report.token_site }}</code> activation is compared in cosine with each denoised vector,
-as in the emotions paper: nothing is subtracted from the activation.
-Each view opens on the story's own emotion; pick another to colour the text by it, or hover a token for all 12 values.
-The vectors average tokens 50 and later, so early tokens are outside what built them.</p>
-{% for v in report.token_views %}{{ token_view(v) }}{% endfor %}
-{% endif %}
-
-<h2>Stories mislabelled at every site</h2>
-<p>{{ report.flagged | length }} stories go to the wrong emotion at all sites (denoised vectors).
-Margin: how much closer the wrong vector is than the story's own, averaged over sites.</p>
-<details><summary>Show all {{ report.flagged | length }}</summary>
-<table class="data">
-  <tr><th>story</th><th>label</th><th>held out</th><th>margin</th>{% for s in report.sites %}<th><code>{{ s }}</code></th>{% endfor %}</tr>
-  {% for f in report.flagged %}
-  <tr><td><code>{{ f.id }}</code></td><td>{{ f.label }}</td><td>{{ "yes" if f.heldout else "" }}</td><td>{{ "%.3f" | format(f.margin) }}</td>{% for p in f.predicted %}<td>{{ p }}</td>{% endfor %}</tr>
-  {% endfor %}
-</table>
-</details>
 {% endblock %}

@@ -1,126 +1,66 @@
-"""Report data for one run of emotion vectors (`extraction.emotion_vectors`): read only from its saved results.
+"""Report data for one run of emotion vectors: read only from its saved token scores (`token_scores`).
 
-- Reads results/<run_id>/vectors_meta.json and checks.json. No model and no story sums are needed.
-- Accuracy: nearest-vector labels of each story, 12-way, train stories left out of their own emotion's mean.
-- Confusion: all emotional stories (train left out, and held out), denoised vectors.
-- Token views: from results/<run_id>/token_scores.*, if scripts/token_scores.py has run.
+- Quantiles: per vector, p50, p75, p90 and max of the token cosines of every held-out story, from `split_token` on.
+- Sections: per vector, the top-k held-out stories by their mean token cosine from `split_token` on.
 """
 
-import json
-from pathlib import Path
-
+import torch
 from pydantic import BaseModel
 
 from ..config import ExtractionRunConfig
-from ..emotions import LABELS
-from ..token_scores import load_token_scores
-from .heatmap import Heatmap, heatmap
-from .token_views import TokenView, story_views
+from ..token_scores import Scores, TokenScores, load_token_scores
+from .token_views import TokenView, scores_of, vector_view
+
+QUANTILES = {"p50": 0.5, "p75": 0.75, "p90": 0.9, "max": 1.0}
 
 
-class SiteAccuracy(BaseModel):
-    site: str
-    train_raw: float
-    train_denoised: float
-    heldout_raw: float
-    heldout_denoised: float
-    pcs_removed: int
-    variance_removed: float
+class QuantileRow(BaseModel):
+    name: str
+    values: list[float]
 
 
-class SplitHalfRow(BaseModel):
+class VectorSection(BaseModel):
     emotion: str
-    cosines: list[float]
-
-
-class FlaggedStory(BaseModel):
-    id: str
-    label: str
-    heldout: bool
-    margin: float
-    predicted: list[str]
-
-
-class SiteMaps(BaseModel):
-    site: str
-    confusion: Heatmap
-    cosine_raw: Heatmap
-    cosine_denoised: Heatmap
+    views: list[TokenView]
 
 
 class EmotionVectorsReport(BaseModel):
     title: str
-    model: str
-    layer: int
-    run_id: str
-    average: str
     emotions: list[str]
-    sites: list[str]
-    accuracy: list[SiteAccuracy]
-    chance: float
-    maps: list[SiteMaps]
-    split_half: list[SplitHalfRow]
-    flagged: list[FlaggedStory]
-    token_site: str
-    token_views: list[TokenView]
+    quantiles: list[QuantileRow]
+    sections: list[VectorSection]
 
 
-def site_accuracy(site: str, checks: dict, denoise: dict) -> SiteAccuracy:
-    c = checks["sites"][site]
-    return SiteAccuracy(
-        site=site, train_raw=c["acc_train_loo_raw"], train_denoised=c["acc_train_loo"],
-        heldout_raw=c["acc_heldout_raw"], heldout_denoised=c["acc_heldout"],
-        pcs_removed=denoise[site]["k"], variance_removed=denoise[site]["variance_explained"],
-    )  # fmt: skip
+def late_tokens(scores: TokenScores, values: Scores, split_token: int) -> Scores:
+    return torch.cat([scores_of(t, values)[split_token:] for t in scores.texts])
 
 
-def off_diagonal(matrix: list[list[float]]) -> list[list[float | None]]:
-    return [[None if i == j else v for j, v in enumerate(row)] for i, row in enumerate(matrix)]
+def quantile_rows(late: Scores) -> list[QuantileRow]:
+    return [QuantileRow(name=name, values=late.quantile(q, dim=0).tolist()) for name, q in QUANTILES.items()]
 
 
-def site_maps(site: str, checks: dict, emotions: list[str]) -> SiteMaps:
-    c = checks["sites"][site]
-    cosine = "Cosine between emotion vectors ({}). The diagonal (1) is left blank, so it does not set the scale."
-    return SiteMaps(
-        site=site,
-        confusion=heatmap(
-            f"{site}: confusion", c["confusion_all"], emotions, emotions, scale="sequential", fmt="d",
-            caption="Stories per true emotion (row) and nearest vector (column). Each row holds 120 stories.",
-            row_title="true", col_title="nearest vector",
-        ),
-        cosine_raw=heatmap(f"{site}: cosine, raw", off_diagonal(c["cos_mean_raw"]), emotions, emotions, scale="diverging",
-                           caption=cosine.format("raw"), row_title="emotion", col_title="emotion"),
-        cosine_denoised=heatmap(f"{site}: cosine, denoised", off_diagonal(c["cos_mean_denoised"]), emotions, emotions,
-                                scale="diverging", caption=cosine.format("neutral PCs removed"), row_title="emotion", col_title="emotion"),
-    )  # fmt: skip
+def story_means(scores: TokenScores, values: Scores, split_token: int) -> Scores:
+    return torch.stack([scores_of(t, values)[split_token:].mean(0) for t in scores.texts])
 
 
-def flagged_story(f: dict, sites: list[str]) -> FlaggedStory:
-    return FlaggedStory(id=f["id"], label=f["label"], heldout=f["heldout"], margin=f["margin"],
-                        predicted=[f["pred_by_site"][s] for s in sites])  # fmt: skip
-
-
-def token_views(cfg: ExtractionRunConfig) -> list[TokenView]:
-    saved = load_token_scores(cfg.result_dir)
-    if saved is None:
-        return []
-    per_label = cfg.emotion_vectors.tokens.stories_per_label
-    return story_views(*saved, labels=list(LABELS), per_label=per_label, split_token=cfg.stories.split_token)
+def vector_section(scores: TokenScores, values: Scores, means: Scores, e: int, top_k: int) -> VectorSection:
+    top = means[:, e].topk(top_k).indices.tolist()
+    texts = [scores.texts[i] for i in top]
+    span = max(float(scores_of(t, values)[:, e].abs().max()) for t in texts)
+    views = [vector_view(t, scores_of(t, values)[:, e], float(means[i, e]), span) for t, i in zip(texts, top)]
+    return VectorSection(emotion=scores.series[e], views=views)
 
 
 def build_emotion_vectors_report(cfg: ExtractionRunConfig) -> EmotionVectorsReport:
-    layer = cfg.emotion_vectors.extract.layer
-    meta = json.loads(Path(cfg.result_dir / "vectors_meta.json").read_text())
-    checks = json.loads(Path(cfg.result_dir / "checks.json").read_text())
-    emotions, sites = meta["emotions"], meta["sites"]
-    split_half = [SplitHalfRow(emotion=e, cosines=[checks["sites"][s]["split_half_cos"][e] for s in sites]) for e in emotions]
+    saved = load_token_scores(cfg.result_dir)
+    assert saved is not None, "no token scores: run the tokens step first"
+    scores, values = saved
+    split_token = cfg.stories.split_token
+    means = story_means(scores, values, split_token)
+    top_k = cfg.emotion_vectors.tokens.top_k
     return EmotionVectorsReport(
-        title=f"Emotion vectors: {cfg.model.name}, layer {layer}",
-        model=cfg.model.name, layer=layer, run_id=cfg.run_id, average=meta["average"],
-        emotions=emotions, sites=sites,
-        accuracy=[site_accuracy(s, checks, meta["denoise"]) for s in sites], chance=1 / len(emotions),
-        maps=[site_maps(s, checks, emotions) for s in sites],
-        split_half=split_half,
-        flagged=[flagged_story(f, sites) for f in checks["flagged"]],
-        token_site=cfg.emotion_vectors.tokens.site, token_views=token_views(cfg),
-    )  # fmt: skip
+        title=f"Emotion vectors: {cfg.model.name}, layer {cfg.emotion_vectors.extract.layer}",
+        emotions=scores.series,
+        quantiles=quantile_rows(late_tokens(scores, values, split_token)),
+        sections=[vector_section(scores, values, means, e, top_k) for e in range(len(scores.series))],
+    )

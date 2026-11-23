@@ -101,7 +101,7 @@ class StoryTokensConfig(Section):
 
     site: Site = Field("resid_mid", description="the site whose denoised vectors score each token")
     batch_size: int = 16
-    stories_per_label: int = Field(2, description="token views per emotion (and neutral) in the report")
+    top_k: int = Field(5, description="held-out stories per vector in the report, by mean token cosine")
 
 
 class CorpusConfig(Section):

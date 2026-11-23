@@ -1,13 +1,14 @@
 """Token views: circuitsvis strips of per-token scores (`token_scores`), as HTML snippets for the templates.
 
-- Emotion stories: `colored_tokens_multi`, one score per emotion; the reader picks the emotion that colours the text.
-  - The story's own emotion comes first, so the view opens on it.
+- Emotion stories: `colored_tokens`, one vector's cosine, on a scale shared by that vector's views.
 - Direction prompts: `colored_tokens`, the projection on one shared scale, prompt and reply as two strips.
 - circuitsvis loads its renderer from unpkg, so a report needs a network connection to show these views.
 """
 
-from circuitsvis.tokens import colored_tokens, colored_tokens_multi
+from circuitsvis.tokens import colored_tokens
+from jaxtyping import Float
 from pydantic import BaseModel
+from torch import Tensor
 
 from ..token_scores import Scores, TokenScores, TokenText
 from .colors import RAMPS
@@ -39,35 +40,20 @@ def first_per_label(texts: list[TokenText], labels: list[str], n: int) -> list[T
     return [t for label in labels for t in [t for t in texts if t.label == label][:n]]
 
 
-def own_first(series: list[str], label: str) -> list[int]:
-    """Column order with the story's own emotion first: circuitsvis colours by the first label until the reader picks one."""
-    own = [series.index(label)] if label in series else []
-    return own + [i for i in range(len(series)) if i not in own]
+def diverging_strip(label: str, tokens: list[str], v: Float[Tensor, " token"], span: float) -> Strip:
+    low, high = RAMPS["diverging"].light.low, RAMPS["diverging"].light.high
+    html = colored_tokens(tokens, v, min_value=-span, max_value=span, negative_color=low, positive_color=high)
+    return Strip(label=label, html=closed(str(html)))
 
 
-def story_views(scores: TokenScores, values: Scores, labels: list[str], per_label: int, split_token: int) -> list[TokenView]:
-    views = []
-    for text in first_per_label(scores.texts, labels, per_label):
-        v = scores_of(text, values)
-        late = v[split_token:].mean(0)
-        nearest = scores.series[int(late.argmax())]
-        order = own_first(scores.series, text.label)
-        views.append(TokenView(
-            title=f"{text.id} ({text.label})",
-            subtitle=f"Mean over tokens {split_token}+: nearest vector {nearest} ({late.max():.3f}); {text.label} {late[scores.series.index(text.label)]:.3f}."
-            if text.label in scores.series else f"Mean over tokens {split_token}+: nearest vector {nearest} ({late.max():.3f}).",
-            strips=[Strip(label="", html=closed(str(colored_tokens_multi(text.tokens, v[:, order], labels=[scores.series[i] for i in order]))))],
-        ))  # fmt: skip
-    return views
+def vector_view(text: TokenText, v: Float[Tensor, " token"], mean: float, span: float) -> TokenView:
+    return TokenView(
+        title=f"{text.id} ({text.label})", subtitle=f"mean {mean:.3f}", strips=[diverging_strip("", text.tokens, v, span)]
+    )
 
 
 def prompt_views(scores: TokenScores, values: Scores, labels: list[str], per_label: int) -> list[TokenView]:
     span = float(values.abs().max())
-    low, high = RAMPS["diverging"].light.low, RAMPS["diverging"].light.high
-
-    def strip(label: str, tokens: list[str], v: Scores) -> Strip:
-        html = colored_tokens(tokens, v[:, 0], min_value=-span, max_value=span, negative_color=low, positive_color=high)
-        return Strip(label=label, html=closed(str(html)))
 
     views = []
     for text in first_per_label(scores.texts, labels, per_label):
@@ -76,6 +62,6 @@ def prompt_views(scores: TokenScores, values: Scores, labels: list[str], per_lab
         views.append(TokenView(
             title=f"{text.id} ({text.label})",
             subtitle=f"Projection at the last prompt token: {v[k - 1, 0]:.2f}. Reply mean: {v[k:, 0].mean():.2f}.",
-            strips=[strip("prompt", text.tokens[:k], v[:k]), strip("reply", text.tokens[k:], v[k:])],
+            strips=[diverging_strip("prompt", text.tokens[:k], v[:k, 0], span), diverging_strip("reply", text.tokens[k:], v[k:, 0], span)],
         ))  # fmt: skip
     return views

@@ -8,8 +8,7 @@
 - build (CPU): the vectors from the late-token means, by `vectors.recipe`.
   - results/<run_id>/vectors.safetensors (see `emotion_neurons.vectors.EmotionVectors`);
   - results/<run_id>/vectors_meta.json: emotions, sites, PCs removed per site, counts per split.
-- check (CPU): results/<run_id>/checks.json: nearest-vector labels for every story, split-half cosine, emotion x
-  emotion cosine.
+- check (CPU): results/<run_id>/checks.json: held-out nearest-vector accuracy per site, raw and denoised vectors.
 - select does nothing. tokens (GPU) and report (CPU) write token_scores.* and report.html.
 """
 
@@ -29,10 +28,10 @@ from ..datasets import Rendered, example_set
 from ..emotions import EMOTIONS, SITES
 from ..models import adapter_for, read_layer
 from ..reports import build_emotion_vectors_report, write_report
-from ..texts import Story, StoryRecord, StorySplit, load_stories, load_story_records
+from ..texts import Story, StorySplit, load_stories, load_story_records
 from ..token_scores import save_token_scores, story_token_scores
-from ..vectors import RECIPES, EmotionVectors, cosine_matrix, remove
-from ..vectors.checks import confusion, nearest_vector_scores, split_half_cosine
+from ..vectors import RECIPES, EmotionVectors
+from ..vectors.checks import heldout_accuracy
 
 
 def git_commit() -> str:
@@ -125,48 +124,6 @@ def vectors_meta(cfg: ExtractionRunConfig, split: StorySplit, denoise: dict, ext
     }  # fmt: skip
 
 
-def site_checks(x, split: StorySplit, vectors: EmotionVectors, site: str, records: list[StoryRecord]) -> dict:
-    """Denoised vectors for the labels; raw accuracy kept for comparison."""
-    pcs = vectors.neutral_pcs(site).double()
-    raw_correct = nearest_vector_scores(x, split).argmax(1) == split.label
-    scores = nearest_vector_scores(x, split, pcs)
-    top2 = scores.topk(2, dim=1)
-    predicted = top2.indices[:, 0]
-    correct = predicted == split.label
-    emotional = split.emotional
-    base = vectors.get(site, "mean", "raw").double()
-    return {
-        "acc_train_loo": correct[emotional & split.train].double().mean().item(),
-        "acc_heldout": correct[emotional & split.heldout].double().mean().item(),
-        "acc_train_loo_raw": raw_correct[emotional & split.train].double().mean().item(),
-        "acc_heldout_raw": raw_correct[emotional & split.heldout].double().mean().item(),
-        "confusion_all": confusion(predicted, split).tolist(),
-        "split_half_cos": dict(zip(EMOTIONS, split_half_cosine(x, split))),
-        "cos_mean_raw": cosine_matrix(base, base).tolist(),
-        "cos_mean_denoised": cosine_matrix(remove(base, pcs), remove(base, pcs)).tolist(),
-        "pred": {
-            records[i].id: [EMOTIONS[top2.indices[i, 0]], EMOTIONS[top2.indices[i, 1]],
-                            round(top2.values[i, 0].item() - scores[i, split.label[i]].item(), 4)]
-            for i in emotional.nonzero().flatten().tolist()
-        },
-    }  # fmt: skip
-
-
-def flagged_stories(checks: dict, records: list[StoryRecord], split: StorySplit) -> list[dict]:
-    """Mislabelled at every site, sorted by the mean margin of the wrong vector over the story's own."""
-    flagged = []
-    for i in split.emotional.nonzero().flatten().tolist():
-        r = records[i]
-        preds = {s: checks["sites"][s]["pred"][r.id] for s in SITES}
-        wrong = {s: p[0] for s, p in preds.items() if p[0] != r.emotion}
-        if len(wrong) == len(SITES):
-            margin = sum(p[2] for p in preds.values()) / len(SITES)
-            flagged.append(
-                {"id": r.id, "label": r.emotion, "heldout": r.heldout, "margin": round(margin, 4), "pred_by_site": wrong}
-            )
-    return sorted(flagged, key=lambda f: -f["margin"])
-
-
 class EmotionVectorsMethod:
     def __init__(self, cfg: ExtractionRunConfig):
         assert isinstance(cfg.extraction, EmotionVectorsExtraction), "not an emotion_vectors run"
@@ -216,22 +173,18 @@ class EmotionVectorsMethod:
         print(f"[saved] {self.cfg.result_dir}/vectors.safetensors ({len(vectors.tensors)} arrays), vectors_meta.json")
 
     def check(self) -> None:
-        records = load_story_records(self.cfg.run_dir)
-        split = StorySplit.of(records)
+        split = StorySplit.of(load_story_records(self.cfg.run_dir))
         means = late_means(self.cfg.run_dir)
         vectors = EmotionVectors.load(self.cfg.result_dir / "vectors.safetensors")
-        denoise = json.loads((self.cfg.result_dir / "vectors_meta.json").read_text())["denoise"]
         checks = {"sites": {}}
         for site in SITES:
-            checks["sites"][site] = c = site_checks(means[site], split, vectors, site, records)
-            halves = sorted(c["split_half_cos"].values())
-            print(f"[{site}] PCs {denoise[site]['k']} ({denoise[site]['variance_explained']:.2f} var) | denoised acc train-LOO "
-                  f"{c['acc_train_loo']:.3f} heldout {c['acc_heldout']:.3f} (raw {c['acc_train_loo_raw']:.3f} / "
-                  f"{c['acc_heldout_raw']:.3f}) | split-half cos min {halves[0]:.3f} median {halves[6]:.3f}")  # fmt: skip
-        checks["flagged"] = flagged_stories(checks, records, split)
-        checks["emotions"] = list(EMOTIONS)
-        print(f"[flagged] {len(checks['flagged'])} stories mislabelled at all {len(SITES)} sites (denoised vectors)")
-        (self.cfg.result_dir / "checks.json").write_text(json.dumps(checks))
+            x, pcs = means[site], vectors.neutral_pcs(site).double()
+            checks["sites"][site] = c = {
+                "acc_heldout": heldout_accuracy(x, split, pcs),
+                "acc_heldout_raw": heldout_accuracy(x, split),
+            }
+            print(f"[{site}] held-out accuracy {c['acc_heldout']:.3f} (raw {c['acc_heldout_raw']:.3f})")
+        (self.cfg.result_dir / "checks.json").write_text(json.dumps(checks, indent=1))
         print(f"[saved] {self.cfg.result_dir}/checks.json")
 
     def select(self) -> None:
