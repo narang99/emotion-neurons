@@ -1,8 +1,9 @@
 """Extraction runs: a data source and a method, the method's steps run in order.
 
 - `STEPS` maps a method kind (`config.Extraction`) to its named steps.
-  - emotion_vectors: capture, build, check;
-  - direction: capture, build, select, check.
+  - emotion_vectors: capture, build, check, tokens, report;
+  - direction: capture, build, select, check, tokens, report.
+  - tokens and report are shared (`extraction.outputs`): the token views and the HTML report.
 - Each step reads what the step before it saved, so `steps` in the config reruns any part of a run.
 """
 
@@ -11,11 +12,11 @@ from collections.abc import Callable
 import torch
 
 from ..config import ExtractionRunConfig, Step
-from . import direction, emotion_vectors
+from . import direction, emotion_vectors, outputs
 
 STEPS: dict[str, dict[Step, Callable[[ExtractionRunConfig], None]]] = {
-    "emotion_vectors": emotion_vectors.STEPS,
-    "direction": direction.STEPS,
+    "emotion_vectors": emotion_vectors.STEPS | outputs.STEPS,
+    "direction": direction.STEPS | outputs.STEPS,
 }
 
 

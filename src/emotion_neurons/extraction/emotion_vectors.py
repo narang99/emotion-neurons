@@ -24,11 +24,10 @@ from ..capture import late_means, padded, pooled_position_sums, position_mask
 from ..config import ExtractionRunConfig
 from ..datasets import Rendered, example_set
 from ..emotions import EMOTIONS, SITES
-from ..models import adapter_for, read_layer
+from ..models import adapter_for, loaded_model, read_layer
 from ..texts import Story, StoryRecord, StorySplit, load_stories, load_story_records
 from ..vectors import RECIPES, EmotionVectors, cosine_matrix, remove
 from ..vectors.checks import confusion, nearest_vector_scores, split_half_cosine
-from .loaded import loaded_model
 
 
 def git_commit() -> str:

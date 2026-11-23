@@ -255,7 +255,7 @@ class DirectionExtraction(Section):
 
 Extraction = Annotated[EmotionVectorsExtraction | DirectionExtraction, Field(discriminator="kind")]
 
-Step = Literal["capture", "build", "select", "check"]
+Step = Literal["capture", "build", "select", "check", "tokens", "report"]
 
 
 class ExtractionRunConfig(RunConfig):

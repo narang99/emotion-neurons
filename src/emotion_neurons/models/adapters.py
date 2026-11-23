@@ -11,6 +11,7 @@ checkpoint names of the tensors read one at a time (`models.weights`).
 import os
 from collections.abc import Callable
 from dataclasses import dataclass
+from functools import cache
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
@@ -73,6 +74,12 @@ def adapter_for(model: ModelConfig) -> ModelAdapter:
 
 def load_model(model: ModelConfig, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
     return adapter_for(model).load(model.name, model.revision, device)
+
+
+@cache
+def loaded_model(model: ModelConfig, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
+    """One model per process: the steps of a run share it, so a second step does not load another copy."""
+    return load_model(model, device)
 
 
 def load_tokenizer(model: ModelConfig) -> PreTrainedTokenizerBase:

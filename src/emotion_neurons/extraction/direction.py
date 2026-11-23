@@ -20,8 +20,7 @@ from transformers import PreTrainedTokenizerBase
 from ..config import ExtractionRunConfig
 from ..datasets import example_set
 from ..directions import category_sums, diff_from_means, generation_check, refusal_token_ids, select_direction
-from ..models import adapter_for
-from .loaded import loaded_model
+from ..models import adapter_for, loaded_model
 
 
 def target_and_other(cfg: ExtractionRunConfig) -> tuple[str, str]:

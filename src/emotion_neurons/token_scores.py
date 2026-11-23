@@ -23,7 +23,7 @@ from .capture import padded
 from .config import ExtractionRunConfig
 from .datasets import InstructionSet
 from .emotions import EMOTIONS
-from .models import adapter_for, load_model, read_layer, read_resid_pre
+from .models import adapter_for, loaded_model, read_layer, read_resid_pre
 from .texts import load_stories
 from .vectors import remove
 
@@ -68,7 +68,7 @@ def story_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Scores]:
     saved = load_file(str(cfg.result_dir / "vectors.safetensors"))
     vectors, grand, pcs = (saved[f"{site}/{k}"].double() for k in ("mean/denoised", "grand_mean", "neutral_pcs"))
     stories = [s for s in load_stories(cfg.stories) if s.heldout]
-    model, tokenizer = load_model(cfg.model, cfg.device)
+    model, tokenizer = loaded_model(cfg.model, cfg.device)
     vectors, grand, pcs = vectors.to(model.device), grand.to(model.device), pcs.to(model.device)
     texts, rows, start = [], [], 0
     for b in range(0, len(stories), tokens.batch_size):
@@ -91,7 +91,7 @@ def direction_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Score
     unit = torch.nn.functional.normalize(load_file(str(cfg.result_dir / "direction.safetensors"))["direction"].double(), dim=0)
     adapter = adapter_for(cfg.model)
     instructions = InstructionSet(cfg.instructions)
-    model, tokenizer = load_model(cfg.model, cfg.device)
+    model, tokenizer = loaded_model(cfg.model, cfg.device)
     unit = unit.to(model.device)
     items = []
     for category in cfg.instructions.categories:

@@ -1,10 +1,13 @@
-"""Emotion vectors or a direction: the steps of the config's extraction method (`emotion_neurons.extraction`).
+"""Emotion vectors or a direction, end to end: extraction, checks, token views and the HTML report. GPU.
 
-    python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml       # GPU for capture
-    python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml --steps build,check --device cpu
-    python scripts/extract.py --config experiments/00-vector-extraction/refusal_qwen1.yaml    # GPU
+    python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml
+    python scripts/extract.py --config experiments/00-vector-extraction/refusal_qwen1.yaml
+    python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml --steps build,check,report --device cpu
 
-- emotion_vectors: capture, build, check. direction: capture, build, select, check.
+- The config's `extraction.kind` picks the steps (`emotion_neurons.extraction`):
+  - emotion_vectors: capture, build, check, tokens, report;
+  - direction: capture, build, select, check, tokens, report.
+- Large outputs go to runs/<run_id>/, the vectors and the report to results/<run_id>/.
 """
 
 import sys
