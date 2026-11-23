@@ -149,11 +149,12 @@ def corpus_phrase(harvest: dict) -> str:
 
 def sampling_phrase(h: dict) -> str:
     if h.get("hits_per_band") is None:
-        return f"are sampled uniformly ({h['hits_per_pole']} per pole, so nearly all from p97-p99 and p3-p1)"
+        return "are sampled uniformly over the pole, so about two thirds come from p97-p99 (p3-p1) and 0.3% from p99.99+ (p0.01-)"
     return (
         f"are sampled up to {h['hits_per_band']} per band (p97-p99, p99-p99.9, p99.9-p99.99, p99.99+; the same at the low pole), "
         "so the rare strongest firings get clusters too; each hit is weighted back by its band's size, so a cluster's "
-        "share of the pole and of its push describe the whole pole"
+        "share of the pole and of its push describe the whole pole. The strip under each cluster shows its hits by band, "
+        "palest p97-p99 (p3-p1), darkest p99.99+ (p0.01-)"
     )
 
 
