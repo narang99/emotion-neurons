@@ -1,5 +1,5 @@
 """Model families: how to load a model and its tokenizer, how to wrap an instruction in its chat format, and the
-checkpoint names of the tensors read one at a time (`models.weights`, `lens`).
+checkpoint names of the tensors read one at a time (`models.weights`).
 
 - `hf` (Qwen3 and other native transformers models): AutoModelForCausalLM, the tokenizer's chat template.
 - `qwen1` (Qwen/Qwen-7B-Chat): converted to a native Qwen2 model (`models.qwen1`), ChatML by hand.

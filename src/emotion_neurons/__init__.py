@@ -1,1 +1,1 @@
-"""Emotion vectors and the MLP neurons that read or write them, in Qwen3-8B."""
+"""Emotion vectors and difference-of-means directions, and the MLP neurons that read or write them."""
