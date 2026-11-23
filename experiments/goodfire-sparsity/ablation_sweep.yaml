@@ -6,8 +6,8 @@ model:
   family: qwen1
   name: Qwen/Qwen-7B-Chat
   revision: 93a65d34827a3cc269b727e67004743b723e2f83
-results_dir: experiments/goodfire-sparsity/results
-thresholds: experiments/goodfire-sparsity/results/poles_qwen1/thresholds.safetensors
+results_dir: experiments/goodfire-sparsity
+thresholds: experiments/goodfire-sparsity/poles_qwen1/thresholds.safetensors
 low: p3
 high: p97
 # Held out from the poles run: same corpora, seed and windows, past the 70k tokens per corpus that the poles read.
