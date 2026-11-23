@@ -112,7 +112,11 @@ def direction_token_scores(cfg: DirectionRunConfig) -> tuple[TokenScores, Scores
         x = read_resid_pre(model, choice["layer"], ids.to(model.device), mask.to(model.device)).double()
         for j, (example, prompt, full) in enumerate(batch):
             rows.append((x[j, : len(full)] @ unit)[:, None].float().cpu())
-            texts.append(TokenText(id=example.id, label=example.category, tokens=token_strings(tokenizer, full), start=start, marker=len(prompt)))
+            texts.append(
+                TokenText(
+                    id=example.id, label=example.category, tokens=token_strings(tokenizer, full), start=start, marker=len(prompt)
+                )
+            )
             start += len(full)
         print(f"[tokens] {min(b + cfg.tokens.batch_size, len(items))} of {len(items)} prompts", flush=True)
     return TokenScores(series=["projection"], texts=texts), torch.cat(rows)

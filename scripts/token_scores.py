@@ -30,7 +30,9 @@ def main():
     t0 = time.time()
     scores, values = score(cfg)
     save_token_scores(cfg.result_dir, scores, values)
-    print(f"[saved] {cfg.result_dir}/token_scores.*: {len(scores.texts)} texts, {values.shape[0]} tokens, {time.time() - t0:.0f}s")
+    print(
+        f"[saved] {cfg.result_dir}/token_scores.*: {len(scores.texts)} texts, {values.shape[0]} tokens, {time.time() - t0:.0f}s"
+    )
 
 
 if __name__ == "__main__":

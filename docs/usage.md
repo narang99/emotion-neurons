@@ -50,6 +50,8 @@ python scripts/poles.py --config configs/poles.yaml   # GPU, about 10 min
 ## Reports
 
 ```
+python scripts/token_scores.py emotion_vectors --config experiments/00-vector-extraction/stage2_l25.yaml   # GPU, about 1 min
+python scripts/token_scores.py direction --config experiments/00-vector-extraction/refusal_qwen1.yaml      # GPU, about 1.5 min
 python scripts/report.py emotion_vectors --config experiments/00-vector-extraction/stage2_l25.yaml   # CPU, seconds
 python scripts/report.py direction --config experiments/00-vector-extraction/refusal_qwen1.yaml      # CPU, seconds
 ```
@@ -57,4 +59,6 @@ python scripts/report.py direction --config experiments/00-vector-extraction/ref
 - A report reads a run's saved results and writes `report.html` next to them. It loads no model.
 - `emotion_neurons.reports`: a builder reads the results into Pydantic data, a Jinja template renders it.
   - A new report is a builder, a template and one entry in `REPORTS`.
+- `token_scores.py` scores every token of the held-out stories or val prompts against the saved vectors.
+  - The reports show these as circuitsvis token views. Without them, a report has no token views.
 - The direction report downloads the val instructions from the config's sources, to show each prompt with its reply.
