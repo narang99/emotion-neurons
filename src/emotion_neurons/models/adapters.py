@@ -9,7 +9,6 @@ checkpoint names of the tensors read one at a time (`models.weights`).
   hooks in `models.qwen3` read every family unchanged.
 """
 
-from functools import cache
 from typing import Literal, Protocol
 
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
@@ -38,9 +37,3 @@ def adapter_for(model: ModelConfig) -> ModelAdapter:
             return HFAdapter(model)
         case Qwen1Model():
             return Qwen1Adapter(model)
-
-
-@cache
-def loaded_model(model: ModelConfig, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
-    """One model per process: the steps of a run share it, so a second step does not load another copy."""
-    return adapter_for(model).load(device)

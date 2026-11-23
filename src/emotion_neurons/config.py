@@ -227,7 +227,7 @@ class DirectionExtraction(Section):
     kind: Literal["direction"] = "direction"
     target: str = Field(description="the direction is this category's mean minus the other category's mean")
     selection: DirectionSelectionConfig = DirectionSelectionConfig()
-    generation: RefusalCheckConfig = RefusalCheckConfig()
+    refusal_check: RefusalCheckConfig = RefusalCheckConfig()
     tokens: DirectionTokensConfig = DirectionTokensConfig()
 
 

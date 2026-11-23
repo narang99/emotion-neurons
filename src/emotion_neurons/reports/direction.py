@@ -118,7 +118,7 @@ def reply_groups(cfg: ExtractionRunConfig, replies: dict[str, list[str]]) -> lis
         category = condition.split("/")[0]
         assert len(prompts[category]) == len(texts), f"{condition}: {len(texts)} replies for {len(prompts[category])} prompts"
         rows = [
-            Reply(prompt=p, reply=r, refused=is_refusal(r, cfg.direction.generation.refusal_phrases))
+            Reply(prompt=p, reply=r, refused=is_refusal(r, cfg.direction.refusal_check.refusal_phrases))
             for p, r in zip(prompts[category], texts)
         ]
         groups.append(ReplyGroup(condition=condition, replies=rows))

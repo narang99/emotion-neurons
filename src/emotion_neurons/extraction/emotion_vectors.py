@@ -16,16 +16,18 @@
 import json
 import subprocess
 import time
+from functools import cached_property
 
 import torch
 from safetensors.torch import save_file
 from tqdm import tqdm
+from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from ..capture import late_means, padded, pooled_position_sums, position_mask
 from ..config import EmotionVectorsExtraction, ExtractionRunConfig
 from ..datasets import Rendered, example_set
 from ..emotions import EMOTIONS, SITES
-from ..models import adapter_for, loaded_model, read_layer
+from ..models import adapter_for, read_layer
 from ..reports import build_emotion_vectors_report, write_report
 from ..texts import Story, StoryRecord, StorySplit, load_stories, load_story_records
 from ..token_scores import save_token_scores, story_token_scores
@@ -169,6 +171,12 @@ class EmotionVectorsMethod:
     def __init__(self, cfg: ExtractionRunConfig):
         assert isinstance(cfg.extraction, EmotionVectorsExtraction), "not an emotion_vectors run"
         self.cfg = cfg
+        self.adapter = adapter_for(cfg.model)
+
+    @cached_property
+    def loaded(self) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
+        """Loaded by the first step that needs the model, then shared by the later steps."""
+        return self.adapter.load(self.cfg.device)
 
     def capture(self) -> None:
         t0 = time.time()
@@ -176,15 +184,14 @@ class EmotionVectorsMethod:
         examples_of = example_set(self.cfg.data)
         examples = examples_of.examples()
         assert [e.id for e in examples] == [s.id for s in stories], "the example set's order differs from the stories'"
-        model, tokenizer = loaded_model(self.cfg.model, self.cfg.device)
-        adapter = adapter_for(self.cfg.model)
+        model, tokenizer = self.loaded
         n_layers = len(model.model.layers)
         layer = self.cfg.emotion_vectors.extract.layer
         print(
             f"[load] {self.cfg.model.name}: {n_layers} layers, hooking layer {layer}, {len(stories)} stories, {time.time() - t0:.0f}s"
         )
 
-        rendered = [examples_of.render(e, tokenizer, adapter) for e in examples]
+        rendered = [examples_of.render(e, tokenizer, self.adapter) for e in examples]
         lengths = token_lengths(rendered, self.cfg)
         order = sorted(range(len(stories)), key=lambda i: -lengths[i])  # similar lengths share a batch
         sums, counts = extract_all(model, tokenizer.pad_token_id, self.cfg, rendered, order)
@@ -231,7 +238,7 @@ class EmotionVectorsMethod:
         """Nothing to select: the config fixes the layer, and every emotion keeps its vector."""
 
     def tokens(self) -> None:
-        scores, values = story_token_scores(self.cfg)
+        scores, values = story_token_scores(self.cfg, *self.loaded)
         save_token_scores(self.cfg.result_dir, scores, values)
         print(f"[saved] {self.cfg.result_dir}/token_scores.*: {len(scores.texts)} texts, {values.shape[0]} tokens")
 

@@ -16,13 +16,13 @@ from jaxtyping import Float
 from pydantic import BaseModel
 from safetensors.torch import load_file, save_file
 from torch import Tensor
-from transformers import PreTrainedTokenizerBase
+from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from .capture import padded
 from .config import ExtractionRunConfig
 from .datasets import InstructionSet
 from .emotions import EMOTIONS
-from .models import adapter_for, loaded_model, read_layer, read_resid_pre
+from .models import ModelAdapter, read_layer, read_resid_pre
 from .texts import load_stories
 from .vectors import remove
 
@@ -61,13 +61,14 @@ def site_activations(model, layer: int, ids: Tensor, mask: Tensor, site: str) ->
     return acts["resid_post"] - acts["resid_mid"] if site == "mlp_out" else acts[site]
 
 
-def story_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Scores]:
+def story_token_scores(
+    cfg: ExtractionRunConfig, model: PreTrainedModel, tokenizer: PreTrainedTokenizerBase
+) -> tuple[TokenScores, Scores]:
     tokens = cfg.emotion_vectors.tokens
     site = tokens.site
     saved = load_file(str(cfg.result_dir / "vectors.safetensors"))
     vectors, grand, pcs = (saved[f"{site}/{k}"].double() for k in ("mean/denoised", "grand_mean", "neutral_pcs"))
     stories = [s for s in load_stories(cfg.stories) if s.heldout]
-    model, tokenizer = loaded_model(cfg.model, cfg.device)
     vectors, grand, pcs = vectors.to(model.device), grand.to(model.device), pcs.to(model.device)
     texts, rows, start = [], [], 0
     for b in range(0, len(stories), tokens.batch_size):
@@ -83,14 +84,14 @@ def story_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Scores]:
     return TokenScores(series=list(EMOTIONS), texts=texts), torch.cat(rows)
 
 
-def direction_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Scores]:
+def direction_token_scores(
+    cfg: ExtractionRunConfig, model: PreTrainedModel, tokenizer: PreTrainedTokenizerBase, adapter: ModelAdapter
+) -> tuple[TokenScores, Scores]:
     tokens = cfg.direction.tokens
     choice = json.loads((cfg.result_dir / "direction.json").read_text())["choice"]
     replies = json.loads((cfg.result_dir / "replies.json").read_text())
     unit = torch.nn.functional.normalize(load_file(str(cfg.result_dir / "direction.safetensors"))["direction"].double(), dim=0)
-    adapter = adapter_for(cfg.model)
     instructions = InstructionSet(cfg.instructions)
-    model, tokenizer = loaded_model(cfg.model, cfg.device)
     unit = unit.to(model.device)
     items = []
     for category in cfg.instructions.categories:
