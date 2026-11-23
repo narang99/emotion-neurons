@@ -203,7 +203,7 @@ class DirectionSelectionConfig(Section):
     batch_size: int = 32
 
 
-class GenerationCheckConfig(Section):
+class RefusalCheckConfig(Section):
     max_new_tokens: int = 64
     batch_size: int = 16
     refusal_phrases: list[str] = [
@@ -238,7 +238,7 @@ class DirectionExtraction(Section):
     kind: Literal["direction"] = "direction"
     target: str = Field(description="the direction is this category's mean minus the other category's mean")
     selection: DirectionSelectionConfig = DirectionSelectionConfig()
-    generation: GenerationCheckConfig = GenerationCheckConfig()
+    generation: RefusalCheckConfig = RefusalCheckConfig()
     tokens: DirectionTokensConfig = DirectionTokensConfig()
 
 

@@ -27,7 +27,7 @@ from jaxtyping import Float
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import DirectionSelectionConfig, GenerationCheckConfig
+from .config import DirectionSelectionConfig, RefusalCheckConfig
 from .datasets import Example, ExampleSet
 from .models import ModelAdapter, decoder_layers
 
@@ -179,7 +179,7 @@ def select_direction(
 
 
 @torch.no_grad()
-def generate(model, tokenizer, rendered: list[list[int]], g: GenerationCheckConfig) -> list[str]:
+def generate(model, tokenizer, rendered: list[list[int]], g: RefusalCheckConfig) -> list[str]:
     out = []
     for ids, mask, _ in batches(rendered, tokenizer.pad_token_id, g.batch_size, left=True):
         gen = model.generate(input_ids=ids.to(model.device), attention_mask=mask.to(model.device), max_new_tokens=g.max_new_tokens,
@@ -193,7 +193,7 @@ def refusal_rate(replies: list[str], phrases: list[str]) -> float:
 
 
 def generation_check(
-    model, tokenizer, g: GenerationCheckConfig, val: dict, target: str, other: str, vector: Tensor, layer: int
+    model, tokenizer, g: RefusalCheckConfig, val: dict, target: str, other: str, vector: Tensor, layer: int
 ) -> dict:
     unit = vector / vector.norm()
     # Hooks are made only when their condition runs: built up front, every hook would be active from the first run on.
