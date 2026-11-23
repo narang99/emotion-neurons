@@ -1,0 +1,80 @@
+{"neuron":1159,"pole":"high","cluster":0,"mode":"hesitation or contemplation before answering a question","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":1159,"pole":"high","cluster":1,"mode":"offering information or steps in response to a request","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":1159,"pole":"high","cluster":2,"mode":"assistant offering more details or information","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":1159,"pole":"high","cluster":3,"mode":"assistant acknowledging user's point or understanding","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":1159,"pole":"high","cluster":4,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":1159,"pole":"high","cluster":5,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":1159,"pole":"low","cluster":0,"mode":"pronoun referring to the user, often in a directive or explanatory context","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":1159,"pole":"low","cluster":1,"mode":"interrogative pronoun asking about identity or role","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":0,"mode":"assistant offering to add descriptions or information","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":1,"mode":"assistant offering advice or suggestions","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":2,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":3,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":4,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":5,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":6,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"high","cluster":7,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"low","cluster":0,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"low","cluster":1,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3046,"pole":"low","cluster":2,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":0,"mode":"user expressing agreement or understanding with assistant","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":1,"mode":"user reacting positively to assistant's suggestions","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":2,"mode":"interrogative pronoun asking about the user's actions or intentions","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":3,"mode":"user expressing belief or opinion","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":4,"mode":"pronoun referring to the user, often in a directive or explanatory context","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":5,"mode":"pronoun referring to the user or an object","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":6,"mode":"pronoun referring to an object or concept","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"high","cluster":7,"mode":"interrogative pronoun asking about the user's actions or intentions","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"low","cluster":0,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"low","cluster":1,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":6369,"pole":"low","cluster":2,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":8612,"pole":"high","cluster":0,"mode":"pronoun referring to the subject, often in a legal or investigative context","scene_windows":1,"windows":5,"scene":"crime investigation, potential prosecution"}
+{"neuron":8612,"pole":"high","cluster":1,"mode":"legal terms related to prosecution and seizure of property","scene_windows":1,"windows":5,"scene":"crime prosecution, legal action"}
+{"neuron":8612,"pole":"high","cluster":2,"mode":"legal terms related to charges and indictments","scene_windows":1,"windows":5,"scene":"legal charges, indictment, trial"}
+{"neuron":8612,"pole":"high","cluster":3,"mode":"legal terms related to legislation and introduction of bills","scene_windows":0,"windows":5,"scene":"legislation, government bills"}
+{"neuron":8612,"pole":"high","cluster":4,"mode":"legal terms related to lawsuits and civil rights","scene_windows":1,"windows":5,"scene":"legal lawsuit, civil rights"}
+{"neuron":8612,"pole":"high","cluster":5,"mode":"pronoun referring to the user or an object","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":8612,"pole":"high","cluster":6,"mode":"verbs related to bringing or introducing something","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":8612,"pole":"low","cluster":0,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":8612,"pole":"low","cluster":1,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":8612,"pole":"low","cluster":2,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":1,"windows":5,"scene":"crime, violence, assault"}
+{"neuron":5907,"pole":"high","cluster":0,"mode":"concepts of equality, respect, and company responsibility","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":5907,"pole":"high","cluster":1,"mode":"values of empathy, benevolence, inclusivity, and kindness","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":5907,"pole":"high","cluster":2,"mode":"values of love, kindness, compassion, and interconnectedness","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":5907,"pole":"high","cluster":3,"mode":"concepts of hate speech, mob violence, and paying attention to impact","scene_windows":1,"windows":5,"scene":"hate speech, mob violence"}
+{"neuron":5907,"pole":"high","cluster":4,"mode":"concepts of fair treatment, ethics, and respect","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":5907,"pole":"low","cluster":0,"mode":"concepts of equality, differences, and societal actions","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":5907,"pole":"low","cluster":1,"mode":"pronoun referring to the user or an object","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"high","cluster":0,"mode":"assistant offering more ideas or suggestions","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"high","cluster":1,"mode":"assistant offering more suggestions or tips","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"high","cluster":2,"mode":"assistant offering recommendations or techniques","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"high","cluster":3,"mode":"pronoun referring to the user, often in a polite closing","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"high","cluster":4,"mode":"pronoun referring to the user, often in a polite closing","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":0,"mode":"requesting feedback or criticism","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":1,"mode":"asking for further questions or feedback","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":2,"mode":"asking for further questions or feedback","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":3,"mode":"user asking a question","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":4,"mode":"user asking a question","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":5,"mode":"user asking a question","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":6,"mode":"user asking a question","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":7,"mode":"user asking a question","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":596,"pole":"low","cluster":8,"mode":"user asking a question","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":0,"mode":"introducing another factor or item in a list","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":1,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":2,"mode":"assistant acknowledging user concerns or questions","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":3,"mode":"user asking for specific types of information","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":4,"mode":"pronoun referring to the speaker, often in a narrative context","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":5,"mode":"assistant offering advice or guidelines","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":6,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":7,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":8,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":9,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"high","cluster":10,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":0,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":1,"mode":"pronoun referring to the user or an object","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":2,"mode":"pronoun referring to the user or an object","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":3,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":4,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":5,"mode":"listing conjunctions or prepositions connecting ideas or items","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":6,"mode":"pronoun referring to the speaker or an object","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}
+{"neuron":3581,"pole":"low","cluster":7,"mode":"pronoun referring to an object or concept","scene_windows":0,"windows":5,"scene":"neutral polite assistant response"}

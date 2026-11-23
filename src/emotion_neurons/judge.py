@@ -41,6 +41,13 @@ SCENES = {
         '"refuse"',
         "harmless",
     ),
+    "harm": (
+        "harmful, dangerous or illicit",
+        "violence, weapons, explosives, drugs, crime, fraud, hacking, abuse, self-harm, hate, or people in danger, "
+        "in any genre: news, fiction, history, education or chat",
+        '"harm"',
+        "safe or neutral",
+    ),
     "desperate": (
         "desperate",
         "begging or pleading, running out of options or time, a last-ditch attempt, frantic efforts to fix a crisis",
@@ -51,18 +58,23 @@ SCENES = {
 """(scene words, what such scenes look like, the emotion word, the scenes where that word does not count)."""
 
 
+NOT_A_SCENE = {"harm": "Text that only mentions safety in passing, or recipes and technical text, does not count"}
+"""What does not count, per scene. The default leaves out news, which suits emotions but not harm."""
+
+
 def scene_hint(emotion: str) -> tuple[str, str, str, str]:
     return SCENES.get(emotion, (emotion, f"people feeling {emotion}", f'"{emotion}"', "neutral"))
 
 
 def instructions(emotion: str) -> str:
     scene, looks, word, elsewhere = scene_hint(emotion)
+    excluded = NOT_A_SCENE.get(emotion, "Recipes, technical text, news and neutral narration do not count")
     return f"""You read clusters of text windows. Each window has one token marked [[like this]]; a number in brackets before it is a neuron's activation there, which you can ignore.
 The file is organised as: "##### neuron N", then "=== high pole" or "=== low pole", then "--- cluster K" followed by its windows. Ignore "--- unclustered (sample)" groups.
 
 For every cluster, return:
 - "mode": what the marked tokens and their contexts have in common, in at most 15 words;
-- "{emotion}_windows": how many of its windows sit in a {scene} SCENE. Judge the situation and mood of the surrounding text ({looks}). Do not judge by the marked word alone: a marked "and", "so", "." or "was" inside such a scene counts; the word {word} inside a {elsewhere} scene does not. Recipes, technical text, news and neutral narration do not count;
+- "{emotion}_windows": how many of its windows sit in a {scene} SCENE. Judge the situation and mood of the surrounding text ({looks}). Do not judge by the marked word alone: a marked "and", "so", "." or "was" inside such a scene counts; the word {word} inside a {elsewhere} scene does not. {excluded};
 - "windows": how many windows the cluster has;
 - "scene": what the scenes are, in 3 to 8 words.
 
@@ -251,6 +263,16 @@ def redo_incomplete(batches: list[Path], root: Path, models: list[str]) -> None:
                 out.unlink()
 
 
+def judged_scene(cfg: ModesRunConfig) -> str:
+    return cfg.judge.scene or cfg.concept
+
+
+def judgements_dir(cfg: ModesRunConfig) -> Path:
+    """judgements/ for the run's own concept; judgements_<scene>/ for any other scene, so both can coexist."""
+    scene = judged_scene(cfg)
+    return cfg.result_dir / ("judgements" if scene == cfg.concept else f"judgements_{scene}")
+
+
 def run_judge(cfg: ModesRunConfig) -> dict:
     """The judge stage: results/<run_id>/judgements/<model>/batch_XX.jsonl for every model in `judge.models`.
 
@@ -259,15 +281,16 @@ def run_judge(cfg: ModesRunConfig) -> dict:
     """
     batches = sorted((cfg.result_dir / "modes").glob("batch_*.txt"))
     expected = {k for b in batches for k in cluster_keys(b.read_text())}
-    root = cfg.result_dir / "judgements"
+    root = judgements_dir(cfg)
+    scene = judged_scene(cfg)
     key = read_key(cfg.judge.key_file)
     print(
-        f"[judge] {len(batches)} batch files, {len(expected)} clusters, emotion {cfg.concept}, models {cfg.judge.models}",
+        f"[judge] {len(batches)} batch files, {len(expected)} clusters, scene {scene}, models {cfg.judge.models}",
         flush=True,
     )
     for attempt in range(2):
         if attempt:
             redo_incomplete(batches, root, cfg.judge.models)
         for model in cfg.judge.models:
-            judge_model(model, cfg.concept, batches, root, key, cfg.judge.workers, cfg.judge.max_tokens)
-    return judge_summary(cfg.judge.models, root, expected, cfg.concept)
+            judge_model(model, scene, batches, root, key, cfg.judge.workers, cfg.judge.max_tokens)
+    return judge_summary(cfg.judge.models, root, expected, scene)

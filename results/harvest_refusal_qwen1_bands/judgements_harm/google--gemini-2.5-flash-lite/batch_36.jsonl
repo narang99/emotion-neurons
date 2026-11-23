@@ -1,0 +1,80 @@
+{"neuron":4752,"pole":"high","cluster":0,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"casual conversation"}
+{"neuron":4752,"pole":"high","cluster":1,"mode":"asking for information or clarification","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":4752,"pole":"high","cluster":2,"mode":"exclamatory or surprised agreement","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":4752,"pole":"high","cluster":3,"mode":"confirming information or agreement","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":4752,"pole":"high","cluster":4,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":4752,"pole":"high","cluster":5,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":4752,"pole":"high","cluster":6,"mode":"confirming information or agreement","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":4752,"pole":"high","cluster":7,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":4752,"pole":"high","cluster":8,"mode":"assistant responding to user query","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":4752,"pole":"high","cluster":9,"mode":"assistant responding to user query","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":4752,"pole":"high","cluster":10,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":4752,"pole":"high","cluster":11,"mode":"confirming information or agreement","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":4752,"pole":"high","cluster":12,"mode":"affirmative statement or confirmation","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":4752,"pole":"high","cluster":13,"mode":"affirmative agreement or confirmation","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":4752,"pole":"high","cluster":14,"mode":"describing a range or variety","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":4752,"pole":"high","cluster":15,"mode":"possessive or contractual agreement","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":4752,"pole":"low","cluster":0,"mode":"first-person statement of intent or state","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":4752,"pole":"low","cluster":1,"mode":"introducing a list of items or points","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":4752,"pole":"low","cluster":2,"mode":"first-person statement of uncertainty or guidance","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":4752,"pole":"low","cluster":3,"mode":"introducing a pause or transition","scene_windows":0,"windows":5,"scene":"narrative, often in fiction"}
+{"neuron":4752,"pole":"low","cluster":4,"mode":"first-person statement of knowledge or belief","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":4752,"pole":"low","cluster":5,"mode":"first-person statement of existence or state","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":4752,"pole":"low","cluster":6,"mode":"referring to common objects or concepts","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":4752,"pole":"low","cluster":7,"mode":"indicating a date or time","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":4752,"pole":"low","cluster":8,"mode":"indicating a date or time","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":7916,"pole":"high","cluster":0,"mode":"indicating existence or availability","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":7916,"pole":"high","cluster":1,"mode":"assistant responding to user query","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":7916,"pole":"low","cluster":0,"mode":"indicating existence or availability","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":7916,"pole":"low","cluster":1,"mode":"referring to a single item or example","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":7916,"pole":"low","cluster":2,"mode":"referring to a superlative or most common item","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":7916,"pole":"low","cluster":3,"mode":"referring to a selection or group of items","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":7916,"pole":"low","cluster":4,"mode":"indicating a location or endpoint","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":7916,"pole":"low","cluster":5,"mode":"referring to a contrasting or alternative item","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":9168,"pole":"high","cluster":0,"mode":"assistant responding to user query","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":9168,"pole":"high","cluster":1,"mode":"referring to a user's query or statement","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":9168,"pole":"high","cluster":2,"mode":"providing advice or instructions","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":9168,"pole":"high","cluster":3,"mode":"first-person statement of intent or inquiry","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":9168,"pole":"high","cluster":4,"mode":"indicating existence or availability","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":9168,"pole":"high","cluster":5,"mode":"first-person statement of appreciation or action","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":9168,"pole":"high","cluster":6,"mode":"describing a positive experience or outcome","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":9168,"pole":"high","cluster":7,"mode":"expressing enthusiasm or positive affirmation","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":9168,"pole":"low","cluster":0,"mode":"referring to a part or component","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":9168,"pole":"low","cluster":1,"mode":"referring to a location or direction","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2859,"pole":"high","cluster":0,"mode":"indicating condition or circumstance","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":2859,"pole":"high","cluster":1,"mode":"referring to an unspecified outcome or situation","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":2859,"pole":"high","cluster":2,"mode":"referring to an unspecified outcome or situation","scene_windows":0,"windows":5,"scene":"dialogue, often in fiction"}
+{"neuron":2859,"pole":"high","cluster":3,"mode":"indicating a quantity or number","scene_windows":0,"windows":5,"scene":"question and answer, neutral"}
+{"neuron":2859,"pole":"high","cluster":4,"mode":"indicating condition or circumstance","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2859,"pole":"high","cluster":5,"mode":"indicating a conclusion or finality","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2859,"pole":"low","cluster":0,"mode":"indicating a specific type or category","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2859,"pole":"low","cluster":1,"mode":"referring to a geographical location or entity","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":9180,"pole":"high","cluster":0,"mode":"referring to past events or experiences","scene_windows":0,"windows":5,"scene":"narrative, often in fiction"}
+{"neuron":9180,"pole":"high","cluster":1,"mode":"referring to possible future outcomes or risks","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":9180,"pole":"low","cluster":0,"mode":"indicating a specific type or category","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":9180,"pole":"low","cluster":1,"mode":"referring to a geographical location or entity","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":9180,"pole":"low","cluster":2,"mode":"indicating a specific item or concept","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":262,"pole":"high","cluster":0,"mode":"providing contact information","scene_windows":0,"windows":5,"scene":"business contact details"}
+{"neuron":262,"pole":"high","cluster":1,"mode":"indicating a continuation or addition","scene_windows":0,"windows":5,"scene":"narrative, often in fiction"}
+{"neuron":262,"pole":"high","cluster":2,"mode":"user asking for more information","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":262,"pole":"high","cluster":3,"mode":"indicating a separator or transition","scene_windows":0,"windows":5,"scene":"narrative, often in fiction"}
+{"neuron":262,"pole":"high","cluster":4,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":262,"pole":"high","cluster":5,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"recipe instructions"}
+{"neuron":262,"pole":"high","cluster":6,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":262,"pole":"high","cluster":7,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":262,"pole":"high","cluster":8,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":262,"pole":"high","cluster":9,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":262,"pole":"high","cluster":10,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"technical description"}
+{"neuron":262,"pole":"high","cluster":11,"mode":"user asking for clarification or further information","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":262,"pole":"high","cluster":12,"mode":"indicating addition or inclusion","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":262,"pole":"high","cluster":13,"mode":"symbols used in text formatting, often for lists or separators","scene_windows":0,"windows":5,"scene":"text formatting and structure"}
+{"neuron":262,"pole":"high","cluster":14,"mode":"words indicating inclusion or emphasis, often in lists or comparisons","scene_windows":0,"windows":5,"scene":"listing and comparison"}
+{"neuron":262,"pole":"low","cluster":0,"mode":"indicating a specific point or reference","scene_windows":0,"windows":5,"scene":"legal or technical text"}
+{"neuron":262,"pole":"low","cluster":1,"mode":"referring to a geographical location or entity","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":262,"pole":"low","cluster":2,"mode":"indicating a specific item or concept","scene_windows":0,"windows":5,"scene":"neutral information exchange"}
+{"neuron":262,"pole":"low","cluster":3,"mode":"asking a question or seeking clarification","scene_windows":0,"windows":5,"scene":"user-assistant interaction"}
+{"neuron":262,"pole":"low","cluster":4,"mode":"referring to a historical period or origin","scene_windows":0,"windows":5,"scene":"neutral information"}
+{"neuron":262,"pole":"low","cluster":5,"mode":"indicating a time frame or duration","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":262,"pole":"low","cluster":6,"mode":"indicating a specific point or location","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":262,"pole":"low","cluster":7,"mode":"indicating a specific point or location","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":262,"pole":"low","cluster":8,"mode":"referring to a geographical location or entity","scene_windows":0,"windows":5,"scene":"neutral description"}

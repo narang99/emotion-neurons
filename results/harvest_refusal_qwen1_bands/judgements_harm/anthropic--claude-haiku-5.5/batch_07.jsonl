@@ -1,0 +1,68 @@
+{"neuron":1439,"pole":"high","cluster":0,"mode":"List items and the token just before withdrawal symptoms in medical info","scene_windows":0,"windows":5,"scene":"Medical information about alcohol withdrawal symptoms"}
+{"neuron":1439,"pole":"high","cluster":1,"mode":"Hedging and qualifying tokens in mid-sentence within discussion of rules or sleep","scene_windows":0,"windows":5,"scene":"Q&A about law, sleep, drugs history, and creative writing"}
+{"neuron":1439,"pole":"high","cluster":2,"mode":"Word 'just' in dialogue reassuring or downplaying feelings","scene_windows":0,"windows":5,"scene":"Emotional fiction with characters reassuring each other"}
+{"neuron":1439,"pole":"low","cluster":0,"mode":"Assistant turn-start tokens in Human/Assistant dialogue transcripts","scene_windows":0,"windows":5,"scene":"Neutral factual Q&A chat transcripts"}
+{"neuron":1439,"pole":"low","cluster":1,"mode":"Word 'just' or 'only' qualifying a noun or action in narrative","scene_windows":2,"windows":5,"scene":"Mixed narratives involving theft, killings, and advertising"}
+{"neuron":1439,"pole":"low","cluster":2,"mode":"Blank token inside code or quoted text, after 'then' or punctuation","scene_windows":0,"windows":5,"scene":"Shell script checking directory existence"}
+{"neuron":8373,"pole":"high","cluster":0,"mode":"Comparative 'less' describing lower quality or desirability","scene_windows":0,"windows":5,"scene":"Food, product, and process comparison explanations"}
+{"neuron":8373,"pole":"high","cluster":1,"mode":"Negation 'not' in evaluative judgments of practices","scene_windows":0,"windows":5,"scene":"Opinion discussions on diet, testing, and programming"}
+{"neuron":8373,"pole":"high","cluster":2,"mode":"Contraction 'n't' in emotional dialogue and narration","scene_windows":0,"windows":5,"scene":"Personal emotional fiction about relationships"}
+{"neuron":8373,"pole":"high","cluster":3,"mode":"Prefix 'uns' or 'un' splitting adjectives like unsatisfied","scene_windows":0,"windows":5,"scene":"Advertising, food safety, and spam email explanations"}
+{"neuron":8373,"pole":"high","cluster":4,"mode":"Restrictive 'only' limiting scope of a claim","scene_windows":0,"windows":5,"scene":"Informational text on corruption, routines, and plants"}
+{"neuron":8373,"pole":"high","cluster":5,"mode":"Sentence-internal words near clause ends in reflective prose","scene_windows":0,"windows":5,"scene":"Essays and advice on ethics, biotech, and fairy tales"}
+{"neuron":8373,"pole":"high","cluster":6,"mode":"Words 'lower' or 'reduced' describing negative health or social effects","scene_windows":0,"windows":5,"scene":"Articles on digital device use and health effects"}
+{"neuron":8373,"pole":"low","cluster":0,"mode":"Dialogue-opening 'No' answering a question in fiction","scene_windows":0,"windows":5,"scene":"Dialogue in everyday and fictional scenes"}
+{"neuron":8373,"pole":"low","cluster":1,"mode":"Restrictive 'only' limiting an action or effect","scene_windows":1,"windows":5,"scene":"Advertising, history, and a killer's crime narrative"}
+{"neuron":8373,"pole":"low","cluster":2,"mode":"Contraction 't' in negated narrative dialogue","scene_windows":0,"windows":5,"scene":"Fictional narration with negated verbs"}
+{"neuron":8373,"pole":"low","cluster":3,"mode":"Prefix 'un' or 'non' forming negated adjectives","scene_windows":0,"windows":5,"scene":"Descriptive and safety text on fire, religion, and harm"}
+{"neuron":8373,"pole":"low","cluster":4,"mode":"Negation 'not' qualifying a claim or property","scene_windows":0,"windows":5,"scene":"Business, craft, and technical descriptions"}
+{"neuron":8373,"pole":"low","cluster":5,"mode":"Prepositions or pronouns closing a phrase in narrative or instructions","scene_windows":0,"windows":5,"scene":"Historical, reflective, and procedural text"}
+{"neuron":8373,"pole":"low","cluster":6,"mode":"Verbs 'reducing' or 'reduces' stating a health or efficiency benefit","scene_windows":0,"windows":5,"scene":"Pet health, automation, and remedy descriptions"}
+{"neuron":8373,"pole":"low","cluster":7,"mode":"Adjective 'low' before a noun like cost or rate","scene_windows":0,"windows":5,"scene":"Military benefits, business, and food cost descriptions"}
+{"neuron":7222,"pole":"high","cluster":0,"mode":"Determiners 'are' or 'that' introducing a list of helpful strategies","scene_windows":0,"windows":5,"scene":"Advice answers on scarring, credit, and parking"}
+{"neuron":7222,"pole":"high","cluster":1,"mode":"Word 'Here' introducing a list of tips","scene_windows":0,"windows":5,"scene":"Assistant replies offering tips and guidelines"}
+{"neuron":7222,"pole":"low","cluster":0,"mode":"Prepositions 'in' or 'to' inside general explanatory sentences","scene_windows":0,"windows":5,"scene":"Neutral explanations on tipping, dogs, and fantasy"}
+{"neuron":7222,"pole":"low","cluster":1,"mode":"Pronoun 'you' after modal 'Can' in user questions","scene_windows":0,"windows":5,"scene":"User requests for help or explanations"}
+{"neuron":4394,"pole":"high","cluster":0,"mode":"Noun phrase continuation in general informational prose","scene_windows":0,"windows":5,"scene":"Environment, finance, and web scraping descriptions"}
+{"neuron":4394,"pole":"high","cluster":1,"mode":"Pronoun 'I' after 'but' in hedged assistant answers","scene_windows":0,"windows":5,"scene":"Assistant answers to everyday questions"}
+{"neuron":4394,"pole":"low","cluster":0,"mode":"Academic phrasing tokens in research summaries","scene_windows":0,"windows":5,"scene":"Nutrition and research literature summaries"}
+{"neuron":4394,"pole":"low","cluster":1,"mode":"Punctuation or quote marks opening speech in dialogue","scene_windows":0,"windows":5,"scene":"Tense dialogue with a senator and a scene"}
+{"neuron":8291,"pole":"high","cluster":0,"mode":"Question opener 'Can' after 'user:' label","scene_windows":0,"windows":5,"scene":"User requests following marketing and travel tips"}
+{"neuron":8291,"pole":"high","cluster":1,"mode":"Verb 'let' after negation or 'about to' in resolve statements","scene_windows":2,"windows":5,"scene":"Fiction with a heist, rebellion, and regulatory conflict"}
+{"neuron":8291,"pole":"high","cluster":2,"mode":"Noun 'time' in 'no time' urgency phrases","scene_windows":4,"windows":5,"scene":"Action scenes with soldiers, escape, and a demon fight"}
+{"neuron":8291,"pole":"high","cluster":3,"mode":"Modal or infinitive 'be/to/not' in emotional statements","scene_windows":0,"windows":5,"scene":"Emotional and descriptive fiction on love and burden"}
+{"neuron":8291,"pole":"high","cluster":4,"mode":"Phrase 'no way' expressing impossibility under threat","scene_windows":3,"windows":5,"scene":"Tense fights and dangerous situations with no escape"}
+{"neuron":8291,"pole":"low","cluster":0,"mode":"Sentence-initial 'No' or 'Nothing' in eerie narration","scene_windows":0,"windows":5,"scene":"Surreal or tense narration about dreams and crowds"}
+{"neuron":8291,"pole":"low","cluster":1,"mode":"Preposition 'without' before a risky or absent outcome","scene_windows":2,"windows":5,"scene":"Narratives about escapes, heists, and exhaustion"}
+{"neuron":8291,"pole":"low","cluster":2,"mode":"Preposition 'for' after waiting verbs","scene_windows":1,"windows":5,"scene":"Waiting in tense or anticipatory narration"}
+{"neuron":8291,"pole":"low","cluster":3,"mode":"Participle 'waiting' expressing suspense before an event","scene_windows":3,"windows":5,"scene":"Suspenseful scenes with threats and intruders"}
+{"neuron":8291,"pole":"low","cluster":4,"mode":"Verb 'prevent' in medical care advice","scene_windows":0,"windows":5,"scene":"Medical and plant care instructions"}
+{"neuron":8291,"pole":"low","cluster":5,"mode":"Infinitive 'to' or 'this' in neutral purpose statements","scene_windows":0,"windows":5,"scene":"Food safety, FEMA, and project descriptions"}
+{"neuron":8291,"pole":"low","cluster":6,"mode":"Preposition 'for' after checking or monitoring verbs","scene_windows":0,"windows":5,"scene":"Pet, medical, and technical check instructions"}
+{"neuron":5095,"pole":"high","cluster":0,"mode":"Prepositions and conjunctions in narrative or therapy descriptions","scene_windows":0,"windows":5,"scene":"Adventure and addiction recovery narratives"}
+{"neuron":5095,"pole":"high","cluster":1,"mode":"Unit 'g' after carb count in nutrition facts","scene_windows":0,"windows":5,"scene":"Recipe nutrition information sections"}
+{"neuron":5095,"pole":"low","cluster":0,"mode":"Contraction 'n' in negated first-person narration","scene_windows":2,"windows":5,"scene":"Tense first-person stories of trekking and danger"}
+{"neuron":5095,"pole":"low","cluster":1,"mode":"Pronoun 'I' describing AI nature in self-reference","scene_windows":0,"windows":5,"scene":"Chat questions about the assistant's nature"}
+{"neuron":5095,"pole":"low","cluster":2,"mode":"Conjunction 'but' introducing a contrast","scene_windows":0,"windows":5,"scene":"Military, religion, and narrative contrast sentences"}
+{"neuron":5095,"pole":"low","cluster":3,"mode":"Existential 'there' starting a factual claim","scene_windows":0,"windows":5,"scene":"Factual claims on scholars, birds, and NATO"}
+{"neuron":5095,"pole":"low","cluster":4,"mode":"Colon after 'Assistant' label in transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A transcripts"}
+{"neuron":5095,"pole":"low","cluster":5,"mode":"Conjunction 'and' joining two clauses in explanations","scene_windows":0,"windows":5,"scene":"Explanatory text on census, weapons testing, and history"}
+{"neuron":5095,"pole":"low","cluster":6,"mode":"Trailing space token ending a sentence","scene_windows":0,"windows":5,"scene":"Household, chemistry, and Q&A sentences"}
+{"neuron":5095,"pole":"low","cluster":7,"mode":"Preposition or adverb in descriptive academic sentences","scene_windows":0,"windows":5,"scene":"Descriptive prose on roads, sea, and democracy"}
+{"neuron":5095,"pole":"low","cluster":8,"mode":"Conjunction 'if' after 'even' in encouragement","scene_windows":0,"windows":5,"scene":"Career and reality TV encouragement advice"}
+{"neuron":9975,"pole":"high","cluster":0,"mode":"Colon after speaker label Human or user","scene_windows":0,"windows":5,"scene":"Multi-turn chats on cooking, finance, and mindfulness"}
+{"neuron":9975,"pole":"high","cluster":1,"mode":"Word 'there' after hedging or negative existence claims","scene_windows":0,"windows":5,"scene":"Health, politics, and evidence discussions"}
+{"neuron":9975,"pole":"high","cluster":2,"mode":"Words 'that' or 'some' introducing an argument or view","scene_windows":0,"windows":5,"scene":"Debates on abortion, tesla, and meditation"}
+{"neuron":9975,"pole":"high","cluster":3,"mode":"Colon after Assistant label starting a reply","scene_windows":0,"windows":5,"scene":"Chat answers on Ireland, CNN, and apps"}
+{"neuron":9975,"pole":"low","cluster":0,"mode":"Verbs 'be' or 'not' in hedged claims about supernatural beliefs","scene_windows":0,"windows":5,"scene":"Explanations on supernatural beliefs and locks"}
+{"neuron":9975,"pole":"low","cluster":1,"mode":"Apostrophe in negative contractions like don't","scene_windows":0,"windows":5,"scene":"Fictional dialogue and narration about relationships"}
+{"neuron":9787,"pole":"high","cluster":0,"mode":"Phrase 'a significant place' or 'hold' describing cultural importance","scene_windows":0,"windows":5,"scene":"Cultural descriptions of flowers, headdresses, and a club"}
+{"neuron":9787,"pole":"high","cluster":1,"mode":"Start of assistant reply to a factual history or religion question","scene_windows":0,"windows":5,"scene":"Benign Q&A about religious history and figures"}
+{"neuron":9787,"pole":"high","cluster":2,"mode":"Sentence-initial 'some/many' introducing contested viewpoints on a debated topic","scene_windows":0,"windows":5,"scene":"Expository discussion of abortion, coffee, and beliefs"}
+{"neuron":9787,"pole":"high","cluster":3,"mode":"Opening words of sentences describing a political or territorial conflict","scene_windows":0,"windows":5,"scene":"Encyclopedic accounts of Cyprus and Western Sahara disputes"}
+{"neuron":9787,"pole":"high","cluster":4,"mode":"Evaluative adjectives 'significant/important' in summaries of religious sites","scene_windows":0,"windows":5,"scene":"Descriptive overviews of Jerusalem religious landmarks"}
+{"neuron":9787,"pole":"high","cluster":5,"mode":"Prepositions and nouns in sentences on sacred sites and focal points","scene_windows":0,"windows":5,"scene":"Descriptive text on Temple Mount and religious symbols"}
+{"neuron":9787,"pole":"high","cluster":6,"mode":"'considered/believed' predicate after 'is' describing holy or notable sites","scene_windows":0,"windows":5,"scene":"Descriptive text on sacred places and holidays"}
+{"neuron":9787,"pole":"low","cluster":0,"mode":"Hedged claims and function words in research findings about memory and beliefs","scene_windows":0,"windows":5,"scene":"Explanatory text on face memory and supernatural beliefs"}
+{"neuron":9787,"pole":"low","cluster":1,"mode":"Function words mid-clause in neutral expository or narrative sentences","scene_windows":0,"windows":5,"scene":"Essays on festivals, weddings, existentialism, and fiction"}
+{"neuron":9787,"pole":"low","cluster":2,"mode":"Connectors and verbs in step-by-step advice about quitting habits","scene_windows":0,"windows":5,"scene":"Self-help advice on quitting vaping and nicotine"}

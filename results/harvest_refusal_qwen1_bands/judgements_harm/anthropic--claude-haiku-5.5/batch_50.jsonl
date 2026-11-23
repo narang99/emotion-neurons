@@ -1,0 +1,76 @@
+{"neuron":10141,"pole":"high","cluster":0,"mode":"Closing quotation mark after a character's name in biographical text","scene_windows":0,"windows":5,"scene":"Biographical prose about Frank Baum and his family"}
+{"neuron":10141,"pole":"high","cluster":1,"mode":"Ellipsis opening a line of dialogue in fiction","scene_windows":0,"windows":5,"scene":"Literary fiction dialogue, mostly mundane or sci-fi exchanges"}
+{"neuron":10141,"pole":"high","cluster":2,"mode":"Token right before an Assistant reply in Human/Assistant chats","scene_windows":0,"windows":5,"scene":"General Q&A chat, including a question on homemade liquor"}
+{"neuron":10141,"pole":"high","cluster":3,"mode":"Mid-sentence clause boundaries in formal expository prose","scene_windows":0,"windows":5,"scene":"Academic and historical expository writing"}
+{"neuron":10141,"pole":"high","cluster":4,"mode":"Periods ending fragmented sentences during a panicked moment","scene_windows":5,"windows":5,"scene":"Fiction: a violent attack and a character facing death"}
+{"neuron":10141,"pole":"high","cluster":5,"mode":"Period ending the final sentence before a news dateline","scene_windows":0,"windows":5,"scene":"Science news releases from Oregon State University"}
+{"neuron":10141,"pole":"high","cluster":6,"mode":"Sentence-final punctuation or space in informal or instructional text","scene_windows":1,"windows":5,"scene":"Mixed: a personal diary entry about overdose, plus tutorials and reviews"}
+{"neuron":10141,"pole":"low","cluster":0,"mode":"Question mark or period closing a user question before the assistant","scene_windows":0,"windows":5,"scene":"Everyday user-assistant Q&A exchanges"}
+{"neuron":10141,"pole":"low","cluster":1,"mode":"The word 'accessed' in web bibliography citations","scene_windows":0,"windows":5,"scene":"Academic reference lists for Civil War sources"}
+{"neuron":10141,"pole":"low","cluster":2,"mode":"Sentence-final period in encyclopedic or informational text","scene_windows":0,"windows":5,"scene":"Encyclopedic and informational writing"}
+{"neuron":10141,"pole":"low","cluster":3,"mode":"Comma after an author name in parenthetical citations","scene_windows":0,"windows":5,"scene":"Academic papers with author-year citations"}
+{"neuron":10141,"pole":"low","cluster":4,"mode":"Bracketed CFR section citation markers after regulatory text","scene_windows":0,"windows":5,"scene":"Federal regulations on blood and tissue donation"}
+{"neuron":10141,"pole":"low","cluster":5,"mode":"Page-number digit inside scholarly citations","scene_windows":0,"windows":5,"scene":"Historical citations to Civil War sources"}
+{"neuron":10141,"pole":"low","cluster":6,"mode":"Comma after a closing parenthesis in publication citations","scene_windows":0,"windows":5,"scene":"Bibliographies of Civil War history books"}
+{"neuron":10141,"pole":"low","cluster":7,"mode":"Double pipe table separators in nutrition tables","scene_windows":0,"windows":5,"scene":"Nutrition data tables with markup"}
+{"neuron":10141,"pole":"low","cluster":8,"mode":"'here' or 'website' before a URL in advisory text","scene_windows":0,"windows":5,"scene":"Health and safety info pointing to agency websites"}
+{"neuron":10141,"pole":"low","cluster":9,"mode":"Comma after publisher name in bibliographic entries","scene_windows":0,"windows":5,"scene":"Book reference lists in academic writing"}
+{"neuron":10141,"pole":"low","cluster":10,"mode":"Article 'the' or 'of' in mid-sentence narrative prose","scene_windows":0,"windows":5,"scene":"Science-fiction and literary narration"}
+{"neuron":10141,"pole":"low","cluster":11,"mode":"'until' in cooking instructions before a result","scene_windows":0,"windows":5,"scene":"Recipe instructions"}
+{"neuron":9708,"pole":"high","cluster":0,"mode":"Screenplay formatting tokens after scene headings and sentence ends","scene_windows":0,"windows":5,"scene":"Assistant-written screenplays: romance, Western, war"}
+{"neuron":9708,"pole":"high","cluster":1,"mode":"Prepositions and conjunctions mid-sentence in varied prose","scene_windows":1,"windows":5,"scene":"Mixed: news on laundering, art description, one burning-body fiction"}
+{"neuron":9708,"pole":"high","cluster":2,"mode":"Words 'showcase' and 'of' in e-commerce video examples","scene_windows":0,"windows":5,"scene":"Business marketing lists about videos on e-commerce sites"}
+{"neuron":9708,"pole":"low","cluster":0,"mode":"Prepositions and 'include' or 'results' in travel and general prose","scene_windows":0,"windows":5,"scene":"Travel suggestions, science and environment explainers"}
+{"neuron":9708,"pole":"low","cluster":1,"mode":"Time phrase 'about' or 'for' before cooking durations","scene_windows":0,"windows":5,"scene":"Cooking instructions with timings"}
+{"neuron":731,"pole":"high","cluster":0,"mode":"Middle of the college name 'Chattahoochee' in responses","scene_windows":0,"windows":5,"scene":"Chat about Chattahoochee Technical College"}
+{"neuron":731,"pole":"high","cluster":1,"mode":"'.com' inside image URLs of example photos","scene_windows":0,"windows":5,"scene":"Interior design advice with Pexels image links"}
+{"neuron":731,"pole":"high","cluster":2,"mode":"'.com' within YouTube video URLs","scene_windows":0,"windows":5,"scene":"How-to answers linking to demonstration videos"}
+{"neuron":731,"pole":"high","cluster":3,"mode":"Digits inside Pexels photo ID URLs","scene_windows":0,"windows":5,"scene":"Decor color-scheme answers with image links"}
+{"neuron":731,"pole":"high","cluster":4,"mode":"'examples' after 'just a few' in list summaries","scene_windows":0,"windows":5,"scene":"Assistant lists of apps, healthy snacks and businesses"}
+{"neuron":731,"pole":"high","cluster":5,"mode":"'hope' opening a closing remark in recipe or nutrition answers","scene_windows":0,"windows":5,"scene":"Nutrition and recipe answers closing with well-wishes"}
+{"neuron":731,"pole":"high","cluster":6,"mode":"'for' in the name 'Centers for Disease Control'","scene_windows":0,"windows":5,"scene":"Health information citing the CDC"}
+{"neuron":731,"pole":"high","cluster":7,"mode":"'just' in 'These are just a few examples' phrasing","scene_windows":0,"windows":5,"scene":"Assistant list-closing sentences about examples"}
+{"neuron":731,"pole":"high","cluster":8,"mode":"'.com' inside website domains in link lists","scene_windows":0,"windows":5,"scene":"Reddit, Yelp, Google+ and recipe site links"}
+{"neuron":731,"pole":"high","cluster":9,"mode":"Auxiliary verbs 'have', 'to', 'had' after a subject pronoun","scene_windows":0,"windows":5,"scene":"Mixed technical and narrative sentences"}
+{"neuron":731,"pole":"high","cluster":10,"mode":"'These' or 'are' starting 'just a few examples' sentences","scene_windows":0,"windows":5,"scene":"Assistant answers listing e-commerce and energy examples"}
+{"neuron":731,"pole":"high","cluster":11,"mode":"'few' in 'These are just a few examples' phrasing","scene_windows":0,"windows":5,"scene":"Assistant answers listing restaurants, apps and technologies"}
+{"neuron":731,"pole":"low","cluster":0,"mode":"Affirmative 'Yes' starting an assistant reply","scene_windows":0,"windows":5,"scene":"User requests for recipes, games, camera and SSH settings"}
+{"neuron":731,"pole":"low","cluster":1,"mode":"'Here' starting an assistant reply to a revision request","scene_windows":0,"windows":5,"scene":"Requests to revise poems, lists and suggestions"}
+{"neuron":731,"pole":"low","cluster":2,"mode":"'assistant' label starting a reply to a user request","scene_windows":0,"windows":5,"scene":"User asks for guides, playlists, recipes and books"}
+{"neuron":731,"pole":"low","cluster":3,"mode":"Comma after 'Sure' or 'Absolutely' opening an assistant reply","scene_windows":0,"windows":5,"scene":"Requests to add items to recipe, music and social lists"}
+{"neuron":731,"pole":"low","cluster":4,"mode":"'Certainly' or 'Absolutely' opening an assistant reply","scene_windows":0,"windows":5,"scene":"Requests for more examples, tips and yoga poses"}
+{"neuron":731,"pole":"low","cluster":5,"mode":"'Sure' opening an assistant reply to add-more requests","scene_windows":0,"windows":5,"scene":"Requests for extra tips, examples and calming tracks"}
+{"neuron":731,"pole":"low","cluster":6,"mode":"'you' after 'Can' in user requests for more information","scene_windows":0,"windows":5,"scene":"User questions asking for details, places and rates"}
+{"neuron":731,"pole":"low","cluster":7,"mode":"'I' after 'Sure,' opening an assistant reply","scene_windows":0,"windows":5,"scene":"Requests for yoga, NES games, party food and sides"}
+{"neuron":731,"pole":"low","cluster":8,"mode":"'have' after a first-person subject in dialogue or claims","scene_windows":1,"windows":5,"scene":"Mixed: delusional narrator, a threatening speech, guest talks"}
+{"neuron":731,"pole":"low","cluster":9,"mode":"Question mark or period closing a user request to the assistant","scene_windows":0,"windows":5,"scene":"User questions about teas, algorithms, nursery rhymes"}
+{"neuron":9013,"pole":"high","cluster":0,"mode":"The word 'first' in historical or narrative facts","scene_windows":0,"windows":5,"scene":"History and facts: assassination, eruption, TV series, video game"}
+{"neuron":9013,"pole":"high","cluster":1,"mode":"'after' starting a temporal clause in narrative","scene_windows":2,"windows":5,"scene":"Fiction: survival scramble, suicidal thoughts, gathering weapons"}
+{"neuron":9013,"pole":"high","cluster":2,"mode":"'took' and 'a' in phrases about time passing","scene_windows":0,"windows":5,"scene":"Narrative fiction about a waking man and a crisis"}
+{"neuron":9013,"pole":"high","cluster":3,"mode":"'a' after 'After' in time-passing phrases","scene_windows":0,"windows":5,"scene":"Fiction: pain and transformation, then passing days"}
+{"neuron":9013,"pole":"high","cluster":4,"mode":"Subject pronoun 'I' or 'he' starting a clause in action","scene_windows":2,"windows":5,"scene":"Fiction and confessions: buying cocaine, bugged room, shooting"}
+{"neuron":9013,"pole":"high","cluster":5,"mode":"Commas and nouns mid-sentence in technical or descriptive prose","scene_windows":1,"windows":5,"scene":"Mixed: garden care, rocket propellants, a meth drug-lord series"}
+{"neuron":9013,"pole":"high","cluster":6,"mode":"'which' or 'The' starting a clause after a comma","scene_windows":0,"windows":5,"scene":"Business, industry and editorial descriptions"}
+{"neuron":9013,"pole":"low","cluster":0,"mode":"'a' or 'finally' or 'day' in emotional or visa-milestone phrasing","scene_windows":1,"windows":5,"scene":"Visa-milestone text, fiction on a long-awaited moment"}
+{"neuron":9013,"pole":"low","cluster":1,"mode":"'step' used as a noun for a milestone or progress","scene_windows":0,"windows":5,"scene":"Science and business news about progress"}
+{"neuron":9013,"pole":"low","cluster":2,"mode":"'finally' as an adverb in dramatic dialogue","scene_windows":0,"windows":5,"scene":"Dramatic fiction with reveals and confrontations"}
+{"neuron":9013,"pole":"low","cluster":3,"mode":"Determiner or preposition mid-sentence in historical prose","scene_windows":0,"windows":5,"scene":"Historical and scientific expository text"}
+{"neuron":9013,"pole":"low","cluster":4,"mode":"'day' or 'moment' as a marked noun about an awaited event","scene_windows":1,"windows":5,"scene":"Fiction: impending death, engagement, a traumatic memory"}
+{"neuron":4284,"pole":"high","cluster":0,"mode":"'the' inside a character title or epithet name","scene_windows":0,"windows":5,"scene":"Fantasy and historical names like Suleyman the Magnificent"}
+{"neuron":4284,"pole":"high","cluster":1,"mode":"Direct address pronoun ending a dialogue clause","scene_windows":2,"windows":5,"scene":"Fiction dialogue: confrontations, a self-declared killer"}
+{"neuron":4284,"pole":"high","cluster":2,"mode":"'the' after a comma starting a new clause","scene_windows":0,"windows":5,"scene":"Health, science and descriptive prose"}
+{"neuron":4284,"pole":"high","cluster":3,"mode":"Preposition 'of' or 'in' inside formal explanations","scene_windows":0,"windows":5,"scene":"Educational explanations on speech, cities and calculus"}
+{"neuron":4284,"pole":"high","cluster":4,"mode":"'the' introducing an appositive clause in technical text","scene_windows":0,"windows":5,"scene":"Technical and historical descriptions of systems and laws"}
+{"neuron":4284,"pole":"high","cluster":5,"mode":"'the' before a superlative or 'whole' in narrative","scene_windows":0,"windows":5,"scene":"Narrative fiction and recipe-style storytelling"}
+{"neuron":4284,"pole":"high","cluster":6,"mode":"Sentence-initial 'The' starting a new paragraph","scene_windows":0,"windows":5,"scene":"Scientific, medical and historical factual paragraphs"}
+{"neuron":4284,"pole":"high","cluster":7,"mode":"Sentence-initial \"The\" starting a new narrative sentence in fiction","scene_windows":2,"windows":5,"scene":"Fictional narratives with fire, panic, and eerie or unsettling moments"}
+{"neuron":4284,"pole":"low","cluster":0,"mode":"\"Video\" token in discussions of video games","scene_windows":0,"windows":5,"scene":"Casual chat about video games and gaming habits"}
+{"neuron":4284,"pole":"low","cluster":1,"mode":"\"the\" before nouns like military, tire, American West, scale","scene_windows":0,"windows":5,"scene":"Informational text on careers, tires, history, and music theory"}
+{"neuron":4284,"pole":"low","cluster":2,"mode":"\"social\" in social media marketing phrases","scene_windows":0,"windows":5,"scene":"Business and marketing advice about social media strategy"}
+{"neuron":6724,"pole":"high","cluster":0,"mode":"\"Human:\" turn marker beginning a new user question","scene_windows":0,"windows":5,"scene":"Everyday Q&A on film school, wildfires, startups, mythology"}
+{"neuron":6724,"pole":"high","cluster":1,"mode":"\"out\" in \"reach out\" to trusted people for support","scene_windows":0,"windows":5,"scene":"Supportive assistant replies urging users to seek help from others"}
+{"neuron":6724,"pole":"high","cluster":2,"mode":"\"urgent\" in mental health crisis referral disclaimers","scene_windows":0,"windows":5,"scene":"Standard safety disclaimers directing distressed users to crisis help"}
+{"neuron":6724,"pole":"high","cluster":3,"mode":"\"to\" preceding an action verb like take action or learn","scene_windows":0,"windows":5,"scene":"Motivational and business advice about goals, education, and persistence"}
+{"neuron":6724,"pole":"high","cluster":4,"mode":"\"you\" or \"or\" in conditional crisis-support phrases about suicide","scene_windows":4,"windows":5,"scene":"Replies addressing suicidal feelings, emotional crisis, and immediate danger"}
+{"neuron":6724,"pole":"low","cluster":0,"mode":"Connective or infinitive word in advice about habits and learning","scene_windows":0,"windows":5,"scene":"Practical advice on language learning, productivity, and marketing"}
+{"neuron":6724,"pole":"low","cluster":1,"mode":"Contraction \"'t\" in a translation help request","scene_windows":0,"windows":5,"scene":"User asking for help translating a foreign news article"}

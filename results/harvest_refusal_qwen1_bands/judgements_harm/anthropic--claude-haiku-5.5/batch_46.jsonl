@@ -1,0 +1,61 @@
+{"neuron":7806,"pole":"high","cluster":0,"mode":"Conjunctions and prepositions inside descriptive lists of features","scene_windows":0,"windows":5,"scene":"Everyday informational or product-style descriptive writing"}
+{"neuron":7806,"pole":"high","cluster":1,"mode":"Blank spacing and numeric cells in planetary data tables","scene_windows":0,"windows":5,"scene":"Tabular astronomy reference data"}
+{"neuron":7806,"pole":"low","cluster":0,"mode":"Height figures in physical descriptions of victims and suspects","scene_windows":4,"windows":5,"scene":"Police appeals describing victims or suspects; one athlete profile"}
+{"neuron":7806,"pole":"low","cluster":1,"mode":"The word 'tall' describing a character's build in fiction","scene_windows":0,"windows":5,"scene":"Western fiction describing a sheriff and a saloon figure"}
+{"neuron":7806,"pole":"low","cluster":2,"mode":"The word 'measure' in how-to instructions","scene_windows":0,"windows":5,"scene":"Instructional text on measuring sizes and dimensions"}
+{"neuron":7806,"pole":"low","cluster":3,"mode":"Numeric values inside measurement units and dimensions","scene_windows":0,"windows":5,"scene":"Technical and reference text giving sizes and gauges"}
+{"neuron":7806,"pole":"low","cluster":4,"mode":"Tokens inside a chat answer about average male height","scene_windows":0,"windows":5,"scene":"Human-assistant chat about average height statistics"}
+{"neuron":7806,"pole":"low","cluster":5,"mode":"Generic mid-sentence function words in informational prose","scene_windows":0,"windows":5,"scene":"Explanatory text on design, installation, and learning"}
+{"neuron":7806,"pole":"low","cluster":6,"mode":"The word 'size' after 'vary in' or 'the size of'","scene_windows":0,"windows":5,"scene":"Comparisons of sizes across animals, watches, and breeds"}
+{"neuron":2348,"pole":"high","cluster":0,"mode":"Phrases about nutrient intake and drawbacks in diet discussion","scene_windows":0,"windows":5,"scene":"Health advice on vegetarian diet drawbacks"}
+{"neuron":2348,"pole":"high","cluster":1,"mode":"The word 'regular' in lifestyle and healthy habit advice","scene_windows":0,"windows":5,"scene":"Advice on exercise, diet, and moderation"}
+{"neuron":2348,"pole":"high","cluster":2,"mode":"Mid-phrase prepositions and determiners in mixed general prose","scene_windows":0,"windows":5,"scene":"Plumbing, activism, kitchen tools, and narrative text"}
+{"neuron":2348,"pole":"high","cluster":3,"mode":"List commas and 'and' linking foods in healthy-eating advice","scene_windows":0,"windows":5,"scene":"Nutrition and diet recommendations"}
+{"neuron":2348,"pole":"low","cluster":0,"mode":"The subword 'grat' inside 'delaying gratification'","scene_windows":0,"windows":5,"scene":"Self-help advice on budgeting and impulse control"}
+{"neuron":2348,"pole":"low","cluster":1,"mode":"Article or 'treat' phrases praising a dish or snack","scene_windows":0,"windows":5,"scene":"Recipe and vegan food recommendations"}
+{"neuron":2348,"pole":"low","cluster":2,"mode":"The word 'Enjoy' closing a recipe's instructions","scene_windows":0,"windows":5,"scene":"Cooking recipe final serving instructions"}
+{"neuron":574,"pole":"high","cluster":0,"mode":"Modal and infinitive verbs about what people should be allowed","scene_windows":0,"windows":5,"scene":"Fiction about pocket dimensions and support for disabled children"}
+{"neuron":574,"pole":"high","cluster":1,"mode":"Words after 'separate you' or 'away from' about loved ones","scene_windows":0,"windows":5,"scene":"Advice on military careers and family separation"}
+{"neuron":574,"pole":"low","cluster":0,"mode":"The particle 'up' in 'wake up at the same time'","scene_windows":0,"windows":5,"scene":"Sleep routine advice"}
+{"neuron":574,"pole":"low","cluster":1,"mode":"The verb 'recommend' after 'I'd' or 'I would'","scene_windows":0,"windows":5,"scene":"Advice on buying food, monitors, and dates"}
+{"neuron":574,"pole":"low","cluster":2,"mode":"Function words after 'serving as' or 'the importance of'","scene_windows":0,"windows":5,"scene":"Essays on culture, tools, and graffiti"}
+{"neuron":574,"pole":"low","cluster":3,"mode":"The word 'is' or 'was' in general factual statements","scene_windows":0,"windows":5,"scene":"Encyclopedic and factual explanations"}
+{"neuron":1808,"pole":"high","cluster":0,"mode":"Copular and modal verbs following a subject noun","scene_windows":0,"windows":5,"scene":"Descriptive facts about people, animals, and places"}
+{"neuron":1808,"pole":"high","cluster":1,"mode":"The word 'your' or 'is' in a list of favorite-thing questions","scene_windows":0,"windows":5,"scene":"Lists of quiz questions about favorites"}
+{"neuron":1808,"pole":"low","cluster":0,"mode":"The word 'Hope' opening a closing remark","scene_windows":0,"windows":5,"scene":"Assistant sign-offs saying hope it helps"}
+{"neuron":1808,"pole":"low","cluster":1,"mode":"Verbs 'played' or 'playing' describing a hockey career","scene_windows":0,"windows":5,"scene":"Sports career biography of a hockey player"}
+{"neuron":1808,"pole":"low","cluster":2,"mode":"Articles and verbs in neutral historical or literary prose","scene_windows":0,"windows":5,"scene":"Historical and biographical writing"}
+{"neuron":1808,"pole":"low","cluster":3,"mode":"Passive verbs 'created', 'directed', 'written' in film and book facts","scene_windows":0,"windows":5,"scene":"Facts about TV shows, films, and books"}
+{"neuron":6110,"pole":"high","cluster":0,"mode":"The word 'stress' in wellness and mental health contexts","scene_windows":0,"windows":5,"scene":"Wellness, stress management, and design project text"}
+{"neuron":6110,"pole":"high","cluster":1,"mode":"'We' or 'are' in a sentence about constant busyness and burnout","scene_windows":0,"windows":5,"scene":"Essay on meditation and modern busyness"}
+{"neuron":6110,"pole":"high","cluster":2,"mode":"The word 'build-up' or 'buildup' in cleaning advice","scene_windows":0,"windows":5,"scene":"Household cleaning and veterinary tartar removal"}
+{"neuron":6110,"pole":"high","cluster":3,"mode":"The word 'easy' in 'it's very easy to' phrases","scene_windows":0,"windows":5,"scene":"Advice on moving, tents, and packing"}
+{"neuron":6110,"pole":"high","cluster":4,"mode":"Punctuation closing clauses about social systems and pollution","scene_windows":0,"windows":5,"scene":"Essays on pollution, systemic issues, and printing"}
+{"neuron":6110,"pole":"high","cluster":5,"mode":"The modal 'can' describing possible harm or wear","scene_windows":0,"windows":5,"scene":"Advice on car care, clothing storage, and wound care"}
+{"neuron":6110,"pole":"low","cluster":0,"mode":"Copular and modal verbs in descriptions of waste and hazards","scene_windows":1,"windows":5,"scene":"Waste treatment, pest control, and survival-preparation text"}
+{"neuron":6110,"pole":"low","cluster":1,"mode":"The colon after 'Assistant' before a chat reply","scene_windows":0,"windows":5,"scene":"Human-assistant chats on yogurt, data, and fitness devices"}
+{"neuron":10128,"pole":"high","cluster":0,"mode":"Sentence-ending or linking tokens in science and health text","scene_windows":0,"windows":5,"scene":"Medical research, prosthetics, and remedies"}
+{"neuron":10128,"pole":"high","cluster":1,"mode":"Question openers asking the reader's opinion or favorites","scene_windows":0,"windows":5,"scene":"Casual chat asking what the other person thinks"}
+{"neuron":10128,"pole":"low","cluster":0,"mode":"Modal or pronoun tokens in polite assistant offers and closings","scene_windows":0,"windows":5,"scene":"Business and advice chats with polite assistant replies"}
+{"neuron":10128,"pole":"low","cluster":1,"mode":"The word 'let' in 'please let me know' closings","scene_windows":0,"windows":5,"scene":"Assistant follow-up offers after corrections"}
+{"neuron":7206,"pole":"high","cluster":0,"mode":"Sentence-internal punctuation in encyclopedic factual statements","scene_windows":0,"windows":5,"scene":"Historical art, fish, and drinks encyclopedia text"}
+{"neuron":7206,"pole":"high","cluster":1,"mode":"The word 'to' after 'happy' or 'here' in assistant replies","scene_windows":0,"windows":5,"scene":"Assistant closing replies offering further help"}
+{"neuron":7206,"pole":"low","cluster":0,"mode":"The filler 'Hmm' starting an assistant answer","scene_windows":0,"windows":5,"scene":"Human-assistant Q&A on recipes and careers"}
+{"neuron":7206,"pole":"low","cluster":1,"mode":"Hedging verbs 'seems', 'appear', 'seem' about evidence","scene_windows":0,"windows":5,"scene":"Discussion of history, bacon, and folklore claims"}
+{"neuron":7206,"pole":"low","cluster":2,"mode":"The word 'think' after 'I' in assistant opinion answers","scene_windows":0,"windows":5,"scene":"Advice on emergency kits, software, and moving"}
+{"neuron":7206,"pole":"low","cluster":3,"mode":"The sentence-opening filler 'Well' in assistant replies","scene_windows":0,"windows":5,"scene":"Human-assistant questions on music, décor, and currency"}
+{"neuron":7206,"pole":"low","cluster":4,"mode":"Evaluative adjectives 'great', 'good', 'helpful' in advice","scene_windows":0,"windows":5,"scene":"Lists of suggestions for language, music, and cooking"}
+{"neuron":7206,"pole":"low","cluster":5,"mode":"Exclamation marks ending short emotional exclamations","scene_windows":0,"windows":5,"scene":"Fiction dialogue and chat exclamations"}
+{"neuron":4766,"pole":"high","cluster":0,"mode":"Blank token after chapter-verse numerals in citations","scene_windows":0,"windows":5,"scene":"Scholarly religious law and scripture references"}
+{"neuron":4766,"pole":"high","cluster":1,"mode":"The word 'lonely' inside a repeated song chorus","scene_windows":0,"windows":5,"scene":"Song lyrics about lonely people"}
+{"neuron":4766,"pole":"high","cluster":2,"mode":"The speaker label 'Assistant' after a user thanks","scene_windows":0,"windows":5,"scene":"Chat replies answering thanks"}
+{"neuron":4766,"pole":"high","cluster":3,"mode":"The adjective 'friendly' describing a warm personality","scene_windows":0,"windows":5,"scene":"Descriptions of friendly people and conversations"}
+{"neuron":4766,"pole":"high","cluster":4,"mode":"The word 'oral' in medical treatment and vaccine text","scene_windows":0,"windows":5,"scene":"Medical drug and vaccine information"}
+{"neuron":4766,"pole":"high","cluster":5,"mode":"The word 'mouth' describing a character's facial expression","scene_windows":0,"windows":5,"scene":"Fiction describing characters' reactions and expressions"}
+{"neuron":4766,"pole":"high","cluster":6,"mode":"The given name 'Larry' before a surname","scene_windows":0,"windows":5,"scene":"Book, film, and band references naming people"}
+{"neuron":4766,"pole":"high","cluster":7,"mode":"Middle initial 'L' after a first name in citations","scene_windows":0,"windows":5,"scene":"Bibliographies and reference lists of authors"}
+{"neuron":4766,"pole":"high","cluster":8,"mode":"'You' opening a 'you're welcome' reply","scene_windows":0,"windows":5,"scene":"Chat replies to thanks"}
+{"neuron":4766,"pole":"high","cluster":9,"mode":"'You' or 'the' starting advice clauses","scene_windows":0,"windows":5,"scene":"Advice on email marketing, silverware, and music history"}
+{"neuron":4766,"pole":"high","cluster":10,"mode":"The name 'Gary' as a character in action","scene_windows":2,"windows":5,"scene":"Action adventure with a balloon escape and fight on trains"}
+{"neuron":4766,"pole":"low","cluster":0,"mode":"Content nouns and modifiers in product and strategy descriptions","scene_windows":0,"windows":5,"scene":"Bike locks, Roman generals, and dog personalities"}
+{"neuron":4766,"pole":"low","cluster":1,"mode":"'With' or 'and' linking physical features in character descriptions","scene_windows":1,"windows":5,"scene":"Fantasy and western character descriptions with weapons or monsters"}

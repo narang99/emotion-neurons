@@ -1,0 +1,73 @@
+{"neuron":1535,"pole":"high","cluster":0,"mode":"seeking information or a way to return home","scene_windows":0,"windows":5,"scene":"searching for a way home"}
+{"neuron":1535,"pole":"high","cluster":1,"mode":"seeking answers or truth through exploration","scene_windows":0,"windows":5,"scene":"searching for answers"}
+{"neuron":1535,"pole":"low","cluster":0,"mode":"sitting or resting in a location","scene_windows":0,"windows":5,"scene":"sitting down and resting"}
+{"neuron":1535,"pole":"low","cluster":1,"mode":"the existence or appearance of something","scene_windows":0,"windows":5,"scene":"presence of waste"}
+{"neuron":1535,"pole":"low","cluster":2,"mode":"describing a visual or sensory experience","scene_windows":0,"windows":5,"scene":"eerie glow"}
+{"neuron":1535,"pole":"low","cluster":3,"mode":"expressing negative emotion or reaction","scene_windows":0,"windows":5,"scene":"disgust and rude gesture"}
+{"neuron":5807,"pole":"high","cluster":0,"mode":"providing information or context","scene_windows":0,"windows":5,"scene":"according to sources"}
+{"neuron":5807,"pole":"high","cluster":1,"mode":"referring to someone by a name or title","scene_windows":0,"windows":5,"scene":"as they were known"}
+{"neuron":5807,"pole":"high","cluster":2,"mode":"assistant responding to a user's question","scene_windows":0,"windows":5,"scene":"assistant answering questions"}
+{"neuron":5807,"pole":"high","cluster":3,"mode":"presenting differing viewpoints or options","scene_windows":0,"windows":5,"scene":"some people believe"}
+{"neuron":5807,"pole":"high","cluster":4,"mode":"describing claims or accusations","scene_windows":0,"windows":5,"scene":"protesting what they claimed"}
+{"neuron":5807,"pole":"high","cluster":5,"mode":"reporting events or incidents","scene_windows":0,"windows":5,"scene":"according to police"}
+{"neuron":5807,"pole":"high","cluster":6,"mode":"ending a sentence or statement","scene_windows":0,"windows":5,"scene":"ending a statement"}
+{"neuron":5807,"pole":"high","cluster":7,"mode":"indicating direction or relationship","scene_windows":0,"windows":5,"scene":"focus on policy"}
+{"neuron":5807,"pole":"high","cluster":8,"mode":"referring to a specific entity or subject","scene_windows":0,"windows":5,"scene":"the controversy sparked"}
+{"neuron":5807,"pole":"low","cluster":0,"mode":"indicating a relationship or state of being","scene_windows":0,"windows":5,"scene":"is likely to push"}
+{"neuron":5807,"pole":"low","cluster":1,"mode":"referring to experts or authorities","scene_windows":0,"windows":5,"scene":"modern critics agree"}
+{"neuron":5807,"pole":"low","cluster":2,"mode":"comparing quantities or values","scene_windows":0,"windows":5,"scene":"compared to a year"}
+{"neuron":5807,"pole":"low","cluster":3,"mode":"ending a sentence or statement","scene_windows":0,"windows":5,"scene":"ending a statement"}
+{"neuron":5807,"pole":"low","cluster":4,"mode":"listing names or entities","scene_windows":0,"windows":5,"scene":"listing names"}
+{"neuron":5807,"pole":"low","cluster":5,"mode":"indicating a time period or quantity","scene_windows":0,"windows":5,"scene":"in the first quarter"}
+{"neuron":5807,"pole":"low","cluster":6,"mode":"listing names or entities","scene_windows":0,"windows":5,"scene":"listing names"}
+{"neuron":5807,"pole":"low","cluster":7,"mode":"ending a sentence or statement","scene_windows":0,"windows":5,"scene":"ending a sentence"}
+{"neuron":5158,"pole":"high","cluster":0,"mode":"describing colors of objects or features","scene_windows":0,"windows":5,"scene":"describing colors"}
+{"neuron":5158,"pole":"high","cluster":1,"mode":"asking for clarification or information","scene_windows":0,"windows":5,"scene":"asking for clarification"}
+{"neuron":5158,"pole":"high","cluster":2,"mode":"assistant responding to user queries","scene_windows":0,"windows":5,"scene":"assistant responding to user"}
+{"neuron":5158,"pole":"high","cluster":3,"mode":"assistant responding to user queries","scene_windows":0,"windows":5,"scene":"assistant responding to user"}
+{"neuron":5158,"pole":"high","cluster":4,"mode":"indicating relationship or context","scene_windows":0,"windows":5,"scene":"on the topic of"}
+{"neuron":5158,"pole":"high","cluster":5,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"dialogue with quotation marks"}
+{"neuron":5158,"pole":"low","cluster":0,"mode":"indicating possession or relationship","scene_windows":0,"windows":5,"scene":"of decaying leaves"}
+{"neuron":5158,"pole":"low","cluster":1,"mode":"referring to parts of speech","scene_windows":0,"windows":5,"scene":"nouns, verbs"}
+{"neuron":2040,"pole":"high","cluster":0,"mode":"assistant provides examples of a concept or request from the user","scene_windows":0,"windows":5,"scene":"user asks for examples"}
+{"neuron":2040,"pole":"high","cluster":1,"mode":"assistant provides examples of a concept or request from the user","scene_windows":0,"windows":5,"scene":"user asks for examples"}
+{"neuron":2040,"pole":"high","cluster":2,"mode":"describing array dimensions and lengths in code examples","scene_windows":0,"windows":5,"scene":"code explanation"}
+{"neuron":2040,"pole":"high","cluster":3,"mode":"code snippets with attributes and styles","scene_windows":0,"windows":5,"scene":"code snippets"}
+{"neuron":2040,"pole":"high","cluster":4,"mode":"discussing topics with examples or providing information","scene_windows":0,"windows":5,"scene":"information exchange"}
+{"neuron":2040,"pole":"high","cluster":5,"mode":"code snippets demonstrating functionality or usage","scene_windows":0,"windows":5,"scene":"code examples"}
+{"neuron":2040,"pole":"low","cluster":0,"mode":"user asks for a story or narrative about a specific topic","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":2040,"pole":"low","cluster":1,"mode":"user asks for a passage in a specific language or about a specific action","scene_windows":0,"windows":5,"scene":"language and action prompt"}
+{"neuron":8975,"pole":"low","cluster":0,"mode":"yielding to traffic or other vehicles","scene_windows":0,"windows":5,"scene":"yielding to traffic"}
+{"neuron":8975,"pole":"low","cluster":1,"mode":"awareness of other drivers or people","scene_windows":0,"windows":5,"scene":"awareness of other drivers"}
+{"neuron":8975,"pole":"low","cluster":2,"mode":"describing interactions or relationships","scene_windows":0,"windows":5,"scene":"interactions and competition"}
+{"neuron":8975,"pole":"low","cluster":3,"mode":"describing actions or interactions with animals","scene_windows":0,"windows":5,"scene":"interacting with bears"}
+{"neuron":818,"pole":"high","cluster":0,"mode":"describing positive attributes or qualities","scene_windows":0,"windows":5,"scene":"good monitor, creative business"}
+{"neuron":818,"pole":"high","cluster":1,"mode":"referring to specific dietary choices","scene_windows":0,"windows":5,"scene":"vegan and vegetarian options"}
+{"neuron":818,"pole":"low","cluster":0,"mode":"using quotation marks for dialogue","scene_windows":0,"windows":5,"scene":"dialogue with quotation marks"}
+{"neuron":818,"pole":"low","cluster":1,"mode":"referring to locations or areas","scene_windows":0,"windows":5,"scene":"new home area"}
+{"neuron":818,"pole":"low","cluster":2,"mode":"ending a sentence or statement","scene_windows":0,"windows":5,"scene":"ending a statement"}
+{"neuron":818,"pole":"low","cluster":3,"mode":"ending a sentence or statement","scene_windows":0,"windows":5,"scene":"ending a sentence"}
+{"neuron":818,"pole":"low","cluster":4,"mode":"ending a sentence or statement","scene_windows":0,"windows":5,"scene":"ending a sentence"}
+{"neuron":818,"pole":"low","cluster":5,"mode":"ending a sentence or statement","scene_windows":0,"windows":5,"scene":"ending a sentence"}
+{"neuron":890,"pole":"high","cluster":0,"mode":"indicating a concluding point or statement","scene_windows":0,"windows":5,"scene":"finally, a concluding point"}
+{"neuron":890,"pole":"high","cluster":1,"mode":"connecting related items or actions","scene_windows":0,"windows":5,"scene":"and connecting actions"}
+{"neuron":890,"pole":"high","cluster":2,"mode":"listing recommendations or steps","scene_windows":0,"windows":5,"scene":"listing recommendations"}
+{"neuron":890,"pole":"low","cluster":0,"mode":"asking for more information or recipes","scene_windows":0,"windows":5,"scene":"asking for recipes"}
+{"neuron":890,"pole":"low","cluster":1,"mode":"providing introductory information or guidelines","scene_windows":0,"windows":5,"scene":"here are guidelines"}
+{"neuron":890,"pole":"low","cluster":2,"mode":"listing items or questions","scene_windows":0,"windows":5,"scene":"listing questions"}
+{"neuron":890,"pole":"low","cluster":3,"mode":"connecting related items or actions","scene_windows":0,"windows":5,"scene":"teamwork and engagement"}
+{"neuron":890,"pole":"low","cluster":4,"mode":"adding further information or details","scene_windows":0,"windows":5,"scene":"additionally, further details"}
+{"neuron":4476,"pole":"high","cluster":0,"mode":"requesting additional information or details","scene_windows":0,"windows":5,"scene":"requesting more details"}
+{"neuron":4476,"pole":"high","cluster":1,"mode":"providing examples or suggestions","scene_windows":0,"windows":5,"scene":"for example, color palettes"}
+{"neuron":4476,"pole":"high","cluster":2,"mode":"listing food items or dishes","scene_windows":0,"windows":5,"scene":"listing food items"}
+{"neuron":4476,"pole":"high","cluster":3,"mode":"providing examples or lists","scene_windows":0,"windows":5,"scene":"providing examples"}
+{"neuron":4476,"pole":"high","cluster":4,"mode":"summarizing or paraphrasing information","scene_windows":0,"windows":5,"scene":"summarizing an article"}
+{"neuron":4476,"pole":"high","cluster":5,"mode":"indicating consequence or result","scene_windows":0,"windows":5,"scene":"so, a consequence"}
+{"neuron":4476,"pole":"high","cluster":6,"mode":"assistant providing a summary or answer","scene_windows":0,"windows":5,"scene":"assistant summarizing"}
+{"neuron":4476,"pole":"high","cluster":7,"mode":"assistant providing specific information","scene_windows":0,"windows":5,"scene":"assistant providing details"}
+{"neuron":4476,"pole":"high","cluster":8,"mode":"providing examples or suggestions","scene_windows":0,"windows":5,"scene":"for example, marketing"}
+{"neuron":4476,"pole":"high","cluster":9,"mode":"listing benefits or outcomes","scene_windows":0,"windows":5,"scene":"listing benefits"}
+{"neuron":4476,"pole":"high","cluster":10,"mode":"indicating a relationship or state","scene_windows":0,"windows":5,"scene":"a 1-in-100-year event"}
+{"neuron":4476,"pole":"high","cluster":11,"mode":"explaining implications or meanings","scene_windows":0,"windows":5,"scene":"this means implications"}
+{"neuron":4476,"pole":"low","cluster":0,"mode":"indicating importance or necessity","scene_windows":0,"windows":5,"scene":"important for planting"}
+{"neuron":4476,"pole":"low","cluster":1,"mode":"indicating a time frame before an event","scene_windows":0,"windows":5,"scene":"weeks before the event"}

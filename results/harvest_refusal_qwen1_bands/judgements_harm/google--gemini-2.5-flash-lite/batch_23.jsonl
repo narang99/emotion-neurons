@@ -1,0 +1,70 @@
+{"neuron":6081,"pole":"high","cluster":0,"mode":"ways, some, few, other, variety, details, benefits, information","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":6081,"pole":"high","cluster":1,"mode":"other, additional, common, details, information, factors","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":6081,"pole":"low","cluster":0,"mode":"here are, tips, steps, basic, general","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":1,"mode":"here are, tips, general, possible, approaches","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":2,"mode":"steps, basic, general","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":3,"mode":"assistant, general, tips","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":4,"mode":"assistant, general, tips","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":5,"mode":"here are, some, tips, general","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":6,"mode":"incorporate, delegating, use, invite, gratitude","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":7,"mode":"tips, planning, practicing, packing, moving","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":8,"mode":"tips, user experience, protect, strengthen, management","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":9,"mode":"practice, save, healthy, difficult, aware","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":10,"mode":"you, do, if","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":11,"mode":"strategies, techniques, tactics, recommendations","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":6081,"pole":"low","cluster":12,"mode":"be, is","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":9577,"pole":"high","cluster":0,"mode":"stop, prevent, counter","scene_windows":0,"windows":5,"scene":"neutral, instructional"}
+{"neuron":9577,"pole":"high","cluster":1,"mode":"for, center","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9577,"pole":"high","cluster":2,"mode":"prevention, preventing, prevent","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9577,"pole":"high","cluster":3,"mode":"don't, do","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9577,"pole":"high","cluster":4,"mode":"of, on","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9577,"pole":"high","cluster":5,"mode":"because","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":9577,"pole":"low","cluster":0,"mode":"out, dis, in","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":9577,"pole":"low","cluster":1,"mode":"n't, did","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":10850,"pole":"high","cluster":0,"mode":"a, is","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":1,"mode":"other, educational, factors","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":2,"mode":"an, a, is","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":3,"mode":"system, program, software","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":4,"mode":"assistant","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":5,"mode":"to, can","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":6,"mode":"family, operation, retailer, network","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":7,"mode":"do, can","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"high","cluster":8,"mode":"the, a","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":0,"mode":"is, a","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":1,"mode":"are, tonal","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":2,"mode":"explain","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":3,"mode":"you, can","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":4,"mode":"give","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":5,"mode":"serious, business","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":10850,"pole":"low","cluster":6,"mode":"these, gratitude","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":7,"mode":"what, rhymes","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":8,"mode":"0","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":9,"mode":"0","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":10,"mode":"tears, lichen, quiet, silence","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":10850,"pole":"low","cluster":11,"mode":"of, the, with, in, project","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10850,"pole":"low","cluster":12,"mode":"general notes about units of measurement and their usage","scene_windows":0,"windows":5,"scene":"general notes about units"}
+{"neuron":9006,"pole":"high","cluster":0,"mode":"learn, learning, help","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9006,"pole":"high","cluster":1,"mode":"a, the, to","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":9006,"pole":"high","cluster":2,"mode":"begin, start","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":9006,"pole":"low","cluster":0,"mode":"3, the","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":9006,"pole":"low","cluster":1,"mode":"unk, thunk, eep, ack, ping","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":8660,"pole":"high","cluster":0,"mode":"and, should, low","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8660,"pole":"high","cluster":1,"mode":"are, you, your, the","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":8660,"pole":"low","cluster":0,"mode":"door, opens","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":8660,"pole":"low","cluster":1,"mode":"hands, fingers","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":8660,"pole":"low","cluster":2,"mode":"window","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":8660,"pole":"low","cluster":3,"mode":"assistant","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8660,"pole":"low","cluster":4,"mode":"in, and","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8660,"pole":"low","cluster":5,"mode":"safe, job, fate","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":7672,"pole":"high","cluster":0,"mode":"even, then","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":7672,"pole":"high","cluster":1,"mode":"know, ?, you","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7672,"pole":"high","cluster":2,"mode":"do, have","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7672,"pole":"high","cluster":3,"mode":"though, you, when","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":7672,"pole":"high","cluster":4,"mode":"despite","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":7672,"pole":"low","cluster":0,"mode":"never","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":7672,"pole":"low","cluster":1,"mode":"did","scene_windows":0,"windows":5,"scene":"neutral, descriptive"}
+{"neuron":7672,"pole":"low","cluster":2,"mode":"no","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7672,"pole":"low","cluster":3,"mode":"know","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7672,"pole":"low","cluster":4,"mode":"t","scene_windows":0,"windows":5,"scene":"neutral, conversational"}
+{"neuron":7672,"pole":"low","cluster":5,"mode":"not, is, was, people, but","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":7672,"pole":"low","cluster":6,"mode":"don't, did not, not","scene_windows":0,"windows":5,"scene":"neutral, conversational"}

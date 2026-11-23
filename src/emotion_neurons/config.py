@@ -133,6 +133,9 @@ class JudgeConfig(Section):
     key_file: Path = Field(Path("~/.config/openrouter/key"), description="read at run time, never printed or committed")
     workers: int = Field(8, description="requests in flight at once, per model")
     max_tokens: int = 8000
+    scene: str | None = Field(
+        None, description="the scene to count; default the run's concept. Another scene goes to judgements_<scene>/"
+    )
 
 
 class GreedySetsConfig(Section):

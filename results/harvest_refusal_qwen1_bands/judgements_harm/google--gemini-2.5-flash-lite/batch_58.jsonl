@@ -1,0 +1,59 @@
+{"neuron":5714,"pole":"high","cluster":0,"mode":"scientific theories and their acceptance in society","scene_windows":0,"windows":5,"scene":"historical scientific development"}
+{"neuron":5714,"pole":"high","cluster":1,"mode":"feminine agent nouns and verb conjugations","scene_windows":0,"windows":5,"scene":"linguistic and grammatical analysis"}
+{"neuron":6329,"pole":"high","cluster":0,"mode":"requesting more examples for clarification","scene_windows":0,"windows":5,"scene":"seeking detailed information"}
+{"neuron":6329,"pole":"high","cluster":1,"mode":"asking clarifying questions about text","scene_windows":0,"windows":5,"scene":"information seeking and clarification"}
+{"neuron":6329,"pole":"high","cluster":2,"mode":"asking follow-up questions after information","scene_windows":0,"windows":5,"scene":"information seeking and clarification"}
+{"neuron":6329,"pole":"low","cluster":0,"mode":"offering further assistance after providing information","scene_windows":0,"windows":5,"scene":"customer service interaction"}
+{"neuron":6329,"pole":"low","cluster":1,"mode":"discussing renewable energy and country initiatives","scene_windows":0,"windows":5,"scene":"environmental and energy policy"}
+{"neuron":6329,"pole":"low","cluster":2,"mode":"discussing historical or cultural practices","scene_windows":0,"windows":5,"scene":"historical and cultural discussion"}
+{"neuron":6329,"pole":"low","cluster":3,"mode":"discussing animation and creative processes","scene_windows":0,"windows":5,"scene":"creative and technical processes"}
+{"neuron":6664,"pole":"high","cluster":0,"mode":"describing unsettling or dangerous situations","scene_windows":1,"windows":5,"scene":"suspenseful and potentially dangerous"}
+{"neuron":6664,"pole":"high","cluster":1,"mode":"positive feedback and requests for more information","scene_windows":0,"windows":5,"scene":"positive user feedback"}
+{"neuron":6664,"pole":"low","cluster":0,"mode":"offering suggestions and assistance","scene_windows":0,"windows":5,"scene":"helpful assistant interaction"}
+{"neuron":6664,"pole":"low","cluster":1,"mode":"expressing positive reactions to suggestions","scene_windows":0,"windows":5,"scene":"positive user feedback"}
+{"neuron":6664,"pole":"low","cluster":2,"mode":"expressing positive reactions to suggestions","scene_windows":0,"windows":5,"scene":"positive user feedback"}
+{"neuron":6664,"pole":"low","cluster":3,"mode":"expressing positive reactions to suggestions","scene_windows":0,"windows":5,"scene":"positive user feedback"}
+{"neuron":6664,"pole":"low","cluster":4,"mode":"asking for more information or clarification on a topic","scene_windows":0,"windows":5,"scene":"asking for more details"}
+{"neuron":6664,"pole":"low","cluster":5,"mode":"asking for more information or clarification on a topic","scene_windows":0,"windows":5,"scene":"asking for more details"}
+{"neuron":6664,"pole":"low","cluster":6,"mode":"asking for more information or clarification on a topic","scene_windows":0,"windows":5,"scene":"asking for more details"}
+{"neuron":6664,"pole":"low","cluster":7,"mode":"asking for more information or clarification on a topic","scene_windows":0,"windows":5,"scene":"asking for more details"}
+{"neuron":10401,"pole":"high","cluster":0,"mode":"adapting to environmental or situational shifts","scene_windows":0,"windows":5,"scene":"dynamic systems and adaptation"}
+{"neuron":10401,"pole":"high","cluster":1,"mode":"referring to specific entities or concepts","scene_windows":0,"windows":5,"scene":"general discourse and reference"}
+{"neuron":10401,"pole":"high","cluster":2,"mode":"reflecting on past events and their consequences","scene_windows":0,"windows":5,"scene":"personal reflection and introspection"}
+{"neuron":10401,"pole":"low","cluster":0,"mode":"discussing architectural elements and cultural aspects","scene_windows":0,"windows":5,"scene":"architectural and cultural discussion"}
+{"neuron":10401,"pole":"low","cluster":1,"mode":"seeking advice or information on various topics","scene_windows":0,"windows":5,"scene":"information seeking and advice"}
+{"neuron":6250,"pole":"high","cluster":0,"mode":"discussing over-the-counter remedies for common ailments","scene_windows":0,"windows":5,"scene":"health and medical advice"}
+{"neuron":6250,"pole":"high","cluster":1,"mode":"discussing available products and options","scene_windows":0,"windows":5,"scene":"product availability and options"}
+{"neuron":6250,"pole":"high","cluster":2,"mode":"discussing where to purchase items","scene_windows":0,"windows":5,"scene":"shopping and purchasing advice"}
+{"neuron":6250,"pole":"high","cluster":3,"mode":"discussing over-the-counter medications for ailments","scene_windows":0,"windows":5,"scene":"health and medical advice"}
+{"neuron":6250,"pole":"high","cluster":4,"mode":"discussing the difficulty of tasks or items","scene_windows":0,"windows":5,"scene":"describing challenging tasks"}
+{"neuron":6250,"pole":"high","cluster":5,"mode":"discussing consequences and timeframes","scene_windows":0,"windows":5,"scene":"consequences and timeframes"}
+{"neuron":6250,"pole":"high","cluster":6,"mode":"discussing job market advantages","scene_windows":0,"windows":5,"scene":"career and job market"}
+{"neuron":6250,"pole":"low","cluster":0,"mode":"discussing factors influencing attraction","scene_windows":0,"windows":5,"scene":"psychological and social factors"}
+{"neuron":6250,"pole":"low","cluster":1,"mode":"discussing combinations of methods or treatments","scene_windows":0,"windows":5,"scene":"problem-solving and treatment"}
+{"neuron":6250,"pole":"low","cluster":2,"mode":"discussing combinations of factors or elements","scene_windows":0,"windows":5,"scene":"complex situations and factors"}
+{"neuron":6250,"pole":"low","cluster":3,"mode":"discussing options and choices","scene_windows":0,"windows":5,"scene":"decision-making and options"}
+{"neuron":6250,"pole":"low","cluster":4,"mode":"discussing potential outcomes and individual situations","scene_windows":0,"windows":5,"scene":"situational analysis and outcomes"}
+{"neuron":6441,"pole":"high","cluster":0,"mode":"referring to specific entities or concepts","scene_windows":0,"windows":5,"scene":"general discourse and reference"}
+{"neuron":6441,"pole":"high","cluster":1,"mode":"discussing non-profit organizations and their activities","scene_windows":0,"windows":5,"scene":"organizational and social engagement"}
+{"neuron":6441,"pole":"low","cluster":0,"mode":"discussing changes over time and maintenance","scene_windows":0,"windows":5,"scene":"long-term processes and maintenance"}
+{"neuron":6441,"pole":"low","cluster":1,"mode":"discussing experiences and perspectives","scene_windows":0,"windows":5,"scene":"personal growth and experience"}
+{"neuron":6441,"pole":"low","cluster":2,"mode":"asking questions about quantity or understanding","scene_windows":0,"windows":5,"scene":"questioning and understanding"}
+{"neuron":1489,"pole":"high","cluster":0,"mode":"referring to death or passing away","scene_windows":1,"windows":5,"scene":"discussion of death"}
+{"neuron":1489,"pole":"high","cluster":1,"mode":"referring to Jesus Christ and Easter","scene_windows":0,"windows":5,"scene":"religious and holiday discussion"}
+{"neuron":1489,"pole":"high","cluster":2,"mode":"referring to ancestors and spirits","scene_windows":0,"windows":5,"scene":"ancestral and spiritual traditions"}
+{"neuron":1489,"pole":"high","cluster":3,"mode":"referring to years and dates","scene_windows":0,"windows":5,"scene":"historical dates and figures"}
+{"neuron":1489,"pole":"high","cluster":4,"mode":"referring to family members","scene_windows":0,"windows":5,"scene":"family relationships"}
+{"neuron":1489,"pole":"high","cluster":5,"mode":"referring to disasters and events","scene_windows":1,"windows":5,"scene":"natural disasters and events"}
+{"neuron":1489,"pole":"high","cluster":6,"mode":"describing physical collapse or falling","scene_windows":1,"windows":5,"scene":"violent physical actions"}
+{"neuron":1489,"pole":"low","cluster":0,"mode":"using placeholder text or pauses","scene_windows":0,"windows":5,"scene":"conversational filler"}
+{"neuron":1489,"pole":"low","cluster":1,"mode":"describing physical collapse or falling","scene_windows":1,"windows":5,"scene":"violent physical actions"}
+{"neuron":1489,"pole":"low","cluster":2,"mode":"asking questions or making statements","scene_windows":0,"windows":5,"scene":"conversational exchange"}
+{"neuron":1489,"pole":"low","cluster":3,"mode":"discussing actions and their purpose","scene_windows":0,"windows":5,"scene":"purposeful actions and intent"}
+{"neuron":1489,"pole":"low","cluster":4,"mode":"discussing finality or inevitability","scene_windows":1,"windows":5,"scene":"finality and inevitability"}
+{"neuron":2016,"pole":"high","cluster":0,"mode":"describing objects with the color yellow","scene_windows":0,"windows":5,"scene":"descriptive details"}
+{"neuron":2016,"pole":"high","cluster":1,"mode":"referring to medical procedures and body parts","scene_windows":0,"windows":5,"scene":"medical procedures and anatomy"}
+{"neuron":2016,"pole":"high","cluster":2,"mode":"referring to specific objects or locations","scene_windows":0,"windows":5,"scene":"descriptive details"}
+{"neuron":2016,"pole":"low","cluster":0,"mode":"discussing car maintenance and parts","scene_windows":0,"windows":5,"scene":"vehicle maintenance advice"}
+{"neuron":2016,"pole":"low","cluster":1,"mode":"discussing object replacement and condition","scene_windows":0,"windows":5,"scene":"object maintenance and replacement"}
+{"neuron":2016,"pole":"low","cluster":2,"mode":"discussing home improvement tasks","scene_windows":0,"windows":5,"scene":"home improvement tasks"}

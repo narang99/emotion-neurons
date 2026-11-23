@@ -158,6 +158,26 @@ def sampling_phrase(h: dict) -> str:
     )
 
 
+def scene_classes(cards: dict, judgements: dict[str, dict[tuple, dict]]) -> list[dict]:
+    """Each harvested neuron's class under another scene's verdicts, from the clusters on its side.
+
+    - The side and the clusters come from the report's cards, so both scenes judge the same clusters.
+    """
+    judges = list(judgements)
+    rows = []
+    for card in cards["neurons"]:
+        n, side = card["neuron"], card["side"]
+        clusters = [
+            {"verdicts": {j: judgements[j][(n, side, c["id"])] for j in judges if (n, side, c["id"]) in judgements[j]}}
+            for c in card["poles"][side]["clusters"]
+        ]
+        rows.append({
+            "neuron": n, "rank": card["rank"], "share": card["share"], "is_control": card["is_control"],
+            "own_class": card["class"], "class": neuron_class(clusters, judges),
+        })  # fmt: skip
+    return rows
+
+
 def run_report(cfg: ModesRunConfig) -> dict:
     """The report stage: results/<run_id>/report.html (self-contained) and results/<run_id>/neurons.csv."""
     out = cfg.result_dir

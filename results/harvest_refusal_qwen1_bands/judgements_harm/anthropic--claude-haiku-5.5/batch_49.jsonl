@@ -1,0 +1,71 @@
+{"neuron":1600,"pole":"high","cluster":0,"mode":"Sentence-final periods or question marks inside chat or prose, before a new turn","scene_windows":0,"windows":5,"scene":"Everyday advice chats, news, and mundane narrative passages"}
+{"neuron":1600,"pole":"high","cluster":1,"mode":"Negation 'n't' token in dialogue, often in tense or accusatory narration","scene_windows":1,"windows":5,"scene":"Dark dialogue and fiction involving threats, jail, or death"}
+{"neuron":1600,"pole":"high","cluster":2,"mode":"'n't' in 'won't/can't' in emotional or unsettling narrative speech","scene_windows":1,"windows":5,"scene":"Emotional confessions and eerie fiction; mostly non-criminal"}
+{"neuron":1600,"pole":"low","cluster":0,"mode":"Sentence-ending period closing expository or promotional summary sentences","scene_windows":0,"windows":5,"scene":"Business, history, health, and encyclopedic descriptive text"}
+{"neuron":1600,"pole":"low","cluster":1,"mode":"Token right after 'Conclusion' heading in essay-style writing","scene_windows":0,"windows":5,"scene":"Expository essays on technology, health, and food"}
+{"neuron":2822,"pole":"high","cluster":0,"mode":"Colon inside time-format strings in shell and Python date code","scene_windows":0,"windows":5,"scene":"Shell and Python scripts handling file dates and logs"}
+{"neuron":2822,"pole":"high","cluster":1,"mode":"Digits within decimal coordinates of historical place listings","scene_windows":0,"windows":5,"scene":"Lists of geographic coordinates for historical events"}
+{"neuron":2822,"pole":"high","cluster":2,"mode":"Decimal point inside latitude and longitude coordinate numbers","scene_windows":0,"windows":5,"scene":"Coordinate lists for historical events"}
+{"neuron":2822,"pole":"high","cluster":3,"mode":"Digits inside IP address values in networking examples","scene_windows":0,"windows":5,"scene":"Networking subnet and IP address explanations"}
+{"neuron":2822,"pole":"high","cluster":4,"mode":"Digits inside phone numbers in contact listings","scene_windows":0,"windows":5,"scene":"Institute contact blocks with websites, emails, phones"}
+{"neuron":2822,"pole":"high","cluster":5,"mode":"Country-code digits after '+9' in phone numbers","scene_windows":0,"windows":5,"scene":"Indian institute contact listings"}
+{"neuron":2822,"pole":"high","cluster":6,"mode":"Street-address house number digits in event announcements","scene_windows":0,"windows":5,"scene":"Event notices and business addresses in Sheboygan and similar towns"}
+{"neuron":2822,"pole":"high","cluster":7,"mode":"Company suffix tokens (Inc, Ltd, Co) in bibliography citations","scene_windows":0,"windows":5,"scene":"Academic reference lists for books"}
+{"neuron":2822,"pole":"high","cluster":8,"mode":"Digits in page or number sequences within lists","scene_windows":0,"windows":5,"scene":"Numeric sequences and page references"}
+{"neuron":2822,"pole":"high","cluster":9,"mode":"Word-final tokens completing phrases like 'rate', 'up', 'faster'","scene_windows":0,"windows":5,"scene":"Expository and narrative sentences on production, drinking, debt"}
+{"neuron":2822,"pole":"high","cluster":10,"mode":"Question mark ending a user question in chat","scene_windows":0,"windows":5,"scene":"User requests for creative or informational help"}
+{"neuron":2822,"pole":"low","cluster":0,"mode":"Digits in street suite number within a business address","scene_windows":0,"windows":5,"scene":"Placeholder business contact block for Anytown"}
+{"neuron":2822,"pole":"low","cluster":1,"mode":"Comma separating street and suite in a business address","scene_windows":0,"windows":5,"scene":"Placeholder business contact block for Anytown"}
+{"neuron":2822,"pole":"low","cluster":2,"mode":"Abbreviation or article tokens in address and prose sentences","scene_windows":0,"windows":5,"scene":"Historical prose and Corvallis venue addresses"}
+{"neuron":2822,"pole":"low","cluster":3,"mode":"Space before the five-digit US ZIP code","scene_windows":0,"windows":5,"scene":"US postal addresses in reference citations"}
+{"neuron":2822,"pole":"low","cluster":4,"mode":"Digits within ZIP+4 suffixes of mailing addresses","scene_windows":0,"windows":5,"scene":"US agency addresses in reference citations"}
+{"neuron":2822,"pole":"low","cluster":5,"mode":"First digit of a ZIP code right after a US state abbreviation in an address","scene_windows":0,"windows":5,"scene":"Contact addresses in institutional, event, and organizational boilerplate text"}
+{"neuron":2579,"pole":"high","cluster":0,"mode":"Colon after 'Assistant' or speaker label in dialogue transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant chat transcripts on everyday topics"}
+{"neuron":2579,"pole":"high","cluster":1,"mode":"Digits inside long URL paths in citations","scene_windows":0,"windows":5,"scene":"Web citations to articles and sports pages"}
+{"neuron":2579,"pole":"high","cluster":2,"mode":"Closing quote or comma after dialogue in fiction","scene_windows":0,"windows":5,"scene":"Dialogue-heavy fiction with casual conversation"}
+{"neuron":2579,"pole":"high","cluster":3,"mode":"Digits inside a URL in a citation list","scene_windows":0,"windows":5,"scene":"Spanish-language essay reference lists"}
+{"neuron":2579,"pole":"high","cluster":4,"mode":"Whitespace indentation tokens after closing dialogue quotes","scene_windows":0,"windows":5,"scene":"Fiction dialogue between characters"}
+{"neuron":2579,"pole":"high","cluster":5,"mode":"Question mark ending a user question in chat transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant factual Q&A"}
+{"neuron":2579,"pole":"high","cluster":6,"mode":"Sentence-final period followed by a user turn in assistant replies","scene_windows":0,"windows":5,"scene":"Business and career advice chat replies"}
+{"neuron":2579,"pole":"high","cluster":7,"mode":"Opening quote mark starting a new dialogue line","scene_windows":0,"windows":5,"scene":"Fiction dialogue exchanges"}
+{"neuron":2579,"pole":"high","cluster":8,"mode":"Speaker-name colon or parenthesis in script-style dialogue","scene_windows":0,"windows":5,"scene":"Screenplay-style scenes with stage directions"}
+{"neuron":2579,"pole":"high","cluster":9,"mode":"Ellipsis ending an unfinished thought in dialogue","scene_windows":1,"windows":5,"scene":"Tense or dark fiction, including a violent or cruel moment"}
+{"neuron":2579,"pole":"high","cluster":10,"mode":"Period after a quoted statement in news about faith and science","scene_windows":0,"windows":5,"scene":"News and religious commentary quoting speakers"}
+{"neuron":2579,"pole":"high","cluster":11,"mode":"URL path segment tokens in web references","scene_windows":0,"windows":5,"scene":"Web links in bibliographies and product pages"}
+{"neuron":2579,"pole":"high","cluster":12,"mode":"Link and navigation words like 'Related', 'Read', 'Donate' in web text","scene_windows":0,"windows":5,"scene":"Web page boilerplate and article footers"}
+{"neuron":2579,"pole":"high","cluster":13,"mode":"Digits in statistics within news reports","scene_windows":0,"windows":5,"scene":"Energy, emissions, and farm statistics news"}
+{"neuron":2579,"pole":"high","cluster":14,"mode":"Generic content word ending a general advisory sentence","scene_windows":0,"windows":5,"scene":"General advice and informational web text"}
+{"neuron":2579,"pole":"low","cluster":0,"mode":"Ampersand-based HTML space entity in roleplay text","scene_windows":0,"windows":5,"scene":"Fantasy roleplay text with escaped spaces"}
+{"neuron":2579,"pole":"low","cluster":1,"mode":"Colon after 'Human' label in chat transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant chats on health and history"}
+{"neuron":2579,"pole":"low","cluster":2,"mode":"Opening quote mark starting spoken line in fiction","scene_windows":0,"windows":5,"scene":"Dialogue-driven fiction with casual conversation"}
+{"neuron":2579,"pole":"low","cluster":3,"mode":"Assistant speaker label token in chat transcripts","scene_windows":0,"windows":5,"scene":"Human-assistant everyday Q&A"}
+{"neuron":2579,"pole":"low","cluster":4,"mode":"Numbered list marker digits in tip lists","scene_windows":0,"windows":5,"scene":"How-to and tips lists on recipes, travel, and awards"}
+{"neuron":2579,"pole":"low","cluster":5,"mode":"Blank indentation token before a dialogue line","scene_windows":0,"windows":5,"scene":"Fiction with dialogue and narration"}
+{"neuron":2579,"pole":"low","cluster":6,"mode":"Common function words in casual chat replies","scene_windows":0,"windows":5,"scene":"Casual user-assistant chat replies"}
+{"neuron":2579,"pole":"low","cluster":7,"mode":"Period ending a short expository or dialogue sentence","scene_windows":0,"windows":5,"scene":"Articles on vaccines, criminals, and time travel"}
+{"neuron":2579,"pole":"low","cluster":8,"mode":"Opening quote after a sentence in quoted interview text","scene_windows":0,"windows":5,"scene":"Profiles of women in science quoting interviews"}
+{"neuron":1420,"pole":"high","cluster":0,"mode":"Connectives and verbs in political or argumentative sentences","scene_windows":0,"windows":5,"scene":"Political history and policy commentary"}
+{"neuron":1420,"pole":"high","cluster":1,"mode":"Verb and modal tokens in vehicle product descriptions","scene_windows":0,"windows":5,"scene":"Car marketing text about paint options"}
+{"neuron":1420,"pole":"low","cluster":0,"mode":"Commas and conjunctions in general informational sentences","scene_windows":0,"windows":5,"scene":"Explanatory text on skincare, colonialism, physics"}
+{"neuron":1420,"pole":"low","cluster":1,"mode":"Partial word 'inh' or 'h' in breathing exercise instructions","scene_windows":0,"windows":5,"scene":"Yoga and breathing exercise instructions"}
+{"neuron":10890,"pole":"high","cluster":0,"mode":"Preposition 'to' or 'in' before purpose or infinitive phrase","scene_windows":0,"windows":5,"scene":"Essays on renewable energy, healthcare, and conservation"}
+{"neuron":10890,"pole":"high","cluster":1,"mode":"'writing' or 'to' in formal letter and email openings","scene_windows":0,"windows":5,"scene":"Drafted business emails and letters"}
+{"neuron":10890,"pole":"low","cluster":0,"mode":"Pronoun 'it' as sentence subject in expository prose","scene_windows":0,"windows":5,"scene":"Essays and historical narratives on nature and society"}
+{"neuron":10890,"pole":"low","cluster":1,"mode":"Modal 'can' after a relative pronoun in advice sentences","scene_windows":0,"windows":5,"scene":"Advice on driving, mental health, and renewable energy"}
+{"neuron":10890,"pole":"low","cluster":2,"mode":"Determiners and prepositions in mid-sentence expository text","scene_windows":0,"windows":5,"scene":"Historical and technical prose passages"}
+{"neuron":10890,"pole":"low","cluster":3,"mode":"Relative pronouns 'who' or 'that' introducing clauses","scene_windows":0,"windows":5,"scene":"Expository text on language, students, and online communities"}
+{"neuron":1857,"pole":"high","cluster":0,"mode":"'Social' or 'media' tokens in social media marketing lists","scene_windows":0,"windows":5,"scene":"Social media marketing tips and tool lists"}
+{"neuron":1857,"pole":"high","cluster":1,"mode":"Numbered list markers and verbs in content tips","scene_windows":0,"windows":5,"scene":"Tips for engaging social media content"}
+{"neuron":1857,"pole":"high","cluster":2,"mode":"Commas within tool descriptions listing features","scene_windows":0,"windows":5,"scene":"Scheduling tool comparisons for social media"}
+{"neuron":1857,"pole":"high","cluster":3,"mode":"Article 'the' before a noun in instructional sentences","scene_windows":0,"windows":5,"scene":"Educational and design explanations"}
+{"neuron":1857,"pole":"high","cluster":4,"mode":"Verb 'is' or 'used' in describing technology applied to learning","scene_windows":0,"windows":5,"scene":"Explanations of technology in education"}
+{"neuron":1857,"pole":"low","cluster":0,"mode":"Sentence-initial 'AR' token in AR warehouse discussions","scene_windows":0,"windows":5,"scene":"Augmented reality in warehouse management"}
+{"neuron":1857,"pole":"low","cluster":1,"mode":"The word 'code' or 'coding' in programming instructions","scene_windows":0,"windows":5,"scene":"Programming and sensor code instructions"}
+{"neuron":1857,"pole":"low","cluster":2,"mode":"Business function nouns like tracking or management","scene_windows":0,"windows":5,"scene":"Business automation and VDI explanations"}
+{"neuron":1857,"pole":"low","cluster":3,"mode":"'Mobile' as modifier in tech and health descriptions","scene_windows":0,"windows":5,"scene":"Mobile apps, data services, and mobile clinics"}
+{"neuron":1857,"pole":"low","cluster":4,"mode":"Auxiliary verbs or determiners in procedural descriptions","scene_windows":0,"windows":5,"scene":"Lab methods, dog jump guide, recipe notes"}
+{"neuron":1857,"pole":"low","cluster":5,"mode":"The word 'data' as a noun in technology discussions","scene_windows":0,"windows":5,"scene":"Data breaches, analysis, and healthcare technology"}
+{"neuron":5608,"pole":"high","cluster":0,"mode":"Prepositions 'to', 'the', 'a' before an effect or purpose noun","scene_windows":0,"windows":5,"scene":"Art and technology projects, AR and energy descriptions"}
+{"neuron":5608,"pole":"high","cluster":1,"mode":"Enumerated list numbers introducing AR training ideas","scene_windows":0,"windows":5,"scene":"Warehouse AR training suggestions"}
+{"neuron":5608,"pole":"low","cluster":0,"mode":"Determiners and prepositions before a noun in historical prose","scene_windows":0,"windows":5,"scene":"Historical and cultural encyclopedic passages"}
+{"neuron":5608,"pole":"low","cluster":1,"mode":"The word 'children' or 'go' in holiday tradition descriptions","scene_windows":0,"windows":5,"scene":"Descriptions of festival customs and traditions"}

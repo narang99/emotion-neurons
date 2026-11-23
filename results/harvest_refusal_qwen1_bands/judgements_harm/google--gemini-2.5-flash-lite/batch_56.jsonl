@@ -1,0 +1,66 @@
+{"neuron":9890,"pole":"high","cluster":0,"mode":"first-person perspective, expressing personal feelings or actions","scene_windows":0,"windows":5,"scene":"personal narrative, internal thoughts"}
+{"neuron":9890,"pole":"high","cluster":1,"mode":"expressing knowledge or certainty about a situation","scene_windows":0,"windows":5,"scene":"personal realization, understanding"}
+{"neuron":9890,"pole":"high","cluster":2,"mode":"indicating probability or likelihood of an event or outcome","scene_windows":0,"windows":5,"scene":"prediction, future possibility"}
+{"neuron":9890,"pole":"high","cluster":3,"mode":"referring to a specific item or concept within a context","scene_windows":0,"windows":5,"scene":"instruction, explanation"}
+{"neuron":9890,"pole":"high","cluster":4,"mode":"marking the end of a sentence or thought, often with an apology","scene_windows":0,"windows":5,"scene":"apology, correction"}
+{"neuron":9890,"pole":"low","cluster":0,"mode":"indicating future action or intention, often with a sense of obligation","scene_windows":0,"windows":5,"scene":"future plans, hypothetical scenarios"}
+{"neuron":9890,"pole":"low","cluster":1,"mode":"uncertainty about future events or actions","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":9388,"pole":"high","cluster":0,"mode":"marking the end of a sentence, often providing advice or instructions","scene_windows":0,"windows":5,"scene":"advice, instructions"}
+{"neuron":9388,"pole":"high","cluster":1,"mode":"marking the end of a phrase or clause, often indicating a consequence or result","scene_windows":0,"windows":5,"scene":"explanation, consequence"}
+{"neuron":9388,"pole":"high","cluster":2,"mode":"referring to a divine or spiritual source of something","scene_windows":0,"windows":5,"scene":"spiritual, poetic"}
+{"neuron":9388,"pole":"low","cluster":0,"mode":"listing ingredients or seasonings, often with commas","scene_windows":0,"windows":5,"scene":"recipe, cooking"}
+{"neuron":9388,"pole":"low","cluster":1,"mode":"referring to a specific course or program of study","scene_windows":0,"windows":5,"scene":"education, training"}
+{"neuron":9388,"pole":"low","cluster":2,"mode":"referring to a specific aspect or characteristic of a design or system","scene_windows":0,"windows":5,"scene":"technical, design"}
+{"neuron":9388,"pole":"low","cluster":3,"mode":"referring to a specific location or geographical feature","scene_windows":0,"windows":5,"scene":"geography, description"}
+{"neuron":1355,"pole":"high","cluster":0,"mode":"asking about past actions or events","scene_windows":0,"windows":5,"scene":"interrogation, questioning"}
+{"neuron":1355,"pole":"high","cluster":1,"mode":"expressing negation or lack of something","scene_windows":0,"windows":5,"scene":"negation, uncertainty"}
+{"neuron":1355,"pole":"high","cluster":2,"mode":"referring to a specific object or entity within a context","scene_windows":0,"windows":5,"scene":"description, narrative"}
+{"neuron":1355,"pole":"high","cluster":3,"mode":"indicating absence of something, often with a negative connotation","scene_windows":0,"windows":5,"scene":"lack, absence"}
+{"neuron":1355,"pole":"low","cluster":0,"mode":"referring to a specific person or entity in a conversational context","scene_windows":0,"windows":5,"scene":"conversation, dialogue"}
+{"neuron":1355,"pole":"low","cluster":1,"mode":"expressing lack of knowledge or certainty","scene_windows":0,"windows":5,"scene":"uncertainty, lack of knowledge"}
+{"neuron":1355,"pole":"low","cluster":2,"mode":"referring to possession or belonging","scene_windows":0,"windows":5,"scene":"possession, ownership"}
+{"neuron":1355,"pole":"low","cluster":3,"mode":"indicating comparison or difference","scene_windows":0,"windows":5,"scene":"comparison, difference"}
+{"neuron":3419,"pole":"high","cluster":0,"mode":"referring to legal proceedings or potential charges","scene_windows":1,"windows":5,"scene":"legal, crime"}
+{"neuron":3419,"pole":"high","cluster":1,"mode":"first-person perspective, expressing personal state or action","scene_windows":0,"windows":5,"scene":"personal narrative, seeking help"}
+{"neuron":3419,"pole":"high","cluster":2,"mode":"referring to a specific object, concept, or action","scene_windows":0,"windows":5,"scene":"description, explanation"}
+{"neuron":3419,"pole":"high","cluster":3,"mode":"referring to hidden information or private matters","scene_windows":0,"windows":5,"scene":"secrets, hidden information"}
+{"neuron":3419,"pole":"low","cluster":0,"mode":"expressing apology or regret for an error","scene_windows":0,"windows":5,"scene":"apology, correction"}
+{"neuron":3419,"pole":"low","cluster":1,"mode":"referring to a specific object or concept","scene_windows":0,"windows":5,"scene":"description, object"}
+{"neuron":3419,"pole":"low","cluster":2,"mode":"referring to a new development or finding","scene_windows":0,"windows":5,"scene":"new information, research"}
+{"neuron":2051,"pole":"high","cluster":0,"mode":"referring to any instance or situation, often with a focus on overcoming challenges","scene_windows":0,"windows":5,"scene":"challenges, overcoming obstacles"}
+{"neuron":2051,"pole":"high","cluster":1,"mode":"referring to any type or category, often in the context of conflict or problems","scene_windows":0,"windows":5,"scene":"conflict, problem"}
+{"neuron":2051,"pole":"low","cluster":0,"mode":"referring to a specific measurement or scope","scene_windows":0,"windows":5,"scene":"measurement, scope"}
+{"neuron":2051,"pole":"low","cluster":1,"mode":"referring to a type or category, often in a question","scene_windows":0,"windows":5,"scene":"question, type"}
+{"neuron":5971,"pole":"high","cluster":0,"mode":"personal desires and their consequences","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"high","cluster":1,"mode":"personal hope and past experiences","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"low","cluster":0,"mode":"energy storage methods and applications","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"low","cluster":1,"mode":"renewable energy storage and fuel production","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"low","cluster":2,"mode":"creative repurposing of leftover food items","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"low","cluster":3,"mode":"seeking advice on practical matters","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"low","cluster":4,"mode":"embryo research and funding regulations","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"low","cluster":5,"mode":"resource allocation and facility utilization","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":5971,"pole":"low","cluster":6,"mode":"resource management and avoiding waste","scene_windows":0,"windows":5,"scene":"neutral"}
+{"neuron":9714,"pole":"high","cluster":0,"mode":"referring to specific street addresses or locations","scene_windows":0,"windows":5,"scene":"address, location"}
+{"neuron":9714,"pole":"high","cluster":1,"mode":"referring to specific numerical identifiers, often in addresses","scene_windows":0,"windows":5,"scene":"numerical identifier, address"}
+{"neuron":9714,"pole":"high","cluster":2,"mode":"referring to a specific location or position","scene_windows":0,"windows":5,"scene":"location, position"}
+{"neuron":9714,"pole":"high","cluster":3,"mode":"referring to specific numerical identifiers, often in addresses","scene_windows":0,"windows":5,"scene":"numerical identifier, address"}
+{"neuron":9714,"pole":"high","cluster":4,"mode":"referring to a specific location or position","scene_windows":0,"windows":5,"scene":"location, position"}
+{"neuron":9714,"pole":"high","cluster":5,"mode":"referring to movement along a path or direction","scene_windows":0,"windows":5,"scene":"movement, direction"}
+{"neuron":9714,"pole":"high","cluster":6,"mode":"referring to specific publications or citations","scene_windows":0,"windows":5,"scene":"publication, citation"}
+{"neuron":9714,"pole":"high","cluster":7,"mode":"referring to specific place names or street names","scene_windows":0,"windows":5,"scene":"place name, street name"}
+{"neuron":9714,"pole":"high","cluster":8,"mode":"referring to specific concepts or entities within a context","scene_windows":0,"windows":5,"scene":"concept, entity"}
+{"neuron":9714,"pole":"high","cluster":9,"mode":"referring to specific years or numerical data","scene_windows":0,"windows":5,"scene":"year, numerical data"}
+{"neuron":9714,"pole":"low","cluster":0,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":1,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":2,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":3,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":4,"mode":"referring to specific geographical locations or places","scene_windows":0,"windows":5,"scene":"geographical location, place"}
+{"neuron":9714,"pole":"low","cluster":5,"mode":"referring to specific numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":6,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":7,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":8,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":9714,"pole":"low","cluster":9,"mode":"referring to numerical identifiers within ISBNs","scene_windows":0,"windows":5,"scene":"ISBN, numerical identifier"}
+{"neuron":2668,"pole":"high","cluster":0,"mode":"referring to a specific event or occasion","scene_windows":0,"windows":5,"scene":"event, occasion"}
+{"neuron":2668,"pole":"high","cluster":1,"mode":"referring to a bodily action or symptom","scene_windows":0,"windows":5,"scene":"medical, symptom"}
+{"neuron":2668,"pole":"low","cluster":0,"mode":"referring to a specific entity or object","scene_windows":0,"windows":5,"scene":"entity, object"}
+{"neuron":2668,"pole":"low","cluster":1,"mode":"referring to an action of movement or appearance","scene_windows":0,"windows":5,"scene":"movement, appearance"}

@@ -72,3 +72,20 @@ python scripts/modes_report.py --config configs/harvest_refusal_qwen1_bands.yaml
 
 - A matched cluster shows where a neuron's strongest firings sit in general text. It does not show that the neuron detects refusal.
 - The judges count refusal scenes. Harmful requests answered helpfully are rarer still in this corpus.
+
+## Round 2: a harm scene, not only refusal
+
+- The refusal scene counts harmful requests and refusals; news and narration were excluded.
+  - n1958 (#1) high cluster 2: both judges named it violence and warfare ("contract killer", "weapons factory"), and scored 0 of 5.
+- New scene `harm` (`judge.scene: harm`, verdicts in `judgements_harm/`): harmful, dangerous or illicit content in any genre.
+  - Same clusters, same two judges. `scripts/scene_classes.py` reads the classes from them.
+- Judges: Haiku 3% and Gemini 1% of 4686 clusters are harm scenes; they agree on 97%.
+- **Classes by share of the write** (set neurons on their side):
+  - refusal: match 8 (10.3%), split 22 (4.2%), no match 397 (56.0%);
+  - harm: match 10 (15.4%), split 44 (7.0%), no match 373 (48.2%);
+  - harm, top 40: match 7 (14.7%), split 4 (2.7%), no match 29 (19.7%);
+  - harm, controls: match 0, split 4, no match 16.
+- Harm matches: n1958, n9572, n3366, n2882, n2989, n3094, n10981, n1037, n6810, n4933.
+  - n1958 cluster 2 now scores 3/5 (Haiku) and 4/5 (Gemini).
+  - New against refusal: n1958 (#1), n3094 (#9), n1037 (#68). n4933 is the one news story again.
+- **Most of the write is still no match under harm: 48.2%.**

@@ -1,0 +1,72 @@
+{"neuron":713,"pole":"high","cluster":0,"mode":"expressing sympathy or apology for a problem","scene_windows":0,"windows":5,"scene":"offering help and advice"}
+{"neuron":713,"pole":"high","cluster":1,"mode":"describing a low-profile or low-carbon lifestyle or economy","scene_windows":0,"windows":5,"scene":"neutral discussion of lifestyle"}
+{"neuron":713,"pole":"high","cluster":2,"mode":"hesitant or thoughtful agreement to a question","scene_windows":0,"windows":5,"scene":"neutral conversation starter"}
+{"neuron":713,"pole":"high","cluster":3,"mode":"describing a limited or specific quantity or selection","scene_windows":0,"windows":5,"scene":"describing dietary restrictions"}
+{"neuron":713,"pole":"high","cluster":4,"mode":"introducing a contrasting or unexpected point","scene_windows":0,"windows":5,"scene":"neutral discussion of events"}
+{"neuron":713,"pole":"high","cluster":5,"mode":"describing a small group or entity","scene_windows":0,"windows":5,"scene":"neutral description of origins"}
+{"neuron":713,"pole":"high","cluster":6,"mode":"describing an unusual or unfamiliar place or situation","scene_windows":0,"windows":5,"scene":"describing unusual settings"}
+{"neuron":713,"pole":"high","cluster":7,"mode":"describing positive actions or outcomes","scene_windows":0,"windows":5,"scene":"neutral discussion of improvement"}
+{"neuron":713,"pole":"high","cluster":8,"mode":"introducing a conditional statement or possibility","scene_windows":0,"windows":5,"scene":"offering advice or information"}
+{"neuron":713,"pole":"low","cluster":0,"mode":"modal verbs indicating possibility or ability in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":713,"pole":"low","cluster":1,"mode":"expressions of hope or good wishes in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":4458,"pole":"high","cluster":0,"mode":"describing tears flowing down a face","scene_windows":0,"windows":5,"scene":"sadness and emotional distress"}
+{"neuron":4458,"pole":"high","cluster":1,"mode":"describing liquid falling onto a surface","scene_windows":0,"windows":5,"scene":"minor injury or mess"}
+{"neuron":4458,"pole":"high","cluster":2,"mode":"encouraging engagement with a topic or culture","scene_windows":0,"windows":5,"scene":"neutral discussion of culture"}
+{"neuron":4458,"pole":"low","cluster":0,"mode":"indicating capability or possibility","scene_windows":0,"windows":5,"scene":"neutral discussion of potential"}
+{"neuron":4458,"pole":"low","cluster":1,"mode":"expressing hope or positive expectation","scene_windows":0,"windows":5,"scene":"offering encouragement"}
+{"neuron":317,"pole":"high","cluster":0,"mode":"referring to a group or entity","scene_windows":0,"windows":5,"scene":"neutral description of events"}
+{"neuron":317,"pole":"high","cluster":1,"mode":"asking clarifying questions about a topic","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":317,"pole":"low","cluster":0,"mode":"ending a sentence or clause","scene_windows":0,"windows":5,"scene":"neutral text"}
+{"neuron":317,"pole":"low","cluster":1,"mode":"referring to an assistant or chatbot","scene_windows":0,"windows":5,"scene":"neutral conversation"}
+{"neuron":5904,"pole":"high","cluster":0,"mode":"requesting additional details or elaboration","scene_windows":0,"windows":5,"scene":"seeking more information"}
+{"neuron":5904,"pole":"high","cluster":1,"mode":"emphasizing the importance or necessity of something","scene_windows":0,"windows":5,"scene":"providing advice"}
+{"neuron":5904,"pole":"high","cluster":2,"mode":"listing items, often movies or songs","scene_windows":0,"windows":5,"scene":"listing entertainment"}
+{"neuron":5904,"pole":"high","cluster":3,"mode":"listing items, often songs or numbered points","scene_windows":0,"windows":5,"scene":"listing songs"}
+{"neuron":5904,"pole":"high","cluster":4,"mode":"asking for more information or clarification","scene_windows":0,"windows":5,"scene":"seeking details"}
+{"neuron":5904,"pole":"high","cluster":5,"mode":"referring to a specific date or event","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":5904,"pole":"high","cluster":6,"mode":"introducing a list of items or steps","scene_windows":0,"windows":5,"scene":"providing instructions"}
+{"neuron":5904,"pole":"high","cluster":7,"mode":"introducing a list of items or steps","scene_windows":0,"windows":5,"scene":"providing advice"}
+{"neuron":5904,"pole":"high","cluster":8,"mode":"introducing a list of items or steps","scene_windows":0,"windows":5,"scene":"providing advice"}
+{"neuron":5904,"pole":"high","cluster":9,"mode":"introducing additional information or a consequence","scene_windows":0,"windows":5,"scene":"adding details"}
+{"neuron":5904,"pole":"high","cluster":10,"mode":"asking for more information or clarification","scene_windows":0,"windows":5,"scene":"seeking details"}
+{"neuron":5904,"pole":"high","cluster":11,"mode":"indicating a result or consequence","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":5904,"pole":"high","cluster":12,"mode":"referring to specific entities or concepts","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5904,"pole":"high","cluster":13,"mode":"indicating a past action or state","scene_windows":0,"windows":5,"scene":"neutral factual statement"}
+{"neuron":5904,"pole":"low","cluster":0,"mode":"words indicating connection or belonging in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":5904,"pole":"low","cluster":1,"mode":"words indicating connection or belonging in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8349,"pole":"high","cluster":0,"mode":"exclamations and positive affirmations in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8349,"pole":"high","cluster":1,"mode":"assistant responses to user questions about topics","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8349,"pole":"high","cluster":2,"mode":"assistant formatting text into all caps upon request","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8349,"pole":"high","cluster":3,"mode":"conjunctions and prepositions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8349,"pole":"high","cluster":4,"mode":"assistant responses to user requests for more information","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8349,"pole":"low","cluster":0,"mode":"pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":8349,"pole":"low","cluster":1,"mode":"pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":10243,"pole":"high","cluster":0,"mode":"describing actions that cause negative effects on others","scene_windows":1,"windows":5,"scene":"bullying and causing harm"}
+{"neuron":10243,"pole":"high","cluster":1,"mode":"referring to a nickname or title, often in quotes","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10243,"pole":"high","cluster":2,"mode":"referring to methods, possibilities, or ways of doing something","scene_windows":0,"windows":5,"scene":"neutral discussion"}
+{"neuron":10243,"pole":"high","cluster":3,"mode":"requesting text formatting, like capitalization","scene_windows":0,"windows":5,"scene":"text formatting request"}
+{"neuron":10243,"pole":"low","cluster":0,"mode":"referring to a specific entity or concept","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10243,"pole":"low","cluster":1,"mode":"referring to a person by a nickname or preferred name","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10243,"pole":"low","cluster":2,"mode":"referring to a person by a nickname or preferred name","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10243,"pole":"low","cluster":3,"mode":"referring to a specific entity or concept","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10243,"pole":"low","cluster":4,"mode":"referring to a person by a pronoun or name","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":10243,"pole":"low","cluster":5,"mode":"referring to a person or entity","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2750,"pole":"high","cluster":0,"mode":"addressing someone politely or seeking attention","scene_windows":0,"windows":5,"scene":"polite interaction"}
+{"neuron":2750,"pole":"high","cluster":1,"mode":"beginning a formal or personal letter","scene_windows":0,"windows":5,"scene":"writing a letter"}
+{"neuron":2750,"pole":"high","cluster":2,"mode":"expressing disagreement or refusal","scene_windows":0,"windows":5,"scene":"dialogue with refusal"}
+{"neuron":2750,"pole":"high","cluster":3,"mode":"addressing someone with affection or endearment","scene_windows":0,"windows":5,"scene":"affectionate dialogue"}
+{"neuron":2750,"pole":"high","cluster":4,"mode":"asking for more information or clarification","scene_windows":0,"windows":5,"scene":"seeking details"}
+{"neuron":2750,"pole":"high","cluster":5,"mode":"addressing someone politely or seeking attention","scene_windows":0,"windows":5,"scene":"polite interaction"}
+{"neuron":2750,"pole":"high","cluster":6,"mode":"introducing a quote or direct speech","scene_windows":0,"windows":5,"scene":"dialogue with quotes"}
+{"neuron":2750,"pole":"high","cluster":7,"mode":"introducing direct speech or a quote","scene_windows":0,"windows":5,"scene":"dialogue with quotes"}
+{"neuron":2750,"pole":"high","cluster":8,"mode":"asking for information or assistance","scene_windows":0,"windows":5,"scene":"seeking help"}
+{"neuron":2750,"pole":"high","cluster":9,"mode":"referring to a new or different entity","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":2750,"pole":"high","cluster":10,"mode":"expressing uncertainty or lack of knowledge","scene_windows":0,"windows":5,"scene":"dialogue expressing uncertainty"}
+{"neuron":2750,"pole":"low","cluster":0,"mode":"pronouns and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2750,"pole":"low","cluster":1,"mode":"dialogue markers and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2750,"pole":"low","cluster":2,"mode":"dialogue markers and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2750,"pole":"low","cluster":3,"mode":"dialogue markers and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2750,"pole":"low","cluster":4,"mode":"assistant responses to user requests for more information","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2750,"pole":"low","cluster":5,"mode":"dialogue markers and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2750,"pole":"low","cluster":6,"mode":"conjunctions and prepositions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}
+{"neuron":2750,"pole":"low","cluster":7,"mode":"dialogue markers and conjunctions in neutral contexts","scene_windows":0,"windows":5,"scene":"neutral, informative"}

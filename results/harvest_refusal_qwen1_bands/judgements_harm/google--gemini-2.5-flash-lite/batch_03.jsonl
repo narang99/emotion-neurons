@@ -1,0 +1,69 @@
+{"neuron":6123,"pole":"high","cluster":0,"mode":"instructions for self-defense against attackers","scene_windows":0,"windows":5,"scene":"self-defense advice"}
+{"neuron":6123,"pole":"high","cluster":1,"mode":"personal reflections and observations","scene_windows":0,"windows":5,"scene":"neutral personal narrative"}
+{"neuron":6123,"pole":"high","cluster":2,"mode":"culinary instructions for thickening mixtures","scene_windows":0,"windows":5,"scene":"cooking instructions"}
+{"neuron":6123,"pole":"low","cluster":0,"mode":"telling someone to be quiet","scene_windows":0,"windows":5,"scene":"argumentative dialogue"}
+{"neuron":6123,"pole":"low","cluster":1,"mode":"engaging in combat or bringing down a leader","scene_windows":3,"windows":5,"scene":"violent conflict and downfall"}
+{"neuron":6123,"pole":"low","cluster":2,"mode":"ending criminal activity or plans","scene_windows":3,"windows":5,"scene":"crime resolution"}
+{"neuron":6123,"pole":"low","cluster":3,"mode":"physical actions of placing hands or body parts","scene_windows":0,"windows":5,"scene":"neutral physical actions"}
+{"neuron":6123,"pole":"low","cluster":4,"mode":"ending criminal activity or plans","scene_windows":3,"windows":5,"scene":"crime resolution"}
+{"neuron":6123,"pole":"low","cluster":5,"mode":"interrupting speech or action","scene_windows":0,"windows":5,"scene":"conversational interruption"}
+{"neuron":6123,"pole":"low","cluster":6,"mode":"events concluding or coming to an end","scene_windows":0,"windows":5,"scene":"event conclusion"}
+{"neuron":6123,"pole":"low","cluster":7,"mode":"events concluding or coming to an end","scene_windows":0,"windows":5,"scene":"event conclusion"}
+{"neuron":6123,"pole":"low","cluster":8,"mode":"actions of stopping or halting movement","scene_windows":0,"windows":5,"scene":"halting movement"}
+{"neuron":6123,"pole":"low","cluster":9,"mode":"actions to prevent or cease something","scene_windows":1,"windows":5,"scene":"preventing harm or action"}
+{"neuron":9616,"pole":"high","cluster":0,"mode":"describing chaos using similes and metaphors","scene_windows":0,"windows":5,"scene":"literary description"}
+{"neuron":9616,"pole":"high","cluster":1,"mode":"terms of endearment used in dialogue","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":9616,"pole":"high","cluster":2,"mode":"requests for text summarization or copying","scene_windows":0,"windows":5,"scene":"text manipulation request"}
+{"neuron":9616,"pole":"high","cluster":3,"mode":"requests for sentence or paragraph editing","scene_windows":0,"windows":5,"scene":"text editing request"}
+{"neuron":9616,"pole":"high","cluster":4,"mode":"rules for subject-verb agreement in sentences","scene_windows":0,"windows":5,"scene":"grammar explanation"}
+{"neuron":9616,"pole":"high","cluster":5,"mode":"examples of verb tense and form correction","scene_windows":0,"windows":5,"scene":"grammar correction examples"}
+{"neuron":9616,"pole":"high","cluster":6,"mode":"requests for creative writing assistance","scene_windows":0,"windows":5,"scene":"creative writing prompt"}
+{"neuron":9616,"pole":"high","cluster":7,"mode":"narrative descriptions of scenes or events","scene_windows":0,"windows":5,"scene":"narrative description"}
+{"neuron":9616,"pole":"high","cluster":8,"mode":"questions about personal actions or identity","scene_windows":0,"windows":5,"scene":"conversational question"}
+{"neuron":9616,"pole":"high","cluster":9,"mode":"dialogue with questions and exclamations","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":9616,"pole":"high","cluster":10,"mode":"references to specific items or people","scene_windows":0,"windows":5,"scene":"specific item reference"}
+{"neuron":9616,"pole":"high","cluster":11,"mode":"prepositions indicating relationship or purpose","scene_windows":0,"windows":5,"scene":"prepositional phrases"}
+{"neuron":9616,"pole":"low","cluster":0,"mode":"requests for text formatting into all caps","scene_windows":0,"windows":5,"scene":"text formatting request"}
+{"neuron":9616,"pole":"low","cluster":1,"mode":"dialogue with quoted speech and exclamations","scene_windows":0,"windows":5,"scene":"conversational dialogue"}
+{"neuron":9616,"pole":"low","cluster":2,"mode":"personal reflections on existence and power","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":9616,"pole":"low","cluster":3,"mode":"narrative descriptions with pauses or interruptions","scene_windows":0,"windows":5,"scene":"narrative description"}
+{"neuron":4161,"pole":"high","cluster":0,"mode":"addressing someone about their actions and family","scene_windows":0,"windows":5,"scene":"personal admonishment"}
+{"neuron":4161,"pole":"high","cluster":1,"mode":"references to people and organizations","scene_windows":0,"windows":5,"scene":"organizational reference"}
+{"neuron":4161,"pole":"high","cluster":2,"mode":"advice on personal actions and behavior","scene_windows":0,"windows":5,"scene":"personal advice"}
+{"neuron":4161,"pole":"low","cluster":0,"mode":"references to technology and its impact","scene_windows":0,"windows":5,"scene":"technology discussion"}
+{"neuron":4161,"pole":"low","cluster":1,"mode":"apologies for past actions or behavior","scene_windows":0,"windows":5,"scene":"apologetic dialogue"}
+{"neuron":7140,"pole":"high","cluster":0,"mode":"human asking for advice or information from an assistant","scene_windows":0,"windows":5,"scene":"asking for advice"}
+{"neuron":7140,"pole":"high","cluster":1,"mode":"user asking for more information or clarification from assistant","scene_windows":0,"windows":5,"scene":"asking for more information"}
+{"neuron":7140,"pole":"high","cluster":2,"mode":"user asking for examples or clarification from assistant","scene_windows":0,"windows":5,"scene":"asking for examples"}
+{"neuron":7140,"pole":"high","cluster":3,"mode":"user asking for advice or information from assistant","scene_windows":0,"windows":5,"scene":"asking for advice"}
+{"neuron":7140,"pole":"high","cluster":4,"mode":"user asking for paraphrase or suggestion based on passage","scene_windows":0,"windows":5,"scene":"asking for paraphrase"}
+{"neuron":7140,"pole":"high","cluster":5,"mode":"assistant providing information or options","scene_windows":0,"windows":5,"scene":"providing information"}
+{"neuron":7140,"pole":"high","cluster":6,"mode":"assistant responding to user's request for creative writing","scene_windows":0,"windows":6,"scene":"creative writing response"}
+{"neuron":7140,"pole":"low","cluster":0,"mode":"assistant providing tips or steps for a user","scene_windows":0,"windows":5,"scene":"providing tips"}
+{"neuron":7140,"pole":"low","cluster":1,"mode":"assistant providing information or steps","scene_windows":0,"windows":5,"scene":"providing information"}
+{"neuron":7140,"pole":"low","cluster":2,"mode":"assistant providing tips or steps","scene_windows":0,"windows":5,"scene":"providing tips"}
+{"neuron":7140,"pole":"low","cluster":3,"mode":"assistant providing tips or variations","scene_windows":0,"windows":5,"scene":"providing variations"}
+{"neuron":7140,"pole":"low","cluster":4,"mode":"assistant providing tips or steps","scene_windows":0,"windows":5,"scene":"providing tips"}
+{"neuron":7140,"pole":"low","cluster":5,"mode":"assistant providing examples or steps","scene_windows":0,"windows":5,"scene":"providing examples"}
+{"neuron":7140,"pole":"low","cluster":6,"mode":"assistant responding to user's request for information","scene_windows":0,"windows":6,"scene":"responding to request"}
+{"neuron":7140,"pole":"low","cluster":7,"mode":"assistant providing information or examples","scene_windows":0,"windows":5,"scene":"providing information"}
+{"neuron":7140,"pole":"low","cluster":8,"mode":"assistant providing information or facts","scene_windows":0,"windows":5,"scene":"providing information"}
+{"neuron":7140,"pole":"low","cluster":9,"mode":"assistant providing advice or instructions","scene_windows":0,"windows":5,"scene":"providing advice"}
+{"neuron":7140,"pole":"low","cluster":10,"mode":"assistant providing information or options","scene_windows":0,"windows":5,"scene":"providing information"}
+{"neuron":7140,"pole":"low","cluster":11,"mode":"assistant providing information or examples","scene_windows":0,"windows":5,"scene":"providing information"}
+{"neuron":1545,"pole":"high","cluster":0,"mode":"advice on compliance and understanding legislation","scene_windows":0,"windows":5,"scene":"legal compliance advice"}
+{"neuron":1545,"pole":"high","cluster":1,"mode":"information about financial and health topics","scene_windows":0,"windows":5,"scene":"informational discussion"}
+{"neuron":1545,"pole":"low","cluster":0,"mode":"references to specific entities or concepts","scene_windows":0,"windows":5,"scene":"specific reference"}
+{"neuron":1545,"pole":"low","cluster":1,"mode":"determining auspicious times for events","scene_windows":0,"windows":5,"scene":"event timing"}
+{"neuron":6481,"pole":"high","cluster":0,"mode":"conditions and requirements for citizenship","scene_windows":0,"windows":5,"scene":"citizenship requirements"}
+{"neuron":6481,"pole":"high","cluster":1,"mode":"statements about information security and responsibility","scene_windows":0,"windows":5,"scene":"information security"}
+{"neuron":6481,"pole":"low","cluster":0,"mode":"references to female individuals and their actions","scene_windows":0,"windows":5,"scene":"personal narrative"}
+{"neuron":6481,"pole":"low","cluster":1,"mode":"references to nationalities and historical contexts","scene_windows":0,"windows":5,"scene":"historical context"}
+{"neuron":6481,"pole":"low","cluster":2,"mode":"statements of uncertainty or incompleteness","scene_windows":0,"windows":5,"scene":"uncertainty statement"}
+{"neuron":2849,"pole":"high","cluster":0,"mode":"discussion of sports and their impact","scene_windows":0,"windows":5,"scene":"sports discussion"}
+{"neuron":2849,"pole":"high","cluster":1,"mode":"concepts of well-being and abundance","scene_windows":0,"windows":5,"scene":"well-being discussion"}
+{"neuron":2849,"pole":"high","cluster":2,"mode":"questions about choices between alternatives","scene_windows":0,"windows":5,"scene":"alternative choice question"}
+{"neuron":2849,"pole":"low","cluster":0,"mode":"questions about suitability or possibility","scene_windows":0,"windows":5,"scene":"suitability question"}
+{"neuron":2849,"pole":"low","cluster":1,"mode":"discussion of media outlets and criticism","scene_windows":0,"windows":5,"scene":"media discussion"}
+{"neuron":2849,"pole":"low","cluster":2,"mode":"statements about legality and societal norms","scene_windows":0,"windows":5,"scene":"societal norms"}
+{"neuron":2849,"pole":"low","cluster":3,"mode":"dialogue with quoted speech and questions","scene_windows":0,"windows":5,"scene":"conversational dialogue"}

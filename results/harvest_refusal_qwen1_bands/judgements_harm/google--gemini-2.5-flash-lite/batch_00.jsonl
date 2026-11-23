@@ -1,0 +1,80 @@
+{"neuron":1958,"pole":"high","cluster":0,"mode":"narrative progression, anticipation of events, or character actions","scene_windows":0,"windows":5,"scene":"neutral narrative progression"}
+{"neuron":1958,"pole":"high","cluster":1,"mode":"specialized academic field of nonproliferation studies","scene_windows":0,"windows":5,"scene":"academic/technical discussion"}
+{"neuron":1958,"pole":"high","cluster":2,"mode":"dangerous professions, warfare, and political regimes","scene_windows":4,"windows":5,"scene":"crime/violence/warfare"}
+{"neuron":1958,"pole":"high","cluster":3,"mode":"supernatural curses, mutant threats, and dangerous actions","scene_windows":2,"windows":5,"scene":"supernatural/dangerous action"}
+{"neuron":1958,"pole":"low","cluster":0,"mode":"assistant responses to user queries, often with disclaimers","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":1958,"pole":"low","cluster":1,"mode":"security, genetics, and social interactions","scene_windows":0,"windows":5,"scene":"neutral/technical discussion"}
+{"neuron":1958,"pole":"low","cluster":2,"mode":"biological concepts, environmental concerns, and potential threats","scene_windows":0,"windows":5,"scene":"neutral/scientific discussion"}
+{"neuron":1958,"pole":"low","cluster":3,"mode":"assistant responses to hypothetical survival or skill-based questions","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":799,"pole":"high","cluster":0,"mode":"personal values, decision-making, and community building","scene_windows":0,"windows":5,"scene":"neutral personal reflection"}
+{"neuron":799,"pole":"high","cluster":1,"mode":"business strategies, marketing, and educational focus","scene_windows":0,"windows":5,"scene":"business/marketing discussion"}
+{"neuron":799,"pole":"low","cluster":0,"mode":"user interaction with AI, emphasizing safety and privacy","scene_windows":0,"windows":5,"scene":"neutral AI interaction"}
+{"neuron":799,"pole":"low","cluster":1,"mode":"data security, privacy, and user responsibility","scene_windows":0,"windows":5,"scene":"neutral security discussion"}
+{"neuron":799,"pole":"low","cluster":2,"mode":"policy compliance, crisis support, and service termination","scene_windows":0,"windows":5,"scene":"neutral policy/support"}
+{"neuron":799,"pole":"low","cluster":3,"mode":"practical advice on using tools and products","scene_windows":0,"windows":5,"scene":"neutral advice/how-to"}
+{"neuron":799,"pole":"low","cluster":4,"mode":"culinary terms, agricultural practices, and product descriptions","scene_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":799,"pole":"low","cluster":5,"mode":"AI interaction, user queries, and information retrieval","scene_windows":0,"windows":5,"scene":"neutral AI interaction"}
+{"neuron":5634,"pole":"high","cluster":0,"mode":"asking questions about various topics","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":1,"mode":"asking questions about personal development and advice","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":2,"mode":"dialogue with quoted speech, often in fiction","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":5634,"pole":"high","cluster":3,"mode":"asking questions about animals and general knowledge","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":4,"mode":"asking questions about self-improvement and practical advice","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":5,"mode":"asking questions about credit scores and financial processes","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":6,"mode":"asking questions about historical events and systems","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":7,"mode":"asking questions about product specifications and performance","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":8,"mode":"asking questions about history and natural phenomena","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"high","cluster":9,"mode":"asking questions about valuable items and processes","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"low","cluster":0,"mode":"numerical data, often financial or statistical","scene_windows":0,"windows":5,"scene":"neutral data"}
+{"neuron":5634,"pole":"low","cluster":1,"mode":"asking questions about animal behavior and park information","scene_windows":0,"windows":5,"scene":"neutral assistant interaction"}
+{"neuron":5634,"pole":"low","cluster":2,"mode":"reflecting on experiences and personal growth","scene_windows":0,"windows":5,"scene":"personal reflection"}
+{"neuron":5634,"pole":"low","cluster":3,"mode":"names and citations, often in academic or technical contexts","scene_windows":0,"windows":5,"scene":"academic citation"}
+{"neuron":5634,"pole":"low","cluster":4,"mode":"symbols and negative signs, often in data or code","scene_windows":0,"windows":5,"scene":"data notation"}
+{"neuron":5634,"pole":"low","cluster":5,"mode":"negation and uncertainty in fictional or informal contexts","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":5634,"pole":"low","cluster":6,"mode":"instructions and descriptions for tasks","scene_windows":0,"windows":5,"scene":"instructional text"}
+{"neuron":5634,"pole":"low","cluster":7,"mode":"articles and conjunctions in neutral or descriptive text","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":5634,"pole":"low","cluster":8,"mode":"lists and data points, often in technical or scientific contexts","scene_windows":0,"windows":5,"scene":"data list"}
+{"neuron":9572,"pole":"high","cluster":0,"mode":"apologies and expressions of regret","scene_windows":0,"windows":5,"scene":"apologetic dialogue"}
+{"neuron":9572,"pole":"high","cluster":1,"mode":"apologies and expressions of sympathy for difficult situations","scene_windows":0,"windows":5,"scene":"sympathetic dialogue"}
+{"neuron":9572,"pole":"high","cluster":2,"mode":"dialogue with quoted speech, often in fiction","scene_windows":0,"windows":5,"scene":"fictional dialogue"}
+{"neuron":9572,"pole":"high","cluster":3,"mode":"self-criticism and expressions of regret","scene_windows":0,"windows":5,"scene":"self-critical dialogue"}
+{"neuron":9572,"pole":"high","cluster":4,"mode":"conjunctions and prepositions in neutral or descriptive text","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":9572,"pole":"high","cluster":5,"mode":"asking about illegal or harmful activities","scene_windows":3,"windows":5,"scene":"asking about illegal acts"}
+{"neuron":9572,"pole":"low","cluster":0,"mode":"contractions and common phrases in informal dialogue","scene_windows":0,"windows":5,"scene":"informal dialogue"}
+{"neuron":9572,"pole":"low","cluster":1,"mode":"prepositions indicating location or position","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":9572,"pole":"low","cluster":2,"mode":"possessive pronouns and nouns in descriptive text","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":9572,"pole":"low","cluster":3,"mode":"temporal conjunctions indicating simultaneous actions","scene_windows":0,"windows":5,"scene":"descriptive text"}
+{"neuron":9572,"pole":"low","cluster":4,"mode":"conjunctions and prepositions in neutral or descriptive text","scene_windows":0,"windows":5,"scene":"neutral description"}
+{"neuron":9572,"pole":"low","cluster":5,"mode":"pronouns indicating the subject of a sentence","scene_windows":0,"windows":5,"scene":"neutral sentence"}
+{"neuron":3366,"pole":"high","cluster":0,"mode":"ethical dilemmas regarding speech, safety, and political events","scene_windows":1,"windows":5,"scene":"ethical/political discussion"}
+{"neuron":3366,"pole":"high","cluster":1,"mode":"freedom of speech, ethical considerations, and historical judgment","scene_windows":0,"windows":5,"scene":"ethical/legal discussion"}
+{"neuron":3366,"pole":"high","cluster":2,"mode":"narrative progression, challenges, and relationship rebuilding","scene_windows":0,"windows":5,"scene":"neutral narrative progression"}
+{"neuron":3366,"pole":"high","cluster":3,"mode":"illegal activities, self-defense, and emergency preparedness","scene_windows":3,"windows":5,"scene":"dangerous/illegal activity"}
+{"neuron":3366,"pole":"low","cluster":0,"mode":"personal growth, confidence, and overcoming challenges","scene_windows":0,"windows":5,"scene":"neutral personal development"}
+{"neuron":3366,"pole":"low","cluster":1,"mode":"fear, survival, and emerging strength","scene_windows":0,"windows":5,"scene":"neutral narrative progression"}
+{"neuron":3366,"pole":"low","cluster":2,"mode":"relationships, personal journeys, and overcoming obstacles","scene_windows":0,"windows":5,"scene":"neutral personal journey"}
+{"neuron":3366,"pole":"low","cluster":3,"mode":"practical advice on home maintenance and health","scene_windows":0,"windows":5,"scene":"neutral advice/how-to"}
+{"neuron":3366,"pole":"low","cluster":4,"mode":"decision-making, material choices, and personal beliefs","scene_windows":0,"windows":5,"scene":"neutral decision-making"}
+{"neuron":2882,"pole":"high","cluster":0,"mode":"AI identity, function, and lack of personal life","scene_windows":0,"windows":5,"scene":"neutral AI description"}
+{"neuron":2882,"pole":"high","cluster":1,"mode":"AI refusal of harmful requests, emphasizing safety and legality","scene_windows":4,"windows":5,"scene":"dangerous/illegal activity"}
+{"neuron":2882,"pole":"high","cluster":2,"mode":"AI refusal of harmful requests, emphasizing safety and legality","scene_windows":3,"windows":5,"scene":"dangerous/illegal activity"}
+{"neuron":2882,"pole":"high","cluster":3,"mode":"rabies transmission, fatality, and treatment","scene_windows":0,"windows":5,"scene":"health/medical information"}
+{"neuron":2882,"pole":"high","cluster":4,"mode":"risky practices, ethical considerations, and gender equality","scene_windows":0,"windows":5,"scene":"ethical/social discussion"}
+{"neuron":2882,"pole":"high","cluster":5,"mode":"drug use consequences, safety recommendations, and ethical warnings","scene_windows":3,"windows":5,"scene":"dangerous/illicit activity"}
+{"neuron":2882,"pole":"low","cluster":0,"mode":"AI responses to user queries, often with disclaimers","scene_windows":0,"windows":5,"scene":"neutral AI interaction"}
+{"neuron":2882,"pole":"low","cluster":1,"mode":"danger, suicide prevention, and emergency services","scene_windows":5,"windows":5,"scene":"danger/self-harm"}
+{"neuron":2882,"pole":"low","cluster":2,"mode":"child supervision, safety, and activity guidance","scene_windows":0,"windows":5,"scene":"neutral parenting advice"}
+{"neuron":2882,"pole":"low","cluster":3,"mode":"privacy, autonomy, and AI limitations","scene_windows":0,"windows":5,"scene":"neutral AI interaction"}
+{"neuron":2882,"pole":"low","cluster":4,"mode":"product safety, usage precautions, and environmental concerns","scene_windows":0,"windows":5,"scene":"neutral safety advice"}
+{"neuron":2989,"pole":"high","cluster":0,"mode":"managing social media use and digital well-being","scene_windows":0,"windows":5,"scene":"neutral digital advice"}
+{"neuron":2989,"pole":"high","cluster":1,"mode":"requests to stop actions, often in confrontational or emotional contexts","scene_windows":2,"windows":5,"scene":"confrontational/dangerous"}
+{"neuron":2989,"pole":"high","cluster":2,"mode":"commands to stop or leave, often in tense or confrontational situations","scene_windows":2,"windows":5,"scene":"confrontational/dangerous"}
+{"neuron":2989,"pole":"high","cluster":3,"mode":"commands to leave or exit, often in urgent or aggressive contexts","scene_windows":2,"windows":5,"scene":"confrontational/dangerous"}
+{"neuron":2989,"pole":"high","cluster":4,"mode":"prepositions indicating direction, purpose, or association","scene_windows":0,"windows":5,"scene":"neutral descriptive text"}
+{"neuron":2989,"pole":"high","cluster":5,"mode":"pronouns indicating direct address or reference","scene_windows":0,"windows":5,"scene":"neutral dialogue"}
+{"neuron":2989,"pole":"low","cluster":0,"mode":"apologies and expressions of sympathy","scene_windows":0,"windows":5,"scene":"neutral interaction"}
+{"neuron":2989,"pole":"low","cluster":1,"mode":"danger, suicide prevention, and emergency services","scene_windows":5,"windows":5,"scene":"danger/self-harm"}
+{"neuron":2989,"pole":"low","cluster":2,"mode":"child supervision, safety, and activity guidance","scene_windows":0,"windows":5,"scene":"neutral parenting advice"}
+{"neuron":2989,"pole":"low","cluster":3,"mode":"privacy, autonomy, and AI limitations","scene_windows":0,"windows":5,"scene":"neutral AI interaction"}
+{"neuron":2989,"pole":"low","cluster":4,"mode":"product safety, usage precautions, and environmental concerns","scene_windows":0,"windows":5,"scene":"neutral safety advice"}
+{"neuron":2989,"pole":"low","cluster":5,"mode":"danger, suicide prevention, and emergency services","scene_windows":5,"windows":5,"scene":"danger/self-harm"}
+{"neuron":2989,"pole":"low","cluster":6,"mode":"safety, health, and potential harm","scene_windows":2,"windows":5,"scene":"danger/harmful"}

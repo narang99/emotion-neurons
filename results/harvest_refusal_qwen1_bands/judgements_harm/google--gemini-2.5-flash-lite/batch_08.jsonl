@@ -1,0 +1,76 @@
+{"neuron":6874,"pole":"high","cluster":0,"mode":"disruptions, power outages, and hazards from natural events","scene_windows":0,"windows":5,"scene":"natural disasters and their effects"}
+{"neuron":6874,"pole":"high","cluster":1,"mode":"health risks from contaminants and vulnerable populations","scene_windows":0,"windows":5,"scene":"health risks and vulnerable groups"}
+{"neuron":6874,"pole":"low","cluster":0,"mode":"hesitation and caution in dangerous or uncertain situations","scene_windows":0,"windows":5,"scene":"tense and uncertain situations"}
+{"neuron":6874,"pole":"low","cluster":1,"mode":"struggling to find a way out of a difficult situation","scene_windows":0,"windows":5,"scene":"lost and seeking escape"}
+{"neuron":6874,"pole":"low","cluster":2,"mode":"asking for information or advice from an assistant","scene_windows":0,"windows":5,"scene":"seeking information from AI"}
+{"neuron":5561,"pole":"high","cluster":0,"mode":"assistant offering advice or suggestions to a user","scene_windows":0,"windows":5,"scene":"helpful AI assistant"}
+{"neuron":5561,"pole":"high","cluster":1,"mode":"statements of fact or observation that are not true","scene_windows":0,"windows":5,"scene":"factual inaccuracies or negations"}
+{"neuron":5561,"pole":"high","cluster":2,"mode":"expressing a need or desire for something specific","scene_windows":0,"windows":5,"scene":"expressing personal needs"}
+{"neuron":5561,"pole":"low","cluster":0,"mode":"struggling to cope or overcome a difficult situation","scene_windows":0,"windows":5,"scene":"facing adversity"}
+{"neuron":5561,"pole":"low","cluster":1,"mode":"uncertainty or lack of knowledge about a situation","scene_windows":0,"windows":5,"scene":"uncertainty and lack of knowledge"}
+{"neuron":5561,"pole":"low","cluster":2,"mode":"statements of existence or presence, often with negation","scene_windows":0,"windows":5,"scene":"existence and negation"}
+{"neuron":5561,"pole":"low","cluster":3,"mode":"historical events or practices that are negative or dishonest","scene_windows":0,"windows":5,"scene":"negative historical events"}
+{"neuron":5561,"pole":"low","cluster":4,"mode":"ignoring or disregarding something important or dangerous","scene_windows":0,"windows":5,"scene":"ignoring warnings or reality"}
+{"neuron":7213,"pole":"high","cluster":0,"mode":"listing common elements or features in various contexts","scene_windows":0,"windows":5,"scene":"listing common features"}
+{"neuron":7213,"pole":"high","cluster":1,"mode":"considering various factors when making decisions or plans","scene_windows":0,"windows":5,"scene":"planning and decision making"}
+{"neuron":7213,"pole":"high","cluster":2,"mode":"referring to the remaining part or group of something","scene_windows":0,"windows":5,"scene":"remaining parts or groups"}
+{"neuron":7213,"pole":"low","cluster":0,"mode":"user asking follow-up questions to an assistant's response","scene_windows":0,"windows":5,"scene":"user seeking more information"}
+{"neuron":7213,"pole":"low","cluster":1,"mode":"user asking follow-up questions to an assistant's response","scene_windows":0,"windows":5,"scene":"user seeking more information"}
+{"neuron":7213,"pole":"low","cluster":2,"mode":"requesting inclusion of specific elements in a response","scene_windows":0,"windows":5,"scene":"requesting specific content"}
+{"neuron":7213,"pole":"low","cluster":3,"mode":"first-person narrative of being lost or uncertain","scene_windows":0,"windows":5,"scene":"lost and uncertain narrative"}
+{"neuron":7213,"pole":"low","cluster":4,"mode":"instructions or guidance on how to do something","scene_windows":0,"windows":5,"scene":"instructions and guidance"}
+{"neuron":7213,"pole":"low","cluster":5,"mode":"personal reflections or admissions of guilt/mistakes","scene_windows":0,"windows":5,"scene":"personal reflections and admissions"}
+{"neuron":3005,"pole":"high","cluster":0,"mode":"describing characteristics or states of being","scene_windows":0,"windows":5,"scene":"describing characteristics"}
+{"neuron":3005,"pole":"high","cluster":1,"mode":"adding extra information or qualifications to a statement","scene_windows":0,"windows":5,"scene":"adding qualifications"}
+{"neuron":3005,"pole":"low","cluster":0,"mode":"listing benefits or positive attributes of foods or practices","scene_windows":0,"windows":5,"scene":"benefits and positive attributes"}
+{"neuron":3005,"pole":"low","cluster":1,"mode":"asking for clarification or information about relationships","scene_windows":0,"windows":5,"scene":"relationship inquiries"}
+{"neuron":7883,"pole":"high","cluster":0,"mode":"offering advice or best practices","scene_windows":0,"windows":5,"scene":"advice and best practices"}
+{"neuron":7883,"pole":"high","cluster":1,"mode":"adding supplementary information or considerations","scene_windows":0,"windows":5,"scene":"supplementary information"}
+{"neuron":7883,"pole":"high","cluster":2,"mode":"emphasizing the importance of something","scene_windows":0,"windows":5,"scene":"emphasizing importance"}
+{"neuron":7883,"pole":"high","cluster":3,"mode":"stating the importance of consulting a professional","scene_windows":0,"windows":5,"scene":"consulting professionals"}
+{"neuron":7883,"pole":"high","cluster":4,"mode":"listing multiple items or factors","scene_windows":0,"windows":5,"scene":"listing multiple items"}
+{"neuron":7883,"pole":"high","cluster":5,"mode":"describing sounds or sensory experiences","scene_windows":0,"windows":5,"scene":"describing sounds and sensations"}
+{"neuron":7883,"pole":"low","cluster":0,"mode":"describing weather forecasting methods","scene_windows":0,"windows":5,"scene":"weather forecasting methods"}
+{"neuron":7883,"pole":"low","cluster":1,"mode":"describing rainfall measurement methods","scene_windows":0,"windows":5,"scene":"rainfall measurement methods"}
+{"neuron":7883,"pole":"low","cluster":2,"mode":"describing methods for achieving a goal","scene_windows":0,"windows":5,"scene":"methods for achieving goals"}
+{"neuron":7883,"pole":"low","cluster":3,"mode":"discussing factors influencing behavior or outcomes","scene_windows":0,"windows":5,"scene":"factors influencing outcomes"}
+{"neuron":7883,"pole":"low","cluster":4,"mode":"discussing the use of force or specific actions","scene_windows":0,"windows":5,"scene":"use of force and actions"}
+{"neuron":7883,"pole":"low","cluster":5,"mode":"asking for instructions on cleaning or maintenance","scene_windows":0,"windows":5,"scene":"cleaning and maintenance instructions"}
+{"neuron":7883,"pole":"low","cluster":6,"mode":"discussing legal procedures or requirements","scene_windows":0,"windows":5,"scene":"legal procedures and requirements"}
+{"neuron":7883,"pole":"low","cluster":7,"mode":"discussing compensation or outcomes based on circumstances","scene_windows":0,"windows":5,"scene":"compensation based on circumstances"}
+{"neuron":7883,"pole":"low","cluster":8,"mode":"discussing cooling procedures for food products","scene_windows":0,"windows":5,"scene":"cooling procedures for food"}
+{"neuron":7883,"pole":"low","cluster":9,"mode":"discussing communication skills and their importance","scene_windows":0,"windows":5,"scene":"communication skills importance"}
+{"neuron":9685,"pole":"high","cluster":0,"mode":"assistant offering help or expressing sympathy","scene_windows":0,"windows":5,"scene":"helpful and sympathetic AI"}
+{"neuron":9685,"pole":"high","cluster":1,"mode":"assistant confirming user's understanding or providing validation","scene_windows":0,"windows":5,"scene":"AI validating user understanding"}
+{"neuron":9685,"pole":"high","cluster":2,"mode":"dialogue involving direct speech and character interaction","scene_windows":0,"windows":5,"scene":"dialogue with direct speech"}
+{"neuron":9685,"pole":"high","cluster":3,"mode":"user asking for advice or information, assistant responding","scene_windows":0,"windows":5,"scene":"user asking for advice"}
+{"neuron":9685,"pole":"high","cluster":4,"mode":"user asking for suggestions or opinions","scene_windows":0,"windows":5,"scene":"user asking for suggestions"}
+{"neuron":9685,"pole":"high","cluster":5,"mode":"user asking about factual claims or historical events","scene_windows":0,"windows":5,"scene":"user asking about facts"}
+{"neuron":9685,"pole":"high","cluster":6,"mode":"describing mysterious or unusual discoveries","scene_windows":0,"windows":5,"scene":"mysterious discoveries"}
+{"neuron":9685,"pole":"high","cluster":7,"mode":"dialogue involving direct speech and character interaction","scene_windows":0,"windows":5,"scene":"dialogue with direct speech"}
+{"neuron":9685,"pole":"low","cluster":0,"mode":"expressing surprise or mild acknowledgment","scene_windows":0,"windows":5,"scene":"mild surprise or acknowledgment"}
+{"neuron":9685,"pole":"low","cluster":1,"mode":"expressing agreement or understanding","scene_windows":0,"windows":5,"scene":"agreement and understanding"}
+{"neuron":9685,"pole":"low","cluster":2,"mode":"nodding in agreement or understanding","scene_windows":0,"windows":5,"scene":"nodding in agreement"}
+{"neuron":9685,"pole":"low","cluster":3,"mode":"dialogue involving direct speech and character interaction","scene_windows":0,"windows":5,"scene":"dialogue with direct speech"}
+{"neuron":9685,"pole":"low","cluster":4,"mode":"being pulled or snapped back to reality","scene_windows":0,"windows":5,"scene":"returning to reality"}
+{"neuron":9685,"pole":"low","cluster":5,"mode":"reducing heat during cooking","scene_windows":0,"windows":5,"scene":"reducing cooking heat"}
+{"neuron":9685,"pole":"low","cluster":6,"mode":"dialogue involving direct speech and character interaction","scene_windows":0,"windows":5,"scene":"dialogue with direct speech"}
+{"neuron":9685,"pole":"low","cluster":7,"mode":"expressing common knowledge or expected occurrences","scene_windows":0,"windows":5,"scene":"common knowledge or expectations"}
+{"neuron":9685,"pole":"low","cluster":8,"mode":"expressing uncertainty or lack of knowledge","scene_windows":0,"windows":5,"scene":"uncertainty and lack of knowledge"}
+{"neuron":9685,"pole":"low","cluster":9,"mode":"discussing cooking times and factors affecting them","scene_windows":0,"windows":5,"scene":"cooking times and factors"}
+{"neuron":9685,"pole":"low","cluster":10,"mode":"describing a process or situation","scene_windows":0,"windows":5,"scene":"describing a process"}
+{"neuron":9268,"pole":"high","cluster":0,"mode":"difficulty in providing definitive answers or interpretations","scene_windows":0,"windows":5,"scene":"difficulty in interpretation"}
+{"neuron":9268,"pole":"high","cluster":1,"mode":"importance of research and context in decision-making","scene_windows":0,"windows":5,"scene":"importance of research and context"}
+{"neuron":9268,"pole":"high","cluster":2,"mode":"offering advice or recommendations for the best course of action","scene_windows":0,"windows":5,"scene":"offering best course of action"}
+{"neuron":9268,"pole":"low","cluster":0,"mode":"dialogue involving direct speech and character interaction","scene_windows":0,"windows":5,"scene":"dialogue with direct speech"}
+{"neuron":9268,"pole":"low","cluster":1,"mode":"expressing uncertainty or lack of knowledge","scene_windows":0,"windows":5,"scene":"uncertainty and lack of knowledge"}
+{"neuron":9268,"pole":"low","cluster":2,"mode":"expressing indifference or lack of concern","scene_windows":0,"windows":5,"scene":"indifference or lack of concern"}
+{"neuron":9268,"pole":"low","cluster":3,"mode":"asking questions or seeking clarification","scene_windows":0,"windows":5,"scene":"asking questions"}
+{"neuron":9268,"pole":"low","cluster":4,"mode":"words like 'and', 'more', 'best' used in comparisons or lists of options.","scene_windows":0,"windows":5,"scene":"general discussion of options"}
+{"neuron":9268,"pole":"low","cluster":5,"mode":"words like 'Assistant', 'Human', 'question' in a conversational Q&A format.","scene_windows":0,"windows":5,"scene":"conversational Q&A format"}
+{"neuron":9250,"pole":"high","cluster":0,"mode":"discussing risks and benefits of various actions or technologies","scene_windows":0,"windows":5,"scene":"risks and benefits"}
+{"neuron":9250,"pole":"high","cluster":1,"mode":"reducing the likelihood of infection or negative outcomes","scene_windows":0,"windows":5,"scene":"reducing negative outcomes"}
+{"neuron":9250,"pole":"low","cluster":0,"mode":"providing instructions or guidance on how to perform a task","scene_windows":0,"windows":5,"scene":"instructions for tasks"}
+{"neuron":9250,"pole":"low","cluster":1,"mode":"offering help or expressing hope for usefulness","scene_windows":0,"windows":5,"scene":"offering help and hope"}
+{"neuron":9250,"pole":"low","cluster":2,"mode":"providing instructions or guidance on how to perform a task","scene_windows":0,"windows":5,"scene":"instructions for tasks"}
+{"neuron":9250,"pole":"low","cluster":3,"mode":"improving skills or outcomes through specific actions","scene_windows":0,"windows":5,"scene":"improving skills and outcomes"}

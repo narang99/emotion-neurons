@@ -1,0 +1,77 @@
+{"neuron":7448,"pole":"high","cluster":0,"mode":"lack of proof or certainty about something","scene_windows":0,"windows":5,"scene":"discussing security and secrets"}
+{"neuron":7448,"pole":"high","cluster":1,"mode":"a feeling or intuition about something","scene_windows":0,"windows":5,"scene":"observing people and situations"}
+{"neuron":7448,"pole":"high","cluster":2,"mode":"asking for or providing information about processes","scene_windows":0,"windows":5,"scene":"technical and educational explanations"}
+{"neuron":7448,"pole":"high","cluster":3,"mode":"uncertainty about how something happened or will happen","scene_windows":0,"windows":5,"scene":"expressing doubt or confusion"}
+{"neuron":7448,"pole":"high","cluster":4,"mode":"asking for instructions or advice","scene_windows":0,"windows":5,"scene":"seeking guidance on actions"}
+{"neuron":7448,"pole":"high","cluster":5,"mode":"describing a situation or circumstance","scene_windows":0,"windows":5,"scene":"explaining a type of situation"}
+{"neuron":7448,"pole":"high","cluster":6,"mode":"asking for explanations about processes","scene_windows":0,"windows":5,"scene":"technical and educational explanations"}
+{"neuron":7448,"pole":"high","cluster":7,"mode":"asking how something happened","scene_windows":0,"windows":5,"scene":"inquiring about past events"}
+{"neuron":7448,"pole":"high","cluster":8,"mode":"asking for more information about a topic","scene_windows":0,"windows":5,"scene":"seeking details on subjects"}
+{"neuron":7448,"pole":"high","cluster":9,"mode":"surprising or unexpected circumstances","scene_windows":0,"windows":5,"scene":"overcoming difficult situations"}
+{"neuron":7448,"pole":"high","cluster":10,"mode":"referring to customs or traditions","scene_windows":0,"windows":5,"scene":"discussing cultural practices"}
+{"neuron":7448,"pole":"high","cluster":11,"mode":"asking for instructions or guidance","scene_windows":0,"windows":5,"scene":"seeking how-to information"}
+{"neuron":7448,"pole":"low","cluster":0,"mode":"something that continues to exist or be used","scene_windows":0,"windows":5,"scene":"describing ongoing traditions"}
+{"neuron":7448,"pole":"low","cluster":1,"mode":"positive qualities or outcomes","scene_windows":0,"windows":5,"scene":"describing beneficial aspects"}
+{"neuron":7448,"pole":"low","cluster":2,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":6183,"pole":"high","cluster":0,"mode":"seeking information or assistance","scene_windows":0,"windows":5,"scene":"asking questions to an assistant"}
+{"neuron":6183,"pole":"high","cluster":1,"mode":"expressing surprise or realization","scene_windows":0,"windows":5,"scene":"dialogue with exclamations"}
+{"neuron":6183,"pole":"high","cluster":2,"mode":"pauses or transitions in narrative","scene_windows":0,"windows":5,"scene":"narrative scene breaks"}
+{"neuron":6183,"pole":"high","cluster":3,"mode":"concluding remarks or statements","scene_windows":0,"windows":5,"scene":"offering final thoughts"}
+{"neuron":6183,"pole":"high","cluster":4,"mode":"concluding remarks or statements","scene_windows":0,"windows":5,"scene":"offering final thoughts"}
+{"neuron":6183,"pole":"high","cluster":5,"mode":"listing items or references","scene_windows":0,"windows":5,"scene":"enumerating specific details"}
+{"neuron":6183,"pole":"high","cluster":6,"mode":"adding conjunctions or connecting phrases","scene_windows":0,"windows":5,"scene":"connecting clauses or ideas"}
+{"neuron":6183,"pole":"high","cluster":7,"mode":"dialogue markers or quoted speech","scene_windows":0,"windows":5,"scene":"dialogue with quotation marks"}
+{"neuron":6183,"pole":"low","cluster":0,"mode":"locations or places","scene_windows":0,"windows":5,"scene":"describing places"}
+{"neuron":6183,"pole":"low","cluster":1,"mode":"connecting ideas or listing items","scene_windows":0,"windows":5,"scene":"linking concepts or items"}
+{"neuron":6183,"pole":"low","cluster":2,"mode":"referring to specific concepts or items","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":9945,"pole":"high","cluster":0,"mode":"beginning or starting something","scene_windows":0,"windows":5,"scene":"initiating actions or processes"}
+{"neuron":9945,"pole":"high","cluster":1,"mode":"seeking information or details","scene_windows":0,"windows":5,"scene":"asking for more information"}
+{"neuron":9945,"pole":"high","cluster":2,"mode":"listing spices or seasonings","scene_windows":0,"windows":5,"scene":"culinary ingredient descriptions"}
+{"neuron":9945,"pole":"high","cluster":3,"mode":"concluding remarks or statements","scene_windows":0,"windows":5,"scene":"offering final thoughts"}
+{"neuron":9945,"pole":"high","cluster":4,"mode":"positive wishes or greetings","scene_windows":0,"windows":5,"scene":"expressing good wishes"}
+{"neuron":9945,"pole":"high","cluster":5,"mode":"positive emotional states","scene_windows":0,"windows":5,"scene":"describing positive feelings"}
+{"neuron":9945,"pole":"high","cluster":6,"mode":"positive emotional states","scene_windows":0,"windows":5,"scene":"describing positive feelings"}
+{"neuron":9945,"pole":"high","cluster":7,"mode":"offering assistance or help","scene_windows":0,"windows":5,"scene":"offering help"}
+{"neuron":9945,"pole":"high","cluster":8,"mode":"offering assistance or help","scene_windows":0,"windows":5,"scene":"offering help"}
+{"neuron":9945,"pole":"high","cluster":9,"mode":"negative emotional states or situations","scene_windows":0,"windows":5,"scene":"describing negative situations"}
+{"neuron":9945,"pole":"high","cluster":10,"mode":"place names or locations","scene_windows":0,"windows":5,"scene":"referring to specific places"}
+{"neuron":9945,"pole":"high","cluster":11,"mode":"concluding remarks or statements","scene_windows":0,"windows":5,"scene":"offering final thoughts"}
+{"neuron":9945,"pole":"high","cluster":12,"mode":"place names or locations","scene_windows":0,"windows":5,"scene":"referring to specific places"}
+{"neuron":9945,"pole":"high","cluster":13,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":9945,"pole":"high","cluster":14,"mode":"describing small quantities or degrees","scene_windows":0,"windows":5,"scene":"indicating small amounts"}
+{"neuron":9945,"pole":"low","cluster":0,"mode":"costs, management, remote work, flexibility, efficiency, savings","scene_windows":0,"windows":5,"scene":"business IT infrastructure optimization"}
+{"neuron":9945,"pole":"low","cluster":1,"mode":"economic inequality, opportunity, stability, viability, consumption","scene_windows":0,"windows":5,"scene":"economic and environmental stability"}
+{"neuron":9945,"pole":"low","cluster":2,"mode":"emergencies, bills, appliance repair, natural disaster, income interruption","scene_windows":0,"windows":5,"scene":"financial planning and emergencies"}
+{"neuron":9945,"pole":"low","cluster":3,"mode":"cost savings, convenience, benefits, plans, price","scene_windows":0,"windows":5,"scene":"financial planning and cost evaluation"}
+{"neuron":9945,"pole":"low","cluster":4,"mode":"inequality, minority, government, positions, education","scene_windows":0,"windows":5,"scene":"socioeconomic inequality in Madagascar"}
+{"neuron":9945,"pole":"low","cluster":5,"mode":"credit card payments, debts, sued, financial emergencies","scene_windows":0,"windows":5,"scene":"financial hardship and debt"}
+{"neuron":5724,"pole":"high","cluster":0,"mode":"expressing gratitude or acknowledgment","scene_windows":0,"windows":5,"scene":"polite conversation closings"}
+{"neuron":5724,"pole":"high","cluster":1,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":5724,"pole":"high","cluster":2,"mode":"expressing gratitude or acknowledgment","scene_windows":0,"windows":5,"scene":"polite conversation closings"}
+{"neuron":5724,"pole":"low","cluster":0,"mode":"indicating a direction or destination","scene_windows":0,"windows":5,"scene":"describing movement"}
+{"neuron":5724,"pole":"low","cluster":1,"mode":"indicating ability or capability","scene_windows":0,"windows":5,"scene":"describing capabilities"}
+{"neuron":5724,"pole":"low","cluster":2,"mode":"indicating ability or capability","scene_windows":0,"windows":5,"scene":"describing capabilities"}
+{"neuron":5724,"pole":"low","cluster":3,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":5724,"pole":"low","cluster":4,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":10331,"pole":"high","cluster":0,"mode":"necessity or requirement for something","scene_windows":0,"windows":5,"scene":"discussing bodily needs"}
+{"neuron":10331,"pole":"high","cluster":1,"mode":"maintaining hydration and fluid intake","scene_windows":0,"windows":5,"scene":"discussing bodily fluid intake"}
+{"neuron":10331,"pole":"high","cluster":2,"mode":"replenishing bodily salts and electrolytes","scene_windows":0,"windows":5,"scene":"discussing bodily fluid replacement"}
+{"neuron":10331,"pole":"high","cluster":3,"mode":"replenishing bodily electrolytes","scene_windows":0,"windows":5,"scene":"discussing bodily fluid replacement"}
+{"neuron":10331,"pole":"high","cluster":4,"mode":"replenishing bodily fluids or nutrients","scene_windows":0,"windows":5,"scene":"discussing bodily fluid replacement"}
+{"neuron":10331,"pole":"high","cluster":5,"mode":"indicating a low quantity or level","scene_windows":0,"windows":5,"scene":"describing low supply"}
+{"neuron":10331,"pole":"high","cluster":6,"mode":"replenishing bodily fluids or nutrients","scene_windows":0,"windows":5,"scene":"discussing bodily fluid replacement"}
+{"neuron":10331,"pole":"high","cluster":7,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":10331,"pole":"high","cluster":8,"mode":"referring to specific vitamins","scene_windows":0,"windows":5,"scene":"identifying specific vitamins"}
+{"neuron":10331,"pole":"low","cluster":0,"mode":"indicating a point in time or condition","scene_windows":0,"windows":5,"scene":"describing cooking processes"}
+{"neuron":10331,"pole":"low","cluster":1,"mode":"indicating a point in time or condition","scene_windows":0,"windows":5,"scene":"describing cooking processes"}
+{"neuron":10331,"pole":"low","cluster":2,"mode":"referring to past events or states","scene_windows":0,"windows":5,"scene":"describing past occurrences"}
+{"neuron":10331,"pole":"low","cluster":3,"mode":"indicating a duration or period","scene_windows":0,"windows":5,"scene":"specifying timeframes"}
+{"neuron":10331,"pole":"low","cluster":4,"mode":"indicating a point in time or condition","scene_windows":0,"windows":5,"scene":"describing completion"}
+{"neuron":10331,"pole":"low","cluster":5,"mode":"referring to specific items or concepts","scene_windows":0,"windows":5,"scene":"identifying specific elements"}
+{"neuron":10331,"pole":"low","cluster":6,"mode":"indicating a point in time or condition","scene_windows":0,"windows":5,"scene":"describing accumulation"}
+{"neuron":10670,"pole":"high","cluster":0,"mode":"describing current states or conditions","scene_windows":0,"windows":5,"scene":"discussing current prices"}
+{"neuron":10670,"pole":"high","cluster":1,"mode":"connecting ideas or listing items","scene_windows":0,"windows":5,"scene":"linking concepts or items"}
+{"neuron":10670,"pole":"high","cluster":2,"mode":"listing factors or reasons","scene_windows":0,"windows":5,"scene":"explaining contributing factors"}
+{"neuron":10670,"pole":"low","cluster":0,"mode":"indicating a reduction in expenses","scene_windows":0,"windows":5,"scene":"discussing cost savings"}
+{"neuron":10670,"pole":"low","cluster":1,"mode":"connecting ideas or listing items","scene_windows":0,"windows":5,"scene":"linking concepts or items"}
+{"neuron":10670,"pole":"low","cluster":2,"mode":"listing factors or reasons","scene_windows":0,"windows":5,"scene":"explaining contributing factors"}
