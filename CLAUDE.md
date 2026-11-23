@@ -49,14 +49,14 @@ These hold in code, docs, READMEs, PRs and commits.
 - Each experiment is a folder `experiments/<name>/`, with no numbers in the name.
   - `README.md`: what was done, the scripts that were run, the results.
   - The YAML configs the scripts were run with.
-  - `results/`: the committed outputs, reports included.
+  - The committed outputs, reports included, in the experiment folder itself. No `results/` subfolder.
 - Failures stay out of `main`. Their branch and tag are kept, and the README says why they failed.
 - Commit messages carry the key numbers, so a later run can be checked against them.
 
 ## Running on Colab
 
 - Use the `colab-experiments` skill: the dependency rules, the notebook loop and how to verify a run.
-- Large outputs go to `runs/` (gitignored) and to S3; small ones to the experiment's `results/` (committed).
+- Large outputs go to `runs/` (gitignored) and to S3; small ones to the experiment folder itself (committed).
   - Public copies for collaborators: `scripts/fetch_runs.sh`.
 
 ## Archive

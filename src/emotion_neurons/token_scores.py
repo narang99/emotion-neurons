@@ -4,10 +4,14 @@
   - Score: cosine of the token's raw activation with each denoised vector, as in the emotions paper.
   - The paper removes the neutral PCs from the vectors only. Removing them from the activation too would change only
     the cosine's norm, since the denoised vectors have no component along them.
-  - Unlike the story-level check in `vectors.checks`, nothing is centred: its leave-one-out needs the grand mean.
+  - Unlike the held-out accuracy in `vectors.checks`, nothing is centred.
 - Direction: every val prompt, followed by its saved plain reply, projected onto the unit direction at its layer's input.
   - Plain replies only: the ablated and added runs change the stream, so their tokens would need those hooks too.
-- Saved as results/<run_id>/token_scores.json (texts, tokens, offsets) and token_scores.safetensors (scores, fp16).
+- Layout: one flat score array for all texts, and one `TokenText` entry per text that says where its rows are.
+  - `values` [token, series]: the texts' tokens one after another, a row per token, a column per series.
+  - A text's rows are `values[start : start + len(tokens)]`, in token order (`reports.token_views.scores_of`).
+  - `start` is the running token count of the texts before it, so the entries tile the array with no gaps.
+- Saved as results/<run_id>/token_scores.json (the entries) and token_scores.safetensors (`values` as `scores`, fp16).
 """
 
 import json
@@ -35,14 +39,18 @@ class TokenText(BaseModel):
 
     id: str
     label: str
+    """The story's emotion (or neutral), or the prompt's category."""
     tokens: list[str]
+    """Each token decoded on its own, for display."""
     start: int
+    """Row of this text's first token in the flat score array."""
     marker: int | None = None
-    """For a prompt with its reply: the first reply token."""
+    """Prompts with their replies only: the index of the first reply token within `tokens`, where the prompt ends."""
 
 
 class TokenScores(BaseModel):
     series: list[str]
+    """The columns of the score array: the 12 emotions, or a single `projection` for a direction."""
     texts: list[TokenText]
 
 
