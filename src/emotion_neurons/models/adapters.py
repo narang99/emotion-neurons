@@ -11,6 +11,7 @@ checkpoint names of the tensors read one at a time (`models.weights`).
 
 from typing import Literal, Protocol
 
+from torch import nn
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from ..config import HFModel, ModelConfig, Qwen1Model
@@ -29,6 +30,10 @@ class ModelAdapter(Protocol):
     def chat_prompt(self, tokenizer: PreTrainedTokenizerBase, instruction: str) -> str: ...
 
     def tensor_name(self, kind: TensorKind, layer: int | None = None) -> str: ...
+
+    def mlp(self, model: PreTrainedModel, layer: int) -> nn.Module:
+        """The layer's MLP. The input of its `down_proj` is the neuron activations, `silu(gate) * up`."""
+        ...
 
 
 def adapter_for(model: ModelConfig) -> ModelAdapter:

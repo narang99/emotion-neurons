@@ -3,6 +3,7 @@
 import os
 
 import torch
+from torch import nn
 from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
 
 from ..config import HFModel
@@ -41,3 +42,6 @@ class HFAdapter:
             "lm_head": "lm_head.weight",
             "final_norm": "model.norm.weight",
         }[kind]
+
+    def mlp(self, model: PreTrainedModel, layer: int) -> nn.Module:
+        return model.model.layers[layer].mlp

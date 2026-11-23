@@ -6,7 +6,8 @@
   - `ExtractionRunConfig`: a data source and an extraction method (extract.py), two unions on `kind`:
     - data: `stories` or `instructions`, both read through `datasets.ExampleSet`;
     - extraction: `emotion_vectors` (the emotions paper) or `direction` (the refusal paper's selection and checks);
-  - `PolesRunConfig`: neuron poles (poles.py).
+  - `PolesRunConfig`: neuron poles (poles.py);
+  - `AblationRunConfig`: loss and KL under mean ablation of the neurons between the poles (ablation.py).
 - Values come from two places, and the command line wins:
   - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
   - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
@@ -110,22 +111,28 @@ class CorpusConfig(Section):
     split: str = "train"
     field: str = Field("text", description="a list field is read as chat messages {role, content}")
     tokens: int
+    skip_tokens: int = Field(0, description="windows worth this many tokens are passed over first, for held-out text")
 
 
-class PolesConfig(Section):
-    """The poles of a neuron: at or below its p3, or at or above its p97, over general text."""
+class TextSample(Section):
+    """Windows of general text from several corpora (`texts.corpus_windows`)."""
 
     corpora: list[CorpusConfig] = [
         CorpusConfig(name="fineweb-edu", path="HuggingFaceFW/fineweb-edu", config="sample-10BT", tokens=70_000),
         CorpusConfig(name="tinystories", path="roneneldan/TinyStories", tokens=70_000),
         CorpusConfig(name="ultrachat", path="HuggingFaceH4/ultrachat_200k", split="train_sft", field="messages", tokens=70_000),
     ]
-    quantiles: list[float] = [0.03, 0.97]
     window: int = 256
     min_window: int = 32
     skip_first: int = Field(4, description="the first tokens of each window are left out (attention-sink effects)")
     batch_size: int = 32
     seed: int = 0
+
+
+class PolesConfig(TextSample):
+    """The poles of a neuron: at or below its p3, or at or above its p97, over general text."""
+
+    quantiles: list[float] = [0.03, 0.97]
 
 
 class RunConfig(BaseSettings):
@@ -162,7 +169,7 @@ class RunConfig(BaseSettings):
 
 
 class PolesRunConfig(RunConfig):
-    layer: int = 25
+    layers: list[int] = Field([25], description="every neuron of each of these layers' MLPs")
     poles: PolesConfig = PolesConfig()
 
 
@@ -273,6 +280,37 @@ class ExtractionRunConfig(RunConfig):
     def instructions(self) -> InstructionsData:
         assert isinstance(self.data, InstructionsData), "not an instructions run"
         return self.data
+
+
+class Ablation(Section):
+    """Mean ablation of the MLP neurons of layers `start` to `stop` (exclusive) (`ablation`)."""
+
+    kind: Literal["band", "random"] = Field(
+        "band",
+        description="band: values strictly between the low and high pole; random: as many neurons per token as the band",
+    )
+    start: int = 0
+    stop: int | None = Field(None, description="None: up to the last layer")
+
+    def layers(self, n_layers: int) -> list[int]:
+        return list(range(self.start, n_layers if self.stop is None else self.stop))
+
+    def name(self, n_layers: int) -> str:
+        layers = self.layers(n_layers)
+        return f"{self.kind} L{layers[0]}-{layers[-1]}"
+
+
+class AblationRunConfig(RunConfig):
+    """Loss and KL of the model with mean-ablated MLP neurons, against the intact model (`ablation`)."""
+
+    thresholds: Path = Field(description="poles.py output: the band's quantiles and `mean` for every ablated layer")
+    low: str = "p3"
+    high: str = "p97"
+    text: TextSample = Field(description="held-out general text; skip the poles run's windows with `skip_tokens`")
+    prompts: InstructionsData | None = Field(None, description="KL at the post-instruction positions of the val split")
+    prompt_batch_size: int = 16
+    ablations: list[Ablation] = [Ablation(kind="band"), Ablation(kind="random")]
+    mask_seed: int = Field(0, description="seed of the random control's neuron draws")
 
 
 Config = TypeVar("Config", bound=RunConfig)

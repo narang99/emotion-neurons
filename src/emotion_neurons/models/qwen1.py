@@ -18,8 +18,8 @@ from pathlib import Path
 import torch
 from huggingface_hub import hf_hub_download
 from safetensors import safe_open
-from torch import Tensor
-from transformers import AutoTokenizer, PreTrainedTokenizerBase, Qwen2Config, Qwen2ForCausalLM
+from torch import Tensor, nn
+from transformers import AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase, Qwen2Config, Qwen2ForCausalLM
 
 from ..config import Qwen1Model
 
@@ -121,3 +121,6 @@ class Qwen1Adapter:
 
     def tensor_name(self, kind: str, layer: int | None = None) -> str:
         return checkpoint_name(kind, layer)
+
+    def mlp(self, model: PreTrainedModel, layer: int) -> nn.Module:
+        return model.model.layers[layer].mlp

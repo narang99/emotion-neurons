@@ -2,6 +2,6 @@
 #   python scripts/poles.py --config configs/poles.yaml
 run_id: poles
 model: Qwen/Qwen3-8B
-layer: 25
+layers: [25]
 poles:
   quantiles: [0.03, 0.97]
