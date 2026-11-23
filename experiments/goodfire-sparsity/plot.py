@@ -3,7 +3,8 @@
     python experiments/goodfire-sparsity/plot.py
 
 - Reads the ablation.json files of the full and sweep runs of both bands, next to this script.
-- Writes report.html next to this script: loss change, text KL, harmful-prompt KL and harmless-prompt KL.
+- Writes report.html next to this script: loss change and KL on held-out text.
+  - The KL chart also marks the random control, which exists only for all layers ablated (k = 0).
 - Hover a chart for the values at a layer; "Values as a table" lists every number.
 """
 
@@ -15,9 +16,8 @@ BANDS = {"p3 / p97": ("ablation_full", "ablation_sweep"), "p5 / p95": ("ablation
 METRICS = {
     "Loss change (nats)": lambda a: a["loss_change"],
     "KL per position, held-out text": lambda a: a["kl_per_position"],
-    "KL per position, harmful prompts": lambda a: a["prompts"]["harmful"]["kl_per_position"],
-    "KL per position, harmless prompts": lambda a: a["prompts"]["harmless"]["kl_per_position"],
 }
+WITH_RANDOM = {"KL per position, held-out text"}
 WIDTH, HEIGHT = 720, 280
 LEFT, RIGHT, TOP, BOTTOM = 56, 72, 16, 40
 
@@ -28,6 +28,10 @@ def band_rows(full: str, sweep: str) -> list[dict]:
     rows += json.loads((HERE / sweep / "ablation.json").read_text())["ablations"]
     assert [r["layers"][0] for r in rows] == list(range(len(rows))), "sweep rows are not k = 0, 1, 2, ..."
     return rows
+
+
+def random_control(full: str) -> dict:
+    return next(a for a in json.loads((HERE / full / "ablation.json").read_text())["ablations"] if a["name"].startswith("random"))
 
 
 TICK_STEPS = (0.025, 0.05, 0.1, 0.125, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 2, 2.5, 3)
@@ -47,9 +51,10 @@ def dodged(ys: list[float], gap: float = 12) -> list[float]:
     return out
 
 
-def chart(title: str, series: dict[str, list[float]]) -> str:
+def chart(title: str, series: dict[str, list[float]], random: dict[str, float]) -> str:
+    """`random`: per series, the random control's value at k = 0, drawn as a hollow marker; empty for none."""
     layers = len(next(iter(series.values())))
-    top = axis_top(max(max(v) for v in series.values()))
+    top = axis_top(max([max(v) for v in series.values()] + list(random.values())))
     x = lambda k: LEFT + k * (WIDTH - LEFT - RIGHT) / (layers - 1)  # noqa: E731
     y = lambda v: TOP + (1 - v / top) * (HEIGHT - TOP - BOTTOM)  # noqa: E731
     grid = "".join(
@@ -69,13 +74,20 @@ def chart(title: str, series: dict[str, list[float]]) -> str:
     labels = "".join(
         f'<text class="direct" x="{x(layers - 1) + 8:.1f}" y="{ly:.1f}">{name}</text>' for name, ly in zip(series, label_ys)
     )
-    data = json.dumps({"names": list(series), "values": list(series.values()), "top": top, "layers": layers})
+    markers = "".join(
+        f'<circle class="marker s{i}" cx="{x(0):.1f}" cy="{y(v):.1f}" r="4.5"/>' for i, v in enumerate(random.values(), start=1)
+    )
+    if random:
+        markers += (
+            f'<text class="direct" x="{x(0) + 10:.1f}" y="{y(max(random.values())) + 4:.1f}">random control, all layers</text>'
+        )
+    data = json.dumps({"names": list(series), "values": list(series.values()), "random": list(random.values()), "layers": layers})
     return f"""<figure class="chart" data-chart='{data}'>
   <figcaption>{title}</figcaption>
   <svg viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-label="{title} against the first ablated layer">
     {grid}{xticks}
     <text class="axis" x="{(LEFT + WIDTH - RIGHT) / 2}" y="{HEIGHT - 4}" text-anchor="middle">first ablated layer (layers k to 31 ablated)</text>
-    {lines}{labels}
+    {lines}{labels}{markers}
     <line class="cross" y1="{TOP}" y2="{HEIGHT - BOTTOM}" visibility="hidden"/>
     <rect class="hit" x="{LEFT}" y="{TOP}" width="{WIDTH - LEFT - RIGHT}" height="{HEIGHT - TOP - BOTTOM}"/>
   </svg>
@@ -83,12 +95,14 @@ def chart(title: str, series: dict[str, list[float]]) -> str:
 </figure>"""
 
 
-def table(rows: dict[str, list[dict]]) -> str:
+def table(rows: dict[str, list[dict]], randoms: dict[str, dict]) -> str:
     head = "".join(f"<th>{band}: {metric}</th>" for metric in METRICS for band in rows)
     body = ""
     for k in range(len(next(iter(rows.values())))):
         cells = "".join(f"<td>{fn(rows[band][k]):.3f}</td>" for fn in METRICS.values() for band in rows)
         body += f"<tr><td>{k}</td>{cells}</tr>"
+    cells = "".join(f"<td>{fn(randoms[band]):.3f}</td>" for fn in METRICS.values() for band in rows)
+    body += f"<tr><td>random control, all layers</td>{cells}</tr>"
     return f'<details><summary>Values as a table</summary><div class="scroll"><table><tr><th>first ablated layer</th>{head}</tr>{body}</table></div></details>'
 
 
@@ -111,6 +125,7 @@ svg { width: 100%; height: auto; display: block; }
 .line { fill: none; stroke-width: 2; stroke-linejoin: round; }
 .s1 { stroke: var(--series-1); } .s2 { stroke: var(--series-2); }
 .direct { font-size: 11px; fill: var(--text-secondary); }
+.marker { fill: var(--surface-1); stroke-width: 2; }
 .cross { stroke: var(--muted); stroke-width: 1; }
 .hit { fill: transparent; }
 .tip { position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--rule); border-radius: 6px;
@@ -135,7 +150,9 @@ for (const fig of document.querySelectorAll(".chart")) {
     const cx = x0 + k * w / (d.layers - 1);
     cross.setAttribute("x1", cx); cross.setAttribute("x2", cx); cross.setAttribute("visibility", "visible");
     tip.innerHTML = `layers ${k} to ${d.layers - 1}<br>` + d.names.map((n, i) =>
-      `<i style="background:var(--series-${i + 1})"></i>${n}: ${d.values[i][k].toFixed(3)}`).join("<br>");
+      `<i style="background:var(--series-${i + 1})"></i>${n}: ${d.values[i][k].toFixed(3)}`).join("<br>")
+      + (k === 0 && d.random.length ? "<br>random control:<br>" + d.names.map((n, i) =>
+      `<i style="background:var(--series-${i + 1})"></i>${n}: ${d.random[i].toFixed(3)}`).join("<br>") : "");
     const box = fig.getBoundingClientRect();
     tip.hidden = false;
     tip.style.left = Math.min(e.clientX - box.left + 12, box.width - tip.offsetWidth) + "px";
@@ -148,7 +165,15 @@ for (const fig of document.querySelectorAll(".chart")) {
 
 def main():
     rows = {band: band_rows(*runs) for band, runs in BANDS.items()}
-    charts = "".join(chart(title, {band: [fn(r) for r in rows[band]] for band in rows}) for title, fn in METRICS.items())
+    randoms = {band: random_control(full) for band, (full, _) in BANDS.items()}
+    charts = "".join(
+        chart(
+            title,
+            {band: [fn(r) for r in rows[band]] for band in rows},
+            {band: fn(randoms[band]) for band in rows} if title in WITH_RANDOM else {},
+        )
+        for title, fn in METRICS.items()
+    )
     legend = "".join(f'<span><i style="background:var(--series-{i})"></i>{band}</span>' for i, band in enumerate(rows, start=1))
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -157,7 +182,7 @@ def main():
 <h1>Goodfire sparsity on Qwen-1 7B Chat: mean ablation of layers k to 31</h1>
 <div class="legend">{legend}</div>
 <div class="grid-2">{charts}</div>
-{table(rows)}
+{table(rows, randoms)}
 </main><script>{HOVER}</script></body></html>"""
     (HERE / "report.html").write_text(page)
     print(f"[saved] {HERE / 'report.html'}")
