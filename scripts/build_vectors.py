@@ -1,6 +1,6 @@
 """Stage 2b: emotion vectors from the pooled sums, plus the checks that need only the sums. CPU.
 
-    python scripts/build_vectors.py --config configs/stage2_l25.yaml
+    python scripts/build_vectors.py --config experiments/00-vector-extraction/stage2_l25.yaml
 
 - Reads runs/<run_id>/{sums.safetensors, stories.json}.
 - Writes to results/<run_id>/:

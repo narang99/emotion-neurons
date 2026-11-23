@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ report.title }}</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface: #fcfcfb;
+  --surface-2: #f3f2ef;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --muted: #8a8984;
+  --rule: #e3e2de;
+  --empty: #f3f2ef;
+  --mark: #0b0b0b;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --surface: #1a1a19;
+    --surface-2: #242423;
+    --text: #f0efec;
+    --text-2: #c3c2b7;
+    --muted: #8f8e87;
+    --rule: #383835;
+    --empty: #242423;
+    --mark: #f0efec;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--surface); color: var(--text);
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main { max-width: 1180px; margin: 0 auto; padding: 32px 24px 64px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+h2 { font-size: 17px; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+h3 { font-size: 14px; margin: 20px 0 4px; }
+p, li { color: var(--text-2); max-width: 80ch; }
+.meta { color: var(--text-2); margin: 0 0 16px; }
+.note { background: var(--surface-2); border-radius: 6px; padding: 10px 14px; color: var(--text-2); max-width: 80ch; }
+code { font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+table.data { border-collapse: collapse; font-variant-numeric: tabular-nums; margin: 8px 0; }
+table.data th, table.data td { padding: 4px 10px; text-align: right; border-bottom: 1px solid var(--rule); }
+table.data th { color: var(--text-2); font-weight: 600; }
+table.data th:first-child, table.data td:first-child { text-align: left; }
+table.data td.text { text-align: left; white-space: pre-wrap; max-width: 60ch; vertical-align: top; }
+.tiles { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0; }
+.tile { background: var(--surface-2); border-radius: 6px; padding: 10px 14px; min-width: 180px; }
+.tile .value { font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.tile .label { color: var(--text-2); font-size: 12px; }
+.maps { display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start; }
+figure { margin: 12px 0; }
+figcaption { color: var(--text-2); font-size: 12px; max-width: 70ch; }
+figure .title { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+.scroll { overflow-x: auto; max-width: 100%; }
+table.heat { border-collapse: separate; border-spacing: 2px; font-variant-numeric: tabular-nums; font-size: 11px; }
+table.heat th { color: var(--text-2); font-weight: 500; padding: 0 4px; white-space: nowrap; }
+table.heat th.row { text-align: right; }
+table.heat th.vertical { writing-mode: vertical-rl; transform: rotate(180deg); text-align: left; padding: 4px 0; vertical-align: bottom; }
+table.heat td {
+  min-width: 22px; height: 22px; padding: 0 4px; text-align: center; border-radius: 2px;
+  background: var(--fill-light, var(--empty)); color: var(--ink-light, var(--text));
+}
+@media (prefers-color-scheme: dark) {
+  table.heat td { background: var(--fill-dark, var(--empty)); color: var(--ink-dark, var(--text)); }
+}
+table.heat td.marked { outline: 2px solid var(--mark); outline-offset: 0; }
+table.heat td.excluded { background-image: repeating-linear-gradient(45deg, transparent 0 3px, rgba(127,127,127,.55) 3px 4px); }
+table.heat td:hover { filter: brightness(1.12); }
+table.heat .axis { color: var(--muted); font-weight: 400; font-size: 11px; }
+.legend { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-2); margin-top: 4px; }
+.legend .bar { width: 160px; height: 8px; border-radius: 4px; background: var(--legend-light); }
+@media (prefers-color-scheme: dark) { .legend .bar { background: var(--legend-dark); } }
+.legend .key { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: -2px; margin-left: 10px; }
+.legend .key.marked { outline: 2px solid var(--mark); outline-offset: -2px; }
+.legend .key.excluded { background-image: repeating-linear-gradient(45deg, transparent 0 3px, rgba(127,127,127,.55) 3px 4px); }
+details { margin: 6px 0; }
+summary { cursor: pointer; color: var(--text-2); font-size: 12px; }
+.refused { color: var(--text); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+<h1>{{ report.title }}</h1>
+{% block body %}{% endblock %}
+</main>
+</body>
+</html>

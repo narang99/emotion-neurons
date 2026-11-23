@@ -1,7 +1,8 @@
 # Stage 2: emotion vectors at Qwen3-8B layer 25 (of 36), checked on held-out stories.
-#   python scripts/extract.py       --config configs/stage2_l25.yaml   # GPU, ~10 min on an L4
-#   python scripts/build_vectors.py --config configs/stage2_l25.yaml   # CPU, seconds
+#   python scripts/extract.py       --config experiments/00-vector-extraction/stage2_l25.yaml   # GPU, ~10 min on an L4
+#   python scripts/build_vectors.py --config experiments/00-vector-extraction/stage2_l25.yaml   # CPU, seconds
 run_id: stage2_l25
+results_dir: experiments/00-vector-extraction/results
 model: Qwen/Qwen3-8B
 layer: 25
 data:

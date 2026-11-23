@@ -1,8 +1,9 @@
 # The refusal direction of Qwen-1 7B Chat, as in Arditi et al. 2024 (arXiv 2406.11717): harmful minus harmless
 # instructions, 128 train + 32 val per side from the paper's published splits; layer and post-instruction position
 # chosen by the effect of ablating and adding the direction; checked by generation.
-#   python scripts/direction.py --config configs/refusal_qwen1.yaml   # GPU, L4
+#   python scripts/direction.py --config experiments/00-vector-extraction/refusal_qwen1.yaml   # GPU, L4
 run_id: refusal_qwen1
+results_dir: experiments/00-vector-extraction/results
 model: Qwen/Qwen-7B-Chat
 instructions:
   n_train: 128

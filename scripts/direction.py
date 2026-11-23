@@ -1,6 +1,6 @@
 """A difference-of-means direction on instruction data, selected by its effect and checked by generation. GPU.
 
-    python scripts/direction.py --config configs/refusal_qwen1.yaml
+    python scripts/direction.py --config experiments/00-vector-extraction/refusal_qwen1.yaml
 
 - See `emotion_neurons.directions`. Writes results/<run_id>/{direction.json, direction.safetensors, replies.json}.
 """

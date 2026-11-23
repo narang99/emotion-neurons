@@ -1,6 +1,6 @@
 """Stage 2a: one pass over every story, pooled sums of the layer-L sites. GPU.
 
-    python scripts/extract.py --config configs/stage2_l25.yaml
+    python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml
 
 - runs/<run_id>/sums.safetensors: per site and range (early, late), an fp32 [story, dim] sum over that range's real
   tokens, plus `counts` [story, 2].
