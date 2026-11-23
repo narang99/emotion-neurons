@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import token_view %}
+{% from "macros.html" import heatmap, token_view %}
 {% block body %}
 <style>
 .tabs > input { position: absolute; opacity: 0; pointer-events: none; }
@@ -14,12 +14,7 @@
 {% for s in report.sections %}<input type="radio" name="vector" id="tab-{{ loop.index }}"{% if loop.first %} checked{% endif %}><label for="tab-{{ loop.index }}">{{ s.emotion }}</label>{% endfor %}
 {% for s in report.sections %}
 <section id="panel-{{ loop.index }}">
-<table class="data">
-  <tr><th></th>{% for label in s.labels %}<th>{{ label }}</th>{% endfor %}</tr>
-  {% for row in s.quantiles %}
-  <tr><th>{{ row.name }}</th>{% for v in row.values %}<td>{{ "%.3f" | format(v) }}</td>{% endfor %}</tr>
-  {% endfor %}
-</table>
+{{ heatmap(s.quantiles) }}
 {% for v in s.views %}{{ token_view(v) }}{% endfor %}
 </section>
 {% endfor %}
