@@ -89,6 +89,9 @@ class MeanAblation:
         return hook
 
     def count(self, layer: int, mask: NeuronMask) -> None:
+        """Counts only while `tokens` holds the batch's attention mask; e.g. `model.generate` passes are not counted."""
+        if self.tokens is None or self.tokens.shape != mask.shape[:-1]:
+            return
         self.ablated[layer] += (mask & self.tokens[..., None]).sum()
         self.cells[layer] += self.tokens.sum() * mask.shape[-1]
 

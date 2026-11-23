@@ -1,0 +1,31 @@
+# The refusal direction of Qwen-1 7B Chat (layer 18 input, last post-instruction token, as chosen in refusal_qwen1),
+# recomputed with the MLPs of layers k to 17 mean-ablated, for k = 0, 4, 8, 12, 16, 17; p3/p97 and p5/p95 bands of
+# the goodfire-sparsity poles, and the random control with as many neurons per token.
+#   python scripts/refusal_ablation.py --config experiments/refusal-ablation/refusal_ablation.yaml   # GPU, L4
+run_id: refusal_ablation
+results_dir: experiments/refusal-ablation
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+data:
+  kind: instructions
+  n_train: 128
+  n_val: 32
+  seed: 42
+  categories:
+    harmful:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"]
+    harmless:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
+target: harmful
+layer: 18
+position: -1
+reference: experiments/00-vector-extraction/results/refusal_qwen1/direction.safetensors
+bands:
+  p3_p97: {thresholds: experiments/goodfire-sparsity/poles_qwen1/thresholds.safetensors, low: p3, high: p97}
+  p5_p95: {thresholds: experiments/goodfire-sparsity/poles_qwen1_p5/thresholds.safetensors, low: p5, high: p95}
+starts: [0, 4, 8, 12, 16, 17]
+kinds: [band, random]

@@ -7,7 +7,8 @@
     - data: `stories` or `instructions`, both read through `datasets.ExampleSet`;
     - extraction: `emotion_vectors` (the emotions paper) or `direction` (the refusal paper's selection and checks);
   - `PolesRunConfig`: neuron poles (poles.py);
-  - `AblationRunConfig`: loss and KL under mean ablation of the neurons between the poles (ablation.py).
+  - `AblationRunConfig`: loss and KL under mean ablation of the neurons between the poles (ablation.py);
+  - `RefusalAblationRunConfig`: the refusal direction with earlier MLPs mean-ablated (refusal_ablation.py).
 - Values come from two places, and the command line wins:
   - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
   - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
@@ -311,6 +312,31 @@ class AblationRunConfig(RunConfig):
     prompt_batch_size: int = 16
     ablations: list[Ablation] = [Ablation(kind="band"), Ablation(kind="random")]
     mask_seed: int = Field(0, description="seed of the random control's neuron draws")
+
+
+class BandPoles(Section):
+    """A band of a poles.py run: values strictly between `low` and `high` are mean-ablated (`ablation`)."""
+
+    thresholds: Path
+    low: str
+    high: str
+
+
+class RefusalAblationRunConfig(RunConfig):
+    """The refusal direction at one site, recomputed with the MLPs of the layers before it mean-ablated (`refusal_ablation`)."""
+
+    data: InstructionsData
+    target: str = "harmful"
+    layer: int = Field(18, description="the direction is read at this layer's input; layers start to layer - 1 are ablated")
+    position: int = Field(-1, description="post-instruction position, counted from the end")
+    reference: Path | None = Field(None, description="a saved direction.safetensors to compare the intact direction with")
+    bands: dict[str, BandPoles]
+    starts: list[int] = [0, 4, 8, 12, 16, 17]
+    kinds: list[Literal["band", "random"]] = ["band", "random"]
+    split_halves: int = Field(10, description="random half splits of the train prompts, for the cosine floor")
+    batch_size: int = 16
+    refusal_check: RefusalCheckConfig = RefusalCheckConfig()
+    mask_seed: int = 0
 
 
 Config = TypeVar("Config", bound=RunConfig)
