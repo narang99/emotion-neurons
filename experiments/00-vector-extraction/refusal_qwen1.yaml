@@ -22,8 +22,6 @@ data:
       val: [{url: "https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"}]
 extraction:
   kind: direction
-  diff_means:
-    target: harmful
-    baseline: rest
+  target: harmful
   selection:
     refusal_tokens: ["I", "As"]

@@ -5,7 +5,7 @@
 
 1. Means: one pass over the train instructions; the residual stream at every layer's input (resid_pre), at each
    post-instruction position, summed per category. Nothing per example is stored.
-2. Candidates: for every layer and post-instruction position, the difference of means (`vectors.diff_means`).
+2. Candidates: for every layer and post-instruction position, the target mean minus the other category's mean.
 3. Selection, on the val instructions:
    - bypass: the refusal score of target-category prompts with the direction ablated everywhere (lower is better);
    - induce: the refusal score of the other prompts with the direction added at its layer (must be > 0);
@@ -27,7 +27,7 @@ from jaxtyping import Float
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import DiffMeansConfig, DirectionSelectionConfig, GenerationCheckConfig
+from .config import DirectionSelectionConfig, GenerationCheckConfig
 from .datasets import Example, ExampleSet
 from .models import ModelAdapter, decoder_layers
 
@@ -208,10 +208,8 @@ def generation_check(
     return result
 
 
-def diff_from_means(means: Float[Tensor, "category ..."], categories: list[str], d: DiffMeansConfig) -> Tensor:
-    """The difference of means from category means (the same rule as `vectors.diff_means`, without PCA)."""
-    assert d.pca_reference is None, "PCA denoising needs the examples, not just their means"
-    t = categories.index(d.target)
-    rest = [i for i in range(len(categories)) if i != t]
-    base = means.mean(0) if d.baseline == "all" else means[rest].mean(0)
-    return means[t] - base
+def diff_from_means(means: Float[Tensor, "category ..."], categories: list[str], target: str) -> Tensor:
+    """The target category's mean minus the other one's (the config allows exactly two categories)."""
+    assert len(categories) == 2, f"a direction needs two categories, got {categories}"
+    other = 1 - categories.index(target)
+    return means[categories.index(target)] - means[other]

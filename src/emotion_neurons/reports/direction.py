@@ -53,7 +53,6 @@ class DirectionReport(BaseModel):
     run_id: str
     target: str
     other: str
-    baseline: str
     n_train: int
     n_val: int
     max_kl: float
@@ -147,14 +146,14 @@ def build_direction_report(cfg: ExtractionRunConfig) -> DirectionReport:
     summary = json.loads((cfg.result_dir / "direction.json").read_text())
     replies = json.loads((cfg.result_dir / "replies.json").read_text())
     tensors = load_file(str(cfg.result_dir / "direction.safetensors"))
-    d, max_kl = cfg.direction.diff_means, cfg.direction.selection.max_kl
-    other = next(c for c in cfg.instructions.categories if c != d.target)
+    target, max_kl = cfg.direction.target, cfg.direction.selection.max_kl
+    other = next(c for c in cfg.instructions.categories if c != target)
     return DirectionReport(
-        title=f"Direction: {d.target} minus {other}, {cfg.model.name}",
-        model=cfg.model.name, run_id=cfg.run_id, target=d.target, other=other, baseline=d.baseline,
+        title=f"Direction: {target} minus {other}, {cfg.model.name}",
+        model=cfg.model.name, run_id=cfg.run_id, target=target, other=other,
         n_train=summary["n_train"], n_val=summary["n_val"], max_kl=max_kl,
         choice=Choice(**summary["choice"]), filtered_out_all=summary["filtered_out_all"],
-        conditions=conditions(summary, d.target, other),
+        conditions=conditions(summary, target, other),
         grid_maps=selection_maps(summary, max_kl),
         vector_maps=vector_maps(tensors, summary["choice"]),
         replies=reply_groups(cfg, replies),

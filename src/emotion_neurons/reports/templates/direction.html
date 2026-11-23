@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 {% from "macros.html" import heatmap, pct, token_view %}
 {% block body %}
-<p class="meta">Run <code>{{ report.run_id }}</code>. {{ report.n_train }} train and {{ report.n_val }} val instructions per category.
-Baseline: <code>{{ report.baseline }}</code>.</p>
+<p class="meta">Run <code>{{ report.run_id }}</code>. {{ report.n_train }} train and {{ report.n_val }} val instructions per category.</p>
 <p class="note">The direction is the mean residual stream of {{ report.target }} prompts minus that of {{ report.other }} prompts,
 at a layer's input and a post-instruction position. The candidate with the lowest bypass score wins,
 among those that induce refusal and keep the KL below {{ report.max_kl }}.

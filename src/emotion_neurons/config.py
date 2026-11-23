@@ -194,17 +194,6 @@ class InstructionsData(Section):
     seed: int = 42
 
 
-class DiffMeansConfig(Section):
-    """A difference-of-means direction for one target category (`vectors.diff_means`)."""
-
-    target: str
-    baseline: Literal["all", "rest"] = Field(
-        "rest", description="subtract the mean of all category means, or of the other categories' means"
-    )
-    pca_reference: str | None = Field(None, description="remove the top PCs of this category's examples (None: no PCA)")
-    pca_variance: float = Field(0.5, gt=0, lt=1)
-
-
 class DirectionSelectionConfig(Section):
     """The refusal paper's selection of a layer and post-instruction position (`refusal.select`)."""
 
@@ -247,7 +236,7 @@ class DirectionExtraction(Section):
     then a generation check."""
 
     kind: Literal["direction"] = "direction"
-    diff_means: DiffMeansConfig
+    target: str = Field(description="the direction is this category's mean minus the other category's mean")
     selection: DirectionSelectionConfig = DirectionSelectionConfig()
     generation: GenerationCheckConfig = GenerationCheckConfig()
     tokens: DirectionTokensConfig = DirectionTokensConfig()
@@ -270,9 +259,9 @@ class ExtractionRunConfig(RunConfig):
         match self.extraction:
             case EmotionVectorsExtraction():
                 assert isinstance(self.data, StoriesData), "emotion_vectors needs stories: the checks use story topics"
-            case DirectionExtraction(diff_means=d):
-                others = [c for c in self.data.categories if c != d.target]
-                assert d.target in self.data.categories, f"target {d.target!r} is not a data category"
+            case DirectionExtraction(target=target):
+                others = [c for c in self.data.categories if c != target]
+                assert target in self.data.categories, f"target {target!r} is not a data category"
                 assert len(others) == 1, f"direction selection needs one category besides the target, got {others}"
         return self
 

@@ -24,7 +24,7 @@ from ..models import adapter_for, loaded_model
 
 
 def target_and_other(cfg: ExtractionRunConfig) -> tuple[str, str]:
-    target = cfg.direction.diff_means.target
+    target = cfg.direction.target
     return target, next(c for c in cfg.data.categories if c != target)
 
 
@@ -55,7 +55,7 @@ def build(cfg: ExtractionRunConfig) -> None:
     categories = list(cfg.data.categories)
     saved = load_file(str(cfg.run_dir / "means.safetensors"))
     means = torch.stack([saved[c] for c in categories])  # [category, position, layer, d]
-    diffs = diff_from_means(means, categories, cfg.direction.diff_means)
+    diffs = diff_from_means(means, categories, cfg.direction.target)
     cfg.result_dir.mkdir(parents=True, exist_ok=True)
     tensors = {"diffs": diffs.float().contiguous(), "means": means.float().contiguous()}
     save_file(tensors, str(cfg.result_dir / "direction.safetensors"))
@@ -79,9 +79,9 @@ def select(cfg: ExtractionRunConfig) -> None:
     )
 
     save_file({**tensors, "direction": vector.float().cpu().contiguous()}, str(cfg.result_dir / "direction.safetensors"))
-    d, data = cfg.direction.diff_means, cfg.instructions
+    data = cfg.instructions
     summary = {
-        "model": cfg.model.name, "categories": list(data.categories), "target": d.target, "baseline": d.baseline,
+        "model": cfg.model.name, "categories": list(data.categories), "target": cfg.direction.target,
         "n_train": data.n_train, "n_val": data.n_val, "choice": choice,
         "filtered_out_all": selection["filtered_out_all"], "grid": selection["grid"],
     }  # fmt: skip
