@@ -1,6 +1,6 @@
 # Harvest hits sampled per band (refusal, Qwen-1 7B Chat, layer 17)
 
-Date: 2026-11-23. Branch: `stack/harvest-bands` (on `stack/refusal`). Tag: `exp/harvest_bands`. Status: kept.
+Date: 2026-11-23. Branch: `stack/harvest-bands` (on `stack/refusal`). Tags: `exp/harvest_bands` (bands), `exp/harvest_bands-harm` (round 2). Status: kept.
 
 Config: `configs/harvest_refusal_qwen1_bands.yaml`. Results: `results/harvest_refusal_qwen1_bands/`.
 Baseline: `results/harvest_refusal_qwen1/` (tag `exp/refusal_qwen1`), the same config with uniform hits.
