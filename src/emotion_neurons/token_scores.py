@@ -9,7 +9,6 @@
 """
 
 import json
-from collections.abc import Callable
 from pathlib import Path
 
 import torch
@@ -114,12 +113,6 @@ def direction_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Score
             start += len(full)
         print(f"[tokens] {min(b + tokens.batch_size, len(items))} of {len(items)} prompts", flush=True)
     return TokenScores(series=["projection"], texts=texts), torch.cat(rows)
-
-
-TOKEN_SCORES: dict[str, Callable[[ExtractionRunConfig], tuple[TokenScores, Scores]]] = {
-    "emotion_vectors": story_token_scores,
-    "direction": direction_token_scores,
-}
 
 
 def save_token_scores(result_dir: Path, scores: TokenScores, values: Scores) -> None:

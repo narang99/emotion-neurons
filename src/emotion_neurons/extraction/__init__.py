@@ -1,37 +1,65 @@
 """Extraction runs: a data source and a method, the method's steps run in order.
 
-- `STEPS` maps a method kind (`config.Extraction`) to its named steps.
-  - emotion_vectors: capture, build, check, tokens, report;
-  - direction: capture, build, select, check, tokens, report.
-  - tokens and report are shared (`extraction.outputs`): the token views and the HTML report.
+- `ExtractionMethod` is the protocol a method implements, one method per step:
+  - `EmotionVectorsMethod` (`extraction.emotion_vectors`): its `select` does nothing;
+  - `DirectionMethod` (`extraction.direction`).
+- A new method is a config class in the `Extraction` union, a method class, and one case in `method_for`.
 - Each step reads what the step before it saved, so `steps` in the config reruns any part of a run.
 """
 
-from collections.abc import Callable
+from typing import Protocol, get_args
 
 import torch
 
-from ..config import ExtractionRunConfig, Step
-from . import direction, emotion_vectors, outputs
+from ..config import DirectionExtraction, EmotionVectorsExtraction, ExtractionRunConfig, Step
+from .direction import DirectionMethod
+from .emotion_vectors import EmotionVectorsMethod
 
-STEPS: dict[str, dict[Step, Callable[[ExtractionRunConfig], None]]] = {
-    "emotion_vectors": emotion_vectors.STEPS | outputs.STEPS,
-    "direction": direction.STEPS | outputs.STEPS,
-}
+STEP_ORDER: tuple[Step, ...] = get_args(Step)
 
 
-def steps_to_run(cfg: ExtractionRunConfig) -> list[Step]:
-    steps = STEPS[cfg.extraction.kind]
-    unknown = [s for s in cfg.steps or [] if s not in steps]
-    assert not unknown, f"{cfg.extraction.kind} has no steps {unknown}; its steps are {list(steps)}"
-    return [s for s in steps if cfg.steps is None or s in cfg.steps]
+class ExtractionMethod(Protocol):
+    def capture(self) -> None:
+        """GPU pass over the examples; saves sums or means to runs/<run_id>/."""
+
+    def build(self) -> None:
+        """The vectors or candidates, from what capture saved."""
+
+    def select(self) -> None:
+        """Picks one candidate."""
+
+    def check(self) -> None:
+        """Tests the result: nearest-vector accuracy, or generation."""
+
+    def tokens(self) -> None:
+        """Per-token scores for the report's token views."""
+
+    def report(self) -> None:
+        """results/<run_id>/report.html, from the saved results only."""
+
+
+def method_for(cfg: ExtractionRunConfig) -> ExtractionMethod:
+    match cfg.extraction:
+        case EmotionVectorsExtraction():
+            return EmotionVectorsMethod(cfg)
+        case DirectionExtraction():
+            return DirectionMethod(cfg)
 
 
 def run_extraction(cfg: ExtractionRunConfig) -> None:
     torch.set_grad_enabled(False)
-    for step in steps_to_run(cfg):
+    method = method_for(cfg)
+    steps = {
+        "capture": method.capture,
+        "build": method.build,
+        "select": method.select,
+        "check": method.check,
+        "tokens": method.tokens,
+        "report": method.report,
+    }
+    for step in cfg.steps or STEP_ORDER:
         print(f"[step] {cfg.extraction.kind}: {step}", flush=True)
-        STEPS[cfg.extraction.kind][step](cfg)
+        steps[step]()
 
 
-__all__ = ["STEPS", "run_extraction", "steps_to_run"]
+__all__ = ["STEP_ORDER", "ExtractionMethod", "method_for", "run_extraction"]

@@ -10,6 +10,7 @@
   - results/<run_id>/vectors_meta.json: emotions, sites, PCs removed per site, counts per split.
 - check (CPU): results/<run_id>/checks.json: nearest-vector labels for every story, split-half cosine, emotion x
   emotion cosine.
+- select does nothing. tokens (GPU) and report (CPU) write token_scores.* and report.html.
 """
 
 import json
@@ -21,11 +22,13 @@ from safetensors.torch import save_file
 from tqdm import tqdm
 
 from ..capture import late_means, padded, pooled_position_sums, position_mask
-from ..config import ExtractionRunConfig
+from ..config import EmotionVectorsExtraction, ExtractionRunConfig
 from ..datasets import Rendered, example_set
 from ..emotions import EMOTIONS, SITES
 from ..models import adapter_for, loaded_model, read_layer
+from ..reports import build_emotion_vectors_report, write_report
 from ..texts import Story, StoryRecord, StorySplit, load_stories, load_story_records
+from ..token_scores import save_token_scores, story_token_scores
 from ..vectors import RECIPES, EmotionVectors, cosine_matrix, remove
 from ..vectors.checks import confusion, nearest_vector_scores, split_half_cosine
 
@@ -102,30 +105,6 @@ def save_sums(cfg: ExtractionRunConfig, stories: list[Story], lengths, sums, cou
     print(f"[saved] {cfg.run_dir}/sums.safetensors, {len(sums)} arrays + counts")
 
 
-def capture(cfg: ExtractionRunConfig) -> None:
-    t0 = time.time()
-    stories = load_stories(cfg.stories)
-    examples_of = example_set(cfg.data)
-    examples = examples_of.examples()
-    assert [e.id for e in examples] == [s.id for s in stories], "the example set's order differs from the stories'"
-    model, tokenizer = loaded_model(cfg.model, cfg.device)
-    adapter = adapter_for(cfg.model)
-    n_layers = len(model.model.layers)
-    layer = cfg.emotion_vectors.extract.layer
-    print(f"[load] {cfg.model.name}: {n_layers} layers, hooking layer {layer}, {len(stories)} stories, {time.time() - t0:.0f}s")
-
-    rendered = [examples_of.render(e, tokenizer, adapter) for e in examples]
-    lengths = token_lengths(rendered, cfg)
-    order = sorted(range(len(stories)), key=lambda i: -lengths[i])  # similar lengths share a batch
-    sums, counts = extract_all(model, tokenizer.pad_token_id, cfg, rendered, order)
-    print(f"[extract] done, {time.time() - t0:.0f}s")
-
-    padding_check(model, tokenizer.pad_token_id, cfg, stories, rendered, order, sums, counts)
-    assert counts.sum() == sum(lengths), "counted tokens != tokenized tokens"
-    assert all(torch.isfinite(v).all() for v in sums.values()), "non-finite sums"
-    save_sums(cfg, stories, lengths, sums, counts, n_layers)
-
-
 def vectors_meta(cfg: ExtractionRunConfig, split: StorySplit, denoise: dict, extract_commit: str) -> dict:
     def count(mask, e):
         return int((mask & (split.label == e)).sum())
@@ -142,16 +121,6 @@ def vectors_meta(cfg: ExtractionRunConfig, split: StorySplit, denoise: dict, ext
         "layer": cfg.emotion_vectors.extract.layer,
         "extract_git_commit": extract_commit,
     }  # fmt: skip
-
-
-def build(cfg: ExtractionRunConfig) -> None:
-    split = StorySplit.of(load_story_records(cfg.run_dir))
-    vectors, denoise = RECIPES[cfg.emotion_vectors.vectors.recipe](late_means(cfg.run_dir), split, cfg.emotion_vectors.vectors)
-    cfg.result_dir.mkdir(parents=True, exist_ok=True)
-    vectors.save(cfg.result_dir / "vectors.safetensors")
-    extract_commit = json.loads((cfg.run_dir / "stories.json").read_text())["git_commit"]
-    (cfg.result_dir / "vectors_meta.json").write_text(json.dumps(vectors_meta(cfg, split, denoise, extract_commit), indent=1))
-    print(f"[saved] {cfg.result_dir}/vectors.safetensors ({len(vectors.tensors)} arrays), vectors_meta.json")
 
 
 def site_checks(x, split: StorySplit, vectors: EmotionVectors, site: str, records: list[StoryRecord]) -> dict:
@@ -196,24 +165,76 @@ def flagged_stories(checks: dict, records: list[StoryRecord], split: StorySplit)
     return sorted(flagged, key=lambda f: -f["margin"])
 
 
-def check(cfg: ExtractionRunConfig) -> None:
-    records = load_story_records(cfg.run_dir)
-    split = StorySplit.of(records)
-    means = late_means(cfg.run_dir)
-    vectors = EmotionVectors.load(cfg.result_dir / "vectors.safetensors")
-    denoise = json.loads((cfg.result_dir / "vectors_meta.json").read_text())["denoise"]
-    checks = {"sites": {}}
-    for site in SITES:
-        checks["sites"][site] = c = site_checks(means[site], split, vectors, site, records)
-        halves = sorted(c["split_half_cos"].values())
-        print(f"[{site}] PCs {denoise[site]['k']} ({denoise[site]['variance_explained']:.2f} var) | denoised acc train-LOO "
-              f"{c['acc_train_loo']:.3f} heldout {c['acc_heldout']:.3f} (raw {c['acc_train_loo_raw']:.3f} / "
-              f"{c['acc_heldout_raw']:.3f}) | split-half cos min {halves[0]:.3f} median {halves[6]:.3f}")  # fmt: skip
-    checks["flagged"] = flagged_stories(checks, records, split)
-    checks["emotions"] = list(EMOTIONS)
-    print(f"[flagged] {len(checks['flagged'])} stories mislabelled at all {len(SITES)} sites (denoised vectors)")
-    (cfg.result_dir / "checks.json").write_text(json.dumps(checks))
-    print(f"[saved] {cfg.result_dir}/checks.json")
+class EmotionVectorsMethod:
+    def __init__(self, cfg: ExtractionRunConfig):
+        assert isinstance(cfg.extraction, EmotionVectorsExtraction), "not an emotion_vectors run"
+        self.cfg = cfg
 
+    def capture(self) -> None:
+        t0 = time.time()
+        stories = load_stories(self.cfg.stories)
+        examples_of = example_set(self.cfg.data)
+        examples = examples_of.examples()
+        assert [e.id for e in examples] == [s.id for s in stories], "the example set's order differs from the stories'"
+        model, tokenizer = loaded_model(self.cfg.model, self.cfg.device)
+        adapter = adapter_for(self.cfg.model)
+        n_layers = len(model.model.layers)
+        layer = self.cfg.emotion_vectors.extract.layer
+        print(
+            f"[load] {self.cfg.model.name}: {n_layers} layers, hooking layer {layer}, {len(stories)} stories, {time.time() - t0:.0f}s"
+        )
 
-STEPS = {"capture": capture, "build": build, "check": check}
+        rendered = [examples_of.render(e, tokenizer, adapter) for e in examples]
+        lengths = token_lengths(rendered, self.cfg)
+        order = sorted(range(len(stories)), key=lambda i: -lengths[i])  # similar lengths share a batch
+        sums, counts = extract_all(model, tokenizer.pad_token_id, self.cfg, rendered, order)
+        print(f"[extract] done, {time.time() - t0:.0f}s")
+
+        padding_check(model, tokenizer.pad_token_id, self.cfg, stories, rendered, order, sums, counts)
+        assert counts.sum() == sum(lengths), "counted tokens != tokenized tokens"
+        assert all(torch.isfinite(v).all() for v in sums.values()), "non-finite sums"
+        save_sums(self.cfg, stories, lengths, sums, counts, n_layers)
+
+    def build(self) -> None:
+        split = StorySplit.of(load_story_records(self.cfg.run_dir))
+        vectors, denoise = RECIPES[self.cfg.emotion_vectors.vectors.recipe](
+            late_means(self.cfg.run_dir), split, self.cfg.emotion_vectors.vectors
+        )
+        self.cfg.result_dir.mkdir(parents=True, exist_ok=True)
+        vectors.save(self.cfg.result_dir / "vectors.safetensors")
+        extract_commit = json.loads((self.cfg.run_dir / "stories.json").read_text())["git_commit"]
+        (self.cfg.result_dir / "vectors_meta.json").write_text(
+            json.dumps(vectors_meta(self.cfg, split, denoise, extract_commit), indent=1)
+        )
+        print(f"[saved] {self.cfg.result_dir}/vectors.safetensors ({len(vectors.tensors)} arrays), vectors_meta.json")
+
+    def check(self) -> None:
+        records = load_story_records(self.cfg.run_dir)
+        split = StorySplit.of(records)
+        means = late_means(self.cfg.run_dir)
+        vectors = EmotionVectors.load(self.cfg.result_dir / "vectors.safetensors")
+        denoise = json.loads((self.cfg.result_dir / "vectors_meta.json").read_text())["denoise"]
+        checks = {"sites": {}}
+        for site in SITES:
+            checks["sites"][site] = c = site_checks(means[site], split, vectors, site, records)
+            halves = sorted(c["split_half_cos"].values())
+            print(f"[{site}] PCs {denoise[site]['k']} ({denoise[site]['variance_explained']:.2f} var) | denoised acc train-LOO "
+                  f"{c['acc_train_loo']:.3f} heldout {c['acc_heldout']:.3f} (raw {c['acc_train_loo_raw']:.3f} / "
+                  f"{c['acc_heldout_raw']:.3f}) | split-half cos min {halves[0]:.3f} median {halves[6]:.3f}")  # fmt: skip
+        checks["flagged"] = flagged_stories(checks, records, split)
+        checks["emotions"] = list(EMOTIONS)
+        print(f"[flagged] {len(checks['flagged'])} stories mislabelled at all {len(SITES)} sites (denoised vectors)")
+        (self.cfg.result_dir / "checks.json").write_text(json.dumps(checks))
+        print(f"[saved] {self.cfg.result_dir}/checks.json")
+
+    def select(self) -> None:
+        """Nothing to select: the config fixes the layer, and every emotion keeps its vector."""
+
+    def tokens(self) -> None:
+        scores, values = story_token_scores(self.cfg)
+        save_token_scores(self.cfg.result_dir, scores, values)
+        print(f"[saved] {self.cfg.result_dir}/token_scores.*: {len(scores.texts)} texts, {values.shape[0]} tokens")
+
+    def report(self) -> None:
+        path = write_report("emotion_vectors.html", build_emotion_vectors_report(self.cfg), self.cfg.result_dir / "report.html")
+        print(f"[saved] {path}")
