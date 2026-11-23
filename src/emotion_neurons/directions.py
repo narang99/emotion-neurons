@@ -1,6 +1,8 @@
 """A difference-of-means direction on instruction data, selected and checked as in the refusal paper
 (Arditi et al. 2024, "Refusal in language models is mediated by a single direction").
 
+- The pieces below; `extraction.direction` runs them as steps.
+
 1. Means: one pass over the train instructions; the residual stream at every layer's input (resid_pre), at each
    post-instruction position, summed per category. Nothing per example is stored.
 2. Candidates: for every layer and post-instruction position, the difference of means (`vectors.diff_means`).
@@ -16,21 +18,18 @@
   attention and MLP output, so it never re-enters. Addition adds the raw difference of means at one layer's input.
 """
 
-import json
 import math
-import time
 from collections.abc import Iterator
 from contextlib import contextmanager
 
 import torch
 from jaxtyping import Float
-from safetensors.torch import load_file, save_file
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import DirectionRunConfig
-from .datasets import Example, InstructionSet
-from .models import ModelAdapter, adapter_for, decoder_layers, load_model
+from .config import DiffMeansConfig, DirectionSelectionConfig, GenerationCheckConfig
+from .datasets import Example, ExampleSet
+from .models import ModelAdapter, decoder_layers
 
 Hooks = list[torch.utils.hooks.RemovableHandle]
 
@@ -93,13 +92,15 @@ def batches(rendered: list[list[int]], pad_id: int, size: int, left: bool = Fals
 
 
 @torch.no_grad()
-def category_sums(model, tokenizer, adapter, examples: list[Example], instructions: InstructionSet, batch_size: int) -> dict:
+def category_sums(
+    model, tokenizer, adapter: ModelAdapter, examples: list[Example], example_set: ExampleSet, batch_size: int
+) -> dict[str, tuple[Tensor, int]]:
     """{category: (sum [position, layer, d_model] fp64, count)} of resid_pre at the post-instruction positions."""
     layers = decoder_layers(model)
     store: dict[int, Tensor] = {}
     handles = [b.register_forward_pre_hook(lambda m, a, k, i=i: store.__setitem__(i, (a[0] if a else k["hidden_states"]).detach()), with_kwargs=True) for i, b in enumerate(layers)]  # fmt: skip
     sums: dict[str, list] = {}
-    rendered = [instructions.render(e, tokenizer, adapter) for e in examples]
+    rendered = [example_set.render(e, tokenizer, adapter) for e in examples]
     n_pos = len(rendered[0].positions)
     with hooked(handles):
         for start in range(0, len(examples), batch_size):
@@ -139,11 +140,16 @@ def kl_divergence(base: Tensor, other: Tensor) -> Tensor:
 
 
 def select_direction(
-    model, cfg: DirectionRunConfig, diffs: Tensor, val: dict[str, list[list[int]]], refusal_ids: list[int], pad_id: int
+    model,
+    s: DirectionSelectionConfig,
+    diffs: Tensor,
+    val: dict[str, list[list[int]]],
+    target: str,
+    other: str,
+    refusal_ids: list[int],
+    pad_id: int,
 ) -> dict:
     """Scores every candidate (position, layer) on the val prompts; returns the grid and the choice."""
-    s = cfg.selection
-    target, other = cfg.direction.target, next(c for c in cfg.instructions.categories if c != cfg.direction.target)
     base_other = last_logits(model, val[other], pad_id, s.batch_size)
     n_pos, n_layers = diffs.shape[:2]
     max_layer = int(s.max_layer_fraction * n_layers)
@@ -173,8 +179,7 @@ def select_direction(
 
 
 @torch.no_grad()
-def generate(model, tokenizer, rendered: list[list[int]], cfg: DirectionRunConfig) -> list[str]:
-    g = cfg.generation
+def generate(model, tokenizer, rendered: list[list[int]], g: GenerationCheckConfig) -> list[str]:
     out = []
     for ids, mask, _ in batches(rendered, tokenizer.pad_token_id, g.batch_size, left=True):
         gen = model.generate(input_ids=ids.to(model.device), attention_mask=mask.to(model.device), max_new_tokens=g.max_new_tokens,
@@ -187,8 +192,9 @@ def refusal_rate(replies: list[str], phrases: list[str]) -> float:
     return sum(any(p.lower() in r.lower() for p in phrases) for r in replies) / max(1, len(replies))
 
 
-def generation_check(model, tokenizer, cfg: DirectionRunConfig, val: dict, vector: Tensor, layer: int) -> dict:
-    target, other = cfg.direction.target, next(c for c in cfg.instructions.categories if c != cfg.direction.target)
+def generation_check(
+    model, tokenizer, g: GenerationCheckConfig, val: dict, target: str, other: str, vector: Tensor, layer: int
+) -> dict:
     unit = vector / vector.norm()
     # Hooks are made only when their condition runs: built up front, every hook would be active from the first run on.
     runs = {f"{target}/plain": (val[target], lambda: []), f"{target}/ablated": (val[target], lambda: ablation_hooks(model, unit)),
@@ -196,68 +202,14 @@ def generation_check(model, tokenizer, cfg: DirectionRunConfig, val: dict, vecto
     result = {}
     for name, (prompts, make_hooks) in runs.items():
         with hooked(make_hooks()):
-            replies = generate(model, tokenizer, prompts, cfg)
-        result[name] = {"refusal_rate": refusal_rate(replies, cfg.generation.refusal_phrases), "replies": replies}
+            replies = generate(model, tokenizer, prompts, g)
+        result[name] = {"refusal_rate": refusal_rate(replies, g.refusal_phrases), "replies": replies}
         print(f"[generate] {name}: refusal rate {result[name]['refusal_rate']:.2f}", flush=True)
     return result
 
 
-def run_direction(cfg: DirectionRunConfig) -> dict:
-    """GPU: results/<run_id>/{direction.json, direction.safetensors, replies.json}."""
-    torch.set_grad_enabled(False)
-    t0 = time.time()
-    adapter: ModelAdapter = adapter_for(cfg.model)
-    instructions = InstructionSet(cfg.instructions)
-    examples = instructions.examples()
-    model, tokenizer = load_model(cfg.model, cfg.device)
-    categories = list(cfg.instructions.categories)
-    val = {
-        c: [instructions.render(e, tokenizer, adapter).input_ids for e in examples if e.split == "val" and e.category == c]
-        for c in categories
-    }
-    saved = cfg.result_dir / "direction.json"
-    if cfg.selection.reuse_saved and saved.exists():  # rerun the generation check only
-        previous = json.loads(saved.read_text())
-        tensors = load_file(str(cfg.result_dir / "direction.safetensors"))
-        diffs, means = tensors["diffs"].double(), tensors["means"].double()
-        selection = {k: previous[k] for k in ("grid", "choice", "filtered_out_all")}
-        print(f"[select] reusing the saved choice {selection['choice']}", flush=True)
-    else:
-        train = [e for e in examples if e.split == "train"]
-        sums = category_sums(model, tokenizer, adapter, train, instructions, cfg.selection.batch_size)
-        means = torch.stack([sums[c][0] / sums[c][1] for c in categories])  # [category, position, layer, d]
-        diffs = diff_from_means(means, categories, cfg)
-        print(
-            f"[means] {len(train)} train prompts, {diffs.shape[0]} positions x {diffs.shape[1]} layers | {time.time() - t0:.0f}s",
-            flush=True,
-        )
-        refusal_ids = refusal_token_ids(tokenizer, cfg.selection.refusal_tokens)
-        selection = select_direction(model, cfg, diffs, val, refusal_ids, tokenizer.pad_token_id)
-    choice = selection["choice"]
-    vector = diffs[choice["position"], choice["layer"]].to(model.device, model.dtype)
-    print(
-        f"[select] chose position {choice['position']}, layer {choice['layer']}: {choice} | {time.time() - t0:.0f}s", flush=True
-    )
-    check = generation_check(model, tokenizer, cfg, val, vector, choice["layer"])
-
-    cfg.result_dir.mkdir(parents=True, exist_ok=True)
-    save_file({"diffs": diffs.float().contiguous(), "means": means.float().contiguous(), "direction": vector.float().cpu().contiguous()},
-              str(cfg.result_dir / "direction.safetensors"))  # fmt: skip
-    summary = {
-        "model": cfg.model, "categories": categories, "target": cfg.direction.target, "baseline": cfg.direction.baseline,
-        "n_train": cfg.instructions.n_train, "n_val": cfg.instructions.n_val, "choice": choice,
-        "filtered_out_all": selection["filtered_out_all"], "grid": selection["grid"],
-        "refusal_rates": {k: v["refusal_rate"] for k, v in check.items()}, "seconds": round(time.time() - t0),
-    }  # fmt: skip
-    (cfg.result_dir / "direction.json").write_text(json.dumps(summary, indent=1))
-    (cfg.result_dir / "replies.json").write_text(json.dumps({k: v["replies"] for k, v in check.items()}, indent=1))
-    print(f"[saved] {cfg.result_dir} | {time.time() - t0:.0f}s", flush=True)
-    return summary
-
-
-def diff_from_means(means: Float[Tensor, "category ..."], categories: list[str], cfg: DirectionRunConfig) -> Tensor:
+def diff_from_means(means: Float[Tensor, "category ..."], categories: list[str], d: DiffMeansConfig) -> Tensor:
     """The difference of means from category means (the same rule as `vectors.diff_means`, without PCA)."""
-    d = cfg.direction
     assert d.pca_reference is None, "PCA denoising needs the examples, not just their means"
     t = categories.index(d.target)
     rest = [i for i in range(len(categories)) if i != t]

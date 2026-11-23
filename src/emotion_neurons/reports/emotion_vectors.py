@@ -1,4 +1,4 @@
-"""Report data for one run of emotion vectors (scripts/build_vectors.py): read only from its saved results.
+"""Report data for one run of emotion vectors (`extraction.emotion_vectors`): read only from its saved results.
 
 - Reads results/<run_id>/vectors_meta.json and checks.json. No model and no story sums are needed.
 - Accuracy: nearest-vector labels of each story, 12-way, train stories left out of their own emotion's mean.
@@ -11,7 +11,7 @@ from pathlib import Path
 
 from pydantic import BaseModel
 
-from ..config import VectorsRunConfig
+from ..config import ExtractionRunConfig
 from ..emotions import LABELS
 from ..token_scores import load_token_scores
 from .heatmap import Heatmap, heatmap
@@ -100,25 +100,27 @@ def flagged_story(f: dict, sites: list[str]) -> FlaggedStory:
                         predicted=[f["pred_by_site"][s] for s in sites])  # fmt: skip
 
 
-def token_views(cfg: VectorsRunConfig) -> list[TokenView]:
+def token_views(cfg: ExtractionRunConfig) -> list[TokenView]:
     saved = load_token_scores(cfg.result_dir)
     if saved is None:
         return []
-    return story_views(*saved, labels=list(LABELS), per_label=cfg.tokens.stories_per_label, split_token=cfg.data.split_token)
+    per_label = cfg.emotion_vectors.tokens.stories_per_label
+    return story_views(*saved, labels=list(LABELS), per_label=per_label, split_token=cfg.stories.split_token)
 
 
-def build_emotion_vectors_report(cfg: VectorsRunConfig) -> EmotionVectorsReport:
+def build_emotion_vectors_report(cfg: ExtractionRunConfig) -> EmotionVectorsReport:
+    layer = cfg.emotion_vectors.extract.layer
     meta = json.loads(Path(cfg.result_dir / "vectors_meta.json").read_text())
     checks = json.loads(Path(cfg.result_dir / "checks.json").read_text())
     emotions, sites = meta["emotions"], meta["sites"]
     split_half = [SplitHalfRow(emotion=e, cosines=[checks["sites"][s]["split_half_cos"][e] for s in sites]) for e in emotions]
     return EmotionVectorsReport(
-        title=f"Emotion vectors: {cfg.model}, layer {cfg.layer}",
-        model=cfg.model, layer=cfg.layer, run_id=cfg.run_id, average=meta["average"],
+        title=f"Emotion vectors: {cfg.model.name}, layer {layer}",
+        model=cfg.model.name, layer=layer, run_id=cfg.run_id, average=meta["average"],
         emotions=emotions, sites=sites,
         accuracy=[site_accuracy(s, checks, meta["denoise"]) for s in sites], chance=1 / len(emotions),
         maps=[site_maps(s, checks, emotions) for s in sites],
         split_half=split_half,
         flagged=[flagged_story(f, sites) for f in checks["flagged"]],
-        token_site=cfg.tokens.site, token_views=token_views(cfg),
+        token_site=cfg.emotion_vectors.tokens.site, token_views=token_views(cfg),
     )  # fmt: skip

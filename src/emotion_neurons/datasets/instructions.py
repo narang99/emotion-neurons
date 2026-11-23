@@ -17,7 +17,7 @@ from functools import cache
 from datasets import load_dataset
 from transformers import PreTrainedTokenizerBase
 
-from ..config import InstructionSetConfig, InstructionSource
+from ..config import InstructionsData, InstructionSource
 from ..models import ModelAdapter
 from .base import Example, Rendered
 
@@ -44,7 +44,7 @@ def post_instruction_length(tokenizer: PreTrainedTokenizerBase, adapter: ModelAd
 
 
 class InstructionSet:
-    def __init__(self, cfg: InstructionSetConfig):
+    def __init__(self, cfg: InstructionsData):
         self.cfg = cfg
         self.categories = list(cfg.categories)
 

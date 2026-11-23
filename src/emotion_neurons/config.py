@@ -1,10 +1,12 @@
 """Typed run configs: a small shared base, and one config class per kind of experiment.
 
-- `RunConfig` holds what every run has: run id, model, layer, device, folders.
+- `RunConfig` holds what every run has: run id, model, device, folders.
+  - `model` is a union on `family`: `hf` (native transformers) or `qwen1` (converted, at a pinned revision).
 - Each experiment's class adds only its own sections:
-  - `VectorsRunConfig`: activations and emotion vectors (extract.py, build_vectors.py);
-  - `PolesRunConfig`: neuron poles (poles.py);
-  - `DirectionRunConfig`: a difference-of-means direction on instruction data (e.g. refusal), selected by its effect.
+  - `ExtractionRunConfig`: a data source and an extraction method (extract.py), two unions on `kind`:
+    - data: `stories` or `instructions`, both read through `datasets.ExampleSet`;
+    - extraction: `emotion_vectors` (the emotions paper) or `direction` (the refusal paper's selection and checks);
+  - `PolesRunConfig`: neuron poles (poles.py).
 - Values come from two places, and the command line wins:
   - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
   - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
@@ -13,13 +15,13 @@
 import argparse
 from collections.abc import Sequence
 from pathlib import Path
-from typing import Literal, TypeVar
+from typing import Annotated, Literal, TypeVar
 
 import yaml
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, BeforeValidator, ConfigDict, Field, model_validator
 from pydantic_settings import BaseSettings, PydanticBaseSettingsSource, SettingsConfigDict
 
-from .emotions import Site
+from .emotions import LABELS, Site
 
 Baseline = Literal["mean", "neutral"]
 Variant = Literal["raw", "denoised"]
@@ -31,7 +33,41 @@ class Section(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
 
-class DataConfig(Section):
+class HFModel(Section):
+    """A native transformers model, loaded with its own chat template (`models.adapters`)."""
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    family: Literal["hf"] = "hf"
+    name: str = "Qwen/Qwen3-8B"
+    revision: str | None = None
+
+
+class Qwen1Model(Section):
+    """A Qwen-1 chat model, converted to Qwen2 (`models.qwen1`).
+
+    - The revision is required: the repo's remote tokenizer code is downloaded and run, so it must not change.
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    family: Literal["qwen1"] = "qwen1"
+    name: str = "Qwen/Qwen-7B-Chat"
+    revision: str
+
+
+def hf_shorthand(value: object) -> object:
+    """`model: Qwen/Qwen3-8B` means `{family: hf, name: Qwen/Qwen3-8B}`."""
+    return {"family": "hf", "name": value} if isinstance(value, str) else value
+
+
+ModelConfig = Annotated[HFModel | Qwen1Model, Field(discriminator="family"), BeforeValidator(hf_shorthand)]
+
+
+class StoriesData(Section):
+    """The emotion stories, plain text, read from token `split_token` on (`datasets.stories`)."""
+
+    kind: Literal["stories"] = "stories"
     stories_dir: Path = Path("data/stories")
     heldout_story_idx: list[int] = Field(
         [5], description="emotional stories with this story_idx (0-5) are held out of the vectors"
@@ -39,8 +75,13 @@ class DataConfig(Section):
     heldout_neutral_idx: list[int] = Field([10, 11], description="neutral stories with this story_idx (0-11) are held out")
     split_token: int = Field(50, description="vectors average from this token on (the paper's 50)")
 
+    @property
+    def categories(self) -> list[str]:
+        return list(LABELS)
+
 
 class ExtractConfig(Section):
+    layer: int = 25
     batch_size: int = 16
     max_length: int = Field(512, description="a story longer than this fails the run, nothing is truncated")
 
@@ -94,8 +135,7 @@ class RunConfig(BaseSettings):
 
     config: Path | None = Field(None, description="YAML file with defaults for any of the settings below")
     run_id: str = Field("dev", description="names runs/<run_id> (large, ignored) and results/<run_id> (committed)")
-    model: str = "Qwen/Qwen3-8B"
-    layer: int = 25
+    model: ModelConfig = HFModel()
     device: str = "cuda"
     runs_dir: Path = Path("runs")
     results_dir: Path = Path("results")
@@ -121,14 +161,8 @@ class RunConfig(BaseSettings):
         return self.results_dir / self.run_id
 
 
-class VectorsRunConfig(RunConfig):
-    data: DataConfig = DataConfig()
-    extract: ExtractConfig = ExtractConfig()
-    vectors: VectorsConfig = VectorsConfig()
-    tokens: StoryTokensConfig = StoryTokensConfig()
-
-
 class PolesRunConfig(RunConfig):
+    layer: int = 25
     poles: PolesConfig = PolesConfig()
 
 
@@ -150,9 +184,10 @@ class InstructionSplits(Section):
     val: list[InstructionSource]
 
 
-class InstructionSetConfig(Section):
-    """Instructions per category, sampled with a fixed seed (`datasets.instructions`)."""
+class InstructionsData(Section):
+    """Instructions per category, sampled with a fixed seed, in the model's chat format (`datasets.instructions`)."""
 
+    kind: Literal["instructions"] = "instructions"
     categories: dict[str, InstructionSplits]
     n_train: int = 128
     n_val: int = 32
@@ -177,9 +212,6 @@ class DirectionSelectionConfig(Section):
     max_layer_fraction: float = Field(0.8, description="skip candidates in the last 20% of layers")
     max_kl: float = Field(0.1, description="ablating the direction may change harmless next-token predictions this much")
     batch_size: int = 32
-    reuse_saved: bool = Field(
-        False, description="reuse a saved direction.json/direction.safetensors (rerun the generation check only)"
-    )
 
 
 class GenerationCheckConfig(Section):
@@ -198,14 +230,71 @@ class DirectionTokensConfig(Section):
     prompts_per_category: int = Field(6, description="token views per category in the report")
 
 
-class DirectionRunConfig(RunConfig):
-    """A difference-of-means direction on instruction data, selected and checked as in the refusal paper."""
+DataConfig = Annotated[StoriesData | InstructionsData, Field(discriminator="kind")]
 
-    instructions: InstructionSetConfig
-    direction: DiffMeansConfig
+
+class EmotionVectorsExtraction(Section):
+    """The emotions paper: pooled means at one layer, then a vector recipe, checked on held-out stories."""
+
+    kind: Literal["emotion_vectors"] = "emotion_vectors"
+    extract: ExtractConfig = ExtractConfig()
+    vectors: VectorsConfig = VectorsConfig()
+    tokens: StoryTokensConfig = StoryTokensConfig()
+
+
+class DirectionExtraction(Section):
+    """The refusal paper: means at every layer and post-instruction position, a candidate chosen by its effect,
+    then a generation check."""
+
+    kind: Literal["direction"] = "direction"
+    diff_means: DiffMeansConfig
     selection: DirectionSelectionConfig = DirectionSelectionConfig()
     generation: GenerationCheckConfig = GenerationCheckConfig()
     tokens: DirectionTokensConfig = DirectionTokensConfig()
+
+
+Extraction = Annotated[EmotionVectorsExtraction | DirectionExtraction, Field(discriminator="kind")]
+
+Step = Literal["capture", "build", "select", "check"]
+
+
+class ExtractionRunConfig(RunConfig):
+    """A data source and an extraction method. The method's steps run in order (`emotion_neurons.extraction`)."""
+
+    data: DataConfig
+    extraction: Extraction
+    steps: list[Step] | None = Field(None, description="run only these steps (None: all of the method's steps)")
+
+    @model_validator(mode="after")
+    def method_fits_data(self) -> "ExtractionRunConfig":
+        match self.extraction:
+            case EmotionVectorsExtraction():
+                assert isinstance(self.data, StoriesData), "emotion_vectors needs stories: the checks use story topics"
+            case DirectionExtraction(diff_means=d):
+                others = [c for c in self.data.categories if c != d.target]
+                assert d.target in self.data.categories, f"target {d.target!r} is not a data category"
+                assert len(others) == 1, f"direction selection needs one category besides the target, got {others}"
+        return self
+
+    @property
+    def emotion_vectors(self) -> EmotionVectorsExtraction:
+        assert isinstance(self.extraction, EmotionVectorsExtraction), "not an emotion_vectors run"
+        return self.extraction
+
+    @property
+    def direction(self) -> DirectionExtraction:
+        assert isinstance(self.extraction, DirectionExtraction), "not a direction run"
+        return self.extraction
+
+    @property
+    def stories(self) -> StoriesData:
+        assert isinstance(self.data, StoriesData), "not a stories run"
+        return self.data
+
+    @property
+    def instructions(self) -> InstructionsData:
+        assert isinstance(self.data, InstructionsData), "not an instructions run"
+        return self.data
 
 
 Config = TypeVar("Config", bound=RunConfig)

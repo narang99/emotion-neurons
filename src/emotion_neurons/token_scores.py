@@ -9,6 +9,7 @@
 """
 
 import json
+from collections.abc import Callable
 from pathlib import Path
 
 import torch
@@ -18,7 +19,8 @@ from safetensors.torch import load_file, save_file
 from torch import Tensor
 from transformers import PreTrainedTokenizerBase
 
-from .config import DirectionRunConfig, VectorsRunConfig
+from .capture import padded
+from .config import ExtractionRunConfig
 from .datasets import InstructionSet
 from .emotions import EMOTIONS
 from .models import adapter_for, load_model, read_layer, read_resid_pre
@@ -48,16 +50,6 @@ def token_strings(tokenizer: PreTrainedTokenizerBase, ids: list[int]) -> list[st
     return [tokenizer.decode([i]) for i in ids]
 
 
-def padded(rows: list[list[int]], pad_id: int) -> tuple[Tensor, Tensor]:
-    width = max(len(r) for r in rows)
-    ids = torch.full((len(rows), width), pad_id, dtype=torch.long)
-    mask = torch.zeros((len(rows), width), dtype=torch.long)
-    for j, r in enumerate(rows):
-        ids[j, : len(r)] = torch.tensor(r)
-        mask[j, : len(r)] = 1
-    return ids, mask
-
-
 def emotion_cosines(
     x: Float[Tensor, "seq dim"], grand: Float[Tensor, " dim"], pcs: Float[Tensor, "k dim"], vectors: Float[Tensor, "emotion dim"]
 ) -> Float[Tensor, "seq emotion"]:
@@ -70,28 +62,30 @@ def site_activations(model, layer: int, ids: Tensor, mask: Tensor, site: str) ->
     return acts["resid_post"] - acts["resid_mid"] if site == "mlp_out" else acts[site]
 
 
-def story_token_scores(cfg: VectorsRunConfig) -> tuple[TokenScores, Scores]:
-    site = cfg.tokens.site
+def story_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Scores]:
+    tokens = cfg.emotion_vectors.tokens
+    site = tokens.site
     saved = load_file(str(cfg.result_dir / "vectors.safetensors"))
     vectors, grand, pcs = (saved[f"{site}/{k}"].double() for k in ("mean/denoised", "grand_mean", "neutral_pcs"))
-    stories = [s for s in load_stories(cfg.data) if s.heldout]
+    stories = [s for s in load_stories(cfg.stories) if s.heldout]
     model, tokenizer = load_model(cfg.model, cfg.device)
     vectors, grand, pcs = vectors.to(model.device), grand.to(model.device), pcs.to(model.device)
     texts, rows, start = [], [], 0
-    for b in range(0, len(stories), cfg.tokens.batch_size):
-        batch = stories[b : b + cfg.tokens.batch_size]
+    for b in range(0, len(stories), tokens.batch_size):
+        batch = stories[b : b + tokens.batch_size]
         encoded = [tokenizer(s.text)["input_ids"] for s in batch]
         ids, mask = padded(encoded, tokenizer.pad_token_id)
-        x = site_activations(model, cfg.layer, ids.to(model.device), mask.to(model.device), site).double()
+        x = site_activations(model, cfg.emotion_vectors.extract.layer, ids.to(model.device), mask.to(model.device), site).double()
         for j, (story, story_ids) in enumerate(zip(batch, encoded)):
             rows.append(emotion_cosines(x[j, : len(story_ids)], grand, pcs, vectors).float().cpu())
             texts.append(TokenText(id=story.id, label=story.emotion, tokens=token_strings(tokenizer, story_ids), start=start))
             start += len(story_ids)
-        print(f"[tokens] {min(b + cfg.tokens.batch_size, len(stories))} of {len(stories)} stories", flush=True)
+        print(f"[tokens] {min(b + tokens.batch_size, len(stories))} of {len(stories)} stories", flush=True)
     return TokenScores(series=list(EMOTIONS), texts=texts), torch.cat(rows)
 
 
-def direction_token_scores(cfg: DirectionRunConfig) -> tuple[TokenScores, Scores]:
+def direction_token_scores(cfg: ExtractionRunConfig) -> tuple[TokenScores, Scores]:
+    tokens = cfg.direction.tokens
     choice = json.loads((cfg.result_dir / "direction.json").read_text())["choice"]
     replies = json.loads((cfg.result_dir / "replies.json").read_text())
     unit = torch.nn.functional.normalize(load_file(str(cfg.result_dir / "direction.safetensors"))["direction"].double(), dim=0)
@@ -106,8 +100,8 @@ def direction_token_scores(cfg: DirectionRunConfig) -> tuple[TokenScores, Scores
             prompt = instructions.render(example, tokenizer, adapter).input_ids
             items.append((example, prompt, prompt + tokenizer(reply, add_special_tokens=False)["input_ids"]))
     texts, rows, start = [], [], 0
-    for b in range(0, len(items), cfg.tokens.batch_size):
-        batch = items[b : b + cfg.tokens.batch_size]
+    for b in range(0, len(items), tokens.batch_size):
+        batch = items[b : b + tokens.batch_size]
         ids, mask = padded([full for _, _, full in batch], tokenizer.pad_token_id)
         x = read_resid_pre(model, choice["layer"], ids.to(model.device), mask.to(model.device)).double()
         for j, (example, prompt, full) in enumerate(batch):
@@ -118,8 +112,14 @@ def direction_token_scores(cfg: DirectionRunConfig) -> tuple[TokenScores, Scores
                 )
             )
             start += len(full)
-        print(f"[tokens] {min(b + cfg.tokens.batch_size, len(items))} of {len(items)} prompts", flush=True)
+        print(f"[tokens] {min(b + tokens.batch_size, len(items))} of {len(items)} prompts", flush=True)
     return TokenScores(series=["projection"], texts=texts), torch.cat(rows)
+
+
+TOKEN_SCORES: dict[str, Callable[[ExtractionRunConfig], tuple[TokenScores, Scores]]] = {
+    "emotion_vectors": story_token_scores,
+    "direction": direction_token_scores,
+}
 
 
 def save_token_scores(result_dir: Path, scores: TokenScores, values: Scores) -> None:

@@ -34,7 +34,7 @@ def main():
     print(f"[poles] {', '.join(names)} of {q.shape[1]} neurons over {len(acts)} tokens, {time.time() - t0:.0f}s")
     cfg.result_dir.mkdir(parents=True, exist_ok=True)
     save_file({n: q[i].contiguous() for i, n in enumerate(names)}, str(cfg.result_dir / "thresholds.safetensors"))
-    meta = {"model": cfg.model, "layer": cfg.layer, "tokens": len(acts), "quantiles": dict(zip(names, cfg.poles.quantiles))}
+    meta = {"model": cfg.model.name, "layer": cfg.layer, "tokens": len(acts), "quantiles": dict(zip(names, cfg.poles.quantiles))}
     (cfg.result_dir / "meta.json").write_text(json.dumps(meta, indent=1))
     print(f"[saved] {cfg.result_dir}/thresholds.safetensors")
     print(f"[total] {time.time() - t0:.0f}s")

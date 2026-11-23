@@ -1,4 +1,4 @@
-"""Report data for one difference-of-means direction (scripts/direction.py): read only from its saved results.
+"""Report data for one difference-of-means direction (`extraction.direction`): read only from its saved results.
 
 - Reads results/<run_id>/direction.json, direction.safetensors and replies.json. No model is loaded.
 - Token views: from results/<run_id>/token_scores.*, if scripts/token_scores.py has run.
@@ -15,7 +15,7 @@ import torch
 from pydantic import BaseModel
 from safetensors.torch import load_file
 
-from ..config import DirectionRunConfig
+from ..config import ExtractionRunConfig
 from ..datasets import InstructionSet
 from ..token_scores import load_token_scores
 from .heatmap import Heatmap, heatmap
@@ -111,7 +111,7 @@ def is_refusal(reply: str, phrases: list[str]) -> bool:
     return any(p.lower() in reply.lower() for p in phrases)
 
 
-def reply_groups(cfg: DirectionRunConfig, replies: dict[str, list[str]]) -> list[ReplyGroup]:
+def reply_groups(cfg: ExtractionRunConfig, replies: dict[str, list[str]]) -> list[ReplyGroup]:
     examples = InstructionSet(cfg.instructions).examples()
     prompts = {c: [e.text for e in examples if e.split == "val" and e.category == c] for c in cfg.instructions.categories}
     groups = []
@@ -119,7 +119,7 @@ def reply_groups(cfg: DirectionRunConfig, replies: dict[str, list[str]]) -> list
         category = condition.split("/")[0]
         assert len(prompts[category]) == len(texts), f"{condition}: {len(texts)} replies for {len(prompts[category])} prompts"
         rows = [
-            Reply(prompt=p, reply=r, refused=is_refusal(r, cfg.generation.refusal_phrases))
+            Reply(prompt=p, reply=r, refused=is_refusal(r, cfg.direction.generation.refusal_phrases))
             for p, r in zip(prompts[category], texts)
         ]
         groups.append(ReplyGroup(condition=condition, replies=rows))
@@ -136,26 +136,26 @@ def conditions(summary: dict, target: str, other: str) -> list[Condition]:
     return [Condition(name=k, description=described[k], refusal_rate=v) for k, v in summary["refusal_rates"].items()]
 
 
-def token_views(cfg: DirectionRunConfig) -> list[TokenView]:
+def token_views(cfg: ExtractionRunConfig) -> list[TokenView]:
     saved = load_token_scores(cfg.result_dir)
     if saved is None:
         return []
-    return prompt_views(*saved, labels=list(cfg.instructions.categories), per_label=cfg.tokens.prompts_per_category)
+    return prompt_views(*saved, labels=list(cfg.instructions.categories), per_label=cfg.direction.tokens.prompts_per_category)
 
 
-def build_direction_report(cfg: DirectionRunConfig) -> DirectionReport:
+def build_direction_report(cfg: ExtractionRunConfig) -> DirectionReport:
     summary = json.loads((cfg.result_dir / "direction.json").read_text())
     replies = json.loads((cfg.result_dir / "replies.json").read_text())
     tensors = load_file(str(cfg.result_dir / "direction.safetensors"))
-    target = cfg.direction.target
-    other = next(c for c in cfg.instructions.categories if c != target)
+    d, max_kl = cfg.direction.diff_means, cfg.direction.selection.max_kl
+    other = next(c for c in cfg.instructions.categories if c != d.target)
     return DirectionReport(
-        title=f"Direction: {target} minus {other}, {cfg.model}",
-        model=cfg.model, run_id=cfg.run_id, target=target, other=other, baseline=cfg.direction.baseline,
-        n_train=summary["n_train"], n_val=summary["n_val"], max_kl=cfg.selection.max_kl,
+        title=f"Direction: {d.target} minus {other}, {cfg.model.name}",
+        model=cfg.model.name, run_id=cfg.run_id, target=d.target, other=other, baseline=d.baseline,
+        n_train=summary["n_train"], n_val=summary["n_val"], max_kl=max_kl,
         choice=Choice(**summary["choice"]), filtered_out_all=summary["filtered_out_all"],
-        conditions=conditions(summary, target, other),
-        grid_maps=selection_maps(summary, cfg.selection.max_kl),
+        conditions=conditions(summary, d.target, other),
+        grid_maps=selection_maps(summary, max_kl),
         vector_maps=vector_maps(tensors, summary["choice"]),
         replies=reply_groups(cfg, replies),
         token_views=token_views(cfg),

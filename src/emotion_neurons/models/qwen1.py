@@ -9,7 +9,7 @@
 - Exact for sequences up to Qwen-1's `seq_length` (2048): its dynamic NTK and log-n attention act only beyond it.
   tests/test_qwen1.py checks the logits against Qwen-1's own code on a tiny random model.
 - The converted model has Qwen3's layer names, so the hooks in `models.qwen3` read it unchanged.
-- The tokenizer is Qwen-1's own (tiktoken based), loaded with trust_remote_code at a pinned revision.
+- The tokenizer is Qwen-1's own (tiktoken based), loaded with trust_remote_code at the config's pinned revision.
 """
 
 import json
@@ -20,13 +20,6 @@ from huggingface_hub import hf_hub_download
 from safetensors import safe_open
 from torch import Tensor
 from transformers import AutoTokenizer, PreTrainedTokenizerBase, Qwen2Config, Qwen2ForCausalLM
-
-REVISIONS = {"Qwen/Qwen-7B-Chat": "93a65d34827a3cc269b727e67004743b723e2f83"}
-"""Pinned revisions: the repo's remote tokenizer code is downloaded and run, so it must not change under us."""
-
-
-def is_qwen1(name: str) -> bool:
-    return name in REVISIONS
 
 
 def qwen2_config(q1: dict) -> Qwen2Config:
@@ -90,17 +83,17 @@ def convert(config: dict, shards: list[Path], dtype: torch.dtype) -> Qwen2ForCau
     return model.eval()
 
 
-def load_qwen1(name: str, device: str) -> tuple[Qwen2ForCausalLM, PreTrainedTokenizerBase]:
-    revision = REVISIONS[name]
+def load_qwen1(name: str, revision: str | None, device: str) -> tuple[Qwen2ForCausalLM, PreTrainedTokenizerBase]:
     config = json.loads(Path(hf_hub_download(name, "config.json", revision=revision)).read_text())
     index = json.loads(Path(hf_hub_download(name, "model.safetensors.index.json", revision=revision)).read_text())
     shards = [Path(hf_hub_download(name, f, revision=revision)) for f in sorted(set(index["weight_map"].values()))]
     model = convert(config, shards, torch.bfloat16).to(device)
-    return model, load_qwen1_tokenizer(name)
+    return model, load_qwen1_tokenizer(name, revision)
 
 
-def load_qwen1_tokenizer(name: str) -> PreTrainedTokenizerBase:
-    tokenizer = AutoTokenizer.from_pretrained(name, revision=REVISIONS[name], trust_remote_code=True)
+def load_qwen1_tokenizer(name: str, revision: str | None) -> PreTrainedTokenizerBase:
+    assert revision, "Qwen-1 runs remote tokenizer code, so its revision must be pinned"
+    tokenizer = AutoTokenizer.from_pretrained(name, revision=revision, trust_remote_code=True)
     tokenizer.padding_side = "right"
     tokenizer.pad_token_id = tokenizer.eod_id  # Qwen-1 has no pad token; <|endoftext|> is never inside a prompt
     return tokenizer

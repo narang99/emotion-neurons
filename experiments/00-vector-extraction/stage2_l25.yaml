@@ -1,15 +1,18 @@
 # Stage 2: emotion vectors at Qwen3-8B layer 25 (of 36), checked on held-out stories.
-#   python scripts/extract.py       --config experiments/00-vector-extraction/stage2_l25.yaml   # GPU, ~10 min on an L4
-#   python scripts/build_vectors.py --config experiments/00-vector-extraction/stage2_l25.yaml   # CPU, seconds
+#   python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml   # GPU, ~10 min on an L4
+#   python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml --steps build,check --device cpu
 run_id: stage2_l25
 results_dir: experiments/00-vector-extraction/results
 model: Qwen/Qwen3-8B
-layer: 25
 data:
+  kind: stories
   heldout_story_idx: [5]       # 20 per emotion held out, 100 build the vectors
   heldout_neutral_idx: [10, 11] # 40 neutral held out, 200 build the baseline and PCs
   split_token: 50
-extract:
-  batch_size: 16
-vectors:
-  denoise_variance: 0.5
+extraction:
+  kind: emotion_vectors
+  extract:
+    layer: 25
+    batch_size: 16
+  vectors:
+    denoise_variance: 0.5

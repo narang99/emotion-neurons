@@ -1,6 +1,7 @@
 """Model families: how to load a model and its tokenizer, how to wrap an instruction in its chat format, and the
 checkpoint names of the tensors read one at a time (`models.weights`).
 
+- The family comes from the config (`config.ModelConfig`), and so does the revision.
 - `hf` (Qwen3 and other native transformers models): AutoModelForCausalLM, the tokenizer's chat template.
 - `qwen1` (Qwen/Qwen-7B-Chat): converted to a native Qwen2 model (`models.qwen1`), ChatML by hand.
 - Both end up with Qwen3-style layer names (model.layers, mlp.down_proj, post_attention_layernorm), so the hooks
@@ -14,6 +15,7 @@ from dataclasses import dataclass
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizerBase
 
+from ..config import ModelConfig
 from . import qwen1
 
 TensorKind = str
@@ -22,27 +24,25 @@ TensorKind = str
 
 @dataclass(frozen=True)
 class ModelAdapter:
-    family: str
-    load: Callable[[str, str], tuple[PreTrainedModel, PreTrainedTokenizerBase]]
-    load_tokenizer: Callable[[str], PreTrainedTokenizerBase]
+    load: Callable[[str, str | None, str], tuple[PreTrainedModel, PreTrainedTokenizerBase]]
+    load_tokenizer: Callable[[str, str | None], PreTrainedTokenizerBase]
     chat_prompt: Callable[[PreTrainedTokenizerBase, str], str]
     tensor_name: Callable[[TensorKind, int | None], str]
-    revision: Callable[[str], str | None]
 
 
-def hf_tokenizer(name: str) -> PreTrainedTokenizerBase:
-    tokenizer = AutoTokenizer.from_pretrained(name, token=os.environ.get("HF_TOKEN") or None)
+def hf_tokenizer(name: str, revision: str | None) -> PreTrainedTokenizerBase:
+    tokenizer = AutoTokenizer.from_pretrained(name, revision=revision, token=os.environ.get("HF_TOKEN") or None)
     tokenizer.padding_side = "right"
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     return tokenizer
 
 
-def hf_load(name: str, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
+def hf_load(name: str, revision: str | None, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
     """bf16 and right padding, as every run here assumes."""
     token = os.environ.get("HF_TOKEN") or None
-    model = AutoModelForCausalLM.from_pretrained(name, dtype=torch.bfloat16, device_map=device, token=token)
-    return model.eval(), hf_tokenizer(name)
+    model = AutoModelForCausalLM.from_pretrained(name, revision=revision, dtype=torch.bfloat16, device_map=device, token=token)
+    return model.eval(), hf_tokenizer(name, revision)
 
 
 def hf_chat_prompt(tokenizer: PreTrainedTokenizerBase, instruction: str) -> str:
@@ -59,20 +59,21 @@ def hf_tensor_name(kind: TensorKind, layer: int | None = None) -> str:
     }[kind]
 
 
-HF = ModelAdapter("hf", hf_load, hf_tokenizer, hf_chat_prompt, hf_tensor_name, revision=lambda _name: None)
-QWEN1 = ModelAdapter(
-    "qwen1", qwen1.load_qwen1, qwen1.load_qwen1_tokenizer, lambda _tok, text: qwen1.chat_prompt(text),
-    qwen1.checkpoint_name, revision=lambda name: qwen1.REVISIONS[name],
-)  # fmt: skip
+ADAPTERS: dict[str, ModelAdapter] = {
+    "hf": ModelAdapter(hf_load, hf_tokenizer, hf_chat_prompt, hf_tensor_name),
+    "qwen1": ModelAdapter(
+        qwen1.load_qwen1, qwen1.load_qwen1_tokenizer, lambda _tok, text: qwen1.chat_prompt(text), qwen1.checkpoint_name
+    ),
+}
 
 
-def adapter_for(name: str) -> ModelAdapter:
-    return QWEN1 if qwen1.is_qwen1(name) else HF
+def adapter_for(model: ModelConfig) -> ModelAdapter:
+    return ADAPTERS[model.family]
 
 
-def load_model(name: str, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
-    return adapter_for(name).load(name, device)
+def load_model(model: ModelConfig, device: str) -> tuple[PreTrainedModel, PreTrainedTokenizerBase]:
+    return adapter_for(model).load(model.name, model.revision, device)
 
 
-def load_tokenizer(name: str) -> PreTrainedTokenizerBase:
-    return adapter_for(name).load_tokenizer(name)
+def load_tokenizer(model: ModelConfig) -> PreTrainedTokenizerBase:
+    return adapter_for(model).load_tokenizer(model.name, model.revision)
