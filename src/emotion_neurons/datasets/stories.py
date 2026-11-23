@@ -26,4 +26,8 @@ class StoriesSet:
 
     def render(self, example: Example, tokenizer: PreTrainedTokenizerBase, adapter: ModelAdapter) -> Rendered:
         ids = tokenizer(example.text, add_special_tokens=False)["input_ids"]
-        return Rendered(input_ids=ids, positions=list(range(min(self.cfg.split_token, len(ids)), len(ids))))
+        start = min(self.cfg.split_token, len(ids))
+        return Rendered(
+            input_ids=ids,
+            positions=list(range(start, len(ids))),
+        )
