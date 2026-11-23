@@ -344,6 +344,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "accelerate" },
+    { name = "circuitsvis" },
     { name = "datasets" },
     { name = "einops" },
     { name = "jaxtyping" },
@@ -363,13 +364,11 @@ dependencies = [
 dev = [
     { name = "pytest" },
 ]
-viz = [
-    { name = "circuitsvis" },
-]
 
 [package.metadata]
 requires-dist = [
     { name = "accelerate", specifier = ">=1.0" },
+    { name = "circuitsvis", specifier = ">=1.43" },
     { name = "datasets", specifier = ">=2.14" },
     { name = "einops", specifier = ">=0.7" },
     { name = "jaxtyping", specifier = ">=0.2.25" },
@@ -387,7 +386,6 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=8" }]
-viz = [{ name = "circuitsvis", specifier = ">=1.43.3" }]
 
 [[package]]
 name = "filelock"

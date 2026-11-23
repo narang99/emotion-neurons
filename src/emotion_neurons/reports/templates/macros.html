@@ -38,3 +38,14 @@
 {% endmacro %}
 
 {% macro pct(x) %}{{ "%.1f" | format(100 * x) }}%{% endmacro %}
+
+{% macro token_view(v) %}
+<div class="token-view">
+  <div class="title">{{ v.title }}</div>
+  <div class="subtitle">{{ v.subtitle }}</div>
+  {% for s in v.strips %}
+  {% if s.label %}<div class="strip-label">{{ s.label }}</div>{% endif %}
+  {{ s.html | safe }}
+  {% endfor %}
+</div>
+{% endmacro %}

@@ -19,6 +19,8 @@ import yaml
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic_settings import BaseSettings, PydanticBaseSettingsSource, SettingsConfigDict
 
+from .emotions import Site
+
 Baseline = Literal["mean", "neutral"]
 Variant = Literal["raw", "denoised"]
 
@@ -50,6 +52,14 @@ class VectorsConfig(Section):
     denoise_variance: float = Field(
         0.5, gt=0, lt=1, description="project out the top neutral PCs that explain this share of variance"
     )
+
+
+class StoryTokensConfig(Section):
+    """Per-token scores of held-out stories against the emotion vectors (`token_scores`)."""
+
+    site: Site = Field("resid_mid", description="the site whose denoised vectors score each token")
+    batch_size: int = 16
+    stories_per_label: int = Field(2, description="token views per emotion (and neutral) in the report")
 
 
 class CorpusConfig(Section):
@@ -115,6 +125,7 @@ class VectorsRunConfig(RunConfig):
     data: DataConfig = DataConfig()
     extract: ExtractConfig = ExtractConfig()
     vectors: VectorsConfig = VectorsConfig()
+    tokens: StoryTokensConfig = StoryTokensConfig()
 
 
 class PolesRunConfig(RunConfig):
@@ -180,6 +191,13 @@ class GenerationCheckConfig(Section):
     ]  # fmt: skip
 
 
+class DirectionTokensConfig(Section):
+    """Per-token projections of val prompts and their saved plain replies onto the direction (`token_scores`)."""
+
+    batch_size: int = 16
+    prompts_per_category: int = Field(6, description="token views per category in the report")
+
+
 class DirectionRunConfig(RunConfig):
     """A difference-of-means direction on instruction data, selected and checked as in the refusal paper."""
 
@@ -187,6 +205,7 @@ class DirectionRunConfig(RunConfig):
     direction: DiffMeansConfig
     selection: DirectionSelectionConfig = DirectionSelectionConfig()
     generation: GenerationCheckConfig = GenerationCheckConfig()
+    tokens: DirectionTokensConfig = DirectionTokensConfig()
 
 
 Config = TypeVar("Config", bound=RunConfig)

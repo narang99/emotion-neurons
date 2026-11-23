@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "accelerate>=1.0",
+    "circuitsvis>=1.43",
     "datasets>=2.14",
     "einops>=0.7",
     "jaxtyping>=0.2.25",
@@ -46,6 +47,3 @@ ignore = ["E501", "F722", "F821"]
 
 [dependency-groups]
 dev = ["pytest>=8"]
-viz = [
-    "circuitsvis>=1.43.3",
-]

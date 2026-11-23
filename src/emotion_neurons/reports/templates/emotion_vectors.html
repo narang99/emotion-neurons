@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import heatmap, pct %}
+{% from "macros.html" import heatmap, pct, token_view %}
 {% block body %}
 <p class="meta">Run <code>{{ report.run_id }}</code>. {{ report.emotions | length }} emotions, sites {{ report.sites | join(", ") }}.</p>
 <p class="note">A vector is an emotion's mean activation minus the mean over all {{ report.emotions | length }} emotions ({{ report.average }}).
@@ -31,6 +31,15 @@
   {{ heatmap(m.cosine_raw) }}
 </div>
 {% endfor %}
+
+{% if report.token_views %}
+<h2>Token views</h2>
+<p>Held-out stories, {{ report.token_views | length }} shown. Each token's <code>{{ report.token_site }}</code> activation, minus the grand mean,
+with neutral PCs removed, is compared in cosine with each denoised vector.
+Pick an emotion to colour the text by it; hover a token for all 12 values.
+The vectors average tokens 50 and later, so early tokens are outside what built them.</p>
+{% for v in report.token_views %}{{ token_view(v) }}{% endfor %}
+{% endif %}
 
 <h2>Stories mislabelled at every site</h2>
 <p>{{ report.flagged | length }} stories go to the wrong emotion at all sites (denoised vectors).

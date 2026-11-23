@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import heatmap, pct %}
+{% from "macros.html" import heatmap, pct, token_view %}
 {% block body %}
 <p class="meta">Run <code>{{ report.run_id }}</code>. {{ report.n_train }} train and {{ report.n_val }} val instructions per category.
 Baseline: <code>{{ report.baseline }}</code>.</p>
@@ -32,6 +32,14 @@ among those that induce refusal and keep the KL below {{ report.max_kl }}.
 
 <h2>Candidates across all layers</h2>
 {% for h in report.vector_maps %}{{ heatmap(h) }}{% endfor %}
+
+{% if report.token_views %}
+<h2>Token views</h2>
+<p>Val prompts with their plain replies, {{ report.token_views | length }} shown. Each token's residual stream at the input of
+layer {{ report.choice.layer }} is projected onto the unit direction. Blue is negative, red is positive, on one scale for all views.
+The direction was read at the last prompt token.</p>
+{% for v in report.token_views %}{{ token_view(v) }}{% endfor %}
+{% endif %}
 
 <h2>Replies</h2>
 {% for g in report.replies %}

@@ -3,6 +3,7 @@
 - Reads results/<run_id>/vectors_meta.json and checks.json. No model and no story sums are needed.
 - Accuracy: nearest-vector labels of each story, 12-way, train stories left out of their own emotion's mean.
 - Confusion: all emotional stories (train left out, and held out), denoised vectors.
+- Token views: from results/<run_id>/token_scores.*, if scripts/token_scores.py has run.
 """
 
 import json
@@ -11,7 +12,10 @@ from pathlib import Path
 from pydantic import BaseModel
 
 from ..config import VectorsRunConfig
+from ..emotions import LABELS
+from ..token_scores import load_token_scores
 from .heatmap import Heatmap, heatmap
+from .token_views import TokenView, story_views
 
 
 class SiteAccuracy(BaseModel):
@@ -57,6 +61,8 @@ class EmotionVectorsReport(BaseModel):
     maps: list[SiteMaps]
     split_half: list[SplitHalfRow]
     flagged: list[FlaggedStory]
+    token_site: str
+    token_views: list[TokenView]
 
 
 def site_accuracy(site: str, checks: dict, denoise: dict) -> SiteAccuracy:
@@ -94,6 +100,13 @@ def flagged_story(f: dict, sites: list[str]) -> FlaggedStory:
                         predicted=[f["pred_by_site"][s] for s in sites])  # fmt: skip
 
 
+def token_views(cfg: VectorsRunConfig) -> list[TokenView]:
+    saved = load_token_scores(cfg.result_dir)
+    if saved is None:
+        return []
+    return story_views(*saved, labels=list(LABELS), per_label=cfg.tokens.stories_per_label, split_token=cfg.data.split_token)
+
+
 def build_emotion_vectors_report(cfg: VectorsRunConfig) -> EmotionVectorsReport:
     meta = json.loads(Path(cfg.result_dir / "vectors_meta.json").read_text())
     checks = json.loads(Path(cfg.result_dir / "checks.json").read_text())
@@ -107,4 +120,5 @@ def build_emotion_vectors_report(cfg: VectorsRunConfig) -> EmotionVectorsReport:
         maps=[site_maps(s, checks, emotions) for s in sites],
         split_half=split_half,
         flagged=[flagged_story(f, sites) for f in checks["flagged"]],
+        token_site=cfg.tokens.site, token_views=token_views(cfg),
     )  # fmt: skip

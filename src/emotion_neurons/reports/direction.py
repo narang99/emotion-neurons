@@ -1,6 +1,7 @@
 """Report data for one difference-of-means direction (scripts/direction.py): read only from its saved results.
 
 - Reads results/<run_id>/direction.json, direction.safetensors and replies.json. No model is loaded.
+- Token views: from results/<run_id>/token_scores.*, if scripts/token_scores.py has run.
 - The val instructions come from the config's sources (`datasets.InstructionSet`), in the order the replies were made.
 - Selection grid: one candidate per post-instruction position and layer.
   - bypass: refusal score of target prompts with the candidate ablated (lower is better).
@@ -16,7 +17,9 @@ from safetensors.torch import load_file
 
 from ..config import DirectionRunConfig
 from ..datasets import InstructionSet
+from ..token_scores import load_token_scores
 from .heatmap import Heatmap, heatmap
+from .token_views import TokenView, prompt_views
 
 
 class Choice(BaseModel):
@@ -60,6 +63,7 @@ class DirectionReport(BaseModel):
     grid_maps: list[Heatmap]
     vector_maps: list[Heatmap]
     replies: list[ReplyGroup]
+    token_views: list[TokenView]
 
 
 def selection_maps(summary: dict, max_kl: float) -> list[Heatmap]:
@@ -132,6 +136,13 @@ def conditions(summary: dict, target: str, other: str) -> list[Condition]:
     return [Condition(name=k, description=described[k], refusal_rate=v) for k, v in summary["refusal_rates"].items()]
 
 
+def token_views(cfg: DirectionRunConfig) -> list[TokenView]:
+    saved = load_token_scores(cfg.result_dir)
+    if saved is None:
+        return []
+    return prompt_views(*saved, labels=list(cfg.instructions.categories), per_label=cfg.tokens.prompts_per_category)
+
+
 def build_direction_report(cfg: DirectionRunConfig) -> DirectionReport:
     summary = json.loads((cfg.result_dir / "direction.json").read_text())
     replies = json.loads((cfg.result_dir / "replies.json").read_text())
@@ -147,4 +158,5 @@ def build_direction_report(cfg: DirectionRunConfig) -> DirectionReport:
         grid_maps=selection_maps(summary, cfg.selection.max_kl),
         vector_maps=vector_maps(tensors, summary["choice"]),
         replies=reply_groups(cfg, replies),
+        token_views=token_views(cfg),
     )  # fmt: skip
