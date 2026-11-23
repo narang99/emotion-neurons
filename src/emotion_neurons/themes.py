@@ -5,7 +5,8 @@
    Lines are ordered by weight, heaviest first.
 2. Discover: a strong model reads all lines at once and proposes themes, each with a definition and a kind.
 3. Assign: the same model puts every cluster under one theme (or "other"), in batches.
-4. Weigh: a neuron's share of the emotion's push is split over its clusters by size; a theme's weight is the sum.
+4. Weigh: a neuron's share of the emotion's push is split over its clusters by their weighted push (`push_pct`,
+   see `emotion_neurons.modes`; by hit count for runs made before it); a theme's weight is the sum.
 
 - Every step is cached under results/<run_id>/themes/, so a rerun resumes.
 """
@@ -63,6 +64,10 @@ def short_example(text: str) -> str:
     return f"{left} {text[i:j]} {right}".strip()
 
 
+def cluster_weight(cluster: dict) -> float:
+    return cluster.get("push_pct", cluster["size"])
+
+
 def cluster_lines(cards: dict) -> list[ClusterLine]:
     """Clusters on each set neuron's side, heaviest first."""
     judge = cards["judges"][0]
@@ -72,7 +77,7 @@ def cluster_lines(cards: dict) -> list[ClusterLine]:
             continue
         side = card["side"]
         clusters = card["poles"][side]["clusters"]
-        total = sum(c["size"] for c in clusters) or 1
+        total = sum(cluster_weight(c) for c in clusters) or 1
         lens = " ".join(t.strip() for t in card["lens"]["up" if side == "high" else "down"][:6])
         for c in clusters:
             verdict = c["verdicts"].get(judge)
@@ -80,7 +85,7 @@ def cluster_lines(cards: dict) -> list[ClusterLine]:
                 continue
             cid = f"n{card['neuron']}-{side}{c['id']}"
             text = f"{cid} | {lens} | {verdict['mode']} | {verdict['scene']} | {short_example(c['examples'][0][1])}"
-            lines.append(ClusterLine(id=cid, neuron=card["neuron"], weight=card["share"] * c["size"] / total, text=text))
+            lines.append(ClusterLine(id=cid, neuron=card["neuron"], weight=card["share"] * cluster_weight(c) / total, text=text))
     return sorted(lines, key=lambda line: -line.weight)
 
 

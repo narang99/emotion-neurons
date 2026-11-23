@@ -73,6 +73,10 @@ def neuron_class(clusters: list[dict], judges: list[str]) -> str:
     return "no match"
 
 
+def rounded(x: float | None) -> float | None:
+    return None if x is None else round(x, 1)
+
+
 def neuron_card(n: int, info: dict, modes: dict, texts: dict, judgements: dict, lens: dict) -> dict:
     """info: rank, share, shift, cos, is_control. modes: this neuron's entry of modes.json."""
     judges = list(judgements)
@@ -83,10 +87,13 @@ def neuron_card(n: int, info: dict, modes: dict, texts: dict, judgements: dict, 
             key = (n, pole, c["id"])
             clusters.append({
                 "id": c["id"], "size": c["with_assigned"], "mean_act": round(c["mean_act"], 3),
+                "bands": c.get("bands"), "pole_pct": rounded(c.get("pole_pct")), "push_pct": rounded(c.get("push_pct")),
                 "examples": texts.get(key, []),
                 "verdicts": {j: judgements[j][key] for j in judges if key in judgements[j]},
             })  # fmt: skip
         poles[pole] = {"n_hits": modes[pole]["n_hits"], "other": modes[pole]["other"], "clusters": clusters,
+                       "band_tokens": modes[pole].get("band_tokens"), "band_hits": modes[pole].get("band_hits"),
+                       "other_bands": modes[pole].get("other_bands"), "other_pct": rounded(modes[pole].get("other_pct")),
                        "other_examples": texts.get((n, pole, "other"), [])}  # fmt: skip
     side = emotion_side(info["shift"])
     return {
@@ -135,6 +142,21 @@ def write_neuron_csv(path: Path, cards: list[dict]) -> None:
         writer.writerows(cards)
 
 
+def corpus_phrase(harvest: dict) -> str:
+    names = ", ".join(c["name"] for c in harvest["config"]["corpora"])
+    return f"{harvest['tokens'] / 1e6:.1f}M tokens ({names})"
+
+
+def sampling_phrase(h: dict) -> str:
+    if h.get("hits_per_band") is None:
+        return f"are sampled uniformly ({h['hits_per_pole']} per pole, so nearly all from p97-p99 and p3-p1)"
+    return (
+        f"are sampled up to {h['hits_per_band']} per band (p97-p99, p99-p99.9, p99.9-p99.99, p99.99+; the same at the low pole), "
+        "so the rare strongest firings get clusters too; each hit is weighted back by its band's size, so a cluster's "
+        "share of the pole and of its push describe the whole pole"
+    )
+
+
 def run_report(cfg: ModesRunConfig) -> dict:
     """The report stage: results/<run_id>/report.html (self-contained) and results/<run_id>/neurons.csv."""
     out = cfg.result_dir
@@ -153,11 +175,14 @@ def run_report(cfg: ModesRunConfig) -> dict:
     per_neuron_lens, write_lens = lenses(cfg.model, W.float(), d.float(), neurons + controls)
 
     cards = [neuron_card(n, info[n], modes[n], texts, judgements, per_neuron_lens[n]) for n in neurons + controls]
-    payload = {"emotion": cfg.concept, "neurons": cards, "write_lens": write_lens, "judges": list(judgements)}
+    payload = {
+        "emotion": cfg.concept, "neurons": cards, "write_lens": write_lens, "judges": list(judgements), "bands": harvest["bands"],
+    }  # fmt: skip
     # ASCII escapes: partial byte-level tokens decode to U+FFFD, which must not appear raw in the page
     page = TEMPLATE.read_text().replace("__DATA__", json.dumps(payload, ensure_ascii=True).replace("</", "<\\/"))
     page = page.replace("__TITLE__", f"{cfg.concept.capitalize()} Neuron Modes").replace("__EMOTION__", cfg.concept)
-    page = page.replace("__PCT__", f"{harvest['config']['rebuilt_pct']:g}")
+    page = page.replace("__PCT__", f"{harvest['config']['rebuilt_pct']:g}").replace("__LAYER__", str(cfg.layer))
+    page = page.replace("__CORPUS__", corpus_phrase(harvest)).replace("__SAMPLING__", sampling_phrase(harvest["config"]))
     (out / "report.html").write_text(page)
     (out / "cards.json").write_text(json.dumps(payload))  # the same data, for scripts (e.g. emotion_neurons.themes)
     write_neuron_csv(out / "neurons.csv", cards)

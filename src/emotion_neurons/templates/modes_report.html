@@ -64,11 +64,16 @@ ol.ex li { font-family: var(--mono); font-size: 12.5px; line-height: 1.55; displ
 .txt { overflow-wrap: anywhere; min-width: 0; }
 mark { background: var(--hit-bg); color: var(--hit-fg); border-radius: 3px; padding: 0 2px; }
 .empty { color: var(--muted); }
+.bands { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bandbar { display: flex; width: 10em; height: 8px; border-radius: 2px; overflow: hidden; background: var(--line); }
+.bandbar span { height: 100%; background: var(--accent); }
+.b0 { opacity: .25; } .b1 { opacity: .5; } .b2 { opacity: .75; } .b3 { opacity: 1; }
+.bkey { display: inline-flex; gap: 4px; align-items: center; } .bkey i { width: 8px; height: 8px; border-radius: 2px; background: var(--accent); display: inline-block; }
 @media (max-width: 560px) { .lens-row { grid-template-columns: 1fr; } }
 </style>
 <div class="wrap">
   <h1>__EMOTION__ neurons: what they fire on, at both poles</h1>
-  <p class="lede">The neurons of the layer-25 __EMOTION__ greedy set up to __PCT__% of the __EMOTION__ write, and random controls, harvested over 2M tokens of general text (fineweb-edu, TinyStories, UltraChat). Each pole's hits (p97 and above, p3 and below) are clustered on the MLP input. Cheap models judged every cluster blind: a short name, and how many of its windows sit in a __EMOTION__ scene (scene, not word). A neuron's <b>side</b> is the pole __EMOTION__ moves it toward: high when its shift is positive, low when negative. Its class comes from the clusters on that side: <b>match</b> if every judge calls one of them a __EMOTION__ scene (3+ of 5 windows), <b>split</b> if only some judges do, <b>no match</b> if none does. "No match" neurons push toward __EMOTION__ while firing on something else. The side is read from a story-mean shift, so a few strong firings at the other pole can hide behind it: always check both poles.</p>
+  <p class="lede">The neurons of the layer-__LAYER__ __EMOTION__ greedy set up to __PCT__% of the __EMOTION__ write, and random controls, harvested over __CORPUS__. Each pole's hits (p97 and above, p3 and below) __SAMPLING__. They are clustered on the MLP input. The strip under each cluster shows its hits by band, palest p97-p99 (p3-p1), darkest p99.99+ (p0.01-). Cheap models judged every cluster blind: a short name, and how many of its windows sit in a __EMOTION__ scene (scene, not word). A neuron's <b>side</b> is the pole __EMOTION__ moves it toward: high when its shift is positive, low when negative. Its class comes from the clusters on that side: <b>match</b> if every judge calls one of them a __EMOTION__ scene (3+ of 5 windows), <b>split</b> if only some judges do, <b>no match</b> if none does. "No match" neurons push toward __EMOTION__ while firing on something else. The side is read from a story-mean shift, so a few strong firings at the other pole can hide behind it: always check both poles.</p>
   <div class="lens" id="write-lens"></div>
   <div class="bar" id="classes" role="group" aria-label="Neuron class"></div>
   <div class="bar">
@@ -128,7 +133,15 @@ function renderLens(c) {
     ${row("Drops below average: pushes up", c.lens.down, c.side === "low")}</div>`;
 }
 
-function renderCluster(k) {
+function renderBands(counts, pole) {
+  if (!counts) return "";
+  const names = DATA.bands[pole], total = counts.reduce((x, y) => x + y, 0) || 1;
+  const bar = counts.map((n, b) => n ? `<span class="b${Math.min(b, 3)}" style="width:${100 * n / total}%"></span>` : "").join("");
+  const keys = counts.map((n, b) => `<span class="bkey"><i class="b${Math.min(b, 3)}"></i>${esc(names[b])} ${n}</span>`).join("");
+  return `<div class="bands"><span class="bandbar" aria-hidden="true">${bar}</span>${keys}</div>`;
+}
+
+function renderCluster(k, pole) {
   const verdicts = JUDGES.filter(j => k.verdicts[j]).map(j => {
     const v = k.verdicts[j], match = v.scene_windows >= 3;
     return `<span class="verdict${match ? " match" : ""}">${esc(JUDGE_NAME(j))}: ${v.scene_windows}/${v.windows} ${EMOTION}</span>`;
@@ -138,7 +151,8 @@ function renderCluster(k) {
   const others = JUDGES.slice(1).filter(j => k.verdicts[j]).map(j => `<div class="scene">${esc(JUDGE_NAME(j))}: ${esc(k.verdicts[j].mode)} · ${esc(k.verdicts[j].scene)}</div>`).join("");
   const examples = k.examples.map(e => `<li><span class="act">${e[0].toFixed(2)}</span><span class="txt">${highlight(e[1])}</span></li>`).join("");
   return `<div class="cluster${anyMatch ? " match" : ""}">
-    <div class="chead"><span class="mode">${first ? esc(first.mode) : "not judged"}</span><span class="src">cluster ${k.id} · ${k.size} hits · mean ${k.mean_act}</span></div>
+    <div class="chead"><span class="mode">${first ? esc(first.mode) : "not judged"}</span><span class="src">cluster ${k.id} · ${k.size} hits · mean ${k.mean_act}${k.pole_pct != null ? ` · ~${k.pole_pct}% of the pole's tokens, ${k.push_pct}% of its push` : ""}</span></div>
+    ${renderBands(k.bands, pole)}
     <div class="verdicts">${verdicts}</div>
     ${first ? `<div class="scene">${esc(JUDGE_NAME(JUDGES[0]))} scene: ${esc(first.scene)}</div>` : ""}${others}
     <ol class="ex">${examples}</ol></div>`;
@@ -146,8 +160,8 @@ function renderCluster(k) {
 
 function renderPole(c, pole) {
   const p = c.poles[pole], used = pole === c.side;
-  const title = `${pole === "high" ? "High pole (p97 and above)" : "Low pole (p3 and below)"}${used ? ` · the side ${EMOTION} uses` : ""} · ${p.clusters.length} clusters, ${p.other} of ${p.n_hits} hits unclustered`;
-  return `<div class="pole${used ? " used" : ""}"><div class="pole-title">${title}</div>${p.clusters.map(renderCluster).join("") || '<p class="empty">No clusters.</p>'}</div>`;
+  const title = `${pole === "high" ? "High pole (p97 and above)" : "Low pole (p3 and below)"}${used ? ` · the side ${EMOTION} uses` : ""} · ${p.clusters.length} clusters, ${p.other} of ${p.n_hits} hits unclustered${p.other_pct != null ? ` (~${p.other_pct}% of the pole)` : ""}${p.band_hits ? ` · sampled per band ${p.band_hits.join(" / ")} of ${p.band_tokens.join(" / ")} tokens` : ""}`;
+  return `<div class="pole${used ? " used" : ""}"><div class="pole-title">${title}</div>${p.clusters.map(k => renderCluster(k, pole)).join("") || '<p class="empty">No clusters.</p>'}</div>`;
 }
 
 function renderCard(c) {

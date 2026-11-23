@@ -96,6 +96,9 @@ class HarvestConfig(Section):
     examples_per_band: int = 8
     extreme_examples: int = 12
     hits_per_pole: int = Field(1000, description="hit positions kept per neuron and pole, for the mode clustering")
+    hits_per_band: int | None = Field(
+        None, description="if set, sample up to this many hits from each band instead of `hits_per_pole` uniformly"
+    )
     before: int = Field(60, description="tokens shown before the firing token")
     after: int = Field(8, description="tokens shown after it")
     window: int = 256

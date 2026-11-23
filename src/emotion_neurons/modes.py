@@ -6,6 +6,11 @@
    - A noise hit joins the nearest cluster when its cosine to that centre is above the cluster's own
      `assign_quantile` of member cosines; the rest stay "other".
 3. Per cluster: the exemplars closest to its centre, for Haiku to name.
+4. Per cluster: how many of its hits fall in each band, and its weighted share of the pole.
+   - A hit weighs (tokens of its band in the corpus) / (hits of its band in the sample). With a per-band sample
+     this undoes the oversampling of the extreme bands, so the shares still describe the whole pole.
+   - `pole_pct`: the cluster's estimated share of the pole's tokens. `push_pct`: its share of the pole's summed
+     |activation|, i.e. of what the pole writes.
 """
 
 import json
@@ -15,6 +20,7 @@ from collections import defaultdict
 import numpy as np
 import torch
 from jaxtyping import Float, Int
+from pydantic import BaseModel, ConfigDict
 from safetensors.torch import load_file
 from sklearn.cluster import HDBSCAN
 from sklearn.decomposition import PCA
@@ -22,7 +28,7 @@ from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from .config import ModesConfig, ModesRunConfig
-from .harvest import CorpusActs, load_corpus
+from .harvest import CorpusActs, band_index, load_corpus
 from .models import load_model, read_mlp
 from .poles import padded_batch
 
@@ -83,26 +89,59 @@ def cluster_hits(Z: np.ndarray, cfg: ModesConfig) -> tuple[np.ndarray, np.ndarra
     return labels, final, {c: v for c, v in centres.items()}
 
 
-def pole_modes(hits: Int[Tensor, " hit"], X: dict[int, Tensor], a: Float[Tensor, " hit"], cfg: ModesConfig, seed: int) -> dict:
-    """Clusters of one neuron's hits at one pole: size, mean activation, exemplar token indices."""
+class HitBands(BaseModel):
+    """The band of each sampled hit, its weight, and the pole's band sizes in the corpus and in the sample."""
+
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+
+    band: Int[np.ndarray, " hit"]
+    weight: Float[np.ndarray, " hit"]
+    tokens: list[int]  # per band, in the corpus
+    sampled: list[int]  # per band, among the hits
+
+
+def hit_bands(a: Float[Tensor, " token"], valid, edges: Float[Tensor, " edge"], pole: str, hits) -> HitBands:
+    bands = band_index(a.float().masked_fill(~valid, float("nan")), edges, pole)
+    n_bands = len(edges)
+    tokens = torch.bincount(bands[bands >= 0], minlength=n_bands)
+    band = bands[hits]
+    assert (band >= 0).all(), "a hit lies outside its pole"
+    sampled = torch.bincount(band, minlength=n_bands)
+    weight = tokens[band].double() / sampled[band].double()
+    return HitBands(band=band.numpy(), weight=weight.numpy(), tokens=tokens.tolist(), sampled=sampled.tolist())
+
+
+def pole_modes(
+    hits: Int[Tensor, " hit"], X: dict[int, Tensor], a: Float[np.ndarray, " hit"], hb: HitBands, cfg: ModesConfig, seed: int
+) -> dict:
+    """Clusters of one neuron's hits at one pole: size, band mix, weighted shares, exemplar token indices."""
     Z = torch.stack([X[t] for t in hits.tolist()]).float().numpy()
     labels, final, centres = cluster_hits(Z, cfg)
     Zn = Z / np.linalg.norm(Z, axis=1, keepdims=True)
+    w, push = hb.weight, hb.weight * np.abs(a)
     clusters = []
     for c, centre in centres.items():
         members = np.nonzero(labels == c)[0]
         closest = members[np.argsort(-(Zn[members] @ centre))[: cfg.exemplars]]
+        mine = final == c
         clusters.append({
-            "id": int(c), "size": int(len(members)), "with_assigned": int((final == c).sum()),
-            "mean_act": float(a[final == c].mean()), "exemplars": [int(hits[i]) for i in closest],
+            "id": int(c), "size": int(len(members)), "with_assigned": int(mine.sum()),
+            "mean_act": float((a[mine] * w[mine]).sum() / w[mine].sum()),
+            "bands": np.bincount(hb.band[mine], minlength=len(hb.tokens)).tolist(),
+            "pole_pct": float(100 * w[mine].sum() / w.sum()), "push_pct": float(100 * push[mine].sum() / push.sum()),
+            "exemplars": [int(hits[i]) for i in closest],
         })  # fmt: skip
     noise = np.nonzero(final == -1)[0]
     rng = np.random.default_rng(seed)
     other = rng.choice(noise, min(cfg.other_exemplars, len(noise)), replace=False) if len(noise) else []
     return {
         "n_hits": int(len(hits)),
+        "band_tokens": hb.tokens,
+        "band_hits": hb.sampled,
         "clusters": clusters,
         "other": int(len(noise)),
+        "other_bands": np.bincount(hb.band[noise], minlength=len(hb.tokens)).tolist(),
+        "other_pct": float(100 * w[noise].sum() / w.sum()),
         "other_exemplars": [int(hits[i]) for i in other],
     }
 
@@ -191,9 +230,11 @@ def run_modes(cfg: ModesRunConfig) -> None:
     result = {}
     for i, n in enumerate(neurons, 1):
         result[n] = {}
+        a = corpus.acts[:, column[n]]
         for pole in POLES:
             idx = hits[f"{n}/{pole}"]
-            result[n][pole] = pole_modes(idx, X, corpus.acts[idx, column[n]].float().numpy(), m, seed=n)
+            hb = hit_bands(a, corpus.valid, torch.tensor(harvest["edges"][str(n)][pole]), pole, idx)
+            result[n][pole] = pole_modes(idx, X, a[idx].float().numpy(), hb, m, seed=n)
         if i % 50 == 0 or i == len(neurons):
             print(f"[cluster] {i}/{len(neurons)} neurons, {time.time() - t0:.0f}s", flush=True)
     sizes = [len(result[n][p]["clusters"]) for n in neurons for p in POLES]

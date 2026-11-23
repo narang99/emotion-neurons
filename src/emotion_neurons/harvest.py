@@ -5,6 +5,7 @@
    - The first `skip_first` tokens of each window are left out of the quantiles, the examples and the hits.
 3. Per neuron and pole: example windows in each band, and the most extreme ones.
 4. Per neuron and pole: a sample of hit positions (past p97 or p3), for clustering into modes.
+   - Uniform over the pole, or a fixed number per band (`hits_per_band`), see `pole_hits`.
 
 - A neuron that happy turns down serves happy through its low pole, so both poles are kept.
 """
@@ -183,13 +184,34 @@ def band_names(quantiles: list[float]) -> list[str]:
     return [f"{a}-{b}" for a, b in zip(labels[:-1], labels[1:])] + [f"{labels[-1]}{'+' if quantiles[0] > 0.5 else '-'}"]
 
 
-def pole_hits(corpus: CorpusActs, j: int, edges: dict, count: int, generator) -> dict[str, Int[Tensor, " hit"]]:
-    """A sample of token indices past p97 (high) and past p3 (low), for the mode clustering."""
+def band_index(a: Float[Tensor, " token"], edges: Float[Tensor, " edge"], pole: str) -> Int[Tensor, " token"]:
+    """The band of each token at one pole (0 is the band nearest the median), -1 outside the pole or NaN."""
+    out = torch.full(a.shape, -1, dtype=torch.long)
+    for b, mask in enumerate(band_masks(a, edges, pole)):
+        out[mask] = b
+    return out
+
+
+def pole_hits(corpus: CorpusActs, j: int, edges: dict, cfg: HarvestConfig, generator) -> dict[str, Int[Tensor, " hit"]]:
+    """Token indices past p97 (high) and past p3 (low), for the mode clustering.
+
+    - Uniform (`hits_per_band` unset): a sample of the whole pole. About two thirds of it is p97-p99 and about
+      0.3% is p99.99+, so the rare strongest firings almost never reach a cluster.
+    - Per band: up to `hits_per_band` from each band, shuffled together (so any prefix keeps the mix).
+      `modes` weighs each hit by its band's size, so cluster shares still describe the whole pole.
+    """
     a = corpus.acts[:, j].float()
-    return {
-        "high": sample(corpus.valid & (a >= edges["high"][0, j]), count, generator),
-        "low": sample(corpus.valid & (a <= edges["low"][0, j]), count, generator),
-    }
+    if cfg.hits_per_band is None:
+        return {
+            "high": sample(corpus.valid & (a >= edges["high"][0, j]), cfg.hits_per_pole, generator),
+            "low": sample(corpus.valid & (a <= edges["low"][0, j]), cfg.hits_per_pole, generator),
+        }
+    out = {}
+    for pole in ("high", "low"):
+        masks = band_masks(a, edges[pole][:, j], pole)
+        picks = torch.cat([sample(corpus.valid & m, cfg.hits_per_band, generator) for m in masks])
+        out[pole] = picks[torch.randperm(len(picks), generator=generator)]
+    return out
 
 
 def corpus_for(cfg: ModesRunConfig, neurons: list[int]) -> CorpusActs:
@@ -229,7 +251,7 @@ def run_harvest(cfg: ModesRunConfig) -> None:
     examples, hits = {}, {}
     for j, n in enumerate(neurons):
         examples[n] = neuron_examples(corpus, bounds, tokenizer, h, j, edges, generator)
-        for pole, idx in pole_hits(corpus, j, edges, h.hits_per_pole, generator).items():
+        for pole, idx in pole_hits(corpus, j, edges, h, generator).items():
             hits[f"{n}/{pole}"] = idx.contiguous()
     print(f"[examples] {len(neurons)} neurons, {time.time() - t0:.0f}s", flush=True)
     save_file(hits, str(cfg.run_dir / "hits.safetensors"))

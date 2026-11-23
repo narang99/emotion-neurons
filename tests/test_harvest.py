@@ -47,3 +47,53 @@ def test_batch_groups_respect_neuron_and_cluster_budgets():
     groups = batch_groups(result, list(sizes), ModesConfig(neurons_per_batch=8, clusters_per_batch=80))
     assert groups == [[1, 2], [3], [4], [5, 6]]
     assert batch_groups(result, [5, 6], ModesConfig(neurons_per_batch=1)) == [[5], [6]]
+
+
+def banded_corpus() -> tuple[CorpusActs, dict]:
+    """One neuron; high-pole bands of 40, 20 and 5 tokens past edges 1, 2, 3; low-pole band of 30 below -1."""
+    a = torch.cat(
+        [torch.zeros(100), torch.full((40,), 1.5), torch.full((20,), 2.5), torch.full((5,), 3.5), -torch.full((30,), 2.0)]
+    )
+    n = len(a)
+    corpus = CorpusActs(
+        acts=a[:, None].half(), tokens=torch.arange(n), window=torch.zeros(n, dtype=torch.long),
+        position=torch.arange(n), sources=[("x", 0)],
+    )  # fmt: skip
+    edges = {"high": torch.tensor([[1.0], [2.0], [3.0]]), "low": torch.tensor([[-1.0], [-3.0], [-4.0]])}
+    return corpus, edges
+
+
+def test_per_band_hits_take_up_to_k_from_each_band():
+    from emotion_neurons.config import HarvestConfig
+    from emotion_neurons.harvest import band_index, pole_hits
+
+    corpus, edges = banded_corpus()
+    hits = pole_hits(corpus, 0, edges, HarvestConfig(hits_per_band=10), torch.Generator().manual_seed(0))
+    a = corpus.acts[:, 0].float()
+    high = band_index(a, edges["high"][:, 0], "high")[hits["high"]]
+    assert torch.bincount(high, minlength=3).tolist() == [10, 10, 5]
+    assert torch.bincount(band_index(a, edges["low"][:, 0], "low")[hits["low"]], minlength=3).tolist() == [10, 0, 0]
+
+
+def test_hit_weights_give_back_each_band_size_and_shares_sum_to_100():
+    import numpy as np
+
+    from emotion_neurons.config import HarvestConfig, ModesConfig
+    from emotion_neurons.harvest import pole_hits
+    from emotion_neurons.modes import hit_bands, pole_modes
+
+    corpus, edges = banded_corpus()
+    hits = pole_hits(corpus, 0, edges, HarvestConfig(hits_per_band=10), torch.Generator().manual_seed(0))["high"]
+    hb = hit_bands(corpus.acts[:, 0], corpus.valid, edges["high"][:, 0], "high", hits)
+    assert hb.tokens == [40, 20, 5] and hb.sampled == [10, 10, 5]
+    per_band = np.bincount(hb.band, weights=hb.weight, minlength=3)
+    assert np.allclose(per_band, [40, 20, 5])
+
+    rng = np.random.default_rng(0)  # two tight groups of MLP inputs, so HDBSCAN finds clusters
+    centres = rng.normal(size=(2, 16))
+    X = {int(t): torch.tensor(centres[i % 2] + 0.01 * rng.normal(size=16)) for i, t in enumerate(hits)}
+    a = corpus.acts[hits, 0].float().numpy()
+    r = pole_modes(hits, X, a, hb, ModesConfig(min_cluster_size=5, min_samples=2), seed=0)
+    assert r["clusters"]
+    assert np.isclose(sum(c["pole_pct"] for c in r["clusters"]) + r["other_pct"], 100)
+    assert sum(sum(c["bands"]) for c in r["clusters"]) + sum(r["other_bands"]) == len(hits)
