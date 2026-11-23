@@ -116,6 +116,18 @@ def pole_modes(
 ) -> dict:
     """Clusters of one neuron's hits at one pole: size, band mix, weighted shares, exemplar token indices."""
     Z = torch.stack([X[t] for t in hits.tolist()]).float().numpy()
+    return pole_modes_from_inputs(hits, Z, a, hb, cfg, seed)
+
+
+def pole_modes_from_inputs(
+    hits: Int[Tensor, " hit"],
+    Z: Float[np.ndarray, "hit d_model"],
+    a: Float[np.ndarray, " hit"],
+    hb: HitBands,
+    cfg: ModesConfig,
+    seed: int,
+) -> dict:
+    """`pole_modes` with the MLP inputs already gathered, one row per hit (used by worker processes)."""
     labels, final, centres = cluster_hits(Z, cfg)
     Zn = Z / np.linalg.norm(Z, axis=1, keepdims=True)
     w, push = hb.weight, hb.weight * np.abs(a)

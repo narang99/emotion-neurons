@@ -96,6 +96,8 @@ class HarvestConfig(Section):
     examples_per_band: int = 8
     extreme_examples: int = 12
     hits_per_pole: int = Field(1000, description="hit positions kept per neuron and pole, for the mode clustering")
+    all_neurons: bool = Field(False, description="harvest every neuron of the layer (`emotion_neurons.harvest_all`)")
+    neuron_chunk: int = Field(1024, description="neurons per chunk in an all-neuron harvest")
     hits_per_band: int | None = Field(
         None, description="if set, sample up to this many hits from each band instead of `hits_per_pole` uniformly"
     )
@@ -124,6 +126,7 @@ class ModesConfig(Section):
     snippet_after: int = 8
     batch_size: int = 32
     checks: int = Field(200, description="hits whose recomputed activation is checked against the harvest")
+    workers: int = Field(0, description="processes for the clustering in an all-neuron harvest; 0 means one per CPU")
 
 
 class JudgeConfig(Section):
