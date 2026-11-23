@@ -11,6 +11,8 @@ Reports of the two kinds of vectors this repo extracts: emotion vectors, and the
 - It also adds circuitsvis token views. Their per-token scores need a forward pass, so they ran on a Colab L4.
   - The scores read the saved vectors. They do not change them.
 - The configs here are the ones those runs used. Only `results_dir` changed, to point at this folder.
+  - They were later rewritten in the extraction config format (`ExtractionRunConfig`), with the same settings.
+  - With the current code, `python scripts/extract.py --config <yaml>` reruns everything here, report included.
 
 ## Scripts that were run
 
