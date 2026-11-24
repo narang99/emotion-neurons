@@ -34,7 +34,7 @@ def random_control(full: str) -> dict:
     return next(a for a in json.loads((HERE / full / "ablation.json").read_text())["ablations"] if a["name"].startswith("random"))
 
 
-TICK_STEPS = (0.025, 0.05, 0.1, 0.125, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 2, 2.5, 3)
+TICK_STEPS = (0.025, 0.05, 0.1, 0.125, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 2, 2.5, 3, 4, 5, 10)
 
 
 def axis_top(value: float) -> float:
