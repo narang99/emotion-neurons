@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "macros.html" import heatmap, token_view %}
+{% block body %}
+<style>
+.tabs > input { position: absolute; opacity: 0; pointer-events: none; }
+.tabs > label { display: inline-block; padding: 6px 12px; margin: 0 2px 2px 0; border: 1px solid var(--rule); border-radius: 6px; cursor: pointer; color: var(--text-2); }
+.tabs > section { display: none; padding-top: 8px; }
+{% for s in report.sections %}#tab-{{ loop.index }}:checked + label { background: var(--text); color: var(--surface); border-color: var(--text); }
+#tab-{{ loop.index }}:checked ~ #panel-{{ loop.index }} { display: block; }
+{% endfor %}
+.tabs .token-view { background: var(--surface-2); border-color: var(--muted); margin: 14px 0; }
+</style>
+<div class="tabs">
+{% for s in report.sections %}<input type="radio" name="vector" id="tab-{{ loop.index }}"{% if loop.first %} checked{% endif %}><label for="tab-{{ loop.index }}">{{ s.emotion }}</label>{% endfor %}
+{% for s in report.sections %}
+<section id="panel-{{ loop.index }}">
+{{ heatmap(s.quantiles) }}
+{% for v in s.views %}{{ token_view(v) }}{% endfor %}
+</section>
+{% endfor %}
+</div>
+{% endblock %}

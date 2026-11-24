@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goodfire sparsity on Qwen-1 7B Chat: mean ablation of layers k to 31</title><style>
+.viz-root { color-scheme: light; --surface-1: #fcfcfb; --text-primary: #0b0b0b; --text-secondary: #52514e;
+  --muted: #8a8984; --rule: #e3e2de; --series-1: #2a78d6; --series-2: #eb6834; }
+@media (prefers-color-scheme: dark) { .viz-root { color-scheme: dark; --surface-1: #1a1a19; --text-primary: #f0efec;
+  --text-secondary: #c3c2b7; --muted: #8a8984; --rule: #34332f; --series-1: #3987e5; --series-2: #d95926; } }
+body { margin: 0; }
+.viz-root { background: var(--surface-1); color: var(--text-primary); font: 14px/1.4 system-ui, sans-serif; padding: 24px 32px; min-height: 100vh; }
+h1 { font-size: 18px; margin: 0 0 12px; }
+.legend { display: flex; gap: 16px; color: var(--text-secondary); font-size: 13px; margin-bottom: 8px; }
+.legend i { display: inline-block; width: 16px; height: 2px; vertical-align: middle; margin-right: 6px; }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(560px, 1fr)); gap: 24px; }
+.chart { position: relative; margin: 0; }
+.chart figcaption { font-weight: 600; margin-bottom: 4px; }
+svg { width: 100%; height: auto; display: block; }
+.grid { stroke: var(--rule); stroke-width: 1; }
+.tick, .axis { fill: var(--muted); font-size: 11px; }
+.line { fill: none; stroke-width: 2; stroke-linejoin: round; }
+.s1 { stroke: var(--series-1); } .s2 { stroke: var(--series-2); }
+.direct { font-size: 11px; fill: var(--text-secondary); }
+.marker { fill: var(--surface-1); stroke-width: 2; }
+.cross { stroke: var(--muted); stroke-width: 1; }
+.hit { fill: transparent; }
+.tip { position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 6px 8px; font-size: 12px; color: var(--text-primary); box-shadow: 0 2px 6px rgba(0,0,0,.12); white-space: nowrap; }
+.tip i { display: inline-block; width: 10px; height: 2px; vertical-align: middle; margin-right: 6px; }
+details { margin-top: 24px; color: var(--text-secondary); }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 12px; color: var(--text-primary); }
+th, td { padding: 3px 8px; border-bottom: 1px solid var(--rule); text-align: right; }
+th { color: var(--text-secondary); font-weight: 600; }
+</style></head>
+<body><main class="viz-root">
+<h1>Goodfire sparsity on Qwen-1 7B Chat: mean ablation of layers k to 31</h1>
+<div class="legend"><span><i style="background:var(--series-1)"></i>p3 / p97</span><span><i style="background:var(--series-2)"></i>p5 / p95</span></div>
+<div class="grid-2"><figure class="chart" data-chart='{"names": ["p3 / p97", "p5 / p95"], "values": [[1.6442536472378408, 1.638188597544825, 1.452583761723908, 1.2791064333185627, 1.1970064089912547, 1.1283063315037822, 1.0952633706043595, 1.0647328776635834, 0.9997175830704844, 0.9739469019574409, 0.9542622350392271, 0.9030113228362899, 0.8457784225122241, 0.7775991515336994, 0.7045966347837155, 0.6388404336715731, 0.5738161845138604, 0.5008319442963243, 0.45050726390773366, 0.40861947758827083, 0.37232950954599847, 0.3395364563169613, 0.3161432746266918, 0.2924105803613147, 0.2767207348781196, 0.2603539851094272, 0.24972549764695068, 0.2425335073159036, 0.23393792824045279, 0.2256262031151773, 0.21024494967059434, 0.15473503059904684], [0.8123906453944343, 0.7553638665731071, 0.6471603744069211, 0.5498011414663392, 0.5043720461729233, 0.48260012067228397, 0.47403974712153085, 0.4635960308865979, 0.4346859052566934, 0.42003413860944966, 0.4120447398847778, 0.3966447992457605, 0.37550555157169313, 0.3567903029386038, 0.33586593163046097, 0.31861312025627925, 0.29917932336785363, 0.27705978938437364, 0.2615134723394963, 0.24186475345603647, 0.22493772325790004, 0.20753119333931241, 0.19601528784236102, 0.18265636097947593, 0.17431669720964696, 0.16495032277060295, 0.15948291130349618, 0.1546722271666531, 0.15035118130138145, 0.14514224037003448, 0.13607596028867067, 0.10212789444523498]], "random": [], "layers": 32}'>
+  <figcaption>Loss change (nats)</figcaption>
+  <svg viewBox="0 0 720 280" role="img" aria-label="Loss change (nats) against the first ablated layer">
+    <line class="grid" x1="56" x2="648" y1="240.0" y2="240.0"/><text class="tick" x="48" y="244.0" text-anchor="end">0</text><line class="grid" x1="56" x2="648" y1="184.0" y2="184.0"/><text class="tick" x="48" y="188.0" text-anchor="end">0.5</text><line class="grid" x1="56" x2="648" y1="128.0" y2="128.0"/><text class="tick" x="48" y="132.0" text-anchor="end">1</text><line class="grid" x1="56" x2="648" y1="72.0" y2="72.0"/><text class="tick" x="48" y="76.0" text-anchor="end">1.5</text><line class="grid" x1="56" x2="648" y1="16.0" y2="16.0"/><text class="tick" x="48" y="20.0" text-anchor="end">2</text><text class="tick" x="56.0" y="258" text-anchor="middle">0</text><text class="tick" x="132.4" y="258" text-anchor="middle">4</text><text class="tick" x="208.8" y="258" text-anchor="middle">8</text><text class="tick" x="285.2" y="258" text-anchor="middle">12</text><text class="tick" x="361.5" y="258" text-anchor="middle">16</text><text class="tick" x="437.9" y="258" text-anchor="middle">20</text><text class="tick" x="514.3" y="258" text-anchor="middle">24</text><text class="tick" x="590.7" y="258" text-anchor="middle">28</text>
+    <text class="axis" x="352.0" y="276" text-anchor="middle">first ablated layer (layers k to 31 ablated)</text>
+    <polyline class="line s1" points="56.0,55.8 75.1,56.5 94.2,77.3 113.3,96.7 132.4,105.9 151.5,113.6 170.6,117.3 189.7,120.7 208.8,128.0 227.9,130.9 247.0,133.1 266.1,138.9 285.2,145.3 304.3,152.9 323.4,161.1 342.5,168.4 361.5,175.7 380.6,183.9 399.7,189.5 418.8,194.2 437.9,198.3 457.0,202.0 476.1,204.6 495.2,207.3 514.3,209.0 533.4,210.8 552.5,212.0 571.6,212.8 590.7,213.8 609.8,214.7 628.9,216.5 648.0,222.7"/><polyline class="line s2" points="56.0,149.0 75.1,155.4 94.2,167.5 113.3,178.4 132.4,183.5 151.5,185.9 170.6,186.9 189.7,188.1 208.8,191.3 227.9,193.0 247.0,193.9 266.1,195.6 285.2,197.9 304.3,200.0 323.4,202.4 342.5,204.3 361.5,206.5 380.6,209.0 399.7,210.7 418.8,212.9 437.9,214.8 457.0,216.8 476.1,218.0 495.2,219.5 514.3,220.5 533.4,221.5 552.5,222.1 571.6,222.7 590.7,223.2 609.8,223.7 628.9,224.8 648.0,228.6"/><text class="direct" x="656.0" y="226.7">p3 / p97</text><text class="direct" x="656.0" y="238.7">p5 / p95</text>
+    <line class="cross" y1="16" y2="240" visibility="hidden"/>
+    <rect class="hit" x="56" y="16" width="592" height="224"/>
+  </svg>
+  <div class="tip" hidden></div>
+</figure><figure class="chart" data-chart='{"names": ["p3 / p97", "p5 / p95"], "values": [[1.9072953611233274, 1.9035952118855615, 1.7050109216177514, 1.5140373700938063, 1.4182742599996632, 1.3366051042433393, 1.2977836000152916, 1.2663983292606409, 1.1922488786190024, 1.1672069607559885, 1.137029827936207, 1.0720932909640464, 1.0077210254869557, 0.9205423716320644, 0.822982196981563, 0.7419114545534258, 0.6559602806351899, 0.5670297646717427, 0.49217486355142176, 0.4363942389724421, 0.3898896685285303, 0.3459588877147683, 0.31046753990416154, 0.28194982402428703, 0.25881472146683066, 0.23814710575102946, 0.22495054207477025, 0.21602539668122728, 0.20586826843938452, 0.1959727455123901, 0.1817240719749024, 0.1337052285295081], [0.9775288845419214, 0.9184598789212496, 0.7939837339880462, 0.6903274717760373, 0.6413026613139068, 0.613619505700543, 0.6004276305634424, 0.5904438178278492, 0.5606713159521491, 0.5465685566776403, 0.5285142691043416, 0.5060267621293694, 0.4766646321693595, 0.4473067549016235, 0.41288438513037345, 0.38436475430936007, 0.3536799852009035, 0.31858010581772145, 0.28687326939453806, 0.25864155803292205, 0.23425239932317404, 0.2098045718746511, 0.19005059130194257, 0.17293923327861666, 0.1601023587623326, 0.14730944026361176, 0.13967279648164627, 0.13477371675963218, 0.1287746443517273, 0.1232783287695888, 0.11567545971381261, 0.08742545959766579]], "random": [8.945325818959319, 8.981581744722895], "layers": 32}'>
+  <figcaption>KL per position, held-out text</figcaption>
+  <svg viewBox="0 0 720 280" role="img" aria-label="KL per position, held-out text against the first ablated layer">
+    <line class="grid" x1="56" x2="648" y1="240.0" y2="240.0"/><text class="tick" x="48" y="244.0" text-anchor="end">0</text><line class="grid" x1="56" x2="648" y1="184.0" y2="184.0"/><text class="tick" x="48" y="188.0" text-anchor="end">2.5</text><line class="grid" x1="56" x2="648" y1="128.0" y2="128.0"/><text class="tick" x="48" y="132.0" text-anchor="end">5</text><line class="grid" x1="56" x2="648" y1="72.0" y2="72.0"/><text class="tick" x="48" y="76.0" text-anchor="end">7.5</text><line class="grid" x1="56" x2="648" y1="16.0" y2="16.0"/><text class="tick" x="48" y="20.0" text-anchor="end">10</text><text class="tick" x="56.0" y="258" text-anchor="middle">0</text><text class="tick" x="132.4" y="258" text-anchor="middle">4</text><text class="tick" x="208.8" y="258" text-anchor="middle">8</text><text class="tick" x="285.2" y="258" text-anchor="middle">12</text><text class="tick" x="361.5" y="258" text-anchor="middle">16</text><text class="tick" x="437.9" y="258" text-anchor="middle">20</text><text class="tick" x="514.3" y="258" text-anchor="middle">24</text><text class="tick" x="590.7" y="258" text-anchor="middle">28</text>
+    <text class="axis" x="352.0" y="276" text-anchor="middle">first ablated layer (layers k to 31 ablated)</text>
+    <polyline class="line s1" points="56.0,197.3 75.1,197.4 94.2,201.8 113.3,206.1 132.4,208.2 151.5,210.1 170.6,210.9 189.7,211.6 208.8,213.3 227.9,213.9 247.0,214.5 266.1,216.0 285.2,217.4 304.3,219.4 323.4,221.6 342.5,223.4 361.5,225.3 380.6,227.3 399.7,229.0 418.8,230.2 437.9,231.3 457.0,232.3 476.1,233.0 495.2,233.7 514.3,234.2 533.4,234.7 552.5,235.0 571.6,235.2 590.7,235.4 609.8,235.6 628.9,235.9 648.0,237.0"/><polyline class="line s2" points="56.0,218.1 75.1,219.4 94.2,222.2 113.3,224.5 132.4,225.6 151.5,226.3 170.6,226.6 189.7,226.8 208.8,227.4 227.9,227.8 247.0,228.2 266.1,228.7 285.2,229.3 304.3,230.0 323.4,230.8 342.5,231.4 361.5,232.1 380.6,232.9 399.7,233.6 418.8,234.2 437.9,234.8 457.0,235.3 476.1,235.7 495.2,236.1 514.3,236.4 533.4,236.7 552.5,236.9 571.6,237.0 590.7,237.1 609.8,237.2 628.9,237.4 648.0,238.0"/><text class="direct" x="656.0" y="241.0">p3 / p97</text><text class="direct" x="656.0" y="253.0">p5 / p95</text><circle class="marker s1" cx="56.0" cy="39.6" r="4.5"/><circle class="marker s2" cx="56.0" cy="38.8" r="4.5"/><text class="direct" x="66.0" y="42.8">random control, all layers</text>
+    <line class="cross" y1="16" y2="240" visibility="hidden"/>
+    <rect class="hit" x="56" y="16" width="592" height="224"/>
+  </svg>
+  <div class="tip" hidden></div>
+</figure></div>
+<details><summary>Values as a table</summary><div class="scroll"><table><tr><th>first ablated layer</th><th>p3 / p97: Loss change (nats)</th><th>p5 / p95: Loss change (nats)</th><th>p3 / p97: KL per position, held-out text</th><th>p5 / p95: KL per position, held-out text</th></tr><tr><td>0</td><td>1.644</td><td>0.812</td><td>1.907</td><td>0.978</td></tr><tr><td>1</td><td>1.638</td><td>0.755</td><td>1.904</td><td>0.918</td></tr><tr><td>2</td><td>1.453</td><td>0.647</td><td>1.705</td><td>0.794</td></tr><tr><td>3</td><td>1.279</td><td>0.550</td><td>1.514</td><td>0.690</td></tr><tr><td>4</td><td>1.197</td><td>0.504</td><td>1.418</td><td>0.641</td></tr><tr><td>5</td><td>1.128</td><td>0.483</td><td>1.337</td><td>0.614</td></tr><tr><td>6</td><td>1.095</td><td>0.474</td><td>1.298</td><td>0.600</td></tr><tr><td>7</td><td>1.065</td><td>0.464</td><td>1.266</td><td>0.590</td></tr><tr><td>8</td><td>1.000</td><td>0.435</td><td>1.192</td><td>0.561</td></tr><tr><td>9</td><td>0.974</td><td>0.420</td><td>1.167</td><td>0.547</td></tr><tr><td>10</td><td>0.954</td><td>0.412</td><td>1.137</td><td>0.529</td></tr><tr><td>11</td><td>0.903</td><td>0.397</td><td>1.072</td><td>0.506</td></tr><tr><td>12</td><td>0.846</td><td>0.376</td><td>1.008</td><td>0.477</td></tr><tr><td>13</td><td>0.778</td><td>0.357</td><td>0.921</td><td>0.447</td></tr><tr><td>14</td><td>0.705</td><td>0.336</td><td>0.823</td><td>0.413</td></tr><tr><td>15</td><td>0.639</td><td>0.319</td><td>0.742</td><td>0.384</td></tr><tr><td>16</td><td>0.574</td><td>0.299</td><td>0.656</td><td>0.354</td></tr><tr><td>17</td><td>0.501</td><td>0.277</td><td>0.567</td><td>0.319</td></tr><tr><td>18</td><td>0.451</td><td>0.262</td><td>0.492</td><td>0.287</td></tr><tr><td>19</td><td>0.409</td><td>0.242</td><td>0.436</td><td>0.259</td></tr><tr><td>20</td><td>0.372</td><td>0.225</td><td>0.390</td><td>0.234</td></tr><tr><td>21</td><td>0.340</td><td>0.208</td><td>0.346</td><td>0.210</td></tr><tr><td>22</td><td>0.316</td><td>0.196</td><td>0.310</td><td>0.190</td></tr><tr><td>23</td><td>0.292</td><td>0.183</td><td>0.282</td><td>0.173</td></tr><tr><td>24</td><td>0.277</td><td>0.174</td><td>0.259</td><td>0.160</td></tr><tr><td>25</td><td>0.260</td><td>0.165</td><td>0.238</td><td>0.147</td></tr><tr><td>26</td><td>0.250</td><td>0.159</td><td>0.225</td><td>0.140</td></tr><tr><td>27</td><td>0.243</td><td>0.155</td><td>0.216</td><td>0.135</td></tr><tr><td>28</td><td>0.234</td><td>0.150</td><td>0.206</td><td>0.129</td></tr><tr><td>29</td><td>0.226</td><td>0.145</td><td>0.196</td><td>0.123</td></tr><tr><td>30</td><td>0.210</td><td>0.136</td><td>0.182</td><td>0.116</td></tr><tr><td>31</td><td>0.155</td><td>0.102</td><td>0.134</td><td>0.087</td></tr><tr><td>random control, all layers</td><td>8.323</td><td>8.358</td><td>8.945</td><td>8.982</td></tr></table></div></details>
+</main><script>
+for (const fig of document.querySelectorAll(".chart")) {
+  const d = JSON.parse(fig.dataset.chart), svg = fig.querySelector("svg"), hit = fig.querySelector(".hit");
+  const cross = fig.querySelector(".cross"), tip = fig.querySelector(".tip");
+  const x0 = +hit.getAttribute("x"), w = +hit.getAttribute("width");
+  hit.addEventListener("mousemove", e => {
+    const p = svg.createSVGPoint(); p.x = e.clientX; p.y = e.clientY;
+    const local = p.matrixTransform(svg.getScreenCTM().inverse());
+    const k = Math.max(0, Math.min(d.layers - 1, Math.round((local.x - x0) / w * (d.layers - 1))));
+    const cx = x0 + k * w / (d.layers - 1);
+    cross.setAttribute("x1", cx); cross.setAttribute("x2", cx); cross.setAttribute("visibility", "visible");
+    tip.innerHTML = `layers ${k} to ${d.layers - 1}<br>` + d.names.map((n, i) =>
+      `<i style="background:var(--series-${i + 1})"></i>${n}: ${d.values[i][k].toFixed(3)}`).join("<br>")
+      + (k === 0 && d.random.length ? "<br>random control:<br>" + d.names.map((n, i) =>
+      `<i style="background:var(--series-${i + 1})"></i>${n}: ${d.random[i].toFixed(3)}`).join("<br>") : "");
+    const box = fig.getBoundingClientRect();
+    tip.hidden = false;
+    tip.style.left = Math.min(e.clientX - box.left + 12, box.width - tip.offsetWidth) + "px";
+    tip.style.top = (e.clientY - box.top + 12) + "px";
+  });
+  hit.addEventListener("mouseleave", () => { tip.hidden = true; cross.setAttribute("visibility", "hidden"); });
+}
+</script></body></html>

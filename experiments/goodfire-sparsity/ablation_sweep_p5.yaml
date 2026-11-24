@@ -1,0 +1,64 @@
+# Step 2: the band ablation from layer k to the last, for k = 1..31; layers before k stay intact (k = 0 is step 1).
+# Are deep layers sparser: does sparing early layers recover most of the loss?
+#   python scripts/ablation.py --config experiments/goodfire-sparsity/ablation_sweep_p5.yaml   # GPU, L4
+run_id: ablation_sweep_p5
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+results_dir: experiments/goodfire-sparsity
+thresholds: experiments/goodfire-sparsity/poles_qwen1_p5/thresholds.safetensors
+low: p5
+high: p95
+# Held out from the poles run: same corpora, seed and windows, past the 70k tokens per corpus that the poles read.
+text:
+  batch_size: 8
+  corpora:
+    - {name: fineweb-edu, path: HuggingFaceFW/fineweb-edu, config: sample-10BT, skip_tokens: 70000, tokens: 35000}
+    - {name: tinystories, path: roneneldan/TinyStories, skip_tokens: 70000, tokens: 35000}
+    - {name: ultrachat, path: HuggingFaceH4/ultrachat_200k, split: train_sft, field: messages, skip_tokens: 70000, tokens: 35000}
+# KL at the post-instruction positions of the refusal val prompts (32 per side, as in refusal_qwen1.yaml).
+prompts:
+  kind: instructions
+  n_train: 128
+  n_val: 32
+  seed: 42
+  categories:
+    harmful:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"]
+    harmless:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
+ablations:
+  - {kind: band, start: 1}
+  - {kind: band, start: 2}
+  - {kind: band, start: 3}
+  - {kind: band, start: 4}
+  - {kind: band, start: 5}
+  - {kind: band, start: 6}
+  - {kind: band, start: 7}
+  - {kind: band, start: 8}
+  - {kind: band, start: 9}
+  - {kind: band, start: 10}
+  - {kind: band, start: 11}
+  - {kind: band, start: 12}
+  - {kind: band, start: 13}
+  - {kind: band, start: 14}
+  - {kind: band, start: 15}
+  - {kind: band, start: 16}
+  - {kind: band, start: 17}
+  - {kind: band, start: 18}
+  - {kind: band, start: 19}
+  - {kind: band, start: 20}
+  - {kind: band, start: 21}
+  - {kind: band, start: 22}
+  - {kind: band, start: 23}
+  - {kind: band, start: 24}
+  - {kind: band, start: 25}
+  - {kind: band, start: 26}
+  - {kind: band, start: 27}
+  - {kind: band, start: 28}
+  - {kind: band, start: 29}
+  - {kind: band, start: 30}
+  - {kind: band, start: 31}

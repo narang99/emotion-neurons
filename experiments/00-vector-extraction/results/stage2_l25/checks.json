@@ -1,0 +1,20 @@
+{
+ "sites": {
+  "resid_mid": {
+   "acc_heldout": 0.8375,
+   "acc_heldout_raw": 0.7458333333333333
+  },
+  "resid_post": {
+   "acc_heldout": 0.8291666666666667,
+   "acc_heldout_raw": 0.725
+  },
+  "mlp_act": {
+   "acc_heldout": 0.8291666666666667,
+   "acc_heldout_raw": 0.7791666666666667
+  },
+  "mlp_out": {
+   "acc_heldout": 0.8083333333333333,
+   "acc_heldout_raw": 0.7375
+  }
+ }
+}

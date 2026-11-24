@@ -1,0 +1,51 @@
+{% macro fill_style(cell) -%}
+{% if cell.fill_light %}--fill-light:{{ cell.fill_light }};--fill-dark:{{ cell.fill_dark }};--ink-light:{{ cell.ink_light }};--ink-dark:{{ cell.ink_dark }}{% endif %}
+{%- endmacro %}
+
+{% macro heatmap(h) %}
+<figure>
+  <div class="title">{{ h.title }}</div>
+  <div class="scroll">
+  <table class="heat" role="grid" aria-label="{{ h.title }}">
+    <thead>
+      <tr><th class="axis">{% if h.row_title %}{{ h.row_title }} \ {{ h.col_title }}{% endif %}</th>{% set vertical = h.col_labels | map('length') | max > 3 %}
+      {% for c in h.col_labels %}<th scope="col"{% if vertical %} class="vertical"{% endif %}>{{ c }}</th>{% endfor %}</tr>
+    </thead>
+    <tbody>
+    {% for row in h.rows %}
+      <tr><th class="row" scope="row">{{ h.row_labels[loop.index0] }}</th>
+      {% for cell in row %}<td style="{{ fill_style(cell) }}" title="{{ cell.tip }}{% if cell.marked %} (chosen){% endif %}{% if cell.excluded %} (filtered out){% endif %}" class="{% if cell.marked %}marked{% endif %} {% if cell.excluded %}excluded{% endif %}">{% if h.show_values %}{{ cell.text }}{% endif %}</td>{% endfor %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <div class="legend" style="--legend-light:linear-gradient(90deg,{{ h.legend_light | join(',') }});--legend-dark:linear-gradient(90deg,{{ h.legend_dark | join(',') }})">
+    <span>{{ h.legend_low }}</span><span class="bar"></span><span>{{ h.legend_high }}</span>
+    {% if h.has_marked %}<span class="key marked"></span><span>chosen</span>{% endif %}
+    {% if h.has_excluded %}<span class="key excluded"></span><span>filtered out</span>{% endif %}
+  </div>
+  {% if h.caption %}<figcaption>{{ h.caption }}</figcaption>{% endif %}
+  {% if not h.show_values %}
+  <details><summary>Values as a table</summary>
+    <div class="scroll"><table class="data">
+      <tr><th>{{ h.row_title }} \ {{ h.col_title }}</th>{% for c in h.col_labels %}<th>{{ c }}</th>{% endfor %}</tr>
+      {% for row in h.rows %}<tr><td>{{ h.row_labels[loop.index0] }}</td>{% for cell in row %}<td>{{ cell.text }}</td>{% endfor %}</tr>{% endfor %}
+    </table></div>
+  </details>
+  {% endif %}
+</figure>
+{% endmacro %}
+
+{% macro pct(x) %}{{ "%.1f" | format(100 * x) }}%{% endmacro %}
+
+{% macro token_view(v) %}
+<div class="token-view">
+  <div class="title">{{ v.title }}</div>
+  <div class="subtitle">{{ v.subtitle }}</div>
+  {% for s in v.strips %}
+  {% if s.label %}<div class="strip-label">{{ s.label }}</div>{% endif %}
+  {{ s.html | safe }}
+  {% endfor %}
+</div>
+{% endmacro %}

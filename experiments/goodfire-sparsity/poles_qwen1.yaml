@@ -1,0 +1,11 @@
+# Poles of every neuron in all 32 MLPs of Qwen-1 7B Chat: p3, p97 and the mean over 210k tokens of general text.
+#   python scripts/poles.py --config experiments/goodfire-sparsity/poles_qwen1.yaml   # GPU, L4
+run_id: poles_qwen1
+results_dir: experiments/goodfire-sparsity
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+poles:
+  quantiles: [0.03, 0.97]

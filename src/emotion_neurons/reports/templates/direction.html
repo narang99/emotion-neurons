@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% from "macros.html" import heatmap, pct, token_view %}
+{% block body %}
+<p class="meta">Run <code>{{ report.run_id }}</code>. {{ report.n_train }} train and {{ report.n_val }} val instructions per category.</p>
+<p class="note">The direction is the mean residual stream of {{ report.target }} prompts minus that of {{ report.other }} prompts,
+at a layer's input and a post-instruction position. The candidate with the lowest bypass score wins,
+among those that induce refusal and keep the KL below {{ report.max_kl }}.
+{% if report.filtered_out_all %}No candidate passed both filters, so the choice ignores them.{% endif %}</p>
+
+<h2>Chosen direction</h2>
+<div class="tiles">
+  <div class="tile"><div class="value">{{ report.choice.layer }}</div><div class="label">layer</div></div>
+  <div class="tile"><div class="value">{{ report.choice.position }}</div><div class="label">post-instruction position</div></div>
+  <div class="tile"><div class="value">{{ "%.2f" | format(report.choice.bypass) }}</div><div class="label">bypass score</div></div>
+  <div class="tile"><div class="value">{{ "%.2f" | format(report.choice.induce) }}</div><div class="label">induce score</div></div>
+  <div class="tile"><div class="value">{{ "%.3f" | format(report.choice.kl) }}</div><div class="label">KL on {{ report.other }} prompts</div></div>
+</div>
+
+<h2>Generation check</h2>
+<p>Greedy replies to the val prompts. A reply counts as a refusal if it contains a refusal phrase.</p>
+<table class="data">
+  <tr><th>condition</th><th style="text-align:left">what</th><th>refusal rate</th></tr>
+  {% for c in report.conditions %}
+  <tr><td><code>{{ c.name }}</code></td><td style="text-align:left">{{ c.description }}</td><td>{{ pct(c.refusal_rate) }}</td></tr>
+  {% endfor %}
+</table>
+
+<h2>Selection grid</h2>
+<p>One candidate per position and layer. Hover a cell for its value.</p>
+{% for h in report.grid_maps %}{{ heatmap(h) }}{% endfor %}
+
+<h2>Candidates across all layers</h2>
+{% for h in report.vector_maps %}{{ heatmap(h) }}{% endfor %}
+
+{% if report.token_views %}
+<h2>Token views</h2>
+<p>Val prompts with their plain replies, {{ report.token_views | length }} shown. Each token's residual stream at the input of
+layer {{ report.choice.layer }} is projected onto the unit direction. Blue is negative, red is positive, on one scale for all views.
+The direction was read at the last prompt token.</p>
+{% for v in report.token_views %}{{ token_view(v) }}{% endfor %}
+{% endif %}
+
+<h2>Replies</h2>
+{% for g in report.replies %}
+<details><summary><code>{{ g.condition }}</code>: {{ g.replies | selectattr("refused") | list | length }} of {{ g.replies | length }} refused</summary>
+<table class="data">
+  <tr><th>prompt</th><th>reply</th><th>refusal</th></tr>
+  {% for r in g.replies %}
+  <tr><td class="text">{{ r.prompt }}</td><td class="text">{{ r.reply }}</td><td>{% if r.refused %}<span class="refused">yes</span>{% endif %}</td></tr>
+  {% endfor %}
+</table>
+</details>
+{% endfor %}
+{% endblock %}

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Download the gitignored run data (runs/<run>/) from the public bucket. No AWS account needed.
 #
-#   bash scripts/fetch_runs.sh                 # stage2_l25 (263 MB): enough for build_vectors.py
+#   bash scripts/fetch_runs.sh                 # stage2_l25 (263 MB): enough for the build and check steps of extract.py
 #
 # The bucket allows reads but not listing, so the files are named here.
 set -euo pipefail

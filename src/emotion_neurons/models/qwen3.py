@@ -75,21 +75,17 @@ def read_layer(
     return acts
 
 
-def read_mlp(
-    model: PreTrainedModel,
-    layer: int,
-    input_ids: Int[Tensor, "batch seq"],
-    attention_mask: Int[Tensor, "batch seq"],
-    neurons: Int[Tensor, " neuron"],
-) -> tuple[Float[Tensor, "batch seq d_model"], Float[Tensor, "batch seq neuron"]]:
-    """The MLP input (post_attention_layernorm output) and the chosen neurons' activations, in fp32."""
+def read_resid_pre(
+    model: PreTrainedModel, layer: int, input_ids: Int[Tensor, "batch seq"], attention_mask: Int[Tensor, "batch seq"]
+) -> Float[Tensor, "batch seq d_model"]:
+    """The residual stream at the input of one layer, in bf16. The forward pass stops there."""
     acts: dict[str, Tensor] = {}
-    block = decoder_layers(model)[layer]
-    handles = [
-        block.mlp.register_forward_pre_hook(store_input(acts, "mlp_in")),
-        block.mlp.down_proj.register_forward_pre_hook(store_input(acts, "mlp_act")),
-        block.register_forward_hook(raise_stop),
-    ]
-    with hooks(handles):
+
+    def store_and_stop(_module, args, kwargs) -> None:
+        acts["resid_pre"] = (args[0] if args else kwargs["hidden_states"]).detach()
+        raise StopForward
+
+    handle = decoder_layers(model)[layer].register_forward_pre_hook(store_and_stop, with_kwargs=True)
+    with hooks([handle]):
         forward_until_stop(model, input_ids, attention_mask)
-    return acts["mlp_in"].float(), acts["mlp_act"][:, :, neurons].float()
+    return acts["resid_pre"]

@@ -1,10 +1,13 @@
-"""The poles of every MLP neuron: its low and high quantiles (p3, p97) over general text.
+"""The poles of every MLP neuron: its low and high quantiles (p3, p97) over general text, and its mean.
 
-1. Each corpus is streamed, tokenized and cut into windows (never across documents).
-2. One pass to layer L reads `a_n = silu(gate_n) * up_n` for all neurons, at real tokens past `skip_first`.
+1. Each corpus is streamed, tokenized and cut into windows (never across documents), once for all layers.
+2. Per layer L, one pass up to L reads `a_n = silu(gate_n) * up_n` for all neurons, at real tokens past `skip_first`.
+   - The input of the adapter's `mlp(model, L).down_proj` is `a`. The pass stops there.
+   - One layer at a time: one layer's activations over 210k tokens are about 5 GB on the CPU.
 3. Per neuron, quantile q is the k-th smallest value with k = int(q * n_tokens).
 
 - The first tokens of each window are left out, because attention-sink effects dominate there.
+- The mean is what mean ablation puts in place of a neuron's value (`ablation`).
 """
 
 import torch
@@ -12,15 +15,16 @@ from jaxtyping import Float, Int
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import PolesConfig
-from .models import read_mlp
+from .config import TextSample
+from .models import ModelAdapter
+from .models.qwen3 import StopForward, forward_until_stop, hooks
 from .texts import corpus_windows
 
 NEURON_CHUNK = 256
 """Neurons sorted at once on the GPU; 512 warned of memory on an L4."""
 
 
-def collect_windows(cfg: PolesConfig, tokenizer: PreTrainedTokenizerBase) -> list[list[int]]:
+def collect_windows(cfg: TextSample, tokenizer: PreTrainedTokenizerBase) -> list[list[int]]:
     windows = []
     for corpus in cfg.corpora:
         start = len(windows)
@@ -39,20 +43,49 @@ def padded_batch(windows: list[list[int]], pad_id: int) -> tuple[Int[Tensor, "ba
     return ids, mask
 
 
-def corpus_activations(
-    model: PreTrainedModel, tokenizer: PreTrainedTokenizerBase, cfg: PolesConfig, layer: int
+def read_neurons(
+    model: PreTrainedModel,
+    adapter: ModelAdapter,
+    layer: int,
+    input_ids: Int[Tensor, "batch seq"],
+    attention_mask: Int[Tensor, "batch seq"],
+) -> Float[Tensor, "batch seq neuron"]:
+    acts: dict[str, Tensor] = {}
+
+    def store_and_stop(_module, args) -> None:
+        acts["a"] = args[0].detach()
+        raise StopForward
+
+    handle = adapter.mlp(model, layer).down_proj.register_forward_pre_hook(store_and_stop)
+    with hooks([handle]):
+        forward_until_stop(model, input_ids, attention_mask)
+    return acts["a"]
+
+
+def layer_activations(
+    model: PreTrainedModel,
+    adapter: ModelAdapter,
+    windows: list[list[int]],
+    cfg: TextSample,
+    layer: int,
+    pad_id: int,
 ) -> Float[Tensor, "token neuron"]:
-    """All neurons at every kept corpus token, in fp16 on the CPU (210k x 12288 is about 5 GB)."""
-    windows = collect_windows(cfg, tokenizer)
-    all_neurons = torch.arange(model.config.intermediate_size, device=model.device)
+    """All neurons of one layer at every kept token, in fp16 on the CPU (210k x 12288 is about 5 GB)."""
     rows = []
     for start in range(0, len(windows), cfg.batch_size):
-        ids, mask = padded_batch(windows[start : start + cfg.batch_size], tokenizer.pad_token_id)
-        _, a = read_mlp(model, layer, ids.to(model.device), mask.to(model.device), all_neurons)
+        ids, mask = padded_batch(windows[start : start + cfg.batch_size], pad_id)
+        a = read_neurons(model, adapter, layer, ids.to(model.device), mask.to(model.device))
         keep = mask.bool().to(a.device)
         keep[:, : cfg.skip_first] = False
         rows.append(a[keep].half().cpu())
     return torch.cat(rows)
+
+
+def mean_per_neuron(acts: Float[Tensor, "token neuron"], device: str | torch.device = "cpu") -> Float[Tensor, " neuron"]:
+    out = torch.empty(acts.shape[1])
+    for c in range(0, acts.shape[1], NEURON_CHUNK):
+        out[c : c + NEURON_CHUNK] = acts[:, c : c + NEURON_CHUNK].to(device).float().mean(0).cpu()
+    return out
 
 
 def quantiles_per_neuron(
