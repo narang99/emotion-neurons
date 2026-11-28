@@ -1,0 +1,28 @@
+# Step 2: the first k neurons of each order mean-ablated in the model (band mean, every position, prompt and reply),
+# then the refusal direction at layer 18 recomputed and the model's own refusal rate on the val prompts.
+#   python scripts/refusal_set_ablation.py --config experiments/refusal-set-ablation/refusal_set_ablation.yaml   # GPU, L4
+run_id: refusal_set_ablation
+results_dir: experiments/refusal-set-ablation
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+data:
+  kind: instructions
+  n_train: 128
+  n_val: 32
+  seed: 42
+  categories:
+    harmful:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"]
+    harmless:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
+target: harmful
+layer: 18
+position: -1
+orders: experiments/refusal-set-ablation/greedy_order/orders.safetensors
+order_names: [greedy, random_seed0]
+means: experiments/goodfire-sweep-final/poles_qwen1/thresholds.safetensors
+sizes: [10, 76, 300, 1000, 3550, 10000]
