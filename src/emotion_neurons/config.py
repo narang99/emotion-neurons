@@ -130,10 +130,39 @@ class TextSample(Section):
     seed: int = 0
 
 
+class AllTokensMean(Section):
+    """The mean over every kept token, tails included. It fits an ablation that replaces every value."""
+
+    kind: Literal["all"] = "all"
+
+
+class BandMean(Section):
+    """The mean over the values strictly between quantiles `low` and `high`.
+
+    - It fits a band ablation, which replaces only those values and keeps the tails.
+    - The all-token mean would count the tails a second time and shift the neuron's mean output.
+    """
+
+    kind: Literal["band"] = "band"
+    low: float
+    high: float
+
+
+MeanConfig = Annotated[AllTokensMean | BandMean, Field(discriminator="kind")]
+
+
 class PolesConfig(TextSample):
     """The poles of a neuron: at or below its p3, or at or above its p97, over general text."""
 
     quantiles: list[float] = [0.03, 0.97]
+    mean: MeanConfig = Field(AllTokensMean(), description="what mean ablation puts in place of a neuron's value")
+
+    @model_validator(mode="after")
+    def band_mean_uses_quantiles(self) -> "PolesConfig":
+        match self.mean:
+            case BandMean(low=low, high=high):
+                assert {low, high} <= set(self.quantiles), f"band mean ({low}, {high}) needs both in quantiles {self.quantiles}"
+        return self
 
 
 class RunConfig(BaseSettings):
