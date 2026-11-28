@@ -9,6 +9,7 @@
 - The hook replaces the input of each ablated layer's `down_proj` (the adapter's `mlp`), so the change reaches the
   residual stream through the down projection, as a real activation would.
 - Every layer's hook sees the activations that the ablations before it produce, as in the Goodfire paper.
+- Set ablation (`SetAblation`): chosen neurons are set to fixed values (e.g. their band means) at every position.
 - Against the intact model, on the same tokens:
   - loss: next-token cross-entropy, summed over the read positions;
   - KL(intact || ablated) of the next-token distributions, summed over the read positions.
@@ -133,6 +134,46 @@ class MeanAblation:
         handles = [adapter.mlp(model, layer).down_proj.register_forward_pre_hook(self.replace(layer)) for layer in self.layers]
         with hooks(handles):
             yield
+
+
+class SetAblation:
+    """Chosen neurons of chosen layers set to fixed values at every position, prompt and generated tokens alike."""
+
+    def __init__(self, neurons: dict[int, Int[Tensor, " k"]], values: dict[int, Float[Tensor, " k"]], d_mlp: int):
+        self.neurons = neurons
+        self.values = values
+        self.d_mlp = d_mlp
+        self.layers = sorted(neurons)
+        self.tokens: Bool[Tensor, "batch seq"] | None = None
+
+    def replace(self, layer: int):
+        idx, value = self.neurons[layer], self.values[layer]
+
+        def hook(_module, args):
+            a = args[0].clone()
+            a[..., idx.to(a.device)] = value.to(a.device, a.dtype)
+            return (a,)
+
+        return hook
+
+    def ablated_fraction(self) -> dict[int, float]:
+        return {layer: len(self.neurons[layer]) / self.d_mlp for layer in self.layers}
+
+    @contextmanager
+    def applied(self, model: PreTrainedModel, adapter: ModelAdapter) -> Iterator[None]:
+        handles = [adapter.mlp(model, layer).down_proj.register_forward_pre_hook(self.replace(layer)) for layer in self.layers]
+        with hooks(handles):
+            yield
+
+
+def set_ablation(
+    flat: Int[Tensor, " k"], means: Float[Tensor, "layer neuron"], mean_layers: list[int], d_mlp: int
+) -> SetAblation:
+    """A `SetAblation` of neurons given as layer * d_mlp + neuron, each set to its row of `means`."""
+    layers, neurons = flat // d_mlp, flat % d_mlp
+    chosen = {int(layer): neurons[layers == layer] for layer in layers.unique()}
+    values = {layer: means[mean_layers.index(layer)][idx] for layer, idx in chosen.items()}
+    return SetAblation(chosen, values, d_mlp)
 
 
 class ReadBatch(NamedTuple):

@@ -21,5 +21,5 @@ data:
       train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
       val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
 target: harmful
-layer: 18
+site: {kind: resid_pre, layer: 18}
 position: -1

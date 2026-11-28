@@ -51,11 +51,14 @@ These hold in code, docs, READMEs, PRs and commits.
   - The YAML configs the scripts were run with.
   - The committed outputs, reports included, in the experiment folder itself. No `results/` subfolder.
 - Failures stay out of `main`. Their branch and tag are kept, and the README says why they failed.
+- Mean ablation uses the band mean by default: `poles.mean: {kind: band, low, high}` in poles configs.
+  - `goodfire-band-mean` found it works better than the all-token mean: loss change +1.245 against +1.644 (p3/p97, all layers).
 - Commit messages carry the key numbers, so a later run can be checked against them.
 
 ## Running on Colab
 
 - Use the `colab-experiments` skill: the dependency rules, the notebook loop and how to verify a run.
+- After a run, wait 5 minutes before releasing the runtime, even when told to release it, so a follow-up can still use it.
 - Large outputs go to `runs/` (gitignored) and to S3; small ones to the experiment folder itself (committed).
   - Public copies for collaborators: `scripts/fetch_runs.sh`.
 

@@ -395,6 +395,22 @@ class RefusalAblationRunConfig(RunConfig):
     mask_seed: int = 0
 
 
+class RefusalSetAblationRunConfig(RunConfig):
+    """The refusal direction and the model's refusal rate with the first k neurons of an order mean-ablated
+    (`ablation.SetAblation`, scripts/refusal_set_ablation.py)."""
+
+    data: InstructionsData
+    target: str = "harmful"
+    layer: int = Field(18, description="the direction is read at this layer's input; the orders cover layers 0 to layer - 1")
+    position: int = Field(-1, description="post-instruction position, counted from the end")
+    orders: Path = Field(description="direction_sets.py output with `<name>/order` (layer * d_mlp + neuron) per order")
+    order_names: list[str] = ["greedy", "random_seed0"]
+    means: Path = Field(description="poles.py output whose `mean` (band mean by default) replaces each ablated neuron")
+    sizes: list[int] = [10, 76, 300, 1000, 3550, 10_000]
+    batch_size: int = 16
+    refusal_check: RefusalCheckConfig = RefusalCheckConfig()
+
+
 class GreedyOrder(Section):
     """Neurons in the order the greedy set adds them: the one that rebuilds the most of what is missing first."""
 
@@ -420,15 +436,110 @@ class RandomOrder(Section):
 NeuronOrder = Annotated[GreedyOrder | RandomOrder, Field(discriminator="kind")]
 
 
+class ResidPreSite(Section):
+    """The residual stream at the input of `layer`.
+
+    - The pool is every neuron of the MLPs of layers 0 to layer - 1.
+    - Attention and the embedding write the rest of the direction.
+    """
+
+    kind: Literal["resid_pre"] = "resid_pre"
+    layer: int
+
+    @property
+    def pool_layers(self) -> list[int]:
+        return list(range(self.layer))
+
+    @property
+    def stop_layer(self) -> int:
+        return self.layer
+
+
+class MlpOutSite(Section):
+    """The down_proj output of `layer`. The pool is that MLP's neurons: their parts sum to the whole direction."""
+
+    kind: Literal["mlp_out"] = "mlp_out"
+    layer: int
+
+    @property
+    def pool_layers(self) -> list[int]:
+        return [self.layer]
+
+    @property
+    def stop_layer(self) -> int:
+        return self.layer + 1
+
+
+DirectionSite = Annotated[ResidPreSite | MlpOutSite, Field(discriminator="kind")]
+
+
+class ProbeEvaluation(Section):
+    """The reduced direction scores the intact prompts by cosine."""
+
+    kind: Literal["probe"] = "probe"
+
+
+class AblationEvaluation(Section):
+    """The removed neurons are mean-ablated in every prompt, then the reduced direction scores them by cosine.
+
+    - Each prompt moves by `-sum (a_n - m_n) w_n` over the removed neurons.
+    - Exact at an mlp_out site. At a resid_pre site it counts only their direct write at the site's position.
+    """
+
+    kind: Literal["ablation"] = "ablation"
+    means: Path = Field(description="poles.py output whose `mean` (band mean by default) replaces each removed neuron")
+
+
+class OnlyEvaluation(Section):
+    """Each prompt keeps only the write of the first k neurons, scored by projection on those neurons' parts.
+
+    - Projection, not cosine: for one neuron the cosine is always +1 or -1.
+    """
+
+    kind: Literal["only"] = "only"
+
+
+Evaluation = Annotated[ProbeEvaluation | AblationEvaluation | OnlyEvaluation, Field(discriminator="kind")]
+
+
+class RandomDirections(Section):
+    """Random unit directions scoring the intact prompts by cosine: the accuracy of a direction that knows nothing."""
+
+    count: int = 100
+    seed: int = 0
+
+
+class BandSubsets(Section):
+    """Random sets of neurons split by whether they stay in their band, each part scored by the `only` evaluation.
+
+    - A neuron is in band when its value at the site's position stays strictly between its low and high pole on all
+      but `max_tail_rate` of the train prompts.
+    - Control: as many neurons as the in-band part, dropped at random from the same set, `drops` times.
+    - Set 0 is the first `set_size` neurons of the `random_seed0` order, so it matches that order's curve.
+    """
+
+    thresholds: Path = Field(description="poles.py output with the low and high poles of every pool layer")
+    low: str = "p3"
+    high: str = "p97"
+    set_size: int = 30
+    sets: int = 20
+    drops: int = 100
+    max_tail_rate: float = 0.0
+    seed: int = 0
+
+
 class DirectionSetRunConfig(RunConfig):
-    """The sparsest set of earlier MLP neurons behind a direction, and how it classifies without them (`direction_sets`)."""
+    """The sparsest set of MLP neurons behind a direction, and how it classifies without them (`direction_sets`)."""
 
     data: InstructionsData
     target: str = "harmful"
-    layer: int = Field(18, description="the direction is read at this layer's input; layers 0 to layer - 1 are the pool")
+    site: DirectionSite = Field(description="where the direction and each prompt's vector are read")
     position: int = Field(-1, description="post-instruction position, counted from the end")
     batch_size: int = 16
     orders: list[NeuronOrder] = [GreedyOrder(), RandomOrder()]
+    evaluations: list[Evaluation] = [ProbeEvaluation()]
+    random_directions: RandomDirections | None = None
+    band_subsets: BandSubsets | None = None
     sizes: list[int] = Field(
         [1, 3, 10, 30, 100, 300, 1000, 3000, 10_000, 30_000, 100_000],
         description="numbers of neurons removed, up to each order's length; 0 and the full length are added",

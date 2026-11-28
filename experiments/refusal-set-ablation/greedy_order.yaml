@@ -1,0 +1,30 @@
+# Step 1: the greedy order of last-token MLP neurons (layers 0-17) that rebuilds the refusal direction of Qwen-1 7B Chat
+# at layer 18's input, up to 10,000 neurons, and the random control order. Only the orders matter here.
+#   python scripts/direction_sets.py --config experiments/refusal-set-ablation/greedy_order.yaml   # GPU, L4
+run_id: greedy_order
+results_dir: experiments/refusal-set-ablation
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+data:
+  kind: instructions
+  n_train: 128
+  n_val: 32
+  seed: 42
+  categories:
+    harmful:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"]
+    harmless:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
+target: harmful
+site: {kind: resid_pre, layer: 18}
+position: -1
+orders:
+  - {kind: greedy, max_steps: 10000}
+  - {kind: random, seed: 0}
+evaluations:
+  - {kind: probe}
+sizes: [10, 76, 300, 1000, 3550, 10000]

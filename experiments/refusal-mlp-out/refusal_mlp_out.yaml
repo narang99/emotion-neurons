@@ -1,0 +1,33 @@
+# The refusal direction of Qwen-1 7B Chat read at the layer-17 MLP output (down_proj, last post-instruction token):
+# harmful minus harmless mean, so attention plays no part. The greedy set of layer-17 neurons that rebuilds it, and the
+# direction's val accuracy once the first N neurons' parts are removed: from the vector only (probe), from the prompts
+# too by band-mean ablation (ablation), or with only those N neurons kept (only, by projection); random order as the
+# control, and 100 random directions as the floor.
+#   python scripts/direction_sets.py --config experiments/refusal-mlp-out/refusal_mlp_out.yaml   # GPU, L4
+run_id: refusal_mlp_out
+results_dir: experiments/refusal-mlp-out
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+data:
+  kind: instructions
+  n_train: 128
+  n_val: 32
+  seed: 42
+  categories:
+    harmful:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"]
+    harmless:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
+target: harmful
+site: {kind: mlp_out, layer: 17}
+position: -1
+evaluations:
+  - {kind: probe}
+  - {kind: ablation, means: experiments/goodfire-sweep-final/poles_qwen1/thresholds.safetensors}
+  - {kind: only}
+random_directions: {count: 100, seed: 0}
+band_subsets: {thresholds: experiments/goodfire-sweep-final/poles_qwen1/thresholds.safetensors, low: p3, high: p97, set_size: 30, sets: 20, drops: 100}
