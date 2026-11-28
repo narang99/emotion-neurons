@@ -10,7 +10,7 @@ from jaxtyping import Float
 from pydantic import BaseModel
 from torch import Tensor
 
-from ..token_scores import Scores, TokenScores, TokenText
+from ..token_scores import ScoreIndex, Scores, TokenText
 from .colors import RAMPS
 
 
@@ -32,12 +32,17 @@ def closed(html: str) -> str:
     return f"{head}></div>{rest}"
 
 
-def scores_of(text: TokenText, values: Scores) -> Scores:
-    return values[text.start : text.start + len(text.tokens)]
+def scores_of(text: TokenText, scores: Scores) -> Scores:
+    return scores[text.start : text.start + len(text.tokens)]
 
 
 def first_per_label(texts: list[TokenText], labels: list[str], n: int) -> list[TokenText]:
-    return [t for label in labels for t in [t for t in texts if t.label == label][:n]]
+    """The first `n` texts of each label, labels in the given order."""
+    chosen = []
+    for label in labels:
+        of_label = [t for t in texts if t.label == label]
+        chosen.extend(of_label[:n])
+    return chosen
 
 
 def diverging_strip(label: str, tokens: list[str], v: Float[Tensor, " token"], span: float) -> Strip:
@@ -52,16 +57,20 @@ def vector_view(text: TokenText, v: Float[Tensor, " token"], mean: float, span: 
     )
 
 
-def prompt_views(scores: TokenScores, values: Scores, labels: list[str], per_label: int) -> list[TokenView]:
-    span = float(values.abs().max())
+def prompt_view(text: TokenText, scores: Scores, span: float) -> TokenView:
+    """The prompt and the reply as two strips, split at the reply marker."""
+    v, k = scores_of(text, scores)[:, 0], text.marker
+    assert k is not None, f"{text.id} has no reply marker"
+    return TokenView(
+        title=f"{text.id} ({text.label})",
+        subtitle=f"Projection at the last prompt token: {v[k - 1]:.2f}. Reply mean: {v[k:].mean():.2f}.",
+        strips=[
+            diverging_strip("prompt", text.tokens[:k], v[:k], span),
+            diverging_strip("reply", text.tokens[k:], v[k:], span),
+        ],
+    )
 
-    views = []
-    for text in first_per_label(scores.texts, labels, per_label):
-        v, k = scores_of(text, values), text.marker
-        assert k is not None, f"{text.id} has no reply marker"
-        views.append(TokenView(
-            title=f"{text.id} ({text.label})",
-            subtitle=f"Projection at the last prompt token: {v[k - 1, 0]:.2f}. Reply mean: {v[k:, 0].mean():.2f}.",
-            strips=[diverging_strip("prompt", text.tokens[:k], v[:k, 0], span), diverging_strip("reply", text.tokens[k:], v[k:, 0], span)],
-        ))  # fmt: skip
-    return views
+
+def prompt_views(index: ScoreIndex, scores: Scores, labels: list[str], per_label: int) -> list[TokenView]:
+    span = float(scores.abs().max())
+    return [prompt_view(text, scores, span) for text in first_per_label(index.texts, labels, per_label)]

@@ -51,6 +51,14 @@ def dodged(ys: list[float], gap: float = 12) -> list[float]:
     return out
 
 
+def polyline(i: int, values: list[float], x, y) -> str:
+    """Series `i`'s line through (k, values[k]) for every first ablated layer k."""
+    points = []
+    for k, v in enumerate(values):
+        points.append(f"{x(k):.1f},{y(v):.1f}")
+    return f'<polyline class="line s{i}" points="{" ".join(points)}"/>'
+
+
 def chart(title: str, series: dict[str, list[float]], random: dict[str, float]) -> str:
     """`random`: per series, the random control's value at k = 0, drawn as a hollow marker; empty for none."""
     layers = len(next(iter(series.values())))
@@ -66,10 +74,7 @@ def chart(title: str, series: dict[str, list[float]], random: dict[str, float]) 
         f'<text class="tick" x="{x(k):.1f}" y="{HEIGHT - BOTTOM + 18}" text-anchor="middle">{k}</text>'
         for k in range(0, layers, 4)
     )
-    lines = "".join(
-        f'<polyline class="line s{i}" points="{" ".join(f"{x(k):.1f},{y(v):.1f}" for k, v in enumerate(values))}"/>'
-        for i, values in enumerate(series.values(), start=1)
-    )
+    lines = "".join(polyline(i, values, x, y) for i, values in enumerate(series.values(), start=1))
     label_ys = dodged([y(values[-1]) + 4 for values in series.values()])
     labels = "".join(
         f'<text class="direct" x="{x(layers - 1) + 8:.1f}" y="{ly:.1f}">{name}</text>' for name, ly in zip(series, label_ys)
@@ -95,13 +100,31 @@ def chart(title: str, series: dict[str, list[float]], random: dict[str, float]) 
 </figure>"""
 
 
+def header_cells(bands: list[str]) -> str:
+    """One header per metric and band, metrics outermost."""
+    cells = ""
+    for metric in METRICS:
+        for band in bands:
+            cells += f"<th>{band}: {metric}</th>"
+    return cells
+
+
+def value_cells(runs: dict[str, dict]) -> str:
+    """One cell per metric and band, in the order of `header_cells`. `runs` holds one ablation result per band."""
+    cells = ""
+    for fn in METRICS.values():
+        for run in runs.values():
+            cells += f"<td>{fn(run):.3f}</td>"
+    return cells
+
+
 def table(rows: dict[str, list[dict]], randoms: dict[str, dict]) -> str:
-    head = "".join(f"<th>{band}: {metric}</th>" for metric in METRICS for band in rows)
+    head = header_cells(list(rows))
     body = ""
     for k in range(len(next(iter(rows.values())))):
-        cells = "".join(f"<td>{fn(rows[band][k]):.3f}</td>" for fn in METRICS.values() for band in rows)
+        cells = value_cells({band: rows[band][k] for band in rows})
         body += f"<tr><td>{k}</td>{cells}</tr>"
-    cells = "".join(f"<td>{fn(randoms[band]):.3f}</td>" for fn in METRICS.values() for band in rows)
+    cells = value_cells({band: randoms[band] for band in rows})
     body += f"<tr><td>random control, all layers</td>{cells}</tr>"
     return f'<details><summary>Values as a table</summary><div class="scroll"><table><tr><th>first ablated layer</th>{head}</tr>{body}</table></div></details>'
 
@@ -163,17 +186,19 @@ for (const fig of document.querySelectorAll(".chart")) {
 """
 
 
+def metric_chart(title: str, fn, rows: dict[str, list[dict]], randoms: dict[str, dict]) -> str:
+    """One metric's chart: its value per band and first ablated layer, plus the random control if the metric has one."""
+    series = {}
+    for band in rows:
+        series[band] = [fn(r) for r in rows[band]]
+    random = {band: fn(randoms[band]) for band in rows} if title in WITH_RANDOM else {}
+    return chart(title, series, random)
+
+
 def main():
     rows = {band: band_rows(*runs) for band, runs in BANDS.items()}
     randoms = {band: random_control(full) for band, (full, _) in BANDS.items()}
-    charts = "".join(
-        chart(
-            title,
-            {band: [fn(r) for r in rows[band]] for band in rows},
-            {band: fn(randoms[band]) for band in rows} if title in WITH_RANDOM else {},
-        )
-        for title, fn in METRICS.items()
-    )
+    charts = "".join(metric_chart(title, fn, rows, randoms) for title, fn in METRICS.items())
     legend = "".join(f'<span><i style="background:var(--series-{i})"></i>{band}</span>' for i, band in enumerate(rows, start=1))
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">

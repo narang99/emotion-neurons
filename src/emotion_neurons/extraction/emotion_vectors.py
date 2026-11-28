@@ -8,7 +8,7 @@
 - build (CPU): the vectors from the late-token means, by `vectors.recipe`.
   - results/<run_id>/vectors.safetensors (see `emotion_neurons.vectors.EmotionVectors`);
   - results/<run_id>/vectors_meta.json: emotions, sites, PCs removed per site, counts per split.
-- check (CPU): results/<run_id>/checks.json: held-out nearest-vector accuracy per site, raw and denoised vectors.
+- check (CPU): results/<run_id>/checks.json: held-out nearest-vector accuracy per site, denoised vectors.
 - select does nothing. tokens (GPU) and report (CPU) write token_scores.* and report.html.
 """
 
@@ -116,12 +116,14 @@ def vectors_meta(cfg: ExtractionRunConfig, split: StorySplit, denoise: dict, ext
         "keys": "<site>/<mean|neutral>/<raw|denoised> [12, dim]; <site>/neutral_pcs; <site>/grand_mean; <site>/neutral_mean",
         "average": f"mean over tokens {cfg.stories.split_token}+ per story, then over stories",
         "denoise": {site: info.model_dump() for site, info in denoise.items()},
-        "n_train": {e: count(split.train, i) for i, e in enumerate(EMOTIONS)} | {"neutral": int((split.train & split.neutral).sum())},
-        "n_heldout": {e: count(split.heldout, i) for i, e in enumerate(EMOTIONS)} | {"neutral": int((split.heldout & split.neutral).sum())},
+        "n_train": {e: count(split.train, i) for i, e in enumerate(EMOTIONS)}
+        | {"neutral": int((split.train & split.neutral).sum())},
+        "n_heldout": {e: count(split.heldout, i) for i, e in enumerate(EMOTIONS)}
+        | {"neutral": int((split.heldout & split.neutral).sum())},
         "model": cfg.model.name,
         "layer": cfg.emotion_vectors.extract.layer,
         "extract_git_commit": extract_commit,
-    }  # fmt: skip
+    }
 
 
 class EmotionVectorsMethod:
@@ -179,11 +181,8 @@ class EmotionVectorsMethod:
         checks = {"sites": {}}
         for site in SITES:
             x, pcs = means[site], vectors.neutral_pcs(site).double()
-            checks["sites"][site] = c = {
-                "acc_heldout": heldout_accuracy(x, split, pcs),
-                "acc_heldout_raw": heldout_accuracy(x, split),
-            }
-            print(f"[{site}] held-out accuracy {c['acc_heldout']:.3f} (raw {c['acc_heldout_raw']:.3f})")
+            checks["sites"][site] = c = {"acc_heldout": heldout_accuracy(x, split, pcs)}
+            print(f"[{site}] held-out accuracy {c['acc_heldout']:.3f}")
         (self.cfg.result_dir / "checks.json").write_text(json.dumps(checks, indent=1))
         print(f"[saved] {self.cfg.result_dir}/checks.json")
 
@@ -191,9 +190,9 @@ class EmotionVectorsMethod:
         """Nothing to select: the config fixes the layer, and every emotion keeps its vector."""
 
     def tokens(self) -> None:
-        scores, values = story_token_scores(self.cfg, *self.loaded)
-        save_token_scores(self.cfg.result_dir, scores, values)
-        print(f"[saved] {self.cfg.result_dir}/token_scores.*: {len(scores.texts)} texts, {values.shape[0]} tokens")
+        index, scores = story_token_scores(self.cfg, *self.loaded)
+        save_token_scores(self.cfg.result_dir, index, scores)
+        print(f"[saved] {self.cfg.result_dir}/token_scores.*: {len(index.texts)} texts, {scores.shape[0]} tokens")
 
     def report(self) -> None:
         path = write_report("emotion_vectors.html", build_emotion_vectors_report(self.cfg), self.cfg.result_dir / "report.html")

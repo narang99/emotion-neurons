@@ -46,8 +46,24 @@ class Heatmap(BaseModel):
     has_excluded: bool
 
 
+def present_values(values: Grid) -> list[float]:
+    """Every value of the grid that is not missing, row by row."""
+    present = []
+    for row in values:
+        present.extend(v for v in row if v is not None)
+    return present
+
+
+def log10_grid(values: Grid) -> list[list[float | None]]:
+    """log10 of every value, missing values kept as None."""
+    logged = []
+    for row in values:
+        logged.append([None if v is None else math.log10(v) for v in row])
+    return logged
+
+
 def position_on_scale(scale: Scale, values: Grid) -> Callable[[float], float]:
-    present = [v for row in values for v in row if v is not None]
+    present = present_values(values)
     if scale == "diverging":
         span = max((abs(v) for v in present), default=1.0) or 1.0
         return lambda v: 0.5 + v / (2 * span)
@@ -56,7 +72,7 @@ def position_on_scale(scale: Scale, values: Grid) -> Callable[[float], float]:
 
 
 def legend_ends(scale: Scale, values: Grid, fmt: str) -> tuple[str, str]:
-    present = [v for row in values for v in row if v is not None]
+    present = present_values(values)
     if scale == "diverging":
         span = max((abs(v) for v in present), default=1.0)
         return format(-span, fmt), format(span, fmt)
@@ -93,8 +109,7 @@ def heatmap(
     t = position_on_scale(scale, values)
     if log:
         assert scale == "sequential", "a log scale is only for sequential values"
-        logged = [[None if v is None else math.log10(v) for v in row] for row in values]
-        t_log = position_on_scale(scale, logged)
+        t_log = position_on_scale(scale, log10_grid(values))
         t = lambda v: t_log(math.log10(v))  # noqa: E731
     rows = []
     for i, row in enumerate(values):
@@ -107,9 +122,18 @@ def heatmap(
     stops = [k / 8 for k in range(9)]
     low, high = legend_ends(scale, values, fmt)
     return Heatmap(
-        title=title, caption=caption, row_title=row_title, col_title=col_title,
-        row_labels=list(row_labels), col_labels=list(col_labels), rows=rows,
-        legend_light=[along(RAMPS[scale].light, s) for s in stops], legend_dark=[along(RAMPS[scale].dark, s) for s in stops],
-        legend_low=low, legend_high=high, show_values=show_values,
-        has_marked=bool(marked), has_excluded=bool(excluded),
-    )  # fmt: skip
+        title=title,
+        caption=caption,
+        row_title=row_title,
+        col_title=col_title,
+        row_labels=list(row_labels),
+        col_labels=list(col_labels),
+        rows=rows,
+        legend_light=[along(RAMPS[scale].light, s) for s in stops],
+        legend_dark=[along(RAMPS[scale].dark, s) for s in stops],
+        legend_low=low,
+        legend_high=high,
+        show_values=show_values,
+        has_marked=bool(marked),
+        has_excluded=bool(excluded),
+    )

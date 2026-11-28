@@ -20,8 +20,19 @@ from transformers import AutoConfig, AutoModelForCausalLM
 
 REPO, REVISION = "Qwen/Qwen-7B-Chat", "93a65d34827a3cc269b727e67004743b723e2f83"
 OUT = Path(__file__).parent / "qwen1_tiny"
-SIZES = dict(num_hidden_layers=2, hidden_size=64, intermediate_size=256, num_attention_heads=4, kv_channels=16,
-             vocab_size=1000, seq_length=2048, use_flash_attn=False, bf16=False, fp16=False, fp32=True)  # fmt: skip
+SIZES = dict(
+    num_hidden_layers=2,
+    hidden_size=64,
+    intermediate_size=256,
+    num_attention_heads=4,
+    kv_channels=16,
+    vocab_size=1000,
+    seq_length=2048,
+    use_flash_attn=False,
+    bf16=False,
+    fp16=False,
+    fp32=True,
+)
 
 
 def main():

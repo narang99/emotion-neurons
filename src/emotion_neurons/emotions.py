@@ -3,9 +3,19 @@
 from typing import Literal
 
 EMOTIONS: tuple[str, ...] = (
-    "happy", "inspired", "loving", "proud", "calm", "desperate",
-    "angry", "guilty", "sad", "afraid", "nervous", "surprised",
-)  # fmt: skip
+    "happy",
+    "inspired",
+    "loving",
+    "proud",
+    "calm",
+    "desperate",
+    "angry",
+    "guilty",
+    "sad",
+    "afraid",
+    "nervous",
+    "surprised",
+)
 
 LABELS: tuple[str, ...] = (*EMOTIONS, "neutral")
 """Story labels: the 12 emotions, then neutral."""

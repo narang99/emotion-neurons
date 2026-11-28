@@ -13,7 +13,7 @@ from pydantic import BaseModel
 from torch import Tensor
 
 from ..capture import StoryMeans
-from ..config import VectorsConfig
+from ..config import Baseline, VectorsConfig
 from ..emotions import EMOTIONS, Site
 from ..texts import StorySplit
 from .denoise import neutral_pcs, remove
@@ -37,6 +37,14 @@ def emotion_means(
     return torch.stack([x[among & (split.label == e)].mean(0) for e in range(len(EMOTIONS))])
 
 
+def add_baseline(
+    tensors: dict[str, Tensor], site: Site, baseline: Baseline, v: Float[Tensor, "emotion dim"], pcs: Float[Tensor, "k dim"]
+) -> None:
+    """Stores one baseline's raw vectors and their denoised copy."""
+    tensors[f"{site}/{baseline}/raw"] = v
+    tensors[f"{site}/{baseline}/denoised"] = remove(v, pcs)
+
+
 def mean_contrast(means: StoryMeans, split: StorySplit, cfg: VectorsConfig) -> tuple[EmotionVectors, dict[Site, DenoiseInfo]]:
     """The emotions paper's recipe, on the train stories.
 
@@ -51,9 +59,8 @@ def mean_contrast(means: StoryMeans, split: StorySplit, cfg: VectorsConfig) -> t
         mu = emotion_means(x, split, split.train)
         grand, neutral = mu.mean(0), x[neutral_train].mean(0)
         pcs, explained = neutral_pcs(x[neutral_train], cfg.denoise_variance)
-        for baseline, v in (("mean", mu - grand), ("neutral", mu - neutral)):
-            tensors[f"{site}/{baseline}/raw"] = v
-            tensors[f"{site}/{baseline}/denoised"] = remove(v, pcs)
+        add_baseline(tensors, site, "mean", mu - grand, pcs)
+        add_baseline(tensors, site, "neutral", mu - neutral, pcs)
         tensors[f"{site}/neutral_pcs"] = pcs
         tensors[f"{site}/grand_mean"] = grand
         tensors[f"{site}/neutral_mean"] = neutral

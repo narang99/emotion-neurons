@@ -1,6 +1,6 @@
-# Stage 2: emotion vectors at Qwen3-8B layer 25 (of 36), checked on held-out stories.
-#   python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml   # GPU, L4: vectors, checks, token views, report
-#   python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml --steps build,check,report --device cpu
+# Emotion vectors at Qwen3-8B layer 25 (of 36), checked on held-out stories.
+#   python scripts/extract.py --config experiments/00-vector-extraction/emotions_qwen3.yaml   # GPU, L4: vectors, checks, token views, report
+#   python scripts/extract.py --config experiments/00-vector-extraction/emotions_qwen3.yaml --steps build,check,report --device cpu
 run_id: stage2_l25
 results_dir: experiments/00-vector-extraction/results
 model: Qwen/Qwen3-8B

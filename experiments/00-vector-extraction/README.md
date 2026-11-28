@@ -18,13 +18,13 @@ Reports of the two kinds of vectors this repo extracts: emotion vectors, and the
 
 ```
 python scripts/token_scores.py direction --config experiments/00-vector-extraction/refusal_qwen1.yaml         # GPU, L4, 84 s
-python scripts/token_scores.py emotion_vectors --config experiments/00-vector-extraction/stage2_l25.yaml     # GPU, L4, 74 s
-python scripts/report.py emotion_vectors --config experiments/00-vector-extraction/stage2_l25.yaml
+python scripts/token_scores.py emotion_vectors --config experiments/00-vector-extraction/emotions_qwen3.yaml     # GPU, L4, 74 s
+python scripts/report.py emotion_vectors --config experiments/00-vector-extraction/emotions_qwen3.yaml
 python scripts/report.py direction --config experiments/00-vector-extraction/refusal_qwen1.yaml
 ```
 
 - The scripts that made the saved results (not run again):
-  - `scripts/extract.py` and `scripts/build_vectors.py` with `stage2_l25.yaml`;
+  - `scripts/extract.py` and `scripts/build_vectors.py` with `emotions_qwen3.yaml` (then named `stage2_l25.yaml`);
   - `scripts/direction.py` with `refusal_qwen1.yaml`.
 
 ## Results

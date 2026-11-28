@@ -40,13 +40,21 @@ def read_jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
 
 
+def read_story_rows(stories_dir: Path) -> list[dict]:
+    """Every row of every .jsonl file, files in name order."""
+    rows = []
+    for path in sorted(stories_dir.glob("*.jsonl")):
+        rows.extend(read_jsonl(path))
+    return rows
+
+
 def _is_heldout(row: dict, cfg: StoriesData) -> bool:
     return row["story_idx"] in heldout_indices(cfg, row["emotion"])
 
 
 def load_stories(cfg: StoriesData) -> list[Story]:
     """Sorted by (label order, topic, story_idx), so the order never depends on the filesystem."""
-    rows = [row for path in sorted(Path(cfg.stories_dir).glob("*.jsonl")) for row in read_jsonl(path)]
+    rows = read_story_rows(Path(cfg.stories_dir))
     stories = [Story(**row, heldout=_is_heldout(row, cfg)) for row in rows]
     stories.sort(key=lambda s: (LABELS.index(s.emotion), s.topic_id, s.story_idx))
     ids = [s.id for s in stories]

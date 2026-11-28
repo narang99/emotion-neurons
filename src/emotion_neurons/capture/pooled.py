@@ -47,11 +47,10 @@ def pooled_position_sums(
 def pooled_range_sums(
     acts: dict[Site, Float[Tensor, "batch seq dim"]], masks: dict[str, Bool[Tensor, "batch seq"]]
 ) -> tuple[dict[str, Float[Tensor, "batch dim"]], Int[Tensor, "batch 2"]]:
-    sums = {
-        f"{site}/{name}": einsum(acts[site].float(), mask.float(), "batch seq dim, batch seq -> batch dim")
-        for site in HOOKED_SITES
-        for name, mask in masks.items()
-    }
+    sums = {}
+    for site in HOOKED_SITES:
+        for name, mask in masks.items():
+            sums[f"{site}/{name}"] = einsum(acts[site].float(), mask.float(), "batch seq dim, batch seq -> batch dim")
     counts = torch.stack([masks[r].sum(1) for r in RANGES], 1)
     return sums, counts
 

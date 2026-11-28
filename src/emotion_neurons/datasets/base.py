@@ -26,6 +26,10 @@ class Example(BaseModel):
     text: str
 
 
+def examples_in(examples: list[Example], split: Split, category: str) -> list[Example]:
+    return [e for e in examples if e.split == split and e.category == category]
+
+
 class Rendered(BaseModel):
     input_ids: list[int]
     positions: list[int]

@@ -1,4 +1,5 @@
 import torch
+from sklearn.decomposition import PCA
 
 from emotion_neurons.capture import pooled_sums
 from emotion_neurons.config import VectorsConfig
@@ -9,8 +10,15 @@ from emotion_neurons.vectors import mean_contrast, neutral_pcs, remove
 torch.manual_seed(0)
 
 
+def repeated_emotion_labels(per_emotion: int) -> list[int]:
+    labels = []
+    for e in range(len(EMOTIONS)):
+        labels.extend([e] * per_emotion)
+    return labels
+
+
 def toy_split(per_emotion: int = 4, neutral: int = 8) -> StorySplit:
-    labels = [e for e in range(len(EMOTIONS)) for _ in range(per_emotion)] + [-1] * neutral
+    labels = repeated_emotion_labels(per_emotion) + [-1] * neutral
     return StorySplit(
         label=torch.tensor(labels),
         heldout=torch.zeros(len(labels), dtype=torch.bool),
@@ -30,6 +38,17 @@ def test_denoised_vectors_are_orthogonal_to_the_neutral_pcs():
     pcs, _ = neutral_pcs(neutral, 0.5)
     v = remove(torch.randn(3, 6, dtype=torch.float64), pcs)
     torch.testing.assert_close(v @ pcs.T, torch.zeros(3, pcs.shape[0], dtype=torch.float64))
+
+
+def test_neutral_pcs_match_sklearn_pca():
+    """Same subspace and variance as `PCA(n_components=variance_share)`. Signs may differ, so the projectors are compared."""
+    neutral = torch.randn(40, 10, dtype=torch.float64)
+    pcs, explained = neutral_pcs(neutral, 0.5)
+    pca = PCA(n_components=0.5, svd_solver="full").fit(neutral.numpy())
+    components = torch.from_numpy(pca.components_)
+    assert pcs.shape == components.shape
+    torch.testing.assert_close(pcs.T @ pcs, components.T @ components)
+    assert abs(explained - pca.explained_variance_ratio_.sum()) < 1e-12
 
 
 def test_pooled_sums_split_tokens_at_the_split_token():

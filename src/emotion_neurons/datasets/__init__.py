@@ -1,7 +1,7 @@
 """Example sets for difference-of-means directions: emotion stories, benchmark instructions."""
 
 from ..config import DataConfig, InstructionsData, StoriesData
-from .base import Example, ExampleSet, Rendered, Split
+from .base import Example, ExampleSet, Rendered, Split, examples_in
 from .instructions import InstructionSet, post_instruction_length
 from .stories import StoriesSet
 
@@ -22,5 +22,6 @@ __all__ = [
     "Split",
     "StoriesSet",
     "example_set",
+    "examples_in",
     "post_instruction_length",
 ]
