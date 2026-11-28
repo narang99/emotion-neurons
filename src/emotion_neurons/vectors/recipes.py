@@ -7,7 +7,6 @@
 
 from typing import Protocol
 
-import torch
 from jaxtyping import Bool, Float
 from pydantic import BaseModel
 from torch import Tensor
@@ -17,6 +16,7 @@ from ..config import VectorsConfig
 from ..emotions import EMOTIONS, Site
 from ..texts import StorySplit
 from .denoise import neutral_pcs, remove
+from .diff_means import category_means, diff_of_means
 from .emotion_vectors import EmotionVectors
 
 
@@ -34,7 +34,7 @@ class VectorRecipe(Protocol):
 def emotion_means(
     x: Float[Tensor, "story dim"], split: StorySplit, among: Bool[Tensor, " story"]
 ) -> Float[Tensor, "emotion dim"]:
-    return torch.stack([x[among & (split.label == e)].mean(0) for e in range(len(EMOTIONS))])
+    return category_means(x, split.label, len(EMOTIONS), among)
 
 
 def mean_contrast(means: StoryMeans, split: StorySplit, cfg: VectorsConfig) -> tuple[EmotionVectors, dict[Site, DenoiseInfo]]:
@@ -51,7 +51,7 @@ def mean_contrast(means: StoryMeans, split: StorySplit, cfg: VectorsConfig) -> t
         mu = emotion_means(x, split, split.train)
         grand, neutral = mu.mean(0), x[neutral_train].mean(0)
         pcs, explained = neutral_pcs(x[neutral_train], cfg.denoise_variance)
-        for baseline, v in (("mean", mu - grand), ("neutral", mu - neutral)):
+        for baseline, v in (("mean", diff_of_means(mu, "all")), ("neutral", mu - neutral)):
             tensors[f"{site}/{baseline}/raw"] = v
             tensors[f"{site}/{baseline}/denoised"] = remove(v, pcs)
         tensors[f"{site}/neutral_pcs"] = pcs

@@ -45,6 +45,13 @@ python scripts/extract.py --config experiments/00-vector-extraction/refusal_qwen
   - The config names the family, e.g. `model: {family: qwen1, name: ..., revision: ...}`. A plain name means `hf`.
 - Output: `experiments/00-vector-extraction/results/refusal_qwen1/direction.{json,safetensors}`, `replies.json`.
 
+## Difference of means
+
+- `vectors.diff_of_means(means, against)` is the one difference of means. Every method above uses it.
+  - `means` is `[category, ...]`. `vectors.category_means` makes it from per-example rows.
+  - `against="all"`: each category minus the mean of all categories. The emotion vectors use this.
+  - `against="rest"`: each category minus the mean of the others. The refusal direction uses this.
+
 ## Neuron poles
 
 ```

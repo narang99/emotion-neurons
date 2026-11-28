@@ -24,6 +24,7 @@ from .config import RefusalCheckConfig
 from .datasets import Rendered
 from .directions import generate, refusal_rate
 from .models import ModelAdapter, read_resid_pre
+from .vectors import diff_of_means
 
 Activations = Float[Tensor, "prompt d_model"]
 Vector = Float[Tensor, " d_model"]
@@ -77,7 +78,7 @@ def site_activations(
 
 
 def direction(target: Activations, other: Activations) -> Vector:
-    return target.mean(0) - other.mean(0)
+    return diff_of_means(torch.stack([target.mean(0), other.mean(0)]), "rest")[0]
 
 
 def cosine(a: Vector, b: Vector) -> float:

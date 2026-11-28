@@ -21,10 +21,11 @@ from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from ..config import DirectionExtraction, ExtractionRunConfig
 from ..datasets import example_set
-from ..directions import category_sums, diff_from_means, generation_check, refusal_token_ids, select_direction
+from ..directions import category_sums, generation_check, refusal_token_ids, select_direction
 from ..models import ModelAdapter, adapter_for
 from ..reports import build_direction_report, write_report
 from ..token_scores import direction_token_scores, save_token_scores
+from ..vectors import diff_of_means
 
 
 def target_and_other(cfg: ExtractionRunConfig) -> tuple[str, str]:
@@ -72,7 +73,7 @@ class DirectionMethod:
         categories = list(self.cfg.data.categories)
         saved = load_file(str(self.cfg.run_dir / "means.safetensors"))
         means = torch.stack([saved[c] for c in categories])  # [category, position, layer, d]
-        diffs = diff_from_means(means, categories, self.cfg.direction.target)
+        diffs = diff_of_means(means, "rest")[categories.index(self.cfg.direction.target)]
         self.cfg.result_dir.mkdir(parents=True, exist_ok=True)
         tensors = {"diffs": diffs.float().contiguous(), "means": means.float().contiguous()}
         save_file(tensors, str(self.cfg.result_dir / "direction.safetensors"))

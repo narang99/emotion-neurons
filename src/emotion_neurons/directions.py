@@ -5,7 +5,8 @@
 
 1. Means: one pass over the train instructions; the residual stream at every layer's input (resid_pre), at each
    post-instruction position, summed per category. Nothing per example is stored.
-2. Candidates: for every layer and post-instruction position, the target mean minus the other category's mean.
+2. Candidates: for every layer and post-instruction position, the target mean minus the other category's mean
+   (`vectors.diff_of_means`).
 3. Selection, on the val instructions:
    - bypass: the refusal score of target-category prompts with the direction ablated everywhere (lower is better);
    - induce: the refusal score of the other prompts with the direction added at its layer (must be > 0);
@@ -206,10 +207,3 @@ def generation_check(
         result[name] = {"refusal_rate": refusal_rate(replies, g.refusal_phrases), "replies": replies}
         print(f"[generate] {name}: refusal rate {result[name]['refusal_rate']:.2f}", flush=True)
     return result
-
-
-def diff_from_means(means: Float[Tensor, "category ..."], categories: list[str], target: str) -> Tensor:
-    """The target category's mean minus the other one's (the config allows exactly two categories)."""
-    assert len(categories) == 2, f"a direction needs two categories, got {categories}"
-    other = 1 - categories.index(target)
-    return means[categories.index(target)] - means[other]
