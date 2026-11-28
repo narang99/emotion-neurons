@@ -1,4 +1,5 @@
-"""The poles of every neuron in the MLPs of chosen layers: quantiles (e.g. p3, p97) over general text, and means. GPU.
+"""The poles of every unit of a writer (MLP neurons or attention writers) in chosen layers: quantiles (e.g. p3, p97)
+over general text, and means. GPU.
 
     python scripts/poles.py --config configs/poles.yaml
 
@@ -35,13 +36,13 @@ def main():
     per_layer = {name: [] for name in [*names, "mean"]}
     tokens = 0
     for layer in cfg.layers:
-        acts = layer_activations(model, adapter, windows, cfg.poles, layer, tokenizer.pad_token_id)
+        acts = layer_activations(model, adapter, cfg.writer, windows, cfg.poles, layer, tokenizer.pad_token_id)
         q = quantiles_per_neuron(acts, cfg.poles.quantiles, model.device)
         for i, name in enumerate(names):
             per_layer[name].append(q[i])
         per_layer["mean"].append(neuron_means(acts, cfg.poles, q, model.device))
         tokens = len(acts)
-        print(f"[poles] layer {layer}: {q.shape[1]} neurons over {tokens} tokens, {time.time() - t0:.0f}s")
+        print(f"[poles] layer {layer}: {q.shape[1]} units over {tokens} tokens, {time.time() - t0:.0f}s")
         del acts
     cfg.result_dir.mkdir(parents=True, exist_ok=True)
     tensors = {name: torch.stack(rows).contiguous() for name, rows in per_layer.items()}
@@ -50,6 +51,7 @@ def main():
     meta = {
         "model": cfg.model.name,
         "layers": cfg.layers,
+        "writer": cfg.writer.model_dump(),
         "tokens": tokens,
         "quantiles": dict(zip(names, cfg.poles.quantiles)),
         "mean": cfg.poles.mean.model_dump(),

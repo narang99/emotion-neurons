@@ -14,7 +14,7 @@ from typing import Literal, Protocol
 from torch import nn
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from ..config import HFModel, ModelConfig, Qwen1Model
+from ..config import AttnWriter, HFModel, MlpWriter, ModelConfig, Qwen1Model, Writer
 from .hf import HFAdapter
 from .qwen1 import Qwen1Adapter
 
@@ -34,6 +34,19 @@ class ModelAdapter(Protocol):
     def mlp(self, model: PreTrainedModel, layer: int) -> nn.Module:
         """The layer's MLP. The input of its `down_proj` is the neuron activations, `silu(gate) * up`."""
         ...
+
+    def attn(self, model: PreTrainedModel, layer: int) -> nn.Module:
+        """The layer's attention. The input of its `o_proj` is every head's value-weighted output, heads side by side."""
+        ...
+
+
+def writer_projection(adapter: ModelAdapter, model: PreTrainedModel, writer: Writer, layer: int) -> nn.Module:
+    """The projection whose input holds the writer's units: `down_proj` for MLP neurons, `o_proj` for attention."""
+    match writer:
+        case MlpWriter():
+            return adapter.mlp(model, layer).down_proj
+        case AttnWriter():
+            return adapter.attn(model, layer).o_proj
 
 
 def adapter_for(model: ModelConfig) -> ModelAdapter:

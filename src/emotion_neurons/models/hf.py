@@ -45,3 +45,6 @@ class HFAdapter:
 
     def mlp(self, model: PreTrainedModel, layer: int) -> nn.Module:
         return model.model.layers[layer].mlp
+
+    def attn(self, model: PreTrainedModel, layer: int) -> nn.Module:
+        return model.model.layers[layer].self_attn

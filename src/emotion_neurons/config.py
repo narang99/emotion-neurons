@@ -6,7 +6,7 @@
   - `ExtractionRunConfig`: a data source and an extraction method (extract.py), two unions on `kind`:
     - data: `stories` or `instructions`, both read through `datasets.ExampleSet`;
     - extraction: `emotion_vectors` (the emotions paper) or `direction` (the refusal paper's selection and checks);
-  - `PolesRunConfig`: neuron poles (poles.py);
+  - `PolesRunConfig`: unit poles (poles.py), for MLP neurons or attention writers (`Writer`, a union on `kind`);
   - `AblationRunConfig`: loss and KL under mean ablation of the neurons between the poles (ablation.py);
   - `RefusalAblationRunConfig`: the refusal direction with earlier MLPs mean-ablated (refusal_ablation.py).
 - Values come from two places, and the command line wins:
@@ -198,8 +198,27 @@ class RunConfig(BaseSettings):
         return self.results_dir / self.run_id
 
 
+class MlpWriter(Section):
+    """MLP neurons: the input of each layer's `down_proj`, `silu(gate) * up`. Unit n writes along column n of W_down."""
+
+    kind: Literal["mlp"] = "mlp"
+
+
+class AttnWriter(Section):
+    """Attention writers: the input of each layer's `o_proj`, every head's value-weighted output side by side.
+
+    - Unit h * head_dim + d is dimension d of head h. It writes along that column of W_O.
+    """
+
+    kind: Literal["attn"] = "attn"
+
+
+Writer = Annotated[MlpWriter | AttnWriter, Field(discriminator="kind")]
+
+
 class PolesRunConfig(RunConfig):
-    layers: list[int] = Field([25], description="every neuron of each of these layers' MLPs")
+    layers: list[int] = Field([25], description="every unit of the writer in each of these layers")
+    writer: Writer = Field(MlpWriter(), description="which units: MLP neurons or attention writers")
     poles: PolesConfig = PolesConfig()
 
 
@@ -367,7 +386,7 @@ class Ablation(Section):
 
 
 class AblationRunConfig(RunConfig):
-    """Loss and KL of the model with mean-ablated MLP neurons, against the intact model (`ablation`)."""
+    """Loss and KL of the model with mean-ablated MLP neurons or attention writers, against the intact model (`ablation`)."""
 
     thresholds: Path = Field(description="poles.py output: the band's quantiles and `mean` for every ablated layer")
     low: str = "p3"
@@ -376,6 +395,7 @@ class AblationRunConfig(RunConfig):
     prompts: InstructionsData | None = Field(None, description="KL at the post-instruction positions of the val split")
     prompt_batch_size: int = 16
     ablations: list[Ablation] = [Ablation(kind="band"), Ablation(kind="random")]
+    writer: Writer = Field(MlpWriter(), description="which units are ablated; must match the poles run")
     mask_seed: int = Field(0, description="seed of the random control's neuron draws")
 
 

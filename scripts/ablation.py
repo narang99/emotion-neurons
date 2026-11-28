@@ -1,4 +1,5 @@
-"""Loss and KL of a model whose MLP neurons are mean-ablated between their poles, against the intact model. GPU.
+"""Loss and KL of a model whose MLP neurons or attention writers are mean-ablated between their poles, against the
+intact model. GPU.
 
     python scripts/ablation.py --config experiments/goodfire-sparsity/ablation_full.yaml
 
@@ -39,7 +40,7 @@ def main():
     model, tokenizer = adapter.load(cfg.device)
     n_layers = model.config.num_hidden_layers
     poles = load_poles(cfg.thresholds, cfg.low, cfg.high, model.device)
-    ablations = [MeanAblation(poles, a.kind, a.layers(n_layers), a.positions) for a in cfg.ablations]
+    ablations = [MeanAblation(poles, a.kind, a.layers(n_layers), a.positions, cfg.writer) for a in cfg.ablations]
     names = [a.name(n_layers) for a in cfg.ablations]
 
     windows = collect_windows(cfg.text, tokenizer)
@@ -68,6 +69,7 @@ def main():
         "model": cfg.model.name,
         "thresholds": str(cfg.thresholds),
         "band": [cfg.low, cfg.high],
+        "writer": cfg.writer.model_dump(),
         "ablations": [r.model_dump() for r in results],
     }
     (cfg.result_dir / "ablation.json").write_text(json.dumps(out, indent=1))

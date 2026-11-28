@@ -1,8 +1,11 @@
-"""The poles of every MLP neuron: its low and high quantiles (p3, p97) over general text, and its mean.
+"""The poles of every unit of a writer: its low and high quantiles (p3, p97) over general text, and its mean.
+
+- Writers (`config.Writer`): MLP neurons, the input of `down_proj`; or attention writers, the input of `o_proj`.
 
 1. Each corpus is streamed, tokenized and cut into windows (never across documents), once for all layers.
-2. Per layer L, one pass up to L reads `a_n = silu(gate_n) * up_n` for all neurons, at real tokens past `skip_first`.
-   - The input of the adapter's `mlp(model, L).down_proj` is `a`. The pass stops there.
+2. Per layer L, one pass up to L reads every unit of the writer at real tokens past `skip_first`.
+   - For MLP neurons a unit is `a_n = silu(gate_n) * up_n`; for attention it is one dimension of one head's output.
+   - The input of the writer's projection (`models.writer_projection`) holds the units. The pass stops there.
    - One layer at a time: one layer's activations over 210k tokens are about 5 GB on the CPU.
 3. Per neuron, quantile q is the k-th smallest value with k = int(q * n_tokens).
 
@@ -16,8 +19,8 @@ from jaxtyping import Float, Int
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import AllTokensMean, BandMean, PolesConfig, TextSample
-from .models import ModelAdapter
+from .config import AllTokensMean, BandMean, PolesConfig, TextSample, Writer
+from .models import ModelAdapter, writer_projection
 from .models.qwen3 import StopForward, forward_until_stop, hooks
 from .texts import corpus_windows
 
@@ -47,6 +50,7 @@ def padded_batch(windows: list[list[int]], pad_id: int) -> tuple[Int[Tensor, "ba
 def read_neurons(
     model: PreTrainedModel,
     adapter: ModelAdapter,
+    writer: Writer,
     layer: int,
     input_ids: Int[Tensor, "batch seq"],
     attention_mask: Int[Tensor, "batch seq"],
@@ -57,7 +61,7 @@ def read_neurons(
         acts["a"] = args[0].detach()
         raise StopForward
 
-    handle = adapter.mlp(model, layer).down_proj.register_forward_pre_hook(store_and_stop)
+    handle = writer_projection(adapter, model, writer, layer).register_forward_pre_hook(store_and_stop)
     with hooks([handle]):
         forward_until_stop(model, input_ids, attention_mask)
     return acts["a"]
@@ -66,16 +70,17 @@ def read_neurons(
 def layer_activations(
     model: PreTrainedModel,
     adapter: ModelAdapter,
+    writer: Writer,
     windows: list[list[int]],
     cfg: TextSample,
     layer: int,
     pad_id: int,
 ) -> Float[Tensor, "token neuron"]:
-    """All neurons of one layer at every kept token, in fp16 on the CPU (210k x 12288 is about 5 GB)."""
+    """All units of one layer at every kept token, in fp16 on the CPU (210k x 12288 is about 5 GB)."""
     rows = []
     for start in range(0, len(windows), cfg.batch_size):
         ids, mask = padded_batch(windows[start : start + cfg.batch_size], pad_id)
-        a = read_neurons(model, adapter, layer, ids.to(model.device), mask.to(model.device))
+        a = read_neurons(model, adapter, writer, layer, ids.to(model.device), mask.to(model.device))
         keep = mask.bool().to(a.device)
         keep[:, : cfg.skip_first] = False
         rows.append(a[keep].half().cpu())

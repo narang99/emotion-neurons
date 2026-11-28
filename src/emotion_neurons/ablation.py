@@ -1,4 +1,4 @@
-"""Mean ablation of MLP neurons, and what it does to the model's next-token predictions.
+"""Mean ablation of MLP neurons or attention writers, and what it does to the model's next-token predictions.
 
 - Band: at every token, a neuron of an ablated layer whose value lies strictly between its low and high pole
   (e.g. p3 and p97 over general text, `poles`) gets its mean over that text instead. Only the tails stay.
@@ -6,8 +6,8 @@
   means. The count comes from the band test on this run's own activations.
 - Positions (`Ablation.positions`): every position may be ablated, or the first ones of each row stay intact.
   - The rule is applied before the random draw, so the control spares the same positions.
-- The hook replaces the input of each ablated layer's `down_proj` (the adapter's `mlp`), so the change reaches the
-  residual stream through the down projection, as a real activation would.
+- The hook replaces the input of each ablated layer's writer projection (`models.writer_projection`): `down_proj`
+  for MLP neurons, `o_proj` for attention writers. The change reaches the residual stream through that projection.
 - Every layer's hook sees the activations that the ablations before it produce, as in the Goodfire paper.
 - Against the intact model, on the same tokens:
   - loss: next-token cross-entropy, summed over the read positions;
@@ -28,8 +28,8 @@ from torch import Tensor
 from transformers import PreTrainedModel
 
 from .capture.batch import padded, position_mask
-from .config import AllPositions, PositionsConfig, SkipFirst
-from .models import ModelAdapter
+from .config import AllPositions, MlpWriter, PositionsConfig, SkipFirst, Writer
+from .models import ModelAdapter, writer_projection
 from .models.qwen3 import hooks
 
 Neurons = Float[Tensor, "batch seq neuron"]
@@ -82,8 +82,10 @@ class MeanAblation:
         kind: Literal["band", "random"],
         layers: list[int],
         positions: PositionsConfig = AllPositions(),
+        writer: Writer = MlpWriter(),
     ):
         self.poles = poles
+        self.writer = writer
         self.kind = kind
         self.layers = layers
         self.positions = positions
@@ -130,7 +132,10 @@ class MeanAblation:
 
     @contextmanager
     def applied(self, model: PreTrainedModel, adapter: ModelAdapter) -> Iterator[None]:
-        handles = [adapter.mlp(model, layer).down_proj.register_forward_pre_hook(self.replace(layer)) for layer in self.layers]
+        handles = [
+            writer_projection(adapter, model, self.writer, layer).register_forward_pre_hook(self.replace(layer))
+            for layer in self.layers
+        ]
         with hooks(handles):
             yield
 
