@@ -10,7 +10,7 @@ torch.manual_seed(0)
 
 
 def toy_split(per_emotion: int = 4, neutral: int = 8) -> StorySplit:
-    labels = [e for e in range(len(EMOTIONS)) for _ in range(per_emotion)] + [-1] * neutral
+    labels = torch.arange(len(EMOTIONS)).repeat_interleave(per_emotion).tolist() + [-1] * neutral
     return StorySplit(
         label=torch.tensor(labels),
         heldout=torch.zeros(len(labels), dtype=torch.bool),

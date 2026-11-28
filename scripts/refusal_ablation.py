@@ -18,7 +18,7 @@ from safetensors.torch import load_file, save_file
 
 from emotion_neurons.ablation import MeanAblation, load_poles
 from emotion_neurons.config import RefusalAblationRunConfig, load_run_config
-from emotion_neurons.datasets import example_set
+from emotion_neurons.datasets import example_set, input_ids_per_category, render_split
 from emotion_neurons.models import adapter_for
 from emotion_neurons.refusal_ablation import (
     Condition,
@@ -38,15 +38,8 @@ def main():
     adapter = adapter_for(cfg.model)
     model, tokenizer = adapter.load(cfg.device)
     prompts = example_set(cfg.data)
-    examples = prompts.examples()
-    train = {
-        c: [prompts.render(e, tokenizer, adapter) for e in examples if e.category == c and e.split == "train"]
-        for c in prompts.categories
-    }
-    val = {
-        c: [prompts.render(e, tokenizer, adapter).input_ids for e in examples if e.category == c and e.split == "val"]
-        for c in prompts.categories
-    }
+    train = render_split(prompts, "train", tokenizer, adapter)
+    val = input_ids_per_category(render_split(prompts, "val", tokenizer, adapter))
     other = next(c for c in prompts.categories if c != cfg.target)
     phrases = cfg.refusal_check.refusal_phrases
     run = dict(train=train, val=val, layer=cfg.layer, position=cfg.position, batch_size=cfg.batch_size, g=cfg.refusal_check)

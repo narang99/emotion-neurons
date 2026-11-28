@@ -12,8 +12,8 @@ Everything built in this repo before the cleanup of 2026-11-23 is on the branch 
 - Model adapters (`models/`): Qwen3 and other native models; Qwen-1 7B Chat converted to Qwen2.
 - Datasets (`datasets/`): emotion stories and benchmark instructions as categories of examples.
 - Difference of means (`vectors/diff_means.py`), neutral-PC denoising (`vectors/denoise.py`).
-- Emotion vectors at one layer: `scripts/extract.py`, `scripts/build_vectors.py`, `capture/`, `vectors/`.
-- The Arditi et al. direction: selection, ablation, addition, generation check (`directions.py`, `scripts/direction.py`).
+- Emotion vectors at one layer: `scripts/extract.py`, `extraction/`, `capture/`, `vectors/`.
+- The Arditi et al. direction: selection, ablation, addition, generation check (`directions.py`, `extraction/`, `scripts/extract.py`).
 - Neuron poles, p3 and p97 over general text (`poles.py`, `scripts/poles.py`).
 
 ## Only on archive
