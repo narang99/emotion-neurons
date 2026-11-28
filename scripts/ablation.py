@@ -39,7 +39,7 @@ def main():
     model, tokenizer = adapter.load(cfg.device)
     n_layers = model.config.num_hidden_layers
     poles = load_poles(cfg.thresholds, cfg.low, cfg.high, model.device)
-    ablations = [MeanAblation(poles, a.kind, a.layers(n_layers)) for a in cfg.ablations]
+    ablations = [MeanAblation(poles, a.kind, a.layers(n_layers), a.positions) for a in cfg.ablations]
     names = [a.name(n_layers) for a in cfg.ablations]
 
     windows = collect_windows(cfg.text, tokenizer)

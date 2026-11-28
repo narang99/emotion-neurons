@@ -312,6 +312,26 @@ class ExtractionRunConfig(RunConfig):
         return self.data
 
 
+class AllPositions(Section):
+    """Every position of a row may be ablated."""
+
+    kind: Literal["all"] = "all"
+
+
+class SkipFirst(Section):
+    """The first `count` positions of each row stay intact.
+
+    - The poles leave these positions out (`TextSample.skip_first`), so their thresholds and means do not fit there.
+    - Position 0 is the attention sink: a change there reaches every later position through attention.
+    """
+
+    kind: Literal["skip_first"] = "skip_first"
+    count: int = 4
+
+
+PositionsConfig = Annotated[AllPositions | SkipFirst, Field(discriminator="kind")]
+
+
 class Ablation(Section):
     """Mean ablation of the MLP neurons of layers `start` to `stop` (exclusive) (`ablation`)."""
 
@@ -321,13 +341,19 @@ class Ablation(Section):
     )
     start: int = 0
     stop: int | None = Field(None, description="None: up to the last layer")
+    positions: PositionsConfig = Field(AllPositions(), description="the positions of each row that may be ablated")
 
     def layers(self, n_layers: int) -> list[int]:
         return list(range(self.start, n_layers if self.stop is None else self.stop))
 
     def name(self, n_layers: int) -> str:
         layers = self.layers(n_layers)
-        return f"{self.kind} L{layers[0]}-{layers[-1]}"
+        name = f"{self.kind} L{layers[0]}-{layers[-1]}"
+        match self.positions:
+            case AllPositions():
+                return name
+            case SkipFirst(count=count):
+                return f"{name} skip{count}"
 
 
 class AblationRunConfig(RunConfig):
