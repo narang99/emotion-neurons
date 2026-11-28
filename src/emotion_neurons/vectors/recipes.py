@@ -37,6 +37,11 @@ def emotion_means(
     return category_means(x, split.label, len(EMOTIONS), among)
 
 
+def add_baseline(tensors: dict[str, Tensor], key: str, v: Float[Tensor, "emotion dim"], pcs: Float[Tensor, "k dim"]) -> None:
+    tensors[f"{key}/raw"] = v
+    tensors[f"{key}/denoised"] = remove(v, pcs)
+
+
 def mean_contrast(means: StoryMeans, split: StorySplit, cfg: VectorsConfig) -> tuple[EmotionVectors, dict[Site, DenoiseInfo]]:
     """The emotions paper's recipe, on the train stories.
 
@@ -51,9 +56,8 @@ def mean_contrast(means: StoryMeans, split: StorySplit, cfg: VectorsConfig) -> t
         mu = emotion_means(x, split, split.train)
         grand, neutral = mu.mean(0), x[neutral_train].mean(0)
         pcs, explained = neutral_pcs(x[neutral_train], cfg.denoise_variance)
-        for baseline, v in (("mean", diff_of_means(mu, "all")), ("neutral", mu - neutral)):
-            tensors[f"{site}/{baseline}/raw"] = v
-            tensors[f"{site}/{baseline}/denoised"] = remove(v, pcs)
+        add_baseline(tensors, f"{site}/mean", diff_of_means(mu, "all"), pcs)
+        add_baseline(tensors, f"{site}/neutral", mu - neutral, pcs)
         tensors[f"{site}/neutral_pcs"] = pcs
         tensors[f"{site}/grand_mean"] = grand
         tensors[f"{site}/neutral_mean"] = neutral

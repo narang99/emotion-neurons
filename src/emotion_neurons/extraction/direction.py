@@ -20,7 +20,7 @@ from safetensors.torch import load_file, save_file
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
 from ..config import DirectionExtraction, ExtractionRunConfig
-from ..datasets import example_set
+from ..datasets import example_set, input_ids_per_category, render_split
 from ..directions import category_sums, generation_check, refusal_token_ids, select_direction
 from ..models import ModelAdapter, adapter_for
 from ..reports import build_direction_report, write_report
@@ -36,11 +36,7 @@ def target_and_other(cfg: ExtractionRunConfig) -> tuple[str, str]:
 def val_prompts(
     cfg: ExtractionRunConfig, tokenizer: PreTrainedTokenizerBase, adapter: ModelAdapter
 ) -> dict[str, list[list[int]]]:
-    examples_of = example_set(cfg.data)
-    examples = [e for e in examples_of.examples() if e.split == "val"]
-    return {
-        c: [examples_of.render(e, tokenizer, adapter).input_ids for e in examples if e.category == c] for c in cfg.data.categories
-    }
+    return input_ids_per_category(render_split(example_set(cfg.data), "val", tokenizer, adapter))
 
 
 class DirectionMethod:
@@ -99,10 +95,15 @@ class DirectionMethod:
         save_file({**tensors, "direction": vector.float().cpu().contiguous()}, str(self.cfg.result_dir / "direction.safetensors"))
         data = self.cfg.instructions
         summary = {
-            "model": self.cfg.model.name, "categories": list(data.categories), "target": self.cfg.direction.target,
-            "n_train": data.n_train, "n_val": data.n_val, "choice": choice,
-            "filtered_out_all": selection["filtered_out_all"], "grid": selection["grid"],
-        }  # fmt: skip
+            "model": self.cfg.model.name,
+            "categories": list(data.categories),
+            "target": self.cfg.direction.target,
+            "n_train": data.n_train,
+            "n_val": data.n_val,
+            "choice": choice,
+            "filtered_out_all": selection["filtered_out_all"],
+            "grid": selection["grid"],
+        }
         (self.cfg.result_dir / "direction.json").write_text(json.dumps(summary, indent=1))
         print(f"[saved] {self.cfg.result_dir}/direction.json", flush=True)
 
@@ -121,9 +122,9 @@ class DirectionMethod:
         print(f"[saved] {self.cfg.result_dir}/replies.json, refusal rates {summary['refusal_rates']}", flush=True)
 
     def tokens(self) -> None:
-        scores, values = direction_token_scores(self.cfg, *self.loaded, self.adapter)
-        save_token_scores(self.cfg.result_dir, scores, values)
-        print(f"[saved] {self.cfg.result_dir}/token_scores.*: {len(scores.texts)} texts, {values.shape[0]} tokens")
+        index, scores = direction_token_scores(self.cfg, *self.loaded, self.adapter)
+        save_token_scores(self.cfg.result_dir, index, scores)
+        print(f"[saved] {self.cfg.result_dir}/token_scores.*: {len(index.texts)} texts, {scores.shape[0]} tokens")
 
     def report(self) -> None:
         path = write_report("direction.html", build_direction_report(self.cfg), self.cfg.result_dir / "report.html")

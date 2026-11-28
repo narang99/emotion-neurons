@@ -66,9 +66,12 @@ def chart(title: str, series: dict[str, list[float]], random: dict[str, float]) 
         f'<text class="tick" x="{x(k):.1f}" y="{HEIGHT - BOTTOM + 18}" text-anchor="middle">{k}</text>'
         for k in range(0, layers, 4)
     )
+
+    def points(values: list[float]) -> str:
+        return " ".join(f"{x(k):.1f},{y(v):.1f}" for k, v in enumerate(values))
+
     lines = "".join(
-        f'<polyline class="line s{i}" points="{" ".join(f"{x(k):.1f},{y(v):.1f}" for k, v in enumerate(values))}"/>'
-        for i, values in enumerate(series.values(), start=1)
+        f'<polyline class="line s{i}" points="{points(values)}"/>' for i, values in enumerate(series.values(), start=1)
     )
     label_ys = dodged([y(values[-1]) + 4 for values in series.values()])
     labels = "".join(
@@ -95,14 +98,24 @@ def chart(title: str, series: dict[str, list[float]], random: dict[str, float]) 
 </figure>"""
 
 
+def metric_cells(by_band: dict[str, dict]) -> str:
+    """One cell per metric and band, metrics first."""
+    cells = ""
+    for fn in METRICS.values():
+        for ablation in by_band.values():
+            cells += f"<td>{fn(ablation):.3f}</td>"
+    return cells
+
+
 def table(rows: dict[str, list[dict]], randoms: dict[str, dict]) -> str:
-    head = "".join(f"<th>{band}: {metric}</th>" for metric in METRICS for band in rows)
+    head = ""
+    for metric in METRICS:
+        for band in rows:
+            head += f"<th>{band}: {metric}</th>"
     body = ""
     for k in range(len(next(iter(rows.values())))):
-        cells = "".join(f"<td>{fn(rows[band][k]):.3f}</td>" for fn in METRICS.values() for band in rows)
-        body += f"<tr><td>{k}</td>{cells}</tr>"
-    cells = "".join(f"<td>{fn(randoms[band]):.3f}</td>" for fn in METRICS.values() for band in rows)
-    body += f"<tr><td>random control, all layers</td>{cells}</tr>"
+        body += f"<tr><td>{k}</td>{metric_cells({band: rows[band][k] for band in rows})}</tr>"
+    body += f"<tr><td>random control, all layers</td>{metric_cells(randoms)}</tr>"
     return f'<details><summary>Values as a table</summary><div class="scroll"><table><tr><th>first ablated layer</th>{head}</tr>{body}</table></div></details>'
 
 
@@ -163,17 +176,21 @@ for (const fig of document.querySelectorAll(".chart")) {
 """
 
 
+def metric_chart(title: str, rows: dict[str, list[dict]], randoms: dict[str, dict]) -> str:
+    fn = METRICS[title]
+    series = {band: metric_values(fn, rows[band]) for band in rows}
+    random = {band: fn(randoms[band]) for band in rows} if title in WITH_RANDOM else {}
+    return chart(title, series, random)
+
+
+def metric_values(fn, ablations: list[dict]) -> list[float]:
+    return [fn(a) for a in ablations]
+
+
 def main():
     rows = {band: band_rows(*runs) for band, runs in BANDS.items()}
     randoms = {band: random_control(full) for band, (full, _) in BANDS.items()}
-    charts = "".join(
-        chart(
-            title,
-            {band: [fn(r) for r in rows[band]] for band in rows},
-            {band: fn(randoms[band]) for band in rows} if title in WITH_RANDOM else {},
-        )
-        for title, fn in METRICS.items()
-    )
+    charts = "".join(metric_chart(title, rows, randoms) for title in METRICS)
     legend = "".join(f'<span><i style="background:var(--series-{i})"></i>{band}</span>' for i, band in enumerate(rows, start=1))
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">

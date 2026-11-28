@@ -28,6 +28,20 @@ def series_of(conditions: list[dict], metric) -> dict[tuple[str, str], list[tupl
     return {k: sorted(v) for k, v in out.items()}
 
 
+def values_of(series: dict[tuple[str, str], list[tuple[int, float]]]) -> list[float]:
+    values = []
+    for points in series.values():
+        values += [v for _, v in points]
+    return values
+
+
+def starts_of(series: dict[tuple[str, str], list[tuple[int, float]]]) -> list[int]:
+    starts: set[int] = set()
+    for points in series.values():
+        starts.update(k for k, _ in points)
+    return sorted(starts)
+
+
 def axis_range(values: list[float]) -> tuple[float, float, float]:
     """(bottom, top, step): four or fewer gridline steps that cover the values, from a step multiple below them."""
     low, high = min(values), max(values)
@@ -56,7 +70,7 @@ def chart(
     fixed: tuple[float, float, float] | None = None,
 ) -> str:
     bands = sorted({band for band, _ in series})
-    values = [v for points in series.values() for _, v in points] + list(references.values())
+    values = values_of(series) + list(references.values())
     bottom, top, step = fixed or axis_range(values)
     x = lambda k: LEFT + k * (WIDTH - LEFT - RIGHT) / last_layer  # noqa: E731
     y = lambda v: TOP + (1 - (v - bottom) / (top - bottom)) * (HEIGHT - TOP - BOTTOM)  # noqa: E731
@@ -66,7 +80,7 @@ def chart(
         f'<text class="tick" x="{LEFT - 8}" y="{y(v) + 4:.1f}" text-anchor="end">{v:g}</text>'
         for v in ticks
     )
-    starts = sorted({k for points in series.values() for k, _ in points})
+    starts = starts_of(series)
     xticks = "".join(
         f'<text class="tick" x="{x(k):.1f}" y="{HEIGHT - BOTTOM + 18}" text-anchor="middle">{k}</text>' for k in starts
     )

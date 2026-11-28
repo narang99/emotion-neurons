@@ -26,11 +26,15 @@ def category_means(
     return torch.stack([x[mask].mean(0) for mask in masks])
 
 
+def mean_of_others(means: CategoryMeans, left_out: int) -> Tensor:
+    others = [i for i in range(means.shape[0]) if i != left_out]
+    return means[others].mean(0)
+
+
 def diff_of_means(means: CategoryMeans, against: Against) -> CategoryMeans:
     """The direction of every category at once, in the order of `means`."""
     n = means.shape[0]
     assert n >= 2, "a difference of means needs at least two categories"
     if against == "all":
         return means - means.mean(0)
-    others = [[j for j in range(n) if j != i] for i in range(n)]
-    return means - torch.stack([means[o].mean(0) for o in others])
+    return means - torch.stack([mean_of_others(means, i) for i in range(n)])

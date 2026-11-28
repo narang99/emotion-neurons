@@ -8,10 +8,11 @@
 - Direction: every val prompt, followed by its saved plain reply, projected onto the unit direction at its layer's input.
   - Plain replies only: the ablated and added runs change the stream, so their tokens would need those hooks too.
 - Layout: one flat score array for all texts, and one `TokenText` entry per text that says where its rows are.
-  - `values` [token, series]: the texts' tokens one after another, a row per token, a column per series.
-  - A text's rows are `values[start : start + len(tokens)]`, in token order (`reports.token_views.scores_of`).
+  - `scores` [token, probe]: the texts' tokens one after another, a row per token, a column per probe.
+  - A probe is one vector a token is scored against, as in the emotions paper.
+  - A text's rows are `scores[start : start + len(tokens)]`, in token order (`reports.token_views.scores_of`).
   - `start` is the running token count of the texts before it, so the entries tile the array with no gaps.
-- Saved as results/<run_id>/token_scores.json (the entries) and token_scores.safetensors (`values` as `scores`, fp16).
+- Saved as results/<run_id>/token_scores.json (the entries) and token_scores.safetensors (`scores`, fp16).
 """
 
 import json
@@ -31,7 +32,8 @@ from .emotions import EMOTIONS
 from .models import ModelAdapter, read_layer, read_resid_pre
 from .texts import load_stories
 
-Scores = Float[Tensor, "token series"]
+Scores = Float[Tensor, "token probe"]
+StoryScores = Float[Tensor, "story probe"]
 
 
 class TokenText(BaseModel):
@@ -48,8 +50,10 @@ class TokenText(BaseModel):
     """Prompts with their replies only: the index of the first reply token within `tokens`, where the prompt ends."""
 
 
-class TokenScores(BaseModel):
-    series: list[str]
+class ScoreIndex(BaseModel):
+    """Which rows of a flat `Scores` tensor belong to which text. It holds no scores."""
+
+    probes: list[str]
     """The columns of the score array: the 12 emotions, or a single `projection` for a direction."""
     texts: list[TokenText]
 
@@ -69,7 +73,14 @@ def site_activations(model, layer: int, ids: Tensor, mask: Tensor, site: str) ->
 
 def story_token_scores(
     cfg: ExtractionRunConfig, model: PreTrainedModel, tokenizer: PreTrainedTokenizerBase
-) -> tuple[TokenScores, Scores]:
+) -> tuple[ScoreIndex, Scores]:
+    """Every token of the held-out stories against the 12 emotion vectors.
+
+    - Returns `(index, scores)`.
+    - `scores` is one flat [total_tokens, 12] tensor, a column per emotion in `index.probes`.
+    - `index.texts` has one `TokenText` per story, with its own tokens and `start`.
+      - A story's rows are `scores[start : start + len(tokens)]`.
+    """
     tokens = cfg.emotion_vectors.tokens
     site = tokens.site
     saved = load_file(str(cfg.result_dir / "vectors.safetensors"))
@@ -86,12 +97,20 @@ def story_token_scores(
             texts.append(TokenText(id=story.id, label=story.emotion, tokens=token_strings(tokenizer, story_ids), start=start))
             start += len(story_ids)
         print(f"[tokens] {min(b + tokens.batch_size, len(stories))} of {len(stories)} stories", flush=True)
-    return TokenScores(series=list(EMOTIONS), texts=texts), torch.cat(rows)
+    return ScoreIndex(probes=list(EMOTIONS), texts=texts), torch.cat(rows)
 
 
 def direction_token_scores(
     cfg: ExtractionRunConfig, model: PreTrainedModel, tokenizer: PreTrainedTokenizerBase, adapter: ModelAdapter
-) -> tuple[TokenScores, Scores]:
+) -> tuple[ScoreIndex, Scores]:
+    """Every token of the val prompts and their plain replies, projected onto the direction.
+
+    - Returns `(index, scores)`.
+    - `scores` is one flat [total_tokens, 1] tensor. Its one probe is `projection`.
+    - `index.texts` has one `TokenText` per prompt, with its own tokens, `start` and `marker`.
+      - A prompt's rows are `scores[start : start + len(tokens)]`.
+      - `marker` is where the reply begins within those rows.
+    """
     tokens = cfg.direction.tokens
     choice = json.loads((cfg.result_dir / "direction.json").read_text())["choice"]
     replies = json.loads((cfg.result_dir / "replies.json").read_text())
@@ -118,19 +137,19 @@ def direction_token_scores(
             )
             start += len(full)
         print(f"[tokens] {min(b + tokens.batch_size, len(items))} of {len(items)} prompts", flush=True)
-    return TokenScores(series=["projection"], texts=texts), torch.cat(rows)
+    return ScoreIndex(probes=["projection"], texts=texts), torch.cat(rows)
 
 
-def save_token_scores(result_dir: Path, scores: TokenScores, values: Scores) -> None:
-    assert values.shape == (sum(len(t.tokens) for t in scores.texts), len(scores.series)), "scores do not match the texts"
-    assert torch.isfinite(values).all(), "non-finite token scores"
-    (result_dir / "token_scores.json").write_text(scores.model_dump_json())
-    save_file({"scores": values.half().contiguous()}, str(result_dir / "token_scores.safetensors"))
+def save_token_scores(result_dir: Path, index: ScoreIndex, scores: Scores) -> None:
+    assert scores.shape == (sum(len(t.tokens) for t in index.texts), len(index.probes)), "scores do not match the texts"
+    assert torch.isfinite(scores).all(), "non-finite token scores"
+    (result_dir / "token_scores.json").write_text(index.model_dump_json())
+    save_file({"scores": scores.half().contiguous()}, str(result_dir / "token_scores.safetensors"))
 
 
-def load_token_scores(result_dir: Path) -> tuple[TokenScores, Scores] | None:
+def load_token_scores(result_dir: Path) -> tuple[ScoreIndex, Scores] | None:
     """None if this run has no token scores yet."""
     if not (result_dir / "token_scores.json").exists():
         return None
-    scores = TokenScores.model_validate_json((result_dir / "token_scores.json").read_text())
-    return scores, load_file(str(result_dir / "token_scores.safetensors"))["scores"].float()
+    index = ScoreIndex.model_validate_json((result_dir / "token_scores.json").read_text())
+    return index, load_file(str(result_dir / "token_scores.safetensors"))["scores"].float()

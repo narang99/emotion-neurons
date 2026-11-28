@@ -14,8 +14,8 @@ bash scripts/fetch_runs.sh    # runs/stage2_l25: pooled story sums, 263 MB, publ
 ## Emotion vectors (Qwen3-8B, layer 25)
 
 ```
-python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml                                     # GPU, about 10 min
-python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml --steps build,check --device cpu  # CPU, seconds
+python scripts/extract.py --config experiments/00-vector-extraction/emotion_vectors_qwen3.yaml                                     # GPU, about 10 min
+python scripts/extract.py --config experiments/00-vector-extraction/emotion_vectors_qwen3.yaml --steps build,check --device cpu  # CPU, seconds
 ```
 
 - An extraction config has two unions on `kind`: `data` (`stories` or `instructions`) and `extraction` (`emotion_vectors` or `direction`).
@@ -66,7 +66,7 @@ python scripts/poles.py --config configs/poles.yaml   # GPU, about 10 min
 The last two steps of every extraction make the report. `extract.py` runs them by default.
 
 ```
-python scripts/extract.py --config experiments/00-vector-extraction/stage2_l25.yaml --steps tokens,report      # GPU, about 1 min
+python scripts/extract.py --config experiments/00-vector-extraction/emotion_vectors_qwen3.yaml --steps tokens,report      # GPU, about 1 min
 python scripts/extract.py --config experiments/00-vector-extraction/refusal_qwen1.yaml --steps report --device cpu  # CPU, seconds
 ```
 

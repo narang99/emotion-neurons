@@ -29,12 +29,20 @@ def qwen2_config(q1: dict) -> Qwen2Config:
     assert heads * q1["kv_channels"] == hidden, "Qwen-1 head size must equal hidden / heads"
     assert q1.get("rotary_pct", 1.0) == 1.0, "partial rotary embeddings are not mapped"
     return Qwen2Config(
-        vocab_size=q1["vocab_size"], hidden_size=hidden, intermediate_size=q1["intermediate_size"] // 2,
-        num_hidden_layers=q1["num_hidden_layers"], num_attention_heads=heads, num_key_value_heads=heads,
-        hidden_act="silu", rms_norm_eps=q1["layer_norm_epsilon"], max_position_embeddings=q1["seq_length"],
+        vocab_size=q1["vocab_size"],
+        hidden_size=hidden,
+        intermediate_size=q1["intermediate_size"] // 2,
+        num_hidden_layers=q1["num_hidden_layers"],
+        num_attention_heads=heads,
+        num_key_value_heads=heads,
+        hidden_act="silu",
+        rms_norm_eps=q1["layer_norm_epsilon"],
+        max_position_embeddings=q1["seq_length"],
         rope_parameters={"rope_type": "default", "rope_theta": float(q1["rotary_emb_base"])},
-        tie_word_embeddings=False, use_sliding_window=False, attention_dropout=0.0,
-    )  # fmt: skip
+        tie_word_embeddings=False,
+        use_sliding_window=False,
+        attention_dropout=0.0,
+    )
 
 
 def qwen2_tensors(name: str, tensor: Tensor) -> dict[str, Tensor]:
@@ -53,10 +61,13 @@ def qwen2_tensors(name: str, tensor: Tensor) -> dict[str, Tensor]:
         q, k, v = tensor.chunk(3, dim=0)
         return {f"{out}self_attn.q_proj.{kind}": q, f"{out}self_attn.k_proj.{kind}": k, f"{out}self_attn.v_proj.{kind}": v}
     simple = {
-        "attn.c_proj.weight": "self_attn.o_proj.weight", "ln_1.weight": "input_layernorm.weight",
-        "ln_2.weight": "post_attention_layernorm.weight", "mlp.w2.weight": "mlp.gate_proj.weight",
-        "mlp.w1.weight": "mlp.up_proj.weight", "mlp.c_proj.weight": "mlp.down_proj.weight",
-    }  # fmt: skip
+        "attn.c_proj.weight": "self_attn.o_proj.weight",
+        "ln_1.weight": "input_layernorm.weight",
+        "ln_2.weight": "post_attention_layernorm.weight",
+        "mlp.w2.weight": "mlp.gate_proj.weight",
+        "mlp.w1.weight": "mlp.up_proj.weight",
+        "mlp.c_proj.weight": "mlp.down_proj.weight",
+    }
     assert rest in simple, f"unmapped Qwen-1 tensor {name}"
     return {out + simple[rest]: tensor}
 

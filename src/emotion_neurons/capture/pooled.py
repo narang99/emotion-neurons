@@ -47,13 +47,18 @@ def pooled_position_sums(
 def pooled_range_sums(
     acts: dict[Site, Float[Tensor, "batch seq dim"]], masks: dict[str, Bool[Tensor, "batch seq"]]
 ) -> tuple[dict[str, Float[Tensor, "batch dim"]], Int[Tensor, "batch 2"]]:
-    sums = {
-        f"{site}/{name}": einsum(acts[site].float(), mask.float(), "batch seq dim, batch seq -> batch dim")
-        for site in HOOKED_SITES
-        for name, mask in masks.items()
-    }
     counts = torch.stack([masks[r].sum(1) for r in RANGES], 1)
-    return sums, counts
+    return sums_per_site_and_range(acts, masks), counts
+
+
+def sums_per_site_and_range(
+    acts: dict[Site, Float[Tensor, "batch seq dim"]], masks: dict[str, Bool[Tensor, "batch seq"]]
+) -> dict[str, Float[Tensor, "batch dim"]]:
+    sums = {}
+    for site in HOOKED_SITES:
+        for name, mask in masks.items():
+            sums[f"{site}/{name}"] = einsum(acts[site].float(), mask.float(), "batch seq dim, batch seq -> batch dim")
+    return sums
 
 
 def late_means(run_dir: Path) -> StoryMeans:

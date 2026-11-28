@@ -32,8 +32,24 @@ def read_instructions(url: str) -> tuple[str, ...]:
     return tuple(t for t in texts if t)
 
 
+def merged_instructions(urls: list[str]) -> list[str]:
+    """Sorted and de-duplicated, so that sampling does not depend on the order of the URLs."""
+    texts: set[str] = set()
+    for url in urls:
+        texts.update(read_instructions(url))
+    return sorted(texts)
+
+
 def post_instruction_length(tokenizer: PreTrainedTokenizerBase, adapter: ModelAdapter) -> int:
-    """How many tokens the chat template puts after the instruction."""
+    """How many tokens the chat template puts after the instruction.
+
+    For Qwen-1, the prompt around a stand-in instruction is:
+
+        <|im_start|>system\\n...<|im_end|>\\n<|im_start|>user\\nSENTINEL<|im_end|>\\n<|im_start|>assistant\\n
+
+    The text after SENTINEL is `<|im_end|>\\n<|im_start|>assistant\\n`.
+    It is 5 tokens, `<|im_end|>`, `\\n`, `<|im_start|>`, `assistant`, `\\n`, so the length is 5.
+    """
     prompt = adapter.chat_prompt(tokenizer, SENTINEL)
     suffix = prompt.split(SENTINEL, 1)[1]
     return len(tokenizer(suffix, add_special_tokens=False)["input_ids"])
@@ -52,7 +68,7 @@ class InstructionSet:
                 ("train", splits.train, self.cfg.n_train),
                 ("val", splits.val, self.cfg.n_val),
             ):
-                pool = sorted({t for url in urls for t in read_instructions(url)})
+                pool = merged_instructions(urls)
                 assert len(pool) >= n, f"{category}/{split}: {len(pool)} instructions, {n} wanted"
                 for i, text in enumerate(rng.sample(pool, n)):
                     out.append(Example(id=f"{category}-{split}-{i:03d}", category=category, split=split, text=text))

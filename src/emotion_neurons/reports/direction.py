@@ -17,6 +17,7 @@ from safetensors.torch import load_file
 
 from ..config import ExtractionRunConfig
 from ..datasets import InstructionSet
+from ..directions import is_refusal
 from ..token_scores import load_token_scores
 from .heatmap import Heatmap, heatmap
 from .token_views import TokenView, prompt_views
@@ -77,16 +78,46 @@ def selection_maps(summary: dict, max_kl: float) -> list[Heatmap]:
     }
     assert chosen <= cell, "the chosen candidate is not in the grid"
 
-    def values(key: str) -> list[list[float | None]]:
-        return [[at[(p, lay)][key] if (p, lay) in at else None for lay in layers] for p in positions]
+    def row(key: str, position: int) -> list[float | None]:
+        return [at[(position, lay)][key] if (position, lay) in at else None for lay in layers]
 
-    common = dict(row_labels=[str(p) for p in positions], col_labels=[str(lay) for lay in layers],
-                  row_title="position", col_title="layer", marked=chosen, excluded=excluded, show_values=False)  # fmt: skip
+    def values(key: str) -> list[list[float | None]]:
+        return [row(key, p) for p in positions]
+
+    common = dict(
+        row_labels=[str(p) for p in positions],
+        col_labels=[str(lay) for lay in layers],
+        row_title="position",
+        col_title="layer",
+        marked=chosen,
+        excluded=excluded,
+        show_values=False,
+    )
     return [
-        heatmap("bypass", values("bypass"), scale="diverging", caption="Refusal score of target prompts, candidate ablated. Lower is better.", **common),
-        heatmap("induce", values("induce"), scale="diverging", caption="Refusal score of other prompts, candidate added. Must be above 0.", **common),
-        heatmap("kl", values("kl"), scale="sequential", fmt=".3f", log=True, caption=f"Next-token KL of other prompts, candidate ablated. Must be below {max_kl}. Log colour scale.", **common),
-    ]  # fmt: skip
+        heatmap(
+            "bypass",
+            values("bypass"),
+            scale="diverging",
+            caption="Refusal score of target prompts, candidate ablated. Lower is better.",
+            **common,
+        ),
+        heatmap(
+            "induce",
+            values("induce"),
+            scale="diverging",
+            caption="Refusal score of other prompts, candidate added. Must be above 0.",
+            **common,
+        ),
+        heatmap(
+            "kl",
+            values("kl"),
+            scale="sequential",
+            fmt=".3f",
+            log=True,
+            caption=f"Next-token KL of other prompts, candidate ablated. Must be below {max_kl}. Log colour scale.",
+            **common,
+        ),
+    ]
 
 
 def vector_maps(tensors: dict[str, torch.Tensor], choice: dict) -> list[Heatmap]:
@@ -98,21 +129,43 @@ def vector_maps(tensors: dict[str, torch.Tensor], choice: dict) -> list[Heatmap]
     norms = diffs.norm(dim=-1)
     cosines = torch.nn.functional.cosine_similarity(diffs, chosen.expand_as(diffs), dim=-1)
     mark = {(positions.index(choice["position"]), choice["layer"])}
-    common = dict(row_labels=[str(p) for p in positions], col_labels=[str(lay) for lay in range(n_layers)],
-                  row_title="position", col_title="layer", marked=mark, show_values=False)  # fmt: skip
+    common = dict(
+        row_labels=[str(p) for p in positions],
+        col_labels=[str(lay) for lay in range(n_layers)],
+        row_title="position",
+        col_title="layer",
+        marked=mark,
+        show_values=False,
+    )
     return [
-        heatmap("norm", norms.tolist(), scale="sequential", fmt=".1f", caption="Norm of the difference of means at the layer's input.", **common),
-        heatmap("cosine with the chosen direction", cosines.tolist(), scale="diverging", caption="How far the chosen direction holds across layers and positions.", **common),
-    ]  # fmt: skip
+        heatmap(
+            "norm",
+            norms.tolist(),
+            scale="sequential",
+            fmt=".1f",
+            caption="Norm of the difference of means at the layer's input.",
+            **common,
+        ),
+        heatmap(
+            "cosine with the chosen direction",
+            cosines.tolist(),
+            scale="diverging",
+            caption="How far the chosen direction holds across layers and positions.",
+            **common,
+        ),
+    ]
 
 
-def is_refusal(reply: str, phrases: list[str]) -> bool:
-    return any(p.lower() in reply.lower() for p in phrases)
+def val_texts(cfg: ExtractionRunConfig) -> dict[str, list[str]]:
+    texts: dict[str, list[str]] = {category: [] for category in cfg.instructions.categories}
+    for example in InstructionSet(cfg.instructions).examples():
+        if example.split == "val":
+            texts[example.category].append(example.text)
+    return texts
 
 
 def reply_groups(cfg: ExtractionRunConfig, replies: dict[str, list[str]]) -> list[ReplyGroup]:
-    examples = InstructionSet(cfg.instructions).examples()
-    prompts = {c: [e.text for e in examples if e.split == "val" and e.category == c] for c in cfg.instructions.categories}
+    prompts = val_texts(cfg)
     groups = []
     for condition, texts in replies.items():
         category = condition.split("/")[0]
@@ -150,12 +203,18 @@ def build_direction_report(cfg: ExtractionRunConfig) -> DirectionReport:
     other = next(c for c in cfg.instructions.categories if c != target)
     return DirectionReport(
         title=f"Direction: {target} minus {other}, {cfg.model.name}",
-        model=cfg.model.name, run_id=cfg.run_id, target=target, other=other,
-        n_train=summary["n_train"], n_val=summary["n_val"], max_kl=max_kl,
-        choice=Choice(**summary["choice"]), filtered_out_all=summary["filtered_out_all"],
+        model=cfg.model.name,
+        run_id=cfg.run_id,
+        target=target,
+        other=other,
+        n_train=summary["n_train"],
+        n_val=summary["n_val"],
+        max_kl=max_kl,
+        choice=Choice(**summary["choice"]),
+        filtered_out_all=summary["filtered_out_all"],
         conditions=conditions(summary, target, other),
         grid_maps=selection_maps(summary, max_kl),
         vector_maps=vector_maps(tensors, summary["choice"]),
         replies=reply_groups(cfg, replies),
         token_views=token_views(cfg),
-    )  # fmt: skip
+    )

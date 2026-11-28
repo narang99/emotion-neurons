@@ -99,7 +99,12 @@ def category_sums(
     """{category: (sum [position, layer, d_model] fp64, count)} of resid_pre at the post-instruction positions."""
     layers = decoder_layers(model)
     store: dict[int, Tensor] = {}
-    handles = [b.register_forward_pre_hook(lambda m, a, k, i=i: store.__setitem__(i, (a[0] if a else k["hidden_states"]).detach()), with_kwargs=True) for i, b in enumerate(layers)]  # fmt: skip
+    handles = [
+        b.register_forward_pre_hook(
+            lambda m, a, k, i=i: store.__setitem__(i, (a[0] if a else k["hidden_states"]).detach()), with_kwargs=True
+        )
+        for i, b in enumerate(layers)
+    ]
     sums: dict[str, list] = {}
     rendered = [example_set.render(e, tokenizer, adapter) for e in examples]
     n_pos = len(rendered[0].positions)
@@ -183,14 +188,23 @@ def select_direction(
 def generate(model, tokenizer, rendered: list[list[int]], g: RefusalCheckConfig) -> list[str]:
     out = []
     for ids, mask, _ in batches(rendered, tokenizer.pad_token_id, g.batch_size, left=True):
-        gen = model.generate(input_ids=ids.to(model.device), attention_mask=mask.to(model.device), max_new_tokens=g.max_new_tokens,
-                             do_sample=False, pad_token_id=tokenizer.pad_token_id)  # fmt: skip
+        gen = model.generate(
+            input_ids=ids.to(model.device),
+            attention_mask=mask.to(model.device),
+            max_new_tokens=g.max_new_tokens,
+            do_sample=False,
+            pad_token_id=tokenizer.pad_token_id,
+        )
         out += [tokenizer.decode(row[ids.shape[1] :], skip_special_tokens=True) for row in gen]
     return out
 
 
+def is_refusal(reply: str, phrases: list[str]) -> bool:
+    return any(p.lower() in reply.lower() for p in phrases)
+
+
 def refusal_rate(replies: list[str], phrases: list[str]) -> float:
-    return sum(any(p.lower() in r.lower() for p in phrases) for r in replies) / max(1, len(replies))
+    return sum(is_refusal(r, phrases) for r in replies) / max(1, len(replies))
 
 
 def generation_check(
@@ -198,8 +212,12 @@ def generation_check(
 ) -> dict:
     unit = vector / vector.norm()
     # Hooks are made only when their condition runs: built up front, every hook would be active from the first run on.
-    runs = {f"{target}/plain": (val[target], lambda: []), f"{target}/ablated": (val[target], lambda: ablation_hooks(model, unit)),
-            f"{other}/plain": (val[other], lambda: []), f"{other}/added": (val[other], lambda: addition_hooks(model, layer, vector))}  # fmt: skip
+    runs = {
+        f"{target}/plain": (val[target], lambda: []),
+        f"{target}/ablated": (val[target], lambda: ablation_hooks(model, unit)),
+        f"{other}/plain": (val[other], lambda: []),
+        f"{other}/added": (val[other], lambda: addition_hooks(model, layer, vector)),
+    }
     result = {}
     for name, (prompts, make_hooks) in runs.items():
         with hooked(make_hooks()):
