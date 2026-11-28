@@ -1,0 +1,25 @@
+# The greedy sparsest set of last-token MLP neurons (layers 0-17) behind the refusal direction of Qwen-1 7B Chat
+# (layer 18 input, last post-instruction token, as chosen in refusal_qwen1), and the direction's val accuracy
+# (harmful vs harmless by cosine) once the first N neurons' parts are removed from it; random order as the control.
+#   python scripts/direction_sets.py --config experiments/refusal-sparse-set/refusal_sparse_set.yaml   # GPU, L4
+run_id: refusal_sparse_set
+results_dir: experiments/refusal-sparse-set
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+data:
+  kind: instructions
+  n_train: 128
+  n_val: 32
+  seed: 42
+  categories:
+    harmful:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmful_val.json"]
+    harmless:
+      train: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_train.json"]
+      val: ["https://raw.githubusercontent.com/andyrdt/refusal_direction/main/dataset/splits/harmless_val.json"]
+target: harmful
+layer: 18
+position: -1

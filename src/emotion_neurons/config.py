@@ -8,7 +8,8 @@
     - extraction: `emotion_vectors` (the emotions paper) or `direction` (the refusal paper's selection and checks);
   - `PolesRunConfig`: neuron poles (poles.py);
   - `AblationRunConfig`: loss and KL under mean ablation of the neurons between the poles (ablation.py);
-  - `RefusalAblationRunConfig`: the refusal direction with earlier MLPs mean-ablated (refusal_ablation.py).
+  - `RefusalAblationRunConfig`: the refusal direction with earlier MLPs mean-ablated (refusal_ablation.py);
+  - `DirectionSetRunConfig`: the sparsest neuron set behind a direction, and its accuracy without them (direction_sets.py).
 - Values come from two places, and the command line wins:
   - a YAML file given with `--config`, for the settings that distinguish one experiment from another, in git;
   - flags, for one-off changes on top of it, e.g. `--extract.batch-size 8`.
@@ -402,6 +403,46 @@ class RefusalAblationRunConfig(RunConfig):
     batch_size: int = 16
     refusal_check: RefusalCheckConfig = RefusalCheckConfig()
     mask_seed: int = 0
+
+
+class GreedyOrder(Section):
+    """Neurons in the order the greedy set adds them: the one that rebuilds the most of what is missing first."""
+
+    kind: Literal["greedy"] = "greedy"
+    max_steps: int = Field(50_000, description="greedy stops here if it has not stopped on its own")
+
+    @property
+    def name(self) -> str:
+        return "greedy"
+
+
+class RandomOrder(Section):
+    """Every neuron of the pool in a random order: the control."""
+
+    kind: Literal["random"] = "random"
+    seed: int = 0
+
+    @property
+    def name(self) -> str:
+        return f"random_seed{self.seed}"
+
+
+NeuronOrder = Annotated[GreedyOrder | RandomOrder, Field(discriminator="kind")]
+
+
+class DirectionSetRunConfig(RunConfig):
+    """The sparsest set of earlier MLP neurons behind a direction, and how it classifies without them (`direction_sets`)."""
+
+    data: InstructionsData
+    target: str = "harmful"
+    layer: int = Field(18, description="the direction is read at this layer's input; layers 0 to layer - 1 are the pool")
+    position: int = Field(-1, description="post-instruction position, counted from the end")
+    batch_size: int = 16
+    orders: list[NeuronOrder] = [GreedyOrder(), RandomOrder()]
+    sizes: list[int] = Field(
+        [1, 3, 10, 30, 100, 300, 1000, 3000, 10_000, 30_000, 100_000],
+        description="numbers of neurons removed, up to each order's length; 0 and the full length are added",
+    )
 
 
 Config = TypeVar("Config", bound=RunConfig)
