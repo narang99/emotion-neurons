@@ -38,7 +38,7 @@ def main():
     adapter = adapter_for(cfg.model)
     model, tokenizer = adapter.load(cfg.device)
     n_layers = model.config.num_hidden_layers
-    poles = load_poles(cfg.thresholds, cfg.low, cfg.high, model.device)
+    poles = load_poles(cfg.thresholds, cfg.low, cfg.high, model.device, cfg.replacement)
     ablations = [MeanAblation(poles, a.kind, a.layers(n_layers), a.positions) for a in cfg.ablations]
     names = [a.name(n_layers) for a in cfg.ablations]
 
@@ -68,6 +68,7 @@ def main():
         "model": cfg.model.name,
         "thresholds": str(cfg.thresholds),
         "band": [cfg.low, cfg.high],
+        "replacement": cfg.replacement,
         "ablations": [r.model_dump() for r in results],
     }
     (cfg.result_dir / "ablation.json").write_text(json.dumps(out, indent=1))

@@ -1,9 +1,10 @@
 """Mean ablation of MLP neurons, and what it does to the model's next-token predictions.
 
 - Band: at every token, a neuron of an ablated layer whose value lies strictly between its low and high pole
-  (e.g. p3 and p97 over general text, `poles`) gets its mean over that text instead. Only the tails stay.
+  (e.g. p3 and p97 over general text, `poles`) gets a fixed replacement value instead. Only the tails stay.
+  - The replacement is a stored tensor of the poles run: its mean over that text by default, or a quantile such as `p50`.
 - Random control: at every token, as many neurons as the band ablates there, chosen uniformly at random, get their
-  means. The count comes from the band test on this run's own activations.
+  replacement values. The count comes from the band test on this run's own activations.
 - Positions (`Ablation.positions`): every position may be ablated, or the first ones of each row stay intact.
   - The rule is applied before the random draw, so the control spares the same positions.
 - The hook replaces the input of each ablated layer's `down_proj` (the adapter's `mlp`), so the change reaches the
@@ -40,16 +41,16 @@ class Poles(NamedTuple):
     layers: list[int]
     low: Float[Tensor, "layer neuron"]
     high: Float[Tensor, "layer neuron"]
-    mean: Float[Tensor, "layer neuron"]
+    replacement: Float[Tensor, "layer neuron"]
 
     def row(self, layer: int) -> int:
         assert layer in self.layers, f"no poles for layer {layer}; the thresholds file has {self.layers}"
         return self.layers.index(layer)
 
 
-def load_poles(path: Path, low: str, high: str, device: str | torch.device) -> Poles:
+def load_poles(path: Path, low: str, high: str, device: str | torch.device, replacement: str = "mean") -> Poles:
     t = load_file(str(path), device=str(device))
-    return Poles(layers=t["layers"].tolist(), low=t[low], high=t[high], mean=t["mean"])
+    return Poles(layers=t["layers"].tolist(), low=t[low], high=t[high], replacement=t[replacement])
 
 
 def band_mask(a: Neurons, low: Float[Tensor, " neuron"], high: Float[Tensor, " neuron"]) -> NeuronMask:
@@ -98,7 +99,7 @@ class MeanAblation:
         return random_mask_like(mask) if self.kind == "random" else mask
 
     def replace(self, layer: int):
-        mean = self.poles.mean[self.poles.row(layer)]
+        replacement = self.poles.replacement[self.poles.row(layer)]
 
         def hook(_module, args):
             a = args[0]
@@ -107,7 +108,7 @@ class MeanAblation:
             )
             mask = self.mask(a, layer)
             self.count(layer, mask)
-            return (torch.where(mask, mean.to(a.dtype), a),)
+            return (torch.where(mask, replacement.to(a.dtype), a),)
 
         return hook
 

@@ -372,6 +372,7 @@ class AblationRunConfig(RunConfig):
     thresholds: Path = Field(description="poles.py output: the band's quantiles and `mean` for every ablated layer")
     low: str = "p3"
     high: str = "p97"
+    replacement: str = Field("mean", description="the stored tensor that in-band values get: `mean` or a quantile such as `p50`")
     text: TextSample = Field(description="held-out general text; skip the poles run's windows with `skip_tokens`")
     prompts: InstructionsData | None = Field(None, description="KL at the post-instruction positions of the val split")
     prompt_batch_size: int = 16
