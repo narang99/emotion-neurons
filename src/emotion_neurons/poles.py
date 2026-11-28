@@ -8,6 +8,7 @@
 
 - The first tokens of each window are left out, because attention-sink effects dominate there.
 - The mean is what mean ablation puts in place of a neuron's value (`ablation`).
+  - `PolesConfig.mean` chooses it: over all kept tokens, or over the values strictly inside a band of quantiles.
 """
 
 import torch
@@ -15,7 +16,7 @@ from jaxtyping import Float, Int
 from torch import Tensor
 from transformers import PreTrainedModel, PreTrainedTokenizerBase
 
-from .config import TextSample
+from .config import AllTokensMean, BandMean, PolesConfig, TextSample
 from .models import ModelAdapter
 from .models.qwen3 import StopForward, forward_until_stop, hooks
 from .texts import corpus_windows
@@ -86,6 +87,36 @@ def mean_per_neuron(acts: Float[Tensor, "token neuron"], device: str | torch.dev
     for c in range(0, acts.shape[1], NEURON_CHUNK):
         out[c : c + NEURON_CHUNK] = acts[:, c : c + NEURON_CHUNK].to(device).float().mean(0).cpu()
     return out
+
+
+def band_mean_per_neuron(
+    acts: Float[Tensor, "token neuron"],
+    low: Float[Tensor, " neuron"],
+    high: Float[Tensor, " neuron"],
+    device: str | torch.device = "cpu",
+) -> Float[Tensor, " neuron"]:
+    """The mean of the values strictly between `low` and `high`: the same test as `ablation.band_mask`."""
+    out = torch.empty(acts.shape[1])
+    for c in range(0, acts.shape[1], NEURON_CHUNK):
+        chunk = acts[:, c : c + NEURON_CHUNK].to(device).float()
+        inside = (chunk > low[c : c + NEURON_CHUNK].to(device)) & (chunk < high[c : c + NEURON_CHUNK].to(device))
+        out[c : c + NEURON_CHUNK] = ((chunk * inside).sum(0) / inside.sum(0).clamp(min=1)).cpu()
+    return out
+
+
+def neuron_means(
+    acts: Float[Tensor, "token neuron"],
+    cfg: PolesConfig,
+    quantiles: Float[Tensor, "quantile neuron"],
+    device: str | torch.device = "cpu",
+) -> Float[Tensor, " neuron"]:
+    """`quantiles` holds one row per entry of `cfg.quantiles`, from `quantiles_per_neuron`."""
+    match cfg.mean:
+        case AllTokensMean():
+            return mean_per_neuron(acts, device)
+        case BandMean(low=low, high=high):
+            row = cfg.quantiles.index
+            return band_mean_per_neuron(acts, quantiles[row(low)], quantiles[row(high)], device)
 
 
 def quantiles_per_neuron(

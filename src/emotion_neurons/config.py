@@ -130,10 +130,39 @@ class TextSample(Section):
     seed: int = 0
 
 
+class AllTokensMean(Section):
+    """The mean over every kept token, tails included. It fits an ablation that replaces every value."""
+
+    kind: Literal["all"] = "all"
+
+
+class BandMean(Section):
+    """The mean over the values strictly between quantiles `low` and `high`.
+
+    - It fits a band ablation, which replaces only those values and keeps the tails.
+    - The all-token mean would count the tails a second time and shift the neuron's mean output.
+    """
+
+    kind: Literal["band"] = "band"
+    low: float
+    high: float
+
+
+MeanConfig = Annotated[AllTokensMean | BandMean, Field(discriminator="kind")]
+
+
 class PolesConfig(TextSample):
     """The poles of a neuron: at or below its p3, or at or above its p97, over general text."""
 
     quantiles: list[float] = [0.03, 0.97]
+    mean: MeanConfig = Field(AllTokensMean(), description="what mean ablation puts in place of a neuron's value")
+
+    @model_validator(mode="after")
+    def band_mean_uses_quantiles(self) -> "PolesConfig":
+        match self.mean:
+            case BandMean(low=low, high=high):
+                assert {low, high} <= set(self.quantiles), f"band mean ({low}, {high}) needs both in quantiles {self.quantiles}"
+        return self
 
 
 class RunConfig(BaseSettings):
@@ -293,6 +322,26 @@ class ExtractionRunConfig(RunConfig):
         return self.data
 
 
+class AllPositions(Section):
+    """Every position of a row may be ablated."""
+
+    kind: Literal["all"] = "all"
+
+
+class SkipFirst(Section):
+    """The first `count` positions of each row stay intact.
+
+    - The poles leave these positions out (`TextSample.skip_first`), so their thresholds and means do not fit there.
+    - Position 0 is the attention sink: a change there reaches every later position through attention.
+    """
+
+    kind: Literal["skip_first"] = "skip_first"
+    count: int = 4
+
+
+PositionsConfig = Annotated[AllPositions | SkipFirst, Field(discriminator="kind")]
+
+
 class Ablation(Section):
     """Mean ablation of the MLP neurons of layers `start` to `stop` (exclusive) (`ablation`)."""
 
@@ -302,13 +351,19 @@ class Ablation(Section):
     )
     start: int = 0
     stop: int | None = Field(None, description="None: up to the last layer")
+    positions: PositionsConfig = Field(AllPositions(), description="the positions of each row that may be ablated")
 
     def layers(self, n_layers: int) -> list[int]:
         return list(range(self.start, n_layers if self.stop is None else self.stop))
 
     def name(self, n_layers: int) -> str:
         layers = self.layers(n_layers)
-        return f"{self.kind} L{layers[0]}-{layers[-1]}"
+        name = f"{self.kind} L{layers[0]}-{layers[-1]}"
+        match self.positions:
+            case AllPositions():
+                return name
+            case SkipFirst(count=count):
+                return f"{name} skip{count}"
 
 
 class AblationRunConfig(RunConfig):

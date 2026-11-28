@@ -16,7 +16,7 @@ from safetensors.torch import save_file
 
 from emotion_neurons.config import PolesRunConfig, load_run_config
 from emotion_neurons.models import adapter_for
-from emotion_neurons.poles import collect_windows, layer_activations, mean_per_neuron, quantiles_per_neuron
+from emotion_neurons.poles import collect_windows, layer_activations, neuron_means, quantiles_per_neuron
 
 torch.set_grad_enabled(False)
 
@@ -39,7 +39,7 @@ def main():
         q = quantiles_per_neuron(acts, cfg.poles.quantiles, model.device)
         for i, name in enumerate(names):
             per_layer[name].append(q[i])
-        per_layer["mean"].append(mean_per_neuron(acts, model.device))
+        per_layer["mean"].append(neuron_means(acts, cfg.poles, q, model.device))
         tokens = len(acts)
         print(f"[poles] layer {layer}: {q.shape[1]} neurons over {tokens} tokens, {time.time() - t0:.0f}s")
         del acts
@@ -47,7 +47,13 @@ def main():
     tensors = {name: torch.stack(rows).contiguous() for name, rows in per_layer.items()}
     tensors["layers"] = torch.tensor(cfg.layers)
     save_file(tensors, str(cfg.result_dir / "thresholds.safetensors"))
-    meta = {"model": cfg.model.name, "layers": cfg.layers, "tokens": tokens, "quantiles": dict(zip(names, cfg.poles.quantiles))}
+    meta = {
+        "model": cfg.model.name,
+        "layers": cfg.layers,
+        "tokens": tokens,
+        "quantiles": dict(zip(names, cfg.poles.quantiles)),
+        "mean": cfg.poles.mean.model_dump(),
+    }
     (cfg.result_dir / "meta.json").write_text(json.dumps(meta, indent=1))
     print(f"[saved] {cfg.result_dir}/thresholds.safetensors")
     print(f"[total] {time.time() - t0:.0f}s")
