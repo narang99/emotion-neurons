@@ -4,6 +4,8 @@
   (e.g. p3 and p97 over general text, `poles`) gets its mean over that text instead. Only the tails stay.
 - Random control: at every token, as many neurons as the band ablates there, chosen uniformly at random, get their
   means. The count comes from the band test on this run's own activations.
+- Positions (`Ablation.positions`): every position may be ablated, or the first ones of each row stay intact.
+  - The rule is applied before the random draw, so the control spares the same positions.
 - The hook replaces the input of each ablated layer's `down_proj` (the adapter's `mlp`), so the change reaches the
   residual stream through the down projection, as a real activation would.
 - Every layer's hook sees the activations that the ablations before it produce, as in the Goodfire paper.
@@ -26,6 +28,7 @@ from torch import Tensor
 from transformers import PreTrainedModel
 
 from .capture.batch import padded, position_mask
+from .config import AllPositions, PositionsConfig, SkipFirst
 from .models import ModelAdapter
 from .models.qwen3 import hooks
 
@@ -61,20 +64,37 @@ def random_mask_like(mask: NeuronMask) -> NeuronMask:
     return (draws <= kth) & (count > 0)
 
 
+def ablated_positions(positions: PositionsConfig, seq: int, device: torch.device) -> Bool[Tensor, " seq"]:
+    """Rows are right padded (`capture.batch.padded`), so index i is the i-th token of every row."""
+    match positions:
+        case AllPositions():
+            return torch.ones(seq, dtype=torch.bool, device=device)
+        case SkipFirst(count=count):
+            return torch.arange(seq, device=device) >= count
+
+
 class MeanAblation:
     """The hooks of one ablation, and the share of cells they ablated at real tokens."""
 
-    def __init__(self, poles: Poles, kind: Literal["band", "random"], layers: list[int]):
+    def __init__(
+        self,
+        poles: Poles,
+        kind: Literal["band", "random"],
+        layers: list[int],
+        positions: PositionsConfig = AllPositions(),
+    ):
         self.poles = poles
         self.kind = kind
         self.layers = layers
+        self.positions = positions
         self.tokens: Bool[Tensor, "batch seq"] | None = None
         self.ablated = {layer: 0 for layer in layers}
         self.cells = {layer: 0 for layer in layers}
 
     def mask(self, a: Neurons, layer: int) -> NeuronMask:
         row = self.poles.row(layer)
-        mask = band_mask(a, self.poles.low[row], self.poles.high[row])
+        allowed = ablated_positions(self.positions, a.shape[1], a.device)
+        mask = band_mask(a, self.poles.low[row], self.poles.high[row]) & allowed[:, None]
         return random_mask_like(mask) if self.kind == "random" else mask
 
     def replace(self, layer: int):
@@ -82,15 +102,21 @@ class MeanAblation:
 
         def hook(_module, args):
             a = args[0]
+            assert isinstance(self.positions, AllPositions) or self.counting(a), (
+                "positions are counted from the start of a full pass; a cached generation step would skip the wrong ones"
+            )
             mask = self.mask(a, layer)
             self.count(layer, mask)
             return (torch.where(mask, mean.to(a.dtype), a),)
 
         return hook
 
+    def counting(self, a: Neurons) -> bool:
+        """True while `tokens` holds the attention mask of this full pass; e.g. `model.generate` steps are not counted."""
+        return self.tokens is not None and self.tokens.shape == a.shape[:-1]
+
     def count(self, layer: int, mask: NeuronMask) -> None:
-        """Counts only while `tokens` holds the batch's attention mask; e.g. `model.generate` passes are not counted."""
-        if self.tokens is None or self.tokens.shape != mask.shape[:-1]:
+        if not self.counting(mask):
             return
         self.ablated[layer] += (mask & self.tokens[..., None]).sum()
         self.cells[layer] += self.tokens.sum() * mask.shape[-1]
