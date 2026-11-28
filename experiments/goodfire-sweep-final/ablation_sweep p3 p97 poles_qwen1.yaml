@@ -1,0 +1,31 @@
+# Band ablation with the in-band mean, from layer k to the last, for k = 0, 4, ..., 28 and 31; layers before k stay intact.
+# The model's normal input: no positions skipped in the poles, the ablation or the scoring. Random control at k = 0.
+#   python scripts/ablation.py --config experiments/goodfire-sweep-final/ablation_sweep p3 p97 poles_qwen1.yaml   # GPU, L4
+run_id: ablation_sweep p3 p97 poles_qwen1
+model:
+  family: qwen1
+  name: Qwen/Qwen-7B-Chat
+  revision: 93a65d34827a3cc269b727e67004743b723e2f83
+results_dir: experiments/goodfire-sweep-final
+thresholds: experiments/goodfire-sweep-final//thresholds.safetensors
+low: 
+high: 
+# Held out from the poles run: same corpora, seed and windows, past the 70k tokens per corpus that the poles read.
+text:
+  batch_size: 8
+  skip_first: 0
+  corpora:
+    - {name: fineweb-edu, path: HuggingFaceFW/fineweb-edu, config: sample-10BT, skip_tokens: 70000, tokens: 35000}
+    - {name: tinystories, path: roneneldan/TinyStories, skip_tokens: 70000, tokens: 35000}
+    - {name: ultrachat, path: HuggingFaceH4/ultrachat_200k, split: train_sft, field: messages, skip_tokens: 70000, tokens: 35000}
+ablations:
+  - {kind: random}
+  - {kind: band, start: 0}
+  - {kind: band, start: 4}
+  - {kind: band, start: 8}
+  - {kind: band, start: 12}
+  - {kind: band, start: 16}
+  - {kind: band, start: 20}
+  - {kind: band, start: 24}
+  - {kind: band, start: 28}
+  - {kind: band, start: 31}
